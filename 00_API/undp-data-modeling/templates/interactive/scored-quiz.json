@@ -1,0 +1,55 @@
+{
+  "template_id": "scored_quiz",
+  "content": {
+    "lesson": 4,
+    "intro": "This quiz covers all the lessons in this module. You must achieve 80% to pass. Good luck!",
+    "labels": {
+      "question": "Question",
+      "result": "Quiz Result",
+      "score": "Your score",
+      "passingScore": "Minimum passing score",
+      "startButton": "Start Quiz",
+      "nextButton": "Next",
+      "submitButton": "Submit",
+      "retryButton": "Replay",
+      "passed": "Passed",
+      "failed": "Not passed"
+    },
+    "passingScore": 0.8,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "Which two UNDP initiatives serve as a backdrop for the Sustainable Energy Academy?",
+        "options": [
+          {
+            "id": 1,
+            "value": "The Sustainable Energy Hub (SEH)"
+          },
+          {
+            "id": 2,
+            "value": "The Energy Moonshot"
+          },
+          {
+            "id": 3,
+            "value": "The SDG Integration Community of Practice"
+          },
+          {
+            "id": 4,
+            "value": "Climate Aggregation Platform"
+          }
+        ],
+        "solution": [1, 2]
+      }
+    ],
+    "messages": {
+      "correct": {
+        "title": "Correct",
+        "body": "There are two UNDP initiatives on this list that serve as the backdrop for the Sustainable Energy Academy: the Sustainable Energy Hub and the Energy Moonshot."
+      },
+      "wrong": {
+        "title": "False",
+        "body": "There are two UNDP initiatives on this list that serve as the backdrop for the Sustainable Energy Academy: the Sustainable Energy Hub and the Energy Moonshot."
+      }
+    }
+  }
+}
