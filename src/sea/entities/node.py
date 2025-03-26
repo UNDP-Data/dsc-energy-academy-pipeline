@@ -100,13 +100,7 @@ class Node(BaseModel):
             return None
         yield "|{} {} ({})".format("-" * level, self.type, self.name)
         if children := self.children:
-            children = sorted(
-                self.children,
-                key=lambda node: (
-                    node.model_dump().get("absoluteBoundingBox", {}).get("y", 0),
-                    node.model_dump().get("absoluteBoundingBox", {}).get("x", 0),
-                ),
-            )
+            children = self.sort_nodes(self.children)
             for child in children:
                 yield from child.walk(level + 1, depth=depth)
 
@@ -136,13 +130,7 @@ class Node(BaseModel):
         """
         if self.visible and (children := self.children):
             # sort the nodes to present in the righ-to-left, top-to-bottom manner
-            children = sorted(
-                self.children,
-                key=lambda node: (
-                    node.model_dump().get("absoluteBoundingBox", {}).get("y", 0),
-                    node.model_dump().get("absoluteBoundingBox", {}).get("x", 0),
-                ),
-            )
+            children = self.sort_nodes(self.children)
             for child in children:
                 if child.type == type and re.search(pattern, child.name):
                     yield child
@@ -178,3 +166,13 @@ class Node(BaseModel):
             return next(self.select_nodes(node, type, pattern, recursive))
         except StopIteration:
             return None
+
+    @staticmethod
+    def sort_nodes(nodes: list[Node]) -> list[Node]:
+        return sorted(
+            nodes,
+            key=lambda node: (
+                node.model_dump().get("absoluteBoundingBox", {}).get("y", 0),
+                node.model_dump().get("absoluteBoundingBox", {}).get("x", 0),
+            ),
+        )
