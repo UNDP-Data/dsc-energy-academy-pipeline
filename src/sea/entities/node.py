@@ -72,6 +72,44 @@ class Node(BaseModel):
         description="Descendant nodes if applicable.",
     )
 
+    def __str__(self):
+        """
+        Return a human-readable string representation of the Node as a tree-like structure.
+        """
+        return "\n".join(self.walk())
+
+    def walk(self, level: int = 0, depth: int = -1) -> Generator[str, None, None]:
+        """
+        Recursively walk the nodes to yield basic node information.
+
+        Parameters
+        ----------
+        level: int, default=0
+            Counter for the depth level.
+        depth: int, default=-1
+            Maximum depth level. If set to `-1`, no limit is applied.
+
+        Yields
+        ------
+        str
+            Basic node information as a string offset with dashes.
+        """
+        if not self.visible:
+            return None
+        elif level > depth and depth != -1:
+            return None
+        yield "|{} {} ({})".format("-" * level, self.type, self.name)
+        if children := self.children:
+            children = sorted(
+                self.children,
+                key=lambda node: (
+                    node.model_dump().get("absoluteBoundingBox", {}).get("y", 0),
+                    node.model_dump().get("absoluteBoundingBox", {}).get("x", 0),
+                ),
+            )
+            for child in children:
+                yield from child.walk(level + 1, depth=depth)
+
     def select_nodes(
         self,
         type: NODE_TYPE,
