@@ -139,7 +139,6 @@ class Node(BaseModel):
 
     def select_node(
         self,
-        node: Node,
         type: NODE_TYPE,
         pattern: str = ".+",
         recursive: bool = True,
@@ -163,7 +162,7 @@ class Node(BaseModel):
             The first matching node of a given type or None.
         """
         try:
-            return next(self.select_nodes(node, type, pattern, recursive))
+            return next(self.select_nodes(type, pattern, recursive))
         except StopIteration:
             return None
 
