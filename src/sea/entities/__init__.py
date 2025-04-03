@@ -4,4 +4,5 @@ Data entities (models) that define the basic objects to work with
 """
 
 from .document import *
+from .frames import *
 from .node import *
