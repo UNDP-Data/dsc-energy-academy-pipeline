@@ -2,6 +2,8 @@
 Reusable components used to create frame templates.
 """
 
+from typing import Literal
+
 from pydantic import BaseModel, Field
 
 from .node import Node
@@ -14,6 +16,7 @@ __all__ = [
     "Objective",
     "ObjectivesContent",
     "ConnectionContent",
+    "OverviewContent",
 ]
 
 
@@ -192,4 +195,76 @@ class ConnectionContent(BaseModel):
             intro=node.select_node("TEXT", "intro").characters,
             title=node.select_node("TEXT", "title").characters,
             cta=node.select_node("TEXT", "cta").characters,
+        )
+
+
+class LessonThumbnail(BaseModel):
+    """
+    Lesson thumbnail component for a list of lessons.
+    """
+
+    cta: str = Field(default="Go to the lesson")
+    # description: str
+    # sequence_id: str = Field(alias='lessonId')
+    image: Image
+    title: str
+    # type: str
+    progress: Literal["completed", "in_progress", "not_started"]
+
+    @classmethod
+    def from_node(cls, node: Node) -> "LessonThumbnail":
+        """
+        Create an LessonThumbnail instance from a Node object.
+
+        Parameters
+        ----------
+        node : Node
+            The Node object from which to extract content data.
+
+        Returns
+        -------
+        LessonThumbnail
+            An instance of the LessonThumbnail class populated with data from the node.
+        """
+        if node.select_node("RECTANGLE", "progress") is None:
+            progress = "not_started"
+        # elif ...:
+        #     progress = "in_progress"
+        else:
+            progress = "completed"
+        return cls(
+            title=node.select_node("TEXT", "title").characters,
+            image=Image.from_node(node.select_node("GROUP", "image")),
+            progress=progress,
+        )
+
+
+class OverviewContent(BaseModel):
+    """
+    Content component for a list of lessons.
+    """
+
+    title: str
+    lessons: list[LessonThumbnail]
+
+    @classmethod
+    def from_node(cls, node: Node) -> "OverviewContent":
+        """
+        Create an OverviewContent instance from a Node object.
+
+        Parameters
+        ----------
+        node : Node
+            The Node object from which to extract content data.
+
+        Returns
+        -------
+        OverviewContent
+            An instance of the OverviewContent class populated with data from the node.
+        """
+        return cls(
+            title=node.select_node("TEXT", "title").characters,
+            lessons=map(
+                LessonThumbnail.from_node, node.select_nodes("GROUP", "lessons")
+            ),
         )
