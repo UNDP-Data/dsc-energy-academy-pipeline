@@ -162,6 +162,10 @@ class ObjectivesContent(BaseModel):
 
 
 class ConnectionContent(BaseModel):
+    """
+    Generic connection content.
+    """
+
     image: Image
     intro: str
     title: str
