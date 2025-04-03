@@ -20,6 +20,7 @@ __all__ = [
     "OverviewContent",
     "KeyConceptsContent",
     "QuoteContent",
+    "OutroContent",
 ]
 
 
@@ -391,4 +392,81 @@ class QuoteContent(BaseModel):
         return cls(
             quote=node.select_node("TEXT", "quote").characters,
             author=node.select_node("TEXT", "author").characters,
+        )
+
+
+class NextBlock(BaseModel):
+    """
+    Next block component for chapter outro.
+    """
+
+    intro: str
+    title: str
+    cta: str
+    button_cta: str
+    image: Image
+    # next_block_id: str
+
+    @classmethod
+    def from_node(cls, node: Node) -> "NextBlock":
+        """
+        Create an NextBlock instance from a Node object.
+
+        Parameters
+        ----------
+        node : Node
+            The Node object from which to extract content data.
+
+        Returns
+        -------
+        NextBlock
+            An instance of the NextBlock class populated with data from the node.
+        """
+        return cls(
+            intro=node.select_node("TEXT", "intro").characters,
+            title=node.select_node("TEXT", "title").characters,
+            cta=node.select_node("TEXT", "cta").characters,
+            button_cta=node.select_node("TEXT", "buttonCta").characters,
+            image=Image.from_node(node.select_node("GROUP", "image")),
+        )
+
+
+class OutroContent(BaseModel):
+    """
+    Content component for chapter outro.
+    """
+
+    intro: str
+    title: str
+    subtitle: str
+    body: str
+    next_block: NextBlock
+
+    @classmethod
+    def from_node(cls, node: Node) -> "OutroContent":
+        """
+        Create an OutroContent instance from a Node object.
+
+        Parameters
+        ----------
+        node : Node
+            The Node object from which to extract content data.
+
+        Returns
+        -------
+        OutroContent
+            An instance of the OutroContent class populated with data from the node.
+        """
+        title = " ".join(
+            [
+                node.select_node("TEXT", "first_line").characters,
+                node.select_node("TEXT", "first_line").characters,
+            ]
+        )
+        return cls(
+            intro=node.select_node("TEXT", "intro").characters,
+            title=title,
+            subtitle=node.select_node("TEXT", "subtitle").characters,
+            body=node.select_node("TEXT", "body").characters,
+            next_block=NextBlock.from_node(node.select_node("GROUP", "quiz")),
         )
