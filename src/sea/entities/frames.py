@@ -14,6 +14,7 @@ from .components import (
     Intro,
     KeyConceptsContent,
     ObjectivesContent,
+    OutroContent,
     OverviewContent,
     QuoteContent,
     TextConent,
@@ -29,6 +30,7 @@ __all__ = [
     "KeyConcepts",
     "PhotoVertical",
     "QuoteLargeWithName",
+    "ChapterOutro",
 ]
 
 
@@ -308,4 +310,32 @@ class QuoteLargeWithName(Metadata):
         return cls(
             template_id="quote_large_with_name",
             content=QuoteContent.from_node(node),
+        )
+
+
+class ChapterOutro(Metadata):
+    """
+    Chapter outro frame.
+    """
+
+    content: OutroContent
+
+    @classmethod
+    def from_node(cls, node: Node) -> "ChapterOutro":
+        """
+        Create a ChapterOutro instance from a Node object.
+
+        Parameters
+        ----------
+        node : Node
+            The Node object from which to extract content data.
+
+        Returns
+        -------
+        ChapterOutro
+            An instance of the ChapterOutro class populated with data from the node.
+        """
+        return cls(
+            template_id="chapter_outro",
+            content=OutroContent.from_node(node),
         )
