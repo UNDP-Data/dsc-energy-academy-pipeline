@@ -10,10 +10,10 @@ from typing import Generator, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
 
-__all__ = ["NODE_TYPE", "Node"]
+__all__ = ["NodeType", "Node"]
 
 # As per https://www.figma.com/developers/api#node-types
-NODE_TYPE = Literal[
+NodeType = Literal[
     "DOCUMENT",
     "CANVAS",
     "FRAME",
@@ -60,7 +60,7 @@ class Node(BaseModel):
         default=True,
         description="Whether or not the node is visible on the canvas.",
     )
-    type: NODE_TYPE = Field(
+    type: NodeType = Field(
         description="The type of the node, refer to https://www.figma.com/developers/api#node-types for details."
     )
     rotation: float = Field(
@@ -106,7 +106,7 @@ class Node(BaseModel):
 
     def select_nodes(
         self,
-        type: NODE_TYPE,
+        type: NodeType,
         pattern: str = ".+",
         recursive: bool = True,
     ) -> Generator[Node, None, None]:
@@ -115,7 +115,7 @@ class Node(BaseModel):
 
         Parameters
         ----------
-        type : NODE_TYPE
+        type : NodeType
             Node type to filter.
         pattern : str, default=".+"
             Regex pattern to match against node names.
@@ -139,7 +139,7 @@ class Node(BaseModel):
 
     def select_node(
         self,
-        type: NODE_TYPE,
+        type: NodeType,
         pattern: str = ".+",
         recursive: bool = True,
     ) -> Node | None:
@@ -148,7 +148,7 @@ class Node(BaseModel):
 
         Parameters
         ----------
-        type : NODE_TYPE
+        type : NodeType
             Node type to filter.
         pattern : str, default=".+"
             Regex pattern to match against node names.
