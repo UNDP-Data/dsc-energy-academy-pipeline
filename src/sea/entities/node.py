@@ -96,7 +96,7 @@ class Node(BaseModel):
         """
         if not self.visible:
             return
-        elif level > depth and depth != -1:
+        if level > depth and depth != -1:
             return
         yield "|{} {} ({})".format("-" * level, self.type, self.name)
         if children := self.children:
