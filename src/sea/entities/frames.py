@@ -12,11 +12,18 @@ from .components import (
     Image,
     Intro,
     ObjectivesContent,
+    OverviewContent,
     TextConent,
 )
 from .node import Node
 
-__all__ = ["ModuleCover", "ModuleText", "LearningObjectives", "ConnectionNext"]
+__all__ = [
+    "ModuleCover",
+    "ModuleText",
+    "LearningObjectives",
+    "ConnectionNext",
+    "LessonOverview",
+]
 
 
 class Metadata(BaseModel):
@@ -53,7 +60,7 @@ class ModuleCover(Metadata):
         image_node = node.select_node("GROUP", "image")
         image = Image.from_node(image_node)
         # parse the into
-        module_node = node.select_node("GROUP", "module")
+        module_node = node.select_node("GROUP", "module|chapter")
         intro = Intro.from_node(module_node)
         # create the content
         content = CoverContent(
@@ -171,4 +178,32 @@ class ConnectionNext(Metadata):
         return cls(
             template_id="connection_next",
             content=ConnectionContent.from_node(node),
+        )
+
+
+class LessonOverview(Metadata):
+    """
+    Lesson overview frame.
+    """
+
+    content: OverviewContent
+
+    @classmethod
+    def from_node(cls, node: Node) -> "LessonOverview":
+        """
+        Create a LessonOverview instance from a Node object.
+
+        Parameters
+        ----------
+        node : Node
+            The Node object from which to extract content data.
+
+        Returns
+        -------
+        LessonOverview
+            An instance of the LessonOverview class populated with data from the node.
+        """
+        return cls(
+            template_id="connection_next",
+            content=OverviewContent.from_node(node),
         )
