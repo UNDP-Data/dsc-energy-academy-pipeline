@@ -168,6 +168,19 @@ class Node(BaseModel):
 
     @staticmethod
     def sort_nodes(nodes: list[Node]) -> list[Node]:
+        """
+        Sort nodes according their coordinates on the canvas.
+
+        Parameters
+        ----------
+        nodes : list[Node]
+            A list of nodes to sort.
+
+        Returns
+        -------
+        list[Node]
+            The sorted list of nodes.
+        """
         return sorted(
             nodes,
             key=lambda node: (
