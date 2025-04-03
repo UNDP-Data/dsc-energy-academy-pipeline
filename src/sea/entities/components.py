@@ -10,6 +10,7 @@ from .node import Node
 
 __all__ = [
     "Image",
+    "ImageContent",
     "Intro",
     "CoverContent",
     "TextConent",
@@ -17,6 +18,8 @@ __all__ = [
     "ObjectivesContent",
     "ConnectionContent",
     "OverviewContent",
+    "KeyConceptsContent",
+    "QuoteContent",
 ]
 
 
@@ -48,6 +51,31 @@ class Image(BaseModel):
             src=node.select_node("RECTANGLE").name,
             caption=node.select_node("TEXT").characters,
         )
+
+
+class ImageContent(BaseModel):
+    """
+    Image-only content
+    """
+
+    image: Image
+
+    @classmethod
+    def from_node(cls, node: Node) -> "Image":
+        """
+        Create an ImageContent instance from a Node object.
+
+        Parameters
+        ----------
+        node : Node
+            The Node object from which to extract image data.
+
+        Returns
+        -------
+        ImageContent
+            An instance of the ImageContent class populated with data from the node.
+        """
+        return cls(image=Image.from_node(node))
 
 
 class Intro(BaseModel):
@@ -85,7 +113,7 @@ class CoverContent(BaseModel):
     """
 
     image: Image
-    intro: Intro
+    intro: Intro | str
     title: str
     cta: str | None = Field(default="Scroll, tab or use your keyboard to move ahead")
 
@@ -267,4 +295,100 @@ class OverviewContent(BaseModel):
             lessons=map(
                 LessonThumbnail.from_node, node.select_nodes("GROUP", "lessons")
             ),
+        )
+
+
+class Concept(BaseModel):
+    """
+    Concept component for key concepts frame.
+    """
+
+    title: str
+    body: str
+    source: str | None
+
+    @classmethod
+    def from_node(cls, node: Node) -> "Concept":
+        """
+        Create an Concept instance from a Node object.
+
+        Parameters
+        ----------
+        node : Node
+            The Node object from which to extract content data.
+
+        Returns
+        -------
+        Concept
+            An instance of the Concept class populated with data from the node.
+        """
+        return cls(
+            title=node.select_node("TEXT", "title").characters,
+            body=node.select_node("TEXT", "body").characters,
+            # parse cta if it is available, otherwise, use None
+            source=(
+                source.characters
+                if (source := node.select_node("TEXT", "source")) is not None
+                else None
+            ),
+        )
+
+
+class KeyConceptsContent(BaseModel):
+    """
+    Content component for key concepts.
+    """
+
+    title: str
+    intro: str
+    concepts: list[Concept]
+
+    @classmethod
+    def from_node(cls, node: Node) -> "KeyConceptsContent":
+        """
+        Create an KeyConceptsContent instance from a Node object.
+
+        Parameters
+        ----------
+        node : Node
+            The Node object from which to extract content data.
+
+        Returns
+        -------
+        KeyConceptsContent
+            An instance of the KeyConceptsContent class populated with data from the node.
+        """
+        return cls(
+            title=node.select_node("TEXT", "title").characters,
+            intro=node.select_node("TEXT", "intro").characters,
+            concepts=map(Concept.from_node, node.select_nodes("GROUP", "concepts")),
+        )
+
+
+class QuoteContent(BaseModel):
+    """
+    Generic quote component.
+    """
+
+    quote: str
+    author: str
+
+    @classmethod
+    def from_node(cls, node: Node) -> "QuoteContent":
+        """
+        Create an QuoteContent instance from a Node object.
+
+        Parameters
+        ----------
+        node : Node
+            The Node object from which to extract content data.
+
+        Returns
+        -------
+        QuoteContent
+            An instance of the QuoteContent class populated with data from the node.
+        """
+        return cls(
+            quote=node.select_node("TEXT", "quote").characters,
+            author=node.select_node("TEXT", "author").characters,
         )
