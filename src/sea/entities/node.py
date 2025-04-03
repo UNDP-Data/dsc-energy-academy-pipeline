@@ -95,9 +95,9 @@ class Node(BaseModel):
             Basic node information as a string offset with dashes.
         """
         if not self.visible:
-            return None
+            return
         elif level > depth and depth != -1:
-            return None
+            return
         yield "|{} {} ({})".format("-" * level, self.type, self.name)
         if children := self.children:
             children = self.sort_nodes(self.children)
