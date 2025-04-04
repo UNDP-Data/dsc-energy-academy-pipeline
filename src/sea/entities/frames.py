@@ -22,16 +22,16 @@ __all__ = [
 ]
 
 
-class Metadata(BaseModel):
+class FrameBase(BaseModel):
     """
-    Base metadata class all frames inherit from.
+    Base class all frames inherit from.
     """
 
     id: str = Field(alias="template_id")
     colorscheme: Literal["light", "dark"] | None = Field(default=None)
 
 
-class Cover(Metadata):
+class Cover(FrameBase):
     """
     Cover frame for a module, chapter, lesson or lesson part.
     """
@@ -77,7 +77,7 @@ class Cover(Metadata):
         )
 
 
-class TextElement(Metadata):
+class TextElement(FrameBase):
     """
     Generic text element.
     """
@@ -105,7 +105,7 @@ class TextElement(Metadata):
         )
 
 
-class ModuleText(Metadata):
+class ModuleText(FrameBase):
     """
     Module text frame.
     """
@@ -134,7 +134,7 @@ class ModuleText(Metadata):
         )
 
 
-class LearningObjectives(Metadata):
+class LearningObjectives(FrameBase):
     """
     Learning objectives frame, also used for key takeaways.
     """
@@ -170,7 +170,7 @@ class LearningObjectives(Metadata):
         )
 
 
-class ConnectionNext(Metadata):
+class ConnectionNext(FrameBase):
     """
     Next connection frame.
     """
@@ -205,7 +205,7 @@ class ConnectionNext(Metadata):
         )
 
 
-class LessonOverview(Metadata):
+class LessonOverview(FrameBase):
     """
     Lesson overview frame.
     """
@@ -237,7 +237,7 @@ class LessonOverview(Metadata):
         )
 
 
-class KeyConcepts(Metadata):
+class KeyConcepts(FrameBase):
     """
     Key concepts frame.
     """
@@ -270,7 +270,7 @@ class KeyConcepts(Metadata):
         )
 
 
-class PhotoVertical(Metadata):
+class PhotoVertical(FrameBase):
     """
     Photo vertical frame.
     """
@@ -299,7 +299,7 @@ class PhotoVertical(Metadata):
         )
 
 
-class Quote(Metadata):
+class Quote(FrameBase):
     """
     Large quote with a name frame.
     """
@@ -330,7 +330,7 @@ class Quote(Metadata):
         )
 
 
-class Outro(Metadata):
+class Outro(FrameBase):
     """
     Outro frame for a module or chapter.
     """
