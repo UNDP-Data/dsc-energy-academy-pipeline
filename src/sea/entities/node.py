@@ -98,7 +98,7 @@ class Node(BaseModel):
             return
         if level > depth and depth != -1:
             return
-        yield "|{} {} ({})".format("-" * level, self.type, self.name)
+        yield f"|{'-' * level} {self.type} ({self.name})"
         if children := self.children:
             children = self.sort_nodes(self.children)
             for child in children:
