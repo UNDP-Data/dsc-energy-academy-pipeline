@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 
 from .node import Node
 
-__all__ = ["Image", "Intro", "Objective", "LessonThumbnail", "Concept"]
+__all__ = ["Image", "Intro", "Card", "LessonThumbnail", "Concept"]
 
 
 class Image(BaseModel):
@@ -70,9 +70,9 @@ class Intro(BaseModel):
         )
 
 
-class Objective(BaseModel):
+class Card(BaseModel):
     """
-    Learning objective component.
+    Card component used in learning objectives and key takeaways.
     """
 
     image: Image
@@ -80,9 +80,9 @@ class Objective(BaseModel):
     description: str
 
     @classmethod
-    def from_node(cls, node: Node) -> "Objective":
+    def from_node(cls, node: Node) -> "Card":
         """
-        Create an Objective instance from a Node object.
+        Create an Card instance from a Node object.
 
         Parameters
         ----------
@@ -91,8 +91,8 @@ class Objective(BaseModel):
 
         Returns
         -------
-        Objective
-            An instance of the Objective class populated with data from the node.
+        Card
+            An instance of the Card class populated with data from the node.
         """
         return cls(
             image=Image.from_node(node.select_node("GROUP", "image")),
