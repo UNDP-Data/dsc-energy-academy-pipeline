@@ -18,7 +18,7 @@ __all__ = [
     "KeyConcepts",
     "PhotoVertical",
     "Quote",
-    "ChapterOutro",
+    "Outro",
 ]
 
 
@@ -330,9 +330,9 @@ class Quote(Metadata):
         )
 
 
-class ChapterOutro(Metadata):
+class Outro(Metadata):
     """
-    Chapter outro frame.
+    Outro frame for a module or chapter.
     """
 
     intro: str
@@ -342,9 +342,9 @@ class ChapterOutro(Metadata):
     next_block: NextBlock
 
     @classmethod
-    def from_node(cls, node: Node) -> "ChapterOutro":
+    def from_node(cls, node: Node) -> "Outro":
         """
-        Create a ChapterOutro instance from a Node object.
+        Create a Outro instance from a Node object.
 
         Parameters
         ----------
@@ -353,9 +353,10 @@ class ChapterOutro(Metadata):
 
         Returns
         -------
-        ChapterOutro
-            An instance of the ChapterOutro class populated with data from the node.
+        Outro
+            An instance of the Outro class populated with data from the node.
         """
+        assert node.name.endswith("_outro"), f"Expected an outro node, not {node.name}"
         title = " ".join(
             [
                 node.select_node("TEXT", "first_line").characters,
@@ -363,7 +364,7 @@ class ChapterOutro(Metadata):
             ]
         )
         return cls(
-            template_id="chapter_outro",
+            template_id=node.name,
             intro=node.select_node("TEXT", "intro").characters,
             title=title,
             subtitle=node.select_node("TEXT", "subtitle").characters,
