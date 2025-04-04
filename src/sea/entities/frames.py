@@ -10,7 +10,7 @@ from .components import Concept, Image, Intro, LessonThumbnail, NextBlock, Objec
 from .node import Node
 
 __all__ = [
-    "ModuleCover",
+    "Cover",
     "ModuleText",
     "LearningObjectives",
     "ConnectionNext",
@@ -31,9 +31,9 @@ class Metadata(BaseModel):
     colorscheme: Literal["light", "dark"] | None = Field(default=None)
 
 
-class ModuleCover(Metadata):
+class Cover(Metadata):
     """
-    Module cover frame.
+    Cover frame for a module, chapter, lesson or lesson part.
     """
 
     image: Image
@@ -42,9 +42,9 @@ class ModuleCover(Metadata):
     cta: str | None = Field(default="Scroll, tab or use your keyboard to move ahead")
 
     @classmethod
-    def from_node(cls, node: Node) -> "ModuleCover":
+    def from_node(cls, node: Node) -> "Cover":
         """
-        Create a ModuleCover instance from a Node object.
+        Create a Cover instance from a Node object.
 
         Parameters
         ----------
@@ -53,9 +53,10 @@ class ModuleCover(Metadata):
 
         Returns
         -------
-        ModuleCover
-            An instance of the ModuleCover class populated with data from the node.
+        Cover
+            An instance of the Cover class populated with data from the node.
         """
+        assert node.name.endswith("_cover"), f"Expected a cover node, not {node.name}"
         # parse the intro
         if (module_node := node.select_node("GROUP", "module|chapter|lesson")) is None:
             # handle lesson_part_cover that uses a single string instead
@@ -63,7 +64,7 @@ class ModuleCover(Metadata):
         else:
             intro = Intro.from_node(module_node)
         return cls(
-            template_id="module_cover",
+            template_id=node.name,
             image=Image.from_node(node.select_node("GROUP", "image")),
             intro=intro,
             title=node.select_node("TEXT", "title").characters,
