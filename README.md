@@ -9,7 +9,7 @@
 A simple package to to process Figma designs and transform them into a standardised JSON format for the Sustainable Energy Academy.
 
 > [!WARNING]  
-> The package is currently under active development. Some features may be missing or not working as intended. Feel free to [open an issue](./issues).
+> The package is currently under active development. Some features may be missing or not working as intended. Feel free to [open an issue](https://github.com/UNDP-Data/dsc-energy-academy-pipeline/issues).
 
 ## Table of Contents
 
@@ -37,7 +37,7 @@ make install
 
 ## Usage
 
-See [`main.ipynb`](https://github.com/UNDP-Data/dsc-energy-academy-pipeline/blob/main/main.ipynb) which provides an brief introduction.
+See [`main.ipynb`](https://nbviewer.org/github/undp-data/dsc-energy-academy-pipeline/blob/main/main.ipynb) which provides an brief introduction.
 
 ## Contributing
 
