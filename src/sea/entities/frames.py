@@ -6,7 +6,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
-from .components import Concept, Image, Intro, LessonThumbnail, NextBlock, Objective
+from .components import Card, Concept, Image, Intro, LessonThumbnail, NextBlock
 from .node import Node
 
 __all__ = [
@@ -136,12 +136,12 @@ class ModuleText(Metadata):
 
 class LearningObjectives(Metadata):
     """
-    Learning objectives frame.
+    Learning objectives frame, also used for key takeaways.
     """
 
     title: str
     intro: str
-    objectives: list[Objective]
+    cards: list[Card]  # use a generic name instead of objectives or takeaways
 
     @classmethod
     def from_node(cls, node: Node) -> "LearningObjectives":
@@ -158,13 +158,15 @@ class LearningObjectives(Metadata):
         LearningObjectives
             An instance of the LearningObjectives class populated with data from the node.
         """
+        assert node.name in {
+            "learning_objectives",
+            "key_takeaways",
+        }, f"Node '{node.name}' is not supported"
         return cls(
-            template_id="learning_objectives",
+            template_id=node.name,
             title=node.select_node("TEXT", "title").characters,
             intro=node.select_node("TEXT", "intro").characters,
-            objectives=map(
-                Objective.from_node, node.select_nodes("GROUP", "objectives")
-            ),
+            cards=map(Card.from_node, node.select_nodes("GROUP", "objectives")),
         )
 
 
