@@ -76,9 +76,9 @@ class Node(BaseModel):
         """
         Return a human-readable string representation of the Node as a tree-like structure.
         """
-        return "\n".join(self.walk())
+        return "\n".join(self._walk())
 
-    def walk(self, level: int = 0, depth: int = -1) -> Generator[str, None, None]:
+    def _walk(self, level: int = 0, depth: int = -1) -> Generator[str, None, None]:
         """
         Recursively walk the nodes to yield basic node information.
 
@@ -102,7 +102,13 @@ class Node(BaseModel):
         if children := self.children:
             children = self.sort_nodes(self.children)
             for child in children:
-                yield from child.walk(level + 1, depth=depth)
+                yield from child._walk(level + 1, depth=depth)
+
+    def display(self, depth: int = -1) -> None:
+        """
+        Display the document structure in a tree-like format.
+        """
+        print("\n".join(self._walk(depth=depth)))
 
     def select_nodes(
         self,
