@@ -40,6 +40,7 @@ class Metadata(BaseModel):
     """
 
     id: str = Field(alias="template_id")
+    colorscheme: Literal["light", "dark"] | None = Field(default=None)
 
 
 class ModuleCover(Metadata):
@@ -119,7 +120,6 @@ class ModuleText(Metadata):
     Module text frame.
     """
 
-    colorscheme: Literal["light", "dark"]
     content: list[TextElement]
 
     @classmethod
@@ -230,7 +230,6 @@ class KeyConcepts(Metadata):
     Key concepts frame.
     """
 
-    colorscheme: Literal["light", "dark"]
     content: KeyConceptsContent
 
     @classmethod
@@ -260,7 +259,6 @@ class PhotoVertical(Metadata):
     Photo vertical frame.
     """
 
-    colorscheme: Literal["light", "dark"]
     content: ImageContent
 
     @classmethod
