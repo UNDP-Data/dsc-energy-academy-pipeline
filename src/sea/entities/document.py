@@ -35,7 +35,7 @@ class Document(Node):
         """
         endpoint = f"https://api.figma.com/v1/files/{key}"
         headers = {"X-Figma-Token": os.environ["FIGMA_API_KEY"]}
-        response = requests.get(endpoint, headers=headers)
+        response = requests.get(endpoint, headers=headers, timeout=30)
         response.raise_for_status()
         data = response.json()
         document = data.pop("document")
