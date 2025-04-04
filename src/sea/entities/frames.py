@@ -229,7 +229,7 @@ class LessonOverview(Metadata):
             An instance of the LessonOverview class populated with data from the node.
         """
         return cls(
-            template_id="connection_next",
+            template_id="list_of_lessons",
             title=node.select_node("TEXT", "title").characters,
             lessons=map(
                 LessonThumbnail.from_node, node.select_nodes("GROUP", "lessons")
