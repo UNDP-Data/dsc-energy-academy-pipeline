@@ -6,19 +6,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
-from .components import (
-    ConnectionContent,
-    CoverContent,
-    Image,
-    ImageContent,
-    Intro,
-    KeyConceptsContent,
-    ObjectivesContent,
-    OutroContent,
-    OverviewContent,
-    QuoteContent,
-    TextConent,
-)
+from .components import Concept, Image, Intro, LessonThumbnail, NextBlock, Objective
 from .node import Node
 
 __all__ = [
@@ -29,7 +17,7 @@ __all__ = [
     "LessonOverview",
     "KeyConcepts",
     "PhotoVertical",
-    "QuoteLargeWithName",
+    "Quote",
     "ChapterOutro",
 ]
 
@@ -48,7 +36,10 @@ class ModuleCover(Metadata):
     Module cover frame.
     """
 
-    content: CoverContent
+    image: Image
+    intro: Intro | str
+    title: str
+    cta: str | None = Field(default="Scroll, tab or use your keyboard to move ahead")
 
     @classmethod
     def from_node(cls, node: Node) -> "ModuleCover":
@@ -65,18 +56,15 @@ class ModuleCover(Metadata):
         ModuleCover
             An instance of the ModuleCover class populated with data from the node.
         """
-        # parse the image
-        image_node = node.select_node("GROUP", "image")
-        image = Image.from_node(image_node)
         # parse the intro
         if (module_node := node.select_node("GROUP", "module|chapter|lesson")) is None:
             # handle lesson_part_cover that uses a single string instead
             intro = node.select_node("TEXT", "intro").characters
         else:
             intro = Intro.from_node(module_node)
-        # create the content
-        content = CoverContent(
-            image=image,
+        return cls(
+            template_id="module_cover",
+            image=Image.from_node(node.select_node("GROUP", "image")),
             intro=intro,
             title=node.select_node("TEXT", "title").characters,
             # parse cta if it is available, otherwise, use None
@@ -86,7 +74,6 @@ class ModuleCover(Metadata):
                 else None
             ),
         )
-        return cls(template_id="module_cover", content=content)
 
 
 class TextElement(Metadata):
@@ -94,10 +81,10 @@ class TextElement(Metadata):
     Generic text element.
     """
 
-    content: TextConent
+    text: str
 
     @classmethod
-    def from_node(cls, node: Node) -> "Intro":
+    def from_node(cls, node: Node) -> "TextElement":
         """
         Create a TextElement instance from a Node object.
 
@@ -111,8 +98,10 @@ class TextElement(Metadata):
         TextElement
             An instance of the TextElement class populated with data from the node.
         """
-        content = TextConent(text=node.select_node("TEXT", "text").characters)
-        return cls(template_id=node.name, content=content)
+        return cls(
+            template_id=node.name,
+            text=node.select_node("TEXT", "text").characters,
+        )
 
 
 class ModuleText(Metadata):
@@ -137,8 +126,11 @@ class ModuleText(Metadata):
         ModuleText
             An instance of the ModuleText class populated with data from the node.
         """
-        content = list(map(TextElement.from_node, node.select_nodes("GROUP")))
-        return cls(template_id="text", colorscheme="dark", content=content)
+        return cls(
+            template_id="text",
+            colorscheme="dark",
+            content=map(TextElement.from_node, node.select_nodes("GROUP")),
+        )
 
 
 class LearningObjectives(Metadata):
@@ -146,7 +138,9 @@ class LearningObjectives(Metadata):
     Learning objectives frame.
     """
 
-    content: ObjectivesContent
+    title: str
+    intro: str
+    objectives: list[Objective]
 
     @classmethod
     def from_node(cls, node: Node) -> "LearningObjectives":
@@ -165,7 +159,11 @@ class LearningObjectives(Metadata):
         """
         return cls(
             template_id="learning_objectives",
-            content=ObjectivesContent.from_node(node),
+            title=node.select_node("TEXT", "title").characters,
+            intro=node.select_node("TEXT", "intro").characters,
+            objectives=map(
+                Objective.from_node, node.select_nodes("GROUP", "objectives")
+            ),
         )
 
 
@@ -174,7 +172,11 @@ class ConnectionNext(Metadata):
     Next connection frame.
     """
 
-    content: ConnectionContent
+    image: Image
+    intro: str
+    title: str
+    cta: str = Field(default="Start learning")
+    # next_lesson_id: str
 
     @classmethod
     def from_node(cls, node: Node) -> "ConnectionNext":
@@ -193,7 +195,10 @@ class ConnectionNext(Metadata):
         """
         return cls(
             template_id="connection_next",
-            content=ConnectionContent.from_node(node),
+            image=Image.from_node(node.select_node("GROUP", "image")),
+            intro=node.select_node("TEXT", "intro").characters,
+            title=node.select_node("TEXT", "title").characters,
+            cta=node.select_node("TEXT", "cta").characters,
         )
 
 
@@ -202,7 +207,8 @@ class LessonOverview(Metadata):
     Lesson overview frame.
     """
 
-    content: OverviewContent
+    title: str
+    lessons: list[LessonThumbnail]
 
     @classmethod
     def from_node(cls, node: Node) -> "LessonOverview":
@@ -221,7 +227,10 @@ class LessonOverview(Metadata):
         """
         return cls(
             template_id="connection_next",
-            content=OverviewContent.from_node(node),
+            title=node.select_node("TEXT", "title").characters,
+            lessons=map(
+                LessonThumbnail.from_node, node.select_nodes("GROUP", "lessons")
+            ),
         )
 
 
@@ -230,7 +239,9 @@ class KeyConcepts(Metadata):
     Key concepts frame.
     """
 
-    content: KeyConceptsContent
+    title: str
+    intro: str
+    concepts: list[Concept]
 
     @classmethod
     def from_node(cls, node: Node) -> "KeyConcepts":
@@ -250,7 +261,9 @@ class KeyConcepts(Metadata):
         return cls(
             template_id="key_concepts",
             colorscheme="dark",
-            content=KeyConceptsContent.from_node(node),
+            title=node.select_node("TEXT", "title").characters,
+            intro=node.select_node("TEXT", "intro").characters,
+            concepts=map(Concept.from_node, node.select_nodes("GROUP", "concepts")),
         )
 
 
@@ -259,7 +272,7 @@ class PhotoVertical(Metadata):
     Photo vertical frame.
     """
 
-    content: ImageContent
+    image: Image
 
     @classmethod
     def from_node(cls, node: Node) -> "PhotoVertical":
@@ -279,21 +292,22 @@ class PhotoVertical(Metadata):
         return cls(
             template_id="photo_vertical",
             colorscheme="light",
-            content=ImageContent.from_node(node),
+            image=Image.from_node(node),
         )
 
 
-class QuoteLargeWithName(Metadata):
+class Quote(Metadata):
     """
     Large quote with a name frame.
     """
 
-    content: QuoteContent
+    quote: str
+    author: str
 
     @classmethod
-    def from_node(cls, node: Node) -> "QuoteLargeWithName":
+    def from_node(cls, node: Node) -> "Quote":
         """
-        Create a QuoteLargeWithName instance from a Node object.
+        Create a Quote instance from a Node object.
 
         Parameters
         ----------
@@ -302,12 +316,14 @@ class QuoteLargeWithName(Metadata):
 
         Returns
         -------
-        QuoteLargeWithName
-            An instance of the QuoteLargeWithName class populated with data from the node.
+        Quote
+            An instance of the Quote class populated with data from the node.
         """
+        assert node.name.startswith("quote_"), f"Expected a quote node, not {node.name}"
         return cls(
-            template_id="quote_large_with_name",
-            content=QuoteContent.from_node(node),
+            template_id=node.name,
+            quote=node.select_node("TEXT", "quote").characters,
+            author=node.select_node("TEXT", "author").characters,
         )
 
 
@@ -316,7 +332,11 @@ class ChapterOutro(Metadata):
     Chapter outro frame.
     """
 
-    content: OutroContent
+    intro: str
+    title: str
+    subtitle: str
+    body: str
+    next_block: NextBlock
 
     @classmethod
     def from_node(cls, node: Node) -> "ChapterOutro":
@@ -333,7 +353,17 @@ class ChapterOutro(Metadata):
         ChapterOutro
             An instance of the ChapterOutro class populated with data from the node.
         """
+        title = " ".join(
+            [
+                node.select_node("TEXT", "first_line").characters,
+                node.select_node("TEXT", "first_line").characters,
+            ]
+        )
         return cls(
             template_id="chapter_outro",
-            content=OutroContent.from_node(node),
+            intro=node.select_node("TEXT", "intro").characters,
+            title=title,
+            subtitle=node.select_node("TEXT", "subtitle").characters,
+            body=node.select_node("TEXT", "body").characters,
+            next_block=NextBlock.from_node(node.select_node("GROUP", "quiz")),
         )
