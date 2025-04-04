@@ -30,6 +30,19 @@ class FrameBase(BaseModel):
     id: str = Field(alias="template_id")
     colorscheme: Literal["light", "dark"] | None = Field(default=None)
 
+    def to_content(self) -> dict:
+        """
+        Dumpt the model to a dictionary with content.
+
+        Returns
+        -------
+        dict
+            The model dictionary with non-metadata fields wrapped in "content".
+        """
+        fields = {"id", "colorscheme"}
+        content = self.model_dump(exclude=fields)
+        return self.model_dump(include=fields) | {"content": content}
+
 
 class Cover(FrameBase):
     """
