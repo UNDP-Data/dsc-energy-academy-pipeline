@@ -3,24 +3,36 @@
   "segments": [
     {
       "template_id": "chapter_outro",
-      "colorscheme": "dark",
       "content": {
-        "intro": "This concludes",
-        "title": "Title of the scenario",
-        "subtitle": "Lorem ipsum dolor sit amet consectetur",
+        "intro": "Congratulations, you have concluded",
+        "title": "M3 | Chapter 4",
+        "subtitle": "Chapter 4 Outro",
         "body": "Thank you for joining us for the third chapter of the Just Energy Transition Module. We invite you to interact with the closing scenario, and to reflect on how you can take action to move these ideas from ambitions into action.",
         "nextBlock": {
-          "intro": "Interactive Scenario",
-          "title": "Title of the scenario",
-          "cta": "You have a meeting with the minister of energy to discuss data-driven policy. Are you ready?",
-          "button_cta": "Launch the interactive scenario",
+          "intro": "Graded quiz",
+          "title": "Title of the quiz",
+          "cta": "Test your knowledge",
+          "buttonCta": "Launch the quiz",
           "image": {
-            "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_15.png",
-            "caption": "image caption",
-            "url": null
+            "src": "https://live.staticflickr.com/5504/14454539704_b8910261c0_b.jpg",
+            "caption": ""
           },
-          "nextBlockId": "1.1.5"
+          "nextBlockId": "1.1.6"
         }
+      },
+      "colorscheme": "light"
+    },
+    {
+      "template_id": "connection_next",
+      "content": {
+        "image": {
+          "src": "https://live.staticflickr.com/5504/14454539704_b8910261c0_b.jpg",
+          "caption": ""
+        },
+        "intro": "Next up",
+        "title": "Module 3 Outro",
+        "cta": "Start learning",
+        "nextLessonId": "3.-1.0"
       }
     }
   ]
