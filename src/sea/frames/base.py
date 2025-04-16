@@ -27,5 +27,5 @@ class FrameBase(BaseModel):
             The model dictionary with non-metadata fields wrapped in "content".
         """
         fields = {"id", "colorscheme"}
-        content = self.model_dump(exclude=fields)
-        return self.model_dump(include=fields) | {"content": content}
+        content = self.model_dump(exclude=fields, by_alias=True)
+        return self.model_dump(include=fields, by_alias=True) | {"content": content}
