@@ -2,9 +2,9 @@
 Photo-related frames.
 """
 
-from ..components import Image
 from ..nodes import Node
 from .base import FrameBase
+from .utils import Image
 
 
 class PhotoVertical(FrameBase):

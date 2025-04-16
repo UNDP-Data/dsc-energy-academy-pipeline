@@ -4,9 +4,9 @@ Cover-related frames for a module, chapter, lesson or lesson part.
 
 from pydantic import Field
 
-from ..components import Image, Intro
 from ..nodes import Node
 from .base import FrameBase
+from .utils import Image, Intro
 
 __all__ = ["Cover"]
 

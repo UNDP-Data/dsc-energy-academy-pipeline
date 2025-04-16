@@ -1,12 +1,12 @@
 """
-Reusable components used to create frame templates.
+Reusable utility components used to create frame templates.
 """
 
 from typing import Literal
 
 from pydantic import BaseModel, Field
 
-from .nodes import Node
+from ..nodes import Node
 
 __all__ = ["Image", "Intro", "Card", "LessonThumbnail", "Concept"]
 
