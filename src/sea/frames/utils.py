@@ -111,12 +111,14 @@ class LessonThumbnail(BaseModel):
     """
 
     cta: str = Field(default="Go to the lesson")
-    # description: str
-    # sequence_id: str = Field(alias='lessonId')
+    description: str
+    lesson_id: str = Field(alias="lessonId")
     image: Image
     title: str
-    # type: str
-    progress: Literal["completed", "in_progress", "not_started"]
+    type: str = Field(default="Lesson")
+    progress: Literal["completed", "in_progress", "not_started"] = Field(
+        default="not_starterd"
+    )
 
     @classmethod
     def from_node(cls, node: Node) -> "LessonThumbnail":
@@ -133,16 +135,18 @@ class LessonThumbnail(BaseModel):
         LessonThumbnail
             An instance of the LessonThumbnail class populated with data from the node.
         """
-        if node.select_node("RECTANGLE", "progress") is None:
-            progress = "not_started"
-        # elif ...:
-        #     progress = "in_progress"
-        else:
-            progress = "completed"
+
+        lessonId = "1.1.1"  ## this needs to be patched
+        description_node = node.select_node("TEXT", "description")
         return cls(
             title=node.select_node("TEXT", "title").characters,
             image=Image.from_node(node.select_node("GROUP", "image")),
-            progress=progress,
+            # progress=progress,
+            lessonId=lessonId,
+            cta="Go to the lesson",
+            description=(
+                description_node.characters if description_node is not None else ""
+            ),
         )
 
 
