@@ -6,7 +6,7 @@ from pydantic import Field
 
 from ..nodes import Node
 from .base import FrameBase
-from .utils import Image, Intro
+from .utils import Image, Intro, parse_cover_fields
 
 __all__ = ["Cover"]
 
@@ -55,3 +55,87 @@ class Cover(FrameBase):
                 else None
             ),
         )
+
+
+class LessonCover(FrameBase):
+    image: Image
+    lesson: dict | str
+    title: str
+    cta: str | None = Field(default="Scroll, tab or use your keyboard to move ahead")
+    intro: str
+
+    @classmethod
+    def from_node(cls, node: Node) -> "LessonCover":
+        assert (
+            node.name == "lesson_cover"
+        ), f"Expected lesson_cover node, got {node.name}"
+        cover_data = parse_cover_fields(node)
+        # Force immediate evaluation of image field.
+        cover_data["image"] = dict(cover_data.get("image", {}))
+        return cls(**cover_data)
+
+
+class ModuleCover(FrameBase):
+    image: Image
+    module: dict | str
+    title: str
+    cta: str | None = Field(default="Scroll, tab or use your keyboard to move ahead")
+    intro: str
+
+    @classmethod
+    def from_node(cls, node: Node) -> "ModuleCover":
+        assert (
+            node.name == "module_cover"
+        ), f"Expected module_cover node, got {node.name}"
+        cover_data = parse_cover_fields(node)
+        cover_data["image"] = dict(cover_data.get("image", {}))
+        return cls(**cover_data)
+
+
+class LessonSubpartCover(FrameBase):
+    image: Image
+    intro: dict | str
+    title: str
+    cta: str | None = Field(default="Scroll, tab or use your keyboard to move ahead")
+
+    @classmethod
+    def from_node(cls, node: Node) -> "LessonSubpartCover":
+        assert (
+            node.name == "lesson_subpart_cover"
+        ), f"Expected lesson_subpart_cover node, got {node.name}"
+        cover_data = parse_cover_fields(node)
+        cover_data["image"] = dict(cover_data.get("image", {}))
+        return cls(**cover_data)
+
+
+class LessonPartCover(FrameBase):
+    image: Image
+    intro: dict | str
+    title: str
+    cta: str | None = Field(default="Scroll, tab or use your keyboard to move ahead")
+
+    @classmethod
+    def from_node(cls, node: Node) -> "LessonPartCover":
+        assert (
+            node.name == "lesson_part_cover"
+        ), f"Expected lesson_part_cover node, got {node.name}"
+        cover_data = parse_cover_fields(node)
+        cover_data["image"] = dict(cover_data.get("image", {}))
+        return cls(**cover_data)
+
+
+class ChapterCover(FrameBase):
+    image: Image
+    chapter: dict | str
+    title: str
+    cta: str | None = Field(default="Scroll, tab or use your keyboard to move ahead")
+    intro: str
+
+    @classmethod
+    def from_node(cls, node: Node) -> "ChapterCover":
+        assert (
+            node.name == "chapter_cover"
+        ), f"Expected chapter_cover node, got {node.name}"
+        cover_data = parse_cover_fields(node)
+        cover_data["image"] = dict(cover_data.get("image", {}))
+        return cls(**cover_data)

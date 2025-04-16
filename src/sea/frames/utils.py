@@ -16,14 +16,18 @@ class Image(BaseModel):
     Generic image component.
     """
 
-    src: str
+    src: str | None = None
     caption: str | None = None
     url: str | None = None
 
     @classmethod
-    def from_node(cls, node: Node) -> "Image":
+    def from_node(cls, node: Node | None) -> "Image":
         """
         Create an Image instance from a Node object.
+
+        Extract image properties from an image node assumed to be a group with children:
+        - Look for a child whose type (case‑insensitive) is either "ATTR" or "RECTANGLE" and use its name as the image file name (src).
+        - Look for a child with name "caption": its "characters" property holds the caption.
 
         Parameters
         ----------
@@ -35,10 +39,24 @@ class Image(BaseModel):
         Image
             An instance of the Image class populated with data from the node.
         """
-        return cls(
-            src=node.select_node("RECTANGLE").name,
-            caption=node.select_node("TEXT").characters,
-        )
+        if node is None:
+            return cls()
+
+        for child in node.children:
+            child_type = getattr(child, "type", "")
+            child_name = getattr(child, "name", "")
+            # Check for either ATTR or RECTANGLE type to get the image file name.
+            if (
+                child_type
+                and child_type.upper() in ("ATTR", "RECTANGLE")
+                and src_val is None
+            ):
+                src_val = child_name
+            elif child_name == "caption":
+                ##this is set to "" since most image captions are temp
+                caption_val = ""  # getattr(child, "characters", None)
+
+        return cls(src=src_val, caption=caption_val)
 
 
 class Intro(BaseModel):
@@ -220,3 +238,92 @@ class NextBlock(BaseModel):
             button_cta=node.select_node("TEXT", "buttonCta").characters,
             image=Image.from_node(node.select_node("GROUP", "image")),
         )
+
+
+def parse_image_fields(node: Node) -> dict:
+    """
+    Extract image properties from an image node assumed to be a group with children:
+      - Look for a child whose type (case‑insensitive) is either "ATTR" or "RECTANGLE" and use its name as the image file name (src).
+      - Look for a child with name "caption": its "characters" property holds the caption.
+
+    Debug prints are added to help trace the internal state.
+    """
+    if node is None:
+        return {}
+
+    src_val = None
+    caption_val = None
+    url_val = None  # Extend if needed
+
+    children = getattr(node, "children", None)
+
+    for child in list(children):
+        child_type = getattr(child, "type", "")
+        child_name = getattr(child, "name", "")
+        # Check for either ATTR or RECTANGLE type to get the image file name.
+        if (
+            child_type
+            and child_type.upper() in ("ATTR", "RECTANGLE")
+            and src_val is None
+        ):
+            src_val = child_name
+        elif child_name == "caption":
+            ##this is set to "" since most image captions are temp
+            caption_val = ""  # getattr(child, "characters", None)
+
+    return {"src": src_val, "caption": caption_val}
+
+
+# --- Helper for photo-horizontal images (direct extraction) ---
+def parse_photo_horizontal_fields(node: Node) -> dict:
+    """
+    Extract image properties for photo-horizontal template.
+    Assumes the node directly has an attribute "imageUrl".
+    """
+    if node is None:
+        return {}
+    image_url_node = node.select_node("ATTR", "imageUrl")
+    image_url = image_url_node.value if image_url_node else None
+    return {"src": image_url, "caption": None, "url": None}
+
+
+def parse_cover_fields(node: Node) -> dict:
+    intro_node = node.select_node("GROUP", "module|chapter|lesson")
+
+    # Default to None
+    intro_val = None
+    intro_type = "intro"  # fallback key if type can't be inferred
+
+    if intro_node:
+        # Use the node name to determine the type (module/chapter/lesson)
+        raw_name = intro_node.name.lower()
+        if "module" in raw_name:
+            intro_type = "module"
+        elif "chapter" in raw_name:
+            intro_type = "chapter"
+        elif "lesson" in raw_name:
+            intro_type = "lesson"
+        else:
+            intro_type = "intro"  # fallback
+
+        intro_val = Intro.from_node(intro_node).model_dump()
+    else:
+        # Fallback to a text node labeled "intro"
+        intro_val = node.select_node("TEXT", "intro").characters
+        intro_type = "intro"
+
+    image_node = node.select_node("GROUP", "image")
+    image_val = parse_image_fields(image_node) if image_node else {}
+
+    return {
+        "template_id": node.name,
+        "image": image_val,
+        intro_type: intro_val,
+        "title": node.select_node("TEXT", "title").characters,
+        "cta": (
+            node.select_node("TEXT", "cta").characters
+            if node.select_node("TEXT", "cta") is not None
+            else None
+        ),
+        "intro": "",
+    }
