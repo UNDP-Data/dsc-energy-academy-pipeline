@@ -82,7 +82,7 @@ class Card(BaseModel):
     @classmethod
     def from_node(cls, node: Node) -> "Card":
         """
-        Create an Card instance from a Node object.
+        Create a Card instance from a Node object.
 
         Parameters
         ----------
@@ -94,10 +94,14 @@ class Card(BaseModel):
         Card
             An instance of the Card class populated with data from the node.
         """
+        title_node = node.select_node("TEXT", "title")
+        description_node = node.select_node("TEXT", "description")
         return cls(
             image=Image.from_node(node.select_node("GROUP", "image")),
-            title=node.select_node("TEXT", "title").characters,
-            description=node.select_node("TEXT", "description").characters,
+            title=title_node.characters if title_node is not None else "",
+            description=(
+                description_node.characters if description_node is not None else ""
+            ),
         )
 
 
