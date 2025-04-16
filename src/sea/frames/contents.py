@@ -2,8 +2,8 @@
 Content-related frames for modules, lessons and lesson parts.
 """
 
-from ..entities.components import Card, Concept, LessonThumbnail
-from ..entities.node import Node
+from ..components import Card, Concept, LessonThumbnail
+from ..nodes import Node
 from .base import FrameBase
 
 __all__ = [

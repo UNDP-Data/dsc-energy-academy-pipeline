@@ -4,8 +4,8 @@ Connection frames between different components.
 
 from pydantic import Field
 
-from ..entities.components import Image
-from ..entities.node import Node
+from ..components import Image
+from ..nodes import Node
 from .base import FrameBase
 
 __all__ = ["ConnectionNext"]
