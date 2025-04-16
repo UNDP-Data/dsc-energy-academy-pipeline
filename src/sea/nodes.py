@@ -1,16 +1,19 @@
 """
-Base node class defining shared properties for all nodes.
+Data classes for working with Figma API, including the base `Node` class
+and high-level `Document` calss.
 See https://www.figma.com/developers/api#files for details.
 """
 
 from __future__ import annotations  # allow forward references
 
+import os
 import re
 from typing import Generator, Literal
 
+import requests
 from pydantic import BaseModel, ConfigDict, Field
 
-__all__ = ["NodeType", "Node"]
+__all__ = ["NodeType", "Node", "Document"]
 
 # As per https://www.figma.com/developers/api#node-types
 NodeType = Literal[
@@ -194,3 +197,34 @@ class Node(BaseModel):
                 node.model_dump().get("absoluteBoundingBox", {}).get("x", 0),
             ),
         )
+
+
+class Document(Node):
+    """
+    Document node type that can be instantiated from a Figma file key.
+    """
+
+    metadata: dict
+
+    @classmethod
+    def from_file_key(cls, key: str) -> "Document":
+        """
+        Factory class to create a document instance from a Figma file key.
+
+        Parameters
+        ----------
+        key : str
+            A file key to export JSON from.
+
+        Returns
+        -------
+        dict
+            Node of type DOCUMENT as a JSON object.
+        """
+        endpoint = f"https://api.figma.com/v1/files/{key}"
+        headers = {"X-Figma-Token": os.environ["FIGMA_API_KEY"]}
+        response = requests.get(endpoint, headers=headers, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        document = data.pop("document")
+        return cls(**document, metadata=data)

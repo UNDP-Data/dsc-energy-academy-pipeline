@@ -6,7 +6,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
-from .node import Node
+from .nodes import Node
 
 __all__ = ["Image", "Intro", "Card", "LessonThumbnail", "Concept"]
 

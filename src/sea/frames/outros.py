@@ -2,8 +2,8 @@
 Outro-related frames.
 """
 
-from ..entities.components import NextBlock
-from ..entities.node import Node
+from ..components import NextBlock
+from ..nodes import Node
 from .base import FrameBase
 
 __all__ = ["Outro"]

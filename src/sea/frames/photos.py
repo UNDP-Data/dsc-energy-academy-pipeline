@@ -2,8 +2,8 @@
 Photo-related frames.
 """
 
-from ..entities.components import Image
-from ..entities.node import Node
+from ..components import Image
+from ..nodes import Node
 from .base import FrameBase
 
 
