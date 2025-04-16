@@ -2,9 +2,9 @@
 Outro-related frames.
 """
 
-from ..components import NextBlock
 from ..nodes import Node
 from .base import FrameBase
+from .utils import NextBlock
 
 __all__ = ["Outro"]
 

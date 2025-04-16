@@ -2,9 +2,9 @@
 Content-related frames for modules, lessons and lesson parts.
 """
 
-from ..components import Card, Concept, LessonThumbnail
 from ..nodes import Node
 from .base import FrameBase
+from .utils import Card, Concept, LessonThumbnail
 
 __all__ = [
     "TextElement",
