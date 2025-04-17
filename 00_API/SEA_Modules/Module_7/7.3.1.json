@@ -3,19 +3,115 @@
   "segments": [
     {
       "template_id": "lesson_cover",
+      "colorscheme": "dark",
       "content": {
         "image": {
-          "src": "https://web14.bernama.com/storage/photos/830db0b0eb59429f4a6f5618134452c963f433bee8a98",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_5.png",
           "caption": ""
         },
         "lesson": {
           "label": "Lesson",
-          "Number": "1"
+          "number": "1"
         },
-        "intro": "M7: Data in Sustainable Energy | Chapter 3 | Lesson 1",
-        "title": "Lesson 1: <strong>Data Science Techniques for Energy Analysis</strong>"
-      },
-      "colorscheme": "dark"
+        "title": "DATA SCIENCE TECHNIQUES FOR ENERGY ANALYSIS",
+        "cta": null,
+        "intro": "M7: Data In Sustainable Energy | Chapter 3 | Lesson 1"
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "colorscheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L4_1.png",
+          "caption": ""
+        },
+        "intro": "M7: Data In Sustainable Energy | Chapter 3 | Lesson 1 | Part 1",
+        "title": "Part 1: Exploratory Data Analysis"
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "colorscheme": "dark",
+      "content": {
+        "title": "Key Concepts",
+        "intro": "Explore foundational ideas from this lesson.",
+        "concepts": [
+          {
+            "title": "data visualization",
+            "body": "Data visualization is the graphical representation of information and data, using visual elements like charts, graphs, and maps to make complex data more accessible and understandable.",
+            "source": ""
+          },
+          {
+            "title": "exploratory data analysis (eda)",
+            "body": "Exploratory Data Analysis (EDA) is an approach to analyzing data sets to summarize their main characteristics, often using visual methods, before applying formal modeling or hypothesis testing.",
+            "source": ""
+          },
+          {
+            "title": "geographical information system (gis)",
+            "body": "A Geographical Information System (GIS) is a technology that captures, stores, analyzes, and presents spatial or geographic data, allowing users to visualize and interpret data related to locations on Earth.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Data science uses various techniques to extract insights from raw data. Exploratory Data Analysis (EDA) is a technique for uncovering patterns, and identifying anomalies (e.g., missing values and outliers) and patterns within the data. It can be used to validate preprocessing steps, ensuring data readiness for further analysis and modelling. For instance, EDA might show a strong correlation between temperature and energy usage, highlighting temperature as a significant predictor of energy demand."
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Part 1 Overview"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "One type of EDA, multivariate graphical, displays relationships in data sets by using graphics such as scatter plots, histograms, bar charts, box plots, and heat maps. These visualizations help identify trends, such as seasonal variations in energy usage or inefficiencies in energy distribution networks. The following figure illustrates steps used in exploratory data analysis."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-horizontal",
+      "colorscheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_7/M7_C3_1.png",
+          "caption": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "EDA traditionally demands a significant amount of time and expertise. However, A.I. has streamlined this process, making it more efficient and accurate. A.I. algorithms can rapidly process vast amounts of data, detecting errors and outliers to clean and transform data more efficiently and accurately than human analysts. Additionally, A.I. is capable of managing diverse and complex datasets, including text, images, and high-dimensional data. By automating much of the EDA process, A.I. can potentially enable data analysts to explore and comprehend their data more quickly and effectively ."
+            }
+          }
+        ]
+      }
     },
     {
       "template_id": "text",
@@ -25,75 +121,353 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "Lesson Overview"
-            }
-          },
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "Numquam tempora non modi eius quaerat labore sit."
+              "text": "Automating data cleaning"
             }
           },
           {
             "template_id": "paragraph_large",
             "content": {
-              "text": "Ipsum non voluptatem velit. Eius est sit quaerat adipisci etincidunt neque. Eius quiquia sit modi ut consectetur dolor quaerat. Numquam consectetur est labore aliquam non modi. Adipisci dolor tempora numquam tempora eius etincidunt."
+              "text": "One of the critical stages in EDA is data cleaning, which involves handling missing values and duplicates, correcting errors, and formatting data. A.I. can significantly improve this process through automated data cleaning techniques. Machine learning models can learn from historical data cleaning tasks and apply these learnings to new datasets, reducing the time and effort required for data preparation. For example, A.I.-driven tools can automatically detect and impute missing values, ensuring that the dataset is as complete and accurate as possible before analysis."
             }
           }
         ]
       }
     },
     {
-      "template_id": "key_concepts",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Key Concepts",
-        "intro": "Lorem ipsum",
-        "concepts": [
-          {
-            "title": "Quaerat quiquia cons",
-            "body": "Sed voluptatem etincidunt neque numquam adipisci consectetur quisquam. Adipisci consectetur labore est quiquia non. Neque porro tempora numquam voluptatem tempora consectetur. Aliquam voluptatem quiquia tempora eius. Aliquam dolore ipsum etincidunt v",
-            "source": "-International Development Organization"
-          },
-          {
-            "title": "Tempora eius quisqua",
-            "body": "Quisquam modi est neque dolore quaerat porro consectetur. Aliquam etincidunt aliquam est ut. Velit neque amet ipsum labore dolorem amet quaerat. Numquam dolor etincidunt ut eius neque. Quaerat sed est quaerat dolore modi ut. Eius dolore dolorem dolor",
-            "source": ""
-          },
-          {
-            "title": "Magnam dolor modi te",
-            "body": "Porro aliquam modi etincidunt sit sit neque. Velit adipisci quiquia dolor etincidunt. Magnam etincidunt sed numquam sit consectetur sit adipisci. Voluptatem ut consectetur eius eius non etincidunt. Ipsum quisquam voluptatem quiquia. Porro porro amet ",
-            "source": ""
-          }
-        ]
-      },
-      "colorscheme": "light"
-    },
-    {
-      "template_id": "photo_full_height",
+      "template_id": "photo-full-height",
       "colorscheme": "dark",
       "content": {
         "image": {
-          "src": "https://web14.bernama.com/storage/photos/830db0b0eb59429f4a6f5618134452c963f433bee8a98",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Intro_6.png",
           "caption": ""
         }
       }
     },
     {
       "template_id": "text",
-      "colorscheme": "dark",
+      "colorscheme": "light",
       "content": {
         "text_elements": [
           {
             "template_id": "subtitle",
             "content": {
-              "text": "Sit sed est dolor amet amet"
+              "text": "Clustering and anomaly detection"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "paragraph_large",
             "content": {
-              "text": "Quisquam amet ut sit est. Numquam ut sit modi quiquia. Numquam dolore sit labore est amet. Sed adipisci sed magnam eius etincidunt porro quisquam. Quiquia ipsum quisquam quaerat sit dolore amet. Adipisci dolor numquam non porro adipisci. Ut neque aliquam voluptatem quaerat. Amet sit sit quiquia dolore magnam non dolore. Sit est consectetur aliquam velit."
+              "text": "A.I. algorithms, such as k-means clustering and autoencoders, play a niche role in anomaly detection during EDA. These algorithms can automatically group data points into clusters based on their similarities, identify underlying patterns in, for example, energy consumption, production, and distribution . Autoencoders, a type of neural network, can detect anomalies by learning the normal behavior of energy systems and flagging data points that deviate significantly from this norm. For example, autoencoders can identify irregular spikes in energy usage that might indicate equipment malfunctions or unauthorized energy consumption, enabling timely interventions to prevent potential issues ."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-full-height",
+      "colorscheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L4_4.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Pattern recognition and prediction"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Machine learning algorithms enhance EDA by enabling sophisticated pattern recognition and prediction capabilities. Algorithms like k-nearest neighbor, decision trees, random forests, and support vector machines are particularly effective in classifying and predicting energy usage patterns. By analyzing historical data, these algorithms can identify trends and correlations that might not be immediately apparent. For instance, pattern recognition can assist in predicting daily or seasonal energy demand by identifying consumption patterns related to weather conditions, time of day, or day of the week. This capability allows utility companies to optimize their operations, plan for peak demand periods, and improve the overall efficiency of energy distribution ."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "colorscheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_4.png",
+          "caption": ""
+        },
+        "intro": "M7: Data In Sustainable Energy | Chapter 3 | Lesson 1 | Part 1 | Case Study",
+        "title": "Case Study: India"
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Case Study RBAP: Sustainable cooling through digitalization in India"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "In today's warming world, cooling is crucial for escaping poverty and hunger, especially in the agricultural sector. India, one of the largest food producers globally, faces significant food wastage (25-35%) due to insufficient refrigeration and supply chain bottlenecks. Currently, only 6% of food produced in India moves through the cold chain, compared to about 60% in developed countries [1]. This lack of proper cold chain infrastructure leads to income loss and carbon emissions. Addressing this issue at the farm level by providing smallholder farmers access to efficient and clean cold storage solutions at affordable prices is essential."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "The innovative 'Your Virtual Cold Chain Assistant' (Your VCCA) Initiative was launched by the Basel Agency for Sustainable Energy (BASE) and Empa in 2021 to tackle this issue by providing smallholder farmers, especially women, access to sustainable cooling and digital tools [2]. The project focuses on three pillars: servitization, digitalization, and capacity-building [3]. The primary objectives of ‘Your VCCA’ Initiative are to reduce food losses and improve food security by providing smallholder farmers access to affordable, efficient, and clean cold storage solutions; leverage solar energy for sustainable post-harvest cooling; and empower smallholder farmers, especially women, by providing digital tools and training to enhance their decision-making and management capabilities. The Your VCCA Initiative is centered on providing solar-powered cold rooms through a \"Cooling as a Service\" (CaaS) model, which enables smallholders to gain access to cooling without upfront costs (see Figure 1) [4]. Digitalization is a key catalyst in the success of Your VCCA. It involves a mobile application based on data science that uses machine learning and physics-based food modeling, which helps smallholder farmers access sustainable cooling facilities through servitization. The program utilizes \"Coldtivate\", an application, to streamline inventory management and operations and build trust among farmers in post-harvest cooling [5]. Real-time temperature sensor data, incorporated into Coldtivate, estimates the remaining storage life of each crate, enabling farmers to preserve crop quality effectively. The App also offers market price forecasts, enabling farmers to make informed selling choices. Users without smartphones receive SMS notifications about their stored crops' status, underscoring the inclusion and accessibility of the initiative."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-horizontal",
+      "colorscheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_7.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Gender mainstreaming has been at the forefront of the work undertaken by one of Your VCCA’s project partners in India. In addition to building the cold room in a central public space, easy and safe for women to visit, Koel Fresh, a VCCA partner in India, onboarded members of the Maa Tarini Women’s Self-Help Group (SHG) to increase the room’s cultural accessibility [3]. Engaging the self-help group (SHG) aimed to develop local women's skills in managing the cold room using digital tools and to empower female farmers to use the facilities without being hindered by gender and power dynamics. The pilot project in Bihar and Himachal Pradesh (2021-2022) demonstrated the economic viability of the CaaS business model and the value-add of the VCCA app. Preliminary data from frequent cold room users (34 women and 14 men) indicate a reduction in crop spoilage from 17% to 4%. Farmers' incomes increased by 29.6%, with female users reporting a 34.3% increase compared to 18.8% reported by male users [3]. The Your VCCA Initiative sets a global example for agro-based economies. Its replicability is evident in its potential to be adapted in other regions facing similar challenges. Key factors for replicability include the availability of solar energy, the adoption of digital tools, and community engagement. Moreover, it shows how engaging local women in managing operations and finances using digital tools can enhance cultural accessibility and overcoming gender-related barriers for female farmers in utilizing the resources."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "References"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "[1] Energy Base. (n.d.). Data-science-based Mobile Application for Smallholders to Enable Access to Data and Sustainable Cooling [2] Your VCCA. (n.d.). Harnessing the Power of Data and Business Model Innovation for Resilient Agriculture [3] SE4All. (2023). Cool Crops, Hot Profits [4] Climate Finance Lab. (2021). Cooling as a Service (CAAS) with Virtual Cold Chain Assistant (VCCA) [5] Your VCCA. (n.d.). Coldivate App"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "colorscheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_3.png",
+          "caption": ""
+        },
+        "intro": "M7: Data In Sustainable Energy | Chapter 3 | Lesson 1 | Part 2",
+        "title": "Part 2: Remote sensing and GIS applications"
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Part 2 Overview"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Remote sensing and Geographic Information Systems (GIS) have become indispensable tools in the energy sector, providing comprehensive and precise data and analysis about spatial relationships. Remote sensing encompasses technologies that capture data about the Earth's surface from a distance, typically through satellites, aircraft, and aerial platforms. GIS, on the other hand, provides a framework for integrating, analyzing, and visualizing these geospatial data . These tools form a powerful combination that can be leveraged to address key challenges in the energy sector."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "In the face of pressing environmental issues, such as climate change, deforestation, and pollution source identification, advancements in Artificial Intelligence (A.I.) enhance the usefulness and power of geospatial data analytics. Decision-makers can leverage data tools to assess the impacts and siting of low-carbon energy resources and associated infrastructure. A.I.’s exceptional computational power and data processing capabilities make it a vital tool in the effort to preserve and protect our planet . Sirmacek and Vinuesa (2022) explored the integration of A.I. and remote sensing to enhance climate adaptation in urban areas. They proposed a framework combining A.I. and simulation to extract indicators from satellite images, facilitating predictive estimations of future states related to climate adaptation. Their study highlighted the potential of A.I. to create rapid land-use maps, simulate disaster scenarios, identify outliers, and provide real-time predictions. This approach aims to aid decision-makers in sustaining societal well-being, natural resources, and biodiversity."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Enríquez Zárate et al. (2022) applied A.I. to detect and analyze erosion in wind turbine blades using machine learning models. The study focused on the leading-edge erosion and its impact on aerodynamic performance and structural integrity. They utilized QBlade software for aerodynamic and modal analysis, simulating different erosion levels and their effects on power generation. The researchers developed machine learning models to classify the location of erosion and predict its severity, achieving high accuracy. This innovative approach, enhanced by AutoML—which automates the process of selecting optimal models and tuning hyperparameters— provides a comprehensive method for predictive maintenance, minimizing downtime, and enhancing wind turbine efficiency. Muxica et al. (2024) applied A.I. in remote sensing within the energy sector by designing and implementing an autonomous sensor system for vibration measurement in low-capacity wind turbines. This system, deployed on wind turbines operating under harsh weather conditions, uses A.I. to process data collected from triaxial accelerometers attached to the blades. The A.I. processes enable real-time monitoring and evaluation of the dynamic characteristics of wind turbine blades, facilitating early damage detection and maintenance. By integrating A.I. with remote sensing technologies, the system ensures reliable and efficient wind turbine operation, reducing maintenance costs and enhancing the overall reliability of wind energy generation. This application demonstrates the potential of A.I. in advancing structural health monitoring and optimizing renewable energy resources."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "To conclude, the integration of A.I. with remote sensing and GIS applications holds immense potential for advancing environmental conservation, climate adaptation, and renewable energy optimization. This research demonstrates the diverse applications of A.I. in monitoring environmental changes, predicting erosion in wind turbine blades, and enhancing the efficiency and reliability of wind energy generation. These advancements underscore the critical role of A.I. in facilitating data-driven decision-making, enabling proactive maintenance, and supporting sustainable development in the energy sector. As A.I. continues to evolve, its applications in remote sensing and GIS will undoubtedly become even more integral to addressing the current pressing environmental and energy challenges."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "colorscheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_7.png",
+          "caption": ""
+        },
+        "intro": "M7: Data In Sustainable Energy | Chapter 3 | Lesson 1 | Part 2 | Case Study",
+        "title": "Case Study: Philippines"
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Case Study rBAP: Understanding poverty in the Philippines with artificial intelligence"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Extreme poverty still becomes an ever-growing problem in the Philippines. It was estimated that in 2019, 20.8% of the country’s population lived below the poverty line . As a result, 1.6 million households in the country had no access to electricity in 2020 due to the high electricity costs at around $0.20/kWh, which was the most expensive in the ASEAN region . Therefore, it was critical for the Philippines to find a way of minimizing poverty, which would then induce more access to energy for the country’s low-income and marginalized communities."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "To help solve these issues, UNDP implemented a project to eradicate poverty and social inequality, but it was mainly challenged by the unavailability of robust data to make strategies and high-level decisions. Therefore, Thinking Machines helped UNDP and Zero Extreme Poverty PH 2030 – a Philippine coalition of NGOs, to implement a project of Understanding Poverty in the Philippines with Artificial Intelligence. This project aims to use machine learning and satellite imagery to map poverty in the Philippines. Specifically, the main goal is to overcome the challenges of collecting reliable socioeconomic data that is relatively time-consuming, labor-intensive, and expensive. The project’s main objectives include using transfer learning and satellite imagery to map poverty in the country, developing a preliminary poverty prediction model for the Philippines, and overcoming the limitations of traditional on-ground surveys by leveraging machine learning and geospatial information. The project was first implemented by utilizing the 2017 National Demographic and Health Survey data. The datasets include the country’s household wealth scores based on attributes such as roof material, appliance ownership, and more importantly, access to water and electricity. Furthermore, the data collected were then extracted by applying transfer learning to map poverty using nighttime lights as a proxy for economic development. Higher levels of GDP are correlated with greater electricity use, access, reliability, and affordability , therefore, those regions with more nighttime lights could be perceived to be more developed economically. With this combination of machine learning and geospatial data, they were able to provide more accurate and detailed poverty estimates across the country."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-full-height",
+      "colorscheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "The main lesson learned from the project is the benefits of machine learning model using multiple open geospatial datasets which can estimate poverty for the entire country in under a minute. The results also showed better comparison of the average actual wealth index across the Philippines. With this approach, this kind of project can be rolled out to other geographies considering its efficiency in providing results at a lower cost, compared to the conventional randomized surveys. Furthermore, this kind of project can also help developing countries to improve their energy access, leading to enhanced economic development."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "References"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "The World Bank. (2024). Macro Poverty Outlook: East Asia and the Pacific Neil Stephen Lopez, et al. (2023). Energy Poverty and Carbon Emissions: The State of Luzon, Philippines Thinking Machines. (2020). Understanding poverty in the Philippines with artificial intelligence The World Bank. (2022). How much do we know about the development impacts of energy infrastructure?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "colorscheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_4.png",
+          "caption": ""
+        },
+        "intro": "M7: Data In Sustainable Energy | Chapter 3 | Lesson 1 | Part 2",
+        "title": "Part 3: Importance of data visualization"
+      }
+    },
+    {
+      "template_id": "text",
+      "colorscheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Data visualization can effectively bring data to life and tell a story. It is important to use data visualizations that turn information and data into actionable insights . In the energy sector, where data have an important role in justifying and rationalizing decision making, an effective visualization can enhance clarity and comprehensibility, whereas an ineffective visualization can cause confusion and loss of focus. There isn’t a global standardized framework on data visualization, however there is guidance on best principles, which come from years of research and experimentation in the design and media industries. Guidance on best practice can be found in the book Visualizing Data and in the webpage Material Design. Both references explain the correct use of graphs, the use of annotations and elements of editorial design."
             }
           }
         ]
@@ -101,84 +475,84 @@
     },
     {
       "template_id": "key_takeaways",
+      "colorscheme": "dark",
       "content": {
-        "title": "Key Takeaways",
-        "intro": "Quaerat est etincidunt consectetur amet adipisci eius.",
+        "title": "Learning Objectives",
+        "intro": "If you only have space to remember 3 things:",
         "takeaways": [
           {
             "image": {
-              "src": "https://www.resusenergy.lk/images/Resus_Enegry_Images/Project_Images/mahiyagnanaya/dji_0008.jpg",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Outro_3.png",
               "caption": ""
             },
-            "title": "Magnam...",
-            "description": "Ipsum adipisci adipisci magnam ipsum numquam. Porro modi sit velit ipsum adipisci. Dolor dolorem dolore sed est etincidunt ut voluptatem. Numquam etincidunt amet numquam neque neque neque numquam. Ipsum neque numquam magnam. Est quisquam ut etincidunt. Dolorem sed eius quisquam. Quaerat quisquam quiquia labore est quaerat eius tempora. Consectetur porro dolore sit modi aliquam sit."
+            "title": "Exploratory Data Analysis powered by AI revolutionizes energy data insights.",
+            "description": "AI-driven EDA accelerates the identification of patterns, anomalies, and correlations in energy datasets, enabling more efficient data cleaning, clustering, and anomaly detection. By automating these processes, AI allows energy analysts to uncover critical insights—such as seasonal energy demand trends or equipment malfunctions—faster and with greater precision, optimizing energy system performance."
           },
           {
             "image": {
-              "src": "https://www.resusenergy.lk/images/Resus_Enegry_Images/Project_Images/mahiyagnanaya/dji_0008.jpg",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Outro_1.png",
               "caption": ""
             },
-            "title": "Velit...",
-            "description": "Adipisci etincidunt adipisci eius amet est tempora. Voluptatem velit quaerat aliquam quiquia non sit. Neque dolore numquam dolor numquam porro. Aliquam ut eius velit amet. Quaerat aliquam modi modi dolor voluptatem. Quiquia ut labore adipisci dolorem ipsum eius sit. Dolorem non voluptatem ipsum eius quiquia labore. Aliquam sit amet non amet tempora magnam. Eius adipisci sit quiquia aliquam. Quiquia sed voluptatem dolore tempora dolor dolore sed."
+            "title": "AI-enhanced remote sensing and GIS transform energy infrastructure planning.",
+            "description": "Integrating AI with remote sensing and GIS technologies enables advanced spatial analysis, predictive maintenance, and real-time monitoring of energy assets. Applications like erosion detection in wind turbine blades and poverty mapping through satellite imagery demonstrate how AI can drive data-driven decision-making, improve renewable energy efficiency, and address energy access challenges in underserved regions."
           },
           {
             "image": {
-              "src": "https://elementum-esg.co.uk/wp-content/uploads/2024/04/energy-sources.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_11.png",
               "caption": ""
             },
-            "title": "Dolor...",
-            "description": "Voluptatem sit modi labore eius aliquam non voluptatem. Quaerat numquam amet ipsum voluptatem dolore quaerat. Neque ipsum quisquam dolorem tempora. Dolore dolorem magnam numquam modi consectetur. Neque velit dolorem sit ipsum est dolore. Sed voluptatem consectetur porro dolore. Numquam tempora non ut sit ipsum porro. Consectetur dolorem voluptatem velit porro adipisci. Dolore dolor consectetur neque velit quiquia voluptatem. Porro non dolor dolore quiquia aliquam dolore."
+            "title": "Data visualization is a strategic tool for actionable energy insights.",
+            "description": "Effective data visualization transforms complex energy data into clear, actionable narratives, enhancing decision-making and stakeholder communication. By adhering to best practices in design and storytelling, energy professionals can create visualizations that highlight key trends, such as energy consumption patterns or infrastructure performance, ensuring data-driven strategies are both accessible and impactful."
           }
         ]
-      },
-      "colorscheme": "dark"
+      }
     },
     {
       "template_id": "key_resources",
+      "colorscheme": "dark",
       "content": {
         "title": "Key Resources",
         "resources": [
           {
             "image": {
-              "src": "https://www.powerengineeringint.com/wp-content/uploads/2024/04/renewable-energy_cybersecurity.jpg",
+              "src": "https://ik.imagekit.io/seacademy/Icons/resource_default.webp",
               "caption": ""
             },
-            "text": "Amet...",
-            "cta": "Click to download",
-            "href": "https://www.undp.org/publications/undps-energy-strategy"
+            "href": "https://www.undp.org/namibia/stories/green-hydrogen-people-centred-approach-sustainable-development-namibia",
+            "text": "Renewables 2023 Global Status Report",
+            "cta": "Click to download"
           },
           {
             "image": {
-              "src": "https://live.staticflickr.com/1552/26342931015_38814fbfac_b.jpg",
+              "src": "https://ik.imagekit.io/seacademy/Icons/resource_default.webp",
               "caption": ""
             },
-            "text": "Aliquam...",
-            "cta": "Click to download",
-            "href": "https://www.undp.org/publications/undps-energy-strategy"
+            "href": "https://www.seforall.org/data-stories/seforall-analysis-of-sdg7-progress",
+            "text": "SEforALL Analysis of SDG7 Progress",
+            "cta": "Click to download"
           },
           {
             "image": {
-              "src": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2025/02/18142934/29572133848_45af12a4bb_k-e1737653671184.jpg",
+              "src": "https://ik.imagekit.io/seacademy/Icons/resource_default.webp",
               "caption": ""
             },
-            "text": "Sit...",
-            "cta": "Click to download",
-            "href": "https://www.undp.org/publications/undps-energy-strategy"
+            "href": "https://www.iea.org/reports/energy-access-and-air-pollution",
+            "text": "The Sustainable Development Goals Report 2023: Special Edition",
+            "cta": "Click to download"
           }
-        ],
-        "intro": "Non amet porro ut consectetur."
-      },
-      "colorscheme": "light"
+        ]
+      }
     },
     {
       "template_id": "connection_next",
+      "colorscheme": "dark",
       "content": {
         "image": {
-          "src": "https://web14.bernama.com/storage/photos/830db0b0eb59429f4a6f5618134452c963f433bee8a98",
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter7.3.png",
           "caption": ""
         },
         "intro": "Next up",
-        "title": "Lesson 2: <strong>Energy Modelling Tools and Applications</strong>",
+        "title": "Lesson 2: Energy Modelling Tools and Applications",
         "cta": "Start learning",
         "nextLessonId": "7.3.2"
       }
