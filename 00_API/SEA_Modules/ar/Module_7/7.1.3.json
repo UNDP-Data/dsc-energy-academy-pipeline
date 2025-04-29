@@ -1,0 +1,969 @@
+{
+  "id": "7.1.3",
+  "segments": [
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>المرحلة 1: الجمع</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تتكون جمع البيانات من مجموعة خاصة بها من الأنشطة الفرعية التي تدعم استخراج ونقل البيانات الخام إلى خادم مخصص أو منصة سحابية. تبدأ هذه العملية أولاً بتحديد الأهداف العامة التي تتطلب جمع البيانات، وستتيح هذه الأهداف تحديد البرمجيات ذات الصلة اللازمة لتحقيق الأهداف المحددة. على سبيل المثال، يمكن للحكومة تحديد أهداف تتعلق بإزالة الكربون وتحديث أنظمة الطاقة من خلال اعتماد الشبكات الذكية، كما هو الحال مع حكومة موريشيوس<br /><br />عملية جمع البيانات، التي تحدد الأنشطة الرئيسية التي يجب مراعاتها لتحديد مصادر البيانات، وتقنيات التقاط البيانات، ومتطلبات الاتصال للنقل."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_19.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "درس",
+          "number": "3"
+        },
+        "title": "سلسلة قيمة بيانات الطاقة",
+        "cta": null,
+        "intro": "M7: البيانات في الطاقة المستدامة | الفصل 1 | الدرس 3"
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "المفاهيم الرئيسية",
+        "intro": "استكشف الأفكار الأساسية من هذا الدرس.",
+        "concepts": [
+          {
+            "title": "دورة حياة البيانات",
+            "body": "تشير دورة حياة البيانات إلى المراحل التي تمر بها البيانات من إنشائها وتخزينها الأولي، مرورًا باستخدامها ومشاركتها، إلى أرشفتها أو حذفها في النهاية.",
+            "source": ""
+          },
+          {
+            "title": "سلسلة قيمة البيانات",
+            "body": "تشير سلسلة قيمة البيانات إلى سلسلة من الخطوات المعنية في جمع البيانات ومعالجتها وتحليلها واستخدامها لإنشاء قيمة وإبلاغ عملية اتخاذ القرار.",
+            "source": ""
+          },
+          {
+            "title": "الوصول العادل إلى البيانات",
+            "body": "يشير الوصول العادل إلى البيانات إلى التوافر العادل والمنصف للبيانات لجميع الأفراد والمجتمعات، مما يضمن أن يكون لدى الجميع الفرصة للوصول إلى واستخدام والاستفادة من موارد البيانات، بغض النظر عن وضعهم الاجتماعي والاقتصادي أو موقعهم أو أي حواجز أخرى.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>نظرة عامة على الدرس 3</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "أصبحت الانتقال نحو مصادر الطاقة المتجددة والتقنيات من أجل التنمية المستدامة للطاقة (SED) أولوية عالمية، مدفوعة بالحاجة إلى معالجة التحديات الحرجة مثل تخفيف الفقر، وحماية البيئة، والنمو الاجتماعي والاقتصادي، وتحديث أنظمة الطاقة. محور تحقيق هذه الأهداف هو الضرورة لضمان الوصول إلى الطاقة بأسعار معقولة وشاملة للجميع. في هذا المشهد، ظهرت البيانات كأصول لا غنى عنها، مما يمكّن من اتخاذ قرارات مستندة إلى الأدلة في الوقت الفعلي، وإبلاغ استراتيجيات الطاقة، وتوجيه إجراءات المستخدمين النهائيين، وتعزيز الابتكار لتسريع تطوير الطاقة المستدامة."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "مفهوم <strong>سلسلة قيمة البيانات</strong> يوفر إطارًا لفهم كيفية تحويل البيانات الخام إلى رؤى قابلة للتنفيذ تعزز اتخاذ القرار. تشمل هذه السلسلة العملية بأكملها، من التوليد الأولي للبيانات عبر أجهزة الاستشعار إلى جمعها وتحويلها وتحليلها واستخدامها النهائي. كل مرحلة من السلسلة حاسمة لضمان أن الرؤى المستندة إلى البيانات تدعم بشكل فعال تحسين نظام الطاقة، والحلول الطاقية اللامركزية، وإدارة الشبكة، وتحسينات كفاءة جانب الطلب."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تدعم إدارة البيانات الفعالة ومعالجتها نجاح سلسلة قيمة البيانات، مما يمكّن من تطبيقها في مجموعة متنوعة من التدخلات في أنظمة الطاقة. يشمل ذلك تحسين توليد الطاقة وتخزينها، وتخفيف قيود الشبكة، ودعم تطوير الأصول الطاقية اللامركزية. على سبيل المثال، تستخدم مبادرة توليد الطاقة الموزعة في رواندا المراقبة في الوقت الفعلي المعتمدة على المستشعرات لتحسين جمع البيانات، بينما يستخدم برنامج Energy4Sahel البيانات الجغرافية المكانية لاستراتيجية وتخطيط الكهرباء الريفية. بالمثل، يركز برنامج الشبكة الصغيرة في أفريقيا على مراقبة الأثر وتقييمه لإبلاغ السياسات، وتطوير نماذج الأعمال، وخلق آليات تمويل مبتكرة. تظهر هذه المبادرات كيف يمكن للبيانات أن تدفع القرارات المستندة إلى الأدلة، وتُعلم الإصلاحات التنظيمية، وتدعم الاعتماد الواسع النطاق لأنظمة الطاقة المستدامة (SES).<br /> <br />تتعمق هذه الدرس في مراحل سلسلة قيمة البيانات وتستكشف التحديات التي تواجهها المجتمعات النامية في الاستفادة من البيانات من أجل التنمية المستدامة للطاقة. تحلل هذه الدراسة الدور الحاسم للبيانات في سد الفجوات المعرفية وتعزيز التحولات الطاقية العادلة."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_13.png",
+          "caption": ""
+        },
+        "intro": "M7: بيانات في الطاقة المستدامة | الفصل 1 | الدرس 3 | الجزء 1",
+        "title": "الجزء 1: مراحل سلسلة قيمة البيانات"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>الجزء 1 نظرة عامة</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "سلسلة قيمة البيانات تتكون من أربع مراحل مترابطة: الجمع، التحويل، إنشاء القيمة، واستخدام البيانات. تتضمن هذه المراحل الأساسية أنشطة فرعية لإدارة البيانات، تضمن بشكل جماعي جودة وسلامة البيانات المقدمة من مصدر البيانات إلى المستخدم النهائي للاستخدام. توضح الشكل العش كيف تتدفق البيانات عبر كل من المراحل الأربع حتى يتم تحويلها إلى رؤى تدعم اتخاذ القرارات المستندة إلى البيانات."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_horizontal",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_13.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_9.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>توليد البيانات وجمعها</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "بمجرد تحديد التطبيق ومصادر توليد البيانات المقابلة، يتم نشر تقنيات التقاط البيانات بشكل استراتيجي في موقع الاهتمام لاستخراج البيانات الخام التي ستستخدم لإبلاغ الاستراتيجيات ودعم اتخاذ القرارات المستندة إلى الأدلة. تشمل مجالات النشر النموذجية أنظمة الطاقة المتجددة التي توفر بيانات حول مستويات التوليد وتشغيل النظام، ومحطات الأرصاد الجوية التي توفر بيانات حول الظروف الجوية، وأجهزة القياس التي تقدم رؤى حول استهلاك الطاقة. تقوم التكنولوجيا المنفذة باستخراج وتسجيل البيانات الخام، مما preparesها للإرسال عبر شبكة الاتصالات إلى منصة التحليلات."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "توليد بيانات الطاقة وجمعها أساسيان لوظائف وتقدم الشبكات الذكية. يوضح الرسم البياني التالي التطور من الشبكات التقليدية إلى الشبكة الذكية 1.0 والشبكة الذكية 2.0، مع تسليط الضوء على كيفية أن البيانات أصبحت مركزية لبناء أنظمة طاقة أكثر ديناميكية وترابطًا. تعتمد مكونات مثل العدادات الذكية، والشبكات الصغيرة، وإدارة الشبكات التوزيعية على تدفقات البيانات المستمرة لدعم المراقبة، والتحليل، والتحسين. تتيح هذه التدفقات البيانية، التي تم جمعها من مصادر متنوعة مثل أنظمة الطاقة المتجددة، والمركبات الكهربائية، ومنصات التجارة في الطاقة من نظير إلى نظير، تخطيطًا واتخاذ قرارات طاقة أكثر دقة. مع تكامل البيانات في كل جانب من جوانب نظام الطاقة، لا تعمل الشبكات الذكية على تحسين الأداء التشغيلي فحسب، بل تخلق أيضًا الأساس لمواجهة التحديات النظامية، بما في ذلك موثوقية الشبكة، وتخصيص الموارد بشكل عادل، والانتقال إلى الطاقة منخفضة الكربون."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_horizontal",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_7/M7_C1_9.png",
+          "caption": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>نقل البيانات</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تدمج مرحلة النقل نقل البيانات من جهاز الاستحواذ، عبر شبكة الاتصال، وإلى خادم مخصص أو منصة سحابية للمعالجة. تكنولوجيا التقاط البيانات مدمجة عادةً مع وحدة اتصال تسهل نقل البيانات من الجهاز إلى بوابة ثم تنقل البيانات إلى منصة سحابية للمعالجة. بالنسبة للأجهزة الطرفية، يتم دمج جمع البيانات مع التخزين والمعالجة في موقع المصدر، ويتم نقل البيانات عبر الشبكة للتحليل دون الخضوع لمزيد من المعالجة. <br /><br />تُرسل البيانات عبر تقنيات لاسلكية، مثل الشبكات الخلوية، LPWAN (شبكة المنطقة الواسعة منخفضة الطاقة)، الاتصالات عبر الأقمار الصناعية، وWI-FI، ويعتمد اختيار تقنية الإرسال على حجم حزم البيانات التي يتم إرسالها."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_22.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>المرحلة 2: التحول</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تتضمن هذه المرحلة تحويل البيانات إلى تنسيق قابل للاستخدام للتحليل. تضمن هذه العملية أن تكون الحزمة المرسلة إلى منصة التحليلات بالتنسيق الصحيح ومتوافقة مع منصة التطبيق المركزية، وهو أمر مهم بشكل خاص في الأنظمة التي تحتوي على مصادر متعددة تستخدم مجموعات بيانات غريبة. هناك عمليتان فرعيتان محاطتان تحت هذا العمود: معالجة البيانات وتخزين البيانات (تواكولي وإنجل، 2022)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>معالجة البيانات</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "هذه خطوة حاسمة تبدأ استخراج القيمة من مجموعات البيانات التي تم الحصول عليها. إنه عملية تحول البيانات الخام إلى تنسيق قابل للاستخدام يمكن تفسيره بواسطة منصة التحليل من خلال تنظيف البيانات وإصلاح القيم المفقودة وغير الصالحة، والملاحظات المكررة. عند القيام به بشكل صحيح، تعزز هذه الخطوة سلامة البيانات. نظرًا لحجم البيانات وسرعتها وتنوعها، من الضروري استخدام أدوات وتقنيات مثل إطار حوكمة البيانات، وأدوات ضمان جودة البيانات مثل IBM Databand وBboxx، وممارسات توحيد البيانات لإنتاج التناسق داخل مجموعات البيانات غير المتجانسة باستخدام موارد مثل برنامج المساعدة في إدارة قطاع الطاقة (ESMAP)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>تخزين البيانات</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تُجمع البيانات من مصادر متعددة وتُخزن، ليتم استرجاعها في مرحلة لاحقة للمعالجة. تُخزَّن البيانات محليًا في موقع الموقع، مما يقلل من عدم اتساق الشبكة التي قد تؤثر على النقل في الوقت الفعلي للتطبيقات البعيدة، وبعد النقل، أيضًا في منصات التخزين السحابية البعيدة. يمكن سحب البيانات من قاعدة البيانات وتحليلها."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "أدوات وتقنيات وآليات سلسلة قيمة البيانات التي تدعم تحويل البيانات إلى رؤى قابلة للتنفيذ"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_horizontal",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_7/M7_C1_10.png",
+          "caption": null
+        }
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>المرحلة 3: إنشاء/إضافة القيمة</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "مرحلة إنشاء القيمة هي حجر الزاوية لترجمة البيانات الخام إلى رؤى قابلة للتنفيذ، مما يمكّن من اتخاذ قرارات مستنيرة واستراتيجية. في هذه المرحلة، تخضع البيانات المعالجة من مصادر متنوعة لتحليل شامل لكشف الأنماط، وتوقع الاتجاهات، وتحديد الشذوذ. تعتبر هذه الرؤى أساسًا لتحسين أنظمة الطاقة وتعزيز الكفاءات التشغيلية. تمكن أدوات تحليل البيانات المتقدمة من كل شيء، من المراقبة في الوقت الحقيقي إلى التنبؤات على المدى الطويل، مما يضع الأساس للتدخلات المستندة إلى الأدلة. تُظهر المبادرات مثل تبادل بيانات المستقبل كيف يمكن تحويل الرؤى المستندة إلى البيانات إلى منصات تلهم إجراءات ملموسة وتحسينات نظامية."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>تحليلات البيانات</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تحليل البيانات ضمن عملية خلق القيمة هو متعدد الأوجه، ويشمل فئات مختلفة مصممة لأهداف مختلفة. تساهم كل فئة بشكل فريد في بناء فهم شامل لأنظمة الطاقة، مما يدفع الحلول ويمكّن المرونة في مواجهة التحديات.<br /><br /><strong>التحليلات الوصفية<br /></strong>تركز التحليلات الوصفية على تفسير البيانات التاريخية لتوفير فهم واضح للاتجاهات والأنماط والعلاقات الماضية. تقوم هذه الفئة ببناء أطر تساعد المستخدمين النهائيين على فهم بياناتهم، مما يعزز اتخاذ قرارات أفضل. في سياق الطاقة المستدامة:<br />تكشف بيانات استهلاك الطاقة عن اتجاهات الاستخدام التاريخية، مما يُعلم استراتيجيات الكفاءة والاستدامة.<br />تساعد بيانات توليد الطاقة من مصادر طاقة متنوعة في تحديد الأنماط النموذجية، مما يسهل مطابقة العرض والطلب وتوسيع الشبكة بشكل استراتيجي."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>التحليلات التنبؤية<br /></strong>تستخدم التحليلات التنبؤية النماذج الإحصائية والتقنيات الاقتصادية وخوارزميات التعلم الآلي لتوقع الاتجاهات والسيناريوهات المستقبلية. تمكن هذه الرؤى أصحاب المصلحة من معالجة التحديات بشكل استباقي:<br />تتضمن توقعات الطلب على الطاقة القطاعية مؤشرات مثل الناتج المحلي الإجمالي، ونمو السكان، والنشاط الصناعي لضمان تخصيص الموارد بشكل فعال وتصميم السياسات.<br />تتنبأ تحليل بيانات الطقس بأداء محطات الطاقة المتجددة، مما يمكّن من اختيار المواقع المثلى وتصميم الأنظمة لمشاريع الطاقة الشمسية وطاقة الرياح.<br />تستخدم أنظمة مراقبة المعدات تنبيهات العاكس وبيانات المستشعرات لاكتشاف الشذوذ، مما يسمح بالصيانة الاستباقية وتقليل وقت تعطل النظام."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>التحليلات التوجيهية<br /></strong>تتقدم التحليلات التوجيهية إلى ما هو أبعد من التنبؤ، حيث تقدم توصيات قابلة للتنفيذ لتحسين أنظمة الطاقة. [needs translation] AI-driven models and Decision Support Systems (DSS) play a pivotal role in this category:<br />Smart meter data drives incentive-based strategies like demand response programs, encouraging grid flexibility and prosumer participation.<br />SCADA (Supervisory Control And Data Acquisition) system data informs cost-efficient energy dispatch strategies, ensuring the most economical generation technologies support the grid.<br /><br /><strong>Diagnostic Analytics<br /></strong>Diagnostic analytics delves into the root causes of anomalies or system inefficiencies, answering the critical question of \"why it happened.\" This category is vital for identifying bottlenecks and implementing targeted interventions:<br />Geospatial infrastructure mapping highlights areas with energy access deficits, uncovering the structural and policy constraints impeding progress.<br />Land use and demographic data guide off-grid renewable energy installations, ensuring equitable and efficient energy access expansion."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_9.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>المرحلة 4: الاستخدام</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تركز هذه المرحلة على كيفية تقديم البيانات التي تم تحليلها للمستخدم النهائي لأغراض اتخاذ القرار. هناك عمليتان فرعيتان رئيسيتان معنيتان: تصور البيانات ونشر البيانات، وكلاهما يوضح كيف يتفاعل المستخدم أو النظام مع البيانات بطريقة ذات مغزى. تظهر أدوات مثل مستكشف الوصول إلى الطاقة، ومنصة الكهرباء العالمية، ومنصة بيانات الطاقة، وأداة الوصول إلى الطاقة النظيفة الإمكانات المؤثرة للوحة المعلومات المدفوعة بالبيانات في إبلاغ الاستراتيجيات وتسريع مبادرات تطوير الطاقة المستدامة.<br /><br />تعتبر عرض البيانات والتصورات أساسية للتواصل الفعال مع الرؤى المستمدة من التحليل، والتي يمكن استخدامها بعد ذلك لإبلاغ عملية اتخاذ القرار. تسهل هذه العملية ترجمة البيانات المعقدة والقوية إلى تنسيق واضح ومفهوم، مما يتيح التفاعل من أنواع مختلفة من أصحاب المصلحة، وصانعي السياسات، وممثلي المكاتب القطرية، والباحثين. ما يلي يوضح الآليات المختلفة المستخدمة في عرض البيانات. "
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_7.png",
+          "caption": ""
+        },
+        "intro": "M7: بيانات في الطاقة المستدامة | الفصل 1 | الدرس 3 | الجزء 2",
+        "title": "الجزء 2: التغلب على التحديات في البلدان النامية"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>نظرة عامة على الجزء 2</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تحتوي سلسلة قيمة البيانات على إمكانات هائلة لتسريع تطوير الطاقة المستدامة في البلدان النامية، ولكن الحواجز النظامية غالبًا ما تمنع استخدامها الفعال. تتطلب هذه التحديات—المتجذرة في فجوات البنية التحتية، والتعقيدات الاجتماعية والثقافية، وضعف الحوكمة—استراتيجيات شاملة لإطلاق القوة التحويلية للبيانات مع ضمان العدالة. بعد ذلك، سنستكشف هذه العقبات والطرق لمعالجتها."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تواجه الدول النامية عقبات متعددة الأوجه عبر دورة حياة البيانات، من الجمع إلى التطبيق. تزيد الأنظمة المجزأة، والقيود التقنية، فضلاً عن الفوارق الاجتماعية والاقتصادية من هذه التحديات، مما يعرض النتائج للإقصاء."
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>التحديات الرئيسية في سلسلة قيمة البيانات</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>تجزئة البيانات والوصول</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "غالبًا ما تكون مجموعات البيانات الطاقية الحرجة معزولة عبر الوزارات والمنظمات غير الحكومية والجهات الخاصة، مع تنسيقات أو لغات غير متسقة. على سبيل المثال، قد تظل بيانات الكهرباء الريفية باللغات المحلية غير مترجمة، مما يعيق التعاون العالمي."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>القيود الفنية</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تنتج المستشعرات منخفضة التكلفة، على الرغم من كونها ميسورة التكلفة، بيانات غير موثوقة في كثير من الأحيان. تزيد مشكلات التوافق بين الأجهزة من تحديات التشغيل البيني، خاصة عند دمج مجموعات البيانات من مصادر متنوعة."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>الفجوات البشرية والمؤسسية</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تعيق الخبرة الفنية المحدودة والأطر الضعيفة للحكم القدرة على معالجة وتحليل والتصرف بناءً على رؤى البيانات."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Outro_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "سلسلة قيمة بيانات الطاقة—من الجمع إلى التطبيق—مرتبطة ارتباطًا وثيقًا بالديناميات الاجتماعية والثقافية واللامساواة النظامية في البلدان النامية. تجاهل هذه الأبعاد يعرض للخطر استمرار الإقصاء، ويقوض الثقة، ويصمم سياسات لا تلبي احتياجات الفئات المهمشة. أدناه، ندرس التحديات الرئيسية وآثارها على التحولات الطاقية العادلة."
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>الاعتبارات الاجتماعية والثقافية والعدالة</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>الهوية الثقافية والوصول إلى الموارد</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "غالبًا ما تتجاهل جمع بيانات الطاقة الروابط الثقافية بالأرض والموارد. على سبيل المثال، في كولومبيا، حيث تدير المجتمعات الأصلية والأفروكولومبية 33% من الأراضي بشكل جماعي، نادراً ما تتضمن بيانات إزالة الغابات المستخدمة لأهداف المناخ معرفتهم التقليدية. هذا الاستبعاد يشوه نماذج الانتقال الطاقي، مفضلاً مقاييس الكربون على الحفاظ على الثقافة وسبل العيش المرتبطة بالغابات."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>حواجز اللغة والتمثيل</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تُنشَر مجموعات بيانات الطاقة في دول مثل الهند أو نيجيريا غالبًا باللغات الاستعمارية (مثل الإنجليزية)، مما يستبعد السكان الذين يتحدثون فقط اللغات المحلية. هذا يحد من مشاركة المجتمع في التحقق من دقة البيانات أو المشاركة في برامج إدارة الطلب."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>الفجوات بين الجنسين في بيانات الطاقة</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "غالبًا ما تعتمد استطلاعات الطاقة المنزلية في المناطق الريفية على رؤساء الأسر الذكور كالمستجيبين، مما يقلل من تمثيل تجارب النساء مع فقر الطاقة أو احتياجات الطهي النظيف. هذا التحيز في تصميم البيانات ي perpetuates سياسات عمياء للجنس، مما يحد من تأثير البرامج مثل أنظمة الطاقة الشمسية المنزلية أو مبادرات الغاز الحيوي."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_6.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_19.png",
+          "caption": ""
+        },
+        "intro": "M7: بيانات في الطاقة المستدامة | الفصل 1 | الدرس 3 | الجزء 2 | A",
+        "title": "A. إطار حوكمة البيانات لبرنامج الأمم المتحدة الإنمائي لتركيا"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>المكونات الرئيسية للإطار</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "الإطار، الذي تم تطويره من خلال مشاورات متعددة الأطراف مع المؤسسات العامة، والجهات الفاعلة في القطاع الخاص، والأكاديميا، والمنظمات غير الحكومية، مُنظم حول خمسة أعمدة"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>السياسات والتشريعات واللوائح</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "مواءمة ممارسات البيانات في تركيا مع المعايير الدولية (مثل GDPR) لضمان مشاركة البيانات بشكل أخلاقي والامتثال."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>المؤسسات والآليات والعمليات</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تحديد أدوار واضحة لإدارة البيانات وإنشاء أنظمة قابلة للتشغيل البيني لكسر الحواجز."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>أشخاص</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "بناء القدرات الفنية لإدارة البيانات وتعزيز ثقافة الشفافية، بما في ذلك التدريب للحكومة والمجتمع المدني."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>التكنولوجيا والبنية التحتية</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "إعطاء الأولوية للأدوات مثل كتالوجات البيانات وواجهات برمجة التطبيقات والحلول السحابية لتمكين تدفقات البيانات الآمنة والقابلة للتوسع."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>شراكات</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تشجيع التعاون بين القطاعات لمعالجة التحديات المشتركة، مثل دمج بيانات الوصول إلى الطاقة مع استراتيجيات التكيف مع المناخ."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "أحد الركائز الأساسية للإطار هو تركيزه على البنية التحتية العامة الرقمية (DPI)، التي تدعم أنظمة بيانات الطاقة من خلال منصات قابلة للتشغيل البيني للمراقبة في الوقت الحقيقي، والتحليل، ودعم اتخاذ القرار"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>فجوات المستشعر والتشغيل البيني</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "يركز التركيز على البنية التحتية التكنولوجية على تعزيز الاستثمار في أجهزة استشعار عالية الجودة وأنظمة متوافقة، مما يقلل من الأخطاء الناتجة عن الأجهزة منخفضة التكلفة—وهي مشكلة شائعة في مشاريع الطاقة خارج الشبكة."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>نقص في السعة</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تمكّن برامج التدريب تحت عمود \"People\" أصحاب المصلحة المحليين من تحليل بيانات الطاقة، مثل خرائط الإمكانات الشمسية أو أنماط الطلب، مما يضمن أن المجتمعات تشارك في تصميم الحلول."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>العدالة والشمولية</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تضمن الأخلاقيات التي تركز على الناس في الإطار أن المجموعات المهمشة (مثل الأسر الريفية، والتعاونيات التي تقودها النساء) تساهم في بيانات الطاقة وتستفيد منها، مما يتماشى مع الأهداف الأوسع لبرنامج الأمم المتحدة الإنمائي في التحول الرقمي الشامل."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "يمكن أن يعزز توافق تركيا مع الإطار قدرتها على إدارة انتقالات الطاقة المتجددة من خلال ربط بيانات توسيع الشبكة بالمؤشرات الاجتماعية والاقتصادية، مما يضمن عدم ترك أي مجتمع خلفه - نموذج قابل للتطبيق على دول نامية أخرى تواجه تحديات مماثلة في عدالة الطاقة."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "أهداف التعلم",
+        "intro": "إذا كان لديك مساحة لتذكر 3 أشياء فقط:",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_2.png",
+              "caption": ""
+            },
+            "title": "سلسلة قيمة البيانات ضرورية لتحويل البيانات الخام إلى رؤى قابلة للتنفيذ من أجل تطوير الطاقة المستدامة.",
+            "description": "من الجمع إلى الاستخدام، تعمل سلسلة قيمة البيانات على تحسين أنظمة الطاقة، وتحسين إدارة الشبكة، ودعم الحلول اللامركزية، مما يمكّن من اتخاذ قرارات مستنيرة من أجل انتقالات الطاقة المستدامة."
+          },
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_4.png",
+              "caption": ""
+            },
+            "title": "تحليل البيانات المتقدم يفتح إمكانيات بيانات الطاقة.",
+            "description": "تساعد التحليلات الوصفية والتنبؤية والوصفية والتشخيصية في تفسير الاتجاهات، وتوقع السيناريوهات، وتحسين الأنظمة، وتحديد أوجه القصور، مما يمكّن استراتيجيات الطاقة المستندة إلى الأدلة."
+          },
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_3.png",
+              "caption": ""
+            },
+            "title": "تواجه الدول النامية تحديات في الاستفادة من البيانات للطاقة.",
+            "description": "البنية التحتية المحدودة، وأجهزة الاستشعار الضعيفة، والاتصال غير المستقر تعيق استخدام البيانات. تعتبر الاستثمارات في أجهزة الاستشعار عالية الجودة، والاتصال، وبناء القدرات ضرورية لتجاوز هذه الحواجز"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "الموارد الرئيسية",
+        "resources": [
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_7/resource-7131.png",
+              "caption": ""
+            },
+            "href": "https://www.iea.org/reports/world-energy-investment-2023",
+            "text": "الكهرباء 2025",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_7/resource-7132.png",
+              "caption": ""
+            },
+            "href": "https://www.unescap.org/kp/2024/regional-trends-report-2024-energy-connectivity-sustainable-development-asia-and-pacific",
+            "text": "ورقة موقف: الطاقات المتجددة خارج الشبكة لتحقيق الهدف 7 والهدف 13 â أرخص، أنظف، وأكثر ذكاءً",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_7/resource-7133.png",
+              "caption": ""
+            },
+            "href": "https://www.iea.org/reports/world-energy-outlook-2022",
+            "text": "تخطيط الطاقة ونمذجة الدعم في أفريقيا",
+            "cta": "انقر للتنزيل"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter7.1.png",
+          "caption": ""
+        },
+        "intro": "التالي",
+        "title": "الفصل 1 Outro",
+        "cta": "ابدأ التعلم",
+        "nextLessonId": "7.1.-1"
+      }
+    }
+  ]
+}
