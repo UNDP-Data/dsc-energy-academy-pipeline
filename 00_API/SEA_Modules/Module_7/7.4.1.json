@@ -2,6 +2,40 @@
   "id": "7.4.1",
   "segments": [
     {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Takeaways",
+        "intro": "If you only have space to remember 3 things:",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2548_76.webp",
+              "caption": "image caption"
+            },
+            "title": "A.I. revolutionizes predictive maintenance and asset optimization in energy.",
+            "description": "By leveraging machine learning algorithms to analyze real-time and historical data from sensors, A.I. enables proactive maintenance, reducing downtime and operational costs. Applications like GE Renewable Energy’s wind turbine monitoring and Enel Green Power’s solar panel optimization demonstrate how A.I. enhances asset longevity and operational efficiency, ensuring more reliable and sustainable energy infrastructure."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2548_70.webp",
+              "caption": "image caption"
+            },
+            "title": "A.I.-driven energy forecasting and grid management enhance renewable energy integration.",
+            "description": "Advanced A.I. models optimize energy supply-demand balance and improve grid stability. These technologies enable precise forecasting of renewable energy generation, facilitating better grid management and reducing reliance on fossil fuel backups, thereby accelerating the transition to a low-carbon energy system."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2548_64.webp",
+              "caption": "image caption"
+            },
+            "title": "A.I. unlocks energy efficiency across buildings, transport, and industry.",
+            "description": "From optimizing HVAC systems in smart buildings to improving fleet management and industrial processes, A.I. reduces energy consumption and emissions. Real-time data analysis and adaptive algorithms enable dynamic adjustments, enhancing energy efficiency while maintaining performance, as seen in Sweden’s A.I.-driven building energy management systems and A.I.-powered traffic optimization."
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
@@ -13,29 +47,9 @@
           "label": "Lesson",
           "number": "1"
         },
-        "title": "A.I. APPLICATIONS IN ENERGY",
+        "title": "A.I. Applications in Energy",
         "cta": null,
-        "intro": "M7: Data In Sustainable Energy | Chapter 4 | Lesson 1"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Energy systems are becoming increasingly complex due to rising demand and intensified decarbonization efforts. At the same time, the integration of artificial intelligence (AI) into energy systems is playing a growing role in the management of modern power networks. The deepening interaction between power systems and end-user sectors, such as transportation and buildings, is facilitated by multidirectional electricity flows enabled by grid-connected technologies, including electric vehicle (EV) charging stations and residential solar installations. This evolving landscape underscores the need for advanced tools to facilitate information exchange, system planning, and operational efficiency in energy systems."
-            }
-          },
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Lesson 1 Overview</strong>"
-            }
-          }
-        ]
+        "intro": "M7: Data In Sustainable Energy"
       }
     },
     {
@@ -59,6 +73,26 @@
             "title": "generative ai",
             "body": "Generative AI refers to artificial intelligence systems that can create new content, such as text, images, music, or other media, by learning patterns from existing data.",
             "source": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Energy systems are becoming increasingly complex due to rising demand and intensified decarbonization efforts. At the same time, the integration of artificial intelligence (AI) into energy systems is playing a growing role in the management of modern power networks. The deepening interaction between power systems and end-user sectors, such as transportation and buildings, is facilitated by multidirectional electricity flows enabled by grid-connected technologies, including electric vehicle (EV) charging stations and residential solar installations. This evolving landscape underscores the need for advanced tools to facilitate information exchange, system planning, and operational efficiency in energy systems."
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Lesson 1 Overview</strong>"
+            }
           }
         ]
       }
@@ -387,9 +421,27 @@
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Advanced Metering (AMI): </strong>Advanced Metering Infrastructure (AMI) is the set of equipment and systems that have been developed over the last few years to allow the intelligence management of the end-user distribution network. Smart meters, which enable two-way communication between customers and the utility company, are a feature of smart grids. These meters periodically capture data on power consumption, allowing consumers to manage their energy use and supporting dynamic pricing schemes.<br /><br /><strong>Control and Automation of the Grid:</strong> In a smart grid, automation is important. It optimizes electricity flow, detects faults, and monitors grid performance using sophisticated algorithms and control systems. The system can react fast, frequently even before users notice, when a problem is identified, such as a power outage or voltage fluctuation."
+              "text": "Advanced Metering Infrastructure (AMI) is the set of equipment and systems that have been developed over the last few years to allow the intelligence management of the end-user distribution network. Smart meters, which enable two-way communication between customers and the utility company, are a feature of smart grids. These meters periodically capture data on power consumption, allowing consumers to manage their energy use and supporting dynamic pricing schemes."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Advanced Metering (AMI)</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "In a smart grid, automation is important. It optimizes electricity flow, detects faults, and monitors grid performance using sophisticated algorithms and control systems. The system can react fast, frequently even before users notice, when a problem is identified, such as a power outage or voltage fluctuation."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Control and Automation of the Grid</strong>"
             }
           }
         ]
@@ -401,9 +453,27 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Integration of Renewable Energy:</strong> Smart grids play a pivotal role in integrating renewable energy sources by leveraging real-time data and advanced technologies to address the intermittency challenges of renewables. Smart meters, for instance, enable demand-side responses and time-of-use pricing, helping to balance energy loads more effectively. While these tools are not the ultimate solution, they support the overarching goal of creating a more flexible and adaptive grid. By dynamically managing energy flows and coordinating diverse energy sources, smart grids ensure a reliable and stable energy supply, even as the share of variable renewable energy continues to grow.<br /><br /><strong>Programs for Demand Response: </strong>Demand response programs in smart grids empower consumers to take an active role in managing their energy consumption. Through time-of-use pricing, customers are incentivized to reduce their usage or shift it to off-peak hours when electricity demand is lower and prices are more affordable. This not only helps consumers save on energy costs but also supports grid stability by alleviating pressure during peak demand periods, contributing to more efficient load control and a more reliable energy system."
+              "text": "Smart grids play a pivotal role in integrating renewable energy sources by leveraging real-time data and advanced technologies to address the intermittency challenges of renewables. Smart meters, for instance, enable demand-side responses and time-of-use pricing, helping to balance energy loads more effectively. While these tools are not the ultimate solution, they support the overarching goal of creating a more flexible and adaptive grid. By dynamically managing energy flows and coordinating diverse energy sources, smart grids ensure a reliable and stable energy supply, even as the share of variable renewable energy continues to grow."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Integration of Renewable Energy</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Demand response programs in smart grids empower consumers to take an active role in managing their energy consumption. Through time-of-use pricing, customers are incentivized to reduce their usage or shift it to off-peak hours when electricity demand is lower and prices are more affordable. This not only helps consumers save on energy costs but also supports grid stability by alleviating pressure during peak demand periods, contributing to more efficient load control and a more reliable energy system."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Programs for Demand Response</strong>"
             }
           }
         ]
@@ -429,15 +499,27 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Constant data gathering and analysis of grid characteristics, such as voltage, current, frequency, and grid congestion, constitute real-time monitoring. Current data on the state of the grid is provided by sophisticated sensors and communication networks. Managing the unpredictability of renewable energy sources requires real-time monitoring. To maintain grid stability and make effective use of renewable energy, grid operators can make real-time adjustments to configurations and resource allocations depending on actual generation and consumption."
+            }
+          },
+          {
+            "template_id": "bullet_point",
             "content": {
               "text": "<strong>Real-Time Monitoring</strong>"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Constant data gathering and analysis of grid characteristics, such as voltage, current, frequency, and grid congestion, constitute real-time monitoring. Current data on the state of the grid is provided by sophisticated sensors and communication networks. Managing the unpredictability of renewable energy sources requires real-time monitoring. To maintain grid stability and make effective use of renewable energy, grid operators can make real-time adjustments to configurations and resource allocations depending on actual generation and consumption."
+              "text": "Demand response is a technique that involves adjusting energy consumption in reaction to price signals, grid conditions, or other factors. It enables users to choose to adjust or decrease their electricity use at times of peak demand or in reaction to rising electricity costs. By lowering peak load and coordinating energy use with the patterns of renewable energy generation, demand response helps maintain grid balance. Demand response programs, for example, can encourage users to use more electricity or store extra energy during times of strong solar or wind generation, which lessens the need for fossil fuel-based power plants during peak demand."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Demand Response (DR)</strong>"
             }
           },
           {
@@ -455,56 +537,28 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Demand Response (DR)</strong>"
+              "text": "Constant data gathering and analysis of grid characteristics, such as voltage, current, frequency, and grid congestion, constitute real-time monitoring. Current data on the state of the grid is provided by sophisticated sensors and communication networks. Managing the unpredictability of renewable energy sources requires real-time monitoring. To maintain grid stability and make effective use of renewable energy, grid operators can make real-time adjustments to configurations and resource allocations depending on actual generation and consumption."
             }
           },
           {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Demand response is a technique that involves adjusting energy consumption in reaction to price signals, grid conditions, or other factors. It enables users to choose to adjust or decrease their electricity use at times of peak demand or in reaction to rising electricity costs. By lowering peak load and coordinating energy use with the patterns of renewable energy generation, demand response helps maintain grid balance. Demand response programs, for example, can encourage users to use more electricity or store extra energy during times of strong solar or wind generation, which lessens the need for fossil fuel-based power plants during peak demand."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
               "text": "<strong>Real-Time Monitoring</strong>"
             }
           },
           {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Constant data gathering and analysis of grid characteristics, such as voltage, current, frequency, and grid congestion, constitute real-time monitoring. Current data on the state of the grid is provided by sophisticated sensors and communication networks. Managing the unpredictability of renewable energy sources requires real-time monitoring. To maintain grid stability and make effective use of renewable energy, grid operators can make real-time adjustments to configurations and resource allocations depending on actual generation and consumption."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Distribution Automation</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
               "text": "Distribution automation uses advanced control systems and sensors to manage the electricity grid more effectively. Think of it as a smart system that can detect problems, switch off damaged parts of the grid, and even fix itself in some cases. This makes the grid more reliable and able to handle renewable energy sources, like solar and wind, which can be more unpredictable. When combined with real-time monitoring, it can quickly find and isolate issues, minimizing power outages and making sure the grid runs smoothly and efficiently. This technology helps keep the lights on even when things go wrong, improving the overall stability of the energy system."
             }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Distribution Automation</strong>"
+            }
           }
         ]
       }
@@ -515,35 +569,27 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
+            "content": {
+              "text": "To forecast grid conditions, evaluate data from multiple sources, and make well-informed judgements for grid management, advanced grid analytics leverages data analytics and machine learning algorithms. By using these analytics to forecast demand trends, renewable energy output, and grid conditions, grid operators can take proactive measures to maintain the grid. Optimizing the integration of renewable energy is made possible by predictive analytics, which offers insights into energy storage, dispatch tactics, and grid capacity planning."
+            }
+          },
+          {
+            "template_id": "bullet_point",
             "content": {
               "text": "<strong>Advanced Grid Analytics</strong>"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "To forecast grid conditions, evaluate data from multiple sources, and make well-informed judgements for grid management, advanced grid analytics leverages data analytics and machine learning algorithms. By using these analytics to forecast demand trends, renewable energy output, and grid conditions, grid operators can take proactive measures to maintain the grid. Optimizing the integration of renewable energy is made possible by predictive analytics, which offers insights into energy storage, dispatch tactics, and grid capacity planning."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Grid-Connected Energy Storage</strong>"
+              "text": "The idea behind these systems is that they store extra energy during times when renewable energy production is at its peak and release it when required. Examples of these systems include batteries. Energy storage devices are essential for maintaining a balance between supply and demand. By storing excess renewable energy and releasing it during periods of low generation, they maintain grid stability and lessen the need for backup fossil fuel power."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "The idea behind these systems is that they store extra energy during times when renewable energy production is at its peak and release it when required. Examples of these systems include batteries. Energy storage devices are essential for maintaining a balance between supply and demand. By storing excess renewable energy and releasing it during periods of low generation, they maintain grid stability and lessen the need for backup fossil fuel power."
+              "text": "<strong>Grid-Connected Energy Storage</strong>"
             }
           }
         ]
@@ -557,7 +603,7 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2362_1080.webp",
           "caption": ""
         },
-        "intro": "M7: Data In Sustainable Energy | Chapter 4 | Lesson 1 | Part 2 | Case Study",
+        "intro": "M7: Data In Sustainable Energy",
         "title": "Case Study:Moldova"
       }
     },
@@ -647,7 +693,7 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2362_1098.webp",
           "caption": ""
         },
-        "intro": "M7: Data In Sustainable Energy | Chapter 4 | Lesson 1 | Part 3",
+        "intro": "M7: Data In Sustainable Energy",
         "title": "Part 3: A.I. in energy forecasting and demand prediction"
       }
     },
@@ -679,7 +725,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Precise energy forecasts help optimize the operation of power plants, reduce operational costs, and minimize environmental impact by balancing supply and demand efficiently. Machine learning algorithms, such as neural networks, support vector machines, and ensemble learning methods, analyze historical data and identify complex patterns that traditional statistical methods might miss, enabling more accurate predictions and smarter decision-making .<br /><br />One of the pioneering applications of A.I. in energy prediction is Google’s A.I. subsidiary, DeepMind. DeepMind created a machine learning algorithm capable of predicting wind farm productivity, i.e., forecasting wind power, up to 36 hours in advance. By training a neural network on accessible weather forecasts and historical turbine data, DeepMind's system forecasts wind power output and advises on optimal hourly delivery commitments to the power grid a day ahead. This system supports 700MW of wind capacity for powering the company's data centers and offices in the US. It enabled Google to sell wind power supply in advance, increasing its financial value by 20% by early 2019 .<br /><br />Other notable examples are two AI-powered applications developed by ABB in collaboration with Verdigris Technologies, designed to improve energy management in commercial and industrial buildings. The first application, ‘Energy Forecasting,’ uses machine learning algorithms to predict future energy consumption and help businesses manage peak demand, ultimately reducing electricity bills. The second application, ‘Intelligent Alerts,’ leverages AI to continuously monitor critical assets, detecting potential issues before they cause disruptions to energy supply. These applications are part of ABB's Open Innovation program, which focuses on digital transformation by providing advanced tools for better energy management and cost reduction . Together, these innovations highlight the potential of AI to optimize energy usage, lower operational costs, and improve the reliability and sustainability of energy systems."
+              "text": "Precise energy forecasts help optimize the operation of power plants, reduce operational costs, and minimize environmental impact by balancing supply and demand efficiently. Machine learning algorithms, such as neural networks, support vector machines, and ensemble learning methods, analyze historical data and identify complex patterns that traditional statistical methods might miss, enabling more accurate predictions and smarter decision-making .<br /><br />One of the pioneering applications of A.I. in energy prediction is Google’s A.I. subsidiary, DeepMind. DeepMind created a machine learning algorithm capable of predicting wind farm productivity, i.e., forecasting wind power, up to 36 hours in advance. By training a neural network on accessible weather forecasts and historical turbine data, DeepMind's system forecasts wind power output and advises on optimal hourly delivery commitments to the power grid a day ahead. This system supports 700MW of wind capacity for powering the company's data centers and offices in the US. It enabled Google to sell wind power supply in advance, increasing its financial value by 20% by early 2019 ."
             }
           }
         ]
@@ -693,7 +739,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>The integration of A.I. and data science in the energy sector has revolutionized predictive maintenance, grid management, and energy forecasting. Advanced machine learning algorithms enable proactive maintenance, enhance operational efficiency, and ensure reliable energy networks. A.I.-driven grid management improves stability and integration of renewable energy sources, while advanced forecasting optimizes resource usage, and reduces costs. These advances demonstrate the profound impact of A.I. in creating a more efficient, resilient, and sustainable energy sector.</strong>"
+              "text": "Other notable examples are two AI-powered applications developed by ABB in collaboration with Verdigris Technologies, designed to improve energy management in commercial and industrial buildings. The first application, ‘Energy Forecasting,’ uses machine learning algorithms to predict future energy consumption and help businesses manage peak demand, ultimately reducing electricity bills. The second application, ‘Intelligent Alerts,’ leverages AI to continuously monitor critical assets, detecting potential issues before they cause disruptions to energy supply. These applications are part of ABB's Open Innovation program, which focuses on digital transformation by providing advanced tools for better energy management and cost reduction . Together, these innovations highlight the potential of AI to optimize energy usage, lower operational costs, and improve the reliability and sustainability of energy systems.<br /><strong><br />The integration of A.I. and data science in the energy sector has revolutionized predictive maintenance, grid management, and energy forecasting. Advanced machine learning algorithms enable proactive maintenance, enhance operational efficiency, and ensure reliable energy networks. A.I.-driven grid management improves stability and integration of renewable energy sources, while advanced forecasting optimizes resource usage, and reduces costs. These advances demonstrate the profound impact of A.I. in creating a more efficient, resilient, and sustainable energy sector.</strong>"
             }
           }
         ]
@@ -707,7 +753,7 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2362_1875.webp",
           "caption": ""
         },
-        "intro": "M7: Data In Sustainable Energy | Chapter 4 | Lesson 1 | Part 4",
+        "intro": "M7: Data In Sustainable Energy",
         "title": "Part 4: Expanding AI Applications in the Energy Sector"
       }
     },
@@ -834,40 +880,6 @@
       }
     },
     {
-      "template_id": "key_takeaways",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Learning Objectives",
-        "intro": "If you only have space to remember 3 things:",
-        "takeaways": [
-          {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2548_76.webp",
-              "caption": "image caption"
-            },
-            "title": "A.I. revolutionizes predictive maintenance and asset optimization in energy.",
-            "description": "By leveraging machine learning algorithms to analyze real-time and historical data from sensors, A.I. enables proactive maintenance, reducing downtime and operational costs. Applications like GE Renewable Energy’s wind turbine monitoring and Enel Green Power’s solar panel optimization demonstrate how A.I. enhances asset longevity and operational efficiency, ensuring more reliable and sustainable energy infrastructure."
-          },
-          {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2548_70.webp",
-              "caption": "image caption"
-            },
-            "title": "A.I.-driven energy forecasting and grid management enhance renewable energy integration.",
-            "description": "Advanced A.I. models optimize energy supply-demand balance and improve grid stability. These technologies enable precise forecasting of renewable energy generation, facilitating better grid management and reducing reliance on fossil fuel backups, thereby accelerating the transition to a low-carbon energy system."
-          },
-          {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2548_64.webp",
-              "caption": "image caption"
-            },
-            "title": "A.I. unlocks energy efficiency across buildings, transport, and industry.",
-            "description": "From optimizing HVAC systems in smart buildings to improving fleet management and industrial processes, A.I. reduces energy consumption and emissions. Real-time data analysis and adaptive algorithms enable dynamic adjustments, enhancing energy efficiency while maintaining performance, as seen in Sweden’s A.I.-driven building energy management systems and A.I.-powered traffic optimization."
-          }
-        ]
-      }
-    },
-    {
       "template_id": "key_resources",
       "color_scheme": "dark",
       "content": {
@@ -908,7 +920,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/lesson742_image.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/image/lesson742_image.webp",
           "caption": ""
         },
         "intro": "Next up",

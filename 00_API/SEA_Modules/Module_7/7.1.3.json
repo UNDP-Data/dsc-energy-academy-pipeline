@@ -35,7 +35,7 @@
         },
         "title": "The Energy Data Value Chain",
         "cta": null,
-        "intro": "M7: Data In Sustainable Energy | Chapter 1 | Lesson 3"
+        "intro": "M7: Data In Sustainable Energy"
       }
     },
     {
@@ -119,7 +119,7 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2310_1297.webp",
           "caption": ""
         },
-        "intro": "M7: Data In Sustainable Energy | Chapter 1 | Lesson 3 | Part 1",
+        "intro": "M7: Data In Sustainable Energy",
         "title": "Part 1: Stages of the Data Value Chain"
       }
     },
@@ -273,45 +273,29 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
+            "content": {
+              "text": "This is a critical step that initiates value extraction from the obtained datasets. It is a process that transforms the raw data into a usable format that can be interpreted by the analytics platform by cleaning the data and fixing missing and invalid values, and duplicate observations. When done properly, this step enhances the integrity of the data. Because of the volume, velocity, and variety of data , it is critical to use tools and techniques like the Data Governance Framework , data quality assurance tools like the IBM Databand and Bboxx , and data standardization practices to produce consistency within heterogenous datasets using resources such as the Energy Sector Management Assistance Program (ESMAP)."
+            }
+          },
+          {
+            "template_id": "bullet_point",
             "content": {
               "text": "<strong>Data Processing</strong>"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "This is a critical step that initiates value extraction from the obtained datasets. It is a process that transforms the raw data into a usable format that can be interpreted by the analytics platform by cleaning the data and fixing missing and invalid values, and duplicate observations. When done properly, this step enhances the integrity of the data. Because of the volume, velocity, and variety of data , it is critical to use tools and techniques like the Data Governance Framework , data quality assurance tools like the IBM Databand and Bboxx , and data standardization practices to produce consistency within heterogenous datasets using resources such as the Energy Sector Management Assistance Program (ESMAP)."
+              "text": "Data from multiple sources are aggregated and stored , to be pulled at a later stage for processing. Data are stored locally at the site location, which mitigates network inconsistencies that may affect real-time transmission for remote applications, and, after transmission, also in remote cloud-based storage platforms. Data can then be pulled from the database and analyzed."
             }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
+          },
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
               "text": "<strong>Data Storage</strong>"
             }
           },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Data from multiple sources are aggregated and stored , to be pulled at a later stage for processing. Data are stored locally at the site location, which mitigates network inconsistencies that may affect real-time transmission for remote applications, and, after transmission, also in remote cloud-based storage platforms. Data can then be pulled from the database and analyzed."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
           {
             "template_id": "paragraph_medium",
             "content": {
@@ -375,7 +359,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Data analytics within the value creation process is multifaceted, encompassing various categories tailored to different objectives. Each category contributes uniquely to building a comprehensive understanding of energy systems, driving solutions, and enabling resilience in the face of challenges.<br /><br /><strong>Descriptive Analytics<br /></strong>Descriptive analytics focuses on interpreting historical data to provide a clear understanding of past trends, patterns, and relationships. This category builds frameworks that help end-users make sense of their data, fostering better decision making. In the context of sustainable energy:<br />Energy consumption data reveals historical usage trends, informing strategies for efficiency and sustainability.<br />Power generation data from diverse energy sources helps identify typical patterns, facilitating supply-demand matching and strategic grid expansion."
+              "text": "Data analytics within the value creation process is multifaceted, encompassing various categories tailored to different objectives. Each category contributes uniquely to building a comprehensive understanding of energy systems, driving solutions, and enabling resilience in the face of challenges."
             }
           }
         ]
@@ -387,9 +371,27 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Descriptive Analytics</strong>"
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Predictive Analytics<br /></strong>Predictive analytics leverages statistical models, econometric techniques, and machine learning algorithms to anticipate future trends and scenarios. These insights empower stakeholders to address challenges proactively:<br />Sectoral energy demand forecasts incorporate indicators like GDP, population growth, and industrial activity to ensure effective resource allocation and policy design.<br />Weather data analysis predicts renewable energy plant performance, enabling optimal site selection and system design for solar and wind energy projects.<br />Equipment monitoring systems use inverter alerts and sensor data to detect anomalies, allowing pre-emptive maintenance and reducing system downtime."
+              "text": "Descriptive analytics focuses on interpreting historical data to provide a clear understanding of past trends, patterns, and relationships. This category builds frameworks that help end-users make sense of their data, fostering better decision making. In the context of sustainable energy:"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Energy consumption data reveals historical usage trends, informing strategies for efficiency and sustainability."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Power generation data from diverse energy sources helps identify typical patterns, facilitating supply-demand matching and strategic grid expansion."
             }
           }
         ]
@@ -401,9 +403,97 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Predictive Analytics</strong>"
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Prescriptive Analytics<br /></strong>Prescriptive analytics advances beyond prediction, offering actionable recommendations for optimizing energy systems. AI-driven models and Decision Support Systems (DSS) play a pivotal role in this category:<br />Smart meter data drives incentive-based strategies like demand response programs, encouraging grid flexibility and prosumer participation.<br />SCADA (Supervisory Control And Data Acquisition) system data informs cost-efficient energy dispatch strategies, ensuring the most economical generation technologies support the grid.<br /><br /><strong>Diagnostic Analytics<br /></strong>Diagnostic analytics delves into the root causes of anomalies or system inefficiencies, answering the critical question of \"why it happened.\" This category is vital for identifying bottlenecks and implementing targeted interventions:<br />Geospatial infrastructure mapping highlights areas with energy access deficits, uncovering the structural and policy constraints impeding progress.<br />Land use and demographic data guide off-grid renewable energy installations, ensuring equitable and efficient energy access expansion."
+              "text": "Predictive analytics leverages statistical models, econometric techniques, and machine learning algorithms to anticipate future trends and scenarios. These insights empower stakeholders to address challenges proactively:"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Sectoral energy demand forecasts incorporate indicators like GDP, population growth, and industrial activity to ensure effective resource allocation and policy design."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Weather data analysis predicts renewable energy plant performance, enabling optimal site selection and system design for solar and wind energy projects."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Equipment monitoring systems use inverter alerts and sensor data to detect anomalies, allowing pre-emptive maintenance and reducing system downtime."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Prescriptive Analytics</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Prescriptive analytics advances beyond prediction, offering actionable recommendations for optimizing energy systems. AI-driven models and Decision Support Systems (DSS) play a pivotal role in this category:"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Smart meter data drives incentive-based strategies like demand response programs, encouraging grid flexibility and prosumer participation."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "SCADA (Supervisory Control And Data Acquisition) system data informs cost-efficient energy dispatch strategies, ensuring the most economical generation technologies support the grid."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Diagnostic Analytics</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Diagnostic analytics delves into the root causes of anomalies or system inefficiencies, answering the critical question of \"why it happened.\" This category is vital for identifying bottlenecks and implementing targeted interventions:"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Geospatial infrastructure mapping highlights areas with energy access deficits, uncovering the structural and policy constraints impeding progress."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Land use and demographic data guide off-grid renewable energy installations, ensuring equitable and efficient energy access expansion."
             }
           }
         ]
@@ -447,7 +537,7 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2310_1305.webp",
           "caption": ""
         },
-        "intro": "M7: Data In Sustainable Energy | Chapter 1 | Lesson 3 | Part 2",
+        "intro": "M7: Data In Sustainable Energy",
         "title": "Part 2: Overcoming Challenges in Developing Countries"
       }
     },
@@ -487,75 +577,51 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Key Challenges in the Data Value Chain</strong>"
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
               "text": "Developing countries face multifaceted obstacles across the data lifecycle, from collection to application. Fragmented systems, technical limitations, as well as social and economic inequities compound these challenges, risking exclusionary outcomes."
             }
           },
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Key Challenges in the Data Value Chain</strong>"
+              "text": "Critical energy datasets are often siloed across ministries, NGOs, and private actors, with inconsistent formats or languages. For example, rural electrification data in local languages may remain untranslated, hindering global collaboration."
             }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
+          },
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
               "text": "<strong>Data Fragmentation and Accessibility</strong>"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Critical energy datasets are often siloed across ministries, NGOs, and private actors, with inconsistent formats or languages. For example, rural electrification data in local languages may remain untranslated, hindering global collaboration."
+              "text": "Low-cost sensors, though affordable, frequently produce unreliable data. Compatibility issues between devices exacerbate interoperability challenges, especially when merging datasets from diverse sources."
             }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
+          },
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
               "text": "<strong>Technical Limitations</strong>"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Low-cost sensors, though affordable, frequently produce unreliable data. Compatibility issues between devices exacerbate interoperability challenges, especially when merging datasets from diverse sources."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Human and Institutional Gaps</strong>"
+              "text": "Limited technical expertise and weak governance frameworks stifle the ability to process, analyze, and act on data insights."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Limited technical expertise and weak governance frameworks stifle the ability to process, analyze, and act on data insights."
+              "text": "<strong>Human and Institutional Gaps</strong>"
             }
           }
         ]
@@ -569,6 +635,50 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2364_388.webp",
           "caption": ""
         }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Energy data collection often overlooks cultural ties to land and resources. For example, in Colombia, where indigenous and Afro-Colombian communities collectively manage 33% of the territory, deforestation data used for climate goals rarely incorporates their traditional knowledge. This exclusion skews energy transition models, prioritizing carbon metrics over cultural preservation and livelihoods tied to forests."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Cultural Identity and Resource Access</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Energy datasets in countries like India or Nigeria are often published in colonial languages (e.g., English), excluding populations who speak only local languages. This limits community engagement in validating data accuracy or participating in demand-side management programs."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Language and Representation Barriers</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Household energy surveys in rural areas frequently default to male heads of households as respondents, underrepresenting women’s experiences with energy poverty or clean cooking needs. This bias in data design perpetuates gender-blind policies, limiting the impact of programs like solar home systems or biogas initiatives."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Gender Disparities in Energy Data</strong>"
+            }
+          }
+        ]
       }
     },
     {
@@ -592,66 +702,6 @@
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Cultural Identity and Resource Access</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Energy data collection often overlooks cultural ties to land and resources. For example, in Colombia, where indigenous and Afro-Colombian communities collectively manage 33% of the territory, deforestation data used for climate goals rarely incorporates their traditional knowledge. This exclusion skews energy transition models, prioritizing carbon metrics over cultural preservation and livelihoods tied to forests."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Language and Representation Barriers</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Energy datasets in countries like India or Nigeria are often published in colonial languages (e.g., English), excluding populations who speak only local languages. This limits community engagement in validating data accuracy or participating in demand-side management programs."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Gender Disparities in Energy Data</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Household energy surveys in rural areas frequently default to male heads of households as respondents, underrepresenting women’s experiences with energy poverty or clean cooking needs. This bias in data design perpetuates gender-blind policies, limiting the impact of programs like solar home systems or biogas initiatives."
-            }
-          }
-        ]
-      }
-    },
-    {
       "template_id": "photo_full_height",
       "color_scheme": "light",
       "content": {
@@ -669,8 +719,8 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2310_1518.webp",
           "caption": ""
         },
-        "intro": "M7: Data In Sustainable Energy | Chapter 1 | Lesson 3 | Part 2 | A",
-        "title": "A. UNDP Data Governance Framework for Türkiye"
+        "intro": "M7: Data In Sustainable Energy",
+        "title": "A: UNDP Data Governance Framework for Türkiye"
       }
     },
     {
@@ -699,179 +749,41 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Policies, Legislation, and Regulations</strong>"
+              "text": "The focus on technology infrastructure promotes investment in high-quality sensors and compatible systems, mitigating errors from low-cost devices—a common issue in off-grid energy projects."
             }
           },
           {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Aligning Türkiye’s data practices with international standards (e.g., GDPR) to ensure ethical data sharing and compliance."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Institutions, Mechanisms, and Processes</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Establishing clear roles for data stewardship and creating interoperable systems to break down silos."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>People</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Building technical capacity for data management and fostering a culture of transparency, including training for government and civil society."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Technology and Infrastructure</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Prioritizing tools like data catalogs, APIs, and cloud solutions to enable secure, scalable data flows."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Partnerships</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Encouraging cross-sector collaboration to address shared challenges, such as integrating energy access data with climate adaptation strategies."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "A cornerstone of the framework is its emphasis on Digital Public Infrastructure (DPI), which underpins energy data systems through interoperable platforms for real-time monitoring, analysis, and decision support"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
               "text": "<strong>Sensor and Interoperability Gaps</strong>"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "The focus on technology infrastructure promotes investment in high-quality sensors and compatible systems, mitigating errors from low-cost devices—a common issue in off-grid energy projects."
+              "text": "Training programs under the “People” pillar empower local stakeholders to analyze energy data, such as solar potential maps or demand patterns, ensuring communities co-design solutions"
             }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
+          },
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
               "text": "<strong>Capacity Shortfalls</strong>"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Training programs under the “People” pillar empower local stakeholders to analyze energy data, such as solar potential maps or demand patterns, ensuring communities co-design solutions"
+              "text": "The framework’s people-centric ethos ensures marginalized groups (e.g., rural households, women-led cooperatives) contribute to and benefit from energy data, aligning with UNDP’s broader goals of inclusive digital transformation"
             }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
+          },
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
               "text": "<strong>Equity and Inclusion</strong>"
             }
           },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "The framework’s people-centric ethos ensures marginalized groups (e.g., rural households, women-led cooperatives) contribute to and benefit from energy data, aligning with UNDP’s broader goals of inclusive digital transformation"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
           {
             "template_id": "paragraph_medium",
             "content": {
@@ -882,10 +794,96 @@
       }
     },
     {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Aligning Türkiye’s data practices with international standards (e.g., GDPR) to ensure ethical data sharing and compliance."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Policies, Legislation, and Regulations</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Establishing clear roles for data stewardship and creating interoperable systems to break down silos."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Institutions, Mechanisms, and Processes</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Building technical capacity for data management and fostering a culture of transparency, including training for government and civil society."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>People</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Prioritizing tools like data catalogs, APIs, and cloud solutions to enable secure, scalable data flows."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Technology and Infrastructure</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Encouraging cross-sector collaboration to address shared challenges, such as integrating energy access data with climate adaptation strategies."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Partnerships</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "Aligning Türkiye’s data practices with international standards (e.g., GDPR) to ensure ethical data sharing and compliance."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "text": "<strong>Policies, Legislation, and Regulations</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A cornerstone of the framework is its emphasis on Digital Public Infrastructure (DPI), which underpins energy data systems through interoperable platforms for real-time monitoring, analysis, and decision support"
+            }
+          }
+        ]
+      }
+    },
+    {
       "template_id": "key_takeaways",
       "color_scheme": "dark",
       "content": {
-        "title": "Learning Objectives",
+        "title": "Key Takeaways",
         "intro": "If you only have space to remember 3 things:",
         "takeaways": [
           {
