@@ -83,7 +83,7 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "subtitle_small",
             "content": {
               "text": "<strong>Energy consumption is closely tied to HDI. </strong>"
             }
@@ -103,19 +103,21 @@
           {
             "template_id": "bullet_point",
             "content": {
-              "text": "278 kilowatt-hours (kWh) of electricity"
+              "title": "",
+              "body": "278 kilowatt-hours (kWh) of electricity"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "text": "26 liters of gasoline"
+              "title": "",
+              "body": "26 liters of gasoline"
             }
           },
           {
             "template_id": "paragraph_small",
             "content": {
-              "text": "For context, 278 kWh of electricity is about three times less than the average monthly household consumption in the U.S. (875 kWh per month) (EIA, 2024). Alternatively, this is roughly the monthly consumption of a small energy-efficient freezer, which uses around 39 kWh per month (Silicon Valley Power, 2024)."
+              "text": "<em>For context, 278 kWh of electricity is about three times less than the average monthly household consumption in the U.S. (875 kWh per month) </em><a href=\"https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php\"><em><u>(EIA, 2024)</u></em></a><em>. Alternatively, this is roughly the monthly consumption of a small energy-efficient freezer, which uses around 39 kWh per month </em><a href=\"https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart\"><em><u>(Silicon Valley Power, 2024)</u></em></a><em>.</em>"
             }
           }
         ]
@@ -181,79 +183,39 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Key observations</strong>"
+              "text": ""
             }
           },
           {
-            "template_id": "bullet_point",
+            "template_id": "bullet_point_with_number",
             "content": {
-              "text": "Oil, coal, and natural gas are the largest primary energy sources."
+              "number": "1",
+              "title": "<strong>Fossil fuels dominate</strong>",
+              "body": "Oil, coal, and natural gas are the largest primary energy sources."
             }
           },
           {
-            "template_id": "bullet_point",
+            "template_id": "bullet_point_with_number",
             "content": {
-              "text": "<strong>Fossil fuels dominate</strong>"
+              "number": "2",
+              "title": "<strong>Energy losses</strong>",
+              "body": "Gray areas show energy lost during transformation and transmission."
             }
           },
           {
-            "template_id": "bullet_point",
+            "template_id": "bullet_point_with_number",
             "content": {
-              "text": "<strong>1.</strong>"
+              "number": "3",
+              "title": "<strong>Sector dependencies</strong>",
+              "body": "Transport relies heavily on oil <br />Industry uses a mix of sources, including coal and natural gas <br />Buildings depend on electricity and direct fuel use"
             }
           },
           {
-            "template_id": "bullet_point",
+            "template_id": "bullet_point_with_number",
             "content": {
-              "text": "Gray areas show energy lost during transformation and transmission."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "<strong>Energy losses</strong>"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "<strong>2.</strong>"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "Transport relies heavily on oil <br />Industry uses a mix of sources, including coal and natural gas <br />Buildings depend on electricity and direct fuel use"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "<strong>Sector dependencies</strong>"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "<strong>3.</strong>"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "Hydrogen appears as both an energy carrier and end-use, indicating its growing role."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "<strong>Emerging technologies</strong>"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "<strong>4.</strong>"
+              "number": "4",
+              "title": "<strong>Emerging technologies</strong>",
+              "body": "Hydrogen appears as both an energy carrier and end-use, indicating its growing role."
             }
           }
         ]
@@ -325,51 +287,35 @@
             }
           },
           {
-            "template_id": "bullet_point",
+            "template_id": "bullet_point_with_number",
             "content": {
-              "text": "Energy consumption disparities and unequal access to resources and economic growth across nations"
+              "number": "1",
+              "title": "",
+              "body": "Energy consumption disparities and unequal access to resources and economic growth across nations"
             }
           },
           {
-            "template_id": "bullet_point",
+            "template_id": "bullet_point_with_number",
             "content": {
-              "text": "<strong>1.</strong>"
+              "number": "2",
+              "title": "",
+              "body": "Negative environmental and health impacts from emissions"
             }
           },
           {
-            "template_id": "bullet_point",
+            "template_id": "bullet_point_with_number",
             "content": {
-              "text": "Negative environmental and health impacts from emissions"
+              "number": "3",
+              "title": "",
+              "body": "Inefficiencies in the energy system"
             }
           },
           {
-            "template_id": "bullet_point",
+            "template_id": "bullet_point_with_number",
             "content": {
-              "text": "<strong>2.</strong>"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "Inefficiencies in the energy system"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "<strong>3.</strong>"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "Global instability affecting energy supply security and price fluctuations."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "text": "<strong>4.</strong>"
+              "number": "4",
+              "title": "",
+              "body": "Global instability affecting energy supply security and price fluctuations."
             }
           }
         ]
@@ -429,25 +375,28 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "For comparison, common household appliances consume:"
+              "text": "<em>For comparison, </em><a href=\"https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart\"><em><u>common household appliances consume</u></em></a><em>:</em>"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "text": "A refrigerator: ~39 kWh per month (~0.47 GJ per year)"
+              "title": "",
+              "body": "A refrigerator: ~39 kWh per month (~0.47 GJ per year)"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "text": "A washing machine: ~1.9 kWh per cycle (~0.007 GJ per cycle)"
+              "title": "",
+              "body": "A washing machine: ~1.9 kWh per cycle (~0.007 GJ per cycle)"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "text": "An electric water heater: ~380-450 kWh per month (~1.4-1.6 GJ per month)"
+              "title": "",
+              "body": "An electric water heater: ~380-450 kWh per month (~1.4-1.6 GJ per month)"
             }
           }
         ]
