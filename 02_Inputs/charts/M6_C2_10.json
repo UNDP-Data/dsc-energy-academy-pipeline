@@ -1,0 +1,89 @@
+{
+  "title": {
+    "text": "Global energy sector water withdrawal by fuel and power generation method",
+    "subtext": null,
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": "Source: Clean energy can help to ease the water crisis (IEA), 2023",
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "data": [
+      "Power: Renewables",
+      "Power: Nuclear",
+      "Power: Fossil fuels",
+      "Primary: Hydrogen",
+      "Primary: Fossil fuels",
+      "Primary: Bioenergy"
+    ],
+    "axisLabel": {
+      "interval": 0
+    },
+    "name": "Fuel / Power Generation Method"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "name": "2021 (BCM)",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        11.740890688258958,
+        107.28744939271304,
+        189.8785425101205,
+        2.024291497975696,
+        22.2672064777328,
+        37.246963562753
+      ]
+    },
+    {
+      "name": "2030 (BCM)",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        18.274853801169,
+        128.62685560053998,
+        171.9710601289545,
+        3.2801019643123936,
+        21.789248762933,
+        49.3739691108111
+      ]
+    }
+  ]
+}

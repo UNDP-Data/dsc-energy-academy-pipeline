@@ -1,0 +1,82 @@
+{
+  "title": {
+    "text": "Population with access to clean fuels and technologies for cooking by SDG region (percent)",
+    "subtext": null,
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": "Source: WHO 2024a. SDG = Sustainable Development Goal.",
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "value",
+    "boundaryGap": [
+      0,
+      0.01
+    ]
+  },
+  "yAxis": {
+    "type": "category",
+    "data": [
+      "Western Asia and Northern Africa",
+      "Sub-Saharan Africa",
+      "Oceania excluding Australia and New Zealand",
+      "Northern America and Europe",
+      "Latin America and the Caribbean",
+      "Eastern Asia and South-eastern Asia",
+      "Central Asia and Southern Asia"
+    ],
+    "name": "Region"
+  },
+  "series": [
+    {
+      "name": "Urban (%)",
+      "type": "bar",
+      "data": [
+        97,
+        40,
+        45,
+        100,
+        94,
+        93,
+        90
+      ]
+    },
+    {
+      "name": "Rural (%)",
+      "type": "bar",
+      "data": [
+        82,
+        7,
+        8,
+        97,
+        64,
+        73,
+        54
+      ]
+    }
+  ],
+  "grid": {
+    "left": 300
+  }
+}

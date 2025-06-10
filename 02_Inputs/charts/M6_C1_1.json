@@ -1,0 +1,70 @@
+{
+  "title": {
+    "text": "Global greenhouse gas emissions by sector and end use, 2021",
+    "subtext": null,
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": false,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": "Source: Climate watch",
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "tooltip": {
+    "trigger": "item"
+  },
+  "series": [
+    {
+      "name": "Access From",
+      "type": "pie",
+      "radius": "50%",
+      "data": [
+        {
+          "name": "Energy",
+          "value": 75.7
+        },
+        {
+          "name": "Agriculture",
+          "value": 11.7
+        },
+        {
+          "name": "Industrial Processes",
+          "value": 6.5
+        },
+        {
+          "name": "Waste",
+          "value": 3.4
+        },
+        {
+          "name": "Land Use Change and Forestry",
+          "value": 2.7
+        }
+      ],
+      "emphasis": {
+        "itemStyle": {
+          "shadowBlur": 10,
+          "shadowOffsetX": 0,
+          "shadowColor": "rgba(0, 0, 0, 0.5)"
+        }
+      }
+    }
+  ]
+}

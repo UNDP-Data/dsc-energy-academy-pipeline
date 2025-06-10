@@ -1,0 +1,113 @@
+{
+  "title": {
+    "text": "INTERNATIONAL PUBLIC FINANCIAL FLOWS TO LEAST-DEVELOPED COUNTRIES, LANDLOCKED DEVELOPING COUNTRIES, AND SMALL ISLAND DEVELOPING STATES, 2010-22",
+    "subtext": null,
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": null,
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "data": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "name": "Year"
+  },
+  "yAxis": {
+    "type": "value",
+    "name": "LDCs (USD bn), LLDCs (USD bn), SIDS (USD bn)"
+  },
+  "series": [
+    {
+      "type": "line",
+      "name": "LDCs (USD bn)",
+      "data": [
+        0.4,
+        1.5,
+        2.1,
+        2.9,
+        3.0,
+        2.4,
+        7.5,
+        6.0,
+        3.0,
+        2.0,
+        1.5,
+        2.0,
+        2.3
+      ]
+    },
+    {
+      "type": "line",
+      "name": "LLDCs (USD bn)",
+      "data": [
+        0.6,
+        0.9,
+        1.4,
+        2.6,
+        2.8,
+        1.9,
+        6.0,
+        5.2,
+        3.1,
+        2.3,
+        1.5,
+        1.4,
+        2.7
+      ]
+    },
+    {
+      "type": "line",
+      "name": "SIDS (USD bn)",
+      "data": [
+        0.1,
+        0.2,
+        0.3,
+        0.2,
+        0.3,
+        0.3,
+        0.4,
+        0.3,
+        0.2,
+        0.2,
+        0.3,
+        0.3,
+        0.3
+      ]
+    }
+  ]
+}

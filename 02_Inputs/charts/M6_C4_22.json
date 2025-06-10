@@ -1,0 +1,192 @@
+{
+  "title": {
+    "text": "Battery Demand By Mode and Region, 2016-2022",
+    "subtext": null,
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": "Notes: LDVs = light-duty vehicles, including cars and vans; In the left chart, \u201cOther\u201d includes medium- and heavy-duty \ntrucks and two/three-wheelers. Battery demand refers to automotive lithium-ion batteries. This analysis does not include \nconventional hybrid vehicles. \nSource: IEA analysis based on EV Volumes. ",
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "data": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "axisLabel": {
+      "interval": 0
+    },
+    "name": "Year"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "name": "LDVs",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        22.3,
+        36.7,
+        75.3,
+        96.5,
+        129.7,
+        292.5,
+        501.9
+      ]
+    },
+    {
+      "name": "Bus",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        11.5,
+        12.8,
+        16.2,
+        15.5,
+        14.1,
+        11.2,
+        13.0
+      ]
+    },
+    {
+      "name": "Other",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        10.0,
+        31.2,
+        27.9,
+        22.7,
+        23.9,
+        30.3,
+        35.6
+      ]
+    },
+    {
+      "name": "Europe",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        4.8,
+        7.8,
+        12.0,
+        25.3,
+        53.0,
+        91.7,
+        127.7
+      ]
+    },
+    {
+      "name": "China",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        30.3,
+        61.0,
+        79.5,
+        80.5,
+        84.9,
+        182.1,
+        312.0
+      ]
+    },
+    {
+      "name": "United States",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        6.2,
+        7.7,
+        18.9,
+        19.0,
+        18.6,
+        39.3,
+        70.6
+      ]
+    },
+    {
+      "name": "Other",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        10.0,
+        31.2,
+        27.9,
+        22.7,
+        23.9,
+        30.3,
+        35.6
+      ]
+    }
+  ]
+}

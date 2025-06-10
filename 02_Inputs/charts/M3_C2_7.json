@@ -1,0 +1,123 @@
+{
+  "title": {
+    "text": "Employment difference by sector between the baseline and 1.5\u00b0C Scenario, thousand jobs",
+    "subtext": null,
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": "*World employment, thousand persons",
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "value",
+    "boundaryGap": [
+      0,
+      0.01
+    ]
+  },
+  "yAxis": {
+    "type": "category",
+    "data": [
+      "Agriculture",
+      "Coal",
+      "Oil, gas and manufactured fuels",
+      "Other extraction Industries",
+      "Basic manufacturing",
+      "Engineering and transport equipment",
+      "Electricity supply",
+      "Other Utilities",
+      "Construction",
+      "Distribution and retail",
+      "Transport",
+      "Hotels and catering; Communications, publishing and television",
+      "Business services",
+      "Public and personal services"
+    ],
+    "name": "Sector"
+  },
+  "series": [
+    {
+      "name": "2030",
+      "type": "bar",
+      "data": [
+        11081.3024109014,
+        -5065.07686932215,
+        -4846.69811320754,
+        -160.239737187002,
+        13353.806341719,
+        4231.94371651526,
+        1536.3309457256,
+        -961.502453930164,
+        562.915222940451,
+        5854.93513746538,
+        1652.91335458887,
+        3651.24326261097,
+        1526.53675961513,
+        6660.58593042292
+      ]
+    },
+    {
+      "name": "2040",
+      "type": "bar",
+      "data": [
+        7614.53965758211,
+        -6156.97064989517,
+        -7781.16264849755,
+        -215.090689866574,
+        11659.0962031213,
+        2400.74685534591,
+        3515.38842301421,
+        -1782.9503212594,
+        -1158.96588357661,
+        0.0,
+        957.842082233357,
+        1771.39141237674,
+        4204.14086562104,
+        11770.9394896731
+      ]
+    },
+    {
+      "name": "2050",
+      "type": "bar",
+      "data": [
+        3956.69549266247,
+        -7085.08036338225,
+        -9842.11215932914,
+        -171.209927722919,
+        9316.07413230841,
+        0.0,
+        4982.62069065921,
+        -2114.68888306545,
+        0.0,
+        -2090.99327150787,
+        0.0,
+        799.871338516191,
+        8082.32262387737,
+        14290.5728519618
+      ]
+    }
+  ],
+  "grid": {
+    "left": 300
+  }
+}

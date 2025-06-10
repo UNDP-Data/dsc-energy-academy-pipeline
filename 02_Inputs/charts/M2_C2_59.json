@@ -1,0 +1,266 @@
+{
+  "title": {
+    "text": "ANNUAL INTERNATIONAL PUBLIC FINANCIAL FLOWS TO RENEWABLES, BY REGION, 2010-22",
+    "subtext": null,
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": null,
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "data": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "axisLabel": {
+      "interval": 0
+    },
+    "name": "Year"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "name": "Sub-Saharan Africa",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        1.65,
+        3.0,
+        1.52,
+        4.72,
+        2.68,
+        3.88,
+        9.87,
+        4.22,
+        4.91,
+        3.08,
+        3.76,
+        4.45,
+        4.56
+      ]
+    },
+    {
+      "name": "Latin America and the Caribbean",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        4.59,
+        2.55,
+        2.65,
+        3.22,
+        6.64,
+        2.76,
+        5.95,
+        4.76,
+        2.18,
+        2.45,
+        3.08,
+        1.75,
+        3.75
+      ]
+    },
+    {
+      "name": "Central Asia and Southern Asia",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        1.08,
+        2.97,
+        2.64,
+        2.05,
+        1.91,
+        2.83,
+        4.13,
+        3.26,
+        2.49,
+        2.54,
+        2.24,
+        3.0,
+        1.83
+      ]
+    },
+    {
+      "name": "Western Asia and Northern Africa",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        2.14,
+        1.48,
+        1.74,
+        1.06,
+        1.91,
+        1.5,
+        3.5,
+        3.26,
+        2.47,
+        1.99,
+        1.04,
+        1.5,
+        1.72
+      ]
+    },
+    {
+      "name": "Eastern Asia and South-eastern Asia",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0.92,
+        2.74,
+        1.27,
+        1.91,
+        2.85,
+        1.8,
+        3.41,
+        3.47,
+        3.26,
+        0.97,
+        1.12,
+        1.5,
+        1.37
+      ]
+    },
+    {
+      "name": "Oceania",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.11,
+        0.12,
+        0.26,
+        0.18,
+        0.18,
+        0.18,
+        0.22
+      ]
+    },
+    {
+      "name": "Northern America and Europe",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0.8,
+        0.96,
+        1.0,
+        1.45,
+        2.0,
+        1.46,
+        3.11,
+        2.0,
+        1.26,
+        0.92,
+        0.72,
+        0.75,
+        1.63
+      ]
+    },
+    {
+      "name": "Unspecified countries",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "0.55",
+        "0.97",
+        "0.25",
+        "0.35"
+      ]
+    }
+  ]
+}

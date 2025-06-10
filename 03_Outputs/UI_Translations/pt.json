@@ -1,0 +1,373 @@
+{
+  "globals": {
+    "lessonProgress": {
+      "not_started": "Não iniciado",
+      "in_progress": "Em progresso",
+      "completed": "Concluído"
+    }
+  },
+  "SignInPage": {
+    "title": "Bom te ver novamente",
+    "noAccount": "Você ainda não tem uma conta?",
+    "signUp": "Inscreva-se agora",
+    "SignInForm": {
+      "login": {
+        "label": "Entrar",
+        "placeholder": "Email ou número de telefone",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "Por favor, insira um endereço de e-mail válido"
+      },
+      "password": {
+        "label": "Senha",
+        "placeholder": "Senha",
+        "requiredError": "Este campo é obrigatório"
+      },
+      "remember": "Lembre-se de mim",
+      "forgot": "Esqueceu a senha?",
+      "submit": "Entrar",
+      "credentialsError": "Não conseguimos encontrar uma correspondência. Por favor, verifique seu nome de usuário e senha, ou <signup>crie uma conta</signup> se você é novo.",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência."
+    }
+  },
+  "SignUpPage": {
+    "title": "Bem-vindo",
+    "SignUpForm": {
+      "email": {
+        "label": "Email",
+        "placeholder": "Email",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "Por favor, insira um endereço de e-mail válido"
+      },
+      "password": {
+        "label": "Senha",
+        "placeholder": "Senha",
+        "hint": "mínimo de 8 caracteres",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "A senha deve conter pelo menos 8 caracteres"
+      },
+      "confirmPassword": {
+        "label": "Confirmar senha",
+        "placeholder": "Repetir senha",
+        "invalidError": "Por favor, certifique-se de que suas senhas correspondem."
+      },
+      "submit": "Inscreva-se",
+      "alreadyTakenError": "Este endereço de e-mail já está em uso. Por favor, use um e-mail diferente ou <login>faça login</login>.",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência."
+    }
+  },
+  "SiteMenu": {
+    "logo": {
+      "alt": "Logotipo da Academia de Energia Sustentável do PNUD"
+    },
+    "triggerAriaLabel": "Abrir o menu",
+    "navigation": {
+      "home": "Início",
+      "knowledgeGraph": "Gráfico de conhecimento",
+      "modules": "Academia",
+      "resources": "Recursos",
+      "energyAi": "IA Energética",
+      "geospatial": "Geoespacial",
+      "profile": "Perfil",
+      "signIn": "Entrar",
+      "signOut": "Sair"
+    },
+    "languageSelector": {
+      "label": "Seleção de idioma",
+      "select": "Selecionar idioma"
+    },
+    "authentication": {
+      "signIn": "Entrar",
+      "signOut": "Sair",
+      "profileAriaLabel": "Vá para a sua página de perfil",
+      "profile": "Seu perfil",
+      "dropdownToggleAriaLabel": "Alternar o menu do perfil do usuário"
+    }
+  },
+  "SiteFooter": {
+    "terms": "Termos de uso",
+    "colophon": "© 2023 Programa das Nações Unidas para o Desenvolvimento",
+    "social": {
+      "facebook": "Visite nossa página do Facebook",
+      "twitter": "Visite nossa página do Twitter",
+      "instagram": "Visite nossa página do Instagram",
+      "linkedin": "Visite nossa página do LinkedIn",
+      "youtube": "Visite nosso canal no YouTube"
+    }
+  },
+  "PasswordInput": {
+    "hide": "Ocultar senha",
+    "show": "Mostrar senha"
+  },
+  "QuickLinks": {
+    "goTo": "Ir para",
+    "scroll": "Role para saber mais"
+  },
+  "HomePage": {
+    "LandingHero": {
+      "title": "Academia de Energia Sustentável",
+      "registerCta": "Comece a aprender",
+      "aiCtaShort": "Pergunte à IA de Energia",
+      "aiCta": "Faça uma pergunta para a IA de Energia",
+      "scroll": "ou role para explorar a <bold>Plataforma de Inteligência Digital</bold>"
+    },
+    "Welcome": {
+      "title": "Bem-vindo de volta <bold>{name}</bold>, pronto para continuar suas lições?"
+    },
+    "Carousel1": {
+      "intro": "Parte da Plataforma de Inteligência Digital em Energia Sustentável",
+      "title": "Energia para o desenvolvimento",
+      "list": "<item>A <bold>Academia de Energia Sustentável</bold> - Mergulhe em liderança de pensamento, visualização de dados e mais de 40 horas de conteúdo liderado por especialistas em 8 módulos explorando o caminho da Energia para o Desenvolvimento.</item><item><bold>IA Energética e Gráfico de Conhecimento</bold> - Aproveite o poder da IA e dos dados interconectados para descobrir insights, tomar decisões mais inteligentes e acelerar soluções de energia sustentável.</item><item><bold>Dados Geoespaciais</bold> - Acesse dados espaciais para analisar o acesso à energia, identificar lacunas de equidade e identificar oportunidades para ações direcionadas - bem na ponta dos seus dedos.</item>",
+      "slides": {
+        "item1": {
+          "alt": "Imagem 1"
+        },
+        "item2": {
+          "alt": "Imagem 2"
+        },
+        "item3": {
+          "alt": "Imagem 3"
+        }
+      }
+    },
+    "Carousel2": {
+      "intro": "ÁREA DE FOCO DA ACADEMIA DE ENERGIA SUSTENTÁVEL",
+      "title": "Energia para o desenvolvimento",
+      "list": "<item><bold>Fechar a lacuna no acesso à energia</bold> para que pessoas e comunidades marginalizadas tenham acesso a energia sustentável e limpa, bem como à dignidade e às oportunidades que ela traz.</item><item><bold>Acelerar a transição energética</bold> por meio de mudanças no sistema que apoiem uma recuperação verde e melhorem a eficiência ao reunir as melhores ideias do governo, do setor privado, das finanças, do digital e da sociedade civil.</item><item><bold>Catalisar o financiamento energético</bold> trabalhando com o setor público e os ecossistemas financeiros globais, regionais e locais para aumentar os investimentos públicos e privados.</item>",
+      "slides": {
+        "item1": {
+          "alt": "Imagem 1"
+        },
+        "item2": {
+          "alt": "Imagem 2"
+        },
+        "item3": {
+          "alt": "Imagem 3"
+        }
+      }
+    },
+    "Carousel": {
+      "aria": {
+        "section": "carrossel de imagens",
+        "indicator": "slide número {slideNumber}",
+        "slide": "slide {slideNumber} de {slideCount}",
+        "previous": "Vá para o slide anterior",
+        "next": "Vá para o próximo slide"
+      }
+    },
+    "Invitation": {
+      "body": "Bem-vindo à <bold>Plataforma de Inteligência Digital em Energia Sustentável</bold>, uma ferramenta inovadora para impulsionar a transformação do sistema por meio de estratégias integradas e baseadas em dados para escalar o progresso em direção a uma transição energética sustentável, inclusiva e justa."
+    },
+    "Video": {
+      "title": "Título do vídeo",
+      "body": "Nulla pellentesque leo vitae lorem hendrerit, sit amet elementum ipsum rutrum. Morbi ultricies volutpat orci."
+    },
+    "ModulesFeature": {
+      "title": "Explore a plataforma de aprendizado digital da Academia com 8 e-módulos interativos",
+      "body": "Mergulhe em mais de 40 horas de conteúdo escrito por especialistas e liderança de pensamento. Descubra 80 infográficos e 60 visualizações de dados que trazem as tendências energéticas à vida. Aprenda com 70 estudos de caso do mundo real que destacam soluções de energia sustentável impactantes. Ganhe um certificado para cada módulo que você concluir!",
+      "cta": "Explore todos os módulos"
+    },
+    "KnowledgeGraph": {
+      "title": "Em caso de necessidade, pergunte à IA de Energia e ao Grafo de Conhecimento",
+      "body": "A plataforma fornece insights baseados em dados e uma experiência de aprendizado por meio da ferramenta de IA e gráfico de conhecimento, treinada em um banco de dados personalizado de políticas e recursos energéticos, e acessível por meio de uma interface dinâmica para ir além do chat sozinho e mergulhar na abordagem integrada sobre energia sustentável para o desenvolvimento.",
+      "cta": "Pergunte à IA de Energia"
+    }
+  },
+  "ProfilePage": {
+    "section": "Conta",
+    "pageTitle": "Sua página de conta",
+    "anchors": {
+      "dashboard": "Painel",
+      "certificates": "Certificados",
+      "accountSettings": "Configurações da conta"
+    },
+    "Milestones": {
+      "example": "Exemplo de marco"
+    },
+    "ResumeLessons": {
+      "title": "Continue aprendendo"
+    },
+    "StartLessons": {
+      "title": "Começar novo: lições adaptadas às suas áreas de crescimento",
+      "text": "Para fortalecer essas áreas, estas são as lições recomendadas relacionadas a"
+    },
+    "Certificates": {
+      "completed": "completo!",
+      "view": "Ver certificado"
+    },
+    "ProfilePicture": {
+      "altText": "Sua foto de perfil",
+      "hint": "O tamanho da imagem deve ser inferior a 1 Mb",
+      "label": "Carregar foto",
+      "labelUploading": "Carregando foto...",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência.",
+      "fileTooLargeError": "O arquivo é muito grande. Por favor, faça o upload de um arquivo menor que 1 Mb."
+    },
+    "ProfileForm": {
+      "title": "Configurações gerais",
+      "firstName": {
+        "label": "Nome",
+        "placeholder": "Nome",
+        "requiredError": "Este campo é obrigatório"
+      },
+      "lastName": {
+        "label": "Sobrenome",
+        "placeholder": "Sobrenome",
+        "requiredError": "Este campo é obrigatório"
+      },
+      "username": {
+        "label": "Nome de usuário",
+        "placeholder": "Nome de usuário",
+        "requiredError": "Este campo é obrigatório"
+      },
+      "bio": {
+        "label": "Descrição breve",
+        "placeholder": "Seu título, profissão ou pequena biografia"
+      },
+      "save": "Salvar alterações",
+      "saving": "Salvando alterações...",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência."
+    },
+    "ChangePasswordForm": {
+      "title": "Mudar a senha",
+      "currentPassword": {
+        "label": "Senha atual",
+        "placeholder": "Senha atual",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "O campo deve conter pelo menos 8 caracteres"
+      },
+      "newPassword": {
+        "label": "Nova senha",
+        "placeholder": "Nova senha",
+        "hint": "mínimo de 8 caracteres",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "A senha deve conter pelo menos 8 caracteres"
+      },
+      "confirmPassword": {
+        "label": "Confirmar nova senha",
+        "placeholder": "Confirmar nova senha",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "Por favor, certifique-se de que suas senhas correspondem."
+      },
+      "save": "Salvar alterações",
+      "saving": "Salvando alterações...",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência.",
+      "samePasswordError": "A nova senha deve ser diferente da senha atual.",
+      "success": "Senha alterada com sucesso."
+    }
+  },
+  "ModulesPage": {
+    "pageTitle": "Explore a plataforma de aprendizado digital da Academia com 8 e-módulos interativos",
+    "section": "Módulos",
+    "introduction": "Mergulhe em mais de 40 horas de conteúdo escrito por especialistas e liderança de pensamento. Descubra 80 infográficos e 60 visualizações de dados que trazem as tendências energéticas à vida. Aprenda com 70 estudos de caso do mundo real que destacam soluções de energia sustentável impactantes. Ganhe um certificado para cada módulo que você concluir!",
+    "ModulesHeader": {
+      "title": "Explore todos os módulos",
+      "hint": {
+        "mobile": "explore os acordeões para descobrir os módulos.",
+        "desktop": "Clique na roda ou explore os acordeões para descobrir os módulos."
+      },
+      "modes": {
+        "linear": "Modo linear",
+        "network": "Modo de rede"
+      },
+      "legend": {
+        "toc": {
+          "title": "Tipos de conteúdo",
+          "lesson": "Lição",
+          "takeaways": "Principais conclusões",
+          "quiz": "Questionário"
+        },
+        "progress": {
+          "title": "Progresso",
+          "todo": "A fazer",
+          "inProgress": "Em progresso",
+          "completed": "Feito"
+        }
+      }
+    },
+    "LessonList": {
+      "ModulePreview": {
+        "ChapterPreviewCard": {
+          "segment": "Capítulo"
+        },
+        "ModulePreviewHeader": {
+          "module": "Módulo",
+          "chapters": "Capítulos",
+          "time": "Tempo estimado",
+          "notStarted": "Não iniciado",
+          "completion": "conclusão"
+        }
+      }
+    },
+    "ModulePreview": {
+      "startModule": "Iniciar o módulo",
+      "choose": "ou escolha um capítulo:"
+    }
+  },
+  "ResourcesPage": {
+    "pageTitle": "Baixar a página de recursos",
+    "section": "Recursos",
+    "publications": "Publicações e boletins pela SEH",
+    "press": "Comunicados de imprensa do PNUD CO",
+    "allResources": "Todas as publicações e recursos",
+    "viewMore": "Ver mais",
+    "ArticlePreview": {
+      "readMore": "Leia mais"
+    }
+  },
+  "SuggestedLessonCard": {
+    "module": "Módulo",
+    "chapter": "Capítulo",
+    "lesson": "Lição",
+    "resume": "Currículo",
+    "start": "Começar"
+  },
+  "LessonsProgress": {
+    "title": "Suas lições progridem",
+    "completed": "Concluído",
+    "started": "Começado",
+    "notStarted": "Não iniciado"
+  },
+  "ModulesProgress": {
+    "title": "Módulos concluídos"
+  },
+  "KeywordsProgress": {
+    "title": "Suas habilidades para a palavra-chave",
+    "legend": "Número de lições concluídas por palavra-chave."
+  },
+  "404Page": {
+    "title": "Página não encontrada",
+    "body": "Não conseguimos encontrar a página que você está procurando. Tente voltar para a página anterior ou para a página inicial.",
+    "back": "Voltar para a página inicial"
+  },
+  "LessonHeader": {
+    "triggerAriaLabel": "Abrir o menu"
+  },
+  "Templates": {
+    "module": "Módulo",
+    "chapter": "Capítulo",
+    "lesson": "Lição",
+    "part": "Parte"
+  },
+  "ImageHotspot": {
+    "imgAriaLabel": "Fechar a caixa de descrição",
+    "hotspotAriaLabel": "Mostrar detalhes",
+    "hotspotAriaLabelTitle": "Mostrar detalhes sobre {title}"
+  },
+  "ErrorMessage": {
+    "title": "Ops!",
+    "subtitle": "Algo deu errado",
+    "body": "Ocorreu um erro ao carregar a página. Por favor, tente novamente mais tarde.",
+    "backToModules": "Voltar para a Academia",
+    "backToHome": "Voltar para a página inicial"
+  },
+  "SignOutButton": {
+    "signOut": "Sair"
+  },
+  "LessonDesktopMenu": {
+    "toggleMenu": "Alternar menu"
+  },
+  "UserProgressGraph": {
+    "completedLessons": "Aulas concluídas",
+    "completedModules": "Módulos concluídos"
+  }
+}

@@ -1,0 +1,843 @@
+{
+  "id": "7.1.1",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2288_118.webp",
+          "caption": null
+        },
+        "lesson": {
+          "label": "Aula",
+          "number": "1"
+        },
+        "title": "Introdução aos dados de energia",
+        "cta": null,
+        "intro": "M7: Dados em Energia Sustentável | Capítulo 1 | Aula 1"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Visão geral da lição 1"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Os dados são vitais para influenciar a tomada de decisões baseadas em evidências em todo o setor de energia. Identificar a lacuna entre a situação existente e a visão ideal (seja atual ou futura), que é uma etapa essencial na formulação de políticas, requer dados. Por exemplo, os dados são necessários para fornecer informações sobre as condições atuais, revelar áreas para melhoria e oferecer insights acionáveis. Sem uma justificativa sólida respaldada por dados, a política pode ser implementada incorretamente, impactando negativamente as pessoas. O papel dos dados na formulação de políticas no setor de energia é imperativo.<br />Esta lição detalha as qualidades-chave dos dados de energia—como precisão, confiabilidade e pontualidade—e por que elas são importantes para tomar melhores decisões. Também analisa como os dados se encaixam no processo de formulação de políticas, desde a identificação de problemas e definição de metas até o acompanhamento do progresso e verificação de resultados. Com exemplos práticos e estudos de caso, veremos como os dados podem ajudar a moldar políticas energéticas que funcionem para todos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceitos-chave",
+        "intro": "Explore ideias fundamentais desta aula.",
+        "concepts": [
+          {
+            "title": "métricas de qualidade de dados",
+            "body": "As métricas de qualidade de dados são padrões ou medidas usadas para avaliar a precisão, a completude, a consistência e a confiabilidade dos dados.",
+            "source": ""
+          },
+          {
+            "title": "tomada de decisão orientada por dados",
+            "body": "A tomada de decisão orientada por dados é o processo de fazer escolhas com base na análise e interpretação de dados, em vez de intuição ou experiência pessoal.",
+            "source": ""
+          },
+          {
+            "title": "Dados de energia",
+            "body": "Os dados de energia referem-se às informações quantitativas e qualitativas relacionadas à produção, consumo, distribuição e desempenho dos sistemas de energia. Isso abrange métricas como capacidade de geração, consumo de combustível, eficiência, emissões e indicadores de custo, todos os quais são críticos para monitorar o desempenho do sistema, informar decisões políticas e otimizar as operações de energia.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Os dados desempenham um papel crucial na melhoria da transparência governamental e na promoção do engajamento público na governança energética. Ao permitir que os governos centrais (por exemplo, Ministérios de Energia), operadores de rede, empresas de distribuição de energia e empresas geradoras compartilhem informações em tempo real—como fornecimento de energia, demanda e desempenho da infraestrutura—os governos podem capacitar uma ampla gama de partes interessadas, incluindo ONGs, instituições de pesquisa e comunidades locais, a identificar desafios negligenciados no sistema de energia e co-criar recomendações acionáveis. Essa abordagem colaborativa fortalece a responsabilidade, fecha as lacunas entre os formuladores de políticas e os atores de linha de frente, e amplia as perspectivas incluídas na tomada de decisões.<br /> <br />As tendências históricas na produção, consumo, comércio e distribuição de energia fornecem uma base robusta para o planejamento estratégico. Analisar esses padrões ajuda os tomadores de decisão a antecipar desafios e oportunidades futuras enquanto desenvolvem modelos para simular vários cenários. Essas simulações podem incorporar fatores como avanços tecnológicos, mudanças nas políticas, alterações no comportamento do consumidor e o impacto de desastres naturais ou causados pelo homem, oferecendo insights valiosos sobre resultados potenciais e apoiando estratégias baseadas em evidências.<br /> <br />Além disso, os dados são essenciais para avaliar o impacto das políticas energéticas e acompanhar o progresso em direção a metas-chave. Ao usar modelagem orientada por dados, os tomadores de decisão podem avaliar os efeitos potenciais das opções de políticas antes da implementação, reduzindo riscos e melhorando os resultados. O monitoramento e a avaliação contínuos das iniciativas relacionadas à energia garantem que as políticas permaneçam eficazes ao longo do tempo, permitindo ajustes necessários e mantendo o progresso alinhado com os objetivos de longo prazo."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2288_87.webp",
+          "caption": null
+        },
+        "intro": "M7: Dados em Energia Sustentável | Capítulo 1 | Aula 1 | Parte 1",
+        "title": "Parte 1: A importância de dados confiáveis, atualizados e precisos na energia sustentável"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Parte 1 Visão Geral</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Dados confiáveis, precisos e oportunos são essenciais para elaborar políticas energéticas baseadas em evidências que promovam o desenvolvimento sustentável. Sem dados de qualidade, as decisões políticas correm o risco de serem mal informadas, levando a soluções ineficazes ou consequências não intencionais.<br /><br />De acordo com as Recomendações Internacionais para Estatísticas de Energia (ONU, 2018), os dados devem atender a cinco dimensões críticas de qualidade para apoiar efetivamente a tomada de decisões sólidas, conforme introduzido na próxima página."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>5 dimensões da qualidade dos dados:</strong>"
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Relevância</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A relevância da informação estatística reflete o grau em que a informação atende ou satisfaz as necessidades atuais ou emergentes dos usuários. Os dados relevantes são diretamente aplicáveis às perguntas que estão sendo feitas e às decisões que estão sendo tomadas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Precisão e confiabilidade</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A precisão dos dados reflete o grau em que a informação estima ou descreve corretamente os fenômenos para os quais foi projetada, ou seja, o grau de proximidade das estimativas em relação aos valores reais, com erros mínimos. A confiabilidade é um aspecto da precisão. Trata-se de saber se as estatísticas medem consistentemente ao longo do tempo a realidade que foram projetadas para representar. Para que os dados sejam precisos e confiáveis, eles precisam ser verificados com várias fontes, validando-os em relação a referências confiáveis, por meio de auditorias de dados regulares."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Pontualidade e pontualidade</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A pontualidade da informação refere-se ao tempo decorrido entre o final do período de referência ao qual a informação atualizada se relaciona e sua disponibilidade para os usuários. A pontualidade refere-se a se os dados são entregues nas datas prometidas, anunciadas ou divulgadas (por exemplo, em um calendário de lançamentos oficial). Monitorar os ciclos de coleta de dados, garantindo acesso a dados em tempo real por meio de plataformas digitais e atualizando regularmente os conjuntos de dados ajuda a melhorar a pontualidade e a rapidez."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Coerência e comparabilidade</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A coerência das estatísticas energéticas reflete o grau em que os dados estão logicamente conectados e são mutuamente consistentes; isto é, o grau em que podem ser reunidos com sucesso com outras informações estatísticas dentro de uma ampla estrutura analítica ao longo do tempo. A comparabilidade é uma medida do impacto das diferenças nos conceitos estatísticos aplicados, nas ferramentas de medição e nos procedimentos quando as estatísticas são comparadas entre áreas geográficas ou ao longo do tempo. Padronizar as metodologias de coleta de dados, manter uma documentação clara das fontes e processos de dados, e verificar regularmente as discrepâncias são úteis para melhorar a coerência e a comparabilidade dos dados."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Acessibilidade e clareza</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A acessibilidade da informação refere-se à facilidade com que os usuários podem tomar conhecimento de sua existência, localizá-la e importá-la para seu próprio ambiente de trabalho. A clareza refere-se à medida em que metadados facilmente compreensíveis estão disponíveis nos casos em que os metadados são necessários para dar uma compreensão completa das estatísticas<br /><br />Fonte: Recomendações Internacionais para Estatísticas de Energia (ONU, 2018)"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2416_204.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Garantir a qualidade dos dados envolve avaliação sistemática e práticas de gestão robustas.</strong> Três abordagens amplamente reconhecidas incluem :</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Autoavaliações</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Revisões internas onde as organizações comparam seus processos com estruturas estabelecidas para identificar pontos fortes e áreas de melhoria."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Auditorias de qualidade / Auditorias externas</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Avaliações formais realizadas por terceiros independentes para verificar a conformidade com padrões de qualidade específicos (por exemplo, integridade de dados, processos estatísticos). Essas auditorias seguem listas de verificação estruturadas e protocolos rigorosos, garantindo a conformidade com os requisitos regulatórios ou específicos do setor."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Avaliações por pares</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Avaliações informais por especialistas externos, fornecendo insights valiosos sobre metodologias e processos em um nível mais alto, não para verificar a conformidade com os requisitos item por item a partir de uma lista de verificação detalhada. Portanto, muitas vezes são menos estruturados do que as auditorias externas formais."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2302_203.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Para melhorar ainda mais a qualidade dos dados, as organizações podem adotar estruturas padronizadas, como o<strong> </strong><strong>Quadro Nacional de Garantia da Qualidade da ONU (NQAF)</strong><strong>, </strong>que apoia a coleta e a apresentação rigorosa de dados para os ODS. Os investimentos em agências nacionais de estatísticas, incluindo financiamento suficiente e treinamento de pessoal, também são essenciais para manter sistemas de dados confiáveis e adaptáveis<strong>.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A integração de práticas de garantia de qualidade na gestão de dados energéticos fortalece a base para o planejamento, monitoramento e avaliação de políticas. Ao se concentrar em dimensões-chave, como relevância, precisão, pontualidade, coerência e acessibilidade, as organizações podem garantir que os dados de energia apoiem efetivamente a tomada de decisões baseada em evidências e facilitem as transições energéticas sustentáveis."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2304_216.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Dados confiáveis, precisos e oportunos são fundamentais para o desenvolvimento de políticas energéticas que abordem efetivamente os desafios de sustentabilidade.<strong> Dados de alta qualidade permitem uma tomada de decisão informada ao fornecer as evidências necessárias para analisar sistemas complexos, avaliar trade-offs e projetar intervenções direcionadas. </strong>Ao integrar dados de energia com dimensões ambientais, econômicas e sociais, os formuladores de políticas podem elaborar estratégias que se alinhem tanto com as prioridades locais quanto com os objetivos de sustentabilidade mais amplos.<br /> <br /><strong>Dados desagregados </strong>adicionam valor adicional ao expor desigualdades que podem estar ocultas em estatísticas agregadas. <strong>Por exemplo, analisar o acesso à energia por gênero, área geográfica ou nível de renda ajuda a identificar barreiras específicas enfrentadas por grupos marginalizados.</strong> Este nível de granularidade garante que as políticas não sejam apenas tecnicamente sólidas, mas também socialmente inclusivas, permitindo soluções que abordem as desigualdades sistêmicas enquanto promovem objetivos de desenvolvimento mais amplos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Ao vincular contextos locais a estruturas globais, como os ODS, os dados servem como uma ponte entre objetivos de alto nível e estratégias acionáveis.</strong> Ao fornecer insights sobre condições e desafios localizados, os dados de energia permitem a tradução de metas globais em medidas práticas e sensíveis ao contexto. Esse alinhamento aumenta a relevância e o impacto das políticas energéticas em diversos contextos.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Ferramentas e tecnologias de dados avançados expandem ainda mais as possibilidades de governança energética. As plataformas de modelagem e as análises de cenários dependem de conjuntos de dados precisos para simular resultados potenciais, avaliar riscos e explorar as implicações das escolhas políticas. Essas ferramentas não apenas informam decisões, mas também fornecem um meio de testar abordagens alternativas, reduzindo assim as incertezas e melhorando os resultados das políticas.<br /> <br />A transparência e a acessibilidade são igualmente importantes para garantir que os dados impulsionem ações significativas. <strong>Sistemas de dados abertos permitem uma maior colaboração entre as partes interessadas, enquanto metodologias claras e padronizadas promovem consistência e confiabilidade na análise.</strong> Quando as partes interessadas têm acesso a dados robustos e credíveis, estão melhor posicionadas para coordenar esforços, construir confiança e alcançar objetivos compartilhados."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Investir na qualidade e acessibilidade dos dados de energia não é apenas uma necessidade administrativa, mas um imperativo estratégico.<br /><strong>Dados precisos, coerentes e acionáveis apoiam o desenvolvimento de políticas adaptativas que abordam os desafios atuais enquanto antecipam mudanças futuras.</strong><br />Ao priorizar a inclusividade, relevância e precisão nas estratégias de dados, os sistemas de energia podem responder melhor às diversas e evolutivas necessidades das comunidades, promovendo, em última análise, transições equitativas e sustentáveis."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2304_240.webp",
+          "caption": null
+        },
+        "intro": "M7: Dados em energia sustentável | Capítulo 1 | Aula 1 | Parte 2",
+        "title": "Parte 2: O ciclo de políticas e o papel dos dados na tomada de decisões"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Visão geral da Parte 2</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Os dados energéticos desempenham um papel fundamental em cada etapa do ciclo de políticas, um processo iterativo projetado para planejar, monitorar e avaliar decisões políticas.<br /><br />O ciclo de políticas, como mostrado na figura a seguir, está no coração da gestão baseada em resultados, garantindo que as decisões sejam informadas, adaptáveis e inclusivas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Na fase de planejamento,</strong> os formuladores de políticas podem usar dados para entender a situação e definir os resultados desejados. Os dados podem ajudar a construir uma imagem completa do problema e identificar as causas próximas e últimas, lacunas na compreensão e áreas potenciais que poderiam ser melhoradas. Além disso, os dados podem fornecer evidências de resultados bem-sucedidos implementados em outros lugares, para que os formuladores de políticas tenham um parâmetro contra o qual possam medir seu próprio sucesso ou desafios. Os dados podem apoiar a modelagem de interações e sistemas complexos e permitir a análise de cenários que simulam diferentes estratégias de políticas ao quantificar custos, riscos e benefícios. Essas análises podem minimizar custos, maximizar benefícios e otimizar a eficácia das intervenções."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Durante a fase de monitoramento, os dados são essenciais para acompanhar o progresso, analisar tendências e avaliar quão bem os esforços em andamento se alinham com os objetivos predefinidos. Eles também ajudam a identificar fatores temporais que influenciam os resultados das políticas, seja como facilitadores ou obstáculos. Além disso, tornar os dados transparentes e acessíveis promove o engajamento público, permitindo que as partes interessadas forneçam feedback valioso e responsabilizem os governos pela implementação de políticas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Na fase de avaliação, os dados são essenciais para avaliar a eficácia das políticas e extrair lições para futuras melhorias. Ao identificar quais medidas têm sucesso e onde ajustes são necessários, os governos podem garantir aprendizado e adaptação contínuos no setor de energia.<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A integração de dados em cada etapa do ciclo de políticas destaca seu potencial transformador. Para ilustrar como os dados podem informar processos de tomada de decisão complexos, o seguinte estudo de caso examina os esforços do Chile para alcançar a neutralidade de carbono aproveitando metodologias avançadas para o planejamento financeiro e de investimentos no setor de energia."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2288_131.webp",
+          "caption": null
+        },
+        "intro": "M7: Dados em Energia Sustentável | Capítulo 1 | Aula 1 | Parte 2 | Estudo de caso",
+        "title": "Estudo de caso: Avaliação de custos e requisitos financeiros para a neutralidade de carbono no setor de energia chileno"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "As mudanças climáticas estão afetando severamente o Chile, que tem sofrido com secas prolongadas nos últimos 14 anos aproximadamente. A vegetação sobrevivente está sob estresse hídrico e pode queimar facilmente, uma das consequências mais visíveis sendo os grandes e trágicos incêndios de 2014, 2017, 2023 e 2024[1]. O Chile está comprometido em lutar contra as mudanças climáticas, por isso estabeleceu em 2022 a meta de que o país seja neutro em carbono e resiliente aos efeitos das mudanças climáticas até 2050 (Lei de Quadro sobre Mudança Climática 21.455). Para atingir esse objetivo, é necessário focar no setor de energia, pois estima-se que seja responsável por 78% das emissões de GEE do país. Espera-se que a neutralidade de carbono seja alcançada estabelecendo medidas de mitigação no setor de energia e reforçando a conservação da capacidade de captura de CO2 pelo setor florestal [2].<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Para melhor avaliar os custos e os investimentos necessários no planejamento energético de longo prazo para alcançar a neutralidade de carbono até 2050, o Ministério de Energia, em colaboração com o PNUD e o Ministério da Fazenda, aplicou entre 2020 e 2022 a Metodologia de Avaliação de Fluxos de Investimento e Financeiros (IFF) do PNUD. Esta metodologia tem como objetivo informar os tomadores de decisão sobre as mudanças no fluxo de capital necessárias para alcançar seu objetivo, identificando as medidas que exigirão mais esforço, os anos em que as contribuições mais significativas devem ser feitas e quem deve fornecer o capital para implementar essas medidas [3].<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2416_342.webp",
+          "caption": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Os dados coletados para conduzir o IFF no Chile são da avaliação do planejamento energético de longo prazo para 2023-2027[4]. A análise foi baseada no cenário \"Caminho Moderado para a Neutralidade de Carbono\" proposto nesta avaliação. O foco principal estava nas medidas de mitigação para reduzir as emissões no setor de energia a um nível em que as emissões totais de GEE sejam iguais ou inferiores à capacidade de captura de CO2 das florestas nacionais. Isso abrange as medidas propostas para o setor florestal e as mudanças no uso da terra até 2050.<br /> <br />O estudo do IFF analisou 45 medidas de mitigação de GEE em seis setores: transporte, habitação, público, comercial, mineração e eletricidade. As famílias e as empresas são aquelas que mais precisarão mudar seus fluxos de investimento. O governo precisará investir diretamente em iniciativas como a construção de ciclovias, a modernização de habitações e a implementação de programas de eficiência energética, ou subsidiar programas de mudança de energia para instalar sistemas de energia solar como \"Solar House\". Espera-se que os custos de operação e manutenção (O&M) diminuam, resultando em economias. As famílias se beneficiarão mais dessas economias graças às reformas nos setores de transporte e habitação. As empresas também se beneficiarão da diminuição em O&M, mas precisam investir mais primeiro.<br /><br /><strong>No geral, as medidas de mitigação melhorarão a qualidade de vida e a saúde chilena e poderão economizar até $267.249 milhões de 2021 a 2050, beneficiando principalmente os setores de transporte e residencial, enquanto apoiam projetos de energia.<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2306_286.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "O Chile está avançando na implementação de suas NDCs, direcionando os fluxos de capital para a eficiência energética de baixo carbono e medidas de desenvolvimento sustentável. O transporte, o setor residencial e as iniciativas do setor público recebem a maior parte do financiamento estatal, visando reduzir custos e incentivar práticas semelhantes. No entanto, o financiamento não é a única barreira para alcançar a neutralidade de carbono até 2050; a percepção social e dos usuários sobre os benefícios ambientais também são obstáculos. A metodologia IFF provou ser fundamental na identificação de fluxos de capital e entidades responsáveis, ajudando a antecipar as necessidades de capital de pico.<br /> <br />O caso do Chile destaca a importância de alinhar as dimensões financeira, social e ambiental na política energética. Isso também destaca a necessidade de um planejamento abrangente que inclua setores como a silvicultura, que são vitais para a captura de CO2, mas vulneráveis aos impactos climáticos. Ao priorizar a coleta e análise de dados robustos, o Chile exemplifica como os governos podem desenvolver estratégias acionáveis para alcançar metas de sustentabilidade ambiciosas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Referências</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />[1] BBC Mundo (2024) Por que os incêndios no Chile que deixaram mais de 100 mortos foram tão destrutivos <br />[2] PNUD (2023) Avaliação de custos e requisitos financeiros da neutralidade de carbono no setor energético chileno <br />[3] PNUD (2009) Manual para a Avaliação de Investimentos e Fluxos Financeiros para Enfrentar as Mudanças Climáticas <br />[4] Ministério de Energia (2021) Planejamento Energético de Longo Prazo (PELP) Período 2023-2027 <br />[5] PNUD (2023): Relatório IFF Chile"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2307_300.webp",
+          "caption": null
+        },
+        "intro": "M7: Dados em energia sustentável | Capítulo 1 | Aula 1 | Parte 3",
+        "title": "Parte 3: Dados e seus beneficiários no setor de energia"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Visão geral da Parte 3</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Os dados desempenham um papel transformador na formação de decisões no setor de energia, permitindo que diversos interessados alcancem seus objetivos específicos enquanto avançam em metas coletivas como segurança energética, sustentabilidade e equidade. De organizações globais a comunidades locais, o espectro de beneficiários destaca as amplas aplicações dos dados de energia na abordagem de desafios tanto macro quanto micro."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A nível global, os formuladores de políticas e as organizações internacionais, como a Agência Internacional de Energia, as Nações Unidas, o Banco Mundial, organizações não governamentais internacionais (ONGs) ou empresas de energia internacionais ou nacionais, dependem de conjuntos de dados abrangentes para formular políticas energéticas, definir metas e monitorar o progresso em direção a metas energéticas globais, como a redução de emissões e a implementação de energias renováveis. Analistas e pesquisadores utilizam dados para modelar e prever tendências energéticas, realizar avaliações de impacto e identificar desafios e oportunidades emergentes no cenário energético global. Os comerciantes, líderes empresariais e instituições financeiras utilizam dados para análise de mercado, gestão de riscos e tomada de decisões de investimento nos mercados de energia.<br /> <br />Em níveis regional e nacional, formuladores de políticas, agências governamentais e órgãos reguladores usam dados para desenvolver políticas e regulamentos energéticos adaptados às necessidades energéticas regionais ou nacionais, promover a segurança energética e estimular o crescimento econômico. Os governos locais e as organizações comunitárias usam dados para planejar e implementar programas de eficiência energética, projetos de energia renovável e iniciativas de energia sustentável em nível comunitário. Os líderes empresariais do setor de energia confiam em dados para planejamento estratégico, alocação de recursos e tomada de decisões operacionais para otimizar a produção de energia, o transporte (internacional), a distribuição e o consumo."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Indivíduos, incluindo consumidores de energia de médio a grande porte, como indústrias pesadas (por exemplo, ferro e aço, produção de cimento) e lares, se beneficiam do acesso a dados de energia para tomar decisões informadas sobre seu consumo de energia, adotar tecnologias eficientes em energia e participar de programas de gestão da demanda. Além disso, as partes interessadas em nível comunitário, como organizações sem fins lucrativos, grupos de defesa e movimentos de base, usam dados para aumentar a conscientização sobre questões relacionadas à energia, mobilizar apoio para reformas políticas e defender o acesso equitativo aos serviços de energia.<br /><br />Os interesses específicos dos beneficiários estão intimamente correlacionados com os tipos de conjuntos de dados que eles precisam para a tomada de decisões informadas e o planejamento estratégico. Os interesses deles diferem no uso de dados de energia; por exemplo, as Nações Unidas usarão dados sobre o consumo e a produção de energia de alguns países para acompanhar seu progresso no desenvolvimento. Enquanto as empresas de energia multinacionais analisarão os mesmos dados para encontrar oportunidades de expandir seus negócios."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Embora os dados de energia possam ser aplicados de diversas maneiras, certos tipos são os mais frequentemente utilizados nos setores.</strong> Esses conjuntos de dados geralmente se enquadram em cinco categorias principais:</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Essas categorias muitas vezes se cruzam com necessidades de dados específicas do setor (por exemplo, transporte, edifícios, indústria) ou focadas em tecnologia, ampliando ainda mais sua relevância e utilidade.<br /><br />Para maximizar o impacto dos dados de energia, é vital garantir sua integridade, acessibilidade e usabilidade. Isso requer adesão a princípios que priorizam a transparência, o profissionalismo e a gestão ética. Os Princípios Fundamentais das Estatísticas Oficiais das Nações Unidas oferecem uma estrutura fundamental para isso, enfatizando o papel de dados credíveis na governança democrática, na tomada de decisões equitativas e na responsabilidade pública."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2308_504.webp",
+          "caption": null
+        },
+        "intro": "M7: Dados em Energia Sustentável | Capítulo 1 | Aula 1 | Parte 3 | CAIXA",
+        "title": "CAIXA. Os princípios fundamentais dos dados"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Em reconhecimento da importância, poder e credibilidade de dados de alta qualidade no processo de formulação de políticas, as Nações Unidas adotaram dez Princípios Fundamentais das Estatísticas Oficiais em 2014.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Princípio 1.</strong> </strong>As estatísticas oficiais fornecem um elemento indispensável no sistema de informação de uma sociedade democrática, servindo ao governo, à economia e ao público com dados sobre a situação econômica, demográfica, social e ambiental. Para esse fim, estatísticas oficiais que atendam ao teste de utilidade prática devem ser compiladas e disponibilizadas de forma imparcial pelas agências estatísticas oficiais para honrar o direito dos cidadãos à informação pública.<br /><br /><strong>Princípio 2. </strong>Para manter a confiança nas estatísticas oficiais, as agências estatísticas precisam decidir de acordo com considerações estritamente profissionais, incluindo princípios científicos e ética profissional, sobre os métodos e procedimentos para a coleta, processamento, armazenamento e apresentação de dados estatísticos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Princípio 3.</strong> Para facilitar uma interpretação correta dos dados, as agências estatísticas devem apresentar informações de acordo com padrões científicos sobre as fontes, métodos e procedimentos das estatísticas.<br /> <br /><strong>Princípio 4.</strong> </strong>As agências estatísticas têm o direito de comentar sobre a interpretação errônea e o uso indevido das estatísticas.<br /><br /><strong>Princípio 5. </strong>Os dados para fins estatísticos podem ser extraídos de todos os tipos de fontes, sejam inquéritos estatísticos ou registros administrativos. As agências estatísticas devem escolher a fonte em relação à qualidade, pontualidade, custos e à carga sobre os respondentes.<br /> <br /><strong>Princípio 6.</strong> Os dados individuais coletados pelas agências estatísticas para a compilação estatística, sejam eles referentes a pessoas naturais ou jurídicas, devem ser estritamente confidenciais e utilizados exclusivamente para fins estatísticos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Princípio 7. As leis, regulamentos e medidas sob as quais os sistemas estatísticos operam devem ser tornados públicos.<br /><br />Princípio 8. A coordenação entre as agências estatísticas dentro dos países é essencial para alcançar consistência e eficiência no sistema estatístico.<br /> <br />Princípio 9. O uso pelas agências estatísticas de cada país de conceitos, classificações e métodos internacionais promove a consistência e a eficiência dos sistemas estatísticos em todos os níveis oficiais.<br /> <br />Princípio 10. A cooperação bilateral e multilateral em estatísticas contribui para a melhoria dos sistemas de estatísticas oficiais em todos os países."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Objetivos de aprendizagem",
+        "intro": "Se você só tiver espaço para lembrar 3 coisas:",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2288_161.webp",
+              "caption": "image caption"
+            },
+            "title": "Dados confiáveis, precisos e oportunos são essenciais para políticas energéticas sustentáveis.",
+            "description": "Dados de alta qualidade garantem que as políticas energéticas sejam baseadas em evidências, minimizando os riscos de decisões mal informadas e consequências indesejadas. Ao atender às dimensões críticas da qualidade dos dados—relevância, precisão, pontualidade, coerência e acessibilidade—os formuladores de políticas podem projetar estratégias eficazes que impulsionem o desenvolvimento sustentável e abordem desafios energéticos complexos."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2288_155.webp",
+              "caption": "image caption"
+            },
+            "title": "Os dados são integrais a cada etapa do ciclo de políticas, desde o planejamento até a avaliação.",
+            "description": "Na fase de planejamento, os dados ajudam a identificar lacunas e definir metas; durante o monitoramento, eles acompanham o progresso e alinham os esforços com os objetivos; e na avaliação, eles avaliam a eficácia das políticas e informam sobre futuras melhorias. Essa abordagem iterativa e orientada por dados garante que as políticas energéticas permaneçam adaptativas, inclusivas e alinhadas com os objetivos de sustentabilidade a longo prazo."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2288_149.webp",
+              "caption": "image caption"
+            },
+            "title": "Os dados de energia beneficiam uma ampla gama de partes interessadas, desde organizações globais até comunidades locais.",
+            "description": "Os formuladores de políticas, as empresas, os pesquisadores e os indivíduos dependem de dados de energia para alcançar seus objetivos, seja estabelecendo metas energéticas globais, otimizando investimentos ou fazendo escolhas de consumo informadas. Dados desagregados também ajudam a abordar questões de equidade, garantindo que as políticas energéticas sejam inclusivas e responsivas às necessidades dos grupos marginalizados."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos-chave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_7/resource-7111.png",
+              "caption": ""
+            },
+            "href": "https://www.iea.org/reports/demand-side-data-and-energy-efficiency-endicators",
+            "text": "Dados do lado da demanda e indicadores de eficiência energética",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_7/resource-7112.png",
+              "caption": ""
+            },
+            "href": "https://www-pub.iaea.org/MTCD/Publications/PDF/RDS-1-36Web-28008110.pdf",
+            "text": "Série de dados de referência n.º 1 â Estimativas de energia, eletricidade e energia nuclear para o período até 2050",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_7/resource-7113.png",
+              "caption": ""
+            },
+            "href": "https://www.un-redd.org/sites/default/files/2021-10/UNDP-Catalysing-Climate%20Finance%20-%20May%202011.pdf",
+            "text": "Políticas para energia sustentável e eficiência energética",
+            "cta": "Clique para baixar"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/lesson712.webp",
+          "caption": ""
+        },
+        "intro": "Próximo",
+        "title": "Aula 2: O papel dos dados na promoção da energia sustentável e da equidade",
+        "cta": "Começar a aprender",
+        "nextLessonId": "7.1.2"
+      }
+    }
+  ]
+}

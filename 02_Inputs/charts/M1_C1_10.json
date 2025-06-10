@@ -1,0 +1,172 @@
+{
+  "title": {
+    "text": "Global energy demand",
+    "subtext": "Quadrillion Btu",
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": "Source: Smil, Energy Transitions (1900-1960), 2024 ExxonMobil Global Outlook (1970-2050)",
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "data": [
+      1800,
+      1820,
+      1840,
+      1860,
+      1880,
+      1900,
+      1920,
+      1940,
+      1950,
+      1960,
+      1970,
+      1980,
+      1990,
+      2000,
+      2010,
+      2020,
+      2023,
+      2025,
+      2030,
+      2035,
+      2040,
+      2050
+    ],
+    "axisLabel": {
+      "interval": 0
+    },
+    "name": "Year"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "name": "World",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        "15",
+        "18",
+        "22",
+        "28",
+        "36",
+        "50",
+        "70",
+        "110",
+        "130",
+        "180",
+        "260",
+        "340",
+        "390",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "OECD",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "220",
+        "224",
+        "204",
+        "210",
+        "210",
+        "206",
+        "200",
+        "194",
+        "185"
+      ]
+    },
+    {
+      "name": "Non-OECD",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "185",
+        "288",
+        "348",
+        "376",
+        "390",
+        "419",
+        "438",
+        "450",
+        "478"
+      ]
+    }
+  ]
+}

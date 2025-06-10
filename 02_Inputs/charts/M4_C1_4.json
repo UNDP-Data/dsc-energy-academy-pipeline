@@ -1,0 +1,221 @@
+{
+  "title": {
+    "text": "Annual investment in clean energy by selected country and region, 2019 and 2024",
+    "subtext": null,
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": "Note: 2024e = estimated values for 2024. US = United States. EU = European Union.",
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "data": [
+      "China-2019",
+      "China-2024",
+      "USA-2019",
+      "USA-2024",
+      "European Union-2019",
+      "European Union-2024",
+      "Indian-2019",
+      "Indian-2024",
+      "Latin America-2019",
+      "Latin America-2024",
+      "Southeast Asia-2019",
+      "Southeast Asia-2024",
+      "Africa-2019",
+      "Africa-2024"
+    ],
+    "axisLabel": {
+      "interval": 0
+    },
+    "name": "Category"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "name": "Fossil fuels",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        197,
+        185,
+        228,
+        197,
+        29,
+        36,
+        30,
+        37,
+        80,
+        102,
+        77,
+        69,
+        80,
+        68
+      ]
+    },
+    {
+      "name": "Renewable power",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        164,
+        359,
+        56,
+        85,
+        54,
+        106,
+        12,
+        37,
+        22,
+        41,
+        19,
+        15,
+        9,
+        22
+      ]
+    },
+    {
+      "name": "Power grids and storage",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        81,
+        89,
+        74,
+        108,
+        61,
+        121,
+        19,
+        19,
+        12,
+        20,
+        11,
+        11,
+        8,
+        10
+      ]
+    },
+    {
+      "name": "Nuclear and other clean power",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        6,
+        18,
+        6,
+        10,
+        7,
+        15,
+        2,
+        5,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Energy efficiency and end-use",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        120,
+        188,
+        52,
+        89,
+        103,
+        164,
+        12,
+        20,
+        21,
+        16,
+        6,
+        10,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Low-emissions fuels",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "show": true
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        1,
+        5,
+        2,
+        8,
+        1,
+        4,
+        0,
+        0,
+        2,
+        4,
+        1,
+        2,
+        0,
+        1
+      ]
+    }
+  ]
+}
