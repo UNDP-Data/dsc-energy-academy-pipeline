@@ -1,0 +1,109 @@
+{
+  "title": {
+    "text": "Share of population living in a hot climate, 2022, and penetration of air conditioners, 2000-2022 ",
+    "subtext": null,
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": "Notes\nAC = Air-conditioning unit. A climate is assumed to be \u201chot\u201d when the sum total of the difference between the daily mean outdoor temperature and the base temperature of 10\u00b0C (cooling degree days with base temperature of 10\u00b0C) adds up to at least 5 000 over the course of one year. Need for space cooling does not necessarily correspond to the need for installing space cooling equipment, but rather a need to consider cooling-oriented design options during the building construction phase.",
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "category",
+    "data": [
+      "Asia Pacific",
+      "Africa",
+      "Central and South America",
+      "Eurasia",
+      "Europe",
+      "North America",
+      "Middle East",
+      "World average"
+    ],
+    "axisLabel": {
+      "interval": 0
+    },
+    "name": "Region"
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "name": "Population needing cooling (from hot climates) (%)",
+      "type": "bar",
+      "data": [
+        55,
+        55,
+        44,
+        0,
+        0,
+        9,
+        42,
+        44
+      ]
+    },
+    {
+      "name": "Additional population needing cooling (%)",
+      "type": "bar",
+      "data": [
+        43,
+        45,
+        50,
+        57,
+        83,
+        84,
+        57,
+        51
+      ]
+    },
+    {
+      "name": "AC penetration in 2000 (%)",
+      "type": "bar",
+      "data": [
+        19,
+        4,
+        15,
+        1,
+        10,
+        68,
+        18,
+        20
+      ]
+    },
+    {
+      "name": "AC penetration in 2022 (%)",
+      "type": "bar",
+      "data": [
+        47,
+        6,
+        25,
+        9,
+        19,
+        78,
+        25,
+        37
+      ]
+    }
+  ]
+}

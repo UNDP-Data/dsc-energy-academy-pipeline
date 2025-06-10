@@ -1,0 +1,79 @@
+{
+  "title": {
+    "text": "Installed capacity for renewable electricity generation, 2015 and 2022 (watts per capita)",
+    "subtext": null,
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": null,
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ],
+  "xAxis": {
+    "type": "value",
+    "boundaryGap": [
+      0,
+      0.01
+    ]
+  },
+  "yAxis": {
+    "type": "category",
+    "data": [
+      "Developing countries",
+      "Developed countries",
+      "Least developed countries",
+      "Landlocked developing countries",
+      "Small island developing States",
+      "World"
+    ],
+    "name": "Category"
+  },
+  "series": [
+    {
+      "name": "2015 (watts per capita)",
+      "type": "bar",
+      "data": [
+        155,
+        691,
+        27,
+        86,
+        54,
+        250
+      ]
+    },
+    {
+      "name": "2022 (watts per capita)",
+      "type": "bar",
+      "data": [
+        293,
+        1073,
+        40,
+        103,
+        101,
+        424
+      ]
+    }
+  ],
+  "grid": {
+    "left": 217
+  }
+}
