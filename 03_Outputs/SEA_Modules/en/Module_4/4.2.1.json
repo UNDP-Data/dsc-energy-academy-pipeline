@@ -5,7 +5,245 @@
       "template_id": "echarts_chart",
       "color_scheme": "dark",
       "content": {
-        "option": {}
+        "option": {
+          "title": {
+            "text": "Investment in renewable energy by region of destination, 2013-2022",
+            "subtext": null,
+            "left": "center",
+            "top": "top",
+            "textStyle": {
+              "fontSize": 18
+            },
+            "subtextStyle": {
+              "fontSize": 14,
+              "color": "#888"
+            }
+          },
+          "legend": {
+            "show": true,
+            "bottom": 20
+          },
+          "graphic": [
+            {
+              "type": "text",
+              "left": "center",
+              "bottom": 0,
+              "style": {
+                "text": "Note: “North America (excluding Mexico)” includes Bermuda, Canada and the United States. “Others” include the Middle East and North Africa, Other Oceania, Transregional, Other Asia and Unknown. For more details on the geographic classification used in the analysis, please see methodology document (Appendix). Source: CPI (2022a). Investments for 2021 and 2022 represent preliminary estimates based on data from BNEF (2023b)",
+                "font": "12px sans-serif",
+                "fill": "#999"
+              }
+            }
+          ],
+          "xAxis": {
+            "type": "category",
+            "data": [
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021*",
+              "2022*"
+            ],
+            "axisLabel": {
+              "interval": 0
+            },
+            "name": "Year"
+          },
+          "yAxis": {
+            "type": "value"
+          },
+          "series": [
+            {
+              "name": "East Asia and Pacific",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "show": true
+              },
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.4,
+                0.43,
+                0.46,
+                0.41,
+                0.41,
+                0.29,
+                0.42,
+                0.49,
+                0.56,
+                0.66
+              ]
+            },
+            {
+              "name": "North America (excl. Mexico)",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "show": true
+              },
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.14,
+                0.14,
+                0.13,
+                0.19,
+                0.16,
+                0.23,
+                0.21,
+                0.15,
+                0.15,
+                0.12
+              ]
+            },
+            {
+              "name": "Europe",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "show": true
+              },
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.21,
+                0.2,
+                0.21,
+                0.2,
+                0.14,
+                0.21,
+                0.16,
+                0.19,
+                0.18,
+                0.12
+              ]
+            },
+            {
+              "name": "Eurasia",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "show": true
+              },
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.02,
+                0.01,
+                0.01,
+                0.01,
+                0.01,
+                0.01,
+                0.01,
+                0.01,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Latin America & Caribbean",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "show": true
+              },
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.08,
+                0.07,
+                0.08,
+                0.05,
+                0.06,
+                0.06,
+                0.06,
+                0.05,
+                0.05,
+                0.04
+              ]
+            },
+            {
+              "name": "South Asia",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "show": true
+              },
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.03,
+                0.04,
+                0.04,
+                0.04,
+                0.05,
+                0.03,
+                0.06,
+                0.05,
+                0.03,
+                0.03
+              ]
+            },
+            {
+              "name": "Sub-Saharan Africa",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "show": true
+              },
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.02,
+                0.01,
+                0.02,
+                0.02,
+                0.02,
+                0.01,
+                0.01,
+                0.01,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Others",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "show": true
+              },
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.1,
+                0.1,
+                0.05,
+                0.08,
+                0.17,
+                0.16,
+                0.07,
+                0.05,
+                0.03,
+                0.03
+              ]
+            }
+          ]
+        }
       }
     },
     {

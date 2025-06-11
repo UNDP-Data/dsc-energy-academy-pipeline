@@ -5,7 +5,85 @@
       "template_id": "echarts_chart",
       "color_scheme": "dark",
       "content": {
-        "option": {}
+        "option": {
+          "title": {
+            "text": "Installed capacity for renewable electricity generation, 2015 and 2022 (watts per capita)",
+            "subtext": null,
+            "left": "center",
+            "top": "top",
+            "textStyle": {
+              "fontSize": 18
+            },
+            "subtextStyle": {
+              "fontSize": 14,
+              "color": "#888"
+            }
+          },
+          "legend": {
+            "show": true,
+            "bottom": 20
+          },
+          "graphic": [
+            {
+              "type": "text",
+              "left": "center",
+              "bottom": 0,
+              "style": {
+                "text": null,
+                "font": "12px sans-serif",
+                "fill": "#999"
+              }
+            }
+          ],
+          "xAxis": {
+            "type": "value",
+            "boundaryGap": [
+              0,
+              0.01
+            ]
+          },
+          "yAxis": {
+            "type": "category",
+            "data": [
+              "Developing countries",
+              "Developed countries",
+              "Least developed countries",
+              "Landlocked developing countries",
+              "Small island developing States",
+              "World"
+            ],
+            "name": "Category"
+          },
+          "series": [
+            {
+              "name": "2015 (watts per capita)",
+              "type": "bar",
+              "data": [
+                155,
+                691,
+                27,
+                86,
+                54,
+                250
+              ]
+            },
+            {
+              "name": "2022 (watts per capita)",
+              "type": "bar",
+              "data": [
+                293,
+                1073,
+                40,
+                103,
+                101,
+                424
+              ]
+            }
+          ],
+          "grid": {
+            "left": 217
+          }
+        }
       }
     },
     {
@@ -222,7 +300,91 @@
       "template_id": "echarts_chart",
       "color_scheme": "dark",
       "content": {
-        "option": {}
+        "option": {
+          "title": {
+            "text": "Share of renewable sources in final energy consumption and by end use, 2015 and 2021 (percentage)",
+            "subtext": null,
+            "left": "center",
+            "top": "top",
+            "textStyle": {
+              "fontSize": 18
+            },
+            "subtextStyle": {
+              "fontSize": 14,
+              "color": "#888"
+            }
+          },
+          "legend": {
+            "show": true,
+            "bottom": 20
+          },
+          "graphic": [
+            {
+              "type": "text",
+              "left": "center",
+              "bottom": 0,
+              "style": {
+                "text": null,
+                "font": "12px sans-serif",
+                "fill": "#999"
+              }
+            }
+          ],
+          "xAxis": {
+            "type": "value",
+            "boundaryGap": [
+              0,
+              0.01
+            ]
+          },
+          "yAxis": {
+            "type": "category",
+            "data": [
+              "Total Final Energy Consumption",
+              "Modern renewable sources",
+              "Traditional use of biomass",
+              "Electricity",
+              "Transport",
+              "Heat",
+              "Modern renewable sources",
+              "Traditional use of biomass"
+            ],
+            "name": "Category"
+          },
+          "series": [
+            {
+              "name": "2015",
+              "type": "bar",
+              "data": [
+                16.7,
+                10.0,
+                6.7,
+                22.9,
+                3.5,
+                23.0,
+                9.3,
+                13.7
+              ]
+            },
+            {
+              "name": "2021",
+              "type": "bar",
+              "data": [
+                18.7,
+                12.5,
+                6.2,
+                28.2,
+                4.4,
+                23.5,
+                10.5,
+                13.0
+              ]
+            }
+          ],
+          "grid": {
+            "left": 217
+          }
+        }
       }
     },
     {
@@ -277,7 +439,85 @@
       "template_id": "echarts_chart",
       "color_scheme": "dark",
       "content": {
-        "option": {}
+        "option": {
+          "title": {
+            "text": "Installed capacity for renewable electricity generation, 2015 and 2022 (watts per capita)",
+            "subtext": null,
+            "left": "center",
+            "top": "top",
+            "textStyle": {
+              "fontSize": 18
+            },
+            "subtextStyle": {
+              "fontSize": 14,
+              "color": "#888"
+            }
+          },
+          "legend": {
+            "show": true,
+            "bottom": 20
+          },
+          "graphic": [
+            {
+              "type": "text",
+              "left": "center",
+              "bottom": 0,
+              "style": {
+                "text": null,
+                "font": "12px sans-serif",
+                "fill": "#999"
+              }
+            }
+          ],
+          "xAxis": {
+            "type": "value",
+            "boundaryGap": [
+              0,
+              0.01
+            ]
+          },
+          "yAxis": {
+            "type": "category",
+            "data": [
+              "Developing countries",
+              "Developed countries",
+              "Least developed countries",
+              "Landlocked developing countries",
+              "Small island developing States",
+              "World"
+            ],
+            "name": "Category"
+          },
+          "series": [
+            {
+              "name": "2015 (watts per capita)",
+              "type": "bar",
+              "data": [
+                155,
+                691,
+                27,
+                86,
+                54,
+                250
+              ]
+            },
+            {
+              "name": "2022 (watts per capita)",
+              "type": "bar",
+              "data": [
+                293,
+                1073,
+                40,
+                103,
+                101,
+                424
+              ]
+            }
+          ],
+          "grid": {
+            "left": 217
+          }
+        }
       }
     },
     {

@@ -723,15 +723,16 @@ class Infographic(FrameBase):
 
 class Chart(FrameBase):
     size: Literal["full", "half"]
-    option: dict  # This will be serialized under 'content' by FrameBase
+    option: dict
 
     @classmethod
     def from_node(cls, node: Node) -> "Chart":
         assert node.name == "chart", f"Expected chart node, got {node.name}"
-       
-        image_node = node.select_node("ATTR", "imageUrl")
+
+        image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
         if image_node:
-            chart_path = Path("../02_Inputs/charts") / f"{image_node.value}.json"
+            chart_id = image_node.name
+            chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
             if chart_path.exists():
                 with open(chart_path, "r", encoding="utf-8") as f:
                     option = json.load(f)
@@ -744,7 +745,7 @@ class Chart(FrameBase):
             template_id="echarts_chart",
             color_scheme="light",
             size="full",
-            option=option  # will appear under 'content' via to_content
+            option=option
         )
 
 
