@@ -70,16 +70,22 @@ class FrameBase(BaseModel):
     color_scheme: Literal["light", "dark"] | None = Field(default=None)
 
     def to_content(self) -> dict:
-        meta = {"template_id": self.id, "color_scheme": self.color_scheme}
+        meta = {
+            "template_id": self.id,
+            "color_scheme": self.color_scheme,
+            **({"size": self.size} if hasattr(self, "size") else {})
+        }
+
         content = {}
-        # Iterate over the fields in the order of declaration.
         for field in self.__fields__:
-            if field in {"template_id", "color_scheme","id"}:
+            if field in {"template_id", "color_scheme", "id", "size"}:
                 continue
             value = getattr(self, field)
             content[field] = self._serialize_value(value)
+
         meta["content"] = content
         return meta
+
 
     def _serialize_value(self, value):
         if isinstance(value, BaseModel):
