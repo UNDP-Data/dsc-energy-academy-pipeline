@@ -2,20 +2,25 @@
   "id": "7.4.1",
   "segments": [
     {
-      "template_id": "lesson_cover",
-      "color_scheme": "dark",
+      "template_id": "text",
+      "color_scheme": "light",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2325_1254.webp",
-          "caption": null
-        },
-        "lesson": {
-          "label": "Aula",
-          "number": "1"
-        },
-        "title": "I.A. APLICAÇÕES EM ENERGIA",
-        "cta": null,
-        "intro": "M7: Dados em energia sustentável | Capítulo 4 | Aula 1"
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Mandatos e Estruturas</strong>",
+              "body": "Mandatos claros e estruturas interoperáveis também são necessários para evitar a sobreposição de autoridade e silos institucionais, especialmente em sistemas de governança federados. As questões de propriedade de dados — particularmente quando envolvem dados gerados pelo setor privado (por exemplo, dados de medidores inteligentes, padrões de uso da rede) — devem ser abordadas por meio de clareza legal e protocolos operacionais. Países como Estônia e Finlândia experimentaram embaixadas de dados e estruturas de intercâmbio de dados transfronteiriços que garantem a soberania e os direitos de acesso, permitindo ao mesmo tempo o compartilhamento seguro e em conformidade de informações."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Uma abordagem de governo integrado</strong>",
+              "body": "Finalmente, uma abordagem de governo inteiro para a transformação digital é crucial. Isso significa não apenas investir em habilidades técnicas e plataformas, mas também criar estruturas de liderança que capacitem a inovação e garantam a responsabilidade. Corpos independentes de administração de dados, padrões abertos e trusts de dados podem oferecer caminhos para gerenciar dados de energia de forma ética e eficiente, permitindo soluções impulsionadas por IA sem comprometer a privacidade ou o interesse público."
+            }
+          }
+        ]
       }
     },
     {
@@ -24,15 +29,17 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Os sistemas de energia estão se tornando cada vez mais complexos devido ao aumento da demanda e aos esforços de descarbonização intensificados. Ao mesmo tempo, a integração da inteligência artificial (IA) nos sistemas de energia está desempenhando um papel crescente na gestão das redes elétricas modernas. A interação cada vez mais profunda entre os sistemas de energia e os setores de usuários finais, como transporte e edifícios, é facilitada por fluxos de eletricidade multidirecionais possibilitados por tecnologias conectadas à rede, incluindo estações de carregamento de veículos elétricos (VE) e instalações solares residenciais. Esta paisagem em evolução destaca a necessidade de ferramentas avançadas para facilitar a troca de informações, o planejamento de sistemas e a eficiência operacional em sistemas de energia."
+              "title": "<strong>Dados públicos comuns</strong>",
+              "body": "Finalmente, os comuns de dados públicos, que são sites públicos onde conjuntos de dados limpos e padronizados relacionados à energia podem ser acessados, incentivam a inovação. Através da disponibilidade desses dados em uma plataforma de acesso livre e aberto, as barreiras de entrada para startups e pesquisadores são reduzidas, parcerias público-privadas são incentivadas e a confiança é construída, uma vez que os dados compartilhados geralmente são acompanhados de metadados. Exemplos-chave de tais iniciativas são o Data Commons for Climate, Energy, and Sustainability da Escola de Sustentabilidade de Stanford e a Iniciativa de Dados Abertos de Energia do governo dos EUA."
             }
           },
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Visão geral da lição 1"
+              "title": "<strong>Metadados</strong>",
+              "body": "Além disso, os metadados, também conhecidos como \"dados sobre dados\", fornecem informações valiosas que constroem confiança sobre os dados compartilhados, incluindo as unidades em que os dados são expressos, quem os coletou, quando foram coletados, bem como o formato do arquivo. Esta informação permite que os analistas confiem nos dados, ao mesmo tempo que melhora a interoperabilidade, permitindo que os sistemas usem, reutilizem e integrem os dados em suas operações diárias. Dada a crescente necessidade de padronização, várias organizações mundiais começaram a adotar a Troca de Dados e Metadados Estatísticos, ou SDMX, que é um conjunto de normas reconhecidas internacionalmente, que facilitam a publicação e a troca de dados de maneira compreensível."
             }
           }
         ]
@@ -64,315 +71,59 @@
       }
     },
     {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2518_108.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2325_1300.webp",
-          "caption": null
-        },
-        "intro": "M7: Dados em energia sustentável | Capítulo 4 | Aula 1 | Parte 1",
-        "title": "Parte 1: Manutenção preditiva e otimização de ativos"
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Parte 1 Visão Geral</strong>"
+              "title": "<strong>APIs</strong>",
+              "body": "Um primeiro passo nesse sentido é o uso de interfaces de programação de aplicativos, ou APIs, que permitem que os dispositivos se comuniquem entre si e compartilhem informações. Além disso, a adoção de taxonomias padrão (a forma como as informações são estruturadas e definidas no contexto da energia) promove uma confiança aumentada entre as partes. Através de tais padrões abertos, pesquisadores, formuladores de políticas, operadores de serviços públicos e vários outros interessados no setor de energia podem identificar claramente a que variável se refere por meio de uma nomenclatura muito específica."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "O uso da IA. A manutenção preditiva e a otimização de ativos transformaram o setor de energia ao aproveitar algoritmos avançados de aprendizado de máquina para processar dados históricos e em tempo real de redes de sensores sofisticadas. Esses sensores, incorporados em equipamentos críticos como caixas de engrenagens de turbinas eólicas, inversores fotovoltaicos (PV) e sistemas de gerenciamento de baterias, monitoram parâmetros como vibração, temperatura, corrente e voltagem. Ao identificar padrões e anomalias nesses dados, a IA. os sistemas podem prever falhas potenciais, permitindo que as equipes de manutenção intervenham antes que as quebras ocorram. Essa abordagem minimiza o tempo de inatividade não planejado, reduz os custos de manutenção e estende a vida útil operacional dos ativos."
+              "title": "<strong>Metadados</strong>",
+              "body": "Além disso, os metadados, também conhecidos como \"dados sobre dados\", fornecem informações valiosas que constroem confiança sobre os dados compartilhados, incluindo as unidades em que os dados são expressos, quem os coletou, quando foram coletados, bem como o formato do arquivo. Esta informação permite que os analistas confiem nos dados, ao mesmo tempo que melhora a interoperabilidade, permitindo que os sistemas usem, reutilizem e integrem os dados em suas operações diárias. Dada a crescente necessidade de padronização, várias organizações mundiais começaram a adotar a Troca de Dados e Metadados Estatísticos, ou SDMX, que é um conjunto de normas reconhecidas internacionalmente, que facilitam a publicação e a troca de dados de maneira compreensível."
             }
           }
         ]
       }
     },
     {
-      "template_id": "photo_full_height",
+      "template_id": "key_takeaways",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2518_121.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
+        "title": "Principais conclusões",
+        "intro": "Se você só tiver espaço para lembrar 3 coisas:",
+        "takeaways": [
           {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "I.A. melhora a eficiência e a confiabilidade do sistema energético ao analisar continuamente os dados de produção e distribuição para identificar ineficiências ou riscos emergentes. Essa inteligência em tempo real permite uma alocação precisa de recursos, redução de custos e aumento da produção de energia. Como resultado, a integração da IA. não apenas garante uma manutenção mais eficaz, mas também promove uma infraestrutura energética mais sustentável e resiliente.<br /></strong><br />A empresa GE Vernova implementou a IA. para aprimorar a manutenção preditiva de suas turbinas eólicas. Ao aproveitar algoritmos de aprendizado de máquina, a empresa alcança uma precisão de 95% na previsão de falhas potenciais das turbinas. Este alto nível de precisão permite que a GE realize intervenções direcionadas antes que os problemas se agravem, resultando em uma redução significativa dos custos de manutenção em 30%. Essa abordagem não apenas minimiza o tempo de inatividade, mas também garante o desempenho ótimo sustentado da frota de turbinas eólicas, demonstrando as substanciais vantagens econômicas de incorporar a IA. em estratégias de manutenção preditiva. <br /><br />Uma empresa italiana chamada Enel Green Power utiliza a IA. prever a degradação do desempenho em painéis solares e otimizar os cronogramas de manutenção. Esta estratégia de manutenção proativa estende a vida útil dos painéis solares ao abordar problemas potenciais antes que eles impactem significativamente o desempenho. O caso da Enel ilustra como a IA. pode melhorar tanto a eficiência operacional quanto a viabilidade econômica dos ativos de energia renovável, garantindo a longevidade da infraestrutura e o desempenho ideal."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Nos Estados Unidos, o Laboratório Nacional Argonne colaborou com o Operador Independente do Sistema Midcontinent (MISO) para melhorar a manutenção preditiva e a otimização de ativos usando IA. na gestão de rede. A parceria se concentrou no desenvolvimento de um modelo de aprendizado de máquina para aprimorar o planejamento diário da extensa rede de grade da MISO. Esta A.I. o modelo reduziu significativamente o tempo necessário para cálculos diários complexos de quase 10 minutos para apenas 60 segundos, otimizando o despacho de eletricidade.<br /><br />Esses exemplos mostram que, ao analisar dados históricos e em tempo real, a IA. detecta falhas potenciais e permite a manutenção proativa, minimizando o tempo de inatividade e reduzindo custos. Esses avanços aumentam a eficiência, a confiabilidade e a sustentabilidade da infraestrutura energética, levando a uma melhor utilização dos recursos. Como I.A. As tecnologias continuam a evoluir, seus impactos na manutenção preditiva e na otimização de ativos fortalecerão ainda mais a resiliência e a sustentabilidade dos sistemas de energia."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2518_123.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Otimização de Energia</strong>"
-            }
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L1_18.png",
+              "caption": ""
+            },
+            "title": "A infraestrutura é a base da inovação em dados de energia",
+            "description": "A computação em nuvem, as arquiteturas de borda e névoa, e os bens comuns de dados públicos permitem aplicações de dados energéticos escaláveis, em tempo real e inclusivas. No entanto, seu crescimento deve ser acompanhado de atenção à eficiência energética, uma vez que os data centers podem gerar aumentos significativos na demanda de eletricidade."
           },
           {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "A otimização de energia envolve a redução do consumo de energia e dos custos, mantendo ou melhorando o desempenho operacional. A capacidade da IA de analisar conjuntos de dados complexos e descobrir ineficiências a posiciona como uma força transformadora na redução dos custos de energia e na mitigação das emissões de carbono.<br />À medida que as fontes de energia tradicionais se tornam mais caras e seu impacto ambiental se torna mais evidente, muitas nações estão adotando estratégias inovadoras que priorizam sistemas de energia renovável, como solar, eólica e hidrelétrica. Essas fontes renováveis, quando integradas em sistemas de energia híbridos, podem fornecer soluções elétricas mais confiáveis e econômicas. Ao combinar várias fontes renováveis com unidades de backup, os sistemas híbridos garantem que os requisitos de carga sejam atendidos em diversas condições, melhorando tanto a confiabilidade quanto a sustentabilidade ambiental (Olabi et al., 2023)"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Dimensionar de forma otimizada os elementos desses sistemas híbridos é um desafio crítico. I.A. se destaca neste domínio, oferecendo ferramentas de otimização avançadas que analisam dados para determinar a configuração ideal dos componentes do sistema, equilibrando desempenho e custo. Abordagens impulsionadas por IA para sistemas híbridos de energia renovável permitem uma alocação eficiente de recursos, garantindo que as demandas de carga sejam atendidas com um investimento financeiro mínimo, ao mesmo tempo em que maximizam a confiabilidade do sistema e os benefícios ambientais.<br /><br />Por exemplo, a IA pode ajudar a analisar o potencial de energia renovável e o desempenho do sistema para projetar esquemas híbridos que integrem fontes de energia solar, eólica e hidrelétrica. Através da modelagem preditiva e ajustes em tempo real, a IA otimiza as operações do sistema para melhorar a funcionalidade e reduzir custos. Isto é particularmente significativo para abordar a variabilidade e a intermitência das fontes de energia renovável, uma vez que a IA. Os algoritmos podem prever a produção de energia e gerenciar sistemas de armazenamento de forma mais eficaz do que os métodos tradicionais (Zahraee et al. ,2016 )<br /><br />No entanto, alcançar esses benefícios requer superar desafios. Estudos indicam que até 85% da IA. os projetos falham devido a objetivos desalinhados, dados insuficientes ou estratégias inadequadas. Para que as organizações tenham sucesso, elas devem desenvolver uma A.I. personalizada. soluções alinhadas com objetivos específicos de otimização de energia. Os esforços colaborativos entre especialistas técnicos e profissionais de energia são essenciais para realizar plenamente o potencial da A.I."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2518_130.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Monitoramento de energia </strong>"
-            }
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_Outro_3.png",
+              "caption": ""
+            },
+            "title": "A interoperabilidade e os padrões abertos permitem confiança e colaboração",
+            "description": "Taxonomias compartilhadas, APIs e padrões de metadados garantem que sistemas e partes interessadas diversos possam trocar dados de maneira significativa. Os bens comuns de dados públicos e estruturas como o SDMX reduzem as barreiras para que startups, pesquisadores e governos inovem juntos e evitem silos de dados."
           },
           {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "O monitoramento de energia é o processo de monitorar o consumo de energia de um ativo ou de um edifício, coletando e analisando dados de energia. O monitoramento de energia pode ajudar empresas/organizações a aumentar a eficiência energética, apoiar a manutenção preditiva e permitir que as empresas cumpram as regulamentações. <br /><br /><strong>Eficiência energética:</strong> A instalação de sistemas de monitoramento de energia ajuda a aumentar a eficiência energética, fornecendo relatórios de consumo de energia diários, mensais e anuais. A instrumentação de monitoramento de energia pode ajudar na análise de sistemas de modelagem para estimar os custos de energia usando os dados disponíveis. Os sistemas de monitoramento de energia devem garantir precisão e pontualidade para fornecer insights acionáveis impactantes. <br /> <br /><br />Eficiência energética: A instalação de sistemas de monitoramento de energia ajuda a aumentar a eficiência energética, fornecendo relatórios de consumo de energia diários, mensais e anuais. A instrumentação de monitoramento de energia pode ajudar na análise de sistemas de modelagem para estimar os custos de energia usando os dados disponíveis. Os sistemas de monitoramento de energia devem garantir precisão e pontualidade para fornecer insights acionáveis impactantes. "
-            }
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C2_L2_17.png",
+              "caption": ""
+            },
+            "title": "A capacidade institucional e a governança devem evoluir junto com a tecnologia",
+            "description": "Os governos devem abordar as lacunas de habilidades, a retenção de talentos e a agilidade das políticas. Caixas de areia regulatórias, mandatos de dados claros e modelos de governança transfronteiriços, como embaixadas de dados, são essenciais para garantir o uso ético, seguro e transparente de dados energéticos, especialmente à medida que a adoção de IA se expande na formulação de políticas."
           }
         ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Manutenção preditiva: </strong>Ao rastrear os padrões de consumo de energia ao longo do tempo, os sistemas de monitoramento de energia podem ajudar a identificar tendências emergentes e antecipar problemas potenciais.<br /><br /><strong>Conformidade regulatória:</strong> Ter monitoramento de energia instalado em um ativo ou edifício permitiria a realização de uma avaliação comparativa de energia. A avaliação de energia é o processo de medir, analisar e comparar o desempenho energético de um ativo com os padrões da indústria. Ao fazer isso, as empresas têm a viabilidade de seu posicionamento em eficiência energética em relação aos seus pares. A avaliação de energia desempenha um papel fundamental no apoio à conformidade regulatória, fornecendo uma abordagem padronizada para medir e relatar as métricas de energia. Além disso, ao ter mais visibilidade sobre seu desempenho energético, as empresas poderiam agir de maneira oportuna para reduzir sua pegada de carbono e cumprir com as regulamentações.<br />"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2325_1333.webp",
-          "caption": null
-        },
-        "intro": "M7: Dados em energia sustentável | Capítulo 4 | Aula 1 | Parte 1",
-        "title": "Parte 2: Redes inteligentes e gestão de redes"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Visão geral da Parte 2</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Os sistemas de gestão de rede impulsionados por IA melhoraram significativamente a eficiência e a fiabilidade das redes de distribuição de energia. Ao empregar algoritmos avançados de aprendizado de máquina, esses sistemas podem analisar grandes quantidades de dados de sensores e medidores inteligentes em toda a rede. Isso permite o monitoramento e controle em tempo real da rede, permitindo a detecção e resolução de problemas antes que eles levem a interrupções ou ineficiências."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Em 2018, a rede elétrica ao redor de Malå, Suécia, foi aprimorada com uma A.I. sistema de vigilância de rede inteligente desenvolvido pela Exeri. Este sistema avançado, adotado pela Skellefteå Kraft, a quarta maior empresa de energia do país, possui sensores inteligentes, comunicação de rádio redundante e inteligência artificial. algoritmos e análise avançada de dados para detectar e localizar falhas na rede. Monitorando um trecho de 40 quilômetros, fornece vigilância em tempo real e aborda automaticamente as desvios, reduzindo significativamente o tempo de inatividade e permitindo uma manutenção mais eficiente. A precisão do sistema em identificar a localização e o tipo de falha permite respostas mais rápidas e precisas, melhorando tanto a eficiência operacional quanto a segurança. Além disso, as capacidades preditivas da A.I. [needs translation] algorithms enable proactive maintenance. Escalável e flexível, o sistema de vigilância Smart Grid pode ser instalado em linhas ativas e expandido conforme necessário, tornando-o adequado para vários tipos de redes elétricas. A integração de tecnologias de rede inteligente e aprendizado de máquina facilita a gestão dinâmica de energia, proporcionando um sistema energético mais flexível e responsivo.<br /><br />No que diz respeito aos veículos, a plataforma Autobidder da Tesla utiliza IA. otimizar o comércio de energia para sistemas solares e de baterias. Este sistema aproveita dados de mercado em tempo real, previsões meteorológicas e capacidades de armazenamento de bateria para prever os preços futuros da eletricidade e otimizar as ofertas de acordo. Ao maximizar os retornos financeiros e armazenar o excesso de oferta para períodos de maior demanda, o Autobidder ajuda a estabilizar a rede e a melhorar a integração de fontes de energia renovável. Na Califórnia, os sistemas de armazenamento de energia equipados com Autobidder ganharam 20 milhões de dólares em um único ano ao participar do mercado de energia de atacado. Isso não apenas beneficia os proprietários de usinas de energia, mas também contribui para a estabilidade geral da rede, fornecendo recursos flexíveis que podem compensar a natureza intermitente de algumas formas de energia renovável."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2518_153.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Gestão de rede</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "A gestão de rede está passando por uma transformação com a adoção de redes inteligentes e sistemas de controle avançados. I.A. e os algoritmos de aprendizado de máquina desempenham um papel fundamental na otimização das operações da rede, prevendo padrões de demanda e ajustando dinamicamente a distribuição de energia. Essas capacidades aumentam a eficiência da rede, minimizam as perdas de energia e melhoram a confiabilidade geral.<br /><br />Tradicionalmente, as redes de energia transmitiam eletricidade de estações centralizadas para consumidores em um fluxo unidirecional. No entanto, o aumento de dispositivos conectados à rede, como veículos elétricos, eletrodomésticos inteligentes e sistemas de energia renovável, criou um cenário energético mais dinâmico e complexo. A IA agora é essencial para processar e analisar as enormes quantidades de dados gerados por redes inteligentes e esses dispositivos interconectados."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Essa capacidade de sintetizar dados de fontes diversas permite à IA. antecipar flutuações na demanda de energia e monitorar as condições da rede em tempo real. Essas inovações são particularmente críticas em países em desenvolvimento, onde as quedas de energia frequentes representam desafios significativos. Ao aproveitar a IA, essas regiões podem melhorar a estabilidade e a resiliência da rede, abrindo caminho para sistemas de energia mais confiáveis e sustentáveis."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2518_175.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Redes inteligentes e otimização de redes com IoT</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Na transição para um futuro energético sustentável, a integração da tecnologia da Internet das Coisas (IoT) com redes inteligentes está desempenhando um papel fundamental na reconfiguração do cenário elétrico. Uma rede inteligente, utilizando tecnologias digitais e avançadas, atua como uma rede elétrica inteligente capaz de monitorar e gerenciar o transporte de eletricidade de várias fontes para atender a diversas demandas dos usuários finais. O objetivo é aumentar a eficiência, minimizar custos e reduzir os impactos ambientais enquanto maximiza a confiabilidade, a resiliência, a flexibilidade e a estabilidade de todo o sistema. O investimento em redes inteligentes deve mais do que dobrar até 2030, especialmente em mercados emergentes, de acordo com o relatório da AIE, para se alinhar com o cenário de emissões líquidas zero até 2050. A infraestrutura digital nas redes elétricas, tanto na distribuição quanto na transmissão, mostrou um crescimento de 7% nos investimentos em 2022."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Uma rede elétrica inteligente é uma rede de distribuição elétrica digitalmente aprimorada que aproveita tecnologia avançada e comunicação bidirecional para gerenciar eficientemente a oferta e a demanda de energia. Enquanto as redes tradicionais podem suportar um fluxo de energia bidirecional, as redes inteligentes se destacam em otimizar essa capacidade usando automação, sensores e coleta de dados em tempo real para monitorar e responder dinamicamente às condições da rede e ao uso de energia. Essas características tornam as redes inteligentes particularmente eficazes na integração de fontes de energia renovável, abordando sua natureza variável e garantindo um fornecimento de energia estável.<br />"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2518_184.webp",
-          "caption": ""
-        }
       }
     },
     {
@@ -387,9 +138,17 @@
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Medida Avançada (AMI): </strong>A infraestrutura de medição avançada (AMI) é o conjunto de equipamentos e sistemas que foram desenvolvidos nos últimos anos para permitir a gestão inteligente da rede de distribuição do usuário final. Os medidores inteligentes, que permitem a comunicação bidirecional entre os clientes e a empresa de utilidade, são uma característica das redes inteligentes. Esses medidores capturam periodicamente dados sobre o consumo de energia, permitindo que os consumidores gerenciem seu uso de energia e apoiando esquemas de preços dinâmicos.<br /><br /><strong>Controle e automação da rede:</strong> Em uma rede inteligente, a automação é importante. Otimizam o fluxo de eletricidade, detectam falhas e monitoram o desempenho da rede usando algoritmos sofisticados e sistemas de controle. O sistema pode reagir rapidamente, frequentemente até antes que os usuários percebam, quando um problema é identificado, como uma queda de energia ou flutuação de voltagem."
+              "title": "<strong>Medida Avançada (AMI)</strong>",
+              "body": "A infraestrutura de medição avançada (AMI) é o conjunto de equipamentos e sistemas que foram desenvolvidos nos últimos anos para permitir a gestão inteligente da rede de distribuição do usuário final. Os medidores inteligentes, que permitem a comunicação bidirecional entre os clientes e a empresa de utilidade, são uma característica das redes inteligentes. Esses medidores capturam periodicamente dados sobre o consumo de energia, permitindo que os consumidores gerenciem seu uso de energia e apoiem esquemas de preços dinâmicos."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Controle e automação da rede</strong>",
+              "body": "Em uma rede inteligente, a automação é importante. Otimizam o fluxo de eletricidade, detectam falhas e monitoram o desempenho da rede usando algoritmos sofisticados e sistemas de controle. O sistema pode reagir rapidamente, frequentemente até antes que os usuários percebam, quando um problema é identificado, como uma queda de energia ou flutuação de voltagem."
             }
           }
         ]
@@ -401,9 +160,17 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Integração de Energias Renováveis:</strong> As redes inteligentes desempenham um papel fundamental na integração de fontes de energia renovável, aproveitando dados em tempo real e tecnologias avançadas para enfrentar os desafios de intermitência das renováveis. Os medidores inteligentes, por exemplo, permitem respostas do lado da demanda e preços por tempo de uso, ajudando a equilibrar as cargas de energia de forma mais eficaz. Embora essas ferramentas não sejam a solução definitiva, elas apoiam o objetivo geral de criar uma rede mais flexível e adaptável. Ao gerenciar dinamicamente os fluxos de energia e coordenar diversas fontes de energia, as redes inteligentes garantem um fornecimento de energia confiável e estável, mesmo com o aumento da participação de energia renovável variável.<br /><br /><strong>Programas de Resposta à Demanda: </strong>Os programas de resposta à demanda em redes inteligentes capacitam os consumidores a desempenhar um papel ativo na gestão de seu consumo de energia. Através da tarifação por tempo de uso, os clientes são incentivados a reduzir seu consumo ou a transferi-lo para horários de menor demanda, quando a demanda de eletricidade é mais baixa e os preços são mais acessíveis. Isso não apenas ajuda os consumidores a economizar nos custos de energia, mas também apoia a estabilidade da rede ao aliviar a pressão durante os períodos de pico de demanda, contribuindo para um controle de carga mais eficiente e um sistema de energia mais confiável."
+              "title": "<strong>Integração de Energias Renováveis</strong>",
+              "body": "As redes inteligentes desempenham um papel fundamental na integração de fontes de energia renovável, aproveitando dados em tempo real e tecnologias avançadas para enfrentar os desafios de intermitência das renováveis. Os medidores inteligentes, por exemplo, permitem respostas do lado da demanda e preços por tempo de uso, ajudando a equilibrar as cargas de energia de forma mais eficaz. Embora essas ferramentas não sejam a solução definitiva, elas apoiam o objetivo geral de criar uma rede mais flexível e adaptável. Ao gerenciar dinamicamente os fluxos de energia e coordenar diversas fontes de energia, as redes inteligentes garantem um fornecimento de energia confiável e estável, mesmo com o aumento da participação de energia renovável variável."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Programas de resposta à demanda</strong>",
+              "body": "Os programas de resposta à demanda em redes inteligentes capacitam os consumidores a desempenhar um papel ativo na gestão de seu consumo de energia. Através da tarifação por tempo de uso, os clientes são incentivados a reduzir seu consumo ou a transferi-lo para horários de menor demanda, quando a demanda de eletricidade é mais baixa e os preços são mais acessíveis. Isso não apenas ajuda os consumidores a economizar nos custos de energia, mas também apoia a estabilidade da rede ao aliviar a pressão durante os períodos de pico de demanda, contribuindo para um controle de carga mais eficiente e um sistema de energia mais confiável."
             }
           }
         ]
@@ -429,15 +196,17 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Monitoramento em tempo real</strong>"
+              "title": "<strong>Monitoramento em tempo real</strong>",
+              "body": "A coleta e análise constantes de dados sobre as características da rede, como tensão, corrente, frequência e congestão da rede, constituem monitoramento em tempo real. Os dados atuais sobre o estado da rede são fornecidos por sensores sofisticados e redes de comunicação. Gerenciar a imprevisibilidade das fontes de energia renovável requer monitoramento em tempo real. Para manter a estabilidade da rede e fazer uso eficaz da energia renovável, os operadores de rede podem fazer ajustes em tempo real nas configurações e alocações de recursos, dependendo da geração e do consumo reais."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "A coleta e análise constantes de dados sobre as características da rede, como tensão, corrente, frequência e congestão da rede, constituem monitoramento em tempo real. Os dados atuais sobre o estado da rede são fornecidos por sensores sofisticados e redes de comunicação. Gerenciar a imprevisibilidade das fontes de energia renovável requer monitoramento em tempo real. Para manter a estabilidade da rede e fazer uso eficaz da energia renovável, os operadores de rede podem fazer ajustes em tempo real nas configurações e alocações de recursos, dependendo da geração e do consumo reais."
+              "title": "<strong>Resposta à demanda (DR)</strong>",
+              "body": "A resposta à demanda é uma técnica que envolve ajustar o consumo de energia em reação a sinais de preço, condições da rede ou outros fatores. Permite que os usuários escolham ajustar ou diminuir seu consumo de eletricidade em momentos de pico de demanda ou em reação ao aumento dos custos de eletricidade. Ao reduzir a carga de pico e coordenar o uso de energia com os padrões de geração de energia renovável, a resposta à demanda ajuda a manter o equilíbrio da rede. Os programas de resposta à demanda, por exemplo, podem incentivar os usuários a usar mais eletricidade ou armazenar energia extra durante períodos de forte geração solar ou eólica, o que diminui a necessidade de usinas de energia baseadas em combustíveis fósseis durante os picos de demanda."
             }
           },
           {
@@ -455,15 +224,17 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Resposta à demanda (DR)</strong>"
+              "title": "<strong>Monitoramento em tempo real</strong>",
+              "body": "A coleta e análise constantes de dados sobre as características da rede, como tensão, corrente, frequência e congestão da rede, constituem monitoramento em tempo real. Os dados atuais sobre o estado da rede são fornecidos por sensores sofisticados e redes de comunicação. Gerenciar a imprevisibilidade das fontes de energia renovável requer monitoramento em tempo real. Para manter a estabilidade da rede e fazer uso eficaz da energia renovável, os operadores de rede podem fazer ajustes em tempo real nas configurações e alocações de recursos, dependendo da geração e do consumo reais."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "A resposta à demanda é uma técnica que envolve ajustar o consumo de energia em reação a sinais de preço, condições da rede ou outros fatores. Permite que os usuários escolham ajustar ou diminuir seu consumo de eletricidade em momentos de pico de demanda ou em reação ao aumento dos custos de eletricidade. Ao reduzir a carga de pico e coordenar o uso de energia com os padrões de geração de energia renovável, a resposta à demanda ajuda a manter o equilíbrio da rede. Os programas de resposta à demanda, por exemplo, podem incentivar os usuários a usar mais eletricidade ou armazenar energia extra durante períodos de forte geração solar ou eólica, o que diminui a necessidade de usinas de energia baseadas em combustíveis fósseis durante os picos de demanda."
+              "title": "<strong>Automação de Distribuição</strong>",
+              "body": "A automação da distribuição utiliza sistemas de controle avançados e sensores para gerenciar a rede elétrica de forma mais eficaz. Pense nisso como um sistema inteligente que pode detectar problemas, desligar partes danificadas da rede e até se consertar em alguns casos. Isso torna a rede mais confiável e capaz de lidar com fontes de energia renovável, como a solar e a eólica, que podem ser mais imprevisíveis. Quando combinado com monitoramento em tempo real, pode rapidamente encontrar e isolar problemas, minimizando quedas de energia e garantindo que a rede funcione de forma suave e eficiente. Esta tecnologia ajuda a manter as luzes acesas mesmo quando as coisas dão errado, melhorando a estabilidade geral do sistema de energia."
             }
           }
         ]
@@ -475,90 +246,20 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Monitoramento em tempo real</strong>"
+              "title": "<strong>Análise Avançada de Grade</strong>",
+              "body": "Para prever as condições da rede, avaliar dados de várias fontes e tomar decisões bem informadas para a gestão da rede, a análise avançada da rede utiliza análise de dados e algoritmos de aprendizado de máquina. Ao usar essas análises para prever tendências de demanda, produção de energia renovável e condições da rede, os operadores de rede podem tomar medidas proativas para manter a rede. A otimização da integração de energias renováveis é possibilitada pela análise preditiva, que oferece insights sobre armazenamento de energia, táticas de despacho e planejamento de capacidade da rede."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "A coleta e análise constantes de dados sobre as características da rede, como tensão, corrente, frequência e congestão da rede, constituem monitoramento em tempo real. Os dados atuais sobre o estado da rede são fornecidos por sensores sofisticados e redes de comunicação. Gerenciar a imprevisibilidade das fontes de energia renovável requer monitoramento em tempo real. Para manter a estabilidade da rede e fazer uso eficaz da energia renovável, os operadores de rede podem fazer ajustes em tempo real nas configurações e alocações de recursos, dependendo da geração e do consumo reais."
+              "title": "<strong>Armazenamento de energia conectado à rede</strong>",
+              "body": "A ideia por trás desses sistemas é que eles armazenam energia extra durante os momentos em que a produção de energia renovável está em seu pico e a liberam quando necessário. Exemplos desses sistemas incluem baterias. Os dispositivos de armazenamento de energia são essenciais para manter um equilíbrio entre a oferta e a demanda. Ao armazenar o excesso de energia renovável e liberá-la durante períodos de baixa geração, eles mantêm a estabilidade da rede e diminuem a necessidade de energia de backup de combustíveis fósseis."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Automação de Distribuição</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "A automação da distribuição utiliza sistemas de controle avançados e sensores para gerenciar a rede elétrica de forma mais eficaz. Pense nisso como um sistema inteligente que pode detectar problemas, desligar partes danificadas da rede e até se consertar em alguns casos. Isso torna a rede mais confiável e capaz de lidar com fontes de energia renovável, como a solar e a eólica, que podem ser mais imprevisíveis. Quando combinado com monitoramento em tempo real, pode rapidamente encontrar e isolar problemas, minimizando quedas de energia e garantindo que a rede funcione de forma suave e eficiente. Esta tecnologia ajuda a manter as luzes acesas mesmo quando as coisas dão errado, melhorando a estabilidade geral do sistema de energia."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Análise Avançada de Grade</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Para prever as condições da rede, avaliar dados de várias fontes e tomar decisões bem informadas para a gestão da rede, a análise avançada da rede utiliza análise de dados e algoritmos de aprendizado de máquina. Ao usar essas análises para prever tendências de demanda, produção de energia renovável e condições da rede, os operadores de rede podem tomar medidas proativas para manter a rede. A otimização da integração de energias renováveis é possibilitada pela análise preditiva, que oferece insights sobre armazenamento de energia, táticas de despacho e planejamento de capacidade da rede."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Armazenamento de energia conectado à rede</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "A ideia por trás desses sistemas é que eles armazenam energia extra durante os momentos em que a produção de energia renovável está em seu pico e a liberam quando necessário. Exemplos desses sistemas incluem baterias. Os dispositivos de armazenamento de energia são essenciais para manter um equilíbrio entre a oferta e a demanda. Ao armazenar o excesso de energia renovável e liberá-la durante períodos de baixa geração, eles mantêm a estabilidade da rede e diminuem a necessidade de energia de backup de combustíveis fósseis."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "lesson_subpart_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2362_1080.webp",
-          "caption": null
-        },
-        "intro": "M7: Dados em Energia Sustentável | Capítulo 4 | Aula 1 | Parte 2 | Estudo de Caso",
-        "title": "Estudo de caso: Moldávia"
       }
     },
     {
@@ -600,7 +301,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2547_30.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L1_5.png",
           "caption": ""
         }
       }
@@ -625,7 +326,7 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "subtitle_small",
             "content": {
               "text": "<strong>Referências</strong>"
             }
@@ -644,10 +345,10 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2362_1098.webp",
-          "caption": null
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L2_9.png",
+          "caption": ""
         },
-        "intro": "M7: Dados em Energia Sustentável | Capítulo 4 | Aula 1 | Parte 3",
+        "intro": "M7: Dados em energia sustentável",
         "title": "Parte 3: A.I. na previsão de energia e na previsão de demanda"
       }
     },
@@ -656,12 +357,6 @@
       "color_scheme": "light",
       "content": {
         "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Visão geral da Parte 3</strong>"
-            }
-          },
           {
             "template_id": "paragraph_medium",
             "content": {
@@ -679,7 +374,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Previsões energéticas precisas ajudam a otimizar a operação das usinas de energia, reduzir os custos operacionais e minimizar o impacto ambiental ao equilibrar a oferta e a demanda de forma eficiente. Os algoritmos de aprendizado de máquina, como redes neurais, máquinas de vetores de suporte e métodos de aprendizado em conjunto, analisam dados históricos e identificam padrões complexos que os métodos estatísticos tradicionais podem perder, permitindo previsões mais precisas e uma tomada de decisão mais inteligente.<br /><br />Uma das aplicações pioneiras da IA. na previsão de energia é a A.I. do Google subsidiária, DeepMind. A DeepMind criou um algoritmo de aprendizado de máquina capaz de prever a produtividade de parques eólicos, ou seja, prever a energia eólica, com até 36 horas de antecedência. Ao treinar uma rede neural com previsões meteorológicas acessíveis e dados históricos de turbinas, o sistema da DeepMind prevê a produção de energia eólica e aconselha sobre os compromissos de entrega horária ideais para a rede elétrica um dia antes. Este sistema suporta 700 MW de capacidade eólica para alimentar os centros de dados e escritórios da empresa nos EUA. Isso permitiu que o Google vendesse fornecimento de energia eólica antecipadamente, aumentando seu valor financeiro em 20% até o início de 2019.<br /><br />Outros exemplos notáveis são dois aplicativos impulsionados por IA desenvolvidos pela ABB em colaboração com a Verdigris Technologies, projetados para melhorar a gestão de energia em edifícios comerciais e industriais. O primeiro aplicativo, 'Previsão de Energia', usa algoritmos de aprendizado de máquina para prever o consumo futuro de energia e ajudar as empresas a gerenciar a demanda de pico, reduzindo assim as contas de eletricidade. O segundo aplicativo, 'Alertas Inteligentes', utiliza IA para monitorar continuamente ativos críticos, detectando problemas potenciais antes que eles causem interrupções no fornecimento de energia. Essas aplicações fazem parte do programa de Inovação Aberta da ABB, que se concentra na transformação digital, fornecendo ferramentas avançadas para uma melhor gestão de energia e redução de custos. Juntas, essas inovações destacam o potencial da IA para otimizar o uso de energia, reduzir os custos operacionais e melhorar a confiabilidade e sustentabilidade dos sistemas de energia."
+              "text": "Previsões energéticas precisas ajudam a otimizar a operação das usinas de energia, reduzir os custos operacionais e minimizar o impacto ambiental ao equilibrar a oferta e a demanda de forma eficiente. Os algoritmos de aprendizado de máquina, como redes neurais, máquinas de vetores de suporte e métodos de aprendizado em conjunto, analisam dados históricos e identificam padrões complexos que os métodos estatísticos tradicionais podem perder, permitindo previsões mais precisas e uma tomada de decisão mais inteligente.<br /><br />Uma das aplicações pioneiras da IA. na previsão de energia é a A.I. do Google subsidiária, DeepMind. A DeepMind criou um algoritmo de aprendizado de máquina capaz de prever a produtividade de parques eólicos, ou seja, prever a energia eólica, com até 36 horas de antecedência. Ao treinar uma rede neural com previsões meteorológicas acessíveis e dados históricos de turbinas, o sistema da DeepMind prevê a produção de energia eólica e aconselha sobre os compromissos de entrega horária ideais para a rede elétrica um dia antes. Este sistema suporta 700 MW de capacidade eólica para alimentar os centros de dados e escritórios da empresa nos EUA. Isso permitiu que o Google vendesse fornecimento de energia eólica antecipadamente, aumentando seu valor financeiro em 20% até o início de 2019."
             }
           }
         ]
@@ -693,7 +388,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>A integração da IA</strong> e a ciência de dados no setor de energia revolucionou a manutenção preditiva, a gestão de rede e a previsão de energia. Algoritmos avançados de aprendizado de máquina permitem manutenção proativa, aumentam a eficiência operacional e garantem redes de energia confiáveis. A gestão de rede impulsionada por IA melhora a estabilidade e a integração de fontes de energia renovável, enquanto a previsão avançada otimiza o uso de recursos e reduz custos. Esses avanços demonstram o profundo impacto da IA. na criação de um setor de energia mais eficiente, resiliente e sustentável.</strong>"
+              "text": "Outros exemplos notáveis são dois aplicativos impulsionados por IA desenvolvidos pela ABB em colaboração com a Verdigris Technologies, projetados para melhorar a gestão de energia em edifícios comerciais e industriais. O primeiro aplicativo, 'Previsão de Energia', usa algoritmos de aprendizado de máquina para prever o consumo futuro de energia e ajudar as empresas a gerenciar a demanda de pico, reduzindo assim as contas de eletricidade. O segundo aplicativo, 'Alertas Inteligentes', utiliza IA para monitorar continuamente ativos críticos, detectando problemas potenciais antes que eles causem interrupções no fornecimento de energia. Essas aplicações fazem parte do programa de Inovação Aberta da ABB, que se concentra na transformação digital, fornecendo ferramentas avançadas para uma melhor gestão de energia e redução de custos. Juntas, essas inovações destacam o potencial da IA para otimizar o uso de energia, reduzir os custos operacionais e melhorar a confiabilidade e sustentabilidade dos sistemas de energia.<br /><strong><br />A integração da IA. e a ciência de dados no setor de energia revolucionou a manutenção preditiva, a gestão de rede e a previsão de energia. Algoritmos avançados de aprendizado de máquina permitem manutenção proativa, aumentam a eficiência operacional e garantem redes de energia confiáveis. A gestão de rede impulsionada por IA melhora a estabilidade e a integração de fontes de energia renovável, enquanto a previsão avançada otimiza o uso de recursos e reduz custos. Esses avanços demonstram o profundo impacto da IA. na criação de um setor de energia mais eficiente, resiliente e sustentável.</strong>"
             }
           }
         ]
@@ -704,10 +399,10 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2362_1875.webp",
-          "caption": null
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C2_L2_14.png",
+          "caption": ""
         },
-        "intro": "M7: Dados em energia sustentável | Capítulo 4 | Aula 1 | Parte 4",
+        "intro": "M7: Dados em energia sustentável",
         "title": "Parte 4: Expansão das aplicações de IA no setor de energia"
       }
     },
@@ -716,12 +411,6 @@
       "color_scheme": "light",
       "content": {
         "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Visão Geral da Parte 4</strong>"
-            }
-          },
           {
             "template_id": "paragraph_medium",
             "content": {
@@ -750,7 +439,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2518_128.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C1_L2_7.png",
           "caption": ""
         }
       }
@@ -794,7 +483,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2548_54.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C3_L2_8.png",
           "caption": ""
         }
       }
@@ -834,35 +523,259 @@
       }
     },
     {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C1_L2_11.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "Aula",
+          "number": "1"
+        },
+        "title": "Facilitadores em nível de sistema para inovação em dados de energia",
+        "cta": null,
+        "intro": "M7: Dados em energia sustentável"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Visão geral da lição 1"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Embora os avanços em medidores inteligentes, IA, gestão de energia e <strong>prometam</strong> um futuro promissor para as próximas gerações. Inovações sustentadas e sustentáveis em sistemas de energia, a forma como os dados de energia são aproveitados e a maneira como as percepções são utilizadas dependem de um ambiente propício à inovação. Primeiramente, uma infraestrutura digital resiliente, que seja capaz de armazenar dados de energia e fornecer poder de computação para algoritmos, seja por meio de centros de dados localizados ou por meio de plataformas de armazenamento e computação em nuvem, é essencial como um campo de experimentação. Além disso, o acesso a dados e pesquisas, por meio de pesquisas acadêmicas colaborativas ou por meio de bens comuns de dados públicos, incentiva a participação em iniciativas de dados energéticos.<br />Em uma escala mais regional e global, a interoperabilidade dos sistemas, que facilita o compartilhamento de dados úteis entre plataformas, pode se mostrar essencial para a criação de aplicativos sem costura. Além disso, a adoção crescente de metadados (que fornecem um contexto valioso sobre como os dados foram coletados e como as variáveis são medidas) garante transparência no compartilhamento de dados e permite que os pesquisadores confiem plenamente nos dados à sua disposição. Finalmente, dada a onda de aplicações de ciência de dados, bem como a rápida adoção de algoritmos de ML em políticas impactantes, torna-se mais crucial do que nunca ter pessoal treinado em ciência de dados, seja no serviço civil, no trabalho de desenvolvimento ou na indústria de energia especificamente. Esse esforço deve vir acompanhado da criação e adoção de estratégias e estruturas completas de governança de dados, ao mesmo tempo em que se projeta um modelo claro para a propriedade e privacidade dos dados, definindo o consentimento em termos legais credíveis, acrescentando à legislação internacional aumentada em torno de dados em acordos de parceria econômica."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L1_17.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L1_11.png",
+          "caption": ""
+        },
+        "intro": "M1: Introdução à transformação de sistemas de energia sustentável",
+        "title": "Parte 1: Construindo infraestrutura digital para plataformas de dados de energia, armazenamento, arquitetura baseada em nuvem, bens comuns de dados públicos"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>A Nuvem</strong>",
+              "body": "Uma infraestrutura digital resiliente e confiável é fundamental para aproveitar os dados para a política energética. Uma faceta do esforço em direção a um acesso confiável e democratizado ao armazenamento e ao poder de computação é o uso crescente de plataformas em nuvem. As plataformas de nuvem permitem que os usuários acessem armazenamento e poder de computação em uma máquina virtual armazenada em um servidor remoto. Por um lado, isso permite que o usuário acesse seus dados e execute seus modelos de qualquer lugar, já que não está fisicamente ligado ao servidor físico. Por outro lado, permite que empresas que não têm acesso ao capital necessário para construir um centro de dados físico utilizem este serviço de pagamento conforme o uso. Finalmente, através da Internet das Coisas, medições e ajustes em tempo real podem ser feitos nas redes de energia e projetos de energia renovável."
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Infraestrutura Digital</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Nuvem na Prática</strong>",
+              "body": "Um exemplo disso é o uso de drones pela Gamesa Siemens e Hermes, uma ferramenta digital. Gamesa Siemens é um fornecedor global de energia eólica e, como tal, deve verificar rotineiramente as turbinas eólicas para a manutenção necessária. Através da integração com o Microsoft Azure (uma plataforma de nuvem) e do uso, eles podem enviar fotos de turbinas eólicas e armazená-las na nuvem. Além disso, através da utilização da computação em nuvem, eles conseguem determinar quais turbinas precisam de manutenção, filtrando grandes volumes de dados que anteriormente teriam exigido discos rígidos e imensos recursos computacionais."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Edge e Fog Computing</strong>",
+              "body": "Além disso, para aplicações que requerem tomada de decisão em tempo real, a computação de borda - que é quando o cálculo e o armazenamento são feitos na ou perto da fonte de geração de dados - oferece uma solução única. Um exemplo simples é um inversor solar inteligente que decide automaticamente quando enviar energia de volta para a rede. Para aplicações onde a coordenação é necessária, a computação em névoa está sendo cada vez mais adotada. A computação em névoa permite uma camada intermediária entre a nuvem e os dispositivos de borda, perfeita para tarefas como coordenar o fornecimento de energia levando em conta os preços e mantendo baixa latência."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>O custo ambiental dos dados</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Aumentos na demanda de energia</strong>",
+              "body": "No entanto, a adoção crescente de metodologias tão pesadas em dados tem um custo ambiental. O aumento da demanda por infraestrutura capaz de armazenar tais volumes de dados, bem como o poder de computação necessário para realizar esses cálculos complexos, está atualmente impulsionando a demanda por energia a novos patamares. Somente na Bélgica, a demanda de energia dos centros de dados está estimada para aumentar entre 10,5 TWh e 34 TWh em 2050, a partir de um ponto de partida de 3 TWh hoje. Isso levanta preocupações reais sobre a fonte utilizada para suprir esse aumento na demanda, com algumas regiões recorrendo novamente aos combustíveis fósseis. A AIE projeta que a demanda mundial de energia relacionada a data centers dobrará para 945 TWh até 2030."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Soluções baseadas em inovação</strong>",
+              "body": "No entanto, nem tudo está perdido, os esforços de inovação modernos têm se concentrado em tornar os data centers mais eficientes em energia. Uma maneira de alcançar isso é através do uso de materiais não convencionais na fabricação de centros de dados. Skeleton Technologies, uma empresa com sede na Estônia, lançou o Graphene GPU, um GPU curvado à base de grafeno que planeja reduzir o consumo de energia em 44% enquanto aumenta o poder de computação em 40%."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C3_L3_12.png",
+          "caption": ""
+        },
+        "intro": "M1: Introdução à transformação de sistemas de energia sustentável",
+        "title": "Parte 2: Interoperabilidade e Padrões Abertos Metadados, APIs, taxonomias padrão, bens públicos de dados"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Interoperabilidade</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Introdução</strong>",
+              "body": "Com a maior disponibilidade de dados, bem como a riqueza de métodos de processamento e extração de insights a partir dos dados, várias maneiras de garantir o fluxo suave e contínuo de dados foram engenheiradas."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Interoperabilidade</strong>",
+              "body": "A interoperabilidade, agora mais do que nunca, tornou-se crucial. A interoperabilidade refere-se à capacidade dos sistemas de computador e do software de trocar e utilizar dados. Dentro do contexto dos sistemas de energia, com várias partes móveis, como medidores inteligentes, sistemas de energia renovável, subestações e a rede elétrica, a capacidade de compartilhar e usar dados de forma contínua é essencial para tomar decisões rápidas. Além disso, a confiabilidade dos dados é fundamental para garantir que as desigualdades não sejam perpetuadas pelos sistemas de energia."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L2_2.png",
+          "caption": ""
+        },
+        "intro": "M1: Introdução à transformação de sistemas de energia sustentável",
+        "title": "Parte 3: Capacidade institucional e governança de dados Capacidades do setor público, mandatos, modelos de propriedade, Sandboxes"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Visão geral</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Agora mais do que nunca, com a crescente disponibilidade, acessibilidade e demanda por dados e políticas baseadas em dados, torna-se imperativo ter formuladores de políticas e servidores públicos que sejam conhecedores de IA e suas aplicações no setor de energia, ao mesmo tempo em que se esclarecem as regras dentro das quais os dados podem ser extraídos, até que ponto podem ser usados e a quais entidades podem ser compartilhados. Como tal, surgem questões-chave, nomeadamente relacionadas a quem possui os dados de energia e quais agências devem ter acesso a dados sensíveis."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Uma lacuna digital na política pública</strong>",
+              "body": "Primeiramente, dada a natureza radical e acelerada das mudanças trazidas pela revolução digital, aparece uma \"lacuna digital\" no setor público, onde a infraestrutura precisa ser reformulada, o pessoal precisa ser capacitado. Essas iniciativas exigem um esforço e gasto governamental intencionais, um exemplo dessa intenção é a Academia de Serviços Digitais do Governo do Reino Unido, que treinou 10.000 servidores públicos entre 2014 e 2019. No entanto, mais frequentemente do que não, não é a falta de habilidades no setor público, mas a migração de talentos devido à cultura dentro do trabalho governamental. De fato, uma pesquisa do Serviço Nacional de Auditoria do Reino Unido descobriu que o pessoal qualificado tendia a deixar o serviço civil menos de dois anos após adquirir esse novo conjunto de habilidades. Isso sinaliza um problema maior relacionado à cultura e à estrutura da inovação dentro do governo. Isso indica a necessidade de uma gestão eficaz da mudança e de incentivar uma cultura de tomada de riscos controlada."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Caixas de areia regulatórias</strong>",
+              "body": "Nesse contexto, as caixas de areia regulatórias e a experimentação institucional podem servir como ferramentas valiosas para construir a capacidade adaptativa do estado, ao mesmo tempo em que mitigam riscos. Caixas de areia, ou seja ambientes controlados onde inovações podem ser testadas antes de serem totalmente implementadas) permitem que os governos testem novos modelos de governança de dados, aplicações de IA em previsão de energia ou eficiência, e estruturas de propriedade alternativas. Esses ambientes podem apoiar a colaboração intersetorial entre reguladores, concessionárias e provedores de tecnologia, fortalecendo assim os ciclos de aprendizado institucional."
+            }
+          }
+        ]
+      }
+    },
+    {
       "template_id": "key_takeaways",
       "color_scheme": "dark",
       "content": {
-        "title": "Objetivos de aprendizagem",
+        "title": "Principais conclusões",
         "intro": "Se você só tiver espaço para lembrar 3 coisas:",
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2548_76.webp",
-              "caption": "image caption"
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_Intro_1.png",
+              "caption": ""
             },
-            "title": "I.A. revoluciona a manutenção preditiva e a otimização de ativos na energia.",
-            "description": "Ao aproveitar algoritmos de aprendizado de máquina para analisar dados em tempo real e históricos de sensores, a A.I. permite a manutenção proativa, reduzindo o tempo de inatividade e os custos operacionais. Aplicações como a monitorização de turbinas eólicas da GE Renewable Energy e a otimização de painéis solares da Enel Green Power demonstram como a IA. melhora a longevidade dos ativos e a eficiência operacional, garantindo uma infraestrutura energética mais confiável e sustentável."
+            "title": "A infraestrutura é a base da inovação em dados de energia",
+            "description": "A computação em nuvem, as arquiteturas de borda e névoa, e os bens comuns de dados públicos permitem aplicações de dados energéticos escaláveis, em tempo real e inclusivas. No entanto, seu crescimento deve ser acompanhado de atenção à eficiência energética, uma vez que os data centers podem gerar aumentos significativos na demanda de eletricidade."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2548_70.webp",
-              "caption": "image caption"
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C2_L3_9.png",
+              "caption": ""
             },
-            "title": "A previsão de energia e a gestão da rede impulsionadas por IA melhoram a integração de energias renováveis.",
-            "description": "A.I. avançada os modelos otimizam o equilíbrio entre a oferta e a demanda de energia e melhoram a estabilidade da rede. Essas tecnologias permitem previsões precisas da geração de energia renovável, facilitando uma melhor gestão da rede e reduzindo a dependência de backups de combustíveis fósseis, acelerando assim a transição para um sistema de energia de baixo carbono."
+            "title": "A interoperabilidade e os padrões abertos permitem confiança e colaboração",
+            "description": "Taxonomias compartilhadas, APIs e padrões de metadados garantem que sistemas e partes interessadas diversos possam trocar dados de maneira significativa. Os bens comuns de dados públicos e estruturas como o SDMX reduzem as barreiras para que startups, pesquisadores e governos inovem juntos e evitem silos de dados."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/2548_64.webp",
-              "caption": "image caption"
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L2_5.png",
+              "caption": ""
             },
-            "title": "I.A. desbloqueia a eficiência energética em edifícios, transporte e indústria.",
-            "description": "Desde a otimização de sistemas HVAC em edifícios inteligentes até a melhoria da gestão de frotas e processos industriais, a IA. reduz o consumo de energia e as emissões. A análise de dados em tempo real e os algoritmos adaptativos permitem ajustes dinâmicos, melhorando a eficiência energética enquanto mantêm o desempenho, como visto nos sistemas de gestão de energia de edifícios impulsionados por IA na Suécia e na otimização de tráfego alimentada por IA."
+            "title": "A capacidade institucional e a governança devem evoluir junto com a tecnologia",
+            "description": "Os governos devem abordar as lacunas de habilidades, a retenção de talentos e a agilidade das políticas. Caixas de areia regulatórias, mandatos de dados claros e modelos de governança transfronteiriços, como embaixadas de dados, são essenciais para garantir o uso ético, seguro e transparente de dados energéticos—especialmente à medida que a adoção de IA se expande na formulação de políticas."
           }
         ]
       }
@@ -908,7 +821,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/lesson742.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/image/lesson742_image.webp",
           "caption": ""
         },
         "intro": "Próximo",

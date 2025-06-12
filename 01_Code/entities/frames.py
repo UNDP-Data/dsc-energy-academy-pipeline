@@ -52,7 +52,7 @@ __all__ = [
     "ConnectionBack",
     "KeyTakeaways",
     "KeyResources",
-    "ScoredQuiz",
+ #   "ScoredQuiz",
     "ImageHotspot",
     "ChapterCover",
     "Chart",
@@ -74,7 +74,7 @@ class FrameBase(BaseModel):
         content = {}
         # Iterate over the fields in the order of declaration.
         for field in self.__fields__:
-            if field in {"template_id", "color_scheme","id","size"}:
+            if field in {"template_id", "color_scheme","id"}:
                 continue
             value = getattr(self, field)
             content[field] = self._serialize_value(value)
@@ -94,6 +94,7 @@ class FrameBase(BaseModel):
             return new_dict
         else:
             return value
+
 
 
 def parse_image_fields(node: Node) -> dict:
@@ -700,14 +701,15 @@ class PhotoHorizontal(FrameBase):
         
 class Infographic(FrameBase):
     image: dict
+    size: str = "full" 
     
     @classmethod
     def from_node(cls, node: Node) -> "Infographic":
         assert node.name == "infographic", f"Expected photo-vertical node, got {node.name}"
        
-        image_node = node.select_node("ATTR", "imageUrl")
+        image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
         if image_node:
-            image={"src": image_node.value, "caption": None, "url": None}
+            image={"src": image_node.name, "caption": None, "url": None}
         else:
             image_node = node.select_node("GROUP", "image")
             image=dict(parse_image_fields(node))
@@ -836,18 +838,6 @@ class KeyResources(FrameBase):
             resources=[Card.from_node(child) for child in node.select_nodes("GROUP", "resources")],
         )
 
-
-class ScoredQuiz(FrameBase):
-    quiz_data: dict
-
-    @classmethod
-    def from_node(cls, node: Node) -> "ScoredQuiz":
-        assert node.name == "scored-quiz", f"Expected scored-quiz node, got {node.name}"
-        quiz_data = node.to_dict() if hasattr(node, "to_dict") else {}
-        return cls(
-            template_id=node.name,
-            quiz_data=quiz_data,
-        )
 
 
 class ImageHotspot(FrameBase):

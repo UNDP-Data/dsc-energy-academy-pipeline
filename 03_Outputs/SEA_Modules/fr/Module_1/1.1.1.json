@@ -2,20 +2,404 @@
   "id": "1.1.1",
   "segments": [
     {
-      "template_id": "lesson_cover",
+      "template_id": "echarts_chart",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_102.webp",
-          "caption": ""
-        },
-        "lesson": {
-          "label": "Leçon",
-          "number": "1"
-        },
-        "title": "L'énergie comme moteur du développement durable",
-        "cta": null,
-        "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables"
+        "option": {
+          "title": {
+            "text": "L'indice de développement humain (IDH) et la consommation d'énergie par habitant, 2019",
+            "subtext": null,
+            "left": "center",
+            "top": "top",
+            "textStyle": {
+              "fontSize": 18
+            },
+            "subtextStyle": {
+              "fontSize": 14,
+              "color": "#888"
+            }
+          },
+          "legend": {
+            "show": true,
+            "bottom": 20
+          },
+          "graphic": [
+            {
+              "type": "text",
+              "left": "center",
+              "bottom": 0,
+              "style": {
+                "text": "Sources : Our World in Data ; Programme des Nations Unies pour le développement Université de Boston Institut pour la durabilité mondiale | visualizingenergy.org | CC BY 4.0",
+                "font": "12px sans-serif",
+                "fill": "#999"
+              }
+            }
+          ],
+          "xAxis": {
+            "type": "value",
+            "name": "Energy use per capita (GJ)"
+          },
+          "yAxis": {
+            "type": "value",
+            "name": "HDI"
+          },
+          "series": [
+            {
+              "symbolSize": 20,
+              "data": [
+                [
+                  55.24,
+                  0.745
+                ],
+                [
+                  36.39,
+                  0.731
+                ],
+                [
+                  25.58,
+                  0.683
+                ],
+                [
+                  82.92,
+                  0.713
+                ]
+              ],
+              "type": "scatter",
+              "name": "Africa"
+            },
+            {
+              "symbolSize": 20,
+              "data": [
+                [
+                  150.02,
+                  0.811
+                ],
+                [
+                  262.33,
+                  0.745
+                ],
+                [
+                  58.01,
+                  0.727
+                ],
+                [
+                  109.16,
+                  0.768
+                ],
+                [
+                  115.94,
+                  0.952
+                ],
+                [
+                  140.74,
+                  0.925
+                ],
+                [
+                  245.11,
+                  0.925
+                ],
+                [
+                  9.94,
+                  0.661
+                ],
+                [
+                  25.43,
+                  0.633
+                ],
+                [
+                  143.37,
+                  0.774
+                ],
+                [
+                  17.13,
+                  0.544
+                ],
+                [
+                  17.79,
+                  0.782
+                ],
+                [
+                  30.07,
+                  0.705
+                ],
+                [
+                  127.86,
+                  0.803
+                ],
+                [
+                  17.67,
+                  0.699
+                ],
+                [
+                  586.21,
+                  0.939
+                ],
+                [
+                  73.05,
+                  0.8
+                ],
+                [
+                  44.0,
+                  0.703
+                ],
+                [
+                  64.53,
+                  0.745
+                ],
+                [
+                  88.25,
+                  0.896
+                ],
+                [
+                  51.56,
+                  0.686
+                ],
+                [
+                  119.62,
+                  0.919
+                ],
+                [
+                  401.73,
+                  0.831
+                ],
+                [
+                  287.03,
+                  0.816
+                ],
+                [
+                  657.63,
+                  0.855
+                ],
+                [
+                  306.28,
+                  0.875
+                ],
+                [
+                  80.28,
+                  0.838
+                ],
+                [
+                  453.25,
+                  0.911
+                ]
+              ],
+              "type": "scatter",
+              "name": "Asia"
+            },
+            {
+              "symbolSize": 20,
+              "data": [
+                [
+                  117.11,
+                  0.808
+                ],
+                [
+                  113.59,
+                  0.795
+                ],
+                [
+                  156.43,
+                  0.889
+                ],
+                [
+                  105.45,
+                  0.846
+                ],
+                [
+                  117.52,
+                  0.876
+                ],
+                [
+                  73.37,
+                  0.821
+                ],
+                [
+                  214.49,
+                  0.822
+                ],
+                [
+                  129.99,
+                  0.848
+                ],
+                [
+                  76.72,
+                  0.773
+                ],
+                [
+                  115.52,
+                  0.948
+                ],
+                [
+                  178.97,
+                  0.89
+                ],
+                [
+                  208.84,
+                  0.94
+                ],
+                [
+                  612.15,
+                  0.959
+                ],
+                [
+                  125.87,
+                  0.945
+                ],
+                [
+                  81.4,
+                  0.863
+                ],
+                [
+                  93.94,
+                  0.875
+                ],
+                [
+                  374.2,
+                  0.961
+                ],
+                [
+                  224.79,
+                  0.947
+                ],
+                [
+                  105.26,
+                  0.929
+                ],
+                [
+                  87.67,
+                  0.858
+                ],
+                [
+                  101.55,
+                  0.887
+                ],
+                [
+                  105.28,
+                  0.895
+                ],
+                [
+                  50.22,
+                  0.77
+                ],
+                [
+                  94.07,
+                  0.866
+                ],
+                [
+                  129.87,
+                  0.918
+                ],
+                [
+                  119.62,
+                  0.905
+                ],
+                [
+                  163.96,
+                  0.916
+                ],
+                [
+                  234.36,
+                  0.937
+                ],
+                [
+                  143.77,
+                  0.903
+                ],
+                [
+                  150.68,
+                  0.942
+                ],
+                [
+                  238.67,
+                  0.93
+                ],
+                [
+                  202.32,
+                  0.941
+                ],
+                [
+                  123.22,
+                  0.962
+                ]
+              ],
+              "type": "scatter",
+              "name": "Europe"
+            },
+            {
+              "symbolSize": 20,
+              "data": [
+                [
+                  437.92,
+                  0.81
+                ],
+                [
+                  52.12,
+                  0.758
+                ],
+                [
+                  366.09,
+                  0.936
+                ],
+                [
+                  279.27,
+                  0.921
+                ]
+              ],
+              "type": "scatter",
+              "name": "North America"
+            },
+            {
+              "symbolSize": 20,
+              "data": [
+                [
+                  221.81,
+                  0.951
+                ],
+                [
+                  173.11,
+                  0.937
+                ]
+              ],
+              "type": "scatter",
+              "name": "Oceania"
+            },
+            {
+              "symbolSize": 20,
+              "data": [
+                [
+                  75.26,
+                  0.842
+                ],
+                [
+                  58.72,
+                  0.754
+                ],
+                [
+                  86.6,
+                  0.855
+                ],
+                [
+                  37.52,
+                  0.752
+                ],
+                [
+                  42.61,
+                  0.74
+                ],
+                [
+                  35.96,
+                  0.762
+                ],
+                [
+                  70.77,
+                  0.691
+                ]
+              ],
+              "type": "scatter",
+              "name": "South America"
+            }
+          ]
+        }
       }
     },
     {
@@ -24,15 +408,15 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "subtitle_small",
             "content": {
-              "text": "Aperçu de la leçon 1"
+              "text": "<strong>Progrès : L'énergie propre s'accélère</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'énergie alimente notre monde, des maisons et des hôpitaux aux industries et aux systèmes numériques. C'est l'épine dorsale de la vie moderne, essentiel pour fournir des services sociaux critiques tels que la santé, l'éducation, l'approvisionnement en eau, le chauffage et le refroidissement. Mais l'énergie ne concerne pas seulement la commodité : elle façonne les niveaux de vie, les opportunités économiques, la sécurité publique et la résilience.<br /><br />Pourtant, l'accès à lui seul n'est pas suffisant. Aujourd'hui, 1,18 milliard de personnes vivent dans la pauvreté énergétique, manquant de l'énergie adéquate, fiable et abordable nécessaire pour l'éclairage, la cuisson, la communication et la vie quotidienne. Pour libérer le potentiel humain et favoriser le développement durable, nous avons besoin de systèmes énergétiques qui ne sont pas seulement disponibles, mais fiables, inclusifs et résilients, des systèmes qui défendent les droits fondamentaux, permettent l'accès à l'eau potable et à l'assainissement, et renforcent la sécurité et le bien-être des communautés."
+              "text": "<strong>Confronté au double défi de concilier un accès universel et abordable avec l'atténuation du climat, le monde commence lentement à modifier ses systèmes énergétiques.</strong> <br /></strong><br />Le coût de l'électricité solaire a chuté de plus de 85 % entre 2010 et 2020 (<a href=\"https://www.irena.org/-/media/files/irena/agency/publication/2022/mar/irena_weto_summary_2022.pdf?la=en&hash=1da99d3c3334c84668f5caae029bd9a076c10079\"><u>IRENA</u></a>, 2022), et les énergies renouvelables sont désormais la source d'énergie la moins chère dans la plupart des régions du monde. En 2024, les investissements dans les énergies propres ont atteint un montant historique de 2 billions de dollars, plus du double depuis 2020 (<a href=\"https://www.iea.org/news/investment-in-clean-energy-this-year-is-set-to-be-twice-the-amount-going-to-fossil-fuels\"><u>IEA</u></a>, 2024). Comme l'illustre le graphique suivant, la part de l'énergie renouvelable dans la production d'électricité mondiale est déjà passée d'environ 20 % en 2000 à plus de 30 % en 2023. En regardant vers l'avenir, il est prévu d'augmenter de 90 % supplémentaires d'ici 2030, par rapport aux niveaux de 2023.<br /><br />Le solaire et l'éolien sont enfin en train de surpasser le charbon et le gaz sur de nombreux marchés. Pour la première fois, les énergies renouvelables devraient devenir la plus grande source d'électricité mondiale. <br /><br />Les gouvernements, les entreprises et les communautés du monde entier s'engagent de plus en plus vers des voies de zéro émission nette. Les percées dans le stockage des batteries, l'hydrogène vert et les solutions d'accès à l'énergie offrent de l'espoir. Ce sont des signes de transformation authentique. <br /><br /><strong>Mais est-ce que cela se passe assez vite ?</strong>"
             }
           }
         ]
@@ -64,73 +448,54 @@
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Pour mieux comprendre cette relation, nous examinons souvent l'Indice de Développement Humain (IDH), une mesure qui nous donne un aperçu du bien-être général d'une nation. L'IDH est un indicateur composite composé de l'espérance de vie, de l'éducation et des indicateurs de revenu par habitant. Les pays sont notés entre 0 et 1, des scores plus élevés reflétant un plus grand développement."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>La consommation d'énergie est étroitement liée à l'IDH.</strong> "
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "À des niveaux de développement faibles, même de petites augmentations de la consommation d'énergie entraînent des améliorations significatives de l'IDH. Par exemple, passer d'une plage de 1 à 5 gigajoules* à seulement 10 gigajoules par habitant peut faire passer un pays d'un développement faible à un développement moyen. Cependant, à mesure que le développement augmente, l'utilisation d'énergie supplémentaire a des rendements décroissants, avec des améliorations plus petites de l'IDH à des niveaux de consommation d'énergie plus élevés. Bien que la relation se dégrade à des niveaux très élevés de l'IDH, comprendre cette connexion est crucial pour une croissance durable."
-            }
-          },
-          {
-            "template_id": "paragraph_small",
-            "content": {
-              "text": "<br /><br />*Un gigajoule (GJ) est une unité d'énergie. Un gigajoule est égal à un milliard de joules. Pour mettre cela en perspective, 1 GJ équivaut à :"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "278 kilowattheures (kWh) d'électricité"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "26 litres d'essence"
-            }
-          },
-          {
-            "template_id": "paragraph_small",
-            "content": {
-              "text": "<em>Pour contexte, 278 kWh d'électricité est environ trois fois moins que la consommation mensuelle moyenne d'un ménage aux États-Unis.</em> (875 kWh par mois) (EIA, 2024). Alternativement, cela représente environ la consommation mensuelle d'un petit congélateur économe en énergie, qui utilise environ 39 kWh par mois (Silicon Valley Power, 2024)."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
+      "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/580_110.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3605_621.webp",
           "caption": ""
-        }
+        },
+        "lesson": {
+          "label": "Leçon",
+          "number": "1"
+        },
+        "title": "Le Grand Dilemme Énergétique : Paradoxes du Développement Durable",
+        "cta": null,
+        "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Aperçu de la leçon 1"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>L'énergie représente à la fois une immense opportunité de développement et un défi pour préserver la vie sur Terre.</strong> <br /></strong><br /> Il alimente les lumières de nos maisons, les machines de nos hôpitaux et la croissance de l'ensemble des économies. Pourtant, la manière dont nous avons produit et consommé de l'énergie, principalement à travers les combustibles fossiles, a créé de grands problèmes environnementaux et climatiques qui mettent en danger les opportunités de développement. <br /><strong><br />C'est le grand dilemme énergétique de notre époque : nous devons élargir l'accès à l'énergie pour sortir des milliards de la pauvreté tout en réduisant simultanément les émissions pour préserver une planète habitable.</strong> <br /><strong><br />Pouvons-nous faire les deux de manière urgente, équitable et à grande échelle ?<br /><br /></strong>Cette leçon décompose les deux impératifs du développement et de l'action climatique, ainsi que les profondes contradictions qu'ils exposent dans le système énergétique actuel."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Pourquoi le Sud global, riche en potentiel renouvelable, ne reçoit-il qu'une petite part des investissements dans l'énergie propre ?</strong> <br /><br />Comment pouvons-nous justifier un monde où le même modèle de croissance alimenté par les combustibles fossiles qui a construit la richesse pour certains menace maintenant la survie des autres ? <br /></strong><br /><br />Nous vous invitons à explorer ces paradoxes qui façonneront l'avenir de l'humanité. Cette leçon vous met au défi de penser au-delà des faux choix, entre la croissance et la durabilité, entre les riches et les pauvres, entre les objectifs climatiques et les droits au développement, et vers une transition énergétique qui soit juste, inclusive et transformative."
+            }
+          }
+        ]
       }
     },
     {
@@ -138,11 +503,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_71.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3605_584.webp",
           "caption": ""
         },
         "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables",
-        "title": "Partie 1 : Examen du système énergétique"
+        "title": "Partie 1 : Développement et climat : Les deux impératifs"
       }
     },
     {
@@ -159,63 +524,389 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Un système énergétique transforme les ressources primaires, telles que les combustibles fossiles ou les ressources énergétiques renouvelables comme le solaire, l'éolien ou l'hydroélectrique, en formes d'énergie utilisables comme l'électricité pour répondre aux besoins humains.</strong> </strong>Ce processus implique plusieurs étapes clés : génération d'énergie, stockage, transport, conversion et utilisation. Les flux d'énergie mondiaux dans la Figure 2, représentés par un diagramme de Sankey, offrent une visualisation claire du système énergétique en 2021. Il met en évidence les sources, comment l'énergie est transformée et où elle est utilisée dans différents secteurs. Ce diagramme illustre efficacement la complexité de la production et de la consommation d'énergie mondiale."
+              "text": "<strong>Nous vivons dans un monde façonné—et tendu—par l'énergie.</strong> <br /></strong>D'une part, l'énergie est le nerf de la guerre du développement : alimenter les maisons, les écoles, les hôpitaux, les économies. D'un autre côté, la façon dont nous produisons et utilisons l'énergie nuit à notre planète et à nos écosystèmes, menaçant les fondements mêmes de la vie.<br /><strong><br />C'est le paradoxe déterminant de notre époque.</strong> </strong>Nous avons besoin de plus d'énergie pour garantir que chaque personne puisse vivre une vie digne et en bonne santé. Mais nous avons également besoin d'une énergie plus propre immédiatement pour éviter un changement climatique catastrophique. Ces deux objectifs sont tous deux non négociables. Pourtant, ils s'opposent les uns aux autres dans un monde encore structuré par de profondes inégalités, une infrastructure obsolète et de puissants intérêts liés aux combustibles fossiles.<br /><strong><br /><br />Le paradoxe du développement durable repose sur ces deux éléments principaux qui sont indissociables l'un de l'autre et essentiels pour comprendre les défis les plus significatifs de notre époque.</strong>"
+            }
+          },
+          {
+            "template_id": "quote_large_with_name",
+            "content": {
+              "quote": "“We face a moment of truth, <br />Close to 760 million people still lack access to electricity. <br />Some 2.6 billion people lack access to clean cooking solutions. <br /><strong>And how we produce and use energy is the main cause of the climate crisis.</strong>”",
+              "author": "UN Secretary-General António Guterres, <a href=\"https://www.un.org/en/desa/un-secretary-general-issues-new-global-roadmap-secure-clean-energy-access-all-2030-and-net-zero\"><u>November 2021</u></a>"
             }
           }
         ]
       }
     },
     {
-      "template_id": "photo_horizontal",
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>L'énergie stimule le développement</strong>"
+            }
+          },
+          {
+            "template_id": "quote_small_without_name",
+            "content": {
+              "quote": ""
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Pour mieux comprendre cette relation, nous examinons souvent l'Indice de Développement Humain (IDH), une mesure qui nous donne un aperçu du bien-être général d'une nation. L'IDH est un indicateur composite composé de l'espérance de vie, de l'éducation et des indicateurs de revenu par habitant. Les pays sont notés entre 0 et 1, des scores plus élevés reflétant un plus grand développement."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>La consommation d'énergie est étroitement liée à l'IDH.</strong> À des niveaux de développement faibles, même de petites augmentations de la consommation d'énergie entraînent des améliorations significatives de l'IDH. Cependant, à mesure que le développement augmente, l'utilisation d'énergie supplémentaire a des rendements décroissants, avec des améliorations plus petites de l'IDH à des niveaux de consommation d'énergie plus élevés. Bien que la relation se dégrade à des niveaux très élevés de l'IDH, comprendre cette connexion est crucial pour une croissance durable."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>L'énergie alimente également le changement climatique</strong>"
+            }
+          },
+          {
+            "template_id": "quote_small_without_name",
+            "content": {
+              "quote": ""
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Le carburant même qui a alimenté le développement industriel accélère maintenant une crise mondiale.</strong> </strong>Les combustibles fossiles—charbon, pétrole et gaz—représentent encore la majorité de l'approvisionnement énergétique mondial, malgré des décennies d'avertissements climatiques. En conséquence, <strong>la production et l'utilisation d'énergie représentent désormais environ 75 % des émissions mondiales de gaz à effet de serre</strong> en raison de la combustion de combustibles fossiles pour l'électricité, la chaleur et le transport.<br /><strong><br /></strong>Cela représente un <strong>défi significatif pour le développement durable, car les impacts du changement climatique,</strong> tels que les événements météorologiques extrêmes, l'élévation du niveau de la mer et les changements dans les modèles agricoles,<strong> compromettent la stabilité économique, la sécurité alimentaire et la santé publique. <br /><br />Ces effets touchent de manière disproportionnée les populations les plus pauvres et les plus vulnérables, </strong>qui sont les moins équipées pour s'adapter et ont le moins contribué aux émissions mondiales. En conséquence, le changement climatique exacerbe les inégalités existantes et constitue une menace directe pour les gains en matière de développement, en particulier dans les pays à faible revenu et vulnérables au climat."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/580_117.webp",
-          "caption": ""
+        "option": {
+          "title": {
+            "text": "Figure 1 : Émissions mondiales de CO2 provenant de la combustion d'énergie et des processus industriels et leur variation annuelle, 1900-2022",
+            "subtext": null,
+            "left": "center",
+            "top": "top",
+            "textStyle": {
+              "fontSize": 18
+            },
+            "subtextStyle": {
+              "fontSize": 14,
+              "color": "#888"
+            }
+          },
+          "legend": {
+            "show": true,
+            "bottom": 20
+          },
+          "graphic": [
+            {
+              "type": "text",
+              "left": "center",
+              "bottom": 0,
+              "style": {
+                "text": null,
+                "font": "12px sans-serif",
+                "fill": "#999"
+              }
+            }
+          ],
+          "xAxis": {
+            "type": "category",
+            "data": [
+              1899,
+              1900,
+              1901,
+              1902,
+              1903,
+              1904,
+              1905,
+              1906,
+              1907,
+              1908,
+              1909,
+              1910,
+              1911,
+              1912,
+              1913,
+              1914,
+              1915,
+              1916,
+              1917,
+              1918,
+              1919,
+              1920,
+              1921,
+              1922,
+              1923,
+              1924,
+              1925,
+              1926,
+              1927,
+              1928,
+              1929,
+              1930,
+              1931,
+              1932,
+              1933,
+              1934,
+              1935,
+              1936,
+              1937,
+              1938,
+              1939,
+              1940,
+              1941,
+              1942,
+              1943,
+              1944,
+              1945,
+              1946,
+              1947,
+              1948,
+              1949,
+              1950,
+              1951,
+              1952,
+              1953,
+              1954,
+              1955,
+              1956,
+              1957,
+              1958,
+              1959,
+              1960,
+              1961,
+              1962,
+              1963,
+              1964,
+              1965,
+              1966,
+              1967,
+              1968,
+              1969,
+              1970,
+              1971,
+              1972,
+              1973,
+              1974,
+              1975,
+              1976,
+              1977,
+              1978,
+              1979,
+              1980,
+              1981,
+              1982,
+              1983,
+              1984,
+              1985,
+              1986,
+              1987,
+              1988,
+              1989,
+              1990,
+              1991,
+              1992,
+              1993,
+              1994,
+              1995,
+              1996,
+              1997,
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "type": "value",
+            "name": "Total (Gt CO2)"
+          },
+          "series": [
+            {
+              "type": "line",
+              "name": "Total (Gt CO2)",
+              "data": [
+                null,
+                "2",
+                "2",
+                "2.1",
+                "2.3",
+                "2.3",
+                "2.4",
+                "2.6",
+                "2.9",
+                "2.8",
+                "2.9",
+                "3",
+                "3.1",
+                "3.2",
+                "3.5",
+                "3.2",
+                "3.1",
+                "3.4",
+                "3.5",
+                "3.5",
+                "3",
+                "3.5",
+                "3.1",
+                "3.2",
+                "3.7",
+                "3.7",
+                "3.7",
+                "3.6",
+                "4",
+                "3.9",
+                "4.2",
+                "3.9",
+                "3.5",
+                "3.1",
+                "3.3",
+                "3.6",
+                "3.8",
+                "4.1",
+                "4.4",
+                "4.2",
+                "4.4",
+                "4.8",
+                "4.9",
+                "5",
+                "5.1",
+                "5.1",
+                "4.2",
+                "4.6",
+                "5.1",
+                "5.3",
+                "5.1",
+                "5.7",
+                "6.1",
+                "6.2",
+                "6.3",
+                "6.4",
+                "7.1",
+                "7.5",
+                "7.7",
+                "7.9",
+                "8.4",
+                "8.8",
+                "8.9",
+                "9.2",
+                "9.7",
+                "10.2",
+                "10.7",
+                "11.1",
+                "11.4",
+                "12",
+                "12.8",
+                "13.9",
+                "14.1",
+                "14.8",
+                "15.7",
+                "15.6",
+                "15.7",
+                "16.5",
+                "17.1",
+                "17.6",
+                "18.2",
+                "18",
+                "17.7",
+                "17.5",
+                "17.7",
+                "18.2",
+                "18.5",
+                "18.8",
+                "19.5",
+                "20.2",
+                "20.5",
+                "21.3",
+                "21.5",
+                "21.5",
+                "21.6",
+                "21.8",
+                "22.4",
+                "22.8",
+                "23.3",
+                "23.4",
+                "23.6",
+                "24.6",
+                "24.9",
+                "25.3",
+                "26.4",
+                "27.7",
+                "28.7",
+                "29.7",
+                "30.9",
+                "31.1",
+                "30.7",
+                "32.6",
+                "33.6",
+                "34",
+                "34.7",
+                "34.9",
+                "34.7",
+                "34.8",
+                "35.4",
+                "36.3",
+                "36.2",
+                "34.3",
+                "36.5",
+                "36.8"
+              ]
+            }
+          ]
         }
       }
     },
     {
       "template_id": "text",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "paragraph_medium",
             "content": {
-              "text": ""
-            }
-          },
-          {
-            "template_id": "bullet_point_with_number",
-            "content": {
-              "number": "1",
-              "title": "<strong>Les combustibles fossiles dominent</strong>",
-              "body": "Le pétrole, le charbon et le gaz naturel sont les plus grandes sources d'énergie primaire."
-            }
-          },
-          {
-            "template_id": "bullet_point_with_number",
-            "content": {
-              "number": "2",
-              "title": "<strong>Pertes d'énergie</strong>",
-              "body": "Les zones grises montrent l'énergie perdue lors de la transformation et de la transmission."
-            }
-          },
-          {
-            "template_id": "bullet_point_with_number",
-            "content": {
-              "number": "3",
-              "title": "<strong>Dépendances sectorielles</strong>",
-              "body": "Le transport dépend fortement du pétrole <br />L'industrie utilise un mélange de sources, y compris le charbon et le gaz naturel <br />Les bâtiments dépendent de l'électricité et de l'utilisation directe de combustibles"
-            }
-          },
-          {
-            "template_id": "bullet_point_with_number",
-            "content": {
-              "number": "4",
-              "title": "<strong>Technologies émergentes</strong>",
-              "body": "L'hydrogène apparaît à la fois comme un vecteur énergétique et une utilisation finale, indiquant son rôle croissant."
+              "text": "<strong>Le double défi d'élargir l'accès à l'énergie et de lutter contre le changement climatique, les deux impératifs de l'énergie durable, est au cœur de l'agenda de développement.<br /><br /></strong> L'énergie est essentielle à la croissance économique, à l'éducation, aux soins de santé et au développement humain plus large. Pourtant, la manière dont le monde a historiquement alimenté le développement—à travers les combustibles fossiles—déstabilise désormais le climat et met en péril ces mêmes gains de développement.<br /><br />Les économies émergentes cherchent à juste titre à croître, à s'industrialiser et à prospérer. Mais si cette croissance suit le même chemin alimenté par les combustibles fossiles que par le passé, les objectifs climatiques s'effondreront et les plus pauvres souffriront à nouveau le plus.<br /><strong><br />Nous faisons donc face à une équation délicate : les mêmes systèmes qui nient l'énergie aux pauvres déstabilisent également le climat. <br />Cela soulève également des questions urgentes : <br /><br /></strong>Qui a le droit d'industrialiser, et comment ?<br /><br />Le droit de se développer peut-il être réalisé sans approfondir la crise climatique ? <br /><br />Et pouvons-nous construire un nouveau système énergétique qui à la fois favorise la prospérité et protège la planète ?<br /><br /> Les réponses résident dans la réimagination du développement non pas comme un compromis entre la croissance et la durabilité, mais comme une opportunité transformationnelle de sauter vers des systèmes énergétiques plus propres et plus résilients, alignés sur les objectifs climatiques et ancrés dans la justice."
             }
           }
         ]
@@ -226,11 +917,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_172.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3605_552.webp",
           "caption": ""
         },
         "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables",
-        "title": "Partie 2 : Trilemme énergétique"
+        "title": "Partie 2 : Progrès et paradoxes dans la quête de transitions énergétiques justes"
       }
     },
     {
@@ -247,32 +938,10 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Comme nous l'avons vu précédemment, l'énergie joue un rôle crucial dans l'atteinte de la prospérité, et à mesure que les sociétés se développent et prospèrent, leur dépendance à l'énergie et aux services qu'elle fournit augmente considérablement. Cependant, cette quête de croissance économique, en particulier par le biais d'une consommation accrue de combustibles fossiles, a souvent un coût pour l'environnement. Le trilemme énergétique—équilibrer la sécurité énergétique, l'équité et la durabilité—capture ces compromis complexes entre la production d'énergie, l'avancement économique et l'état de l'environnement.<br /><br />Ce trilemme n'est pas seulement un concept abstrait ; il est profondément lié aux questions de justice et d'équité. Les pays et régions en développement dépendants des combustibles fossiles font souvent face à un difficile équilibre : garantir un accès à l'énergie abordable et fiable (sécurité), promouvoir la croissance économique (équité) et avancer la protection de l'environnement (durabilité). <p>Dans ce chapitre, nous allons décomposer les aspects clés de ce trilemme, en examinant comment différents pays naviguent à travers ces défis et quelles stratégies peuvent aider à atteindre un avenir énergétique plus durable.</p>"
+              "text": "<strong>La transition énergétique mondiale prend de l'ampleur, mais sous la surface des progrès se cache une série de contradictions.<br /></strong><br /> Le solaire et l'éolien battent des records. Les technologies propres sont moins chères et se répandent plus rapidement que jamais auparavant. <br /><br />Et pourtant, les combustibles fossiles restent profondément ancrés, l'accès reste profondément inégal, et les flux d'investissement continuent de contourner les communautés qui en ont le plus besoin. <br /><br />Sommes-nous vraiment en train de transitionner ou simplement de réorganiser le déséquilibre ? Pourquoi l'énergie propre est-elle en plein essor alors que les combustibles fossiles dominent encore ? Ces questions sont cruciales pour encadrer la problématique de l'énergie pour le développement et remettre en question les systèmes en jeu dans sa transformation."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/580_123.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "lesson_subpart_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_190.webp",
-          "caption": ""
-        },
-        "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables",
-        "title": "A : Consommation mondiale de combustibles fossiles"
       }
     },
     {
@@ -280,6 +949,18 @@
       "color_scheme": "light",
       "content": {
         "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Paradoxe : Les combustibles fossiles sont toujours prédominants</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Malgré certains progrès, le système énergétique sous-jacent reste structurellement injuste, lourd en carbone et profondément inégal.</strong> "
+            }
+          },
           {
             "template_id": "paragraph_medium",
             "content": {
@@ -322,49 +1003,69 @@
       }
     },
     {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/580_132.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "lesson_subpart_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_234.webp",
-          "caption": ""
-        },
-        "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables",
-        "title": "B: Disparités de consommation d'énergie"
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Les contradictions qui définissent encore le système énergétique</strong>"
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Des disparités significatives existent à l'échelle mondiale en matière d'utilisation de l'énergie, de prospérité, de santé, d'influence politique et de demandes en ressources. <br /><br />L'utilisation mondiale de l'énergie reste profondément inégale, reflétant des disparités plus larges en matière de richesse, de santé, d'influence politique et de consommation de ressources. La consommation d'énergie par habitant souligne l'ampleur de cette division. Un Américain moyen, par exemple, utilise 12 fois plus d'énergie qu'un Indien moyen—consommant en un mois ce qu'un Indien utilise en une année entière. L'écart est encore plus large entre l'Amérique du Nord et l'Afrique, où le Nord-Américain moyen consomme plus de 50 fois plus d'énergie que l'Africain moyen. Même parmi les pays à revenu intermédiaire, des contrastes marqués subsistent : le Britannique moyen utilise deux fois plus d'énergie que le Brésilien moyen.<br />Ces disparités mettent en évidence non seulement des différences de revenus et d'infrastructure, mais aussi un accès inégal aux nombreux avantages que l'énergie permet, de la santé et de l'éducation à la mobilité, la productivité et la résilience climatique."
+              "text": "La montée rapide des énergies renouvelables, parallèlement à la persistance des combustibles fossiles, met en évidence des contradictions clés au cœur des défis qui façonnent la quête de transitions énergétiques justes dans le contexte du développement. Examinons quelques-unes des paradoxes les plus frappants qui définissent la transition énergétique d'aujourd'hui."
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>L'énergie propre est moins chère que jamais</strong>—les coûts solaires ont chuté de plus de 85 % depuis 2010, <br />Pourtant, <strong>les combustibles fossiles représentent encore 80 %</strong> de l'énergie mondiale ( <a href=\"https://www.energyinst.org/statistical-review\"><u>Energy Institute</u></a>, 2024).",
+              "body": "",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "Le Sud mondial détient<strong> 70 % du potentiel renouvelable </strong>(<a href=\"https://rmi.org/wp-content/uploads/dlm_uploads/2024/10/Powering_up_the_global_south.pdf\"><u>RMI</u></a>, 2024)<strong> </strong>, <br />Mais les marchés émergents et les économies en développement en dehors de la Chine n'attirent que <strong>15 % des investissements dans l'énergie propre </strong>(<a href=\"https://www.iea.org/reports/world-energy-investment-2024/overview-and-key-findings\"><u>IEA</u></a>, 2024).",
+              "body": "",
+              "source": ""
             }
           }
         ]
       }
     },
     {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
+      "template_id": "text",
+      "color_scheme": "light",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/580_139.webp",
-          "caption": ""
-        }
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Ces contradictions ne sont pas seulement techniques, elles reflètent des échecs politiques, financiers et éthiques.</strong> "
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "Les investissements mondiaux dans la transition énergétique ont atteint un record<strong> 2 billions de dollars en 2024.<br /></strong>Cependant, <strong>les subventions aux combustibles fossiles ont dépassé 620 milliards de dollars en 2023 </strong>(<a href=\"https://www.iea.org/topics/fossil-fuel-subsidies\"><u>IEA</u></a>, 2024).",
+              "body": "",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "L'Afrique abrite 20 % de la population mondiale, et <strong>80 % de toutes les personnes n'ayant pas accès à l'électricité,<br /></strong> Pourtant, le continent ne reçoit qu'un peu moins de <strong>2 %</strong> de <strong>l'investissement mondial dans les énergies propres</strong>, malgré d'immenses ressources solaires et éoliennes.",
+              "body": "",
+              "source": ""
+            }
+          }
+        ]
       }
     },
     {
@@ -373,209 +1074,198 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>À quoi ressemblerait une véritable transition énergétique juste ?</strong>"
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Quel type de développement est possible sans énergie—et quel type d'énergie soutient un développement équitable ?</strong>"
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Comment passer du changement incrémental à la justice transformative dans le système énergétique ?</strong> "
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<em>Pour comparaison, </em><a href=\"https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart\"><em><u>les appareils électroménagers courants consomment</u></em></a><em> :</em>"
+              "text": "<strong>Ici encore, ces paradoxes soulèvent des questions et nous invitent à faire une pause et à réfléchir sur la façon dont notre monde utilise l'énergie.<br /><br /><br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3652_174.webp",
+          "caption": ""
+        },
+        "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables",
+        "title": "Partie 3 : Alimenter l'avenir : Allons-nous bien le faire"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Vue d'ensemble de la partie 3</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le défi d'une transition énergétique juste a des impératifs doubles et de multiples contradictions. <strong>Comment pouvons-nous aller au-delà de la structure actuelle et construire un système qui soit bénéfique pour les personnes, la planète et la prospérité ?<br /><br /></strong>Cette section explore les changements fondamentaux nécessaires pour passer des systèmes énergétiques obsolètes et alimentés par des combustibles fossiles d'aujourd'hui à un avenir qui soit propre, inclusif et aligné sur le climat. Cela commence par diagnostiquer les limites de notre modèle énergétique centralisé actuel, qui bénéficie de manière disproportionnée aux riches, reste fortement dépendant des combustibles fossiles et souffre d'inefficiences significatives et de vulnérabilités sectorielles.<br /> Il présente ensuite le système énergétique dont nous avons besoin : un système qui est renouvelable, non polluant et conçu pour offrir des gains de développement intersectoriels, de la santé et de l'éducation à la sécurité alimentaire et à la résilience. <br /><br />Enfin, il décrit les leviers clés pour un changement transformateur dans la prochaine décennie. Cette section prépare le terrain pour comprendre que la <strong>transition énergétique n'est pas seulement une mise à niveau technologique, c'est une exigence politique, sociale et morale.<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Où nous en sommes : Un système construit pour le passé</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Notre système énergétique actuel échoue largement à préparer l'avenir. Il est centralisé, alimenté par des combustibles fossiles, et sert de manière disproportionnée ceux qui ont déjà le plus. <br /><strong>Comme illustré dans ce qui suit, des graphiques, plusieurs observations peuvent être faites sur nos systèmes énergétiques actuels</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point_with_number",
+            "content": {
+              "number": "1",
+              "title": "<strong>Les combustibles fossiles dominent</strong>",
+              "body": "Le pétrole, le charbon et le gaz naturel sont les plus grandes sources d'énergie primaire."
+            }
+          },
+          {
+            "template_id": "bullet_point_with_number",
+            "content": {
+              "number": "2",
+              "title": "<strong>Pertes d'énergie</strong>",
+              "body": "Les zones grises montrent l'énergie perdue lors de la transformation et de la transmission."
+            }
+          },
+          {
+            "template_id": "bullet_point_with_number",
+            "content": {
+              "number": "3",
+              "title": "<strong>Dépendances sectorielles</strong>",
+              "body": "Le transport dépend fortement du pétrole <br />L'industrie utilise un mélange de sources, y compris le charbon et le gaz naturel <br />Les bâtiments dépendent de l'électricité et de l'utilisation directe de combustibles"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Remarque : Un système énergétique est un ensemble de processus qui transforme des ressources primaires, telles que les combustibles fossiles ou les ressources énergétiques renouvelables comme le solaire, l'éolien ou l'hydroélectrique, en formes d'énergie utilisables comme l'électricité pour répondre aux besoins humains.</strong> </strong>Ces processus impliquent plusieurs étapes clés : génération d'énergie, stockage, transport, conversion et utilisation. Le diagramme des flux d'énergie mondiaux met en évidence les sources, comment l'énergie est transformée et où elle est utilisée dans différents secteurs."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Où nous devons aller : Construire un système énergétique juste et aligné sur le climat</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Pour atteindre l'accès universel à l'énergie et les objectifs climatiques, nous devons complètement réinventer la façon dont l'énergie est produite, distribuée et utilisée. <br /><br />Le système énergétique dont nous avons besoin est :"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "",
-              "body": "Un réfrigérateur : ~39 kWh par mois (~0,47 GJ par an)"
+              "title": "<strong>Renouvelable</strong>",
+              "body": "Alimenté par l'énergie solaire, éolienne, hydraulique et les carburants verts—aligné avec un avenir à 1,5 °C."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "",
-              "body": "Une machine à laver : ~1,9 kWh par cycle (~0,007 GJ par cycle)"
+              "title": "<strong>Propre</strong>",
+              "body": "Un système qui ne crée pas de pollution nocive et de gaz à effet de serre."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "",
-              "body": "Un chauffe-eau électrique : ~380-450 kWh par mois (~1,4-1,6 GJ par mois)"
+              "title": "<strong>Inclusif</strong>",
+              "body": "Conçu pour servir les personnes en situation de précarité énergétique, autonomiser les femmes et créer des moyens de subsistance."
             }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "lesson_subpart_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_255.webp",
-          "caption": ""
-        },
-        "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables",
-        "title": "C : Utilisation de l'énergie et changement climatique"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "La consommation d'énergie a augmenté en raison de la croissance de la population, de l'industrialisation, de la mondialisation, de l'augmentation de la demande par habitant et de la croissance économique globale.<br /><br />En conséquence, la forte dépendance aux combustibles fossiles a fait du secteur de l'énergie le principal contributeur au changement climatique, tout en ayant également un impact significatif sur la qualité de l'environnement et la santé publique. <br /><br />Le changement climatique, à sa base, est en grande partie une question d'énergie, avec environ 75 % des émissions mondiales de gaz à effet de serre (GES) provenant de l'utilisation de l'énergie. <br /><br />Les plus grandes sources d'émissions dans le secteur de l'énergie sont la production d'électricité et de chaleur, suivies par le transport et la fabrication. La figure 5 illustre les tendances historiques et les variations annuelles des émissions mondiales de dioxyde de carbone (CO2) provenant de la combustion d'énergie et des processus industriels, fournissant une image claire de la manière dont la consommation d'énergie impacte le changement climatique."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/581_154.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/581_155.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "lesson_subpart_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_273.webp",
-          "caption": ""
-        },
-        "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables",
-        "title": "D : Inefficacités dans le système énergétique mondial"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le système énergétique mondial actuel fonctionne à seulement 37 % d'efficacité, ce qui signifie que près des deux tiers de l'énergie produite est perdue en raison des inefficacités dans la génération, le transport et l'utilisation finale.<br /><br />En 2019, environ 33 % de l'énergie produite dans le monde a été perdue avant même d'atteindre les consommateurs, en raison des inefficacités de production et de transport. 30 % supplémentaires ont été gaspillés du côté de la demande, car l'énergie a été convertie en énergie utile (voir la Figure 7). <br /><br />Plus précisément, la plupart des pertes d'énergie proviennent des inefficacités dans la production et la livraison de combustibles fossiles (177 EJ/an), du transport (19 EJ/an) et de l'utilisation (183 EJ/an). Les centrales électriques à combustibles fossiles et les moteurs à combustion interne représentent près de la moitié du gaspillage énergétique mondial, aux côtés de pertes significatives dues à la sous-utilisation des sous-produits et de la chaleur perdue.<br /><br />Le gaspillage de 379 EJ d'énergie chaque année entraîne une perte d'environ 4,6 trillions de dollars dans le monde—1 trillion de dollars du côté de l'offre et 3,6 trillions de dollars du côté de la demande. <br /><br />Cela équivaut à 40 % des dépenses mondiales en énergie et à 5 % du PIB mondial, ce qui représente à peu près le double des investissements annuels dans le système énergétique."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/581_160.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "lesson_subpart_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_298.webp",
-          "caption": ""
-        },
-        "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables",
-        "title": "E : Défis de la sécurité énergétique dans un monde dépendant des combustibles fossiles"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Les défis liés à la dépendance aux combustibles fossiles pour la sécurité énergétique concernent moins les ressources elles-mêmes et davantage des facteurs externes tels que la géopolitique, le social, l'économie et l'environnement. <br /><br />De nombreux pays exportateurs de combustibles fossiles font souvent face à une instabilité politique, ce qui peut perturber l'approvisionnement en pétrole, en gaz et en charbon. Pour les pays à faible revenu qui dépendent fortement des importations de combustibles, ces perturbations peuvent entraîner des pénuries d'énergie, un stress économique et un accès réduit aux services de base. Les combustibles fossiles dépendent également de chaînes d'approvisionnement complexes—pipelines, routes maritimes et raffineries—qui sont vulnérables aux conflits, aux accidents et aux catastrophes naturelles. <br /><br />De plus, des événements mondiaux tels que des guerres, des catastrophes naturelles, des sanctions ou des crises économiques peuvent faire fluctuer les prix de l'énergie, les rendant imprévisibles. Pour les nations riches en ressources mais à faible revenu, les exportations de combustibles fossiles peuvent fournir une stabilité économique, mais elles les exposent également à la volatilité du marché et à la \"malédiction des ressources\", où la richesse provenant des exportations de combustibles ne se traduit pas par un développement économique plus large. Cette volatilité met à rude épreuve les relations internationales alors que les pays rivalisent pour sécuriser des approvisionnements énergétiques abordables. <br /><br />De plus, la production de combustibles fossiles ne garantit pas toujours la sécurité énergétique d'un pays, et cela peut conduire à une distribution inégale des ressources, où tous les citoyens ne bénéficient pas également des profits ou de l'énergie générée. En bref, les combustibles fossiles présentent des risques significatifs pour un approvisionnement énergétique stable et sécurisé, en grande partie en raison de facteurs géopolitiques et économiques externes."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "lesson_subpart_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_311.webp",
-          "caption": ""
-        },
-        "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables",
-        "title": "F. Demande mondiale d'énergie en hausse"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "À mesure que les économies se développent, en particulier dans les pays en développement, la demande en énergie augmente. <br /><br />La consommation mondiale d'énergie devrait augmenter de 15 % d'ici 2050, stimulée par la croissance de la population, le développement économique et l'utilisation croissante de l'électricité dans tous les secteurs. Alors que les pays développés pourraient connaître une réduction de 10 % de leur consommation d'énergie grâce à des améliorations d'efficacité, la demande énergétique dans les pays en développement devrait augmenter de plus de 25 %, annulant ainsi ces gains."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/582_161.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "key_takeaways",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Principaux enseignements",
-        "intro": "Si vous n'avez que de la place pour retenir 3 choses :",
-        "takeaways": [
-          {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_358.webp",
-              "caption": "image caption"
-            },
-            "title": "L'énergie est essentielle à la croissance économique et au bien-être humain, mais les disparités dans l'accès et l'utilisation de l'énergie mettent en évidence de stark inégalités dans la prospérité, l'accès aux services sociaux et la disponibilité des ressources à travers les nations, en particulier dans les économies en développement.",
-            "description": ""
           },
           {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_352.webp",
-              "caption": "image caption"
-            },
-            "title": "Le dilemme énergie-prospérité-environnement souligne la nécessité d'équilibrer le développement économique avec la protection de l'environnement, en particulier dans les régions fortement dépendantes des combustibles fossiles. Les stratégies énergétiques durables sont essentielles pour atteindre cet équilibre sans compromettre le progrès.",
-            "description": ""
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Intersectoriel</strong>",
+              "body": "Offrir des gains de développement intégrés, de la santé et de la sécurité alimentaire à l'éducation et à la résilience climatique."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Comment y arriver</strong>"
+            }
           },
           {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_346.webp",
-              "caption": "image caption"
-            },
-            "title": "Avec les combustibles fossiles dominant le système énergétique inefficace et entraînant le changement climatique, une transition vers les énergies renouvelables et une amélioration de l'efficacité énergétique sont essentielles. Alors que la demande mondiale en énergie augmente, cette transformation sera essentielle pour garantir la sécurité, l'équité et la durabilité.",
-            "description": ""
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La prochaine décennie est décisive. Les décisions d'infrastructure prises aujourd'hui façonneront la vie des générations à venir. Que devons-nous faire ?<br /><br /><strong>Positionner les énergies renouvelables décentralisées comme une infrastructure de développement essentielle, et pas seulement comme une solution climatique.<br /><br />Accroître l'utilisation du numérique, des données et de l'IA pour améliorer l'accès, l'efficacité et l'équité dans les systèmes énergétiques.<br /><br />Combler le fossé financier en construisant des pipelines de projets bancables qui offrent de multiples avantages, allant de l'alimentation des cliniques et des écoles rurales à la préservation de la biodiversité et au renforcement des systèmes alimentaires.<br /><br />Aligner les politiques publiques, la réglementation et le capital privé vers des futurs énergétiques inclusifs et compatibles avec le climat.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Comme nous l'avons appris dans cette leçon, une transition énergétique juste n'est pas seulement un défi technique. C'est une question de pouvoir, de valeurs et d'urgence. La transition énergétique ne réussira pas à moins qu'elle ne fonctionne pour tout le monde, en particulier pour ceux qui ont été historiquement laissés pour compte.<br /><br />Dans le reste du module, nous approfondirons comment nous en sommes arrivés là, ce qui doit changer et comment nous pouvons mener la charge vers un avenir énergétique juste, inclusif et durable."
+            }
+          },
+          {
+            "template_id": "quote_large_without_name",
+            "content": {
+              "quote": "Achieving universal energy access and net zero emissions by 2050 will require nothing short of the complete transformation of the global energy system."
+            }
           }
         ]
       }

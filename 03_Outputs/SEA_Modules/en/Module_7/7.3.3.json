@@ -2,40 +2,27 @@
   "id": "7.3.3",
   "segments": [
     {
-      "template_id": "lesson_cover",
+      "template_id": "infographic",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_188.webp",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L3_11.png",
+          "caption": "",
+          "url": null
         },
-        "lesson": {
-          "label": "Lesson",
-          "number": "2"
-        },
-        "title": "Energy Modelling Tools and Applications",
-        "cta": null,
-        "intro": "M7: Data In Sustainable Energy"
+        "size": "full"
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
+      "template_id": "infographic",
+      "color_scheme": "dark",
       "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Energy systems modelling is a computational process used to test hypotheses about energy systems, including scenarios of generation, distribution, and consumption. These models can be used to evaluate behavior and performance of energy systems (shown in the following figure) under different climatic, technical, economic and social conditions. Energy modelling encompasses various methods, from simple analytical calculations to complex simulations incorporating multiple variables and interactions within the energy sector."
-            }
-          },
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Lesson 2 Overview</strong>"
-            }
-          }
-        ]
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L2_7.png",
+          "caption": "",
+          "url": null
+        },
+        "size": "full"
       }
     },
     {
@@ -52,51 +39,28 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_178.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C2_L3_4.png",
+          "caption": "",
+          "url": null
+        },
+        "size": "full"
+      }
+    },
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C3_L3_3.png",
           "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Environmental Impact Assessment:</strong>",
-              "body": "Simulating various energy scenarios aids in evaluating emission reductions and other environmental benefits, thereby supporting environmental sustainability."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Investment and Economic Analysis</strong>",
-              "body": "These models provide insights into the costs and benefits of different initiatives, technologies, and efficiency measures, supporting sound economic decision-making."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Energy System Planning and Optimization</strong>",
-              "body": "Energy models help optimize the mix of energy sources and technologies, plan for future energy demand—including the development of adequate energy infrastructure such as power networks—analyze energy security risks, and ensure the reliability and stability of energy supply."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Policy Analysis and Development</strong>",
-              "body": "By simulating different energy policy scenarios, policymakers can assess potential impacts and make informed decisions about policy objectives, design, and implementation."
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Energy modelling serves various purposes across different sectors and industries:</strong>"
-            }
-          }
-        ]
+        },
+        "lesson": {
+          "label": "Lesson",
+          "number": "3"
+        },
+        "title": "Applied Machine Learning in Energy Data",
+        "cta": null,
+        "intro": "M1: Introduction to Sustainable Energy System Transformation"
       }
     },
     {
@@ -107,70 +71,13 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Overall, energy modelling is indispensable for informed decision-making, <br />sustainability, and ensuring the efficient use of energy resources."
+              "text": "This section is an introduction to the role of Machine Learning (ML) in energy policy, with a focus on structured data, supervised and unsupervised learning, and ethical considerations. It explains how ML models are trained using labeled data and test/train splits and how these models can support evidence-based policymaking in areas like energy access, consumption forecasting, and environmental impact.<br />The lesson moves from foundational ML concepts to specific applications, such as using Random Forests for solar energy prediction and clustering for industrial emissions profiling. It concludes by exploring the limitations and ethical concerns tied to ML in public policy, including data bias, transparency, privacy, and explaingability, and highlights best practices such as Privacy by Design, Explainable AI, and regulatory sandboxes."
             }
           },
           {
-            "template_id": "bullet_point",
+            "template_id": "subtitle",
             "content": {
-              "title": "<strong>Climate Change Mitigation:</strong>",
-              "body": "Energy modelling is crucial for designing strategies to mitigate climate change by providing a comprehensive understanding of energy system complexities."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Resource Management:</strong>",
-              "body": "It assists in evaluating the sustainable use of natural resources, including both renewable and non-renewable sources."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Evaluation of New and Emerging Technologies:</strong>",
-              "body": "Energy modelling allows stakeholders to assess the potential contributions of innovative energy technologies to the overall energy mix and understand their implications for sustainability."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "An <strong>energy system</strong> encompasses an interconnected network of energy production, conversion, transmission, distribution, storage, and consumption, comprising physical components and processes essential for delivering energy services to end-users. Within this system, renewable energy sources (RES) play a pivotal role, offering sustainable energy options like solar, wind, hydro, geothermal, and biomass. In contrast, fossil fuels, such as coal, oil, and natural gas, constitute non-renewable energy sources derived from ancient organic matter. Likewise, nuclear energy is currently produced from uranium and plutonium, and all nuclear fuels are finite resources. <br /><br />The<strong> energy mix </strong>refers to the combination of different energy sources used to meet energy demand in a specific region or country. However, concerns about greenhouse gas (GHG) emissions prompt the adoption of measures, such as carbon taxes, aimed at reducing GHG emissions and encouraging cleaner energy sources. Achieving net-zero emissions, i.e., balancing emitted and removed GHGs, is a key objective. <br /><br />The <strong>capacity factor, </strong>defined as the actual energy production of an energy generation unit (for example, a wind turbine or a solar plant) relative to maximum energy produced if unit had been operating at full capacity for the same period of time., Capacity factor is a measure of operational efficiency. <br />"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Scenario analysis</strong> evaluates potential energy pathways by simulating different conditions, policies, and technological developments.<br /><br /><strong>Optimization techniques</strong>, which employ mathematical methods to operate energy systems efficiently, consider multiple objectives and constraints. <br /><br /><strong>Decentralized energy systems </strong>involve generation near point of use, often with smaller-scale renewables like rooftop solar. <br /><br /><strong>Capacity expansion</strong> entails planning and investing in new energy generation resources to meet future demand and replace aging infrastructure. <br /><br /><strong>Curtailment </strong>is reducing renewable energy output due to oversupply or grid limitations."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "The modernization, decentralization, and decarbonization efforts toward energy sector transformation strongly rely on data-driven and evidence-based decision-making insights that drive ongoing initiatives for sustainable energy development. A key driver for this transformation is the synergistic interplay of the data value chain, artificial intelligence, and energy modelling for optimized stakeholder and system decision support. Crucial data are collected from various energy applications and, through data analytics, embedded with actionable intelligence that informs strategies for the evolving sustainable energy landscape. This further equips policymakers, governments, and supporting organizations with informed, intelligent insights that lead to effective collaborative strategies for creating enabling environments for sustainable energy adoption. This functionality hinges on the accessibility of high-quality data for targeted energy modelling interventions that inform energy development strategies, drive innovation, and monitor development progress."
+              "text": "<strong>Lesson 3 Overview</strong>"
             }
           }
         ]
@@ -181,21 +88,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_132.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C2_L1_12.png",
           "caption": ""
         },
         "intro": "M7: Data In Sustainable Energy",
-        "title": "Part 1: Types of Energy Models"
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_125.webp",
-          "caption": ""
-        }
+        "title": "Part 1: ML for data-driven policy"
       }
     },
     {
@@ -204,75 +101,53 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Descriptive models </strong>"
+              "title": "<strong>Machine Learning</strong>",
+              "body": "Machine Learning, as commonly defined by Google for Developers, stands for “is the process of training a piece of software, called a model, to make useful predictions or generate content (such as texts, images, audio, or video files) from data.”. More specifically, models that can generate texts, images, audio or video are commonly referred to as Generative AI models, or Gen-AI models. Traditional/conventional ML models attempt to predict values of a variables of interest (a process called regression), or predict a certain class belonging (a process called classification) based on attributes in the data (called features)."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Descriptive energy models are used to represent and analyze the current state and historical trends of energy systems. These models provide a detailed and comprehensive understanding of how energy systems have evolved over time and how they currently operate. Unlike predictive or optimization models, descriptive models focus on accurately describing existing conditions rather than forecasting future scenarios or optimizing resource allocation. Descriptive models rely heavily on empirical data to reflect the actual performance and characteristics of energy systems. They use historical data on energy production, consumption, prices, and other relevant parameters. They are used for benchmarking current performance, identifying trends, and understanding historical energy system dynamics. LEAP is a descriptive model widely used for energy policy analysis and climate change mitigation assessment. It is a flexible, data-driven model that can represent energy systems at various levels of detail used by governments, NGOs, and research institutions to understand current energy systems and evaluate the impacts of different energy policies."
+              "title": "<strong>Data Types</strong>",
+              "body": "Machine Learning models are typically trained on data. Data formats on which such models are trained fall under two broad categories; Structured Data, which refers to data that is organized, can be filtered and sorted through, as well as unstructured data, such as images, texts, audio files."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Supervised Learning</strong>",
+              "body": "Supervised learning models try to understand the relationship between predictor variables and a variable of interest, the outcome the be predicted. When training an ML model, the available data is subdivided into a training set (where the model parameters are estimated through predictive error), and a test set, where the model is evaluated on data it has not seen. (This is called the train/test split)."
             }
           }
         ]
       }
     },
     {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_118.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Prescriptive Models</strong>"
+              "title": "<strong>Labeled Datasets</strong>",
+              "body": "For classification tasks, where observations are placed in classes/categories based on specific attributes, a dataset with the actual classifications are labeled according to their actual class belonging. Such a set is called a labeled set, which can be structured, unstructured, and must be divided into training and test sets."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Prescriptive energy models are designed to provide specific recommendations and guidelines for achieving desired outcomes in energy systems. These models often involve optimization techniques to identify the best strategies for resource allocation, technology deployment, and policy implementation. The goal is to prescribe actions that lead to improved efficiency, reduced emissions, and enhanced sustainability of energy systems. These models use mathematical optimization techniques to determine the best possible solutions under given constraints. This involves minimizing or maximizing an objective function, such as cost, emissions, or energy use. OSeMOSYS is one typical example and it has been used to prescribe energy transition pathways for different countries, for example, Kenya."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_111.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Predictive models</strong>"
+              "title": "<strong>Bias-Variance Tradeoff</strong>",
+              "body": "When training ML models on training and test data, data scientists make sure that the model is not overly complex, and too closely fit to the data (which is called overfitting), and that the model is not too simplistic as to consistently mis-predict the variable of interest (called underfitting), this balance in the model follows a principle called the bias variance tradeoff."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Predictive energy models are designed to forecast future energy demand, supply, and system behavior based on various assumptions and input data. These models use historical data and statistical techniques to predict how energy systems will evolve under different scenarios. The primary purpose of predictive models is to inform planning and decision-making by providing insights into potential future states of the energy system. Predictive models use statistical methods and algorithms to estimate future energy demand, supply, prices, and other relevant parameters. These models evaluate different scenarios to understand how changes in variables such as economic growth, population, technology adoption, and policy measures will impact future energy systems. EnergyPLAN is a tool for advanced energy system analysis that includes the ability to simulate and predict future energy demand and supply under various scenarios, mainly used for national and regional energy planning, including the integration of renewable energy sources. Predictive energy models are essential tools for anticipating future energy system dynamics. By providing insights into potential future states and identifying risks and opportunities, these models support informed decision-making and strategic planning in the energy sector."
+              "title": "<strong>Possible Applications</strong>",
+              "body": "hHaving viewed the technical specifications, the potential policy applications are endless! Prominent applications of ML in energy policy include the prediction of energy output from renewable energy projects (insert example?), the detection of households with no access to electricity through satellite imaging,"
             }
           }
         ]
@@ -283,21 +158,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_103.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C2_L1_16.png",
           "caption": ""
         },
         "intro": "M7: Data In Sustainable Energy",
-        "title": "Part 2: Applications of Energy Modelling"
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_96.webp",
-          "caption": ""
-        }
+        "title": "Part 2: Supervised and Unsupervised Learning for Energy"
       }
     },
     {
@@ -306,110 +171,27 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Scenario analysis is a powerful application of energy modelling that allows policymakers and planners to explore alternative futures and assess the potential impacts of different policy decisions, technological developments, and external factors on the energy system. By developing and analyzing multiple scenarios, decision-makers can better understand the uncertainties and trade-offs involved in energy planning and make informed decisions to achieve desired outcomes. Policymakers use energy models to develop scenarios that represent different policy options and regulatory frameworks, such as carbon pricing, renewable energy targets, and energy efficiency standards."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Energy models are used to explore scenarios that reflect the adoption and deployment of specific technologies, such as renewable energy sources, energy storage systems, electric vehicles, low-emissions hydrogen, and smart grids. Policymakers use scenario analysis to evaluate the potential impacts of proposed policies and regulations on energy supply, demand, prices, emissions, and economic indicators. Scenario analysis for policy and planning provides decision-makers with valuable insights into the potential impacts and trade-offs associated with different energy strategies and policy options. By considering a range of plausible future scenarios, policymakers can develop robust and adaptive energy policies that promote sustainability, resilience, and economic prosperity.<br /></strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_88.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Load forecasting and demand management</strong>"
+              "title": "<strong>Tree Based Algorithms</strong>",
+              "body": "A popular example of supervised learning algorithms are tree-based algorithms such as classification trees (also known as decision trees) and regression trees. Tree based algorithms work by splitting features into regions and making predictions for region of the feature space, as visualized below."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Load forecasting and demand management are essential components of energy modelling that help utilities, grid operators, and energy planners anticipate future electricity demand and optimize the operation of the power system. Energy models are used to analyze historical consumption patterns, demographic trends, weather data, and economic indicators to develop accurate forecasts of electricity load and implement strategies for demand-side management. Short-term load forecasting involves predicting electricity demand over hours, days, or weeks ahead. Energy models use statistical techniques, time series analysis, and machine learning algorithms to analyze historical load data and incorporate factors such as weather conditions, day of the week, and holidays. <strong> <br /><br /></strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Demand management strategies aim to reduce peak electricity demand by implementing measures such as demand response programs, time-of-use pricing, and energy efficiency incentives. Energy models help assess the effectiveness of these strategies and optimize their implementation to minimize costs and enhance grid stability (Wang et al., 2019).<br /></strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_78.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Integration of renewable energy sources</strong>"
+              "title": "<strong>Tree Based Algorithms for Energy</strong>",
+              "body": "Within the realm of energy policy both decision and regression trees have been used to informed evidence-based policy. One such scenario was in Kenya, where, by taking into account length of Medium Voltage Lines, Low Voltage Lines, Distribution Capacity, Substation Capacity as well as the total number of consumers, researchers are able to estimate the cost of a project. A shortened visual of the regression tree is provided below."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Energy modelling plays a crucial role in the integration of renewable energy sources (RES) into the electricity grid and ensuring grid stability amidst increasing variability and uncertainty. By simulating different scenarios and assessing the impacts of renewable energy deployment, energy models help policymakers, grid operators, and utilities design resilient and efficient energy systems that incorporate a higher share of intermittent generation, usually from renewable sources. Energy models assist in planning the optimal mix and capacity of renewable energy technologies (e.g., solar photovoltaic, wind turbines) to meet future electricity demand while considering factors such as resource availability, technology costs, and grid constraints. Models analyze the spatial distribution of renewable resources and their temporal variability to identify suitable locations for renewable energy projects and optimize their operation and integration into the grid. Energy models assess the compatibility of renewable energy projects with existing grid infrastructure and evaluate the need for grid upgrades, reinforcements, and flexibility measures to accommodate variable and intermittent generation."
+              "title": "<strong>Random Forests</strong>",
+              "body": "However, a common issue with Classification and Regression Trees is overfitting, a simple solution is to estimate several trees and average out their predictions, this method, called Random Forest, is an elegant method that is robust against overfitting, a further visual aid below is provided:"
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_71.webp",
-          "caption": ""
-        }
       }
     },
     {
@@ -418,85 +200,17 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Grid Stability: Frequency and Voltage Regulation</strong>"
+              "title": "<strong>Random Forests for Energy Consumption</strong>",
+              "body": "Through the use of a Random Forest algorithm, Ahmad, Reynolds, and Rezgui (2018) are able to predict hourly useful solar thermal energy for a solar thermal plant in Chambéry, France. Using Solar irradiance, Ambient temperature, Inlet and outlet fluid temperatures to the solar thermal plant, flow rate of the heat transfer fluid, as well as time-related variables, predictions are made. The increased investment and interest in the use of modern ML techniques in the prediction of renewable energy projects allows for effective planning, more grid stability and a more informed path to the sustainable integration of renewable energy sources into the energy mix."
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Models simulate the dynamic behavior of renewable energy sources and their impact on grid frequency stability. They analyze the effectiveness of frequency regulation mechanisms, such as automatic generation control and grid-scale energy storage, in maintaining grid stability. Such models fall under power system models and are also used to evaluate the impact of renewable energy integration on grid voltage profiles and assess the need for reactive power compensation, voltage regulation devices, and grid reinforcement measures to ensure voltage stability and reliability. Renewable energy integration and grid stability are critical for transitioning to a sustainable energy future. Energy modelling provides valuable insights and tools for policymakers and stakeholders to optimize renewable energy deployment, enhance grid stability, and ensure reliable and resilient electricity supply."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "lesson_subpart_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_59.webp",
-          "caption": ""
-        },
-        "intro": "M7: Data In Sustainable Energy",
-        "title": "Case Study: Tanzania"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Case Study RBA: Energy Modelling for a Clean Energy Transition in Tanzania</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Climate change has necessitated the reexamination of energy systems worldwide, as it has emerged that energy production and consumption are the leading contributors of carbon emissions. For effective energy transition to be achieved, energy modelling should be extensively used so that the intended transition can be sustainable."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Tanzania is one of the countries under the Regional Bureau of Africa and is in the process of weighing different pathways that lead to a sustainable energy transition. It is a country that had an electricity access rate of 38 % as of 2019 and the electricity mix is largely dominated by hydropower generation. Tanzania aims to achieve 75 % electricity access by 2025 through the expansion of the national grid or use of mini-grid1. To assess the possibility of achieving universal access and at the same time achieving a clean electricity generation mix, two modelling tools were used; Python for Power System Analysis (PyPSA) and Geographical Information System tool.<br /><br />The study assessed two scenarios: the Power System Masterplan (PSMP) Scenario and the Clean Energy Transition Tanzania (CETT) Scenario. The first scenario modeled generation expansion based on the least-cost generation expansion approach, where all available technologies were evaluated and selected based on their operational costs to meet demand. This scenario did not consider GHG emissions or universal access to electricity. It was found that under this scenario, emissions continued to rise until 2050, and some communities remained without power. This indicates that focusing solely on the cost of the power system leads to unsustainable electricity development, as it neglects environmental impacts and electricity access rates."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_48.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "The second scenario aimed to achieve universal access by 2030 and reduce emissions to zero by 2050, using the least-cost generation expansion modeling approach. This scenario incorporated environmental, economic, and social aspects, aiming to achieve Sustainable Development Goal (SDG) 7. However, the results revealed that the investment required to achieve these goals is enormous, making public funds alone insufficient to build a sustainable power system of this magnitude. The study highlighted that private investors and development agencies are crucial for clean energy development. It also identified barriers to universal access to electricity and low-carbon electricity sectors that could hinder these two players in clean energy development.<br />To encourage investment in the clean energy industry, the study recommends that the government create an enabling environment by allowing market forces to determine electricity prices, fostering the development of strong and independent institutions, and using auction systems for investments in the renewable energy sector.<br />The tools used in the study make it replicable, but the challenge lies in understanding the type of data solicited from engaged stakeholders and how it was implemented."
+              "title": "<strong>ML for Academia</strong>",
+              "body": "As such, the use of ML models for energy consumption forecasting has captivated the scientific community, with some researchers using it in tandem with classical econometric models (Nie et.al, 2021) or as an alternative to purely statistical models (Tso et.al, 2007)."
             }
           }
         ]
@@ -507,11 +221,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_41.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_Intro_4.png",
           "caption": ""
         },
         "intro": "M7: Data In Sustainable Energy",
-        "title": "Part 3: Data Value Chain and Energy Modelling: Synergies and Interdependencies"
+        "title": "Part 3: Supervised Learning Applications"
       }
     },
     {
@@ -520,9 +234,17 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "The data value chain process is a critical lever for providing quality data for energy modelling processes. Its robust data lifecycle enables targeted data collection, management, and governance, ensuring that quality insights are derived for and accessible to relevant stakeholders. The effectiveness of energy modelling is determined by the quality and completeness of the data it receives, which is crucial for targeted strategy development and resource mobilization."
+              "title": "<strong>Principal Component Analysis and K-means Clustering</strong>",
+              "body": "As previously mentioned, unsupervised learning attempt to understand the underlying structure of that data, as opposed to attempting to predict outcomes. This type of understanding has found its way into modern energy policymaking. Two mainstream unsupervised ML algorithms that make their way into the literature are k-means clustering and Principal Component Analysis algorithms."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Unsupervised Learning Applications</strong>",
+              "body": "A further area in which ML models have seen an increased usage is the estimation and classification of households with informal access to energy. Informal access to energy refers to energy that does not come from the national grid, informal access to energy covers sources such as biomass, household generators, unregulated solar energy. Such energy access is usually more expensive and less reliable. Being able to estimate and classify households with informal access goes a long way into helping government better target underdeveloped areas through electrification programs, provide a better return per dollar spent, while also providing policymakers with a clear picture on which communities may be struggling."
             }
           }
         ]
@@ -534,22 +256,91 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "Energy modelling relies on heterogeneous datasets, such as weather patterns, energy consumption, energy generation levels, decentralized energy system asset performance, energy infrastructure, land and resource utilization, and socio-economic and geopolitical indicators. These datasets are aggregated for building and calibrating energy models. The integrity and quality of these datasets hinge on the effectiveness of data management and governance strategies throughout the value chain, contributing to the reliability of the model and more informed decisions."
+              "title": "<strong>Clustering for Energy</strong>",
+              "body": "Clustering aims to group observations into multiple groups- or clusters- by minimizing the squared sum of the distances of each cluster member to the cluster center. This allows analysts to group observations based on their features. In terms of energy policy, Liu et.al (2018) studied 15129 companies listed on the SSE and SZSE stock markets. By analyzing water and coal consumption both between industries and within industries and clustering them into high, low, and medium usage companies, Liu et. al were able to pinpoint highly polluting fields such as chemical production, heat and power generation as opposed to counterintuitively low emitters such as the textile industry and non-ferrous metals. Such studies allow policymakers to benchmark industries, allowing for better long-term planning."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>PCA</strong>",
+              "body": "Principal Component Analysis, on the other hand, focus on dimensionality reduction, and thus representing a high dimensional space (or a high number of features), with a smaller, representative one. Within the realm of energy, this allows for a reduction of computational costs, by reducing the size of a dataset, and thus the computational load. In addition, PCA allows for visualization of complex dynamics in a 2D or 3D dimensional space, all while maintaining the important structures."
             }
           }
         ]
       }
     },
     {
-      "template_id": "infographic",
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>PCA for Energy</strong>",
+              "body": "· Principal Component Analysis, can also be used to allocate weights based on data as opposed to subjective weights in indices, provided a more objective method of assessment. A simple case example comes from Al Albsahi et. al ‘s work on the Energy Trilemma Index, an index that uses 13 metrics related to energy security, energy equity, and environmental sustainability to rank nations according to their ETI. The weights accorded to the energy security, energy equity and environmental sustainability sections, although provided by experts, remain subjective. By applying PCA to the 13 metrics into one index, these researchers are able to find the allocation of weights that best explains the data. As such, they come to conclusions that differ from the traditional ETI evaluation, ranking Norway as the top country in their revised index as opposed to Switzerland. This has numerous implications with regards to energy policy, shifting away from subjective rating towards more evidence-based estimations."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_29.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L2_9.png",
           "caption": ""
-        }
+        },
+        "intro": "M7: Data In Sustainable Energy",
+        "title": "Part 4: Limits and Ethics of ML for Energy"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Introduction</strong>",
+              "body": "Although the use of ML in energy policymaking and energy data in general has benefitted the larger community, while also allowing for better monitoring and more streamlined management, key ethical concerns arise when it comes to the affected populations, their right to privacy, and the implications of using AI in policy contexts."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Data Representativeness<br /></strong>",
+              "body": "A key issue in ML for policy is the representativeness of data, in a sense, how well it generalizes to broader contexts. An intuitive example that comes to mind is a machine learning algorithm trained on historical data from affluent areas. This scenario presents several issues based on various scenarios. For example, in pricing, an ML algorithm trained on affluent area data may not generalize well into worse off areas. This is mainly backed by the essential realization that energy poor areas and areas that have access to energy have fundamentally different usage patterns. A simple way to visualize it is in the use of smart appliances. Whereas affluent households may have access to such technologies that reduce usage in peak hours, less affluent households may not have access to such equipment and bear the brunt by paying peak prices, perpetuating unequal access to affordable energy."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Privacy, Explainability and Ethical ML</strong>",
+              "body": "Additional ethical concerns when applying ML to energy policy are both the sensitivity of the information being gathered, as well as how it is being used. A simple way to think of this is when it comes to smart meters, depending on the granularity of the data collected, it could divulge personal patterns, such as when the subject is home, when they perform various activities. In addition, ethical concerns are raised when data is collected from individuals and used to train algorithms they cannot understand, such as the inner workings of neural networks. These concepts have given rise to the fields of ethics by design (EbD), privacy by design (PbD) and explainable AI (XAI). PbD incorporates built-in privacy safeguards without compromising functionality through measures such as anonymization and the collection of minimal data. EdB incorporates principles of informed consent, data ownership and inclusivity into their design philosophy. Finally, XAI allows citizens to understand which variables affect model predictions most, even when models are complex, an example is the inclusion of SHAP (SHapley Additive exPlanations) measures, which showcase the contribution of specifics features to predictions."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Future Endeavors</strong>",
+              "body": "Ongoing global efforts in terms of data policy privacies regulating cross-border data flows, and a global effort to standardize data access procedures are paving the way for fairer use of data in applications aiming to enhance equitable access to energy."
+            }
+          }
+        ]
       }
     },
     {
@@ -561,27 +352,27 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_24.webp",
-              "caption": "image caption"
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C4_L2_12.png",
+              "caption": ""
             },
-            "title": "Energy modelling is a cornerstone for strategic energy system transformation.",
-            "description": "By simulating diverse scenarios—ranging from policy impacts to renewable energy integration—energy models provide critical insights for optimizing resource allocation, enhancing grid stability, and achieving decarbonization goals. These tools enable policymakers to navigate complex trade-offs and design adaptive strategies for sustainable energy transitions."
+            "title": "ML enables smarter energy planning through both prediction and pattern recognition",
+            "description": "Supervised learning methods like decision trees and Random Forests are effective for forecasting energy production or estimating infrastructure costs. Unsupervised techniques like clustering and PCA help identify hidden patterns, such as informal energy access or industrial pollution profiles, providing policymakers with deeper insights for targeted interventions."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_18.webp",
-              "caption": "image caption"
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C1_L1_1.png",
+              "caption": ""
             },
-            "title": "The synergy between the data value chain and energy modelling drives precision and reliability.",
-            "description": "High-quality, heterogeneous datasets—such as weather patterns, energy consumption, and socio-economic indicators—are essential for building and calibrating accurate energy models. Robust data management and governance ensure that models deliver actionable insights, supporting informed decision-making and effective resource mobilization."
+            "title": "Unsupervised ML supports evidence-based policy and index construction",
+            "description": "Techniques like PCA can reduce complexity and bias in energy-related indices by allocating weights based on data instead of expert assumptions. This enables more objective assessments of energy security, equity, and sustainability—offering policymakers new ways to benchmark progress and plan reforms."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4005_12.webp",
-              "caption": "image caption"
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C2_L3_3.png",
+              "caption": ""
             },
-            "title": "Data visualization is a strategic tool for actionable energy insights.",
-            "description": "Effective data visualization transforms complex energy data into clear, actionable narratives, enhancing decision-making and stakeholder communication. By adhering to best practices in design and storytelling, energy professionals can create visualizations that highlight key trends, such as energy consumption patterns or infrastructure performance, ensuring data-driven strategies are both accessible and impactful."
+            "title": "Ethical and governance safeguards are essential in applying ML to public policy",
+            "description": "While ML can increase efficiency and insight, risks related to data privacy, bias, and transparency must be actively managed. Approaches like Ethics by Design, Privacy by Design, and Explainable AI (e.g., SHAP values) are vital to ensure ML systems are accountable, inclusive, and equitable—especially when used in public service delivery."
           }
         ]
       }

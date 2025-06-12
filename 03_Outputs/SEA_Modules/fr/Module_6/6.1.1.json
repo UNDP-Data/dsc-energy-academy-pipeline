@@ -2,34 +2,40 @@
   "id": "6.1.1",
   "segments": [
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le projet Machakhela en Géorgie sert de modèle pour des stratégies reproductibles et adaptables dans le développement de l'énergie durable. Des éléments clés tels que la diversification énergétique, des cadres réglementaires solides, des partenariats public-privé et des investissements dans des infrastructures modernes et des technologies garantissent la sécurité et l'efficacité énergétiques. Une réplication réussie nécessite un engagement gouvernemental fort, des ressources naturelles appropriées et un environnement réglementaire propice. Des programmes de formation évolutifs et des initiatives d'engagement communautaire sont essentiels pour une adoption généralisée, tandis que les investissements dans les infrastructures et l'intégration des politiques garantissent une durabilité à long terme. En comprenant les besoins locaux, en forgeant des partenariats solides et en employant des modèles de financement flexibles, des projets similaires peuvent être efficacement mis en œuvre dans différentes régions, contribuant aux efforts mondiaux en faveur de la transition énergétique durable. <br /><br />La durabilité et les orientations futures du projet dépendent d'un engagement continu de la communauté et de sa propriété, facilité par des comités locaux ou des coopératives supervisant l'entretien. Le support technique et la surveillance continus, y compris l'intégration d'outils numériques, garantissent l'efficacité. Plaidoyer en faveur de politiques de soutien, mise à l'échelle des initiatives basées sur les leçons apprises et recherche continue sur les technologies d'énergie renouvelable sont cruciales pour un impact à long terme et une adaptation à des contextes divers, favorisant la conservation de l'environnement et le développement durable à l'échelle mondiale."
-            }
-          }
-        ]
-      }
-    },
-    {
       "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/223_319.webp",
-          "caption": null
+          "caption": ""
         },
         "lesson": {
           "label": "Leçon",
           "number": "1"
         },
-        "title": "L'IMPACT DES SYSTÈMES ÉNERGÉTIQUES SUR LE CHANGEMENT CLIMATIQUE",
+        "title": "Comment les systèmes énergétiques influencent le changement climatique",
         "cta": null,
-        "intro": "M6 : Le lien entre le changement climatique et l'énergie | Chapitre 1 | Leçon 1"
+        "intro": "M6 : Le lien entre le changement climatique et l'énergie"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Aperçu de la leçon 1"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le système énergétique actuel est un moteur majeur du changement climatique mondial, <strong>représentant environ 75 % des émissions totales de gaz à effet de serre</strong>. </strong>Cela signifie que transformer notre production et notre consommation d'énergie est essentiel, la capacité du monde à atteindre ses objectifs climatiques dépendant de la capacité du secteur de l'énergie à<strong> </strong>décarboner et à maintenir le réchauffement climatique à pas plus de 1,5 °C – comme l'exige l'Accord de Paris – les émissions doivent être réduites de 45 % d'ici 2030 et atteindre zéro émission nette d'ici 2050. Alors que<strong> </strong><strong>les températures battent des records année après année</strong><strong>, </strong>le besoin d'agir n'a jamais été aussi pressant."
+            }
+          }
+        ]
       }
     },
     {
@@ -58,34 +64,14 @@
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "Aperçu de la leçon 1"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le système énergétique actuel est un moteur majeur du changement climatique mondial, <strong>représentant environ 75 % des émissions totales de gaz à effet de serre</strong>. </strong>Cela signifie que transformer notre production et notre consommation d'énergie est essentiel, la capacité du monde à atteindre ses objectifs climatiques dépendant de la capacité du secteur de l'énergie à<strong> </strong>décarboner et à maintenir le réchauffement climatique à pas plus de 1,5 °C – comme l'exige l'Accord de Paris – les émissions doivent être réduites de 45 % d'ici 2030 et atteindre zéro émission nette d'ici 2050. Alors que<strong> </strong><strong>les températures battent des records année après année</strong><strong>, </strong>le besoin d'agir n'a jamais été aussi pressant."
-            }
-          }
-        ]
-      }
-    },
-    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/243_343.webp",
-          "caption": null
+          "caption": ""
         },
-        "intro": "M6 : Le lien entre le changement climatique et l'énergie | Chapitre 1 | Leçon 1 | Partie 1",
+        "intro": "M6 : Le lien entre le changement climatique et l'énergie",
         "title": "Partie 1 : Répartition des émissions"
       }
     },
@@ -107,6 +93,82 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "content": {
+        "option": {
+          "title": {
+            "text": "Émissions mondiales de gaz à effet de serre par secteur et par utilisation finale, 2021",
+            "subtext": null,
+            "left": "center",
+            "top": "top",
+            "textStyle": {
+              "fontSize": 18
+            },
+            "subtextStyle": {
+              "fontSize": 14,
+              "color": "#888"
+            }
+          },
+          "legend": {
+            "show": false,
+            "bottom": 20
+          },
+          "graphic": [
+            {
+              "type": "text",
+              "left": "center",
+              "bottom": 0,
+              "style": {
+                "text": "Source : Climate watch",
+                "font": "12px sans-serif",
+                "fill": "#999"
+              }
+            }
+          ],
+          "tooltip": {
+            "trigger": "item"
+          },
+          "series": [
+            {
+              "name": "Access From",
+              "type": "pie",
+              "radius": "50%",
+              "data": [
+                {
+                  "name": "Energy",
+                  "value": 75.7
+                },
+                {
+                  "name": "Agriculture",
+                  "value": 11.7
+                },
+                {
+                  "name": "Industrial Processes",
+                  "value": 6.5
+                },
+                {
+                  "name": "Waste",
+                  "value": 3.4
+                },
+                {
+                  "name": "Land Use Change and Forestry",
+                  "value": 2.7
+                }
+              ],
+              "emphasis": {
+                "itemStyle": {
+                  "shadowBlur": 10,
+                  "shadowOffsetX": 0,
+                  "shadowColor": "rgba(0, 0, 0, 0.5)"
+                }
+              }
+            }
+          ]
+        }
       }
     },
     {
@@ -138,16 +200,6 @@
       }
     },
     {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/2357_74.webp",
-          "caption": null
-        }
-      }
-    },
-    {
       "template_id": "photo_full_height",
       "color_scheme": "dark",
       "content": {
@@ -171,7 +223,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La combustion joue un rôle majeur dans la production d'énergie, en particulier pour la production d'électricité et le chauffage. Plus de 40 % des émissions de CO2 liées à l'énergie proviennent de la combustion de combustibles fossiles pour l'électricité. En 2022 seulement, les émissions de CO2 provenant de la combustion d'énergie ont augmenté de 1,3 % (423 Mt). Cependant, les émissions de gaz à effet de serre liées à l'énergie proviennent d'une gamme de sources au-delà de la combustion, y compris les émissions de méthane fugitif provenant des opérations pétrolières et gazières et les émissions de processus provenant des activités industrielles. Les émissions de CO2 provenant de la combustion d'énergie et des processus industriels représentaient 89 % des émissions de gaz à effet de serre liées à l'énergie en 2022. Les émissions de gaz à effet de serre liées à l'énergie ont augmenté de 1,0 % pour atteindre un niveau record de 41,3 Gt CO2-eq."
+              "text": "La combustion joue un rôle majeur dans la production d'énergie, en particulier pour la production d'électricité et le chauffage. Plus de 40 % des émissions de CO2 liées à l'énergie proviennent de la combustion de combustibles fossiles pour l'électricité. En 2022 seulement, les émissions de CO2 provenant de la combustion d'énergie ont augmenté de 1,3 % (423 Mt). Cependant, les émissions de gaz à effet de serre liées à l'énergie proviennent d'une gamme de sources au-delà de la combustion, y compris les émissions de méthane fugitif provenant des opérations pétrolières et gazières et les émissions de processus provenant des activités industrielles. Les émissions de CO2 provenant de la combustion d'énergie et des processus industriels représentaient 89 % des émissions de gaz à effet de serre liées à l'énergie en 2022. Les émissions de gaz à effet de serre liées à l'énergie ont augmenté de 1,0 % pour atteindre un niveau record de 41,3 Gt CO2-eq.<br /><br /> Les principaux facteurs à l'origine des émissions de CO2 provenant de la production d'électricité incluent la quantité d'électricité produite, l'efficacité de la production, la dépendance aux combustibles fossiles et l'intensité carbone de ces combustibles. En particulier, les centrales électriques au charbon étaient les plus grands contributeurs, responsables de 73 % des émissions de CO2 du secteur de l'électricité. <br />Bien que le dioxyde de carbone (CO2) soit le gaz à effet de serre le plus abondant, le secteur de l'énergie émet également des gaz à effet de serre non-CO2 comme le méthane (CH4), le protoxyde d'azote (N2O) et l'hexafluorure de soufre (SF₆). Ces gaz, bien qu'émis en plus petites quantités, ont des potentiels de réchauffement climatique beaucoup plus élevés et des durées de vie atmosphériques différentes, ce qui les rend critiques à prendre en compte dans les stratégies climatiques. "
             }
           }
         ]
@@ -185,21 +237,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Les facteurs clés qui influencent les émissions de CO2 provenant de la production d'électricité incluent la quantité d'électricité produite, l'efficacité de la production, la dépendance aux combustibles fossiles et l'intensité carbone de ces combustibles. En particulier, les centrales électriques au charbon étaient les plus grands contributeurs, responsables de 73 % des émissions de CO2 du secteur de l'électricité. <br />Bien que le dioxyde de carbone (CO2) soit le gaz à effet de serre le plus abondant, le secteur de l'énergie émet également des gaz à effet de serre non-CO2 comme le méthane (CH4), le protoxyde d'azote (N2O) et l'hexafluorure de soufre (SF₆). Ces gaz, bien qu'émis en plus petites quantités, ont des potentiels de réchauffement climatique beaucoup plus élevés et des durées de vie atmosphériques différentes, ce qui les rend critiques à prendre en compte dans les stratégies climatiques. "
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le méthane, le deuxième plus grand moteur du réchauffement climatique après le CO2, est une préoccupation importante dans le secteur de l'énergie. Les opérations pétrolières et gazières sont les plus grandes sources d'émissions de méthane, tandis que la combustion incomplète de la bioénergie—comme le bois, le charbon et les résidus de culture—ajoute aux émissions de méthane. Le méthane est libéré à la fois intentionnellement, par des pratiques telles que le dégazage et la torchage pendant la production et la maintenance, et accidentellement, par des fuites dans les pipelines, les compresseurs et les vannes (émissions fugitives). "
+              "text": "Le méthane, le deuxième plus grand moteur du réchauffement climatique après le CO2, est une préoccupation importante dans le secteur de l'énergie. Les opérations pétrolières et gazières sont les plus grandes sources d'émissions de méthane, tandis que la combustion incomplète de la bioénergie—comme le bois, le charbon et les résidus de culture—ajoute aux émissions de méthane. Le méthane est libéré à la fois intentionnellement, par des pratiques telles que le dégazage et la torchage pendant la production et la maintenance, et accidentellement, par des fuites dans les pipelines, les compresseurs et les vannes (émissions fugitives)."
             }
           }
         ]
@@ -217,6 +255,333 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "content": {
+        "option": {
+          "title": {
+            "text": "Émissions de gaz à effet de serre liées à l'énergie dans le monde, 2000-2022",
+            "subtext": null,
+            "left": "center",
+            "top": "top",
+            "textStyle": {
+              "fontSize": 18
+            },
+            "subtextStyle": {
+              "fontSize": 14,
+              "color": "#888"
+            }
+          },
+          "legend": {
+            "show": true,
+            "bottom": 20,
+            "top": "bottom"
+          },
+          "graphic": [
+            {
+              "type": "text",
+              "left": "center",
+              "bottom": 0,
+              "style": {
+                "text": "Source : Les émissions de torchage proviennent de l'analyse de l'AIE basée sur le Programme mondial de réduction du torchage de gaz de la Banque mondiale.",
+                "font": "12px sans-serif",
+                "fill": "#999"
+              }
+            }
+          ],
+          "tooltip": {
+            "trigger": "axis"
+          },
+          "grid": {
+            "left": "3%",
+            "right": "4%",
+            "bottom": "3%",
+            "containLabel": true
+          },
+          "toolbox": {
+            "feature": {
+              "saveAsImage": {}
+            }
+          },
+          "xAxis": {
+            "type": "category",
+            "name": "",
+            "boundaryGap": false,
+            "data": [
+              2000,
+              2001,
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          },
+          "yAxis": {
+            "type": "value"
+          },
+          "series": [
+            {
+              "name": "Coal [GtCO2 eq]",
+              "type": "line",
+              "stack": "Total",
+              "data": [
+                8.93,
+                9.16,
+                9.36,
+                10.08,
+                10.74,
+                11.45,
+                12.1,
+                12.78,
+                12.93,
+                12.93,
+                13.84,
+                14.6,
+                14.73,
+                15.08,
+                15.1,
+                14.61,
+                14.39,
+                14.62,
+                15.01,
+                14.76,
+                14.23,
+                15.22,
+                15.46
+              ]
+            },
+            {
+              "name": "Oil [GtCO2 eq]",
+              "type": "line",
+              "stack": "Total",
+              "data": [
+                9.66,
+                9.71,
+                9.67,
+                9.81,
+                10.18,
+                10.31,
+                10.38,
+                10.54,
+                10.44,
+                10.16,
+                10.54,
+                10.56,
+                10.65,
+                10.81,
+                10.87,
+                11.12,
+                11.18,
+                11.33,
+                11.41,
+                11.38,
+                10.12,
+                10.9,
+                11.17
+              ]
+            },
+            {
+              "name": "Natural gas [GtCO2 eq]",
+              "type": "line",
+              "stack": "Total",
+              "data": [
+                4.56,
+                4.62,
+                4.78,
+                4.96,
+                5.09,
+                5.21,
+                5.36,
+                5.57,
+                5.73,
+                5.57,
+                6.04,
+                6.13,
+                6.25,
+                6.33,
+                6.32,
+                6.42,
+                6.6,
+                6.75,
+                7.07,
+                7.2,
+                7.08,
+                7.45,
+                7.33
+              ]
+            },
+            {
+              "name": "Waste [GtCO2 eq]",
+              "type": "line",
+              "stack": "Total",
+              "data": [
+                0.1,
+                0.11,
+                0.11,
+                0.11,
+                0.11,
+                0.11,
+                0.12,
+                0.12,
+                0.12,
+                0.13,
+                0.16,
+                0.18,
+                0.19,
+                0.19,
+                0.19,
+                0.19,
+                0.21,
+                0.22,
+                0.23,
+                0.23,
+                0.24,
+                0.25,
+                0.28
+              ]
+            },
+            {
+              "name": "Industrial processes [GtCO2 eq]",
+              "type": "line",
+              "stack": "Total",
+              "data": [
+                1.31,
+                1.32,
+                1.37,
+                1.47,
+                1.54,
+                1.62,
+                1.76,
+                1.87,
+                1.87,
+                1.9,
+                2.01,
+                2.17,
+                2.24,
+                2.31,
+                2.37,
+                2.36,
+                2.42,
+                2.45,
+                2.58,
+                2.67,
+                2.64,
+                2.67,
+                2.57
+              ]
+            },
+            {
+              "name": "Methane [GtCO2 eq]",
+              "type": "line",
+              "stack": "Total",
+              "data": [
+                2.97,
+                3.01,
+                3.0,
+                3.16,
+                3.3,
+                3.43,
+                3.5,
+                3.56,
+                3.61,
+                3.53,
+                3.68,
+                3.79,
+                3.84,
+                3.87,
+                3.89,
+                3.86,
+                3.84,
+                3.87,
+                3.97,
+                4.02,
+                3.79,
+                3.91,
+                3.99
+              ]
+            },
+            {
+              "name": "Nitrous oxide [GtCO2 eq]",
+              "type": "line",
+              "stack": "Total",
+              "data": [
+                0.19,
+                0.2,
+                0.2,
+                0.21,
+                0.22,
+                0.22,
+                0.23,
+                0.23,
+                0.24,
+                0.23,
+                0.24,
+                0.25,
+                0.25,
+                0.26,
+                0.26,
+                0.26,
+                0.26,
+                0.27,
+                0.27,
+                0.27,
+                0.25,
+                0.27,
+                0.28
+              ]
+            },
+            {
+              "name": "CO2 flaring [GtCO2 eq]",
+              "type": "line",
+              "stack": "Total",
+              "data": [
+                0.31,
+                0.3,
+                0.29,
+                0.32,
+                0.31,
+                0.32,
+                0.3,
+                0.29,
+                0.28,
+                0.28,
+                0.26,
+                0.27,
+                0.27,
+                0.26,
+                0.27,
+                0.28,
+                0.28,
+                0.27,
+                0.27,
+                0.28,
+                0.27,
+                0.27,
+                0.27
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -243,21 +608,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La distribution d'énergie contribue aux émissions de GES par le transport de l'énergie des sites de production aux utilisateurs finaux. Cela inclut les émissions liées au transport des combustibles, à la construction et à l'entretien des infrastructures, ainsi qu'à l'exploitation des réseaux de distribution d'énergie. En dehors de cela, les inefficacités inhérentes au processus de distribution contribuent aux émissions de GES. En fait, les pertes d'énergie lors du transport sont significatives, avec environ 19 exajoules (EJ) perdus chaque année dans le processus. Ils représentent un double défi : l'énergie gaspillée qui pourrait autrement alimenter les économies et les émissions associées résultant de la génération de cette énergie gaspillée. Ces pertes s'élèvent à environ 200 milliards de dollars chaque année."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Une source clé d'émissions dans la transmission et la distribution de l'électricité est le hexafluorure de soufre (SF₆). Il est utilisé comme gaz isolant dans les équipements électriques haute tension tels que les appareillages et les disjoncteurs et est le gaz à effet de serre le plus puissant réglementé par le Protocole de Kyoto. Son PGC est environ 25 200 fois plus élevé que celui du CO₂, et même de petites fuites pendant l'exploitation, l'entretien ou le démantèlement de l'équipement peuvent avoir un impact significatif sur les émissions. En conséquence, s'attaquer aux émissions de SF₆ grâce à une meilleure détection des fuites, des pratiques de maintenance et des technologies alternatives est devenu un axe important pour réduire l'impact climatique des réseaux de distribution d'énergie.<br />"
+              "text": "La distribution d'énergie contribue aux émissions de GES par le transport de l'énergie des sites de production aux utilisateurs finaux. Cela inclut les émissions liées au transport des combustibles, à la construction et à l'entretien des infrastructures, ainsi qu'à l'exploitation des réseaux de distribution d'énergie. En dehors de cela, les inefficacités inhérentes au processus de distribution contribuent aux émissions de GES. En fait, les pertes d'énergie lors du transport sont significatives, avec environ 19 exajoules (EJ) perdus chaque année dans le processus. Ils représentent un double défi : l'énergie gaspillée qui pourrait autrement alimenter les économies et les émissions associées résultant de la génération de cette énergie gaspillée. Ces pertes équivalent à environ 200 milliards de dollars chaque année.<br /><br />Une source clé d'émissions dans la transmission et la distribution d'électricité est le hexafluorure de soufre (SF₆). Il est utilisé comme gaz isolant dans les équipements électriques haute tension tels que les appareillages et les disjoncteurs et est le gaz à effet de serre le plus puissant réglementé par le Protocole de Kyoto. Son PGC est environ 25 200 fois plus élevé que celui du CO₂, et même de petites fuites pendant l'exploitation, l'entretien ou le démantèlement de l'équipement peuvent avoir un impact significatif sur les émissions. En conséquence, s'attaquer aux émissions de SF₆ grâce à une meilleure détection des fuites, des pratiques de maintenance et des technologies alternatives est devenu un axe important pour réduire l'impact climatique des réseaux de distribution d'énergie.<br />"
             }
           }
         ]
@@ -287,21 +638,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La consommation d'énergie couvre quatre secteurs principaux : l'industrie, les bâtiments, les transports et d'autres (y compris l'agriculture et les usages non énergétiques). Dans cette répartition, les émissions provenant de la production d'électricité et de chaleur sont attribuées aux secteurs qui les consomment finalement, plutôt que d'être rapportées séparément. Cette approche capture à la fois les émissions directes (provenant de la combustion de combustibles sur site) et les émissions indirectes (provenant de l'électricité et de la chaleur achetées), fournissant une image plus claire de l'impact total de chaque secteur. <br />Après avoir attribué les émissions d'électricité et de chaleur à leur utilisation finale, l'industrie est restée le plus grand secteur émetteur en 2022, contribuant à près de 38 % des émissions mondiales de combustion de combustibles. Les bâtiments représentaient 26 %, le transport 24 %, et les émissions restantes provenaient d'autres secteurs."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "En particulier, les bâtiments sont une source significative d'émissions en raison de leur construction et de l'augmentation des besoins énergétiques opérationnels pour le chauffage, le refroidissement, l'éclairage et les équipements. En 2022, les émissions liées à l'énergie provenant des opérations des bâtiments ont atteint 10 gigatonnes d'équivalent CO2, soit une augmentation de 5 % par rapport aux niveaux de 2020 et 2 % de plus que le pic pré-pandémique de 2019. En 2022, les émissions directes de CO2 des bâtiments, telles que celles provenant de la combustion de combustibles fossiles sur place pour le chauffage de l'espace et de l'eau ou la cuisson, ont légèrement diminué. Cependant, les émissions indirectes, principalement dues à l'utilisation d'électricité pour l'éclairage, les systèmes de refroidissement et les appareils, ont augmenté. Cela met en évidence la dépendance croissante à l'électricité dans les bâtiments."
+              "text": "La consommation d'énergie couvre quatre secteurs principaux : l'industrie, les bâtiments, les transports et d'autres (y compris l'agriculture et les usages non énergétiques). Dans cette répartition, les émissions provenant de la production d'électricité et de chaleur sont attribuées aux secteurs qui les consomment finalement, plutôt que d'être rapportées séparément. Cette approche capture à la fois les émissions directes (provenant de la combustion de combustibles sur site) et les émissions indirectes (provenant de l'électricité et de la chaleur achetées), fournissant une image plus claire de l'impact total de chaque secteur. <br />Après avoir attribué les émissions d'électricité et de chaleur à leur utilisation finale, l'industrie est restée le plus grand secteur émetteur en 2022, contribuant à près de 38 % des émissions mondiales de combustion de combustibles. Les bâtiments représentaient 26 %, le transport 24 %, et les émissions restantes provenaient d'autres secteurs.<br /><br />Plus précisément, les bâtiments sont une source significative d'émissions en raison de leur construction et des demandes énergétiques opérationnelles croissantes pour le chauffage, le refroidissement, l'éclairage et les équipements. En 2022, les émissions liées à l'énergie provenant des opérations des bâtiments ont atteint 10 gigatonnes d'équivalent CO2, soit une augmentation de 5 % par rapport aux niveaux de 2020 et 2 % de plus que le pic pré-pandémique de 2019. En 2022, les émissions directes de CO2 des bâtiments, telles que celles provenant de la combustion de combustibles fossiles sur place pour le chauffage de l'espace et de l'eau ou la cuisson, ont légèrement diminué. Cependant, les émissions indirectes, principalement dues à l'utilisation d'électricité pour l'éclairage, les systèmes de refroidissement et les appareils, ont augmenté. Cela met en évidence la dépendance croissante à l'électricité dans les bâtiments."
             }
           }
         ]
@@ -327,7 +664,7 @@
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/251_259.webp",
-          "caption": null
+          "caption": ""
         },
         "intro": "M6 : Le lien entre le changement climatique et l'énergie | Chapitre 1 | Leçon 1 | Partie 2",
         "title": "Partie 2 : Impacts du développement des énergies renouvelables sur les écosystèmes"
@@ -371,7 +708,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Les exigences en matière de terrain pour les différentes méthodes de production d'énergie varient considérablement, en particulier lorsqu'on considère l'ensemble de leur cycle de vie. Les évaluations de l'utilisation des terres sur le cycle de vie tiennent compte non seulement de l'empreinte physique de l'usine énergétique elle-même, mais aussi des terres nécessaires pour des activités telles que l'extraction de matériaux pour la construction, l'approvisionnement en combustibles, le démantèlement et la gestion des déchets. La construction d'installations d'énergie renouvelable, telles que des parcs solaires et des éoliennes, nécessite beaucoup plus de terres pour produire la même quantité d'électricité qu'une centrale électrique au charbon. Cela peut entraîner une fragmentation de l'habitat et le déplacement de la faune."
+              "text": "Les exigences en matière de terrain pour les différentes méthodes de production d'énergie varient considérablement, en particulier lorsqu'on considère l'ensemble de leur cycle de vie. Les évaluations de l'utilisation des terres sur le cycle de vie tiennent compte non seulement de l'empreinte physique de l'usine énergétique elle-même, mais aussi des terres nécessaires pour des activités telles que l'extraction de matériaux pour la construction, l'approvisionnement en combustibles, le démantèlement et la gestion des déchets. La construction d'installations d'énergie renouvelable, telles que des parcs solaires et des éoliennes, nécessite beaucoup plus de terres pour produire la même quantité d'électricité qu'une centrale électrique au charbon. Cela peut entraîner une fragmentation de l'habitat et le déplacement de la faune.<br /><br />Les installations solaires au sol ont tendance à avoir une utilisation des terres relativement élevée, bien que cela varie en fonction de l'emplacement et de la configuration des panneaux solaires. Par exemple, les centrales solaires à grande échelle, contrairement aux panneaux solaires sur les toits, peuvent perturber les écosystèmes locaux en occupant de vastes étendues de terre, en modifiant les habitats et en éloignant les espèces de leurs environnements naturels. Bien qu'il soit vrai que les installations solaires sur les toits utilisent beaucoup moins de terrain, car elles utilisent des structures existantes, leur utilisation des terres n'est pas nulle, car l'extraction des matériaux pour la production de panneaux solaires nécessite toujours des ressources foncières."
             }
           }
         ]
@@ -385,35 +722,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Les installations solaires au sol ont tendance à avoir une utilisation des terres relativement élevée, bien que cela varie en fonction de l'emplacement et de la configuration des panneaux solaires. Par exemple, les centrales solaires à grande échelle, contrairement aux panneaux solaires sur les toits, peuvent perturber les écosystèmes locaux en occupant de vastes étendues de terre, en modifiant les habitats et en éloignant les espèces de leurs environnements naturels. Bien qu'il soit vrai que les installations solaires sur les toits utilisent beaucoup moins de terrain, car elles utilisent des structures existantes, leur utilisation des terres n'est pas nulle, car l'extraction des matériaux pour la production de panneaux solaires nécessite toujours des ressources foncières."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Une étude analysant l'utilisation des terres pour l'énergie solaire dans des régions comme l'Union européenne, l'Inde et la Corée du Sud met en évidence une préoccupation clé : à mesure que l'énergie solaire représente une part de plus en plus importante du mix électrique d'une région, les changements d'utilisation des terres et les émissions associées augmentent également. L'expansion solaire a souvent lieu sur des terres actuellement utilisées pour l'agriculture ou la foresterie. Ce déplacement peut pousser les activités agricoles ou forestières vers d'autres zones, impliquant souvent des terres arables inutilisées, entraînant des pertes de couverture terrestre naturelle. Ces changements perturbent les écosystèmes locaux et libèrent le carbone stocké dans les sols et la végétation, annulant certains des avantages environnementaux de l'énergie solaire."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Une autre étude sur une installation solaire de 96 MW en Afrique du Sud a révélé une baisse significative de la diversité et de la densité des espèces d'oiseaux. Le remplacement de la savane naturelle par des panneaux solaires et des prairies gérées a perturbé les habitats, réduisant les opportunités de nidification et de recherche de nourriture pour les populations d'oiseaux locales. Ces défis d'utilisation des terres se croisent également avec des considérations sociales, en particulier dans le contexte de l'atteinte d'une transition énergétique juste (déjà discutée dans le Module 3). Les projets à grande échelle peuvent avoir des impacts variés sur les communautés locales, soulevant des préoccupations concernant l'accès équitable aux opportunités et la minimisation des risques pour ceux qui sont les plus touchés par l'expansion des énergies renouvelables. Comprendre les implications plus larges de l'utilisation des terres dans le développement des énergies renouvelables est crucial pour concevoir des stratégies énergétiques durables qui minimisent les impacts écologiques et sociaux."
+              "text": "Une étude analysant l'utilisation des terres pour l'énergie solaire dans des régions comme l'Union européenne, l'Inde et la Corée du Sud met en évidence une préoccupation clé : à mesure que l'énergie solaire représente une part de plus en plus importante du mix électrique d'une région, les changements d'utilisation des terres et les émissions associées augmentent également. L'expansion solaire a souvent lieu sur des terres actuellement utilisées pour l'agriculture ou la foresterie. Ce déplacement peut pousser les activités agricoles ou forestières vers d'autres zones, impliquant souvent des terres arables inutilisées, entraînant des pertes de couverture terrestre naturelle. Ces changements perturbent les écosystèmes locaux et libèrent le carbone stocké dans les sols et la végétation, annulant certains des avantages environnementaux de l'énergie solaire.<br /><br />Une autre étude sur une installation solaire de 96 MW en Afrique du Sud a révélé un déclin significatif de la diversité et de la densité des espèces d'oiseaux. Le remplacement de la savane naturelle par des panneaux solaires et des prairies gérées a perturbé les habitats, réduisant les opportunités de nidification et de recherche de nourriture pour les populations d'oiseaux locales. Ces défis d'utilisation des terres se croisent également avec des considérations sociales, en particulier dans le contexte de l'atteinte d'une transition énergétique juste (déjà discutée dans le Module 3). Les projets à grande échelle peuvent avoir des impacts variés sur les communautés locales, soulevant des préoccupations concernant l'accès équitable aux opportunités et la minimisation des risques pour ceux qui sont les plus touchés par l'expansion des énergies renouvelables. Comprendre les implications plus larges de l'utilisation des terres dans le développement des énergies renouvelables est crucial pour concevoir des stratégies énergétiques durables qui minimisent les impacts écologiques et sociaux."
             }
           }
         ]
@@ -510,580 +819,6 @@
       }
     },
     {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_1104.webp",
-          "caption": null
-        },
-        "intro": "M6 : Le lien entre le changement climatique et l'énergie | Chapitre 1 | Leçon 1 | Partie 3",
-        "title": "Partie 3 : Le besoin de pratiques durables"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Vue d'ensemble de la partie 3</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Pour atténuer les impacts négatifs des changements d'utilisation des terres associés à la transition énergétique, plusieurs stratégies peuvent être mises en œuvre. Quelques-uns d'entre eux sont discutés ci-dessous."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_1123.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Sélection de site</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Prioriser le développement de projets d'énergie renouvelable sur des terres dégradées ou précédemment perturbées plutôt que sur des écosystèmes vierges peut aider à minimiser la destruction des habitats. L'utilisation de toits ou de sites dégradés pour des installations solaires est une approche qui réduit les conflits d'utilisation des terres."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Prioriser les terres dégradées</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Il est crucial de se concentrer sur le développement de projets d'énergie renouvelable sur des terres dégradées ou précédemment perturbées plutôt que sur des écosystèmes vierges. Cette stratégie minimise la destruction des habitats et aide à préserver la biodiversité. Par exemple, l'utilisation de toits ou de sites dégradés pour des installations solaires peut réduire considérablement les conflits d'utilisation des terres et la dégradation de l'environnement."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Évitez les zones de conflit élevé</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Les politiques de localisation devraient exclure les terres agricoles à haut rendement et d'autres zones écologiquement sensibles pour limiter la concurrence foncière et les impacts négatifs. Au lieu de cela, des régions telles que les déserts ou les broussailles sèches, qui sont moins adaptées à l'agriculture et aux activités humaines, devraient être prioritaires pour les installations d'énergie solaire."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Incorporez les considérations écologiques locales</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Une planification spatiale efficace qui inclut la cartographie de la sensibilité des écosystèmes et de la faune est essentielle. L'identification des \"Zones d'Accélération des Énergies Renouvelables\" grâce à des évaluations rigoureuses peut aider à équilibrer le développement des énergies renouvelables avec la préservation écologique. Cela implique de prendre en compte les besoins de la communauté locale et les conflits potentiels pour garantir un emplacement de projet durable."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_1136.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Planification Intégrée</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "L'intégration des considérations de biodiversité dans les processus de planification énergétique est essentielle. Cela inclut l'évaluation des impacts écologiques potentiels des projets proposés et la mise en œuvre de mesures pour protéger les habitats sensibles."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Réaliser des évaluations environnementales complètes</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Avant de commencer tout projet d'énergie renouvelable, il est crucial de réaliser des évaluations d'impact environnemental (EIE) approfondies. Ces évaluations devraient évaluer les impacts écologiques potentiels, y compris les effets sur la faune locale, les espèces végétales et la santé globale de l'écosystème."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Utiliser l'analyse géospatiale</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "L'utilisation d'outils et de technologies géospatiaux peut aider à cartographier les habitats sensibles et les points chauds de biodiversité. Cette information peut guider la sélection des sites et la conception des projets, en veillant à ce que les développements évitent les zones critiques et minimisent les perturbations des écosystèmes locaux. <strong> </strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Mettre en œuvre des stratégies d'atténuation</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Pour les projets qui peuvent avoir un impact sur des habitats sensibles, il est important de développer et de mettre en œuvre des stratégies d'atténuation. Cela pourrait inclure des efforts de restauration des habitats, la création de corridors pour la faune ou l'établissement de servitudes de conservation pour protéger les zones touchées."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Engager les parties prenantes</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Impliquer les communautés locales, les organisations de conservation et d'autres parties prenantes dans le processus de planification est vital. Leurs idées peuvent fournir des perspectives précieuses sur les préoccupations liées à la biodiversité et aider à identifier des zones d'importance écologique qui peuvent ne pas être immédiatement apparentes à travers des évaluations standard."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Des pratiques innovantes émergent pour résoudre ces conflits d'utilisation des terres. L'agrivoltaïsme, par exemple, combine la production d'énergie solaire avec des activités agricoles, permettant de cultiver des plantes sous ou entre les panneaux solaires. <br />Les systèmes agrivoltaïques sont mis en œuvre au Kenya, en Tanzanie et en Ouganda, où l'ombre fournie par les panneaux solaires aide à protéger les cultures de la chaleur extrême et minimise l'évaporation de l'eau tant des plantes que du sol. Cette approche a conduit à des rendements améliorés et à des cultures plus saines, y compris le chou, l'aubergine, la laitue et le maïs. <br />De plus, les fermes solaires favorables aux pollinisateurs gagnent en popularité. Cela implique de planter des fleurs sauvages et de la végétation indigène sous et autour des panneaux solaires pour soutenir les pollinisateurs, améliorer la qualité du sol et préserver la terre pour une utilisation agricole potentielle future. De telles solutions aident à équilibrer l'expansion de l'énergie solaire avec la conservation de l'environnement et la gestion durable des terres."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_1149.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Intrants et processus de production verte</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "L'incorporation de la production verte et des pratiques responsables dans les chaînes d'approvisionnement en énergie renouvelable est essentielle. Cela implique de se procurer des matériaux à faible émission de carbone et d'adopter des techniques de fabrication durables pour minimiser les émissions et les déchets."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Mettre en œuvre le design Cradle-to-Cradle</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Adopter une approche de cradle-to-cradle* dans la fabrication se concentre sur la conception de produits qui peuvent être entièrement récupérés ou recyclés à la fin de leur cycle de vie. Cela minimise les déchets et favorise l'utilisation de matériaux qui peuvent être continuellement réutilisés, réduisant ainsi la demande de nouvelles matières premières. <br /><br /><strong>*Du berceau au berceau</strong> peut être défini comme la conception et la production de produits de tous types de manière à ce qu'à la fin de leur vie, ils puissent être véritablement recyclés (upcyclés), imitant le cycle de la nature avec tout soit recyclé ou retourné à la terre, directement ou indirectement par le biais de la nourriture, en tant que nutriment complètement sûr, non toxique et biodégradable."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Passer aux sources d'énergie renouvelable et améliorer l'efficacité énergétique</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Alimenter les processus de fabrication avec des énergies renouvelables—comme le solaire, l'éolien ou la géothermie—peut réduire considérablement les émissions de gaz à effet de serre. De plus, la mise à niveau vers des systèmes d'éclairage intelligents, l'optimisation des systèmes de chauffage et de climatisation, et l'utilisation de techniques de fabrication avancées qui minimisent la consommation d'énergie peuvent aider à améliorer l'efficacité énergétique."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Réduire, Réutiliser, Recycler</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Établir des programmes et des initiatives de recyclage robustes pour réduire les déchets est crucial dans la fabrication verte. Les entreprises devraient réaliser des audits de déchets pour identifier les matériaux recyclables et mettre en œuvre des pratiques qui minimisent la génération de déchets pendant la production."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Concentrez-vous sur la réduction de la pollution </strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Adopter des processus qui limitent le rejet de polluants dans l'environnement est essentiel. Cela peut impliquer l'utilisation de matériaux non toxiques et de techniques de production plus propres qui réduisent les émissions nocives et améliorent la performance environnementale globale."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_1879.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Efforts de restauration</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Parallèlement au développement énergétique, des efforts devraient être faits pour restaurer les écosystèmes dégradés. Les initiatives de reforestation peuvent aider à récupérer des habitats perdus et à améliorer les capacités de séquestration du carbone."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_1892.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/2333_124.webp",
-          "caption": null
-        },
-        "intro": "M6 : Le lien entre le changement climatique et l'énergie | Chapitre 1 | Leçon 1 | Partie 3 | Étude de cas",
-        "title": "Étude de cas : Géorgie"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Étude de cas RBEC : PRATIQUES D'ÉNERGIE RENOUVELABLE POUR UNE GESTION DURABLE DES FORÊTS ET UNE RÉSILIENCE COMMUNAUTAIRE RENFORCÉE</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "L'initiative se concentre sur la mise en œuvre de technologies écoénergétiques et de pratiques d'énergie renouvelable dans le paysage protégé de Machakhela en Géorgie, dans le cadre du cadre mondial de la Promesse Climatique. Financé par le gouvernement du Japon, le projet vise à protéger l'écosystème forestier colchique dans la vallée de Machakheli en introduisant des technologies écoénergétiques telles que des panneaux solaires et des chauffe-eau dans les communautés locales tout en s'attaquant aux dangers de la dégradation forestière causée par la surexploitation du bois de combustible, le changement climatique et les défis mondiaux."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le projet visait à renforcer la protection des forêts, à réduire les risques associés au changement climatique et à permettre l'accès à une énergie propre et abordable. Des chauffe-eau solaires et des panneaux photovoltaïques ont été sélectionnés comme technologies principales, et des sessions de formation ainsi que des outils de surveillance numérique ont été fournis. 200 chauffages et 70 panneaux ont été acquis, suivis d'une installation ciblée dans des ménages vulnérables. Une étude de faisabilité sur la production de biomasse a été réalisée, en s'appuyant sur l'expertise de partenaires japonais. Des activités de sensibilisation, soutenues par des ONG locales, ont promu les avantages de l'énergie renouvelable. Un système de surveillance a suivi des indicateurs clés tels que les économies d'énergie, la réduction du combustible bois et la diminution des émissions. Les partenariats avec le Ministère de l'Agriculture, la Municipalité de Khelvachauri, le Parc National de Machakhela, le Bureau de pays du PNUD et le Ministère de la Protection de l'Environnement et de l'Agriculture ont assuré une mise en œuvre coordonnée et alignée sur les politiques."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Plus de 3000 résidents, principalement des femmes, bénéficient de cet effort, augmentant l'accès à l'énergie renouvelable, réduisant les risques climatiques et améliorant la protection des forêts. Cela a entraîné une réduction annuelle d'environ 900 mètres cubes de bois de chauffage, économisant environ 300 arbres par an. Cette réduction des émissions de CO2 et la séquestration du carbone renforcent la capacité des forêts à séquestrer le carbone, protégeant la biodiversité et atténuant le changement climatique."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/2357_78.webp",
-          "caption": null
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>La feuille de route de la bioénergie de la Géorgie</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "L'initiative a amélioré la vie d'environ 1 350 personnes dans des familles vulnérables dans la zone du paysage protégé de Machakhela, en fournissant un accès à une énergie propre et abordable, en réduisant les coûts énergétiques et en améliorant les conditions de vie, en particulier pour les femmes et les responsables de ménage féminins. Le projet a donné aux femmes plus de pouvoir économique, leur permettant d'assumer des rôles plus productifs dans l'économie locale et de réduire les obligations familiales. <br /><br />Malgré des défis tels que des ressources forestières limitées, des catastrophes liées au climat, des obstacles logistiques et une instabilité politique, le projet a surmonté ces obstacles grâce à des partenariats solides, au cadre opérationnel du PNUD et à un fort engagement envers l'engagement communautaire, des ateliers éducatifs, une planification participative, des programmes de renforcement des capacités et une gestion collaborative des ressources. Des ateliers ont éduqué les résidents, en particulier les femmes, sur les énergies renouvelables et les technologies durables, telles que les panneaux solaires et les unités de biogaz. Ces stratégies d'engagement ont non seulement abordé des défis tels que la limitation des ressources forestières et l'instabilité politique, mais ont également renforcé la résilience des communautés et amélioré le bien-être de la population locale."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "La Géorgie progresse dans l'adoption de lois et de politiques pour surveiller et réduire les émissions de gaz à effet de serre, et l'UE et le PNUD aident le pays à affiner sa politique climatique et énergétique. En fournissant des sources d'énergie fiables et propres et en promouvant des pratiques durables, le projet a réduit la pression sur les écosystèmes forestiers colchiques et a amélioré la résilience et le bien-être de la population locale. <br /><br />La mise en œuvre réussie des technologies d'énergie renouvelable et des solutions durables repose sur l'engagement communautaire, en particulier l'implication des populations locales, des femmes et des groupes vulnérables. Une formation et une éducation complètes sur l'utilisation et l'entretien des technologies telles que les chauffe-eau solaires et les panneaux photovoltaïques permettent d'autonomiser les bénéficiaires, améliorant ainsi la durabilité et l'utilisation efficace. La stratégie du projet est basée sur les leçons acquises du Programme pilote sur les alternatives au combustible de bois, qui a été entrepris dans le cadre du projet des Zones protégées d'Adjara du PNUD-FEM et du programme de développement rural de l'UE ENPARD. Les programmes pilotes fournissent des informations précieuses et permettent des ajustements avant une mise en œuvre plus large. <br /><br />Ces initiatives promettent des avantages tangibles tant pour les communautés locales que pour l'environnement. En passant à l'énergie renouvelable, la vallée de Machakheli est prête à économiser jusqu'à 900 m3 de bois de chauffage par an, préservant 300 arbres et atténuant 7 tonnes d'émissions de CO2 par an. Ce projet s'aligne sur l'engagement de la Géorgie envers l'Accord de Paris, visant à augmenter la capacité de capture de carbone des forêts de 10 % et à réduire les émissions nationales de gaz à effet de serre de 30 à 35 % d'ici 2030, par rapport aux niveaux de 2015 et 1990 respectivement."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Références </strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "1. GIZ, Soutien à la gestion forestière respectueuse du climat en Géorgie <br />2. IEA, Une carte de la bioénergie de la Géorgie <br />3. PNUD, Document de projet – Géorgie <br />4. Nouvelle direction, la Géorgie et l'UE - Ensemble vers la résilience environnementale et climatique <br />5. Georgia Trend, projet de résilience du réseau de Géorgie et d'énergie propre <br />"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_1929.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "learning_objectives",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Objectifs d'apprentissage",
-        "intro": "Si vous n'avez que de la place pour retenir 3 choses :",
-        "objectives": [
-          {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_1958.webp",
-              "caption": "image caption"
-            },
-            "title": "Surveiller les progrès vers des objectifs énergétiques durables est essentiel.",
-            "description": "Examinez la contribution significative des systèmes énergétiques aux émissions mondiales de gaz à effet de serre et évaluez les voies de transition vers une production et une consommation d'énergie nettes nulles d'ici le milieu du siècle."
-          },
-          {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_1952.webp",
-              "caption": "image caption"
-            },
-            "title": "La croissance économique et les politiques énergétiques sont critiques.",
-            "description": "Évaluer les vulnérabilités des infrastructures énergétiques face aux risques liés au climat, y compris les événements météorologiques extrêmes et les stress climatiques à long terme, et identifier des stratégies pour atténuer ces défis."
-          },
-          {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_1940.webp",
-              "caption": "image caption"
-            },
-            "title": "Nous devons toujours évaluer l'impact environnemental du développement de l'énergie durable.",
-            "description": "Évaluez le rôle des technologies d'énergie renouvelable et d'autres solutions durables dans la décarbonisation des secteurs d'utilisation finale, en tenant compte de leurs implications environnementales, économiques et sociales."
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/M5_C2_L2_8.png",
-          "caption": ""
-        }
-      }
-    },
-    {
       "template_id": "key_resources",
       "color_scheme": "dark",
       "content": {
@@ -1124,7 +859,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/lesson612.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/image/lesson612_image.webp",
           "caption": ""
         },
         "intro": "Prochainement",
