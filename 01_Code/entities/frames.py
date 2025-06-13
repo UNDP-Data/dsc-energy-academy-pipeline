@@ -30,7 +30,7 @@ from typing import Literal, List, Union, Dict
 from pydantic import BaseModel, Field
 import json
 from pathlib import Path
-
+from typing import ClassVar
 from .components import Card, Concept, Intro, LessonThumbnail, NextBlock
 from .node import Node
 
@@ -101,7 +101,17 @@ class FrameBase(BaseModel):
         else:
             return value
 
-
+def safe_get_characters(node: Node, field: str, template_id: str, default: str = "") -> str:
+    selected = node.select_node("TEXT", field)
+    if selected is None:
+        if field != "cta":
+            print(f"⚠️ Missing field '{field}' in template '{template_id}'")
+        return default
+    try:
+        return selected.characters
+    except Exception as e:
+        print(f"❌ Error getting '.characters' for field '{field}' in template '{template_id}': {e}")
+        return default
 
 def parse_image_fields(node: Node) -> dict:
     """
@@ -162,9 +172,8 @@ def parse_cover_fields(node: Node) -> dict:
     coverNode={
         "template_id": node.name,
         "image": image_val,
-        "title": node.select_node("TEXT", "title").characters,
-        "cta": (node.select_node("TEXT", "cta").characters 
-                if node.select_node("TEXT", "cta") is not None else None),
+        "title":safe_get_characters(node, "title", node.name),
+        "cta":safe_get_characters(node, "cta", node.name)
     }
     
     header_node = node.select_node("GROUP", "module|chapter|lesson")
@@ -187,12 +196,8 @@ def parse_cover_fields(node: Node) -> dict:
         header_val = Intro.from_node(header_node).model_dump()
         coverNode[header_type]= header_val
 
+    coverNode["intro"]=safe_get_characters(node, "intro", node.name)
 
-    try:
-        introText=node.select_node("TEXT", "intro").characters
-        coverNode["intro"]=introText
-    except:
-        introText=""
         
     return coverNode
 
@@ -288,9 +293,9 @@ class ConnectionNext(FrameBase):
         return cls(
             template_id=node.name,
             image=dict(parse_image_fields(image_node)),
-            intro=node.select_node("TEXT", "intro").characters,
-            title=node.select_node("TEXT", "title").characters,
-            cta=node.select_node("TEXT", "cta").characters,
+            intro=safe_get_characters(node, "intro", node.name),
+            title=safe_get_characters(node, "title", node.name),
+            cta=safe_get_characters(node, "cta", node.name),
             nextLessonId="1.1.1" ##this needs to be patched
         )
 
@@ -308,9 +313,9 @@ class ConnectionBack(FrameBase):
         return cls(
             template_id=node.name,
             image=dict(parse_image_fields(image_node)),
-            intro=node.select_node("TEXT", "intro").characters,
-            title=node.select_node("TEXT", "title").characters,
-            cta=(node.select_node("TEXT", "cta").characters if node.select_node("TEXT", "cta") is not None else None),
+            intro=safe_get_characters(node, "intro", node.name),
+            title=safe_get_characters(node, "title", node.name),
+            cta=safe_get_characters(node, "cta", node.name)
         )
 
 
@@ -326,8 +331,8 @@ class KeyConcepts(FrameBase):
         return cls(
             template_id=node.name,
             color_scheme="dark",
-            title=node.select_node("TEXT", "title").characters,
-            intro=node.select_node("TEXT", "intro").characters,
+            intro=safe_get_characters(node, "intro", node.name),
+            title=safe_get_characters(node, "title", node.name),
             concepts=[Concept.from_node(child) for child in node.select_nodes("GROUP", "concepts")],
         )
 
@@ -342,8 +347,8 @@ class LearningObjectives(FrameBase):
         assert node.name == "learning_objectives", f"Expected learning_objectives node, got {node.name}"
         return cls(
             template_id=node.name,
-            title=node.select_node("TEXT", "title").characters,
-            intro=node.select_node("TEXT", "intro").characters,
+            intro=safe_get_characters(node, "intro", node.name),
+            title=safe_get_characters(node, "title", node.name),
             objectives=[Card.from_node(child) for child in node.select_nodes("GROUP", "objectives")],
         )
 
@@ -358,8 +363,8 @@ class KeyTakeaways(FrameBase):
         assert node.name == "key_takeaways", f"Expected key_takeaways node, got {node.name}"
         return cls(
             template_id=node.name,
-            title=node.select_node("TEXT", "title").characters,
-            intro=node.select_node("TEXT", "intro").characters,
+            intro=safe_get_characters(node, "intro", node.name),
+            title=safe_get_characters(node, "title", node.name),
             takeaways=[Card.from_node(child) for child in node.select_nodes("GROUP", "objectives")],
         )
         
@@ -374,7 +379,7 @@ class ListOfLessons(FrameBase):
         assert node.name == "list_of_lessons", f"Expected list_of_lessons node, got {node.name}"
         return cls(
             template_id=node.name,
-            title=node.select_node("TEXT", "title").characters,
+            title=safe_get_characters(node, "title", node.name),
             lessons=[LessonThumbnail.from_node(child) for child in node.select_nodes("GROUP", "lessons")],
         )
 
@@ -412,128 +417,6 @@ TEXT_TEMPLATE_IDS = [
     "subtitle",
     "subtitle_small"
 ]
-
-
-import re
-
-# class ModuleText(FrameBase):
-#     text_elements: List[dict]
-
-#     @classmethod
-#     def from_node(cls, node):
-#         assert node.name == "text", f"Expected text node, got {node.name}"
-
-#         raw_text_elements = []
-
-#         def infer_template_id(parent_name):
-#             name = parent_name.lower()
-#             for template in TEXT_TEMPLATE_IDS:
-#                 if template in name:
-#                     return template
-#             return "paragraph_small"
-
-#         def get_style_attrs(style: dict) -> dict:
-#             return {
-#                 "bold": style.get("fontWeight", 0) >= 700 or "Bold" in style.get("fontStyle", ""),
-#                 #"italic": "italic" in style.get("fontStyle", "").lower(),
-#                 #"underline": style.get("textDecoration", "").lower() == "underline",
-#                 "url": style.get("hyperlink", {}).get("url") if style.get("hyperlink") else None
-#             }
-
-#         def wrap_text(text, attrs):
-#             if not text:
-#                 return ""
-
-#             wrappers = []
-
-#             # if attrs["underline"]:
-#             #     wrappers.append(("u", {}))
-#             # if attrs["italic"]:
-#             #     wrappers.append(("em", {}))
-#             if attrs["bold"]:
-#                 wrappers.append(("strong", {}))
-#             # if attrs["url"]:
-#             #     wrappers.append(("a", {"href": attrs["url"]}))
-
-#             for tag, attr in wrappers:
-#                 attr_str = " ".join(f'{k}="{v}"' for k, v in attr.items()) if attr else ""
-#                 if attr_str:
-#                     open_tag = f"<{tag} {attr_str}>"
-#                 else:
-#                     open_tag = f"<{tag}>"
-#                 close_tag = f"</{tag}>"
-#                 text = f"{open_tag}{text}{close_tag}"
-
-#             return text
-
-
-#         def extract_styled_text(n):
-#             text = n.characters or ""
-#             overrides = n.characterStyleOverrides if hasattr(n, "characterStyleOverrides") else []
-#             style_table = getattr(n, "styleOverrideTable", {})
-#             default_style = get_style_attrs(getattr(n, "style", {}))
-
-#             result = []
-#             current_chunk = ""
-#             current_attrs = None
-
-#             def flush_chunk():
-#                 if current_chunk:
-#                     wrapped = wrap_text(current_chunk, current_attrs)
-#                     result.append(wrapped)
-
-#             for i, char in enumerate(text):
-#                 override_idx = overrides[i] if i < len(overrides) else 0
-#                 style = style_table.get(str(override_idx), {}) if override_idx else getattr(n, "style", {})
-#                 attrs = get_style_attrs(style)
-
-#                 if current_attrs is None:
-#                     current_attrs = attrs
-#                     current_chunk = char
-#                 elif attrs == current_attrs:
-#                     current_chunk += char
-#                 else:
-#                     flush_chunk()
-#                     current_chunk = char
-#                     current_attrs = attrs
-
-#             flush_chunk()
-
-#             # Replace literal newlines with <br />
-#             return "<br />".join("".join(result).splitlines())
-
-#         def walk(n, parent_name=None):
-#             if n.type == "TEXT" and n.characters and n.characters.strip():
-#                 template_id = infer_template_id(parent_name or "")
-#                 processed_text = extract_styled_text(n)
-#                 raw_text_elements.append({
-#                     "template_id": template_id,
-#                     "content": {"text": processed_text.strip()}
-#                 })
-
-#             children = getattr(n, "children", None)
-#             if isinstance(children, list):
-#                 for child in children:
-#                     walk(child, n.name if n.type != "TEXT" else parent_name)
-
-#         walk(node)
-
-#         return cls(
-#             template_id="text",
-#             text_elements=list(reversed(raw_text_elements))
-#         )
-
-#     def to_content(self) -> dict:
-#         return {
-#             "template_id": self.id,
-#             "color_scheme": self.color_scheme,
-#             "content": {
-#                 "text_elements": self.text_elements
-#             }
-#         }
-
-
-from typing import ClassVar
 
 class ModuleText(FrameBase):
     text_elements: List[dict]
@@ -745,7 +628,8 @@ class Chart(FrameBase):
                 with open(chart_path, "r", encoding="utf-8") as f:
                     option = json.load(f)
             else:
-                raise FileNotFoundError(f"Chart JSON not found: {chart_path}")
+                option = {}
+                #raise FileNotFoundError(f"Chart JSON not found: {chart_path}")
         else:
             option = {}
 
@@ -796,13 +680,14 @@ class ChapterOutro(FrameBase):
         assert node.name == "chapter_outro", f"Expected chapter_outro node, got {node.name}"
         nextBlock = NextBlock.from_node(node.select_node("GROUP", "quiz")).model_dump()
         nextBlock["nextBlockId"]= "1.1.5"
+        titleNode=node.select_node("GROUP", "title")
         return cls(
             template_id=node.name,
-            intro=node.select_node("TEXT", "intro").characters,
-            title=node.select_node("GROUP", "title").select_node("TEXT", "first_line").characters,
-            subtitle=node.select_node("GROUP", "title").select_node("TEXT", "second_line").characters,
-            body=node.select_node("TEXT", "body").characters,
-            nextBlock=nextBlock,
+            intro=safe_get_characters(node, "intro", node.name),
+            title=safe_get_characters(titleNode,"first_line", titleNode.name),
+            subtitle=safe_get_characters(titleNode,"second_line", titleNode.name),
+            body=safe_get_characters(node, "body", node.name),
+            nextBlock=nextBlock
         )
 
 
@@ -818,13 +703,14 @@ class ModuleOutro(FrameBase):
         assert node.name == "module_outro", f"Expected module_outro node, got {node.name}"
         nextBlock = NextBlock.from_node(node.select_node("GROUP", "quiz")).model_dump()
         nextBlock["nextBlockId"]= "1.1.5"
+        titleNode=node.select_node("GROUP", "title")
         return cls(
             template_id=node.name,
-            intro=node.select_node("TEXT", "intro").characters,
-            title=node.select_node("GROUP", "title").select_node("TEXT", "first_line").characters,
-            subtitle=node.select_node("GROUP", "title").select_node("TEXT", "second_line").characters,
-            body=node.select_node("TEXT", "body").characters,
-            nextBlock=nextBlock,
+            intro=safe_get_characters(node, "intro", node.name),
+            title=safe_get_characters(titleNode,"first_line", titleNode.name),
+            subtitle=safe_get_characters(titleNode,"second_line", titleNode.name),
+            body=safe_get_characters(node, "body", node.name),
+            nextBlock=nextBlock
         )
 
 
@@ -839,9 +725,9 @@ class KeyResources(FrameBase):
         assert node.name == "key_resources", f"Expected key_resources node, got {node.name}"
         return cls(
             template_id=node.name,
-            title=node.select_node("TEXT", "title").characters,
-            intro=node.select_node("TEXT", "intro").characters,
-            resources=[Card.from_node(child) for child in node.select_nodes("GROUP", "resources")],
+            intro=safe_get_characters(node, "intro", node.name),
+            title=safe_get_characters(node, "title", node.name),
+            resources=[Card.from_node(child) for child in node.select_nodes("GROUP", "resources")]
         )
 
 
@@ -858,7 +744,7 @@ class ImageHotspot(FrameBase):
         return cls(
             template_id=node.name,
             image=dict(parse_image_fields(image_node)),
-            hotspots=hotspots,
+            hotspots=hotspots
         )
         
 

@@ -10,6 +10,17 @@ from .node import Node
 
 __all__ = ["Image", "Intro", "Card", "LessonThumbnail", "Concept"]
 
+def safe_get_characters(node: Node, field: str, template_id: str, default: str = "") -> str:
+    selected = node.select_node("TEXT", field)
+    if selected is None:
+        if field not in ["cta","caption"]:
+            print(f"⚠️ Missing field '{field}' in template '{template_id}'")
+        return default
+    try:
+        return selected.characters
+    except Exception as e:
+        print(f"❌ Error getting '.characters' for field '{field}' in template '{template_id}': {e}")
+        return default
 
 class Image(BaseModel):
     """
@@ -36,7 +47,8 @@ class Image(BaseModel):
         """
         return cls(
             src=node.select_node("RECTANGLE").id,
-            caption=node.select_node("TEXT").characters,
+            caption = safe_get_characters(node, "caption", node.name)
+            
         )
 
 
@@ -64,8 +76,8 @@ class Intro(BaseModel):
             An instance of the Intro class populated with data from the node.
         """
         return cls(
-            label=node.select_node("TEXT", "label").characters.title(),
-            number=node.select_node("TEXT", "number").characters,
+            label=safe_get_characters(node, "label", node.name).title(),
+            number=safe_get_characters(node, "number", node.name)
         )
 
 
@@ -94,16 +106,15 @@ class Card(BaseModel):
             An instance of the Card class populated with data from the node.
         """
         #print(node)
-        title_node = node.select_node("TEXT", "title")
-        description_node = node.select_node("TEXT", "description")
 
-        # print(f"Title node: {title_node}")
-        # print(f"Description node: {description_node}")
-
+        try:##description here is separated because it is optional only for takeaways
+            description=node.select_node("TEXT", "description").characters
+        except:
+            description=""
         return cls(
             image=Image.from_node(node.select_node("GROUP", "image")),
-            title=title_node.characters if title_node is not None else "",
-            description=description_node.characters if description_node is not None else "",
+            title=safe_get_characters(node, "title", node.name),
+            description=description
         )
 
 
@@ -141,19 +152,14 @@ class LessonThumbnail(BaseModel):
         type = "Lesson"
         lessonId="1.1.1"## this needs to be patched
 
-        try:
-            description = node.select_node("TEXT", "description").characters
-        except Exception:
-            description = ""
-
         return cls(
-            title=node.select_node("TEXT", "title").characters,
+            title=safe_get_characters(node, "title", node.name),
             image=Image.from_node(node.select_node("GROUP", "image")),
             progress=progress,
             lessonId=lessonId,
             type=type,
             cta="Go to the lesson",
-            description=description
+            description=safe_get_characters(node, "description", node.name),
         )
 
 
@@ -182,14 +188,9 @@ class Concept(BaseModel):
             An instance of the Concept class populated with data from the node.
         """
         return cls(
-            title=node.select_node("TEXT", "title").characters,
-            body=node.select_node("TEXT", "body").characters,
-            # parse cta if it is available, otherwise, use None
-            source=(
-                source.characters
-                if (source := node.select_node("TEXT", "source")) is not None
-                else None
-            ),
+            body=safe_get_characters(node, "body", node.name),
+            title=safe_get_characters(node, "title", node.name),
+            source=safe_get_characters(node, "source", node.name)
         )
 
 
@@ -221,9 +222,9 @@ class NextBlock(BaseModel):
             An instance of the NextBlock class populated with data from the node.
         """
         return cls(
-            intro=node.select_node("TEXT", "intro").characters,
-            title=node.select_node("TEXT", "title").characters,
-            cta=node.select_node("TEXT", "cta").characters,
-            button_cta=node.select_node("TEXT", "buttonCta").characters,
+            intro=safe_get_characters(node, "intro", node.name),
+            title=safe_get_characters(node, "title", node.name),
+            cta=safe_get_characters(node, "cta", node.name),
+            button_cta=safe_get_characters(node, "buttonCta", node.name),
             image=Image.from_node(node.select_node("GROUP", "image")),
         )
