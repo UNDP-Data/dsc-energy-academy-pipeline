@@ -25,7 +25,7 @@
         "questions": [
           {
             "id": 1,
-            "prompt": "1. What is the main goal of SDG 7?",
+            "prompt": "What is the main goal of SDG 7?",
             "multiple": false,
             "options": [
               {
@@ -61,8 +61,8 @@
           },
           {
             "id": 2,
-            "prompt": "2. Which of the following are components of sustainable energy access? (Select all that apply)",
-            "multiple": false,
+            "prompt": "Which of the following are components of sustainable energy access? (Select all that apply)",
+            "multiple": true,
             "options": [
               {
                 "id": 1,
@@ -78,11 +78,13 @@
               },
               {
                 "id": 4,
-                "value": "All of the above"
+                "value": "None of the above"
               }
             ],
             "solution": [
-              4
+              1,
+              2,
+              3
             ],
             "messages": {
               "correct": {
@@ -97,7 +99,7 @@
           },
           {
             "id": 3,
-            "prompt": "3. Approximately how many people globally still lack access to electricity?",
+            "prompt": "Approximately how many people globally still lack access to electricity?",
             "multiple": false,
             "options": [
               {
@@ -133,12 +135,12 @@
           },
           {
             "id": 4,
-            "prompt": "4. What is the difference between energy access and inclusive energy services?",
+            "prompt": "What is the difference between energy access and inclusive energy services?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Energy access is about quantity; inclusive services consider quality and equity"
+                "value": "ADEF"
               },
               {
                 "id": 2,
@@ -169,7 +171,7 @@
           },
           {
             "id": 5,
-            "prompt": "5. Which human rights are most directly impacted by energy access? (Select all that apply)",
+            "prompt": "Which human rights are most directly impacted by energy access? (Select all that apply)",
             "multiple": true,
             "options": [
               {
@@ -207,7 +209,7 @@
           },
           {
             "id": 6,
-            "prompt": "6. What is considered a clean cooking solution?",
+            "prompt": "What is considered a clean cooking solution?",
             "multiple": false,
             "options": [
               {
@@ -243,7 +245,7 @@
           },
           {
             "id": 7,
-            "prompt": "7. Which of the following is NOT part of the Multi-Tier Framework (MTF) for measuring energy access?",
+            "prompt": "Which of the following is NOT part of the Multi-Tier Framework (MTF) for measuring energy access?",
             "multiple": false,
             "options": [
               {
@@ -279,7 +281,7 @@
           },
           {
             "id": 8,
-            "prompt": "8. What proportion of global clean cooking access deficit is concentrated in Sub-Saharan Africa?",
+            "prompt": "What proportion of global clean cooking access deficit is concentrated in Sub-Saharan Africa?",
             "multiple": false,
             "options": [
               {

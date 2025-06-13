@@ -630,18 +630,15 @@ class Chart(FrameBase):
             if chart_path.exists():
                 with open(chart_path, "r", encoding="utf-8") as f:
                     option = json.load(f)
-            else:
-                option = {}
-                #raise FileNotFoundError(f"Chart JSON not found: {chart_path}")
-        else:
-            option = {}
-
-        return cls(
-            template_id="echarts_chart",
-            color_scheme="light",
-            size="full",
-            option=option
-        )
+                return cls(
+                    template_id="echarts_chart",
+                    color_scheme="light",
+                    size="full",
+                    option=option
+                )
+        
+        # If no image or chart JSON file, raise an error to skip this frame
+        raise ValueError(f"Chart data missing or invalid for frame: {node.name}")
 
 
 class PhotoFullHeight(FrameBase):
@@ -693,7 +690,6 @@ class ChapterOutro(FrameBase):
             nextBlock=nextBlock
         )
 
-
 class ModuleOutro(FrameBase):
     intro: str
     title: str
@@ -704,16 +700,28 @@ class ModuleOutro(FrameBase):
     @classmethod
     def from_node(cls, node: Node) -> "ModuleOutro":
         assert node.name == "module_outro", f"Expected module_outro node, got {node.name}"
-        nextBlock = NextBlock.from_node(node.select_node("GROUP", "quiz")).model_dump()
-        nextBlock["nextBlockId"]= "1.1.5"
-        titleNode=node.select_node("GROUP", "title")
+
+        title_node = node.select_node("GROUP", "title")
+        first_line = safe_get_characters(title_node, "first_line", title_node.name).strip()
+
+        # Infer module number from last character
+        try:
+            module_number = int(first_line[-1])
+            next_module_id = f"{module_number + 1}.0.0"
+        except (ValueError, IndexError):
+            module_number = -1
+            next_module_id = "1.0.0"  # Fallback if parsing fails
+
+        next_block = NextBlock.from_node(node.select_node("GROUP", "quiz")).model_dump()
+        next_block["nextBlockId"] = next_module_id
+
         return cls(
             template_id=node.name,
             intro=safe_get_characters(node, "intro", node.name),
-            title=safe_get_characters(titleNode,"first_line", titleNode.name),
-            subtitle=safe_get_characters(titleNode,"second_line", titleNode.name),
+            title=first_line,
+            subtitle=safe_get_characters(title_node, "second_line", title_node.name),
             body=safe_get_characters(node, "body", node.name),
-            nextBlock=nextBlock
+            nextBlock=next_block
         )
 
 

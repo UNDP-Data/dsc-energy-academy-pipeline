@@ -7,15 +7,15 @@
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/152_236.webp",
-          "caption": null
+          "caption": ""
         },
         "lesson": {
           "label": "Aula",
           "number": "2"
         },
-        "title": "DESEMPACOTANDO O CONCEITO DE UMA TRANSIÇÃO ENERGÉTICA JUSTA",
-        "cta": null,
-        "intro": "M3: Transição energética justa | Capítulo 1 | Aula 2"
+        "title": "Desempacotando o conceito de uma transição energética justa",
+        "cta": "",
+        "intro": "M3: Transição energética justa"
       }
     },
     {
@@ -39,28 +39,28 @@
       }
     },
     {
-      "template_id": "key_concepts",
+      "template_id": "text",
       "color_scheme": "dark",
       "content": {
-        "title": "Conceitos-chave",
-        "intro": "Explore ideias fundamentais desta aula.",
-        "concepts": [
+        "text_elements": [
           {
-            "title": "",
-            "body": "",
-            "source": ""
-          },
-          {
-            "title": "",
-            "body": "",
-            "source": ""
-          },
-          {
-            "title": "",
-            "body": "",
-            "source": ""
+            "template_id": "quote_large_with_name",
+            "content": {
+              "quote": "<strong>Just Energy Transition<br /></strong><br />A just transition embodies <strong>principles, processes, and practices </strong>designed to ensure fairness, equity, and inclusivity.<br /><br />It seeks to address the inequalities that may arise from the shift to sustainable energy systems, paying particular attention to the most vulnerable populations—such as low-income communities, workers in carbon-intensive industries, and marginalized groups.",
+              "author": "<a href=\"https://climatepromise.undp.org/news-and-stories/what-just-transition-and-why-it-important\">UNDP, 2022</a>"
+            }
           }
         ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/2991_6.webp",
+          "caption": ""
+        }
       }
     },
     {
@@ -69,9 +69,9 @@
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/700_950.webp",
-          "caption": null
+          "caption": ""
         },
-        "intro": "M3: Transição energética justa | Capítulo 1 | Aula 2 | Parte 1",
+        "intro": "M3: Transição energética justa",
         "title": "Parte 1: Origens do conceito de transição justa"
       }
     },
@@ -110,27 +110,15 @@
       }
     },
     {
-      "template_id": "photo_horizontal",
+      "template_id": "infographic",
       "color_scheme": "dark",
+      "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/700_962.webp",
-          "caption": null
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/M3_C1_3.webp",
+          "caption": null,
+          "url": null
         }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "dark",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Implícito no discurso da transição justa está o reconhecimento de que as transições podem ser disruptivas, sublinhando a necessidade de esforços intencionais para facilitar uma transição suave e equitativa para todas as partes envolvidas.<br /></strong>"
-            }
-          }
-        ]
       }
     },
     {
@@ -139,9 +127,9 @@
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/152_316.webp",
-          "caption": null
+          "caption": ""
         },
-        "intro": "M3: Transição energética justa | Capítulo 1 | Aula 1 | Parte 2",
+        "intro": "M3: Transição energética justa",
         "title": "Parte 2: Justiça ambiental, climática e energética"
       }
     },
@@ -195,15 +183,37 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Justiça corretiva,</strong>",
+              "body": "que envolve compensação, acesso à justiça e empoderamento legal para comunidades prejudicadas por danos ambientais."
+            }
+          },
+          {
+            "template_id": "subtitle_small",
             "content": {
               "text": "<strong>A justiça ambiental</strong> busca a equidade na distribuição dos benefícios e encargos ambientais, enfatizando:"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>A equidade intrageneracional</strong> garante acesso justo a recursos e oportunidades dentro da geração atual, enquanto <strong>a equidade intergeracional</strong> foca na preservação de recursos e na saúde ambiental para as gerações futuras.<br /><br /><strong>A justiça distributiva</strong>, garantindo uma distribuição justa dos benefícios e ônus ambientais, prevenindo a marginalização adicional de grupos vulneráveis.<br /><br /><strong>A justiça corretiva</strong>, que envolve compensação, acesso à justiça e empoderamento legal para comunidades prejudicadas por danos ambientais.<br /><br /><strong>A equidade processual</strong>, exigindo processos de tomada de decisão abertos, transparentes e inclusivos."
+              "title": "<strong>Equidade intrageracional</strong>",
+              "body": "garante acesso justo a recursos e oportunidades dentro da geração atual, enquanto <strong>a equidade intergeracional</strong> se concentra em preservar recursos e a saúde ambiental para as futuras gerações."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Justiça distributiva,</strong>",
+              "body": "garantindo uma distribuição justa dos benefícios e encargos ambientais, prevenindo uma maior marginalização de grupos vulneráveis."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Justiça processual,</strong>",
+              "body": "exigindo processos de tomada de decisão abertos, transparentes e inclusivos."
             }
           }
         ]
@@ -267,15 +277,37 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "subtitle_small",
             "content": {
               "text": "Os componentes-chave da <strong>justiça climática</strong> incluem:"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>Equidade: </strong>Distribuição justa dos benefícios e encargos das mudanças climáticas, tanto dentro quanto entre países, bem como entre diferentes gerações.<br /><br /><strong>Direitos Humanos: </strong>Proteger os direitos daqueles mais afetados pelas mudanças climáticas, incluindo povos indígenas e comunidades de baixa renda.<br /><br /><strong>Participação: </strong>Garantir que as comunidades afetadas estejam envolvidas na formulação de políticas climáticas.<br /><br /><strong>Responsabilidade: </strong>Responsabilizar aqueles que são responsáveis pelas mudanças climáticas por suas ações e contribuições para as soluções."
+              "title": "<strong>Equidade</strong>",
+              "body": "Distribuição justa dos benefícios e encargos das mudanças climáticas, tanto dentro quanto entre os países, assim como entre as diferentes gerações."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Direitos Humanos</strong>",
+              "body": "Proteger os direitos daqueles mais afetados pelas mudanças climáticas, incluindo os povos indígenas e as comunidades de baixa renda."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Participação</strong>",
+              "body": "Garantir que as comunidades afetadas estejam envolvidas na formulação de políticas climáticas."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "Responsabilidade",
+              "body": "Responsabilizar os responsáveis pela mudança climática por suas ações e contribuições para as soluções."
             }
           }
         ]
@@ -296,12 +328,6 @@
       "color_scheme": "light",
       "content": {
         "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "DESEMPACOTANDO O CONCEITO DE UMA TRANSIÇÃO ENERGÉTICA JUSTA"
-            }
-          },
           {
             "template_id": "paragraph_medium",
             "content": {
@@ -351,15 +377,19 @@
             }
           },
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point_with_highlight",
             "content": {
-              "text": "<strong>Justiça distributiva </strong>"
+              "title": "<strong>Justiça distributiva </strong>",
+              "body": "Na justiça energética, foca na alocação justa tanto dos benefícios quanto dos encargos dos recursos energéticos entre as comunidades. Considera a localização dos projetos de energia, como usinas de energia ou instalações renováveis, e examina quem arca com os custos associados ao acesso à energia e às mudanças na infraestrutura. Também considera o acesso equitativo aos serviços de energia e, sob uma perspectiva de consumo, questões como a pobreza energética como a distribuição desigual de encargos relacionados ao acesso à energia acessível.",
+              "source": ""
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point_with_highlight",
             "content": {
-              "text": "Na justiça energética, foca na alocação justa tanto dos benefícios quanto dos encargos dos recursos energéticos entre as comunidades. Considera a localização dos projetos de energia, como usinas de energia ou instalações renováveis, e examina quem arca com os custos associados ao acesso à energia e às mudanças na infraestrutura. Também considera o acesso equitativo aos serviços de energia e, sob uma perspectiva de consumo, questões como a pobreza energética como a distribuição desigual de encargos relacionados ao acesso à energia acessível."
+              "title": "<strong>Justiça processual</strong>",
+              "body": "Garante a participação inclusiva e transparente nas decisões relacionadas à energia, determinando quem tem voz nos projetos energéticos e nos processos de políticas. Isso é crucial no planejamento energético, onde as comunidades afetadas devem ter voz nos projetos que influenciam seu acesso à energia e custos. Isso também se aplica a decisões em toda a cadeia de valor da energia que impactam direta ou indiretamente as comunidades locais, incluindo a extração de recursos, a instalação de redes de transmissão e a construção de plantas de geração.",
+              "source": ""
             }
           }
         ]
@@ -371,55 +401,19 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point_with_highlight",
             "content": {
-              "text": "<strong>Justiça processual</strong>"
+              "title": "<strong>Justiça de reconhecimento</strong>",
+              "body": "Garante que as necessidades e valores únicos de grupos diversos, especialmente aqueles frequentemente marginalizados, sejam respeitados dentro dos sistemas de energia. Requer diálogo ativo e compreensão de diferentes visões de mundo e cosmologias. Por exemplo, no contexto de projetos de energia renovável, isso pode envolver entender a relação de uma comunidade indígena com os elementos naturais, como a conexão do povo Wayúu com os ventos em La Guajira. A justiça de reconhecimento também se aplica às políticas de acesso à energia, reconhecendo que pessoas idosas ou com doenças crônicas podem ter necessidades energéticas distintas, o que pode exigir tarifas diferenciadas.",
+              "source": ""
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point_with_highlight",
             "content": {
-              "text": "Garante a participação inclusiva e transparente nas decisões relacionadas à energia, determinando quem tem voz nos projetos energéticos e nos processos de políticas. Isso é crucial no planejamento energético, onde as comunidades afetadas devem ter voz nos projetos que influenciam seu acesso à energia e custos. Isso também se aplica a decisões em toda a cadeia de valor da energia que impactam direta ou indiretamente as comunidades locais, incluindo a extração de recursos, a instalação de redes de transmissão e a construção de plantas de geração."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Justiça de reconhecimento</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Garante que as necessidades e valores únicos de grupos diversos, especialmente aqueles frequentemente marginalizados, sejam respeitados dentro dos sistemas de energia. Requer diálogo ativo e compreensão de diferentes visões de mundo e cosmologias. Por exemplo, no contexto de projetos de energia renovável, isso pode envolver entender a relação de uma comunidade indígena com os elementos naturais, como a conexão do povo Wayúu com os ventos em La Guajira. A justiça de reconhecimento também se aplica às políticas de acesso à energia, reconhecendo que pessoas idosas ou com doenças crônicas podem ter necessidades energéticas distintas, o que pode exigir tarifas diferenciadas."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Justiça restaurativa</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Dentro da justiça energética, a justiça restaurativa busca abordar as injustiças passadas nas políticas energéticas que prejudicaram comunidades específicas. Isso pode envolver medidas compensatórias ou investimentos direcionados para corrigir disparidades históricas no acesso à energia ou para mitigar os impactos de projetos energéticos específicos em suas terras."
+              "title": "<strong>Justiça restaurativa</strong>",
+              "body": "Dentro da justiça energética, a justiça restaurativa busca abordar as injustiças passadas nas políticas energéticas que prejudicaram comunidades específicas. Isso pode envolver medidas compensatórias ou investimentos direcionados para corrigir disparidades históricas no acesso à energia ou para mitigar os impactos de projetos energéticos específicos em suas terras.",
+              "source": ""
             }
           }
         ]
@@ -437,16 +431,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/805_24.webp",
-          "caption": null
-        }
       }
     },
     {
@@ -469,9 +453,9 @@
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/152_617.webp",
-          "caption": null
+          "caption": ""
         },
-        "intro": "M3: Transição energética justa | Capítulo 1 | Aula 2 | Parte 3",
+        "intro": "M3: Transição energética justa",
         "title": "Parte 3: Princípios globais, soluções locais"
       }
     },
@@ -491,12 +475,6 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "DESEMPACOTANDO O CONCEITO DE UMA TRANSIÇÃO ENERGÉTICA JUSTA"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
               "text": "Uma transição energética justa exige investimentos sensíveis ao contexto em medidas domésticas e localizadas, particularmente onde os recursos renováveis são viáveis, complementados pela cooperação regional para abordar a distribuição desigual de recursos. Sem tais estratégias personalizadas, há um risco de soluções mal projetadas. Esses esforços devem aderir a estruturas baseadas na justiça, como os oito princípios estabelecidos pela <strong>Aliança para a Transformação Energética Justa (AJET)</strong> liderada pelo PNUD, garantindo que a equidade e a inclusividade orientem a implementação."
@@ -506,26 +484,14 @@
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Os 8 princípios de uma Transformação Energética Justa visam delinear uma compreensão compartilhada para a implementação bem-sucedida de políticas de Transição Justa em todo o mundo, mesmo que os detalhes das transições diferem em escalas nacionais.</strong><br />"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
+      "template_id": "infographic",
       "color_scheme": "dark",
+      "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/805_25.webp",
-          "caption": null
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/M3_C1_5.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -595,29 +561,29 @@
         "resources": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3121.png",
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3121.0.png",
               "caption": ""
             },
-            "href": "https://www.irena.org/Publications/2023/Aug/Finding-common-ground-for-a-just-energy-transition-Labour-and-employer-perspectives",
-            "text": "Encontrando um terreno comum para uma transição energética justa: perspectiva dos trabalhadores e dos empregadores",
+            "href": "UNDP",
+            "text": "Os 8 princípios fundamentais de uma transformação energética justa",
             "cta": "Clique para baixar"
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3122.png",
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3122.0.png",
               "caption": ""
             },
-            "href": "https://www.irena.org/Publications/2022/Dec/Sector-coupling-A-key-concept-for-accelerating-the-energy-transformation",
-            "text": "Acoplamento de setores: um conceito chave para acelerar a transformação energética",
+            "href": "Science Direct",
+            "text": "Justiça energética: uma revisão conceitual",
             "cta": "Clique para baixar"
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3123.png",
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3123.0.png",
               "caption": ""
             },
-            "href": "https://www.unwomen.org/en/digital-library/publications/2023/05/gender-equality-in-the-sustainable-energy-transition",
-            "text": "A igualdade de gênero na transição energética sustentável",
+            "href": "WEF",
+            "text": "Construindo confiança por meio de uma transição energética equitativa e inclusiva",
             "cta": "Clique para baixar"
           }
         ]
@@ -628,7 +594,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/lesson313.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/image/lesson313_image.webp",
           "caption": ""
         },
         "intro": "Próximo",

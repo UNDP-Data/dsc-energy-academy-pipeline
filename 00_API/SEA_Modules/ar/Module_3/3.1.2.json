@@ -7,15 +7,15 @@
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/152_236.webp",
-          "caption": null
+          "caption": ""
         },
         "lesson": {
           "label": "درس",
           "number": "2"
         },
-        "title": "فَكُّ رَمزِ الانتقال الطَّاقِي العَادِل",
-        "cta": null,
-        "intro": "M3: الانتقال العادل للطاقة | الفصل 1 | الدرس 2"
+        "title": "فك مفهوم الانتقال الطاقي العادل",
+        "cta": "",
+        "intro": "M3: انتقال الطاقة العادل"
       }
     },
     {
@@ -39,28 +39,28 @@
       }
     },
     {
-      "template_id": "key_concepts",
+      "template_id": "text",
       "color_scheme": "dark",
       "content": {
-        "title": "المفاهيم الرئيسية",
-        "intro": "استكشف الأفكار الأساسية من هذا الدرس.",
-        "concepts": [
+        "text_elements": [
           {
-            "title": "",
-            "body": "",
-            "source": ""
-          },
-          {
-            "title": "",
-            "body": "",
-            "source": ""
-          },
-          {
-            "title": "",
-            "body": "",
-            "source": ""
+            "template_id": "quote_large_with_name",
+            "content": {
+              "quote": "<strong>Just Energy Transition<br /></strong><br />A just transition embodies <strong>principles, processes, and practices </strong>designed to ensure fairness, equity, and inclusivity.<br /><br />It seeks to address the inequalities that may arise from the shift to sustainable energy systems, paying particular attention to the most vulnerable populations—such as low-income communities, workers in carbon-intensive industries, and marginalized groups.",
+              "author": "<a href=\"https://climatepromise.undp.org/news-and-stories/what-just-transition-and-why-it-important\">UNDP, 2022</a>"
+            }
           }
         ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/2991_6.webp",
+          "caption": ""
+        }
       }
     },
     {
@@ -69,9 +69,9 @@
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/700_950.webp",
-          "caption": null
+          "caption": ""
         },
-        "intro": "M3: الانتقال العادل للطاقة | الفصل 1 | الدرس 2 | الجزء 1",
+        "intro": "M3: انتقال الطاقة العادل",
         "title": "الجزء 1: أصول مفهوم الانتقال العادل"
       }
     },
@@ -110,27 +110,15 @@
       }
     },
     {
-      "template_id": "photo_horizontal",
+      "template_id": "infographic",
       "color_scheme": "dark",
+      "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/700_962.webp",
-          "caption": null
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/M3_C1_3.webp",
+          "caption": null,
+          "url": null
         }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "dark",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>ضمن الخطاب حول الانتقال العادل، هناك اعتراف بأن الانتقالات يمكن أن تكون مضطربة، مما يبرز ضرورة الجهود المتعمدة لتسهيل انتقال سلس وعادل لجميع الأطراف المعنية.<br /></strong>"
-            }
-          }
-        ]
       }
     },
     {
@@ -139,9 +127,9 @@
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/152_316.webp",
-          "caption": null
+          "caption": ""
         },
-        "intro": "M3: الانتقال العادل للطاقة | الفصل 1 | الدرس 1 | الجزء 2",
+        "intro": "M3: انتقال الطاقة العادل",
         "title": "الجزء 2: العدالة البيئية والمناخية والطاقة"
       }
     },
@@ -195,15 +183,37 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>العدالة التصحيحية،</strong>",
+              "body": "الذي ينطوي على تعويض، والوصول إلى العدالة، وتمكين قانوني للمجتمعات المتضررة من الأضرار البيئية."
+            }
+          },
+          {
+            "template_id": "subtitle_small",
             "content": {
               "text": "<strong>العدالة البيئية</strong> تسعى إلى الإنصاف في كيفية توزيع الفوائد والأعباء البيئية، مع التركيز على:"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>العدالة داخل الأجيال</strong> تضمن الوصول العادل إلى الموارد والفرص داخل الجيل الحالي، بينما <strong>العدالة بين الأجيال</strong> تركز على الحفاظ على الموارد وصحة البيئة للأجيال المستقبلية.<br /><br /><strong>العدالة التوزيعية</strong>، التي تضمن توزيعًا عادلًا للمنافع والأعباء البيئية، مما يمنع المزيد من تهميش الفئات الضعيفة.<br /><br /><strong>العدالة التصحيحية</strong>، التي تتضمن التعويض، والوصول إلى العدالة، وتمكين قانوني للمجتمعات المتضررة من الأضرار البيئية.<br /><br /><strong>العدالة الإجرائية</strong>، التي تتطلب عمليات اتخاذ قرار مفتوحة وشفافة وشاملة."
+              "title": "<strong>العدالة داخل الجيل</strong>",
+              "body": "يضمن الوصول العادل إلى الموارد والفرص داخل الجيل الحالي، بينما <strong>تركز العدالة بين الأجيال</strong> على الحفاظ على الموارد وصحة البيئة للأجيال القادمة."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>العدالة التوزيعية،</strong>",
+              "body": "ضمان توزيع عادل للفوائد والأعباء البيئية، ومنع المزيد من تهميش الفئات الضعيفة."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>العدالة الإجرائية،</strong>",
+              "body": "يتطلب عمليات اتخاذ قرارات مفتوحة وشفافة وشاملة."
             }
           }
         ]
@@ -267,15 +277,37 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "subtitle_small",
             "content": {
               "text": "تشمل المكونات الرئيسية لـ <strong>العدالة المناخية</strong>:"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>العدالة: </strong>التوزيع العادل لفوائد وأعباء تغير المناخ، سواء داخل الدول أو بينها، فضلاً عن الأجيال المختلفة.<br /><br /><strong>حقوق الإنسان: </strong>حماية حقوق الأكثر تأثراً بتغير المناخ، بما في ذلك الشعوب الأصلية والمجتمعات ذات الدخل المنخفض.<br /><br /><strong>المشاركة: </strong>ضمان مشاركة المجتمعات المتأثرة في تشكيل السياسات المناخية.<br /><br /><strong>المسؤولية: </strong>محاسبة المسؤولين عن تغير المناخ على أفعالهم ومساهماتهم في الحلول."
+              "title": "<strong>العدالة</strong>",
+              "body": "توزيع عادل للفوائد والأعباء الناتجة عن تغير المناخ، سواء داخل الدول أو بينها، فضلاً عن الأجيال المختلفة."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>حقوق الإنسان</strong>",
+              "body": "حماية حقوق أولئك الأكثر تأثراً بتغير المناخ، بما في ذلك الشعوب الأصلية والمجتمعات ذات الدخل المنخفض."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>المشاركة</strong>",
+              "body": "ضمان مشاركة المجتمعات المتأثرة في تشكيل السياسات المناخية."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "المسؤولية",
+              "body": "مُحاسبة المسؤولين عن تغير المناخ على أفعالهم ومساهماتهم في الحلول."
             }
           }
         ]
@@ -296,12 +328,6 @@
       "color_scheme": "light",
       "content": {
         "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "فَكُّ رَمزِ الانتقال الطَّاقِي العَادِل"
-            }
-          },
           {
             "template_id": "paragraph_medium",
             "content": {
@@ -351,15 +377,19 @@
             }
           },
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point_with_highlight",
             "content": {
-              "text": "<strong>العدالة التوزيعية </strong>"
+              "title": "<strong>العدالة التوزيعية </strong>",
+              "body": "في العدالة الطاقية، تركز على التوزيع العادل لكل من الفوائد والأعباء لموارد الطاقة عبر المجتمعات. يأخذ في الاعتبار وضع مشاريع الطاقة، مثل محطات الطاقة أو المنشآت المتجددة، ويفحص من يتحمل التكاليف المرتبطة بالوصول إلى الطاقة وتغييرات البنية التحتية. كما أنه يأخذ في الاعتبار الوصول العادل إلى خدمات الطاقة ومن منظور استهلاكي، قضايا مثل فقر الوقود باعتباره التوزيع غير المتكافئ للأعباء المتعلقة بالوصول إلى الطاقة الميسورة.",
+              "source": ""
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point_with_highlight",
             "content": {
-              "text": "في العدالة الطاقية، تركز على التوزيع العادل لكل من الفوائد والأعباء لموارد الطاقة عبر المجتمعات. يأخذ في الاعتبار وضع مشاريع الطاقة، مثل محطات الطاقة أو المنشآت المتجددة، ويفحص من يتحمل التكاليف المرتبطة بالوصول إلى الطاقة وتغييرات البنية التحتية. كما أنه يأخذ في الاعتبار الوصول العادل إلى خدمات الطاقة ومن منظور استهلاكي، قضايا مثل فقر الوقود باعتباره التوزيع غير المتكافئ للأعباء المتعلقة بالوصول إلى الطاقة الميسورة."
+              "title": "<strong>العدالة الإجرائية</strong>",
+              "body": "يضمن المشاركة الشاملة والشفافة في القرارات المتعلقة بالطاقة، مما يحدد من له الحق في التعبير عن رأيه في المشاريع والسياسات المتعلقة بالطاقة. هذا أمر حاسم في التخطيط للطاقة، حيث يجب أن تكون للمجتمعات المتأثرة مدخلات في المشاريع التي تؤثر على وصولهم إلى الطاقة وتكاليفها. ينطبق ذلك أيضًا على القرارات عبر سلسلة القيمة للطاقة بأكملها التي تؤثر بشكل مباشر أو غير مباشر على المجتمعات المحلية، بما في ذلك استخراج الموارد، وتركيب شبكات النقل، وبناء محطات التوليد.",
+              "source": ""
             }
           }
         ]
@@ -371,55 +401,19 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "bullet_point_with_highlight",
             "content": {
-              "text": "<strong>العدالة الإجرائية</strong>"
+              "title": "<strong>عدالة الاعتراف</strong>",
+              "body": "يضمن احترام الاحتياجات والقيم الفريدة للمجموعات المتنوعة، وخاصة تلك التي غالبًا ما تكون مهمشة، ضمن أنظمة الطاقة. يتطلب حوارًا نشطًا وفهمًا لوجهات نظر وعوالم مختلفة. على سبيل المثال، في سياق مشاريع الطاقة المتجددة، قد يتضمن ذلك فهم علاقة مجتمع أصلي بالعناصر الطبيعية، مثل ارتباط شعب وايو بالرياح في لا غواخيرا. تطبق العدالة في الاعتراف أيضًا على سياسات الوصول إلى الطاقة، معترفًا بأن الأشخاص المسنين أو المصابين بأمراض مزمنة قد تكون لديهم احتياجات طاقة مميزة، مما قد يتطلب تعريفات مختلفة.",
+              "source": ""
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point_with_highlight",
             "content": {
-              "text": "يضمن المشاركة الشاملة والشفافة في القرارات المتعلقة بالطاقة، مما يحدد من له الحق في التعبير عن رأيه في المشاريع والسياسات المتعلقة بالطاقة. هذا أمر حاسم في التخطيط للطاقة، حيث يجب أن تكون للمجتمعات المتأثرة مدخلات في المشاريع التي تؤثر على وصولهم إلى الطاقة وتكاليفها. ينطبق ذلك أيضًا على القرارات عبر سلسلة القيمة للطاقة بأكملها التي تؤثر بشكل مباشر أو غير مباشر على المجتمعات المحلية، بما في ذلك استخراج الموارد، وتركيب شبكات النقل، وبناء محطات التوليد."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>عدالة الاعتراف</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "يضمن احترام الاحتياجات والقيم الفريدة للمجموعات المتنوعة، وخاصة تلك التي غالبًا ما تكون مهمشة، ضمن أنظمة الطاقة. يتطلب حوارًا نشطًا وفهمًا لوجهات نظر وعوالم مختلفة. على سبيل المثال، في سياق مشاريع الطاقة المتجددة، قد يتضمن ذلك فهم علاقة مجتمع أصلي بالعناصر الطبيعية، مثل ارتباط شعب وايو بالرياح في لا غواخيرا. تطبق العدالة في الاعتراف أيضًا على سياسات الوصول إلى الطاقة، معترفًا بأن الأشخاص المسنين أو المصابين بأمراض مزمنة قد تكون لديهم احتياجات طاقة مميزة، مما قد يتطلب تعريفات مختلفة."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>العدالة التصالحية</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "في إطار العدالة الطاقية، تسعى العدالة التصحيحية إلى معالجة الظلم الماضي في السياسات الطاقية التي أضرت بمجتمعات معينة. قد يتضمن ذلك تدابير تعويضية أو استثمارات مستهدفة لتصحيح الفجوات التاريخية في الوصول إلى الطاقة أو للتخفيف من آثار مشاريع الطاقة المحددة على أراضيهم."
+              "title": "<strong>العدالة التصالحية</strong>",
+              "body": "في إطار العدالة الطاقية، تسعى العدالة التصحيحية إلى معالجة الظلم الماضي في السياسات الطاقية التي أضرت بمجتمعات معينة. قد يتضمن ذلك تدابير تعويضية أو استثمارات مستهدفة لتصحيح الفجوات التاريخية في الوصول إلى الطاقة أو للتخفيف من آثار مشاريع الطاقة المحددة على أراضيهم.",
+              "source": ""
             }
           }
         ]
@@ -437,16 +431,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/805_24.webp",
-          "caption": null
-        }
       }
     },
     {
@@ -469,9 +453,9 @@
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/152_617.webp",
-          "caption": null
+          "caption": ""
         },
-        "intro": "M3: الانتقال العادل للطاقة | الفصل 1 | الدرس 2 | الجزء 3",
+        "intro": "M3: انتقال الطاقة العادل",
         "title": "الجزء 3: المبادئ العالمية، الحلول المحلية"
       }
     },
@@ -491,12 +475,6 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "فَكُّ رَمزِ الانتقال الطَّاقِي العَادِل"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
               "text": "تتطلب الانتقال العادل للطاقة استثمارات حساسة للسياق في التدابير المحلية والمحلية، لا سيما حيث تكون الموارد المتجددة قابلة للتطبيق، مكملة بالتعاون الإقليمي لمعالجة توزيع الموارد غير المتكافئ. بدون مثل هذه الاستراتيجيات المصممة خصيصًا، هناك خطر من حلول مصممة بشكل سيء. يجب أن تلتزم هذه الجهود بأطر قائمة على العدالة، مثل المبادئ الثمانية التي وضعتها <strong>التحالف من أجل التحول العادل للطاقة (AJET)</strong> بقيادة برنامج الأمم المتحدة الإنمائي، مما يضمن أن توجه العدالة والشمولية التنفيذ."
@@ -506,26 +484,14 @@
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>تهدف المبادئ الثمانية لتحويل الطاقة العادل إلى تحديد فهم مشترك نحو التنفيذ الناجح لسياسات الانتقال العادل في جميع أنحاء العالم، حتى لو كانت تفاصيل التحولات تختلف على المستويات الوطنية.</strong><br />"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_horizontal",
+      "template_id": "infographic",
       "color_scheme": "dark",
+      "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/805_25.webp",
-          "caption": null
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/M3_C1_5.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -595,29 +561,29 @@
         "resources": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3121.png",
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3121.0.png",
               "caption": ""
             },
-            "href": "https://www.irena.org/Publications/2023/Aug/Finding-common-ground-for-a-just-energy-transition-Labour-and-employer-perspectives",
-            "text": "إيجاد أرضية مشتركة من أجل انتقال طاقة عادل: وجهة نظر العمال وأرباب العمل",
+            "href": "UNDP",
+            "text": "المبادئ الأساسية الثمانية لتحويل الطاقة العادل",
             "cta": "انقر للتنزيل"
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3122.png",
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3122.0.png",
               "caption": ""
             },
-            "href": "https://www.irena.org/Publications/2022/Dec/Sector-coupling-A-key-concept-for-accelerating-the-energy-transformation",
-            "text": "ربط القطاعات: مفهوم رئيسي لتسريع التحول الطاقي",
+            "href": "Science Direct",
+            "text": "عدالة الطاقة: مراجعة مفاهيمية",
             "cta": "انقر للتنزيل"
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3123.png",
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3123.0.png",
               "caption": ""
             },
-            "href": "https://www.unwomen.org/en/digital-library/publications/2023/05/gender-equality-in-the-sustainable-energy-transition",
-            "text": "المساواة بين الجنسين في الانتقال إلى الطاقة المستدامة",
+            "href": "WEF",
+            "text": "بناء الثقة من خلال انتقال طاقة عادل وشامل",
             "cta": "انقر للتنزيل"
           }
         ]
@@ -628,7 +594,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/lesson313.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/image/lesson313_image.webp",
           "caption": ""
         },
         "intro": "التالي",

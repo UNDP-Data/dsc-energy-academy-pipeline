@@ -39,15 +39,6 @@
       }
     },
     {
-      "template_id": "key_concepts",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Key Concepts",
-        "intro": "Explore foundational ideas from this lesson.",
-        "concepts": []
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -179,7 +170,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_10.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_C.webp",
           "caption": null,
           "url": null
         }
@@ -424,92 +415,6 @@
       }
     },
     {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "title": {
-            "text": "Installed capacity for renewable electricity generation, 2015 and 2022 (watts per capita)",
-            "subtext": null,
-            "left": "center",
-            "top": "top",
-            "textStyle": {
-              "fontSize": 18
-            },
-            "subtextStyle": {
-              "fontSize": 14,
-              "color": "#888"
-            }
-          },
-          "legend": {
-            "show": true,
-            "bottom": 20
-          },
-          "graphic": [
-            {
-              "type": "text",
-              "left": "center",
-              "bottom": 0,
-              "style": {
-                "text": null,
-                "font": "12px sans-serif",
-                "fill": "#999"
-              }
-            }
-          ],
-          "xAxis": {
-            "type": "value",
-            "boundaryGap": [
-              0,
-              0.01
-            ]
-          },
-          "yAxis": {
-            "type": "category",
-            "data": [
-              "Developing countries",
-              "Developed countries",
-              "Least developed countries",
-              "Landlocked developing countries",
-              "Small island developing States",
-              "World"
-            ],
-            "name": "Category"
-          },
-          "series": [
-            {
-              "name": "2015 (watts per capita)",
-              "type": "bar",
-              "data": [
-                155,
-                691,
-                27,
-                86,
-                54,
-                250
-              ]
-            },
-            {
-              "name": "2022 (watts per capita)",
-              "type": "bar",
-              "data": [
-                293,
-                1073,
-                40,
-                103,
-                101,
-                424
-              ]
-            }
-          ],
-          "grid": {
-            "left": 217
-          }
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -578,25 +483,17 @@
       }
     },
     {
-      "template_id": "key_resources",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Key Resources",
-        "resources": []
-      }
-    },
-    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://coolermed.com/wp-content/uploads/2023/02/what-is-sustainable-energy-how-to-apply-it-to-medical-use.jpg",
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter1.1.png",
           "caption": ""
         },
         "intro": "Next up",
-        "title": "Next Lesson",
+        "title": "Chapter 1 Outro",
         "cta": "Start learning",
-        "nextLessonId": "1.1.3"
+        "nextLessonId": "1.1.-1"
       }
     }
   ]

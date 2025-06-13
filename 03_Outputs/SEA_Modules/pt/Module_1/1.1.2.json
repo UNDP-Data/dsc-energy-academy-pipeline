@@ -2,6 +2,32 @@
   "id": "1.1.2",
   "segments": [
     {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>O consumo de energia aumentou devido ao crescimento populacional, à industrialização, à globalização, ao aumento da demanda per capita e ao crescimento econômico geral.</strong>"
+            }
+          },
+          {
+            "template_id": "quote_small_without_name",
+            "content": {
+              "quote": "<strong>Energy is the dominant contributor to climate change which affects human development.</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>O próprio combustível que impulsionou o desenvolvimento industrial agora está acelerando uma crise global.</strong> </strong>Os combustíveis fósseis—carvão, petróleo e gás—ainda representam a maior parte do suprimento de energia do mundo, apesar de décadas de alertas climáticos. Como resultado, <strong>a produção e o uso de energia agora representam cerca de 75% das emissões globais de gases de efeito estufa</strong> devido à combustão de combustíveis fósseis para eletricidade, aquecimento e transporte.<br /><strong><br /></strong>Isso apresenta um <strong>desafio significativo para o desenvolvimento sustentável, uma vez que os impactos das mudanças climáticas,</strong> como eventos climáticos extremos, aumento do nível do mar e mudanças nos padrões agrícolas,<strong> minam a estabilidade econômica, a segurança alimentar e a saúde pública. "
+            }
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
@@ -16,26 +42,6 @@
         "title": "A energia como motor de desenvolvimento",
         "cta": "",
         "intro": "M1: Introdução à transformação de sistemas de energia sustentável"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "Visão geral da lição 2"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "A energia alimenta nosso mundo, desde casas e hospitais até indústrias e sistemas digitais. É a espinha dorsal da vida moderna, essencial para a entrega de serviços sociais críticos, como saúde, educação, abastecimento de água, aquecimento e refrigeração. Mas a energia não se trata apenas de conveniência - ela molda os padrões de vida, as oportunidades econômicas, a segurança pública e a resiliência.<br /><br />No entanto, o acesso por si só não é suficiente. Hoje, 1,18 bilhão de pessoas vive em pobreza energética, carecendo da energia adequada, confiável e acessível necessária para iluminação, cozimento, comunicação e vida diária. Para desbloquear o potencial humano e impulsionar o desenvolvimento sustentável, precisamos de sistemas energéticos que não sejam apenas disponíveis, mas confiáveis, inclusivos e resilientes, sistemas que defendam os direitos básicos, possibilitem o acesso a água limpa e saneamento, e fortaleçam a segurança e o bem-estar da comunidade."
-            }
-          }
-        ]
       }
     },
     {
@@ -69,6 +75,26 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Visão geral da lição 2"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A energia alimenta nosso mundo, desde casas e hospitais até indústrias e sistemas digitais. É a espinha dorsal da vida moderna, essencial para a entrega de serviços sociais críticos, como saúde, educação, abastecimento de água, aquecimento e refrigeração. Mas a energia não se trata apenas de conveniência - ela molda os padrões de vida, as oportunidades econômicas, a segurança pública e a resiliência.<br /><br />No entanto, o acesso por si só não é suficiente. Hoje, 1,18 bilhão de pessoas vive em pobreza energética, carecendo da energia adequada, confiável e acessível necessária para iluminação, cozimento, comunicação e vida diária. Para desbloquear o potencial humano e impulsionar o desenvolvimento sustentável, precisamos de sistemas energéticos que não sejam apenas disponíveis, mas confiáveis, inclusivos e resilientes, sistemas que defendam os direitos básicos, possibilitem o acesso a água limpa e saneamento, e fortaleçam a segurança e o bem-estar da comunidade."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
             "template_id": "paragraph_medium",
             "content": {
               "text": "Como vimos anteriormente, a energia desempenha um papel crucial na conquista da prosperidade, e à medida que as sociedades crescem e prosperam, sua dependência da energia e dos serviços que ela fornece aumenta significativamente. No entanto, essa busca por crescimento econômico, especialmente por meio do aumento do consumo de combustíveis fósseis, muitas vezes tem um custo para o meio ambiente. O trilema energético—equilibrar a segurança energética, a equidade e a sustentabilidade—captura esses complexos trade-offs entre a produção de energia, o avanço econômico e o estado do meio ambiente.<br /><br />Esse trilema não é apenas um conceito abstrato; está profundamente entrelaçado com questões de justiça e equidade. Os países e regiões em desenvolvimento que dependem de combustíveis fósseis frequentemente enfrentam um difícil ato de equilíbrio: garantir acesso confiável à energia (segurança), manter preços acessíveis (equidade) e promover a proteção ambiental (sustentabilidade)."
@@ -83,7 +109,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_3.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_4.webp",
           "caption": null,
           "url": null
         }
@@ -113,14 +139,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {}
       }
     },
     {
@@ -178,18 +196,10 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "O consumo de energia aumentou devido ao crescimento populacional, à industrialização, à globalização, ao aumento da demanda per capita e ao crescimento econômico geral.<br /><br />Consequentemente, a forte dependência de combustíveis fósseis fez do setor de energia o principal contribuinte para as mudanças climáticas, ao mesmo tempo que impacta significativamente a qualidade ambiental e a saúde pública. <br /><br />A mudança climática, em sua essência, é em grande parte uma questão de energia, com cerca de 75% das emissões globais de gases de efeito estufa (GEE) provenientes do uso de energia. <br /><br />Alcançar as metas de emissões líquidas zero requer tanto uma transição energética quanto abordagens que “pulam” os caminhos de desenvolvimento energético históricos. <br /><br />As maiores fontes de emissões no setor de energia são a geração de eletricidade e calor, seguidas pelo transporte e pela manufatura. A figura 5 ilustra as tendências históricas e as variações anuais nas emissões globais de dióxido de carbono (CO2) provenientes da combustão de energia e dos processos industriais, fornecendo uma imagem clara de como o consumo de energia impacta as mudanças climáticas."
+              "text": "<br /><br />Esses efeitos afetam desproporcionalmente as populações mais pobres e vulneráveis, </strong>que são as menos equipadas para se adaptar e contribuíram menos para as emissões globais. Como resultado, a mudança climática exacerba as desigualdades existentes e representa uma ameaça direta aos ganhos de desenvolvimento, particularmente em países de baixa renda e vulneráveis ao clima. <br /> <br /><br />Alcançar metas de emissões líquidas zero requer tanto uma transição energética quanto abordagens que « pulem » os caminhos de desenvolvimento energético históricos. <br /><br />As maiores fontes de emissões no setor de energia são a geração de eletricidade e calor, seguidas pelo transporte e pela manufatura. Aqui você pode ver as tendências históricas e as variações anuais nas emissões globais de dióxido de carbono (CO2) provenientes da combustão de energia e dos processos industriais, fornecendo uma imagem clara de como o consumo de energia impacta as mudanças climáticas."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {}
       }
     },
     {
@@ -528,7 +538,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_8.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_10.webp",
           "caption": null,
           "url": null
         }
@@ -807,29 +817,29 @@
         "resources": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_1/resource-1121.png",
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_1/resource-1121.0.png",
               "caption": ""
             },
-            "href": "https://www.irena.org/Publications/2023/Feb/Global-landscape-of-renewable-energy-finance-2023",
-            "text": "Paisagem global do financiamento de energia renovável 2023",
+            "href": "IEA",
+            "text": "Perspectivas de Energia Mundial 2024",
             "cta": "Clique para baixar"
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_1/resource-1122.png",
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_1/resource-1122.0.png",
               "caption": ""
             },
-            "href": "https://www.irena.org/Publications/2023/Jun/Innovation-landscape-for-smart-electrification",
-            "text": "Paisagem de inovação para a eletrificação inteligente",
+            "href": "IRENA",
+            "text": "Perspectiva Energética Global 2024",
             "cta": "Clique para baixar"
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_1/resource-1123.png",
+              "src": "https://ik.imagekit.io/seacademy/Resources/Module_1/resource-1123.0.png",
               "caption": ""
             },
-            "href": "https://www.irena.org/Publications/2023/Sep/Renewable-energy-and-jobs-Annual-review-2023",
-            "text": "Energia renovável e empregos: Revisão anual 2023",
+            "href": "McKinsey & Company",
+            "text": "Perspectivas das transições energéticas globais 2024",
             "cta": "Clique para baixar"
           }
         ]
@@ -840,13 +850,13 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter1.1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/image/lesson113_image.webp",
           "caption": ""
         },
         "intro": "Próximo",
-        "title": "Capítulo 1 Outro",
+        "title": "Lição 3: O panorama energético sustentável",
         "cta": "Começar a aprender",
-        "nextLessonId": "1.1.-1"
+        "nextLessonId": "1.1.3"
       }
     }
   ]

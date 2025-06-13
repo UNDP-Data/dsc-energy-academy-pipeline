@@ -2,17 +2,394 @@
   "id": "2.-1.0",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "scored_quiz",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_2/",
-          "caption": ""
+        "title": "اختبار مُسجّل <br/><strong>الوحدة 2</strong>",
+        "intro": "يغطي هذا الاختبار جميع الدروس في هذه الوحدة. يجب عليك تحقيق 80% للنجاح. حظاً سعيداً!",
+        "final": false,
+        "labels": {
+          "correct": "Correct",
+          "question": "Question",
+          "result": "Quiz Result",
+          "score": "Your score",
+          "passingScore": "Minimum passing score",
+          "startButton": "Start Quiz",
+          "nextButton": "Next",
+          "submitButton": "Submit",
+          "retryButton": "Replay",
+          "passed": "Passed",
+          "failed": "Not passed"
         },
-        "intro": "التالي",
-        "title": "مقدمة الوحدة 3",
-        "cta": "ابدأ التعلم",
-        "nextLessonId": "3.0.0"
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "What is the main goal of SDG 7?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Ensure universal access to clean water and sanitation"
+              },
+              {
+                "id": 2,
+                "value": "Ensure access to affordable, reliable, sustainable and modern energy for all"
+              },
+              {
+                "id": 3,
+                "value": "Promote industrial innovation and infrastructure"
+              },
+              {
+                "id": 4,
+                "value": "None of the above"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "يهدف الهدف 7 من أهداف التنمية المستدامة إلى ضمان الوصول إلى طاقة ميسورة التكلفة وموثوقة ومستدامة وعصرية للجميع."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "يهدف الهدف 7 من أهداف التنمية المستدامة إلى ضمان الوصول إلى طاقة ميسورة التكلفة وموثوقة ومستدامة وعصرية للجميع."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Which of the following are components of sustainable energy access? (Select all that apply)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Availability"
+              },
+              {
+                "id": 2,
+                "value": "Affordability"
+              },
+              {
+                "id": 3,
+                "value": "Adequacy"
+              },
+              {
+                "id": 4,
+                "value": "None of the above"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "يشمل الوصول إلى الطاقة المستدامة التوفر، والقدرة على تحمل التكاليف، والملاءمة، والسلامة، والموثوقية، والتوافق مع انبعاثات الكربون المنخفضة."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "يشمل الوصول إلى الطاقة المستدامة التوفر، والقدرة على تحمل التكاليف، والملاءمة، والسلامة، والموثوقية، والتوافق مع انبعاثات الكربون المنخفضة."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Approximately how many people globally still lack access to electricity?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "500 million"
+              },
+              {
+                "id": 2,
+                "value": "685 million"
+              },
+              {
+                "id": 3,
+                "value": "1 billion"
+              },
+              {
+                "id": 4,
+                "value": "2.1 billion"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "وفقًا لتقرير تتبع أهداف التنمية المستدامة 7 لعام 2024، يفتقر حوالي 685 مليون شخص إلى الوصول إلى الكهرباء."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "وفقًا لتقرير تتبع أهداف التنمية المستدامة 7 لعام 2024، يفتقر حوالي 685 مليون شخص إلى الوصول إلى الكهرباء."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "What is the difference between energy access and inclusive energy services?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "ADEF"
+              },
+              {
+                "id": 2,
+                "value": "Inclusive energy services are more expensive"
+              },
+              {
+                "id": 3,
+                "value": "Energy access only applies to urban areas"
+              },
+              {
+                "id": 4,
+                "value": "None of the above"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "يشير الوصول إلى الطاقة إلى وجود الطاقة، بينما تأخذ الخدمات الشاملة في الاعتبار المساواة والجودة وقابلية الاستخدام للجميع."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "يشير الوصول إلى الطاقة إلى وجود الطاقة، بينما تأخذ الخدمات الشاملة في الاعتبار المساواة والجودة وقابلية الاستخدام للجميع."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Which human rights are most directly impacted by energy access? (Select all that apply)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Right to education"
+              },
+              {
+                "id": 2,
+                "value": "Right to health"
+              },
+              {
+                "id": 3,
+                "value": "Right to an adequate standard of living"
+              },
+              {
+                "id": 4,
+                "value": "Right to bear arms"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "الوصول إلى الطاقة أمر حاسم للحق في التعليم والصحة ومستوى معيشة مناسب. الحق في حمل السلاح غير معترف به دوليًا كحق من حقوق الإنسان."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "الوصول إلى الطاقة أمر حاسم للحق في التعليم والصحة ومستوى معيشة مناسب. الحق في حمل السلاح غير معترف به دوليًا كحق من حقوق الإنسان."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "What is considered a clean cooking solution?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Charcoal in open fires"
+              },
+              {
+                "id": 2,
+                "value": "Electric induction stove"
+              },
+              {
+                "id": 3,
+                "value": "Kerosene lamp"
+              },
+              {
+                "id": 4,
+                "value": "None of the above"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "تعتبر مواقد الحث الكهربائي حلول طهي نظيفة، على عكس الفحم أو الكيروسين الذي يساهم في تلوث الهواء الداخلي."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "تعتبر مواقد الحث الكهربائي حلول طهي نظيفة، على عكس الفحم أو الكيروسين الذي يساهم في تلوث الهواء الداخلي."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Which of the following is NOT part of the Multi-Tier Framework (MTF) for measuring energy access?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Quality of energy service"
+              },
+              {
+                "id": 2,
+                "value": "Energy efficiency rating"
+              },
+              {
+                "id": 3,
+                "value": "Affordability"
+              },
+              {
+                "id": 4,
+                "value": "Reliability"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "تشمل MTF الجودة والموثوقية والقدرة على تحمل التكاليف، ولكن لا تشمل تصنيف كفاءة الطاقة كمؤشر أساسي."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "تشمل MTF الجودة والموثوقية والقدرة على تحمل التكاليف، ولكن لا تشمل تصنيف كفاءة الطاقة كمؤشر أساسي."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "What proportion of global clean cooking access deficit is concentrated in Sub-Saharan Africa?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.25"
+              },
+              {
+                "id": 2,
+                "value": "0.5"
+              },
+              {
+                "id": 3,
+                "value": "0.7"
+              },
+              {
+                "id": 4,
+                "value": "Over 80%"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "تمثل أفريقيا جنوب الصحراء أكثر من 80% من عجز الوصول إلى الطهي النظيف على مستوى العالم."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "تمثل أفريقيا جنوب الصحراء أكثر من 80% من عجز الوصول إلى الطهي النظيف على مستوى العالم."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "9. Productive uses of energy typically include which of the following? (Select all that apply)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Running irrigation systems"
+              },
+              {
+                "id": 2,
+                "value": "Watching television"
+              },
+              {
+                "id": 3,
+                "value": "Cold storage for farm produce"
+              },
+              {
+                "id": 4,
+                "value": "Industrial sewing machines"
+              }
+            ],
+            "solution": [
+              1,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "الاستخدامات الإنتاجية للطاقة هي تلك التي تولد الدخل أو تحسن الناتج الاقتصادي، مثل الري، والتخزين البارد، والأجهزة الصناعية."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "الاستخدامات الإنتاجية للطاقة هي تلك التي تولد الدخل أو تحسن الناتج الاقتصادي، مثل الري، والتخزين البارد، والأجهزة الصناعية."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "10. Which tool uses geospatial data to identify priority areas for energy access interventions?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Multi-Tier Framework (MTF)"
+              },
+              {
+                "id": 2,
+                "value": "OnStove Tool"
+              },
+              {
+                "id": 3,
+                "value": "Energy Access Explorer"
+              },
+              {
+                "id": 4,
+                "value": "Global Tracking Framework (GTF)"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "يستخدم Energy Access Explorer البيانات الجغرافية لتحديد المناطق لتخطيط التدخلات الطاقية."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "يستخدم Energy Access Explorer البيانات الجغرافية لتحديد المناطق لتخطيط التدخلات الطاقية."
+              }
+            }
+          }
+        ]
       }
     }
   ]
