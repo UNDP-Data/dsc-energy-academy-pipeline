@@ -181,6 +181,8 @@ def parse_cover_fields(node: Node) -> dict:
     # Default to None
     header_val = None
 
+    header_type = None
+
     if header_node:
         # Use the node name to determine the type (module/chapter/lesson)
         raw_name = header_node.name.lower()
@@ -196,7 +198,8 @@ def parse_cover_fields(node: Node) -> dict:
         header_val = Intro.from_node(header_node).model_dump()
         coverNode[header_type]= header_val
 
-    coverNode["intro"]=safe_get_characters(node, "intro", node.name)
+    if header_type != "module":
+        coverNode["intro"]=safe_get_characters(node, "intro", node.name)
 
         
     return coverNode
