@@ -14,7 +14,7 @@
           "number": "4"
         },
         "title": "Asia and the Pacific",
-        "cta": null,
+        "cta": "",
         "intro": "M1: Introduction to Sustainable Energy System Transformation"
       }
     },
@@ -217,15 +217,11 @@
       }
     },
     {
-      "template_id": "infographic",
+      "template_id": "echarts_chart",
       "color_scheme": "dark",
       "size": "full",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C6_22.webp",
-          "caption": null,
-          "url": null
-        }
+        "option": {}
       }
     },
     {
@@ -300,19 +296,27 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "The share of renewable energy in total final energy consumption has rapidly increased, surpassing 8.5% in 2018. The power sector saw the most notable growth, with renewables accounting for 22.1% of electricity generation in 2018, up from 16.1% in 2010. Globally, the renewable energy mix rose from 16% in 2010 to 19% in 2020. Within Asia and the Pacific, sub-regional disparities exist, <strong>with the highest renewable shares in East and Southeast Asia and the lowest in the West.</strong> While electricity generation and heating sectors show improvement, the transport sector is lagging, and the region’s energy intensity reduction remains off-track. Despite progress in East Asia, Asia-Pacific continues to be one of the most energy-intensive regions globally."
+            }
+          },
+          {
             "template_id": "kpi_highlight_medium",
             "content": {
               "value": "<strong>21.1%</strong>",
               "text": ""
             }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "The share of renewable energy in total final energy consumption has rapidly increased, surpassing 8.5% in 2018. The power sector saw the most notable growth, with renewables accounting for 22.1% of electricity generation in 2018, up from 16.1% in 2010. Globally, the renewable energy mix rose from 16% in 2010 to 19% in 2020. Within Asia and the Pacific, sub-regional disparities exist, <strong>with the highest renewable shares in East and Southeast Asia and the lowest in the West.</strong> While electricity generation and heating sectors show improvement, the transport sector is lagging, and the region’s energy intensity reduction remains off-track. Despite progress in East Asia, Asia-Pacific continues to be one of the most energy-intensive regions globally."
-            }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {}
       }
     },
     {
@@ -388,15 +392,11 @@
       }
     },
     {
-      "template_id": "infographic",
+      "template_id": "echarts_chart",
       "color_scheme": "dark",
       "size": "full",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C6_23.webp",
-          "caption": null,
-          "url": null
-        }
+        "option": {}
       }
     },
     {
@@ -435,6 +435,40 @@
             "content": {
               "text": "Significant investments with a focus on mobilizing private finance are required to fund clean energy in Asia and the Pacific. <strong>Investments in renewable energy are still mainly focused on low-risk areas, with East Asia and the Pacific receiving the highest share of investment.</strong> In 2019-2020, this region attracted about 45% of the total investment. <strong>However, China accounted for over four-fifths of the investment in this region, driven by its government’s ambitious targets of reaching peak emissions by 2030 and achieving carbon neutrality by 2060</strong>. The regional landscape for energy investments has changed significantly from traditional dependence on multilateral and bilateral assistance to more market-based financing solutions. Indeed, over 80% of the countries are now considered middle-income. <strong>This necessitates a greater reliance on market-based financing measures and a particular role for the private sector to mobilize investments and take a lead in energy infrastructure deployments</strong>, often against challenging post-COVID domestic and international financial market conditions."
             }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Takeaways",
+        "intro": "If you only have space to remember 3 things:",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3268_101.webp",
+              "caption": ""
+            },
+            "title": "Energy Poverty Persists in Marginalized Areas, especially in the Caribbean and Rural Zones. While LAC reports a high overall electricity access rate (97.6%), over 17 million people remain without electricity, and 78 million still lack access to clean cooking, with the Caribbean and Indigenous communities facing the deepest gaps.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3268_96.webp",
+              "caption": ""
+            },
+            "title": "The Region Has One of the World’s Cleanest Grids but Still Relies Heavily on Fossil Fuels LAC generates more than 60% of its electricity from renewables, particularly hydropower, yet fossil fuels still dominate the overall energy mix (66%), especially in transport and industry",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3268_91.webp",
+              "caption": ""
+            },
+            "title": "Unlocking private finance is especially important for the Asia-Pacific region Over 80% of the countries are now considered middle-income. This necessitates a greater reliance on market-based financing measures and a particular role for the private sector to mobilize investments and take a lead in energy infrastructure deployments",
+            "description": ""
           }
         ]
       }

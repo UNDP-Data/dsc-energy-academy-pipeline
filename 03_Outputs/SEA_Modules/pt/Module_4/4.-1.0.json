@@ -2,17 +2,396 @@
   "id": "4.-1.0",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "scored_quiz",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_4/",
-          "caption": ""
+        "title": "Quiz pontuado <br/><strong>Módulo 4</strong>",
+        "intro": "Este questionário abrange todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
+        "final": false,
+        "labels": {
+          "correct": "Correct",
+          "question": "Question",
+          "result": "Quiz Result",
+          "score": "Your score",
+          "passingScore": "Minimum passing score",
+          "startButton": "Start Quiz",
+          "nextButton": "Next",
+          "submitButton": "Submit",
+          "retryButton": "Replay",
+          "passed": "Passed",
+          "failed": "Not passed"
         },
-        "intro": "Próximo",
-        "title": "Módulo 5 Introdução",
-        "cta": "Começar a aprender",
-        "nextLessonId": "5.0.0"
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "What are the three key factors ESG stands for in sustainable energy finance?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Energy, Subsidies, Growth"
+              },
+              {
+                "id": 2,
+                "value": "Environment, Society, Governance"
+              },
+              {
+                "id": 3,
+                "value": "Environmental, Social, Governance"
+              },
+              {
+                "id": 4,
+                "value": "Emissions, Standards, Goals"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "ESG refere-se a fatores Ambientais, Sociais e de Governança, que são usados para orientar investimentos sustentáveis e avaliar seus impactos mais amplos."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "ESG refere-se a fatores Ambientais, Sociais e de Governança, que são usados para orientar investimentos sustentáveis e avaliar seus impactos mais amplos."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Which of the following are advantages of sustainable finance? (Select all that apply)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Enhanced corporate responsibility"
+              },
+              {
+                "id": 2,
+                "value": "Long-term value creation"
+              },
+              {
+                "id": 3,
+                "value": "Short-term profit maximization"
+              },
+              {
+                "id": 4,
+                "value": "Risk management"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A finança sustentável melhora a responsabilidade corporativa, cria valor a longo prazo e gerencia riscos ao integrar fatores ESG na tomada de decisões."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A finança sustentável melhora a responsabilidade corporativa, cria valor a longo prazo e gerencia riscos ao integrar fatores ESG na tomada de decisões."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Which region received only 2% of global clean energy investment between 2000 and 2024?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Latin America"
+              },
+              {
+                "id": 2,
+                "value": "South Asia"
+              },
+              {
+                "id": 3,
+                "value": "Sub-Saharan Africa"
+              },
+              {
+                "id": 4,
+                "value": "Eastern Europe"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A África subsaariana recebeu apenas 2% dos investimentos globais em energia limpa, apesar de ter necessidades energéticas significativas não atendidas."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A África subsaariana recebeu apenas 2% dos investimentos globais em energia limpa, apesar de ter necessidades energéticas significativas não atendidas."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "What is the estimated annual clean energy investment needed in EMDEs (Emerging Markets and Developing Economies) by the early 2030s?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "$260 billion"
+              },
+              {
+                "id": 2,
+                "value": "$770 billion"
+              },
+              {
+                "id": 3,
+                "value": "$2.2 to $2.8 trillion"
+              },
+              {
+                "id": 4,
+                "value": "$4.8 trillion"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Os EMDE precisam de entre 2,2 e 2,8 trilhões de dólares anualmente para atender aos requisitos de investimento em energia limpa até o início da década de 2030."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Os EMDE precisam de entre 2,2 e 2,8 trilhões de dólares anualmente para atender aos requisitos de investimento em energia limpa até o início da década de 2030."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Which instruments are commonly used in blended finance? (Select all that apply)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Subordinated debt"
+              },
+              {
+                "id": 2,
+                "value": "Tax incentives"
+              },
+              {
+                "id": 3,
+                "value": "Guarantees"
+              },
+              {
+                "id": 4,
+                "value": "Technical assistance grants"
+              }
+            ],
+            "solution": [
+              1,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "O financiamento misto utiliza ferramentas como dívida subordinada, garantias e subsídios de assistência técnica para reduzir o risco dos investimentos."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "O financiamento misto utiliza ferramentas como dívida subordinada, garantias e subsídios de assistência técnica para reduzir o risco dos investimentos."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "What is a 'bankable' project?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "A project supported by a commercial bank"
+              },
+              {
+                "id": 2,
+                "value": "A project guaranteed by the government"
+              },
+              {
+                "id": 3,
+                "value": "A project that can reliably generate revenue to repay loans"
+              },
+              {
+                "id": 4,
+                "value": "A project funded only through public financing"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Um projeto viável é financeiramente viável, capaz de gerar receita consistente e de baixo risco, tornando-o atraente para os investidores."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Um projeto viável é financeiramente viável, capaz de gerar receita consistente e de baixo risco, tornando-o atraente para os investidores."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Which of the following are considered barriers to clean energy investment in EMDEs? (Select all that apply)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Inadequate infrastructure"
+              },
+              {
+                "id": 2,
+                "value": "Strong governance systems"
+              },
+              {
+                "id": 3,
+                "value": "Unclear regulatory frameworks"
+              },
+              {
+                "id": 4,
+                "value": "High cost of capital"
+              }
+            ],
+            "solution": [
+              1,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "As barreiras comuns nos EMDEs incluem regulamentações pouco claras, altos custos de capital e infraestrutura desatualizada ou limitada."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "As barreiras comuns nos EMDEs incluem regulamentações pouco claras, altos custos de capital e infraestrutura desatualizada ou limitada."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "In 2023, how much global investment went into clean energy?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "$1.7 trillion"
+              },
+              {
+                "id": 2,
+                "value": "$3 trillion"
+              },
+              {
+                "id": 3,
+                "value": "$680 billion"
+              },
+              {
+                "id": 4,
+                "value": "$2.2 trillion"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "De acordo com a AIE, o investimento global em energia limpa atingiu 1,7 trilhões de dólares em 2023."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "De acordo com a AIE, o investimento global em energia limpa atingiu 1,7 trilhões de dólares em 2023."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "What is the 'Triple Penalty' faced by EMDEs in energy transition?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Lack of investors, skills, and governance"
+              },
+              {
+                "id": 2,
+                "value": "Affordability, dependence, and access"
+              },
+              {
+                "id": 3,
+                "value": "Inflation, energy poverty, and debt"
+              },
+              {
+                "id": 4,
+                "value": "Subsidy cuts, currency volatility, and migration"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A tripla penalidade inclui desafios de acessibilidade, dependência de combustíveis fósseis e acesso limitado a tecnologias e habilidades."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A tripla penalidade inclui desafios de acessibilidade, dependência de combustíveis fósseis e acesso limitado a tecnologias e habilidades."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "Which policy instruments are used by the public sector to support renewable energy? (Select all that apply)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Feed-in tariffs"
+              },
+              {
+                "id": 2,
+                "value": "Carbon taxes"
+              },
+              {
+                "id": 3,
+                "value": "Energy performance contracts"
+              },
+              {
+                "id": 4,
+                "value": "Fuel subsidies"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Os instrumentos de apoio incluem tarifas de alimentação, precificação de carbono e contratos de desempenho energético. Os subsídios aos combustíveis geralmente desestimulam as energias renováveis."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Os instrumentos de apoio incluem tarifas de alimentação, precificação de carbono e contratos de desempenho energético. Os subsídios aos combustíveis geralmente desestimulam as energias renováveis."
+              }
+            }
+          }
+        ]
       }
     }
   ]

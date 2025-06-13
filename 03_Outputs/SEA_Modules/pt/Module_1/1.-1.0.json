@@ -2,17 +2,388 @@
   "id": "1.-1.0",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "scored_quiz",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_1/",
-          "caption": ""
+        "title": "Quiz pontuado <br/><strong>Módulo 1</strong>",
+        "intro": "Este questionário abrange todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
+        "final": false,
+        "labels": {
+          "correct": "Correct",
+          "question": "Question",
+          "result": "Quiz Result",
+          "score": "Your score",
+          "passingScore": "Minimum passing score",
+          "startButton": "Start Quiz",
+          "nextButton": "Next",
+          "submitButton": "Submit",
+          "retryButton": "Replay",
+          "passed": "Passed",
+          "failed": "Not passed"
         },
-        "intro": "Próximo",
-        "title": "Módulo 2 Introdução",
-        "cta": "Começar a aprender",
-        "nextLessonId": "2.0.0"
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "What percent of global greenhouse gas emissions can be attributed to energy production and use?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.75"
+              },
+              {
+                "id": 2,
+                "value": "0.9"
+              },
+              {
+                "id": 3,
+                "value": "0.6"
+              },
+              {
+                "id": 4,
+                "value": "0.3"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A energia é o principal contribuinte para as mudanças climáticas, tanto que alcançar emissões de carbono zero depende de uma transição energética e de saltar sobre os caminhos históricos de desenvolvimento energético."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A energia é o principal contribuinte para as mudanças climáticas, tanto que alcançar emissões de carbono zero depende de uma transição energética e de saltar sobre os caminhos históricos de desenvolvimento energético."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "What relationship does energy have with HDI?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "More energy increases human development"
+              },
+              {
+                "id": 2,
+                "value": "Human development increases energy production and consumption"
+              },
+              {
+                "id": 3,
+                "value": "Both 1 and 2"
+              },
+              {
+                "id": 4,
+                "value": "Neither option is correct"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A energia e o IDH têm uma relação semelhante à do ovo e da galinha - não está claro qual fator influencia o outro, refutando uma relação causal. No entanto, sabemos que o aumento do consumo de energia leva a um IDH mais alto, e um IDH mais alto leva a um aumento na produção e consumo de energia."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A energia e o IDH têm uma relação semelhante à do ovo e da galinha - não está claro qual fator influencia o outro, refutando uma relação causal. No entanto, sabemos que o aumento do consumo de energia leva a um IDH mais alto, e um IDH mais alto leva a um aumento na produção e consumo de energia."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "How does energy access increase gender equality?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Reducing time poverty for women and girls"
+              },
+              {
+                "id": 2,
+                "value": "Increasing men's employment opportunities in the renewable energy sector"
+              },
+              {
+                "id": 3,
+                "value": "Increasing security for women and girls"
+              },
+              {
+                "id": 4,
+                "value": "Both A & C"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Acredita-se que mulheres e meninas, em algumas regiões, passem até 18 horas semanais coletando lenha e cozinhando em casa (PNUD, 2022). Portanto, o acesso a energia limpa ajuda diretamente a reduzir a pobreza de tempo das mulheres. A iluminação pública externa aumenta a segurança de mulheres e meninas, permitindo mais autonomia após o anoitecer e reduzindo a exposição à violência de gênero."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Acredita-se que mulheres e meninas, em algumas regiões, passem até 18 horas semanais coletando lenha e cozinhando em casa (PNUD, 2022). Portanto, o acesso a energia limpa ajuda diretamente a reduzir a pobreza de tempo das mulheres. A iluminação pública externa aumenta a segurança de mulheres e meninas, permitindo mais autonomia após o anoitecer e reduzindo a exposição à violência de gênero."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "How efficient is the global energy system?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "1"
+              },
+              {
+                "id": 2,
+                "value": "0.93"
+              },
+              {
+                "id": 3,
+                "value": "0.55"
+              },
+              {
+                "id": 4,
+                "value": "0.37"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "O sistema energético global atual opera com apenas 37% de eficiência (RMI, 2019), o que significa que quase dois terços da energia primária produzida é perdida devido a ineficiências na geração, transporte e uso final."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "O sistema energético global atual opera com apenas 37% de eficiência (RMI, 2019), o que significa que quase dois terços da energia primária produzida é perdida devido a ineficiências na geração, transporte e uso final."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "What is the largest source of renewable energy in the Arab States region?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Solar PV"
+              },
+              {
+                "id": 2,
+                "value": "Hydropower"
+              },
+              {
+                "id": 3,
+                "value": "Nuclear"
+              },
+              {
+                "id": 4,
+                "value": "Natural gas"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A energia hidrelétrica desempenha um papel dominante nos Estados árabes. <strong>Enquanto 7% da energia vem de fontes renováveis, cerca de 3,4% vem especificamente da energia hidrelétrica</strong>. Tem a maior capacidade instalada de 11,2 GW."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A energia hidrelétrica desempenha um papel dominante nos Estados árabes. <strong>Enquanto 7% da energia vem de fontes renováveis, cerca de 3,4% vem especificamente da energia hidrelétrica</strong>. Tem a maior capacidade instalada de 11,2 GW."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "In which region would off-grid and decentralized power be particularly helpful?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Asia-Pacific"
+              },
+              {
+                "id": 2,
+                "value": "Europe and Central Asia"
+              },
+              {
+                "id": 3,
+                "value": "Africa"
+              },
+              {
+                "id": 4,
+                "value": "Arab States"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A África é a região com a maior lacuna no acesso à energia. Com mais de 80% da população não eletrificada da África em áreas rurais, soluções de energia renovável fora da rede e descentralizadas podem tanto garantir acesso quanto ultrapassar os caminhos de desenvolvimento tradicionais."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A África é a região com a maior lacuna no acesso à energia. Com mais de 80% da população não eletrificada da África em áreas rurais, soluções de energia renovável fora da rede e descentralizadas podem tanto garantir acesso quanto ultrapassar os caminhos de desenvolvimento tradicionais."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Which renewable energy export from the Eastern Europe and Central Asia region could be positively affected by the EU's Carbon Border Adjustment Mechanism?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Hydropower"
+              },
+              {
+                "id": 2,
+                "value": "Nuclear"
+              },
+              {
+                "id": 3,
+                "value": "Solar PV"
+              },
+              {
+                "id": 4,
+                "value": "Wind"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "O hidrogênio apresenta uma oportunidade energética crescente para a região RBEC, apesar dos níveis de exportação atualmente negligenciáveis na categoria de produtos químicos. Com o Mecanismo de Ajuste de Carbono na Fronteira (CBAM) da UE aumentando os custos das exportações intensivas em carbono, há um forte incentivo para descarbonizar. Iniciativas da UE como o REPowerEU estão apoiando países como Moldávia, Ucrânia e aqueles nos Balcãs Ocidentais a investir na produção e comercialização de combustíveis limpos, incluindo hidrogênio renovável, posicionando o hidrogênio como uma solução crítica de exportação e energética para atender à crescente demanda da UE."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "O hidrogênio apresenta uma oportunidade energética crescente para a região RBEC, apesar dos níveis de exportação atualmente negligenciáveis na categoria de produtos químicos. Com o Mecanismo de Ajuste de Carbono na Fronteira (CBAM) da UE aumentando os custos das exportações intensivas em carbono, há um forte incentivo para descarbonizar. Iniciativas da UE como o REPowerEU estão apoiando países como Moldávia, Ucrânia e aqueles nos Balcãs Ocidentais a investir na produção e comercialização de combustíveis limpos, incluindo hidrogênio renovável, posicionando o hidrogênio como uma solução crítica de exportação e energética para atender à crescente demanda da UE."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "Who would be included in a whole-of-society approach to the energy transition?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Academia"
+              },
+              {
+                "id": 2,
+                "value": "Farmers"
+              },
+              {
+                "id": 3,
+                "value": "Government"
+              },
+              {
+                "id": 4,
+                "value": "All of the above"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Uma abordagem <strong>de toda a sociedade (WoS)</strong> para a transição energética envolve não apenas governos e empresas de energia, mas também formuladores de políticas, empresas, instituições financeiras, sociedade civil, academia, comunidades indígenas e o público em geral, garantindo que diversas perspectivas moldem as políticas e projetos energéticos."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Uma abordagem <strong>de toda a sociedade (WoS)</strong> para a transição energética envolve não apenas governos e empresas de energia, mas também formuladores de políticas, empresas, instituições financeiras, sociedade civil, academia, comunidades indígenas e o público em geral, garantindo que diversas perspectivas moldem as políticas e projetos energéticos."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "What is a key reason that increased investment in resilient energy infrastructure is essential for Caribbean countries?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "To reduce internet costs"
+              },
+              {
+                "id": 2,
+                "value": "Because they have stable weather conditions"
+              },
+              {
+                "id": 3,
+                "value": "To lower fossil fuel production"
+              },
+              {
+                "id": 4,
+                "value": "Because natural disasters frequently damage energy systems"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Os estados do Caribe gastam até 1,2% do PIB na recuperação de desastres naturais anualmente. Uma infraestrutura resiliente – especialmente mini-redes solares – pode proteger serviços críticos durante desastres."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Os estados do Caribe gastam até 1,2% do PIB na recuperação de desastres naturais anualmente. Uma infraestrutura resiliente – especialmente mini-redes solares – pode proteger serviços críticos durante desastres."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "Why is the development of green hydrogen considered a major opportunity for countries like Chile, Uruguay, and Brazil?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "These countries lack other renewable energy sources"
+              },
+              {
+                "id": 2,
+                "value": "Green hydrogen reduces fossil fuel subsidies"
+              },
+              {
+                "id": 3,
+                "value": "It allows for energy storage and clean export industries"
+              },
+              {
+                "id": 4,
+                "value": "It eliminates the need for wind and solar power"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "O hidrogênio verde pode ser produzido usando recursos solares e eólicos abundantes e de baixo custo nesses países e, em seguida, exportado como um combustível limpo."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "O hidrogênio verde pode ser produzido usando recursos solares e eólicos abundantes e de baixo custo nesses países e, em seguida, exportado como um combustível limpo."
+              }
+            }
+          }
+        ]
       }
     }
   ]

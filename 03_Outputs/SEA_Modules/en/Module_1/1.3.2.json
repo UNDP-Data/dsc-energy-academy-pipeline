@@ -14,7 +14,7 @@
           "number": "2"
         },
         "title": "Latin American and the Caribbean",
-        "cta": null,
+        "cta": "",
         "intro": "M1: Introduction to Sustainable Energy System Transformation"
       }
     },
@@ -117,6 +117,14 @@
       }
     },
     {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {}
+      }
+    },
+    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
@@ -143,6 +151,18 @@
       }
     },
     {
+      "template_id": "infographic",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C3_A.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -164,7 +184,21 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<br /><br />LAC is uniquely positioned for a low-carbon transition. Renewable energy investments have soared, with solar and wind driving new capacity installations. However, fossil fuels still account for 66% of primary energy supply in the entire region and over 90% in the Caribbean.<br /><br /><strong>Scaling renewables is not only about decarbonization for he region</strong> – it's an engine for job creation and industrial transformation. The region could generate millions of green jobs if policy, finance, and local innovation are aligned. ECLAC estimates that 1.33% of GDP annually from 2021-2032 could make energy sources 86% renewable and cut GHG emissions by 30%.<br /><br />Additionally,<br /><br />In Energy Efficiency: Despite a 17% drop in energy intensity over 30 years, efficiency gains are slow. The building and transport sectors are ripe for scalable improvements.<br />In Green Hydrogen Potential: With low-cost renewables, LAC can become a global green hydrogen hub. Countries like Chile, Brazil, and Uruguay are leading with over 25 pilot projects under development.<br />"
+              "text": "LAC is uniquely positioned for a low-carbon transition. Renewable energy investments have soared, with solar and wind driving new capacity installations. However, fossil fuels still account for 66% of primary energy supply in the entire region and over 90% in the Caribbean.<br /><br /><strong>Scaling renewables is not only about decarbonization for he region</strong> – it's an engine for job creation and industrial transformation. The region could generate millions of green jobs if policy, finance, and local innovation are aligned. ECLAC estimates that 1.33% of GDP annually from 2021-2032 could make energy sources 86% renewable and cut GHG emissions by 30%.<br /><br />Additionally,"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "In Energy Efficiency: Despite a 17% drop in energy intensity over 30 years, efficiency gains are slow. The building and transport sectors are ripe for scalable improvements.",
+              "body": ""
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "In Green Hydrogen Potential: With low-cost renewables, LAC can become a global green hydrogen hub. Countries like Chile, Brazil, and Uruguay are leading with over 25 pilot projects under development.",
+              "body": ""
             }
           }
         ]
@@ -210,10 +244,18 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "It also holds potential to<br /> create more opportunities for women to participate<br />in new segments of the labor force, if discriminatory<br /> barriers in pay, job opportunities and unpaid care work are addressed. Green jobs present a distinct<br /> opportunity to leverage abundant renewable energy resources."
+              "text": "It also holds potential to<br /> create more opportunities for women to participate<br /> in new segments of the labor force, if discriminatory<br /> barriers in pay, job opportunities and unpaid care work are addressed. Green jobs present a distinct<br /> opportunity to leverage abundant renewable energy resources."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {}
       }
     },
     {
@@ -311,6 +353,40 @@
             "content": {
               "text": "Innovative tools like blended finance, green bonds, and concessional loans—backed by public funding through mechanisms such as the GEF and GCF—are vital to mobilize private capital. National development banks also play a crucial role. Well-structured finance can catalyze inclusive development by supporting energy access, productivity, e-mobility, climate-resilient agriculture, and circular economies."
             }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Takeaways",
+        "intro": "If you only have space to remember 3 things:",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3230_148.webp",
+              "caption": ""
+            },
+            "title": "Energy Poverty Persists in Marginalized Areas, especially in the Caribbean and Rural Zones. While LAC reports a high overall electricity access rate (97.6%), over 17 million people remain without electricity, and 78 million still lack access to clean cooking, with the Caribbean and Indigenous communities facing the deepest gaps.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3230_143.webp",
+              "caption": ""
+            },
+            "title": "The Region Has One of the World’s Cleanest Grids but Still Relies Heavily on Fossil Fuels LAC generates more than 60% of its electricity from renewables, particularly hydropower, yet fossil fuels still dominate the overall energy mix (66%), especially in transport and industry",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3230_138.webp",
+              "caption": ""
+            },
+            "title": "Unlocking Finance and Building Resilience Are Central to a Just Energy Transition The region requires $125–200 billion annually to meet SDG 7 targets and build climate-resilient energy systems.",
+            "description": ""
           }
         ]
       }

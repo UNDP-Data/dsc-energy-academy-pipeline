@@ -2,17 +2,388 @@
   "id": "1.-1.0",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "scored_quiz",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_1/",
-          "caption": ""
+        "title": "اختبار مُسجّل <br/><strong>الوحدة 1</strong>",
+        "intro": "يغطي هذا الاختبار جميع الدروس في هذه الوحدة. يجب عليك تحقيق 80% للنجاح. حظاً سعيداً!",
+        "final": false,
+        "labels": {
+          "correct": "Correct",
+          "question": "Question",
+          "result": "Quiz Result",
+          "score": "Your score",
+          "passingScore": "Minimum passing score",
+          "startButton": "Start Quiz",
+          "nextButton": "Next",
+          "submitButton": "Submit",
+          "retryButton": "Replay",
+          "passed": "Passed",
+          "failed": "Not passed"
         },
-        "intro": "التالي",
-        "title": "الوحدة 2 مقدمة",
-        "cta": "ابدأ التعلم",
-        "nextLessonId": "2.0.0"
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "What percent of global greenhouse gas emissions can be attributed to energy production and use?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.75"
+              },
+              {
+                "id": 2,
+                "value": "0.9"
+              },
+              {
+                "id": 3,
+                "value": "0.6"
+              },
+              {
+                "id": 4,
+                "value": "0.3"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "تعتبر الطاقة المساهم الرئيسي في تغير المناخ، لدرجة أن الوصول إلى انبعاثات كربونية صفرية يعتمد على انتقال الطاقة وتجاوز مسارات تطوير الطاقة التاريخية."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "تعتبر الطاقة المساهم الرئيسي في تغير المناخ، لدرجة أن الوصول إلى انبعاثات كربونية صفرية يعتمد على انتقال الطاقة وتجاوز مسارات تطوير الطاقة التاريخية."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "What relationship does energy have with HDI?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "More energy increases human development"
+              },
+              {
+                "id": 2,
+                "value": "Human development increases energy production and consumption"
+              },
+              {
+                "id": 3,
+                "value": "Both 1 and 2"
+              },
+              {
+                "id": 4,
+                "value": "Neither option is correct"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "للطاقة ومؤشر التنمية البشرية علاقة مشابهة لعلاقة البيضة والدجاجة - من غير الواضح أي عامل يؤثر على الآخر، مما ينفي وجود علاقة سببية. ومع ذلك، نعلم أن زيادة استهلاك الطاقة تؤدي إلى ارتفاع مؤشر التنمية البشرية، وأن ارتفاع مؤشر التنمية البشرية يؤدي إلى زيادة إنتاج واستهلاك الطاقة."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "للطاقة ومؤشر التنمية البشرية علاقة مشابهة لعلاقة البيضة والدجاجة - من غير الواضح أي عامل يؤثر على الآخر، مما ينفي وجود علاقة سببية. ومع ذلك، نعلم أن زيادة استهلاك الطاقة تؤدي إلى ارتفاع مؤشر التنمية البشرية، وأن ارتفاع مؤشر التنمية البشرية يؤدي إلى زيادة إنتاج واستهلاك الطاقة."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "How does energy access increase gender equality?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Reducing time poverty for women and girls"
+              },
+              {
+                "id": 2,
+                "value": "Increasing men's employment opportunities in the renewable energy sector"
+              },
+              {
+                "id": 3,
+                "value": "Increasing security for women and girls"
+              },
+              {
+                "id": 4,
+                "value": "Both A & C"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "يُعتقد أن النساء والفتيات، في بعض المناطق، يقضين ما يصل إلى 18 ساعة أسبوعيًا في جمع الخشب والطهي في المنزل (برنامج الأمم المتحدة الإنمائي، 2022). لذلك، فإن الوصول إلى الطاقة النظيفة يساعد مباشرة في تقليل فقر الوقت لدى النساء. تزيد الإضاءة العامة الخارجية من أمان النساء والفتيات، مما يسمح بمزيد من الاستقلال بعد حلول الظلام ويقلل من التعرض للعنف القائم على النوع الاجتماعي."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "يُعتقد أن النساء والفتيات، في بعض المناطق، يقضين ما يصل إلى 18 ساعة أسبوعيًا في جمع الخشب والطهي في المنزل (برنامج الأمم المتحدة الإنمائي، 2022). لذلك، فإن الوصول إلى الطاقة النظيفة يساعد مباشرة في تقليل فقر الوقت لدى النساء. تزيد الإضاءة العامة الخارجية من أمان النساء والفتيات، مما يسمح بمزيد من الاستقلال بعد حلول الظلام ويقلل من التعرض للعنف القائم على النوع الاجتماعي."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "How efficient is the global energy system?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "1"
+              },
+              {
+                "id": 2,
+                "value": "0.93"
+              },
+              {
+                "id": 3,
+                "value": "0.55"
+              },
+              {
+                "id": 4,
+                "value": "0.37"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "يعمل النظام العالمي للطاقة الحالي بكفاءة تبلغ 37% فقط (RMI، 2019)، مما يعني أن ما يقرب من ثلثي الطاقة الأولية المنتجة تضيع بسبب عدم الكفاءة في التوليد والنقل والاستخدام النهائي."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "يعمل النظام العالمي للطاقة الحالي بكفاءة تبلغ 37% فقط (RMI، 2019)، مما يعني أن ما يقرب من ثلثي الطاقة الأولية المنتجة تضيع بسبب عدم الكفاءة في التوليد والنقل والاستخدام النهائي."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "What is the largest source of renewable energy in the Arab States region?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Solar PV"
+              },
+              {
+                "id": 2,
+                "value": "Hydropower"
+              },
+              {
+                "id": 3,
+                "value": "Nuclear"
+              },
+              {
+                "id": 4,
+                "value": "Natural gas"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "تلعب الطاقة الكهرومائية دورًا مهيمنًا في الدول العربية. <strong>بينما 7% من الطاقة تأتي من مصادر متجددة، حوالي 3.4% تأتي تحديدًا من الطاقة الكهرومائية</strong>. لديه أكبر قدرة مثبتة تبلغ 11.2 جيجاوات."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "تلعب الطاقة الكهرومائية دورًا مهيمنًا في الدول العربية. <strong>بينما 7% من الطاقة تأتي من مصادر متجددة، حوالي 3.4% تأتي تحديدًا من الطاقة الكهرومائية</strong>. لديه أكبر قدرة مثبتة تبلغ 11.2 جيجاوات."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "In which region would off-grid and decentralized power be particularly helpful?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Asia-Pacific"
+              },
+              {
+                "id": 2,
+                "value": "Europe and Central Asia"
+              },
+              {
+                "id": 3,
+                "value": "Africa"
+              },
+              {
+                "id": 4,
+                "value": "Arab States"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "أفريقيا هي المنطقة التي لديها أكبر فجوة في الوصول إلى الطاقة. مع وجود أكثر من 80% من سكان إفريقيا غير المتصلين بالشبكة في المناطق الريفية، يمكن أن توفر حلول الطاقة المتجددة غير المتصلة بالشبكة واللامركزية الوصول وتجاوز مسارات التنمية التقليدية."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "أفريقيا هي المنطقة التي لديها أكبر فجوة في الوصول إلى الطاقة. مع وجود أكثر من 80% من سكان إفريقيا غير المتصلين بالشبكة في المناطق الريفية، يمكن أن توفر حلول الطاقة المتجددة غير المتصلة بالشبكة واللامركزية الوصول وتجاوز مسارات التنمية التقليدية."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Which renewable energy export from the Eastern Europe and Central Asia region could be positively affected by the EU's Carbon Border Adjustment Mechanism?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Hydropower"
+              },
+              {
+                "id": 2,
+                "value": "Nuclear"
+              },
+              {
+                "id": 3,
+                "value": "Solar PV"
+              },
+              {
+                "id": 4,
+                "value": "Wind"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "يقدم الهيدروجين فرصة طاقة متزايدة لمنطقة RBEC، على الرغم من مستويات التصدير الحالية التي لا تذكر في فئة المواد الكيميائية. مع زيادة تكاليف الصادرات الكثيفة الكربون بسبب آلية تعديل الحدود الكربونية (CBAM) للاتحاد الأوروبي، هناك حافز قوي لإزالة الكربون. تدعم مبادرات الاتحاد الأوروبي مثل REPowerEU دولًا مثل مولدوفا وأوكرانيا وتلك الموجودة في البلقان الغربي للاستثمار في إنتاج وتجارة الوقود النظيف، بما في ذلك الهيدروجين المتجدد، مما يضع الهيدروجين كحل حيوي للتصدير والطاقة لتلبية الطلب المتزايد من الاتحاد الأوروبي."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "يقدم الهيدروجين فرصة طاقة متزايدة لمنطقة RBEC، على الرغم من مستويات التصدير الحالية التي لا تذكر في فئة المواد الكيميائية. مع زيادة تكاليف الصادرات الكثيفة الكربون بسبب آلية تعديل الحدود الكربونية (CBAM) للاتحاد الأوروبي، هناك حافز قوي لإزالة الكربون. تدعم مبادرات الاتحاد الأوروبي مثل REPowerEU دولًا مثل مولدوفا وأوكرانيا وتلك الموجودة في البلقان الغربي للاستثمار في إنتاج وتجارة الوقود النظيف، بما في ذلك الهيدروجين المتجدد، مما يضع الهيدروجين كحل حيوي للتصدير والطاقة لتلبية الطلب المتزايد من الاتحاد الأوروبي."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "Who would be included in a whole-of-society approach to the energy transition?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Academia"
+              },
+              {
+                "id": 2,
+                "value": "Farmers"
+              },
+              {
+                "id": 3,
+                "value": "Government"
+              },
+              {
+                "id": 4,
+                "value": "All of the above"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "تتضمن <strong>نهج شامل للمجتمع (WoS)</strong> في انتقال الطاقة ليس فقط الحكومات وشركات الطاقة، ولكن أيضًا صانعي السياسات، والشركات، والمؤسسات المالية، والمجتمع المدني، والأكاديميا، والمجتمعات الأصلية، والجمهور العام، مما يضمن تشكيل وجهات نظر متنوعة للسياسات والمشاريع الطاقية."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "تتضمن <strong>نهج شامل للمجتمع (WoS)</strong> في انتقال الطاقة ليس فقط الحكومات وشركات الطاقة، ولكن أيضًا صانعي السياسات، والشركات، والمؤسسات المالية، والمجتمع المدني، والأكاديميا، والمجتمعات الأصلية، والجمهور العام، مما يضمن تشكيل وجهات نظر متنوعة للسياسات والمشاريع الطاقية."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "What is a key reason that increased investment in resilient energy infrastructure is essential for Caribbean countries?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "To reduce internet costs"
+              },
+              {
+                "id": 2,
+                "value": "Because they have stable weather conditions"
+              },
+              {
+                "id": 3,
+                "value": "To lower fossil fuel production"
+              },
+              {
+                "id": 4,
+                "value": "Because natural disasters frequently damage energy systems"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "تنفق دول الكاريبي ما يصل إلى 1.2% من الناتج المحلي الإجمالي على التعافي من الكوارث الطبيعية سنويًا. يمكن أن تحمي البنية التحتية المرنة – وخاصة الشبكات الشمسية الصغيرة – الخدمات الحيوية أثناء الكوارث."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "تنفق دول الكاريبي ما يصل إلى 1.2% من الناتج المحلي الإجمالي على التعافي من الكوارث الطبيعية سنويًا. يمكن أن تحمي البنية التحتية المرنة – وخاصة الشبكات الشمسية الصغيرة – الخدمات الحيوية أثناء الكوارث."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "Why is the development of green hydrogen considered a major opportunity for countries like Chile, Uruguay, and Brazil?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "These countries lack other renewable energy sources"
+              },
+              {
+                "id": 2,
+                "value": "Green hydrogen reduces fossil fuel subsidies"
+              },
+              {
+                "id": 3,
+                "value": "It allows for energy storage and clean export industries"
+              },
+              {
+                "id": 4,
+                "value": "It eliminates the need for wind and solar power"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "صحيح",
+                "body": "يمكن إنتاج الهيدروجين الأخضر باستخدام موارد شمسية ورياح وفيرة ومنخفضة التكلفة في هذه البلدان، ثم تصديره كوقود نظيف."
+              },
+              "wrong": {
+                "title": "غير صحيح",
+                "body": "يمكن إنتاج الهيدروجين الأخضر باستخدام موارد شمسية ورياح وفيرة ومنخفضة التكلفة في هذه البلدان، ثم تصديره كوقود نظيف."
+              }
+            }
+          }
+        ]
       }
     }
   ]

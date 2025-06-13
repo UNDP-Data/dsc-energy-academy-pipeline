@@ -2,17 +2,388 @@
   "id": "8.-1.0",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "scored_quiz",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_8/",
-          "caption": ""
+        "title": "Cuestionario calificado <br/><strong>Módulo 8</strong>",
+        "intro": "Este cuestionario cubre todas las lecciones de este módulo. Debes alcanzar el 80 % para aprobar. ¡Buena suerte!",
+        "final": false,
+        "labels": {
+          "correct": "Correct",
+          "question": "Question",
+          "result": "Quiz Result",
+          "score": "Your score",
+          "passingScore": "Minimum passing score",
+          "startButton": "Start Quiz",
+          "nextButton": "Next",
+          "submitButton": "Submit",
+          "retryButton": "Replay",
+          "passed": "Passed",
+          "failed": "Not passed"
         },
-        "intro": "Próximamente",
-        "title": "Módulo 8 Conclusión",
-        "cta": "Comenzar a aprender",
-        "nextLessonId": "8.-1.0"
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "What is one of the main factors driving increased electricity demand in buildings by 2050?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Greater use of natural gas"
+              },
+              {
+                "id": 2,
+                "value": "Increased use of air conditioning and cooling"
+              },
+              {
+                "id": 3,
+                "value": "Decline in rural populations"
+              },
+              {
+                "id": 4,
+                "value": "Less reliance on digital devices"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Se espera que la demanda creciente de refrigeración residencial, particularmente en los mercados emergentes, se triplique para 2050, convirtiéndose en un importante contribuyente al aumento del uso de electricidad en los edificios."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Se espera que la demanda creciente de refrigeración residencial, particularmente en los mercados emergentes, se triplique para 2050, convirtiéndose en un importante contribuyente al aumento del uso de electricidad en los edificios."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Which region is expected to see the most growth in middle-class households by 2034?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Sub-Saharan Africa"
+              },
+              {
+                "id": 2,
+                "value": "Europe"
+              },
+              {
+                "id": 3,
+                "value": "Asia-Pacific"
+              },
+              {
+                "id": 4,
+                "value": "South America"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "La región de Asia-Pacífico albergará dos tercios de todos los hogares de clase media en los mercados emergentes para 2029, siendo China e India los que experimenten los mayores aumentos."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "La región de Asia-Pacífico albergará dos tercios de todos los hogares de clase media en los mercados emergentes para 2029, siendo China e India los que experimenten los mayores aumentos."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Under the Net Zero Emissions (NZE) scenario, what percentage of energy demand is met by clean energy by 2050?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.4"
+              },
+              {
+                "id": 2,
+                "value": "0.58"
+              },
+              {
+                "id": 3,
+                "value": "0.75"
+              },
+              {
+                "id": 4,
+                "value": "0.9"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "En el escenario NZE, se espera que el 90 % de la demanda mundial de energía sea satisfecha por energía limpia para 2050."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "En el escenario NZE, se espera que el 90 % de la demanda mundial de energía sea satisfecha por energía limpia para 2050."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "Which of the following is a challenge associated with increased digitalization of energy systems?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Reduced energy demand"
+              },
+              {
+                "id": 2,
+                "value": "Increased fossil fuel consumption"
+              },
+              {
+                "id": 3,
+                "value": "Cybersecurity risks"
+              },
+              {
+                "id": 4,
+                "value": "Lower electricity prices"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "La digitalización introduce nuevas vulnerabilidades de ciberseguridad a medida que las redes y sistemas eléctricos se vuelven más conectados."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "La digitalización introduce nuevas vulnerabilidades de ciberseguridad a medida que las redes y sistemas eléctricos se vuelven más conectados."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "What is the projected increase in renewable capacity by 2030 according to the IEA?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "1.5 times"
+              },
+              {
+                "id": 2,
+                "value": "2.7 times"
+              },
+              {
+                "id": 3,
+                "value": "3.5 times"
+              },
+              {
+                "id": 4,
+                "value": "5 times"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Las proyecciones de la AIE estiman que la capacidad renovable global aumentará 2,7 veces para 2030."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Las proyecciones de la AIE estiman que la capacidad renovable global aumentará 2,7 veces para 2030."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "What share of the world's electricity was generated by nuclear power in 2023?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Over 25%"
+              },
+              {
+                "id": 2,
+                "value": "Just under 5%"
+              },
+              {
+                "id": 3,
+                "value": "Just over 9%"
+              },
+              {
+                "id": 4,
+                "value": "Over 15%"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "En 2023, la energía nuclear representó poco más del 9 % de la generación de electricidad a nivel mundial."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "En 2023, la energía nuclear representó poco más del 9 % de la generación de electricidad a nivel mundial."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Which of the following statements is true about hydrogen?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "It emits greenhouse gases when used"
+              },
+              {
+                "id": 2,
+                "value": "Green hydrogen production is already widespread"
+              },
+              {
+                "id": 3,
+                "value": "Hydrogen can decarbonize sectors like industry and transport"
+              },
+              {
+                "id": 4,
+                "value": "Hydrogen is used mainly for residential energy"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "El hidrógeno, particularmente el hidrógeno verde, tiene un potencial significativo para descarbonizar sectores difíciles de descarbonizar como la industria pesada y el transporte de larga distancia."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "El hidrógeno, particularmente el hidrógeno verde, tiene un potencial significativo para descarbonizar sectores difíciles de descarbonizar como la industria pesada y el transporte de larga distancia."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "What is one key barrier to renewable energy deployment in developing countries?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Too much government support"
+              },
+              {
+                "id": 2,
+                "value": "Low cost of capital"
+              },
+              {
+                "id": 3,
+                "value": "High cost of capital"
+              },
+              {
+                "id": 4,
+                "value": "Overdependence on hydropower"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Los altos costos de capital debido a los riesgos percibidos y la falta de mecanismos de desriesgo son una barrera importante en las economías en desarrollo."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Los altos costos de capital debido a los riesgos percibidos y la falta de mecanismos de desriesgo son una barrera importante en las economías en desarrollo."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "Why are land and resource constraints a concern for renewable energy deployment?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Renewables require very little land"
+              },
+              {
+                "id": 2,
+                "value": "Wind farms permanently occupy the land they use"
+              },
+              {
+                "id": 3,
+                "value": "Competition for land use can displace communities"
+              },
+              {
+                "id": 4,
+                "value": "Solar panels work better in urban areas"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Los proyectos de energía renovable a gran escala pueden entrar en conflicto con el uso de la tierra para la agricultura, la conservación y la vivienda, especialmente en regiones densamente pobladas."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Los proyectos de energía renovable a gran escala pueden entrar en conflicto con el uso de la tierra para la agricultura, la conservación y la vivienda, especialmente en regiones densamente pobladas."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "What percentage of new electricity capacity additions are projected to come from renewables by 2050 in 1.5Â°C pathways?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.5"
+              },
+              {
+                "id": 2,
+                "value": "0.65"
+              },
+              {
+                "id": 3,
+                "value": "Nearly 100%"
+              },
+              {
+                "id": 4,
+                "value": "0.8"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Según las trayectorias alineadas con el IPCC, se espera que casi todas las nuevas adiciones de capacidad para 2050 provengan de fuentes renovables."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Según las trayectorias alineadas con el IPCC, se espera que casi todas las nuevas adiciones de capacidad para 2050 provengan de fuentes renovables."
+              }
+            }
+          }
+        ]
       }
     }
   ]

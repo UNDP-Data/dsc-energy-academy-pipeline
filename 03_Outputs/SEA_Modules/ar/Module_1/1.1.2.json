@@ -14,7 +14,7 @@
           "number": "2"
         },
         "title": "الطاقة كمحرك للتنمية",
-        "cta": null,
+        "cta": "",
         "intro": "M1: مقدمة في تحويل أنظمة الطاقة المستدامة"
       }
     },
@@ -80,10 +80,12 @@
     {
       "template_id": "infographic",
       "color_scheme": "dark",
+      "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/580_123.webp",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_3.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -111,6 +113,14 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {}
       }
     },
     {
@@ -177,6 +187,15 @@
     {
       "template_id": "echarts_chart",
       "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {}
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
       "content": {
         "option": {
           "title": {
@@ -506,10 +525,12 @@
     {
       "template_id": "infographic",
       "color_scheme": "dark",
+      "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3647_175.webp",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_8.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -568,6 +589,7 @@
     {
       "template_id": "echarts_chart",
       "color_scheme": "dark",
+      "size": "full",
       "content": {
         "option": {
           "title": {
@@ -741,6 +763,40 @@
             }
           ]
         }
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "النقاط الرئيسية",
+        "intro": "إذا كان لديك مساحة لتذكر 3 أشياء فقط:",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_358.webp",
+              "caption": ""
+            },
+            "title": "تعتبر الطاقة ضرورية للنمو الاقتصادي ورفاهية الإنسان، ومع ذلك، فإن الفجوات في الوصول إلى الطاقة واستخدامها تسلط الضوء على عدم المساواة الواضحة في الازدهار، والوصول إلى الخدمات الاجتماعية، وتوافر الموارد عبر الدول، وخاصة في الاقتصادات النامية.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_352.webp",
+              "caption": ""
+            },
+            "title": "يؤكد التحدي الثلاثي للطاقة والازدهار والبيئة على الحاجة إلى تحقيق التوازن بين التنمية الاقتصادية وحماية البيئة، خاصة في المناطق التي تعتمد بشكل كبير على الوقود الأحفوري. تعتبر استراتيجيات الطاقة المستدامة ضرورية لتحقيق هذا التوازن دون المساس بالتقدم.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_346.webp",
+              "caption": ""
+            },
+            "title": "مع هيمنة الوقود الأحفوري على نظام الطاقة غير الفعال ودفعه لتغير المناخ، فإن الانتقال إلى مصادر الطاقة المتجددة وتحسين كفاءة الطاقة أمر حاسم. مع ارتفاع الطلب العالمي على الطاقة، ستكون هذه التحول مفتاحًا لضمان الأمن والعدالة والاستدامة.",
+            "description": ""
+          }
+        ]
       }
     },
     {

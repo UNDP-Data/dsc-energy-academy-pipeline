@@ -14,7 +14,7 @@
           "number": "5"
         },
         "title": "Unlocking Energy Access with Digital Tools, Data and AI",
-        "cta": null,
+        "cta": "",
         "intro": "M2: Energy Access and Inclusive Energy Services"
       }
     },
@@ -180,23 +180,39 @@
       }
     },
     {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {}
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
         "text_elements": [
           {
-            "template_id": "paragraph_small",
-            "content": {
-              "text": "<em>Source: </em><a href=\"https://www.theigc.org/sites/default/files/2024-07/Logan%20Case%20study%20July%202024.pdf\"><em><u>Energy Access Explorer:<br /></u></em></a><em> An open access tool<br /> to enable data-driven<br /> energy planning, WRI, 2024</em>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
               "text": "<em>The map above presents a geospatial output from the Energy Access Explorer , visualizing areas in Ethiopia that meet two criteria: proximity within 200 km of agricultural markets and distance of over 20 km from existing distribution lines. These filters were applied to show the EAE’s ability to determine potential for energy access expansion. The map highlights relatively underserved regions where electrification efforts, like mini-grids or standalone systems, could meet the needs of unelectrified communities and promote productive use of energy in agricultural value chains. This type of analysis helps planners optimize investment locations based on overlapping socio-economic and infrastructure factors.</em>"
             }
+          },
+          {
+            "template_id": "paragraph_small",
+            "content": {
+              "text": "<em>Source: </em><a href=\"https://www.theigc.org/sites/default/files/2024-07/Logan%20Case%20study%20July%202024.pdf\"><em><u>Energy Access Explorer:<br /></u></em></a><em> An open access tool<br /> to enable data-driven<br /> energy planning, WRI, 2024</em>"
+            }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {}
       }
     },
     {

@@ -14,7 +14,7 @@
           "number": "3"
         },
         "title": "Sustainable Energy Landscape",
-        "cta": null,
+        "cta": "",
         "intro": "M1: Introduction to Sustainable Energy System Transformation"
       }
     },
@@ -179,7 +179,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_10.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_C.webp",
           "caption": null,
           "url": null
         }
@@ -428,85 +428,7 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
-        "option": {
-          "title": {
-            "text": "Installed capacity for renewable electricity generation, 2015 and 2022 (watts per capita)",
-            "subtext": null,
-            "left": "center",
-            "top": "top",
-            "textStyle": {
-              "fontSize": 18
-            },
-            "subtextStyle": {
-              "fontSize": 14,
-              "color": "#888"
-            }
-          },
-          "legend": {
-            "show": true,
-            "bottom": 20
-          },
-          "graphic": [
-            {
-              "type": "text",
-              "left": "center",
-              "bottom": 0,
-              "style": {
-                "text": null,
-                "font": "12px sans-serif",
-                "fill": "#999"
-              }
-            }
-          ],
-          "xAxis": {
-            "type": "value",
-            "boundaryGap": [
-              0,
-              0.01
-            ]
-          },
-          "yAxis": {
-            "type": "category",
-            "data": [
-              "Developing countries",
-              "Developed countries",
-              "Least developed countries",
-              "Landlocked developing countries",
-              "Small island developing States",
-              "World"
-            ],
-            "name": "Category"
-          },
-          "series": [
-            {
-              "name": "2015 (watts per capita)",
-              "type": "bar",
-              "data": [
-                155,
-                691,
-                27,
-                86,
-                54,
-                250
-              ]
-            },
-            {
-              "name": "2022 (watts per capita)",
-              "type": "bar",
-              "data": [
-                293,
-                1073,
-                40,
-                103,
-                101,
-                424
-              ]
-            }
-          ],
-          "grid": {
-            "left": 217
-          }
-        }
+        "option": {}
       }
     },
     {
@@ -539,6 +461,40 @@
             "content": {
               "text": "The concept of a just energy transition ensures that the shift to sustainable energy systems addresses inequalities and promotes inclusivity. It seeks to balance the urgent need to reduce carbon emissions with the responsibility of equitably distributing the benefits and burdens of this transition. Special attention is given to vulnerable and marginalized groups, such as low-income communities, Indigenous Peoples—whose land rights and traditional practices are often at stake—women, and workers in carbon-intensive industries, who might otherwise be disproportionately affected.<br /><br />By embedding principles of fairness and equity, a just energy transition supports livelihoods, fosters social cohesion, and ensures that no one is left behind in the journey toward a sustainable future. <br /><br />Promisingly, momentum around “just transition” is gathering pace. We are seeing it emerge in the global dialogue around decarbonization and net zero. More countries are referencing it in their short and long-term climate plans. Partners are coming together, and coalitions are forming. <br /><br />More on just energy transitions in Module 3."
             }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Takeaways",
+        "intro": "If you only have space to remember 3 things:",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_576.webp",
+              "caption": ""
+            },
+            "title": "Transitioning to sustainable energy brings transformative advantages, such as enhancing energy security by reducing dependence on fossil fuel imports, making energy more affordable through declining renewable costs, improving public health by reducing air pollution, and driving job creation.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_571.webp",
+              "caption": ""
+            },
+            "title": "The world has made notable strides toward sustainable energy, with renewable energy capacity growing rapidly and the number of people without electricity decreasing gradually.",
+            "description": "However, progress is uneven, with Least Developed Countries (LDCs), Landlocked Developing Countries (LLDCs), and Small Island Developing States (SIDS) lagging far behind, emphasizing the need for targeted efforts to bridge this gap."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_566.webp",
+              "caption": ""
+            },
+            "title": "Current efforts and pledges to reduce CO2 emissions are insufficient to achieve the 1.5°C target of the Paris Agreement.",
+            "description": "A significant gap remains, requiring accelerated policy implementation, technological innovation, and international collaboration to close the emissions gap and meet global climate goals."
           }
         ]
       }
