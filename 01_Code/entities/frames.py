@@ -387,22 +387,6 @@ class ListOfLessons(FrameBase):
         )
 
 
-TEXT_TEMPLATE_IDS = [
-    "bullet_point",
-    "bullet_point_with_highlight",
-    "bullet_point_with_number",
-    "kpi_highlight_large",
-    "kpi_highlight_medium",
-    "paragraph_large",
-    "paragraph_medium",
-    "paragraph_small",  # ← default fallback
-    "quote_large_with_name",
-    "quote_large_without_name",
-    "quote_small_with_name",
-    "quote_small_without_name",
-    "subtitle",
-    "subtitle_small"
-]
 
 TEXT_TEMPLATE_IDS = [
     "bullet_point",
@@ -472,11 +456,26 @@ class ModuleText(FrameBase):
         expected_fields = cls.TEMPLATE_FIELDS[template_id]
         content = {field: "" for field in expected_fields}
 
-        for child in getattr(group, "children", []):
-            if child.type == "TEXT" and child.name in expected_fields:
-                content[child.name] = cls._extract_styled_text(child).strip()
+        children = getattr(group, "children", [])
+        field_idx = 0
+
+        for child in children:
+            if child.type != "TEXT":
+                continue
+
+            name = child.name.strip().lower() if child.name else ""
+            if name in expected_fields:
+                field = name
+            elif field_idx < len(expected_fields):
+                field = expected_fields[field_idx]
+            else:
+                continue  # too many children
+            field_idx += 1
+
+            content[field] = cls._extract_styled_text(child).strip()
 
         return {"template_id": template_id, "content": content}
+
 
     @staticmethod
     def _get_style_attrs(style: dict) -> dict:
