@@ -103,15 +103,25 @@ class FrameBase(BaseModel):
 
 def safe_get_characters(node: Node, field: str, template_id: str, default: str = "") -> str:
     selected = node.select_node("TEXT", field)
+
+    # Define suppressions as (template_id, field) or wildcarded
+    suppress_warning = (
+        (template_id == "photo-vertical" and field == "caption")
+        or field == "cta"  # globally suppress cta warnings
+    )
+
     if selected is None:
-        if field != "cta":
+        if not suppress_warning:
             print(f"⚠️ Missing field '{field}' in template '{template_id}'")
         return default
+
     try:
         return selected.characters
     except Exception as e:
-        print(f"❌ Error getting '.characters' for field '{field}' in template '{template_id}': {e}")
+        if not suppress_warning:
+            print(f"❌ Error getting '.characters' for field '{field}' in template '{template_id}': {e}")
         return default
+
 
 def parse_image_fields(node: Node) -> dict:
     """
@@ -551,23 +561,31 @@ class ModuleText(FrameBase):
 # --- Photo Frames ---
 class PhotoVertical(FrameBase):
     image: dict
-    
+
     @classmethod
     def from_node(cls, node: Node) -> "PhotoVertical":
         assert node.name == "photo-vertical", f"Expected photo-vertical node, got {node.name}"
-       
+        
         image_node = node.select_node("ATTR", "imageUrl")
+
+        # Use your existing safe_get_characters function
+        caption = safe_get_characters(node, "caption", node.name)
+        if caption.strip().lower() == "image caption":
+            caption = ""
+
         if image_node:
-            image={"src": image_node.value, "caption": None, "url": None}
+            image = {"src": image_node.value, "caption": caption, "url": None}
         else:
             image_node = node.select_node("GROUP", "image")
-            image=dict(parse_image_fields(node))
-            
+            image = dict(parse_image_fields(node))
+            image["caption"] = caption  # attach caption here too
+
         return cls(
-            template_id="photo_vertical",#node.name,
+            template_id=node.name,
             color_scheme="light",
             image=image
         )
+
 
 class PhotoHorizontal(FrameBase):
     image: dict
