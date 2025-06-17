@@ -2,17 +2,24 @@
   "id": "2.1.-1",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "chapter_outro",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter2.2.png",
-          "caption": ""
-        },
-        "intro": "Next up",
-        "title": "Chapter 2 Introduction",
-        "cta": "Start learning",
-        "nextLessonId": "2.2.0"
+        "intro": "This concludes",
+        "title": "Chapter 1",
+        "subtitle": "Introduction to the Energy Transition Landscape",
+        "body": "Thank you for joining us for the third chapter of the Just Energy Transition Module. We invite you to interact with the closing scenario, and to reflect on how you can take action to move these ideas from ambitions into action.",
+        "nextBlock": {
+          "intro": "Continue to",
+          "title": "Chapter 2: <strong>Current Status, Trends and Barriers to Energy Access</strong>",
+          "cta": "This chapter analyzes global energy access disparities, highlighting barriers, trends, and solutions to improve access for underserved and marginalized populations.",
+          "button_cta": "Next chapter",
+          "image": {
+            "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter2.2.png",
+            "caption": ""
+          },
+          "nextBlockId": "2.2.0"
+        }
       }
     }
   ]

@@ -2,17 +2,24 @@
   "id": "4.1.-1",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "chapter_outro",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter4.2.png",
-          "caption": ""
-        },
-        "intro": "Next up",
-        "title": "Chapter 2 Introduction",
-        "cta": "Start learning",
-        "nextLessonId": "4.2.0"
+        "intro": "This concludes",
+        "title": "Chapter 1",
+        "subtitle": "Introduction to Sustainable Energy Finance and Market Dynamics",
+        "body": "Thank you for joining us for the third chapter of the Just Energy Transition Module. We invite you to interact with the closing scenario, and to reflect on how you can take action to move these ideas from ambitions into action.",
+        "nextBlock": {
+          "intro": "Continue to",
+          "title": "Chapter 2: <strong>Public Sector and Sustainable Energy Finance</strong>",
+          "cta": "This chapter highlights how public investments, policies, and incentives catalyze private capital to drive sustainable energy transitions, especially in underserved regions.",
+          "button_cta": "Next chapter",
+          "image": {
+            "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter4.2.png",
+            "caption": ""
+          },
+          "nextBlockId": "4.2.0"
+        }
       }
     }
   ]

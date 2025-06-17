@@ -2,29 +2,40 @@
   "id": "7.1.3",
   "segments": [
     {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_3.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "Lección",
+          "number": "3"
+        },
+        "title": "La cadena de valor de los datos energéticos",
+        "cta": "",
+        "intro": "M7: Datos en energía sostenible"
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Descripción General de la Lección 3</strong>"
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La cadena de valor de los datos tiene un inmenso potencial para acelerar el desarrollo energético sostenible en los países en desarrollo, pero las barreras sistémicas a menudo impiden su uso efectivo. Estos desafíos—arraigados en brechas de infraestructura, complejidades socioculturales y debilidades de gobernanza—exigen estrategias holísticas para desbloquear el poder transformador de los datos mientras se garantiza la equidad. A continuación, exploraremos estos obstáculos y las vías para abordarlos."
+              "text": "La transición hacia fuentes de energía renovables y tecnologías para el Desarrollo Energético Sostenible (SED) se ha convertido en una prioridad global, impulsada por la necesidad de abordar desafíos críticos como la reducción de la pobreza, la protección del medio ambiente, el crecimiento socioeconómico y la modernización de los sistemas energéticos. Central para lograr estos objetivos es el imperativo de garantizar el acceso a la energía asequible e inclusiva para todos. Dentro de este paisaje, los datos han surgido como activos indispensables, permitiendo la toma de decisiones en tiempo real basada en evidencia, informando estrategias energéticas, guiando las acciones de los usuarios finales y fomentando la innovación para acelerar el desarrollo energético sostenible.<br />El concepto de la <strong>cadena de valor de los datos</strong> proporciona un marco para entender cómo los datos en bruto se transforman en información procesable que mejora la toma de decisiones. <strong>Esta cadena abarca todo el ciclo de vida de los datos</strong>, desde la generación inicial de datos a través de dispositivos de sensores hasta su recolección, transformación, análisis y eventual utilización. Cada etapa de la cadena es crucial para garantizar que los conocimientos basados en datos apoyen eficazmente la optimización del sistema energético, las soluciones energéticas descentralizadas, la gestión de la red y las mejoras en la eficiencia del lado de la demanda."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_1.png",
-          "caption": ""
-        },
-        "intro": "M7: Datos en energía sostenible",
-        "title": "Parte 3: Superando desafíos en los países en desarrollo"
       }
     },
     {
@@ -48,6 +59,753 @@
             "title": "acceso equitativo a los datos",
             "body": "El acceso equitativo a los datos se refiere a la disponibilidad justa y equitativa de datos para todos los individuos y comunidades, asegurando que todos tengan la oportunidad de acceder, utilizar y beneficiarse de los recursos de datos, independientemente de su estatus socioeconómico, ubicación u otras barreras.",
             "source": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La gestión y el procesamiento efectivos de datos sustentan el éxito de la cadena de valor de los datos, permitiendo su aplicación en una variedad de intervenciones en sistemas energéticos. Esto incluye la optimización de la generación y el almacenamiento de energía, la mitigación de las restricciones de la red y el apoyo al desarrollo de activos energéticos descentralizados. Por ejemplo, la Iniciativa de Generación Distribuida de Ruanda emplea monitoreo en tiempo real basado en sensores para mejorar la recolección de datos, mientras que el Programa Energy4Sahel utiliza datos geoespaciales para la estrategia y planificación de la electrificación rural. De manera similar, el Programa de Mini-redes de África se centra en el monitoreo y la evaluación del impacto para informar políticas, desarrollar modelos de negocio y crear mecanismos de financiamiento innovadores. Estas iniciativas demuestran cómo los datos pueden impulsar decisiones basadas en evidencia, informar reformas regulatorias y apoyar la adopción generalizada de Sistemas de Energía Sostenible (SES).<br /> <br />En esta lección, examinamos el ciclo de vida de los datos, desglosamos cada etapa de la cadena de valor de los datos, proporcionamos una exploración en profundidad de las prácticas de gestión de datos y exploramos los desafíos que enfrentan las comunidades en desarrollo para aprovechar los datos para el desarrollo energético sostenible. Este análisis destaca el papel crítico de los datos en el cierre de brechas de conocimiento y en el avance de transiciones energéticas equitativas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L4_2.png",
+          "caption": ""
+        },
+        "intro": "M7: Datos en energía sostenible",
+        "title": "Parte 1: Etapas de la cadena de valor de los datos"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Para comprender completamente cómo los datos pueden apoyar el desarrollo energético sostenible, es esencial comenzar con el concepto del ciclo de vida de los datos. El ciclo de vida de los datos describe el flujo secuencial de datos desde su creación o adquisición inicial, a través de varias etapas de procesamiento, almacenamiento y análisis, hasta su eventual archivo o eliminación. Este ciclo de vida proporciona una comprensión fundamental de cómo los datos evolucionan con el tiempo y a través de diferentes casos de uso.<br /><br />Basándose en esta base, la cadena de valor de los datos ofrece una forma estructurada de entender cómo se genera valor a partir de los datos a lo largo de su ciclo de vida. Mientras que el ciclo de vida de los datos enfatiza la progresión temporal y técnica de los datos, la cadena de valor de los datos se centra en cómo se crea el valor de manera incremental en cada etapa de esa progresión. En otras palabras, la cadena de valor de los datos es una lente funcional a través de la cual vemos el ciclo de vida de los datos, con un énfasis específico en transformar datos en bruto en información procesable que genere impacto.<br /><br />La cadena de valor de los datos se compone de cuatro etapas interconectadas: recolección, transformación, creación de valor y utilización de datos. Cada etapa incorpora subactividades esenciales de gestión de datos, como la validación, la integración, el almacenamiento y la gobernanza, que garantizan la calidad, la fiabilidad y la seguridad de los datos a lo largo de su flujo.<br /><br />La siguiente figura ilustra cómo se mueven los datos a través de cada una de estas cuatro etapas, culminando en la generación de conocimientos y acciones informadas. Destaca cómo los datos deben ser gestionados, curados y contextualizados cuidadosamente en cada paso para realizar plenamente su potencial en el apoyo a los objetivos de energía sostenible."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C1_7.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_7.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Etapa 1: Recolección</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La recolección de datos se compone de su propio conjunto de subactividades que apoyan la extracción y transmisión de datos en bruto a un servidor dedicado o plataforma en la nube. Este proceso comienza por delinear primero los objetivos generales que requieren la recolección de datos, y estos objetivos permitirán la identificación del software relevante necesario para lograr los objetivos establecidos. Por ejemplo, un gobierno puede delinear objetivos relacionados con la descarbonización y modernización de los sistemas energéticos a través de la adopción de redes inteligentes, como se observa con el gobierno de Mauricio<br /><br />El proceso de recopilación de datos, que describe las actividades clave a considerar para la identificación de fuentes de datos, las tecnologías de captura de datos y los requisitos de comunicación para la transmisión."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C1_8.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Generación y recopilación de datos</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Una vez que se han identificado la aplicación y las fuentes de generación de datos correspondientes, se despliegan estratégicamente tecnologías de captura de datos en el lugar de interés para extraer datos en bruto que se utilizarán para informar estrategias y apoyar la toma de decisiones basada en evidencia. Las áreas de implementación típicas incluyen sistemas de energía renovable que proporcionan datos sobre los niveles de generación y el funcionamiento del sistema, estaciones meteorológicas que proporcionan datos sobre las condiciones climáticas, y dispositivos de medición con información sobre el consumo de energía. La tecnología desplegada extrae y registra los datos en bruto, preparándolos para la transmisión a través de la red de comunicación a la plataforma de análisis.<br /><br />La generación y recolección de datos energéticos son fundamentales para la funcionalidad y el progreso de las redes inteligentes. El siguiente gráfico muestra la evolución de las redes convencionales a la Smart Grid 1.0 y la Smart Grid 2.0, destacando cómo los datos se han vuelto centrales para construir sistemas energéticos más dinámicos e interconectados. Componentes como medidores inteligentes, microredes y gestión de redes de distribución dependen de flujos de datos continuos para apoyar la monitorización, el análisis y la optimización. Estos flujos de datos, recopilados de diversas fuentes como sistemas de energía renovable, vehículos eléctricos y plataformas de comercio de energía entre pares, permiten una planificación y toma de decisiones energéticas más precisas. A medida que los datos se integran en cada aspecto del sistema energético, las redes inteligentes no solo están mejorando el rendimiento operativo, sino que también están creando la base para abordar desafíos sistémicos, incluida la fiabilidad de la red, la asignación equitativa de recursos y la transición a una energía baja en carbono."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C1_9.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Transmisión de datos</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La fase de transmisión incorpora la transmisión de datos desde el dispositivo de adquisición, a través de la red de comunicación, y hacia un servidor dedicado o una plataforma en la nube para su procesamiento. La tecnología de captura de datos está típicamente integrada con un módulo de comunicación que facilita la transferencia de datos desde el dispositivo a una puerta de enlace que luego transmite los datos a una plataforma en la nube para su procesamiento. Para los dispositivos de borde, la recolección de datos se empareja con el almacenamiento y el procesamiento en la ubicación de origen, y los datos se transmiten a través de la red para su análisis sin someterse a un procesamiento adicional. <br /><br />Los datos se transmiten a través de tecnologías inalámbricas, como redes celulares, LPWAN (Red de Área Amplia de Bajo Consumo), comunicaciones por satélite y WI-FI, y la selección de la tecnología de transmisión depende del tamaño de los paquetes de datos que se transmiten."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_4.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Etapa 2: Transformación</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Esta fase implica la conversión de datos en un formato utilizable para el análisis. Este proceso asegura que el paquete entregado a la plataforma de análisis tenga el formato correcto y sea compatible con la plataforma de aplicación central, lo cual es especialmente importante en sistemas con múltiples fuentes que utilizan conjuntos de datos peculiares. Hay dos subprocessos encapsulados bajo este pilar: el procesamiento de datos y el almacenamiento de datos (Tawakuli & Engel, 2022)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Procesamiento de datos</strong>",
+              "body": "Este es un paso crítico que inicia la extracción de valor de los conjuntos de datos obtenidos. Es un proceso que transforma los datos en bruto en un formato utilizable que puede ser interpretado por la plataforma de análisis al limpiar los datos y corregir los valores faltantes e inválidos, así como las observaciones duplicadas. Cuando se hace correctamente, este paso mejora la integridad de los datos. Debido al volumen, la velocidad y la variedad de datos, es fundamental utilizar herramientas y técnicas como el Marco de Gobernanza de Datos, herramientas de aseguramiento de calidad de datos como IBM Databand y Bboxx, y prácticas de estandarización de datos para producir consistencia dentro de conjuntos de datos heterogéneos utilizando recursos como el Programa de Asistencia para la Gestión del Sector Energético (ESMAP)."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Almacenamiento de datos</strong>",
+              "body": "Los datos de múltiples fuentes se agregan y almacenan, para ser recuperados en una etapa posterior para su procesamiento. Los datos se almacenan localmente en la ubicación del sitio, lo que mitiga las inconsistencias de la red que pueden afectar la transmisión en tiempo real para aplicaciones remotas, y, después de la transmisión, también en plataformas de almacenamiento en la nube remotas. Los datos se pueden extraer de la base de datos y analizar."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Herramientas, tecnologías y mecanismos de la cadena de valor de datos que apoyan la transformación de datos en información procesable"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C1_10.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Etapa 3: Creación/Adición de Valor</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La etapa de creación de valor es la piedra angular para traducir datos en bruto en información procesable, lo que permite una toma de decisiones informada y estratégica. En esta etapa, los datos procesados de diversas fuentes se someten a un análisis exhaustivo para descubrir patrones, predecir tendencias e identificar anomalías. Estos conocimientos sirven como base para optimizar los sistemas energéticos y mejorar las eficiencias operativas. Las herramientas avanzadas de análisis de datos permiten todo, desde la monitorización en tiempo real hasta la previsión a largo plazo, sentando las bases para intervenciones basadas en evidencia. Iniciativas como el Intercambio de Futuros de Datos ejemplifican cómo las ideas basadas en datos pueden transformarse en plataformas que inspiran acciones tangibles y mejoras sistémicas."
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Analítica de datos</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "El análisis de datos dentro del proceso de creación de valor es multifacético, abarcando varias categorías adaptadas a diferentes objetivos. Cada categoría contribuye de manera única a construir una comprensión integral de los sistemas energéticos, impulsando soluciones y permitiendo la resiliencia ante los desafíos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_7.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Etapa 4: Utilización</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Esta etapa se centra en cómo se presentan los datos analizados al usuario final para fines de toma de decisiones. Hay dos subprocesos principales involucrados: la visualización de datos y la difusión de datos, ambos de los cuales desglosan cómo el usuario o el sistema interactúa con los datos de manera significativa. Herramientas como el explorador de acceso a la energía, la plataforma de electrificación global, la plataforma de datos energéticos y la herramienta de acceso a la energía limpia muestran el potencial impactante de los paneles de control impulsados por datos para informar estrategias y acelerar iniciativas de desarrollo sostenible de energía.<br /><br />La presentación y visualización de datos son clave para comunicar de manera efectiva los conocimientos derivados del análisis, que luego pueden ser utilizados para informar la toma de decisiones. Este proceso facilita la traducción de datos complejos y robustos a un formato claro y comprensible, permitiendo la interacción de diferentes tipos de partes interesadas, responsables de políticas, representantes de oficinas en el país e investigadores. Lo siguiente ilustra los diferentes mecanismos utilizados para la presentación de datos. "
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C1_11.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_21.png",
+          "caption": ""
+        },
+        "intro": "M7: Datos en energía sostenible",
+        "title": "Parte 2: Gestión de datos Estableciendo las bases para datos energéticos fiables y utilizables"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Sistemas de información e infraestructuras de información</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La gestión efectiva de datos en el sector energético comienza con la comprensión de las bases técnicas que la hacen posible. Los sistemas de información y las infraestructuras de información son los habilitadores esenciales que permiten que los datos sean recopilados, almacenados, procesados y utilizados a lo largo de la cadena de valor de la energía.<br /><br />Los sistemas de información (SI) se refieren a la combinación coordinada de software, hardware, datos, personas y procesos utilizados para gestionar y analizar información para la toma de decisiones. En los sistemas de energía, esto incluye sistemas de control y adquisición de datos supervisados (SCADA), sistemas de información geográfica (SIG), paneles de datos energéticos, sistemas de información al cliente y herramientas de planificación de recursos empresariales (ERP). Estos sistemas orquestan el flujo de datos y proporcionan interfaces para que los usuarios interactúen con la información de manera estructurada y procesable.<br /><br />Las infraestructuras de información (II), en cambio, son más amplias y complejas. Se pueden considerar como sistemas grandes, heterogéneos, abiertos y distribuidos que apoyan las necesidades fundamentales de amplias comunidades de interesados al permitir una amplia variedad de casos de uso. Al mismo tiempo, pueden entenderse como marcos colaborativos compuestos de sistemas de información dispares - un \"sistema de sistemas\" - que facilitan el intercambio de recursos de información de los que dependen múltiples partes interesadas. En este sentido, las infraestructuras de información proporcionan la columna vertebral para la interoperabilidad y la colaboración en todo el ecosistema energético, abarcando todo, desde redes de sensores IoT y plataformas en la nube hasta protocolos de intercambio de datos y repositorios compartidos (adaptado de ISO-19101-1, 2014)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>El apoyo tanto al IS como al II se basa en varios componentes clave.</strong> Las bases de datos (BD) almacenan datos estructurados en un formato organizado, lo que permite consultas y recuperaciones eficientes.<br /><br />Un sistema de gestión de bases de datos (SGBD) es un software que proporciona herramientas para gestionar estos datos, incluyendo la definición de la estructura, el control de acceso y la ejecución de consultas. Estos se alojan típicamente en servidores de bases de datos, que proporcionan la potencia de cálculo y el tiempo de actividad necesarios para las operaciones críticas del sistema energético.<br /><br />Juntos, los sistemas de información y las infraestructuras proporcionan la base técnica para una gestión de datos confiable, escalable e integrada. Son los habilitadores de la innovación energética inteligente, haciendo posible que diversos actores coordinen, analicen y actúen sobre los datos en tiempo real, ya sea para la optimización de la red, la planificación de políticas o el acceso a la energía comunitaria.<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_15.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Gobernanza de datos </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "A medida que los sistemas energéticos generan volúmenes crecientes de datos, las cuestiones de propiedad, acceso y responsabilidad se vuelven más complejas. La gobernanza de datos proporciona el marco para responder a estas preguntas al definir las políticas, procedimientos y roles que guían cómo se gestionan los datos a lo largo de su ciclo de vida, asegurando que los datos permanezcan confiables, seguros y alineados tanto con los requisitos regulatorios como con los objetivos organizacionales."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "En su esencia, la gobernanza de datos establece quién tiene la autoridad para acceder y controlar los datos, cómo se concede ese acceso y cómo se distribuyen las responsabilidades en toda la organización. Define las reglas y prácticas para la creación, clasificación, almacenamiento, compartición y retención de datos, proporcionando una estructura que alinea los procesos técnicos con consideraciones legales, éticas y estratégicas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Los componentes clave de un marco de gobernanza de datos robusto incluyen:</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Propiedad y gestión de datos</strong>",
+              "body": "La gobernanza asigna responsabilidad a los propietarios y administradores de datos. Los propietarios de datos son responsables de garantizar la calidad, la integridad y el cumplimiento de los conjuntos de datos bajo su control, mientras que los administradores de datos implementan políticas de gobernanza en las operaciones diarias, asegurando que los datos permanezcan accesibles, limpios y adecuados para su propósito."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Políticas y estándares de datos</strong>",
+              "body": "Esto incluye reglas claramente definidas sobre cómo se recopilan, procesan, almacenan, comparten y archivan los datos. Los estándares ayudan a garantizar la consistencia y la interoperabilidad entre los sistemas, mientras que las políticas guían el uso ético de los datos, la transparencia y la responsabilidad."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Cumplimiento y alineación regulatoria</strong>",
+              "body": "Una gobernanza efectiva asegura la adherencia a las regulaciones nacionales e internacionales relevantes. Esto puede incluir leyes de protección de datos (por ejemplo, la LGPD de Brasil, la POPIA de Sudáfrica o la Ley DPDP de India), mandatos de datos energéticos específicos del sector y marcos globales como las Directrices de Privacidad de la OCDE o las normas ISO (por ejemplo, ISO/IEC 27001 para la gestión de la seguridad de la información). Estos marcos ayudan a definir las responsabilidades en cuanto al consentimiento, los derechos de acceso, las salvaguardias de seguridad y la respuesta a incidentes."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Un sistema de gobernanza que funcione bien asegura la calidad de los datos, mitiga el riesgo organizacional y fomenta la confianza entre las partes interesadas. Por ejemplo, en contextos de redes inteligentes - donde los medidores inteligentes capturan datos de uso granulares - las estructuras de gobernanza ayudan a resolver preguntas como: <br /><strong>¿Quién posee estos datos - el consumidor, la empresa de servicios públicos o el gobierno?<br /></strong>Sin políticas claras, estas incertidumbres pueden obstaculizar el intercambio de datos, la innovación y la colaboración entre sectores.<br />En última instancia, una gobernanza y gestión de datos robustas permiten a las organizaciones energéticas tratar los datos como un activo estratégico - uno que se puede utilizar de manera confiable y ética para impulsar mejoras en el sistema, proteger los derechos de los usuarios y apoyar las transiciones energéticas sostenibles."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_3.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Gestión de la calidad de los datos</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Incluso las analíticas más avanzadas o los sistemas bien diseñados son tan buenos como los datos en los que se basan. La mala calidad de los datos socava los esfuerzos de planificación, degrada la precisión de las previsiones y puede llevar a errores costosos en la toma de decisiones. La gestión de la calidad de los datos (GCD) es el conjunto de prácticas y herramientas que aseguran que los datos sean precisos, completos, consistentes, oportunos y relevantes."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "En el contexto de los sistemas de energía, mantener una alta calidad de los datos es esencial para tareas que van desde la previsión de la demanda hasta la gestión de activos y la detección de fallos. Los problemas de calidad de los datos pueden surgir de una amplia gama de fuentes: fallos de sensores, formatos inconsistentes, errores de entrada manual o problemas de integración entre diferentes sistemas. Si no se controlan, estos problemas se propagan a lo largo de la cadena de valor de los datos, multiplicando su impacto."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "La DQM implica tanto limpieza reactiva como monitoreo proactivo. Herramientas como el perfilado de datos ayudan a identificar anomalías o valores faltantes temprano en el pipeline. Los procesos ETL (Extraer, Transformar, Cargar) pueden estar equipados con puntos de control automatizados que validan la conformidad del esquema, señalan la deriva de datos o detienen la ingestión de datos cuando se superan los umbrales de calidad. Los paneles de calidad proporcionan visibilidad continua sobre la salud de los datos, ofreciendo métricas en tiempo real sobre las tasas de error, la integridad y la duplicación.<br /><strong>Para estructurar estos esfuerzos de manera sistemática, muchas organizaciones adoptan metodologías de aseguramiento de la calidad como Six Sigma. Desarrollado originalmente en la manufactura, Six Sigma proporciona un marco basado en datos (DMAIC: Definir, Medir, Analizar, Mejorar, Controlar) para reducir la variabilidad y eliminar defectos—en este caso, errores de datos. Aplicar los principios de Six Sigma en entornos de datos energéticos puede ayudar a estandarizar los procesos de validación de datos y a mejorar continuamente la calidad con el tiempo.<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Considere un escenario donde los datos de irradiancia solar de una estación de monitoreo remota faltan intermitentemente debido a fallos de transmisión. Si no se aborda, esta brecha de datos podría llevar a una sobreestimación de la capacidad de generación solar, lo que tendría efectos en cadena tanto en la fiabilidad de la red como en la previsión financiera. Un sistema DQM con alertas en tiempo real y soluciones de respaldo automatizadas (como la interpolación o la redundancia de una estación secundaria) mitigaría este riesgo.<br />Un marco DQM bien estructurado apoya la toma de decisiones confiable y rastreable, asegurando que los conocimientos derivados de los datos sean tan confiables como los sistemas que informan. Al incorporar controles de calidad a lo largo del ciclo de vida de los datos, las organizaciones pueden extraer valor de sus datos sin verse socavadas por errores o inconsistencias ocultas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_19.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Privacidad, Seguridad y Protección de Datos</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "En los sistemas energéticos, la privacidad, la seguridad y la protección representan tres áreas distintas pero interconectadas, cruciales para la gestión responsable de datos.<br /><strong>La privacidad </strong>se refiere a la protección de la información personal e identificable, asegurando que los datos individuales, como los patrones de consumo o las identidades de los clientes, se recojan, almacenen y compartan de manera adecuada."
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>Las protecciones</strong> implican la minimización de datos, la anonimización, una gestión sólida del consentimiento y políticas de uso de datos transparentes para prevenir el acceso no autorizado o el intercambio de datos personales.",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>Riesgos para la privacidad</strong> incluyen la divulgación no autorizada de datos, el perfilado sin consentimiento y el uso indebido de información sensible que podría llevar al robo de identidad o a la pérdida de confianza del cliente.",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "<strong>La seguridad</strong> se centra en proteger los datos y sistemas contra el acceso no autorizado, la manipulación o los ciberataques que podrían comprometer la integridad o disponibilidad de la infraestructura energética."
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>Los riesgos de seguridad </strong>incluyen intentos de piratería, infecciones por malware, ataques de phishing, amenazas internas y la interceptación de datos durante la transmisión. Esto puede llevar a violaciones de datos, manipulación de sistemas de control o denegación de servicio.",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>Las protecciones </strong>requieren el cifrado de datos tanto en reposo como en tránsito, autenticación multifactor, controles de acceso estrictos basados en roles, segmentación de red (especialmente para sistemas críticos como SCADA), monitoreo continuo y auditorías de seguridad regulares para detectar y responder a las amenazas de manera oportuna.",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "<strong>La seguridad </strong>se ocupa de la protección de la infraestructura física y del personal al garantizar que las decisiones operativas informadas por datos no conduzcan a condiciones o fallos peligrosos."
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>Los riesgos de seguridad</strong> surgen de datos inexactos o corruptos, ataques ciberfísicos que manipulan señales de control, o fallos del sistema que causan daños a los equipos o ponen en peligro vidas humanas.",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>Las protecciones </strong>incluyen el diseño de mecanismos a prueba de fallos, redundancia en los sistemas de control, validación rigurosa de la integridad de los datos, detección de anomalías en tiempo real y planes integrales de respuesta y recuperación ante incidentes para mantener la resiliencia operativa.",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "<strong>Juntos, abordar la privacidad, la seguridad y la protección con estrategias de mitigación de riesgos específicas asegura que los datos energéticos respalden operaciones de sistemas energéticos confiables, dignos de confianza y éticos, al tiempo que protegen a los consumidores, los activos y la infraestructura.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_4.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Integración de datos e interoperabilidad</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Los sistemas energéticos de hoy consisten en diversas tecnologías y partes interesadas que deben operar de manera cohesiva. Lograr esto requiere una integración de datos robusta y interoperabilidad."
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>La integración de datos </strong>es el proceso de combinar datos de diversas fuentes—como sensores, pronósticos meteorológicos y bases de datos de clientes—en un conjunto de datos unificado y consistente. Esto a menudo implica herramientas como almacenes de datos, plataformas intermedias y tuberías ETL (Extract-Transform-Load) que limpian, transforman y armonizan los datos para apoyar el análisis y las operaciones.",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>La interoperabilidad</strong> va más allá del intercambio de datos para garantizar que los sistemas puedan interpretar y utilizar los datos intercambiados de manera significativa. Esto requiere adherirse a estándares comunes y modelos de datos compartidos. En el sector energético, los estándares clave incluyen IEC 61850 para la comunicación de subestaciones, el Modelo de Información Común (CIM) para datos de servicios públicos, y protocolos de mensajería livianos como MQTT para dispositivos IoT.<br />Más allá de los protocolos técnicos, la interoperabilidad semántica asegura que el significado de los datos sea consistente en todos los sistemas. Esto está respaldado por los principios FAIR (Encontrable, Accesible, Interoperable, Reutilizable), que fomentan metadatos bien documentados, acceso abierto a datos, estructuras de datos vinculadas y el uso de ontologías para definir conceptos claramente.",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Las infraestructuras de información federadas utilizan enfoques descentralizados, permitiendo que diferentes organizaciones o sistemas mantengan el control sobre sus datos mientras habilitan el acceso compartido a través de API y marcos interoperables. Este enfoque es crucial para coordinar los recursos energéticos distribuidos como paneles solares, baterías y vehículos eléctricos.<br /><br />Sin embargo, persisten desafíos. Los sistemas heredados a menudo carecen de interfaces estándar, y los formatos de datos inconsistentes crean desajustes semánticos. Los silos de datos obstaculizan las perspectivas a nivel del sistema, mientras que una gobernanza insuficiente puede detener los esfuerzos de integración. Abordar estos problemas requiere políticas sólidas de gobernanza de datos, estándares claros y colaboración entre las partes interesadas.<br /><br />Los riesgos de seguridad y privacidad también aumentan con los sistemas interconectados, lo que requiere API seguras, controles de acceso basados en roles, cifrado y monitoreo continuo para proteger datos sensibles.<br /><br />Conceptos emergentes como las telas de datos y las mallas de datos, junto con tecnologías como blockchain, ofrecen modelos prometedores para la integración y la interoperabilidad de datos descentralizados, escalables y seguros.<br /><br />En resumen, la integración y la interoperabilidad de datos exitosas dependen de estándares técnicos, alineación semántica, gobernanza, seguridad y arquitecturas modernas, todos esenciales para una gestión coordinada, eficiente y resiliente de los sistemas energéticos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_22.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Operacionalización e institucionalización</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "La tecnología desempeña un papel cada vez más crítico en la operacionalización. La IA y la automatización optimizan las tareas rutinarias de gestión de datos, como la limpieza de datos, la detección de anomalías y el etiquetado de metadatos, liberando recursos humanos para la toma de decisiones de nivel superior. Las plataformas para la catalogación de datos, el seguimiento de la línea y la automatización de flujos de trabajo también mejoran la transparencia y el control, apoyando los objetivos de gobernanza y calidad.<br />Medir el éxito es esencial para garantizar que los esfuerzos de institucionalización sean efectivos y mejoren continuamente. Las organizaciones implementan OKR (Objetivos y Resultados Clave) y KPI (Indicadores Clave de Desempeño) adaptados a los objetivos de gestión de datos, como las tasas de precisión de los datos, los resultados de auditorías de cumplimiento, el tiempo de actividad del sistema o las métricas de adopción de usuarios. Los informes regulares sobre estas medidas ayudan a mantener la responsabilidad y guían la asignación de recursos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Por ejemplo, una empresa de servicios públicos nacional podría evolucionar de la recolección de datos ad hoc a una estrategia formalizada que involucre tuberías de datos estandarizadas, repositorios compartidos y protocolos de metadatos comunes. Con el tiempo, esto podría desarrollarse en una junta formal de gobernanza de datos apoyada por una red de administradores capacitados e integrada en la planificación estratégica y la toma de decisiones operativas, un cambio de un manejo reactivo a una disciplina de datos proactiva y estratégica.<br />En última instancia, la institucionalización asegura que las prácticas de gestión de datos sean duraderas, estén integradas en las estructuras organizativas y sean resilientes a los cambios en el personal o la tecnología. Este enfoque holístico convierte iniciativas aisladas en capacidades duraderas, permitiendo a las organizaciones energéticas aprovechar los datos para la innovación, la resiliencia y la transformación sostenible.<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_13.png",
+          "caption": ""
+        },
+        "intro": "M7: Datos en energía sostenible",
+        "title": "Parte 3: Superando desafíos en los países en desarrollo"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La cadena de valor de los datos tiene un inmenso potencial para acelerar el desarrollo energético sostenible en los países en desarrollo, pero las barreras sistémicas a menudo impiden su uso efectivo. Estos desafíos—arraigados en brechas de infraestructura, complejidades socioculturales y debilidades de gobernanza—exigen estrategias holísticas para desbloquear el poder transformador de los datos mientras se garantiza la equidad. A continuación, exploraremos estos obstáculos y las vías para abordarlos."
+            }
           }
         ]
       }
@@ -98,7 +856,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_3.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_11.png",
           "caption": ""
         }
       }
@@ -272,7 +1030,7 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_13.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_9.png",
               "caption": ""
             },
             "title": "La cadena de valor de los datos es esencial para transformar los datos en bruto en información procesable para el desarrollo energético sostenible.",
@@ -280,7 +1038,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Outro_1.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_7.png",
               "caption": ""
             },
             "title": "El análisis avanzado de datos desbloquea el potencial de los datos energéticos.",
@@ -288,769 +1046,11 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_18.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_6.png",
               "caption": ""
             },
             "title": "Los países en desarrollo enfrentan desafíos para aprovechar los datos en energía.",
             "description": "Una infraestructura limitada, sensores deficientes y una conectividad inestable obstaculizan el uso de datos. Las inversiones en sensores de calidad, conectividad y desarrollo de capacidades son esenciales para superar estas barreras"
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Las infraestructuras de información federadas utilizan enfoques descentralizados, permitiendo que diferentes organizaciones o sistemas mantengan el control sobre sus datos mientras habilitan el acceso compartido a través de API y marcos interoperables. Este enfoque es crucial para coordinar los recursos energéticos distribuidos como paneles solares, baterías y vehículos eléctricos.<br /><br />Sin embargo, persisten desafíos. Los sistemas heredados a menudo carecen de interfaces estándar, y los formatos de datos inconsistentes crean desajustes semánticos. Los silos de datos obstaculizan las perspectivas a nivel del sistema, mientras que una gobernanza insuficiente puede detener los esfuerzos de integración. Abordar estos problemas requiere políticas sólidas de gobernanza de datos, estándares claros y colaboración entre las partes interesadas.<br /><br />Los riesgos de seguridad y privacidad también aumentan con los sistemas interconectados, lo que requiere API seguras, controles de acceso basados en roles, cifrado y monitoreo continuo para proteger datos sensibles.<br /><br />Conceptos emergentes como las telas de datos y las mallas de datos, junto con tecnologías como blockchain, ofrecen modelos prometedores para la integración y la interoperabilidad de datos descentralizados, escalables y seguros.<br /><br />En resumen, la integración y la interoperabilidad de datos exitosas dependen de estándares técnicos, alineación semántica, gobernanza, seguridad y arquitecturas modernas, todos esenciales para una gestión coordinada, eficiente y resiliente de los sistemas energéticos."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "<strong>La seguridad</strong> se centra en proteger los datos y sistemas contra el acceso no autorizado, la manipulación o los ciberataques que podrían comprometer la integridad o disponibilidad de la infraestructura energética."
-            }
-          },
-          {
-            "template_id": "bullet_point_with_highlight",
-            "content": {
-              "title": "",
-              "body": "<strong>Los riesgos de seguridad </strong>incluyen intentos de piratería, infecciones por malware, ataques de phishing, amenazas internas y la interceptación de datos durante la transmisión. Esto puede llevar a violaciones de datos, manipulación de sistemas de control o denegación de servicio.",
-              "source": ""
-            }
-          },
-          {
-            "template_id": "bullet_point_with_highlight",
-            "content": {
-              "title": "",
-              "body": "<strong>Las protecciones </strong>requieren el cifrado de datos tanto en reposo como en tránsito, autenticación multifactor, controles de acceso estrictos basados en roles, segmentación de red (especialmente para sistemas críticos como SCADA), monitoreo continuo y auditorías de seguridad regulares para detectar y responder a las amenazas de manera oportuna.",
-              "source": ""
-            }
-          },
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "<strong>La seguridad </strong>se ocupa de la protección de la infraestructura física y del personal al garantizar que las decisiones operativas informadas por datos no conduzcan a condiciones o fallos peligrosos."
-            }
-          },
-          {
-            "template_id": "bullet_point_with_highlight",
-            "content": {
-              "title": "",
-              "body": "<strong>Los riesgos de seguridad</strong> surgen de datos inexactos o corruptos, ataques ciberfísicos que manipulan señales de control, o fallos del sistema que causan daños a los equipos o ponen en peligro vidas humanas.",
-              "source": ""
-            }
-          },
-          {
-            "template_id": "bullet_point_with_highlight",
-            "content": {
-              "title": "",
-              "body": "<strong>Las protecciones </strong>incluyen el diseño de mecanismos a prueba de fallos, redundancia en los sistemas de control, validación rigurosa de la integridad de los datos, detección de anomalías en tiempo real y planes integrales de respuesta y recuperación ante incidentes para mantener la resiliencia operativa.",
-              "source": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "<strong>Juntos, abordar la privacidad, la seguridad y la protección con estrategias de mitigación de riesgos específicas asegura que los datos energéticos respalden operaciones de sistemas energéticos confiables, dignos de confianza y éticos, al tiempo que protegen a los consumidores, los activos y la infraestructura.</strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Privacidad, Seguridad y Protección de Datos</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "En los sistemas energéticos, la privacidad, la seguridad y la protección representan tres áreas distintas pero interconectadas, cruciales para la gestión responsable de datos.<br /><strong>La privacidad </strong>se refiere a la protección de la información personal e identificable, asegurando que los datos individuales, como los patrones de consumo o las identidades de los clientes, se recojan, almacenen y compartan de manera adecuada."
-            }
-          },
-          {
-            "template_id": "bullet_point_with_highlight",
-            "content": {
-              "title": "",
-              "body": "<strong>Las protecciones</strong> implican la minimización de datos, la anonimización, una gestión sólida del consentimiento y políticas de uso de datos transparentes para prevenir el acceso no autorizado o el intercambio de datos personales.",
-              "source": ""
-            }
-          },
-          {
-            "template_id": "bullet_point_with_highlight",
-            "content": {
-              "title": "",
-              "body": "<strong>Riesgos para la privacidad</strong> incluyen la divulgación no autorizada de datos, el perfilado sin consentimiento y el uso indebido de información sensible que podría llevar al robo de identidad o a la pérdida de confianza del cliente.",
-              "source": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "Considere un escenario donde los datos de irradiancia solar de una estación de monitoreo remota faltan intermitentemente debido a fallos de transmisión. Si no se aborda, esta brecha de datos podría llevar a una sobreestimación de la capacidad de generación solar, lo que tendría efectos en cadena tanto en la fiabilidad de la red como en la previsión financiera. Un sistema DQM con alertas en tiempo real y soluciones de respaldo automatizadas (como la interpolación o la redundancia de una estación secundaria) mitigaría este riesgo.<br />Un marco DQM bien estructurado apoya la toma de decisiones confiable y rastreable, asegurando que los conocimientos derivados de los datos sean tan confiables como los sistemas que informan. Al incorporar controles de calidad a lo largo del ciclo de vida de los datos, las organizaciones pueden extraer valor de sus datos sin verse socavadas por errores o inconsistencias ocultas."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "La DQM implica tanto limpieza reactiva como monitoreo proactivo. Herramientas como el perfilado de datos ayudan a identificar anomalías o valores faltantes temprano en el pipeline. Los procesos ETL (Extraer, Transformar, Cargar) pueden estar equipados con puntos de control automatizados que validan la conformidad del esquema, señalan la deriva de datos o detienen la ingestión de datos cuando se superan los umbrales de calidad. Los paneles de calidad proporcionan visibilidad continua sobre la salud de los datos, ofreciendo métricas en tiempo real sobre las tasas de error, la integridad y la duplicación.<br /><strong>Para estructurar estos esfuerzos de manera sistemática, muchas organizaciones adoptan metodologías de aseguramiento de la calidad como Six Sigma. Desarrollado originalmente en la manufactura, Six Sigma proporciona un marco basado en datos (DMAIC: Definir, Medir, Analizar, Mejorar, Controlar) para reducir la variabilidad y eliminar defectos—en este caso, errores de datos. Aplicar los principios de Six Sigma en entornos de datos energéticos puede ayudar a estandarizar los procesos de validación de datos y a mejorar continuamente la calidad con el tiempo.<br /></strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "Un sistema de gobernanza que funcione bien asegura la calidad de los datos, mitiga el riesgo organizacional y fomenta la confianza entre las partes interesadas. Por ejemplo, en contextos de redes inteligentes - donde los medidores inteligentes capturan datos de uso granulares - las estructuras de gobernanza ayudan a resolver preguntas como: <br /><strong>¿Quién posee estos datos - el consumidor, la empresa de servicios públicos o el gobierno?<br /></strong>Sin políticas claras, estas incertidumbres pueden obstaculizar el intercambio de datos, la innovación y la colaboración entre sectores.<br />En última instancia, una gobernanza y gestión de datos robustas permiten a las organizaciones energéticas tratar los datos como un activo estratégico - uno que se puede utilizar de manera confiable y ética para impulsar mejoras en el sistema, proteger los derechos de los usuarios y apoyar las transiciones energéticas sostenibles."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "lesson_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_3.png",
-          "caption": ""
-        },
-        "lesson": {
-          "label": "Lección",
-          "number": "3"
-        },
-        "title": "La cadena de valor de los datos energéticos",
-        "cta": "",
-        "intro": "M7: Datos en energía sostenible"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Descripción General de la Lección 3</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "La transición hacia fuentes de energía renovables y tecnologías para el Desarrollo Energético Sostenible (SED) se ha convertido en una prioridad global, impulsada por la necesidad de abordar desafíos críticos como la reducción de la pobreza, la protección del medio ambiente, el crecimiento socioeconómico y la modernización de los sistemas energéticos. Central para lograr estos objetivos es el imperativo de garantizar el acceso a la energía asequible e inclusiva para todos. Dentro de este paisaje, los datos han surgido como activos indispensables, permitiendo la toma de decisiones en tiempo real basada en evidencia, informando estrategias energéticas, guiando las acciones de los usuarios finales y fomentando la innovación para acelerar el desarrollo energético sostenible.<br />El concepto de la <strong>cadena de valor de los datos</strong> proporciona un marco para entender cómo los datos en bruto se transforman en información procesable que mejora la toma de decisiones. <strong>Esta cadena abarca todo el ciclo de vida de los datos</strong>, desde la generación inicial de datos a través de dispositivos de sensores hasta su recolección, transformación, análisis y eventual utilización. Cada etapa de la cadena es crucial para garantizar que los conocimientos basados en datos apoyen eficazmente la optimización del sistema energético, las soluciones energéticas descentralizadas, la gestión de la red y las mejoras en la eficiencia del lado de la demanda."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "La gestión y el procesamiento efectivos de datos sustentan el éxito de la cadena de valor de los datos, permitiendo su aplicación en una variedad de intervenciones en sistemas energéticos. Esto incluye la optimización de la generación y el almacenamiento de energía, la mitigación de las restricciones de la red y el apoyo al desarrollo de activos energéticos descentralizados. Por ejemplo, la Iniciativa de Generación Distribuida de Ruanda emplea monitoreo en tiempo real basado en sensores para mejorar la recolección de datos, mientras que el Programa Energy4Sahel utiliza datos geoespaciales para la estrategia y planificación de la electrificación rural. De manera similar, el Programa de Mini-redes de África se centra en el monitoreo y la evaluación del impacto para informar políticas, desarrollar modelos de negocio y crear mecanismos de financiamiento innovadores. Estas iniciativas demuestran cómo los datos pueden impulsar decisiones basadas en evidencia, informar reformas regulatorias y apoyar la adopción generalizada de Sistemas de Energía Sostenible (SES).<br /> <br />En esta lección, examinamos el ciclo de vida de los datos, desglosamos cada etapa de la cadena de valor de los datos, proporcionamos una exploración en profundidad de las prácticas de gestión de datos y exploramos los desafíos que enfrentan las comunidades en desarrollo para aprovechar los datos para el desarrollo energético sostenible. Este análisis destaca el papel crítico de los datos en el cierre de brechas de conocimiento y en el avance de transiciones energéticas equitativas."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_14.png",
-          "caption": ""
-        },
-        "intro": "M7: Datos en energía sostenible",
-        "title": "Parte 1: Etapas de la cadena de valor de los datos"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Para comprender completamente cómo los datos pueden apoyar el desarrollo energético sostenible, es esencial comenzar con el concepto del ciclo de vida de los datos. El ciclo de vida de los datos describe el flujo secuencial de datos desde su creación o adquisición inicial, a través de varias etapas de procesamiento, almacenamiento y análisis, hasta su eventual archivo o eliminación. Este ciclo de vida proporciona una comprensión fundamental de cómo los datos evolucionan con el tiempo y a través de diferentes casos de uso.<br /><br />Basándose en esta base, la cadena de valor de los datos ofrece una forma estructurada de entender cómo se genera valor a partir de los datos a lo largo de su ciclo de vida. Mientras que el ciclo de vida de los datos enfatiza la progresión temporal y técnica de los datos, la cadena de valor de los datos se centra en cómo se crea el valor de manera incremental en cada etapa de esa progresión. En otras palabras, la cadena de valor de los datos es una lente funcional a través de la cual vemos el ciclo de vida de los datos, con un énfasis específico en transformar datos en bruto en información procesable que genere impacto.<br /><br />La cadena de valor de los datos se compone de cuatro etapas interconectadas: recolección, transformación, creación de valor y utilización de datos. Cada etapa incorpora subactividades esenciales de gestión de datos, como la validación, la integración, el almacenamiento y la gobernanza, que garantizan la calidad, la fiabilidad y la seguridad de los datos a lo largo de su flujo.<br /><br />La siguiente figura ilustra cómo se mueven los datos a través de cada una de estas cuatro etapas, culminando en la generación de conocimientos y acciones informadas. Destaca cómo los datos deben ser gestionados, curados y contextualizados cuidadosamente en cada paso para realizar plenamente su potencial en el apoyo a los objetivos de energía sostenible."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_5.png",
-          "caption": "",
-          "url": null
-        }
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "light",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_2.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Etapa 1: Recolección</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "La recolección de datos se compone de su propio conjunto de subactividades que apoyan la extracción y transmisión de datos en bruto a un servidor dedicado o plataforma en la nube. Este proceso comienza por delinear primero los objetivos generales que requieren la recolección de datos, y estos objetivos permitirán la identificación del software relevante necesario para lograr los objetivos establecidos. Por ejemplo, un gobierno puede delinear objetivos relacionados con la descarbonización y modernización de los sistemas energéticos a través de la adopción de redes inteligentes, como se observa con el gobierno de Mauricio<br /><br />El proceso de recopilación de datos, que describe las actividades clave a considerar para la identificación de fuentes de datos, las tecnologías de captura de datos y los requisitos de comunicación para la transmisión."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_1.png",
-          "caption": "",
-          "url": null
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Generación y recopilación de datos</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Una vez que se han identificado la aplicación y las fuentes de generación de datos correspondientes, se despliegan estratégicamente tecnologías de captura de datos en el lugar de interés para extraer datos en bruto que se utilizarán para informar estrategias y apoyar la toma de decisiones basada en evidencia. Las áreas de implementación típicas incluyen sistemas de energía renovable que proporcionan datos sobre los niveles de generación y el funcionamiento del sistema, estaciones meteorológicas que proporcionan datos sobre las condiciones climáticas, y dispositivos de medición con información sobre el consumo de energía. La tecnología desplegada extrae y registra los datos en bruto, preparándolos para la transmisión a través de la red de comunicación a la plataforma de análisis.<br /><br />La generación y recolección de datos energéticos son fundamentales para la funcionalidad y el progreso de las redes inteligentes. El siguiente gráfico muestra la evolución de las redes convencionales a la Smart Grid 1.0 y la Smart Grid 2.0, destacando cómo los datos se han vuelto centrales para construir sistemas energéticos más dinámicos e interconectados. Componentes como medidores inteligentes, microredes y gestión de redes de distribución dependen de flujos de datos continuos para apoyar la monitorización, el análisis y la optimización. Estos flujos de datos, recopilados de diversas fuentes como sistemas de energía renovable, vehículos eléctricos y plataformas de comercio de energía entre pares, permiten una planificación y toma de decisiones energéticas más precisas. A medida que los datos se integran en cada aspecto del sistema energético, las redes inteligentes no solo están mejorando el rendimiento operativo, sino que también están creando la base para abordar desafíos sistémicos, incluida la fiabilidad de la red, la asignación equitativa de recursos y la transición a una energía baja en carbono."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_5.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_10.png",
-          "caption": "",
-          "url": null
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Transmisión de datos</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "La fase de transmisión incorpora la transmisión de datos desde el dispositivo de adquisición, a través de la red de comunicación, y hacia un servidor dedicado o una plataforma en la nube para su procesamiento. La tecnología de captura de datos está típicamente integrada con un módulo de comunicación que facilita la transferencia de datos desde el dispositivo a una puerta de enlace que luego transmite los datos a una plataforma en la nube para su procesamiento. Para los dispositivos de borde, la recolección de datos se empareja con el almacenamiento y el procesamiento en la ubicación de origen, y los datos se transmiten a través de la red para su análisis sin someterse a un procesamiento adicional. <br /><br />Los datos se transmiten a través de tecnologías inalámbricas, como redes celulares, LPWAN (Red de Área Amplia de Bajo Consumo), comunicaciones por satélite y WI-FI, y la selección de la tecnología de transmisión depende del tamaño de los paquetes de datos que se transmiten."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "light",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_1.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Etapa 2: Transformación</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Esta fase implica la conversión de datos en un formato utilizable para el análisis. Este proceso asegura que el paquete entregado a la plataforma de análisis tenga el formato correcto y sea compatible con la plataforma de aplicación central, lo cual es especialmente importante en sistemas con múltiples fuentes que utilizan conjuntos de datos peculiares. Hay dos subprocessos encapsulados bajo este pilar: el procesamiento de datos y el almacenamiento de datos (Tawakuli & Engel, 2022)."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Procesamiento de datos</strong>",
-              "body": "Este es un paso crítico que inicia la extracción de valor de los conjuntos de datos obtenidos. Es un proceso que transforma los datos en bruto en un formato utilizable que puede ser interpretado por la plataforma de análisis al limpiar los datos y corregir los valores faltantes e inválidos, así como las observaciones duplicadas. Cuando se hace correctamente, este paso mejora la integridad de los datos. Debido al volumen, la velocidad y la variedad de datos, es fundamental utilizar herramientas y técnicas como el Marco de Gobernanza de Datos, herramientas de aseguramiento de calidad de datos como IBM Databand y Bboxx, y prácticas de estandarización de datos para producir consistencia dentro de conjuntos de datos heterogéneos utilizando recursos como el Programa de Asistencia para la Gestión del Sector Energético (ESMAP)."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Almacenamiento de datos</strong>",
-              "body": "Los datos de múltiples fuentes se agregan y almacenan, para ser recuperados en una etapa posterior para su procesamiento. Los datos se almacenan localmente en la ubicación del sitio, lo que mitiga las inconsistencias de la red que pueden afectar la transmisión en tiempo real para aplicaciones remotas, y, después de la transmisión, también en plataformas de almacenamiento en la nube remotas. Los datos se pueden extraer de la base de datos y analizar."
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Herramientas, tecnologías y mecanismos de la cadena de valor de datos que apoyan la transformación de datos en información procesable"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_13.png",
-          "caption": "",
-          "url": null
-        }
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "light",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Outro_3.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Etapa 3: Creación/Adición de Valor</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "La etapa de creación de valor es la piedra angular para traducir datos en bruto en información procesable, lo que permite una toma de decisiones informada y estratégica. En esta etapa, los datos procesados de diversas fuentes se someten a un análisis exhaustivo para descubrir patrones, predecir tendencias e identificar anomalías. Estos conocimientos sirven como base para optimizar los sistemas energéticos y mejorar las eficiencias operativas. Las herramientas avanzadas de análisis de datos permiten todo, desde la monitorización en tiempo real hasta la previsión a largo plazo, sentando las bases para intervenciones basadas en evidencia. Iniciativas como el Intercambio de Futuros de Datos ejemplifican cómo las ideas basadas en datos pueden transformarse en plataformas que inspiran acciones tangibles y mejoras sistémicas."
-            }
-          },
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Analítica de datos</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "El análisis de datos dentro del proceso de creación de valor es multifacético, abarcando varias categorías adaptadas a diferentes objetivos. Cada categoría contribuye de manera única a construir una comprensión integral de los sistemas energéticos, impulsando soluciones y permitiendo la resiliencia ante los desafíos."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "light",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_2.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Etapa 4: Utilización</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Esta etapa se centra en cómo se presentan los datos analizados al usuario final para fines de toma de decisiones. Hay dos subprocesos principales involucrados: la visualización de datos y la difusión de datos, ambos de los cuales desglosan cómo el usuario o el sistema interactúa con los datos de manera significativa. Herramientas como el explorador de acceso a la energía, la plataforma de electrificación global, la plataforma de datos energéticos y la herramienta de acceso a la energía limpia muestran el potencial impactante de los paneles de control impulsados por datos para informar estrategias y acelerar iniciativas de desarrollo sostenible de energía.<br /><br />La presentación y visualización de datos son clave para comunicar de manera efectiva los conocimientos derivados del análisis, que luego pueden ser utilizados para informar la toma de decisiones. Este proceso facilita la traducción de datos complejos y robustos a un formato claro y comprensible, permitiendo la interacción de diferentes tipos de partes interesadas, responsables de políticas, representantes de oficinas en el país e investigadores. Lo siguiente ilustra los diferentes mecanismos utilizados para la presentación de datos. "
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_14.png",
-          "caption": "",
-          "url": null
-        }
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_18.png",
-          "caption": ""
-        },
-        "intro": "M7: Datos en energía sostenible",
-        "title": "Parte 2: Gestión de datos Estableciendo las bases para datos energéticos fiables y utilizables"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Sistemas de información e infraestructuras de información</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "La gestión efectiva de datos en el sector energético comienza con la comprensión de las bases técnicas que la hacen posible. Los sistemas de información y las infraestructuras de información son los habilitadores esenciales que permiten que los datos sean recopilados, almacenados, procesados y utilizados a lo largo de la cadena de valor de la energía.<br /><br />Los sistemas de información (SI) se refieren a la combinación coordinada de software, hardware, datos, personas y procesos utilizados para gestionar y analizar información para la toma de decisiones. En los sistemas de energía, esto incluye sistemas de control y adquisición de datos supervisados (SCADA), sistemas de información geográfica (SIG), paneles de datos energéticos, sistemas de información al cliente y herramientas de planificación de recursos empresariales (ERP). Estos sistemas orquestan el flujo de datos y proporcionan interfaces para que los usuarios interactúen con la información de manera estructurada y procesable.<br /><br />Las infraestructuras de información (II), en cambio, son más amplias y complejas. Se pueden considerar como sistemas grandes, heterogéneos, abiertos y distribuidos que apoyan las necesidades fundamentales de amplias comunidades de interesados al permitir una amplia variedad de casos de uso. Al mismo tiempo, pueden entenderse como marcos colaborativos compuestos de sistemas de información dispares - un \"sistema de sistemas\" - que facilitan el intercambio de recursos de información de los que dependen múltiples partes interesadas. En este sentido, las infraestructuras de información proporcionan la columna vertebral para la interoperabilidad y la colaboración en todo el ecosistema energético, abarcando todo, desde redes de sensores IoT y plataformas en la nube hasta protocolos de intercambio de datos y repositorios compartidos (adaptado de ISO-19101-1, 2014)."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>El apoyo tanto al IS como al II se basa en varios componentes clave.</strong> Las bases de datos (BD) almacenan datos estructurados en un formato organizado, lo que permite consultas y recuperaciones eficientes.<br /><br />Un sistema de gestión de bases de datos (SGBD) es un software que proporciona herramientas para gestionar estos datos, incluyendo la definición de la estructura, el control de acceso y la ejecución de consultas. Estos se alojan típicamente en servidores de bases de datos, que proporcionan la potencia de cálculo y el tiempo de actividad necesarios para las operaciones críticas del sistema energético.<br /><br />Juntos, los sistemas de información y las infraestructuras proporcionan la base técnica para una gestión de datos confiable, escalable e integrada. Son los habilitadores de la innovación energética inteligente, haciendo posible que diversos actores coordinen, analicen y actúen sobre los datos en tiempo real, ya sea para la optimización de la red, la planificación de políticas o el acceso a la energía comunitaria.<br /></strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_16.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "photo_vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Intro_5.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "photo_vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_9.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "photo_vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_1.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "photo_vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Outro_1.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "Por ejemplo, una empresa de servicios públicos nacional podría evolucionar de la recolección de datos ad hoc a una estrategia formalizada que involucre tuberías de datos estandarizadas, repositorios compartidos y protocolos de metadatos comunes. Con el tiempo, esto podría desarrollarse en una junta formal de gobernanza de datos apoyada por una red de administradores capacitados e integrada en la planificación estratégica y la toma de decisiones operativas, un cambio de un manejo reactivo a una disciplina de datos proactiva y estratégica.<br />En última instancia, la institucionalización asegura que las prácticas de gestión de datos sean duraderas, estén integradas en las estructuras organizativas y sean resilientes a los cambios en el personal o la tecnología. Este enfoque holístico convierte iniciativas aisladas en capacidades duraderas, permitiendo a las organizaciones energéticas aprovechar los datos para la innovación, la resiliencia y la transformación sostenible.<br />"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Operacionalización e institucionalización</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "La tecnología desempeña un papel cada vez más crítico en la operacionalización. La IA y la automatización optimizan las tareas rutinarias de gestión de datos, como la limpieza de datos, la detección de anomalías y el etiquetado de metadatos, liberando recursos humanos para la toma de decisiones de nivel superior. Las plataformas para la catalogación de datos, el seguimiento de la línea y la automatización de flujos de trabajo también mejoran la transparencia y el control, apoyando los objetivos de gobernanza y calidad.<br />Medir el éxito es esencial para garantizar que los esfuerzos de institucionalización sean efectivos y mejoren continuamente. Las organizaciones implementan OKR (Objetivos y Resultados Clave) y KPI (Indicadores Clave de Desempeño) adaptados a los objetivos de gestión de datos, como las tasas de precisión de los datos, los resultados de auditorías de cumplimiento, el tiempo de actividad del sistema o las métricas de adopción de usuarios. Los informes regulares sobre estas medidas ayudan a mantener la responsabilidad y guían la asignación de recursos."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "bullet_point_with_highlight",
-            "content": {
-              "title": "",
-              "body": "<strong>La integración de datos </strong>es el proceso de combinar datos de diversas fuentes—como sensores, pronósticos meteorológicos y bases de datos de clientes—en un conjunto de datos unificado y consistente. Esto a menudo implica herramientas como almacenes de datos, plataformas intermedias y tuberías ETL (Extract-Transform-Load) que limpian, transforman y armonizan los datos para apoyar el análisis y las operaciones.",
-              "source": ""
-            }
-          },
-          {
-            "template_id": "bullet_point_with_highlight",
-            "content": {
-              "title": "",
-              "body": "<strong>La interoperabilidad</strong> va más allá del intercambio de datos para garantizar que los sistemas puedan interpretar y utilizar los datos intercambiados de manera significativa. Esto requiere adherirse a estándares comunes y modelos de datos compartidos. En el sector energético, los estándares clave incluyen IEC 61850 para la comunicación de subestaciones, el Modelo de Información Común (CIM) para datos de servicios públicos, y protocolos de mensajería livianos como MQTT para dispositivos IoT.<br />Más allá de los protocolos técnicos, la interoperabilidad semántica asegura que el significado de los datos sea consistente en todos los sistemas. Esto está respaldado por los principios FAIR (Encontrable, Accesible, Interoperable, Reutilizable), que fomentan metadatos bien documentados, acceso abierto a datos, estructuras de datos vinculadas y el uso de ontologías para definir conceptos claramente.",
-              "source": ""
-            }
-          },
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Integración de datos e interoperabilidad</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "Los sistemas energéticos de hoy consisten en diversas tecnologías y partes interesadas que deben operar de manera cohesiva. Lograr esto requiere una integración de datos robusta y interoperabilidad."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Gestión de la calidad de los datos</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "Incluso las analíticas más avanzadas o los sistemas bien diseñados son tan buenos como los datos en los que se basan. La mala calidad de los datos socava los esfuerzos de planificación, degrada la precisión de las previsiones y puede llevar a errores costosos en la toma de decisiones. La gestión de la calidad de los datos (GCD) es el conjunto de prácticas y herramientas que aseguran que los datos sean precisos, completos, consistentes, oportunos y relevantes."
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "En el contexto de los sistemas de energía, mantener una alta calidad de los datos es esencial para tareas que van desde la previsión de la demanda hasta la gestión de activos y la detección de fallos. Los problemas de calidad de los datos pueden surgir de una amplia gama de fuentes: fallos de sensores, formatos inconsistentes, errores de entrada manual o problemas de integración entre diferentes sistemas. Si no se controlan, estos problemas se propagan a lo largo de la cadena de valor de los datos, multiplicando su impacto."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Gobernanza de datos </strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_large",
-            "content": {
-              "text": "A medida que los sistemas energéticos generan volúmenes crecientes de datos, las cuestiones de propiedad, acceso y responsabilidad se vuelven más complejas. La gobernanza de datos proporciona el marco para responder a estas preguntas al definir las políticas, procedimientos y roles que guían cómo se gestionan los datos a lo largo de su ciclo de vida, asegurando que los datos permanezcan confiables, seguros y alineados tanto con los requisitos regulatorios como con los objetivos organizacionales."
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "En su esencia, la gobernanza de datos establece quién tiene la autoridad para acceder y controlar los datos, cómo se concede ese acceso y cómo se distribuyen las responsabilidades en toda la organización. Define las reglas y prácticas para la creación, clasificación, almacenamiento, compartición y retención de datos, proporcionando una estructura que alinea los procesos técnicos con consideraciones legales, éticas y estratégicas."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Los componentes clave de un marco de gobernanza de datos robusto incluyen:</strong>"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Propiedad y gestión de datos</strong>",
-              "body": "La gobernanza asigna responsabilidad a los propietarios y administradores de datos. Los propietarios de datos son responsables de garantizar la calidad, la integridad y el cumplimiento de los conjuntos de datos bajo su control, mientras que los administradores de datos implementan políticas de gobernanza en las operaciones diarias, asegurando que los datos permanezcan accesibles, limpios y adecuados para su propósito."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Políticas y estándares de datos</strong>",
-              "body": "Esto incluye reglas claramente definidas sobre cómo se recopilan, procesan, almacenan, comparten y archivan los datos. Los estándares ayudan a garantizar la consistencia y la interoperabilidad entre los sistemas, mientras que las políticas guían el uso ético de los datos, la transparencia y la responsabilidad."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Cumplimiento y alineación regulatoria</strong>",
-              "body": "Una gobernanza efectiva asegura la adherencia a las regulaciones nacionales e internacionales relevantes. Esto puede incluir leyes de protección de datos (por ejemplo, la LGPD de Brasil, la POPIA de Sudáfrica o la Ley DPDP de India), mandatos de datos energéticos específicos del sector y marcos globales como las Directrices de Privacidad de la OCDE o las normas ISO (por ejemplo, ISO/IEC 27001 para la gestión de la seguridad de la información). Estos marcos ayudan a definir las responsabilidades en cuanto al consentimiento, los derechos de acceso, las salvaguardias de seguridad y la respuesta a incidentes."
-            }
           }
         ]
       }
