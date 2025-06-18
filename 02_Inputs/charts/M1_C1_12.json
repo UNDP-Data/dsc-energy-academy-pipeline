@@ -2,16 +2,17 @@
   "textStyle": {
     "fontFamily": "Proxima Nova, sans-serif",
     "fontSize": 12,
-    "fontWeight": "normal"
+    "fontWeight": "normal",
+    "color": "#DDDDDD"
   },
   "axisLabel": {
     "fontSize": 12,
-    "color": "#666666"
+    "color": "#AAAAAA"
   },
   "legend": {
     "textStyle": {
       "fontSize": 12,
-      "color": "#444444"
+      "color": "#CCCCCC"
     },
     "orient": "horizontal",
     "top": "bottom",
@@ -22,11 +23,11 @@
       "fontSize": 12,
       "color": "#FFFFFF"
     },
-    "backgroundColor": "rgba(50, 50, 50, 0.85)",
-    "borderColor": "#CCCCCC",
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
     "formatter": null
   },
-  "backgroundColor": "transparent",
+  "backgroundColor": "#1e1e1e",
   "color": [
     "#fcc30b",
     "#0468b1",
@@ -43,7 +44,7 @@
     "axisLine": {
       "show": true,
       "lineStyle": {
-        "color": "#999999",
+        "color": "#888888",
         "type": "solid",
         "width": 1
       }
@@ -52,16 +53,16 @@
       "show": true,
       "lineStyle": {
         "type": "dashed",
-        "color": "#DDDDDD",
-        "opacity": 0.5
+        "color": "#444444",
+        "opacity": 0.3
       }
     },
     "axisLabel": {
-      "color": "#666666",
+      "color": "#AAAAAA",
       "fontSize": 12
     },
     "nameTextStyle": {
-      "color": "#444444",
+      "color": "#CCCCCC",
       "fontSize": 14
     },
     "type": "value",
@@ -75,7 +76,7 @@
     "axisLine": {
       "show": true,
       "lineStyle": {
-        "color": "#999999",
+        "color": "#888888",
         "type": "solid",
         "width": 1
       }
@@ -84,16 +85,16 @@
       "show": true,
       "lineStyle": {
         "type": "dotted",
-        "color": "#EEEEEE",
-        "opacity": 0.4
+        "color": "#444444",
+        "opacity": 0.3
       }
     },
     "axisLabel": {
-      "color": "#666666",
+      "color": "#AAAAAA",
       "fontSize": 12
     },
     "nameTextStyle": {
-      "color": "#444444",
+      "color": "#CCCCCC",
       "fontSize": 14
     },
     "type": "category",
@@ -117,7 +118,7 @@
   "emphasis": {
     "itemStyle": {
       "borderWidth": 1,
-      "borderColor": "#000000"
+      "borderColor": "#FFFFFF"
     }
   },
   "accessibility": {

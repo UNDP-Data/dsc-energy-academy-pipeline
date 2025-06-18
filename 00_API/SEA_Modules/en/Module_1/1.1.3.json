@@ -188,7 +188,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<a href=\"https://unfccc.int/cop28/outcomes\"><u>At COP28, the UAE Consensus</u></a><u> </u>reaffirmed global commitments to accelerate the energy transition, including tripling global renewable energy capacity and doubling <ai prompt=\"Explain energy efficiency.\">energy efficiency</ai> by 2030. The agreement also marked the first explicit call for transitioning away from fossil fuels, underscoring the urgency of shifting to cleaner energy systems.<br /><br />Meeting the global target of tripling renewable capacity by 2030, reinforced at COP28*, will require an additional 5,500 GW of capacity to be constructed by the end of the decade, according to the IEA.<br /><br /><strong>Electricity is driving the global shift to renewables, while progress in heating and transport remains slower. </strong><a href=\"https://unstats.un.org/sdgs/report/2024/Goal-07/#:~:text=The%20share%20of%20renewable%20energy,12.5%20per%20cent%20in%202021.\"><strong><u>The share of renewables in total final energy consumption increased from 16.7% in 2015 to 18.7% in 2021.</u></strong></a><strong> <br /><br /></strong>The electricity sector has seen major gains, driven by falling costs for wind and solar power. <a href=\"https://www.iea.org/reports/sdg7-data-and-projections/modern-renewables\"><u> By 2021, renewables made up 28.2% of electricity</u></a> consumption, rising from 22.9% in 2015."
+              "text": "<a href=\"https://unfccc.int/cop28/outcomes\"><u>At COP28, the UAE Consensus</u></a><u> </u>reaffirmed global commitments to accelerate the energy transition, including tripling global renewable energy capacity and doubling <ai prompt=\"Share details about energy efficiency.\">energy efficiency</ai> by 2030. The agreement also marked the first explicit call for transitioning away from fossil fuels, underscoring the urgency of shifting to cleaner energy systems.<br /><br />Meeting the global target of tripling renewable capacity by 2030, reinforced at COP28*, will require an additional 5,500 GW of capacity to be constructed by the end of the decade, according to the IEA.<br /><br /><strong>Electricity is driving the global shift to renewables, while progress in heating and transport remains slower. </strong><a href=\"https://unstats.un.org/sdgs/report/2024/Goal-07/#:~:text=The%20share%20of%20renewable%20energy,12.5%20per%20cent%20in%202021.\"><strong><u>The share of renewables in total final energy consumption increased from 16.7% in 2015 to 18.7% in 2021.</u></strong></a><strong> <br /><br /></strong>The electricity sector has seen major gains, driven by falling costs for wind and solar power. <a href=\"https://www.iea.org/reports/sdg7-data-and-projections/modern-renewables\"><u> By 2021, renewables made up 28.2% of electricity</u></a> consumption, rising from 22.9% in 2015."
             }
           }
         ]
@@ -203,16 +203,17 @@
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
             "fontSize": 12,
-            "fontWeight": "normal"
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
           },
           "axisLabel": {
             "fontSize": 12,
-            "color": "#666666"
+            "color": "#AAAAAA"
           },
           "legend": {
             "textStyle": {
               "fontSize": 12,
-              "color": "#444444"
+              "color": "#CCCCCC"
             },
             "orient": "horizontal",
             "top": "bottom",
@@ -223,11 +224,11 @@
               "fontSize": 12,
               "color": "#FFFFFF"
             },
-            "backgroundColor": "rgba(50, 50, 50, 0.85)",
-            "borderColor": "#CCCCCC",
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
             "formatter": null
           },
-          "backgroundColor": "transparent",
+          "backgroundColor": "#1e1e1e",
           "color": [
             "#fcc30b",
             "#0468b1",
@@ -244,7 +245,7 @@
             "axisLine": {
               "show": true,
               "lineStyle": {
-                "color": "#999999",
+                "color": "#888888",
                 "type": "solid",
                 "width": 1
               }
@@ -253,16 +254,16 @@
               "show": true,
               "lineStyle": {
                 "type": "dashed",
-                "color": "#DDDDDD",
-                "opacity": 0.5
+                "color": "#444444",
+                "opacity": 0.3
               }
             },
             "axisLabel": {
-              "color": "#666666",
+              "color": "#AAAAAA",
               "fontSize": 12
             },
             "nameTextStyle": {
-              "color": "#444444",
+              "color": "#CCCCCC",
               "fontSize": 14
             },
             "type": "value",
@@ -276,7 +277,7 @@
             "axisLine": {
               "show": true,
               "lineStyle": {
-                "color": "#999999",
+                "color": "#888888",
                 "type": "solid",
                 "width": 1
               }
@@ -285,16 +286,16 @@
               "show": true,
               "lineStyle": {
                 "type": "dotted",
-                "color": "#EEEEEE",
-                "opacity": 0.4
+                "color": "#444444",
+                "opacity": 0.3
               }
             },
             "axisLabel": {
-              "color": "#666666",
+              "color": "#AAAAAA",
               "fontSize": 12
             },
             "nameTextStyle": {
-              "color": "#444444",
+              "color": "#CCCCCC",
               "fontSize": 14
             },
             "type": "category",
@@ -318,7 +319,7 @@
           "emphasis": {
             "itemStyle": {
               "borderWidth": 1,
-              "borderColor": "#000000"
+              "borderColor": "#FFFFFF"
             }
           },
           "accessibility": {
@@ -384,16 +385,17 @@
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
             "fontSize": 12,
-            "fontWeight": "normal"
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
           },
           "axisLabel": {
             "fontSize": 12,
-            "color": "#666666"
+            "color": "#AAAAAA"
           },
           "legend": {
             "textStyle": {
               "fontSize": 12,
-              "color": "#444444"
+              "color": "#CCCCCC"
             },
             "orient": "horizontal",
             "top": "bottom",
@@ -404,11 +406,11 @@
               "fontSize": 12,
               "color": "#FFFFFF"
             },
-            "backgroundColor": "rgba(50, 50, 50, 0.85)",
-            "borderColor": "#CCCCCC",
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
             "formatter": null
           },
-          "backgroundColor": "transparent",
+          "backgroundColor": "#1e1e1e",
           "color": [
             "#fcc30b",
             "#0468b1",
@@ -425,7 +427,7 @@
             "axisLine": {
               "show": true,
               "lineStyle": {
-                "color": "#999999",
+                "color": "#888888",
                 "type": "solid",
                 "width": 1
               }
@@ -434,16 +436,16 @@
               "show": true,
               "lineStyle": {
                 "type": "dashed",
-                "color": "#DDDDDD",
-                "opacity": 0.5
+                "color": "#444444",
+                "opacity": 0.3
               }
             },
             "axisLabel": {
-              "color": "#666666",
+              "color": "#AAAAAA",
               "fontSize": 12
             },
             "nameTextStyle": {
-              "color": "#444444",
+              "color": "#CCCCCC",
               "fontSize": 14
             },
             "type": "value",
@@ -457,7 +459,7 @@
             "axisLine": {
               "show": true,
               "lineStyle": {
-                "color": "#999999",
+                "color": "#888888",
                 "type": "solid",
                 "width": 1
               }
@@ -466,16 +468,16 @@
               "show": true,
               "lineStyle": {
                 "type": "dotted",
-                "color": "#EEEEEE",
-                "opacity": 0.4
+                "color": "#444444",
+                "opacity": 0.3
               }
             },
             "axisLabel": {
-              "color": "#666666",
+              "color": "#AAAAAA",
               "fontSize": 12
             },
             "nameTextStyle": {
-              "color": "#444444",
+              "color": "#CCCCCC",
               "fontSize": 14
             },
             "type": "category",
@@ -497,7 +499,7 @@
           "emphasis": {
             "itemStyle": {
               "borderWidth": 1,
-              "borderColor": "#000000"
+              "borderColor": "#FFFFFF"
             }
           },
           "accessibility": {
@@ -544,7 +546,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Despite commitments through <ai prompt=\"Tell me more about nationally determined contributions.\">nationally determined contributions</ai> (NDCs) and Long-Term Low Emission Development Strategies (LT-LEDS), the current efforts are not enough to meet the 1.5°C target. <br /><br /></strong>If all pledges made in the run up to COP28 were fully implemented, CO2 emissions would drop by just 1.4 gigatonnes (GtCO2) by 2030 and 2.3 GtCO2 by 2050. This still leaves a gap of 18 GtCO2 to close by mid-century. At this rate, global energy-related emissions would reach 35.2 GtCO2 in 2030—far above the 23 GtCO2 required under the 1.5°C pathway outlined by the International Renewable Energy Agency (IRENA). <br /><br />Current pledges could cut emissions by 3% by 2030 and 51% by 2050 compared to 2022 levels. While this represents some progress, it falls well short of what is needed to keep global warming within safe limits. <br /><br />However, this outlook may change, as countries are set to update their NDCs by COP30. The upcoming revisions could strengthen 2030 and 2050 targets, potentially closing some of the emissions gap."
+              "text": "<strong>Despite commitments through <ai prompt=\"What is nationally determined contributions?\">nationally determined contributions</ai> (NDCs) and Long-Term Low Emission Development Strategies (LT-LEDS), the current efforts are not enough to meet the 1.5°C target. <br /><br /></strong>If all pledges made in the run up to COP28 were fully implemented, CO2 emissions would drop by just 1.4 gigatonnes (GtCO2) by 2030 and 2.3 GtCO2 by 2050. This still leaves a gap of 18 GtCO2 to close by mid-century. At this rate, global energy-related emissions would reach 35.2 GtCO2 in 2030—far above the 23 GtCO2 required under the 1.5°C pathway outlined by the International Renewable Energy Agency (IRENA). <br /><br />Current pledges could cut emissions by 3% by 2030 and 51% by 2050 compared to 2022 levels. While this represents some progress, it falls well short of what is needed to keep global warming within safe limits. <br /><br />However, this outlook may change, as countries are set to update their NDCs by COP30. The upcoming revisions could strengthen 2030 and 2050 targets, potentially closing some of the emissions gap."
             }
           }
         ]
@@ -578,7 +580,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The concept of a just energy transition ensures that the shift to sustainable energy systems addresses inequalities and promotes inclusivity. It seeks to balance the urgent need to reduce carbon emissions with the responsibility of equitably distributing the benefits and burdens of this transition. Special attention is given to vulnerable and marginalized groups, such as low-income communities, Indigenous Peoples—whose land rights and traditional practices are often at stake—women, and workers in carbon-intensive industries, who might otherwise be disproportionately affected.<br /><br />By embedding principles of fairness and equity, a just energy transition supports livelihoods, fosters social cohesion, and ensures that no one is left behind in the journey toward a sustainable future. <br /><br />Promisingly, momentum around “just transition” is gathering pace. We are seeing it emerge in the global dialogue around <ai prompt=\"Clarify decarbonization.\">decarbonization</ai> and net zero. More countries are referencing it in their short and long-term climate plans. Partners are coming together, and coalitions are forming. <br /><br />More on just energy transitions in Module 3."
+              "text": "The concept of a just energy transition ensures that the shift to sustainable energy systems addresses inequalities and promotes inclusivity. It seeks to balance the urgent need to reduce carbon emissions with the responsibility of equitably distributing the benefits and burdens of this transition. Special attention is given to vulnerable and marginalized groups, such as low-income communities, Indigenous Peoples—whose land rights and traditional practices are often at stake—women, and workers in carbon-intensive industries, who might otherwise be disproportionately affected.<br /><br />By embedding principles of fairness and equity, a just energy transition supports livelihoods, fosters social cohesion, and ensures that no one is left behind in the journey toward a sustainable future. <br /><br />Promisingly, momentum around “just transition” is gathering pace. We are seeing it emerge in the global dialogue around <ai prompt=\"Tell me more about decarbonization.\">decarbonization</ai> and net zero. More countries are referencing it in their short and long-term climate plans. Partners are coming together, and coalitions are forming. <br /><br />More on just energy transitions in Module 3."
             }
           }
         ]
