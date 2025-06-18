@@ -2,17 +2,25 @@
   "id": "2.1.-1",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "chapter_outro",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter2.2.png",
-          "caption": ""
-        },
-        "intro": "Próximamente",
-        "title": "Capítulo 2 Introducción",
-        "cta": "Comenzar a aprender",
-        "nextLessonId": "2.2.0"
+        "intro": "Esto concluye",
+        "title": "Capítulo 1",
+        "subtitle": "Introduction to the Energy Transition Landscape",
+        "body": "Gracias por unirte a nosotros para el tercer capítulo del Módulo de Transición Energética Justa. Te invitamos a interactuar con el escenario de cierre y a reflexionar sobre cómo puedes pasar a la acción para convertir estas ideas de ambiciones en acciones.",
+        "nextBlock": {
+          "intro": "Continuar a",
+          "title": "Capítulo 2: <strong>Estado actual, tendencias y barreras para el acceso a la energía</strong>",
+          "cta": "Este capítulo analiza las disparidades en el acceso a la energía a nivel global, destacando las barreras, las tendencias y las soluciones para mejorar el acceso de las poblaciones desatendidas y marginadas.",
+          "button_cta": "Launch the interactive scenario",
+          "image": {
+            "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter2.2.png",
+            "caption": ""
+          },
+          "nextBlockId": "2.2.0",
+          "buttonCta": "Next chapter"
+        }
       }
     }
   ]

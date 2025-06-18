@@ -2,17 +2,25 @@
   "id": "8.1.-1",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "chapter_outro",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter8.2.png",
-          "caption": ""
-        },
-        "intro": "Next up",
-        "title": "Chapter 2 Introduction",
-        "cta": "Start learning",
-        "nextLessonId": "8.2.0"
+        "intro": "This concludes",
+        "title": "Chapter 1",
+        "subtitle": "The Changing Energy Landscape",
+        "body": "Thank you for joining us for the first chapter of the Future of Energy Module. We invite you to interact with the closing scenario, and to reflect on how you can take action to move these ideas from ambitions into action.",
+        "nextBlock": {
+          "intro": "Continue to",
+          "title": "Chapter 2: <strong>Creating an Enabling Environment for an Innovation-Driven Energy Transition</strong>",
+          "cta": "This chapter examines key renewable energy technologies, their innovations, benefits, and challenges in driving a diverse, low-carbon, and sustainable future.",
+          "button_cta": "Launch the interactive scenario",
+          "image": {
+            "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter8.2.png",
+            "caption": ""
+          },
+          "nextBlockId": "8.2.0",
+          "buttonCta": "Next chapter"
+        }
       }
     }
   ]

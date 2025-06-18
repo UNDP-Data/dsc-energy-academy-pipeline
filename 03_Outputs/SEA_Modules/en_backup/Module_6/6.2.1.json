@@ -39,31 +39,6 @@
       }
     },
     {
-      "template_id": "key_concepts",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Key Concepts",
-        "intro": "Explore foundational ideas from this lesson.",
-        "concepts": [
-          {
-            "title": "energy and air quality",
-            "body": "Energy and air quality refer to the relationship between energy production and consumption and the impact it has on the cleanliness and health of the air we breathe, including pollutants released from energy sources.",
-            "source": ""
-          },
-          {
-            "title": "land use planning",
-            "body": "Land use planning is the process of evaluating and designating how land in a specific area should be used, balancing development needs with environmental protection and community interests.",
-            "source": ""
-          },
-          {
-            "title": "lifecycle ghg emissions",
-            "body": "Lifecycle GHG emissions refer to the total greenhouse gas emissions associated with a product or service throughout its entire lifecycle, including extraction of raw materials, production, transportation, use, and disposal.",
-            "source": ""
-          }
-        ]
-      }
-    },
-    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -109,7 +84,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The lifecycle of energy production includes all stages from raw material extraction to energy conversion, distribution, usage, and eventual waste management or decommissioning. This process accounts for environmental, economic, and social impacts at each phase. When looking at the entire lifecycle of energy production, renewable sources still have a significant edge. The emissions from solar and wind energy are much lower than those from coal and natural gas. For instance, coal and natural gas have lifecycle emissions of 1,001 and 486 grams of CO2 per kWh, while solar and wind technology have far less, with wind associated with 13 grams and solar associated with 43 grams of CO2 per kWh of energy they generate, primarily due to manufacturing and construction. These factors make renewables valuable for governments, non-state actors and businesses alike to decarbonize and reduce their exposure to climate risks."
+              "text": "The lifecycle of energy production includes all stages from raw material extraction to energy conversion, distribution, usage, and eventual waste management or decommissioning. This process accounts for environmental, economic, and social impacts at each phase. When looking at the entire lifecycle of energy production, renewable sources still have a significant edge. The emissions from solar and <ai prompt=\"Tell me more about wind energy.\">wind energy</ai> are much lower than those from coal and natural gas. For instance, coal and natural gas have lifecycle emissions of 1,001 and 486 grams of CO2 per kWh, while solar and wind technology have far less, with wind associated with 13 grams and solar associated with 43 grams of CO2 per kWh of energy they generate, primarily due to manufacturing and construction. These factors make renewables valuable for governments, non-state actors and businesses alike to decarbonize and reduce their exposure to climate risks."
             }
           }
         ]
@@ -189,7 +164,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Similarly, clean cooking is key to addressing indoor air pollution, as seen in Module 2 on Energy Access. Traditional biomass and kerosene use release black carbon, a major contributor to indoor air pollution and severe respiratory illnesses, particularly in low-income households. Transitioning to cleaner energy sources for both electricity and cooking can significantly improve public health and reduce environmental harm."
+              "text": "Similarly, <ai prompt=\"Provide more info on clean cooking.\">clean cooking</ai> is key to addressing indoor air pollution, as seen in Module 2 on Energy Access. Traditional biomass and kerosene use release black carbon, a major contributor to indoor air pollution and severe respiratory illnesses, particularly in low-income households. Transitioning to cleaner energy sources for both electricity and cooking can significantly improve public health and reduce environmental harm."
             }
           }
         ]
@@ -229,7 +204,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Water use is another important issue when it comes to energy generation. Most energy systems rely on water for cooling and steam production. In 2021, global energy generation used about 370 billion cubic meters of freshwater, equating to 10% of worldwide freshwater withdrawals. Fossil fuel power plants were responsible for a large portion of this water use. <strong>Coal plants alone withdrew 189.6 billion cubic meters of water. In contrast, renewable energy technologies used just 12.1 billion cubic meters in 2021.</strong> As such, solar panels and wind turbines do not require water for cooling or steam production, using it only for cleaning and construction, significantly reducing overall water consumption. However, geothermal energy does require water as a heat transfer fluid in the form of steam or hot water to generate electricity or provide direct heating, making its water use higher than other renewables."
+              "text": "Water use is another important issue when it comes to energy generation. Most energy systems rely on water for cooling and steam production. In 2021, global energy generation used about 370 billion cubic meters of freshwater, equating to 10% of worldwide freshwater withdrawals. Fossil fuel power plants were responsible for a large portion of this water use. <strong>Coal plants alone withdrew 189.6 billion cubic meters of water. In contrast, renewable energy technologies used just 12.1 billion cubic meters in 2021.</strong> As such, solar panels and wind turbines do not require water for cooling or steam production, using it only for cleaning and construction, significantly reducing overall water consumption. However, <ai prompt=\"Tell me more about geothermal energy.\">geothermal energy</ai> does require water as a heat transfer fluid in the form of steam or hot water to generate electricity or provide direct heating, making its water use higher than other renewables."
             }
           }
         ]
@@ -388,52 +363,16 @@
       }
     },
     {
-      "template_id": "key_resources",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Key Resources",
-        "resources": [
-          {
-            "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_6/resource-6211.png",
-              "caption": ""
-            },
-            "href": "ERM Sustainability Institute",
-            "text": "Building Benefit: Four steps to mitigate renewable energy’s environmental downsides",
-            "cta": "Click to download"
-          },
-          {
-            "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_6/resource-6212.png",
-              "caption": ""
-            },
-            "href": "Intergovernmental Panel on Climate Change",
-            "text": "Renewable Energy Sources and Climate Change Mitigation: IPCC’s Special Report",
-            "cta": "Click to download"
-          },
-          {
-            "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_6/resource-6213.png",
-              "caption": ""
-            },
-            "href": "UNEP",
-            "text": "Water-energy Nexus in Urban Water Supply Systems",
-            "cta": "Click to download"
-          }
-        ]
-      }
-    },
-    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/image/lesson622_image.webp",
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module6.png",
           "caption": ""
         },
         "intro": "Next up",
         "title": "Lesson 2: Exploring Renewable Technologies for Climate Mitigation",
-        "cta": "Start learning",
+        "cta": "Continue learning",
         "nextLessonId": "6.2.2"
       }
     }

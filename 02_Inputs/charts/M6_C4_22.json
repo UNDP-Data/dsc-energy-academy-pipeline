@@ -1,60 +1,132 @@
 {
-  "title": {
-    "text": "Battery Demand By Mode and Region, 2016-2022",
-    "subtext": null,
-    "left": "center",
-    "top": "top",
-    "textStyle": {
-      "fontSize": 18
-    },
-    "subtextStyle": {
-      "fontSize": 14,
-      "color": "#888"
-    }
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 12,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 12,
+    "color": "#666666"
   },
   "legend": {
-    "show": true,
-    "bottom": 20
+    "textStyle": {
+      "fontSize": 12,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll"
   },
-  "graphic": [
-    {
-      "type": "text",
-      "left": "center",
-      "bottom": 0,
-      "style": {
-        "text": "Notes: LDVs = light-duty vehicles, including cars and vans; In the left chart, \u201cOther\u201d includes medium- and heavy-duty \ntrucks and two/three-wheelers. Battery demand refers to automotive lithium-ion batteries. This analysis does not include \nconventional hybrid vehicles. \nSource: IEA analysis based on EV Volumes. ",
-        "font": "12px sans-serif",
-        "fill": "#999"
-      }
-    }
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 12,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null
+  },
+  "backgroundColor": "transparent",
+  "color": [
+    "#fcc30b",
+    "#0468b1",
+    "#fd6925",
+    "#c5192d",
+    "#3f7e44",
+    "#19486a",
+    "#fd9d24",
+    "#dd1367",
+    "#4c9f38",
+    "#0a97d9"
   ],
   "xAxis": {
-    "type": "category",
-    "data": [
-      2016,
-      2017,
-      2018,
-      2019,
-      2020,
-      2021,
-      2022
-    ],
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.5
+      }
+    },
     "axisLabel": {
+      "color": "#666666",
+      "fontSize": 12,
       "interval": 0
     },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
     "name": "Year"
   },
   "yAxis": {
-    "type": "value"
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dotted",
+        "color": "#EEEEEE",
+        "opacity": 0.4
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 12
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "ADD UNIT"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#000000"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
   },
   "series": [
     {
       "name": "LDVs",
       "type": "bar",
       "stack": "total",
-      "label": {
-        "show": true
-      },
       "emphasis": {
         "focus": "series"
       },
@@ -72,9 +144,6 @@
       "name": "Bus",
       "type": "bar",
       "stack": "total",
-      "label": {
-        "show": true
-      },
       "emphasis": {
         "focus": "series"
       },
@@ -92,9 +161,6 @@
       "name": "Other",
       "type": "bar",
       "stack": "total",
-      "label": {
-        "show": true
-      },
       "emphasis": {
         "focus": "series"
       },
@@ -112,9 +178,6 @@
       "name": "Europe",
       "type": "bar",
       "stack": "total",
-      "label": {
-        "show": true
-      },
       "emphasis": {
         "focus": "series"
       },
@@ -132,9 +195,6 @@
       "name": "China",
       "type": "bar",
       "stack": "total",
-      "label": {
-        "show": true
-      },
       "emphasis": {
         "focus": "series"
       },
@@ -152,9 +212,6 @@
       "name": "United States",
       "type": "bar",
       "stack": "total",
-      "label": {
-        "show": true
-      },
       "emphasis": {
         "focus": "series"
       },
@@ -172,9 +229,6 @@
       "name": "Other",
       "type": "bar",
       "stack": "total",
-      "label": {
-        "show": true
-      },
       "emphasis": {
         "focus": "series"
       },
@@ -188,5 +242,8 @@
         35.6
       ]
     }
-  ]
+  ],
+  "grid": {
+    "bottom": 40
+  }
 }

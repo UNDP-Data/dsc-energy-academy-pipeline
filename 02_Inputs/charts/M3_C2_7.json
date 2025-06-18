@@ -1,59 +1,134 @@
 {
-  "title": {
-    "text": "Employment difference by sector between the baseline and 1.5\u00b0C Scenario, thousand jobs",
-    "subtext": null,
-    "left": "center",
-    "top": "top",
-    "textStyle": {
-      "fontSize": 18
-    },
-    "subtextStyle": {
-      "fontSize": 14,
-      "color": "#888"
-    }
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 12,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 12,
+    "color": "#666666"
   },
   "legend": {
-    "show": true,
-    "bottom": 20
+    "textStyle": {
+      "fontSize": 12,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll"
   },
-  "graphic": [
-    {
-      "type": "text",
-      "left": "center",
-      "bottom": 0,
-      "style": {
-        "text": "*World employment, thousand persons",
-        "font": "12px sans-serif",
-        "fill": "#999"
-      }
-    }
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 12,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null
+  },
+  "backgroundColor": "transparent",
+  "color": [
+    "#fcc30b",
+    "#0468b1",
+    "#fd6925",
+    "#c5192d",
+    "#3f7e44",
+    "#19486a",
+    "#fd9d24",
+    "#dd1367",
+    "#4c9f38",
+    "#0a97d9"
   ],
   "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.5
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 12
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
     "type": "value",
     "boundaryGap": [
       0,
       0.01
-    ]
+    ],
+    "name": "ADD UNIT"
   },
   "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dotted",
+        "color": "#EEEEEE",
+        "opacity": 0.4
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 12
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
     "type": "category",
     "data": [
       "Agriculture",
       "Coal",
-      "Oil, gas and manufactured fuels",
-      "Other extraction Industries",
+      "Oil, gas and\nmanufactured fuels",
+      "Other extraction\nIndustries",
       "Basic manufacturing",
-      "Engineering and transport equipment",
+      "Engineering and\ntransport equipment",
       "Electricity supply",
       "Other Utilities",
       "Construction",
-      "Distribution and retail",
+      "Distribution and\nretail",
       "Transport",
-      "Hotels and catering; Communications, publishing and television",
+      "Hotels and catering;\nCommunications,\npublishing and\ntelevision",
       "Business services",
-      "Public and personal services"
-    ],
-    "name": "Sector"
+      "Public and personal\nservices"
+    ]
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "..."
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#000000"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
   },
   "series": [
     {

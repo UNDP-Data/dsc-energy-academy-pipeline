@@ -1,0 +1,503 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 12,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 12,
+    "color": "#666666"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 12,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll"
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 12,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null,
+    "trigger": "axis"
+  },
+  "backgroundColor": "transparent",
+  "color": [
+    "#fcc30b",
+    "#0468b1",
+    "#fd6925",
+    "#c5192d",
+    "#3f7e44",
+    "#19486a",
+    "#fd9d24",
+    "#dd1367",
+    "#4c9f38",
+    "#0a97d9"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.5
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 12
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "category",
+    "name": "Sector",
+    "boundaryGap": false,
+    "data": [
+      "Energy",
+      "Electricity/Heat",
+      "Manufacturing/Construction",
+      "Transportation"
+    ]
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dotted",
+        "color": "#EEEEEE",
+        "opacity": 0.4
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 12
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "ADD UNIT"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "..."
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#000000"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "title": {
+    "text": "",
+    "subtext": "",
+    "left": "center"
+  },
+  "grid": {
+    "left": "3%",
+    "right": "4%",
+    "bottom": "3%",
+    "containLabel": true
+  },
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {}
+    }
+  },
+  "series": [
+    {
+      "name": "1990",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        23660.14,
+        8653.37,
+        3978.52,
+        4733.71
+      ]
+    },
+    {
+      "name": "1991",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        23818.01,
+        8796.23,
+        3900.0,
+        4772.1
+      ]
+    },
+    {
+      "name": "1992",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        23707.42,
+        8953.47,
+        3770.69,
+        4880.23
+      ]
+    },
+    {
+      "name": "1993",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        23845.95,
+        9003.81,
+        3719.1,
+        4923.23
+      ]
+    },
+    {
+      "name": "1994",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        23943.99,
+        9105.35,
+        3732.51,
+        5021.55
+      ]
+    },
+    {
+      "name": "1995",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        24605.32,
+        9296.41,
+        3956.48,
+        5159.12
+      ]
+    },
+    {
+      "name": "1996",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        25119.71,
+        9662.55,
+        3838.82,
+        5369.33
+      ]
+    },
+    {
+      "name": "1997",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        25543.82,
+        9937.03,
+        3862.91,
+        5447.53
+      ]
+    },
+    {
+      "name": "1998",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        25701.94,
+        10163.84,
+        3861.0,
+        5574.08
+      ]
+    },
+    {
+      "name": "1999",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        25826.94,
+        10226.32,
+        3703.74,
+        5738.55
+      ]
+    },
+    {
+      "name": "2000",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        26607.83,
+        10628.24,
+        3859.55,
+        5921.01
+      ]
+    },
+    {
+      "name": "2001",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        26972.16,
+        10886.64,
+        3881.54,
+        5951.44
+      ]
+    },
+    {
+      "name": "2002",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        27303.91,
+        11072.27,
+        3893.32,
+        6107.43
+      ]
+    },
+    {
+      "name": "2003",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        28504.58,
+        11691.14,
+        4085.93,
+        6235.61
+      ]
+    },
+    {
+      "name": "2004",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        29762.77,
+        12076.46,
+        4514.42,
+        6524.11
+      ]
+    },
+    {
+      "name": "2005",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        30845.08,
+        12451.38,
+        4935.81,
+        6668.92
+      ]
+    },
+    {
+      "name": "2006",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        31742.01,
+        12955.18,
+        5171.55,
+        6824.66
+      ]
+    },
+    {
+      "name": "2007",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        32821.47,
+        13518.63,
+        5452.0,
+        7038.06
+      ]
+    },
+    {
+      "name": "2008",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        33062.57,
+        13545.46,
+        5559.44,
+        7044.04
+      ]
+    },
+    {
+      "name": "2009",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        32535.35,
+        13330.54,
+        5548.93,
+        6903.1
+      ]
+    },
+    {
+      "name": "2010",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        34453.48,
+        14236.95,
+        6110.09,
+        7197.42
+      ]
+    },
+    {
+      "name": "2011",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        35429.95,
+        14857.74,
+        6339.47,
+        7314.2
+      ]
+    },
+    {
+      "name": "2012",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        35762.83,
+        15154.39,
+        6363.01,
+        7374.23
+      ]
+    },
+    {
+      "name": "2013",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        36365.23,
+        15449.07,
+        6365.14,
+        7565.04
+      ]
+    },
+    {
+      "name": "2014",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        36464.78,
+        15393.11,
+        6433.66,
+        7691.06
+      ]
+    },
+    {
+      "name": "2015",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        36309.07,
+        15126.68,
+        6316.92,
+        7929.36
+      ]
+    },
+    {
+      "name": "2016",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        36274.37,
+        15134.08,
+        6159.11,
+        8085.15
+      ]
+    },
+    {
+      "name": "2017",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        36827.24,
+        15480.49,
+        6080.37,
+        8281.72
+      ]
+    },
+    {
+      "name": "2018",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        37652.42,
+        15901.34,
+        6207.16,
+        8478.33
+      ]
+    },
+    {
+      "name": "2019",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        37623.18,
+        15843.06,
+        6248.09,
+        8497.7
+      ]
+    },
+    {
+      "name": "2020",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        35532.26,
+        15323.08,
+        6202.69,
+        7283.0
+      ]
+    },
+    {
+      "name": "2021",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        37497.65,
+        16447.75,
+        6349.21,
+        7853.2
+      ]
+    },
+    {
+      "name": "2022",
+      "type": "line",
+      "stack": "Total",
+      "data": [
+        38008.54,
+        16688.42,
+        6303.94,
+        8151.42
+      ]
+    }
+  ]
+}

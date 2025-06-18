@@ -1,75 +1,147 @@
 {
-  "title": {
-    "text": "Global energy demand",
-    "subtext": "Quadrillion Btu",
-    "left": "center",
-    "top": "top",
-    "textStyle": {
-      "fontSize": 18
-    },
-    "subtextStyle": {
-      "fontSize": 14,
-      "color": "#888"
-    }
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 12,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 12,
+    "color": "#666666"
   },
   "legend": {
-    "show": true,
-    "bottom": 20
+    "textStyle": {
+      "fontSize": 12,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll"
   },
-  "graphic": [
-    {
-      "type": "text",
-      "left": "center",
-      "bottom": 0,
-      "style": {
-        "text": "Source: Smil, Energy Transitions (1900-1960), 2024 ExxonMobil Global Outlook (1970-2050)",
-        "font": "12px sans-serif",
-        "fill": "#999"
-      }
-    }
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 12,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null
+  },
+  "backgroundColor": "transparent",
+  "color": [
+    "#fcc30b",
+    "#0468b1",
+    "#fd6925",
+    "#c5192d",
+    "#3f7e44",
+    "#19486a",
+    "#fd9d24",
+    "#dd1367",
+    "#4c9f38",
+    "#0a97d9"
   ],
   "xAxis": {
-    "type": "category",
-    "data": [
-      1800,
-      1820,
-      1840,
-      1860,
-      1880,
-      1900,
-      1920,
-      1940,
-      1950,
-      1960,
-      1970,
-      1980,
-      1990,
-      2000,
-      2010,
-      2020,
-      2023,
-      2025,
-      2030,
-      2035,
-      2040,
-      2050
-    ],
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.5
+      }
+    },
     "axisLabel": {
+      "color": "#666666",
+      "fontSize": 12,
       "interval": 0
     },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "1800",
+      "1820",
+      "1840",
+      "1860",
+      "1880",
+      "1900",
+      "1920",
+      "1940",
+      "1950",
+      "1960",
+      "1970",
+      "1980",
+      "1990",
+      "2000",
+      "2010",
+      "2020",
+      "2023",
+      "2025",
+      "2030",
+      "2035",
+      "2040",
+      "2050"
+    ],
     "name": "Year"
   },
   "yAxis": {
-    "type": "value"
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dotted",
+        "color": "#EEEEEE",
+        "opacity": 0.4
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 12
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "ADD UNIT"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#000000"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
   },
   "series": [
     {
       "name": "World",
       "type": "bar",
       "stack": "total",
-      "label": {
-        "show": true
-      },
       "emphasis": {
         "focus": "series"
       },
@@ -102,9 +174,6 @@
       "name": "OECD",
       "type": "bar",
       "stack": "total",
-      "label": {
-        "show": true
-      },
       "emphasis": {
         "focus": "series"
       },
@@ -137,9 +206,6 @@
       "name": "Non-OECD",
       "type": "bar",
       "stack": "total",
-      "label": {
-        "show": true
-      },
       "emphasis": {
         "focus": "series"
       },
@@ -168,5 +234,8 @@
         "478"
       ]
     }
-  ]
+  ],
+  "grid": {
+    "bottom": 40
+  }
 }
