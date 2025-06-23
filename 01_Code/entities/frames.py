@@ -23,6 +23,7 @@ This file defines only the frame classes specified in raw_frame_class_map:
   - ImageHotspot
   - ChapterCover
   - Chart
+  - Chart_folder
   - Infographic
 """
 
@@ -33,6 +34,7 @@ from pathlib import Path
 from typing import ClassVar
 from .components import Card, Concept, Intro, LessonThumbnail, NextBlock
 from .node import Node
+import requests
 
 __all__ = [
     "LessonCover",
@@ -56,6 +58,7 @@ __all__ = [
     "ImageHotspot",
     "ChapterCover",
     "Chart",
+    "Chart_folder",
     "Infographic"
 ]
 
@@ -631,8 +634,51 @@ class Infographic(FrameBase):
         )
         
 
-
 class Chart(FrameBase):
+    size: Literal["full", "half"]
+    option: dict
+
+    @classmethod
+    def from_node(cls, node: Node) -> "Chart":
+        assert node.name == "chart", f"Expected chart node, got {node.name}"
+
+        image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
+        if image_node:
+            chart_id = image_node.name
+            # old version pulling from folder, cna update back to this once the pipelines are merged
+
+            # chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
+            # if chart_path.exists():
+                
+                # with open(chart_path, "r", encoding="utf-8") as f:
+                #     option = json.load(f) 
+                               
+            chart_url = f"https://raw.githubusercontent.com/UNDP-Data/dsc-energy-academy-data/dev/charts-creation/00_API/Charts/LightMode/{chart_id}.json"
+            headers = {
+                "User-Agent": "Mozilla/5.0 (compatible; UNDP-EnergyBot/1.0)",
+                "Accept": "application/vnd.github.v3.raw"
+            }
+
+            response = requests.get(chart_url, headers=headers)
+            if response.status_code == 200:
+                try:
+                    option = response.json()
+                    return cls(
+                        template_id="echarts_chart",
+                        color_scheme="light",
+                        size="full",
+                        option=option
+                    )
+                except ValueError:
+                    raise ValueError(f"Invalid JSON for chart: {chart_id}")
+
+        
+        # If no image or chart JSON file, raise an error to skip this frame
+        raise ValueError(f"Chart data missing or invalid for frame: {node.name}")
+
+
+
+class Chart_folder(FrameBase):
     size: Literal["full", "half"]
     option: dict
 
@@ -656,6 +702,8 @@ class Chart(FrameBase):
         
         # If no image or chart JSON file, raise an error to skip this frame
         raise ValueError(f"Chart data missing or invalid for frame: {node.name}")
+
+                
 
 
 class PhotoFullHeight(FrameBase):
