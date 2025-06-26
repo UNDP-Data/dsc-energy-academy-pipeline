@@ -84,7 +84,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The lifecycle of energy production includes all stages from raw material extraction to energy conversion, distribution, usage, and eventual waste management or decommissioning. This process accounts for environmental, economic, and social impacts at each phase. When looking at the entire lifecycle of energy production, renewable sources still have a significant edge. The emissions from solar and <ai prompt=\"Provide more info on wind energy.\">wind energy 💬️</ai> are much lower than those from coal and natural gas. For instance, coal and natural gas have lifecycle emissions of 1,001 and 486 grams of CO2 per kWh, while solar and wind technology have far less, with wind associated with 13 grams and solar associated with 43 grams of CO2 per kWh of energy they generate, primarily due to manufacturing and construction. These factors make renewables valuable for governments, non-state actors and businesses alike to decarbonize and reduce their exposure to climate risks."
+              "text": "The lifecycle of energy production includes all stages from raw material extraction to energy conversion, distribution, usage, and eventual waste management or decommissioning. This process accounts for environmental, economic, and social impacts at each phase. When looking at the entire lifecycle of energy production, renewable sources still have a significant edge. The emissions from solar and <ai prompt=\"Explain wind energy.\">wind energy 💬️</ai> are much lower than those from coal and natural gas. For instance, coal and natural gas have lifecycle emissions of 1,001 and 486 grams of CO2 per kWh, while solar and wind technology have far less, with wind associated with 13 grams and solar associated with 43 grams of CO2 per kWh of energy they generate, primarily due to manufacturing and construction. These factors make renewables valuable for governments, non-state actors and businesses alike to decarbonize and reduce their exposure to climate risks."
             }
           }
         ]
@@ -164,7 +164,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Similarly, <ai prompt=\"Explain clean cooking.\">clean cooking 💬️</ai> is key to addressing indoor air pollution, as seen in Module 2 on Energy Access. Traditional biomass and kerosene use release black carbon, a major contributor to indoor air pollution and severe respiratory illnesses, particularly in low-income households. Transitioning to cleaner energy sources for both electricity and cooking can significantly improve public health and reduce environmental harm."
+              "text": "Similarly, <ai prompt=\"What is clean cooking?\">clean cooking 💬️</ai> is key to addressing indoor air pollution, as seen in Module 2 on Energy Access. Traditional biomass and kerosene use release black carbon, a major contributor to indoor air pollution and severe respiratory illnesses, particularly in low-income households. Transitioning to cleaner energy sources for both electricity and cooking can significantly improve public health and reduce environmental harm."
             }
           }
         ]
@@ -204,7 +204,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Water use is another important issue when it comes to energy generation. Most energy systems rely on water for cooling and steam production. In 2021, global energy generation used about 370 billion cubic meters of freshwater, equating to 10% of worldwide freshwater withdrawals. Fossil fuel power plants were responsible for a large portion of this water use. <strong>Coal plants alone withdrew 189.6 billion cubic meters of water. In contrast, renewable energy technologies used just 12.1 billion cubic meters in 2021.</strong> As such, solar panels and wind turbines do not require water for cooling or steam production, using it only for cleaning and construction, significantly reducing overall water consumption. However, <ai prompt=\"Explain geothermal energy.\">geothermal energy 💬️</ai> does require water as a heat transfer fluid in the form of steam or hot water to generate electricity or provide direct heating, making its water use higher than other renewables."
+              "text": "Water use is another important issue when it comes to energy generation. Most energy systems rely on water for cooling and steam production. In 2021, global energy generation used about 370 billion cubic meters of freshwater, equating to 10% of worldwide freshwater withdrawals. Fossil fuel power plants were responsible for a large portion of this water use. <strong>Coal plants alone withdrew 189.6 billion cubic meters of water. In contrast, renewable energy technologies used just 12.1 billion cubic meters in 2021.</strong> As such, solar panels and wind turbines do not require water for cooling or steam production, using it only for cleaning and construction, significantly reducing overall water consumption. However, <ai prompt=\"Share details about geothermal energy.\">geothermal energy 💬️</ai> does require water as a heat transfer fluid in the form of steam or hot water to generate electricity or provide direct heating, making its water use higher than other renewables."
             }
           }
         ]
@@ -218,17 +218,17 @@
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 12,
+            "fontSize": 14,
             "fontWeight": "normal",
             "color": "#DDDDDD"
           },
           "axisLabel": {
-            "fontSize": 12,
+            "fontSize": 14,
             "color": "#AAAAAA"
           },
           "legend": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#CCCCCC"
             },
             "orient": "horizontal",
@@ -237,25 +237,25 @@
           },
           "tooltip": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#FFFFFF"
             },
             "backgroundColor": "rgba(30, 30, 30, 0.85)",
             "borderColor": "#555555",
             "formatter": null
           },
-          "backgroundColor": "#1e1e1e",
+          "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
             "#0468b1",
             "#fd6925",
-            "#c5192d",
-            "#3f7e44",
             "#19486a",
-            "#fd9d24",
-            "#dd1367",
+            "#3f7e44",
             "#4c9f38",
-            "#0a97d9"
+            "#fcc30b",
+            "#fd9d24",
+            "#c5192d",
+            "#0a97d9",
+            "#dd1367"
           ],
           "xAxis": {
             "axisLine": {
@@ -271,12 +271,12 @@
               "lineStyle": {
                 "type": "dashed",
                 "color": "#444444",
-                "opacity": 0.3
+                "opacity": 0.7
               }
             },
             "axisLabel": {
               "color": "#AAAAAA",
-              "fontSize": 12,
+              "fontSize": 14,
               "interval": 0
             },
             "nameTextStyle": {
@@ -306,21 +306,21 @@
             "splitLine": {
               "show": true,
               "lineStyle": {
-                "type": "dotted",
+                "type": "dashed",
                 "color": "#444444",
-                "opacity": 0.3
+                "opacity": 0.7
               }
             },
             "axisLabel": {
               "color": "#AAAAAA",
-              "fontSize": 12
+              "fontSize": 14
             },
             "nameTextStyle": {
               "color": "#CCCCCC",
               "fontSize": 14
             },
             "type": "value",
-            "name": "ADD UNIT"
+            "name": "BCM"
           },
           "label": {
             "overflow": "truncate",
@@ -341,7 +341,7 @@
           },
           "series": [
             {
-              "name": "2021 (BCM)",
+              "name": "2021",
               "type": "bar",
               "stack": "total",
               "emphasis": {
@@ -357,7 +357,7 @@
               ]
             },
             {
-              "name": "2030 (BCM)",
+              "name": "2030",
               "type": "bar",
               "stack": "total",
               "emphasis": {
@@ -374,7 +374,7 @@
             }
           ],
           "grid": {
-            "bottom": 60
+            "bottom": 100
           }
         }
       }

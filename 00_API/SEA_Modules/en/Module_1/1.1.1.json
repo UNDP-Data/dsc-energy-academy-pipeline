@@ -93,7 +93,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Note: The exact numbers for people lacking access to energy and <ai prompt=\"Tell me more about clean cooking.\">clean cooking 💬️</ai> have changed since the date of this Declaration."
+              "text": "Note: The exact numbers for people lacking access to energy and <ai prompt=\"What is clean cooking?\">clean cooking 💬️</ai> have changed since the date of this Declaration."
             }
           }
         ]
@@ -119,7 +119,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "To better understand this relationship, we often look at the <ai prompt=\"Clarify human development index.\">human development index 💬️</ai> (HDI), a measure that gives us a snapshot of a nation's overall well-being. The<a href=\"https://hdr.undp.org/data-center/human-development-index#/indicies/HDI\"><u> HDI</u></a> is a composite indicator consisting of life expectancy, education and per capita income indicators. Countries are scored between 0 and 1, with higher scores reflecting greater development."
+              "text": "To better understand this relationship, we often look at the <ai prompt=\"Provide more info on human development index.\">human development index 💬️</ai> (HDI), a measure that gives us a snapshot of a nation's overall well-being. The<a href=\"https://hdr.undp.org/data-center/human-development-index#/indicies/HDI\"><u> HDI</u></a> is a composite indicator consisting of life expectancy, education and per capita income indicators. Countries are scored between 0 and 1, with higher scores reflecting greater development."
             }
           },
           {
@@ -139,17 +139,17 @@
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 12,
+            "fontSize": 14,
             "fontWeight": "normal",
             "color": "#DDDDDD"
           },
           "axisLabel": {
-            "fontSize": 12,
+            "fontSize": 14,
             "color": "#AAAAAA"
           },
           "legend": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#CCCCCC"
             },
             "orient": "horizontal",
@@ -158,25 +158,25 @@
           },
           "tooltip": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#FFFFFF"
             },
             "backgroundColor": "rgba(30, 30, 30, 0.85)",
             "borderColor": "#555555",
             "formatter": null
           },
-          "backgroundColor": "#1e1e1e",
+          "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
             "#0468b1",
-            "#fd6925",
             "#c5192d",
-            "#3f7e44",
-            "#19486a",
-            "#fd9d24",
-            "#dd1367",
             "#4c9f38",
-            "#0a97d9"
+            "#0a97d9",
+            "#3f7e44",
+            "#fcc30b",
+            "#fd6925",
+            "#19486a",
+            "#dd1367",
+            "#fd9d24"
           ],
           "xAxis": {
             "axisLine": {
@@ -192,12 +192,12 @@
               "lineStyle": {
                 "type": "dashed",
                 "color": "#444444",
-                "opacity": 0.3
+                "opacity": 0.7
               }
             },
             "axisLabel": {
               "color": "#AAAAAA",
-              "fontSize": 12
+              "fontSize": 14
             },
             "nameTextStyle": {
               "color": "#CCCCCC",
@@ -218,14 +218,14 @@
             "splitLine": {
               "show": true,
               "lineStyle": {
-                "type": "dotted",
+                "type": "dashed",
                 "color": "#444444",
-                "opacity": 0.3
+                "opacity": 0.7
               }
             },
             "axisLabel": {
               "color": "#AAAAAA",
-              "fontSize": 12
+              "fontSize": 14
             },
             "nameTextStyle": {
               "color": "#CCCCCC",
@@ -877,17 +877,17 @@
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 12,
+            "fontSize": 14,
             "fontWeight": "normal",
             "color": "#DDDDDD"
           },
           "axisLabel": {
-            "fontSize": 12,
+            "fontSize": 14,
             "color": "#AAAAAA"
           },
           "legend": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#CCCCCC"
             },
             "orient": "horizontal",
@@ -897,7 +897,7 @@
           },
           "tooltip": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#FFFFFF"
             },
             "backgroundColor": "rgba(30, 30, 30, 0.85)",
@@ -905,18 +905,18 @@
             "formatter": null,
             "trigger": "item"
           },
-          "backgroundColor": "#1e1e1e",
+          "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
             "#0468b1",
-            "#fd6925",
+            "#4c9f38",
+            "#fcc30b",
+            "#dd1367",
+            "#fd9d24",
             "#c5192d",
             "#3f7e44",
-            "#19486a",
-            "#fd9d24",
-            "#dd1367",
-            "#4c9f38",
-            "#0a97d9"
+            "#0a97d9",
+            "#fd6925",
+            "#19486a"
           ],
           "label": {
             "overflow": "truncate",
@@ -938,7 +938,7 @@
             {
               "name": "Access From",
               "type": "pie",
-              "radius": "50%",
+              "radius": "100%",
               "data": [
                 {
                   "name": "Building",
@@ -1052,7 +1052,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>The global energy transition is gaining momentum, but beneath the surface of progress lies a series contradiction.<br /></strong><br /> Solar and wind are breaking records. Clean technologies are cheaper and spreading faster than ever before. <br /><br />And yet, fossil fuels remain deeply entrenched, access remains deeply unequal, and investment flows continue to bypass the communities that need them most. <br /><br />Are we truly transitioning or just rearranging the imbalance? Why is clean energy booming while fossil fuels still dominate? These questions are crucial to frame the issue of <ai prompt=\"Clarify energy for development.\">energy for development 💬️</ai> and question the systems at play in its transformation."
+              "text": "<strong>The global energy transition is gaining momentum, but beneath the surface of progress lies a series contradiction.<br /></strong><br /> Solar and wind are breaking records. Clean technologies are cheaper and spreading faster than ever before. <br /><br />And yet, fossil fuels remain deeply entrenched, access remains deeply unequal, and investment flows continue to bypass the communities that need them most. <br /><br />Are we truly transitioning or just rearranging the imbalance? Why is clean energy booming while fossil fuels still dominate? These questions are crucial to frame the issue of <ai prompt=\"Provide more info on energy for development.\">energy for development 💬️</ai> and question the systems at play in its transformation."
             }
           }
         ]
@@ -1072,10 +1072,389 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Faced with the dual challenge of balancing universal, affordable access with climate mitigation, the world is slowly starting to shift energy systems. <br /></strong><br />The cost of solar electricity has dropped by over 85% between 2010 and 2020 (<a href=\"https://www.irena.org/-/media/files/irena/agency/publication/2022/mar/irena_weto_summary_2022.pdf?la=en&hash=1da99d3c3334c84668f5caae029bd9a076c10079\"><u>IRENA</u></a>, 2022), and renewables are now the cheapest source of new power in most of the world. In 2024, clean energy investments reached a historic $2 trillion, more than doubling since 2020 (<a href=\"https://www.iea.org/news/investment-in-clean-energy-this-year-is-set-to-be-twice-the-amount-going-to-fossil-fuels\"><u>IEA</u></a>, 2024). As illustrated in the following chart, the share of renewable energy in global electricity generation has already risen from approximately 20% in 2000 to over 30% in 2023. Looking ahead, it is projected to increase by an additional 90% by 2030, compared to 2023 levels.<br /><br />Solar and wind are finally outcompeting coal and gas in many markets. For the first time, renewables are set to become the largest source of global electricity. <br /><br />Governments, companies, and communities around the world are increasingly committing to net-zero pathways. Breakthroughs in <ai prompt=\"What is battery storage?\">battery storage 💬️</ai>, green hydrogen, and energy access solutions offer hope. These are signs of genuine transformation. <br /><br /><strong>But is it happening fast enough?</strong>"
+              "text": "<strong>Faced with the dual challenge of balancing universal, affordable access with climate mitigation, the world is slowly starting to shift energy systems. <br /></strong><br />The cost of solar electricity has dropped by over 85% between 2010 and 2020 (<a href=\"https://www.irena.org/-/media/files/irena/agency/publication/2022/mar/irena_weto_summary_2022.pdf?la=en&hash=1da99d3c3334c84668f5caae029bd9a076c10079\"><u>IRENA</u></a>, 2022), and renewables are now the cheapest source of new power in most of the world. In 2024, clean energy investments reached a historic $2 trillion, more than doubling since 2020 (<a href=\"https://www.iea.org/news/investment-in-clean-energy-this-year-is-set-to-be-twice-the-amount-going-to-fossil-fuels\"><u>IEA</u></a>, 2024). As illustrated in the following chart, the share of renewable energy in global electricity generation has already risen from approximately 20% in 2000 to over 30% in 2023. Looking ahead, it is projected to increase by an additional 90% by 2030, compared to 2023 levels.<br /><br />Solar and wind are finally outcompeting coal and gas in many markets. For the first time, renewables are set to become the largest source of global electricity. <br /><br />Governments, companies, and communities around the world are increasingly committing to net-zero pathways. Breakthroughs in <ai prompt=\"Share details about battery storage.\">battery storage 💬️</ai>, green hydrogen, and energy access solutions offer hope. These are signs of genuine transformation. <br /><br /><strong>But is it happening fast enough?</strong>"
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll"
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0a97d9",
+            "#fd6925",
+            "#c5192d",
+            "#fcc30b",
+            "#fd9d24",
+            "#0468b1",
+            "#19486a",
+            "#4c9f38",
+            "#3f7e44",
+            "#dd1367"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              2000,
+              2001,
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022,
+              2023,
+              2024,
+              2025,
+              2026,
+              2027,
+              2028,
+              2029,
+              2030
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "%"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "line",
+              "name": "All renewable",
+              "data": [
+                18.4,
+                17.9,
+                17.9,
+                17.5,
+                17.9,
+                18.1,
+                18.2,
+                18.0,
+                18.6,
+                19.4,
+                19.5,
+                19.9,
+                20.8,
+                21.6,
+                22.1,
+                22.7,
+                23.6,
+                24.3,
+                25.1,
+                26.1,
+                28.0,
+                27.9,
+                29.4,
+                30.3,
+                32.1,
+                34.5,
+                36.7,
+                38.8,
+                41.0,
+                43.2,
+                45.6
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Variable renewable",
+              "data": [
+                0.2,
+                0.3,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.9,
+                1.2,
+                1.5,
+                1.7,
+                2.3,
+                2.7,
+                3.4,
+                3.8,
+                4.4,
+                5.1,
+                6.1,
+                6.9,
+                7.8,
+                9.1,
+                10.1,
+                11.7,
+                13.2,
+                15.0,
+                17.5,
+                19.8,
+                22.1,
+                24.5,
+                27.0,
+                29.5
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Hydropower",
+              "data": [
+                17.0,
+                16.5,
+                16.3,
+                15.8,
+                16.1,
+                16.1,
+                16.0,
+                15.6,
+                15.9,
+                16.2,
+                16.0,
+                15.8,
+                16.2,
+                16.3,
+                16.2,
+                16.1,
+                16.2,
+                15.9,
+                15.8,
+                15.8,
+                16.3,
+                15.1,
+                15.0,
+                14.3,
+                14.3,
+                14.2,
+                14.1,
+                13.8,
+                13.6,
+                13.3,
+                13.1
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Wind",
+              "data": [
+                0.2,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7,
+                0.9,
+                1.1,
+                1.4,
+                1.6,
+                2.0,
+                2.3,
+                2.8,
+                3.0,
+                3.4,
+                3.9,
+                4.4,
+                4.8,
+                5.3,
+                6.0,
+                6.5,
+                7.3,
+                7.8,
+                8.2,
+                9.2,
+                9.9,
+                10.7,
+                11.6,
+                12.5,
+                13.4
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Solar PV",
+              "data": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.1,
+                0.1,
+                0.1,
+                0.3,
+                0.4,
+                0.6,
+                0.8,
+                1.0,
+                1.3,
+                1.7,
+                2.1,
+                2.5,
+                3.1,
+                3.6,
+                4.4,
+                5.4,
+                6.8,
+                8.3,
+                9.8,
+                11.4,
+                12.9,
+                14.5,
+                16.1
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Other renewable",
+              "data": [
+                1.2,
+                1.2,
+                1.2,
+                1.3,
+                1.3,
+                1.4,
+                1.4,
+                1.5,
+                1.5,
+                1.7,
+                1.8,
+                1.8,
+                1.9,
+                2.0,
+                2.1,
+                2.2,
+                2.3,
+                2.4,
+                2.4,
+                2.5,
+                2.7,
+                2.7,
+                2.7,
+                2.8,
+                2.8,
+                2.8,
+                2.9,
+                2.9,
+                2.9,
+                3.0,
+                3.0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -1271,7 +1650,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The challenge with achieving a <ai prompt=\"Share details about just energy transition.\">just energy transition 💬️</ai> is that it has dual imperatives and multiple contradictions. <strong>How do we move beyond the current structure and build a system that is beneficial for people, planet and prosperity?<br /><br /></strong>This section explores the foundational shifts required to transition from today’s outdated, fossil-fueled energy systems to a future that is clean, inclusive, and climate-aligned. It begins by diagnosing the limitations of our current centralized energy model, one that disproportionately benefits the wealthy, remains heavily dependent on fossil fuels, and suffers from significant inefficiencies and sectoral vulnerabilities.<br /><br />It then presents the energy system we need: one that is renewable, non-polluting, and designed to deliver cross-sectoral development gains, from health and education to food security and resilience. <br /><br />Finally, it outlines key levers for transformative change in the coming decade. This section sets the stage for understanding that the <strong>energy transition is not just a technological upgrade, it is a political, social, and moral imperative.<br /></strong>"
+              "text": "The challenge with achieving a <ai prompt=\"Explain just energy transition.\">just energy transition 💬️</ai> is that it has dual imperatives and multiple contradictions. <strong>How do we move beyond the current structure and build a system that is beneficial for people, planet and prosperity?<br /><br /></strong>This section explores the foundational shifts required to transition from today’s outdated, fossil-fueled energy systems to a future that is clean, inclusive, and climate-aligned. It begins by diagnosing the limitations of our current centralized energy model, one that disproportionately benefits the wealthy, remains heavily dependent on fossil fuels, and suffers from significant inefficiencies and sectoral vulnerabilities.<br /><br />It then presents the energy system we need: one that is renewable, non-polluting, and designed to deliver cross-sectoral development gains, from health and education to food security and resilience. <br /><br />Finally, it outlines key levers for transformative change in the coming decade. This section sets the stage for understanding that the <strong>energy transition is not just a technological upgrade, it is a political, social, and moral imperative.<br /></strong>"
             }
           }
         ]

@@ -150,7 +150,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The world has made significant strides toward sustainable energy targets. Since <strong>2015, the number of people without electricity has dropped from 958 million to 685 million</strong>, and those without access to <ai prompt=\"Share details about clean cooking.\">clean cooking 💬️</ai> fuels fell from 2.8 billion to 2.1 billion (<a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2024-0611-v9-highresforweb.pdf\"><u>IEA</u></a>, 2024). Renewable energy capacity is expanding rapidly, with growth expected to continue at an unprecedented pace."
+              "text": "The world has made significant strides toward sustainable energy targets. Since <strong>2015, the number of people without electricity has dropped from 958 million to 685 million</strong>, and those without access to <ai prompt=\"Clarify clean cooking.\">clean cooking 💬️</ai> fuels fell from 2.8 billion to 2.1 billion (<a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2024-0611-v9-highresforweb.pdf\"><u>IEA</u></a>, 2024). Renewable energy capacity is expanding rapidly, with growth expected to continue at an unprecedented pace."
             }
           }
         ]
@@ -217,17 +217,17 @@
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 12,
+            "fontSize": 14,
             "fontWeight": "normal",
             "color": "#DDDDDD"
           },
           "axisLabel": {
-            "fontSize": 12,
+            "fontSize": 14,
             "color": "#AAAAAA"
           },
           "legend": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#CCCCCC"
             },
             "orient": "horizontal",
@@ -236,25 +236,25 @@
           },
           "tooltip": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#FFFFFF"
             },
             "backgroundColor": "rgba(30, 30, 30, 0.85)",
             "borderColor": "#555555",
             "formatter": null
           },
-          "backgroundColor": "#1e1e1e",
+          "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
             "#0468b1",
-            "#fd6925",
-            "#c5192d",
             "#3f7e44",
-            "#19486a",
-            "#fd9d24",
             "#dd1367",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#fd6925",
             "#4c9f38",
-            "#0a97d9"
+            "#c5192d",
+            "#fcc30b"
           ],
           "xAxis": {
             "axisLine": {
@@ -270,12 +270,12 @@
               "lineStyle": {
                 "type": "dashed",
                 "color": "#444444",
-                "opacity": 0.3
+                "opacity": 0.7
               }
             },
             "axisLabel": {
               "color": "#AAAAAA",
-              "fontSize": 12
+              "fontSize": 14
             },
             "nameTextStyle": {
               "color": "#CCCCCC",
@@ -286,7 +286,7 @@
               0,
               0.01
             ],
-            "name": "ADD UNIT"
+            "name": "%"
           },
           "yAxis": {
             "axisLine": {
@@ -300,14 +300,14 @@
             "splitLine": {
               "show": true,
               "lineStyle": {
-                "type": "dotted",
+                "type": "dashed",
                 "color": "#444444",
-                "opacity": 0.3
+                "opacity": 0.7
               }
             },
             "axisLabel": {
               "color": "#AAAAAA",
-              "fontSize": 12
+              "fontSize": 14
             },
             "nameTextStyle": {
               "color": "#CCCCCC",
@@ -315,15 +315,12 @@
             },
             "type": "category",
             "data": [
-              "Total Final Energy Consumption",
-              "Modern renewable sources",
-              "Traditional use of biomass",
+              "Final Energy Consumption",
               "Electricity",
               "Transport",
-              "Heat",
-              "Modern renewable sources",
-              "Traditional use of biomass"
-            ]
+              "Heat"
+            ],
+            "name": "Category"
           },
           "label": {
             "overflow": "truncate",
@@ -347,13 +344,9 @@
               "type": "bar",
               "data": [
                 16.7,
-                10.0,
-                6.7,
                 22.9,
                 3.5,
-                23.0,
-                9.3,
-                13.7
+                23.0
               ]
             },
             {
@@ -361,19 +354,12 @@
               "type": "bar",
               "data": [
                 18.7,
-                12.5,
-                6.2,
                 28.2,
                 4.4,
-                23.5,
-                10.5,
-                13.0
+                23.5
               ]
             }
-          ],
-          "grid": {
-            "left": 217
-          }
+          ]
         }
       }
     },
@@ -385,7 +371,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Global gains in renewable energy have been impressive, with per capita installed capacity for renewable electricity nearly doubling from 250 watts in 2015 to 424 watts in 2022 </strong>(<a href=\"https://unstats.un.org/sdgs/report/2024/Goal-07/\"><u>UNstats</u></a>, 2023)<strong>. Over the past five years, the sector achieved an unprecedented annual growth rate of 8.1%. <br /><br /></strong>But this progress is not shared equally. In 2022, Least Developed Countries (LDCs) reached just 40 watts per capita, while Landlocked Developing Countries (LLDCs) and <ai prompt=\"Explain small island developing states.\">small island developing states 💬️</ai> (SIDS) achieved 103 and 101 watts, respectively. At their current pace, it would take LDCs 41 years, LLDCs 38 years, and SIDS 11 years to match where developing countries are today. This stark disparity highlights the urgent need to accelerate efforts and ensure equitable access to sustainable energy worldwide. <br /><br />This disparity stems from limited investment, high capital costs, weaker grid infrastructure, and challenges in accessing finance—all of which hinder renewable energy deployment in many developing economies. <br /><br />More on how to overcome these challenges in the upcoming modules."
+              "text": "<strong>Global gains in renewable energy have been impressive, with per capita installed capacity for renewable electricity nearly doubling from 250 watts in 2015 to 424 watts in 2022 </strong>(<a href=\"https://unstats.un.org/sdgs/report/2024/Goal-07/\"><u>UNstats</u></a>, 2023)<strong>. Over the past five years, the sector achieved an unprecedented annual growth rate of 8.1%. <br /><br /></strong>But this progress is not shared equally. In 2022, Least Developed Countries (LDCs) reached just 40 watts per capita, while Landlocked Developing Countries (LLDCs) and <ai prompt=\"Share details about small island developing states.\">small island developing states 💬️</ai> (SIDS) achieved 103 and 101 watts, respectively. At their current pace, it would take LDCs 41 years, LLDCs 38 years, and SIDS 11 years to match where developing countries are today. This stark disparity highlights the urgent need to accelerate efforts and ensure equitable access to sustainable energy worldwide. <br /><br />This disparity stems from limited investment, high capital costs, weaker grid infrastructure, and challenges in accessing finance—all of which hinder renewable energy deployment in many developing economies. <br /><br />More on how to overcome these challenges in the upcoming modules."
             }
           }
         ]
@@ -399,17 +385,17 @@
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 12,
+            "fontSize": 14,
             "fontWeight": "normal",
             "color": "#DDDDDD"
           },
           "axisLabel": {
-            "fontSize": 12,
+            "fontSize": 14,
             "color": "#AAAAAA"
           },
           "legend": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#CCCCCC"
             },
             "orient": "horizontal",
@@ -418,24 +404,24 @@
           },
           "tooltip": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#FFFFFF"
             },
             "backgroundColor": "rgba(30, 30, 30, 0.85)",
             "borderColor": "#555555",
             "formatter": null
           },
-          "backgroundColor": "#1e1e1e",
+          "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#0468b1",
-            "#fd6925",
-            "#c5192d",
             "#3f7e44",
             "#19486a",
-            "#fd9d24",
+            "#c5192d",
             "#dd1367",
+            "#fd9d24",
             "#4c9f38",
+            "#fcc30b",
+            "#fd6925",
+            "#0468b1",
             "#0a97d9"
           ],
           "xAxis": {
@@ -452,12 +438,12 @@
               "lineStyle": {
                 "type": "dashed",
                 "color": "#444444",
-                "opacity": 0.3
+                "opacity": 0.7
               }
             },
             "axisLabel": {
               "color": "#AAAAAA",
-              "fontSize": 12
+              "fontSize": 14
             },
             "nameTextStyle": {
               "color": "#CCCCCC",
@@ -468,7 +454,7 @@
               0,
               0.01
             ],
-            "name": "ADD UNIT"
+            "name": "Watts per capita"
           },
           "yAxis": {
             "axisLine": {
@@ -482,14 +468,14 @@
             "splitLine": {
               "show": true,
               "lineStyle": {
-                "type": "dotted",
+                "type": "dashed",
                 "color": "#444444",
-                "opacity": 0.3
+                "opacity": 0.7
               }
             },
             "axisLabel": {
               "color": "#AAAAAA",
-              "fontSize": 12
+              "fontSize": 14
             },
             "nameTextStyle": {
               "color": "#CCCCCC",
@@ -503,7 +489,8 @@
               "Landlocked developing countries",
               "Small island developing States",
               "World"
-            ]
+            ],
+            "name": "Category"
           },
           "label": {
             "overflow": "truncate",
@@ -523,7 +510,7 @@
           },
           "series": [
             {
-              "name": "2015 (watts per capita)",
+              "name": "2015",
               "type": "bar",
               "data": [
                 155,
@@ -535,7 +522,7 @@
               ]
             },
             {
-              "name": "2022 (watts per capita)",
+              "name": "2022",
               "type": "bar",
               "data": [
                 293,
@@ -546,10 +533,7 @@
                 424
               ]
             }
-          ],
-          "grid": {
-            "left": 217
-          }
+          ]
         }
       }
     },
@@ -561,7 +545,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Despite commitments through <ai prompt=\"What is nationally determined contributions?\">nationally determined contributions 💬️</ai> (NDCs) and Long-Term Low Emission Development Strategies (LT-LEDS), the current efforts are not enough to meet the 1.5°C target. <br /><br /></strong>If all pledges made in the run up to COP28 were fully implemented, CO2 emissions would drop by just 1.4 gigatonnes (GtCO2) by 2030 and 2.3 GtCO2 by 2050. This still leaves a gap of 18 GtCO2 to close by mid-century. At this rate, global energy-related emissions would reach <a href=\"https://climatepromise.undp.org/news-and-stories/what-sustainable-energy-transition-and-why-it-key-tackling-climate-change#:~:text=At%20this%20rate%2C%20global%20energy,catastrophic%20impacts%20of%20climate%20change.\"><u>35.2 GtCO2 in 2030</u></a>—far above the 23 GtCO2 required under the 1.5°C pathway outlined by the International Renewable Energy Agency (IRENA). <br /><br />Current pledges could cut emissions by 3% by 2030 and 51% by 2050 compared to 2022 levels (<a href=\"https://climatepromise.undp.org/news-and-stories/what-sustainable-energy-transition-and-why-it-key-tackling-climate-change\"><u>UNDP</u></a>, 2025). While this represents some progress, it falls well short of what is needed to keep global warming within safe limits. <br /><br />However, this outlook may change, as countries are set to update their NDCs by COP30. The upcoming revisions could strengthen 2030 and 2050 targets, potentially closing some of the emissions gap."
+              "text": "<strong>Despite commitments through <ai prompt=\"Explain nationally determined contributions.\">nationally determined contributions 💬️</ai> (NDCs) and Long-Term Low Emission Development Strategies (LT-LEDS), the current efforts are not enough to meet the 1.5°C target. <br /><br /></strong>If all pledges made in the run up to COP28 were fully implemented, CO2 emissions would drop by just 1.4 gigatonnes (GtCO2) by 2030 and 2.3 GtCO2 by 2050. This still leaves a gap of 18 GtCO2 to close by mid-century. At this rate, global energy-related emissions would reach <a href=\"https://climatepromise.undp.org/news-and-stories/what-sustainable-energy-transition-and-why-it-key-tackling-climate-change#:~:text=At%20this%20rate%2C%20global%20energy,catastrophic%20impacts%20of%20climate%20change.\"><u>35.2 GtCO2 in 2030</u></a>—far above the 23 GtCO2 required under the 1.5°C pathway outlined by the International Renewable Energy Agency (IRENA). <br /><br />Current pledges could cut emissions by 3% by 2030 and 51% by 2050 compared to 2022 levels (<a href=\"https://climatepromise.undp.org/news-and-stories/what-sustainable-energy-transition-and-why-it-key-tackling-climate-change\"><u>UNDP</u></a>, 2025). While this represents some progress, it falls well short of what is needed to keep global warming within safe limits. <br /><br />However, this outlook may change, as countries are set to update their NDCs by COP30. The upcoming revisions could strengthen 2030 and 2050 targets, potentially closing some of the emissions gap."
             }
           }
         ]
@@ -575,7 +559,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Advancing a <ai prompt=\"Explain just energy transition.\">just energy transition 💬️</ai> </strong>"
+              "text": "<strong>Advancing a <ai prompt=\"Provide more info on just energy transition.\">just energy transition 💬️</ai> </strong>"
             }
           },
           {
@@ -595,7 +579,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The concept of a just energy transition ensures that the shift to sustainable energy systems addresses inequalities and promotes inclusivity. It seeks to balance the urgent need to reduce carbon emissions with the responsibility of equitably distributing the benefits and burdens of this transition. Special attention is given to vulnerable and marginalized groups, such as low-income communities, Indigenous Peoples—whose land rights and traditional practices are often at stake—women, and workers in carbon-intensive industries, who might otherwise be disproportionately affected.<br /><br />By embedding principles of fairness and equity, a just energy transition supports livelihoods, fosters social cohesion, and ensures that no one is left behind in the journey toward a sustainable future. <br /><br />Promisingly, momentum around “just transition” is gathering pace. We are seeing it emerge in the global dialogue around <ai prompt=\"Share details about decarbonization.\">decarbonization 💬️</ai> and net zero. More countries are referencing it in their short and long-term climate plans. Partners are coming together, and coalitions are forming. <br /><br />More on just energy transitions in Module 3."
+              "text": "The concept of a just energy transition ensures that the shift to sustainable energy systems addresses inequalities and promotes inclusivity. It seeks to balance the urgent need to reduce carbon emissions with the responsibility of equitably distributing the benefits and burdens of this transition. Special attention is given to vulnerable and marginalized groups, such as low-income communities, Indigenous Peoples—whose land rights and traditional practices are often at stake—women, and workers in carbon-intensive industries, who might otherwise be disproportionately affected.<br /><br />By embedding principles of fairness and equity, a just energy transition supports livelihoods, fosters social cohesion, and ensures that no one is left behind in the journey toward a sustainable future. <br /><br />Promisingly, momentum around “just transition” is gathering pace. We are seeing it emerge in the global dialogue around <ai prompt=\"Tell me more about decarbonization.\">decarbonization 💬️</ai> and net zero. More countries are referencing it in their short and long-term climate plans. Partners are coming together, and coalitions are forming. <br /><br />More on just energy transitions in Module 3."
             }
           }
         ]

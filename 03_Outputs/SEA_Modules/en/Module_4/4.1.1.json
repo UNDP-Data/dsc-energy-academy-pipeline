@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_7.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_3.png",
           "caption": ""
         },
         "lesson": {
@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "This lesson explores how global investment in the clean energy sector is shifting in response to the accelerating global energy transition. As countries work to decarbonize their economies, investments in clean energy technologies such as solar, wind and <ai prompt=\"Explain energy storage.\">energy storage 💬️</ai> have surged. <br />This lesson aims to show how capital flows have evolved in recent years and how clean energy is becoming a central pillar of the global energy mix. <br />Additionally, the lesson also wants to show regional disparities in investment, particularly between developed and developing countries, and the urgent need for more capital to meet global climate goals.<br />Ultimately, learners will gain insights into the key drivers and challenges influencing the global clean energy investments worldwide."
+              "text": "This lesson explores how global investment in the clean energy sector is shifting in response to the accelerating global energy transition. As countries work to decarbonize their economies, investments in clean energy technologies such as solar, wind and <ai prompt=\"What is energy storage?\">energy storage 💬️</ai> have surged. <br />This lesson aims to show how capital flows have evolved in recent years and how clean energy is becoming a central pillar of the global energy mix. <br />Additionally, the lesson also wants to show regional disparities in investment, particularly between developed and developing countries, and the urgent need for more capital to meet global climate goals.<br />Ultimately, learners will gain insights into the key drivers and challenges influencing the global clean energy investments worldwide."
             }
           }
         ]
@@ -43,7 +43,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_6.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_9.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -72,11 +72,303 @@
       }
     },
     {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll"
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0468b1",
+            "#0a97d9",
+            "#3f7e44",
+            "#c5192d",
+            "#fcc30b",
+            "#fd6925",
+            "#dd1367",
+            "#fd9d24",
+            "#4c9f38",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Billion USD"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Renewable power",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                331,
+                340,
+                351,
+                377,
+                451,
+                494,
+                517,
+                596,
+                659
+              ]
+            },
+            {
+              "name": "Energy efficiency",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                271,
+                304,
+                287,
+                264,
+                292,
+                278,
+                349,
+                391,
+                377
+              ]
+            },
+            {
+              "name": "Other end use",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                109,
+                106,
+                110,
+                118,
+                113,
+                107,
+                110,
+                114,
+                118
+              ]
+            },
+            {
+              "name": "Grids",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                325,
+                336,
+                326,
+                317,
+                300,
+                296,
+                308,
+                332,
+                331
+              ]
+            },
+            {
+              "name": "Electric vehicle",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0,
+                1,
+                5,
+                14,
+                21,
+                29,
+                60,
+                95,
+                129
+              ]
+            },
+            {
+              "name": "Battery storage",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                2,
+                3,
+                3,
+                5,
+                5,
+                7,
+                10,
+                21,
+                37
+              ]
+            },
+            {
+              "name": "Nuclear",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                29,
+                35,
+                39,
+                36,
+                37,
+                40,
+                45,
+                53,
+                63
+              ]
+            },
+            {
+              "name": "Low-emission fuels and carbon capture utilisation and storage",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                7,
+                7,
+                7,
+                6,
+                7,
+                7,
+                8,
+                15,
+                26
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
+      }
+    },
+    {
       "template_id": "photo_full_height",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Outro_1.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_9.png",
           "caption": ""
         }
       }
@@ -101,7 +393,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_13.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Outro_3.png",
           "caption": ""
         }
       }
@@ -111,7 +403,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_8.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_1.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -140,17 +432,17 @@
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 12,
+            "fontSize": 14,
             "fontWeight": "normal",
             "color": "#DDDDDD"
           },
           "axisLabel": {
-            "fontSize": 12,
+            "fontSize": 14,
             "color": "#AAAAAA"
           },
           "legend": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#CCCCCC"
             },
             "orient": "horizontal",
@@ -159,25 +451,25 @@
           },
           "tooltip": {
             "textStyle": {
-              "fontSize": 12,
+              "fontSize": 14,
               "color": "#FFFFFF"
             },
             "backgroundColor": "rgba(30, 30, 30, 0.85)",
             "borderColor": "#555555",
             "formatter": null
           },
-          "backgroundColor": "#1e1e1e",
+          "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
             "#fcc30b",
+            "#3f7e44",
+            "#0a97d9",
             "#0468b1",
             "#fd6925",
-            "#c5192d",
-            "#3f7e44",
-            "#19486a",
-            "#fd9d24",
             "#dd1367",
+            "#19486a",
             "#4c9f38",
-            "#0a97d9"
+            "#c5192d",
+            "#fd9d24"
           ],
           "xAxis": {
             "axisLine": {
@@ -193,12 +485,12 @@
               "lineStyle": {
                 "type": "dashed",
                 "color": "#444444",
-                "opacity": 0.3
+                "opacity": 0.7
               }
             },
             "axisLabel": {
               "color": "#AAAAAA",
-              "fontSize": 12,
+              "fontSize": 14,
               "interval": 0
             },
             "nameTextStyle": {
@@ -215,8 +507,8 @@
               "2018",
               "2019",
               "2020",
-              "2021*",
-              "2022*"
+              "2021",
+              "2022"
             ],
             "name": "Year"
           },
@@ -232,21 +524,22 @@
             "splitLine": {
               "show": true,
               "lineStyle": {
-                "type": "dotted",
+                "type": "dashed",
                 "color": "#444444",
-                "opacity": 0.3
+                "opacity": 0.7
               }
             },
             "axisLabel": {
               "color": "#AAAAAA",
-              "fontSize": 12
+              "fontSize": 14
             },
             "nameTextStyle": {
               "color": "#CCCCCC",
               "fontSize": 14
             },
             "type": "value",
-            "name": "ADD UNIT"
+            "max": 1,
+            "name": "%"
           },
           "label": {
             "overflow": "truncate",
@@ -270,15 +563,17 @@
               "name": "East Asia and Pacific",
               "type": "bar",
               "stack": "total",
-              "emphasis": {
-                "focus": "series"
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
               },
               "data": [
                 0.4,
                 0.43,
                 0.46,
                 0.41,
-                0.41,
+                0.4019607843137255,
                 0.29,
                 0.42,
                 0.49,
@@ -290,15 +585,17 @@
               "name": "North America (excl. Mexico)",
               "type": "bar",
               "stack": "total",
-              "emphasis": {
-                "focus": "series"
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
               },
               "data": [
                 0.14,
                 0.14,
                 0.13,
                 0.19,
-                0.16,
+                0.1568627450980392,
                 0.23,
                 0.21,
                 0.15,
@@ -310,15 +607,17 @@
               "name": "Europe",
               "type": "bar",
               "stack": "total",
-              "emphasis": {
-                "focus": "series"
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
               },
               "data": [
                 0.21,
                 0.2,
                 0.21,
                 0.2,
-                0.14,
+                0.13725490196078433,
                 0.21,
                 0.16,
                 0.19,
@@ -330,15 +629,17 @@
               "name": "Eurasia",
               "type": "bar",
               "stack": "total",
-              "emphasis": {
-                "focus": "series"
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
               },
               "data": [
                 0.02,
                 0.01,
                 0.01,
                 0.01,
-                0.01,
+                0.00980392156862745,
                 0.01,
                 0.01,
                 0.01,
@@ -350,15 +651,17 @@
               "name": "Latin America & Caribbean",
               "type": "bar",
               "stack": "total",
-              "emphasis": {
-                "focus": "series"
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
               },
               "data": [
                 0.08,
                 0.07,
                 0.08,
                 0.05,
-                0.06,
+                0.058823529411764705,
                 0.06,
                 0.06,
                 0.05,
@@ -370,15 +673,17 @@
               "name": "South Asia",
               "type": "bar",
               "stack": "total",
-              "emphasis": {
-                "focus": "series"
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
               },
               "data": [
                 0.03,
                 0.04,
                 0.04,
                 0.04,
-                0.05,
+                0.049019607843137254,
                 0.03,
                 0.06,
                 0.05,
@@ -390,15 +695,17 @@
               "name": "Sub-Saharan Africa",
               "type": "bar",
               "stack": "total",
-              "emphasis": {
-                "focus": "series"
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
               },
               "data": [
                 0.02,
                 0.01,
                 0.02,
                 0.02,
-                0.02,
+                0.0196078431372549,
                 0.01,
                 0.01,
                 0.01,
@@ -410,15 +717,17 @@
               "name": "Others",
               "type": "bar",
               "stack": "total",
-              "emphasis": {
-                "focus": "series"
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
               },
               "data": [
                 0.1,
                 0.1,
                 0.05,
                 0.08,
-                0.17,
+                0.16666666666666666,
                 0.16,
                 0.07,
                 0.05,
@@ -428,7 +737,7 @@
             }
           ],
           "grid": {
-            "bottom": 40
+            "bottom": 80
           }
         }
       }
@@ -477,7 +786,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "In the <strong>United States</strong>, the energy-related provisions of the <strong>2022 Inflation Reduction Act (IRA)</strong>, are expected to represent almost $870 billions of targeted support through 2031 in the form of tax credits, grants and loans, and investments in clean electricity, vehicle electrification, energy efficiency, <ai prompt=\"Explain carbon capture and storage.\">carbon capture and storage 💬️</ai> and low-carbon hydrogen. The US is the second-largest funding destination for energy transition technologies, with a total of $303 million spent in 2023 (<a href=\"https://assets.bbhub.io/professional/sites/24/Energy-Transition-Investment-Trends-2024.pdf?\"><u>BNEF, 2024</u></a>) However, as of January 2025, the Trump Administration have suspended the IRA through an Executive Order and immediately paused the disbursement of funds appropriated through the IRA, although the vast majority of grants for clean energy programs appropriated under the IRA (<a href=\"https://www.reuters.com/sustainability/sustainable-finance-reporting/white-house-says-order-pausing-ira-disbursements-only-applies-some-programs-2025-01-22/\"><u>Reuters, 2025</u></a>)<br /><br />In the <strong>EU</strong>, the European Commission's <a href=\"https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal/green-deal-industrial-plan_en\"><u>Green Deal Industrial Plan for the Net-Zero Age</u></a>, introduced in February 2023 provides investment aid, simplified regulatory frameworks and tax breaks for net-zero product development, manufacturing, production, and installation in renewables and hydrogen sectors. The plan seeks EUR 225 billion in loans from the Recovery and Resilience Facility and EUR 20 billion in grants to support investments and reforms in the energy sector."
+              "text": "In the <strong>United States</strong>, the energy-related provisions of the <strong>2022 Inflation Reduction Act (IRA)</strong>, are expected to represent almost $870 billions of targeted support through 2031 in the form of tax credits, grants and loans, and investments in clean electricity, vehicle electrification, energy efficiency, <ai prompt=\"Share details about carbon capture and storage.\">carbon capture and storage 💬️</ai> and low-carbon hydrogen. The US is the second-largest funding destination for energy transition technologies, with a total of $303 million spent in 2023 (<a href=\"https://assets.bbhub.io/professional/sites/24/Energy-Transition-Investment-Trends-2024.pdf?\"><u>BNEF, 2024</u></a>) However, as of January 2025, the Trump Administration have suspended the IRA through an Executive Order and immediately paused the disbursement of funds appropriated through the IRA, although the vast majority of grants for clean energy programs appropriated under the IRA (<a href=\"https://www.reuters.com/sustainability/sustainable-finance-reporting/white-house-says-order-pausing-ira-disbursements-only-applies-some-programs-2025-01-22/\"><u>Reuters, 2025</u></a>)<br /><br />In the <strong>EU</strong>, the European Commission's <a href=\"https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal/green-deal-industrial-plan_en\"><u>Green Deal Industrial Plan for the Net-Zero Age</u></a>, introduced in February 2023 provides investment aid, simplified regulatory frameworks and tax breaks for net-zero product development, manufacturing, production, and installation in renewables and hydrogen sectors. The plan seeks EUR 225 billion in loans from the Recovery and Resilience Facility and EUR 20 billion in grants to support investments and reforms in the energy sector."
             }
           }
         ]
@@ -508,7 +817,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_7.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_7.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -542,7 +851,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_12.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_16.png",
           "caption": ""
         }
       }
@@ -552,7 +861,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Intro_2.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_7.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -592,7 +901,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_10.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_4.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -624,7 +933,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_3.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_11.png",
           "caption": ""
         }
       }
@@ -634,7 +943,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_14.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_1.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -664,7 +973,7 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_15.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_7.png",
               "caption": ""
             },
             "title": "Investment in clean energy technologies is growing but remains insufficient to meet global climate targets Emerging Markets and Developing Economies (EMDEs) outside China account for only around 15% of global clean energy investment.",
@@ -672,7 +981,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_9.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_2.png",
               "caption": ""
             },
             "title": "Significant investment disparities exist in the global energy transition China, the U.S. and the EU are leading the global energy transition race, while especially Sub-Saharan Africa is lagging significantly behind only receiving 2% of the amount invested globally in clean energy investments between 2000 and 2024, despite hosting over half of the world's population.",
@@ -680,7 +989,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_5.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_4.png",
               "caption": ""
             },
             "title": "Regional disparities in energy transition investments highlight the need for equitable financing mechanisms. Many EMDE’s are facing the triple penalty of energy transition limiting their possibilities and creating a systemic disadvantage and increasing their risks to be stuck in fossil fuel/carbon lock-in and limiting their ability to meet their climate and sustainable development goals.",

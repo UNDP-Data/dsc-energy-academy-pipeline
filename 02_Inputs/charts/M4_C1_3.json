@@ -1,17 +1,17 @@
 {
   "textStyle": {
     "fontFamily": "Proxima Nova, sans-serif",
-    "fontSize": 12,
+    "fontSize": 14,
     "fontWeight": "normal",
     "color": "#DDDDDD"
   },
   "axisLabel": {
-    "fontSize": 12,
+    "fontSize": 14,
     "color": "#AAAAAA"
   },
   "legend": {
     "textStyle": {
-      "fontSize": 12,
+      "fontSize": 14,
       "color": "#CCCCCC"
     },
     "orient": "horizontal",
@@ -20,25 +20,25 @@
   },
   "tooltip": {
     "textStyle": {
-      "fontSize": 12,
+      "fontSize": 14,
       "color": "#FFFFFF"
     },
     "backgroundColor": "rgba(30, 30, 30, 0.85)",
     "borderColor": "#555555",
     "formatter": null
   },
-  "backgroundColor": "#1e1e1e",
+  "backgroundColor": "rgba(28, 29, 24, 1)",
   "color": [
     "#fcc30b",
+    "#3f7e44",
+    "#0a97d9",
     "#0468b1",
     "#fd6925",
-    "#c5192d",
-    "#3f7e44",
-    "#19486a",
-    "#fd9d24",
     "#dd1367",
+    "#19486a",
     "#4c9f38",
-    "#0a97d9"
+    "#c5192d",
+    "#fd9d24"
   ],
   "xAxis": {
     "axisLine": {
@@ -54,12 +54,12 @@
       "lineStyle": {
         "type": "dashed",
         "color": "#444444",
-        "opacity": 0.3
+        "opacity": 0.7
       }
     },
     "axisLabel": {
       "color": "#AAAAAA",
-      "fontSize": 12,
+      "fontSize": 14,
       "interval": 0
     },
     "nameTextStyle": {
@@ -76,8 +76,8 @@
       "2018",
       "2019",
       "2020",
-      "2021*",
-      "2022*"
+      "2021",
+      "2022"
     ],
     "name": "Year"
   },
@@ -93,21 +93,22 @@
     "splitLine": {
       "show": true,
       "lineStyle": {
-        "type": "dotted",
+        "type": "dashed",
         "color": "#444444",
-        "opacity": 0.3
+        "opacity": 0.7
       }
     },
     "axisLabel": {
       "color": "#AAAAAA",
-      "fontSize": 12
+      "fontSize": 14
     },
     "nameTextStyle": {
       "color": "#CCCCCC",
       "fontSize": 14
     },
     "type": "value",
-    "name": "ADD UNIT"
+    "max": 1,
+    "name": "%"
   },
   "label": {
     "overflow": "truncate",
@@ -131,15 +132,17 @@
       "name": "East Asia and Pacific",
       "type": "bar",
       "stack": "total",
-      "emphasis": {
-        "focus": "series"
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
       },
       "data": [
         0.4,
         0.43,
         0.46,
         0.41,
-        0.41,
+        0.4019607843137255,
         0.29,
         0.42,
         0.49,
@@ -151,15 +154,17 @@
       "name": "North America (excl. Mexico)",
       "type": "bar",
       "stack": "total",
-      "emphasis": {
-        "focus": "series"
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
       },
       "data": [
         0.14,
         0.14,
         0.13,
         0.19,
-        0.16,
+        0.1568627450980392,
         0.23,
         0.21,
         0.15,
@@ -171,15 +176,17 @@
       "name": "Europe",
       "type": "bar",
       "stack": "total",
-      "emphasis": {
-        "focus": "series"
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
       },
       "data": [
         0.21,
         0.2,
         0.21,
         0.2,
-        0.14,
+        0.13725490196078433,
         0.21,
         0.16,
         0.19,
@@ -191,15 +198,17 @@
       "name": "Eurasia",
       "type": "bar",
       "stack": "total",
-      "emphasis": {
-        "focus": "series"
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
       },
       "data": [
         0.02,
         0.01,
         0.01,
         0.01,
-        0.01,
+        0.00980392156862745,
         0.01,
         0.01,
         0.01,
@@ -211,15 +220,17 @@
       "name": "Latin America & Caribbean",
       "type": "bar",
       "stack": "total",
-      "emphasis": {
-        "focus": "series"
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
       },
       "data": [
         0.08,
         0.07,
         0.08,
         0.05,
-        0.06,
+        0.058823529411764705,
         0.06,
         0.06,
         0.05,
@@ -231,15 +242,17 @@
       "name": "South Asia",
       "type": "bar",
       "stack": "total",
-      "emphasis": {
-        "focus": "series"
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
       },
       "data": [
         0.03,
         0.04,
         0.04,
         0.04,
-        0.05,
+        0.049019607843137254,
         0.03,
         0.06,
         0.05,
@@ -251,15 +264,17 @@
       "name": "Sub-Saharan Africa",
       "type": "bar",
       "stack": "total",
-      "emphasis": {
-        "focus": "series"
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
       },
       "data": [
         0.02,
         0.01,
         0.02,
         0.02,
-        0.02,
+        0.0196078431372549,
         0.01,
         0.01,
         0.01,
@@ -271,15 +286,17 @@
       "name": "Others",
       "type": "bar",
       "stack": "total",
-      "emphasis": {
-        "focus": "series"
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
       },
       "data": [
         0.1,
         0.1,
         0.05,
         0.08,
-        0.17,
+        0.16666666666666666,
         0.16,
         0.07,
         0.05,
@@ -289,6 +306,6 @@
     }
   ],
   "grid": {
-    "bottom": 40
+    "bottom": 80
   }
 }

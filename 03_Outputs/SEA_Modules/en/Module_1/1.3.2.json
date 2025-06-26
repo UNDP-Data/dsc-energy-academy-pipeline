@@ -85,10 +85,157 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "people still lack access to <ai prompt=\"Explain clean cooking.\">clean cooking 💬️</ai> and around 17 million people lack access to electricity, primarily in rural and remote areas. <br /><br />The region's renewable energy potential, combined with smart finance, inclusive policies, and industrial innovation can transform these vulnerabilities into engines for inclusive growth and climate resilience."
+              "text": "people still lack access to <ai prompt=\"Tell me more about clean cooking.\">clean cooking 💬️</ai> and around 17 million people lack access to electricity, primarily in rural and remote areas. <br /><br />The region's renewable energy potential, combined with smart finance, inclusive policies, and industrial innovation can transform these vulnerabilities into engines for inclusive growth and climate resilience."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll"
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fd6925",
+            "#0a97d9",
+            "#c5192d",
+            "#fcc30b",
+            "#19486a",
+            "#0468b1",
+            "#3f7e44",
+            "#dd1367",
+            "#fd9d24",
+            "#4c9f38"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Caribbean",
+              "Central America",
+              "Southern Cone",
+              "Brazil",
+              "México",
+              "Andean Region"
+            ],
+            "name": "Region"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Electricity (USD/kWh)"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "bar",
+              "data": [
+                0.22,
+                0.181,
+                0.099,
+                0.185,
+                0.075,
+                0.124
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
       }
     },
     {
@@ -111,7 +258,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The region has achieved a high electricity access rate of 97.6% as of 2021, but these gains are uneven. <br /><br /><strong>17 million people, mostly in rural and Indigenous communities, remain unelectrified. In Haiti, for instance, only 47% of people have electricity access, and just 5% have access to clean cooking solutions.<br /></strong><br />Access is not just about lighting homes – it's about enabling education, health care, livelihoods, and climate adaptation. Last-mile electrification strategies, decentralized renewable systems, and digital tools (e.g., pay-as-you-go solar) present immediate and scalable solutions to enable a <ai prompt=\"Provide more info on just energy transition.\">just energy transition 💬️</ai>"
+              "text": "The region has achieved a high electricity access rate of 97.6% as of 2021, but these gains are uneven. <br /><br /><strong>17 million people, mostly in rural and Indigenous communities, remain unelectrified. In Haiti, for instance, only 47% of people have electricity access, and just 5% have access to clean cooking solutions.<br /></strong><br />Access is not just about lighting homes – it's about enabling education, health care, livelihoods, and climate adaptation. Last-mile electrification strategies, decentralized renewable systems, and digital tools (e.g., pay-as-you-go solar) present immediate and scalable solutions to enable a <ai prompt=\"What is just energy transition?\">just energy transition 💬️</ai>"
             }
           }
         ]
@@ -125,7 +272,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "78 million people lack access to clean cooking, severely impacting health and disproportionately burdening women and girls.<br /><br /><strong>Development Opportunity:</strong> Expanding energy access improves education, health, productivity, and gender equality. In rural areas, modern energy solutions reduce women's <ai prompt=\"Clarify time poverty.\">time poverty 💬️</ai> and improve economic opportunities. Solar mini-grids, digital pay-as-you-go models, and off-grid solutions are transforming energy access across Central America and the Caribbean."
+              "text": "78 million people lack access to clean cooking, severely impacting health and disproportionately burdening women and girls.<br /><br /><strong>Development Opportunity:</strong> Expanding energy access improves education, health, productivity, and gender equality. In rural areas, modern energy solutions reduce women's <ai prompt=\"Share details about time poverty.\">time poverty 💬️</ai> and improve economic opportunities. Solar mini-grids, digital pay-as-you-go models, and off-grid solutions are transforming energy access across Central America and the Caribbean."
             }
           }
         ]
@@ -137,7 +284,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_9.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_5.png",
           "caption": ""
         }
       }
@@ -150,7 +297,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "LAC is uniquely positioned for a low-carbon transition. Renewable energy investments have soared, with solar and wind driving new capacity installations. However, fossil fuels still account for 66% of primary energy supply in the entire region and over 90% in the Caribbean.<br /><br /><strong>Scaling renewables is not only about <ai prompt=\"Tell me more about decarbonization.\">decarbonization 💬️</ai> for he region</strong> – it's an engine for job creation and industrial transformation. The region could generate millions of green jobs if policy, finance, and local innovation are aligned. ECLAC estimates that 1.33% of GDP annually from 2021-2032 could make energy sources 86% renewable and cut GHG emissions by 30%.<br /><br />Additionally,"
+              "text": "LAC is uniquely positioned for a low-carbon transition. Renewable energy investments have soared, with solar and wind driving new capacity installations. However, fossil fuels still account for 66% of primary energy supply in the entire region and over 90% in the Caribbean.<br /><br /><strong>Scaling renewables is not only about <ai prompt=\"Clarify decarbonization.\">decarbonization 💬️</ai> for he region</strong> – it's an engine for job creation and industrial transformation. The region could generate millions of green jobs if policy, finance, and local innovation are aligned. ECLAC estimates that 1.33% of GDP annually from 2021-2032 could make energy sources 86% renewable and cut GHG emissions by 30%.<br /><br />Additionally,"
             }
           },
           {
@@ -214,6 +361,194 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll"
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#c5192d",
+            "#fcc30b",
+            "#0468b1",
+            "#4c9f38",
+            "#0a97d9",
+            "#fd6925",
+            "#19486a",
+            "#fd9d24",
+            "#dd1367",
+            "#3f7e44"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              2020,
+              2021,
+              2022,
+              2023,
+              2024,
+              2025,
+              2026,
+              2027,
+              2028,
+              2029,
+              2030
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "%"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "line",
+              "name": "High-impact",
+              "data": [
+                "0,0",
+                "1,3",
+                "2,6",
+                "4,0",
+                "5,4",
+                "6,8",
+                "8,3",
+                "9,9",
+                "11,5",
+                "13,2",
+                "14,9"
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Medium-impact",
+              "data": [
+                "0,0",
+                "1,0",
+                "2,0",
+                "3,0",
+                "4,0",
+                "5,1",
+                "6,2",
+                "7,4",
+                "8,5",
+                "9,8",
+                "11,0"
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Low-impact",
+              "data": [
+                "0,0",
+                "0,6",
+                "1,3",
+                "2,0",
+                "2,7",
+                "3,4",
+                "4,1",
+                "4,9",
+                "5,6",
+                "6,4",
+                "7,2"
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -283,7 +618,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>c. Strengthening Energy Resilience<br /></strong>Caribbean states spend up to 1.2% of GDP on natural disaster recovery annually. <ai prompt=\"Share details about resilient infrastructure.\">resilient infrastructure 💬️</ai> – especially solar mini-grids – can protect critical services during disasters.<br /><br /><strong>d. Driving Energy Finance and Investment<br /></strong>Only 1.3% of regional GDP goes to fossil fuel subsidies, a significant fiscal burden. Redirecting subsidies to clean investments could generate better returns, equity, and environmental benefits.<br />Regional development banks and local financial institutions (with nearly $1 trillion in assets) are crucial for unlocking blended finance and de-risking projects."
+              "text": "<strong>c. Strengthening Energy Resilience<br /></strong>Caribbean states spend up to 1.2% of GDP on natural disaster recovery annually. <ai prompt=\"Provide more info on resilient infrastructure.\">resilient infrastructure 💬️</ai> – especially solar mini-grids – can protect critical services during disasters.<br /><br /><strong>d. Driving Energy Finance and Investment<br /></strong>Only 1.3% of regional GDP goes to fossil fuel subsidies, a significant fiscal burden. Redirecting subsidies to clean investments could generate better returns, equity, and environmental benefits.<br />Regional development banks and local financial institutions (with nearly $1 trillion in assets) are crucial for unlocking blended finance and de-risking projects."
             }
           }
         ]
