@@ -2,6 +2,16 @@
   "id": "2.2.1",
   "segments": [
     {
+      "template_id": "photo_horizontal",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/4170_734.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
       "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
@@ -201,13 +211,13 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Sub-Saharan Africa </strong>remains the region most significantly lagging behind on energy access. In 2022, only <strong>48% of the population had access to electricity, and just 18% had access to clean cooking fuels</strong> and technologies. This means around <strong>600 million people in the region still lacked electricity</strong>, and over 923 million were dependent on traditional <ai prompt=\"Share details about biomass.\">biomass 💬️</ai>, charcoal, or kerosene for cooking. The region now accounts for 83% of the global electricity access deficit, up from 50% in 2010. <br /><br />Annual population growth in Sub-Saharan Africa, around 28.7 million people per year, is nearly equal to the annual increase in electricity access, which was 31.1 million between 2020 and 2022. This parity slows overall progress and highlights the need for faster electrification.<br /><br /> Among the 20 countries with the largest energy access deficits, 18 are in Sub-Saharan Africa, with<strong> Nigeria</strong> (86 million), <strong>Democratic Republic of Congo</strong> (78 million), and <strong>Ethiopia</strong> (55 million) with the highest number of people lacking access, due notably to their large population."
+              "text": "While some regions are rapidly progressing toward universal energy access, others are falling behind. This section highlights areas where the majority of people still lack basic energy services, particularly in Sub-Saharan Africa and fragile states. Some of these regions face persistent barriers such as political instability, lack og access to financing, and weak institutions."
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While some regions are rapidly progressing toward universal energy access, others are falling behind. This section highlights areas where the majority of people still lack basic energy services, particularly in Sub-Saharan Africa and fragile states. Some of these regions face persistent barriers such as political instability, lack og access to financing, and weak institutions."
+              "text": "<strong>Sub-Saharan Africa </strong>remains the region most significantly lagging behind on energy access. In 2022, only <strong>48% of the population had access to electricity, and just 18% had access to clean cooking fuels</strong> and technologies. This means around <strong>600 million people in the region still lacked electricity</strong>, and over 923 million were dependent on traditional <ai prompt=\"Tell me more about biomass.\">biomass 💬️</ai>, charcoal, or kerosene for cooking. The region now accounts for 83% of the global electricity access deficit, up from 50% in 2010. <br /><br />Annual population growth in Sub-Saharan Africa, around 28.7 million people per year, is nearly equal to the annual increase in electricity access, which was 31.1 million between 2020 and 2022. This parity slows overall progress and highlights the need for faster electrification.<br /><br /> Among the 20 countries with the largest energy access deficits, 18 are in Sub-Saharan Africa, with<strong> Nigeria</strong> (86 million), <strong>Democratic Republic of Congo</strong> (78 million), and <strong>Ethiopia</strong> (55 million) with the highest number of people lacking access, due notably to their large population."
             }
           }
         ]
@@ -221,7 +231,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Clean cooking access is also stagnant in Sub-Saharan Africa. <br /><br />Of the 20 countries with the largest clean cooking access deficits, 8 had access rates below 10% in 2022. These include <strong>Ethiopia, Madagascar, Mozambique, Niger, and Uganda</strong>. Projections show that over 1 billion people in the region could still be without clean cooking by 2030 if current trends persist. <br /><br />Progress is also limited in fragile and conflict-affected settings. In these contexts, access to electricity was 57% in 2022, up from 46% in 2010. However, the absolute number of people without access increased slightly from 427 million in 2020 to 429 million in 2022 due to rapid population growth, limited infrastructure development as well as the social and economic consequences of the COVID 19 pandemic. Least developed countries also saw a stagnation in progress, with access around 57%"
+              "text": "Clean cooking access is also stagnant in Sub-Saharan Africa. <br /><br />Of the 20 countries with the largest clean cooking access deficits, 8 had access rates below 10% in 2022. These include <strong>Ethiopia, Madagascar, Mozambique, Niger, and Uganda</strong>. Projections show that over 1 billion people in the region could still be without clean cooking by 2030 if current trends persist. <br /><br />Progress is also limited in fragile and conflict-affected settings️. In these contexts, access to electricity was 57% in 2022, up from 46% in 2010. However, the absolute number of people without access increased slightly from 427 million in 2020 to 429 million in 2022 due to rapid population growth, limited infrastructure development as well as the social and economic consequences of the COVID 19 pandemic. Least developed countries also saw a stagnation in progress, with access around 57%"
             }
           },
           {
@@ -232,6 +242,172 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 12,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 12,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 12,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll"
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 12,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "#1e1e1e",
+          "color": [
+            "#fcc30b",
+            "#0468b1",
+            "#fd6925",
+            "#c5192d",
+            "#3f7e44",
+            "#19486a",
+            "#fd9d24",
+            "#dd1367",
+            "#4c9f38",
+            "#0a97d9"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.3
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 12,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "World",
+              "Central Asia and Southern Asia",
+              "Eastern Asia and South eastern Asia",
+              "Latin America and the Caribbean",
+              "Northern America and Europe",
+              "Oceania",
+              "Sub-Saharan Africa",
+              "Western Asia and Northern Africa"
+            ],
+            "name": "Region"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dotted",
+                "color": "#444444",
+                "opacity": 0.3
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 12
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "ADD UNIT"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Annual increase in population with access",
+              "type": "bar",
+              "data": [
+                93.6,
+                40.1,
+                10.4,
+                5.7,
+                -2.0,
+                0.3,
+                31.1,
+                8.3
+              ]
+            },
+            {
+              "name": "Annual increase in population",
+              "type": "bar",
+              "data": [
+                65.3,
+                20.6,
+                5.4,
+                4.4,
+                -2.0,
+                0.4,
+                28.7,
+                7.8
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 60
+          }
+        }
       }
     },
     {
