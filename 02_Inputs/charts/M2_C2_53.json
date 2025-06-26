@@ -1,17 +1,17 @@
 {
   "textStyle": {
     "fontFamily": "Proxima Nova, sans-serif",
-    "fontSize": 12,
+    "fontSize": 14,
     "fontWeight": "normal",
     "color": "#DDDDDD"
   },
   "axisLabel": {
-    "fontSize": 12,
+    "fontSize": 14,
     "color": "#AAAAAA"
   },
   "legend": {
     "textStyle": {
-      "fontSize": 12,
+      "fontSize": 14,
       "color": "#CCCCCC"
     },
     "orient": "horizontal",
@@ -20,25 +20,25 @@
   },
   "tooltip": {
     "textStyle": {
-      "fontSize": 12,
+      "fontSize": 14,
       "color": "#FFFFFF"
     },
     "backgroundColor": "rgba(30, 30, 30, 0.85)",
     "borderColor": "#555555",
     "formatter": null
   },
-  "backgroundColor": "#1e1e1e",
+  "backgroundColor": "rgba(28, 29, 24, 1)",
   "color": [
-    "#fcc30b",
+    "#fd9d24",
+    "#19486a",
+    "#0a97d9",
+    "#4c9f38",
     "#0468b1",
     "#fd6925",
-    "#c5192d",
-    "#3f7e44",
-    "#19486a",
-    "#fd9d24",
     "#dd1367",
-    "#4c9f38",
-    "#0a97d9"
+    "#fcc30b",
+    "#c5192d",
+    "#3f7e44"
   ],
   "xAxis": {
     "axisLine": {
@@ -54,12 +54,12 @@
       "lineStyle": {
         "type": "dashed",
         "color": "#444444",
-        "opacity": 0.3
+        "opacity": 0.7
       }
     },
     "axisLabel": {
       "color": "#AAAAAA",
-      "fontSize": 12
+      "fontSize": 14
     },
     "nameTextStyle": {
       "color": "#CCCCCC",
@@ -70,7 +70,7 @@
       0,
       0.01
     ],
-    "name": "ADD UNIT"
+    "name": "%"
   },
   "yAxis": {
     "axisLine": {
@@ -84,14 +84,14 @@
     "splitLine": {
       "show": true,
       "lineStyle": {
-        "type": "dotted",
+        "type": "dashed",
         "color": "#444444",
-        "opacity": 0.3
+        "opacity": 0.7
       }
     },
     "axisLabel": {
       "color": "#AAAAAA",
-      "fontSize": 12
+      "fontSize": 14
     },
     "nameTextStyle": {
       "color": "#CCCCCC",
@@ -106,7 +106,8 @@
       "Latin America and\nthe Caribbean",
       "Eastern Asia and\nSouth-eastern Asia",
       "Central Asia and\nSouthern Asia"
-    ]
+    ],
+    "name": "Region"
   },
   "label": {
     "overflow": "truncate",
@@ -126,7 +127,7 @@
   },
   "series": [
     {
-      "name": "Urban (%)",
+      "name": "Urban",
       "type": "bar",
       "data": [
         97,
@@ -139,7 +140,7 @@
       ]
     },
     {
-      "name": "Rural (%)",
+      "name": "Rural",
       "type": "bar",
       "data": [
         82,
@@ -151,8 +152,5 @@
         54
       ]
     }
-  ],
-  "grid": {
-    "left": 300
-  }
+  ]
 }

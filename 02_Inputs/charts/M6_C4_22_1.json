@@ -1,0 +1,182 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal",
+    "color": "#DDDDDD"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#AAAAAA"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#CCCCCC"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll"
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(28, 29, 24, 1)",
+  "color": [
+    "#dd1367",
+    "#0468b1",
+    "#4c9f38",
+    "#c5192d",
+    "#3f7e44",
+    "#fd6925",
+    "#fcc30b",
+    "#fd9d24",
+    "#19486a",
+    "#0a97d9"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14,
+      "interval": 0
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "name": "Year"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "GWh per year"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#FFFFFF"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "LDVs",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        22.3,
+        36.7,
+        75.3,
+        96.5,
+        129.7,
+        292.5,
+        501.9
+      ]
+    },
+    {
+      "name": "Bus",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        11.5,
+        12.8,
+        16.2,
+        15.5,
+        14.1,
+        11.2,
+        13.0
+      ]
+    },
+    {
+      "name": "Other",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        10.0,
+        31.2,
+        27.9,
+        22.7,
+        23.9,
+        30.3,
+        35.6
+      ]
+    }
+  ],
+  "grid": {
+    "bottom": 80
+  }
+}

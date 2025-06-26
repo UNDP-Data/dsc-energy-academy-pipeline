@@ -1,0 +1,138 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal",
+    "color": "#DDDDDD"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#AAAAAA"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#CCCCCC"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll"
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(28, 29, 24, 1)",
+  "color": [
+    "#c5192d",
+    "#0468b1",
+    "#fcc30b",
+    "#19486a",
+    "#fd9d24",
+    "#3f7e44",
+    "#4c9f38",
+    "#fd6925",
+    "#0a97d9",
+    "#dd1367"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14,
+      "interval": 0
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "Natural gas",
+      "LPG",
+      "Electricity",
+      "Biogas & ethanol",
+      "People without\naccess"
+    ],
+    "name": "Category"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "Population"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "..."
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#FFFFFF"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "type": "bar",
+      "data": [
+        "1.68 billion",
+        "1.48 billion",
+        "890 million",
+        "232 million",
+        "2 billion"
+      ]
+    }
+  ],
+  "grid": {
+    "bottom": 100
+  }
+}

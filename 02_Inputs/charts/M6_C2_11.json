@@ -1,17 +1,17 @@
 {
   "textStyle": {
     "fontFamily": "Proxima Nova, sans-serif",
-    "fontSize": 12,
+    "fontSize": 14,
     "fontWeight": "normal",
     "color": "#DDDDDD"
   },
   "axisLabel": {
-    "fontSize": 12,
+    "fontSize": 14,
     "color": "#AAAAAA"
   },
   "legend": {
     "textStyle": {
-      "fontSize": 12,
+      "fontSize": 14,
       "color": "#CCCCCC"
     },
     "orient": "horizontal",
@@ -20,25 +20,25 @@
   },
   "tooltip": {
     "textStyle": {
-      "fontSize": 12,
+      "fontSize": 14,
       "color": "#FFFFFF"
     },
     "backgroundColor": "rgba(30, 30, 30, 0.85)",
     "borderColor": "#555555",
     "formatter": null
   },
-  "backgroundColor": "#1e1e1e",
+  "backgroundColor": "rgba(28, 29, 24, 1)",
   "color": [
+    "#0a97d9",
+    "#fd9d24",
     "#fcc30b",
+    "#4c9f38",
+    "#dd1367",
     "#0468b1",
-    "#fd6925",
-    "#c5192d",
     "#3f7e44",
     "#19486a",
-    "#fd9d24",
-    "#dd1367",
-    "#4c9f38",
-    "#0a97d9"
+    "#c5192d",
+    "#fd6925"
   ],
   "xAxis": {
     "axisLine": {
@@ -54,12 +54,12 @@
       "lineStyle": {
         "type": "dashed",
         "color": "#444444",
-        "opacity": 0.3
+        "opacity": 0.7
       }
     },
     "axisLabel": {
       "color": "#AAAAAA",
-      "fontSize": 12,
+      "fontSize": 14,
       "interval": 0
     },
     "nameTextStyle": {
@@ -71,41 +71,7 @@
       "High income\ncountries",
       "Upper middle income\ncountries",
       "Lower middle income\ncountries",
-      "Low income countries",
-      "Figure 2.6?Onshore\nwind weighted\naverage total\ninstalled costs in\nsmaller markets by\ncountry, 2010-2023",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None",
-      "None"
+      "Low income countries"
     ],
     "name": "Country Income Level"
   },
@@ -121,21 +87,21 @@
     "splitLine": {
       "show": true,
       "lineStyle": {
-        "type": "dotted",
+        "type": "dashed",
         "color": "#444444",
-        "opacity": 0.3
+        "opacity": 0.7
       }
     },
     "axisLabel": {
       "color": "#AAAAAA",
-      "fontSize": 12
+      "fontSize": 14
     },
     "nameTextStyle": {
       "color": "#CCCCCC",
       "fontSize": 14
     },
     "type": "value",
-    "name": "ADD UNIT"
+    "name": "%"
   },
   "label": {
     "overflow": "truncate",
@@ -155,95 +121,27 @@
   },
   "series": [
     {
-      "name": "Onshore wind (%)",
+      "name": "Onshore wind",
       "type": "bar",
       "data": [
-        "4",
-        "7",
-        "8.5",
-        "10.5",
-        null,
-        "Weighted average total installed costs (2023 USD/kW)",
-        "Onshore wind",
-        "Country",
-        "Argentina",
-        "Australia",
-        "Austria",
-        "Chile",
-        "Costa Rica",
-        "Croatia",
-        "Cyprus",
-        "Dominican Republic",
-        "Egypt",
-        "Ethiopia",
-        "Finland",
-        "Greece",
-        "Indonesia",
-        "Ireland",
-        "Morocco",
-        "Netherlands",
-        "New Zealand",
-        "Norway",
-        "Pakistan",
-        "Panama",
-        "Peru",
-        "Philippines",
-        "Poland",
-        "Portugal",
-        "Republic of Korea",
-        "Russian Federation",
-        "South Africa",
-        "Ukraine",
-        "Uruguay",
-        "Viet Nam"
+        4.0,
+        7.0,
+        8.5,
+        10.5
       ]
     },
     {
-      "name": "Solar PV (%)",
+      "name": "Solar PV",
       "type": "bar",
       "data": [
-        "4",
-        "6.5",
-        "8.5",
-        "9",
-        null,
-        null,
-        null,
-        "2010",
-        null,
-        "4046",
-        null,
-        null,
-        null,
-        null,
-        "2190",
-        null,
-        "1792",
-        null,
-        null,
-        "2934",
-        null,
-        "4139",
-        null,
-        "2109",
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        "3057",
-        "2395",
-        "2821",
-        null,
-        null,
-        null,
-        null,
-        null
+        4.0,
+        6.5,
+        8.5,
+        9.0
       ]
     }
   ],
   "grid": {
-    "bottom": 140
+    "bottom": 100
   }
 }

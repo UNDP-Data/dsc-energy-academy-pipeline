@@ -1,17 +1,17 @@
 {
   "textStyle": {
     "fontFamily": "Proxima Nova, sans-serif",
-    "fontSize": 12,
+    "fontSize": 14,
     "fontWeight": "normal",
     "color": "#DDDDDD"
   },
   "axisLabel": {
-    "fontSize": 12,
+    "fontSize": 14,
     "color": "#AAAAAA"
   },
   "legend": {
     "textStyle": {
-      "fontSize": 12,
+      "fontSize": 14,
       "color": "#CCCCCC"
     },
     "orient": "horizontal",
@@ -20,25 +20,25 @@
   },
   "tooltip": {
     "textStyle": {
-      "fontSize": 12,
+      "fontSize": 14,
       "color": "#FFFFFF"
     },
     "backgroundColor": "rgba(30, 30, 30, 0.85)",
     "borderColor": "#555555",
     "formatter": null
   },
-  "backgroundColor": "#1e1e1e",
+  "backgroundColor": "rgba(28, 29, 24, 1)",
   "color": [
+    "#dd1367",
+    "#19486a",
+    "#3f7e44",
     "#fcc30b",
+    "#c5192d",
+    "#fd9d24",
     "#0468b1",
     "#fd6925",
-    "#c5192d",
-    "#3f7e44",
-    "#19486a",
-    "#fd9d24",
-    "#dd1367",
-    "#4c9f38",
-    "#0a97d9"
+    "#0a97d9",
+    "#4c9f38"
   ],
   "xAxis": {
     "axisLine": {
@@ -54,13 +54,14 @@
       "lineStyle": {
         "type": "dashed",
         "color": "#444444",
-        "opacity": 0.3
+        "opacity": 0.7
       }
     },
     "axisLabel": {
       "color": "#AAAAAA",
-      "fontSize": 12,
-      "interval": 0
+      "fontSize": 14,
+      "interval": 0,
+      "rotate": 45
     },
     "nameTextStyle": {
       "color": "#CCCCCC",
@@ -103,14 +104,14 @@
     "splitLine": {
       "show": true,
       "lineStyle": {
-        "type": "dotted",
+        "type": "dashed",
         "color": "#444444",
-        "opacity": 0.3
+        "opacity": 0.7
       }
     },
     "axisLabel": {
       "color": "#AAAAAA",
-      "fontSize": 12
+      "fontSize": 14
     },
     "nameTextStyle": {
       "color": "#CCCCCC",
@@ -118,7 +119,7 @@
     },
     "type": "value",
     "max": 1,
-    "name": "ADD UNIT"
+    "name": "%"
   },
   "label": {
     "overflow": "truncate",
@@ -139,7 +140,7 @@
   },
   "series": [
     {
-      "name": "4Ws (%)",
+      "name": "4Ws",
       "type": "bar",
       "stack": "total",
       "label": {
@@ -171,7 +172,7 @@
       ]
     },
     {
-      "name": "3Ws (%)",
+      "name": "3Ws",
       "type": "bar",
       "stack": "total",
       "label": {
@@ -203,7 +204,7 @@
       ]
     },
     {
-      "name": "2Ws (%)",
+      "name": "2Ws",
       "type": "bar",
       "stack": "total",
       "label": {
@@ -235,7 +236,7 @@
       ]
     },
     {
-      "name": "Buses (%)",
+      "name": "Buses",
       "type": "bar",
       "stack": "total",
       "label": {
@@ -268,6 +269,6 @@
     }
   ],
   "grid": {
-    "bottom": 40
+    "bottom": 80
   }
 }

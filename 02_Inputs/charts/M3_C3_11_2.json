@@ -1,0 +1,261 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal",
+    "color": "#DDDDDD"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#AAAAAA"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#CCCCCC"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll"
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(28, 29, 24, 1)",
+  "color": [
+    "#fcc30b",
+    "#c5192d",
+    "#fd6925",
+    "#0a97d9",
+    "#fd9d24",
+    "#0468b1",
+    "#19486a",
+    "#4c9f38",
+    "#dd1367",
+    "#3f7e44"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "Kilograms per\nmegawatt"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14,
+      "interval": 0
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "Offshore wind",
+      "Onshore wind",
+      "Solar PV",
+      "Coal ",
+      "Natural gas"
+    ],
+    "name": "Subsector"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#FFFFFF"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "Graphite",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Copper",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        7977.79201366645,
+        2897.28806320734,
+        2815.28934443732,
+        1141.1488362161,
+        1093.31625026692
+      ]
+    },
+    {
+      "name": "Cobalt",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Silicon",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0.0,
+        0.0,
+        3860.77300875507,
+        720.9054025197497,
+        0.0
+      ]
+    },
+    {
+      "name": "Nickel",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        239.16292974590036,
+        416.8268204142605,
+        0.0,
+        307.49519538757,
+        47.83258594918016
+      ]
+    },
+    {
+      "name": "Zinc",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        5473.414477898751,
+        5473.41447789878,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Manganese",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        778.9878283151993,
+        772.1546017510191,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Lithium",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Others",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        898.5692931881003,
+        591.0740978004997,
+        61.49903907752014,
+        0.0,
+        23.916292974579846
+      ]
+    }
+  ]
+}

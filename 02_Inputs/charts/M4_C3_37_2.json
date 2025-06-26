@@ -1,0 +1,166 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal",
+    "color": "#DDDDDD"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#AAAAAA"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#CCCCCC"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll"
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(28, 29, 24, 1)",
+  "color": [
+    "#fcc30b",
+    "#3f7e44",
+    "#fd9d24",
+    "#fd6925",
+    "#0a97d9",
+    "#dd1367",
+    "#19486a",
+    "#4c9f38",
+    "#c5192d",
+    "#0468b1"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14,
+      "interval": 0
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "2021-30",
+      "2031-40",
+      "2041-50"
+    ],
+    "name": "Period"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "%"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#FFFFFF"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "Renewables",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        9250,
+        13797,
+        7134
+      ]
+    },
+    {
+      "name": "Increased demand",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        25588,
+        45352,
+        38025
+      ]
+    },
+    {
+      "name": "Replacement",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        6417,
+        6409,
+        8493
+      ]
+    }
+  ],
+  "grid": {
+    "bottom": 80
+  }
+}

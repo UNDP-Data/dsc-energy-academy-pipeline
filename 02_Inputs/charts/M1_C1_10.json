@@ -1,17 +1,17 @@
 {
   "textStyle": {
     "fontFamily": "Proxima Nova, sans-serif",
-    "fontSize": 12,
+    "fontSize": 14,
     "fontWeight": "normal",
     "color": "#DDDDDD"
   },
   "axisLabel": {
-    "fontSize": 12,
+    "fontSize": 14,
     "color": "#AAAAAA"
   },
   "legend": {
     "textStyle": {
-      "fontSize": 12,
+      "fontSize": 14,
       "color": "#CCCCCC"
     },
     "orient": "horizontal",
@@ -20,25 +20,25 @@
   },
   "tooltip": {
     "textStyle": {
-      "fontSize": 12,
+      "fontSize": 14,
       "color": "#FFFFFF"
     },
     "backgroundColor": "rgba(30, 30, 30, 0.85)",
     "borderColor": "#555555",
     "formatter": null
   },
-  "backgroundColor": "#1e1e1e",
+  "backgroundColor": "rgba(28, 29, 24, 1)",
   "color": [
     "#fcc30b",
     "#0468b1",
     "#fd6925",
     "#c5192d",
-    "#3f7e44",
     "#19486a",
     "#fd9d24",
-    "#dd1367",
+    "#3f7e44",
+    "#0a97d9",
     "#4c9f38",
-    "#0a97d9"
+    "#dd1367"
   ],
   "xAxis": {
     "axisLine": {
@@ -54,13 +54,14 @@
       "lineStyle": {
         "type": "dashed",
         "color": "#444444",
-        "opacity": 0.3
+        "opacity": 0.7
       }
     },
     "axisLabel": {
       "color": "#AAAAAA",
-      "fontSize": 12,
-      "interval": 0
+      "fontSize": 14,
+      "interval": 0,
+      "rotate": 45
     },
     "nameTextStyle": {
       "color": "#CCCCCC",
@@ -105,21 +106,21 @@
     "splitLine": {
       "show": true,
       "lineStyle": {
-        "type": "dotted",
+        "type": "dashed",
         "color": "#444444",
-        "opacity": 0.3
+        "opacity": 0.7
       }
     },
     "axisLabel": {
       "color": "#AAAAAA",
-      "fontSize": 12
+      "fontSize": 14
     },
     "nameTextStyle": {
       "color": "#CCCCCC",
       "fontSize": 14
     },
     "type": "value",
-    "name": "ADD UNIT"
+    "name": "Quadrillion btu"
   },
   "label": {
     "overflow": "truncate",
@@ -237,6 +238,6 @@
     }
   ],
   "grid": {
-    "bottom": 40
+    "bottom": 80
   }
 }
