@@ -2,17 +2,25 @@
   "id": "3.2.-1",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "chapter_outro",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter3.3.png",
-          "caption": ""
-        },
-        "intro": "Prochainement",
-        "title": "Chapitre 3 Introduction",
-        "cta": "Commencer à apprendre",
-        "nextLessonId": "3.3.0"
+        "intro": "Scénario interactif",
+        "title": "Chapitre 2",
+        "subtitle": "Ensuring a just transition for workers and affected communities",
+        "body": "Merci de vous joindre à nous pour le troisième chapitre du module de transition énergétique juste. Nous vous invitons à interagir avec le scénario de clôture et à réfléchir à la manière dont vous pouvez passer à l'action pour transformer ces idées d'ambitions en actions.",
+        "nextBlock": {
+          "intro": "Continuer à",
+          "title": "Chapitre 3 : <strong>Un JET qui préserve la nature et catalyse la croissance économique</strong>",
+          "cta": "Ce chapitre examine les impacts environnementaux de la transition énergétique, mettant en lumière le rôle des minéraux critiques et la nécessité de pratiques durables et équitables.",
+          "button_cta": "Launch the interactive scenario",
+          "image": {
+            "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter3.3.png",
+            "caption": ""
+          },
+          "nextBlockId": "3.3.0",
+          "buttonCta": "Next chapter"
+        }
       }
     }
   ]

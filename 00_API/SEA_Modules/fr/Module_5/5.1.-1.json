@@ -2,17 +2,25 @@
   "id": "5.1.-1",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "chapter_outro",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter5.2.png",
-          "caption": ""
-        },
-        "intro": "Prochainement",
-        "title": "Chapitre 2 Introduction",
-        "cta": "Commencer à apprendre",
-        "nextLessonId": "5.2.0"
+        "intro": "Cela conclut",
+        "title": "Chapitre 1",
+        "subtitle": "An Overview of Energy Governance",
+        "body": "Merci de vous joindre à nous pour le premier chapitre du module de transition énergétique juste. Nous vous invitons à interagir avec le scénario de clôture et à réfléchir à la manière dont vous pouvez passer à l'action pour transformer ces idées d'ambitions en actions.",
+        "nextBlock": {
+          "intro": "Continuer à",
+          "title": "Chapitre 2 : <strong>Cadres politiques et réglementaires pour une transition énergétique juste</strong>",
+          "cta": "Ce chapitre examine les politiques et les cadres réglementaires qui permettent des transitions énergétiques justes grâce à la cohérence, l'adaptabilité, l'engagement des parties prenantes et la réduction des risques d'investissement.",
+          "button_cta": "Launch the interactive scenario",
+          "image": {
+            "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter5.2.png",
+            "caption": ""
+          },
+          "nextBlockId": "5.2.0",
+          "buttonCta": "Next chapter"
+        }
       }
     }
   ]

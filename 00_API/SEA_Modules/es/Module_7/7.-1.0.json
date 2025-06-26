@@ -9,40 +9,40 @@
         "intro": "Este cuestionario cubre todas las lecciones de este módulo. Debes alcanzar el 80 % para aprobar. ¡Buena suerte!",
         "final": false,
         "labels": {
-          "correct": "Correct",
-          "question": "Question",
-          "result": "Quiz Result",
-          "score": "Your score",
-          "passingScore": "Minimum passing score",
-          "startButton": "Start Quiz",
-          "nextButton": "Next",
-          "submitButton": "Submit",
-          "retryButton": "Replay",
-          "passed": "Passed",
-          "failed": "Not passed"
+          "correct": "Correcto",
+          "question": "Pregunta",
+          "result": "Resultado del cuestionario",
+          "score": "Tu puntuación",
+          "passingScore": "Puntuación mínima aprobatoria",
+          "startButton": "Iniciar cuestionario",
+          "nextButton": "Siguiente",
+          "submitButton": "Enviar",
+          "retryButton": "Repetir",
+          "passed": "Pasado",
+          "failed": "No aprobado"
         },
         "passingScore": 0.8,
         "questions": [
           {
             "id": 1,
-            "prompt": "A Ministry of Energy seeks to optimize off-grid investments in underserved rural zones but has limited household-level data. Which of the following techniques could most effectively identify priority areas for electrification?",
+            "prompt": "Un Ministerio de Energía busca optimizar las inversiones fuera de la red en zonas rurales desatendidas, pero tiene datos limitados a nivel de hogares. ¿Cuál de las siguientes técnicas podría identificar de manera más efectiva las áreas prioritarias para la electrificación?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Cost–Benefit Analysis using national grid maps"
+                "value": "Análisis Costo-Beneficio utilizando mapas de red nacional"
               },
               {
                 "id": 2,
-                "value": "Supervised Machine Learning using labeled access data and satellite imagery"
+                "value": "Aprendizaje automático supervisado utilizando datos de acceso etiquetados e imágenes satelitales"
               },
               {
                 "id": 3,
-                "value": "Surveys with national census teams"
+                "value": "Encuestas con equipos de censo nacional"
               },
               {
                 "id": 4,
-                "value": "Public consultation reports"
+                "value": "Informes de consulta pública"
               }
             ],
             "solution": [
@@ -61,24 +61,24 @@
           },
           {
             "id": 2,
-            "prompt": "Which of the following is a necessary condition for using energy data to support gender-transformative policy design?",
+            "prompt": "¿Cuál de los siguientes es una condición necesaria para utilizar los datos energéticos para apoyar el diseño de políticas transformadoras de género?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Aggregated national energy supply figures"
+                "value": "Cifras agregadas del suministro de energía nacional"
               },
               {
                 "id": 2,
-                "value": "Smart meter deployment in capital cities"
+                "value": "Despliegue de contadores inteligentes en las capitales"
               },
               {
                 "id": 3,
-                "value": "Disaggregated data across gender, income, and location"
+                "value": "Datos desagregados por género, ingresos y ubicación"
               },
               {
                 "id": 4,
-                "value": "Technical capacity in the private sector"
+                "value": "Capacidad técnica en el sector privado"
               }
             ],
             "solution": [
@@ -87,34 +87,34 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Solo los datos desagregados pueden revelar las desigualdades en el acceso a la energía y apoyar políticas específicas y con enfoque de género."
+                "body": "Solo los datos desagregados pueden revelar las desigualdades en el acceso a la energía y apoyar políticas específicas y con perspectiva de género."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Solo los datos desagregados pueden revelar las desigualdades en el acceso a la energía y apoyar políticas específicas y con enfoque de género."
+                "body": "Solo los datos desagregados pueden revelar las desigualdades en el acceso a la energía y apoyar políticas específicas y con perspectiva de género."
               }
             }
           },
           {
             "id": 3,
-            "prompt": "You are supporting a PM&E strategy for a regional clean cooking program. Which of the following indicators would provide actionable insights into intersectional equity?",
+            "prompt": "Estás apoyando una estrategia de PM&E para un programa regional de cocción limpia. ¿Cuál de los siguientes indicadores proporcionaría información procesable sobre la equidad interseccional?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "LPG consumption in rural vs urban areas"
+                "value": "Consumo de GLP en áreas rurales frente a áreas urbanas"
               },
               {
                 "id": 2,
-                "value": "Stove emissions data only"
+                "value": "Datos de emisiones de estufas únicamente"
               },
               {
                 "id": 3,
-                "value": "Average fuel cost per kilogram"
+                "value": "Costo promedio del combustible por kilogramo"
               },
               {
                 "id": 4,
-                "value": "Time poverty burden for women in woodfuel-dependent households"
+                "value": "Carga de la pobreza de tiempo para las mujeres en hogares dependientes de combustible de madera"
               }
             ],
             "solution": [
@@ -133,24 +133,24 @@
           },
           {
             "id": 4,
-            "prompt": "Which principle of the UN Fundamental Principles of Official Statistics is most directly threatened when private smart meter data is used without clear consent or anonymization?",
+            "prompt": "¿Qué principio de los Principios Fundamentales de las Estadísticas Oficiales de la ONU está más directamente amenazado cuando se utilizan datos de medidores inteligentes privados sin un consentimiento claro o anonimización?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Principle 2: Professional and ethical methods"
+                "value": "Principio 2: Métodos profesionales y éticos"
               },
               {
                 "id": 2,
-                "value": "Principle 4: Right to comment on misinterpretation"
+                "value": "Principio 4: Derecho a comentar sobre la mala interpretación"
               },
               {
                 "id": 3,
-                "value": "Principle 7: Transparency of laws"
+                "value": "Principio 7: Transparencia de las leyes"
               },
               {
                 "id": 4,
-                "value": "Principle 10: International cooperation"
+                "value": "Principio 10: Cooperación internacional"
               }
             ],
             "solution": [
@@ -169,24 +169,24 @@
           },
           {
             "id": 5,
-            "prompt": "A government wants to use machine learning to target electricity subsidies. What is a key ethical risk if training data is drawn only from urban consumers?",
+            "prompt": "Un gobierno quiere utilizar el aprendizaje automático para dirigir las subvenciones eléctricas. ¿Cuál es un riesgo ético clave si los datos de entrenamiento se obtienen solo de consumidores urbanos?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Overfitting the model to low-income contexts"
+                "value": "Sobreajustar el modelo a contextos de bajos ingresos"
               },
               {
                 "id": 2,
-                "value": "Over-subsidizing rural areas"
+                "value": "Sobresubvencionar las áreas rurales"
               },
               {
                 "id": 3,
-                "value": "Algorithmic bias reinforcing exclusion of rural and informal households"
+                "value": "El sesgo algorítmico que refuerza la exclusión de los hogares rurales e informales"
               },
               {
                 "id": 4,
-                "value": "Model instability due to grid reliability"
+                "value": "Inestabilidad del modelo debido a la fiabilidad de la red"
               }
             ],
             "solution": [
@@ -205,24 +205,24 @@
           },
           {
             "id": 6,
-            "prompt": "What is a key advantage of using prescriptive analytics over predictive analytics in energy transition planning?",
+            "prompt": "¿Cuál es una ventaja clave de utilizar análisis prescriptivo sobre análisis predictivo en la planificación de la transición energética?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "It forecasts climate scenarios"
+                "value": "Pronostica escenarios climáticos"
               },
               {
                 "id": 2,
-                "value": "It allocates capital expenditure in national budgets"
+                "value": "Asigna gastos de capital en los presupuestos nacionales"
               },
               {
                 "id": 3,
-                "value": "It recommends specific actions based on predicted outcomes"
+                "value": "Recomienda acciones específicas basadas en resultados predichos"
               },
               {
                 "id": 4,
-                "value": "It replaces stakeholder engagement"
+                "value": "Reemplaza el compromiso de las partes interesadas"
               }
             ],
             "solution": [
@@ -241,24 +241,24 @@
           },
           {
             "id": 7,
-            "prompt": "In contexts where real-time monitoring is essential (e.g. for distributed solar networks), what architecture is most effective to reduce latency and dependence on central servers?",
+            "prompt": "En contextos donde la monitorización en tiempo real es esencial (por ejemplo para redes solares distribuidas), ¿qué arquitectura es la más efectiva para reducir la latencia y la dependencia de los servidores centrales?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Cloud-only computing with weekly updates"
+                "value": "Computación solo en la nube con actualizaciones semanales"
               },
               {
                 "id": 2,
-                "value": "Manual logbooks updated monthly"
+                "value": "Libros de registro actualizados mensualmente"
               },
               {
                 "id": 3,
-                "value": "Edge computing for localized decision-making"
+                "value": "Computación en la periferia para la toma de decisiones localizadas"
               },
               {
                 "id": 4,
-                "value": "Social audits using community dashboards"
+                "value": "Auditorías sociales utilizando paneles de control comunitarios"
               }
             ],
             "solution": [
@@ -277,24 +277,24 @@
           },
           {
             "id": 8,
-            "prompt": "A country has just adopted OSeMOSYS for long-term planning. What is its main value for policymakers?",
+            "prompt": "Un país acaba de adoptar OSeMOSYS para la planificación a largo plazo. ¿Cuál es su valor principal para los responsables de políticas?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "It visualizes renewable logos for public campaigns"
+                "value": "Visualiza logotipos renovables para campañas públicas"
               },
               {
                 "id": 2,
-                "value": "It automates tariff reforms"
+                "value": "Automatiza las reformas arancelarias"
               },
               {
                 "id": 3,
-                "value": "It enables simulation of different energy policy scenarios and investment pathways"
+                "value": "Permite simular diferentes escenarios de políticas energéticas y caminos de inversión"
               },
               {
                 "id": 4,
-                "value": "It substitutes for national accounts"
+                "value": "Sustituye a las cuentas nacionales"
               }
             ],
             "solution": [
@@ -313,24 +313,24 @@
           },
           {
             "id": 9,
-            "prompt": "In institutionalizing data governance, what is the main value of establishing a regulatory sandbox in the energy sector?",
+            "prompt": "Al institucionalizar la gobernanza de datos, ¿cuál es el valor principal de establecer un sandbox regulatorio en el sector energético?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "It lowers energy prices immediately"
+                "value": "Reduce inmediatamente los precios de la energía"
               },
               {
                 "id": 2,
-                "value": "It delays regulation for startups"
+                "value": "Retrasa la regulación para las startups"
               },
               {
                 "id": 3,
-                "value": "It provides a safe space to test data-driven innovation under monitored conditions"
+                "value": "Proporciona un espacio seguro para probar la innovación basada en datos en condiciones monitoreadas"
               },
               {
                 "id": 4,
-                "value": "It bypasses public procurement rules"
+                "value": "Elude las reglas de contratación pública"
               }
             ],
             "solution": [
@@ -339,11 +339,11 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Los entornos de prueba permiten a los reguladores y a los innovadores co-diseñar y probar nuevas soluciones de datos energéticos antes de su implementación completa."
+                "body": "Los entornos de prueba permiten a los reguladores y a los innovadores co-diseñar y probar nuevas soluciones de datos energéticos antes de la implementación completa."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Los entornos de prueba permiten a los reguladores y a los innovadores co-diseñar y probar nuevas soluciones de datos energéticos antes de su implementación completa."
+                "body": "Los entornos de prueba permiten a los reguladores y a los innovadores co-diseñar y probar nuevas soluciones de datos energéticos antes de la implementación completa."
               }
             }
           }
@@ -358,9 +358,9 @@
           "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module7.png",
           "caption": ""
         },
-        "intro": "Próximamente",
+        "intro": "Próximo",
         "title": "Módulo 7 Conclusión",
-        "cta": "Comenzar a aprender",
+        "cta": "Continúa aprendiendo",
         "nextLessonId": "7.-1.-1"
       }
     }

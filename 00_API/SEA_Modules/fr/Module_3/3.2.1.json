@@ -39,26 +39,6 @@
       }
     },
     {
-      "template_id": "key_concepts",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Concepts clés",
-        "intro": "Explorez les idées fondamentales de cette leçon.",
-        "concepts": [
-          {
-            "title": "consentement libre, préalable et éclairé (CPEE)",
-            "body": "Le consentement libre, préalable et éclairé (CLPE) est un principe qui garantit que les peuples autochtones et les communautés locales ont le droit de donner ou de retirer leur consentement pour des projets affectant leurs terres, ressources et droits, sur la base d'informations complètes et sans coercition.",
-            "source": ""
-          },
-          {
-            "title": "cadres politiques inclusifs",
-            "body": "Les cadres politiques inclusifs sont des lignes directrices et des stratégies conçues pour garantir que tous les individus, quelles que soient leurs origines ou leurs circonstances, aient un accès égal aux opportunités, aux ressources et aux processus de prise de décision dans divers secteurs, y compris les domaines social, économique et environnemental.",
-            "source": ""
-          }
-        ]
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -72,7 +52,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>L'Atlas de la justice environnementale suit les droits humains et les conflits énergétiques qui ont été documentés à travers le monde.<br /></strong>Noir : Conflits liés aux combustibles fossiles. Brun : Conflits liés à la biomasse et à la terre (comprend les forêts, l'agriculture et la gestion du bétail). Bleu : Conflits de gestion de l'eau. Jaune : Conflits liés au nucléaire<br />Source : EJAtlas (Consulté en 2024) Atlas mondial de la justice environnementale."
+              "text": "<strong>L'Atlas de la justice environnementale suit les droits humains et les conflits énergétiques qui ont été documentés à travers le monde.<br /></strong>Noir : Conflits liés aux combustibles fossiles. Brun : <ai prompt=\"Qu'est-ce que la biomasse ?\">biomasse</ai> et conflits fonciers (comprend les forêts, l'agriculture et la gestion du bétail). Bleu : Conflits de gestion de l'eau. Jaune : Conflits liés au nucléaire<br />Source : EJAtlas (Consulté en 2024) Atlas mondial de la justice environnementale."
             }
           }
         ]
@@ -165,11 +145,11 @@
       }
     },
     {
-      "template_id": "photo_vertical",
+      "template_id": "photo-vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_16.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_1.png",
           "caption": ""
         }
       }
@@ -375,11 +355,11 @@
       }
     },
     {
-      "template_id": "photo_vertical",
+      "template_id": "photo-vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_8.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Intro_5.png",
           "caption": ""
         }
       }
@@ -640,43 +620,16 @@
       }
     },
     {
-      "template_id": "key_resources",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Ressources clés",
-        "resources": [
-          {
-            "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3211.png",
-              "caption": ""
-            },
-            "href": "OHCHR",
-            "text": "Énergie renouvelable et droit au développement : réaliser les droits humains pour un développement durable",
-            "cta": "Cliquez pour télécharger"
-          },
-          {
-            "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_3/resource-3212.png",
-              "caption": ""
-            },
-            "href": "UNDP",
-            "text": "Note d'orientation : Climat, paix et sécurité en Amérique latine et dans les Caraïbes",
-            "cta": "Cliquez pour télécharger"
-          }
-        ]
-      }
-    },
-    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/image/lesson322_image.webp",
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module3.png",
           "caption": ""
         },
         "intro": "Prochainement",
         "title": "Leçon 2 : Reconversion des travailleurs et disparités en matière d'emploi",
-        "cta": "Commencer à apprendre",
+        "cta": "Continuez à apprendre",
         "nextLessonId": "3.2.2"
       }
     }

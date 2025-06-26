@@ -2,17 +2,25 @@
   "id": "1.1.-1",
   "segments": [
     {
-      "template_id": "connection_next",
+      "template_id": "chapter_outro",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter1.2.png",
-          "caption": ""
-        },
-        "intro": "Próximamente",
-        "title": "Capítulo 2 Introducción",
-        "cta": "Comenzar a aprender",
-        "nextLessonId": "1.2.0"
+        "intro": "Esto concluye",
+        "title": "Capítulo 1",
+        "subtitle": "An Introduction to Energy Systems",
+        "body": "Gracias por unirte a nosotros para el primer capítulo del módulo de introducción a la transformación de sistemas de energía sostenible. Te invitamos a interactuar con el escenario de cierre y a reflexionar sobre cómo puedes pasar a la acción para convertir estas ideas de ambiciones en acciones.",
+        "nextBlock": {
+          "intro": "Continuar a",
+          "title": "Capítulo 2: <strong>Interconexiones entre la energía y otros ODS</strong>",
+          "cta": "Este capítulo explora las interconexiones de los ODS, enfatizando soluciones energéticas integradas y específicas del contexto que maximizan las sinergias, minimizan los compromisos y avanzan múltiples objetivos de desarrollo.",
+          "button_cta": "Launch the interactive scenario",
+          "image": {
+            "src": "https://ik.imagekit.io/seacademy/HeaderImages/Chapters/chapter1.2.png",
+            "caption": ""
+          },
+          "nextBlockId": "1.2.0",
+          "buttonCta": "Next chapter"
+        }
       }
     }
   ]

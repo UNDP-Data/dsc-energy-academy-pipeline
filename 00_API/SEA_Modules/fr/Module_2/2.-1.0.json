@@ -11,38 +11,38 @@
         "labels": {
           "correct": "Correct",
           "question": "Question",
-          "result": "Quiz Result",
-          "score": "Your score",
-          "passingScore": "Minimum passing score",
-          "startButton": "Start Quiz",
-          "nextButton": "Next",
-          "submitButton": "Submit",
-          "retryButton": "Replay",
-          "passed": "Passed",
-          "failed": "Not passed"
+          "result": "Résultat du quiz",
+          "score": "Votre score",
+          "passingScore": "Score minimum requis",
+          "startButton": "Commencer le quiz",
+          "nextButton": "Suivant",
+          "submitButton": "Soumettre",
+          "retryButton": "Rejouer",
+          "passed": "Passé",
+          "failed": "Non réussi"
         },
         "passingScore": 0.8,
         "questions": [
           {
             "id": 1,
-            "prompt": "What is the main goal of SDG 7?",
+            "prompt": "Quel est l'objectif principal de l'ODD 7 ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Ensure universal access to clean water and sanitation"
+                "value": "Assurer l'accès universel à l'eau potable et à l'assainissement"
               },
               {
                 "id": 2,
-                "value": "Ensure access to affordable, reliable, sustainable and modern energy for all"
+                "value": "Assurer l'accès à une énergie abordable, fiable, durable et moderne pour tous"
               },
               {
                 "id": 3,
-                "value": "Promote industrial innovation and infrastructure"
+                "value": "Promouvoir l'innovation industrielle et l'infrastructure"
               },
               {
                 "id": 4,
-                "value": "None of the above"
+                "value": "Aucun des éléments ci-dessus"
               }
             ],
             "solution": [
@@ -61,24 +61,24 @@
           },
           {
             "id": 2,
-            "prompt": "Which of the following are components of sustainable energy access? (Select all that apply)",
+            "prompt": "Lesquels des éléments suivants sont des composants de l'accès à l'énergie durable ? (Sélectionnez tout ce qui s'applique)",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "Availability"
+                "value": "<strong>Disponibilité</strong>"
               },
               {
                 "id": 2,
-                "value": "Affordability"
+                "value": "<strong>Accessibilité financière</strong>"
               },
               {
                 "id": 3,
-                "value": "Adequacy"
+                "value": "<strong>Adéquation</strong>"
               },
               {
                 "id": 4,
-                "value": "None of the above"
+                "value": "Aucun des éléments ci-dessus"
               }
             ],
             "solution": [
@@ -99,24 +99,24 @@
           },
           {
             "id": 3,
-            "prompt": "Approximately how many people globally still lack access to electricity?",
+            "prompt": "Environ combien de personnes dans le monde n'ont toujours pas accès à l'électricité ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "500 million"
+                "value": "500 millions"
               },
               {
                 "id": 2,
-                "value": "685 million"
+                "value": "<strong>685 millions</strong>"
               },
               {
                 "id": 3,
-                "value": "1 billion"
+                "value": "1 milliard"
               },
               {
                 "id": 4,
-                "value": "2.1 billion"
+                "value": "<strong>2,1 milliard</strong>"
               }
             ],
             "solution": [
@@ -135,7 +135,7 @@
           },
           {
             "id": 4,
-            "prompt": "What is the difference between energy access and inclusive energy services?",
+            "prompt": "Quelle est la différence entre l'accès à l'énergie et les services énergétiques inclusifs ?",
             "multiple": false,
             "options": [
               {
@@ -144,15 +144,15 @@
               },
               {
                 "id": 2,
-                "value": "Inclusive energy services are more expensive"
+                "value": "Les services énergétiques inclusifs sont plus coûteux"
               },
               {
                 "id": 3,
-                "value": "Energy access only applies to urban areas"
+                "value": "L'accès à l'énergie ne s'applique qu'aux zones urbaines"
               },
               {
                 "id": 4,
-                "value": "None of the above"
+                "value": "Aucun des éléments ci-dessus"
               }
             ],
             "solution": [
@@ -171,24 +171,24 @@
           },
           {
             "id": 5,
-            "prompt": "Which human rights are most directly impacted by energy access? (Select all that apply)",
+            "prompt": "Quels droits de l'homme sont les plus directement affectés par l'accès à l'énergie ? (Sélectionnez tout ce qui s'applique)",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "Right to education"
+                "value": "Droit à l'éducation"
               },
               {
                 "id": 2,
-                "value": "Right to health"
+                "value": "Droit à la santé"
               },
               {
                 "id": 3,
-                "value": "Right to an adequate standard of living"
+                "value": "Droit à un niveau de vie adéquat"
               },
               {
                 "id": 4,
-                "value": "Right to bear arms"
+                "value": "Droit de porter des armes"
               }
             ],
             "solution": [
@@ -209,24 +209,24 @@
           },
           {
             "id": 6,
-            "prompt": "What is considered a clean cooking solution?",
+            "prompt": "Qu'est-ce qui est considéré comme une solution de cuisson propre ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Charcoal in open fires"
+                "value": "Charbon dans les feux ouverts"
               },
               {
                 "id": 2,
-                "value": "Electric induction stove"
+                "value": "Cuisinière à induction électrique"
               },
               {
                 "id": 3,
-                "value": "Kerosene lamp"
+                "value": "Lampe à pétrole"
               },
               {
                 "id": 4,
-                "value": "None of the above"
+                "value": "Aucun des éléments ci-dessus"
               }
             ],
             "solution": [
@@ -245,24 +245,24 @@
           },
           {
             "id": 7,
-            "prompt": "Which of the following is NOT part of the Multi-Tier Framework (MTF) for measuring energy access?",
+            "prompt": "Lequel des éléments suivants ne fait PAS partie du Cadre Multi-Niveaux (MTF) pour mesurer l'accès à l'énergie ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Quality of energy service"
+                "value": "Qualité du service énergétique"
               },
               {
                 "id": 2,
-                "value": "Energy efficiency rating"
+                "value": "Évaluation de l'efficacité énergétique"
               },
               {
                 "id": 3,
-                "value": "Affordability"
+                "value": "<strong>Accessibilité financière</strong>"
               },
               {
                 "id": 4,
-                "value": "Reliability"
+                "value": "<strong>Fiabilité</strong>"
               }
             ],
             "solution": [
@@ -281,24 +281,24 @@
           },
           {
             "id": 8,
-            "prompt": "What proportion of global clean cooking access deficit is concentrated in Sub-Saharan Africa?",
+            "prompt": "Quelle proportion du déficit d'accès à la cuisine propre dans le monde est concentrée en Afrique subsaharienne ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "0.25"
+                "value": "0,25"
               },
               {
                 "id": 2,
-                "value": "0.5"
+                "value": "0,5"
               },
               {
                 "id": 3,
-                "value": "0.7"
+                "value": "0,7"
               },
               {
                 "id": 4,
-                "value": "Over 80%"
+                "value": "Plus de 80%"
               }
             ],
             "solution": [
@@ -317,24 +317,24 @@
           },
           {
             "id": 9,
-            "prompt": "9. Productive uses of energy typically include which of the following? (Select all that apply)",
+            "prompt": "9. Les utilisations productives de l'énergie incluent généralement lesquelles des suivantes ? (Sélectionnez tout ce qui s'applique)",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "Running irrigation systems"
+                "value": "Systèmes d'irrigation en fonctionnement"
               },
               {
                 "id": 2,
-                "value": "Watching television"
+                "value": "Regarder la télévision"
               },
               {
                 "id": 3,
-                "value": "Cold storage for farm produce"
+                "value": "Stockage à froid pour les produits agricoles"
               },
               {
                 "id": 4,
-                "value": "Industrial sewing machines"
+                "value": "Machines à coudre industrielles"
               }
             ],
             "solution": [
@@ -355,24 +355,24 @@
           },
           {
             "id": 10,
-            "prompt": "10. Which tool uses geospatial data to identify priority areas for energy access interventions?",
+            "prompt": "<strong>10.</strong> Quel outil utilise des données géospatiales pour identifier les zones prioritaires pour les interventions d'accès à l'énergie ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Multi-Tier Framework (MTF)"
+                "value": "Cadre Multi-Niveaux (CMN)"
               },
               {
                 "id": 2,
-                "value": "OnStove Tool"
+                "value": "<strong>Outil OnStove</strong>"
               },
               {
                 "id": 3,
-                "value": "Energy Access Explorer"
+                "value": "Explorateur d'accès à l'énergie"
               },
               {
                 "id": 4,
-                "value": "Global Tracking Framework (GTF)"
+                "value": "Cadre de Suivi Mondial (GTF)"
               }
             ],
             "solution": [
@@ -402,7 +402,7 @@
         },
         "intro": "Prochainement",
         "title": "Module 2 Conclusion",
-        "cta": "Commencer à apprendre",
+        "cta": "Continuez à apprendre",
         "nextLessonId": "2.-1.-1"
       }
     }

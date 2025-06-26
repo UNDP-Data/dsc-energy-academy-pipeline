@@ -11,38 +11,38 @@
         "labels": {
           "correct": "Correct",
           "question": "Question",
-          "result": "Quiz Result",
-          "score": "Your score",
-          "passingScore": "Minimum passing score",
-          "startButton": "Start Quiz",
-          "nextButton": "Next",
-          "submitButton": "Submit",
-          "retryButton": "Replay",
-          "passed": "Passed",
-          "failed": "Not passed"
+          "result": "Résultat du quiz",
+          "score": "Votre score",
+          "passingScore": "Score minimum requis",
+          "startButton": "Commencer le quiz",
+          "nextButton": "Suivant",
+          "submitButton": "Soumettre",
+          "retryButton": "Rejouer",
+          "passed": "Passé",
+          "failed": "Non réussi"
         },
         "passingScore": 0.8,
         "questions": [
           {
             "id": 1,
-            "prompt": "What percentage of total global greenhouse gas emissions is attributed to the energy sector?",
+            "prompt": "Quel pourcentage des émissions mondiales de gaz à effet de serre est attribué au secteur de l'énergie ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "About 45%"
+                "value": "Environ 45%"
               },
               {
                 "id": 2,
-                "value": "Around 60%"
+                "value": "Environ 60%"
               },
               {
                 "id": 3,
-                "value": "Approximately 75%"
+                "value": "Environ 75%"
               },
               {
                 "id": 4,
-                "value": "Less than 25%"
+                "value": "Moins de 25%"
               }
             ],
             "solution": [
@@ -61,24 +61,24 @@
           },
           {
             "id": 2,
-            "prompt": "Which of the following greenhouse gases has the highest global warming potential (GWP) among those commonly emitted by the energy sector?",
+            "prompt": "Lequel des gaz à effet de serre suivants a le plus grand potentiel de réchauffement climatique (PRG) parmi ceux couramment émis par le secteur de l'énergie ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Carbon dioxide (CO₂)"
+                "value": "Dioxyde de carbone (CO₂)"
               },
               {
                 "id": 2,
-                "value": "Methane (CH₄)"
+                "value": "Méthane (CH₄)"
               },
               {
                 "id": 3,
-                "value": "Nitrous oxide (N₂O)"
+                "value": "Protoxyde d'azote (N₂O)"
               },
               {
                 "id": 4,
-                "value": "Sulfur hexafluoride (SF₆)"
+                "value": "Hexafluorure de soufre (SF₆)"
               }
             ],
             "solution": [
@@ -97,24 +97,24 @@
           },
           {
             "id": 3,
-            "prompt": "What are key environmental impacts associated with the development of renewable energy infrastructure?",
+            "prompt": "Quels sont les principaux impacts environnementaux associés au développement des infrastructures d'énergie renouvelable ?",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "Habitat disruption"
+                "value": "Perturbation de l'habitat"
               },
               {
                 "id": 2,
-                "value": "Air pollution from power plants"
+                "value": "Pollution de l'air provenant des centrales électriques"
               },
               {
                 "id": 3,
-                "value": "Land use conflicts"
+                "value": "Conflits d'utilisation des terres"
               },
               {
                 "id": 4,
-                "value": "Mineral extraction impacts"
+                "value": "Les impacts de l'extraction minérale"
               }
             ],
             "solution": [
@@ -136,24 +136,24 @@
           },
           {
             "id": 4,
-            "prompt": "How does climate change impact the performance and reliability of energy systems?",
+            "prompt": "Comment le changement climatique impacte-t-il la performance et la fiabilité des systèmes énergétiques ?",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "It increases cooling demand during heatwaves, stressing electricity grids"
+                "value": "Cela augmente la demande de refroidissement pendant les vagues de chaleur, mettant à rude épreuve les réseaux électriques"
               },
               {
                 "id": 2,
-                "value": "It improves thermal plant efficiency by warming water sources"
+                "value": "Il améliore l'efficacité des centrales thermiques en réchauffant les sources d'eau"
               },
               {
                 "id": 3,
-                "value": "It disrupts hydropower generation due to changing rainfall patterns"
+                "value": "Cela perturbe la production d'hydroélectricité en raison des changements dans les schémas de précipitations"
               },
               {
                 "id": 4,
-                "value": "It increases the risk of infrastructure failure from extreme weather events"
+                "value": "Cela augmente le risque de défaillance des infrastructures en raison d'événements météorologiques extrêmes"
               }
             ],
             "solution": [
@@ -174,24 +174,24 @@
           },
           {
             "id": 5,
-            "prompt": "What are key challenges limiting the widespread adoption of renewable energy technologies in developing countries?",
+            "prompt": "Quels sont les principaux défis qui limitent l'adoption généralisée des technologies d'énergie renouvelable dans les pays en développement ?",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "High initial capital costs and financing constraints"
+                "value": "Coûts initiaux en capital élevés et contraintes de financement"
               },
               {
                 "id": 2,
-                "value": "Lack of technical capacity and skilled labor"
+                "value": "Manque de capacité technique et de main-d'œuvre qualifiée"
               },
               {
                 "id": 3,
-                "value": "Volatile markets and infrastructure limitations"
+                "value": "Marchés volatils et limitations d'infrastructure"
               },
               {
                 "id": 4,
-                "value": "Inconsistent policies and weak grid integration"
+                "value": "Politiques incohérentes et intégration de réseau faible"
               }
             ],
             "solution": [
@@ -213,24 +213,24 @@
           },
           {
             "id": 6,
-            "prompt": "Which of the following accurately describe lifecycle emissions from energy technologies?",
+            "prompt": "Lequel des éléments suivants décrit avec précision les émissions de cycle de vie des technologies énergétiques ?",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "Lifecycle emissions account for all stages from resource extraction to decommissioning"
+                "value": "Les émissions liées au cycle de vie tiennent compte de toutes les étapes, de l'extraction des ressources à la mise hors service"
               },
               {
                 "id": 2,
-                "value": "Solar and wind have significantly lower lifecycle emissions than coal or gas"
+                "value": "L'énergie solaire et éolienne ont des émissions de cycle de vie significativement inférieures à celles du charbon ou du gaz"
               },
               {
                 "id": 3,
-                "value": "Natural gas and coal are comparable to wind and solar in lifecycle emissions"
+                "value": "Le gaz naturel et le charbon sont comparables à l'éolien et au solaire en termes d'émissions sur l'ensemble du cycle de vie"
               },
               {
                 "id": 4,
-                "value": "Lifecycle emissions are only relevant for fossil fuels"
+                "value": "Les émissions de cycle de vie ne sont pertinentes que pour les combustibles fossiles"
               }
             ],
             "solution": [
@@ -261,7 +261,7 @@
         },
         "intro": "Prochainement",
         "title": "Module 5 Conclusion",
-        "cta": "Commencer à apprendre",
+        "cta": "Continuez à apprendre",
         "nextLessonId": "5.-1.-1"
       }
     }

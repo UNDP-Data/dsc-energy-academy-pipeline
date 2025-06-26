@@ -39,26 +39,6 @@
       }
     },
     {
-      "template_id": "key_concepts",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Concepts clés",
-        "intro": "Explorez les idées fondamentales de cette leçon.",
-        "concepts": [
-          {
-            "title": "subventions énergétiques",
-            "body": "Soutien financier du gouvernement pour promouvoir la production ou la consommation d'énergie, souvent destiné à réduire les coûts pour les consommateurs ou à encourager l'utilisation de sources d'énergie renouvelables.",
-            "source": ""
-          },
-          {
-            "title": "subventions aux combustibles fossiles",
-            "body": "Les subventions aux combustibles fossiles sont un soutien financier et des incitations fournies par les gouvernements à l'industrie des combustibles fossiles, qui peuvent inclure des allégements fiscaux, des subventions et des contrôles de prix, visant à réduire le coût des combustibles fossiles comme le charbon, le pétrole et le gaz naturel.",
-            "source": ""
-          }
-        ]
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -300,7 +280,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Étude de cas RBLAC : Filets de sécurité énergétique au Brésil</strong>"
+              "text": "<strong>Étude de cas RBLAC : <ai prompt=\"Expliquer les filets de sécurité énergétique.\">filets de sécurité énergétique</ai> au Brésil</strong>"
             }
           },
           {
@@ -346,7 +326,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Lancé en 2003, Luz para Todos aspire à fournir un accès à l'électricité dans les zones rurales qui étaient auparavant mal desservies. Initialement ciblant les communautés à faible indice de développement humain (IDH) près du réseau, le programme a évolué pour atteindre des zones éloignées, en priorisant les familles dans les régions les plus éloignées du réseau, y compris l'Amazonie. De 2003 à 2023, 24,3 milliards de R$ (environ 5 milliards de dollars US) ont été investis, atteignant 3,6 millions de foyers. Sur ce total, 23,3 milliards de R$ ont été alloués aux zones rurales, et 1 milliard de R$ à l'Amazonie, bénéficiant aux résidents de 5 437 municipalités dans 26 États. Le budget 2024-26 pour Luz Para Todos est de 2,5 milliards de R$, visant à bénéficier 2 millions de personnes supplémentaires (source : Ministère brésilien des Mines et de l'Énergie)."
+              "text": "Lancé en 2003, Luz para Todos aspire à fournir un accès à l'électricité dans les zones rurales qui étaient auparavant mal desservies. Ciblant initialement les communautés à faible <ai prompt=\"Expliquer l'indice de développement humain.\">indice de développement humain</ai> (IDH) près du réseau, le programme a évolué pour atteindre des zones éloignées, en priorisant les familles dans les régions les plus éloignées du réseau, y compris l'Amazonie. De 2003 à 2023, 24,3 milliards de R$ (environ 5 milliards de dollars US) ont été investis, atteignant 3,6 millions de foyers. Sur ce total, 23,3 milliards de R$ ont été alloués aux zones rurales, et 1 milliard de R$ à l'Amazonie, bénéficiant aux résidents de 5 437 municipalités dans 26 États. Le budget 2024-26 pour Luz Para Todos est de 2,5 milliards de R$, visant à bénéficier 2 millions de personnes supplémentaires (source : Ministère brésilien des Mines et de l'Énergie)."
             }
           }
         ]
@@ -457,52 +437,16 @@
       }
     },
     {
-      "template_id": "key_resources",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Ressources clés",
-        "resources": [
-          {
-            "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_2/resource-2341.png",
-              "caption": ""
-            },
-            "href": "World Bank",
-            "text": "Suivi de l'ODD7 avec le cadre multi-niveaux mesurant l'accès à l'énergie",
-            "cta": "Cliquez pour télécharger"
-          },
-          {
-            "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_2/resource-2342.png",
-              "caption": ""
-            },
-            "href": "World Bank, ESMAP",
-            "text": "Indicateurs réglementaires pour l'énergie durable : un tableau de bord mondial pour les décideurs politiques",
-            "cta": "Cliquez pour télécharger"
-          },
-          {
-            "image": {
-              "src": "https://ik.imagekit.io/seacademy/Resources/Module_2/resource-2343.png",
-              "caption": ""
-            },
-            "href": "World Bank Group",
-            "text": "Conception de subventions responsables pour l'accès à l'énergie : un guide présentant des études de cas pour la conception de subventions dans le solaire hors réseau et la cuisson propre",
-            "cta": "Cliquez pour télécharger"
-          }
-        ]
-      }
-    },
-    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Lessons/image/lesson235_image.webp",
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module2.png",
           "caption": ""
         },
         "intro": "Prochainement",
         "title": "Leçon 5 : Partenariats collaboratifs multi-acteurs",
-        "cta": "Commencer à apprendre",
+        "cta": "Continuez à apprendre",
         "nextLessonId": "2.3.5"
       }
     }
