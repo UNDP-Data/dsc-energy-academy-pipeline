@@ -626,7 +626,7 @@ class Infographic(FrameBase):
             image_node = node.select_node("GROUP", "image")
             image=dict(parse_image_fields(node))
             
-        width = getattr(node, "width", 1000)
+        width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
         size = "full" if width >= 1000 else "half"
             
         return cls(
@@ -638,9 +638,8 @@ class Infographic(FrameBase):
         
 
 class Chart(FrameBase):
-    size: Literal["full", "half"]
+    size: int#Literal["full", "half"]
     option: dict
-
     @classmethod
     def from_node(cls, node: Node) -> "Chart":
         assert node.name == "chart", f"Expected chart node, got {node.name}"
@@ -649,9 +648,8 @@ class Chart(FrameBase):
         if image_node:
             chart_id = image_node.name
             
-            width = getattr(node, "width", 1000)
-            size = "full" if width >= 1000 else "half"
-
+            width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
+            size = width#"full" if width >= 1000 else "half"
                                
             chart_url = f"https://raw.githubusercontent.com/UNDP-Data/dsc-energy-academy-data/dev/charts-creation/00_API/Charts/LightMode/{chart_id}.json"
             headers = {
@@ -687,12 +685,15 @@ class Chart(FrameBase):
 
 
 class Chart_folder(FrameBase):
-    size: Literal["full", "half"]
+    size: float#Literal["full", "half"]
     option: dict
 
     @classmethod
     def from_node(cls, node: Node) -> "Chart":
         assert node.name == "chart", f"Expected chart node, got {node.name}"
+        
+        width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
+        size = "full" if width >= 1000 else "half"
 
         image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
         if image_node:
@@ -704,7 +705,7 @@ class Chart_folder(FrameBase):
                 return cls(
                     template_id="echarts_chart",
                     color_scheme="light",
-                    size="full",
+                    size=size,
                     option=option
                 )
         
