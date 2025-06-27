@@ -14,6 +14,7 @@ This file defines only the frame classes specified in raw_frame_class_map:
   - ModuleText
   - LessonSubpartCover
   - LessonPartCover
+  - CaseStudyCover
   - ChapterOutro
   - ModuleOutro
   - ConnectionBack
@@ -49,6 +50,7 @@ __all__ = [
     "ModuleText",
     "LessonSubpartCover",
     "LessonPartCover",
+    "CaseStudyCover",
     "ChapterOutro",
     "ModuleOutro",
     "ConnectionBack",
