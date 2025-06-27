@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'Amérique latine et les Caraïbes (ALC) se trouvent à un carrefour décisif. La région est dotée de certaines des ressources en énergie renouvelable les plus riches au monde : un ensoleillement abondant au Mexique et au Chili, des vents forts en Patagonie, d'importantes ressources hydroélectriques au Brésil et dans les Andes, ainsi que des opportunités géothermiques et d'hydrogène vert émergentes. En même temps, il lutte contre l'inégalité persistante, la pauvreté énergétique, la vulnérabilité climatique et les flux d'investissement lents.<br /><br />Cette leçon explore comment le vaste potentiel énergétique de la région peut être exploité pour favoriser un développement inclusif et durable. L'énergie n'est pas seulement un secteur – c'est un facilitateur. Il alimente les écoles et les cliniques, stimule les emplois et la croissance industrielle, soutient l'inclusion numérique et offre une résilience face aux catastrophes et aux chocs. Pourtant, 17 millions de personnes n'ont toujours pas accès à l'électricité, et 78 millions dépendent des combustibles traditionnels pour la cuisson - exposant de profondes lacunes d'accès à l'énergie qui doivent être comblées si la région veut atteindre les Objectifs de Développement Durable (ODD).<br /><br />Bien qu'ayant l'un des mélanges d'électricité les plus propres au monde (plus de 60 % renouvelable), la LAC reste fortement dépendante des combustibles fossiles pour le transport et l'industrie. Le défi est maintenant double : garantir un accès universel à l'énergie moderne et orienter les systèmes énergétiques vers la résilience, l'équité et la durabilité.<br /><br />En combinant des données régionales, une analyse des politiques et des opportunités d'avenir, les apprenants acquerront une vue d'ensemble de pourquoi l'énergie durable est une pierre angulaire de la transformation économique, de l'action climatique et de la justice sociale à travers l'Amérique latine et les Caraïbes."
+              "text": "L'Amérique latine et les Caraïbes se trouvent à un carrefour crucial. La région est dotée de certaines des ressources en énergie renouvelable les plus riches au monde : un ensoleillement abondant au Mexique et au Chili, des vents forts en Patagonie, d'importantes ressources hydroélectriques au Brésil et dans les Andes, ainsi que des opportunités géothermiques et d'hydrogène vert émergentes. En même temps, il lutte contre l'inégalité persistante, la pauvreté énergétique, la vulnérabilité climatique et les flux d'investissement lents.<br /><br />Cette leçon explore comment le vaste potentiel énergétique de la région peut être exploité pour favoriser un développement inclusif et durable. L'énergie n'est pas seulement un secteur – c'est un facilitateur. Il alimente les écoles et les cliniques, stimule les emplois et la croissance industrielle, soutient l'inclusion numérique et offre une résilience face aux catastrophes et aux chocs. Pourtant, 17 millions de personnes n'ont toujours pas accès à l'électricité, et 78 millions dépendent des combustibles traditionnels pour la cuisson - exposant de profondes lacunes d'accès à l'énergie qui doivent être comblées si la région veut atteindre les Objectifs de Développement Durable (ODD).<br /><br />Bien qu'ayant l'un des mélanges d'électricité les plus propres au monde (plus de 60 % renouvelable), la LAC reste fortement dépendante des combustibles fossiles pour le transport et l'industrie. Le défi est maintenant double : garantir un accès universel à l'énergie moderne et orienter les systèmes énergétiques vers la résilience, l'équité et la durabilité.<br /><br />En combinant des données régionales, une analyse des politiques et des opportunités d'avenir, les apprenants acquerront une vue d'ensemble de pourquoi l'énergie durable est une pierre angulaire de la transformation économique, de l'action climatique et de la justice sociale à travers l'Amérique latine et les Caraïbes."
             }
           }
         ]
@@ -85,10 +85,163 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "les gens n'ont toujours pas accès à une cuisine propre et environ 17 millions de personnes n'ont pas accès à l'électricité, principalement dans les zones rurales et éloignées. <br /><br />Le potentiel d'énergie renouvelable de la région, combiné à un financement intelligent, des politiques inclusives et une innovation industrielle, peut transformer ces vulnérabilités en moteurs de croissance inclusive et de résilience climatique."
+              "text": "les gens n'ont toujours pas accès à <ai prompt=\"Qu'est-ce que la cuisine propre ?\">la cuisine propre 💬️</ai> et environ 17 millions de personnes n'ont pas accès à l'électricité, principalement dans les zones rurales et éloignées. <br /><br />Le potentiel d'énergie renouvelable de la région, combiné à un financement intelligent, des politiques inclusives et une innovation industrielle, peut transformer ces vulnérabilités en moteurs de croissance inclusive et de résilience climatique."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fcc30b",
+            "#fd9d24",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44",
+            "#0a97d9",
+            "#c5192d",
+            "#dd1367",
+            "#fd6925",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Caribbean",
+              "Central America",
+              "Southern Cone",
+              "Brazil",
+              "México",
+              "Andean Region"
+            ],
+            "name": "Region"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Electricity (USD/kWh)"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "bar",
+              "data": [
+                0.22,
+                0.181,
+                0.099,
+                0.185,
+                0.075,
+                0.124
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
       }
     },
     {
@@ -111,7 +264,21 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La région a atteint un taux d'accès à l'électricité de 97,6 % en 2021, mais ces gains sont inégaux. <br /><br /><strong>17 millions de personnes, principalement dans les communautés rurales et autochtones, restent non électrifiées.</strong> En Haïti, par exemple, seulement 47 % des personnes ont accès à l'électricité, et seulement 5 % ont accès à des solutions de cuisson propres.<br /></strong><br />L'accès ne concerne pas seulement l'éclairage des maisons - il s'agit de permettre l'éducation, les soins de santé, les moyens de subsistance et l'adaptation au climat. Les stratégies d'électrification de dernier kilomètre, les systèmes renouvelables décentralisés et les outils numériques (par exemple, le solaire pay-as-you-go) offrent des solutions immédiates et évolutives pour permettre une transition énergétique juste"
+              "text": "La région a atteint un taux d'accès à l'électricité de 97,6 % en 2021, mais ces gains sont inégaux. <br /><br /><strong>17 millions de personnes, principalement dans les communautés rurales et autochtones, restent non électrifiées.</strong> En Haïti, par exemple, seulement 47 % des personnes ont accès à l'électricité, et seulement 5 % ont accès à des solutions de cuisson propres.<br /></strong><br />L'accès ne concerne pas seulement l'éclairage des maisons - il s'agit de permettre l'éducation, les soins de santé, les moyens de subsistance et l'adaptation au climat. Stratégies d'électrification du dernier kilomètre, systèmes renouvelables décentralisés et outils numériques (par exemple, le solaire à paiement à l'usage) offrent des solutions immédiates et évolutives pour permettre une <ai prompt=\"Fournir plus d'informations sur la transition énergétique juste.\">transition énergétique juste 💬️</ai>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "78 millions de personnes n'ont pas accès à une cuisine propre, ce qui a un impact sévère sur la santé et pèse de manière disproportionnée sur les femmes et les filles.<br /><br /><strong>Opportunité de développement :</strong> L'expansion de l'accès à l'énergie améliore l'éducation, la santé, la productivité et l'égalité des sexes. Dans les zones rurales, les solutions énergétiques modernes réduisent la <ai prompt=\"Fournissez plus d'informations sur la pauvreté du temps.\">pauvreté du temps 💬️</ai> des femmes et améliorent les opportunités économiques. Les mini-réseaux solaires, les modèles de paiement numérique à l'utilisation et les solutions hors réseau transforment l'accès à l'énergie à travers l'Amérique centrale et les Caraïbes."
             }
           }
         ]
@@ -123,9 +290,8 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C3_A.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_17.png",
+          "caption": ""
         }
       }
     },
@@ -137,21 +303,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "78 millions de personnes n'ont pas accès à une cuisine propre, ce qui a un impact sévère sur la santé et pèse de manière disproportionnée sur les femmes et les filles.<br /><br /><strong>Opportunité de développement :</strong> L'expansion de l'accès à l'énergie améliore l'éducation, la santé, la productivité et l'égalité des sexes. Dans les zones rurales, les solutions énergétiques modernes réduisent la pauvreté temporelle des femmes et améliorent les opportunités économiques. Les mini-réseaux solaires, les modèles de paiement numérique à l'utilisation et les solutions hors réseau transforment l'accès à l'énergie à travers l'Amérique centrale et les Caraïbes."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<br /><br />LAC est idéalement positionné pour une transition à faible émission de carbone. Les investissements dans les énergies renouvelables ont explosé, avec le solaire et l'éolien entraînant de nouvelles installations de capacité. Cependant, les combustibles fossiles représentent encore 66 % de l'approvisionnement énergétique primaire dans l'ensemble de la région et plus de 90 % dans les Caraïbes.<br /><br /><strong>Développer les énergies renouvelables ne concerne pas seulement la décarbonisation de la région</strong> – c'est un moteur de création d'emplois et de transformation industrielle. La région pourrait générer des millions d'emplois verts si la politique, le financement et l'innovation locale sont alignés. La CEPAL estime qu'un investissement de 1,33 % du PIB chaque année de 2021 à 2032 pourrait rendre les sources d'énergie 86 % renouvelables et réduire les émissions de GES de 30 %. <br /><br />De plus,"
+              "text": "<br /><br />LAC est idéalement positionné pour une transition à faible émission de carbone. Les investissements dans les énergies renouvelables ont explosé, avec le solaire et l'éolien entraînant de nouvelles installations de capacité. Cependant, les combustibles fossiles représentent encore 66 % de l'approvisionnement en énergie primaire dans toute la région et plus de 90 % dans les Caraïbes.<br /><br /><strong>Faire évoluer les énergies renouvelables ne concerne pas seulement <ai prompt=\"Fournir plus d'informations sur la décarbonisation.\">la décarbonisation 💬️</ai> pour la région</strong> – c'est un moteur de création d'emplois et de transformation industrielle. La région pourrait générer des millions d'emplois verts si la politique, le financement et l'innovation locale sont alignés. La CEPAL estime qu'un investissement de 1,33 % du PIB chaque année de 2021 à 2032 pourrait rendre les sources d'énergie 86 % renouvelables et réduire les émissions de GES de 30 %. <br /><br />De plus,"
             }
           },
           {
@@ -215,6 +367,200 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#dd1367",
+            "#0468b1",
+            "#c5192d",
+            "#fd6925",
+            "#4c9f38",
+            "#fd9d24",
+            "#19486a",
+            "#fcc30b",
+            "#0a97d9",
+            "#3f7e44"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              2020,
+              2021,
+              2022,
+              2023,
+              2024,
+              2025,
+              2026,
+              2027,
+              2028,
+              2029,
+              2030
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "%"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "line",
+              "name": "High-impact",
+              "data": [
+                0.0,
+                1.3,
+                2.6,
+                4.0,
+                5.4,
+                6.8,
+                8.3,
+                9.9,
+                11.5,
+                13.2,
+                14.9
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Medium-impact",
+              "data": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.1,
+                6.2,
+                7.4,
+                8.5,
+                9.8,
+                11.0
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Low-impact",
+              "data": [
+                0.0,
+                0.6,
+                1.3,
+                2.0,
+                2.7,
+                3.4,
+                4.1,
+                4.9,
+                5.6,
+                6.4,
+                7.2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -284,7 +630,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>c.</strong> Renforcer la résilience énergétique<br /></strong>Les États des Caraïbes dépensent jusqu'à 1,2 % du PIB pour la récupération après des catastrophes naturelles chaque année. <ai prompt=\"Provide more info on resilient infrastructure.\">infrastructure résiliente</ai> – en particulier les mini-réseaux solaires – peut protéger les services critiques pendant les catastrophes.<br /><br /><strong>d. Énergie, finance et investissement<br /></strong>Seulement 1,3 % du PIB régional va aux subventions aux combustibles fossiles, un fardeau fiscal significatif. Rediriger les subventions vers des investissements propres pourrait générer de meilleurs rendements, de l'équité et des avantages environnementaux.<br />Les banques de développement régionales et les institutions financières locales (avec près de 1 trillion de dollars d'actifs) sont cruciales pour débloquer le financement mixte et réduire les risques des projets."
+              "text": "<strong>c.</strong> Renforcer la résilience énergétique<br /></strong>Les États des Caraïbes dépensent jusqu'à 1,2 % du PIB pour la récupération après des catastrophes naturelles chaque année. <ai prompt=\"What is resilient infrastructure?\">infrastructure résiliente 💬️</ai> – en particulier les mini-réseaux solaires – peut protéger les services essentiels lors de catastrophes.<br /><br /><strong>d.</strong> Énergie, finance et investissement<br /></strong>Seulement 1,3 % du PIB régional va aux subventions aux combustibles fossiles, un fardeau fiscal significatif. Rediriger les subventions vers des investissements propres pourrait générer de meilleurs rendements, de l'équité et des avantages environnementaux.<br />Les banques de développement régionales et les institutions financières locales (avec près de 1 trillion de dollars d'actifs) sont cruciales pour débloquer le financement mixte et réduire les risques des projets."
             }
           }
         ]
@@ -310,7 +656,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Des outils innovants comme le financement mixte, les obligations vertes et les prêts concessionnels—soutenus par un financement public à travers des mécanismes tels que le GEF et le GCF—sont essentiels pour mobiliser des capitaux privés. Les banques de développement nationales jouent également un rôle crucial. Une finance bien structurée peut catalyser un développement inclusif en soutenant l'accès à l'énergie, la productivité, la mobilité électrique, l'agriculture résiliente au climat et les économies circulaires."
+              "text": "Des outils innovants tels que la finance mixte, <ai prompt=\"Explain green bonds.\">les obligations vertes 💬️</ai>, et les prêts concessionnels—appuyés par des fonds publics via des mécanismes tels que le GEF et le GCF—sont essentiels pour mobiliser le capital privé. Les banques de développement nationales jouent également un rôle crucial. Une finance bien structurée peut catalyser un développement inclusif en soutenant l'accès à l'énergie, la productivité, la mobilité électrique, l'agriculture résiliente au climat et les économies circulaires."
             }
           }
         ]
@@ -321,7 +667,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "Principaux enseignements",
-        "intro": "Si vous n'avez que de la place pour retenir 3 choses :",
+        "intro": "",
         "takeaways": [
           {
             "image": {
