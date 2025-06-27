@@ -2,6 +2,17 @@
   "id": "6.2.1",
   "segments": [
     {
+      "template_id": "infographic",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_9.png",
+          "caption": ""
+        }
+      }
+    },
+    {
       "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
@@ -84,7 +95,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The lifecycle of energy production includes all stages from raw material extraction to energy conversion, distribution, usage, and eventual waste management or decommissioning. This process accounts for environmental, economic, and social impacts at each phase. When looking at the entire lifecycle of energy production, renewable sources still have a significant edge. The emissions from solar and <ai prompt=\"Explain wind energy.\">wind energy 💬️</ai> are much lower than those from coal and natural gas. For instance, coal and natural gas have lifecycle emissions of 1,001 and 486 grams of CO2 per kWh, while solar and wind technology have far less, with wind associated with 13 grams and solar associated with 43 grams of CO2 per kWh of energy they generate, primarily due to manufacturing and construction. These factors make renewables valuable for governments, non-state actors and businesses alike to decarbonize and reduce their exposure to climate risks."
+              "text": "The lifecycle of energy production includes all stages from raw material extraction to energy conversion, distribution, usage, and eventual waste management or decommissioning. This process accounts for environmental, economic, and social impacts at each phase. When looking at the entire lifecycle of energy production, renewable sources still have a significant edge. The emissions from solar and <ai prompt=\"Tell me more about wind energy.\">wind energy 💬️</ai> are much lower than those from coal and natural gas. For instance, coal and natural gas have lifecycle emissions of 1,001 and 486 grams of CO2 per kWh, while solar and wind technology have far less, with wind associated with 13 grams and solar associated with 43 grams of CO2 per kWh of energy they generate, primarily due to manufacturing and construction. These factors make renewables valuable for governments, non-state actors and businesses alike to decarbonize and reduce their exposure to climate risks."
             }
           }
         ]
@@ -164,7 +175,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Similarly, <ai prompt=\"What is clean cooking?\">clean cooking 💬️</ai> is key to addressing indoor air pollution, as seen in Module 2 on Energy Access. Traditional biomass and kerosene use release black carbon, a major contributor to indoor air pollution and severe respiratory illnesses, particularly in low-income households. Transitioning to cleaner energy sources for both electricity and cooking can significantly improve public health and reduce environmental harm."
+              "text": "Similarly, <ai prompt=\"Explain clean cooking.\">clean cooking 💬️</ai> is key to addressing indoor air pollution, as seen in Module 2 on Energy Access. Traditional biomass and kerosene use release black carbon, a major contributor to indoor air pollution and severe respiratory illnesses, particularly in low-income households. Transitioning to cleaner energy sources for both electricity and cooking can significantly improve public health and reduce environmental harm."
             }
           }
         ]
@@ -204,7 +215,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Water use is another important issue when it comes to energy generation. Most energy systems rely on water for cooling and steam production. In 2021, global energy generation used about 370 billion cubic meters of freshwater, equating to 10% of worldwide freshwater withdrawals. Fossil fuel power plants were responsible for a large portion of this water use. <strong>Coal plants alone withdrew 189.6 billion cubic meters of water. In contrast, renewable energy technologies used just 12.1 billion cubic meters in 2021.</strong> As such, solar panels and wind turbines do not require water for cooling or steam production, using it only for cleaning and construction, significantly reducing overall water consumption. However, <ai prompt=\"Share details about geothermal energy.\">geothermal energy 💬️</ai> does require water as a heat transfer fluid in the form of steam or hot water to generate electricity or provide direct heating, making its water use higher than other renewables."
+              "text": "Water use is another important issue when it comes to energy generation. Most energy systems rely on water for cooling and steam production. In 2021, global energy generation used about 370 billion cubic meters of freshwater, equating to 10% of worldwide freshwater withdrawals. Fossil fuel power plants were responsible for a large portion of this water use. <strong>Coal plants alone withdrew 189.6 billion cubic meters of water. In contrast, renewable energy technologies used just 12.1 billion cubic meters in 2021.</strong> As such, solar panels and wind turbines do not require water for cooling or steam production, using it only for cleaning and construction, significantly reducing overall water consumption. However, <ai prompt=\"Clarify geothermal energy.\">geothermal energy 💬️</ai> does require water as a heat transfer fluid in the form of steam or hot water to generate electricity or provide direct heating, making its water use higher than other renewables."
             }
           }
         ]
@@ -394,32 +405,14 @@
       }
     },
     {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/2335_18.webp",
-          "caption": ""
-        },
-        "intro": "M6: The Climate Change-Energy Nexus",
-        "title": "Case Study: Iraq"
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>RBAS: Climate Action for Human Security</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "In the Arab region, particularly Iraq, climate change poses an existential threat to returning Internally Displaced Persons (IDP) by forcing men to seek urban employment, fracturing family and social networks. Rising temperatures and reduced water flow will exacerbate water scarcity, pollution, disasters, and public health issues, worsening societal disruptions and livelihood uncertainty in already fragile communities. <br />The Climate Action for Human Security project in Al Hawizeh Marshland in Iraq was undertaken to address this issue. The program was led by the UNDP jointly with the Ministry of Health and Environment and the local government in Missan and funded through a grant of $922,000 from the SDG Climate Facility regional project."
+              "text": "Solar purification units installed in Iraq’s Al Hawizeh marshlands deliver safe drinking water while strengthening local governance and reducing gendered burdens (<a href=\"https://www.undp.org/arab-states/stories/ahwari-women-beating-heart-iraqi-marshes\"><u>UNDP, 2021</u></a>) <br />In the southern marshlands of Iraq, climate change is not a future threat; it is a daily destabilizer of the environment. Water scarcity, land degradation, and rising temperatures have undermined livelihoods and deepened fragility, particularly in the Al Hawizeh region. Communities already displaced by conflict face an added risk: being forced to migrate again, this time not by war but by drought. Women and children are hit the hardest, walking farther for water, losing access to income, and living in unhealthy conditions worsened by failing sanitation. In Iraq, the climate crisis has become a human security emergency (<a href=\"https://www.undp.org/arab-states/climate-action-human-security-iraqs-al-hawizeh-marshlands\"><u>UNDP, 2021</u></a>). <br />To respond, the UNDP-led ‘Climate Action for Human Security’ initiative delivered more than infrastructure; it delivered agency. With funding from the SDG Climate Facility, the project provided clean energy and water solutions to vulnerable communities, restoring livelihoods and enhancing local governance (<a href=\"https://www.undp.org/arab-states/climate-action-human-security-iraqs-al-hawizeh-marshlands\"><u>UNDP, 2022</u></a>). <br />Within two years of establishing the initiative, the following results were observed: <br />15 off-grid solar-powered water purification units were installed, providing safe drinking water to over 1,500 people <a href=\"https://www.undp.org/sites/g/files/zskgke326/files/migration/iq/UNDP_IQ_Marshlands_Iraq_EN_Final.pdf\"><u>(UNDP, 2022, p. 2</u></a>; <a href=\"https://www.undp.org/stories/safeguarding-wetlands\"><u>UNDP, 2025, para. 7</u></a>) <br />6 ecotourism facilities were built, creating new income streams for 128 households (<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/migration/iq/UNDP_IQ_Marshlands_Iraq_EN_Final.pdf\"><u>UNDP, 2022, p. 2</u></a>) <br />1,000+ people were trained, including over 50% women, through programs on solar PV maintenance and ecotourism management (<a href=\"https://www.undp.org/arab-states/climate-action-human-security-iraqs-al-hawizeh-marshlands\"><u>UNDP, 2021, para. 4</u></a>) (<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/migration/iq/UNDP_IQ_Marshlands_Iraq_EN_Final.pdf\"><u>UNDP, 2022, p. 2</u></a>) <br />Community water management systems were established with elected local committees"
             }
           }
         ]
@@ -433,31 +426,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "This initiative addresses severe environmental degradation and socio-economic challenges exacerbated by climate change. Focusing on enhancing climate security, specific goals included the deployment of innovative clean drinking water supply systems, support for economic diversification through ecotourism, and the empowerment of women in local communities.<br /><br />The project achieved several key outcomes, including the installation of 15 off-grid solar PV systems for drinking water purification, directly benefiting at least 1,500 people. Additionally, the construction of 6 ecotourism facilities benefited 128 households and reduced displacement pressures. A gender-responsive train-the-trainers program on solar PV energy systems was also developed, benefiting at least 1,000 people, 50% of whom were women, through training and awareness-raising initiatives."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/344_1647.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>The project’s implementation strategy supported crisis-affected communities in three ways. First, innovative solar PV water purification systems and constructed wetlands for wastewater management were deployed to address acute drinking water scarcity and poor sanitation in the marshlands. Second, ecotourism facilities were constructed to provide alternative income sources and enhance social cohesion. These facilities included guest houses, markets for local crafts, and wildlife observation towers. Thirdly, extensive training programs were conducted to enhance local capacity in managing the new systems and promoting sustainable ecotourism practices. Special focus was placed on empowering women through targeted training and involvement in local cooperatives.<br /><br /><br /><br /></strong>"
+              "text": "However, the change went beyond infrastructure; it reshaped relationships, livelihoods, and hope. Clean water did not arrive in trucks; it flowed from solar-powered purification units managed by village committees, cutting hours from women’s daily routines and dramatically lowering waterborne illness. Ecotourism was not outsourced; it was built from the ground up. Wetland trails were restored by local communities, birdwatching shelters were crafted using traditional materials, and women were trained not only as hosts but also as nature guides fluent in the region’s fragile ecosystem. Skills training was not limited to maintenance; it included budgeting, community planning, and co-managing services, allowing women to step into roles once reserved for elders or men. That is how trust was built, not by delivering services but by embedding responsibility (<a href=\"https://www.undp.org/arab-states/blog/gender-roles-and-challenges-al-hawizeh-marshes-iraq\"><u>UNDP, 2022</u></a>) (<a href=\"https://www.undp.org/stories/safeguarding-wetlands\"><u>UNDP, 2025</u></a>). <br /><br />Challenges included maintaining infrastructure in remote areas, navigating post-conflict governance, and addressing deeply entrenched gender norms. These were not solved through top-down delivery but rather through a lengthy process of community dialogue and shared design. Local technicians were trained not only in solar system upkeep but also in troubleshooting with minimal tools, enabling quick fixes without relying on city-based contractors. Governance gaps were addressed by forming elected community committees, which ensured transparency in decisions regarding water access and revenue from ecotourism facilities."
             }
           }
         ]
@@ -471,7 +440,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Sustainability is a core focus of the project, with long-term plans for local municipalities to manage water systems and community cooperatives to handle maintenance costs. Equipment utilized for the project water supply system will become governmental assets to ensure working performance, while ecotourism facilities will be owned by local community beneficiaries with an elected local committee to look after the operation and maintenance of these facilities15. This can scale up and expand the reach of the project to more communities, enhancing infrastructure, and continuing to build local capacities to adapt to climate changes. <br /><br />This case study demonstrates the power of integrating renewable energy, water management, and socio-economic development to address the complex challenges of climate change. By harmonizing these elements, the project has not only met immediate needs but also laid the foundation for long-term environmental sustainability and socio-economic stability in the region."
+              "text": "A gender analysis conducted in the Al Hawizeh marshlands informed the project’s design and delivery methods. Key findings are summarized above. Source: (<a href=\"https://www.undp.org/arab-states/blog/gender-roles-and-challenges-al-hawizeh-marshes-iraq\"><u>UNDP, 2022</u></a>). <br />To address gender barriers, women-only training sessions were held at hours compatible with caregiving responsibilities, and women leaders from nearby areas were invited to mentor new trainees. This was not a one-time intervention but a layered, long-term investment in capacity and trust that allowed communities to take charge of their systems (<a href=\"https://euc-word-edit.officeapps.live.com/we/wordeditorframe.aspx?ui=en-US&rs=en-US&wopisrc=https%3A%2F%2Fundp.sharepoint.com%2Fsites%2FSEHCoreTeam%2F_vti_bin%2Fwopi.ashx%2Ffiles%2F0c26810455ff4ee5933e5e839454edaa&wdenableroaming=1&mscc=0&hid=D95BABA1-10F9-0000-6B9B-927F2AEEAA17.0&uih=sharepointcom&wdlcid=en-US&jsapi=1&jsapiver=v2&corrid=b46631c9-bf21-49cf-3155-b27edfc87791&usid=b46631c9-bf21-49cf-3155-b27edfc87791&newsession=1&sftc=1&uihit=docaspx&muv=1&ats=PairwiseBroker&cac=1&sams=1&mtf=1&sfp=1&sdp=1&hch=1&hwfh=1&dchat=1&sc=%7B%22pmo%22%3A%22https%3A%2F%2Fundp.sharepoint.com%22%2C%22pmshare%22%3Atrue%7D&ctp=LeastProtected&rct=Normal&wdorigin=ItemsView&wdhostclicktime=1750795863577&afdflight=60&csc=1&instantedit=1&wopicomplete=1&wdredirectionreason=Unified_SingleFlush\"><u>UNDP Iraq, 2020</u></a>). <br />After overcoming these implementation challenges, the project delivered results along three main dimensions: <br />Water Security: Solar-powered purification units tackled both scarcity and waterborne disease <br />Resilient Livelihoods: Nature-based tourism offers sustainable income <br />Empowered Communities: Local training built capacity and trust, especially among women <br /><br /><br />"
             }
           }
         ]
@@ -483,15 +452,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>References </strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "UNDP (2023). <a href=\"https://www.undp.org/arab-states/publications/sdg-climate-facility-project-climate-action-human-security\"><u>SDG-Climate Facility Project: Climate Action for Human Security Interim Progress Report</u></a> <br />UNDP (2022). <a href=\"https://open.undp.org/projects/00122659\"><u>Climate Action for Human Security Project Document</u></a> <br />UNDP (2021). <a href=\"https://www.undp.org/arab-states/publications/climate-action-human-security-iraqs-al-hawizeh-marshlands\"><u>Climate action for human security Iraq’s Al Hawizeh marshlands</u></a> <br />UNDP. <a href=\"https://open.undp.org/projects/00122659\"><u>Climate Action for Human Security Results</u></a>"
+              "text": "As Iraq expands this model through its national forest and climate strategies, the lesson is clear: climate solutions, especially in fragile contexts, must serve both people and the planet. In addition to providing electricity, solar panels contributed to improved safety, stability, and daily living conditions. In Al Hawizeh, they illuminated classrooms, powered clean water systems, and returned hours of unpaid labor to women now trained as energy leaders. The impact in Al Hawizeh shows that resilience does not require massive infrastructure; it requires relevance. <br /><br />What worked here was not just clean energy but also how it was delivered through community-led planning, locally trained technicians, and solutions tailored to real-world conditions. Key lessons include the importance of pairing infrastructure with governance, training with ownership, and technology with trust (<a href=\"https://unsdg.un.org/sites/default/files/2021-01/IRQ_Socioeconomic-Response-Plan_2020.pdf\"><u>UNDP Iraq, 2020</u></a>). For fragile, climate-affected regions, this model provides a replicable approach that strengthens both human security and local leadership through climate action. Iraq is now applying the same principles across other marshland regions, demonstrating that when solutions are co-owned and context-driven, they are more effective (<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/migration/iq/UNDP_IQ_Marshlands_Iraq_EN_Final.pdf\"><u>UNDP, 2022</u></a>). <br />"
             }
           }
         ]
