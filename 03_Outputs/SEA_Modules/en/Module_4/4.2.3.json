@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_13.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_18.png",
           "caption": ""
         },
         "lesson": {
@@ -43,7 +43,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_16.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_7.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -107,252 +107,11 @@
       }
     },
     {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll"
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#fd6925",
-            "#dd1367",
-            "#fcc30b",
-            "#fd9d24",
-            "#19486a",
-            "#3f7e44",
-            "#4c9f38",
-            "#0468b1",
-            "#0a97d9",
-            "#c5192d"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14,
-              "interval": 0
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "2010",
-              "2011",
-              "2012",
-              "2013",
-              "2014",
-              "2015",
-              "2016",
-              "2017",
-              "2018",
-              "2019",
-              "2020",
-              "2021",
-              "2022",
-              "2023"
-            ],
-            "name": "Year"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "Billion USD"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "...",
-            "show": false
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "Oil",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                194660,
-                268885,
-                308707,
-                289480,
-                252979,
-                152320,
-                114437,
-                158788,
-                210327,
-                192244,
-                124476,
-                190185,
-                345767,
-                234795
-              ]
-            },
-            {
-              "name": "Electricity",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                154571,
-                157714,
-                155555,
-                139178,
-                132318,
-                130947,
-                153678,
-                140956,
-                182641,
-                155034,
-                77350,
-                221183,
-                446149,
-                216977
-              ]
-            },
-            {
-              "name": "Gas",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                113330,
-                108192,
-                128287,
-                116644,
-                102867,
-                90930,
-                58103,
-                64680,
-                116536,
-                73368,
-                58642,
-                172693,
-                376559,
-                162516
-              ]
-            },
-            {
-              "name": "Coal",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                3179,
-                4280,
-                3766,
-                2095,
-                1389,
-                1316,
-                2017,
-                2677,
-                2967,
-                2501,
-                2210,
-                4424,
-                9451,
-                2103
-              ]
-            }
-          ],
-          "grid": {
-            "bottom": 80
-          }
-        }
-      }
-    },
-    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_3.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_7.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -393,7 +152,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_1.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_8.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -431,7 +190,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Outro_2.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_12.png",
           "caption": ""
         }
       }
@@ -461,7 +220,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_5.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Intro_7.png",
           "caption": ""
         }
       }
@@ -491,7 +250,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_4.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_15.png",
           "caption": ""
         }
       }
@@ -522,7 +281,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Outro_2.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Intro_4.png",
           "caption": ""
         }
       }
@@ -532,7 +291,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_18.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_4.png",
           "caption": ""
         }
       }
@@ -574,7 +333,7 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Intro_4.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Intro_7.png",
               "caption": ""
             },
             "title": "Subsidies for fossil fuels distort markets, strain public finances, and perpetuate overconsumption, delaying transitions to sustainable energy. Reforming these subsidies is critical to reducing fiscal pressures and advancing clean energy investments.",
@@ -582,7 +341,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_2.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_9.png",
               "caption": ""
             },
             "title": "Examples like Indonesia, India, Morocco and India demonstrate that gradual subsidy phase-outs. Combined with targeted cash transfers and transparent communication, can protect vulnerable populations while freeing up resources for renewable energy and infrastructure development.",
@@ -590,7 +349,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_7.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_13.png",
               "caption": ""
             },
             "title": "Instead of solely relying on emergency measures during price spikes. It is more effective to implement structural changes that reduce the overall demand for fossil fuels in the long-term.",
