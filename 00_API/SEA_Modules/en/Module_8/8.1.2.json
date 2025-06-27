@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_11.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_9.png",
           "caption": ""
         },
         "lesson": {
@@ -43,7 +43,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Intro_7.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_14.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -110,6 +110,332 @@
       }
     },
     {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "half",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#3f7e44",
+            "#0468b1",
+            "#dd1367",
+            "#19486a",
+            "#4c9f38",
+            "#c5192d",
+            "#fd6925",
+            "#fd9d24",
+            "#0a97d9",
+            "#fcc30b"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0,
+              "rotate": 45
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "1995 (Historical)",
+              "2010 (Historical)",
+              "2023 (Historical)",
+              "2030 (SE)",
+              "2030 (CM)",
+              "2030 (ST)",
+              "2040 (SE)",
+              "2040 (CM)",
+              "2040 (ST)",
+              "2050 (SE)",
+              "2050 (CM)",
+              "2050 (ST)"
+            ],
+            "name": "Scenario"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "thousand TWh"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Coal",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                4.92116868798235,
+                6.92447629547961,
+                8.75358324145534,
+                8.05678059536934,
+                7.75192943770675,
+                6.88092613009921,
+                5.00826901874312,
+                4.79051819184129,
+                4.05016538037489,
+                5.09536934950389,
+                4.31146637265712,
+                1.26295479603082
+              ]
+            },
+            {
+              "name": "Gas",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                2.0904079382579503,
+                5.095369349502691,
+                6.27122381477246,
+                6.445424476295461,
+                6.488974641675851,
+                7.01157662624029,
+                6.88092613009928,
+                6.445424476295511,
+                5.09536934950381,
+                8.361631753031912,
+                7.01157662624028,
+                3.2662624035282
+              ]
+            },
+            {
+              "name": "Clean firm",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                2.264608599779539,
+                2.438809261302099,
+                2.613009922823899,
+                3.3969128996692994,
+                3.4404630650496006,
+                3.4840132304300013,
+                4.311466372656998,
+                4.7034178610804,
+                6.793825799338501,
+                5.9663726571112985,
+                6.837375964718799,
+                10.32138919514878
+              ]
+            },
+            {
+              "name": "Hydro",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                2.525909592061261,
+                3.3533627342888987,
+                4.355016538037599,
+                4.616317530319599,
+                4.746968026460799,
+                4.790518191841198,
+                5.356670341786103,
+                5.4873208379272,
+                5.443770672546801,
+                5.5308710033076025,
+                5.6179713340684,
+                5.4873208379272
+              ]
+            },
+            {
+              "name": "Wind onshore",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                null,
+                null,
+                null,
+                "1.6984564498347012",
+                "3.3533627342889005",
+                "4.137265711135701",
+                "5.705071664829099",
+                "8.274531422271199",
+                "11.061742006615198",
+                "12.890848952591",
+                "17.768467475193003",
+                "20.991179713340703"
+              ]
+            },
+            {
+              "name": "Wind offshore",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                null,
+                null,
+                null,
+                "0.3484013230429994",
+                "0.7839029768467007",
+                "0.8710033076075021",
+                "4.529217199559",
+                "5.443770672546897",
+                "6.532524807056198",
+                "3.004961411245901",
+                "3.919514884233699",
+                "5.400220507166495"
+              ]
+            },
+            {
+              "name": "Solar",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                null,
+                null,
+                "4.311466372657101",
+                "6.358324145534702",
+                "5.3131201764057",
+                "7.403528114663697",
+                "9.9729878721058",
+                "12.977949283351705",
+                "17.42006615215",
+                "16.026460859977895",
+                "22.123484013230403",
+                "30.136714443219397"
+              ]
+            },
+            {
+              "name": "Other",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                1.1979051819189,
+                1.1879823594267016,
+                1.6957001102536005,
+                1.079382579933899,
+                1.1212789415656983,
+                1.4211686879824017,
+                0.2353914002205996,
+                1.877067254685798,
+                1.6025358324146026,
+                2.1234840132305024,
+                2.410143329658297,
+                2.133958103638406
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 150
+          }
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -128,7 +454,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_15.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Outro_1.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -157,7 +483,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<br />Other analyses suggest that fossil fuel demand will eventually fall but will still meet between 40–60% of global energy demand by 2050, down from 78% in 2023 (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective#/\"><u>Mckenzie</u></a>, 2024). Under many scenarios, 2030 is not a sharp turning point but a plateau in demand for fossil fuel, influenced by constraints in renewable energy deployment and the slow maturity of transition levers like industrial electrification, green fuels, and storage. <br /><br /><strong>Beyond climate consideration, the transition also needs to address equity elements</strong>, as many developing and emerging countries currently rely on coal to expand energy access and drive economic growth. About half of the world’s oil and gas comes from these countries, which are often economically reliant on volatile fossil fuel revenues. In countries like Nigeria, Angola, or Mexico, fossil fuel income supports energy access and government payrolls, with public sector wages making up 30–50% of government spending across many African nations (<a href=\"https://www.wri.org/insights/just-transition-developing-countries-shift-oil-gas\"><u>WRI</u></a>, 2023). <br /><br />`For developing countries that rely on fossil fuels, this means an urgent need to begin planning for a just transition that protects workers, communities, and local economies. Key policy strategies include creating alternative sources of employment, investing in clean energy industries, strengthening social safety nets, and leveraging international financing mechanisms like the <ai prompt=\"Explain just energy transition.\">just energy transition 💬️</ai> Partnerships (JETPs). <br /><br />"
+              "text": "<br />Other analyses suggest that fossil fuel demand will eventually fall but will still meet between 40–60% of global energy demand by 2050, down from 78% in 2023 (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective#/\"><u>Mckenzie</u></a>, 2024). Under many scenarios, 2030 is not a sharp turning point but a plateau in demand for fossil fuel, influenced by constraints in renewable energy deployment and the slow maturity of transition levers like industrial electrification, green fuels, and storage. <br /><br /><strong>Beyond climate consideration, the transition also needs to address equity elements</strong>, as many developing and emerging countries currently rely on coal to expand energy access and drive economic growth. About half of the world’s oil and gas comes from these countries, which are often economically reliant on volatile fossil fuel revenues. In countries like Nigeria, Angola, or Mexico, fossil fuel income supports energy access and government payrolls, with public sector wages making up 30–50% of government spending across many African nations (<a href=\"https://www.wri.org/insights/just-transition-developing-countries-shift-oil-gas\"><u>WRI</u></a>, 2023). <br /><br />`For developing countries that rely on fossil fuels, this means an urgent need to begin planning for a just transition that protects workers, communities, and local economies. Key policy strategies include creating alternative sources of employment, investing in clean energy industries, strengthening social safety nets, and leveraging international financing mechanisms like the <ai prompt=\"Tell me more about just energy transition.\">just energy transition 💬️</ai> Partnerships (JETPs). <br /><br />"
             }
           }
         ]
@@ -168,7 +494,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_2.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_2.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -194,7 +520,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_9.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_7.png",
           "caption": ""
         }
       }
@@ -232,7 +558,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_6.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_7.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -247,7 +573,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Hydrogen is an energy-rich element that can be used as fuel or feedstock in various sectors, producing only water vapor and heat when used, but its climate impact depends on how it is made. Green (or Clean) hydrogen refers to hydrogen produced with little or no greenhouse gas emissions, offering significant potential for <ai prompt=\"Clarify decarbonization.\">decarbonization 💬️</ai> especially in industries. <br /><br /><strong>Hydrogen might play an increasingly important role in the global energy transition</strong>, especially for decarbonizing hard-to-electrify sectors like heavy industry, long-haul transport, and aviation. By 2050, global hydrogen demand is projected to rise from 97 Mt in 2023 to between 111 and 614 Mt/year, potentially supplying 2–10% of global final energy consumption (<a href=\"https://www.nature.com/articles/s41467-024-51251-7\"><u>Terlouw et al.</u></a>, 2024). But when it comes to clean hydrogen, less than 1 Mt of low-emissions hydrogen was produced in 2023, although planned projects could scale this up to 49 Mt/year by 2030 (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). <br /><br /> <br />As deployment continues, production costs are projected to reduce by 50% by 2030, reaching between $2 and $9/kg H₂, with the potential to compete with fossil-based hydrogen (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). For developing countries, hydrogen offers both opportunity and challenge. The projected global hydrogen trade could reach $280 billion by 2050, with over half of this activity occurring in developing regions (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Feb/IRENA_UNIDO_IDOS_Green_hydrogen_industrial_development_2024.pdf\"><u>IRENA</u></a>, 2023). Africa and Latin America have vast potential to become low-cost green hydrogen producers. Latin America for instance could generate 7 Mt/year by 2030 (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). Hydrogen production could help reduce fertilizer import dependence and support local industries like green steel. However, realizing this potential will require a 20% increase in electricity generation in Latin America and significant upgrades to infrastructure, especially transmission."
+              "text": "Hydrogen is an energy-rich element that can be used as fuel or feedstock in various sectors, producing only water vapor and heat when used, but its climate impact depends on how it is made. Green (or Clean) hydrogen refers to hydrogen produced with little or no greenhouse gas emissions, offering significant potential for <ai prompt=\"Explain decarbonization.\">decarbonization 💬️</ai> especially in industries. <br /><br /><strong>Hydrogen might play an increasingly important role in the global energy transition</strong>, especially for decarbonizing hard-to-electrify sectors like heavy industry, long-haul transport, and aviation. By 2050, global hydrogen demand is projected to rise from 97 Mt in 2023 to between 111 and 614 Mt/year, potentially supplying 2–10% of global final energy consumption (<a href=\"https://www.nature.com/articles/s41467-024-51251-7\"><u>Terlouw et al.</u></a>, 2024). But when it comes to clean hydrogen, less than 1 Mt of low-emissions hydrogen was produced in 2023, although planned projects could scale this up to 49 Mt/year by 2030 (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). <br /><br /> <br />As deployment continues, production costs are projected to reduce by 50% by 2030, reaching between $2 and $9/kg H₂, with the potential to compete with fossil-based hydrogen (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). For developing countries, hydrogen offers both opportunity and challenge. The projected global hydrogen trade could reach $280 billion by 2050, with over half of this activity occurring in developing regions (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Feb/IRENA_UNIDO_IDOS_Green_hydrogen_industrial_development_2024.pdf\"><u>IRENA</u></a>, 2023). Africa and Latin America have vast potential to become low-cost green hydrogen producers. Latin America for instance could generate 7 Mt/year by 2030 (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). Hydrogen production could help reduce fertilizer import dependence and support local industries like green steel. However, realizing this potential will require a 20% increase in electricity generation in Latin America and significant upgrades to infrastructure, especially transmission."
             }
           }
         ]
@@ -261,7 +587,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<br /> However, <strong>unless green hydrogen strategies are rooted in inclusive planning and local benefits, they may risk replicating extractive models of the fossil fuel industries.</strong> In Namibia, for example, large-scale hydrogen ambitions are being developed in a country where 44% of the population lacks electricity access (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=NA\"><u>World Bank</u></a>, 2023). Diverting renewable energy toward hydrogen exports rather than domestic electrification could exacerbate energy poverty rather than alleviate it. <br /><br /><br />Additionally, the expansion of green hydrogen projects in water-scarce regions, such as North Africa and parts of Latin America, raises serious concerns. <ai prompt=\"Provide more info on electrolysis.\">electrolysis 💬️</ai> requires nine liters of purified water for every kilogram of hydrogen produced, and more than 70% of planned electrolyzer projects globally are located in areas already experiencing water stress (<a href=\"https://www.nature.com/articles/d41586-023-03884-9#:~:text=The%20water%20requirements%20for%20producing%20hydrogen%20by,litres%20of%20water%20per%20kilogram%20of%20H21.\"><u>Fairley et al</u></a>. , 2023). Without environmental safeguards, green hydrogen investments may deepen local inequalities, threaten ecological integrity, and reproduce patterns of displacement and marginalization. <br /><br /><br /><strong>For developing countries to truly benefit, green hydrogen must be pursued as a development strategy that centers equity, sovereignty, and long-term resilience. </strong>"
+              "text": "<br /> However, <strong>unless green hydrogen strategies are rooted in inclusive planning and local benefits, they may risk replicating extractive models of the fossil fuel industries.</strong> In Namibia, for example, large-scale hydrogen ambitions are being developed in a country where 44% of the population lacks electricity access (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=NA\"><u>World Bank</u></a>, 2023). Diverting renewable energy toward hydrogen exports rather than domestic electrification could exacerbate energy poverty rather than alleviate it. <br /><br /><br />Additionally, the expansion of green hydrogen projects in water-scarce regions, such as North Africa and parts of Latin America, raises serious concerns. <ai prompt=\"What is electrolysis?\">electrolysis 💬️</ai> requires nine liters of purified water for every kilogram of hydrogen produced, and more than 70% of planned electrolyzer projects globally are located in areas already experiencing water stress (<a href=\"https://www.nature.com/articles/d41586-023-03884-9#:~:text=The%20water%20requirements%20for%20producing%20hydrogen%20by,litres%20of%20water%20per%20kilogram%20of%20H21.\"><u>Fairley et al</u></a>. , 2023). Without environmental safeguards, green hydrogen investments may deepen local inequalities, threaten ecological integrity, and reproduce patterns of displacement and marginalization. <br /><br /><br /><strong>For developing countries to truly benefit, green hydrogen must be pursued as a development strategy that centers equity, sovereignty, and long-term resilience. </strong>"
             }
           }
         ]
@@ -272,7 +598,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_14.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_6.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -322,7 +648,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_9.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_1.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -337,7 +663,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong><ai prompt=\"Explain critical minerals.\">critical minerals 💬️</ai> are crucial for clean energy supply chains. <br /></strong><br />Demand for minerals like lithium, nickel, cobalt, graphite, and rare earth elements is expected to surge. In 2024 alone, lithium demand increased by nearly 30%, while other battery metals grew by 6–8%, driven largely by the rapid deployment of electric vehicles, battery storage systems, and renewables (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Under the IEA NZE Scenario, demand for critical minerals is expected to nearly triple by 2030 and grow to over 3.5 times the current levels by 2050, reaching nearly 40 million tonnes. <br /><br />However, this rapid shift is exposing new energy security risks. Supply chains for clean energy technologies are heavily concentrated, with China accounting for more than 95% of refined graphite and rare earth elements, 70% of lithium chemicals, and over 80% of global solar PV manufacturing capacity (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Globally, just three countries control 77% of mining and 86% of refining capacity for key minerals. <br />"
+              "text": "<strong><ai prompt=\"What is critical minerals?\">critical minerals 💬️</ai> are crucial for clean energy supply chains. <br /></strong><br />Demand for minerals like lithium, nickel, cobalt, graphite, and rare earth elements is expected to surge. In 2024 alone, lithium demand increased by nearly 30%, while other battery metals grew by 6–8%, driven largely by the rapid deployment of electric vehicles, battery storage systems, and renewables (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Under the IEA NZE Scenario, demand for critical minerals is expected to nearly triple by 2030 and grow to over 3.5 times the current levels by 2050, reaching nearly 40 million tonnes. <br /><br />However, this rapid shift is exposing new energy security risks. Supply chains for clean energy technologies are heavily concentrated, with China accounting for more than 95% of refined graphite and rare earth elements, 70% of lithium chemicals, and over 80% of global solar PV manufacturing capacity (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Globally, just three countries control 77% of mining and 86% of refining capacity for key minerals. <br />"
             }
           },
           {
@@ -361,7 +687,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_6.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_2.png",
           "caption": ""
         }
       }
@@ -408,7 +734,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Critical mineral recycling presents a major opportunity for a just energy transition.</strong> <br /><br />Recycling not only reduces exposure to volatile global markets and import dependency, it also generates jobs, fosters local industry, and lowers environmental harm. In a scenario aligned with national climate pledges, recycling could reduce the need for new mining of copper and cobalt by 40% and of lithium and nickel by nearly 25% by 2050. <br /><br />This would also avoid 30% in mining-related investment costs, an estimated USD 240 billion globally. For countries with limited reserves but growing energy demand, building recycling infrastructure offers a pathway to participate in mineral value chains without the high capital barriers of new extraction. <br /><br /><br />But today, the gap remains wide between regions: in Africa, formal e-waste collection rates remain around 1%, compared to 40–50% in Europe and North America. Unlocking this potential will require investments in collection systems, <ai prompt=\"Clarify technology transfer.\">technology transfer 💬️</ai>, and supportive policies, such as extended producer responsibility and standards for recycled content. If well supported, urban mining and circularity could become powerful tools for resilience and equity in the energy transition.<br /><br /><br /> Notably, they could help developing countries secure cleaner, more sustainable energy futures on their own terms."
+              "text": "<strong>Critical mineral recycling presents a major opportunity for a just energy transition.</strong> <br /><br />Recycling not only reduces exposure to volatile global markets and import dependency, it also generates jobs, fosters local industry, and lowers environmental harm. In a scenario aligned with national climate pledges, recycling could reduce the need for new mining of copper and cobalt by 40% and of lithium and nickel by nearly 25% by 2050. <br /><br />This would also avoid 30% in mining-related investment costs, an estimated USD 240 billion globally. For countries with limited reserves but growing energy demand, building recycling infrastructure offers a pathway to participate in mineral value chains without the high capital barriers of new extraction. <br /><br /><br />But today, the gap remains wide between regions: in Africa, formal e-waste collection rates remain around 1%, compared to 40–50% in Europe and North America. Unlocking this potential will require investments in collection systems, <ai prompt=\"Explain technology transfer.\">technology transfer 💬️</ai>, and supportive policies, such as extended producer responsibility and standards for recycled content. If well supported, urban mining and circularity could become powerful tools for resilience and equity in the energy transition.<br /><br /><br /> Notably, they could help developing countries secure cleaner, more sustainable energy futures on their own terms."
             }
           }
         ]
@@ -419,7 +745,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_10.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Outro_2.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -459,11 +785,11 @@
       "color_scheme": "dark",
       "content": {
         "title": "Key Takeaways",
-        "intro": "If you only have space to remember 3 things:",
+        "intro": "",
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Outro_3.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_6.png",
               "caption": ""
             },
             "title": "Fossil fuels remain deeply embedded in global energy supply, especially in developing countries where they support energy access and economies. This highlights the urgent need for a just, inclusive transition that protects livelihoods while phasing out carbon-intensive energy.",
@@ -471,7 +797,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_4.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_8.png",
               "caption": ""
             },
             "title": "Renewables are transforming the global energy system, with solar and wind expected to dominate future electricity generation, but scaling this transformation requires massive infrastructure upgrades, policy reform, and investment.",
@@ -479,7 +805,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_16.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_1.png",
               "caption": ""
             },
             "title": "New energy systems bring new vulnerabilities, from critical mineral dependencies to geopolitical risks and grid limitations, requiring smarter, more resilient supply strategies that are diverse, equitable, and aligned with climate and development goals..",

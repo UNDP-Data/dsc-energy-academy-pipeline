@@ -86,10 +86,220 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Effective policy frameworks are key to facilitating the shift to green jobs, and capacity building efforts are necessary to upskill and reskill workers. The green jobs transition requires deliberate action to protect livelihoods and align education and training programs with emerging opportunities. For instance, Egypt’s Technical and Vocational Education and Training II project, a €116 million initiative, supports renewable energy programs across 13 institutions. Similarly, the Philippines’ Green Jobs Act encourages the creation, sustainability, and incentivization of green jobs, while improving workforce development planning.<br /><br />In crisis settings, the <ai prompt=\"Clarify just energy transition.\">just energy transition 💬️</ai> serves as an investment in long-term stability by fostering local capacities and infrastructure for recovery and development. Countries heavily dependent on energy imports, such as Yemen and Lebanon, demonstrate the potential of sustainable energy to build both resilience and livelihoods. Yemen’s ERRY III joint program, which focuses on upskilling over 1,100 individuals—particularly women—in solar services, and Lebanon’s training programs for women engineers are examples of how targeted initiatives can drive positive outcomes."
+              "text": "Effective policy frameworks are key to facilitating the shift to green jobs, and capacity building efforts are necessary to upskill and reskill workers. The green jobs transition requires deliberate action to protect livelihoods and align education and training programs with emerging opportunities. For instance, Egypt’s Technical and Vocational Education and Training II project, a €116 million initiative, supports renewable energy programs across 13 institutions. Similarly, the Philippines’ Green Jobs Act encourages the creation, sustainability, and incentivization of green jobs, while improving workforce development planning.<br /><br />In crisis settings, the <ai prompt=\"Provide more info on just energy transition.\">just energy transition 💬️</ai> serves as an investment in long-term stability by fostering local capacities and infrastructure for recovery and development. Countries heavily dependent on energy imports, such as Yemen and Lebanon, demonstrate the potential of sustainable energy to build both resilience and livelihoods. Yemen’s ERRY III joint program, which focuses on upskilling over 1,100 individuals—particularly women—in solar services, and Lebanon’s training programs for women engineers are examples of how targeted initiatives can drive positive outcomes."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#19486a",
+            "#c5192d",
+            "#0a97d9",
+            "#fd9d24",
+            "#dd1367",
+            "#3f7e44",
+            "#4c9f38",
+            "#fd6925",
+            "#0468b1",
+            "#fcc30b"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "boundaryGap": [
+              0,
+              0.01
+            ],
+            "name": "thousand persons"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Agriculture",
+              "Coal",
+              "Oil, gas and manufactured fuels",
+              "Other extraction Industries",
+              "Basic manufacturing",
+              "Engineering and transport equipment",
+              "Electricity supply",
+              "Other Utilities",
+              "Construction",
+              "Distribution and retail",
+              "Transport",
+              "Hotels and catering; Communications, publishing and television",
+              "Business services",
+              "Public and personal services"
+            ],
+            "name": "Sector"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "2030",
+              "type": "bar",
+              "data": [
+                11081.3024109014,
+                -5065.07686932215,
+                -4846.69811320754,
+                -160.239737187002,
+                13353.806341719,
+                4231.94371651526,
+                1536.3309457256,
+                -961.502453930164,
+                562.915222940451,
+                5854.93513746538,
+                1652.91335458887,
+                3651.24326261097,
+                1526.53675961513,
+                6660.58593042292
+              ]
+            },
+            {
+              "name": "2040",
+              "type": "bar",
+              "data": [
+                7614.53965758211,
+                -6156.97064989517,
+                -7781.16264849755,
+                -215.090689866574,
+                11659.0962031213,
+                2400.74685534591,
+                3515.38842301421,
+                -1782.9503212594,
+                -1158.96588357661,
+                0.0,
+                957.842082233357,
+                1771.39141237674,
+                4204.14086562104,
+                11770.9394896731
+              ]
+            },
+            {
+              "name": "2050",
+              "type": "bar",
+              "data": [
+                3956.69549266247,
+                -7085.08036338225,
+                -9842.11215932914,
+                -171.209927722919,
+                9316.07413230841,
+                0.0,
+                4982.62069065921,
+                -2114.68888306545,
+                0.0,
+                -2090.99327150787,
+                0.0,
+                799.871338516191,
+                8082.32262387737,
+                14290.5728519618
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -120,7 +330,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Just transition planning is critical to ensuring affected workers and communities are adequately supported throughout the process. By promoting inclusive and equitable economic diversification, policymakers can effectively manage the energy transition while advancing sustainable development and social equity.<br /><br />Worker retraining and skills development programs are crucial in facilitating a smooth transition away from extractive industries. By providing workers with the necessary qualifications for sustainable roles in emerging sectors, these programs ensure that individuals can adapt to changing job markets and contribute to the growth of clean energy industries. <br /><br />Retraining and skills development programs are pivotal for a smooth transition away from extractive industries. By equipping workers with the qualifications needed for sustainable roles in emerging sectors, these programs help them adapt to changing job markets and contribute to the growth of clean energy industries. <strong>Many workers in traditional energy sectors already possess transferable skills. </strong>For example, oil and gas workers may transition to offshore wind or carbon capture projects, while coal miners could shift to mining <ai prompt=\"Tell me more about critical minerals.\">critical minerals 💬️</ai> for low-carbon technologies."
+              "text": "Just transition planning is critical to ensuring affected workers and communities are adequately supported throughout the process. By promoting inclusive and equitable economic diversification, policymakers can effectively manage the energy transition while advancing sustainable development and social equity.<br /><br />Worker retraining and skills development programs are crucial in facilitating a smooth transition away from extractive industries. By providing workers with the necessary qualifications for sustainable roles in emerging sectors, these programs ensure that individuals can adapt to changing job markets and contribute to the growth of clean energy industries. <br /><br />Retraining and skills development programs are pivotal for a smooth transition away from extractive industries. By equipping workers with the qualifications needed for sustainable roles in emerging sectors, these programs help them adapt to changing job markets and contribute to the growth of clean energy industries. <strong>Many workers in traditional energy sectors already possess transferable skills. </strong>For example, oil and gas workers may transition to offshore wind or carbon capture projects, while coal miners could shift to mining <ai prompt=\"Explain critical minerals.\">critical minerals 💬️</ai> for low-carbon technologies."
             }
           }
         ]
@@ -182,7 +392,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Energy: </strong>The electricity company EVN urgently needed 500 electrical fitters to maintain operations <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u><br /></u></a><strong>Textiles:</strong> A lack of technicians qualified to operate advanced machinery stalled technology adoption <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><br /><strong>Construction: </strong>The industry, representing 5.4% of GDP, faced a deficit of approximately 600 technicians, threatening development projects <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020, para. 3; </u></a> (<a href=\"https://info.undp.org/docs/pdc/Documents/MKD/ProDoc_BridgingSkillGap-II%20phase_Signed.pdf\"><u>UNDP, 2021)</u></a>.<br /><br />Furthermore, a national digital skills deficit, with 50% of the population having low <ai prompt=\"Tell me more about digital literacy.\">digital literacy 💬️</ai>, hindered the country's competitiveness in an increasingly technology-driven global economy.<br />"
+              "text": "<strong>Energy: </strong>The electricity company EVN urgently needed 500 electrical fitters to maintain operations <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u><br /></u></a><strong>Textiles:</strong> A lack of technicians qualified to operate advanced machinery stalled technology adoption <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><br /><strong>Construction: </strong>The industry, representing 5.4% of GDP, faced a deficit of approximately 600 technicians, threatening development projects <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020, para. 3; </u></a> (<a href=\"https://info.undp.org/docs/pdc/Documents/MKD/ProDoc_BridgingSkillGap-II%20phase_Signed.pdf\"><u>UNDP, 2021)</u></a>.<br /><br />Furthermore, a national digital skills deficit, with 50% of the population having low <ai prompt=\"Clarify digital literacy.\">digital literacy 💬️</ai>, hindered the country's competitiveness in an increasingly technology-driven global economy.<br />"
             }
           }
         ]
@@ -378,7 +588,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Despite the growing demand, the number of workers obtaining relevant qualifications is not keeping pace. Vocational training and degrees in science, technology, engineering, and mathematics (STEM) critical to the energy sector are not growing fast enough to meet this need.<br /><br />Regions that rely heavily on fossil fuels, such as coal, oil, or gas, will feel the impacts of the energy transition most acutely and will require targeted support. Governments must also address the financial barriers workers face in retraining, while ensuring <ai prompt=\"Tell me more about marginalized communities.\">marginalized communities 💬️</ai> are not left behind.<br /><br />A just transition requires addressing both global and regional disparities. Socioeconomic factors like income levels, education, and access to training vary widely across regions, and tailored programs are essential to build local capacities. Diversifying local job markets and prioritizing clean energy infrastructure where it’s most needed—not just where it’s easiest to implement—are crucial steps.<br />Ultimately, addressing these disparities and ensuring the benefits of clean energy job creation are shared more equitably is key to achieving a truly inclusive energy transition."
+              "text": "Despite the growing demand, the number of workers obtaining relevant qualifications is not keeping pace. Vocational training and degrees in science, technology, engineering, and mathematics (STEM) critical to the energy sector are not growing fast enough to meet this need.<br /><br />Regions that rely heavily on fossil fuels, such as coal, oil, or gas, will feel the impacts of the energy transition most acutely and will require targeted support. Governments must also address the financial barriers workers face in retraining, while ensuring <ai prompt=\"Clarify marginalized communities.\">marginalized communities 💬️</ai> are not left behind.<br /><br />A just transition requires addressing both global and regional disparities. Socioeconomic factors like income levels, education, and access to training vary widely across regions, and tailored programs are essential to build local capacities. Diversifying local job markets and prioritizing clean energy infrastructure where it’s most needed—not just where it’s easiest to implement—are crucial steps.<br />Ultimately, addressing these disparities and ensuring the benefits of clean energy job creation are shared more equitably is key to achieving a truly inclusive energy transition."
             }
           }
         ]
@@ -477,7 +687,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "KEY TAKEAWAYS",
-        "intro": "If you only have space to remember 3 things:",
+        "intro": "",
         "takeaways": [
           {
             "image": {

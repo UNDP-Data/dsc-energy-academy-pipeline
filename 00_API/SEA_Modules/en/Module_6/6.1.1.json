@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "Key Takeaways",
-        "intro": "Lesson 1 on THE IMPACT OF ENERGY SYSTEMS ON CLIMATE CHANGE",
+        "intro": "",
         "takeaways": [
           {
             "image": {
@@ -99,6 +99,109 @@
       }
     },
     {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "show": false
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null,
+            "trigger": "item"
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#c5192d",
+            "#fcc30b",
+            "#fd9d24",
+            "#3f7e44",
+            "#19486a",
+            "#4c9f38",
+            "#0a97d9",
+            "#fd6925",
+            "#0468b1",
+            "#dd1367"
+          ],
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Access From",
+              "type": "pie",
+              "radius": "75%",
+              "data": [
+                {
+                  "name": "Energy",
+                  "value": 75.7
+                },
+                {
+                  "name": "Agriculture",
+                  "value": 11.7
+                },
+                {
+                  "name": "Industrial Processes",
+                  "value": 6.5
+                },
+                {
+                  "name": "Waste",
+                  "value": 3.4
+                },
+                {
+                  "name": "Land Use Change and Forestry",
+                  "value": 2.7
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -110,6 +213,327 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#dd1367",
+            "#fd6925",
+            "#19486a",
+            "#fd9d24",
+            "#0468b1",
+            "#fcc30b",
+            "#0a97d9",
+            "#4c9f38",
+            "#c5192d",
+            "#3f7e44"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              1990,
+              1991,
+              1992,
+              1993,
+              1994,
+              1995,
+              1996,
+              1997,
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "MtCo2e"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "line",
+              "name": "Energy",
+              "data": [
+                23660.14,
+                23818.01,
+                23707.42,
+                23845.95,
+                23943.99,
+                24605.32,
+                25119.71,
+                25543.82,
+                25701.94,
+                25826.94,
+                26607.83,
+                26972.16,
+                27303.91,
+                28504.58,
+                29762.77,
+                30845.08,
+                31742.01,
+                32821.47,
+                33062.57,
+                32535.35,
+                34453.48,
+                35429.95,
+                35762.83,
+                36365.23,
+                36464.78,
+                36309.07,
+                36274.37,
+                36827.24,
+                37652.42,
+                37623.18,
+                35532.26,
+                37497.65,
+                38008.54
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Electricity/Heat",
+              "data": [
+                8653.37,
+                8796.23,
+                8953.47,
+                9003.81,
+                9105.35,
+                9296.41,
+                9662.55,
+                9937.03,
+                10163.84,
+                10226.32,
+                10628.24,
+                10886.64,
+                11072.27,
+                11691.14,
+                12076.46,
+                12451.38,
+                12955.18,
+                13518.63,
+                13545.46,
+                13330.54,
+                14236.95,
+                14857.74,
+                15154.39,
+                15449.07,
+                15393.11,
+                15126.68,
+                15134.08,
+                15480.49,
+                15901.34,
+                15843.06,
+                15323.08,
+                16447.75,
+                16688.42
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Manufacturing/Construction",
+              "data": [
+                3978.52,
+                3900.0,
+                3770.69,
+                3719.1,
+                3732.51,
+                3956.48,
+                3838.82,
+                3862.91,
+                3861.0,
+                3703.74,
+                3859.55,
+                3881.54,
+                3893.32,
+                4085.93,
+                4514.42,
+                4935.81,
+                5171.55,
+                5452.0,
+                5559.44,
+                5548.93,
+                6110.09,
+                6339.47,
+                6363.01,
+                6365.14,
+                6433.66,
+                6316.92,
+                6159.11,
+                6080.37,
+                6207.16,
+                6248.09,
+                6202.69,
+                6349.21,
+                6303.94
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Transportation",
+              "data": [
+                4733.71,
+                4772.1,
+                4880.23,
+                4923.23,
+                5021.55,
+                5159.12,
+                5369.33,
+                5447.53,
+                5574.08,
+                5738.55,
+                5921.01,
+                5951.44,
+                6107.43,
+                6235.61,
+                6524.11,
+                6668.92,
+                6824.66,
+                7038.06,
+                7044.04,
+                6903.1,
+                7197.42,
+                7314.2,
+                7374.23,
+                7565.04,
+                7691.06,
+                7929.36,
+                8085.15,
+                8281.72,
+                8478.33,
+                8497.7,
+                7283.0,
+                7853.2,
+                8151.42
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -164,7 +588,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Methane, the second-largest driver of global warming after CO2, is a significant concern in the energy sector. Oil and gas operations are the biggest sources of methane emissions, while incomplete combustion of <ai prompt=\"Explain bioenergy.\">bioenergy 💬️</ai>—like wood, charcoal, and crop residues—adds to methane emissions. Methane is released both intentionally, through practices like venting and flaring during production and maintenance, and accidentally, through leaks in pipelines, compressors, and valves (fugitive emissions)."
+              "text": "Methane, the second-largest driver of global warming after CO2, is a significant concern in the energy sector. Oil and gas operations are the biggest sources of methane emissions, while incomplete combustion of <ai prompt=\"Share details about bioenergy.\">bioenergy 💬️</ai>—like wood, charcoal, and crop residues—adds to methane emissions. Methane is released both intentionally, through practices like venting and flaring during production and maintenance, and accidentally, through leaks in pipelines, compressors, and valves (fugitive emissions)."
             }
           }
         ]
@@ -182,6 +606,422 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null,
+            "trigger": "axis"
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fcc30b",
+            "#fd6925",
+            "#c5192d",
+            "#4c9f38",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#0468b1",
+            "#dd1367",
+            "#3f7e44"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "name": "Year",
+            "boundaryGap": false,
+            "data": [
+              2000,
+              2001,
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "GtCO2 eq"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "grid": {
+            "left": "3%",
+            "right": "4%",
+            "bottom": "3%",
+            "containLabel": true
+          },
+          "toolbox": {
+            "feature": {
+              "saveAsImage": {}
+            }
+          },
+          "series": [
+            {
+              "name": "Coal",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                8.93,
+                9.16,
+                9.36,
+                10.08,
+                10.74,
+                11.45,
+                12.1,
+                12.78,
+                12.93,
+                12.93,
+                13.84,
+                14.6,
+                14.73,
+                15.08,
+                15.1,
+                14.61,
+                14.39,
+                14.62,
+                15.01,
+                14.76,
+                14.23,
+                15.22,
+                15.46
+              ]
+            },
+            {
+              "name": "Oil",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                9.66,
+                9.71,
+                9.67,
+                9.81,
+                10.18,
+                10.31,
+                10.38,
+                10.54,
+                10.44,
+                10.16,
+                10.54,
+                10.56,
+                10.65,
+                10.81,
+                10.87,
+                11.12,
+                11.18,
+                11.33,
+                11.41,
+                11.38,
+                10.12,
+                10.9,
+                11.17
+              ]
+            },
+            {
+              "name": "Natural gas",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                4.56,
+                4.62,
+                4.78,
+                4.96,
+                5.09,
+                5.21,
+                5.36,
+                5.57,
+                5.73,
+                5.57,
+                6.04,
+                6.13,
+                6.25,
+                6.33,
+                6.32,
+                6.42,
+                6.6,
+                6.75,
+                7.07,
+                7.2,
+                7.08,
+                7.45,
+                7.33
+              ]
+            },
+            {
+              "name": "Waste",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                0.1,
+                0.11,
+                0.11,
+                0.11,
+                0.11,
+                0.11,
+                0.12,
+                0.12,
+                0.12,
+                0.13,
+                0.16,
+                0.18,
+                0.19,
+                0.19,
+                0.19,
+                0.19,
+                0.21,
+                0.22,
+                0.23,
+                0.23,
+                0.24,
+                0.25,
+                0.28
+              ]
+            },
+            {
+              "name": "Industrial processes",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                1.31,
+                1.32,
+                1.37,
+                1.47,
+                1.54,
+                1.62,
+                1.76,
+                1.87,
+                1.87,
+                1.9,
+                2.01,
+                2.17,
+                2.24,
+                2.31,
+                2.37,
+                2.36,
+                2.42,
+                2.45,
+                2.58,
+                2.67,
+                2.64,
+                2.67,
+                2.57
+              ]
+            },
+            {
+              "name": "Methane",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                2.97,
+                3.01,
+                3.0,
+                3.16,
+                3.3,
+                3.43,
+                3.5,
+                3.56,
+                3.61,
+                3.53,
+                3.68,
+                3.79,
+                3.84,
+                3.87,
+                3.89,
+                3.86,
+                3.84,
+                3.87,
+                3.97,
+                4.02,
+                3.79,
+                3.91,
+                3.99
+              ]
+            },
+            {
+              "name": "Nitrous oxide",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                0.19,
+                0.2,
+                0.2,
+                0.21,
+                0.22,
+                0.22,
+                0.23,
+                0.23,
+                0.24,
+                0.23,
+                0.24,
+                0.25,
+                0.25,
+                0.26,
+                0.26,
+                0.26,
+                0.26,
+                0.27,
+                0.27,
+                0.27,
+                0.25,
+                0.27,
+                0.28
+              ]
+            },
+            {
+              "name": "CO2 flaring",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                0.31,
+                0.3,
+                0.29,
+                0.32,
+                0.31,
+                0.32,
+                0.3,
+                0.29,
+                0.28,
+                0.28,
+                0.26,
+                0.27,
+                0.27,
+                0.26,
+                0.27,
+                0.28,
+                0.28,
+                0.27,
+                0.27,
+                0.28,
+                0.27,
+                0.27,
+                0.27
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -382,7 +1222,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The transition to renewable energy necessitates increased mining activities for essential materials like lithium, cobalt, and rare earth elements. Mining operations often result in severe environmental degradation, including soil erosion, water pollution, and destruction of habitats. In fact, many reserves of <ai prompt=\"What is critical minerals?\">critical minerals 💬️</ai> for renewable power infrastructure coincide with areas of high biodiversity value. In regions where these minerals are extracted, such as the Atacama Desert in Chile, mining activities have been attributed to being one of the major stressors to local environmental degradation. Similarly, in the Democratic Republic of Congo (DRC), home to one of the world’s largest rainforests, cobalt mining has raised major environmental and human rights concerns, including deforestation, water contamination, and child labor. Deep sea mining is also being explored to meet mineral demand, targeting resources on the ocean floor. However, it poses serious risks to marine ecosystems, including habitat destruction and loss of biodiversity, raising concerns about its environmental impact."
+              "text": "The transition to renewable energy necessitates increased mining activities for essential materials like lithium, cobalt, and rare earth elements. Mining operations often result in severe environmental degradation, including soil erosion, water pollution, and destruction of habitats. In fact, many reserves of <ai prompt=\"Clarify critical minerals.\">critical minerals 💬️</ai> for renewable power infrastructure coincide with areas of high biodiversity value. In regions where these minerals are extracted, such as the Atacama Desert in Chile, mining activities have been attributed to being one of the major stressors to local environmental degradation. Similarly, in the Democratic Republic of Congo (DRC), home to one of the world’s largest rainforests, cobalt mining has raised major environmental and human rights concerns, including deforestation, water contamination, and child labor. Deep sea mining is also being explored to meet mineral demand, targeting resources on the ocean floor. However, it poses serious risks to marine ecosystems, including habitat destruction and loss of biodiversity, raising concerns about its environmental impact."
             }
           }
         ]

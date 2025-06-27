@@ -7,7 +7,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_4.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_7.png",
           "caption": ""
         }
       }
@@ -95,7 +95,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The lifecycle of energy production includes all stages from raw material extraction to energy conversion, distribution, usage, and eventual waste management or decommissioning. This process accounts for environmental, economic, and social impacts at each phase. When looking at the entire lifecycle of energy production, renewable sources still have a significant edge. The emissions from solar and <ai prompt=\"Explain wind energy.\">wind energy 💬️</ai> are much lower than those from coal and natural gas. For instance, coal and natural gas have lifecycle emissions of 1,001 and 486 grams of CO2 per kWh, while solar and wind technology have far less, with wind associated with 13 grams and solar associated with 43 grams of CO2 per kWh of energy they generate, primarily due to manufacturing and construction. These factors make renewables valuable for governments, non-state actors and businesses alike to decarbonize and reduce their exposure to climate risks."
+              "text": "The lifecycle of energy production includes all stages from raw material extraction to energy conversion, distribution, usage, and eventual waste management or decommissioning. This process accounts for environmental, economic, and social impacts at each phase. When looking at the entire lifecycle of energy production, renewable sources still have a significant edge. The emissions from solar and <ai prompt=\"What is wind energy?\">wind energy 💬️</ai> are much lower than those from coal and natural gas. For instance, coal and natural gas have lifecycle emissions of 1,001 and 486 grams of CO2 per kWh, while solar and wind technology have far less, with wind associated with 13 grams and solar associated with 43 grams of CO2 per kWh of energy they generate, primarily due to manufacturing and construction. These factors make renewables valuable for governments, non-state actors and businesses alike to decarbonize and reduce their exposure to climate risks."
             }
           }
         ]
@@ -175,7 +175,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Similarly, <ai prompt=\"Clarify clean cooking.\">clean cooking 💬️</ai> is key to addressing indoor air pollution, as seen in Module 2 on Energy Access. Traditional biomass and kerosene use release black carbon, a major contributor to indoor air pollution and severe respiratory illnesses, particularly in low-income households. Transitioning to cleaner energy sources for both electricity and cooking can significantly improve public health and reduce environmental harm."
+              "text": "Similarly, <ai prompt=\"Provide more info on clean cooking.\">clean cooking 💬️</ai> is key to addressing indoor air pollution, as seen in Module 2 on Energy Access. Traditional biomass and kerosene use release black carbon, a major contributor to indoor air pollution and severe respiratory illnesses, particularly in low-income households. Transitioning to cleaner energy sources for both electricity and cooking can significantly improve public health and reduce environmental harm."
             }
           }
         ]
@@ -215,10 +215,185 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Water use is another important issue when it comes to energy generation. Most energy systems rely on water for cooling and steam production. In 2021, global energy generation used about 370 billion cubic meters of freshwater, equating to 10% of worldwide freshwater withdrawals. Fossil fuel power plants were responsible for a large portion of this water use. <strong>Coal plants alone withdrew 189.6 billion cubic meters of water. In contrast, renewable energy technologies used just 12.1 billion cubic meters in 2021.</strong> As such, solar panels and wind turbines do not require water for cooling or steam production, using it only for cleaning and construction, significantly reducing overall water consumption. However, <ai prompt=\"Provide more info on geothermal energy.\">geothermal energy 💬️</ai> does require water as a heat transfer fluid in the form of steam or hot water to generate electricity or provide direct heating, making its water use higher than other renewables."
+              "text": "Water use is another important issue when it comes to energy generation. Most energy systems rely on water for cooling and steam production. In 2021, global energy generation used about 370 billion cubic meters of freshwater, equating to 10% of worldwide freshwater withdrawals. Fossil fuel power plants were responsible for a large portion of this water use. <strong>Coal plants alone withdrew 189.6 billion cubic meters of water. In contrast, renewable energy technologies used just 12.1 billion cubic meters in 2021.</strong> As such, solar panels and wind turbines do not require water for cooling or steam production, using it only for cleaning and construction, significantly reducing overall water consumption. However, <ai prompt=\"Explain geothermal energy.\">geothermal energy 💬️</ai> does require water as a heat transfer fluid in the form of steam or hot water to generate electricity or provide direct heating, making its water use higher than other renewables."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#dd1367",
+            "#fd6925",
+            "#fcc30b",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44",
+            "#19486a",
+            "#c5192d",
+            "#0a97d9",
+            "#fd9d24"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Power: Renewables",
+              "Power: Nuclear",
+              "Power: Fossil fuels",
+              "Primary: Hydrogen",
+              "Primary: Fossil fuels",
+              "Primary: Bioenergy"
+            ],
+            "name": "Fuel / Power Generation Method"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "BCM"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "2021",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                11.740890688258958,
+                107.28744939271304,
+                189.8785425101205,
+                2.024291497975696,
+                22.2672064777328,
+                37.246963562753
+              ]
+            },
+            {
+              "name": "2030",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                18.274853801169,
+                128.62685560053998,
+                171.9710601289545,
+                3.2801019643123936,
+                21.789248762933,
+                49.3739691108111
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 100
+          }
+        }
       }
     },
     {
@@ -296,7 +471,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "Key Takeaways",
-        "intro": "If you only have space to remember 3 things:",
+        "intro": "",
         "takeaways": [
           {
             "image": {

@@ -99,7 +99,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>In many regions, the lack of robust national energy infrastructure and reliable supply chains constrains access to electricity, clean cooking fuels, and <ai prompt=\"Provide more info on heating and cooling.\">heating and cooling 💬️</ai> solutions</strong>. <br /><br /><br />Part of the issue is that existing infrastructure is often outdated and in urgent need of modernization, which limits its capacity to support growing energy demands or integrate cleaner, decentralized technologies. <br /><br /><br />This is particularly true for rural and low-income communities, especially when additional layers of vulnerability are considered. Such limitations present a major barrier to extending energy access to underserved populations. This, and other challenges are outlined in this section."
+              "text": "<strong>In many regions, the lack of robust national energy infrastructure and reliable supply chains constrains access to electricity, clean cooking fuels, and <ai prompt=\"Tell me more about heating and cooling.\">heating and cooling 💬️</ai> solutions</strong>. <br /><br /><br />Part of the issue is that existing infrastructure is often outdated and in urgent need of modernization, which limits its capacity to support growing energy demands or integrate cleaner, decentralized technologies. <br /><br /><br />This is particularly true for rural and low-income communities, especially when additional layers of vulnerability are considered. Such limitations present a major barrier to extending energy access to underserved populations. This, and other challenges are outlined in this section."
             }
           }
         ]
@@ -137,7 +137,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Energy supply chain disruptions pose another significant barrier to vulnerable populations. In many developing countries, issues such as pipeline damage, geopolitical tensions, price fluctuations, and even climate events disrupt energy source operations. These disruptions lead to underutilization of available resources and jeopardizing the secure electricity supply.<br /><br />The interplay of unstable fuel provisioning and high costs intensifies the struggle for vulnerable populations to achieve reliable energy access. Uncertainties in fuel provisioning place a stranglehold on energy demands, exacerbating issues of supply reliability and perpetuating the energy access gap. As a result, individuals in these communities face ongoing difficulties in securing dependable electricity, <ai prompt=\"Explain clean cooking.\">clean cooking 💬️</ai> solutions, and climate-resilient heating and cooling."
+              "text": "Energy supply chain disruptions pose another significant barrier to vulnerable populations. In many developing countries, issues such as pipeline damage, geopolitical tensions, price fluctuations, and even climate events disrupt energy source operations. These disruptions lead to underutilization of available resources and jeopardizing the secure electricity supply.<br /><br />The interplay of unstable fuel provisioning and high costs intensifies the struggle for vulnerable populations to achieve reliable energy access. Uncertainties in fuel provisioning place a stranglehold on energy demands, exacerbating issues of supply reliability and perpetuating the energy access gap. As a result, individuals in these communities face ongoing difficulties in securing dependable electricity, <ai prompt=\"Share details about clean cooking.\">clean cooking 💬️</ai> solutions, and climate-resilient heating and cooling."
             }
           }
         ]
@@ -148,7 +148,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_4.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_1.png",
           "caption": ""
         }
       }
@@ -189,6 +189,341 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0468b1",
+            "#dd1367",
+            "#0a97d9",
+            "#fd9d24",
+            "#fd6925",
+            "#3f7e44",
+            "#4c9f38",
+            "#c5192d",
+            "#fcc30b",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0,
+              "rotate": 45
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Commitments (USD billion)"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Sub-Saharan Africa",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                1.65,
+                3.0,
+                1.52,
+                4.72,
+                2.68,
+                3.88,
+                9.87,
+                4.22,
+                4.91,
+                3.08,
+                3.76,
+                4.45,
+                4.56
+              ]
+            },
+            {
+              "name": "Latin America and the Caribbean",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                4.59,
+                2.55,
+                2.65,
+                3.22,
+                6.64,
+                2.76,
+                5.95,
+                4.76,
+                2.18,
+                2.45,
+                3.08,
+                1.75,
+                3.75
+              ]
+            },
+            {
+              "name": "Central Asia and Southern Asia",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                1.08,
+                2.97,
+                2.64,
+                2.05,
+                1.91,
+                2.83,
+                4.13,
+                3.26,
+                2.49,
+                2.54,
+                2.24,
+                3.0,
+                1.83
+              ]
+            },
+            {
+              "name": "Western Asia and Northern Africa",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                2.14,
+                1.48,
+                1.74,
+                1.06,
+                1.91,
+                1.5,
+                3.5,
+                3.26,
+                2.47,
+                1.99,
+                1.04,
+                1.5,
+                1.72
+              ]
+            },
+            {
+              "name": "Eastern Asia and South-eastern Asia",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.92,
+                2.74,
+                1.27,
+                1.91,
+                2.85,
+                1.8,
+                3.41,
+                3.47,
+                3.26,
+                0.97,
+                1.12,
+                1.5,
+                1.37
+              ]
+            },
+            {
+              "name": "Oceania",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.11,
+                0.12,
+                0.26,
+                0.18,
+                0.18,
+                0.18,
+                0.22
+              ]
+            },
+            {
+              "name": "Northern America and Europe",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0.8,
+                0.96,
+                1.0,
+                1.45,
+                2.0,
+                1.46,
+                3.11,
+                2.0,
+                1.26,
+                0.92,
+                0.72,
+                0.75,
+                1.63
+              ]
+            },
+            {
+              "name": "Unspecified countries",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0.55",
+                "0.97",
+                "0.25",
+                "0.35"
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 150
+          }
+        }
       }
     },
     {
@@ -247,6 +582,208 @@
       }
     },
     {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0a97d9",
+            "#19486a",
+            "#fd6925",
+            "#fcc30b",
+            "#3f7e44",
+            "#fd9d24",
+            "#0468b1",
+            "#dd1367",
+            "#c5192d",
+            "#4c9f38"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              2010,
+              2011,
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Commitments (USD billion)"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "line",
+              "name": "LDCs",
+              "data": [
+                0.4,
+                1.5,
+                2.1,
+                2.9,
+                3.0,
+                2.4,
+                7.5,
+                6.0,
+                3.0,
+                2.0,
+                1.5,
+                2.0,
+                2.3
+              ]
+            },
+            {
+              "type": "line",
+              "name": "LLDCs",
+              "data": [
+                0.6,
+                0.9,
+                1.4,
+                2.6,
+                2.8,
+                1.9,
+                6.0,
+                5.2,
+                3.1,
+                2.3,
+                1.5,
+                1.4,
+                2.7
+              ]
+            },
+            {
+              "type": "line",
+              "name": "SIDS",
+              "data": [
+                0.1,
+                0.2,
+                0.3,
+                0.2,
+                0.3,
+                0.3,
+                0.4,
+                0.3,
+                0.2,
+                0.2,
+                0.3,
+                0.3,
+                0.3
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "template_id": "photo_full_height",
       "color_scheme": "dark",
       "content": {
@@ -274,6 +811,181 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fd6925",
+            "#0a97d9",
+            "#0468b1",
+            "#4c9f38",
+            "#dd1367",
+            "#3f7e44",
+            "#fd9d24",
+            "#c5192d",
+            "#fcc30b",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Low Demand",
+              "Bottom-Up",
+              "High Demand"
+            ],
+            "name": "Scenario"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "USD billions"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Grid",
+              "type": "bar",
+              "data": [
+                115,
+                120,
+                140
+              ]
+            },
+            {
+              "name": "Mini-grid",
+              "type": "bar",
+              "data": [
+                5,
+                15,
+                40
+              ]
+            },
+            {
+              "name": "Stand-alone",
+              "type": "bar",
+              "data": [
+                35,
+                40,
+                75
+              ]
+            },
+            {
+              "name": "Total",
+              "type": "bar",
+              "data": [
+                155,
+                175,
+                255
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
       }
     },
     {
@@ -320,7 +1032,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While public financing will continue to play a key role, there is a<strong> need to deploy commercial capital to bridge the investment gap and realize universal access to electricity, particularly in remote rural areas. These areas are often perceived as too risky by private investors, highlighting the necessity for innovative financial solutions and strategic government action.<br /><br /></strong>This investment gap is a critical barrier to achieving climate goals and underscores the <strong>need for increased support and <ai prompt=\"Tell me more about innovative financing.\">innovative financing 💬️</ai> mechanisms to de-risk energy transition investments in the most vulnerable regions. </strong>"
+              "text": "While public financing will continue to play a key role, there is a<strong> need to deploy commercial capital to bridge the investment gap and realize universal access to electricity, particularly in remote rural areas. These areas are often perceived as too risky by private investors, highlighting the necessity for innovative financial solutions and strategic government action.<br /><br /></strong>This investment gap is a critical barrier to achieving climate goals and underscores the <strong>need for increased support and <ai prompt=\"Share details about innovative financing.\">innovative financing 💬️</ai> mechanisms to de-risk energy transition investments in the most vulnerable regions. </strong>"
             }
           }
         ]
@@ -518,7 +1230,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The initial investment required for establishing energy infrastructure can present a significant hurdle to impoverished states and <ai prompt=\"Share details about marginalized communities.\">marginalized communities 💬️</ai>. The cost of installing solar panels, building power grids, or implementing clean cooking solutions can be prohibitively high - often because the cost of capital is so steep (Papthanasiou, 2022)."
+              "text": "The initial investment required for establishing energy infrastructure can present a significant hurdle to impoverished states and <ai prompt=\"Provide more info on marginalized communities.\">marginalized communities 💬️</ai>. The cost of installing solar panels, building power grids, or implementing clean cooking solutions can be prohibitively high - often because the cost of capital is so steep (Papthanasiou, 2022)."
             }
           },
           {
@@ -676,7 +1388,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "Key Takeaways",
-        "intro": "If you only have space to remember 3 things:",
+        "intro": "",
         "takeaways": [
           {
             "image": {

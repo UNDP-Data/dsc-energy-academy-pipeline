@@ -226,8 +226,208 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_12.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_3.png",
           "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#c5192d",
+            "#dd1367",
+            "#0468b1",
+            "#fd9d24",
+            "#3f7e44",
+            "#19486a",
+            "#fd6925",
+            "#0a97d9",
+            "#4c9f38",
+            "#fcc30b"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0,
+              "rotate": 45
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Yemen",
+              "Tunisia",
+              "Somalia",
+              "Syria",
+              "Sudan",
+              "Palestine",
+              "Morocco",
+              "Libya",
+              "Lebanon",
+              "Kuwait",
+              "KSA",
+              "Iraq",
+              "Jordan",
+              "Egypt",
+              "Djibouti",
+              "Bahrain",
+              "Algeria"
+            ],
+            "name": "Country"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "%"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Electricity Access",
+              "type": "bar",
+              "data": [
+                61.0,
+                95.0,
+                3.79,
+                95.0,
+                54.0,
+                100.0,
+                95.0,
+                70.0,
+                95.0,
+                95.0,
+                95.0,
+                95.0,
+                95.0,
+                95.0,
+                10.0,
+                95.0,
+                95.0
+              ]
+            },
+            {
+              "name": "Clean Cooking Access",
+              "type": "bar",
+              "data": [
+                74.0,
+                100.0,
+                49.32,
+                89.0,
+                55.0,
+                100.0,
+                100.0,
+                95.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                62.0,
+                100.0,
+                100.0
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 150
+          }
         }
       }
     },
@@ -291,7 +491,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The widespread use of energy subsidies in the Arab region complicate the energy transition. Energy subsidies<strong> </strong>are offered to citizens in an effort to promote social welfare.<strong> However, these subsidies tend to limit efforts to promote renewable energy and <ai prompt=\"Share details about energy efficiency.\">energy efficiency 💬️</ai>. </strong>In 2020, nine Arab countries spent $75 billion on energy subsidies.<br /><br />Additionally, energy subsidies impose a heavy fiscal burden on government spending and constrain resources for other priorities. For example, Libya spent 4.9% of its GDP and Algeria 1.6% of its GDP on energy subsidies in 2020, according to the 2023 Arab Future Energy Index (AFEX) report."
+              "text": "The widespread use of energy subsidies in the Arab region complicate the energy transition. Energy subsidies<strong> </strong>are offered to citizens in an effort to promote social welfare.<strong> However, these subsidies tend to limit efforts to promote renewable energy and <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai>. </strong>In 2020, nine Arab countries spent $75 billion on energy subsidies.<br /><br />Additionally, energy subsidies impose a heavy fiscal burden on government spending and constrain resources for other priorities. For example, Libya spent 4.9% of its GDP and Algeria 1.6% of its GDP on energy subsidies in 2020, according to the 2023 Arab Future Energy Index (AFEX) report."
             }
           },
           {
@@ -322,6 +522,181 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "half",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0a97d9",
+            "#fd6925",
+            "#fcc30b",
+            "#c5192d",
+            "#4c9f38",
+            "#0468b1",
+            "#dd1367",
+            "#fd9d24",
+            "#3f7e44",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "boundaryGap": [
+              0,
+              0.01
+            ],
+            "name": "million USD"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "UAE",
+              "Saudi Arabia",
+              "Qatar",
+              "Libya",
+              "Kuwait",
+              "Iraq",
+              "Egypt",
+              "Bahrain",
+              "Algeria"
+            ],
+            "name": "Country"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "2020",
+              "type": "bar",
+              "data": [
+                5604,
+                17003,
+                506,
+                3300,
+                2423,
+                29637,
+                7921,
+                315,
+                8396
+              ]
+            },
+            {
+              "name": "2010",
+              "type": "bar",
+              "data": [
+                17727,
+                54672,
+                3891,
+                118891,
+                6136,
+                9407,
+                19934,
+                1996,
+                10151
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -358,10 +733,254 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The Arab region has multiplied its renewables capacity by tenfold over the past decade. <strong>The total installed renewable energy capacity is at 23.6 GW, with 5.1 GW added from just 2018 to 2020. </strong>The capacity increase has been concentrated in a few countries, such as Egypt, Jordan, and Morocco. <strong>It also has been mostly for PV, with capacity more than doubling from 3.2 GW in 2018 to 7.4 GW by the end of 2020.</strong> In contrast, <ai prompt=\"Explain wind energy.\">wind energy 💬️</ai> and CSP saw only minor increases. <br /><br />Notably, part of the installed capacity could come from oil and gas producing countries, which have increasingly turned to solar PV to supply local electricity. These PV efforts are intended to conserve oil and gas reserves for future export revenues."
+              "text": "The Arab region has multiplied its renewables capacity by tenfold over the past decade. <strong>The total installed renewable energy capacity is at 23.6 GW, with 5.1 GW added from just 2018 to 2020. </strong>The capacity increase has been concentrated in a few countries, such as Egypt, Jordan, and Morocco. <strong>It also has been mostly for PV, with capacity more than doubling from 3.2 GW in 2018 to 7.4 GW by the end of 2020.</strong> In contrast, <ai prompt=\"Tell me more about wind energy.\">wind energy 💬️</ai> and CSP saw only minor increases. <br /><br />Notably, part of the installed capacity could come from oil and gas producing countries, which have increasingly turned to solar PV to supply local electricity. These PV efforts are intended to conserve oil and gas reserves for future export revenues."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#dd1367",
+            "#fd9d24",
+            "#0468b1",
+            "#c5192d",
+            "#fcc30b",
+            "#fd6925",
+            "#0a97d9",
+            "#3f7e44",
+            "#4c9f38",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0,
+              "rotate": 45
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "UAE",
+              "Egypt",
+              "Jordan",
+              "Algeria",
+              "Saudi Arabia",
+              "Yemen",
+              "Morocco",
+              "Oman",
+              "Tunisia",
+              "Kuwait",
+              "Lebanon",
+              "Mauritania",
+              "Iraq",
+              "Palestine",
+              "Sudan",
+              "Bahrain",
+              "Qatar",
+              "Libya",
+              "Syria"
+            ],
+            "name": "Region"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "MW"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "PV Installed Capacity",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                2439,
+                1623,
+                1541,
+                423,
+                359,
+                253,
+                206,
+                109,
+                95,
+                93,
+                90,
+                88,
+                37,
+                36,
+                18,
+                10,
+                5,
+                5,
+                2
+              ]
+            },
+            {
+              "name": "Wind energy installed capacity",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                null,
+                "1653",
+                "515",
+                "10",
+                "3",
+                null,
+                "1405",
+                "50",
+                "245",
+                "12",
+                null,
+                "34",
+                null,
+                "1",
+                null,
+                "1",
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "name": "CSP installed capacity",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                "100",
+                "20",
+                null,
+                "25",
+                "50",
+                null,
+                "530",
+                "7",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 150
+          }
+        }
       }
     },
     {
@@ -445,7 +1064,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Intro_7.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_10.png",
           "caption": ""
         }
       }
@@ -495,7 +1114,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "Key Takeaways",
-        "intro": "If you only have space to remember 3 things:",
+        "intro": "",
         "takeaways": [
           {
             "image": {
