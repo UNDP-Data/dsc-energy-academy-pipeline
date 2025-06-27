@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_15.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_5.png",
           "caption": ""
         },
         "lesson": {
@@ -39,23 +39,11 @@
       }
     },
     {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_8.png",
-          "caption": ""
-        },
-        "intro": "M8 : Technologies et innovations en énergies renouvelables",
-        "title": "Partie 1 : Changements socioéconomiques et structurels"
-      }
-    },
-    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_14.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_12.png",
           "caption": ""
         },
         "intro": "M8 : Technologies et innovations en énergies renouvelables",
@@ -83,6 +71,247 @@
       }
     },
     {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fcc30b",
+            "#fd6925",
+            "#4c9f38",
+            "#0468b1",
+            "#3f7e44",
+            "#dd1367",
+            "#0a97d9",
+            "#fd9d24",
+            "#c5192d",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2000",
+              "2010",
+              "2020",
+              "2030 STEPS",
+              "2040 STEPS",
+              "2050 STEPS",
+              "2030 APC",
+              "2040 APC",
+              "2050 APC"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "EJ"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Coal",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                95.1751487111761,
+                149.107732980832,
+                152.280237937871,
+                142.233972240581,
+                136.417713152676,
+                123.198942498347,
+                114.210178453403,
+                83.5426305353602,
+                74.0251156642427
+              ]
+            },
+            {
+              "name": "Oil",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                153.3377395902109,
+                173.430270984799,
+                173.959021810973,
+                202.511566424323,
+                204.097818902843,
+                206.741573033708,
+                179.775280898877,
+                162.85525446133482,
+                154.39524124256428
+              ]
+            },
+            {
+              "name": "Natural Gas",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                86.18638466622699,
+                116.85393258427,
+                136.417713152676,
+                160.740251156642,
+                180.83278255122295,
+                197.7528089887641,
+                149.63648380700602,
+                151.222736285526,
+                147.52148050231398
+              ]
+            },
+            {
+              "name": "Nuclear",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                31.196298744215994,
+                33.840052875081994,
+                33.84005287508296,
+                37.01255783212201,
+                40.71381361533304,
+                41.24256444150694,
+                42.30006609385299,
+                48.64507600793098,
+                55.518836748182025
+              ]
+            },
+            {
+              "name": "Renewables",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                57.63384005287605,
+                66.09385327164603,
+                86.18638466622497,
+                118.44018506278894,
+                152.28023793787202,
+                190.87904824851307,
+                140.11896893588903,
+                201.982815598149,
+                249.04163912756104
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -90,7 +319,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "En revanche, le <strong>Scénario des Engagements Annoncés (SEA)</strong> imagine un avenir où les engagements climatiques et énergétiques actuels à travers le monde sont pleinement mis en œuvre. Ce scénario suppose que l'énergie propre répond à 40 % de la demande énergétique mondiale d'ici 2035, atteignant près de 75 % d'ici 2050. Dans ce contexte, la demande mondiale d'énergie diminue continuellement pour atteindre 625 EJ en 2035 et 610 EJ en 2050, atteignant des niveaux inférieurs de 4,7 % à ceux de 2023. Le ralentissement est en grande partie dû à des mesures d'efficacité énergétique accélérées et à une électrification élargie dans les secteurs d'utilisation finale tels que le transport, les bâtiments et l'industrie. <br /><br />Le chemin le plus ambitieux, le <strong>Scénario Zéro Émissions (NZE)</strong>, s'aligne sur la limitation du réchauffement climatique à 1,5 °C. Il suppose que 90 % de la demande mondiale en énergie sera satisfaite par des énergies propres d'ici 2050, et que toute utilisation restante de combustibles fossiles sera compensée ou réduite. Dans ce scénario, la demande totale d'énergie diminue de 16 % d'ici 2035 et continue de baisser jusqu'au milieu du siècle. Cette réduction aurait lieu malgré la croissance économique et démographique, entraînée par des gains d'efficacité profonds, des changements de comportement et des transformations structurelles."
+              "text": "En revanche, le <strong>Scénario des Engagements Annoncés (SEA)</strong> imagine un avenir où les engagements climatiques et énergétiques actuels à travers le monde sont pleinement mis en œuvre. Ce scénario suppose que l'énergie propre répond à 40 % de la demande énergétique mondiale d'ici 2035, atteignant près de 75 % d'ici 2050. Dans ce contexte, la demande mondiale d'énergie diminue continuellement pour atteindre 625 EJ en 2035 et 610 EJ en 2050, atteignant des niveaux inférieurs de 4,7 % à ceux de 2023. Le ralentissement est en grande partie dû à l'accélération des <ai prompt=\"Fournir plus d'informations sur l'efficacité énergétique.\">mesures d'efficacité énergétique 💬️</ai> et à l'expansion de l'électrification dans les secteurs de consommation finale tels que le transport, les bâtiments et l'industrie. <br /><br />Le chemin le plus ambitieux, le <strong>Scénario Zéro Émissions (NZE)</strong>, s'aligne sur la limitation du réchauffement climatique à 1,5 °C. Il suppose que 90 % de la demande mondiale en énergie sera satisfaite par des énergies propres d'ici 2050, et que toute utilisation restante de combustibles fossiles sera compensée ou réduite. Dans ce scénario, la demande totale d'énergie diminue de 16 % d'ici 2035 et continue de baisser jusqu'au milieu du siècle. Cette réduction aurait lieu malgré la croissance économique et démographique, entraînée par des gains d'efficacité profonds, des changements de comportement et des transformations structurelles."
             }
           },
           {
@@ -128,7 +357,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_7.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Outro_1.png",
           "caption": ""
         },
         "intro": "M8 : Technologies et innovations en énergies renouvelables",
@@ -182,7 +411,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_17.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_19.png",
           "caption": ""
         },
         "intro": "M8 : Technologies et innovations en énergies renouvelables",
@@ -217,7 +446,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Alors que les villes façonnent de plus en plus l'avenir des moyens de subsistance, l'industrie reste le plus grand consommateur d'énergie au monde, responsable de 39 % de la consommation finale d'énergie mondiale totale en 2023 et de près de la moitié de toutes les émissions de CO₂ liées à l'énergie (<a href=\"https://iea.blob.core.windows.net/assets/f304f2ba-e9a2-4e6d-b529-fb67cd13f646/EnergyEfficiency2024.pdf\"><u>IEA</u></a>, 2024). Une grande partie de cela est concentrée dans les économies émergentes : En 2012, les pays non-OCDE représentaient 67 % de la consommation mondiale d'énergie industrielle, et cette part devrait augmenter à 73 % d'ici 2040 (<a href=\"https://www.eia.gov/outlooks/ieo/pdf/industrial.pdf\"><u>EIA</u></a>, 2016) <br /><br />La demande d'énergie industrielle a augmenté de 2 % en 2023 seulement, tirée par des secteurs comme l'acier, le ciment et les produits chimiques. Ces industries restent profondément dépendantes des combustibles fossiles, en particulier du charbon et du gaz naturel, pour fournir de la chaleur à haute température. Cependant, cette tendance commence à changer après 2030 dans des scénarios alignés sur le climat. Dans l'AIE, la part de l'électricité dans l'utilisation de l'énergie industrielle passe de 22 % en 2023 à 27 % d'ici 2030, la Chine contribuant à plus de la moitié de cette croissance (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>AIE</u></a>, 2024). <br /><br />Le scénario à 1,5 °C de l'IRENA montre un changement encore plus prononcé, projetant une électrification de l'industrie de 36 % d'ici 2050, avec un déploiement à grande échelle de l'hydrogène et des pompes à chaleur (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><u>IRENA</u></a>,2024) . <br />Ensemble, l'urbanisation et l'industrialisation redéfinissent l'avenir de la demande énergétique. Ces facteurs soulèvent de nouveaux défis pour la décarbonisation, mais présentent également de nouvelles opportunités pour l'innovation, la création d'emplois et le développement inclusif."
+              "text": "Alors que les villes façonnent de plus en plus l'avenir des moyens de subsistance, l'industrie reste le plus grand consommateur d'énergie au monde, responsable de 39 % de la consommation finale d'énergie mondiale totale en 2023 et de près de la moitié de toutes les émissions de CO₂ liées à l'énergie (<a href=\"https://iea.blob.core.windows.net/assets/f304f2ba-e9a2-4e6d-b529-fb67cd13f646/EnergyEfficiency2024.pdf\"><u>IEA</u></a>, 2024). Une grande partie de cela est concentrée dans les économies émergentes : En 2012, les pays non-OCDE représentaient 67 % de la consommation mondiale d'énergie industrielle, et cette part devrait augmenter à 73 % d'ici 2040 (<a href=\"https://www.eia.gov/outlooks/ieo/pdf/industrial.pdf\"><u>EIA</u></a>, 2016) <br /><br />La demande d'énergie industrielle a augmenté de 2 % en 2023 seulement, tirée par des secteurs comme l'acier, le ciment et les produits chimiques. Ces industries restent profondément dépendantes des combustibles fossiles, en particulier du charbon et du gaz naturel, pour fournir de la chaleur à haute température. Cependant, cette tendance commence à changer après 2030 dans des scénarios alignés sur le climat. Dans l'AIE, la part de l'électricité dans l'utilisation de l'énergie industrielle passe de 22 % en 2023 à 27 % d'ici 2030, la Chine contribuant à plus de la moitié de cette croissance (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>AIE</u></a>, 2024). <br /><br />Le scénario à 1,5 °C de l'IRENA montre un changement encore plus prononcé, projetant une électrification de l'industrie de 36 % d'ici 2050, avec un déploiement à grande échelle de l'hydrogène et des pompes à chaleur (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><u>IRENA</u></a>,2024) . <br />Ensemble, l'urbanisation et l'industrialisation redéfinissent l'avenir de la demande énergétique. Ces facteurs soulèvent de nouveaux défis pour <ai prompt=\"Tell me more about decarbonization.\">la décarbonisation 💬️</ai>, mais offrent également de nouvelles opportunités d'innovation, de création d'emplois et de développement inclusif."
             }
           },
           {
@@ -234,7 +463,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Intro_1.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_13.png",
           "caption": ""
         },
         "intro": "M8 : Technologies et innovations en énergies renouvelables",
@@ -273,7 +502,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_6.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_8.png",
           "caption": ""
         }
       }
@@ -293,27 +522,15 @@
       }
     },
     {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_10.png",
-          "caption": ""
-        },
-        "intro": "M8 : Technologies et innovations en énergies renouvelables",
-        "title": "Partie 2 : Facilitateurs technologiques et systémiques"
-      }
-    },
-    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_1.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_6.png",
           "caption": ""
         },
         "intro": "M8 : Technologies et innovations en énergies renouvelables",
-        "title": "A : Électrification des secteurs d'utilisation finale et difficiles à décarboner"
+        "title": "E : Électrification des secteurs de fin d'utilisation et des secteurs difficiles à décarboner"
       }
     },
     {
@@ -324,7 +541,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'électrification émerge comme une force majeure dans le secteur énergétique mondial et devrait devenir la plus grande source d'énergie au monde d'ici 2050.<br /><br />Selon une analyse de la société de conseil mondiale McKinsey, la consommation d'électricité pourrait plus que doubler dans des scénarios de transition énergétique plus lents et presque tripler dans des scénarios plus rapides. Cette augmentation est alimentée par des secteurs traditionnels comme les bâtiments et les appareils, mais aussi de plus en plus par des demandes nouvelles et à forte croissance telles que les centres de données, les véhicules électriques à batterie (VEB) et la production d'hydrogène. Par exemple, la consommation mondiale d'hydrogène vert devrait passer de moins de 1 Mtpa aujourd'hui à 179 Mtpa d'ici 2050, contribuant à environ 20 % de croissance annuelle de la demande en électricité pour le secteur (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>McKinsey</u></a>, 2024). <br /><br />La demande d'électricité provenant des transports devrait croître de 10 % par an, les BEV devant représenter la majorité des ventes mondiales de voitures particulières d'ici 2050, contre seulement 13 % aujourd'hui (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>McKinsey</u></a>, 2024). Dans les bâtiments, le chauffage et le refroidissement deviennent de plus en plus électrifiés.<br /><br /> D'ici 2050, le monde pourrait voir le déploiement de 793 millions d'unités de pompes à chaleur et de 2,2 milliards de véhicules électriques et hybrides rechargeables (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Smart_electrification_end-use_sectors_2024.pdf\"><u>IRENA</u></a>, 2024)."
+              "text": "L'électrification émerge comme une force majeure dans le secteur énergétique mondial et devrait devenir la plus grande source d'énergie au monde d'ici 2050.<br /><br />Selon une analyse de la société de conseil mondiale McKinsey, la consommation d'électricité pourrait plus que doubler dans des scénarios de transition énergétique plus lents et presque tripler dans des scénarios plus rapides. Cette augmentation est alimentée par des secteurs traditionnels comme les bâtiments et les appareils, mais aussi de plus en plus par des demandes nouvelles et à forte croissance telles que les centres de données, les véhicules électriques à batterie (VEB) et la production d'hydrogène. Par exemple, la consommation mondiale d'hydrogène vert devrait passer de moins de 1 Mtpa aujourd'hui à 179 Mtpa d'ici 2050, contribuant à environ 20 % de croissance annuelle de la demande en électricité pour le secteur (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>McKinsey</u></a>, 2024). <br /><br />La demande d'électricité provenant des transports devrait croître de 10 % par an, les BEV devant représenter la majorité des ventes mondiales de voitures particulières d'ici 2050, contre seulement 13 % aujourd'hui (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>McKinsey</u></a>, 2024). Dans les bâtiments, <ai prompt=\"Clarifier le chauffage et la climatisation.\">le chauffage et la climatisation 💬️</ai> deviennent de plus en plus électrifiés.<br /><br /> D'ici 2050, le monde pourrait voir le déploiement de 793 millions d'unités de pompes à chaleur et 2,2 milliards de véhicules électriques et hybrides rechargeables (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Smart_electrification_end-use_sectors_2024.pdf\"><u>IRENA</u></a>, 2024)."
             }
           },
           {
@@ -342,7 +559,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_3.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_11.png",
           "caption": ""
         }
       }
@@ -366,11 +583,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_19.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_9.png",
           "caption": ""
         },
         "intro": "M8 : Technologies et innovations en énergies renouvelables",
-        "title": "B : Croissance de la demande numérique et pilotée par l'IA"
+        "title": "F : Croissance de la demande par la numérisation et l'IA"
       }
     },
     {
@@ -381,7 +598,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>La numérisation et l'IA devraient devenir des moteurs significatifs de l'avenir de la demande mondiale en énergie.</strong> Alors que l'électricité émerge comme le principal vecteur énergétique d'ici 2050, la consommation proviendra des secteurs traditionnels tels que l'électrification des maisons et des usines, mais aussi de l'immense infrastructure numérique derrière la révolution de l'IA. <br /><br /><strong>Parmi les éléments les plus énergivores de cette transformation figurent les centres de données</strong>. À l'échelle mondiale, ces installations ont consommé 415 TWh d'électricité en 2024 (<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf)\"><u>IEA</u></a>, 2025), représentant 1,5 % de la consommation totale d'électricité. D'ici 2030, ce chiffre devrait plus que doubler pour atteindre 945 TWh, dépassant la consommation électrique totale actuelle du Japon. <br /><br /> <br />En regardant plus loin, McKinsey estime qu'<strong>d'ici 2050, la demande d'électricité des centres de données pourrait varier de 2 500 à 4 500 TWh,</strong> représentant 5 % à 9 % de la demande mondiale d'électricité (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective#/\"><u>McKinsey</u></a>, 2024). <br /><br />Cette augmentation ne viendra pas de l'informatique en nuage et des cryptomonnaies, mais surtout des processus énergivores nécessaires à l'entraînement des modèles d'IA et des applications <ai prompt=\"Provide more info on generative ai.\">d'IA générative</ai> comme ChatGPT. Certains des plus grands centres de données en construction aujourd'hui devraient consommer autant d'électricité que 2 millions de foyers (<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf\"><u>IEA</u></a>, 2025). <strong> </strong>"
+              "text": "<strong>La numérisation et l'IA devraient devenir des moteurs significatifs de l'avenir de la demande mondiale en énergie.</strong> Alors que l'électricité émerge comme le principal vecteur énergétique d'ici 2050, la consommation proviendra des secteurs traditionnels tels que l'électrification des maisons et des usines, mais aussi de l'immense infrastructure numérique derrière la révolution de l'IA. <br /><br /><strong>Parmi les éléments les plus énergivores de cette transformation figurent les centres de données</strong>. À l'échelle mondiale, ces installations ont consommé 415 TWh d'électricité en 2024 (<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf)\"><u>IEA</u></a>, 2025), représentant 1,5 % de la consommation totale d'électricité. D'ici 2030, ce chiffre devrait plus que doubler pour atteindre 945 TWh, dépassant la consommation électrique totale actuelle du Japon. <br /><br /> <br />En regardant plus loin, McKinsey estime qu'<strong>d'ici 2050, la demande d'électricité des centres de données pourrait varier de 2 500 à 4 500 TWh,</strong> représentant 5 % à 9 % de la demande mondiale d'électricité (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective#/\"><u>McKinsey</u></a>, 2024). <br /><br />Cette augmentation ne viendra pas de l'informatique en nuage et de la cryptomonnaie, mais surtout des processus gourmands en énergie nécessaires à la formation de modèles d'IA et à <ai prompt=\"Clarify generative ai.\">l'IA générative 💬️</ai> comme ChatGPT. Certains des plus grands centres de données en construction aujourd'hui devraient consommer autant d'électricité que 2 millions de foyers (<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf\"><u>IEA</u></a>, 2025). <strong> </strong>"
             }
           }
         ]
@@ -406,11 +623,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_16.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_11.png",
           "caption": ""
         },
         "intro": "M8 : Technologies et innovations en énergies renouvelables",
-        "title": "C : Impact du changement climatique et des événements météorologiques extrêmes"
+        "title": "G : Impact du changement climatique et des événements météorologiques extrêmes"
       }
     },
     {
@@ -432,7 +649,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_3.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_3.png",
           "caption": ""
         }
       }
@@ -442,11 +659,11 @@
       "color_scheme": "dark",
       "content": {
         "title": "Principaux enseignements",
-        "intro": "Si vous n'avez que de la place pour retenir 3 choses :",
+        "intro": "",
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_3.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_9.png",
               "caption": ""
             },
             "title": "La demande énergétique sera façonnée par des facteurs structurels, notamment la croissance démographique, l'urbanisation, l'industrialisation et l'essor d'une classe moyenne mondiale, en particulier dans les économies émergentes où les infrastructures et la consommation se développent rapidement.",
@@ -454,7 +671,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_11.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_9.png",
               "caption": ""
             },
             "title": "La technologie joue un double rôle : l'électrification et la numérisation stimulent de nouvelles sources de demande d'énergie (centres de données, véhicules électriques), tout en permettant une plus grande efficacité, flexibilité et optimisation des systèmes.",
@@ -462,7 +679,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_17.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_9.png",
               "caption": ""
             },
             "title": "L'avenir de la demande énergétique n'est pas fixe ; il dépendra des décisions politiques, de l'innovation et de la coopération mondiale pour aligner les tendances démographiques, économiques et technologiques avec les objectifs de durabilité et d'équité.",

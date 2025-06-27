@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_2.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_20.png",
           "caption": ""
         },
         "lesson": {
@@ -23,7 +23,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_4.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Outro_2.png",
           "caption": ""
         },
         "intro": "M7: Data In Sustainable Energy",
@@ -63,7 +63,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_7.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Intro_6.png",
           "caption": ""
         }
       }
@@ -76,7 +76,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong><ai prompt=\"Explain sex-disaggregated data.\">sex-disaggregated data</ai> in energy</strong>"
+              "text": "<strong><ai prompt=\"What is sex-disaggregated data?\">sex-disaggregated data 💬️</ai> in energy</strong>"
             }
           },
           {
@@ -175,7 +175,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_12.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_4.png",
           "caption": ""
         },
         "intro": "M7: Data In Sustainable Energy",
@@ -190,10 +190,167 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "To effectively integrate gender considerations into sustainable energy policy, it is essential to analyze and address how women, men, and diverse gender groups access and use energy services and technologies. The following table outlines practical actions for integrating gender dimensions into renewable energy policy development. These actions align with core principles of <ai prompt=\"Clarify gender mainstreaming.\">gender mainstreaming</ai> and can be adapted to various sectors. Here, they have been tailored specifically for renewable energy policy, providing a clear \"what and how\" framework to guide implementation."
+              "text": "To effectively integrate gender considerations into sustainable energy policy, it is essential to analyze and address how women, men, and diverse gender groups access and use energy services and technologies. The following table outlines practical actions for integrating gender dimensions into renewable energy policy development. These actions align with core principles of <ai prompt=\"Provide more info on gender mainstreaming.\">gender mainstreaming 💬️</ai> and can be adapted to various sectors. Here, they have been tailored specifically for renewable energy policy, providing a clear \"what and how\" framework to guide implementation."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#c5192d",
+            "#fd6925",
+            "#0468b1",
+            "#3f7e44",
+            "#fd9d24",
+            "#fcc30b",
+            "#4c9f38",
+            "#dd1367",
+            "#0a97d9",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "boundaryGap": [
+              0,
+              0.01
+            ],
+            "name": "Share of women (%)"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Chemical engineer",
+              "Mechanical engineer",
+              "Electrical engineer",
+              "Electrician",
+              "Concrete worker",
+              "Welder",
+              "Plumber",
+              "Roofer"
+            ],
+            "name": "Occupation"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "bar",
+              "data": [
+                22.366764582459,
+                4.74192194712547,
+                3.81871590432229,
+                2.22408728493496,
+                2.22408728493496,
+                1.55266470835083,
+                0.335711288292081,
+                0.0419639110364604
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -246,13 +403,12 @@
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C2_4.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_10.png",
+          "caption": ""
         }
       }
     },
@@ -272,13 +428,12 @@
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C2_5.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Outro_1.png",
+          "caption": ""
         }
       }
     },
@@ -301,7 +456,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_3.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_1.png",
           "caption": ""
         }
       }
@@ -381,7 +536,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_1.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_6.png",
           "caption": ""
         },
         "intro": "M7: Data In Sustainable Energy",
@@ -407,7 +562,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_16.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_3.png",
           "caption": ""
         }
       }
@@ -428,13 +583,12 @@
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C2_6.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_9.png",
+          "caption": ""
         }
       }
     },
@@ -481,7 +635,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Data plays a crucial role in implementing an intersectional approach to energy planning. Collecting and analyzing disaggregated data—by sex, age, ethnicity, disability status, income level, geographic location, and other intersecting factors—can uncover disparities that remain hidden in aggregated datasets. Disaggregated data enables planners to identify who is excluded from access to energy resources and services, understand the specific barriers they face, and design targeted interventions.<br /><br />Moreover, data must go beyond quantitative metrics to include qualitative insights that capture lived experiences, especially of <ai prompt=\"Share details about marginalized communities.\">marginalized communities</ai>. Inclusive data collection processes, involving communities directly, can ensure that diverse perspectives inform energy policies and programs. Without such data, energy planning risks reinforcing existing inequalities, missing the opportunity to address deeply entrenched structural barriers."
+              "text": "Data plays a crucial role in implementing an intersectional approach to energy planning. Collecting and analyzing disaggregated data—by sex, age, ethnicity, disability status, income level, geographic location, and other intersecting factors—can uncover disparities that remain hidden in aggregated datasets. Disaggregated data enables planners to identify who is excluded from access to energy resources and services, understand the specific barriers they face, and design targeted interventions.<br /><br />Moreover, data must go beyond quantitative metrics to include qualitative insights that capture lived experiences, especially of <ai prompt=\"What is marginalized communities?\">marginalized communities 💬️</ai>. Inclusive data collection processes, involving communities directly, can ensure that diverse perspectives inform energy policies and programs. Without such data, energy planning risks reinforcing existing inequalities, missing the opportunity to address deeply entrenched structural barriers."
             }
           }
         ]
@@ -492,11 +646,11 @@
       "color_scheme": "dark",
       "content": {
         "title": "Key Takeaways",
-        "intro": "If you only have space to remember 3 things:",
+        "intro": "",
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_3.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_5.png",
               "caption": ""
             },
             "title": "Gender-disaggregated data is essential for equitable energy planning.",
@@ -504,7 +658,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_10.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Outro_3.png",
               "caption": ""
             },
             "title": "Intersectionality must be integrated into energy planning to address systemic inequalities.",
@@ -512,7 +666,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_11.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_9.png",
               "caption": ""
             },
             "title": "Participatory approaches empower women and marginalized groups in energy decision-making.",

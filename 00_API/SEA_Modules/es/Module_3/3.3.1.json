@@ -85,13 +85,12 @@
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/M3_C3_1.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_5.png",
+          "caption": ""
         }
       }
     },
@@ -104,7 +103,7 @@
           "caption": ""
         },
         "intro": "M3: Transición energética justa",
-        "title": "Parte 1: Aumento de la demanda e implicaciones"
+        "title": "A: Aumento de la demanda e implicaciones"
       }
     },
     {
@@ -125,10 +124,254 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La creciente importancia del acceso sostenido a materias primas críticas, especialmente los minerales de transición energética, ha elevado su prominencia en las agendas económicas nacionales. A medida que la demanda de tecnologías energéticas más ecológicas se acelera, el impacto en toda la cadena de valor minera se vuelve cada vez más significativo en todos los sectores de la sociedad. Dado el trabajo continuo del PNUD sobre minería sostenible y extractivos para el desarrollo, esto presenta un punto de entrada clave para un mayor compromiso. El sector minero juega un papel fundamental en la transición energética.<br />Una vez que el marco oficial de la ONU sobre Minerales Críticos para la Transición Energética esté disponible, ayudará a abordar los desafíos de la cadena de suministro, la gobernanza, la protección social y la igualdad de género a través de un enfoque basado en los derechos humanos. Las soluciones potenciales incluyen alentar a las industrias extractivas a adoptar prácticas sostenibles redefiniendo el valor de los recursos naturales y los servicios ecosistémicos, minimizando el impacto ambiental y restaurando los ecosistemas después de la extracción. Además, el Compromiso por la Naturaleza del PNUD puede guiar el realineamiento de las inversiones hacia proyectos de energía sostenible, como el desarrollo de tecnologías energéticamente eficientes y la promoción de la minería sostenible a través de mecanismos de incentivos."
+              "text": "La creciente importancia del acceso sostenido a materias primas críticas, especialmente los minerales de transición energética, ha elevado su prominencia en las agendas económicas nacionales. A medida que la demanda de tecnologías energéticas más ecológicas se acelera, el impacto en toda la cadena de valor minera se vuelve cada vez más significativo en todos los sectores de la sociedad. Dado el trabajo continuo del PNUD sobre minería sostenible y extractivos para el desarrollo, esto presenta un punto de entrada clave para un mayor compromiso. El sector minero desempeña un papel fundamental en la transición energética.<br /><br />Una vez que esté disponible el marco oficial de la ONU sobre Minerales Críticos para la Transición Energética, ayudará a abordar los desafíos de la cadena de suministro, la gobernanza, <ai prompt=\"¿Qué es la protección social?\">la protección social 💬️</ai>, y la igualdad de género a través de un enfoque basado en los derechos humanos. Las soluciones potenciales incluyen alentar a las industrias extractivas a adoptar prácticas sostenibles redefiniendo el valor de los recursos naturales y los servicios ecosistémicos, minimizando el impacto ambiental y restaurando los ecosistemas después de la extracción. Además, el Compromiso por la Naturaleza del PNUD puede guiar el realineamiento de las inversiones hacia proyectos de energía sostenible, como el desarrollo de tecnologías energéticamente eficientes y la promoción de la minería sostenible a través de mecanismos de incentivos."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#4c9f38",
+            "#dd1367",
+            "#0468b1",
+            "#fcc30b",
+            "#fd9d24",
+            "#19486a",
+            "#fd6925",
+            "#3f7e44",
+            "#c5192d",
+            "#0a97d9"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Kilograms per vehicle"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Electric car",
+              "Conventional car"
+            ],
+            "name": "Subsector"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Graphite",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                66.2972085385878,
+                0.0
+              ]
+            },
+            {
+              "name": "Copper",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                53.1609195402292,
+                22.3043240284619
+              ]
+            },
+            {
+              "name": "Cobalt",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                13.067870826491005,
+                0.0
+              ]
+            },
+            {
+              "name": "Silicon",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0,
+                0
+              ]
+            },
+            {
+              "name": "Nickel",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                39.34044882320799,
+                0.0
+              ]
+            },
+            {
+              "name": "Zinc",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0,
+                0
+              ]
+            },
+            {
+              "name": "Manganese",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                24.90421455938701,
+                11.152162014231005
+              ]
+            },
+            {
+              "name": "Lithium",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                9.099616858237994,
+                0.0
+              ]
+            },
+            {
+              "name": "Others",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                1.0946907498629912,
+                1.0946907498631973
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -139,7 +382,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Los países asiáticos, que desempeñan un papel clave en la fabricación de tecnologías como los paneles fotovoltaicos y las baterías de iones de litio, dependen en gran medida de las importaciones de minerales críticos. Al aplicar principios de ciclo de vida y economía circular, como el diseño ecológico, la reingeniería de productos y políticas de reciclaje mejoradas, estas regiones pueden reducir su dependencia de los materiales recién extraídos. Los esquemas efectivos de Responsabilidad Extendida del Productor (REP) y una mejor gestión de residuos también pueden mitigar los impactos ambientales del aumento de la generación de residuos electrónicos. Cuando se desarrollan con un enfoque en la inclusión social y la igualdad de género, estas iniciativas pueden crear empleos decentes para mujeres, jóvenes y grupos marginados, particularmente en la gestión de residuos.<br />A medida que la transición energética global se acelera, la demanda de minerales esenciales para vehículos eléctricos, turbinas eólicas y paneles solares está aumentando, enfatizando la necesidad de cooperación internacional. Desde 2017 hasta 2022, el sector energético impulsó un triplicado de la demanda de litio, junto con un aumento del 70 % en la demanda de cobalto y un aumento del 40 % en la demanda de níquel, llevando el mercado de minerales de transición energética a 320 mil millones de USD en 2022 (AIE, 2023)."
+              "text": "Los países asiáticos, que desempeñan un papel clave en la fabricación de tecnologías como los paneles fotovoltaicos y las baterías de iones de litio, dependen en gran medida de las importaciones de minerales críticos. Al aplicar los principios del ciclo de vida y <ai prompt=\"¿Qué es la economía circular?\">la economía circular 💬️</ai>, como el diseño ecológico, la ingeniería de productos y las políticas mejoradas de reciclaje, estas regiones pueden reducir su dependencia de los materiales recién extraídos. Los esquemas efectivos de Responsabilidad Extendida del Productor (REP) y una mejor gestión de residuos también pueden mitigar los impactos ambientales del aumento de la generación de residuos electrónicos. Cuando se desarrollan con un enfoque en la inclusión social y la igualdad de género, estas iniciativas pueden crear empleos decentes para mujeres, jóvenes y grupos marginados, particularmente en la gestión de residuos.<br />A medida que la transición energética global se acelera, la demanda de minerales esenciales para vehículos eléctricos, turbinas eólicas y paneles solares está aumentando, enfatizando la necesidad de cooperación internacional. Desde 2017 hasta 2022, el sector energético impulsó un triplicado de la demanda de litio, junto con un aumento del 70 % en la demanda de cobalto y un aumento del 40 % en la demanda de níquel, llevando el mercado de minerales de transición energética a 320 mil millones de USD en 2022 (AIE, 2023)."
             }
           }
         ]
@@ -160,6 +403,176 @@
       }
     },
     {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fcc30b",
+            "#0468b1",
+            "#fd6925",
+            "#c5192d",
+            "#3f7e44",
+            "#19486a",
+            "#fd9d24",
+            "#dd1367",
+            "#4c9f38",
+            "#0a97d9"
+          ],
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "tooltip": {
+            "trigger": "axis",
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#888888"
+            }
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "grid": {
+            "left": "5%",
+            "right": "5%",
+            "bottom": "10%",
+            "top": 60,
+            "containLabel": true
+          },
+          "xAxis": {
+            "type": "category",
+            "data": [
+              "2024",
+              "2030",
+              "2040"
+            ],
+            "axisLine": {
+              "lineStyle": {
+                "color": "#888888"
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "yAxis": {
+            "name": "Mt",
+            "type": "value",
+            "min": 0,
+            "max": 45,
+            "interval": 10,
+            "axisLine": {
+              "lineStyle": {
+                "color": "#888888",
+                "style": "solid"
+              }
+            },
+            "splitLine": {
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "series": [
+            {
+              "name": "Energy technologies",
+              "type": "bar",
+              "stack": "total",
+              "barWidth": "30%",
+              "data": [
+                7.699680511,
+                10.89456869,
+                12.1086262
+              ]
+            },
+            {
+              "name": "Other uses",
+              "type": "bar",
+              "stack": "total",
+              "barWidth": "30%",
+              "data": [
+                19.04153355,
+                20.3514377,
+                21.98083067
+              ]
+            },
+            {
+              "name": "APS",
+              "type": "scatter",
+              "symbolSize": 10,
+              "data": [
+                [
+                  1,
+                  32.58785942
+                ],
+                [
+                  2,
+                  36.74121406
+                ]
+              ]
+            },
+            {
+              "name": "NZE",
+              "type": "scatter",
+              "symbolSize": 10,
+              "data": [
+                [
+                  1,
+                  34.40894569
+                ],
+                [
+                  2,
+                  39.52076677
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -168,7 +581,7 @@
           "caption": ""
         },
         "intro": "M3: Transición energética justa",
-        "title": "Parte 2: Concentración geográfica"
+        "title": "Concentración geográfica"
       }
     },
     {
@@ -189,7 +602,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La extracción y el procesamiento de materiales críticos están altamente concentrados en unos pocos países clave, lo que genera preocupaciones sobre la seguridad de los recursos y las dinámicas geopolíticas. Están surgiendo estrategias para diversificar las cadenas de suministro, teniendo en cuenta factores económicos, políticos y sociales.<br />Países como Australia (litio), Chile (cobre y litio), China (grafito, tierras raras), la República Democrática del Congo (cobalto), Indonesia (níquel) y Sudáfrica (platino, iridio) dominan la extracción de minerales críticos. Esta concentración aumenta aún más en la etapa de procesamiento, con China refinando el 100 % del grafito natural y del disprosio, el 70 % del cobalto, y casi el 60 % del litio y el manganeso.<br />Asia Central también es rica en minerales críticos, poseyendo el 38,6 % del mineral de manganeso del mundo, el 30 % del cromo, el 20 % del plomo, y el 12,6 % del zinc, entre otros. Kazajistán, un actor importante en la producción de uranio (43% del suministro global en 2022), tiene el potencial de competir con China en elementos de tierras raras, así como en la extracción de metales como el escandio y el itrio, cruciales para las industrias tecnológicas."
+              "text": "La extracción y el procesamiento de materiales críticos están altamente concentrados en unos pocos países clave, lo que genera preocupaciones sobre la seguridad de los recursos y las dinámicas geopolíticas. Están surgiendo estrategias para diversificar las cadenas de suministro, teniendo en cuenta factores económicos, políticos y sociales.<br />Países como Australia (litio), Chile (cobre y litio), China (grafito, tierras raras), la República Democrática del Congo (cobalto), Indonesia (níquel) y Sudáfrica (platino, iridio) dominan la extracción de minerales críticos. Esta concentración aumenta aún más en la etapa de procesamiento, con China refinando el 100% del grafito natural y el disprosio, el 70% del cobalto, y casi el 60% del litio y el manganeso.<br />Asia Central también es rica en <ai prompt=\"What is critical minerals?\">minerales críticos 💬️</ai>, poseyendo el 38,6% del mineral de manganeso del mundo, el 30% de cromo, el 20% de plomo y el 12,6% de zinc, entre otros. Kazajistán, un actor importante en la producción de uranio (43% del suministro global en 2022), tiene el potencial de competir con China en elementos de tierras raras, así como en la extracción de metales como el escandio y el itrio, cruciales para las industrias tecnológicas."
             }
           }
         ]
@@ -224,6 +637,18 @@
       }
     },
     {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/image 333.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -232,7 +657,7 @@
           "caption": ""
         },
         "intro": "M3: Transición energética justa",
-        "title": "Parte 3: Extracción responsable de recursos"
+        "title": "C: Extracción responsable de recursos"
       }
     },
     {
@@ -269,7 +694,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "TSM es un marco reconocido a nivel mundial que incluye los 'Principios Rectores de TSM' y un conjunto de protocolos de rendimiento contra los cuales las empresas mineras miden y reportan públicamente su rendimiento en los Informes Anuales de Progreso de TSM. Los protocolos se centran en tres áreas clave: Comunidades y personas, Gestión ambiental y <ai prompt=\"¿Qué es la eficiencia energética?\"><strong>eficiencia energética</strong></ai>. El marco TSM fomenta la colaboración con las partes interesadas para perseguir objetivos compartidos, para mejorar colectivamente la infraestructura, la educación, los servicios de salud y la capacidad (IISD, 2021)."
+              "text": "TSM es un marco reconocido a nivel mundial que incluye los 'Principios Rectores de TSM' y un conjunto de protocolos de rendimiento contra los cuales las empresas mineras miden y reportan públicamente su rendimiento en los Informes Anuales de Progreso de TSM. Los protocolos se centran en tres áreas principales: Comunidades y Personas, Administración Ambiental, y <ai prompt=\"Cuéntame más sobre la eficiencia energética.\">la eficiencia energética 💬️</ai>. El marco TSM fomenta la colaboración con las partes interesadas para perseguir objetivos compartidos, para mejorar colectivamente la infraestructura, la educación, los servicios de salud y la capacidad (IISD, 2021)."
             }
           }
         ]
@@ -277,25 +702,23 @@
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/M3_C3_5.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_6.png",
+          "caption": ""
         }
       }
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/M3_C3_6.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_14.png",
+          "caption": ""
         }
       }
     },
@@ -459,7 +882,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Aunque estos estudios no se centran exclusivamente en la extracción de Minerales Críticos para la Transición Energética, sus conclusiones arrojan luz sobre el sector minero en general, revelando que los compromisos corporativos juegan un papel crucial en el establecimiento de estándares, pero por sí solos resultan insuficientes para prevenir impactos perjudiciales y garantizar una <ai prompt=\"Aclarar solo transición energética.\">transición energética justa</ai>."
+              "text": "Aunque estos estudios no se centran exclusivamente en la extracción de <strong>Minerales Críticos</strong> para la <em>Transición Energética</em>, sus conclusiones arrojan luz sobre el sector minero en general, revelando que los compromisos corporativos desempeñan un papel crucial en la definición de estándares, pero que por sí solos resultan insuficientes para prevenir impactos dañinos y garantizar una <ai prompt=\"Clarify just energy transition.\">transición energética justa 💬️</ai>."
             }
           }
         ]
@@ -554,7 +977,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "PUNTOS CLAVE",
-        "intro": "Si solo tienes espacio para recordar 3 cosas:",
+        "intro": "",
         "takeaways": [
           {
             "image": {

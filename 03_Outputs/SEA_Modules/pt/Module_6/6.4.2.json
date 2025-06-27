@@ -32,10 +32,200 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "O setor de edifícios, que inclui construção, aquecimento, resfriamento, iluminação e eletrodomésticos, representa mais de um terço do consumo e das emissões de energia global. As operações sozinhas são responsáveis por 30% do uso final de energia global e 26% das emissões relacionadas à energia, com 8% provenientes de emissões diretas e 18% de emissões indiretas ligadas à produção de eletricidade e calor. <br />Enquanto as emissões diretas diminuíram ligeiramente para 3 Gt em 2022, as emissões indiretas aumentaram para quase 6,8 Gt devido à maior dependência da eletricidade. Apesar de alguns avanços, o setor continua fora do caminho para atingir o Cenário de Emissões Líquidas Zero até 2050 (NZE). Abordar isso requer um esforço conjunto para melhorar a eficiência energética e adotar tecnologias de energia renovável."
+              "text": "O setor de edifícios, que inclui construção, aquecimento, resfriamento, iluminação e eletrodomésticos, representa mais de um terço do consumo e das emissões de energia global. As operações sozinhas são responsáveis por 30% do uso final de energia global e 26% das emissões relacionadas à energia, com 8% provenientes de emissões diretas e 18% de emissões indiretas ligadas à produção de eletricidade e calor. <br />Enquanto as emissões diretas diminuíram ligeiramente para 3 Gt em 2022, as emissões indiretas aumentaram para quase 6,8 Gt devido à maior dependência da eletricidade. Apesar de alguns avanços, o setor continua fora do caminho para atingir o Cenário de Emissões Líquidas Zero até 2050 (NZE). Abordar isso requer um esforço conjunto para melhorar <ai prompt=\"Share details about energy efficiency.\">a eficiência energética 💬️</ai> e adotar tecnologias de energia renovável."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0a97d9",
+            "#dd1367",
+            "#fd6925",
+            "#fcc30b",
+            "#0468b1",
+            "#fd9d24",
+            "#c5192d",
+            "#3f7e44",
+            "#4c9f38",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "EJ"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2022"
+            ],
+            "name": "Year"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Residential",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                20.96
+              ]
+            },
+            {
+              "name": "Non-residential",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                8.76
+              ]
+            },
+            {
+              "name": "Buildings construction industry",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3.97
+              ]
+            },
+            {
+              "name": "Other construction industry",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3.33
+              ]
+            },
+            {
+              "name": "Other",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                62.98
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -47,7 +237,7 @@
           "caption": ""
         },
         "intro": "M6: O nexo entre a mudança climática e a energia",
-        "title": "Parte 1: Desafios e Oportunidades"
+        "title": "Desafios e Oportunidades"
       }
     },
     {
@@ -58,7 +248,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Apesar de algum progresso, oportunidades significativas permanecem inexploradas no setor.</strong> Aproximadamente 80% das medidas de eficiência energética economicamente viáveis ainda não foram implementadas.<br /></strong><br />Os códigos de energia de construção, que são essenciais para impulsionar a eficiência, existem em apenas 44 países, deixando 82% da população global em países sem tais padrões. Isso é especialmente preocupante, pois o espaço de piso global deve crescer 20% de 2020 a 2030, principalmente em economias em desenvolvimento. Além disso, a descarbonização do setor requer mais do que apenas novos padrões; a modernização dos edifícios existentes continua a ser um grande desafio devido à infraestrutura envelhecida (especialmente nas economias avançadas), ao mau isolamento e ao design desatualizado.<br /> <br />As economias em desenvolvimento enfrentam o duplo desafio de melhorar o acesso a serviços de energia modernos, como o resfriamento, enquanto simultaneamente reduzem as emissões. Sem ação imediata, essas regiões correm o risco de se tornarem fontes significativas de demanda de energia e crescimento de emissões. As políticas, os investimentos e as tecnologias devem abordar essa necessidade em rápido crescimento, evitando dependências de caminho que possam dificultar os esforços futuros de descarbonização."
+              "text": "<strong>Apesar de algum progresso, oportunidades significativas permanecem inexploradas no setor.</strong> Aproximadamente 80% das medidas de eficiência energética economicamente viáveis ainda não foram implementadas.<br /></strong><br />Os códigos de energia de construção, que são essenciais para impulsionar a eficiência, existem em apenas 44 países, deixando 82% da população global em países sem tais padrões. Isso é especialmente preocupante, pois o espaço de piso global deve crescer 20% de 2020 a 2030, principalmente em economias em desenvolvimento. Além disso, a descarbonização do setor requer mais do que apenas novos padrões; a modernização dos edifícios existentes continua a ser um grande desafio devido à infraestrutura envelhecida (especialmente nas economias avançadas), ao mau isolamento e ao design desatualizado.<br /> <br />As economias em desenvolvimento enfrentam o duplo desafio de melhorar o acesso a serviços de energia modernos, como o resfriamento, enquanto simultaneamente reduzem as emissões. Sem ação imediata, essas regiões correm o risco de se tornarem fontes significativas de demanda de energia e crescimento de emissões. Políticas, investimentos e tecnologias devem atender a essa necessidade de crescimento rápido, evitando dependências que possam dificultar os futuros esforços <ai prompt=\"Share details about decarbonization.\">descarbonização 💬️</ai>."
             }
           }
         ]
@@ -73,7 +263,7 @@
           "caption": ""
         },
         "intro": "M6: O nexo entre a mudança climática e a energia",
-        "title": "Parte 2: Estratégias para descarbonizar o setor"
+        "title": "B: Estratégias para descarbonizar o setor"
       }
     },
     {
@@ -249,7 +439,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Melhorar a energia e a resiliência dos sistemas de construção é vital para as populações vulneráveis que vivem em habitações de má qualidade. Essas famílias enfrentam riscos desproporcionais devido às mudanças climáticas, à pobreza energética e aos impactos na saúde associados. Garantir o acesso equitativo a tecnologias energeticamente eficientes pode mitigar esses riscos enquanto melhora os padrões de vida. <strong>Programas que reduzem os custos de empréstimo para investimentos em eficiência energética, como iniciativas governamentais e de utilidades, são essenciais.</strong> Esses esforços podem apoiar comunidades marginalizadas, permitindo que participem da transição para uma energia sustentável, ao mesmo tempo em que reduzem a pobreza energética e as vulnerabilidades associadas. "
+              "text": "Melhorar a energia e a resiliência dos sistemas de construção é vital para as populações vulneráveis que vivem em habitações de má qualidade. Essas famílias enfrentam riscos desproporcionais devido às mudanças climáticas, à pobreza energética e aos impactos na saúde associados. Garantir o acesso equitativo a tecnologias energeticamente eficientes pode mitigar esses riscos enquanto melhora os padrões de vida. <strong>Programas que reduzem os custos de empréstimo para investimentos em eficiência energética, como iniciativas governamentais e de utilidades, são essenciais.</strong> Esses esforços podem apoiar <ai prompt=\"O que são comunidades marginalizadas?\">as comunidades marginalizadas 💬️</ai>, permitindo-lhes participar na transição para uma energia sustentável enquanto reduzem a pobreza energética e as vulnerabilidades associadas. "
             }
           }
         ]
@@ -280,7 +470,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "Principais conclusões",
-        "intro": "Se você só tiver espaço para lembrar 3 coisas:",
+        "intro": "",
         "takeaways": [
           {
             "image": {

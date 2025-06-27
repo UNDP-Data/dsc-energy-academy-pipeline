@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_14.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Outro_3.png",
           "caption": ""
         },
         "lesson": {
@@ -39,13 +39,15 @@
       }
     },
     {
-      "template_id": "photo_full_height",
+      "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Outro_1.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_9.png",
           "caption": ""
-        }
+        },
+        "intro": "M4: Financiamento da transição energética justa",
+        "title": "A: Subsídios de energia e combustíveis fósseis"
       }
     },
     {
@@ -110,69 +112,149 @@
       "size": "full",
       "content": {
         "option": {
-          "title": {
-            "text": "Subsídios ao consumo de combustíveis fósseis por tipo de combustível, 2010-2022",
-            "subtext": null,
-            "left": "center",
-            "top": "top",
-            "textStyle": {
-              "fontSize": 18
-            },
-            "subtextStyle": {
-              "fontSize": 14,
-              "color": "#888"
-            }
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
           },
           "legend": {
-            "show": true,
-            "bottom": 20
-          },
-          "graphic": [
-            {
-              "type": "text",
-              "left": "center",
-              "bottom": 0,
-              "style": {
-                "text": null,
-                "font": "12px sans-serif",
-                "fill": "#999"
-              }
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
             }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fd9d24",
+            "#0a97d9",
+            "#3f7e44",
+            "#0468b1",
+            "#dd1367",
+            "#4c9f38",
+            "#fcc30b",
+            "#c5192d",
+            "#19486a",
+            "#fd6925"
           ],
           "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0,
+              "rotate": 45
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
             "type": "category",
             "data": [
-              2010,
-              2011,
-              2012,
-              2013,
-              2014,
-              2015,
-              2016,
-              2017,
-              2018,
-              2019,
-              2020,
-              2021,
-              2022,
-              2023
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023"
             ],
-            "axisLabel": {
-              "interval": 0
-            },
             "name": "Year"
           },
           "yAxis": {
-            "type": "value"
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Billion USD"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
           },
           "series": [
             {
               "name": "Oil",
               "type": "bar",
               "stack": "total",
-              "label": {
-                "show": true
-              },
               "emphasis": {
                 "focus": "series"
               },
@@ -197,9 +279,6 @@
               "name": "Electricity",
               "type": "bar",
               "stack": "total",
-              "label": {
-                "show": true
-              },
               "emphasis": {
                 "focus": "series"
               },
@@ -221,12 +300,9 @@
               ]
             },
             {
-              "name": "Natural Gas",
+              "name": "Gas",
               "type": "bar",
               "stack": "total",
-              "label": {
-                "show": true
-              },
               "emphasis": {
                 "focus": "series"
               },
@@ -251,9 +327,6 @@
               "name": "Coal",
               "type": "bar",
               "stack": "total",
-              "label": {
-                "show": true
-              },
               "emphasis": {
                 "focus": "series"
               },
@@ -274,8 +347,23 @@
                 2103
               ]
             }
-          ]
+          ],
+          "grid": {
+            "bottom": 150
+          }
         }
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_9.png",
+          "caption": ""
+        },
+        "intro": "M4: Financiamento da transição energética justa",
+        "title": "B: Distorções globais e Armadilha de subsídios"
       }
     },
     {
@@ -312,11 +400,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_6.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_10.png",
           "caption": ""
         },
         "intro": "M4: Financiamento da transição energética justa",
-        "title": "Reformando subsídios - Exemplos de todo o mundo"
+        "title": "C: Reformando subsídios - Exemplos de todo o mundo"
       }
     },
     {
@@ -339,7 +427,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<br /><br />Em 2014,<strong> a Indonésia </strong>começou a reduzir seus subsídios de combustível, que há muito tempo pressionavam seu orçamento nacional. O governo redirecionou as economias desses subsídios para o desenvolvimento de infraestrutura e programas sociais. <br /><br />Essa reforma não apenas melhorou a saúde fiscal da Indonésia, mas também facilitou investimentos em energia renovável. A eliminação gradual dos subsídios foi apoiada por transferências de dinheiro direcionadas para proteger as populações mais vulneráveis do impacto do aumento dos preços dos combustíveis.<br /><br />A reforma também teve impactos positivos no meio ambiente e no setor de energia. Ao eliminar os subsídios aos combustíveis fósseis, a Indonésia incentivou uma maior eficiência energética e aumentou o investimento em projetos de energia renovável. A mudança sinalizou um movimento em direção a uma precificação de energia mais orientada pelo mercado, reduzindo o consumo desperdicioso e lançando as bases para um sistema energético mais limpo, resiliente e sustentável.<br />No geral, a reforma dos subsídios aos combustíveis da Indonésia demonstrou como uma política fiscal inteligente pode equilibrar prioridades econômicas, sociais e ambientais, servindo de exemplo para outras nações que buscam se afastar da dependência de combustíveis fósseis."
+              "text": "<br /><br />Em 2014,<strong> a Indonésia </strong>começou a reduzir seus subsídios de combustível, que há muito tempo pressionavam seu orçamento nacional. O governo redirecionou as economias desses subsídios para o desenvolvimento de infraestrutura e programas sociais. <br /><br />Essa reforma não apenas melhorou a saúde fiscal da Indonésia, mas também facilitou investimentos em energia renovável. A eliminação gradual dos subsídios foi apoiada por transferências de dinheiro direcionadas para proteger as populações mais vulneráveis do impacto do aumento dos preços dos combustíveis.<br /><br />A reforma também teve impactos positivos no meio ambiente e no setor de energia. Ao eliminar gradualmente os subsídios aos combustíveis fósseis, a Indonésia incentivou uma <ai prompt=\"Forneça mais informações sobre eficiência energética.\">maior eficiência energética 💬️</ai> e aumentou o investimento em projetos de energia renovável. A mudança sinalizou um movimento em direção a uma precificação de energia mais orientada pelo mercado, reduzindo o consumo desperdicioso e lançando as bases para um sistema energético mais limpo, resiliente e sustentável.<br />No geral, a reforma dos subsídios aos combustíveis da Indonésia demonstrou como uma política fiscal inteligente pode equilibrar prioridades econômicas, sociais e ambientais, servindo de exemplo para outras nações que buscam se afastar da dependência de combustíveis fósseis."
             }
           }
         ]
@@ -350,7 +438,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_6.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_12.png",
           "caption": ""
         }
       }
@@ -380,7 +468,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_5.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_9.png",
           "caption": ""
         }
       }
@@ -410,7 +498,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_6.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_19.png",
           "caption": ""
         }
       }
@@ -437,13 +525,12 @@
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_4/M4_C2_7.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_6.png",
+          "caption": ""
         }
       }
     },
@@ -452,7 +539,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_1.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_12.png",
           "caption": ""
         }
       }
@@ -479,7 +566,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Além disso, em vez de depender de medidas de emergência durante os picos de preços, é mais eficaz implementar mudanças estruturais que reduzam a demanda geral por combustíveis fósseis. Isso inclui promover tecnologias de alta eficiência e baixas emissões e fornecer apoio para ajudar os consumidores mais pobres a gerenciar os custos iniciais de soluções energéticas mais limpas. Investir nessas áreas proporciona proteção duradoura contra a volatilidade dos preços dos combustíveis e apoia a transição para um sistema energético mais sustentável.<br /><br />A eliminação dos subsídios aos combustíveis fósseis também deve estar alinhada com a desincentivação dos combustíveis fósseis, por exemplo, através da precificação do carbono e, simultaneamente, incentivando as energias renováveis por meio de subsídios e isenções fiscais. Essa abordagem equilibrada pode acelerar a transição para a energia limpa, promover a inovação e garantir uma mudança justa e sustentável para uma energia de baixo carbono."
+              "text": "Além disso, em vez de depender de medidas de emergência durante os picos de preços, é mais eficaz implementar mudanças estruturais que reduzam a demanda geral por combustíveis fósseis. Isso inclui promover tecnologias de alta eficiência e baixas emissões e fornecer apoio para ajudar os consumidores mais pobres a gerenciar os custos iniciais de soluções energéticas mais limpas. Investir nessas áreas oferece proteção duradoura contra a volatilidade dos preços dos combustíveis e apoia a transição para um sistema de energia mais sustentável.<br /><br />A eliminação gradual dos subsídios aos combustíveis fósseis também deve estar alinhada com a desincentivação dos combustíveis fósseis, por exemplo através de <ai prompt=\"O que é precificação de carbono?\">precificação de carbono 💬️</ai> e incentivando simultaneamente as energias renováveis por meio de subsídios e isenções fiscais. Essa abordagem equilibrada pode acelerar a transição para a energia limpa, promover a inovação e garantir uma mudança justa e sustentável para uma energia de baixo carbono."
             }
           }
         ]
@@ -490,11 +577,11 @@
       "color_scheme": "dark",
       "content": {
         "title": "Objetivos de aprendizagem",
-        "intro": "Se você só tiver espaço para lembrar 3 coisas:",
+        "intro": "",
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_3.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_8.png",
               "caption": ""
             },
             "title": "Os subsídios aos combustíveis fósseis distorcem os mercados, pressionam as finanças públicas e perpetuam o sobreconsumo, atrasando as transições para uma energia sustentável. Reformar esses subsídios é fundamental para reduzir as pressões fiscais e avançar nos investimentos em energia limpa.",
@@ -502,7 +589,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_20.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_14.png",
               "caption": ""
             },
             "title": "Exemplos como Indonésia, Índia, Marrocos e Índia demonstram que as eliminações graduais de subsídios. Combinado com transferências de dinheiro direcionadas e comunicação transparente, pode proteger populações vulneráveis enquanto libera recursos para o desenvolvimento de energia renovável e infraestrutura.",
@@ -510,7 +597,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_19.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_3.png",
               "caption": ""
             },
             "title": "Em vez de depender apenas de medidas de emergência durante os picos de preços. É mais eficaz implementar mudanças estruturais que reduzam a demanda geral por combustíveis fósseis a longo prazo.",

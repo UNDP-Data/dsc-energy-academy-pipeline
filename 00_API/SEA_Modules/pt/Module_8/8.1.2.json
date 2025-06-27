@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_1.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_12.png",
           "caption": ""
         },
         "lesson": {
@@ -39,23 +39,11 @@
       }
     },
     {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_3.png",
-          "caption": ""
-        },
-        "intro": "M8: Tecnologias e inovações em energias renováveis",
-        "title": "Parte 1: Evolução das fontes de suprimento de energia"
-      }
-    },
-    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_11.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_5.png",
           "caption": ""
         },
         "intro": "M8: Tecnologias e inovações em energias renováveis",
@@ -122,6 +110,332 @@
       }
     },
     {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "half",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#3f7e44",
+            "#0468b1",
+            "#dd1367",
+            "#19486a",
+            "#4c9f38",
+            "#c5192d",
+            "#fd6925",
+            "#fd9d24",
+            "#0a97d9",
+            "#fcc30b"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0,
+              "rotate": 45
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "1995 (Historical)",
+              "2010 (Historical)",
+              "2023 (Historical)",
+              "2030 (SE)",
+              "2030 (CM)",
+              "2030 (ST)",
+              "2040 (SE)",
+              "2040 (CM)",
+              "2040 (ST)",
+              "2050 (SE)",
+              "2050 (CM)",
+              "2050 (ST)"
+            ],
+            "name": "Scenario"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "thousand TWh"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Coal",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                4.92116868798235,
+                6.92447629547961,
+                8.75358324145534,
+                8.05678059536934,
+                7.75192943770675,
+                6.88092613009921,
+                5.00826901874312,
+                4.79051819184129,
+                4.05016538037489,
+                5.09536934950389,
+                4.31146637265712,
+                1.26295479603082
+              ]
+            },
+            {
+              "name": "Gas",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                2.0904079382579503,
+                5.095369349502691,
+                6.27122381477246,
+                6.445424476295461,
+                6.488974641675851,
+                7.01157662624029,
+                6.88092613009928,
+                6.445424476295511,
+                5.09536934950381,
+                8.361631753031912,
+                7.01157662624028,
+                3.2662624035282
+              ]
+            },
+            {
+              "name": "Clean firm",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                2.264608599779539,
+                2.438809261302099,
+                2.613009922823899,
+                3.3969128996692994,
+                3.4404630650496006,
+                3.4840132304300013,
+                4.311466372656998,
+                4.7034178610804,
+                6.793825799338501,
+                5.9663726571112985,
+                6.837375964718799,
+                10.32138919514878
+              ]
+            },
+            {
+              "name": "Hydro",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                2.525909592061261,
+                3.3533627342888987,
+                4.355016538037599,
+                4.616317530319599,
+                4.746968026460799,
+                4.790518191841198,
+                5.356670341786103,
+                5.4873208379272,
+                5.443770672546801,
+                5.5308710033076025,
+                5.6179713340684,
+                5.4873208379272
+              ]
+            },
+            {
+              "name": "Wind onshore",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                null,
+                null,
+                null,
+                "1.6984564498347012",
+                "3.3533627342889005",
+                "4.137265711135701",
+                "5.705071664829099",
+                "8.274531422271199",
+                "11.061742006615198",
+                "12.890848952591",
+                "17.768467475193003",
+                "20.991179713340703"
+              ]
+            },
+            {
+              "name": "Wind offshore",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                null,
+                null,
+                null,
+                "0.3484013230429994",
+                "0.7839029768467007",
+                "0.8710033076075021",
+                "4.529217199559",
+                "5.443770672546897",
+                "6.532524807056198",
+                "3.004961411245901",
+                "3.919514884233699",
+                "5.400220507166495"
+              ]
+            },
+            {
+              "name": "Solar",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                null,
+                null,
+                "4.311466372657101",
+                "6.358324145534702",
+                "5.3131201764057",
+                "7.403528114663697",
+                "9.9729878721058",
+                "12.977949283351705",
+                "17.42006615215",
+                "16.026460859977895",
+                "22.123484013230403",
+                "30.136714443219397"
+              ]
+            },
+            {
+              "name": "Other",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                1.1979051819189,
+                1.1879823594267016,
+                1.6957001102536005,
+                1.079382579933899,
+                1.1212789415656983,
+                1.4211686879824017,
+                0.2353914002205996,
+                1.877067254685798,
+                1.6025358324146026,
+                2.1234840132305024,
+                2.410143329658297,
+                2.133958103638406
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 150
+          }
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -140,7 +454,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_5.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_15.png",
           "caption": ""
         },
         "intro": "M8: Tecnologias e inovações em energias renováveis",
@@ -169,7 +483,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<br />Outras análises sugerem que a demanda por combustíveis fósseis eventualmente cairá, mas ainda atenderá entre 40% e 60% da demanda global de energia até 2050, abaixo de 78% em 2023 (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective#/\"><u>Mckenzie</u></a>, 2024). Sob muitos cenários, 2030 não é um ponto de virada acentuado, mas um platô na demanda por combustíveis fósseis, influenciado por restrições na implantação de energias renováveis e pela lenta maturidade de alavancas de transição como eletrificação industrial, combustíveis verdes e armazenamento. <br /><br /><strong>Além da consideração climática, a transição também precisa abordar os elementos de equidade</strong>, uma vez que muitos países em desenvolvimento e emergentes atualmente dependem do carvão para expandir o acesso à energia e impulsionar o crescimento econômico. Cerca de metade do petróleo e gás do mundo vem desses países, que muitas vezes dependem de receitas voláteis de combustíveis fósseis. Em países como Nigéria, Angola ou México, a receita de combustíveis fósseis apoia o acesso à energia e as folhas de pagamento do governo, com os salários do setor público representando de 30 a 50% dos gastos do governo em muitos países africanos (<a href=\"https://www.wri.org/insights/just-transition-developing-countries-shift-oil-gas\"><u>WRI</u></a>, 2023). <br /><br />Para os países em desenvolvimento que dependem de combustíveis fósseis, isso significa uma necessidade urgente de começar a planejar uma transição justa que proteja os trabalhadores, as comunidades e as economias locais. As principais estratégias políticas incluem a criação de fontes alternativas de emprego, o investimento em indústrias de energia limpa, o fortalecimento das redes de segurança social e a utilização de mecanismos de financiamento internacional, como as <ai prompt=\"Clarify just energy transition.\">parcerias para a transição energética justa</ai> (JETPs). "
+              "text": "<br />Outras análises sugerem que a demanda por combustíveis fósseis eventualmente cairá, mas ainda atenderá entre 40% e 60% da demanda global de energia até 2050, abaixo de 78% em 2023 (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective#/\"><u>Mckenzie</u></a>, 2024). Sob muitos cenários, 2030 não é um ponto de virada acentuado, mas um platô na demanda por combustíveis fósseis, influenciado por restrições na implantação de energias renováveis e pela lenta maturidade de alavancas de transição como eletrificação industrial, combustíveis verdes e armazenamento. <br /><br /><strong>Além da consideração climática, a transição também precisa abordar os elementos de equidade</strong>, uma vez que muitos países em desenvolvimento e emergentes atualmente dependem do carvão para expandir o acesso à energia e impulsionar o crescimento econômico. Cerca de metade do petróleo e gás do mundo vem desses países, que muitas vezes dependem de receitas voláteis de combustíveis fósseis. Em países como Nigéria, Angola ou México, a receita de combustíveis fósseis apoia o acesso à energia e as folhas de pagamento do governo, com os salários do setor público representando de 30 a 50% dos gastos do governo em muitos países africanos (<a href=\"https://www.wri.org/insights/just-transition-developing-countries-shift-oil-gas\"><u>WRI</u></a>, 2023). <br /><br />Para os países em desenvolvimento que dependem de combustíveis fósseis, isso significa uma necessidade urgente de começar a planejar uma transição justa que proteja os trabalhadores, as comunidades e as economias locais. As principais estratégias políticas incluem criar fontes alternativas de emprego, investir em indústrias de energia limpa, fortalecer as redes de segurança social e aproveitar mecanismos de financiamento internacional como as <ai prompt=\"Share details about just energy transition.\">transições energéticas justas 💬️</ai> Parcerias (JETPs). "
             }
           }
         ]
@@ -180,7 +494,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_4.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_12.png",
           "caption": ""
         },
         "intro": "M8: Tecnologias e inovações em energias renováveis",
@@ -206,7 +520,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_3.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_18.png",
           "caption": ""
         }
       }
@@ -244,7 +558,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_7.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_5.png",
           "caption": ""
         },
         "intro": "M8: Tecnologias e inovações em energias renováveis",
@@ -259,7 +573,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "O hidrogênio é um elemento rico em energia que pode ser usado como combustível ou matéria-prima em vários setores, produzindo apenas vapor d'água e calor quando utilizado, mas seu impacto climático depende de como é produzido. O hidrogênio verde (ou limpo) refere-se ao hidrogênio produzido com poucas ou nenhuma emissão de gases de efeito estufa, oferecendo um potencial significativo para a descarbonização, especialmente nas indústrias. <br /><br /><strong>O hidrogênio pode desempenhar um papel cada vez mais importante na transição energética global</strong>, especialmente para descarbonizar setores difíceis de eletrificar, como a indústria pesada, o transporte de longa distância e a aviação. Até 2050, a demanda global de hidrogênio deve aumentar de 97 Mt em 2023 para entre 111 e 614 Mt/ano, potencialmente fornecendo de 2 a 10% do consumo final de energia global (<a href=\"https://www.nature.com/articles/s41467-024-51251-7\"><u>Terlouw et al.</u></a>, 2024). Mas quando se trata de hidrogênio limpo, menos de 1 Mt de hidrogênio de baixas emissões foi produzido em 2023, embora projetos planejados possam aumentar isso para 49 Mt/ano até 2030 (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). <br /><br /> <br />À medida que o desdobramento continua, os custos de produção devem reduzir em 50% até 2030, alcançando entre 2 $ e 9 $/kg H₂, com o potencial de competir com o hidrogênio de origem fóssil (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). Para os países em desenvolvimento, o hidrogênio oferece tanto oportunidades quanto desafios. O comércio global de hidrogênio projetado pode alcançar 280 bilhões de dólares até 2050, com mais da metade dessa atividade ocorrendo em regiões em desenvolvimento (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Feb/IRENA_UNIDO_IDOS_Green_hydrogen_industrial_development_2024.pdf\"><u>IRENA</u></a>, 2023). A África e a América Latina têm um grande potencial para se tornarem produtores de hidrogênio verde de baixo custo. A América Latina, por exemplo, poderia gerar 7 Mt/ano até 2030 (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). A produção de hidrogênio poderia ajudar a reduzir a dependência de importações de fertilizantes e apoiar indústrias locais como o aço verde. No entanto, realizar esse potencial exigirá um aumento de 20% na geração de eletricidade na América Latina e atualizações significativas na infraestrutura, especialmente na transmissão."
+              "text": "O hidrogênio é um elemento rico em energia que pode ser usado como combustível ou matéria-prima em vários setores, produzindo apenas vapor d'água e calor quando utilizado, mas seu impacto climático depende de como é produzido. O hidrogênio verde (ou limpo) refere-se ao hidrogênio produzido com pouco ou nenhum gás de efeito estufa, oferecendo um potencial significativo para <ai prompt=\"O que é descarbonização?\">a descarbonização 💬️</ai> especialmente nas indústrias. <br /><br /><strong>O hidrogênio pode desempenhar um papel cada vez mais importante na transição energética global</strong>, especialmente para descarbonizar setores difíceis de eletrificar, como a indústria pesada, o transporte de longa distância e a aviação. Até 2050, a demanda global de hidrogênio deve aumentar de 97 Mt em 2023 para entre 111 e 614 Mt/ano, potencialmente fornecendo de 2 a 10% do consumo final de energia global (<a href=\"https://www.nature.com/articles/s41467-024-51251-7\"><u>Terlouw et al.</u></a>, 2024). Mas quando se trata de hidrogênio limpo, menos de 1 Mt de hidrogênio de baixas emissões foi produzido em 2023, embora projetos planejados possam aumentar isso para 49 Mt/ano até 2030 (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). <br /><br /> <br />À medida que o desdobramento continua, os custos de produção devem reduzir em 50% até 2030, alcançando entre 2 $ e 9 $/kg H₂, com o potencial de competir com o hidrogênio de origem fóssil (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). Para os países em desenvolvimento, o hidrogênio oferece tanto oportunidades quanto desafios. O comércio global de hidrogênio projetado pode alcançar 280 bilhões de dólares até 2050, com mais da metade dessa atividade ocorrendo em regiões em desenvolvimento (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Feb/IRENA_UNIDO_IDOS_Green_hydrogen_industrial_development_2024.pdf\"><u>IRENA</u></a>, 2023). A África e a América Latina têm um grande potencial para se tornarem produtores de hidrogênio verde de baixo custo. A América Latina, por exemplo, poderia gerar 7 Mt/ano até 2030 (<a href=\"https://iea.blob.core.windows.net/assets/89c1e382-dc59-46ca-aa47-9f7d41531ab5/GlobalHydrogenReview2024.pdf\"><u>IEA</u></a>, 2024). A produção de hidrogênio poderia ajudar a reduzir a dependência de importações de fertilizantes e apoiar indústrias locais como o aço verde. No entanto, realizar esse potencial exigirá um aumento de 20% na geração de eletricidade na América Latina e atualizações significativas na infraestrutura, especialmente na transmissão."
             }
           }
         ]
@@ -273,22 +587,23 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<br /> No entanto, <strong>a menos que as estratégias de hidrogênio verde estejam enraizadas em um planejamento inclusivo e benefícios locais, elas podem correr o risco de replicar modelos extrativos das indústrias de combustíveis fósseis.</strong> Na Namíbia, por exemplo, ambições de hidrogênio em grande escala estão sendo desenvolvidas em um país onde 44% da população não tem acesso à eletricidade (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=NA\"><u>Banco Mundial</u></a>, 2023). Desviar a energia renovável para exportações de hidrogênio em vez de eletrificação doméstica pode agravar a pobreza energética em vez de aliviá-la. <br /><br /><br />Além disso, a expansão de projetos de hidrogênio verde em regiões com escassez de água, como o norte da África e partes da América Latina, levanta sérias preocupações. <ai prompt=\"Fale-me mais sobre a eletrólise.\">a eletrólise</ai> requer nove litros de água purificada para cada quilograma de hidrogênio produzido, e mais de 70% dos projetos de eletrólise planejados globalmente estão localizados em áreas que já enfrentam estresse hídrico (<a href=\"https://www.nature.com/articles/d41586-023-03884-9#:~:text=Os%20requisitos%20de%20água%20para%20produzir%20hidrogênio%20por%20eletrólise%20são%20de%20nove%20litros%20de%20água%20por%20quilograma%20de%20H21.\"><u>Fairley et al</u></a>. , 2023). Sem salvaguardas ambientais, os investimentos em hidrogênio verde podem aprofundar as desigualdades locais, ameaçar a integridade ecológica e reproduzir padrões de deslocamento e marginalização. <br /><br /><br /><strong>Para que os países em desenvolvimento se beneficiem verdadeiramente, o hidrogênio verde deve ser perseguido como uma estratégia de desenvolvimento que centralize a equidade, a soberania e a resiliência a longo prazo.</strong> "
+              "text": "<br /> No entanto, <strong>a menos que as estratégias de hidrogênio verde estejam enraizadas em um planejamento inclusivo e benefícios locais, elas podem correr o risco de replicar modelos extrativos das indústrias de combustíveis fósseis.</strong> Na Namíbia, por exemplo, ambições de hidrogênio em grande escala estão sendo desenvolvidas em um país onde 44% da população não tem acesso à eletricidade (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=NA\"><u>Banco Mundial</u></a>, 2023). Desviar a energia renovável para exportações de hidrogênio em vez de eletrificação doméstica pode agravar a pobreza energética em vez de aliviá-la. <br /><br /><br />Além disso, a expansão de projetos de hidrogênio verde em regiões com escassez de água, como o norte da África e partes da América Latina, levanta sérias preocupações. <ai prompt=\"Explain electrolysis.\">eletrólise 💬️</ai> requer nove litros de água purificada para cada quilograma de hidrogênio produzido, e mais de 70% dos projetos de eletrólise planejados globalmente estão localizados em áreas já enfrentando estresse hídrico (<a href=\"https://www.nature.com/articles/d41586-023-03884-9#:~:text=The%20water%20requirements%20for%20producing%20hydrogen%20by,litres%20de%20água%20por%20quilograma%20de%20H21.\"><u>Fairley et al</u></a>. , 2023). Sem salvaguardas ambientais, os investimentos em hidrogênio verde podem aprofundar as desigualdades locais, ameaçar a integridade ecológica e reproduzir padrões de deslocamento e marginalização. <br /><br /><br /><strong>Para que os países em desenvolvimento se beneficiem verdadeiramente, o hidrogênio verde deve ser perseguido como uma estratégia de desenvolvimento que centralize a equidade, a soberania e a resiliência a longo prazo.</strong> "
             }
           }
         ]
       }
     },
     {
-      "template_id": "lesson_part_cover",
+      "template_id": "case_study_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_9.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Outro_1.png",
           "caption": ""
         },
         "intro": "M8: Tecnologias e inovações em energias renováveis",
-        "title": "Parte 2: Mudanças globais moldando o futuro do fornecimento de energia"
+        "title": "Estudo de caso: China",
+        "subtitle": ""
       }
     },
     {
@@ -296,11 +611,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_6.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_18.png",
           "caption": ""
         },
         "intro": "M8: Tecnologias e inovações em energias renováveis",
-        "title": "A: Desafios de integração da rede"
+        "title": "E: Desafios de Integração na Rede"
       }
     },
     {
@@ -322,7 +637,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_4.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_3.png",
           "caption": ""
         }
       }
@@ -335,7 +650,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Mesmo onde a infraestrutura física existe, os sistemas de energia estão sendo testados pelas crescentes demandas por flexibilidade. As necessidades de flexibilidade sazonal estão aumentando 50% mais rápido do que a demanda de eletricidade na Europa, 40% mais rápido na China e 30% mais rápido na Índia (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024). A mudança climática agrava esses riscos: no Oriente Médio, 90% da infraestrutura energética estará exposta a mais de 20 dias adicionais de calor extremo anualmente até meados do século. Ao mesmo tempo, o fator de capacidade da energia hidrelétrica caiu de 44% na década de 1990 para 41% na década de 2020, reduzindo a produção em 330 TWh por ano, equivalente a toda a nova energia solar fotovoltaica adicionada globalmente em 2023. <br /><br />Uma rede voltada para o futuro deve ser mais inteligente, mais flexível e melhor coordenada. As soluções incluem o planejamento integrado da rede usando modelos impulsionados por IA para simular a demanda, o clima e as falhas de ativos. Conexões inteligentes, como acesso condicional durante períodos de congestionamento, combinadas com mapas de capacidade de hospedagem transparentes e permissões padronizadas, podem acelerar a integração. Tecnologias de rede avançadas, como software de gerenciamento digital, ferramentas de integração de DER e armazenamento de energia, serão essenciais. <br /><br />A ativação dessas soluções também exigirá uma colaboração fortalecida entre reguladores, utilitários, desenvolvedores e consumidores. O investimento também deve se adaptar: Enquanto 1 $ é gasto em capacidade renovável hoje, apenas 0,60 $ vão para redes e armazenamento (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024). Na década de 2040, essa proporção deve alcançar a paridade. Sem esse reequilíbrio, a transição energética corre o risco de ser retardada."
+              "text": "Mesmo onde a infraestrutura física existe, os sistemas de energia estão sendo testados pelas crescentes demandas por flexibilidade. As necessidades de flexibilidade sazonal estão aumentando 50% mais rápido do que a demanda de eletricidade na Europa, 40% mais rápido na China e 30% mais rápido na Índia (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024). A mudança climática agrava esses riscos: no Oriente Médio, 90% da infraestrutura energética estará exposta a mais de 20 dias adicionais de calor extremo anualmente até meados do século. Ao mesmo tempo, o fator de capacidade da energia hidrelétrica caiu de 44% na década de 1990 para 41% na década de 2020, reduzindo a produção em 330 TWh por ano, equivalente a toda a nova energia solar fotovoltaica adicionada globalmente em 2023. <br /><br />Uma rede voltada para o futuro deve ser mais inteligente, mais flexível e melhor coordenada. As soluções incluem o planejamento integrado da rede usando modelos impulsionados por IA para simular a demanda, o clima e as falhas de ativos. Conexões inteligentes, como acesso condicional durante períodos de congestionamento, combinadas com mapas de capacidade de hospedagem transparentes e permissões padronizadas, podem acelerar a integração. Tecnologias de rede avançadas, como softwares de gestão digital, ferramentas de integração DER, e <ai prompt=\"Explain energy storage.\">armazenamento de energia 💬️</ai> serão essenciais. <br /><br />A ativação dessas soluções também exigirá uma colaboração fortalecida entre reguladores, utilitários, desenvolvedores e consumidores. O investimento também deve se adaptar: Enquanto 1 $ é gasto em capacidade renovável hoje, apenas 0,60 $ vão para redes e armazenamento (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024). Na década de 2040, essa proporção deve alcançar a paridade. Sem esse reequilíbrio, a transição energética corre o risco de ser retardada."
             }
           }
         ]
@@ -346,11 +661,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_4.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_4.png",
           "caption": ""
         },
         "intro": "M8: Tecnologias e inovações em energias renováveis",
-        "title": "B: Aumento da dependência de minerais críticos para tecnologia de energia limpa"
+        "title": "F: Aumento da dependência de minerais críticos para a tecnologia de energia limpa"
       }
     },
     {
@@ -361,7 +676,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong><ai prompt=\"Explain critical minerals.\">minerais críticos</ai> são cruciais para as cadeias de suprimento de energia limpa.</strong> <br /></strong><br />A demanda por minerais como lítio, níquel, cobalto, grafite e elementos de terras raras deve aumentar. Somente em 2024, a demanda por lítio aumentou em quase 30%, enquanto outros metais para baterias cresceram de 6 a 8%, impulsionados em grande parte pelo rápido desdobramento de veículos elétricos, sistemas de armazenamento de baterias e energias renováveis (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Sob o cenário NZE da AIE, espera-se que a demanda por minerais críticos quase triplique até 2030 e cresça para mais de 3,5 vezes os níveis atuais até 2050, alcançando quase 40 milhões de toneladas. <br /><br />No entanto, essa mudança rápida está expondo novos riscos à segurança energética. As cadeias de suprimento para tecnologias de energia limpa estão fortemente concentradas, com a China respondendo por mais de 95% do grafite refinado e dos elementos de terras raras, 70% dos produtos químicos de lítio e mais de 80% da capacidade de fabricação global de painéis solares PV (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Globalmente, apenas três países controlam 77% da mineração e 86% da capacidade de refino de minerais-chave. "
+              "text": "<strong><ai prompt=\"What is critical minerals?\">minerais críticos 💬️</ai> são essenciais para as cadeias de suprimentos de energia limpa.</strong> <br /></strong><br />A demanda por minerais como lítio, níquel, cobalto, grafite e elementos de terras raras deve aumentar. Somente em 2024, a demanda por lítio aumentou em quase 30%, enquanto outros metais para baterias cresceram de 6 a 8%, impulsionados em grande parte pelo rápido desdobramento de veículos elétricos, sistemas de armazenamento de baterias e energias renováveis (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Sob o cenário NZE da AIE, espera-se que a demanda por minerais críticos quase triplique até 2030 e cresça para mais de 3,5 vezes os níveis atuais até 2050, alcançando quase 40 milhões de toneladas. <br /><br />No entanto, essa mudança rápida está expondo novos riscos à segurança energética. As cadeias de suprimento para tecnologias de energia limpa estão fortemente concentradas, com a China respondendo por mais de 95% do grafite refinado e dos elementos de terras raras, 70% dos produtos químicos de lítio e mais de 80% da capacidade de fabricação global de painéis solares PV (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Globalmente, apenas três países controlam 77% da mineração e 86% da capacidade de refino de minerais-chave. "
             }
           },
           {
@@ -385,7 +700,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_6.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_15.png",
           "caption": ""
         }
       }
@@ -432,7 +747,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>A reciclagem de minerais críticos apresenta uma grande oportunidade para uma transição energética justa.</strong> <br /><br />A reciclagem não apenas reduz a exposição a mercados globais voláteis e a dependência de importações, mas também gera empregos, fomenta a indústria local e diminui o dano ambiental. Em um cenário alinhado com os compromissos climáticos nacionais, a reciclagem poderia reduzir a necessidade de novas minas de cobre e cobalto em 40% e de lítio e níquel em quase 25% até 2050. <br /><br />Isso também evitaria 30% nos custos de investimento relacionados à mineração, um estimado de 240 bilhões de USD globalmente. Para países com reservas limitadas, mas com uma crescente demanda de energia, construir infraestrutura de reciclagem oferece um caminho para participar nas cadeias de valor mineral sem as altas barreiras de capital da nova extração. <br /><br /><br />Mas hoje, a lacuna continua ampla entre as regiões: na África, as taxas de coleta formal de resíduos eletrônicos permanecem em torno de 1%, em comparação com 40-50% na Europa e na América do Norte. Desbloquear esse potencial exigirá investimentos em sistemas de coleta, transferência de tecnologia e políticas de apoio, como a responsabilidade estendida do produtor e padrões para conteúdo reciclado. Se bem apoiados, a mineração urbana e a circularidade poderiam se tornar ferramentas poderosas para a resiliência e a equidade na transição energética.<br /><br /><br /> Notavelmente, poderiam ajudar os países em desenvolvimento a garantir futuros energéticos mais limpos e sustentáveis em seus próprios termos."
+              "text": "<strong>A reciclagem de minerais críticos apresenta uma grande oportunidade para uma transição energética justa.</strong> <br /><br />A reciclagem não apenas reduz a exposição a mercados globais voláteis e a dependência de importações, mas também gera empregos, fomenta a indústria local e diminui o dano ambiental. Em um cenário alinhado com os compromissos climáticos nacionais, a reciclagem poderia reduzir a necessidade de novas minas de cobre e cobalto em 40% e de lítio e níquel em quase 25% até 2050. <br /><br />Isso também evitaria 30% nos custos de investimento relacionados à mineração, um estimado de 240 bilhões de USD globalmente. Para países com reservas limitadas, mas com uma crescente demanda de energia, construir infraestrutura de reciclagem oferece um caminho para participar nas cadeias de valor mineral sem as altas barreiras de capital da nova extração. <br /><br /><br />Mas hoje, a lacuna continua ampla entre as regiões: na África, as taxas de coleta formal de resíduos eletrônicos permanecem em torno de 1%, em comparação com 40-50% na Europa e na América do Norte. Desbloquear esse potencial exigirá investimentos em sistemas de coleta, <ai prompt=\"Fornecer mais informações sobre transferência de tecnologia.\">transferência de tecnologia 💬️</ai>, e políticas de apoio, como responsabilidade estendida do produtor e padrões para conteúdo reciclado. Se bem apoiados, a mineração urbana e a circularidade poderiam se tornar ferramentas poderosas para a resiliência e a equidade na transição energética.<br /><br /><br /> Notavelmente, poderiam ajudar os países em desenvolvimento a garantir futuros energéticos mais limpos e sustentáveis em seus próprios termos."
             }
           }
         ]
@@ -443,11 +758,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_4.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_15.png",
           "caption": ""
         },
         "intro": "M8: Tecnologias e inovações em energias renováveis",
-        "title": "C: Mudanças geopolíticas"
+        "title": "G: Mudanças geopolíticas"
       }
     },
     {
@@ -483,11 +798,11 @@
       "color_scheme": "dark",
       "content": {
         "title": "Principais conclusões",
-        "intro": "Se você só tiver espaço para lembrar 3 coisas:",
+        "intro": "",
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_3.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_12.png",
               "caption": ""
             },
             "title": "Os combustíveis fósseis permanecem profundamente enraizados no fornecimento de energia global, especialmente em países em desenvolvimento, onde apoiam o acesso à energia e as economias. Isso destaca a necessidade urgente de uma transição justa e inclusiva que proteja os meios de subsistência enquanto elimina gradualmente a energia intensiva em carbono.",
@@ -495,7 +810,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_1.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_4.png",
               "caption": ""
             },
             "title": "As energias renováveis estão transformando o sistema energético global, com a solar e a eólica previstas para dominar a geração futura de eletricidade, mas escalar essa transformação requer enormes atualizações de infraestrutura, reforma política e investimento.",
@@ -503,7 +818,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_5.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_4.png",
               "caption": ""
             },
             "title": "Novos sistemas de energia trazem novas vulnerabilidades, desde dependências de minerais críticos até riscos geopolíticos e limitações de rede, exigindo estratégias de suprimento mais inteligentes e resilientes que sejam diversas, equitativas e alinhadas com os objetivos climáticos e de desenvolvimento.",

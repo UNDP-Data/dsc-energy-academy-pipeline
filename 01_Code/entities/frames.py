@@ -605,7 +605,7 @@ class PhotoVertical(FrameBase):
             image["caption"] = caption  # attach caption here too
 
         return cls(
-            template_id=node.name,
+            template_id="photo_vertical",#node.name,
             color_scheme="light",
             image=image
         )
@@ -638,7 +638,7 @@ class Infographic(FrameBase):
     
     @classmethod
     def from_node(cls, node: Node) -> "Infographic":
-        assert node.name == "infographic", f"Expected photo-vertical node, got {node.name}"
+        assert node.name == "infographic", f"Expected infographic node, got {node.name}"
        
         image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
         if image_node:

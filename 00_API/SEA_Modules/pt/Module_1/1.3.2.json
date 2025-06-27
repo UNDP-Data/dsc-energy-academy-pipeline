@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "A América Latina e o Caribe (ALC) estão em uma encruzilhada crucial. A região é dotada de alguns dos recursos de energia renovável mais ricos do mundo - abundante energia solar no México e no Chile, ventos fortes na Patagônia, amplos recursos hídricos no Brasil e nos Andes, e oportunidades emergentes de geotermia e hidrogênio verde. Ao mesmo tempo, enfrenta a desigualdade persistente, a pobreza energética, a vulnerabilidade climática e os fluxos de investimento lentos.<br /><br />Esta lição explora como o vasto potencial energético da região pode ser aproveitado para impulsionar um desenvolvimento inclusivo e sustentável. A energia não é apenas um setor – é um facilitador. Impulsiona escolas e clínicas, gera empregos e crescimento industrial, apoia a inclusão digital e fornece resiliência contra desastres e choques. No entanto, 17 milhões de pessoas ainda não têm acesso à eletricidade, e 78 milhões dependem de combustíveis tradicionais para cozinhar - expondo profundas lacunas de acesso à energia que devem ser abordadas se a região quiser alcançar os Objetivos de Desenvolvimento Sustentável (ODS).<br /><br />Apesar de ter uma das misturas de eletricidade mais limpas do mundo (mais de 60% renovável), a LAC continua fortemente dependente de combustíveis fósseis para transporte e indústria. O desafio agora é duplo: garantir o acesso universal à energia moderna e mudar os sistemas energéticos em direção à resiliência, equidade e sustentabilidade.<br /><br />Ao combinar dados regionais, análise de políticas e oportunidades futuras, os aprendizes obterão uma visão holística de por que a energia sustentável é uma pedra angular para a transformação econômica, a ação climática e a justiça social em toda a América Latina e no Caribe."
+              "text": "América Latina e o Caribe estão em uma encruzilhada crucial. A região é dotada de alguns dos recursos de energia renovável mais ricos do mundo - abundante energia solar no México e no Chile, ventos fortes na Patagônia, amplos recursos hídricos no Brasil e nos Andes, e oportunidades emergentes de geotermia e hidrogênio verde. Ao mesmo tempo, enfrenta a desigualdade persistente, a pobreza energética, a vulnerabilidade climática e os fluxos de investimento lentos.<br /><br />Esta lição explora como o vasto potencial energético da região pode ser aproveitado para impulsionar um desenvolvimento inclusivo e sustentável. A energia não é apenas um setor – é um facilitador. Impulsiona escolas e clínicas, gera empregos e crescimento industrial, apoia a inclusão digital e fornece resiliência contra desastres e choques. No entanto, 17 milhões de pessoas ainda não têm acesso à eletricidade, e 78 milhões dependem de combustíveis tradicionais para cozinhar - expondo profundas lacunas de acesso à energia que devem ser abordadas se a região quiser alcançar os Objetivos de Desenvolvimento Sustentável (ODS).<br /><br />Apesar de ter uma das misturas de eletricidade mais limpas do mundo (mais de 60% renovável), a LAC continua fortemente dependente de combustíveis fósseis para transporte e indústria. O desafio agora é duplo: garantir o acesso universal à energia moderna e mudar os sistemas energéticos em direção à resiliência, equidade e sustentabilidade.<br /><br />Ao combinar dados regionais, análise de políticas e oportunidades futuras, os aprendizes obterão uma visão holística de por que a energia sustentável é uma pedra angular para a transformação econômica, a ação climática e a justiça social em toda a América Latina e no Caribe."
             }
           }
         ]
@@ -85,10 +85,163 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "as pessoas ainda não têm acesso a cozinhas limpas e cerca de 17 milhões de pessoas não têm acesso à eletricidade, principalmente em áreas rurais e remotas. <br /><br />O potencial de energia renovável da região, combinado com financiamento inteligente, políticas inclusivas e inovação industrial, pode transformar essas vulnerabilidades em motores de crescimento inclusivo e resiliência climática."
+              "text": "as pessoas ainda não têm acesso a <ai prompt=\"O que é cozinhar de forma limpa?\">cozinha limpa 💬️</ai> e cerca de 17 milhões de pessoas não têm acesso à eletricidade, principalmente em áreas rurais e remotas. <br /><br />O potencial de energia renovável da região, combinado com financiamento inteligente, políticas inclusivas e inovação industrial, pode transformar essas vulnerabilidades em motores de crescimento inclusivo e resiliência climática."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fcc30b",
+            "#fd9d24",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44",
+            "#0a97d9",
+            "#c5192d",
+            "#dd1367",
+            "#fd6925",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Caribbean",
+              "Central America",
+              "Southern Cone",
+              "Brazil",
+              "México",
+              "Andean Region"
+            ],
+            "name": "Region"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Electricity (USD/kWh)"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "bar",
+              "data": [
+                0.22,
+                0.181,
+                0.099,
+                0.185,
+                0.075,
+                0.124
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
       }
     },
     {
@@ -111,7 +264,21 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "A região alcançou uma taxa de acesso à eletricidade de 97,6 % em 2021, mas esses ganhos são desiguais. <br /><br /><strong>17 milhões de pessoas, principalmente em comunidades rurais e indígenas, permanecem sem eletricidade.</strong> No Haiti, por exemplo, apenas 47% das pessoas têm acesso à eletricidade, e apenas 5% têm acesso a soluções de cozimento limpas.<br /></strong><br />O acesso não se trata apenas de iluminar casas - trata-se de possibilitar a educação, os cuidados de saúde, os meios de subsistência e a adaptação climática. As estratégias de eletrificação de última milha, os sistemas renováveis descentralizados e as ferramentas digitais (por exemplo, solar pay-as-you-go) apresentam soluções imediatas e escaláveis para possibilitar uma transição energética justa"
+              "text": "A região alcançou uma taxa de acesso à eletricidade de 97,6 % em 2021, mas esses ganhos são desiguais. <br /><br /><strong>17 milhões de pessoas, principalmente em comunidades rurais e indígenas, permanecem sem eletricidade.</strong> No Haiti, por exemplo, apenas 47% das pessoas têm acesso à eletricidade, e apenas 5% têm acesso a soluções de cozimento limpas.<br /></strong><br />O acesso não se trata apenas de iluminar casas - trata-se de possibilitar a educação, os cuidados de saúde, os meios de subsistência e a adaptação climática. Estratégias de eletrificação de última milha, sistemas renováveis descentralizados e ferramentas digitais (por exemplo, solar de pagamento conforme o uso) apresentam soluções imediatas e escaláveis para viabilizar uma <ai prompt=\"Fornecer mais informações sobre a transição energética justa.\">transição energética justa 💬️</ai>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "78 milhões de pessoas não têm acesso a cozinhas limpas, impactando severamente a saúde e sobrecarregando desproporcionalmente mulheres e meninas.<br /><br /><strong>Oportunidade de desenvolvimento:</strong> Expandir o acesso à energia melhora a educação, a saúde, a produtividade e a igualdade de gênero. Nas áreas rurais, soluções energéticas modernas reduzem a <ai prompt=\"Forneça mais informações sobre a pobreza de tempo.\">pobreza de tempo 💬️</ai> das mulheres e melhoram as oportunidades econômicas. As mini-rede solares, os modelos de pagamento digital por uso e as soluções fora da rede estão transformando o acesso à energia na América Central e no Caribe."
             }
           }
         ]
@@ -123,9 +290,8 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C3_A.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_17.png",
+          "caption": ""
         }
       }
     },
@@ -137,21 +303,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "78 milhões de pessoas não têm acesso a cozinhas limpas, impactando severamente a saúde e sobrecarregando desproporcionalmente mulheres e meninas.<br /><br /><strong>Oportunidade de desenvolvimento:</strong> Expandir o acesso à energia melhora a educação, a saúde, a produtividade e a igualdade de gênero. Em áreas rurais, soluções energéticas modernas reduzem a pobreza de tempo das mulheres e melhoram as oportunidades econômicas. As mini-rede solares, os modelos de pagamento digital por uso e as soluções fora da rede estão transformando o acesso à energia na América Central e no Caribe."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<br /><br />LAC está posicionada de forma única para uma transição de baixo carbono. Os investimentos em energia renovável dispararam, com a solar e a eólica impulsionando novas instalações de capacidade. No entanto, os combustíveis fósseis ainda representam 66% do fornecimento de energia primária em toda a região e mais de 90% no Caribe.<br /><br /><strong>Escalar as energias renováveis não se trata apenas de descarbonização para a região</strong> – é um motor para a criação de empregos e transformação industrial. A região poderia gerar milhões de empregos verdes se a política, as finanças e a inovação local estiverem alinhadas. A CEPAL estima que 1,33% do PIB anualmente de 2021 a 2032 poderia tornar as fontes de energia 86% renováveis e reduzir as emissões de GEE em 30%. <br /><br />Além disso,"
+              "text": "<br /><br />LAC está posicionada de forma única para uma transição de baixo carbono. Os investimentos em energia renovável dispararam, com a solar e a eólica impulsionando novas instalações de capacidade. No entanto, os combustíveis fósseis ainda representam 66% do abastecimento de energia primária em toda a região e mais de 90% no Caribe.<br /><br /><strong>Expandir as energias renováveis não é apenas sobre <ai prompt=\"Fornecer mais informações sobre a descarbonização.\">descarbonização 💬️</ai> para a região</strong> – é um motor para a criação de empregos e transformação industrial. A região poderia gerar milhões de empregos verdes se a política, as finanças e a inovação local estiverem alinhadas. A CEPAL estima que 1,33% do PIB anualmente de 2021 a 2032 poderia tornar as fontes de energia 86% renováveis e reduzir as emissões de GEE em 30%. <br /><br />Além disso,"
             }
           },
           {
@@ -215,6 +367,200 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#dd1367",
+            "#0468b1",
+            "#c5192d",
+            "#fd6925",
+            "#4c9f38",
+            "#fd9d24",
+            "#19486a",
+            "#fcc30b",
+            "#0a97d9",
+            "#3f7e44"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              2020,
+              2021,
+              2022,
+              2023,
+              2024,
+              2025,
+              2026,
+              2027,
+              2028,
+              2029,
+              2030
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "%"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "line",
+              "name": "High-impact",
+              "data": [
+                0.0,
+                1.3,
+                2.6,
+                4.0,
+                5.4,
+                6.8,
+                8.3,
+                9.9,
+                11.5,
+                13.2,
+                14.9
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Medium-impact",
+              "data": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.1,
+                6.2,
+                7.4,
+                8.5,
+                9.8,
+                11.0
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Low-impact",
+              "data": [
+                0.0,
+                0.6,
+                1.3,
+                2.0,
+                2.7,
+                3.4,
+                4.1,
+                4.9,
+                5.6,
+                6.4,
+                7.2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -284,7 +630,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>c.</strong> Fortalecimento da resiliência energética<br /></strong>Os estados caribenhos gastam até 1,2% do PIB na recuperação de desastres naturais anualmente. <ai prompt=\"Provide more info on resilient infrastructure.\">infraestrutura resiliente</ai> – especialmente mini-redes solares – pode proteger serviços críticos durante desastres.<br /><br /><strong>d. Finanças e investimento em energia<br /></strong>Apenas 1,3% do PIB regional vai para subsídios a combustíveis fósseis, um fardo fiscal significativo. Redirecionar subsídios para investimentos limpos poderia gerar melhores retornos, equidade e benefícios ambientais.<br />Os bancos de desenvolvimento regionais e as instituições financeiras locais (com quase 1 trilhão de dólares em ativos) são cruciais para desbloquear o financiamento misto e reduzir os riscos dos projetos."
+              "text": "<strong>c.</strong> Fortalecimento da resiliência energética<br /></strong>Os estados caribenhos gastam até 1,2% do PIB na recuperação de desastres naturais anualmente. <ai prompt=\"What is resilient infrastructure?\">infraestrutura resiliente 💬️</ai> – especialmente micro-redes solares – pode proteger serviços críticos durante desastres.<br /><br /><strong>d.</strong> Finanças e investimento em energia<br /></strong>Apenas 1,3% do PIB regional vai para subsídios a combustíveis fósseis, um fardo fiscal significativo. Redirecionar subsídios para investimentos limpos poderia gerar melhores retornos, equidade e benefícios ambientais.<br />Os bancos de desenvolvimento regionais e as instituições financeiras locais (com quase 1 trilhão de dólares em ativos) são cruciais para desbloquear o financiamento misto e reduzir os riscos dos projetos."
             }
           }
         ]
@@ -310,7 +656,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Ferramentas inovadoras como financiamento misto, títulos verdes e empréstimos concessionais—apoiados por financiamento público através de mecanismos como o GEF e o GCF—são vitais para mobilizar capital privado. Os bancos de desenvolvimento nacional também desempenham um papel crucial. Finanças bem estruturadas podem catalisar o desenvolvimento inclusivo ao apoiar o acesso à energia, a produtividade, a mobilidade elétrica, a agricultura resiliente ao clima e as economias circulares."
+              "text": "Ferramentas inovadoras como financiamento combinado, <ai prompt=\"Explain green bonds.\">títulos verdes 💬️</ai>, e empréstimos concessionais—apoiados por fundos públicos através de mecanismos como o GEF e o GCF—são essenciais para mobilizar capital privado. Os bancos de desenvolvimento nacional também desempenham um papel crucial. Finanças bem estruturadas podem catalisar o desenvolvimento inclusivo ao apoiar o acesso à energia, a produtividade, a mobilidade elétrica, a agricultura resiliente ao clima e as economias circulares."
             }
           }
         ]
@@ -321,7 +667,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "Principais conclusões",
-        "intro": "Se você só tiver espaço para lembrar 3 coisas:",
+        "intro": "",
         "takeaways": [
           {
             "image": {

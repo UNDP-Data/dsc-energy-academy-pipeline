@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_2.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_20.png",
           "caption": ""
         },
         "lesson": {
@@ -23,7 +23,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_4.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Outro_2.png",
           "caption": ""
         },
         "intro": "M7 : Données dans l'énergie durable",
@@ -63,7 +63,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_7.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_Intro_6.png",
           "caption": ""
         }
       }
@@ -76,7 +76,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong><ai prompt=\"Expliquer les données désagrégées par sexe.\">données désagrégées par sexe</ai> dans l'énergie</strong>"
+              "text": "<strong><ai prompt=\"What is sex-disaggregated data?\">sex-disaggregated data 💬️</ai> dans l'énergie</strong>"
             }
           },
           {
@@ -175,7 +175,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_12.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_4.png",
           "caption": ""
         },
         "intro": "M7 : Données dans l'énergie durable",
@@ -190,10 +190,167 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Pour intégrer efficacement les considérations de genre dans la politique énergétique durable, il est essentiel d'analyser et de traiter comment les femmes, les hommes et les groupes de genre divers accèdent et utilisent les services et technologies énergétiques. Le tableau suivant présente des actions pratiques pour intégrer les dimensions de genre dans le développement des politiques énergétiques renouvelables. Ces actions s'alignent sur les principes fondamentaux de l'intégration de la dimension de genre et peuvent être adaptées à divers secteurs. Ici, ils ont été spécifiquement adaptés pour la politique énergétique renouvelable, fournissant un cadre clair de \"quoi et comment\" pour guider la mise en œuvre."
+              "text": "Pour intégrer efficacement les considérations de genre dans la politique énergétique durable, il est essentiel d'analyser et de traiter comment les femmes, les hommes et les groupes de genre divers accèdent et utilisent les services et technologies énergétiques. Le tableau suivant présente des actions pratiques pour intégrer les dimensions de genre dans le développement des politiques énergétiques renouvelables. Ces actions s'alignent sur les principes fondamentaux de <ai prompt=\"Fournir plus d'informations sur l'intégration de la dimension de genre.\">l'intégration de la dimension de genre 💬️</ai> et peuvent être adaptées à divers secteurs. Ici, ils ont été spécifiquement adaptés pour la politique énergétique renouvelable, fournissant un cadre clair de \"quoi et comment\" pour guider la mise en œuvre."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#c5192d",
+            "#fd6925",
+            "#0468b1",
+            "#3f7e44",
+            "#fd9d24",
+            "#fcc30b",
+            "#4c9f38",
+            "#dd1367",
+            "#0a97d9",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "boundaryGap": [
+              0,
+              0.01
+            ],
+            "name": "Share of women (%)"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Chemical engineer",
+              "Mechanical engineer",
+              "Electrical engineer",
+              "Electrician",
+              "Concrete worker",
+              "Welder",
+              "Plumber",
+              "Roofer"
+            ],
+            "name": "Occupation"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "bar",
+              "data": [
+                22.366764582459,
+                4.74192194712547,
+                3.81871590432229,
+                2.22408728493496,
+                2.22408728493496,
+                1.55266470835083,
+                0.335711288292081,
+                0.0419639110364604
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -246,13 +403,12 @@
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C2_4.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_10.png",
+          "caption": ""
         }
       }
     },
@@ -272,13 +428,12 @@
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C2_5.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Outro_1.png",
+          "caption": ""
         }
       }
     },
@@ -301,7 +456,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_3.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_1.png",
           "caption": ""
         }
       }
@@ -381,7 +536,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_1.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_6.png",
           "caption": ""
         },
         "intro": "M7 : Données dans l'énergie durable",
@@ -407,7 +562,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_16.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_3.png",
           "caption": ""
         }
       }
@@ -428,13 +583,12 @@
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/M7_C2_6.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_9.png",
+          "caption": ""
         }
       }
     },
@@ -481,7 +635,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Les données jouent un rôle crucial dans la mise en œuvre d'une approche intersectionnelle de la planification énergétique. La collecte et l'analyse de données désagrégées—par sexe, âge, ethnie, statut de handicap, niveau de revenu, localisation géographique et d'autres facteurs d'intersection—peuvent révéler des disparités qui restent cachées dans les ensembles de données agrégées. Les données désagrégées permettent aux planificateurs d'identifier qui est exclu de l'accès aux ressources et services énergétiques, de comprendre les barrières spécifiques auxquelles ils sont confrontés et de concevoir des interventions ciblées.<br /><br />De plus, les données doivent aller au-delà des indicateurs quantitatifs pour inclure des perspectives qualitatives qui capturent les expériences vécues, en particulier celles des communautés marginalisées. Des processus de collecte de données inclusifs, impliquant directement les communautés, peuvent garantir que des perspectives diverses informent les politiques et programmes énergétiques. Sans de telles données, la planification énergétique risque de renforcer les inégalités existantes, manquant l'occasion de s'attaquer à des barrières structurelles profondément ancrées."
+              "text": "Les données jouent un rôle crucial dans la mise en œuvre d'une approche intersectionnelle de la planification énergétique. La collecte et l'analyse de données désagrégées—par sexe, âge, ethnie, statut de handicap, niveau de revenu, localisation géographique et d'autres facteurs d'intersection—peuvent révéler des disparités qui restent cachées dans les ensembles de données agrégées. Les données désagrégées permettent aux planificateurs d'identifier qui est exclu de l'accès aux ressources et services énergétiques, de comprendre les obstacles spécifiques qu'ils rencontrent et de concevoir des interventions ciblées.<br /><br />De plus, les données doivent aller au-delà des métriques quantitatives pour inclure des insights qualitatifs qui capturent les expériences vécues, en particulier celles des <ai prompt=\"What is marginalized communities?\">communautés marginalisées 💬️</ai>. Des processus de collecte de données inclusifs, impliquant directement les communautés, peuvent garantir que des perspectives diverses informent les politiques et programmes énergétiques. Sans de telles données, la planification énergétique risque de renforcer les inégalités existantes, manquant l'occasion de s'attaquer à des barrières structurelles profondément ancrées."
             }
           }
         ]
@@ -492,11 +646,11 @@
       "color_scheme": "dark",
       "content": {
         "title": "Principaux enseignements",
-        "intro": "Si vous n'avez que de la place pour retenir 3 choses :",
+        "intro": "",
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_3.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_5.png",
               "caption": ""
             },
             "title": "Les données désagrégées par genre sont essentielles pour une planification énergétique équitable.",
@@ -504,7 +658,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_10.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Outro_3.png",
               "caption": ""
             },
             "title": "L'intersectionnalité doit être intégrée dans la planification énergétique pour s'attaquer aux inégalités systémiques.",
@@ -512,7 +666,7 @@
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_11.png",
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_9.png",
               "caption": ""
             },
             "title": "Les approches participatives autonomisent les femmes et les groupes marginalisés dans la prise de décision énergétique.",

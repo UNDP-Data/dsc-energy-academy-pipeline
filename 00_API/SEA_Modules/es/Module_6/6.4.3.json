@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El transporte depende en gran medida de los motores de combustión interna (ICE) alimentados por combustibles fósiles. Representa más de un tercio de las emisiones de CO2 de los sectores de uso final. En 2022, la actividad de pasajeros y carga se recuperó después de la pandemia de Covid-19. Esto llevó a un aumento del 3% en las emisiones de CO2 del transporte en comparación con 2021. Desde 1990 hasta 2022, las emisiones del transporte crecieron a una tasa anual promedio del 1,7 %, la misma que la de la industria. Para alinearse con el escenario de Emisiones Netas Cero (NZE) para 2050, las emisiones del transporte deben disminuir en más del 3 % anualmente hasta 2030. <br />Lograr esto requiere una rápida electrificación de los vehículos de carretera, una mejor eficiencia energética, el aumento de combustibles de bajas emisiones en el transporte marítimo y aéreo, y políticas que promuevan el cambio a modos de transporte menos intensivos en carbono. Aquí, nos centraremos en el transporte por carretera. La electrificación es el camino más prometedor para reducir las emisiones y mejorar la eficiencia energética en el transporte por carretera."
+              "text": "El transporte depende en gran medida de los motores de combustión interna (ICE) alimentados por combustibles fósiles. Representa más de un tercio de las emisiones de CO2 de los sectores de uso final. En 2022, la actividad de pasajeros y carga se recuperó después de la pandemia de Covid-19. Esto llevó a un aumento del 3% en las emisiones de CO2 del transporte en comparación con 2021. Desde 1990 hasta 2022, las emisiones del transporte crecieron a una tasa anual promedio del 1,7 %, la misma que la de la industria. Para alinearse con el escenario de Emisiones Netas Cero (NZE) para 2050, las emisiones del transporte deben disminuir en más del 3 % anualmente hasta 2030. <br />Lograr esto requiere una electrificación rápida de los vehículos terrestres, una <ai prompt=\"¿Qué es la eficiencia energética?\">eficiencia energética 💬️</ai> mejorada, combustibles de bajas emisiones a gran escala en marítimo y aviación, y políticas que promuevan cambios a modos de transporte menos intensivos en carbono. Aquí, nos centraremos en el transporte por carretera. La electrificación es el camino más prometedor para reducir las emisiones y mejorar la eficiencia energética en el transporte por carretera."
             }
           }
         ]
@@ -61,7 +61,7 @@
           "caption": ""
         },
         "intro": "M6: El nexo entre el cambio climático y la energía",
-        "title": "Parte 1: Desafíos y Oportunidades"
+        "title": "Desafíos y Oportunidades"
       }
     },
     {
@@ -72,7 +72,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "En los países en desarrollo, los VE están ganando relevancia a medida que las emisiones del sector del transporte aumentan rápidamente (ver figura). Sin embargo, y lo que es más importante, su significado se extiende más allá de la descarbonización, alineándose con objetivos de desarrollo más amplios. En particular, la oportunidad radica en electrificar la micromovilidad, el transporte de primer y último kilómetro, y los sistemas de transporte público, contribuyendo así a un acceso más equitativo y socialmente justo a los servicios y oportunidades dentro de estas regiones. La e-movilidad también ofrece un camino prometedor hacia mejores resultados en salud al reducir la contaminación del aire, una preocupación significativa en los países de ingresos bajos y medianos, donde el 89 % de las 4,2 millones de muertes prematuras en todo el mundo ocurren debido a la contaminación. <br /><br />Además, se puede hacer un caso convincente a favor de los VE en países que tienen una cultura de transporte respaldada por importadores de petróleo de gran tamaño. Por ejemplo, en los <ai prompt=\"Proporcionar más información sobre los pequeños estados insulares en desarrollo.\">pequeños estados insulares en desarrollo</ai> que dependen en gran medida de los combustibles fósiles, la movilidad eléctrica puede reducir la dependencia de los combustibles fósiles y mejorar la seguridad energética, abordando la volatilidad de los precios del gas y el petróleo que afecta desproporcionadamente a las personas. "
+              "text": "En los países en desarrollo, los VE están ganando relevancia a medida que las emisiones del sector del transporte aumentan rápidamente (ver figura). Sin embargo, y lo que es más importante, su significado se extiende más allá de la descarbonización, alineándose con objetivos de desarrollo más amplios. En particular, la oportunidad radica en electrificar la micromovilidad, el transporte de primer y último kilómetro, y los sistemas de transporte público, contribuyendo así a un acceso más equitativo y socialmente justo a los servicios y oportunidades dentro de estas regiones. La e-movilidad también ofrece un camino prometedor hacia mejores resultados en salud al reducir la contaminación del aire, una preocupación significativa en los países de ingresos bajos y medianos, donde el 89 % de las 4,2 millones de muertes prematuras en todo el mundo ocurren debido a la contaminación. <br /><br />Además, se puede hacer un caso convincente a favor de los VE en países que tienen una cultura de transporte respaldada por importadores de petróleo de gran tamaño. Por ejemplo, en <ai prompt=\"Proporcionar más información sobre los pequeños Estados insulares en desarrollo.\">los pequeños Estados insulares en desarrollo 💬️</ai>, altamente dependientes de los combustibles fósiles, la movilidad eléctrica puede reducir la dependencia de los combustibles fósiles y mejorar la seguridad energética, abordando la volatilidad de los precios del gas y del petróleo que afectan desproporcionadamente a las personas. "
             }
           }
         ]
@@ -101,7 +101,7 @@
           "caption": ""
         },
         "intro": "M6: El nexo entre el cambio climático y la energía",
-        "title": "Parte 2: Estrategias para la electrificación del transporte"
+        "title": "B: Estrategias para la electrificación del transporte"
       }
     },
     {
@@ -132,6 +132,293 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#c5192d",
+            "#dd1367",
+            "#0468b1",
+            "#fd9d24",
+            "#fd6925",
+            "#4c9f38",
+            "#3f7e44",
+            "#19486a",
+            "#fcc30b",
+            "#0a97d9"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0,
+              "rotate": 45
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Maldives",
+              "Nepal",
+              "Vietnam",
+              "India",
+              "Cambodia",
+              "Ethiopia",
+              "Rwanda",
+              "Ghana",
+              "Egypt, Arab Rep.",
+              "Vanuatu",
+              "Nigeria",
+              "Uruguay",
+              "Brazil",
+              "Jordan",
+              "T√ºrkiye",
+              "Ukraine",
+              "Poland",
+              "Kazakhstan",
+              "Jamaica",
+              "Tajikistan"
+            ],
+            "name": "Country"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "max": 1,
+            "name": "%"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "4Ws",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.05,
+                0.08,
+                0.09,
+                0.13,
+                0.15,
+                0.15,
+                0.3,
+                0.35,
+                0.36,
+                0.38,
+                0.6,
+                0.75,
+                0.8,
+                0.82,
+                0.85,
+                0.88,
+                0.9,
+                0.91,
+                0.95,
+                0.96
+              ]
+            },
+            {
+              "name": "3Ws",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.4,
+                0.1,
+                0.05,
+                0.05,
+                0.0,
+                0.25,
+                0.18,
+                0.05,
+                0.08,
+                0.02,
+                0.01,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "2Ws",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.5,
+                0.8,
+                0.85,
+                0.75,
+                0.85,
+                0.35,
+                0.3,
+                0.2,
+                0.25,
+                0.2,
+                0.15,
+                0.05,
+                0.05,
+                0.08,
+                0.05,
+                0.04,
+                0.04,
+                0.03,
+                0.02,
+                0.02
+              ]
+            },
+            {
+              "name": "Buses",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.05,
+                0.02,
+                0.01,
+                0.07,
+                0.0,
+                0.25,
+                0.22,
+                0.4,
+                0.31,
+                0.4,
+                0.24,
+                0.2,
+                0.15,
+                0.1,
+                0.1,
+                0.08,
+                0.06,
+                0.06,
+                0.03,
+                0.02
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 150
+          }
+        }
       }
     },
     {
@@ -202,7 +489,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Las inversiones en vehículos eléctricos, particularmente en autobuses eléctricos y en vehículos de dos y tres ruedas, ya están justificadas económicamente en algunos países, dado los menores costos operativos. Los beneficios ambientales aumentan su atractivo. Fomentar aún más la adopción puede requerir desmantelar las barreras legales y regulatorias mientras se implementan incentivos directos e indirectos. Este último puede incluir beneficios fiscales, reembolsos, apoyo a la compra y carga subsidiada en estaciones públicas. Las tarifas eléctricas preferenciales, como las que se describen en la política de e-movilidad de Ruanda, podrían incentivar a las personas a cargar vehículos durante las horas de menor demanda, reduciendo la presión sobre la red y aumentando la probabilidad de adopción de vehículos eléctricos en medio de precios de combustible volátiles. <strong>Ampliar la inversión en transporte público eléctrico es esencial, particularmente en los países de bajos ingresos, para mejorar el acceso y la asequibilidad.</strong> Los modelos de financiamiento mixto podrían ayudar a reducir el riesgo de las inversiones y ampliar las opciones de financiamiento. Las actividades de modelado del mercado también son necesarias para generar financiamiento para infraestructura crítica, carga y capacidad y cobertura energética. <ai prompt=\"Clarify innovative financing.\">financiamiento innovador</ai> las posibilidades abarcan las ofrecidas por E2W Africa, que otorga préstamos asequibles para vehículos de dos y tres ruedas, reduciendo costos y facilitando la adopción a gran escala. "
+              "text": "Las inversiones en vehículos eléctricos, particularmente en autobuses eléctricos y en vehículos de dos y tres ruedas, ya están justificadas económicamente en algunos países, dado los menores costos operativos. Los beneficios ambientales aumentan su atractivo. Fomentar aún más la adopción puede requerir desmantelar las barreras legales y regulatorias mientras se implementan incentivos directos e indirectos. Este último puede incluir beneficios fiscales, reembolsos, apoyo a la compra y carga subsidiada en estaciones públicas. Las tarifas eléctricas preferenciales, como las que se describen en la política de e-movilidad de Ruanda, podrían incentivar a las personas a cargar vehículos durante las horas de menor demanda, reduciendo la presión sobre la red y aumentando la probabilidad de adopción de vehículos eléctricos en medio de precios de combustible volátiles. <strong>Ampliar la inversión en transporte público eléctrico es esencial, particularmente en los países de bajos ingresos, para mejorar el acceso y la asequibilidad.</strong> Los modelos de financiamiento mixto podrían ayudar a reducir el riesgo de las inversiones y ampliar las opciones de financiamiento. Las actividades de modelado del mercado también son necesarias para generar financiamiento para infraestructura crítica, carga y capacidad y cobertura energética. <ai prompt=\"Tell me more about innovative financing.\">financiamiento innovador 💬️</ai> las posibilidades abarcan las ofrecidas por E2W Africa, que emite préstamos asequibles para vehículos de dos y tres ruedas, reduciendo costos y facilitando una adopción a gran escala. "
             }
           }
         ]
@@ -262,10 +549,205 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La creciente demanda de vehículos eléctricos está impulsando un aumento en las baterías. La demanda de baterías de iones de litio, la opción predominante para los vehículos eléctricos, ha aumentado un 65 %, pasando de alrededor de 330 GWh en 2021 a 550 GWh en 2022 (Figura 4). Como resultado, la demanda de minerales críticos también se ha disparado. En 2022, las baterías de vehículos eléctricos impulsaron aproximadamente el 60 % de la demanda global de litio, el 30 % de cobalto y el 10 % de níquel. Se proyecta que la demanda de minerales críticos aumentará tres veces y media para 2030, alcanzando más de 30 millones de toneladas. El aumento de la extracción de minerales críticos en los países en desarrollo crea desafíos y oportunidades. África, por ejemplo, posee más del 50 % de las reservas y la producción global de cobalto y manganeso. A pesar del papel vital de los minerales críticos en los ingresos del gobierno, sin embargo, se exportan predominantemente en formas brutas, beneficiando financieramente solo a una fracción de la sociedad. Maximizar los beneficios del desarrollo requiere un valor añadido, incluyendo el desarrollo de capacidades locales para el refinado y procesamiento. El Parque de Minas a Energía de Zimbabue se destaca como un ejemplo destacado, posicionando al país como productor de baterías de iones de litio y permitiéndole capitalizar sus reservas minerales."
+              "text": "La creciente demanda de vehículos eléctricos está impulsando un aumento en las baterías. La demanda de baterías de iones de litio, la opción predominante para los vehículos eléctricos, ha aumentado un 65 %, pasando de alrededor de 330 GWh en 2021 a 550 GWh en 2022 (Figura 4). Como resultado, la demanda de <ai prompt=\"Tell me more about critical minerals.\">minerales críticos 💬️</ai> también se ha disparado. En 2022, las baterías de vehículos eléctricos impulsaron aproximadamente el 60 % de la demanda global de litio, el 30 % de cobalto y el 10 % de níquel. Se proyecta que la demanda de minerales críticos aumentará tres veces y media para 2030, alcanzando más de 30 millones de toneladas. El aumento de la extracción de minerales críticos en los países en desarrollo crea desafíos y oportunidades. África, por ejemplo, posee más del 50 % de las reservas y la producción global de cobalto y manganeso. A pesar del papel vital de los minerales críticos en los ingresos del gobierno, sin embargo, se exportan predominantemente en formas brutas, beneficiando financieramente solo a una fracción de la sociedad. Maximizar los beneficios del desarrollo requiere un valor añadido, incluyendo el desarrollo de capacidades locales para el refinado y procesamiento. El Parque de Minas a Energía de Zimbabue se destaca como un ejemplo destacado, posicionando al país como productor de baterías de iones de litio y permitiéndole capitalizar sus reservas minerales."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0a97d9",
+            "#3f7e44",
+            "#19486a",
+            "#fd9d24",
+            "#4c9f38",
+            "#fcc30b",
+            "#dd1367",
+            "#fd6925",
+            "#0468b1",
+            "#c5192d"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "GWh per year"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "LDVs",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                22.3,
+                36.7,
+                75.3,
+                96.5,
+                129.7,
+                292.5,
+                501.9
+              ]
+            },
+            {
+              "name": "Bus",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                11.5,
+                12.8,
+                16.2,
+                15.5,
+                14.1,
+                11.2,
+                13.0
+              ]
+            },
+            {
+              "name": "Other",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                10.0,
+                31.2,
+                27.9,
+                22.7,
+                23.9,
+                30.3,
+                35.6
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
       }
     },
     {
@@ -276,7 +758,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Aunque la extracción de minerales genera menos emisiones que la quema de combustibles fósiles, a menudo agrava los problemas ambientales. La minería ha sido un contribuyente importante a la degradación de al menos 700 millones de hectáreas y más de 96 millones de hectáreas de tierra en África e India, respectivamente. Una legislación, regulación y políticas ambientales robustas son esenciales para mitigar tales riesgos. Por ejemplo, la ley y el marco de políticas mineras de Ruanda guían las evaluaciones de impacto ambiental y el monitoreo para prevenir efectos adversos en los ecosistemas y las comunidades locales. <br />La protección de la integridad ambiental en el transporte electrónico requiere estrategias e infraestructuras nacionales de gestión de residuos sostenibles. Los enfoques circulares son importantes, como el uso de baterías de segunda vida para el almacenamiento de energía estacionaria y la adopción de prácticas de reutilización y reciclaje de baterías. Este último también puede aumentar la independencia local de los centros de fabricación de baterías internacionales. Tales estrategias apoyan tanto las oportunidades de crecimiento económico local como la creación de empleo. Además, la integración de la IA y las tecnologías digitales puede optimizar las cadenas de suministro, incluida la disponibilidad de materiales, y aumentar el rendimiento y la eficiencia en los sistemas de almacenamiento de energía."
+              "text": "Aunque la extracción de minerales genera menos emisiones que la quema de combustibles fósiles, a menudo agrava los problemas ambientales. La minería ha sido un contribuyente importante a la degradación de al menos 700 millones de hectáreas y más de 96 millones de hectáreas de tierra en África e India, respectivamente. Una legislación, regulación y políticas ambientales robustas son esenciales para mitigar tales riesgos. Por ejemplo, el marco legal y de políticas mineras de Ruanda guía <ai prompt=\"Proporcione más información sobre las evaluaciones de impacto ambiental.\">las evaluaciones de impacto ambiental 💬️</ai> y la supervisión para prevenir efectos adversos en los ecosistemas y las comunidades locales. <br />La protección de la integridad ambiental en el transporte electrónico requiere estrategias e infraestructuras nacionales de gestión de residuos sostenibles. Los enfoques circulares son importantes, como el uso de baterías de segunda vida para el almacenamiento de energía estacionaria y la adopción de prácticas de reutilización y reciclaje de baterías. Este último también puede aumentar la independencia local de los centros de fabricación de baterías internacionales. Tales estrategias apoyan tanto las oportunidades de crecimiento económico local como la creación de empleo. Además, la integración de la IA y las tecnologías digitales puede optimizar las cadenas de suministro, incluida la disponibilidad de materiales, y aumentar el rendimiento y la eficiencia en los sistemas de almacenamiento de energía."
             }
           }
         ]
@@ -307,7 +789,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "Conclusiones clave",
-        "intro": "Si solo tienes espacio para recordar 3 cosas:",
+        "intro": "",
         "takeaways": [
           {
             "image": {

@@ -32,10 +32,200 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El sector de la construcción, que incluye la construcción, la calefacción, la refrigeración, la iluminación y los electrodomésticos, representa más de un tercio del consumo y las emisiones de energía globales. Las operaciones por sí solas son responsables del 30 % del uso final de energía global y del 26 % de las emisiones relacionadas con la energía, con un 8 % de emisiones directas y un 18 % de emisiones indirectas vinculadas a la producción de electricidad y calor. <br />Mientras que las emisiones directas disminuyeron ligeramente a 3 Gt en 2022, las emisiones indirectas aumentaron a casi 6.8 Gt debido a una mayor dependencia de la electricidad. A pesar de algunos avances, el sector sigue fuera de curso para cumplir con el Escenario de Emisiones Netas Cero para 2050 (NZE). Abordar esto requiere un esfuerzo concertado para mejorar la eficiencia energética y adoptar tecnologías de energía renovable."
+              "text": "El sector de la construcción, que incluye la construcción, la calefacción, la refrigeración, la iluminación y los electrodomésticos, representa más de un tercio del consumo y las emisiones de energía globales. Las operaciones por sí solas son responsables del 30 % del uso final de energía global y del 26 % de las emisiones relacionadas con la energía, con un 8 % de emisiones directas y un 18 % de emisiones indirectas vinculadas a la producción de electricidad y calor. <br />Mientras que las emisiones directas disminuyeron ligeramente a 3 Gt en 2022, las emisiones indirectas aumentaron a casi 6.8 Gt debido a una mayor dependencia de la electricidad. A pesar de algunos avances, el sector sigue fuera de curso para cumplir con el Escenario de Emisiones Netas Cero para 2050 (NZE). Abordar esto requiere un esfuerzo concertado para mejorar <ai prompt=\"Share details about energy efficiency.\">la eficiencia energética 💬️</ai> y adoptar tecnologías de energía renovable."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0a97d9",
+            "#dd1367",
+            "#fd6925",
+            "#fcc30b",
+            "#0468b1",
+            "#fd9d24",
+            "#c5192d",
+            "#3f7e44",
+            "#4c9f38",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "EJ"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2022"
+            ],
+            "name": "Year"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Residential",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                20.96
+              ]
+            },
+            {
+              "name": "Non-residential",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                8.76
+              ]
+            },
+            {
+              "name": "Buildings construction industry",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3.97
+              ]
+            },
+            {
+              "name": "Other construction industry",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3.33
+              ]
+            },
+            {
+              "name": "Other",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                62.98
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -47,7 +237,7 @@
           "caption": ""
         },
         "intro": "M6: El nexo entre el cambio climático y la energía",
-        "title": "Parte 1: Desafíos y Oportunidades"
+        "title": "Desafíos y Oportunidades"
       }
     },
     {
@@ -58,7 +248,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>A pesar de algunos avances, siguen existiendo oportunidades significativas sin explotar en el sector.</strong> Aproximadamente el 80 % de las medidas de eficiencia energética económicamente viables aún no se han implementado.<br /></strong><br />Los códigos de energía de construcción, que son esenciales para impulsar la eficiencia, existen solo en 44 países, dejando al 82 % de la población mundial en países sin tales estándares. Esto es especialmente preocupante ya que se proyecta que el espacio de piso global crecerá un 20 % de 2020 a 2030, principalmente en las economías en desarrollo. Además, la descarbonización del sector requiere más que solo nuevos estándares; la modernización de los edificios existentes sigue siendo un gran desafío debido a la infraestructura envejecida (especialmente en las economías avanzadas), el mal aislamiento y el diseño obsoleto.<br /> <br />Las economías en desarrollo enfrentan el doble desafío de mejorar el acceso a servicios energéticos modernos, como la refrigeración, mientras que simultáneamente reducen las emisiones. Sin acción inmediata, estas regiones corren el riesgo de convertirse en fuentes significativas de demanda de energía y crecimiento de emisiones. Las políticas, las inversiones y las tecnologías deben abordar esta necesidad de rápido crecimiento mientras evitan las dependencias de trayectoria que podrían obstaculizar los esfuerzos futuros de descarbonización."
+              "text": "<strong>A pesar de algunos avances, siguen existiendo oportunidades significativas sin explotar en el sector.</strong> Aproximadamente el 80 % de las medidas de eficiencia energética económicamente viables aún no se han implementado.<br /></strong><br />Los códigos de energía de construcción, que son esenciales para impulsar la eficiencia, existen solo en 44 países, dejando al 82 % de la población mundial en países sin tales estándares. Esto es especialmente preocupante ya que se proyecta que el espacio de piso global crecerá un 20 % de 2020 a 2030, principalmente en las economías en desarrollo. Además, la descarbonización del sector requiere más que solo nuevos estándares; la modernización de los edificios existentes sigue siendo un gran desafío debido a la infraestructura envejecida (especialmente en las economías avanzadas), el mal aislamiento y el diseño obsoleto.<br /> <br />Las economías en desarrollo enfrentan el doble desafío de mejorar el acceso a servicios energéticos modernos, como la refrigeración, mientras que simultáneamente reducen las emisiones. Sin acción inmediata, estas regiones corren el riesgo de convertirse en fuentes significativas de demanda de energía y crecimiento de emisiones. Las políticas, inversiones y tecnologías deben abordar esta necesidad en rápido crecimiento mientras evitan dependencias que podrían obstaculizar los esfuerzos futuros <ai prompt=\"Share details about decarbonization.\">descarbonización 💬️</ai>."
             }
           }
         ]
@@ -73,7 +263,7 @@
           "caption": ""
         },
         "intro": "M6: El nexo entre el cambio climático y la energía",
-        "title": "Parte 2: Estrategias para descarbonizar el sector"
+        "title": "B: Estrategias para descarbonizar el sector"
       }
     },
     {
@@ -249,7 +439,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Mejorar la energía y la resiliencia de los sistemas de construcción es vital para las poblaciones vulnerables que viven en viviendas de mala calidad. Estos hogares enfrentan riesgos desproporcionados debido al cambio climático, la pobreza energética y los impactos en la salud asociados. Asegurar un acceso equitativo a tecnologías energéticamente eficientes puede mitigar estos riesgos mientras mejora los niveles de vida. <strong>Los programas que reducen los costos de endeudamiento para inversiones en eficiencia energética, como las iniciativas gubernamentales y de servicios públicos, son esenciales.</strong> Estos esfuerzos pueden apoyar a las comunidades marginadas, permitiéndoles participar en la transición hacia una energía sostenible mientras reducen la pobreza energética y las vulnerabilidades asociadas. "
+              "text": "Mejorar la energía y la resiliencia de los sistemas de construcción es vital para las poblaciones vulnerables que viven en viviendas de mala calidad. Estos hogares enfrentan riesgos desproporcionados debido al cambio climático, la pobreza energética y los impactos en la salud asociados. Asegurar un acceso equitativo a tecnologías energéticamente eficientes puede mitigar estos riesgos mientras mejora los niveles de vida. <strong>Los programas que reducen los costos de endeudamiento para inversiones en eficiencia energética, como las iniciativas gubernamentales y de servicios públicos, son esenciales.</strong> Estos esfuerzos pueden apoyar <ai prompt=\"¿Qué son las comunidades marginadas?\">las comunidades marginadas 💬️</ai>, permitiéndoles participar en la transición hacia una energía sostenible mientras reducen la pobreza energética y las vulnerabilidades asociadas. "
             }
           }
         ]
@@ -280,7 +470,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "Conclusiones clave",
-        "intro": "Si solo tienes espacio para recordar 3 cosas:",
+        "intro": "",
         "takeaways": [
           {
             "image": {
