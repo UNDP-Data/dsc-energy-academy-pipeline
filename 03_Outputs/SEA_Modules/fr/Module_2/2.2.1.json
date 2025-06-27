@@ -2,16 +2,6 @@
   "id": "2.2.1",
   "segments": [
     {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/4170_734.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
       "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
@@ -411,7 +401,44 @@
             }
           ],
           "grid": {
-            "bottom": 100
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Augmentations annuelles de l'électrification et de la population, par région, 2020-22",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }

@@ -121,8 +121,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_3.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/Frame.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -162,8 +163,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_1.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/2_1.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -194,7 +196,7 @@
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -296,6 +298,18 @@
       }
     },
     {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/2_12.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
@@ -315,13 +329,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Case Study RBAP: Climate Saathis. Women act to make slums climate-resilient in India</strong>"
+              "text": "<strong>Climate Saathis. Women act to make slums climate-resilient in India</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Over 215 million people in urban India, including 121 million women in impoverished urban areas and slums, are at high risk due to a lack of access to cooling services. In response to this critical issue, the Mahila Housing Trust (MHT) has spearheaded the Climate Saathis project, empowering women in slums to become climate advocates, or \"friends\" (Saathis in Hindi).<br /><br />Krishnaben (in blue), a trained energy auditor and Climate Saathi, demonstrates the energy-efficiency of a bulb in one of the houses in a slum in Ahmedabad. Photo by Kartik Chandramouli/Mongabay.<br />Source: <a href=\"https://india.mongabay.com/2020/03/women-act-to-make-slums-climate-resilient-one-house-at-a-time/\"><u>Mongabay</u></a>"
+              "text": "India’s urban areas are home to over 215 million people at risk from extreme heat and inadequate access to cooling services. <br /><br />Among them, more than 121 million women living in slums and low-income settlements face heightened vulnerability due to poor housing infrastructure, limited access to energy-efficient appliances, and marginalization in planning processes. These conditions are exacerbated by climate change and contribute to adverse health, productivity, and well-being outcomes, particularly for women and children. <br /><br />Recognizing the urgency of addressing these structural challenges, Mahila Housing Trust (MHT) launched the Climate Saathis initiative to build local capacity for climate adaptation and <ai prompt=\"Provide more info on energy efficiency.\">energy efficiency 💬️</ai>."
             }
           }
         ]
@@ -333,43 +347,16 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Intersectional Approach and Gender Empowerment</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The Climate Saathis initiative builds on the principle that equipping urban poor communities—particularly women—with knowledge, tools, and leadership skills enables them to develop and implement local, climate-resilient solutions. By adopting an intersectional lens, the project acknowledges the compounded vulnerabilities faced by women in <ai prompt=\"Clarify marginalized communities.\">marginalized communities 💬️</ai> and harnesses their unique potential to drive inclusive, sustainable change."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "Women are trained as energy auditors, helping households adopt energy-efficient lighting, fans, and cooling devices, thereby reducing costs and improving energy affordability and availability."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "Women emerge as grassroots micro-entrepreneurs, establishing women-led distribution networks for efficient and off-grid energy products. This creates opportunities for economic independence and strengthens their decision-making power in household energy use."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "The initiative goes beyond product adoption by educating women and their communities on interpreting electricity bills, calculating energy consumption, identifying sources of energy wastage, and implementing passive cooling solutions like white roofs and ModRoofs, modular roofing systems made from recylced materials that provide better insulation and can lower indoor temperatures by up to 6°C."
+              "text": "The project aims to: <br /><br /><strong>Trains women </strong>from informal settlements as energy auditors and climate friends or “Climate Saathis” in Hindi, enabling them to conduct household energy assessments and promote sustainable energy practices. <br /><br />Facilitates the adoption of <strong>passive cooling technologies, </strong>including solar-reflective white paint and ModRoofs, a modular roofing system made from recycled materials that can reduce indoor temperatures by up to 6°C. <br /><br /><strong>Establishes women-led distribution networks </strong>for energy-efficient and off-grid appliances, fostering local green entrepreneurship and economic empowerment. <br /><br /><strong>Strengthens local leadership</strong> by supporting women to form Community Action Groups and become Vikasinis (community leaders), who engage in dialogue with municipal authorities and advocate for inclusive climate policies."
             }
           }
         ]
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -384,15 +371,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Impact on Energy Access, Climate Resilience and Gender Equality</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The impact of the Climate Saathis project has been transformative. Over 28,000 energy audits have been conducted in slum communities, leading to annual electricity savings of more than USD 700,000 for families.<br /><br />The project has facilitated the installation of 200 modular roofs and 500 roofs with solar-reflective paint, collectively reducing carbon emissions by approximately 105 tons of CO₂ equivalent annually.<br />One exemplary aspect of the project is its integration of women into various facets of climate resilience. From becoming energy auditors to forming Community Action Groups (CAG) and acting as leaders or Vikasinis, women play multifaceted roles. These Vikasinis participate in stakeholder meetings with local authorities, institutes, and society members, effectively addressing local issues and influencing positive change.<br /><br />The transformative impact of the Climate Saathis project is evident in real-life examples. Houses once enduring temperatures reaching up to 50 degrees Celsius have now adopted cooling roofs made from sustainable materials, drastically reducing indoor temperatures. These tangible changes have improved living conditions, enhanced health, and even provided a platform for income-generating activities, such as home-run businesses.<br /><br />The project’s innovative and community-driven approach earned Mahila Housing Trust the 2019 United Nations Global Climate Action Award at the UN climate change conference. This acknowledgment highlights the importance of integrating intersectional and gender perspectives into sustainable energy access strategies and into climate change mitigation and adaptation efforts."
+              "text": "The project employed a multi-level implementation strategy grounded in community participation, local partnerships, and context-specific solutions. MHT conducted localized needs assessments to design tailored training modules, collaborated with technical experts to introduce sustainable cooling technologies, and worked closely with local governments to integrate cool roof strategies into municipal heat action plans. Key implementation activities included: <br /> <br /><strong>Capacity-building workshops</strong> for women in slum communities across multiple Indian cities. <br /><br /><strong>Community outreach campaigns</strong> on energy conservation and climate risk awareness. <br /><br /><strong>Deployment of passive cooling solutions</strong> in low-income households.<br /> <br /><strong>Engagement with municipal planners</strong> to incorporate community feedback into urban <ai prompt=\"What is climate adaptation strategies?\">climate adaptation strategies 💬️</ai>. <br /><br />Challenges such as gender-based resistance and lack of awareness were addressed through inclusive community engagement and the demonstration of tangible co-benefits, such as reduced energy costs and improved indoor comfort."
             }
           }
         ]
@@ -416,13 +397,13 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Conclusion</strong>"
+              "text": "<strong>Project Impacts</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Through its emphasis on inclusivity, the Climate Saathis initiative has set a powerful example of how marginalized groups can be empowered to lead transformative change.<br /><br />By addressing interconnected challenges such as poverty, gender inequality, and lack of energy access, the Climate Saathis project highlights the potential of community-driven solutions to create equitable and sustainable outcomes. <br /><br />The Climate Saathis project demonstrates that empowering women is not merely a means to enhance climate resilience but a cornerstone for achieving a just and equitable energy transition. By integrating education, entrepreneurship, and advocacy, this initiative exemplifies how community-driven, intersectional approaches can transform vulnerable populations into powerful agents of change, ensuring that no one is left behind in the progress tpwards sustainable energy access."
+              "text": "The Climate Saathis initiative has achieved measurable outcomes across social, environmental, and economic dimensions: <br /><br /><strong>28,000+ energy audits</strong> conducted in informal settlements, resulting in estimated annual electricity <strong>savings exceeding USD 700,000 </strong>for participating households. <br /><br />Installation of <strong>500 solar-reflective roofs </strong>and 200 modular roofs, contributing to a reduction of approximately 105 tonnes of CO₂ equivalent emissions per year. <br /><br /><strong>13,781 women trained as Climate Saathis</strong> across various states, with many gaining employment and increased agency in household and community decision-making. <br /><strong><br />Institutional influence,</strong> including the integration of cool roofs into Ahmedabad’s Heat Action and Monsoon Action Plans, demonstrating policy uptake driven by grassroots advocacy. <br /><br /><strong>Improved health and well-being</strong>, particularly for children, the elderly, and pregnant women, due to enhanced indoor thermal comfort."
             }
           }
         ]
@@ -442,7 +423,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<a href=\"https://www.seforall.org/chilling-prospects-access-to-cooling-gaps-2023\"><u>https://www.seforall.org/chilling-prospects-access-to-cooling-gaps-2023<br /><br /></u></a><a href=\"https://www.seforall.org/data-stories/impact-of-climate-saathis-in-indias-urban-slums\"><u>https://www.seforall.org/data-stories/impact-of-climate-saathis-in-indias-urban-slums<br /><br /></u></a><a href=\"https://wrd.unwomen.org/explore/insights/india-women-act-make-slums-climate-resilient-one-house-time\"><u>https://wrd.unwomen.org/explore/insights/india-women-act-make-slums-climate-resilient-one-house-time<br /></u></a><br /><a href=\"https://ngobox.org/full-news_Mahila-Housing-Trust-wins-2019-UN-Global-Climate-Action-Award-NGOBOX_22762\"><u>https://ngobox.org/full-news_Mahila-Housing-Trust-wins-2019-UN-Global-Climate-Action-Award-NGOBOX_22762</u></a>"
+              "text": "By improving access to energy-efficient appliances, reducing energy costs, and promoting energy literacy, the project bridges critical gaps in energy access for underserved communities. <br /> <br />Some of the project key lessons include: <br /><br /><strong>Community ownership and gender inclusion are essential</strong> enablers for successful energy transitions in informal settings. <br /><br /><strong>Low-cost, passive technologies offer scalable solutions t</strong>o urban heat vulnerability, particularly in resource-constrained contexts. <br /><br /><strong>Women’s economic empowerment</strong> and leadership can produce co-benefits across climate, energy, and development agendas. <br /> <br />The initiative offers a <strong>replicable model for cities across the Global South</strong> facing similar challenges. Conditions for successful replication include strong municipal collaboration, tailored training for local women, and accessible financing for household energy solutions. <br /><br />Ongoing efforts to institutionalize the model and expand its reach are supported by growing recognition, including the UN Global Climate Action Award in 2019. With continued investment, the Climate Saathis approach can contribute meaningfully to the achievement of SDGs 5 (Gender Equality), 7 (Affordable and Clean Energy), 11 (Sustainable Cities and Communities), and 13 (Climate Action)."
             }
           }
         ]

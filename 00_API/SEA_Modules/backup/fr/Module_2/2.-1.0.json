@@ -1,0 +1,410 @@
+{
+  "id": "2.-1.0",
+  "segments": [
+    {
+      "template_id": "scored_quiz",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Quiz noté <br/><strong>Module 2</strong>",
+        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance !",
+        "final": true,
+        "labels": {
+          "correct": "Correct",
+          "question": "Question",
+          "result": "Résultat du quiz",
+          "score": "Votre score",
+          "passingScore": "Score minimum requis",
+          "startButton": "Commencer le quiz",
+          "nextButton": "Suivant",
+          "submitButton": "Soumettre",
+          "retryButton": "Rejouer",
+          "passed": "Passé",
+          "failed": "Non réussi"
+        },
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "Quel est l'objectif principal de l'ODD 7 ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Assurer l'accès universel à l'eau potable et à l'assainissement"
+              },
+              {
+                "id": 2,
+                "value": "Assurer l'accès à une énergie abordable, fiable, durable et moderne pour tous"
+              },
+              {
+                "id": 3,
+                "value": "Promouvoir l'innovation industrielle et l'infrastructure"
+              },
+              {
+                "id": 4,
+                "value": "Aucun des éléments ci-dessus"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "L'ODD 7 vise spécifiquement à garantir l'accès à une énergie abordable, fiable, durable et moderne pour tous."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "L'ODD 7 vise spécifiquement à garantir l'accès à une énergie abordable, fiable, durable et moderne pour tous."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Lesquels des éléments suivants sont des composants de l'accès à l'énergie durable ? (Sélectionnez tout ce qui s'applique)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "<strong>Disponibilité</strong>"
+              },
+              {
+                "id": 2,
+                "value": "<strong>Accessibilité financière</strong>"
+              },
+              {
+                "id": 3,
+                "value": "<strong>Adéquation</strong>"
+              },
+              {
+                "id": 4,
+                "value": "Aucun des éléments ci-dessus"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "L'accès à l'énergie durable comprend la disponibilité, l'accessibilité, l'adéquation, la sécurité, la fiabilité et la compatibilité à faible émission de carbone."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "L'accès à l'énergie durable comprend la disponibilité, l'accessibilité, l'adéquation, la sécurité, la fiabilité et la compatibilité à faible émission de carbone."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Environ combien de personnes dans le monde n'ont toujours pas accès à l'électricité ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "500 millions"
+              },
+              {
+                "id": 2,
+                "value": "<strong>685 millions</strong>"
+              },
+              {
+                "id": 3,
+                "value": "1 milliard"
+              },
+              {
+                "id": 4,
+                "value": "<strong>2,1 milliard</strong>"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Selon le Rapport de suivi des ODD 7 de 2024, environ 685 millions de personnes n'ont pas accès à l'électricité."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Selon le Rapport de suivi des ODD 7 de 2024, environ 685 millions de personnes n'ont pas accès à l'électricité."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "Quelle est la différence entre l'accès à l'énergie et les services énergétiques inclusifs ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "ADEF"
+              },
+              {
+                "id": 2,
+                "value": "Les services énergétiques inclusifs sont plus coûteux"
+              },
+              {
+                "id": 3,
+                "value": "L'accès à l'énergie ne s'applique qu'aux zones urbaines"
+              },
+              {
+                "id": 4,
+                "value": "Aucun des éléments ci-dessus"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "L'accès à l'énergie fait référence à la disponibilité de l'énergie, tandis que les services inclusifs prennent en compte l'équité, la qualité et l'utilisabilité pour tous."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "L'accès à l'énergie fait référence à la disponibilité de l'énergie, tandis que les services inclusifs prennent en compte l'équité, la qualité et l'utilisabilité pour tous."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Quels droits de l'homme sont les plus directement affectés par l'accès à l'énergie ? (Sélectionnez tout ce qui s'applique)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Droit à l'éducation"
+              },
+              {
+                "id": 2,
+                "value": "Droit à la santé"
+              },
+              {
+                "id": 3,
+                "value": "Droit à un niveau de vie adéquat"
+              },
+              {
+                "id": 4,
+                "value": "Droit de porter des armes"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "L'accès à l'énergie est essentiel au droit à l'éducation, à la santé et à un niveau de vie adéquat. Le droit de porter des armes n'est pas reconnu internationalement comme un droit humain."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "L'accès à l'énergie est essentiel au droit à l'éducation, à la santé et à un niveau de vie adéquat. Le droit de porter des armes n'est pas reconnu internationalement comme un droit humain."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "Qu'est-ce qui est considéré comme une solution de cuisson propre ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Charbon dans les feux ouverts"
+              },
+              {
+                "id": 2,
+                "value": "Cuisinière à induction électrique"
+              },
+              {
+                "id": 3,
+                "value": "Lampe à pétrole"
+              },
+              {
+                "id": 4,
+                "value": "Aucun des éléments ci-dessus"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Les cuisinières à induction électrique sont des solutions de cuisson propres, contrairement au charbon ou au kérosène qui contribuent à la pollution de l'air intérieur."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Les cuisinières à induction électrique sont des solutions de cuisson propres, contrairement au charbon ou au kérosène qui contribuent à la pollution de l'air intérieur."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Lequel des éléments suivants ne fait PAS partie du Cadre Multi-Niveaux (MTF) pour mesurer l'accès à l'énergie ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Qualité du service énergétique"
+              },
+              {
+                "id": 2,
+                "value": "Évaluation de l'efficacité énergétique"
+              },
+              {
+                "id": 3,
+                "value": "<strong>Accessibilité financière</strong>"
+              },
+              {
+                "id": 4,
+                "value": "<strong>Fiabilité</strong>"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "MTF inclut la qualité, la fiabilité et l'accessibilité, mais pas la cote d'efficacité énergétique comme indicateur principal."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "MTF inclut la qualité, la fiabilité et l'accessibilité, mais pas la cote d'efficacité énergétique comme indicateur principal."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "Quelle proportion du déficit d'accès à la cuisine propre dans le monde est concentrée en Afrique subsaharienne ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0,25"
+              },
+              {
+                "id": 2,
+                "value": "0,5"
+              },
+              {
+                "id": 3,
+                "value": "0,7"
+              },
+              {
+                "id": 4,
+                "value": "Plus de 80%"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "L'Afrique subsaharienne représente plus de 80 % du déficit d'accès à la cuisson propre dans le monde."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "L'Afrique subsaharienne représente plus de 80 % du déficit d'accès à la cuisson propre dans le monde."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "9. Les utilisations productives de l'énergie incluent généralement lesquelles des suivantes ? (Sélectionnez tout ce qui s'applique)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Systèmes d'irrigation en fonctionnement"
+              },
+              {
+                "id": 2,
+                "value": "Regarder la télévision"
+              },
+              {
+                "id": 3,
+                "value": "Stockage à froid pour les produits agricoles"
+              },
+              {
+                "id": 4,
+                "value": "Machines à coudre industrielles"
+              }
+            ],
+            "solution": [
+              1,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Les utilisations productives de l'énergie sont celles qui génèrent des revenus ou améliorent la production économique, comme l'irrigation, le stockage à froid et les appareils industriels."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Les utilisations productives de l'énergie sont celles qui génèrent des revenus ou améliorent la production économique, comme l'irrigation, le stockage à froid et les appareils industriels."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "<strong>10.</strong> Quel outil utilise des données géospatiales pour identifier les zones prioritaires pour les interventions d'accès à l'énergie ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Cadre Multi-Niveaux (CMN)"
+              },
+              {
+                "id": 2,
+                "value": "<strong>Outil OnStove</strong>"
+              },
+              {
+                "id": 3,
+                "value": "Explorateur d'accès à l'énergie"
+              },
+              {
+                "id": 4,
+                "value": "Cadre de Suivi Mondial (GTF)"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Energy Access Explorer utilise des données géospatiales pour identifier les zones de planification des interventions énergétiques."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Energy Access Explorer utilise des données géospatiales pour identifier les zones de planification des interventions énergétiques."
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module2.png",
+          "caption": ""
+        },
+        "intro": "Prochainement",
+        "title": "Module 2 Conclusion",
+        "cta": "Continuez à apprendre",
+        "nextLessonId": "2.-1.-1"
+      }
+    }
+  ]
+}

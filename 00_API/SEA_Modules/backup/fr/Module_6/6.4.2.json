@@ -1,0 +1,517 @@
+{
+  "id": "6.4.2",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_577.webp",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "Leçon",
+          "number": "2"
+        },
+        "title": "Bâtiments durables : Efficacité, Électrification et Équité",
+        "cta": "",
+        "intro": "M6 : Le lien entre le changement climatique et l'énergie"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Aperçu de la leçon 2"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le secteur du bâtiment, qui comprend la construction, le chauffage, le refroidissement, l'éclairage et les appareils, représente plus d'un tiers de la consommation d'énergie et des émissions mondiales. Les opérations à elles seules sont responsables de 30 % de l'utilisation finale d'énergie mondiale et de 26 % des émissions liées à l'énergie, avec 8 % provenant des émissions directes et 18 % des émissions indirectes liées à la production d'électricité et de chaleur. <br />Bien que les émissions directes aient légèrement diminué à 3 Gt en 2022, les émissions indirectes ont augmenté pour atteindre près de 6,8 Gt en raison d'une dépendance accrue à l'électricité. Malgré certains progrès, le secteur reste en retard pour atteindre le scénario d'émissions nettes nulles d'ici 2050 (NZE). Aborder cela nécessite un effort concerté pour améliorer <ai prompt=\"Share details about energy efficiency.\">l'efficacité énergétique 💬️</ai> et adopter des technologies d'énergie renouvelable."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0a97d9",
+            "#dd1367",
+            "#fd6925",
+            "#fcc30b",
+            "#0468b1",
+            "#fd9d24",
+            "#c5192d",
+            "#3f7e44",
+            "#4c9f38",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "EJ"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2022"
+            ],
+            "name": "Year"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Residential",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                20.96
+              ]
+            },
+            {
+              "name": "Non-residential",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                8.76
+              ]
+            },
+            {
+              "name": "Buildings construction industry",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3.97
+              ]
+            },
+            {
+              "name": "Other construction industry",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3.33
+              ]
+            },
+            {
+              "name": "Other",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                62.98
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_604.webp",
+          "caption": ""
+        },
+        "intro": "M6 : Le lien entre le changement climatique et l'énergie",
+        "title": "Défis et Opportunités"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Malgré certains progrès, des opportunités significatives restent inexploitées dans le secteur.</strong> Environ 80 % des mesures d'efficacité énergétique économiquement viables n'ont pas encore été mises en œuvre.<br /></strong><br />Les codes de construction énergétique, qui sont essentiels pour favoriser l'efficacité, n'existent que dans 44 pays, laissant 82 % de la population mondiale dans des pays sans de telles normes. Cela est particulièrement préoccupant car l'espace de plancher mondial devrait croître de 20 % entre 2020 et 2030, principalement dans les économies en développement. De plus, la décarbonisation du secteur nécessite plus que de nouvelles normes ; la rénovation des bâtiments existants reste un défi majeur en raison de l'infrastructure vieillissante (en particulier dans les économies avancées), de la mauvaise isolation et du design obsolète.<br /> <br />Les économies en développement font face au double défi d'améliorer l'accès aux services énergétiques modernes, tels que le refroidissement, tout en réduisant simultanément les émissions. Sans action immédiate, ces régions risquent de devenir des sources significatives de demande énergétique et de croissance des émissions. Les politiques, investissements et technologies doivent répondre à ce besoin croissant rapidement tout en évitant les dépendances qui pourraient entraver les efforts futurs <ai prompt=\"Share details about decarbonization.\">decarbonisation 💬️</ai>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_2748.webp",
+          "caption": ""
+        },
+        "intro": "M6 : Le lien entre le changement climatique et l'énergie",
+        "title": "B : Stratégies pour décarboniser le secteur"
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_716.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Ciblage des émissions directes</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Réduire les émissions directes ou de portée 1 (celles produites directement par la combustion de combustibles dans les bâtiments) nécessite d'améliorer l'efficacité énergétique et de passer aux énergies renouvelables. L'AIE estime que 25 % des réductions d'émissions nécessaires d'ici 2050 pourraient provenir des améliorations de l'efficacité énergétique dans le chauffage, le refroidissement, l'éclairage et la ventilation. Les technologies renouvelables, telles que les photovoltaïques solaires (PV) et les systèmes solaires thermiques, pourraient contribuer à hauteur de 30 % supplémentaires. Les gouvernements introduisent de plus en plus des mesures pour éliminer progressivement les systèmes basés sur les combustibles fossiles. Cela inclut l'interdiction des appareils de chauffage fonctionnant aux combustibles fossiles et la limitation des connexions aux réseaux de gaz pour les nouveaux bâtiments. Des technologies telles que les pompes à chaleur, qui gagnent rapidement des parts de marché, sont un pilier de cette transition. Les pompes à chaleur sont particulièrement efficaces dans les bâtiments bien isolés, où leur demande de chauffage réduite diminue les coûts et la consommation d'énergie."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_2757.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Ciblage des émissions indirectes</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Les émissions indirectes ou de portée 2 (émissions provenant de la génération d'électricité, de vapeur, de chaleur ou de refroidissement achetés et utilisés par le bâtiment) proviennent de la production d'électricité et de chaleur. Pour y faire face, le secteur doit accélérer l'électrification tout en décarbonisant simultanément le réseau. L'électrification permet aux bâtiments de se détourner des combustibles fossiles tout en tirant parti des réseaux alimentés par des énergies renouvelables. <br /><br />Cependant, garantir la performance énergétique des enveloppes de bâtiment est essentiel pour éviter une pression excessive sur les systèmes électriques pendant cette transition."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3437.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Répondre à la demande de refroidissement</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La demande de refroidissement devrait augmenter de manière significative, passant de 20 % de l'utilisation mondiale d'électricité aujourd'hui à 37 % d'ici 2050. Le nombre d'unités de climatisation devrait augmenter de 50 % d'ici 2030, ce qui mettra encore plus de pression sur les réseaux électriques. Pour y remédier, des investissements dans la résilience du réseau, la gestion avancée des charges et l'intégration des énergies renouvelables seront essentiels. <br /><br />Les pompes à chaleur, associées à des bâtiments bien isolés, peuvent soutenir cette demande croissante. Ces systèmes améliorent l'efficacité énergétique et réduisent la charge de pointe sur les réseaux électriques. Cependant, la gestion des émissions liées au refroidissement nécessitera une planification minutieuse pour garantir que les réseaux restent durables et fiables."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>Intégrer des objectifs de refroidissement durables dans les politiques nationales et locales, y compris les Contributions Déterminées au Niveau National, les Plans d'Action pour le Refroidissement National (NCAP) et les Plans d'Action contre la Chaleur au niveau des villes.</strong> Veiller à ce que ces politiques intégrées couvrent les aspects réglementaires, politiques, techniques et opérationnels pour s'aligner sur les objectifs de l'Accord de Paris et de l'Amendement de Kigali dans le cadre du Protocole de Montréal."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>Adoptez une approche systémique pour accélérer le refroidissement respectueux du climat.</strong> Cela implique de développer des cadres qui apportent un « regard intégré sur le refroidissement » tout en développant des projets et des programmes dans les secteurs de l'énergie, des bâtiments, des transports, de la santé et de l'agriculture. Les options politiques pour accélérer le refroidissement respectueux du climat incluent : la mise à jour des codes de construction énergétique et la promotion de bâtiments écologiques avec des mesures de refroidissement passif, la mise en œuvre d'incitations fiscales et l'amélioration des activités opérationnelles. Par exemple, l'Indonésie met en œuvre des toits frais, tandis que le Vietnam et le Cambodge promeuvent des solutions de refroidissement passif à travers des normes de construction."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>Améliorez l'efficacité énergétique des technologies de refroidissement, y compris la climatisation et la réfrigération.</strong> Par exemple, la plupart des climatiseurs déployés dans le monde ont des rendements 2 à 3 fois inférieurs à ceux des modèles très efficaces. Par conséquent, des pays comme l'Inde, où la demande de refroidissement devrait croître 8 fois d'ici 2040, devraient se concentrer sur l'augmentation du déploiement de technologies efficaces et sur la facilitation du développement et de l'innovation de nouvelles technologies. Établir le Système de Performance Énergétique Minimum (SPEM), en s'alignant sur les meilleures pratiques mondiales. Singapour, par exemple, a adopté les Normes Minimales de Performance Énergétique (NMPE) et le Système d'Étiquetage Énergétique Obligatoire (SEEO) pour les climatiseurs."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>Tirez parti de l'ère numérique et de l'innovation pour améliorer l'efficacité énergétique.</strong> </strong>Ces innovations incluent des systèmes de refroidissement intelligents utilisant l'Internet des objets (IoT) pour optimiser les performances des climatiseurs ; et des analyses de données qui permettent une maintenance prédictive, réduisant le gaspillage d'énergie."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>Utilisez des modèles commerciaux innovants pour garantir un accès inclusif et abordable au refroidissement, en particulier dans les EMDE.</strong> </strong>Pour réduire le fardeau des coûts initiaux élevés, les pays devraient utiliser des modèles commerciaux tels que le paiement à l'utilisation, le financement sur facture et les méthodes de refroidissement en tant que service. Après tout, la question du refroidissement est une question d'équité. Plus d'un milliard de personnes n'ont pas accès à un refroidissement durable, et 2,9 milliards de personnes disposent d'un refroidissement inefficace, ce qui affecte de manière disproportionnée les femmes et les filles (SEforALL 2023)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3453.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Équité et résilience dans la décarbonisation des bâtiments</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Améliorer l'énergie et la résilience des systèmes de construction est vital pour les populations vulnérables vivant dans des logements de mauvaise qualité. Ces ménages font face à des risques disproportionnés liés au changement climatique, à la pauvreté énergétique et aux impacts sanitaires associés. Assurer un accès équitable aux technologies écoénergétiques peut atténuer ces risques tout en améliorant les niveaux de vie. <strong>Les programmes qui réduisent les coûts d'emprunt pour les investissements en efficacité énergétique, tels que les initiatives gouvernementales et des services publics, sont essentiels.</strong> Ces efforts peuvent soutenir <ai prompt=\"Quelles sont les communautés marginalisées ?\">les communautés marginalisées 💬️</ai>, leur permettant de participer à la transition vers une énergie durable tout en réduisant la pauvreté énergétique et les vulnérabilités associées. "
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Le Rapport mondial sur l'état des bâtiments et de la construction 2024-2025</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Une décennie après l'Accord de Paris, 2023 a marqué la première année où la croissance de la construction de bâtiments a été découplée de l'augmentation des émissions. Ce changement a été motivé par des codes énergétiques obligatoires, des normes de performance et des investissements en efficacité, réduisant l'intensité énergétique du secteur de près de 10 % et augmentant la part des énergies renouvelables dans la demande finale d'énergie de 5 %. D'autres gains peuvent être réalisés grâce à la construction circulaire, aux baux verts, à la rénovation et aux matériaux à faible émission de carbone, améliorant l'efficacité et réduisant les déchets. Cependant, le secteur reste un émetteur majeur, consommant 32 % de l'énergie mondiale et produisant 34 % des émissions de CO₂, les matériaux comme le ciment et l'acier contribuant à 18 % des émissions mondiales et générant des déchets de construction substantiels."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Principaux enseignements",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3487.webp",
+              "caption": "image caption"
+            },
+            "title": "Le secteur du bâtiment est un contributeur majeur à la consommation d'énergie et aux émissions.",
+            "description": "Le secteur du bâtiment représente plus d'un tiers de la consommation d'énergie et des émissions mondiales, mais environ 80 % des mesures d'efficacité énergétique rentables restent inexploitées. L'électrification, en particulier par le biais des pompes à chaleur et des sources d'énergie renouvelables, est essentielle pour réduire à la fois les émissions directes et indirectes des bâtiments, soulignant la nécessité d'une action immédiate."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3481.webp",
+              "caption": "image caption"
+            },
+            "title": "Action urgente nécessaire pour prévenir le verrouillage des infrastructures à forte émission de carbone.",
+            "description": "Avec l'espace de plancher mondial prévu pour s'étendre de 20 % d'ici 2030, en particulier dans les pays en développement, il est urgent de mettre en œuvre des codes de l'énergie pour les bâtiments, de promouvoir des solutions de refroidissement efficaces et d'éviter le verrouillage d'infrastructures à forte émission de carbone. Le fait de ne pas agir maintenant pourrait entraîner des conséquences à long terme qui entravent les efforts futurs de décarbonisation."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3475.webp",
+              "caption": "image caption"
+            },
+            "title": "Des politiques ciblées sont essentielles pour lutter contre la pauvreté énergétique.",
+            "description": "Les populations vulnérables vivant dans des logements de mauvaise qualité sont touchées de manière disproportionnée par la pauvreté énergétique et les impacts du changement climatique. Pour améliorer la durabilité et les niveaux de vie, des politiques ciblées, des mécanismes de financement innovants et des programmes gouvernementaux sont nécessaires pour garantir l'accès à des logements et des technologies écoénergétiques. Cette approche aidera à atténuer les risques tout en renforçant la résilience globale face aux défis climatiques."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module6.png",
+          "caption": ""
+        },
+        "intro": "Prochainement",
+        "title": "Leçon 3 : Transformer le transport : Électrification et mobilité inclusive",
+        "cta": "Continuez à apprendre",
+        "nextLessonId": "6.4.3"
+      }
+    }
+  ]
+}

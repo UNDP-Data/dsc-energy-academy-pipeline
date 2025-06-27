@@ -1,0 +1,706 @@
+{
+  "id": "8.1.1",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_5.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "Lección",
+          "number": "1"
+        },
+        "title": "Factores clave de la demanda energética futura",
+        "cta": "",
+        "intro": "M8: Tecnologías e innovaciones en energías renovables"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Descripción general de la lección 1"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Esta lección explora las principales tendencias y cambios estructurales que están dando forma al futuro de la demanda global de energía. Examina cómo los cambios demográficos, la urbanización, la industrialización, el aumento del consumo de la clase media y los impactos climáticos están influyendo en el uso de la energía en los sectores y regiones.<br /><br /> La lección también destaca el doble papel de la tecnología, la electrificación y la digitalización como facilitadores de la eficiencia y motores de nueva demanda. Al comprender estas fuerzas interconectadas, los aprendices obtendrán las herramientas analíticas necesarias para anticipar las necesidades energéticas futuras y apoyar una planificación energética inclusiva y orientada al futuro."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L1_12.png",
+          "caption": ""
+        },
+        "intro": "M8: Tecnologías e innovaciones en energías renovables",
+        "title": "A: Estado de la demanda futura de energía"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Proyectar el futuro de la demanda energética global es una tarea compleja que requiere una comprensión profunda de las características físicas de los sistemas energéticos, así como de los factores dinámicos que influyen en la demanda y la producción, como el crecimiento económico, las tendencias poblacionales, la urbanización y la innovación tecnológica. Si bien el futuro no se puede predecir con precisión, las principales instituciones energéticas desarrollan escenarios basados en suposiciones cuidadosamente elaboradas que proporcionan caminos plausibles sobre cómo puede evolucionar la demanda de energía."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />En su<strong> </strong><a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><strong><u>Perspectivas de la energía mundial 2024</u></strong></a><strong>,</strong> la AIE describe tres escenarios principales para presentar el futuro de la demanda de energía. En el Escenario de Políticas Declaradas (STEPS), que refleja las políticas y regulaciones actuales, la demanda global de energía sigue creciendo. La demanda mundial de energía primaria aumenta un 6 % de 640 exajulios (EJ) en 2023 a más de 680 EJ para 2035, alcanzando 740 EJ en 2050, un aumento del 15 % con respecto a 2023. Esta trayectoria asume un crecimiento económico continuo (alrededor del 3% por año a nivel global) y una disminución en la intensidad energética, lo que significa la cantidad de energía utilizada para producir un nivel de producción dado, una señal de que los sistemas energéticos se están volviendo más eficientes. Notablemente, se proyecta que los combustibles fósiles disminuirán del 80 % de la mezcla energética global en 2023 al 58 % en 2050, mientras que las fuentes de energía limpia crecen rápidamente. "
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fcc30b",
+            "#fd6925",
+            "#4c9f38",
+            "#0468b1",
+            "#3f7e44",
+            "#dd1367",
+            "#0a97d9",
+            "#fd9d24",
+            "#c5192d",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2000",
+              "2010",
+              "2020",
+              "2030 STEPS",
+              "2040 STEPS",
+              "2050 STEPS",
+              "2030 APC",
+              "2040 APC",
+              "2050 APC"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "EJ"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Coal",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                95.1751487111761,
+                149.107732980832,
+                152.280237937871,
+                142.233972240581,
+                136.417713152676,
+                123.198942498347,
+                114.210178453403,
+                83.5426305353602,
+                74.0251156642427
+              ]
+            },
+            {
+              "name": "Oil",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                153.3377395902109,
+                173.430270984799,
+                173.959021810973,
+                202.511566424323,
+                204.097818902843,
+                206.741573033708,
+                179.775280898877,
+                162.85525446133482,
+                154.39524124256428
+              ]
+            },
+            {
+              "name": "Natural Gas",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                86.18638466622699,
+                116.85393258427,
+                136.417713152676,
+                160.740251156642,
+                180.83278255122295,
+                197.7528089887641,
+                149.63648380700602,
+                151.222736285526,
+                147.52148050231398
+              ]
+            },
+            {
+              "name": "Nuclear",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                31.196298744215994,
+                33.840052875081994,
+                33.84005287508296,
+                37.01255783212201,
+                40.71381361533304,
+                41.24256444150694,
+                42.30006609385299,
+                48.64507600793098,
+                55.518836748182025
+              ]
+            },
+            {
+              "name": "Renewables",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                57.63384005287605,
+                66.09385327164603,
+                86.18638466622497,
+                118.44018506278894,
+                152.28023793787202,
+                190.87904824851307,
+                140.11896893588903,
+                201.982815598149,
+                249.04163912756104
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "En contraste, el <strong>Escenario de Compromisos Anunciados (ECA)</strong> imagina un futuro donde los compromisos climáticos y energéticos actuales en todo el mundo se implementan completamente. Este escenario asume que la energía limpia satisface el 40% de la demanda energética global para 2035, aumentando a casi el 75% para 2050. En este contexto, la demanda mundial de energía disminuye continuamente para alcanzar 625 EJ en 2035 y 610 EJ en 2050, alcanzando niveles un 4,7 % inferiores a los de 2023. La desaceleración se debe en gran medida a las medidas aceleradas de <ai prompt=\"Proporcione más información sobre la eficiencia energética.\">eficiencia energética 💬️</ai> y a la expansión de la electrificación en los sectores de uso final como el transporte, los edificios y la industria. <br /><br />El camino más ambicioso, el <strong>Escenario de Emisiones Netas Cero (NZE)</strong>, se alinea con la limitación del calentamiento global a 1,5 °C. Se asume que el 90 % de la demanda energética global se satisfará con energía limpia para 2050, y que cualquier uso restante de combustibles fósiles será compensado o reducido. En este escenario, la demanda total de energía disminuye en un 16 % para 2035 y continúa cayendo hasta mediados de siglo. Esta reducción tendría lugar a pesar del crecimiento económico y de la población, impulsada por profundos aumentos de eficiencia, cambios de comportamiento y transformaciones estructurales."
+            }
+          },
+          {
+            "template_id": "quote_large_with_name",
+            "content": {
+              "quote": "“In all our scenarios, growth in global energy demand slows thanks to efficiency gains, electrification and a rapid buildout of renewables.”",
+              "author": "IEA, <a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>World Energy Outlook</u></a>, 2024"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Sin embargo, no todas las análisis proyectan una disminución en la demanda de energía. Según un <a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><strong><u>informe de McKinsey de 2023</u></strong></a>, la demanda global de energía podría crecer más rápido de lo esperado, dependiendo de los desarrollos geopolíticos y económicos. Sus proyecciones varían desde un aumento del 11% en la demanda para 2050 respecto a los niveles de 2023 en el escenario de \"Momentum Continuo\" hasta un aumento del 18% en el caso de \"Evolución Lenta\". Las economías emergentes representan la mayor parte de este crecimiento, ya que se prevé que el crecimiento de la población y el aumento de los ingresos impulsen gran parte de la demanda adicional. <br /><br /><br /> <br /><br />Tomados en conjunto, estos puntos de vista muestran que la demanda de energía futura no está predeterminada. Depende de las elecciones de políticas, las trayectorias de innovación y la coordinación global. Si bien tendencias como el crecimiento de la población, la urbanización y la geopolítica pueden aumentar la demanda, tecnologías como las mejoras en la eficiencia y la electrificación pueden ayudar a reducirla."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>IRENA </strong>ofrece una perspectiva complementaria en su<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><u> </u></a><a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><strong><u>Perspectivas Mundiales sobre las Transiciones Energéticas 2024</u></strong></a>, esta vez analizando el consumo final total de energía que mide la energía entregada y utilizada por los consumidores finales, en oposición a la energía total requerida por el sistema (demanda de energía). El escenario de 1.5 °C de IRENA proyecta una reducción del 10 % en el consumo final total de energía para 2050, en relación con los niveles actuales. Esto también supone que la participación de la electricidad en el consumo final de energía debe aumentar del 23 % en 2022 al 52 % para 2050, respaldada por la adopción generalizada de vehículos eléctricos, bombas de calor y aplicaciones industriales alimentadas por energías renovables. La participación de la energía renovable en el consumo final debe aumentar al 35 % para 2030 y al 78 % para 2050, frente al 17 % en 2022."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Outro_1.png",
+          "caption": ""
+        },
+        "intro": "M8: Tecnologías e innovaciones en energías renovables",
+        "title": "B: Crecimiento de la población y cambios demográficos"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "El crecimiento de la población es un factor importante de la demanda energética futura, aunque la tasa de este crecimiento está disminuyendo del 2 % de tasa de crecimiento anual promedio en la década de 1960 a menos del 1 % hoy ((<a href=\"https://desapublications.un.org/publications/world-population-prospects-2024-summary-results\"><u>UNDESA</u></a>, 2024). De 8.2 mil millones en 2024, se espera que la población mundial alcance 8.5 mil millones para 2030, 9.7 mil millones para 2050, y alcance un pico de alrededor de 10.3 mil millones a mediados de la década de 2080 antes de disminuir gradualmente. <br /><br />Pero la tendencia no es uniforme en todo el mundo, ya que el Norte global y el Sur global exhiben trayectorias diferentes. En 63 países, hogar del 28 % de la población mundial, incluidos China, Alemania, Japón y Rusia, las poblaciones están en declive. Por el contrario, se proyecta que 126 países, principalmente en el África subsahariana y partes de Asia, verán crecer sus poblaciones hasta 2054. Se espera que estas regiones vean un aumento del 38% en la población, mientras que las regiones en declive enfrentan una disminución del 14%. <br /><br /><br />Esta divergencia tiene importantes implicaciones para la demanda de energía. Las poblaciones en rápido crecimiento en países como Angola, Níger, la República Democrática del Congo, la República Centroafricana y Somalia—todas proyectadas para duplicarse entre 2024 y 2054—requerirán enormes expansiones en la infraestructura y los servicios de energía."
+            }
+          },
+          {
+            "template_id": "quote_small_with_name",
+            "content": {
+              "quote": "Most of the countries and areas facing rapid population growth over the next decades are classified today as “low-income economies”. They will need to increase their energy consumption substantially if they are to develop economically and achieve the Goals and targets of the 2030 Agenda.",
+              "author": "UNDESA, 2024"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />En contraste, los países con un crecimiento lento, como Brasil, Vietnam e Irán, tendrán un aumento más gradual en las necesidades energéticas, ofreciendo oportunidades para invertir en eficiencia y transiciones de bajo carbono con menos presión demográfica. Mientras tanto, los países con poblaciones en declive, como China, que se proyecta que perderá 204 millones de personas para 2054, pueden ver que su demanda total de energía se estabiliza o disminuye, aunque esto estará influenciado por la densidad urbana, la actividad industrial y los cambios relacionados con el envejecimiento en los patrones de consumo. <br /><br />Las dinámicas demográficas están remodelando la geografía de la demanda de energía. A medida que el crecimiento se concentra en el Sur Global, donde las brechas de acceso siguen siendo amplias y las poblaciones disminuyen en las economías intensivas en energía, el mapa energético global necesitará ajustarse. Planificar el futuro de la energía significa anticipar cambios tecnológicos y económicos mientras se alinean con las realidades en evolución de dónde viven, crecen y envejecen las personas."
+            }
+          },
+          {
+            "template_id": "kpi_highlight_medium",
+            "content": {
+              "value": "<strong>1,9 mil millones</strong>",
+              "text": "El aumento proyectado de la población mundial<br /> entre 2024 (8.2 mil millones) y 2054 (10.1 mil millones)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_19.png",
+          "caption": ""
+        },
+        "intro": "M8: Tecnologías e innovaciones en energías renovables",
+        "title": "C: Urbanización e industrialización"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Las ciudades del mundo están creciendo. Hoy, el 55 % de la población mundial vive en áreas urbanas, y se espera que ese número aumente al 68 % para 2050 (<a href=\"https://www.un.org/es/desa/68-world-population-projected-live-urban-areas-2050-says-un\"><u>UNDESA</u></a>, 2024). Más sorprendentemente, el 98 % del crecimiento de la población mundial (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><u>IRENA</u></a>, 2024) tendrá lugar en mercados emergentes y economías en desarrollo. Se espera que esto contribuya significativamente al aumento de la demanda de energía en estas regiones, ya que la vida urbana trae un mayor consumo de energía per cápita, impulsado por la iluminación, los electrodomésticos, la movilidad y, más críticamente, la refrigeración. <br /><br /><br />En las regiones que se urbanizan rápidamente, se espera que la demanda de refrigeración residencial se triplique para 2050, pasando de 2.6 EJ a 7.7 EJ en el escenario APS de la AIE (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>AIE</u></a>, 2024). Para entonces, el enfriamiento del espacio representará solo el 14% de la demanda total de energía de los edificios, frente al 7% actual. <br />Esta transformación es particularmente impactante en el Sur Global. Se proyecta que el uso de electricidad en los edificios crecerá del 37% de la demanda energética de los edificios en 2023 a más del 50% para 2050, añadiendo más de 35 EJ, principalmente en economías emergentes."
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Impulsando ciudades en crecimiento</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Mientras las ciudades moldean cada vez más el futuro de los medios de vida, la industria sigue siendo el mayor consumidor de energía del mundo, responsable del 39 % del consumo final total de energía global en 2023 y de casi la mitad de todas las emisiones de CO₂ relacionadas con la energía (<a href=\"https://iea.blob.core.windows.net/assets/f304f2ba-e9a2-4e6d-b529-fb67cd13f646/EnergyEfficiency2024.pdf\"><u>IEA</u></a>, 2024). Gran parte de esto se concentra en las economías emergentes: En 2012, los países no pertenecientes a la OCDE representaron el 67 % del consumo mundial de energía industrial, y se prevé que esta participación aumente al 73 % para 2040 (<a href=\"https://www.eia.gov/outlooks/ieo/pdf/industrial.pdf\"><u>EIA</u></a>, 2016) <br /><br />La demanda de energía industrial creció un 2 % solo en 2023, impulsada por sectores como el acero, el cemento y los productos químicos. Estas industrias siguen siendo profundamente dependientes de los combustibles fósiles, especialmente del carbón y del gas natural, para suministrar calor a alta temperatura. Sin embargo, esta tendencia comienza a cambiar después de 2030 en escenarios alineados con el clima. En la AIE, la participación de la electricidad en el uso de energía industrial aumenta del 22 % en 2023 al 27 % para 2030, con China contribuyendo con más de la mitad de este crecimiento (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>AIE</u></a>, 2024). <br /><br />El escenario de 1.5 °C de IRENA muestra un cambio aún más pronunciado, proyectando una electrificación de la industria del 36 % para 2050, con un despliegue a gran escala de hidrógeno y bombas de calor (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><u>IRENA</u></a>,2024) . <br />Juntos, la urbanización y la industrialización están remodelando el futuro de la demanda de energía. Estos factores plantean nuevos desafíos para <ai prompt=\"Tell me more about decarbonization.\">la descarbonización 💬️</ai>, pero también presentan nuevas oportunidades para la innovación, la creación de empleo y el desarrollo inclusivo."
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Industrialización y demanda de energía </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_13.png",
+          "caption": ""
+        },
+        "intro": "M8: Tecnologías e innovaciones en energías renovables",
+        "title": "D: Clase media en aumento"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Clase media en aumento y cambios en el estilo de vida</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A medida que la economía global continúa expandiéndose, particularmente en los mercados emergentes, las poblaciones están cambiando la forma en que consumen energía. Un motor principal de esta transformación es el rápido crecimiento de la clase media. Entre 2024 y 2034, se espera que el número de hogares de clase media en los mercados emergentes casi se duplique, pasando de 354 millones a 687 millones (<a href=\"https://www.oxfordeconomics.com/wp-content/uploads/2024/10/The-future-of-the-middle-class-in-emerging-markets.pdf\"><u>Oxford Economics</u></a>, 2024). <br /> <br />Asia-Pacífico es el epicentro de esta transformación. Para 2029, dos de cada tres hogares de clase media en los mercados emergentes estarán ubicados en esa región. China seguirá siendo el mercado más grande, hogar de 300 millones de hogares de clase media para 2034, representando el 44 % del total (<a href=\"https://www.oxfordeconomics.com/wp-content/uploads/2024/10/The-future-of-the-middle-class-in-emerging-markets.pdf\"><u>Oxford Economics</u></a>, 2024). La clase media de India, mientras tanto, se más que duplicará, pasando de 27 millones de hogares en 2024 a 62 millones para 2029, convirtiéndose en la segunda más grande a nivel mundial. "
+            }
+          },
+          {
+            "template_id": "quote_large_with_name",
+            "content": {
+              "quote": "“We expect the emerging markets middle class to double in the next decade – expanding from 354 million households in 2024 to 687 million households by 2034..”",
+              "author": "<a href=\"https://www.oxfordeconomics.com/wp-content/uploads/2024/10/The-future-of-the-middle-class-in-emerging-markets.pdf\"><u>Oxford Economics</u></a>, 2024"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br /> <br />A medida que los ingresos aumentan, también lo hace el apetito por bienes intensivos en energía: más aires acondicionados, refrigeradores, vehículos personales y dispositivos digitales. Según la AIE, para 2035, se proyecta que el aumento de los ingresos y las temperaturas más cálidas añadirán 1,200 TWh de demanda de electricidad para refrigeración, lo que es más que el uso actual de electricidad de todo el Medio Oriente (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>AIE</u></a>, 2024). En el sector de la construcción, casi el 45 % del crecimiento de la demanda de electricidad hasta 2035 provendrá de un aumento del consumo impulsado principalmente por los estilos de vida de la clase media. <br /> <br />Pero hay matices en este aumento. Mientras que el ingreso per cápita en China se espera que se duplique a 26,000 $/año para 2034, la clase media de rápido crecimiento de India aún consumirá menos de la mitad de esa cantidad (<a href=\"https://www.oxfordeconomics.com/wp-content/uploads/2024/10/The-future-of-the-middle-class-in-emerging-markets.pdf\"><u>Oxford Economics</u></a>, 2024). Al mismo tiempo, los hogares en los mercados emergentes continúan gastando alrededor del 10 % de su ingreso disponible en energía, lo que los hace vulnerables a la volatilidad de precios y puede moderar el consumo. <br />A pesar de estos cambios, la demanda energética general está aumentando más lentamente que en décadas anteriores, gracias a las mejoras en la eficiencia energética y la expansión de la electrificación. Se proyecta que el PIB global crecerá un 3% anualmente entre 2023 y 2035 (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024), pero la demanda de energía está aumentando a un ritmo mucho más bajo. Este desacoplamiento refleja un cambio en el panorama energético global, donde la demanda se forma no solo por cuántas personas consumen energía, sino por cómo, dónde y qué consumen."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_6.png",
+          "caption": ""
+        },
+        "intro": "M8: Tecnologías e innovaciones en energías renovables",
+        "title": "E: Electrificación de los sectores de uso final y de difícil descarbonización"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La electrificación está surgiendo como una fuerza importante en el sector energético global y se proyecta que se convertirá en la mayor fuente de energía del mundo para 2050.<br /><br />Según un análisis de la firma de consultoría global McKinsey, el consumo de electricidad podría más que duplicarse en escenarios de transición energética más lentos y casi triplicarse en los más rápidos. Este aumento es impulsado por sectores tradicionales como edificios y electrodomésticos, pero también cada vez más por demandas nuevas y de rápido crecimiento, como centros de datos, vehículos eléctricos de batería (BEV) y producción de hidrógeno. Por ejemplo, se espera que el consumo global de hidrógeno verde aumente de menos de 1 Mtpa hoy a 179 Mtpa para 2050, contribuyendo a aproximadamente un 20 % de crecimiento anual en la demanda de energía para el sector (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>McKinsey</u></a>, 2024). <br /><br />Se proyecta que la demanda de electricidad del transporte crecerá un 10 % anualmente, con los BEV que se espera que representen la mayoría de las ventas globales de automóviles de pasajeros para 2050, frente al 13 % actual (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>McKinsey</u></a>, 2024). En los edificios, <ai prompt=\"Aclarar calefacción y refrigeración.\">la calefacción y la refrigeración 💬️</ai> están cada vez más electrificadas.<br /><br /> Para 2050, el mundo podría ver la implementación de 793 millones de unidades de bombas de calor y 2.2 mil millones de vehículos eléctricos e híbridos enchufables (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Smart_electrification_end-use_sectors_2024.pdf\"><u>IRENA</u></a>, 2024)."
+            }
+          },
+          {
+            "template_id": "kpi_highlight_medium",
+            "content": {
+              "value": "<strong>3,500 TWh</strong>",
+              "text": "La cantidad por la cual se proyecta que la demanda mundial de electricidad <br />crezca anualmente entre 2025 y 2027, <br />tanto como el consumo anual de Japón"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_11.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />La electrificación también está transformando la industria, incluidos los sectores difíciles de descarbonizar. En China, por ejemplo, el 60 % de la electricidad es consumida por la industria, lo que es el doble de la media de la OCDE y representó el 48 % del crecimiento total de la demanda entre 2022 y 2024 (<a href=\"https://iea.blob.core.windows.net/assets/0f028d5f-26b1-47ca-ad2a-5ca3103d070a/Electricity2025.pdf\"><u>IEA</u></a>, 2025). La electrificación de las cadenas de suministro de tecnología limpia también se está intensificando en 2024, la producción de paneles solares, baterías y vehículos eléctricos utilizó 320 TWh de electricidad, equivalente al consumo eléctrico anual total de Italia. <br /><br /><br />Incluso cuando miramos hacia el futuro cercano, se espera que la demanda mundial de electricidad aumente en 3,500 TWh entre 2025 y 2027, equivalente a agregar la demanda de electricidad de Japón cada año (<a href=\"https://iea.blob.core.windows.net/assets/0f028d5f-26b1-47ca-ad2a-5ca3103d070a/Electricity2025.pdf\"><u>IEA</u></a>, 2025). Las soluciones de electrificación inteligente serán esenciales para navegar esta transformación. Las soluciones de electrificación inteligente pueden reducir la demanda máxima de electricidad hasta en un 50 % y reducir las pérdidas de la red hasta en un 63 %, ayudando a gestionar las crecientes necesidades de energía de manera más eficiente (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Smart_electrification_end-use_sectors_2024.pdf\"><u>IRENA</u></a>, 2024). <br /><br /><br /><br />Se espera que la aceleración de la electrificación sea impulsada por fuentes de bajas emisiones. Según la AIE, se espera que el 95% del aumento en la demanda mundial de electricidad sea cubierto por energías renovables para 2027, especialmente solar y eólica. Es importante señalar que se espera que las economías emergentes y en desarrollo representen el 85 % de este crecimiento de la demanda, con China contribuyendo por sí sola con más del 50 % (<a href=\"https://iea.blob.core.windows.net/assets/0f028d5f-26b1-47ca-ad2a-5ca3103d070a/Electricity2025.pdf\"><u>IEA</u></a>, 2025). Con las políticas e inversiones adecuadas, la electrificación puede ser una herramienta poderosa para descarbonizar las economías mientras se mejora el acceso a la energía."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_9.png",
+          "caption": ""
+        },
+        "intro": "M8: Tecnologías e innovaciones en energías renovables",
+        "title": "F: Crecimiento de la demanda impulsado por la digitalización y la IA"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>La digitalización y la IA se espera que se conviertan en motores significativos del futuro de la demanda global de energía.</strong> A medida que la electricidad emerge como el portador de energía dominante para 2050, el consumo provendrá de sectores tradicionales como la electrificación de hogares y fábricas, pero también de la vasta infraestructura digital detrás de la revolución de la IA. <br /><br /><strong>Entre los elementos más intensivos en energía de esta transformación se encuentran los centros de datos</strong>. A nivel mundial, estas instalaciones consumieron 415 TWh de electricidad en 2024 (<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf)\"><u>IEA</u></a>, 2025), lo que representa el 1,5 % del consumo total de electricidad. Para 2030, se espera que esta cifra se duplique a más de 945 TWh, superando el consumo eléctrico total actual de Japón. <br /><br /> <br />Mirando hacia adelante, McKinsey estima que <strong>para 2050, la demanda de electricidad de los centros de datos podría variar de 2,500 a 4,500 TWh,</strong> representando del 5 % al 9 % de la demanda mundial de electricidad (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective#/\"><u>McKinsey</u></a>, 2024). <br /><br />Este aumento no provendrá de la computación en la nube y las criptomonedas, sino especialmente de los procesos que consumen mucha energía necesarios para entrenar modelos de IA y <ai prompt=\"Clarify generative ai.\">aplicaciones de IA generativa 💬️</ai> como ChatGPT. Se espera que algunos de los centros de datos más grandes en construcción hoy consuman tanta electricidad como 2 millones de hogares (<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf\"><u>IEA</u></a>, 2025). <strong> </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />Se espera que las energías renovables proporcionen la mayor contribución para satisfacer la demanda de los centros de datos, alcanzando 450TW para 2035 según la AIE. Pero las fuentes despachables como el gas natural y la nuclear también jugarán un papel crítico en el suministro de esta infraestructura. A medida que la infraestructura energética se esfuerza por mantenerse al día con la revolución de la IA, surgirán desafíos técnicos con el 20 % (<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf\"><u>IEA</u></a>, 2025) de los centros de datos planificados que probablemente enfrentarán retrasos debido a la congestión de la red y la escasez de equipos. <br /><br /><br />A pesar de esta presión sobre el consumo de energía,<strong> la digitalización y la IA también ofrecen herramientas poderosas para mejorar la eficiencia de los sistemas energéticos</strong>. Las tecnologías inteligentes, como la previsión habilitada por IA, la optimización de la red y la detección de fallos, podrían desbloquear 175 GW de capacidad adicional de la red y reducir el consumo de electricidad en los edificios en 300 TWh, equivalente a toda la generación de electricidad de Australia y Nueva Zelanda (<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf\"><u>IEA</u></a>, 2025). A nivel de ciudad, las herramientas digitales pueden ayudar a reducir la limitación de energías renovables en más del 25 %, mejorar la eficiencia del sistema en un 30 % y reducir los costos para los clientes hasta en un 30 % (<a href=\"https://iea.blob.core.windows.net/assets/00f7d520-d517-473d-b357-5adb43c4a57e/EmpoweringUrbanEnergyTransitions.pdf\"><u>IEA</u></a>, 2024). La planificación urbana integrada impulsada por IA, combinada con medidores inteligentes, sensores y datos en tiempo real, puede ayudar a las ciudades a equilibrar las cargas, gestionar la demanda máxima y construir resiliencia. <br /><br /><br />Sin embargo, más allá de la tecnología, realizar todos los beneficios de la digitalización requerirá inversión en habilidades digitales, gobernanza de datos y regulación de apoyo. A medida que los sistemas digitales y de IA influyen cada vez más en cómo y dónde se consume la energía, empoderar a los gobiernos locales con la capacidad de planificar, regular y optimizar las transiciones energéticas será esencial para hacer de la digitalización un motor de desarrollo sostenible e inclusivo."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_11.png",
+          "caption": ""
+        },
+        "intro": "M8: Tecnologías e innovaciones en energías renovables",
+        "title": "G: Impacto del cambio climático y eventos climáticos extremos"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />Con el cambio climático acelerándose, sus efectos están influyendo en cómo producimos energía, pero también en cuánta necesitaremos. Se espera que el aumento de las temperaturas, el crecimiento de la población y los patrones climáticos cambiantes aumenten significativamente la demanda de energía a nivel mundial, siendo uno de los principales impulsores el aumento de la demanda de refrigeración. Por ejemplo, se espera que la demanda de aire acondicionado residencial aumente de casi 300 TWh en 2000 a aproximadamente 4,000 TWh para 2050, gran parte de ello en economías emergentes como consecuencia del aumento de ingresos y el calentamiento del clima. Las prácticas de cocina y otras necesidades energéticas del hogar también es probable que se vuelvan más intensivas en electricidad. <br /> <br /><br /><br />Al mismo tiempo, los sistemas energéticos en sí enfrentan riesgos crecientes. Las centrales térmicas corren el riesgo de perder eficiencia en el futuro a medida que aumentan las temperaturas y disminuye la disponibilidad de agua. La energía hidroeléctrica podría verse afectada por cambios en los patrones de lluvia y tasas de evaporación más altas, con proyecciones que muestran, por ejemplo, una reducción del 35 % en la capacidad hidroeléctrica de la cuenca del río Zambeze para 205028. <br /><br /><br />Mientras tanto, tormentas más fuertes, inundaciones y calor extremo exponen la infraestructura energética a amenazas crecientes como líneas de transmisión dañadas y tuberías interrumpidas que comprometen el funcionamiento seguro de las instalaciones energéticas. Estos riesgos exigen una adaptación urgente para garantizar la resiliencia del sistema energético. <br />Para una exploración más profunda sobre cómo construir sistemas energéticos resilientes y adaptativos al clima, consulte el Módulo 6 de la Academia de Energía Sostenible, que está dedicado a los impactos climáticos, las estrategias de adaptación y la intersección entre energía y resiliencia. <strong> </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_3.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conclusiones clave",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_9.png",
+              "caption": ""
+            },
+            "title": "La demanda de energía estará moldeada por factores estructurales, incluyendo el crecimiento de la población, la urbanización, la industrialización y el surgimiento de una clase media global, particularmente en las economías emergentes donde la infraestructura y el consumo están expandiéndose rápidamente.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_9.png",
+              "caption": ""
+            },
+            "title": "La tecnología desempeña un papel dual: la electrificación y la digitalización están impulsando nuevas fuentes de demanda de energía (centros de datos, vehículos eléctricos), al mismo tiempo que permiten una mayor eficiencia, flexibilidad y optimización del sistema.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_9.png",
+              "caption": ""
+            },
+            "title": "El futuro de la demanda de energía no es fijo; dependerá de decisiones políticas, innovación y cooperación global para alinear las tendencias demográficas, económicas y tecnológicas con los objetivos de sostenibilidad y equidad.",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module8.png",
+          "caption": ""
+        },
+        "intro": "Próximamente",
+        "title": "Lección 2: <strong>El paisaje cambiante del suministro de energía: recursos, mercados y políticas</strong>",
+        "cta": "Continúa aprendiendo",
+        "nextLessonId": "8.1.2"
+      }
+    }
+  ]
+}

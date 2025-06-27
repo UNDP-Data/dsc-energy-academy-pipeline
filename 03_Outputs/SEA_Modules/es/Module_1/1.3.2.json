@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "América Latina y el Caribe se encuentran en una encrucijada crucial. La región cuenta con algunos de los recursos de energía renovable más ricos del mundo: abundante energía solar en México y Chile, fuertes vientos en Patagonia, amplios recursos hidroeléctricos en Brasil y los Andes, y oportunidades emergentes de geotermia e hidrógeno verde. Al mismo tiempo, enfrenta la desigualdad persistente, la pobreza energética, la vulnerabilidad climática y los flujos de inversión lentos.<br /><br />Esta lección explora cómo se puede aprovechar el vasto potencial energético de la región para impulsar un desarrollo inclusivo y sostenible. La energía no es solo un sector, es un habilitador. Impulsa escuelas y clínicas, fomenta empleos y crecimiento industrial, apoya la inclusión digital y proporciona resiliencia frente a desastres y choques. Sin embargo, 17 millones de personas aún carecen de acceso a la electricidad, y 78 millones dependen de combustibles tradicionales para cocinar, exponiendo profundas brechas de acceso a la energía que deben abordarse si la región quiere alcanzar los Objetivos de Desarrollo Sostenible (ODS).<br /><br />A pesar de tener una de las mezclas de electricidad más limpias a nivel mundial (más del 60 % renovable), LAC sigue siendo muy dependiente de los combustibles fósiles para el transporte y la industria. El desafío ahora es doble: garantizar el acceso universal a la energía moderna y transformar los sistemas energéticos hacia la resiliencia, la equidad y la sostenibilidad.<br /><br />Al combinar datos regionales, análisis de políticas y oportunidades futuras, los aprendices obtendrán una visión holística de por qué la energía sostenible es un pilar para la transformación económica, la acción climática y la justicia social en América Latina y el Caribe."
+              "text": "América Latina y el Caribe se encuentran en una encrucijada crucial. La región cuenta con algunos de los recursos de energía renovable más ricos del mundo: abundante energía solar en México y Chile, fuertes vientos en Patagonia, amplios recursos hidroeléctricos en Brasil y los Andes, y oportunidades emergentes de geotermia e hidrógeno verde. Al mismo tiempo, enfrenta la desigualdad persistente, la pobreza energética, la vulnerabilidad climática y los flujos de inversión lentos.<br /><br />Esta lección explora cómo se puede aprovechar el vasto potencial energético de la región para impulsar un desarrollo inclusivo y sostenible. La energía no es solo un sector, es un habilitador. Impulsa escuelas y clínicas, fomenta empleos y crecimiento industrial, apoya la inclusión digital y proporciona resiliencia frente a desastres y choques. Sin embargo, 17 millones de personas aún carecen de acceso a la electricidad, y 78 millones dependen de combustibles tradicionales para cocinar, lo que expone profundas brechas en el acceso a la energía que deben abordarse si la región quiere lograr los ODS.<br /><br />A pesar de tener una de las mezclas eléctricas más limpias del mundo (más del 60% renovable), la LAC sigue siendo muy dependiente de los combustibles fósiles para el transporte y la industria. El desafío ahora es doble: garantizar el acceso universal a la energía moderna y transformar los sistemas energéticos hacia la resiliencia, la equidad y la sostenibilidad.<br /><br />Al combinar datos regionales, análisis de políticas y oportunidades futuras, los aprendices obtendrán una visión holística de por qué la energía sostenible es un pilar para la transformación económica, la acción climática y la justicia social en América Latina y el Caribe."
             }
           }
         ]
@@ -239,7 +239,44 @@
             }
           ],
           "grid": {
-            "bottom": 80
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Costo promedio de desastres naturales y precios de la energía en el Caribe",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }
@@ -290,8 +327,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_17.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/Frame.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -559,7 +597,47 @@
                 7.2
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Escenarios para la creación de empleos verdes en América Latina y el Caribe, 2020-2030",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -599,7 +677,7 @@
           "caption": ""
         },
         "intro": "M1: Introducción a la transformación de sistemas energéticos sostenibles",
-        "title": "D: Estrategia energética para la región"
+        "title": "D: Estrategia Energética en América Latina y el Caribe"
       }
     },
     {
@@ -610,7 +688,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Se han identificado 4 áreas clave de prioridad para la región</strong>"
+              "text": "<strong>Se han identificado cuatro áreas prioritarias clave para la región</strong>"
             }
           },
           {

@@ -286,13 +286,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Étude de cas RBLAC : <ai prompt=\"Fournissez plus d'informations sur les filets de sécurité énergétique.\">filets de sécurité énergétique 💬️</ai> au Brésil</strong>"
+              "text": "<strong>Contexte</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Au Brésil, trois politiques clés —Bolsa Família, Luz para Todos et Tarifa Social— constituent une approche globale pour relever les défis sociaux et énergétiques, contribuant au développement et au bien-être du pays."
+              "text": "<br />Au début des années 2000, des millions de Brésiliens, en particulier dans les communautés rurales, à faibles revenus, autochtones et marginalisées, faisaient face à une grave pauvreté énergétique. Beaucoup comptaient sur des combustibles coûteux et polluants, tels que le bois de chauffage, le kérosène et le diesel, ce qui nuisait à la santé, à l'éducation et aux opportunités. En réponse, le Brésil a lancé une stratégie intégrée combinant l'expansion des infrastructures, les subventions énergétiques et <ai prompt=\"Tell me more about social protection.\">la protection sociale 💬️</ai> pour permettre un accès énergétique inclusif. Grâce à trois politiques clés—Luz para Todos, Tarifa Social et Bolsa Família—ainsi qu'à des réformes réglementaires et au registre Cadastro Único, l'initiative a permis une électrification nationale de 99,7 % dans des milliers de municipalités, avec un investissement de 24,3 milliards de R$ de 2003 à 2023 <a href=\"https://documents1.worldbank.org/curated/en/972261468231296002/pdf/398530SP1709.pdf\"><u>(Lindert et al, 2007)</u></a>. <br /> <br />Ce paquet de politiques visait à atténuer la pauvreté énergétique en élargissant la couverture électrique à la fois par le réseau et par des systèmes décentralisés, rendant l'énergie plus accessible et abordable pour les familles à faible revenu, et en promouvant l'utilisation de combustibles de cuisson plus propres. Le <strong>Cadastro Único</strong> a permis un ciblage précis des populations vulnérables, notamment les ménages afro-brésiliens, autochtones et dirigés par des femmes."
             }
           }
         ]
@@ -306,13 +306,13 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Bolsa Família</strong>"
+              "text": "<strong>Implémentation du projet</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Lancé en 2003, Bolsa Família (PBF) est un programme de transfert monétaire conditionnel conçu pour lutter contre la faim, réduire la pauvreté et élargir l'accès aux services publics essentiels. En unifiant plusieurs initiatives fragmentées en un cadre national unique, le programme fournit un soutien financier aux familles à faible revenu à condition qu'elles respectent des exigences spécifiques, telles que s'assurer que les enfants assistent à l'école et reçoivent des vaccinations. Avec plus de 46 millions de bénéficiaires, Bolsa Família est le plus grand programme de ce type au monde (Centre for Public Impact., 2019). Il opère dans les 5 570 municipalités et atteint une famille brésilienne sur quatre, avec 75 % des bénéficiaires étant des Afro-Brésiliens et 54 % des femmes. Le programme a été crédité d'une réduction significative de la pauvreté et des inégalités : d'ici 2015, le pourcentage de personnes vivant en dessous du seuil de pauvreté est passé de 13 % à 3 %, et l'inégalité des revenus a diminué jusqu'à 21 %. "
+              "text": "En conséquence, l'initiative a permis d'atteindre les résultats suivants : <br /> <br /><strong>3,4 millions de ménages </strong>ont été connectés, bénéficiant à 16 millions de personnes.(<a href=\"https://www.seforall.org/system/files/2020-03/ESN_Brazil_Policy-SEforALL.pdf\"><u>SEforAll, 2020, p.</u></a>) 3</u></a>). <br />Près de <strong>24,9 millions de ménages</strong> ont reçu de l'électricité subventionnée. (<a href=\"https://canalsolar.com.br/en/quase-8-mil-familias-deixam-usar-direito-tarifa-social/\"><u>Canal Solar, 2024</u></a>) <br />Près de<strong> 9 millions de foyers</strong> ont bénéficié de subventions directes à l'énergie. <br /><strong>75% des bénéficiaires de Bolsa Família</strong> étaient afro-brésiliens ; 54% étaient des femmes.<br />Les familles rurales ont remplacé les lampes fumantes par un éclairage sûr, permettant aux enfants d'étudier la nuit, et les ménages ont abandonné les combustibles dangereux.<br /><br />Pour obtenir ces résultats, le Brésil a mis en œuvre une stratégie à plusieurs volets : <br /> <br /><strong>Luz para Todos</strong> a privilégié l'extension du réseau national tout en déployant des systèmes solaires dans les zones reculées et autochtones. <br /><strong>Tarifa Sociale </strong>offrait des subventions ciblées, réduisant considérablement les coûts énergétiques pour les ménages à faible revenu. <br /><strong>Bolsa Família</strong> a fourni des transferts monétaires conditionnels à 21 millions de familles, soutenant une transition vers des pratiques de cuisson plus propres (<a href=\"https://www.gov.br/g20/en/news/combating-hunger-and-poverty-brasils-bolsa-familia-presented-to-g20-nations\"><u>Gouvernement du Brésil, 2024, para.</u></a>) 8 </u></a>) <br /><strong>Enregistrement Unique </strong>activé la ciblage coordonné à travers les programmes, rationalisant la livraison."
             }
           }
         ]
@@ -324,35 +324,15 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
+            "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Lumière pour Tous</strong>"
+              "text": "Les réformes réglementaires ont simplifié les connexions domestiques et élargi l'accès aux subventions. Les défis de mise en œuvre tels que l'accès aux zones reculées, les coûts élevés et la coordination inter-agences ont été abordés par le biais de modèles de livraison adaptatifs, d'une implication locale et d'incitations financières. <br /><br />L'expérience du Brésil montre que l'intégration de la politique énergétique avec la protection sociale réduit les écarts d'accès et favorise l'équité. Le <strong>Cadastro Único</strong> a permis une livraison ciblée, les technologies décentralisées ont assuré l'accès au dernier kilomètre, et une conception consciente du genre et de la race a renforcé l'impact global. <br /> <br /><strong>Principaux enseignements : <br /></strong> <br />Combinez infrastructure, subventions et soutien social. <br /><br />Utilisez les registres sociaux pour un ciblage précis. <br /><br />Adapter la livraison aux zones éloignées et mal desservies. <br /><br />Reliez les objectifs énergétiques à des initiatives plus larges de développement et de changement de comportement. "
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Lancé en 2003, Luz para Todos aspire à fournir un accès à l'électricité dans les zones rurales qui étaient auparavant mal desservies. Initialement ciblant les communautés à faible <ai prompt=\"Qu'est-ce que l'indice de développement humain ?\">indice de développement humain 💬️</ai> (IDH) près du réseau, le programme a évolué pour atteindre les zones reculées, en donnant la priorité aux familles dans les régions les plus éloignées du réseau, y compris l'Amazonie. De 2003 à 2023, 24,3 milliards de R$ (environ 5 milliards de dollars US) ont été investis, atteignant 3,6 millions de foyers. Sur ce total, 23,3 milliards de R$ ont été alloués aux zones rurales, et 1 milliard de R$ à l'Amazonie, bénéficiant aux résidents de 5 437 municipalités dans 26 États. Le budget 2024-26 pour Luz Para Todos est de 2,5 milliards de R$, visant à bénéficier 2 millions de personnes supplémentaires (source : Ministère brésilien des Mines et de l'Énergie)."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Tarif Social</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le programme Tarifa Social a été introduit en 2010 pour compléter Luz para Todos et garantir l'accessibilité de l'électricité pour les familles à faible revenu. Cette subvention vitale est conçue pour réduire la pauvreté énergétique, offrant des réductions en fonction du volume de consommation. <br />L'éligibilité à la Tarifa Social est liée à l'inscription au Cadastro Único para Programas Sociais —CAD— (Registre Unifié pour les Programmes Sociaux), visant à la fois les ménages à faible revenu et les groupes marginalisés vulnérables. Le programme a été essentiel pour soutenir près de 9 millions de ménages, bénéficiant à 36 millions de personnes, avec une structure tarifaire différenciée offrant des réductions significatives pour les faibles niveaux de consommation.<br /><br /><br /><br />"
+              "text": "Le modèle du Brésil ne perdure pas seulement grâce à la politique et à l'investissement, mais aussi parce qu'il place les gens au centre de la transition énergétique. Alors que le pays regarde vers l'avenir, l'expansion des énergies renouvelables décentralisées, l'intégration des indicateurs énergétiques dans les programmes sociaux, et la promotion de l'efficacité énergétique par l'éducation renforceront l'impact. Le voyage des lampes fumées à une lumière sûre et durable offre une leçon puissante : l'accès à l'énergie n'est pas seulement une réalisation technique, mais aussi une base pour la dignité, l'équité et l'opportunité. "
             }
           }
         ]
@@ -372,7 +352,7 @@
           {
             "template_id": "paragraph_small",
             "content": {
-              "text": "Sources : <a href=\"https://www.seforall.org/system/files/2020-03/ESN-Brazil-SEforAL.pdf\"><u>Cenergia, CAFOR, ODI, 2018.</u></a> Filets de sécurité énergétique - Étude de cas Brésil et Ministère brésilien des Mines et de l'Énergie"
+              "text": "Sources : <a href=\"https://www.seforall.org/system/files/2020-03/ESN-Brazil-SEforAL.pdf\"><u>Cenergia, CAFOR, ODI, 2018.</u></a> <ai prompt=\"Tell me more about energy safety nets.\">energy safety nets 💬️</ai> - Étude de cas Brésil</u></a> et <a href=\"https://www.gov.br/mme/pt-br/assuntos/noticias/luz-para-todos-completa-20-anos-com-impacto-positivo-para-17-milhoes-de-pessoas\"><u>Ministère brésilien des Mines et de l'Énergie</u></a>"
             }
           },
           {
@@ -392,20 +372,6 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/678_578.webp",
           "caption": ""
         }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "L'approche multifacette du Brésil intégrant les politiques sociales et énergétiques démontre un engagement holistique à améliorer les communautés, à améliorer la qualité de vie et à garantir l'inclusivité. Bien que des défis persistent, l'impact collectif de Bolsa Família, Luz para Todos et Tarifa Social a permis de traiter des problèmes sociétaux complexes grâce à des interventions politiques innovantes et complètes. Ces initiatives non seulement étendent l'accès aux services essentiels, mais contribuent également à l'agenda mondial plus large du développement durable.<br />"
-            }
-          }
-        ]
       }
     },
     {

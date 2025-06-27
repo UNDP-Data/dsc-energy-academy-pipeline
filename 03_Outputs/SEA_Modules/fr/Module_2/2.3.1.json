@@ -121,8 +121,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_3.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/Frame.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -162,8 +163,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_1.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/2_1.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -194,7 +196,7 @@
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -296,6 +298,18 @@
       }
     },
     {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/2_12.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
@@ -315,13 +329,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Étude de cas RBAP : Climate Saathis.</strong> Les femmes agissent pour rendre les bidonvilles résilients au climat en Inde</strong>"
+              "text": "<strong>Climate Saathis.</strong> Les femmes agissent pour rendre les bidonvilles résilients au climat en Inde</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Plus de 215 millions de personnes dans les zones urbaines de l'Inde, dont 121 millions de femmes dans des zones urbaines défavorisées et des bidonvilles, sont à haut risque en raison d'un manque d'accès aux services de refroidissement. En réponse à cette question critique, le Mahila Housing Trust (MHT) a lancé le projet Climate Saathis, permettant aux femmes des bidonvilles de devenir des défenseurs du climat, ou \"amis\" (Saathis en hindi).<br /><br />Krishnaben (en bleu), une auditrice énergétique formée et Climate Saathi, démontre l'efficacité énergétique d'une ampoule dans l'une des maisons d'un bidonville à Ahmedabad. Photo par Kartik Chandramouli/Mongabay.<br />Source : Mongabay"
+              "text": "Les zones urbaines de l'Inde abritent plus de 215 millions de personnes exposées à un risque accru de chaleur extrême et d'un accès insuffisant aux services de refroidissement. <br /><br />Parmi elles, plus de 121 millions de femmes vivant dans des bidonvilles et des quartiers à faible revenu sont confrontées à une vulnérabilité accrue en raison d'infrastructures de logement défectueuses, d'un accès limité à des appareils économes en énergie et de la marginalisation dans les processus de planification. Ces conditions sont exacerbées par le changement climatique et contribuent à des résultats négatifs en matière de santé, de productivité et de bien-être, en particulier pour les femmes et les enfants. <br /><br />Reconnaissant l'urgence de relever ces défis structurels, Mahila Housing Trust (MHT) a lancé l'initiative Climate Saathis pour renforcer la capacité locale à l'adaptation climatique et <ai prompt=\"Qu'est-ce que l'efficacité énergétique ?\">l'efficacité énergétique 💬️</ai>."
             }
           }
         ]
@@ -333,43 +347,16 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Approche intersectionnelle et autonomisation des femmes</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'initiative Climate Saathis repose sur le principe que doter les communautés urbaines pauvres—en particulier les femmes—de connaissances, d'outils et de compétences en leadership leur permet de développer et de mettre en œuvre des solutions locales résilientes au climat. En adoptant une perspective intersectionnelle, le projet reconnaît les vulnérabilités amplifiées auxquelles sont confrontées les femmes dans <ai prompt=\"Clarify marginalized communities.\">les communautés marginalisées 💬️</ai> et exploite leur potentiel unique pour favoriser un changement inclusif et durable."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "Les femmes sont formées en tant qu'auditrices énergétiques, aidant les ménages à adopter un éclairage, des ventilateurs et des appareils de refroidissement écoénergétiques, réduisant ainsi les coûts et améliorant l'accessibilité et la disponibilité de l'énergie."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "Les femmes émergent en tant que micro-entrepreneuses de base, établissant des réseaux de distribution dirigés par des femmes pour des produits énergétiques efficaces et hors réseau. Cela crée des opportunités d'indépendance économique et renforce leur pouvoir de décision en matière d'utilisation de l'énergie domestique."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "L'initiative va au-delà de l'adoption des produits en éduquant les femmes et leurs communautés sur l'interprétation des factures d'électricité, le calcul de la consommation d'énergie, l'identification des sources de gaspillage d'énergie et la mise en œuvre de solutions de refroidissement passif comme les toits blancs et les ModRoofs, des systèmes de toiture modulaires fabriqués à partir de matériaux recyclés qui offrent une meilleure isolation et peuvent abaisser les températures intérieures jusqu'à 6 °C."
+              "text": "Le projet vise à : <br /><br /><strong>Former des femmes </strong>des quartiers informels en tant qu'auditrices énergétiques et amies du climat ou “Climate Saathis” en hindi, leur permettant de réaliser des évaluations énergétiques domestiques et de promouvoir des pratiques énergétiques durables. <br /><br />Facilite l'adoption de <strong>technologies de refroidissement passif, </strong>y compris la peinture blanche réfléchissante au solaire et ModRoofs, un système de toiture modulaire fabriqué à partir de matériaux recyclés qui peut réduire la température intérieure jusqu'à 6°C. <br /><br /><strong>Établit des réseaux de distribution dirigés par des femmes</strong> pour des appareils économes en énergie et hors réseau, favorisant l'entrepreneuriat vert local et l'autonomisation économique. <br /><br /><strong>Renforce le leadership local</strong> en soutenant les femmes à former des Groupes d'Action Communautaire et à devenir des Vikasinis (leaders communautaires), qui dialoguent avec les autorités municipales et défendent des politiques climatiques inclusives."
             }
           }
         ]
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -384,15 +371,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Impact sur l'accès à l'énergie, la résilience climatique et l'égalité des sexes</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'impact du projet Climate Saathis a été transformateur. Plus de 28 000 audits énergétiques ont été réalisés dans des communautés défavorisées, entraînant des économies annuelles d'électricité de plus de 700 000 USD pour les familles.<br />Le projet a facilité l'installation de 200 toits modulaires et de 500 toits avec de la peinture réfléchissante solaire, réduisant collectivement les émissions de carbone d'environ 105 tonnes équivalentes CO₂ par an.<br />Un aspect exemplaire du projet est son intégration des femmes dans divers aspects de la résilience climatique. De la devenir auditrices énergétiques à la formation de Groupes d'Action Communautaire (CAG) et à agir en tant que leaders ou Vikasinis, les femmes jouent des rôles multifacettes. Ces Vikasinis participent à des réunions avec les parties prenantes, les autorités locales, les instituts et les membres de la société, abordant efficacement les problèmes locaux et influençant un changement positif.<br />L'impact transformateur du projet Climate Saathis est évident dans des exemples concrets. Les maisons ayant autrefois supporté des températures atteignant jusqu'à 50 degrés Celsius ont maintenant adopté des toits rafraîchissants fabriqués à partir de matériaux durables, réduisant considérablement les températures intérieures. Ces changements tangibles ont amélioré les conditions de vie, renforcé la santé et même fourni une plateforme pour des activités génératrices de revenus, telles que des entreprises à domicile.<br />L'approche innovante et axée sur la communauté du projet a valu au Mahila Housing Trust le Prix mondial de l'action climatique des Nations Unies 2019 lors de la conférence des Nations Unies sur le changement climatique. Cette reconnaissance souligne l'importance d'intégrer des perspectives intersectionnelles et de genre dans les stratégies d'accès à l'énergie durable et dans les efforts d'atténuation et d'adaptation au changement climatique."
+              "text": "Le projet a utilisé une stratégie de mise en œuvre à plusieurs niveaux basée sur la participation communautaire, les partenariats locaux et des solutions spécifiques au contexte. MHT a mené des évaluations des besoins localisées pour concevoir des modules de formation adaptés, a collaboré avec des experts techniques pour introduire des technologies de refroidissement durables, et a travaillé en étroite collaboration avec les gouvernements locaux pour intégrer des stratégies de toits frais dans les plans d'action contre la chaleur municipaux. Les activités clés de mise en œuvre comprenaient : <br /> <br /><strong>Ateliers de renforcement des capacités</strong> pour les femmes dans les communautés de bidonvilles à travers plusieurs villes indiennes. <br /><br /><strong>Campagnes de sensibilisation communautaire</strong> sur la conservation de l'énergie et la sensibilisation aux risques climatiques. <br /><br /><strong>Déploiement de solutions de refroidissement passif</strong> dans les ménages à faible revenu.<br /> <br /><strong>Engagement avec les urbanistes</strong> pour intégrer les retours de la communauté dans les stratégies d'<ai prompt=\"Expliquer les stratégies d'adaptation au climat.\">adaptation climatique 💬️</ai>. <br /><br />Les défis tels que la résistance basée sur le genre et le manque de sensibilisation ont été abordés par le biais d'une mobilisation communautaire inclusive et de la démonstration d'avantages concrets, tels que la réduction des coûts énergétiques et l'amélioration du confort intérieur."
             }
           }
         ]
@@ -416,13 +397,13 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Conclusion</strong>"
+              "text": "<strong>Impacts du projet</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Grâce à son accent sur l'inclusivité, l'initiative Climate Saathis a donné un puissant exemple de la manière dont les groupes marginalisés peuvent être habilités à mener un changement transformateur.<br />En abordant des défis interconnectés tels que la pauvreté, l'inégalité des sexes et le manque d'accès à l'énergie, le projet Climate Saathis met en lumière le potentiel des solutions communautaires pour créer des résultats équitables et durables. <br />Le projet Climate Saathis démontre que l'autonomisation des femmes n'est pas seulement un moyen d'améliorer la résilience climatique, mais un pilier pour atteindre une transition énergétique juste et équitable. En intégrant l'éducation, l'entrepreneuriat et le plaidoyer, cette initiative illustre comment des approches intersectionnelles et axées sur la communauté peuvent transformer les populations vulnérables en puissants agents de changement, garantissant que personne ne soit laissé pour compte dans le progrès vers un accès durable à l'énergie."
+              "text": "L'initiative Climate Saathis a permis d'obtenir des résultats mesurables dans les dimensions sociales, environnementales et économiques : <br /><br /><strong>28 000+ audits énergétiques</strong> réalisés dans les quartiers informels, ce qui a permis d'estimer une économie annuelle d'électricité <strong>supérieure à 700 000 USD</strong> pour les ménages participants. <br /><br />Installation de <strong>500 toits réfléchissants solaires</strong> et de 200 toits modulaires, contribuant à une réduction d'environ 105 tonnes d'émissions de CO₂ équivalent par an. <br /><br /><strong>13 781 femmes formées en tant que Climate Saathis</strong> dans divers États, avec beaucoup d'entre elles obtenant un emploi et une plus grande autonomie dans la prise de décision au sein du ménage et de la communauté. <br /><strong><br />Influence institutionnelle,</strong> y compris l'intégration de toits frais dans les Plans d'action contre la chaleur et la mousson d'Ahmedabad, démontrant l'adoption de politiques encouragée par la mobilisation communautaire. <br /><br /><strong>Amélioration de la santé et du bien-être</strong>, en particulier pour les enfants, les personnes âgées et les femmes enceintes, grâce à un confort thermique intérieur accru."
             }
           }
         ]
@@ -442,7 +423,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "https://www.seforall.org/chilling-prospects-access-to-cooling-gaps-2023<br /><br />https://www.seforall.org/data-stories/impact-of-climate-saathis-in-indias-urban-slums<br /><br />https://wrd.unwomen.org/explore/insights/india-women-act-make-slums-climate-resilient-one-house-time<br /><br />https://ngobox.org/full-news_Mahila-Housing-Trust-wins-2019-UN-Global-Climate-Action-Award-NGOBOX_22762"
+              "text": "En améliorant l'accès aux appareils écoénergétiques, en réduisant les coûts énergétiques et en favorisant la sensibilisation à l'énergie, le projet comble les lacunes critiques dans l'accès à l'énergie pour les communautés défavorisées. <br /> <br />Certaines des principales leçons du projet incluent : <br /><br /><strong>La propriété communautaire et l'inclusion de genre sont des facteurs essentiels</strong> pour des transitions énergétiques réussies dans des contextes informels. <br /><br /><strong>Les technologies passives à faible coût offrent des solutions évolutives</strong> pour la vulnérabilité à la chaleur urbaine, en particulier dans les contextes à ressources limitées. <br /><br /><strong>L’autonomisation économique des femmes</strong> et le leadership peuvent générer des co-bénéfices dans les domaines du climat, de l’énergie et du développement. <br /> <br />L'initiative offre un <strong>modèle reproductible pour les villes du Sud global</strong> confrontées à des défis similaires. Les conditions pour une réplication réussie incluent une forte collaboration municipale, une formation adaptée pour les femmes locales et un financement accessible pour les solutions énergétiques domestiques. <br /><br />Les efforts continus pour institutionnaliser le modèle et étendre sa portée sont soutenus par une reconnaissance croissante, notamment le Prix mondial de l'action climatique des Nations Unies en 2019. Avec un investissement continu, l'approche Climate Saathis peut contribuer de manière significative à la réalisation des ODD 5 (Égalité des sexes), 7 (Énergie abordable et propre), 11 (Villes et communautés durables) et 13 (Action pour le climat)."
             }
           }
         ]

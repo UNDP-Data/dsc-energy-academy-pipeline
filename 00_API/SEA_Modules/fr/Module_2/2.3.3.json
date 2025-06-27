@@ -95,7 +95,7 @@
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -125,7 +125,7 @@
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -160,8 +160,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Intro_7.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/M1_C1_3.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -281,8 +282,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Intro_7.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/M1_C1_3.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -334,8 +336,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_21.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/M1_C1_3.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -354,7 +357,7 @@
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -709,7 +712,7 @@
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -738,13 +741,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Étude de cas SIDS : Coopérative électrique Wintua-Lorlow</strong>"
+              "text": "<strong>Contexte</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Malgré l'augmentation significative de l'accès à l'énergie dans <ai prompt=\"Tell me more about small island developing states.\">les petits États insulaires en développement 💬️</ai> (SIDS), certaines îles connaissent encore de faibles taux d'électrification et une forte dépendance aux sources non renouvelables (voir l'image en bas de cette section). <br />Ces défis sont exacerbés par le changement climatique et les risques naturels, plaçant la résilience au premier plan des politiques énergétiques régionales. Cependant, des approches innovantes supplémentaires sont nécessaires pour accélérer l'électrification et l'intégration des solutions d'énergie renouvelable dans les SIDS.<br />En réponse, Vanuatu saisit l'énergie renouvelable pour élargir l'accès, actuellement disponible pour seulement 33 % de sa population. En septembre 2020, les communautés de Wintua et Lorlow ont inauguré un micro-réseau solaire communautaire. Cette structure de gestion locale aide à maintenir les coûts d'électricité bas en évitant les coûts d'exploitation externes. De plus, ces communautés ont mis en place une coopérative énergétique en partenariat avec le Département des coopératives pour gérer la collecte des frais d'électricité."
+              "text": "Vanuatu, un État insulaire en développement dans le sud-ouest du Pacifique, fait face à des défis liés à sa petite taille, sa localisation éloignée et sa vulnérabilité au changement climatique et aux chocs économiques. Ces facteurs impactent le bien-être de ses 300 000 résidents répartis sur 83 îles et entravent le développement. L'accès à l'énergie est un problème majeur, avec environ 30 % des ménages sans électricité, et ce chiffre pourrait être plus élevé en raison de problèmes de connectivité. <br /><br />Cet accès limité entrave le développement socio-économique, en particulier dans les zones reculées comme l'île de Malekula. Le manque d'électricité à Vanuatu limite l'accès à des services essentiels tels que les soins de santé, l'éducation et la communication, freinant le développement social global. Cela impacte également les activités économiques, en particulier dans les zones reculées, en limitant les opportunités pour les entreprises, le tourisme et l'agriculture de prospérer. Sans une alimentation électrique fiable, les efforts pour améliorer les infrastructures et soutenir une croissance durable sont considérablement ralentis. <br /><br />Pour résoudre ce problème, le Gouvernement du Vanuatu, par l'intermédiaire du Ministère du Changement climatique et du Département de l'énergie, en partenariat avec le PNUD et avec un financement du Gouvernement autrichien, a lancé le projet d'Action de mitigation appropriée au niveau national (NAMA). Une initiative phare de ce projet est la mise en place d'un micro-réseau solaire communautaire desservant les villages de Wintua et Lorlow dans le sud-ouest de Bay, Malekula. "
             }
           }
         ]
@@ -756,16 +759,22 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Objectifs du projet</strong>"
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'accès à une énergie fiable et durable est un facteur déterminant pour les communautés éloignées. L'introduction du micro-réseau solaire devrait améliorer la vie des 2 814 personnes vivant à Wintua et Lorlow. En fournissant de l'électricité à des services communautaires essentiels tels que les écoles, les soins de santé, les postes de police, les salles communautaires, les zones de marché et l'aéroport, cela facilite de meilleurs résultats éducatifs et sanitaires et améliore les moyens de subsistance locaux. Le passage aux méthodes de cuisson électriques a également fait progresser l'égalité des sexes, permettant aux femmes de consacrer moins de temps aux tâches traditionnelles comme la collecte de bois de chauffage et plus à des activités éducatives et entrepreneuriales."
+              "text": "Lancé le 22 septembre 2020, le micro-réseau solaire Wintua/Lorlow vise à : <br /> <br />Fournir une électricité propre, abordable et fiable à <strong> 2 814 résidents </strong> et à sept institutions clés, notamment des écoles, un centre de santé, un poste de police, une salle communautaire, une zone de marché et un aéroport. <br /><br />Favoriser <strong>la propriété communautaire et la durabilité</strong> par la mise en place du premier réseau électrique exploité localement à Vanuatu dans le cadre d'un système de gestion coopérative. <br /><br /><strong>Réduisez la dépendance aux générateurs diesel</strong>, ce qui permet de diminuer les émissions de gaz à effet de serre et les coûts opérationnels. <br /><br /><strong>Améliorer les moyens de subsistance locaux</strong>, l'éducation, les résultats en matière de santé et l'égalité des sexes grâce à un meilleur accès à l'énergie. <br /> <br />Ce modèle coopératif élimine les coûts opérationnels externes et les marges bénéficiaires, ce qui permet de maintenir des tarifs d'électricité abordables. Le Département des Coopératives soutient la coopérative dans la collecte des frais et la gouvernance. Au cours de la première année, une entreprise locale de services énergétiques a fourni une maintenance gratuite et a formé les membres de la communauté à l'exploitation et à l'entretien du système, favorisant la capacité locale et assurant la durabilité à long terme."
             }
           }
         ]
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -782,7 +791,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'initiative est étroitement alignée sur le Cadre de Résilience Communautaire de Vanuatu, qui souligne que les mesures doivent être ancrées dans les propres forces et valeurs de la communauté. Le succès de la propriété locale et de l'expertise dans la Coopérative Électrique Wintua-Lorlow démontre l'efficacité de telles approches. L'expansion de projets similaires à travers le Vanuatu et d'autres SIDS est essentielle pour aborder de manière globale les défis énergétiques régionaux."
+              "text": "Le micro-réseau a considérablement amélioré la qualité de vie à Wintua-Lorlow : <br /><br />Les ménages disposent désormais <strong>d'électricité fiable,</strong> ce qui réduit le besoin de bois de chauffage et permet l'utilisation de cuiseurs électriques, ce qui a particulièrement profité aux femmes en leur faisant gagner du temps et en améliorant leur santé. <br />Les établissements éducatifs peuvent fonctionner plus efficacement, avec le <strong>économies jusqu'à 2 millions de Vatu</strong> par an sur les coûts de carburant et en offrant aux étudiants de meilleures conditions d'étude. <br />Le <strong>centre de santé, le commissariat de police et d'autres installations publiques</strong> ont amélioré leurs services grâce à une alimentation électrique constante. <br /> <br />Le succès de la micro-réseau solaire Wintua-Lorlow démontre l'efficacité des solutions énergétiques communautaires dans les zones reculées, y compris les leçons suivantes : <br /> <br /><strong>Propriété communautaire et gestion coopérative</strong> aident à assurer la durabilité à long terme et l'accessibilité en réduisant les coûts et en alignant les services sur les besoins de la communauté. <br /><strong>Renforcement des capacités et formation locale</strong> sont essentiels pour le fonctionnement fiable et la maintenance des systèmes énergétiques, réduisant la dépendance au soutien externe et améliorant la longévité du système. <br /><strong>Politiques de soutien et cadres réglementaires, </strong>y compris les tarifs adaptatifs, sont essentiels pour rendre les projets énergétiques financièrement viables et évolutifs dans le temps. <br /> <br />Ce modèle s'aligne sur le Cadre de Résilience Communautaire de Vanuatu et propose une approche reproductible pour d'autres PETS et communautés éloignées cherchant à améliorer l'accès à l'énergie par des sources renouvelables."
             }
           }
         ]
@@ -1037,7 +1046,44 @@
             }
           ],
           "grid": {
-            "bottom": 150
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Taux d'électrification nationale et rurale dans les Îles de l'océan Indien, 2020/2021",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }
@@ -1050,20 +1096,6 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/678_458.webp",
           "caption": ""
         }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Élargir l'accès à l'énergie pour les communautés défavorisées et <ai prompt=\"Explain marginalized communities.\">les communautés marginalisées 💬️</ai> est un défi complexe et multifacette qui nécessite souvent la collaboration de diverses parties prenantes. <br />Bien que les gouvernements et les organisations internationales jouent des rôles significatifs dans la promotion de l'accès à l'énergie, les partenariats et l'engagement des parties prenantes de divers secteurs sont essentiels pour obtenir des résultats réussis. "
-            }
-          }
-        ]
       }
     },
     {

@@ -93,7 +93,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Note: The exact numbers for people lacking access to energy and <ai prompt=\"Explain clean cooking.\">clean cooking 💬️</ai> have changed since the date of this Declaration."
+              "text": "Note: The exact numbers for people lacking access to energy and <ai prompt=\"Share details about clean cooking.\">clean cooking 💬️</ai> have changed since the date of this Declaration."
             }
           }
         ]
@@ -119,13 +119,13 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "To better understand this relationship, we often look at the <ai prompt=\"Share details about human development index.\">human development index 💬️</ai> (HDI), a measure that gives us a snapshot of a nation's overall well-being. The<a href=\"https://hdr.undp.org/data-center/human-development-index#/indicies/HDI\"><u> HDI</u></a> is a composite indicator consisting of life expectancy, education and per capita income indicators. Countries are scored between 0 and 1, with higher scores reflecting greater development."
+              "text": "To better understand this relationship, we often look at the <ai prompt=\"Provide more info on human development index.\">human development index 💬️</ai> (HDI), a measure that gives us a snapshot of a nation's overall well-being. The<a href=\"https://hdr.undp.org/data-center/human-development-index#/indicies/HDI\"><u> HDI</u></a> is a composite indicator consisting of life expectancy, education and per capita income indicators. Countries are scored between 0 and 1, with higher scores reflecting greater development."
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Energy consumption is closely tied to HDI. <br /></strong><br />At low levels of development, even small increases in energy use lead to significant improvements in HDI. However, as development increases, additional energy use has diminishing returns, with smaller improvements in HDI at higher levels of energy consumption. While it’s important to note that the relationship is not as strong at very high levels of HDI _ <strong>after a certain threshold, more energy use doesn’t guarantee higher levels of development </strong>_ it is still crucial to understand that <strong>historically, no country has achieved a high level of development without increased energy use. </strong>"
+              "text": "<strong>Energy consumption is closely tied to HDI. <br /></strong><br />At low levels of development, even small increases in energy use lead to significant improvements in HDI. However, as development increases, additional energy use has diminishing returns, with smaller improvements in HDI at higher levels of energy consumption. While it’s important to note that the relationship is not as strong at very high levels of HDI – <strong>after a certain threshold, more energy use doesn’t guarantee higher levels of development –</strong> it is still crucial to understand that <strong>historically, no country has achieved a high level of development without increased energy use. </strong>"
             }
           }
         ]
@@ -845,7 +845,47 @@
               "type": "scatter",
               "name": "South America"
             }
-          ]
+          ],
+          "title": {
+            "text": "The Human Development Index (HDI) and energy use per capita, 2019",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -978,7 +1018,47 @@
                 }
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Energy and Climate Change",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -1057,7 +1137,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>The global energy transition is gaining momentum, but beneath the surface of progress lies a series contradiction.<br /></strong><br /> Solar and wind are breaking records. Clean technologies are cheaper and spreading faster than ever before. <br /><br />And yet, fossil fuels remain deeply entrenched, access remains deeply unequal, and investment flows continue to bypass the communities that need them most. <br /><br />Are we truly transitioning or just rearranging the imbalance? Why is clean energy booming while fossil fuels still dominate? These questions are crucial to frame the issue of <ai prompt=\"Provide more info on energy for development.\">energy for development 💬️</ai> and question the systems at play in its transformation."
+              "text": "<strong>The global energy transition is gaining momentum, but beneath the surface of progress lies a series contradiction.<br /></strong><br /> Solar and wind are breaking records. Clean technologies are cheaper and spreading faster than ever before. <br /><br />And yet, fossil fuels remain deeply entrenched, access remains deeply unequal, and investment flows continue to bypass the communities that need them most. <br /><br />Are we truly transitioning or just rearranging the imbalance? Why is clean energy booming while fossil fuels still dominate? These questions are crucial to frame the issue of <ai prompt=\"What is energy for development?\">energy for development 💬️</ai> and question the systems at play in its transformation."
             }
           }
         ]
@@ -1077,395 +1157,10 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Faced with the dual challenge of balancing universal, affordable access with climate mitigation, the world is slowly starting to shift energy systems. <br /></strong><br />The cost of solar electricity has dropped by over 85% between 2010 and 2020 (<a href=\"https://www.irena.org/-/media/files/irena/agency/publication/2022/mar/irena_weto_summary_2022.pdf?la=en&hash=1da99d3c3334c84668f5caae029bd9a076c10079\"><u>IRENA</u></a>, 2022), and renewables are now the cheapest source of new power in most of the world. In 2024, clean energy investments reached a historic $2 trillion, more than doubling since 2020 (<a href=\"https://www.iea.org/news/investment-in-clean-energy-this-year-is-set-to-be-twice-the-amount-going-to-fossil-fuels\"><u>IEA</u></a>, 2024). As illustrated in the following chart, the share of renewable energy in global electricity generation has already risen from approximately 20% in 2000 to over 30% in 2023. Looking ahead, it is projected to increase by an additional 90% by 2030, compared to 2023 levels.<br /><br />Solar and wind are finally outcompeting coal and gas in many markets. For the first time, renewables are set to become the largest source of global electricity. <br /><br />Governments, companies, and communities around the world are increasingly committing to net-zero pathways. Breakthroughs in <ai prompt=\"What is battery storage?\">battery storage 💬️</ai>, green hydrogen, and energy access solutions offer hope. These are signs of genuine transformation. <br /><br /><strong>But is it happening fast enough?</strong>"
+              "text": "<strong>Faced with the dual challenge of balancing universal, affordable access with climate mitigation, the world is slowly starting to shift energy systems. <br /></strong><br />The cost of solar electricity has dropped by over 85% between 2010 and 2020 (<a href=\"https://www.irena.org/-/media/files/irena/agency/publication/2022/mar/irena_weto_summary_2022.pdf?la=en&hash=1da99d3c3334c84668f5caae029bd9a076c10079\"><u>IRENA</u></a>, 2022), and renewables are now the cheapest source of new power in most of the world. In 2024, clean energy investments reached a historic $2 trillion, more than doubling since 2020 (<a href=\"https://www.iea.org/news/investment-in-clean-energy-this-year-is-set-to-be-twice-the-amount-going-to-fossil-fuels\"><u>IEA</u></a>, 2024). As illustrated in the following chart, the share of renewable energy in global electricity generation has already risen from approximately 20% in 2000 to over 30% in 2023. Looking ahead, it is projected to increase by an additional 90% by 2030, compared to 2023 levels.<br /><br />Solar and wind are finally outcompeting coal and gas in many markets. For the first time, renewables are set to become the largest source of global electricity. <br /><br />Governments, companies, and communities around the world are increasingly committing to net-zero pathways. Breakthroughs in <ai prompt=\"Provide more info on battery storage.\">battery storage 💬️</ai>, green hydrogen, and energy access solutions offer hope. These are signs of genuine transformation. <br /><br /><strong>But is it happening fast enough?</strong>"
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#c5192d",
-            "#fd6925",
-            "#fd9d24",
-            "#0468b1",
-            "#19486a",
-            "#4c9f38",
-            "#dd1367",
-            "#3f7e44",
-            "#0a97d9",
-            "#fcc30b"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              2000,
-              2001,
-              2002,
-              2003,
-              2004,
-              2005,
-              2006,
-              2007,
-              2008,
-              2009,
-              2010,
-              2011,
-              2012,
-              2013,
-              2014,
-              2015,
-              2016,
-              2017,
-              2018,
-              2019,
-              2020,
-              2021,
-              2022,
-              2023,
-              2024,
-              2025,
-              2026,
-              2027,
-              2028,
-              2029,
-              2030
-            ],
-            "name": "Year"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "%"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "..."
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "type": "line",
-              "name": "All renewable",
-              "data": [
-                18.4,
-                17.9,
-                17.9,
-                17.5,
-                17.9,
-                18.1,
-                18.2,
-                18.0,
-                18.6,
-                19.4,
-                19.5,
-                19.9,
-                20.8,
-                21.6,
-                22.1,
-                22.7,
-                23.6,
-                24.3,
-                25.1,
-                26.1,
-                28.0,
-                27.9,
-                29.4,
-                30.3,
-                32.1,
-                34.5,
-                36.7,
-                38.8,
-                41.0,
-                43.2,
-                45.6
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Variable renewable",
-              "data": [
-                0.2,
-                0.3,
-                0.3,
-                0.4,
-                0.5,
-                0.6,
-                0.7,
-                0.9,
-                1.2,
-                1.5,
-                1.7,
-                2.3,
-                2.7,
-                3.4,
-                3.8,
-                4.4,
-                5.1,
-                6.1,
-                6.9,
-                7.8,
-                9.1,
-                10.1,
-                11.7,
-                13.2,
-                15.0,
-                17.5,
-                19.8,
-                22.1,
-                24.5,
-                27.0,
-                29.5
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Hydropower",
-              "data": [
-                17.0,
-                16.5,
-                16.3,
-                15.8,
-                16.1,
-                16.1,
-                16.0,
-                15.6,
-                15.9,
-                16.2,
-                16.0,
-                15.8,
-                16.2,
-                16.3,
-                16.2,
-                16.1,
-                16.2,
-                15.9,
-                15.8,
-                15.8,
-                16.3,
-                15.1,
-                15.0,
-                14.3,
-                14.3,
-                14.2,
-                14.1,
-                13.8,
-                13.6,
-                13.3,
-                13.1
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Wind",
-              "data": [
-                0.2,
-                0.2,
-                0.3,
-                0.4,
-                0.5,
-                0.6,
-                0.7,
-                0.9,
-                1.1,
-                1.4,
-                1.6,
-                2.0,
-                2.3,
-                2.8,
-                3.0,
-                3.4,
-                3.9,
-                4.4,
-                4.8,
-                5.3,
-                6.0,
-                6.5,
-                7.3,
-                7.8,
-                8.2,
-                9.2,
-                9.9,
-                10.7,
-                11.6,
-                12.5,
-                13.4
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Solar PV",
-              "data": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.1,
-                0.1,
-                0.1,
-                0.3,
-                0.4,
-                0.6,
-                0.8,
-                1.0,
-                1.3,
-                1.7,
-                2.1,
-                2.5,
-                3.1,
-                3.6,
-                4.4,
-                5.4,
-                6.8,
-                8.3,
-                9.8,
-                11.4,
-                12.9,
-                14.5,
-                16.1
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Other renewable",
-              "data": [
-                1.2,
-                1.2,
-                1.2,
-                1.3,
-                1.3,
-                1.4,
-                1.4,
-                1.5,
-                1.5,
-                1.7,
-                1.8,
-                1.8,
-                1.9,
-                2.0,
-                2.1,
-                2.2,
-                2.3,
-                2.4,
-                2.4,
-                2.5,
-                2.7,
-                2.7,
-                2.7,
-                2.8,
-                2.8,
-                2.8,
-                2.9,
-                2.9,
-                2.9,
-                3.0,
-                3.0
-              ]
-            }
-          ]
-        }
       }
     },
     {
@@ -1546,7 +1241,7 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "<strong>Clean energy is cheaper than ever</strong>—solar costs dropped >85% since 2010, <br />Yet <strong>fossil fuels still make up 80% </strong>of global energy ( <a href=\"https://www.energyinst.org/statistical-review\"><u>Energy Institute</u></a>, 2024).",
+              "title": "<strong>Clean energy is cheaper than ever</strong>—solar costs dropped >85% since 2010, <br />Yet <strong>fossil fuels still make up 80% </strong>of global energy (<a href=\"https://www.energyinst.org/statistical-review\"><u>Energy Institute</u></a>, 2024).",
               "body": "",
               "source": ""
             }
@@ -1718,18 +1413,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/Screenshot 2025-03-13 at 15.55.24 1.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1775,18 +1458,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_15.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {

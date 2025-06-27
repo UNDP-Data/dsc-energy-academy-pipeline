@@ -1,0 +1,404 @@
+{
+  "id": "8.-1.0",
+  "segments": [
+    {
+      "template_id": "scored_quiz",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Cuestionario calificado <br/><strong>Módulo 8</strong>",
+        "intro": "Este cuestionario cubre todas las lecciones de este módulo. Debes alcanzar el 80 % para aprobar. ¡Buena suerte!",
+        "final": true,
+        "labels": {
+          "correct": "Correcto",
+          "question": "Pregunta",
+          "result": "Resultado del cuestionario",
+          "score": "Tu puntuación",
+          "passingScore": "Puntuación mínima aprobatoria",
+          "startButton": "Iniciar cuestionario",
+          "nextButton": "Siguiente",
+          "submitButton": "Enviar",
+          "retryButton": "Repetir",
+          "passed": "Pasado",
+          "failed": "No aprobado"
+        },
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "¿Cuál es uno de los principales factores que impulsan el aumento de la demanda de electricidad en los edificios para 2050?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Mayor uso de gas natural"
+              },
+              {
+                "id": 2,
+                "value": "Uso incrementado de aire acondicionado y refrigeración"
+              },
+              {
+                "id": 3,
+                "value": "Declive en las poblaciones rurales"
+              },
+              {
+                "id": 4,
+                "value": "Menos dependencia de los dispositivos digitales"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Se espera que la demanda creciente de refrigeración residencial, particularmente en los mercados emergentes, se triplique para 2050, convirtiéndose en un importante contribuyente al aumento del uso de electricidad en los edificios."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Se espera que la demanda creciente de refrigeración residencial, particularmente en los mercados emergentes, se triplique para 2050, convirtiéndose en un importante contribuyente al aumento del uso de electricidad en los edificios."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "¿Qué región se espera que vea el mayor crecimiento en los hogares de clase media para 2034?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "África subsahariana"
+              },
+              {
+                "id": 2,
+                "value": "Europa"
+              },
+              {
+                "id": 3,
+                "value": "Asia-Pacífico"
+              },
+              {
+                "id": 4,
+                "value": "América del Sur"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "La región de Asia-Pacífico albergará dos tercios de todos los hogares de clase media en los mercados emergentes para 2029, siendo China e India los que experimenten los mayores aumentos."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "La región de Asia-Pacífico albergará dos tercios de todos los hogares de clase media en los mercados emergentes para 2029, siendo China e India los que experimenten los mayores aumentos."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Bajo el escenario de Emisiones Netas Cero (NZE), ¿qué porcentaje de la demanda de energía se satisface con energía limpia para 2050?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0,4"
+              },
+              {
+                "id": 2,
+                "value": "0,58"
+              },
+              {
+                "id": 3,
+                "value": "0,75"
+              },
+              {
+                "id": 4,
+                "value": "0,9"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "En el escenario NZE, se espera que el 90 % de la demanda mundial de energía sea satisfecha por energía limpia para 2050."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "En el escenario NZE, se espera que el 90 % de la demanda mundial de energía sea satisfecha por energía limpia para 2050."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "¿Cuál de los siguientes es un desafío asociado con la creciente digitalización de los sistemas energéticos?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Demanda de energía reducida"
+              },
+              {
+                "id": 2,
+                "value": "Aumento del consumo de combustibles fósiles"
+              },
+              {
+                "id": 3,
+                "value": "Riesgos de ciberseguridad"
+              },
+              {
+                "id": 4,
+                "value": "Reducción de los precios de la electricidad"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "La digitalización introduce nuevas vulnerabilidades de ciberseguridad a medida que las redes y sistemas eléctricos se vuelven más conectados."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "La digitalización introduce nuevas vulnerabilidades de ciberseguridad a medida que las redes y sistemas eléctricos se vuelven más conectados."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "¿Cuál es el aumento proyectado en la capacidad renovable para 2030 según la AIE?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "1,5 veces"
+              },
+              {
+                "id": 2,
+                "value": "2,7 veces"
+              },
+              {
+                "id": 3,
+                "value": "3,5 veces"
+              },
+              {
+                "id": 4,
+                "value": "5 veces"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Las proyecciones de la AIE estiman que la capacidad renovable global aumentará 2,7 veces para 2030."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Las proyecciones de la AIE estiman que la capacidad renovable global aumentará 2,7 veces para 2030."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "¿Qué parte de la electricidad mundial fue generada por energía nuclear en 2023?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Más del 25%"
+              },
+              {
+                "id": 2,
+                "value": "Justo menos del 5%"
+              },
+              {
+                "id": 3,
+                "value": "Un poco más del 9%"
+              },
+              {
+                "id": 4,
+                "value": "Más del 15%"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "En 2023, la energía nuclear representó poco más del 9 % de la generación de electricidad a nivel mundial."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "En 2023, la energía nuclear representó poco más del 9 % de la generación de electricidad a nivel mundial."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "¿Cuál de las siguientes afirmaciones es verdadera sobre el hidrógeno?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Emite gases de efecto invernadero cuando se utiliza"
+              },
+              {
+                "id": 2,
+                "value": "La producción de hidrógeno verde ya es generalizada"
+              },
+              {
+                "id": 3,
+                "value": "El hidrógeno puede descarbonizar sectores como la industria y el transporte"
+              },
+              {
+                "id": 4,
+                "value": "El hidrógeno se utiliza principalmente para la energía residencial"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "El hidrógeno, particularmente el hidrógeno verde, tiene un potencial significativo para descarbonizar sectores difíciles de descarbonizar como la industria pesada y el transporte de larga distancia."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "El hidrógeno, particularmente el hidrógeno verde, tiene un potencial significativo para descarbonizar sectores difíciles de descarbonizar como la industria pesada y el transporte de larga distancia."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "¿Cuál es una barrera clave para el despliegue de energías renovables en los países en desarrollo?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Demasiado apoyo gubernamental"
+              },
+              {
+                "id": 2,
+                "value": "Bajo costo de capital"
+              },
+              {
+                "id": 3,
+                "value": "<strong>Costo alto del capital</strong>"
+              },
+              {
+                "id": 4,
+                "value": "Dependencia excesiva de la energía hidroeléctrica"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Los altos costos de capital debido a los riesgos percibidos y la falta de mecanismos de desriesgo son una barrera importante en las economías en desarrollo."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Los altos costos de capital debido a los riesgos percibidos y la falta de mecanismos de desriesgo son una barrera importante en las economías en desarrollo."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "¿Por qué son una preocupación las limitaciones de tierras y recursos para el despliegue de energías renovables?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Las energías renovables requieren muy poco terreno"
+              },
+              {
+                "id": 2,
+                "value": "Los parques eólicos ocupan permanentemente la tierra que utilizan"
+              },
+              {
+                "id": 3,
+                "value": "La competencia por el uso de la tierra puede desplazar comunidades"
+              },
+              {
+                "id": 4,
+                "value": "Los paneles solares funcionan mejor en áreas urbanas"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Los proyectos de energía renovable a gran escala pueden entrar en conflicto con el uso de la tierra para la agricultura, la conservación y la vivienda, especialmente en regiones densamente pobladas."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Los proyectos de energía renovable a gran escala pueden entrar en conflicto con el uso de la tierra para la agricultura, la conservación y la vivienda, especialmente en regiones densamente pobladas."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "¿Qué porcentaje de las nuevas adiciones de capacidad eléctrica se proyecta que provenga de fuentes renovables para 2050 en los caminos de 1,5Â°C?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0,5"
+              },
+              {
+                "id": 2,
+                "value": "0,65"
+              },
+              {
+                "id": 3,
+                "value": "Casi 100%"
+              },
+              {
+                "id": 4,
+                "value": "0,8"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Según las trayectorias alineadas con el IPCC, se espera que casi todas las nuevas adiciones de capacidad para 2050 provengan de fuentes renovables."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Según las trayectorias alineadas con el IPCC, se espera que casi todas las nuevas adiciones de capacidad para 2050 provengan de fuentes renovables."
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module8.png",
+          "caption": ""
+        },
+        "intro": "Próximamente",
+        "title": "Módulo 8 Conclusión",
+        "cta": "Continúa aprendiendo",
+        "nextLessonId": "8.-1.-1"
+      }
+    }
+  ]
+}

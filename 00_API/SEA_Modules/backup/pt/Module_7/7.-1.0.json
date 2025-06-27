@@ -1,0 +1,368 @@
+{
+  "id": "7.-1.0",
+  "segments": [
+    {
+      "template_id": "scored_quiz",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Quiz pontuado <br/><strong>Módulo 7</strong>",
+        "intro": "Este questionário abrange todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
+        "final": true,
+        "labels": {
+          "correct": "Correto",
+          "question": "Pergunta",
+          "result": "Resultado do questionário",
+          "score": "Sua pontuação",
+          "passingScore": "Pontuação mínima de aprovação",
+          "startButton": "Iniciar quiz",
+          "nextButton": "Próximo",
+          "submitButton": "Enviar",
+          "retryButton": "Repetir",
+          "passed": "Aprovado",
+          "failed": "Não aprovado"
+        },
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "Um Ministério de Energia busca otimizar investimentos fora da rede em zonas rurais carentes, mas possui dados limitados a nível de domicílios. Qual das seguintes técnicas poderia identificar de forma mais eficaz as áreas prioritárias para a eletrificação?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Análise Custo-Benefício usando mapas de rede nacional"
+              },
+              {
+                "id": 2,
+                "value": "Aprendizado de máquina supervisionado usando dados de acesso rotulados e imagens de satélite"
+              },
+              {
+                "id": 3,
+                "value": "Pesquisas com equipes de censo nacional"
+              },
+              {
+                "id": 4,
+                "value": "Relatórios de consulta pública"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "O aprendizado de máquina supervisionado treinado em dados de acesso remoto e rotulados pode estimar o status de eletrificação e priorizar intervenções."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "O aprendizado de máquina supervisionado treinado em dados de acesso remoto e rotulados pode estimar o status de eletrificação e priorizar intervenções."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Qual das seguintes é uma condição necessária para usar dados de energia para apoiar o design de políticas transformadoras de gênero?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Números agregados de fornecimento de energia nacional"
+              },
+              {
+                "id": 2,
+                "value": "Implantação de medidores inteligentes nas capitais"
+              },
+              {
+                "id": 3,
+                "value": "Dados desagregados por gênero, renda e localização"
+              },
+              {
+                "id": 4,
+                "value": "Capacidade técnica no setor privado"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Apenas dados desagregados podem revelar desigualdades no acesso à energia e apoiar políticas direcionadas e sensíveis ao gênero."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Apenas dados desagregados podem revelar desigualdades no acesso à energia e apoiar políticas direcionadas e sensíveis ao gênero."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Você está apoiando uma estratégia PM&E para um programa regional de cozinha limpa. Qual dos seguintes indicadores forneceria insights acionáveis sobre equidade interseccional?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Consumo de GLP em áreas rurais vs urbanas"
+              },
+              {
+                "id": 2,
+                "value": "Dados de emissões do fogão"
+              },
+              {
+                "id": 3,
+                "value": "Custo médio de combustível por quilograma"
+              },
+              {
+                "id": 4,
+                "value": "Fardo da pobreza de tempo para as mulheres em famílias dependentes de lenha"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A pobreza de tempo revela os encargos estruturais enfrentados pelas mulheres e é crítica para o planejamento energético interseccional."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A pobreza de tempo revela os encargos estruturais enfrentados pelas mulheres e é crítica para o planejamento energético interseccional."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "Qual princípio dos Princípios Fundamentais das Estatísticas Oficiais da ONU é mais diretamente ameaçado quando os dados de medidores inteligentes privados são usados sem consentimento claro ou anonimização?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Princípio 2: Métodos profissionais e éticos"
+              },
+              {
+                "id": 2,
+                "value": "Princípio 4: Direito de comentar sobre uma má interpretação"
+              },
+              {
+                "id": 3,
+                "value": "Princípio 7: Transparência das leis"
+              },
+              {
+                "id": 4,
+                "value": "Princípio 10: Cooperação internacional"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Usar dados pessoais sem salvaguardas viola a ética profissional e mina a confiança."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Usar dados pessoais sem salvaguardas viola a ética profissional e mina a confiança."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Um governo quer usar aprendizado de máquina para direcionar subsídios de eletricidade. Qual é um risco ético importante se os dados de treinamento forem retirados apenas de consumidores urbanos?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Sobreajustar o modelo a contextos de baixa renda"
+              },
+              {
+                "id": 2,
+                "value": "Subsidiar excessivamente as áreas rurais"
+              },
+              {
+                "id": 3,
+                "value": "Viés algorítmico reforçando a exclusão de famílias rurais e informais"
+              },
+              {
+                "id": 4,
+                "value": "Inestabilidade do modelo devido à confiabilidade da rede"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Dados de treinamento tendenciosos podem excluir sistematicamente grupos carentes, reforçando a desigualdade."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Dados de treinamento tendenciosos podem excluir sistematicamente grupos carentes, reforçando a desigualdade."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "Qual é uma vantagem chave de usar análise prescritiva em vez de análise preditiva no planejamento da transição energética?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Ele prevê cenários climáticos"
+              },
+              {
+                "id": 2,
+                "value": "Ele aloca despesas de capital nos orçamentos nacionais"
+              },
+              {
+                "id": 3,
+                "value": "Recomenda ações específicas com base nos resultados previstos"
+              },
+              {
+                "id": 4,
+                "value": "Substitui o envolvimento das partes interessadas"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Modelos prescritivos traduzem previsões em caminhos de decisão concretos para os planejadores."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Modelos prescritivos traduzem previsões em caminhos de decisão concretos para os planejadores."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Em contextos onde a monitorização em tempo real é essencial (por exemplo para redes solares distribuídas), qual arquitetura é mais eficaz para reduzir a latência e a dependência de servidores centrais?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Computação apenas na nuvem com atualizações semanais"
+              },
+              {
+                "id": 2,
+                "value": "Livros de registro manuais atualizados mensalmente"
+              },
+              {
+                "id": 3,
+                "value": "Computação de borda para tomada de decisão localizada"
+              },
+              {
+                "id": 4,
+                "value": "Auditorias sociais usando painéis de controle comunitários"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A computação de borda permite o processamento local em tempo real, crítico para sistemas de energia adaptativos."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A computação de borda permite o processamento local em tempo real, crítico para sistemas de energia adaptativos."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "Um país acaba de adotar o OSeMOSYS para o planejamento de longo prazo. Qual é o seu valor principal para os formuladores de políticas?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Ele visualiza logotipos renováveis para campanhas públicas"
+              },
+              {
+                "id": 2,
+                "value": "Automatiza as reformas tarifárias"
+              },
+              {
+                "id": 3,
+                "value": "Permite a simulação de diferentes cenários de políticas energéticas e caminhos de investimento"
+              },
+              {
+                "id": 4,
+                "value": "Substitui-se às contas nacionais"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Os modelos OSeMOSYS analisam caminhos tecnoeconômicos sob restrições e ajudam a testar os impactos das políticas."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Os modelos OSeMOSYS analisam caminhos tecnoeconômicos sob restrições e ajudam a testar os impactos das políticas."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "Ao institucionalizar a governança de dados, qual é o principal valor de estabelecer um sandbox regulatório no setor de energia?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Reduz imediatamente os preços da energia"
+              },
+              {
+                "id": 2,
+                "value": "Ele atrasa a regulamentação para startups"
+              },
+              {
+                "id": 3,
+                "value": "Ele fornece um espaço seguro para testar inovação orientada por dados sob condições monitoradas"
+              },
+              {
+                "id": 4,
+                "value": "Ele ignora as regras de contratação pública"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Os ambientes de teste permitem que reguladores e inovadores co-projetem e testem novas soluções de dados energéticos antes da implementação completa."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Os ambientes de teste permitem que reguladores e inovadores co-projetem e testem novas soluções de dados energéticos antes da implementação completa."
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module7.png",
+          "caption": ""
+        },
+        "intro": "Próximo",
+        "title": "Módulo 7 Conclusão",
+        "cta": "Continue aprendendo",
+        "nextLessonId": "7.-1.-1"
+      }
+    }
+  ]
+}

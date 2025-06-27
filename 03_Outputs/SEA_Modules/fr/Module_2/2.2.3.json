@@ -100,8 +100,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_3.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/M1_C1_3.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -347,7 +348,47 @@
                 54
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Population ayant accès à des combustibles et technologies propres pour la cuisson par région de l'ODD (pourcentage)",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -395,19 +436,19 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Étude de cas RBA : Production et utilisation d'énergie efficace de charbon grâce à des technologies innovantes et à l'implication du secteur privé en Sierra Leone</strong>"
+              "text": "<strong>Production et utilisation efficaces de l'énergie du charbon de bois grâce à des technologies innovantes et à l'implication du secteur privé en Sierra Leone</strong>"
             }
           },
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Le problème</strong>"
+              "text": "<strong>Contexte</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Au cours des années 1980 et 1990, le charbon est devenu un combustible urbain minoritaire, dépassant progressivement le bois de chauffage et devenant le combustible de bois préféré de la majorité des habitants urbains. Cependant, le sous-secteur traditionnel du charbon de bois et des cuisinières en Sierra Leone souffre depuis longtemps d'informalité, d'un manque de réglementation et de fragmentation, avec des systèmes de production inefficaces fortement dépendants de sources non renouvelables et de déclarations politiques incohérentes."
+              "text": "En Sierra Leone, le charbon de bois reste le principal combustible de cuisson dans les villes, avec plus de 90 % des ménages urbains qui en dépendent. Pourtant, son utilisation continue a un coût élevé. (IJSDR, 2024) La production traditionnelle est inefficace et polluante, entraînant la déforestation, une partie des <strong>500 000 hectares</strong> perdus chaque année en Afrique de l'Ouest, perturbant les chaînes d'approvisionnement, et exposant les femmes et les enfants à la pollution de l'air intérieur qui cause des milliers de décès prématurés chaque année. La dépendance au charbon de bois n'est pas seulement une question de santé ou d'environnement ; elle reflète un fossé plus profond dans l'accès à l'énergie. Sans options de cuisson abordables et modernes, les familles restent enfermées dans des pratiques dangereuses et insoutenables. (Energy 4 Impact, 2021) Bien que des alternatives plus propres existent, de nombreux ménages à faible revenu ne peuvent pas se les permettre ou y accéder."
             }
           }
         ]
@@ -418,18 +459,6 @@
       "color_scheme": "light",
       "content": {
         "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Objectifs du projet et financement</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Pour relever ces défis, le projet financé par le Fonds mondial pour l'environnement et soutenu par le PNUD sur la production et l'utilisation efficaces en énergie du charbon grâce à des technologies innovantes et à l'implication du secteur privé en Sierra Leone vise à générer des avantages économiques, sociaux et environnementaux. Le projet encourage la production de charbon durable à partir de sources renouvelables et la promotion de cuisinières améliorées pour atténuer la déforestation, améliorer la santé publique et réduire les émissions de gaz à effet de serre. Plus précisément, l'initiative vise à soutenir des alternatives au charbon traditionnel telles que le charbon produit de manière durable à l'aide de fours améliorés et de combustibles biomasse alternatifs comme les briquettes de sciure et les résidus agricoles, afin de réduire la déforestation, d'améliorer <ai prompt=\"Tell me more about energy efficiency.\">l'efficacité énergétique 💬️</ai>, et de diminuer les émissions de gaz à effet de serre."
-            }
-          },
           {
             "template_id": "subtitle_small",
             "content": {
@@ -439,7 +468,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Le projet fonctionne à travers trois composants principaux. Le premier composant met l'accent sur l'établissement de cadres politiques et réglementaires solides, le renforcement des capacités institutionnelles et la formulation de politiques, lois et règlements efficaces liés à une production de charbon plus efficace et à des cuisinières améliorées."
+              "text": "Le projet s'est concentré sur trois domaines prioritaires : <br /><br /><strong>Améliorer l'accès à une cuisson propre,</strong> en particulier pour les femmes et les ménages à faible revenu. <br /><strong>Réduire la déforestation</strong> et les émissions grâce à des méthodes de production de charbon plus propres.<br /> <br /><strong>Favoriser l'entrepreneuriat vert</strong> en permettant aux petites entreprises de participer à la transition énergétique. "
             }
           }
         ]
@@ -453,25 +482,13 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Approche public-privé</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le projet s'efforce de catalyser des initiatives public-privé, favorisant des partenariats tout au long de la chaîne de valeur de la production et de l'utilisation du charbon. Grâce au développement d'incitations, y compris le financement carbone, la microfinance, les remises et les systèmes de garantie de prêts, le projet vise à développer des entreprises de charbon durable et de cuisinières améliorées. De plus, la mise en œuvre de cuisinières industrielles produites localement pour des entreprises génératrices de revenus et de fours efficaces pour la production de charbon contribue aux objectifs du projet."
-            }
-          },
-          {
-            "template_id": "subtitle_small",
-            "content": {
               "text": "<strong>Impact du projet</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Le projet envisage un passage vers une production et une utilisation améliorées et plus efficaces du charbon de bois et des cuisinières comme pratiques courantes en Sierra Leone. Cela implique un développement des capacités sensible au genre, des programmes de promotion mettant l'accent sur les avantages sociaux, économiques et environnementaux du charbon durablement sourcé et des cuisinières améliorées, ainsi que des campagnes de sensibilisation du public pour sensibiliser les acteurs clés de la chaîne de valeur."
+              "text": "En deux ans, le projet a généré des améliorations environnementales et sociales mesurables dans toute la chaîne de valeur du charbon de bois : <br /><br />Plus de <strong>15 000 ménages</strong> ont adopté des cuisinières améliorées pour une cuisson plus sûre et plus efficace. <br /><br /><strong>L'exposition à la fumée intérieure a diminué,</strong> améliorant la santé respiratoire des femmes et des enfants. <br /><br /><strong>La utilisation du charbon de bois a diminué jusqu'à 30 %,</strong> réduisant les coûts et la pression sur les forêts. <a href=\"https://www.undp.org/sierra-leone/stories/margaret-yainkain-mansarays-journey-promoting-green-smart-clean-cooking-solutions-sierra-leone\"><u>UNDP</u></a>, 2014) <br /><br /><strong>Les femmes ont gagné du temps pour cuisiner</strong> et collecter du combustible, permettant de consacrer du temps au travail, à l'apprentissage ou au repos.<br /> <br /><strong>Les entrepreneurs ont accédé au financement et aux incitations</strong>, élargissant les solutions d'énergie propre. <br /><br />Des histoires comme celle de <a href=\"https://www.undp.org/sierra-leone/stories/margaret-yainkain-mansarays-journey-promoting-green-smart-clean-cooking-solutions-sierra-leone\"><u>Margaret Yainkain Mansaray</u></a>, une défenseure de l’énergie propre du district de Bo, mettent en évidence comment le leadership communautaire et l’implication des femmes peuvent entraîner un changement durable dans l’utilisation de l’énergie domestique.</br></br> (UNDP, 2023) <br /><br />En s'appuyant sur ces transformations individuelles, l'initiative a également contribué à orienter les priorités énergétiques nationales en Sierra Leone vers des solutions de biomasse plus durables. Il a renforcé la capacité de fabrication locale pour des <strong>cuisinières</strong> et <strong>fours</strong> efficaces, posant ainsi les bases pour une adoption plus large et une éventuelle réplication dans d'autres régions."
             }
           }
         ]
@@ -493,21 +510,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Résumé</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Ce projet vise à transformer le sous-secteur du charbon et des cuisinières en Sierra Leone en alignant les pratiques de production sur les principes de durabilité, en favorisant les partenariats et en promouvant des technologies efficaces. Grâce à des cadres politiques complets, des initiatives public-privé et des interventions ciblées, le projet aspire à rendre le charbon certifié et les cuisinières améliorées courants, apportant des changements positifs dans les aspects économiques, sociaux et environnementaux du pays.<br /><br />Sources :<br />· UNDP Sierra Leone (n.d.) Production et utilisation d'énergie efficace du charbon grâce à des technologies innovantes<br />· UNDP, GEF (n.d.) Document de projet UNDP. Pays : Sierra Leone<br /></u></a>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Les statistiques liées à la dynamique des combustibles de cuisson soulignent la nécessité d'interventions ciblées et d'efforts soutenus pour accélérer l'adoption de technologies de cuisson plus propres et plus durables dans les milieux urbains et ruraux.</strong>"
+              "text": "<br />Les leçons clés de l'initiative de charbon de Sierra Leone incluent : <br /><br /><strong>La technologie ne suffit pas.</strong></br> </strong>La construction de la confiance, les démonstrations et la pertinence communautaire sont essentielles pour l'adoption. <br /><br /><strong>La finance permet l'expansion.</strong> Les microcrédits et les incitations aident les petites entreprises à se développer avec des technologies propres. <br /><br /><strong>La propriété locale soutient le changement.</strong></br></br> </strong>La participation communautaire stimule l'adoption et l'impact à long terme. <br /><br /><strong>Le contexte façonne la réplication.</strong> Des chaînes d'approvisionnement solides et des politiques adaptées sont essentielles pour réussir ailleurs. <br /><br />En s'appuyant sur les progrès réalisés, le projet étend désormais l'adoption de la production de charbon à haute efficacité énergétique et de cuisinières plus propres à d'autres districts. En même temps, on s'attend à ce que les efforts de localisation de la fabrication de fours et de poêles améliorés <br> réduisent les coûts et créent de nouvelles opportunités de subsistance. Sur le plan politique, le PNUD travaille avec les parties prenantes nationales pour intégrer des pratiques de charbon de bois durables dans les stratégies d'énergie propre et de conservation des forêts.<br /><br />En privilégiant la livraison de dernière étape et l'accessibilité financière, l'initiative favorise directement l'accès à l'énergie pour les communautés mal desservies, en particulier celles exclues des solutions basées sur le réseau. Avec un soutien continu à la formation communautaire, à l'engagement du secteur privé et au financement basé sur la performance, l'initiative ouvre la voie à un impact à long terme et pourrait servir de modèle pour une réplication dans d'autres parties de l'Afrique de l'Ouest. <a href=\"https://www.fao.org/investment-centre/latest/news/detail/climate-finance--an-instrument-for-sustainable-agrifood-system-transformation-in-sierra-leone/en\"><u>FAO</u></a>, 2024"
             }
           }
         ]
@@ -785,7 +790,47 @@
                 0.91
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Part de tous les décès attribués à des températures suboptimales",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -1025,7 +1070,44 @@
             }
           ],
           "grid": {
-            "bottom": 100
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Part de la population vivant dans un climat chaud, 2022, et pénétration des climatiseurs, 2000-2022",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }
@@ -1068,7 +1150,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'efficacité énergétique joue également un rôle vital dans l'assurance d'un chauffage et d'un refroidissement adéquats. La qualité du logement a un impact significatif sur l'efficacité de ces solutions. Des maisons bien isolées avec des conceptions écoénergétiques peuvent réduire la demande de chauffage ou de climatisation excessive, bénéficiant à la fois à l'efficacité énergétique et au bien-être des occupants. En revanche, des conditions de logement inadéquates entraînent généralement une consommation d'énergie plus élevée et des coûts pour maintenir des températures confortables.<br /> <br />Étant donné qu'un logement adéquat est un élément clé de l'indicateur 11.1 des ODD (Proportion de la population urbaine vivant dans des bidonvilles, des établissements informels ou des logements inadéquats), le suivi de cet indicateur peut aider à réduire l'écart d'accès aux technologies de chauffage et de refroidissement.<br /><strong><br /> En promouvant un logement adéquat qui privilégie l'efficacité thermique, les décideurs politiques peuvent améliorer indirectement l'accès aux solutions de chauffage et de refroidissement.</strong>"
+              "text": "<strong><ai prompt=\"Explain energy efficiency.\">energy efficiency 💬️</ai></strong> joue également un rôle essentiel pour assurer un chauffage et une climatisation adéquats. La qualité du logement a un impact significatif sur l'efficacité de ces solutions. Des maisons bien isolées avec des conceptions écoénergétiques peuvent réduire la demande de chauffage ou de climatisation excessive, bénéficiant à la fois à l'efficacité énergétique et au bien-être des occupants. En revanche, des conditions de logement inadéquates entraînent généralement une consommation d'énergie plus élevée et des coûts pour maintenir des températures confortables.<br /> <br />Étant donné qu'un logement adéquat est un élément clé de l'indicateur 11.1 des ODD (Proportion de la population urbaine vivant dans des bidonvilles, des établissements informels ou des logements inadéquats), le suivi de cet indicateur peut aider à réduire l'écart d'accès aux technologies de chauffage et de refroidissement.<br /><strong><br /> En promouvant un logement adéquat qui privilégie l'efficacité thermique, les décideurs politiques peuvent améliorer indirectement l'accès aux solutions de chauffage et de refroidissement.</strong>"
             }
           }
         ]
@@ -1117,8 +1199,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_17.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/Group1758.webp",
+          "caption": null,
+          "url": null
         }
       }
     },

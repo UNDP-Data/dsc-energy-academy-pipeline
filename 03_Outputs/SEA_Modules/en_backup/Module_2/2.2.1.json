@@ -2,16 +2,6 @@
   "id": "2.2.1",
   "segments": [
     {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/4170_734.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
       "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
@@ -42,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The global energy landscape is marked by a profound disparity in access to energy services, chiefly manifested between regions and countries. <strong>This disparity is often referred to as the 'Global Energy Gap' - or 'Global Energy Divide'. <br /><br /></strong>While some countries have achieved near-universal access to electricity and <ai prompt=\"Provide more info on clean cooking.\">clean cooking 💬️</ai>, others continue to struggle with significant deficits. <br /><br />This lesson introduces the concept of the global energy divide, tracing progress and disparities across regions, income groups, and geographies. <br /><br />By mapping the current landscape, it highlights the urgent need for tailored, inclusive, and resilient solutions to ensure no one is left behind in the energy transition."
+              "text": "The global energy landscape is marked by a profound disparity in access to energy services, chiefly manifested between regions and countries. <strong>This disparity is often referred to as the 'Global Energy Gap' - or 'Global Energy Divide'. <br /><br /></strong>While some countries have achieved near-universal access to electricity and <ai prompt=\"Tell me more about clean cooking.\">clean cooking 💬️</ai>, others continue to struggle with significant deficits. <br /><br />This lesson introduces the concept of the global energy divide, tracing progress and disparities across regions, income groups, and geographies. <br /><br />By mapping the current landscape, it highlights the urgent need for tailored, inclusive, and resilient solutions to ensure no one is left behind in the energy transition."
             }
           }
         ]
@@ -217,7 +207,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Sub-Saharan Africa </strong>remains the region most significantly lagging behind on energy access. In 2023, only <strong>42.7% of the population had access to electricity, and just 21% had access to clean cooking fuels</strong> and technologies. This means around <strong>565 million people in the region still lacked electricity</strong>, and over 955 million were dependent on traditional <ai prompt=\"Tell me more about biomass.\">biomass 💬️</ai>, charcoal, or kerosene for cooking. The region now accounts for 85% of the global electricity access deficit, up from 50% in 2010. <br /><br />Annual population growth in Sub-Saharan Africa, around 29.2 million people per year, is nearly equal to the annual increase in electricity access, which was 30.2 million between 2021 and 2023. This parity slows overall progress and highlights the need for faster electrification.<br /><br /> Among the 20 countries with the largest energy access deficits, 18 are in Sub-Saharan Africa, with<strong> Nigeria</strong> (86.9 million), <strong>Democratic Republic of Congo</strong> (79.6 million), and <strong>Ethiopia</strong> (56.4 million) with the highest number of people lacking access, due notably to their large population."
+              "text": "<strong>Sub-Saharan Africa </strong>remains the region most significantly lagging behind on energy access. In 2023, only <strong>42.7% of the population had access to electricity, and just 21% had access to clean cooking fuels</strong> and technologies. This means around <strong>565 million people in the region still lacked electricity</strong>, and over 955 million were dependent on traditional <ai prompt=\"Share details about biomass.\">biomass 💬️</ai>, charcoal, or kerosene for cooking. The region now accounts for 85% of the global electricity access deficit, up from 50% in 2010. <br /><br />Annual population growth in Sub-Saharan Africa, around 29.2 million people per year, is nearly equal to the annual increase in electricity access, which was 30.2 million between 2021 and 2023. This parity slows overall progress and highlights the need for faster electrification.<br /><br /> Among the 20 countries with the largest energy access deficits, 18 are in Sub-Saharan Africa, with<strong> Nigeria</strong> (86.9 million), <strong>Democratic Republic of Congo</strong> (79.6 million), and <strong>Ethiopia</strong> (56.4 million) with the highest number of people lacking access, due notably to their large population."
             }
           }
         ]
@@ -411,7 +401,44 @@
             }
           ],
           "grid": {
-            "bottom": 100
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Annual increases in electrification and population, by region, 2020-22",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }

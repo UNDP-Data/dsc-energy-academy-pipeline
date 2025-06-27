@@ -1,0 +1,269 @@
+{
+  "id": "5.-1.0",
+  "segments": [
+    {
+      "template_id": "scored_quiz",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Quiz pontuado <br/><strong>Módulo 5</strong>",
+        "intro": "Este questionário abrange todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
+        "final": true,
+        "labels": {
+          "correct": "Correto",
+          "question": "Pergunta",
+          "result": "Resultado do questionário",
+          "score": "Sua pontuação",
+          "passingScore": "Pontuação mínima de aprovação",
+          "startButton": "Iniciar quiz",
+          "nextButton": "Próximo",
+          "submitButton": "Enviar",
+          "retryButton": "Repetir",
+          "passed": "Aprovado",
+          "failed": "Não aprovado"
+        },
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "Qual porcentagem das emissões globais de gases de efeito estufa é atribuída ao setor de energia?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Cerca de 45%"
+              },
+              {
+                "id": 2,
+                "value": "Cerca de 60%"
+              },
+              {
+                "id": 3,
+                "value": "Aproximadamente 75%"
+              },
+              {
+                "id": 4,
+                "value": "Menos de 25%"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "O setor de energia é responsável por cerca de 75% das emissões globais de GEE, tornando-se o maior contribuinte para as mudanças climáticas."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "O setor de energia é responsável por cerca de 75% das emissões globais de GEE, tornando-se o maior contribuinte para as mudanças climáticas."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Qual dos seguintes gases de efeito estufa tem o maior potencial de aquecimento global (PAG) entre os comumente emitidos pelo setor de energia?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Dióxido de carbono (CO₂)"
+              },
+              {
+                "id": 2,
+                "value": "Metano (CH₄)"
+              },
+              {
+                "id": 3,
+                "value": "Óxido nitroso (N₂O)"
+              },
+              {
+                "id": 4,
+                "value": "Hexafluoreto de enxofre (SF₆)"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "O SF₆ tem o GWP mais alto—cerca de 25.200 vezes o de CO₂—tornando-se um alvo crítico para reduções de emissões na distribuição de energia."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "O SF₆ tem o GWP mais alto—cerca de 25.200 vezes o de CO₂—tornando-se um alvo crítico para reduções de emissões na distribuição de energia."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Quais são os principais impactos ambientais associados ao desenvolvimento de infraestrutura de energia renovável?",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Disrupção do habitat"
+              },
+              {
+                "id": 2,
+                "value": "Poluição do ar proveniente das usinas de energia"
+              },
+              {
+                "id": 3,
+                "value": "Conflitos de uso da terra"
+              },
+              {
+                "id": 4,
+                "value": "Os impactos da extração mineral"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Todas as opções estão corretas. A interrupção do habitat e os conflitos de uso da terra surgem de instalações em grande escala, a poluição do ar pode ocorrer durante a produção de materiais e o desmantelamento, e a mineração de minerais necessários para painéis solares, turbinas eólicas e baterias causa uma grave degradação ambiental."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Todas as opções estão corretas. A interrupção do habitat e os conflitos de uso da terra surgem de instalações em grande escala, a poluição do ar pode ocorrer durante a produção de materiais e o desmantelamento, e a mineração de minerais necessários para painéis solares, turbinas eólicas e baterias causa uma grave degradação ambiental."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "Como as mudanças climáticas impactam o desempenho e a confiabilidade dos sistemas de energia?",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Aumenta a demanda de resfriamento durante as ondas de calor, estressando as redes elétricas"
+              },
+              {
+                "id": 2,
+                "value": "Melhora a eficiência das usinas térmicas aquecendo fontes de água"
+              },
+              {
+                "id": 3,
+                "value": "Destrói a geração de energia hidrelétrica devido a padrões de chuva em mudança"
+              },
+              {
+                "id": 4,
+                "value": "Aumenta o risco de falhas na infraestrutura devido a eventos climáticos extremos"
+              }
+            ],
+            "solution": [
+              1,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "As mudanças climáticas estressam os sistemas ao aumentar as necessidades de resfriamento, interromper a energia hidrelétrica e expor a infraestrutura a extremos climáticos. Água mais quente na verdade reduz—não melhora—a eficiência das usinas térmicas."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "As mudanças climáticas estressam os sistemas ao aumentar as necessidades de resfriamento, interromper a energia hidrelétrica e expor a infraestrutura a extremos climáticos. Água mais quente na verdade reduz—não melhora—a eficiência das usinas térmicas."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Quais são os principais desafios que limitam a adoção generalizada de tecnologias de energia renovável em países em desenvolvimento?",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Altos custos de capital inicial e restrições de financiamento"
+              },
+              {
+                "id": 2,
+                "value": "Falta de capacidade técnica e mão de obra qualificada"
+              },
+              {
+                "id": 3,
+                "value": "Mercados voláteis e limitações de infraestrutura"
+              },
+              {
+                "id": 4,
+                "value": "Políticas inconsistentes e integração de rede fraca"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Todas as opções listadas são restrições documentadas: altos custos, lacunas de habilidades, volatilidade do mercado e fraquezas em políticas/infraestrutura."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Todas as opções listadas são restrições documentadas: altos custos, lacunas de habilidades, volatilidade do mercado e fraquezas em políticas/infraestrutura."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "Qual das seguintes opções descreve com precisão as emissões do ciclo de vida das tecnologias de energia?",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "As emissões do ciclo de vida abrangem todas as etapas, desde a extração de recursos até a desativação"
+              },
+              {
+                "id": 2,
+                "value": "A energia solar e eólica têm emissões de ciclo de vida significativamente mais baixas do que o carvão ou o gás"
+              },
+              {
+                "id": 3,
+                "value": "O gás natural e o carvão são comparáveis à energia eólica e solar em emissões ao longo do ciclo de vida"
+              },
+              {
+                "id": 4,
+                "value": "As emissões do ciclo de vida são relevantes apenas para os combustíveis fósseis"
+              }
+            ],
+            "solution": [
+              1,
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A análise do ciclo de vida fornece uma visão abrangente das emissões. A energia eólica (13g CO₂/kWh) e a solar (43g CO₂/kWh) são muito inferiores ao carvão (1.001g) e ao gás natural (486g). A análise do ciclo de vida é relevante para todos os tipos de energia."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A análise do ciclo de vida fornece uma visão abrangente das emissões. A energia eólica (13g CO₂/kWh) e a solar (43g CO₂/kWh) são muito inferiores ao carvão (1.001g) e ao gás natural (486g). A análise do ciclo de vida é relevante para todos os tipos de energia."
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module5.png",
+          "caption": ""
+        },
+        "intro": "Próximo",
+        "title": "Módulo 5 Conclusão",
+        "cta": "Continue aprendendo",
+        "nextLessonId": "5.-1.-1"
+      }
+    }
+  ]
+}

@@ -100,8 +100,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_3.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/M1_C1_3.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -347,7 +348,47 @@
                 54
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Población con acceso a combustibles y tecnologías limpias para cocinar por región de los ODS (porcentaje)",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -395,19 +436,19 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Estudio de caso RBA: Producción y utilización de energía eficiente de carbón a través de tecnologías innovadoras y la participación del sector privado en Sierra Leona</strong>"
+              "text": "<strong>Producción y utilización eficientes de energía de carbón vegetal mediante tecnologías innovadoras y participación del sector privado en Sierra Leona</strong>"
             }
           },
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>El problema</strong>"
+              "text": "<strong>Contexto</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Durante las décadas de 1980 y 1990, el carbón emergió como un combustible urbano minoritario, superando gradualmente la leña y convirtiéndose en el combustible de madera preferido por la mayoría de los residentes urbanos. Sin embargo, el subsector tradicional de carbón y estufas de cocina en Sierra Leona ha sufrido durante mucho tiempo de informalidad, falta de regulación y fragmentación, con sistemas de producción ineficientes que dependen en gran medida de fuentes no renovables y declaraciones políticas inconsistentes."
+              "text": "En Sierra Leona, la <strong>carbón vegetal</strong> sigue siendo el principal combustible de cocina en las ciudades, con más del 90 % de los hogares urbanos que dependen de él. Sin embargo, su uso continuo tiene un alto costo. (IJSDR, 2024) La producción tradicional es ineficiente y contaminante, impulsando la deforestación, parte de las <strong>500,000 hectáreas</strong> perdidas anualmente en África Occidental, interrumpiendo las cadenas de suministro y exponiendo a mujeres y niños a la contaminación del aire interior que causa miles de muertes prematuras cada año. La dependencia del carbón vegetal no es solo un problema de salud o medioambiental; refleja una brecha más profunda en el acceso a la energía. Sin opciones de cocina asequibles y modernas, las familias permanecen atrapadas en prácticas inseguras e insostenibles. (Energy 4 Impact, 2021) Aunque existen alternativas más limpias, muchas familias de bajos ingresos no pueden permitírselas ni acceder a ellas."
             }
           }
         ]
@@ -418,18 +459,6 @@
       "color_scheme": "light",
       "content": {
         "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Objetivos del proyecto y financiación</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Abordando estos desafíos, el proyecto financiado por el Fondo Mundial para el Medio Ambiente y apoyado por el PNUD sobre la producción y utilización eficiente de energía del carbón a través de tecnologías innovadoras y la participación del sector privado en Sierra Leona tiene como objetivo generar beneficios económicos, sociales y ambientales. El proyecto fomenta la producción sostenible de carbón a partir de fuentes renovables y la promoción de estufas mejoradas para mitigar la deforestación, mejorar la salud pública y reducir las emisiones de gases de efecto invernadero. Específicamente, la iniciativa tiene como objetivo apoyar alternativas al carbón tradicional, como el carbón producido de manera sostenible utilizando hornos mejorados y combustibles de biomasa alternativos como briquetas de aserrín y residuos agrícolas, para reducir la deforestación, mejorar <ai prompt=\"Tell me more about energy efficiency.\">la eficiencia energética 💬️</ai>, y reducir las emisiones de gases de efecto invernadero."
-            }
-          },
           {
             "template_id": "subtitle_small",
             "content": {
@@ -439,7 +468,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El proyecto opera a través de tres componentes principales. El primer componente enfatiza el establecimiento de marcos políticos y regulatorios sólidos, el fortalecimiento de la capacidad institucional y la formulación de políticas, leyes y regulaciones efectivas relacionadas con una producción de carbón más eficiente y estufas mejoradas."
+              "text": "El proyecto se centró en tres áreas prioritarias: <br /><br /><strong>Mejorar el acceso a una cocina limpia,</strong> especialmente para las mujeres y los hogares de bajos ingresos. <br /><strong>Reducir la deforestación</strong> y las emisiones mediante métodos de producción de carbón más limpios.<br /> <br /><strong>Promover el emprendimiento verde</strong> permitiendo que las pequeñas empresas se unan a la transición energética. "
             }
           }
         ]
@@ -453,25 +482,13 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Enfoque público-privado</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "El proyecto busca catalizar iniciativas público-privadas, fomentando asociaciones a lo largo de la cadena de valor de la producción y utilización del carbón. A través del desarrollo de incentivos, incluyendo financiamiento de carbono, microfinanzas, reembolsos y esquemas de garantía de préstamos, el proyecto tiene como objetivo escalar negocios de carbón sostenible y estufas mejoradas. Además, la implementación de estufas industriales producidas localmente para empresas generadoras de ingresos y hornos eficientes para la producción de carbón contribuye a los objetivos del proyecto."
-            }
-          },
-          {
-            "template_id": "subtitle_small",
-            "content": {
               "text": "<strong>Impacto del proyecto</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El proyecto prevé un cambio hacia una producción y utilización mejoradas y más eficientes de carbón y estufas de cocina como prácticas comunes en Sierra Leona. Esto implica un desarrollo de capacidades sensible al género, esquemas promocionales que enfatizan los beneficios sociales, económicos y ambientales del carbón obtenido de manera sostenible y de las cocinas mejoradas, así como campañas de concienciación pública para sensibilizar a los actores clave de la cadena de valor."
+              "text": "En dos años, el proyecto generó mejoras ambientales y sociales medibles en toda la cadena de valor de la madera de carbón: <br /><br />Más de <strong>15,000 hogares</strong> adoptaron cocinas mejoradas para una cocción más segura y eficiente. <br /><br /><strong>La exposición al humo en interiores ha disminuido,</strong> mejorando la salud respiratoria de las mujeres y los niños. <br /><br /><strong>El uso de carbón vegetal disminuyó hasta un 30 %,</strong> reduciendo costos y la presión sobre los bosques. <a href=\"https://www.undp.org/sierra-leone/stories/margaret-yainkain-mansarays-journey-promoting-green-smart-clean-cooking-solutions-sierra-leone\"><u>UNDP</u></a>, 2014) <br /><br /><strong>Las mujeres ahorraron tiempo en cocinar</strong> y en la recolección de combustible, permitiendo espacio para el trabajo, el aprendizaje o el descanso.<br /> <br /><strong>Los emprendedores accedieron a financiamiento e incentivos</strong>, ampliando las soluciones de energía limpia. <br /><br />Historias como la de <a href=\"https://www.undp.org/sierra-leone/stories/margaret-yainkain-mansarays-journey-promoting-green-smart-clean-cooking-solutions-sierra-leone\"><u>Margaret Yainkain Mansaray</u></a>, una defensora de la energía limpia del distrito de Bo, destacan cómo el liderazgo comunitario y la participación de las mujeres pueden impulsar cambios duraderos en el uso de energía en los hogares.</br></br> (UNDP, 2023) <br /><br />Basándose en estas transformaciones individuales, la iniciativa también ayudó a cambiar las prioridades energéticas nacionales en Sierra Leona hacia soluciones de biomasa más sostenibles. Fortaleció la capacidad de fabricación local para <strong>estufas</strong> y <strong>horno</strong> eficientes, sentando las bases para una adopción más amplia y una posible replicación en otras regiones."
             }
           }
         ]
@@ -493,21 +510,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Resumen</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Este proyecto busca transformar el subsistema de carbón y estufas de cocina en Sierra Leona alineando las prácticas de producción con los principios de sostenibilidad, fomentando asociaciones y promoviendo tecnologías eficientes. A través de marcos de políticas integrales, iniciativas público-privadas e intervenciones específicas, el proyecto aspira a hacer que el carbón certificado y las cocinas mejoradas sean comunes, generando cambios positivos en los aspectos económicos, sociales y ambientales del país.<br /><br />Fuentes:<br />· UNDP Sierra Leona (n.d.) Producción y utilización de carbón eficiente en energía a través de tecnologías innovadoras<br />· UNDP, GEF (n.d.) Documento del proyecto UNDP. País: Sierra Leona<br /></u></a>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Las estadísticas relacionadas con la dinámica del combustible de cocina enfatizan la necesidad de intervenciones específicas y esfuerzos sostenidos para acelerar la adopción de tecnologías de cocina más limpias y sostenibles tanto en entornos urbanos como rurales.</strong>"
+              "text": "<br />Las lecciones clave de la iniciativa de carbón de Sierra Leone incluyen: <br /><br /><strong>La tecnología no es suficiente.</strong></br> </strong>La construcción de confianza, demostraciones y relevancia comunitaria son fundamentales para la adopción. <br /><br /><strong>Las finanzas permiten escalar.</strong> Los microcréditos y los incentivos ayudan a las pequeñas empresas a crecer con tecnología limpia. <br /><br /><strong>La propiedad local sostiene el cambio.</strong></br></br> </strong>La participación comunitaria impulsa la adopción y el impacto a largo plazo. <br /><br /><strong>El contexto da forma a la replicación.</strong> Cadenas de suministro sólidas y políticas personalizadas son clave para el éxito en otros lugares. <br /><br />Basándose en los avances realizados, el proyecto ahora está ampliando la adopción de la producción de carbón eficiente y cocinas más limpias a distritos adicionales. Al mismo tiempo, se espera que los esfuerzos para localizar la fabricación de hornos y estufas mejorados <br> reduzcan los costos y creen nuevas oportunidades de subsistencia. En el ámbito de las políticas, el PNUD está trabajando con las partes interesadas nacionales para integrar prácticas sostenibles de carbón vegetal en las estrategias de energía limpia y conservación forestal.<br /><br />Al priorizar la entrega de última milla y la asequibilidad, la iniciativa impulsa directamente el acceso a la energía para las comunidades desatendidas, particularmente aquellas excluidas de las soluciones basadas en la red. Con un apoyo continuo a la capacitación comunitaria, la participación del sector privado y la financiación basada en el rendimiento, la iniciativa está allanando el camino para un impacto a largo plazo y podría servir como modelo para su replicación en otras partes de África Occidental. <a href=\"https://www.fao.org/investment-centre/latest/news/detail/climate-finance--an-instrument-for-sustainable-agrifood-system-transformation-in-sierra-leone/en\"><u>FAO</u></a>, 2024"
             }
           }
         ]
@@ -785,7 +790,47 @@
                 0.91
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Porcentaje de todas las muertes atribuidas a temperaturas subóptimas",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -1025,7 +1070,44 @@
             }
           ],
           "grid": {
-            "bottom": 100
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Porcentaje de población que vive en un clima cálido, 2022, y penetración de <strong>aire acondicionado</strong>, 2000-2022",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }
@@ -1068,7 +1150,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La eficiencia energética también juega un papel vital en garantizar una calefacción y refrigeración adecuadas. La calidad de la vivienda impacta significativamente en la efectividad de estas soluciones. Las casas bien aisladas con diseños energéticamente eficientes pueden reducir la demanda de calefacción o refrigeración excesiva, beneficiando tanto la eficiencia energética como el bienestar de los ocupantes. En contraste, las condiciones de vivienda inadecuadas suelen llevar a un mayor consumo de energía y costos para mantener temperaturas cómodas.<br /> <br />Dado que una vivienda adecuada es un componente clave del Indicador 11.1 de los ODS (Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas), el monitoreo de este indicador puede ayudar a reducir la brecha de acceso a tecnologías de calefacción y refrigeración.<br /><strong><br /> Al promover viviendas adecuadas que priorizan la eficiencia térmica, los responsables de políticas pueden mejorar indirectamente el acceso a soluciones de calefacción y refrigeración.</strong>"
+              "text": "<strong><ai prompt=\"Explain energy efficiency.\">energy efficiency 💬️</ai></strong> también juega un papel vital para garantizar una calefacción y refrigeración adecuadas. La calidad de la vivienda impacta significativamente en la efectividad de estas soluciones. Las casas bien aisladas con diseños energéticamente eficientes pueden reducir la demanda de calefacción o refrigeración excesiva, beneficiando tanto la eficiencia energética como el bienestar de los ocupantes. En contraste, las condiciones de vivienda inadecuadas suelen llevar a un mayor consumo de energía y costos para mantener temperaturas cómodas.<br /> <br />Dado que una vivienda adecuada es un componente clave del Indicador 11.1 de los ODS (Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas), el monitoreo de este indicador puede ayudar a reducir la brecha de acceso a tecnologías de calefacción y refrigeración.<br /><strong><br /> Al promover viviendas adecuadas que priorizan la eficiencia térmica, los responsables de políticas pueden mejorar indirectamente el acceso a soluciones de calefacción y refrigeración.</strong>"
             }
           }
         ]
@@ -1117,8 +1199,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_17.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/Group1758.webp",
+          "caption": null,
+          "url": null
         }
       }
     },

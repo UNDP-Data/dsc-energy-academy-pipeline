@@ -48,33 +48,6 @@
       }
     },
     {
-      "template_id": "video",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-es.mp4",
-        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.0.-1-ar.png"
-      }
-    },
-    {
-      "template_id": "video",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-es.mp4",
-        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.0.-1-ar.png"
-      }
-    },
-    {
-      "template_id": "video",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-es.mp4",
-        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.0.-1-ar.png"
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -161,7 +134,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>El consumo de energía está estrechamente relacionado con el IDH.</strong> A bajos niveles de desarrollo, incluso pequeños aumentos en el uso de energía conducen a mejoras significativas en el IDH. Sin embargo, a medida que el desarrollo aumenta, el uso adicional de energía tiene rendimientos decrecientes, con mejoras más pequeñas en el IDH a niveles más altos de consumo de energía. Aunque es importante señalar que la relación no es tan fuerte en niveles muy altos de IDH _ <strong>después de cierto umbral, un mayor uso de energía no garantiza niveles más altos de desarrollo</strong>_ todavía es crucial entender que <strong>históricamente, ningún país ha logrado un alto nivel de desarrollo sin un aumento en el uso de energía.</strong> "
+              "text": "<strong>El consumo de energía está estrechamente relacionado con el IDH.</strong> A bajos niveles de desarrollo, incluso pequeños aumentos en el uso de energía conducen a mejoras significativas en el IDH. Sin embargo, a medida que el desarrollo aumenta, el uso adicional de energía tiene rendimientos decrecientes, con mejoras más pequeñas en el IDH a niveles más altos de consumo de energía. Aunque es importante señalar que la relación no es tan fuerte a niveles muy altos de IDH – <strong>después de cierto umbral, un mayor uso de energía no garantiza niveles más altos de desarrollo –</strong> todavía es crucial entender que <strong>históricamente, ningún país ha logrado un alto nivel de desarrollo sin un aumento en el uso de energía.</strong> "
             }
           }
         ]
@@ -881,7 +854,47 @@
               "type": "scatter",
               "name": "South America"
             }
-          ]
+          ],
+          "title": {
+            "text": "El índice de desarrollo humano (IDH) y el uso de energía per cápita, 2019",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -1014,7 +1027,47 @@
                 }
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Energía y cambio climático",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -1120,391 +1173,6 @@
       }
     },
     {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#c5192d",
-            "#fd6925",
-            "#fd9d24",
-            "#0468b1",
-            "#19486a",
-            "#4c9f38",
-            "#dd1367",
-            "#3f7e44",
-            "#0a97d9",
-            "#fcc30b"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              2000,
-              2001,
-              2002,
-              2003,
-              2004,
-              2005,
-              2006,
-              2007,
-              2008,
-              2009,
-              2010,
-              2011,
-              2012,
-              2013,
-              2014,
-              2015,
-              2016,
-              2017,
-              2018,
-              2019,
-              2020,
-              2021,
-              2022,
-              2023,
-              2024,
-              2025,
-              2026,
-              2027,
-              2028,
-              2029,
-              2030
-            ],
-            "name": "Year"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "%"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "..."
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "type": "line",
-              "name": "All renewable",
-              "data": [
-                18.4,
-                17.9,
-                17.9,
-                17.5,
-                17.9,
-                18.1,
-                18.2,
-                18.0,
-                18.6,
-                19.4,
-                19.5,
-                19.9,
-                20.8,
-                21.6,
-                22.1,
-                22.7,
-                23.6,
-                24.3,
-                25.1,
-                26.1,
-                28.0,
-                27.9,
-                29.4,
-                30.3,
-                32.1,
-                34.5,
-                36.7,
-                38.8,
-                41.0,
-                43.2,
-                45.6
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Variable renewable",
-              "data": [
-                0.2,
-                0.3,
-                0.3,
-                0.4,
-                0.5,
-                0.6,
-                0.7,
-                0.9,
-                1.2,
-                1.5,
-                1.7,
-                2.3,
-                2.7,
-                3.4,
-                3.8,
-                4.4,
-                5.1,
-                6.1,
-                6.9,
-                7.8,
-                9.1,
-                10.1,
-                11.7,
-                13.2,
-                15.0,
-                17.5,
-                19.8,
-                22.1,
-                24.5,
-                27.0,
-                29.5
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Hydropower",
-              "data": [
-                17.0,
-                16.5,
-                16.3,
-                15.8,
-                16.1,
-                16.1,
-                16.0,
-                15.6,
-                15.9,
-                16.2,
-                16.0,
-                15.8,
-                16.2,
-                16.3,
-                16.2,
-                16.1,
-                16.2,
-                15.9,
-                15.8,
-                15.8,
-                16.3,
-                15.1,
-                15.0,
-                14.3,
-                14.3,
-                14.2,
-                14.1,
-                13.8,
-                13.6,
-                13.3,
-                13.1
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Wind",
-              "data": [
-                0.2,
-                0.2,
-                0.3,
-                0.4,
-                0.5,
-                0.6,
-                0.7,
-                0.9,
-                1.1,
-                1.4,
-                1.6,
-                2.0,
-                2.3,
-                2.8,
-                3.0,
-                3.4,
-                3.9,
-                4.4,
-                4.8,
-                5.3,
-                6.0,
-                6.5,
-                7.3,
-                7.8,
-                8.2,
-                9.2,
-                9.9,
-                10.7,
-                11.6,
-                12.5,
-                13.4
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Solar PV",
-              "data": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.1,
-                0.1,
-                0.1,
-                0.3,
-                0.4,
-                0.6,
-                0.8,
-                1.0,
-                1.3,
-                1.7,
-                2.1,
-                2.5,
-                3.1,
-                3.6,
-                4.4,
-                5.4,
-                6.8,
-                8.3,
-                9.8,
-                11.4,
-                12.9,
-                14.5,
-                16.1
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Other renewable",
-              "data": [
-                1.2,
-                1.2,
-                1.2,
-                1.3,
-                1.3,
-                1.4,
-                1.4,
-                1.5,
-                1.5,
-                1.7,
-                1.8,
-                1.8,
-                1.9,
-                2.0,
-                2.1,
-                2.2,
-                2.3,
-                2.4,
-                2.4,
-                2.5,
-                2.7,
-                2.7,
-                2.7,
-                2.8,
-                2.8,
-                2.8,
-                2.9,
-                2.9,
-                2.9,
-                3.0,
-                3.0
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1582,7 +1250,7 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "<strong>La energía limpia es más barata que nunca</strong>—los costos solares han caído más del 85 % desde 2010, <br />Sin embargo, <strong>los combustibles fósiles aún representan el 80 %</strong> de la energía global ( <a href=\"https://www.energyinst.org/statistical-review\"><u>Energy Institute</u></a>, 2024).",
+              "title": "<strong>La energía limpia es más barata que nunca</strong>—los costos solares han caído >85% desde 2010, <br />Sin embargo, <strong>los combustibles fósiles aún representan el 80%</strong> de la energía global (<a href=\"https://www.energyinst.org/statistical-review\"><u>Energy Institute</u></a>, 2024).",
               "body": "",
               "source": ""
             }
@@ -1754,18 +1422,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/Screenshot 2025-03-13 at 15.55.24 1.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1811,18 +1467,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_15.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {

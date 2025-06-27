@@ -1,0 +1,484 @@
+{
+  "id": "7.3.1",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_6.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "Leçon",
+          "number": "1"
+        },
+        "title": "Techniques de science des données pour l'analyse énergétique",
+        "cta": "",
+        "intro": "M7 : Données dans l'énergie durable"
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Outro_2.png",
+          "caption": ""
+        },
+        "intro": "M7 : Données dans l'énergie durable",
+        "title": "Partie 1 : Modélisation Statistique pour les Systèmes Énergétiques"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La science des données utilise diverses techniques pour extraire des informations à partir de données brutes. L'analyse exploratoire des données (AED) est une technique permettant de découvrir des motifs et d'identifier des anomalies (par exemple, des valeurs manquantes et des valeurs aberrantes) ainsi que des motifs au sein des données. Il peut être utilisé pour valider les étapes de prétraitement, garantissant la préparation des données pour une analyse et une modélisation ultérieures. Par exemple, l'EDA pourrait montrer une forte corrélation entre la température et la consommation d'énergie, mettant en évidence la température comme un prédicteur significatif de la demande énergétique."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Un type d'EDA, graphique multivarié, affiche les relations dans les ensembles de données en utilisant des graphiques tels que des nuages de points, des histogrammes, des diagrammes à barres, des boîtes à moustaches et des cartes de chaleur. Ces visualisations aident à identifier les tendances, telles que les variations saisonnières de la consommation d'énergie ou les inefficacités dans les réseaux de distribution d'énergie. La figure suivante illustre les étapes utilisées dans l'analyse exploratoire des données."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_5.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>L'EDA exige traditionnellement une quantité significative de temps et d'expertise.</strong> Cependant, A.I. a rationalisé ce processus, le rendant plus efficace et précis. I.A. Les algorithmes peuvent traiter rapidement d'énormes quantités de données, détectant les erreurs et les valeurs aberrantes pour nettoyer et transformer les données de manière plus efficace et précise que les analystes humains. De plus, l'IA. est capable de gérer des ensembles de données divers et complexes, y compris des textes, des images et des données de haute dimension. En automatisant une grande partie du processus d'EDA, l'IA. peut potentiellement permettre aux analystes de données d'explorer et de comprendre leurs données plus rapidement et efficacement.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Automatisation du nettoyage des données</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "L'une des étapes critiques de l'EDA est le nettoyage des données, qui implique de gérer les valeurs manquantes et les doublons, de corriger les erreurs et de formater les données. I.A. peut améliorer considérablement ce processus grâce à des techniques de nettoyage de données automatisées. Les modèles d'apprentissage automatique peuvent apprendre des tâches de nettoyage de données historiques et appliquer ces apprentissages à de nouveaux ensembles de données, réduisant ainsi le temps et les efforts nécessaires à la préparation des données. Par exemple, les outils pilotés par l'IA peuvent détecter et imputer automatiquement les valeurs manquantes, garantissant que l'ensemble de données est aussi complet et précis que possible avant l'analyse."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Regroupement et détection d'anomalies</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "I.A. Les algorithmes, tels que le clustering k-means et les autoencodeurs, jouent un rôle de niche dans la détection des anomalies lors de l'EDA. Ces algorithmes peuvent automatiquement regrouper des points de données en clusters en fonction de leurs similarités, identifier des modèles sous-jacents dans, par exemple, la consommation d'énergie, la production et la distribution. Les autoencodeurs, un type de réseau de neurones, peuvent détecter des anomalies en apprenant le comportement normal des systèmes énergétiques et en signalant les points de données qui s'écartent de manière significative de cette norme. Par exemple, les autoencodeurs peuvent identifier des pics irréguliers dans la consommation d'énergie qui pourraient indiquer des dysfonctionnements d'équipement ou une consommation d'énergie non autorisée, permettant des interventions rapides pour prévenir d'éventuels problèmes."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Reconnaissance de motifs et prédiction</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Les algorithmes d'apprentissage automatique améliorent l'EDA en permettant une reconnaissance de motifs sophistiquée et des capacités de prédiction. Les algorithmes comme les k-plus proches voisins, les arbres de décision, les forêts aléatoires et les machines à vecteurs de support sont particulièrement efficaces pour classer et prédire les modèles de consommation d'énergie. En analysant des données historiques, ces algorithmes peuvent identifier des tendances et des corrélations qui pourraient ne pas être immédiatement apparentes. Par exemple, la reconnaissance de motifs peut aider à prédire la demande énergétique quotidienne ou saisonnière en identifiant les modèles de consommation liés aux conditions météorologiques, à l'heure de la journée ou au jour de la semaine. Cette capacité permet aux entreprises de services publics d'optimiser leurs opérations, de planifier les périodes de demande maximale et d'améliorer l'efficacité globale de la distribution d'énergie."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "case_study_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_6.png",
+          "caption": ""
+        },
+        "intro": "M7 : Données dans l'énergie durable",
+        "title": "Étude de cas : Inde",
+        "subtitle": ""
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Étude de cas RBAP : Refroidissement durable grâce à la numérisation en Inde</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Dans le monde en réchauffement d'aujourd'hui, le refroidissement est crucial pour échapper à la pauvreté et à la faim, en particulier dans le secteur agricole. L'Inde, l'un des plus grands producteurs alimentaires au monde, fait face à un gaspillage alimentaire significatif (25-35%) en raison d'un manque de réfrigération et de goulets d'étranglement dans la chaîne d'approvisionnement. Actuellement, seulement 6 % des aliments produits en Inde passent par la chaîne du froid, contre environ 60 % dans les pays développés [1]. Ce manque d'infrastructure de chaîne du froid adéquate entraîne des pertes de revenus et des émissions de carbone. S'attaquer à ce problème au niveau de la ferme en fournissant aux petits agriculteurs un accès à des solutions de stockage à froid efficaces et propres à des prix abordables est essentiel."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>L'initiative innovante 'Votre Assistant Virtuel de Chaîne du Froid' (Votre VCCA) a été lancée par l'Agence de Bâle pour l'Énergie Durable (BASE) et Empa en 2021 pour s'attaquer à ce problème en fournissant aux petits agriculteurs, en particulier aux femmes, un accès à des solutions de refroidissement durables et à des outils numériques [2].</strong> Le projet se concentre sur trois piliers : la servitisation, la numérisation et le renforcement des capacités [3]. Les objectifs principaux de l’initiative « Your VCCA » sont de réduire les pertes alimentaires et d’améliorer la sécurité alimentaire en donnant aux petits exploitants agricoles un accès à des solutions de stockage frigorifique abordables, efficaces et propres ; exploiter <ai prompt=\"Expliquer l’énergie solaire.\">l’énergie solaire 💬️</ai> pour un refroidissement post-récolte durable ; et autonomiser les petits exploitants agricoles, en particulier les femmes, en leur fournissant des outils numériques et une formation pour améliorer leurs capacités de prise de décision et de gestion.<br /><br /></strong>L’initiative Your VCCA se concentre sur la fourniture de chambres froides alimentées par énergie solaire via un modèle de « Cooling as a Service » (CaaS), qui permet aux petits exploitants d’accéder au refroidissement sans coûts initiaux (voir la Figure 1) [4]. La numérisation est un catalyseur clé du succès de votre VCCA. Il s'agit d'une application mobile basée sur la science des données qui utilise l'apprentissage automatique et la modélisation alimentaire basée sur la physique, ce qui aide les petits agriculteurs à accéder à des installations de refroidissement durables grâce à la servitisation. Le programme utilise \"Coldtivate\", une application, pour rationaliser la gestion des stocks et des opérations et instaurer la confiance entre les agriculteurs dans le refroidissement post-récolte [5]. Les données des capteurs de température en temps réel, intégrées dans Coldtivate, estiment la durée de vie de stockage restante de chaque caisse, permettant aux agriculteurs de préserver efficacement la qualité des cultures. L'application propose également des prévisions de prix du marché, permettant aux agriculteurs de faire des choix de vente éclairés. Les utilisateurs sans smartphones reçoivent des notifications SMS sur l'état de leurs cultures stockées, soulignant l'inclusion et l'accessibilité de l'initiative."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_5.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<ai prompt=\"Explain gender mainstreaming.\">intégration du genre 💬️</ai> a été au premier plan du travail entrepris par l’un des partenaires de projet de Your VCCA en Inde. En plus de construire la chambre froide dans un espace public central, facile et sûr pour les femmes à visiter, Koel Fresh, un partenaire de VCCA en Inde, a intégré des membres du Groupe d'Auto-Aide des Femmes Maa Tarini (SHG) pour augmenter l'accessibilité culturelle de la chambre [3]. L'engagement du groupe d'entraide (GDE) visait à développer les compétences des femmes locales dans la gestion de la chambre froide en utilisant des outils numériques et à autonomiser les agricultrices pour qu'elles puissent utiliser les installations sans être entravées par les dynamiques de genre et de pouvoir. <br />Le projet pilote au Bihar et en Himachal Pradesh (2021-2022) a démontré la viabilité économique du modèle commercial CaaS et la valeur ajoutée de l'application VCCA. Des données préliminaires provenant d'utilisateurs fréquents de chambres froides (34 femmes et 14 hommes) indiquent une réduction de la détérioration des cultures de 17 % à 4 %. Les revenus des agriculteurs ont augmenté de 29,6 %, les utilisatrices signalant une augmentation de 34,3 % contre 18,8 % signalé par les utilisateurs masculins [3].<br /><br />L'Initiative Your VCCA donne un exemple mondial pour les économies agro-alimentaires. Sa reproductibilité est évidente dans son potentiel à être adaptée dans d'autres régions confrontées à des défis similaires. Les facteurs clés de la reproductibilité incluent la disponibilité de l'énergie solaire, l'adoption d'outils numériques et l'engagement communautaire. De plus, cela montre comment impliquer les femmes locales dans la gestion des opérations et des finances en utilisant des outils numériques peut améliorer l'accessibilité culturelle et surmonter les barrières liées au genre pour les agricultrices dans l'utilisation des ressources."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Références</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Base Énergétique. (n.d.). Application mobile basée sur la science des données pour les petits exploitants afin de permettre l'accès aux données et au refroidissement durable <br />[2] Votre VCCA. (n.d.). Exploiter le pouvoir des données et de l'innovation des modèles commerciaux pour une agriculture résiliente <br />[3] SE4All. (2023). Cultures Cool, Profits Chauds <br />[4] Laboratoire de Finance Climatique. (2021). Refroidissement en tant que service (CAAS) avec l'assistant de chaîne du froid virtuel (VCCA) <br />[5] Votre VCCA. (n.d.). Application Coldivate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_11.png",
+          "caption": ""
+        },
+        "intro": "M7 : Données dans l'énergie durable",
+        "title": "Partie 2 : Données géospatiales"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Face aux problèmes environnementaux pressants, tels que le changement climatique, la déforestation et l'identification des sources de pollution, les avancées en intelligence artificielle (IA) renforcent l'utilité et la puissance de l'analyse des données géospatiales. Les décideurs peuvent tirer parti des outils de données pour évaluer les impacts et l'emplacement des ressources énergétiques à faible émission de carbone et des infrastructures associées. La puissance de calcul exceptionnelle de l'IA et ses capacités de traitement des données en font un outil vital dans l'effort de préserver et de protéger notre planète.<br /><br />Sirmacek et Vinuesa (2022) ont exploré l'intégration de l'IA. et <ai prompt=\"Expliquer la télédétection.\">télédétection 💬️</ai> pour améliorer l'adaptation au climat dans les zones urbaines. Ils ont proposé un cadre combinant l'IA. et simulation pour extraire des indicateurs à partir d'images satellites, facilitant les estimations prédictives des futurs états liés à l'adaptation au climat.  Leur étude a mis en évidence le potentiel de l'IA. créer des cartes d'utilisation des terres rapides, simuler des scénarios de catastrophe, identifier des valeurs aberrantes et fournir des prévisions en temps réel. Cette approche vise à aider les décideurs à maintenir le bien-être sociétal, les ressources naturelles et la biodiversité."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La télédétection et les systèmes d'information géographique (SIG) sont devenus des outils indispensables dans le secteur de l'énergie, fournissant des données et des analyses complètes et précises sur les relations spatiales. La télédétection englobe des technologies qui capturent des données sur la surface de la Terre à distance, généralement par le biais de satellites, d'avions et de plateformes aériennes. Le SIG, en revanche, fournit un cadre pour intégrer, analyser et visualiser ces données géospatiales. Ces outils forment une combinaison puissante qui peut être exploitée pour relever les défis clés du secteur de l'énergie."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Enríquez Zárate et al. (2022) A.I. appliqué détecter et analyser l'érosion des pales d'éoliennes en utilisant des modèles d'apprentissage automatique. L'étude s'est concentrée sur l'érosion de pointe et son impact sur la performance aérodynamique et l'intégrité structurelle. Ils ont utilisé le logiciel QBlade pour l'analyse aérodynamique et modale, simulant différents niveaux d'érosion et leurs effets sur la production d'énergie. Les chercheurs ont développé des modèles d'apprentissage automatique pour classer l'emplacement de l'érosion et prédire sa gravité, atteignant une grande précision. Cette approche innovante, renforcée par AutoML—qui automatise le processus de sélection des modèles optimaux et de réglage des hyperparamètres—fournit une méthode complète pour la maintenance prédictive, minimisant les temps d'arrêt et améliorant l'efficacité des éoliennes.<br /><br />Muxica et al. (2024) A.I. appliqué dans la télédétection au sein du secteur de l'énergie en concevant et en mettant en œuvre un système de capteur autonome pour la mesure des vibrations dans les éoliennes de faible capacité. Ce système, déployé sur des éoliennes fonctionnant dans des conditions météorologiques difficiles, utilise l'IA. traiter les données collectées à partir d'accéléromètres triaxiaux fixés aux pales. L'IA. Les processus permettent une surveillance et une évaluation en temps réel des caractéristiques dynamiques des pales d'éoliennes, facilitant la détection précoce des dommages et l'entretien. En intégrant l'IA. avec des technologies de télédétection, le système garantit un fonctionnement fiable et efficace des éoliennes, réduisant les coûts de maintenance et améliorant la fiabilité globale de <ai prompt=\"Tell me more about wind energy.\">la production d'énergie éolienne 💬️</ai> Cette application démontre le potentiel de l'IA. dans l'avancement de la surveillance de la santé structurelle et l'optimisation des ressources énergétiques renouvelables."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Pour conclure, l'intégration de l'IA. avec des applications de télédétection et de SIG détient un potentiel immense pour faire progresser la conservation de l'environnement, l'adaptation au climat et l'optimisation des énergies renouvelables. Cette recherche démontre les diverses applications de l'IA. dans la surveillance des changements environnementaux, la prédiction de l'érosion des pales d'éoliennes et l'amélioration de l'efficacité et de la fiabilité de la production d'énergie éolienne. Ces avancées soulignent le rôle crucial de l'IA. en facilitant la prise de décision basée sur les données, en permettant une maintenance proactive et en soutenant le développement durable dans le secteur de l'énergie. En I.A. continue d'évoluer, ses applications dans la télédétection et les SIG deviendront sans aucun doute encore plus intégrales pour relever les défis environnementaux et énergétiques pressants actuels."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "case_study_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_16.png",
+          "caption": ""
+        },
+        "intro": "M7 : Données dans l'énergie durable",
+        "title": "Étude de cas : Philippines",
+        "subtitle": ""
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Étude de cas RBAP : Comprendre la pauvreté aux Philippines avec l'intelligence artificielle</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "L'extrême pauvreté reste un problème de plus en plus croissant aux Philippines. On estimait qu'en 2019, 20,8 % de la population du pays vivait en dessous du seuil de pauvreté. En conséquence, 1,6 million de ménages dans le pays n'avaient pas accès à l'électricité en 2020 en raison des coûts élevés de l'électricité d'environ 0,20 $/kWh, ce qui était le plus cher de la région de l'ASEAN. Par conséquent, il était crucial pour les Philippines de trouver un moyen de réduire la pauvreté, ce qui induirait alors un meilleur accès à l'énergie pour les communautés à faible revenu et <ai prompt=\"What is marginalized communities?\">les communautés marginalisées 💬️</ai>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Pour aider à résoudre ces problèmes, le PNUD a mis en œuvre un projet pour éradiquer la pauvreté et l'inégalité sociale, mais il a principalement été confronté à l'absence de données solides pour élaborer des stratégies et prendre des décisions de haut niveau. Par conséquent, Thinking Machines a aidé le PNUD et Zero Extreme Poverty PH 2030 - une coalition philippine d'ONG, à mettre en œuvre un projet de Compréhension de la pauvreté aux Philippines avec l'intelligence artificielle.<br /><br />Ce projet vise à utiliser l'apprentissage automatique et l'imagerie satellite pour cartographier la pauvreté aux Philippines. Spécifiquement, l'objectif principal est de surmonter les défis de la collecte de données socio-économiques fiables qui sont relativement chronophages, intensives en main-d'œuvre et coûteuses. Les principaux objectifs du projet incluent l'utilisation de l'apprentissage par transfert et des images satellites pour cartographier la pauvreté dans le pays, le développement d'un modèle préliminaire de prédiction de la pauvreté pour les Philippines, et le dépassement des limitations des enquêtes traditionnelles sur le terrain en tirant parti de l'apprentissage automatique et des informations géospatiales. <br /><br />Le projet a été d'abord mis en œuvre en utilisant les données de l'Enquête nationale sur la démographie et la santé de 2017. Les ensembles de données incluent les scores de richesse des ménages du pays basés sur des attributs tels que le matériau du toit, la possession d'appareils et, plus important encore, l'accès à l'eau et à l'électricité. De plus, les données collectées ont ensuite été extraites en appliquant l'apprentissage par transfert pour cartographier la pauvreté en utilisant les lumières nocturnes comme un proxy pour le développement économique. Des niveaux de PIB plus élevés sont corrélés à une plus grande utilisation, un meilleur accès, une fiabilité et une accessibilité de l'électricité. Par conséquent, les régions avec plus de lumières nocturnes pourraient être perçues comme étant plus développées économiquement. Avec cette combinaison d'apprentissage automatique et de données géospatiales, ils ont pu fournir des estimations de pauvreté plus précises et détaillées à travers le pays."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>La principale leçon tirée du projet est les avantages des modèles d'apprentissage automatique utilisant plusieurs ensembles de données géospatiales ouvertes qui peuvent estimer la pauvreté pour l'ensemble du pays en moins d'une minute.</strong> Les résultats ont également montré une meilleure comparaison de l'indice de richesse réel moyen à travers les Philippines. Avec cette approche, ce type de projet peut être déployé dans d'autres géographies en tenant compte de son efficacité à fournir des résultats à un coût inférieur, par rapport aux enquêtes aléatoires conventionnelles. De plus, ce type de projet peut également aider les pays en développement à améliorer leur accès à l'énergie, ce qui conduit à un développement économique accru.<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Références</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La Banque mondiale. (2024). Perspectives macroéconomiques sur la pauvreté : Asie de l'Est et Pacifique<br />Neil Stephen Lopez, et al. (2023). Pauvreté énergétique et émissions de carbone : L'état de Luçon, Philippines<br />Machines pensantes. (2020). Comprendre la pauvreté aux Philippines avec l'intelligence artificielle <br />La Banque mondiale. (2022). Que savons-nous des impacts du développement des infrastructures énergétiques ?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L4_5.png",
+          "caption": ""
+        },
+        "intro": "M7 : Données dans l'énergie durable",
+        "title": "Partie 3 : Importance de la visualisation des données"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La visualisation des données peut efficacement donner vie aux données et raconter une histoire. Il est important d'utiliser des visualisations de données qui transforment l'information et les données en informations exploitables. Dans le secteur de l'énergie, où les données jouent un rôle important dans la justification et la rationalisation de la prise de décision, une visualisation efficace peut améliorer la clarté et la compréhension, tandis qu'une visualisation inefficace peut provoquer de la confusion et une perte de concentration. Il n'existe pas de cadre standardisé mondial sur la visualisation des données, cependant il existe des conseils sur les meilleures pratiques, qui proviennent d'années de recherche et d'expérimentation dans les industries du design et des médias. Des conseils sur les meilleures pratiques peuvent être trouvés dans le livre Visualizing Data et sur la page web Material Design. Les deux références expliquent l'utilisation correcte des graphiques, l'utilisation des annotations et des éléments de design éditorial."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Principaux enseignements",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Intro_5.png",
+              "caption": ""
+            },
+            "title": "L'analyse exploratoire des données alimentée par l'IA révolutionne les insights sur les données énergétiques.",
+            "description": "L'EDA pilotée par l'IA accélère l'identification des motifs, des anomalies et des corrélations dans les ensembles de données énergétiques, permettant un nettoyage des données, un regroupement et une détection des anomalies plus efficaces. En automatisant ces processus, l'IA permet aux analystes énergétiques de découvrir des informations critiques—telles que les tendances de la demande énergétique saisonnière ou les pannes d'équipement—plus rapidement et avec une plus grande précision, optimisant ainsi la performance du système énergétique."
+          },
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_8.png",
+              "caption": ""
+            },
+            "title": "La télédétection et les SIG améliorés par l'IA transforment la planification des infrastructures énergétiques.",
+            "description": "L'intégration de l'IA avec les technologies de télédétection et de SIG permet une analyse spatiale avancée, une maintenance prédictive et une surveillance en temps réel des actifs énergétiques. Des applications comme la détection de l'érosion dans les pales d'éoliennes et la cartographie de la pauvreté à travers des images satellites démontrent comment l'IA peut favoriser la prise de décision basée sur les données, améliorer l'efficacité des énergies renouvelables et relever les défis d'accès à l'énergie dans les régions mal desservies."
+          },
+          {
+            "image": {
+              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_21.png",
+              "caption": ""
+            },
+            "title": "La visualisation des données est un outil stratégique pour des informations énergétiques exploitables.",
+            "description": "Une visualisation efficace des données transforme des données énergétiques complexes en récits clairs et exploitables, améliorant la prise de décision et la communication avec les parties prenantes. En respectant les meilleures pratiques en matière de conception et de narration, les professionnels de l'énergie peuvent créer des visualisations qui mettent en évidence les tendances clés, telles que les modèles de consommation d'énergie ou la performance des infrastructures, garantissant que les stratégies basées sur les données sont à la fois accessibles et percutantes."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module7.png",
+          "caption": ""
+        },
+        "intro": "Prochainement",
+        "title": "Leçon 2 : Outils et applications de modélisation de l'énergie",
+        "cta": "Continuez à apprendre",
+        "nextLessonId": "7.3.2"
+      }
+    }
+  ]
+}

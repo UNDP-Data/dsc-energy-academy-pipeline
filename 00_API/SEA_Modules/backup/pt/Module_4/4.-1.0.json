@@ -1,0 +1,449 @@
+{
+  "id": "4.-1.0",
+  "segments": [
+    {
+      "template_id": "scored_quiz",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Quiz pontuado <br/><strong>Módulo 4</strong>",
+        "intro": "Este questionário abrange todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
+        "final": true,
+        "labels": {
+          "correct": "Correto",
+          "question": "Pergunta",
+          "result": "Resultado do questionário",
+          "score": "Sua pontuação",
+          "passingScore": "Pontuação mínima de aprovação",
+          "startButton": "Iniciar quiz",
+          "nextButton": "Próximo",
+          "submitButton": "Enviar",
+          "retryButton": "Repetir",
+          "passed": "Aprovado",
+          "failed": "Não aprovado"
+        },
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "Como deve ser uma pergunta de exemplo?",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Deve parecer com esta opção."
+              },
+              {
+                "id": 2,
+                "value": "Esta opção ficaria melhor."
+              },
+              {
+                "id": 3,
+                "value": "Acho que esta opção seria a melhor."
+              },
+              {
+                "id": 4,
+                "value": "Nenhum dos acima."
+              }
+            ],
+            "solution": [
+              1,
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A opção 1 e a opção 2 são as melhores escolhas por certas razões específicas."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A opção 1 e a opção 2 são as melhores escolhas por certas razões específicas."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Quais são os três fatores-chave que o ESG representa no financiamento de energia sustentável?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Energia, Subsídios, Crescimento"
+              },
+              {
+                "id": 2,
+                "value": "Ambiente, Sociedade, Governança"
+              },
+              {
+                "id": 3,
+                "value": "Ambiental, Social, Governança"
+              },
+              {
+                "id": 4,
+                "value": "Emissões, Padrões, Metas"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "ESG refere-se a fatores Ambientais, Sociais e de Governança, que são usados para orientar investimentos sustentáveis e avaliar seus impactos mais amplos."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "ESG refere-se a fatores Ambientais, Sociais e de Governança, que são usados para orientar investimentos sustentáveis e avaliar seus impactos mais amplos."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Quais são as vantagens das finanças sustentáveis? (Selecione tudo o que se aplica)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Responsabilidade corporativa aprimorada"
+              },
+              {
+                "id": 2,
+                "value": "Criação de valor a longo prazo"
+              },
+              {
+                "id": 3,
+                "value": "Maximização de lucros de curto prazo"
+              },
+              {
+                "id": 4,
+                "value": "Gestão de riscos"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A finança sustentável melhora a responsabilidade corporativa, cria valor a longo prazo e gerencia riscos ao integrar fatores ESG na tomada de decisões."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A finança sustentável melhora a responsabilidade corporativa, cria valor a longo prazo e gerencia riscos ao integrar fatores ESG na tomada de decisões."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "Qual região recebeu apenas 2% do investimento global em energia limpa entre 2000 e 2024?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "América Latina"
+              },
+              {
+                "id": 2,
+                "value": "Ásia do Sul"
+              },
+              {
+                "id": 3,
+                "value": "África subsaariana"
+              },
+              {
+                "id": 4,
+                "value": "Europa Oriental"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A África subsaariana recebeu apenas 2% dos investimentos globais em energia limpa, apesar de ter necessidades energéticas significativas não atendidas."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A África subsaariana recebeu apenas 2% dos investimentos globais em energia limpa, apesar de ter necessidades energéticas significativas não atendidas."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Qual é o investimento anual estimado em energia limpa necessário nos EMDEs (Mercados Emergentes e Economias em Desenvolvimento) até o início da década de 2030?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "$260 bilhões"
+              },
+              {
+                "id": 2,
+                "value": "$770 bilhões"
+              },
+              {
+                "id": 3,
+                "value": "$2,2 a $2,8 trilhões"
+              },
+              {
+                "id": 4,
+                "value": "$4,8 trilhões"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Os EMDE precisam de entre 2,2 e 2,8 trilhões de dólares anualmente para atender aos requisitos de investimento em energia limpa até o início da década de 2030."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Os EMDE precisam de entre 2,2 e 2,8 trilhões de dólares anualmente para atender aos requisitos de investimento em energia limpa até o início da década de 2030."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "Quais instrumentos são comumente usados em finanças misturadas? (Selecione tudo o que se aplica)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Dívida subordinada"
+              },
+              {
+                "id": 2,
+                "value": "<strong>Incentivos fiscais</strong>"
+              },
+              {
+                "id": 3,
+                "value": "Garantias"
+              },
+              {
+                "id": 4,
+                "value": "Subvenções de assistência técnica"
+              }
+            ],
+            "solution": [
+              1,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "O financiamento misto utiliza ferramentas como dívida subordinada, garantias e subsídios de assistência técnica para reduzir o risco dos investimentos."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "O financiamento misto utiliza ferramentas como dívida subordinada, garantias e subsídios de assistência técnica para reduzir o risco dos investimentos."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "O que é um projeto 'bankable'?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Um projeto apoiado por um banco comercial"
+              },
+              {
+                "id": 2,
+                "value": "Um projeto garantido pelo governo"
+              },
+              {
+                "id": 3,
+                "value": "Um projeto que pode gerar receita de forma confiável para pagar empréstimos"
+              },
+              {
+                "id": 4,
+                "value": "Um projeto financiado apenas por meio de financiamento público"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Um projeto viável é financeiramente viável, capaz de gerar receita consistente e de baixo risco, tornando-o atraente para os investidores."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Um projeto viável é financeiramente viável, capaz de gerar receita consistente e de baixo risco, tornando-o atraente para os investidores."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "Quais dos seguintes são considerados barreiras ao investimento em energia limpa em EMDEs? (Selecione tudo o que se aplica)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Infraestrutura inadequada"
+              },
+              {
+                "id": 2,
+                "value": "Sistemas de governança fortes"
+              },
+              {
+                "id": 3,
+                "value": "Estruturas regulatórias pouco claras"
+              },
+              {
+                "id": 4,
+                "value": "<strong>Custo alto do capital</strong>"
+              }
+            ],
+            "solution": [
+              1,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "As barreiras comuns nos EMDEs incluem regulamentações pouco claras, altos custos de capital e infraestrutura desatualizada ou limitada."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "As barreiras comuns nos EMDEs incluem regulamentações pouco claras, altos custos de capital e infraestrutura desatualizada ou limitada."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "Em 2023, quanto investimento global foi destinado à energia limpa?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "1,7 trilhões de dólares"
+              },
+              {
+                "id": 2,
+                "value": "3 trilhões de dólares"
+              },
+              {
+                "id": 3,
+                "value": "$680 bilhões"
+              },
+              {
+                "id": 4,
+                "value": "$2,2 trilhões"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "De acordo com a AIE, o investimento global em energia limpa atingiu 1,7 trilhões de dólares em 2023."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "De acordo com a AIE, o investimento global em energia limpa atingiu 1,7 trilhões de dólares em 2023."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "Qual é a 'Tripla Penalidade' enfrentada pelos EMDEs na transição energética?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Falta de investidores, habilidades e governança"
+              },
+              {
+                "id": 2,
+                "value": "Acessibilidade, dependência e acesso"
+              },
+              {
+                "id": 3,
+                "value": "Inflação, pobreza energética e dívida"
+              },
+              {
+                "id": 4,
+                "value": "Cortes de subsídios, volatilidade da moeda e migração"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A tripla penalidade inclui desafios de acessibilidade, dependência de combustíveis fósseis e acesso limitado a tecnologias e habilidades."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A tripla penalidade inclui desafios de acessibilidade, dependência de combustíveis fósseis e acesso limitado a tecnologias e habilidades."
+              }
+            }
+          },
+          {
+            "id": 11,
+            "prompt": "Quais instrumentos de política são utilizados pelo setor público para apoiar as energias renováveis? (Selecione tudo o que se aplica)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Tarifas de alimentação"
+              },
+              {
+                "id": 2,
+                "value": "Impostos sobre o carbono"
+              },
+              {
+                "id": 3,
+                "value": "Contratos de desempenho energético"
+              },
+              {
+                "id": 4,
+                "value": "Subsídios de combustível"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "Os instrumentos de apoio incluem tarifas de alimentação, precificação de carbono e contratos de desempenho energético. Os subsídios aos combustíveis geralmente desestimulam as energias renováveis."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "Os instrumentos de apoio incluem tarifas de alimentação, precificação de carbono e contratos de desempenho energético. Os subsídios aos combustíveis geralmente desestimulam as energias renováveis."
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module4.png",
+          "caption": ""
+        },
+        "intro": "Próximo",
+        "title": "Módulo 4 Conclusão",
+        "cta": "Continue aprendendo",
+        "nextLessonId": "4.-1.-1"
+      }
+    }
+  ]
+}

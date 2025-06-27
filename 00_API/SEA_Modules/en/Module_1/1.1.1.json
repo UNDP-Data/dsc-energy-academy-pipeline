@@ -102,7 +102,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Note: The exact numbers for people lacking access to energy and <ai prompt=\"Clarify clean cooking.\">clean cooking 💬️</ai> have changed since the date of this Declaration."
+              "text": "Note: The exact numbers for people lacking access to energy and <ai prompt=\"Share details about clean cooking.\">clean cooking 💬️</ai> have changed since the date of this Declaration."
             }
           }
         ]
@@ -128,7 +128,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "To better understand this relationship, we often look at the <ai prompt=\"Share details about human development index.\">human development index 💬️</ai> (HDI), a measure that gives us a snapshot of a nation's overall well-being. The<a href=\"https://hdr.undp.org/data-center/human-development-index#/indicies/HDI\"><u> HDI</u></a> is a composite indicator consisting of life expectancy, education and per capita income indicators. Countries are scored between 0 and 1, with higher scores reflecting greater development."
+              "text": "To better understand this relationship, we often look at the <ai prompt=\"Provide more info on human development index.\">human development index 💬️</ai> (HDI), a measure that gives us a snapshot of a nation's overall well-being. The<a href=\"https://hdr.undp.org/data-center/human-development-index#/indicies/HDI\"><u> HDI</u></a> is a composite indicator consisting of life expectancy, education and per capita income indicators. Countries are scored between 0 and 1, with higher scores reflecting greater development."
             }
           },
           {
@@ -857,11 +857,11 @@
           ],
           "title": {
             "text": "The Human Development Index (HDI) and energy use per capita, 2019",
-            "subtext": "Source :",
+            "subtext": "",
             "left": "center",
             "top": 20,
             "textStyle": {
-              "color": "#000000",
+              "color": "#ffffff",
               "fontSize": 22,
               "fontWeight": "bold",
               "fontFamily": "Proxima Nova, sans-serif"
@@ -873,7 +873,7 @@
             }
           },
           "grid": {
-            "top": 160,
+            "top": 200,
             "bottom": 90,
             "left": 70,
             "right": 40
@@ -885,7 +885,7 @@
                 "left": "center",
                 "top": 80,
                 "style": {
-                  "text": "Summary of the diagram. Otherwise, feel free to remove it.",
+                  "text": "",
                   "fill": "#444444",
                   "font": "15px Proxima Nova, sans-serif",
                   "width": 600,
@@ -1030,11 +1030,11 @@
           ],
           "title": {
             "text": "Energy and Climate Change",
-            "subtext": "Source :",
+            "subtext": "",
             "left": "center",
             "top": 20,
             "textStyle": {
-              "color": "#000000",
+              "color": "#ffffff",
               "fontSize": 22,
               "fontWeight": "bold",
               "fontFamily": "Proxima Nova, sans-serif"
@@ -1046,7 +1046,7 @@
             }
           },
           "grid": {
-            "top": 160,
+            "top": 200,
             "bottom": 90,
             "left": 70,
             "right": 40
@@ -1058,7 +1058,7 @@
                 "left": "center",
                 "top": 80,
                 "style": {
-                  "text": "Summary of the diagram. Otherwise, feel free to remove it.",
+                  "text": "",
                   "fill": "#444444",
                   "font": "15px Proxima Nova, sans-serif",
                   "width": 600,
@@ -1126,6 +1126,106 @@
         ]
       }
     },
+        {
+      "template_id": "video",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "src": "https://sehseadata.blob.core.windows.net/images/Electricity%20Access%20Percent%203D%20Globe.mp4",
+        "poster": "https://sehseadata.blob.core.windows.net/images/3dglobe.png"
+      }
+    },
+    {
+  "template_id": "model",
+  "color_scheme": "dark",
+  "content": {
+    "functionName": "compute_lcoe001",
+    "title": "LCOE at CRF 10%",
+    "description": "Shows how Levelized Cost of Energy varies with capital cost under different financing scenarios.",
+    "latexFunctions": [
+      "LCOE_5 = (\\left( C  \\cdot  0.05 + F \\right) / \\left( E - V \\right))",
+      "LCOE_7 = (\\left( C  \\cdot  0.06 + F \\right) / \\left( E - V \\right))",
+      "LCOE_10 = (\\left( C  \\cdot  0.1 + F \\right) / \\left( E - V \\right))"
+    ],
+    "option": {
+      "xAxis": {
+        "type": "value"
+      },
+      "yAxis": {
+        "type": "value"
+      },
+      "tooltip": {
+        "trigger": "axis"
+      },
+      "series": []
+    },
+    "parameters": [
+      {
+        "symbol": "F",
+        "title": "Fixed O&M Cost",
+        "description": "Annual fixed operation and maintenance cost",
+        "unit": "$",
+        "type": "continuous",
+        "min": 0.0,
+        "max": 100.0,
+        "default": 20.0,
+        "targetType": "any"
+      },
+      {
+        "symbol": "E",
+        "title": "Annual Energy Production",
+        "description": "Total energy generated per year",
+        "unit": "kWh",
+        "type": "continuous",
+        "min": 1000.0,
+        "max": 10000.0,
+        "default": 5000.0,
+        "targetType": "any"
+      },
+      {
+        "symbol": "V",
+        "title": "Variable O&M Cost",
+        "description": "Variable operation and maintenance cost per kWh",
+        "unit": "$/kWh",
+        "type": "continuous",
+        "min": 0.0,
+        "max": 1000.0,
+        "default": 100.0,
+        "targetType": "any"
+      }
+    ],
+    "outputs": [
+      {
+        "symbol": "LCOE_5",
+        "title": "LCOE at CRF 5%",
+        "description": "LCOE at CRF 5%",
+        "unit": "",
+        "target": null,
+        "direction": null,
+        "chart_usage": "y_value"
+      },
+      {
+        "symbol": "LCOE_7",
+        "title": "LCOE at CRF 7%",
+        "description": "LCOE at CRF 7%",
+        "unit": "",
+        "target": null,
+        "direction": null,
+        "chart_usage": "y_value"
+      },
+      {
+        "symbol": "LCOE_10",
+        "title": "LCOE at CRF 10%",
+        "description": "LCOE at CRF 10%",
+        "unit": "",
+        "target": null,
+        "direction": null,
+        "chart_usage": "y_value"
+      }
+    ],
+    "targetType": "any"
+  }
+},
     {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
@@ -1146,7 +1246,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>The global energy transition is gaining momentum, but beneath the surface of progress lies a series contradiction.<br /></strong><br /> Solar and wind are breaking records. Clean technologies are cheaper and spreading faster than ever before. <br /><br />And yet, fossil fuels remain deeply entrenched, access remains deeply unequal, and investment flows continue to bypass the communities that need them most. <br /><br />Are we truly transitioning or just rearranging the imbalance? Why is clean energy booming while fossil fuels still dominate? These questions are crucial to frame the issue of <ai prompt=\"Share details about energy for development.\">energy for development 💬️</ai> and question the systems at play in its transformation."
+              "text": "<strong>The global energy transition is gaining momentum, but beneath the surface of progress lies a series contradiction.<br /></strong><br /> Solar and wind are breaking records. Clean technologies are cheaper and spreading faster than ever before. <br /><br />And yet, fossil fuels remain deeply entrenched, access remains deeply unequal, and investment flows continue to bypass the communities that need them most. <br /><br />Are we truly transitioning or just rearranging the imbalance? Why is clean energy booming while fossil fuels still dominate? These questions are crucial to frame the issue of <ai prompt=\"What is energy for development?\">energy for development 💬️</ai> and question the systems at play in its transformation."
             }
           }
         ]
@@ -1166,7 +1266,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Faced with the dual challenge of balancing universal, affordable access with climate mitigation, the world is slowly starting to shift energy systems. <br /></strong><br />The cost of solar electricity has dropped by over 85% between 2010 and 2020 (<a href=\"https://www.irena.org/-/media/files/irena/agency/publication/2022/mar/irena_weto_summary_2022.pdf?la=en&hash=1da99d3c3334c84668f5caae029bd9a076c10079\"><u>IRENA</u></a>, 2022), and renewables are now the cheapest source of new power in most of the world. In 2024, clean energy investments reached a historic $2 trillion, more than doubling since 2020 (<a href=\"https://www.iea.org/news/investment-in-clean-energy-this-year-is-set-to-be-twice-the-amount-going-to-fossil-fuels\"><u>IEA</u></a>, 2024). As illustrated in the following chart, the share of renewable energy in global electricity generation has already risen from approximately 20% in 2000 to over 30% in 2023. Looking ahead, it is projected to increase by an additional 90% by 2030, compared to 2023 levels.<br /><br />Solar and wind are finally outcompeting coal and gas in many markets. For the first time, renewables are set to become the largest source of global electricity. <br /><br />Governments, companies, and communities around the world are increasingly committing to net-zero pathways. Breakthroughs in <ai prompt=\"Clarify battery storage.\">battery storage 💬️</ai>, green hydrogen, and energy access solutions offer hope. These are signs of genuine transformation. <br /><br /><strong>But is it happening fast enough?</strong>"
+              "text": "<strong>Faced with the dual challenge of balancing universal, affordable access with climate mitigation, the world is slowly starting to shift energy systems. <br /></strong><br />The cost of solar electricity has dropped by over 85% between 2010 and 2020 (<a href=\"https://www.irena.org/-/media/files/irena/agency/publication/2022/mar/irena_weto_summary_2022.pdf?la=en&hash=1da99d3c3334c84668f5caae029bd9a076c10079\"><u>IRENA</u></a>, 2022), and renewables are now the cheapest source of new power in most of the world. In 2024, clean energy investments reached a historic $2 trillion, more than doubling since 2020 (<a href=\"https://www.iea.org/news/investment-in-clean-energy-this-year-is-set-to-be-twice-the-amount-going-to-fossil-fuels\"><u>IEA</u></a>, 2024). As illustrated in the following chart, the share of renewable energy in global electricity generation has already risen from approximately 20% in 2000 to over 30% in 2023. Looking ahead, it is projected to increase by an additional 90% by 2030, compared to 2023 levels.<br /><br />Solar and wind are finally outcompeting coal and gas in many markets. For the first time, renewables are set to become the largest source of global electricity. <br /><br />Governments, companies, and communities around the world are increasingly committing to net-zero pathways. Breakthroughs in <ai prompt=\"Provide more info on battery storage.\">battery storage 💬️</ai>, green hydrogen, and energy access solutions offer hope. These are signs of genuine transformation. <br /><br /><strong>But is it happening fast enough?</strong>"
             }
           }
         ]
@@ -1365,7 +1465,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The challenge with achieving a <ai prompt=\"Share details about just energy transition.\">just energy transition 💬️</ai> is that it has dual imperatives and multiple contradictions. <strong>How do we move beyond the current structure and build a system that is beneficial for people, planet and prosperity?<br /><br /></strong>This section explores the foundational shifts required to transition from today’s outdated, fossil-fueled energy systems to a future that is clean, inclusive, and climate-aligned. It begins by diagnosing the limitations of our current centralized energy model, one that disproportionately benefits the wealthy, remains heavily dependent on fossil fuels, and suffers from significant inefficiencies and sectoral vulnerabilities.<br /><br />It then presents the energy system we need: one that is renewable, non-polluting, and designed to deliver cross-sectoral development gains, from health and education to food security and resilience. <br /><br />Finally, it outlines key levers for transformative change in the coming decade. This section sets the stage for understanding that the <strong>energy transition is not just a technological upgrade, it is a political, social, and moral imperative.<br /></strong>"
+              "text": "The challenge with achieving a <ai prompt=\"Tell me more about just energy transition.\">just energy transition 💬️</ai> is that it has dual imperatives and multiple contradictions. <strong>How do we move beyond the current structure and build a system that is beneficial for people, planet and prosperity?<br /><br /></strong>This section explores the foundational shifts required to transition from today’s outdated, fossil-fueled energy systems to a future that is clean, inclusive, and climate-aligned. It begins by diagnosing the limitations of our current centralized energy model, one that disproportionately benefits the wealthy, remains heavily dependent on fossil fuels, and suffers from significant inefficiencies and sectoral vulnerabilities.<br /><br />It then presents the energy system we need: one that is renewable, non-polluting, and designed to deliver cross-sectoral development gains, from health and education to food security and resilience. <br /><br />Finally, it outlines key levers for transformative change in the coming decade. This section sets the stage for understanding that the <strong>energy transition is not just a technological upgrade, it is a political, social, and moral imperative.<br /></strong>"
             }
           }
         ]
@@ -1422,18 +1522,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/Screenshot 2025-03-13 at 15.55.24 1.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1479,18 +1567,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/M1_C1_15.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {

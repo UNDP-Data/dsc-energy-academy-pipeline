@@ -39,16 +39,6 @@
       }
     },
     {
-      "template_id": "photo_horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/722_145.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -89,7 +79,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_5.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_7.png",
           "caption": ""
         }
       }
@@ -124,7 +114,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The growing importance of sustained access to critical raw materials, especially energy transition minerals, has elevated their prominence on national economic agendas. As the demand for greener energy technologies accelerates, the impact on the entire mining value chain becomes increasingly significant across all sectors of society. Given UNDP's ongoing work on sustainable mining and extractives for development, this presents a key entry point for further engagement. The mining sector plays a pivotal role in the energy transition.<br /><br />Once the official UN framework on Critical Energy Transition Minerals is available, it will help address supply chain challenges, governance, <ai prompt=\"What is social protection?\">social protection 💬️</ai>, and gender equality through a human rights-based approach. Potential solutions include encouraging extractive industries to adopt sustainable practices by redefining the value of natural resources and ecosystem services, minimizing environmental impact, and restoring ecosystems post-extraction. Additionally, UNDP’s Nature Pledge can guide the realignment of investments towards sustainable energy projects, such as developing energy-efficient technologies and promoting sustainable mining through incentive mechanisms."
+              "text": "The growing importance of sustained access to critical raw materials, especially energy transition minerals, has elevated their prominence on national economic agendas. As the demand for greener energy technologies accelerates, the impact on the entire mining value chain becomes increasingly significant across all sectors of society. Given UNDP's ongoing work on sustainable mining and extractives for development, this presents a key entry point for further engagement. The mining sector plays a pivotal role in the energy transition.<br /><br />Once the official UN framework on Critical Energy Transition Minerals is available, it will help address supply chain challenges, governance, <ai prompt=\"Clarify social protection.\">social protection 💬️</ai>, and gender equality through a human rights-based approach. Potential solutions include encouraging extractive industries to adopt sustainable practices by redefining the value of natural resources and ecosystem services, minimizing environmental impact, and restoring ecosystems post-extraction. Additionally, UNDP’s Nature Pledge can guide the realignment of investments towards sustainable energy projects, such as developing energy-efficient technologies and promoting sustainable mining through incentive mechanisms."
             }
           }
         ]
@@ -370,7 +360,47 @@
                 1.0946907498631973
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Critical minerals used in selected clean energy technologies",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -382,7 +412,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Asian countries, which play a key role in manufacturing technologies like photovoltaic panels and lithium-ion batteries, are highly dependent on critical mineral imports. By applying lifecycle and <ai prompt=\"What is circular economy?\">circular economy 💬️</ai> principles, such as green design, product re-engineering, and enhanced recycling policies, these regions can reduce reliance on newly mined materials. Effective Extended Producer Responsibility (EPR) schemes and improved waste management can also mitigate the environmental impacts of rising e-waste generation. When developed with a focus on social inclusion and gender equality, these initiatives can create decent jobs for women, youth, and marginalized groups, particularly in waste management.<br /><br />As the global energy transition accelerates, demand for minerals essential to electric vehicles, wind turbines, and solar panels is soaring, emphasizing the need for international cooperation. From 2017 to 2022, the energy sector drove a tripling of lithium demand, alongside a 70% increase in cobalt demand and a 40% rise in nickel demand, pushing the market for energy transition minerals to USD 320 billion in 2022 (IEA, 2023)."
+              "text": "Asian countries, which play a key role in manufacturing technologies like photovoltaic panels and lithium-ion batteries, are highly dependent on critical mineral imports. By applying lifecycle and <ai prompt=\"Explain circular economy.\">circular economy 💬️</ai> principles, such as green design, product re-engineering, and enhanced recycling policies, these regions can reduce reliance on newly mined materials. Effective Extended Producer Responsibility (EPR) schemes and improved waste management can also mitigate the environmental impacts of rising e-waste generation. When developed with a focus on social inclusion and gender equality, these initiatives can create decent jobs for women, youth, and marginalized groups, particularly in waste management.<br /><br />As the global energy transition accelerates, demand for minerals essential to electric vehicles, wind turbines, and solar panels is soaring, emphasizing the need for international cooperation. From 2017 to 2022, the energy sector drove a tripling of lithium demand, alongside a 70% increase in cobalt demand and a 40% rise in nickel demand, pushing the market for energy transition minerals to USD 320 billion in 2022 (IEA, 2023)."
             }
           }
         ]
@@ -452,10 +482,10 @@
             }
           },
           "grid": {
-            "left": "5%",
-            "right": "5%",
-            "bottom": "10%",
-            "top": 60,
+            "left": 70,
+            "right": 40,
+            "bottom": 90,
+            "top": 200,
             "containLabel": true
           },
           "xAxis": {
@@ -568,7 +598,41 @@
                 ]
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Demand for key materials and share of clean energy in total demand",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -602,7 +666,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The mining and processing of critical materials are highly concentrated in a few key countries, raising concerns about resource security and geopolitical dynamics. Strategies are emerging to diversify supply chains, taking into account economic, political, and social factors.<br /><br />Countries like Australia (lithium), Chile (copper and lithium), China (graphite, rare earths), the Democratic Republic of Congo (cobalt), Indonesia (nickel), and South Africa (platinum, iridium) dominate critical mineral extraction. This concentration increases further in the processing stage, with China refining 100% of natural graphite and dysprosium, 70% of cobalt, and nearly 60% of lithium and manganese.<br />Central Asia is also rich in <ai prompt=\"What is critical minerals?\">critical minerals 💬️</ai>, holding 38.6% of the world’s manganese ore, 30% of chromium, 20% of lead, and 12.6% of zinc, among others. Kazakhstan, a major player in uranium production (43% of global supply in 2022), has the potential to compete with China in rare earth elements, as well as the extraction of metals like scandium and yttrium, crucial for technology industries."
+              "text": "The mining and processing of critical materials are highly concentrated in a few key countries, raising concerns about resource security and geopolitical dynamics. Strategies are emerging to diversify supply chains, taking into account economic, political, and social factors.<br /><br />Countries like Australia (lithium), Chile (copper and lithium), China (graphite, rare earths), the Democratic Republic of Congo (cobalt), Indonesia (nickel), and South Africa (platinum, iridium) dominate critical mineral extraction. This concentration increases further in the processing stage, with China refining 100% of natural graphite and dysprosium, 70% of cobalt, and nearly 60% of lithium and manganese.<br />Central Asia is also rich in <ai prompt=\"Clarify critical minerals.\">critical minerals 💬️</ai>, holding 38.6% of the world’s manganese ore, 30% of chromium, 20% of lead, and 12.6% of zinc, among others. Kazakhstan, a major player in uranium production (43% of global supply in 2022), has the potential to compete with China in rare earth elements, as well as the extraction of metals like scandium and yttrium, crucial for technology industries."
             }
           }
         ]
@@ -642,7 +706,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/image 333.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/image333.webp",
           "caption": null,
           "url": null
         }
@@ -706,7 +770,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_6.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_2.png",
           "caption": ""
         }
       }
@@ -717,7 +781,7 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_14.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_16.png",
           "caption": ""
         }
       }
@@ -882,7 +946,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While these studies do not exclusively focus on Critical Minerals extraction for Energy Transition, their conclusions shed light on the broader mining sector, revealing that corporate commitments play a crucial role in setting standards, but they alone prove insufficient to prevent harmful impacts and ensure a <ai prompt=\"Clarify just energy transition.\">just energy transition 💬️</ai>."
+              "text": "While these studies do not exclusively focus on Critical Minerals extraction for Energy Transition, their conclusions shed light on the broader mining sector, revealing that corporate commitments play a crucial role in setting standards, but they alone prove insufficient to prevent harmful impacts and ensure a <ai prompt=\"Explain just energy transition.\">just energy transition 💬️</ai>."
             }
           }
         ]

@@ -313,8 +313,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_10.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/2_4.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -621,14 +622,14 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Le manque d'électricité fiable dans les établissements de santé, en particulier dans les zones de conflit comme le Yémen, a un impact sévère sur les services de santé et, par conséquent, sur le bien-être humain. La guerre civile yéménite a gravement sapé les services de santé du pays. Seulement 46 % des installations fonctionnent partiellement ou sont complètement hors service en raison de plusieurs raisons, telles que l'arrêt des générateurs en raison de pénuries de carburant diesel. Par conséquent, s'attaquer aux défis d'accès à l'énergie dans les établissements de santé au Yémen est crucial."
+              "text": "Le conflit en cours au Yémen au cours de la dernière décennie a laissé plus de 21,6 millions de personnes—les deux tiers de la population—dépendantes de l'aide humanitaire et des services de protection. La guerre a gravement endommagé l'infrastructure de santé du pays, avec 46 % des établissements de santé soit partiellement opérationnels, soit complètement hors service en raison de pénuries de personnel, de fonds, d'électricité, de médicaments et d'équipements. Le pays est également confronté à des coupures de courant fréquentes, qui durent souvent plus de six heures par jour. En conséquence, de nombreuses cliniques, maternités, salles d'opération, entrepôts médicaux et laboratoires sont contraintes de recourir à des générateurs électriques coûteux, ce qui compromet la fourniture de services médicaux essentiels et met des vies en danger. <br /><br /><br />Pour aider à fournir des sources d'électricité plus fiables et abordables, le PNUD a lancé l'initiative Solar for Health (S4H) au Yémen, financée par le Fonds du Koweït pour le développement économique arabe. Le S4H est un programme plus large de l'UNDP qui, depuis 2017, a atteint environ 1 000 centres de santé et installations de stockage dans 15 pays, notamment le Zimbabwe, le Soudan, la Zambie, le Soudan du Sud, la Namibie, le Liberia, la Libye, le Malawi, le Yémen, l'Angola, le Népal, l'Ouganda, le Tchad et l'Eswatini, avec le soutien de ses partenaires."
             }
           }
         ]
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -651,7 +652,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'initiative Solar for Health du PNUD vise à remédier aux pénuries d'énergie dans les établissements de santé en fournissant des solutions énergétiques durables. Ce programme a été mis en œuvre avec succès dans plusieurs pays à travers différentes régions. <br /><br />L'Initiative repose sur la conviction que l'accès à une énergie fiable et propre est un facteur clé pour garantir des soins de santé de qualité, en particulier dans les zones touchées par des crises et mal desservies comme le Yémen. Sa théorie du changement se concentre sur l'amélioration des résultats en matière de santé et le renforcement de la résilience en électrifiant les établissements de santé avec de l'énergie solaire. L'approche comprend l'acquisition et l'installation de systèmes photovoltaïques solaires adaptés aux besoins énergétiques des différents niveaux d'établissements de santé. Solar for Health favorise l'engagement communautaire à travers des comités de bénévoles pour l'entretien des systèmes et soutient des cadres politiques qui permettent l'extension à long terme de l'énergie propre dans les systèmes de santé.<br /><br />Son modèle financier garantit la durabilité à long terme grâce à un financement coordonné et mixte, rassemblant gouvernements, donateurs, fournisseurs de services énergétiques (ESP) et institutions de financement du développement (DFI) pour aligner les efforts et éviter des investissements fragmentés. <ai prompt=\"Clarifier les partenariats public-privé.\">public-private partnerships 💬️</ai> permettent aux ESPs d'accéder au financement DFI, soutenus par des mécanismes tels que les paiements soutenus par des donateurs et les garanties de crédit pour réduire le risque financier, tandis que les accords d'achat d'électricité (PPA) entre les gouvernements et les ESPs offrent des flux de revenus stables."
+              "text": "Au Yémen, l'initiative a été mise en œuvre sur la base de principes clés, tels que : <br /><br /><strong>Évaluation des besoins : </strong>Des audits techniques ont été réalisés pour chaque établissement de santé afin de déterminer les charges maximales/journalières, les besoins en réfrigération et l'utilisation des générateurs. Les installations ont été choisies en fonction du volume de patients, de la répartition géographique et de la préparation à l'engagement communautaire. <br /><br /><strong>Approvisionnement et installation : </strong>Les micro-réseaux solaires et les systèmes photovoltaïques, y compris les batteries et les onduleurs, ont été déployés pour assurer une alimentation électrique 24/7. <br /><br /><strong>Renforcement des capacités :</strong> Des techniciens locaux et du personnel des établissements de santé ont été formés à l'exploitation et à la maintenance des systèmes solaires pour assurer la durabilité et la création d'emplois locaux <br /><br /><strong>Engagement communautaire :</strong> Des comités de bénévoles ont été créés pour superviser l'entretien du système et promouvoir la propriété communautaire. <br /><br /><strong>Modèle de financement mixte :</strong> Fournisseurs de services énergétiques locaux (ESPs) contractés pour fournir et installer des systèmes dans le cadre de <ai prompt=\"Clarifier les partenariats public-privé.\">partenariats public-privé 💬️</ai> et utilisant des paiements soutenus par des donateurs, des garanties de crédit et des accords d'achat d'électricité pour sécuriser les flux de revenus et réduire les risques du financement privé."
             }
           }
         ]
@@ -663,36 +664,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>La solution du PNUD</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Depuis 2017, cette initiative a apporté plusieurs résultats bénéfiques aux communautés yéménites :"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "27 établissements de santé à travers le Yémen ont été dotés de micro-réseaux solaires et de réfrigérateurs solaires, apportant des impacts positifs à 208 000 personnes et permettant la vaccination de près de 70 enfants."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "<br />Dans la zone de captage d'Al-Za’zea, les services médicaux fournissent des soins à plus de 5 000 personnes et augmentent le nombre de patients que l'établissement de santé peut recevoir, y compris jusqu'à 175 visites par mois de femmes locales à la recherche de services de planification familiale, de soins de grossesse et de traitement pour les enfants malnutris."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "<br />Non seulement l'initiative bénéficie aux communautés en fournissant un accès à l'électricité, mais elle offre également à des dizaines de travailleurs de nouvelles compétences et qualifications dans les emplois liés aux technologies énergétiques durables."
+              "text": "En conséquence, le projet a eu un impact profond sur la disponibilité et l'accessibilité des services de santé, en particulier dans les zones reculées et mal desservies, où l'accès à une électricité fiable est un défi constant. Les étapes clés réalisées grâce à Solar for Health sont : <br /> <br /><strong>Électrification des établissements de santé : </strong>72 établissements de santé à travers le Yémen ont été équipés de micro-réseaux solaires et de réfrigérateurs solaires, bénéficiant à plus de 208 000 personnes. <br /><br /><strong>Amélioration de la prestation des soins de santé :</strong> Dans la zone de captage d'Al-Za’zea, le centre de santé fournit désormais des soins à plus de 5 000 personnes, avec jusqu'à 175 visites par mois par des femmes locales recherchant des services de planification familiale, des soins de grossesse et un traitement pour les enfants malnutris.<br /> <br /><strong>Services de vaccination améliorés</strong> : L'approvisionnement fiable en électricité a amélioré la capacité des centres de santé, permettant la vaccination de presque 70 enfants. <br /><br /><strong>Renforcement des capacités et emploi : </strong>Des dizaines de travailleurs ont été formés dans les technologies <ai prompt=\"Share details about solar energy.\">énergie solaire 💬️</ai>, leur fournissant des compétences pour l'emploi dans le secteur des énergies renouvelables. <br /><br /><strong>Avantages environnementaux : </strong>La transition des générateurs diesel à l'énergie solaire a réduit les émissions de gaz à effet de serre et diminué la dépendance aux combustibles fossiles."
             }
           }
         ]
@@ -714,15 +688,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Conclusion</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'initiative Solar for Health au Yémen a eu des impacts positifs au Yémen en améliorant les services de santé et en promouvant le développement durable, y compris la création d'opportunités d'emplois verts et le développement des compétences."
+              "text": "Le succès du projet Solar for Health au Yémen offre des perspectives précieuses pour d'autres régions touchées par des conflits ou déficientes en énergie. <br />Les facteurs clés contribuant à son succès incluent : <br /> <br /><strong>Adaptabilité : </strong>Le modèle est reproductible dans d'autres régions, à condition qu'une évaluation approfondie des besoins et des conditions locales soit effectuée. <br /><br /><strong>Engagement communautaire : </strong>Impliquer les communautés locales dans la planification et l'entretien des systèmes solaires améliore la durabilité et le sentiment d'appartenance. <br /><br /><strong>Renforcement des capacités :</strong> La formation des techniciens locaux garantit la longévité des systèmes et favorise le développement économique. <br /><br /><strong>Soutien à la politique :</strong> Établir des cadres réglementaires de soutien est essentiel pour augmenter l'ampleur de telles initiatives. <br /> <br />En s'alignant sur les Objectifs de Développement Durable, en particulier l'ODD 3 : Bonne Santé et Bien-être et l'ODD 7 : Énergie Abordable et Propres, Solar for Health démontre comment des approches intégrées peuvent relever des défis complexes dans le domaine de la santé et de l'accès à l'énergie. <br /><br />De plus, il illustre comment les solutions énergétiques durables peuvent revitaliser les services de santé dans les contextes de crise et servent de modèle pour des contextes similaires dans le monde entier, démontrant le potentiel transformateur de l'énergie renouvelable dans le progrès du développement humain, y compris la création d'opportunités d'emplois verts et le développement des compétences."
             }
           }
         ]
@@ -890,8 +858,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_17.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/Frame1171276844.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -901,8 +870,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_6.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/Module7_2.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -912,8 +882,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L2_3.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/M1_C1_3.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -954,7 +925,7 @@
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {

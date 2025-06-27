@@ -69,16 +69,6 @@
       }
     },
     {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/725_307.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -100,7 +90,7 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/4282_225.webp",
           "caption": ""
         },
-        "intro": "M3: Transición energética justa",
+        "intro": "Región de los SIDS del Caribe",
         "title": "Estudio de caso: Puerto Rico",
         "subtitle": ""
       }
@@ -109,14 +99,7 @@
       "template_id": "text",
       "color_scheme": "light",
       "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "La Cooperativa Hidroeléctrica de la Montaña en la cordillera central de Puerto Rico tiene 3 proyectos que son complementarios entre sí y son una inversión social para mejorar las condiciones de vida de los residentes.<br />Estos tres proyectos fueron creados para abordar los cortes de electricidad prolongados, desencadenando una crisis humanitaria debido a las secuelas del huracán María que intensificaron la falta de acceso a instalaciones de salud, alimentos y agua. Primero, el proyecto Hydro Energy Reborn consiste en adquirir, recurrir y generar electricidad a través de plantas hidroeléctricas existentes. <br />En segundo lugar, el proyecto de Resiliencia Comunitaria a través de la Energía Fotovoltaica se centra en ciudadanos olvidados e ignorados que estuvieron sin electricidad durante más de un año. Como un programa de resiliencia comunitaria, asegura que los residentes de las áreas más remotas tengan acceso a la electricidad después del próximo desastre natural y, en condiciones normales, electricidad rentable a un precio fijo. Por último, el proyecto Microgrid of the Mountain sirve mejor a las necesidades energéticas de la gente de la Cordillera Central con energía eléctrica rentable y resiliente de fuentes renovables al proporcionar a los residentes una <ai prompt=\"Tell me more about energy resilience.\">resiliencia energética 💬️</ai> ante desastres naturales."
-            }
-          }
-        ]
+        "text_elements": []
       }
     },
     {
@@ -125,9 +108,33 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>ReEnFoCo–Resiliencia Energética Fotovoltaica Comunitaria (Resiliencia Energética Fotovoltaica Comunitaria)</strong>",
+              "body": "Esta iniciativa instala sistemas solares y de baterías en techos de viviendas, negocios y centros comunitarios, creando ‘centros de resiliencia’ que mantienen el acceso a servicios esenciales durante los cortes <a href=\"https://www.eesi.org/articles/view/new-co-op-plans-to-increase-energy-security-and-resilience-in-puerto-rico\"><u>(Environmental and Energy Study Institute, 2020)</u></a>.",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>Hidroenergía Renace</strong>",
+              "body": "Enfocado en la rehabilitación de las plantas hidroeléctricas de Caonillas y Dos Bocas, esta iniciativa tiene como objetivo restaurar hasta 50 MW de capacidad renovable y catalizar el desarrollo económico local (<a href=\"https://cooperativahidroelectrica.coop/en/hidroenergia-renace/index.html\"><u>Cooperativa Hidroelectrica de la Montana</u></a>).",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>Microrred de la Montaña</strong>",
+              "body": "La cooperativa está diseñando la primera microrred intermunicipal de Puerto Rico, capaz de operar en modo isla y ofrecer energía confiable y distribuida en Adjuntas, Jayuya, Lares y Utuado.",
+              "source": ""
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "En el corazón de esta iniciativa está la promoción de la democracia energética, donde las comunidades de la Cordillera Central están empoderadas para poseer y controlar sus activos de energía renovable. Esto asegura que reciban energía asequible y resiliente mientras participan activamente en los procesos de toma de decisiones que dan forma a su futuro energético. Al abordar las inequidades causadas por la electricidad poco confiable, la iniciativa apoya el desarrollo económico de la región, creando tanto oportunidades de empleo directas como indirectas para los residentes locales. Este enfoque se alinea con los principios de una <ai prompt=\"Tell me more about just energy transition.\">transición energética justa 💬️</ai>, que prioriza la participación comunitaria, la equidad y la sostenibilidad a largo plazo, asegurando que los beneficios de la transición energética se compartan de manera justa e inclusiva.<br /><br />Hay lecciones clave aprendidas de estos proyectos: el proyecto Hydro Energy Reborn y el proyecto Community Resilience through Photovoltaic Energy se centran en la gobernanza y la comunidad, mientras que el proyecto Microgrid of the Mountain demuestra cómo aprovechar mejor los recursos existentes. En el proyecto Hydro Energy Reborn, la gobernanza colaborativa fue crucial; el alcance de la iniciativa mejoró cuando los municipios se unieron y participaron en el intercambio de responsabilidades. Los beneficios surgieron de la utilización de la electricidad generada dentro de la comunidad, lo que mantuvo el control de esos recursos en manos de los residentes."
+              "text": "La cooperativa inició tres proyectos clave destinados a reconstruir los sistemas energéticos locales de manera sostenible e inclusiva. La estrategia de la Cooperativa se basa en tres iniciativas principales, que en conjunto forman la base de su enfoque de implementación por fases:"
             }
           }
         ]
@@ -151,7 +158,35 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El empoderamiento de las comunidades, así como la propiedad y el control sobre los activos energéticos, resultaron fundamentales para garantizar la resiliencia comunitaria y fomentar <ai prompt=\"Tell me more about energy democracy.\">la democracia energética 💬️</ai>. Al mantener la propiedad e incluir acuerdos de arrendamiento en el proyecto de Resiliencia Comunitaria a través de la Energía Fotovoltaica, los residentes fueron protegidos de los costos energéticos volátiles y tenían un interés a largo plazo en el éxito del proyecto.<br />Estos proyectos integraron la experiencia y el conocimiento local, aprovechando el talento local. Las iniciativas utilizaron recursos e involucraron a los miembros de la comunidad en los procesos de toma de decisiones, asegurando que las soluciones se adaptaran a las necesidades y prioridades específicas de esas comunidades. A medida que los proyectos maduraron, quedó claro que había una fuerte necesidad de líderes políticos que representaran a los residentes en el área de servicio para unirse y ayudar a acelerar el desarrollo de los proyectos. Fomentar estas asociaciones es una forma de superar las barreras institucionales y lograr un mayor impacto. Por último, el proyecto Microgrid of the Mountain ejemplificó el potencial de aprovechar los recursos existentes para la resiliencia comunitaria al revitalizar plantas hidroeléctricas subutilizadas. Este enfoque resultaría en poco o ningún impacto negativo en el medio ambiente o la inversión inicial porque estas plantas hidroeléctricas ya están construidas. Todo lo que queda es optimizar y maximizar los recursos existentes."
+              "text": "La cooperativa ha enfrentado varios desafíos en el camino:"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "El terreno montañoso accidentado del área del proyecto planteó desafíos de ingeniería y logística para implementar infraestructuras solares, baterías y microrredes."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Algunos interesados y miembros de la comunidad expresaron desde el principio escepticismo sobre la viabilidad de un modelo energético liderado por una cooperativa, lo que hizo que la transparencia y los resultados visibles fueran fundamentales para generar confianza."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Asegurar financiamiento para la restauración de infraestructura, particularmente para la rehabilitación hidroeléctrica, requirió un tiempo y esfuerzo significativos y dependió de la colaboración con socios gubernamentales y filantrópicos"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "La cooperativa tuvo que navegar en marcos legales y regulatorios complejos, especialmente relacionados con el control de PREPA sobre la infraestructura energética y los procesos de permisos de servicios públicos."
             }
           }
         ]
@@ -165,7 +200,128 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Los éxitos y la sólida base de estos proyectos subrayan su potencial para ser replicados. El modelo colaborativo de los proyectos y la integración de múltiples municipios se puede aplicar a regiones donde la conectividad regional no está optimizada. La utilización de la infraestructura existente demuestra el potencial para la misma reutilización de recursos descuidados en muchos más países.<br />Los éxitos y la sólida base de estos proyectos subrayan su potencial para ser replicados. El modelo colaborativo del proyecto Hydro Energy Reborn y del proyecto de Resiliencia Comunitaria a través de la Energía Fotovoltaica, junto con la integración de múltiples municipios, se puede aplicar a regiones donde la conectividad regional no está optimizada. Este enfoque enfatiza la justicia energética asegurando que <ai prompt=\"Compartir detalles sobre comunidades marginadas.\">las comunidades marginadas 💬️</ai> tengan voz en la toma de decisiones y en la propiedad de los recursos energéticos.<br /><br /><strong>La utilización de la infraestructura existente, como se demuestra en el proyecto Microgrid of the Mountain, muestra el potencial para reutilizar recursos descuidados, promover la sostenibilidad ambiental y mejorar la equidad energética.</strong> Al fomentar la resiliencia comunitaria y priorizar las necesidades locales, estos proyectos ilustran cómo se pueden implementar iniciativas similares en muchos más países para avanzar en la democracia energética y garantizar que todos se beneficien de una energía accesible, confiable y asequible."
+              "text": "A pesar de estos obstáculos, la gobernanza transparente de la cooperativa, las sólidas asociaciones locales y el enfoque en beneficios mutuos ayudaron a superar estas barreras.<br /><br />Estos tres proyectos representan un modelo unificado de transformación energética descentralizada y comunitaria (<a href=\"https://www.cooperativahidroelectrica.coop/\"><u>Cooperativa Hidroeléctrica de la Montaña</u></a>).<br /><br />La implementación por fases de la Cooperativa Hidroeléctrica de la Montaña ya ha comenzado a generar <strong>impactos significativos en la región montañosa central de Puerto Rico</strong>."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Hasta 250 sistemas en azoteas, 10 MW solares, 20 MWh de almacenamiento en 5 municipios.</strong>",
+              "body": ""
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Rehabilitación de plantas hidroeléctricas para restaurar una capacidad de 50 MW, beneficiando a aproximadamente 40,000 hogares</strong>",
+              "body": ""
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>El primer microred intermunicipal de Puerto Rico que integra generación hidroeléctrica y solar, opera con capacidad de aislamiento y utiliza nuevas líneas de distribución de 38 kV entre cuatro municipios.</strong>",
+              "body": ""
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>El proyecto atiende a aproximadamente 90,000 residentes en 4 municipios.</strong>",
+              "body": ""
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Precios asequibles y estables; creación de empleo a través de la capacitación de la fuerza laboral local</strong>",
+              "body": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/725_307.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Fuertes alianzas políticas y marcos políticos habilitadores fueron esenciales para superar obstáculos regulatorios y financieros"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "La participación del conocimiento y la mano de obra locales fue indispensable para adaptar las soluciones técnicas al terreno accidentado."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "La rehabilitación de infraestructuras inactivas, como las plantas hidroeléctricas, fue tanto rentable como responsable con el medio ambiente"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "El énfasis en la propiedad comunitaria es crucial para garantizar la longevidad del proyecto y mantener la resiliencia local."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Como resultado de estos esfuerzos, la Cooperativa ahora opera en Adjuntas, Jayuya, Lares y Utuado con el objetivo de aumentar la resiliencia, reducir las cargas energéticas y fortalecer la capacidad local. La cooperativa también ofrece financiamiento en la factura para mejorar la asequibilidad y el acceso a la energía, especialmente para los hogares de bajos ingresos (<a href=\"https://www.eesi.org/articles/view/new-co-op-plans-to-increase-energy-security-and-resilience-in-puerto-rico\"><u>EESI, 20234</u></a>).<br /><br />Las lecciones aprendidas de este proyecto han sido valiosas para futuras iniciativas energéticas comunitarias, con ideas como:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Este proyecto ofrece un modelo que puede ser replicado en otras regiones que enfrentan desafíos similares, como áreas rurales, montañosas o propensas a desastres con un acceso a la energía centralizado débil o infraestructura abandonada. Los elementos replicables clave incluyen la gobernanza impulsada por la comunidad, el uso de fuentes de energía renovable y el aprovechamiento del conocimiento y la mano de obra locales. Estos aspectos aseguran la adaptabilidad del proyecto en otros contextos, haciéndolo escalable y sostenible en regiones con vulnerabilidades similares.<br /><br />La cooperativa ha establecido mecanismos para garantizar la sostenibilidad continua del proyecto. Los ingresos generados por la venta de energía se reinvierten en el mantenimiento de los sistemas energéticos y en la financiación de iniciativas de desarrollo comunitario. De ahora en adelante, la cooperativa planea ampliar su cobertura de microredes a otras ciudades, aumentar las capacidades de generación de energía renovable para satisfacer la creciente demanda regional, y abogar por reformas políticas nacionales para apoyar sistemas de energía renovable descentralizados y comunitarios en Puerto Rico. Al alinearse con los principios de una <ai prompt=\"¿Qué es una transición energética justa?\">transición energética justa 💬️</ai>, este proyecto no solo mejora la resiliencia climática sino que también promueve la equidad social al empoderar a las comunidades locales para que tomen el control de su futuro energético."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Referencias</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Cooperativa Hidroeléctrica de la Montaña. Nuestra historia. <a href=\"https://www.cooperativahidroelectrica.coop/\"><u>https://www.cooperativahidroelectrica.coop/<br /><br /></u></a>Instituto de Estudios Ambientales y Energéticos (EESI). (2020). Nuevos planes de la cooperativa para aumentar la seguridad energética y la resiliencia en Puerto Rico. <a href=\"https://www.eesi.org/articles/view/new-co-op-plans-to-increase-energy-security-and-resilience-in-puerto-rico\"><u>https://www.eesi.org/articles/view/new-co-op-plans-to-increase-energy-security-and-resilience-in-puerto-rico<br /><br /></u></a>Laboratorio Nacional de Idaho (INL). (2022). Informe de viabilidad de la Microrred de la Montaña <a href=\"https://inldigitallibrary.inl.gov/sites/sti/sti/Sort_63492.pdf\"><u>https://inldigitallibrary.inl.gov/sites/sti/sti/Sort_63492.pdf<br /><br /></u></a>EE. UU. Oficina de Responsabilidad Gubernamental (GAO). (2019). Recuperación de la red eléctrica de Puerto Rico: se necesita mejor información y una coordinación mejorada para abordar los desafíos. <a href=\"https://www.gao.gov/products/gao-20-141\"><u>https://www.gao.gov/products/gao-20-141</u></a>"
             }
           }
         ]

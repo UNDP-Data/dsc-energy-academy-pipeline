@@ -1,0 +1,404 @@
+{
+  "id": "3.-1.0",
+  "segments": [
+    {
+      "template_id": "scored_quiz",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Quiz noté <br/><strong>Module 3</strong>",
+        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance !",
+        "final": true,
+        "labels": {
+          "correct": "Correct",
+          "question": "Question",
+          "result": "Résultat du quiz",
+          "score": "Votre score",
+          "passingScore": "Score minimum requis",
+          "startButton": "Commencer le quiz",
+          "nextButton": "Suivant",
+          "submitButton": "Soumettre",
+          "retryButton": "Rejouer",
+          "passed": "Passé",
+          "failed": "Non réussi"
+        },
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "Quelle est une origine clé du concept de transition énergétique juste ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Un panel intergouvernemental des Nations Unies sur les émissions"
+              },
+              {
+                "id": 2,
+                "value": "Un réseau de plaidoyer pour le climat des jeunes"
+              },
+              {
+                "id": 3,
+                "value": "Les syndicats plaidant pour la protection des travailleurs"
+              },
+              {
+                "id": 4,
+                "value": "Une campagne de durabilité d'entreprise"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Le terme est originaire des mouvements syndicaux, mettant l'accent sur la protection des travailleurs lors des réformes environnementales."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Le terme est originaire des mouvements syndicaux, mettant l'accent sur la protection des travailleurs lors des réformes environnementales."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Quel principe est central pour atteindre une transition juste dans des contextes divers ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Standardisation des délais de transition"
+              },
+              {
+                "id": 2,
+                "value": "Modèles de subvention universels"
+              },
+              {
+                "id": 3,
+                "value": "Adapter les stratégies aux réalités locales"
+              },
+              {
+                "id": 4,
+                "value": "Éviter la consultation communautaire"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Des stratégies sur mesure sont cruciales pour tenir compte des disparités régionales, des dynamiques sociales et des contextes économiques."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Des stratégies sur mesure sont cruciales pour tenir compte des disparités régionales, des dynamiques sociales et des contextes économiques."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "Qu'est-ce que la \"justice énergétique\" met le plus clairement en avant ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Maximiser l'efficacité du réseau"
+              },
+              {
+                "id": 2,
+                "value": "Répartition égale des avantages et des charges énergétiques"
+              },
+              {
+                "id": 3,
+                "value": "Prioriser les infrastructures à grande échelle"
+              },
+              {
+                "id": 4,
+                "value": "Déréglementation des marchés de l'énergie"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "La justice énergétique se concentre sur l'accès équitable, la distribution juste et l'inclusion dans les décisions énergétiques."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "La justice énergétique se concentre sur l'accès équitable, la distribution juste et l'inclusion dans les décisions énergétiques."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "Lequel des éléments suivants décrit le mieux une approche de justice procédurale dans la planification énergétique ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Évaluer uniquement la faisabilité technique"
+              },
+              {
+                "id": 2,
+                "value": "Centraliser la prise de décision dans les ministères"
+              },
+              {
+                "id": 3,
+                "value": "Prioriser la vitesse plutôt que la consultation"
+              },
+              {
+                "id": 4,
+                "value": "Inclure les parties prenantes dans toutes les phases de la conception du projet"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "La justice procédurale nécessite une participation inclusive et transparente à toutes les phases de la planification énergétique."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "La justice procédurale nécessite une participation inclusive et transparente à toutes les phases de la planification énergétique."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Quel défi peut surgir d'un passage mal planifié des combustibles fossiles dans les régions dépendantes des ressources extractives ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Plus d'investissement étranger"
+              },
+              {
+                "id": 2,
+                "value": "Réduction des prix de l'électricité"
+              },
+              {
+                "id": 3,
+                "value": "Pertes d'emplois et instabilité sociale"
+              },
+              {
+                "id": 4,
+                "value": "Accès à l'énergie plus rapide"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Des transitions rapides sans alternatives économiques peuvent déstabiliser les communautés dépendantes des industries extractives."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Des transitions rapides sans alternatives économiques peuvent déstabiliser les communautés dépendantes des industries extractives."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "Quel est un obstacle clé lié au genre à une participation équitable dans la transition énergétique ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Manque d'intérêt des femmes pour les emplois dans le secteur de l'énergie"
+              },
+              {
+                "id": 2,
+                "value": "Préférence des femmes pour des solutions énergétiques informelles"
+              },
+              {
+                "id": 3,
+                "value": "Sous-représentation dans le leadership et accès inégal à la formation et au financement"
+              },
+              {
+                "id": 4,
+                "value": "Résistance des syndicats dominés par les hommes"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Les barrières structurelles—telles qu'un accès limité à la formation, au financement et aux rôles de leadership—limitent la pleine participation des femmes dans le secteur de l'énergie."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Les barrières structurelles—telles qu'un accès limité à la formation, au financement et aux rôles de leadership—limitent la pleine participation des femmes dans le secteur de l'énergie."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Pourquoi la sécurité des droits fonciers est-elle essentielle dans le déploiement des énergies renouvelables dans le Sud global ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Cela garantit des prix de l'électricité plus bas pour les communautés"
+              },
+              {
+                "id": 2,
+                "value": "Il garantit aux investisseurs des rendements plus élevés"
+              },
+              {
+                "id": 3,
+                "value": "Il prévient le déplacement, protège les droits des communautés et garantit un partage équitable des bénéfices"
+              },
+              {
+                "id": 4,
+                "value": "Cela permet aux gouvernements de contourner les exigences de consultation"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Des droits fonciers sécurisés aident à prévenir le déplacement, protègent les moyens de subsistance et facilitent une participation équitable aux avantages des énergies renouvelables."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Des droits fonciers sécurisés aident à prévenir le déplacement, protègent les moyens de subsistance et facilitent une participation équitable aux avantages des énergies renouvelables."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "Quelle est une préoccupation environnementale majeure liée aux projets hydroélectriques à grande échelle ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Émissions élevées des turbines"
+              },
+              {
+                "id": 2,
+                "value": "Perte d'énergie dans la transmission à longue distance"
+              },
+              {
+                "id": 3,
+                "value": "Perturbation des écosystèmes aquatiques et émissions de méthane provenant des réservoirs"
+              },
+              {
+                "id": 4,
+                "value": "Dépendance excessive à la technologie importée"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "L'hydroélectricité à grande échelle peut perturber les écosystèmes fluviaux et émettre du méthane provenant de la décomposition de la biomasse dans les réservoirs, en particulier dans les zones tropicales."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "L'hydroélectricité à grande échelle peut perturber les écosystèmes fluviaux et émettre du méthane provenant de la décomposition de la biomasse dans les réservoirs, en particulier dans les zones tropicales."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "Quelle stratégie favorise des opportunités économiques équitables dans les transitions énergétiques ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Allègements fiscaux pour les services publics"
+              },
+              {
+                "id": 2,
+                "value": "Programmes de développement des compétences et de reconversion"
+              },
+              {
+                "id": 3,
+                "value": "Privatiser l'accès à l'énergie"
+              },
+              {
+                "id": 4,
+                "value": "S'appuyant uniquement sur les marchés du carbone"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Le développement des compétences et la reconversion permettent aux travailleurs et aux communautés de bénéficier des nouveaux secteurs énergétiques."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Le développement des compétences et la reconversion permettent aux travailleurs et aux communautés de bénéficier des nouveaux secteurs énergétiques."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "Quel est le rôle du Consentement Libre, Préalable et Éclairé (CLPE) dans les transitions justes ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Pour accélérer le développement des infrastructures"
+              },
+              {
+                "id": 2,
+                "value": "Pour contourner les approbations gouvernementales"
+              },
+              {
+                "id": 3,
+                "value": "Pour garantir que les communautés autochtones aient le pouvoir de décision sur les projets énergétiques"
+              },
+              {
+                "id": 4,
+                "value": "Limiter l'accès aux ressources naturelles"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Le FPIC garantit que les peuples autochtones sont impliqués de manière significative dans les décisions affectant leurs terres et leurs vies."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Le FPIC garantit que les peuples autochtones sont impliqués de manière significative dans les décisions affectant leurs terres et leurs vies."
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module3.png",
+          "caption": ""
+        },
+        "intro": "Prochainement",
+        "title": "Module 3 Conclusion",
+        "cta": "Continuez à apprendre",
+        "nextLessonId": "3.-1.-1"
+      }
+    }
+  ]
+}

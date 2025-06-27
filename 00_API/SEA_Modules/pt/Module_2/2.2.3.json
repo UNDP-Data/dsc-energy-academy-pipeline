@@ -100,8 +100,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_3.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/M1_C1_3.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -347,7 +348,47 @@
                 54
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "População com acesso a combustíveis e tecnologias limpas para cozinhar por região do ODS (percentual)",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -395,19 +436,19 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Estudo de caso RBA: Produção e utilização de carvão com eficiência energética através de tecnologias inovadoras e envolvimento do setor privado na Serra Leoa</strong>"
+              "text": "<strong>Produção e Utilização Eficientes de Energia de Carvão Vegetal através de Tecnologias Inovadoras e Envolvimento do Setor Privado na Serra Leoa</strong>"
             }
           },
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>O problema</strong>"
+              "text": "<strong>Contexto</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Durante as décadas de 1980 e 1990, o carvão emergiu como um combustível urbano minoritário, superando gradualmente a lenha e tornando-se o combustível de madeira preferido pela maioria dos residentes urbanos. No entanto, o subsector tradicional de carvão e fogões de cozinha em Serra Leoa há muito sofre de informalidade, falta de regulamentação e fragmentação, com sistemas de produção ineficientes fortemente dependentes de fontes não renováveis e declarações políticas inconsistentes."
+              "text": "Na Serra Leoa, o <strong>carvão vegetal</strong> continua sendo o principal combustível de cozinha nas cidades, com mais de 90% das famílias urbanas dependendo dele. No entanto, seu uso contínuo tem um custo elevado. (IJSDR, 2024) A produção tradicional é ineficiente e poluente, impulsionando o desmatamento, parte das <strong>500.000 hectares</strong> perdidos anualmente em toda a África Ocidental, interrompendo as cadeias de suprimentos e expondo mulheres e crianças à poluição do ar indoor que causa milhares de mortes prematuras a cada ano. A dependência de carvão vegetal não é apenas uma questão de saúde ou ambiental; ela reflete uma lacuna mais profunda no acesso à energia. Sem opções de cozinha acessíveis e modernas, as famílias permanecem presas a práticas inseguras e insustentáveis. (Energy 4 Impact, 2021) Embora existam alternativas mais limpas, muitas famílias de baixa renda não podem permiti-las ou acessá-las."
             }
           }
         ]
@@ -418,18 +459,6 @@
       "color_scheme": "light",
       "content": {
         "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Objetivos do projeto e financiamento</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Abordando esses desafios, o projeto financiado pelo Fundo Global para o Meio Ambiente e apoiado pelo PNUD sobre a produção e utilização eficiente de carvão através de tecnologias inovadoras e envolvimento do setor privado na Serra Leoa visa gerar benefícios econômicos, sociais e ambientais. O projeto incentiva a produção sustentável de carvão a partir de fontes renováveis e a promoção de fogões melhorados para mitigar o desmatamento, melhorar a saúde pública e reduzir as emissões de gases de efeito estufa. Especificamente, a iniciativa visa apoiar alternativas ao carvão tradicional, como carvão produzido de forma sustentável usando fornos aprimorados e combustíveis de biomassa alternativos, como briquetes de serragem e resíduos agrícolas, para reduzir o desmatamento, melhorar <ai prompt=\"Tell me more about energy efficiency.\">a eficiência energética 💬️</ai>, e diminuir as emissões de gases de efeito estufa."
-            }
-          },
           {
             "template_id": "subtitle_small",
             "content": {
@@ -439,7 +468,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "O projeto opera através de três componentes principais. O primeiro componente enfatiza o estabelecimento de estruturas políticas e regulatórias robustas, o fortalecimento da capacidade institucional e a formulação de políticas, leis e regulamentos eficazes relacionados à produção de carvão mais eficiente e fogões melhorados."
+              "text": "O projeto concentrou-se em três áreas prioritárias: <br /><br /><strong>Melhorar o acesso à cozinha limpa,</strong> especialmente para mulheres e famílias de baixa renda. <br /><strong>Reduzir o desmatamento</strong> e as emissões por meio de métodos de produção de carvão mais limpos.<br /> <br /><strong>Promover o empreendedorismo verde</strong> permitindo que pequenas empresas participem da transição energética. "
             }
           }
         ]
@@ -453,25 +482,13 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Abordagem público-privada</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "O projeto se esforça para catalisar iniciativas público-privadas, promovendo parcerias ao longo da cadeia de valor da produção e utilização de carvão. Através do desenvolvimento de incentivos, incluindo financiamento de carbono, microfinanças, reembolsos e esquemas de garantia de empréstimos, o projeto visa expandir negócios de carvão sustentável e fogões melhorados. Além disso, a implementação de fogões industriais produzidos localmente para empresas geradoras de renda e fornos eficientes para a produção de carvão contribui para os objetivos do projeto."
-            }
-          },
-          {
-            "template_id": "subtitle_small",
-            "content": {
               "text": "<strong>Impacto do projeto</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "O projeto prevê uma mudança em direção à produção e utilização melhoradas e mais eficientes de carvão e fogões como práticas comuns em Serra Leoa. Isso envolve o desenvolvimento de capacidades sensíveis ao gênero, esquemas promocionais que enfatizam os benefícios sociais, econômicos e ambientais do carvão obtido de forma sustentável e de fogões melhorados, além de campanhas de conscientização pública para sensibilizar os principais atores da cadeia de valor."
+              "text": "Dentro de dois anos, o projeto gerou melhorias ambientais e sociais mensuráveis em toda a cadeia de valor do carvão: <br /><br />Mais de <strong>15.000 famílias</strong> adotaram fogões melhorados para uma cozinha mais segura e eficiente. <br /><br /><strong>A exposição ao fumo interno diminuiu,</strong> melhorando a saúde respiratória de mulheres e crianças. <br /><br /><strong>O uso de carvão vegetal caiu até 30%,</strong> reduzindo custos e a pressão sobre as florestas. <a href=\"https://www.undp.org/sierra-leone/stories/margaret-yainkain-mansarays-journey-promoting-green-smart-clean-cooking-solutions-sierra-leone\"><u>UNDP</u></a>, 2014) <br /><br /><strong>As mulheres economizaram tempo na cozinha</strong> e na coleta de combustível, permitindo espaço para trabalho, aprendizado ou descanso.<br /> <br /><strong>Empreendedores tiveram acesso a financiamento e incentivos</strong>, expandindo soluções de energia limpa. <br /><br />Histórias como a de <a href=\"https://www.undp.org/sierra-leone/stories/margaret-yainkain-mansarays-journey-promoting-green-smart-clean-cooking-solutions-sierra-leone\"><u>Margaret Yainkain Mansaray</u></a>, uma defensora de energia limpa do distrito de Bo, destacam como a liderança comunitária e o envolvimento das mulheres podem impulsionar mudanças duradouras no uso de energia doméstica.</br></br> (UNDP, 2023) <br /><br />Com base nessas transformações individuais, a iniciativa também ajudou a mudar as prioridades energéticas nacionais na Serra Leoa para soluções de biomassa mais sustentáveis. Fortaleceu a capacidade de fabricação local para fogões e fornos eficientes, estabelecendo as bases para uma adoção mais ampla e potencial replicação em outras regiões."
             }
           }
         ]
@@ -493,21 +510,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Resumo</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Este projeto busca transformar o subssetor de carvão e fogões em Serra Leoa, alinhando as práticas de produção com os princípios de sustentabilidade, promovendo parcerias e promovendo tecnologias eficientes. Através de estruturas políticas abrangentes, iniciativas público-privadas e intervenções direcionadas, o projeto aspira a tornar o carvão certificado e os fogões melhorados comuns, trazendo mudanças positivas nos aspectos econômicos, sociais e ambientais do país.<br /><br />Fontes:<br />· UNDP Serra Leoa (n.d.) Produção e utilização de carvão eficiente em energia através de tecnologias inovadoras<br />· UNDP, GEF (n.d.) Documento do projeto UNDP. País: Serra Leoa<br /></u></a>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Estatísticas relacionadas à dinâmica do combustível de cozinha enfatizam a necessidade de intervenções direcionadas e esforços sustentados para acelerar a adoção de tecnologias de cozinha mais limpas e sustentáveis em ambientes urbanos e rurais.</strong>"
+              "text": "<br />Lições principais da iniciativa de carvão de Serra Leoa incluem: <br /><br /><strong>A tecnologia não é suficiente.</strong></br> </strong>Construção de confiança, demonstrações e relevância comunitária são essenciais para a adoção. <br /><br /><strong>As finanças possibilitam escala.</strong> Microcréditos e incentivos ajudam pequenas empresas a crescer com tecnologia limpa. <br /><br /><strong>A propriedade local sustenta a mudança.</strong></br></br> </strong>O envolvimento da comunidade impulsiona a adoção e o impacto a longo prazo. <br /><br /><strong>O contexto molda a replicação.</strong> Cadeias de suprimentos fortes e políticas personalizadas são essenciais para o sucesso em outros lugares. <br /><br />Com base no progresso feito, o projeto está agora expandindo a adoção da produção de carvão eficiente e fogões mais limpos para distritos adicionais. Ao mesmo tempo, espera-se que os esforços para localizar a fabricação de fornos e fogões aprimorados <br> reduzam os custos e criem novas oportunidades de subsistência. Na área de políticas, o PNUD está trabalhando com as partes interessadas nacionais para integrar práticas sustentáveis de carvão vegetal nas estratégias de energia limpa e conservação florestal.<br /><br />Ao priorizar a entrega de última milha e a acessibilidade, a iniciativa promove diretamente o acesso à energia para comunidades carentes, especialmente aquelas excluídas das soluções baseadas na rede. Com apoio contínuo ao treinamento comunitário, ao envolvimento do setor privado e ao financiamento baseado no desempenho, a iniciativa está abrindo caminho para um impacto de longo prazo e pode servir como um modelo para replicação em outras partes da África Ocidental. <a href=\"https://www.fao.org/investment-centre/latest/news/detail/climate-finance--an-instrument-for-sustainable-agrifood-system-transformation-in-sierra-leone/en\"><u>FAO</u></a>, 2024"
             }
           }
         ]
@@ -785,7 +790,47 @@
                 0.91
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Participação de todas as mortes atribuídas a temperaturas subótimas",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -1025,7 +1070,44 @@
             }
           ],
           "grid": {
-            "bottom": 100
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Participação da população vivendo em um clima quente, 2022, e penetração de <br>ar-condicionado, 2000-2022",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }
@@ -1068,7 +1150,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "A eficiência energética também desempenha um papel vital na garantia de aquecimento e resfriamento adequados. A qualidade da habitação impacta significativamente a eficácia dessas soluções. Casas bem isoladas com designs energeticamente eficientes podem reduzir a demanda por aquecimento ou resfriamento excessivo, beneficiando tanto a eficiência energética quanto o bem-estar dos ocupantes. Em contraste, condições de habitação inadequadas geralmente levam a um maior consumo de energia e custos para manter temperaturas confortáveis.<br /> <br />Uma vez que habitação adequada é um componente chave do Indicador 11.1 dos ODS (Proporção da população urbana vivendo em favelas, assentamentos informais ou habitação inadequada), monitorar este indicador pode ajudar a reduzir a lacuna de acesso a tecnologias de aquecimento e resfriamento.<br /><strong><br /> Ao promover habitação adequada que prioriza a eficiência térmica, os formuladores de políticas podem melhorar indiretamente o acesso a soluções de aquecimento e resfriamento.</strong>"
+              "text": "<strong><ai prompt=\"Explain energy efficiency.\">energy efficiency 💬️</ai></strong> também desempenha um papel vital na garantia de aquecimento e resfriamento adequados. A qualidade da habitação impacta significativamente a eficácia dessas soluções. Casas bem isoladas com designs energeticamente eficientes podem reduzir a demanda por aquecimento ou resfriamento excessivo, beneficiando tanto a eficiência energética quanto o bem-estar dos ocupantes. Em contraste, condições de habitação inadequadas geralmente levam a um maior consumo de energia e custos para manter temperaturas confortáveis.<br /> <br />Uma vez que habitação adequada é um componente chave do Indicador 11.1 dos ODS (Proporção da população urbana vivendo em favelas, assentamentos informais ou habitação inadequada), monitorar este indicador pode ajudar a reduzir a lacuna de acesso a tecnologias de aquecimento e resfriamento.<br /><strong><br /> Ao promover habitação adequada que prioriza a eficiência térmica, os formuladores de políticas podem melhorar indiretamente o acesso a soluções de aquecimento e resfriamento.</strong>"
             }
           }
         ]
@@ -1117,8 +1199,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_17.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/Group1758.webp",
+          "caption": null,
+          "url": null
         }
       }
     },

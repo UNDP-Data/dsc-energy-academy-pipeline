@@ -1,0 +1,714 @@
+{
+  "id": "1.3.2",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/2165_370.webp",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "Lección",
+          "number": "2"
+        },
+        "title": "América Latina y el Caribe",
+        "cta": "",
+        "intro": "M1: Introducción a la transformación de sistemas energéticos sostenibles"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "Resumen de la lección 2"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "América Latina y el Caribe se encuentran en una encrucijada crucial. La región cuenta con algunos de los recursos de energía renovable más ricos del mundo: abundante energía solar en México y Chile, fuertes vientos en Patagonia, amplios recursos hidroeléctricos en Brasil y los Andes, y oportunidades emergentes de geotermia e hidrógeno verde. Al mismo tiempo, enfrenta la desigualdad persistente, la pobreza energética, la vulnerabilidad climática y los flujos de inversión lentos.<br /><br />Esta lección explora cómo se puede aprovechar el vasto potencial energético de la región para impulsar un desarrollo inclusivo y sostenible. La energía no es solo un sector, es un habilitador. Impulsa escuelas y clínicas, fomenta empleos y crecimiento industrial, apoya la inclusión digital y proporciona resiliencia frente a desastres y choques. Sin embargo, 17 millones de personas aún carecen de acceso a la electricidad, y 78 millones dependen de combustibles tradicionales para cocinar, exponiendo profundas brechas de acceso a la energía que deben abordarse si la región quiere alcanzar los Objetivos de Desarrollo Sostenible (ODS).<br /><br />A pesar de tener una de las mezclas de electricidad más limpias a nivel mundial (más del 60 % renovable), LAC sigue siendo muy dependiente de los combustibles fósiles para el transporte y la industria. El desafío ahora es doble: garantizar el acceso universal a la energía moderna y transformar los sistemas energéticos hacia la resiliencia, la equidad y la sostenibilidad.<br /><br />Al combinar datos regionales, análisis de políticas y oportunidades futuras, los aprendices obtendrán una visión holística de por qué la energía sostenible es un pilar para la transformación económica, la acción climática y la justicia social en América Latina y el Caribe."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3230_70.webp",
+          "caption": ""
+        },
+        "intro": "M1: Introducción a la transformación de sistemas energéticos sostenibles",
+        "title": "A: Contexto de desarrollo en América Latina y el Caribe"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "América Latina y el Caribe es una región marcada tanto por ricos recursos naturales como por persistentes desafíos de desarrollo. Aunque cuenta con una de las matrices eléctricas más limpias del mundo – 41 % de energía hidroeléctrica, 8 % de energía eólica, 6,2 % de energía solar – esta ventaja ecológica coexiste con desigualdades estructurales, restricciones fiscales y pobreza energética.<br /><br /><strong>La LAC sigue siendo una de las regiones más desiguales del mundo.</strong> Países como Brasil, Chile y México tienen algunas de las tasas de desigualdad más altas del mundo.<br /></strong><br />Aproximadamente el 80 % de la población vive en áreas urbanas, y la región enfrenta una vulnerabilidad única a desastres naturales y choques climáticos: 152 millones de personas se vieron afectadas por 1,205 desastres naturales entre 2000 y 2019. Al mismo tiempo, la región tiene un potencial excepcional en hidroeléctrica, solar y eólica, presentando una rara oportunidad de avanzar hacia un futuro energético limpio y justo."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>A pesar de la riqueza energética, más de </strong>"
+            }
+          },
+          {
+            "template_id": "kpi_highlight_medium",
+            "content": {
+              "value": "<strong>78 mln</strong>",
+              "text": ""
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "las personas todavía no tienen acceso a <ai prompt=\"¿Qué es la cocina limpia?\">la cocina limpia 💬️</ai> y alrededor de 17 millones de personas carecen de acceso a la electricidad, principalmente en áreas rurales y remotas. <br /><br />El potencial de energía renovable de la región, combinado con financiamiento inteligente, políticas inclusivas e innovación industrial, puede transformar estas vulnerabilidades en motores de crecimiento inclusivo y resiliencia climática."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fcc30b",
+            "#fd9d24",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44",
+            "#0a97d9",
+            "#c5192d",
+            "#dd1367",
+            "#fd6925",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Caribbean",
+              "Central America",
+              "Southern Cone",
+              "Brazil",
+              "México",
+              "Andean Region"
+            ],
+            "name": "Region"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Electricity (USD/kWh)"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "bar",
+              "data": [
+                0.22,
+                0.181,
+                0.099,
+                0.185,
+                0.075,
+                0.124
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3662_401.webp",
+          "caption": ""
+        },
+        "intro": "M1: Introducción a la transformación de sistemas energéticos sostenibles",
+        "title": "B: Desafíos energéticos en América Latina y el Caribe"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La región ha alcanzado una tasa de acceso a la electricidad del 97,6 % en 2021, pero estos logros son desiguales. <br /><br /><strong>17 millones de personas, principalmente en comunidades rurales e indígenas, permanecen sin electrificar.</strong> En Haití, por ejemplo, solo el 47 % de las personas tiene acceso a la electricidad, y solo el 5 % tiene acceso a soluciones de cocina limpias.<br /></strong><br />El acceso no se trata solo de iluminar los hogares, sino de permitir la educación, la atención médica, los medios de vida y la adaptación al clima. Estrategias de electrificación de última milla, sistemas renovables descentralizados y herramientas digitales (por ejemplo, solar de pago por uso) presentan soluciones inmediatas y escalables para facilitar una <ai prompt=\"Proporcionar más información sobre la transición energética justa.\">transición energética justa 💬️</ai>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "78 millones de personas carecen de acceso a una cocina limpia, lo que impacta gravemente la salud y carga desproporcionadamente a mujeres y niñas.<br /><br /><strong>Oportunidad de desarrollo:</strong> Ampliar el acceso a la energía mejora la educación, la salud, la productividad y la igualdad de género. En las zonas rurales, las soluciones energéticas modernas reducen la <ai prompt=\"Proporcione más información sobre la pobreza de tiempo.\">pobreza de tiempo 💬️</ai> de las mujeres y mejoran las oportunidades económicas. Las mini-redes solares, los modelos de pago digital por uso y las soluciones fuera de la red están transformando el acceso a la energía en América Central y el Caribe."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_17.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br /><br />LAC está posicionada de manera única para una transición de bajo carbono. Las inversiones en energía renovable se han disparado, con la solar y la eólica impulsando nuevas instalaciones de capacidad. Sin embargo, los combustibles fósiles aún representan el 66 % del suministro de energía primaria en toda la región y más del 90 % en el Caribe.<br /><br /><strong>Escalar las energías renovables no solo se trata de <ai prompt=\"Proporcionar más información sobre la descarbonización.\">descarbonización 💬️</ai> para la región</strong> – es un motor para la creación de empleo y la transformación industrial. La región podría generar millones de empleos verdes si la política, las finanzas y la innovación local están alineadas. La CEPAL estima que el 1,33 % del PIB anualmente de 2021 a 2032 podría hacer que las fuentes de energía sean 86 % renovables y reducir las emisiones de GHG en un 30 %. <br /><br />Además,"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "En eficiencia energética: A pesar de una caída del 17% en la intensidad energética durante 30 años, las ganancias de eficiencia son lentas. Los sectores de la construcción y el transporte están listos para mejoras escalables.",
+              "body": ""
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "En el potencial del hidrógeno verde: Con energías renovables de bajo costo, América Latina y el Caribe pueden convertirse en un centro global de hidrógeno verde. Países como Chile, Brasil y Uruguay están liderando con más de 25 proyectos piloto en desarrollo.<br />",
+              "body": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3662_436.webp",
+          "caption": ""
+        },
+        "intro": "M1: Introducción a la transformación de sistemas energéticos sostenibles",
+        "title": "C: Oportunidades energéticas en América Latina y el Caribe"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La región ha logrado un progreso significativo hacia<br /> el ODS 7, sobre energía asequible y limpia.<br /> <strong>Las estrategias de acceso de última milla son pasos hacia<br /> el acceso universal a la electricidad y soluciones de cocina limpia.</strong> </strong>La inflación y los altos precios de la energía afectan<br /> el acceso y la asequibilidad, sin embargo, especialmente para las<br /> comunidades más vulnerables.<br /><br />A pesar de los desafíos, la rica biodiversidad y<br /> las oportunidades en la bioeconomía sirven como impulsores<br /> cruciales para el desarrollo en América Latina y<br /> el Caribe. <strong>La región posee ventajas comparativas distintivas<br /> en la innovación pionera<br /> y en la explotación de abundantes recursos naturales,<br /> incluyendo liderar el camino hacia el hidrógeno verde,<br /> la energía renovable, el transporte limpio<br /> y una transición energética justa.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Una transición energética justa podría tener un impacto positivo<br /> en el crecimiento económico al aumentar la productividad y<br /> generar empleos verdes.</strong> "
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "También tiene el potencial de<br /> crear más oportunidades para que las mujeres participen<br /> en nuevos segmentos de la fuerza laboral, si se abordan las barreras<br /> discriminatorias en el salario, las oportunidades laborales y el trabajo de cuidado no remunerado. Los empleos verdes presentan una oportunidad distinta<br /> para aprovechar abundantes recursos de energía renovable."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#dd1367",
+            "#0468b1",
+            "#c5192d",
+            "#fd6925",
+            "#4c9f38",
+            "#fd9d24",
+            "#19486a",
+            "#fcc30b",
+            "#0a97d9",
+            "#3f7e44"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              2020,
+              2021,
+              2022,
+              2023,
+              2024,
+              2025,
+              2026,
+              2027,
+              2028,
+              2029,
+              2030
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "%"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "line",
+              "name": "High-impact",
+              "data": [
+                0.0,
+                1.3,
+                2.6,
+                4.0,
+                5.4,
+                6.8,
+                8.3,
+                9.9,
+                11.5,
+                13.2,
+                14.9
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Medium-impact",
+              "data": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.1,
+                6.2,
+                7.4,
+                8.5,
+                9.8,
+                11.0
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Low-impact",
+              "data": [
+                0.0,
+                0.6,
+                1.3,
+                2.0,
+                2.7,
+                3.4,
+                4.1,
+                4.9,
+                5.6,
+                6.4,
+                7.2
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Necesidad de aumentar la capacidad de energías renovables</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La región se queda atrás en comparación con otras en términos de producción de energía renovable. Sin embargo, hay promesas que se pueden encontrar en la creciente capacidad de la región para las energías renovables, que se ha multiplicado por diez en la última década."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>La capacidad total instalada de energía renovable es de 23,6 GW, con 5,1 GW añadidos solo de 2018 a 2020.</strong>",
+              "body": "</strong>El aumento de la capacidad se ha concentrado en unos pocos países, como Egipto, Jordania y Marruecos. <strong>También ha sido principalmente para PV, con una capacidad que más que se ha duplicado, pasando de 3,2 GW en 2018 a 7,4 GW a finales de 2020.</strong> La energía eólica y la CSP solo vieron aumentos menores. Quizás de manera inesperada, los países productores de petróleo también han recurrido cada vez más a la energía solar para suministrar electricidad local, con varios proyectos a gran escala en desarrollo. Esto es parte de los esfuerzos para conservar las reservas de petróleo y gas para los futuros ingresos por exportaciones."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3230_121.webp",
+          "caption": ""
+        },
+        "intro": "M1: Introducción a la transformación de sistemas energéticos sostenibles",
+        "title": "D: Estrategia energética para la región"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Se han identificado 4 áreas clave de prioridad para la región</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "2. <strong>a. Cerrar la brecha de acceso a la energía<br /></strong>Mejorar el acceso a la energía está directamente relacionado con la reducción de la pobreza multidimensional. Los hogares con acceso a la energía experimentan mejores resultados educativos, salud y productividad.<br />Los modelos de pago digital (por ejemplo, solar de pago por uso) y la electrificación liderada por la comunidad son escalables en áreas fuera de la red y rurales.<br /><br /><strong>b. Acelerando una transición energética justa<br /></strong>La transición a las energías renovables podría reducir las emisiones en un 30 % y hacer que la mezcla energética sea un 86 % renovable para 2032 con solo un 1,33 % de inversión anual del PIB.<br />También crea oportunidades de empleo con perspectiva de género y reduce la desigualdad si se diseña de manera inclusiva."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>c.</strong> Fortalecimiento de la resiliencia energética<br /></strong>Los estados del Caribe gastan hasta el 1,2 % del PIB en la recuperación de desastres naturales anualmente. <ai prompt=\"What is resilient infrastructure?\">infraestructura resiliente 💬️</ai> – especialmente las microredes solares – puede proteger servicios críticos durante desastres.<br /><br /><strong>d.</strong> Finanzas e inversión en energía<br /></strong>Solo el 1,3 % del PIB regional va a subsidios de combustibles fósiles, una carga fiscal significativa. Redirigir subsidios hacia inversiones limpias podría generar mejores rendimientos, equidad y beneficios ambientales.<br />Los bancos de desarrollo regional y las instituciones financieras locales (con casi 1 billón de dólares en activos) son cruciales para desbloquear el financiamiento combinado y reducir el riesgo de los proyectos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>El financiamiento es crítico</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "<strong>A nivel global, las inversiones en energía limpia alcanzaron 1.3 billones de dólares en 2022, pero solo una pequeña parte va a América Latina y el Caribe (ALC), que necesita entre 125 y 200 mil millones de dólares anuales para cumplir con los objetivos del ODS 7.</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Herramientas innovadoras como la financiación combinada, <ai prompt=\"Explain green bonds.\">los bonos verdes 💬️</ai>, y los préstamos concesionales—respaldados por fondos públicos a través de mecanismos como el GEF y el GCF—son fundamentales para movilizar capital privado. Los bancos de desarrollo nacional también desempeñan un papel crucial. Las finanzas bien estructuradas pueden catalizar un desarrollo inclusivo al apoyar el acceso a la energía, la productividad, la movilidad eléctrica, la agricultura resiliente al clima y las economías circulares."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conclusiones clave",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3230_148.webp",
+              "caption": ""
+            },
+            "title": "La pobreza energética persiste en áreas marginadas, especialmente en el Caribe y las zonas rurales. Mientras que la región LAC reporta una alta tasa de acceso a la electricidad (97.6%), más de 17 millones de personas siguen sin electricidad, y 78 millones aún carecen de acceso a una cocina limpia, siendo las comunidades caribeñas e indígenas las que enfrentan las mayores brechas.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3230_143.webp",
+              "caption": ""
+            },
+            "title": "La región tiene una de las redes más limpias del mundo, pero aún depende en gran medida de los combustibles fósiles. LAC genera más del 60 % de su electricidad a partir de fuentes renovables, particularmente la energía hidroeléctrica, sin embargo, los combustibles fósiles todavía dominan la mezcla energética general (66 %), especialmente en el transporte y la industria.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/3230_138.webp",
+              "caption": ""
+            },
+            "title": "Desbloquear financiamiento y construir resiliencia son centrales para una transición energética justa. La región requiere entre 125 y 200 mil millones de dólares anuales para cumplir con los objetivos del ODS 7 y construir sistemas energéticos resilientes al clima.",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module1.png",
+          "caption": ""
+        },
+        "intro": "Próximamente",
+        "title": "Lección 3: África",
+        "cta": "Continúa aprendiendo",
+        "nextLessonId": "1.3.3"
+      }
+    }
+  ]
+}

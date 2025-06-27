@@ -119,7 +119,7 @@
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -154,15 +154,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Déficits de confianza en las instituciones públicas</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Tras la Primavera Árabe y otros movimientos de protesta masiva, las encuestas muestran que la confianza en el gobierno es relativamente baja en la región árabe<br />con variaciones según el país y el tipo de institución (parlamento vs. judicial). <br /><br />La confianza en las instituciones públicas es fundamental para impulsar la transición energética: <strong>Una transición justa requiere una supervisión adecuada por parte de comités independientes y otros órganos similares.</strong> Sin embargo, la transición energética también presenta oportunidades para una infraestructura participativa aumentada. Los sistemas de energía renovable descentralizados, por ejemplo, pueden ser planificados y gestionados por comunidades locales."
+              "text": "Tras la Primavera Árabe y otros movimientos de protesta masiva, las encuestas muestran que la confianza en el gobierno es relativamente baja en la región árabe<br />con variaciones según el país y el tipo de institución, como el parlamento vs. judicial (<a href=\"https://www.arabbarometer.org/2020/06/the-arab-worlds-trust-in-government-and-the-perils-of-generalization/\"><u>Arab Barometer, 2020</u></a>).<br /><br />La confianza en las instituciones públicas es fundamental para impulsar la transición energética: <strong>Una transición justa requiere una supervisión adecuada por parte de comités independientes y otros órganos similares.</strong> Sin embargo, la transición energética también presenta oportunidades para una infraestructura participativa aumentada. Los sistemas de energía renovable descentralizados, por ejemplo, pueden ser planificados y gestionados por comunidades locales."
             }
           }
         ]
@@ -173,12 +167,6 @@
       "color_scheme": "light",
       "content": {
         "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>El conflicto y la inestabilidad obstaculizan el progreso en los ODS</strong>"
-            }
-          },
           {
             "template_id": "paragraph_medium",
             "content": {
@@ -226,8 +214,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_5.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/Module3_6(2).webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -426,7 +415,44 @@
             }
           ],
           "grid": {
-            "bottom": 150
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Porcentaje de la población con acceso a la electricidad y a la cocina limpia en la región árabe",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }
@@ -695,7 +721,47 @@
                 10151
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Valor total de los subsidios energéticos en algunos países árabes",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -978,7 +1044,44 @@
             }
           ],
           "grid": {
-            "bottom": 150
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Energía renovable producida por fuente por país, 2022",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }
@@ -1064,8 +1167,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L3_2.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/Frame1171276866.webp",
+          "caption": null,
+          "url": null
         }
       }
     },

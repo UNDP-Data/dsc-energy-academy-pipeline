@@ -1,0 +1,410 @@
+{
+  "id": "2.-1.0",
+  "segments": [
+    {
+      "template_id": "scored_quiz",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Cuestionario calificado <br/><strong>Módulo 2</strong>",
+        "intro": "Este cuestionario cubre todas las lecciones de este módulo. Debes alcanzar el 80 % para aprobar. ¡Buena suerte!",
+        "final": true,
+        "labels": {
+          "correct": "Correcto",
+          "question": "Pregunta",
+          "result": "Resultado del cuestionario",
+          "score": "Tu puntuación",
+          "passingScore": "Puntuación mínima aprobatoria",
+          "startButton": "Iniciar cuestionario",
+          "nextButton": "Siguiente",
+          "submitButton": "Enviar",
+          "retryButton": "Repetir",
+          "passed": "Pasado",
+          "failed": "No aprobado"
+        },
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "¿Cuál es el objetivo principal del ODS 7?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Asegurar el acceso universal al agua limpia y al saneamiento"
+              },
+              {
+                "id": 2,
+                "value": "Asegurar el acceso a energía asequible, confiable, sostenible y moderna para todos"
+              },
+              {
+                "id": 3,
+                "value": "Promover la innovación industrial y la infraestructura"
+              },
+              {
+                "id": 4,
+                "value": "Ninguno de los anteriores"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "El ODS 7 tiene como objetivo garantizar el acceso a energía asequible, confiable, sostenible y moderna para todos."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "El ODS 7 tiene como objetivo garantizar el acceso a energía asequible, confiable, sostenible y moderna para todos."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "¿Cuáles de los siguientes son componentes del acceso a la energía sostenible? (Seleccione todo lo que aplique)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "<strong>Disponibilidad</strong>"
+              },
+              {
+                "id": 2,
+                "value": "<strong>Accesibilidad</strong>"
+              },
+              {
+                "id": 3,
+                "value": "<strong>Adecuación</strong>"
+              },
+              {
+                "id": 4,
+                "value": "Ninguno de los anteriores"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "El acceso a la energía sostenible incluye disponibilidad, asequibilidad, adecuación, seguridad, fiabilidad y compatibilidad con bajas emisiones de carbono."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "El acceso a la energía sostenible incluye disponibilidad, asequibilidad, adecuación, seguridad, fiabilidad y compatibilidad con bajas emisiones de carbono."
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "¿Aproximadamente cuántas personas en el mundo todavía no tienen acceso a la electricidad?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "500 millones"
+              },
+              {
+                "id": 2,
+                "value": "<strong>685 millones</strong>"
+              },
+              {
+                "id": 3,
+                "value": "1 mil millones"
+              },
+              {
+                "id": 4,
+                "value": "<strong>2,1 mil millones</strong>"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Según el Informe de Seguimiento de los ODS 7 de 2024, alrededor de 685 millones de personas carecen de acceso a la electricidad."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Según el Informe de Seguimiento de los ODS 7 de 2024, alrededor de 685 millones de personas carecen de acceso a la electricidad."
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "¿Cuál es la diferencia entre el acceso a la energía y los servicios energéticos inclusivos?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "ADEF"
+              },
+              {
+                "id": 2,
+                "value": "Los servicios energéticos inclusivos son más caros"
+              },
+              {
+                "id": 3,
+                "value": "El acceso a la energía solo se aplica a las áreas urbanas"
+              },
+              {
+                "id": 4,
+                "value": "Ninguno de los anteriores"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "El acceso a la energía se refiere a tener energía, mientras que los servicios inclusivos consideran la equidad, la calidad y la usabilidad para todos."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "El acceso a la energía se refiere a tener energía, mientras que los servicios inclusivos consideran la equidad, la calidad y la usabilidad para todos."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "¿Qué derechos humanos se ven más directamente afectados por el acceso a la energía? (Seleccione todo lo que aplique)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Derecho a la educación"
+              },
+              {
+                "id": 2,
+                "value": "Derecho a la salud"
+              },
+              {
+                "id": 3,
+                "value": "Derecho a un nivel de vida adecuado"
+              },
+              {
+                "id": 4,
+                "value": "Derecho a portar armas"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "El acceso a la energía es fundamental para el derecho a la educación, la salud y un nivel de vida adecuado. El derecho a portar armas no está reconocido internacionalmente como un derecho humano."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "El acceso a la energía es fundamental para el derecho a la educación, la salud y un nivel de vida adecuado. El derecho a portar armas no está reconocido internacionalmente como un derecho humano."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "¿Qué se considera una solución de cocción limpia?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Carbón en fuegos abiertos"
+              },
+              {
+                "id": 2,
+                "value": "Estufa de inducción eléctrica"
+              },
+              {
+                "id": 3,
+                "value": "Lámpara de queroseno"
+              },
+              {
+                "id": 4,
+                "value": "Ninguno de los anteriores"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Las estufas de inducción eléctrica son soluciones de cocción limpias, a diferencia del carbón o el queroseno que contribuyen a la contaminación del aire interior."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Las estufas de inducción eléctrica son soluciones de cocción limpias, a diferencia del carbón o el queroseno que contribuyen a la contaminación del aire interior."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "¿Cuál de los siguientes NO es parte del Marco Multi-Nivel (MTF) para medir el acceso a la energía?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Calidad del servicio energético"
+              },
+              {
+                "id": 2,
+                "value": "Clasificación de eficiencia energética"
+              },
+              {
+                "id": 3,
+                "value": "<strong>Accesibilidad</strong>"
+              },
+              {
+                "id": 4,
+                "value": "<strong>Fiabilidad</strong>"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "MTF incluye calidad, fiabilidad y asequibilidad, pero no la calificación de eficiencia energética como indicador principal."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "MTF incluye calidad, fiabilidad y asequibilidad, pero no la calificación de eficiencia energética como indicador principal."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "¿Qué proporción del déficit de acceso a la cocina limpia a nivel mundial se concentra en África subsahariana?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0,25"
+              },
+              {
+                "id": 2,
+                "value": "0,5"
+              },
+              {
+                "id": 3,
+                "value": "0,7"
+              },
+              {
+                "id": 4,
+                "value": "Más del 80%"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "África subsahariana representa más del 80 % del déficit de acceso a la cocina limpia a nivel mundial."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "África subsahariana representa más del 80 % del déficit de acceso a la cocina limpia a nivel mundial."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "9. ¿Los usos productivos de la energía incluyen típicamente cuáles de los siguientes? (Seleccione todo lo que aplique)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Sistemas de riego en funcionamiento"
+              },
+              {
+                "id": 2,
+                "value": "Ver la televisión"
+              },
+              {
+                "id": 3,
+                "value": "Almacenamiento en frío para productos agrícolas"
+              },
+              {
+                "id": 4,
+                "value": "Máquinas de coser industriales"
+              }
+            ],
+            "solution": [
+              1,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Los usos productivos de la energía son aquellos que generan ingresos o mejoran la producción económica, como el riego, el almacenamiento en frío y los electrodomésticos industriales."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Los usos productivos de la energía son aquellos que generan ingresos o mejoran la producción económica, como el riego, el almacenamiento en frío y los electrodomésticos industriales."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "<strong>10.</strong> ¿Qué herramienta utiliza datos geoespaciales para identificar áreas prioritarias para intervenciones de acceso a la energía?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Marco de Múltiples Niveles (MMN)"
+              },
+              {
+                "id": 2,
+                "value": "<strong>Herramienta OnStove</strong>"
+              },
+              {
+                "id": 3,
+                "value": "Explorador de acceso a la energía"
+              },
+              {
+                "id": 4,
+                "value": "Marco de Seguimiento Global (GTF)"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correcto",
+                "body": "Energy Access Explorer utiliza datos geoespaciales para identificar áreas para la planificación de intervenciones energéticas."
+              },
+              "wrong": {
+                "title": "Incorrecto",
+                "body": "Energy Access Explorer utiliza datos geoespaciales para identificar áreas para la planificación de intervenciones energéticas."
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module2.png",
+          "caption": ""
+        },
+        "intro": "Próximamente",
+        "title": "Módulo 2 Conclusión",
+        "cta": "Continúa aprendiendo",
+        "nextLessonId": "2.-1.-1"
+      }
+    }
+  ]
+}
