@@ -1,10 +1,10 @@
 {
-  backgroundColor: "#ffffff",
+  backgroundColor: "rgba(28, 29, 24, 1)",
   textStyle: {
     fontFamily: "Proxima Nova, sans-serif",
     fontSize: 14,
     fontWeight: "normal",
-    color: "#333333"
+    color: "#DDDDDD"
   },
   color: [
     "#fcc30b", "#0468b1", "#fd6925", "#c5192d", "#3f7e44",
@@ -17,10 +17,10 @@
     trigger: "item",
     textStyle: {
       fontSize: 14,
-      color: "#ffffff"
+      color: "#FFFFFF"
     },
-    backgroundColor: "rgba(50, 50, 50, 0.85)",
-    borderColor: "#bbbbbb",
+    backgroundColor: "rgba(30, 30, 30, 0.85)",
+    borderColor: "#555555",
     formatter: function (params) {
       const d = [
         { min: 912, max: 1095, mean: 1003.5 },
@@ -58,7 +58,7 @@
     orient: "horizontal",
     textStyle: {
       fontSize: 14,
-      color: "#333333"
+      color: "#CCCCCC"
     }
   },
   xAxis: {
@@ -67,20 +67,20 @@
       "PC, without CCS", "IGCC, without CCS", "SC, without CCS", "NGCC, without CCS",
       "PC, with CCS", "IGCC, with CCS", "SC, with CCS", "NGCC, with CCS",
       "660 MW", "360 MW", "average", "tower", "trough",
-      "poly‑Si, ground‑mounted", "poly‑Si, roof‑mounted",
-      "CdTe, ground‑mounted", "CdTe, roof‑mounted",
-      "CIGS, ground‑mounted", "CIGS, roof‑mounted",
+      "poly-Si, ground-mounted", "poly-Si, roof-mounted",
+      "CdTe, ground-mounted", "CdTe, roof-mounted",
+      "CIGS, ground-mounted", "CIGS, roof-mounted",
       "onshore", "offshore, concrete foundation", "offshore, steel foundation"
     ],
     axisLabel: {
-      color: "#555555",
+      color: "#AAAAAA",
       fontSize: 14,
       rotate: 30
     },
     axisLine: {
       show: true,
       lineStyle: {
-        color: "#cccccc",
+        color: "#888888",
         type: "solid",
         width: 1
       }
@@ -89,12 +89,12 @@
       show: true,
       lineStyle: {
         type: "dashed",
-        color: "#eeeeee",
+        color: "#444444",
         opacity: 0.7
       }
     },
     nameTextStyle: {
-      color: "#444444",
+      color: "#CCCCCC",
       fontSize: 14
     }
   },
@@ -102,13 +102,13 @@
     type: "value",
     name: "Value",
     axisLabel: {
-      color: "#555555",
+      color: "#AAAAAA",
       fontSize: 14
     },
     axisLine: {
       show: true,
       lineStyle: {
-        color: "#cccccc",
+        color: "#888888",
         type: "solid",
         width: 1
       }
@@ -117,12 +117,12 @@
       show: true,
       lineStyle: {
         type: "dashed",
-        color: "#eeeeee",
+        color: "#444444",
         opacity: 0.7
       }
     },
     nameTextStyle: {
-      color: "#444444",
+      color: "#CCCCCC",
       fontSize: 14
     }
   },
@@ -131,34 +131,47 @@
       name: "Whiskers",
       type: "custom",
       itemStyle: {
-        color: "#bbbbbb"
+        color: "#AAAAAA"
       },
       renderItem: function (params, api) {
-        const ci = api.value(0);
-        const x = api.coord([ci, 0])[0];
+        const categoryIndex = api.value(0);
+        const x = api.coord([categoryIndex, 0])[0];
         const minY = api.coord([0, api.value(1)])[1];
         const maxY = api.coord([0, api.value(2)])[1];
         const capWidth = 10;
+
         return {
           type: 'group',
           children: [
-            { type: 'line', shape: { x1: x, y1: minY, x2: x, y2: maxY },
-              style: { stroke: '#999999', lineWidth: 2 } },
-            { type: 'line', shape: { x1: x-capWidth, y1: minY, x2: x+capWidth, y2: minY },
-              style: { stroke: '#999999', lineWidth: 2 } },
-            { type: 'line', shape: { x1: x-capWidth, y1: maxY, x2: x+capWidth, y2: maxY },
-              style: { stroke: '#999999', lineWidth: 2 } }
+            {
+              type: 'line',
+              shape: { x1: x, y1: minY, x2: x, y2: maxY },
+              style: { stroke: '#AAAAAA', lineWidth: 2 }
+            },
+            {
+              type: 'line',
+              shape: { x1: x - capWidth, y1: minY, x2: x + capWidth, y2: minY },
+              style: { stroke: '#AAAAAA', lineWidth: 2 }
+            },
+            {
+              type: 'line',
+              shape: { x1: x - capWidth, y1: maxY, x2: x + capWidth, y2: maxY },
+              style: { stroke: '#AAAAAA', lineWidth: 2 }
+            }
           ]
         };
       },
-      encode: { x: 0, y: [1,2] },
+      encode: {
+        x: 0,
+        y: [1, 2]
+      },
       data: [
-        [0,912,1095],[1,753,912],[2,850,1021],[3,403,513],
-        [4,213,470],[5,149,364],[6,190,427],[7,92,221],
-        [8,85,147],[9,6.1,11],[10,5.1,6.4],[11,14,87],
-        [12,27,122],[13,23,82],[14,23,83],[15,8,28],
-        [16,10,35],[17,7.4,27],[18,9.2,34],[19,7.8,16],
-        [20,13,23],[21,12,21]
+        [0, 912, 1095], [1, 753, 912], [2, 850, 1021], [3, 403, 513],
+        [4, 213, 470], [5, 149, 364], [6, 190, 427], [7, 92, 221],
+        [8, 85, 147], [9, 6.1, 11], [10, 5.1, 6.4], [11, 14, 87],
+        [12, 27, 122], [13, 23, 82], [14, 23, 83], [15, 8, 28],
+        [16, 10, 35], [17, 7.4, 27], [18, 9.2, 34], [19, 7.8, 16],
+        [20, 13, 23], [21, 12, 21]
       ]
     },
     {
@@ -169,11 +182,15 @@
         color: "#fcc30b"
       },
       emphasis: {
-        itemStyle: { borderWidth: 1, borderColor: "#000000" }
+        itemStyle: {
+          borderWidth: 1,
+          borderColor: "#FFFFFF"
+        }
       },
       data: [
-        1003.5,832.5,935.5,458,341.5,256.5,308.5,156.5,
-        116,8.55,5.75,50.5,74.5,52.5,53,18,22.5,17.2,21.6,11.9,18,16.5
+        1003.5, 832.5, 935.5, 458, 341.5, 256.5, 308.5, 156.5,
+        116, 8.55, 5.75, 50.5, 74.5, 52.5, 53, 18, 22.5,
+        17.2, 21.6, 11.9, 18, 16.5
       ]
     }
   ]
