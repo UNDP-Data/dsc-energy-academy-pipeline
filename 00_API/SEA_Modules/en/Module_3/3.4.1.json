@@ -27,6 +27,50 @@
         "poster": "https://ik.imagekit.io/tvlk/blog/2024/04/shutterstock_2230689495.jpg"
       }
     },
+{
+  "template_id": "chart",
+  "color_scheme": "light",
+  "size": "full",
+  "content": {
+    "config": {
+      "mapSettings": {
+        "mapStyle": "https://api.maptiler.com/maps/hybrid/style.json?key=YbCPLULzWdf1NplssEIc",
+        "center": [20.54042, -14.45028],
+        "zoomLevel": 3,
+        "includeLayers": ["population-density", "electricity-access"],
+        "excludeLayers": [],
+        "language": "en",
+        "rtl": false,
+        "mode": "light"
+      },
+      "graphSettings": {
+        "graphTitle": "Electricity Access and Population Density",
+        "graphDescription": "Overlay map showing population density and electricity access across regions.",
+        "sources": [
+          {
+            "source": "UNDP and WorldPop",
+            "link": "https://data.undp.org"
+          }
+        ],
+        "footNote": "Note: Data reflects 2023 estimates. Layers are indicative and not exhaustive.",
+        "padding": "16px",
+        "backgroundColor": true,
+        "backgroundStyle": {
+          "borderRadius": "8px",
+          "boxShadow": "0 2px 4px rgba(0,0,0,0.1)",
+          "border": "1px solid var(--gray-400)"
+        },
+        "width": 1000,
+        "height": 500,
+        "minHeight": 300,
+        "relativeHeight": 0.5,
+        "graphID": "electricity-access-map",
+        "ariaLabel": "Map showing electricity access overlaid with population density"
+      }
+    }
+  }
+},
+
     {
       "template_id": "text",
       "color_scheme": "light",
