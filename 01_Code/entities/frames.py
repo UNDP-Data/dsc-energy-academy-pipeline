@@ -671,14 +671,14 @@ class Chart(FrameBase):
                     )
                 except ValueError:
                     raise ValueError(f"Invalid JSON for chart: {chart_id}")
-            else:
-            # old version pulling from folder, cna update back to this once the pipelines are merged
+            # else:
+            # # old version pulling from folder, cna update back to this once the pipelines are merged
 
-                chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
-                if chart_path.exists():
-                    
-                    with open(chart_path, "r", encoding="utf-8") as f:
-                        option = json.load(f) 
+            #     chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
+            #     if chart_path.exists():
+            #         print(chart_path, " loading from file")
+            #         with open(chart_path, "r", encoding="utf-8") as f:
+            #             option = json.load(f) 
 
         
         # If no image or chart JSON file, raise an error to skip this frame
