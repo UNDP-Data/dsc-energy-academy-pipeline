@@ -112,7 +112,7 @@
       }
     },
     {
-      "template_id": "photo-vertical",
+      "template_id": "photo_vertical",
       "color_scheme": "dark",
       "content": {
         "image": {
@@ -735,7 +735,47 @@
                 19972
               ]
             }
-          ]
+          ],
+          "title": {
+            "text": "Evolution of electricity generation sources in Asia Pacific since 2000",
+            "subtext": "Source :",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 160,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "Summary of the diagram. Otherwise, feel free to remove it.",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
         }
       }
     },
@@ -753,7 +793,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>India and China are major drivers of energy demand in Asia and the Pacific as their economies grow at rapid pace. </strong>Per capita greenhouse gas emissions are below the world average but projected to grow in the coming decades. Aside from the fast deployment of clean energy for growth, one other key is to increase <ai prompt=\"Tell me more about energy efficiency.\">energy efficiency 💬️</ai>. <strong>Despite progress in East Asia, the region overall remains one of the most energy intensive globally.</strong>"
+              "text": "<strong>India and China are major drivers of energy demand in Asia and the Pacific as their economies grow at rapid pace. </strong>Per capita greenhouse gas emissions are below the world average but projected to grow in the coming decades. Aside from the fast deployment of clean energy for growth, one other key is to increase <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai>. <strong>Despite progress in East Asia, the region overall remains one of the most energy intensive globally.</strong>"
             }
           }
         ]
@@ -834,7 +874,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Circular economy principles can reduce <ai prompt=\"Share details about critical minerals.\">critical minerals 💬️</ai> dependency</strong>"
+              "text": "<strong>Circular economy principles can reduce <ai prompt=\"Provide more info on critical minerals.\">critical minerals 💬️</ai> dependency</strong>"
             }
           },
           {
@@ -899,324 +939,6 @@
       }
     },
     {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#fd9d24",
-            "#dd1367",
-            "#3f7e44",
-            "#19486a",
-            "#0468b1",
-            "#fd6925",
-            "#0a97d9",
-            "#c5192d",
-            "#4c9f38",
-            "#fcc30b"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              2015,
-              2016,
-              2017,
-              2018,
-              2019,
-              2020,
-              2021,
-              2022,
-              2023,
-              2024,
-              2025,
-              2026,
-              2027,
-              2028,
-              2029,
-              2030,
-              2031,
-              2032,
-              2033,
-              2034,
-              2035,
-              2036,
-              2037,
-              2038,
-              2039,
-              2040
-            ],
-            "name": "Year"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "Twh"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "..."
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "type": "line",
-              "name": "Invisible",
-              "data": [
-                65,
-                72,
-                74,
-                79,
-                89,
-                94,
-                99,
-                105,
-                110,
-                116,
-                122,
-                128,
-                134,
-                140,
-                147,
-                153,
-                159,
-                166,
-                173,
-                179,
-                185,
-                192,
-                199,
-                206,
-                213,
-                221
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Sustainable Development Scenario",
-              "data": [
-                65,
-                72,
-                74,
-                79,
-                89,
-                94,
-                99,
-                105,
-                110,
-                116,
-                122,
-                128,
-                134,
-                140,
-                147,
-                153,
-                159,
-                166,
-                173,
-                179,
-                185,
-                192,
-                199,
-                206,
-                213,
-                221
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Buildings efficiency",
-              "data": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                1,
-                2,
-                3,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                10,
-                11,
-                13,
-                15,
-                17,
-                19,
-                21,
-                24,
-                26,
-                29,
-                31
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Equipment efficiency",
-              "data": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                1,
-                2,
-                4,
-                6,
-                8,
-                11,
-                14,
-                17,
-                21,
-                25,
-                29,
-                33,
-                38,
-                43,
-                48,
-                53,
-                59,
-                64,
-                70,
-                76,
-                81
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Stated Policies Scenario",
-              "data": [
-                65,
-                72,
-                74,
-                79,
-                89,
-                96,
-                103,
-                111,
-                119,
-                128,
-                137,
-                147,
-                157,
-                168,
-                180,
-                192,
-                204,
-                217,
-                231,
-                244,
-                257,
-                272,
-                287,
-                302,
-                318,
-                333
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1230,7 +952,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The growing importance of sustained access to critical raw materials—key for the energy transition—is becoming a priority on national economic agendas. <strong>As the demand for greener energy technologies accelerates, it affects the entire mining and raw materials value chain across all sectors.</strong> UNDP’s existing work on sustainable mining positions it well to address these challenges. Once the UN’s official framework on Critical Energy Transition Minerals is released, it will guide solutions to supply chain issues, governance, <ai prompt=\"Provide more info on social protection.\">social protection 💬️</ai>, and gender equality, emphasizing human rights approaches. <strong>Potential solutions include promoting sustainable practices by redefining the value of natural resources and ecosystems, encouraging mining industries to minimize environmental harm, and restoring ecosystems after extraction.</strong> Additionally, UNDP’s Nature Pledge aims to redirect investments toward sustainable, resilient energy projects, including research and development in sustainable mining and energy-efficient technologies, supported by various incentives."
+              "text": "The growing importance of sustained access to critical raw materials—key for the energy transition—is becoming a priority on national economic agendas. <strong>As the demand for greener energy technologies accelerates, it affects the entire mining and raw materials value chain across all sectors.</strong> UNDP’s existing work on sustainable mining positions it well to address these challenges. Once the UN’s official framework on Critical Energy Transition Minerals is released, it will guide solutions to supply chain issues, governance, <ai prompt=\"Share details about social protection.\">social protection 💬️</ai>, and gender equality, emphasizing human rights approaches. <strong>Potential solutions include promoting sustainable practices by redefining the value of natural resources and ecosystems, encouraging mining industries to minimize environmental harm, and restoring ecosystems after extraction.</strong> Additionally, UNDP’s Nature Pledge aims to redirect investments toward sustainable, resilient energy projects, including research and development in sustainable mining and energy-efficient technologies, supported by various incentives."
             }
           }
         ]
@@ -1250,7 +972,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Significant investments with a focus on mobilizing private finance are required to fund clean energy in Asia and the Pacific. <strong>Investments in renewable energy are still mainly focused on low-risk areas, with East Asia and the Pacific receiving the highest share of investment.</strong> In 2019-2020, this region attracted about 45% of the total investment. <strong>However, China accounted for over four-fifths of the investment in this region, driven by its government’s ambitious targets of reaching peak emissions by 2030 and achieving <ai prompt=\"Explain carbon neutrality.\">carbon neutrality 💬️</ai> by 2060</strong>. The regional landscape for energy investments has changed significantly from traditional dependence on multilateral and bilateral assistance to more market-based financing solutions. Indeed, over 80% of the countries are now considered middle-income. <strong>This necessitates a greater reliance on market-based financing measures and a particular role for the private sector to mobilize investments and take a lead in energy infrastructure deployments</strong>, often against challenging post-COVID domestic and international financial market conditions."
+              "text": "Significant investments with a focus on mobilizing private finance are required to fund clean energy in Asia and the Pacific. <strong>Investments in renewable energy are still mainly focused on low-risk areas, with East Asia and the Pacific receiving the highest share of investment.</strong> In 2019-2020, this region attracted about 45% of the total investment. <strong>However, China accounted for over four-fifths of the investment in this region, driven by its government’s ambitious targets of reaching peak emissions by 2030 and achieving <ai prompt=\"Provide more info on carbon neutrality.\">carbon neutrality 💬️</ai> by 2060</strong>. The regional landscape for energy investments has changed significantly from traditional dependence on multilateral and bilateral assistance to more market-based financing solutions. Indeed, over 80% of the countries are now considered middle-income. <strong>This necessitates a greater reliance on market-based financing measures and a particular role for the private sector to mobilize investments and take a lead in energy infrastructure deployments</strong>, often against challenging post-COVID domestic and international financial market conditions."
             }
           }
         ]

@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Transport relies heavily on internal combustion engines (ICE) powered by fossil fuels. It accounts for over one-third of CO2 emissions from end-use sectors. In 2022, passenger and cargo activity rebounded after the Covid-19 pandemic. This led to a 3% rise in transport CO2 emissions compared to 2021. From 1990 to 2022, transport emissions grew at an average annual rate of 1.7%, the same as industry. To align with the Net Zero Emissions (NZE) by 2050 Scenario, transport emissions must decrease by more than 3% annually until 2030. <br />Achieving this requires swift road vehicle electrification, improved <ai prompt=\"What is energy efficiency?\">energy efficiency 💬️</ai>, scaled-up low-emissions fuels in maritime and aviation, and policies that promote shifts to less carbon-intensive transport modes. Here, we will focus on road transport. Electrification is the most promising path to reduce emissions and improve energy efficiency in road transport."
+              "text": "Transport relies heavily on internal combustion engines (ICE) powered by fossil fuels. It accounts for over one-third of CO2 emissions from end-use sectors. In 2022, passenger and cargo activity rebounded after the Covid-19 pandemic. This led to a 3% rise in transport CO2 emissions compared to 2021. From 1990 to 2022, transport emissions grew at an average annual rate of 1.7%, the same as industry. To align with the Net Zero Emissions (NZE) by 2050 Scenario, transport emissions must decrease by more than 3% annually until 2030. <br />Achieving this requires swift road vehicle electrification, improved <ai prompt=\"Provide more info on energy efficiency.\">energy efficiency 💬️</ai>, scaled-up low-emissions fuels in maritime and aviation, and policies that promote shifts to less carbon-intensive transport modes. Here, we will focus on road transport. Electrification is the most promising path to reduce emissions and improve energy efficiency in road transport."
             }
           }
         ]
@@ -72,7 +72,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "In developing nations, EVs are gaining relevance as emissions from the transport sector rise rapidly (see Figure). However, more importantly, their significance extends beyond decarbonization, aligning with broader developmental objectives. Particularly, the opportunity lies in electrifying micro-mobility, first and last-mile transport, and public transport systems, thereby contributing to a more equitable and socially just access to services and opportunities within these regions. E-mobility also offers a promising pathway to improved health outcomes by reducing air pollution, a significant concern in low- and middle-income countries, where 89% of the 4.2 million premature deaths worldwide occur due to pollution. <br /><br />Moreover, a compelling case for EVs can be made in countries that have a transport culture that is supported by sizeable oil importers. For instance, in <ai prompt=\"Tell me more about small island developing states.\">small island developing states 💬️</ai> heavily reliant on fossil fuels, e-mobility can reduce fossil fuel dependence and enhance energy security, addressing the volatility of gas and oil prices that disproportionately affect people. <br /><br />"
+              "text": "In developing nations, EVs are gaining relevance as emissions from the transport sector rise rapidly (see Figure). However, more importantly, their significance extends beyond decarbonization, aligning with broader developmental objectives. Particularly, the opportunity lies in electrifying micro-mobility, first and last-mile transport, and public transport systems, thereby contributing to a more equitable and socially just access to services and opportunities within these regions. E-mobility also offers a promising pathway to improved health outcomes by reducing air pollution, a significant concern in low- and middle-income countries, where 89% of the 4.2 million premature deaths worldwide occur due to pollution. <br /><br />Moreover, a compelling case for EVs can be made in countries that have a transport culture that is supported by sizeable oil importers. For instance, in <ai prompt=\"Explain small island developing states.\">small island developing states 💬️</ai> heavily reliant on fossil fuels, e-mobility can reduce fossil fuel dependence and enhance energy security, addressing the volatility of gas and oil prices that disproportionately affect people. <br /><br />"
             }
           }
         ]
@@ -416,7 +416,44 @@
             }
           ],
           "grid": {
-            "bottom": 150
+            "bottom": 90,
+            "top": 160,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Prevalence of vehicle types",
+            "subtext": "Source :",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "Summary of the diagram. Otherwise, feel free to remove it.",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }
@@ -549,7 +586,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Rising demand for EVs is fuelling a surge in batteries. Demand for lithium-ion batteries, the predominant choice for EVs, has spiked 65%, from around 330 GWh in 2021 to 550 GWh in 2022 (Figure 4). As a result, demand for <ai prompt=\"Explain critical minerals.\">critical minerals 💬️</ai> has also skyrocketed. In 2022, EV batteries drove approximately 60% of global demand for lithium, 30% for cobalt and 10% for nickel. Demand for critical minerals is projected to increase by three and half times by 2030, reaching over 30 million tonnes. <br /><br />Increased extraction of critical minerals in developing countries creates challenges and opportunities. Africa, for example, holds over 50% of global reserves and production of cobalt and manganese. Despite the vital role of critical minerals in government revenues, however, they are predominantly exported in raw forms, financially benefiting only a fraction of society. Maximizing development gains requires value addition, including through developing local capacities for refining and processing. Zimbabwe's Mines to Energy Park stands out as a prime example, positioning the country as a producer of lithium-ion batteries and allowing it to capitalize on its mineral reserves."
+              "text": "Rising demand for EVs is fuelling a surge in batteries. Demand for lithium-ion batteries, the predominant choice for EVs, has spiked 65%, from around 330 GWh in 2021 to 550 GWh in 2022 (Figure 4). As a result, demand for <ai prompt=\"Tell me more about critical minerals.\">critical minerals 💬️</ai> has also skyrocketed. In 2022, EV batteries drove approximately 60% of global demand for lithium, 30% for cobalt and 10% for nickel. Demand for critical minerals is projected to increase by three and half times by 2030, reaching over 30 million tonnes. <br /><br />Increased extraction of critical minerals in developing countries creates challenges and opportunities. Africa, for example, holds over 50% of global reserves and production of cobalt and manganese. Despite the vital role of critical minerals in government revenues, however, they are predominantly exported in raw forms, financially benefiting only a fraction of society. Maximizing development gains requires value addition, including through developing local capacities for refining and processing. Zimbabwe's Mines to Energy Park stands out as a prime example, positioning the country as a producer of lithium-ion batteries and allowing it to capitalize on its mineral reserves."
             }
           }
         ]
@@ -745,7 +782,44 @@
             }
           ],
           "grid": {
-            "bottom": 80
+            "bottom": 90,
+            "top": 160,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Battery Demand By Mode and Region, 2016-2022",
+            "subtext": "Source :",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "Summary of the diagram. Otherwise, feel free to remove it.",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
           }
         }
       }
@@ -758,7 +832,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While extracting minerals generates fewer emissions than burning fossil fuels, it often exacerbates environmental issues. Mining has been a major contributor to the degradation of at least 700 million hectares and over 96 million hectares of land in Africa and India, respectively. Robust environmental legislation, regulation and policies are essential to mitigate such risks. For example, Rwanda’s mining law and policy framework guide <ai prompt=\"Provide more info on environmental impact assessments.\">environmental impact assessments 💬️</ai> and monitoring to prevent adverse effects on ecosystems and local communities. <br />Further safeguarding environmental integrity in e-transport calls for sustainable national waste management strategies and infrastructure. Circular approaches are important, such as using second-life batteries for stationary energy storage and adopting battery reuse and recycling practices. The latter can also increase local independence from international battery manufacturing hubs. Such strategies support both local economic growth opportunities and job creation. Moreover, integrating AI and digital technologies can optimize supply chains, including material availability, and increase performance and efficiency in energy storage systems."
+              "text": "While extracting minerals generates fewer emissions than burning fossil fuels, it often exacerbates environmental issues. Mining has been a major contributor to the degradation of at least 700 million hectares and over 96 million hectares of land in Africa and India, respectively. Robust environmental legislation, regulation and policies are essential to mitigate such risks. For example, Rwanda’s mining law and policy framework guide <ai prompt=\"What is environmental impact assessments?\">environmental impact assessments 💬️</ai> and monitoring to prevent adverse effects on ecosystems and local communities. <br />Further safeguarding environmental integrity in e-transport calls for sustainable national waste management strategies and infrastructure. Circular approaches are important, such as using second-life batteries for stationary energy storage and adopting battery reuse and recycling practices. The latter can also increase local independence from international battery manufacturing hubs. Such strategies support both local economic growth opportunities and job creation. Moreover, integrating AI and digital technologies can optimize supply chains, including material availability, and increase performance and efficiency in energy storage systems."
             }
           }
         ]

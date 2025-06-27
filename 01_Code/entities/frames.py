@@ -705,34 +705,121 @@ class Chart(FrameBase):
 
 
 
+# class Chart_folder(FrameBase):
+#     size: Literal["full", "half"]
+#     option: dict
+
+#     @classmethod
+#     def from_node(cls, node: Node) -> "Chart":
+#         assert node.name == "chart", f"Expected chart node, got {node.name}"
+        
+#         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
+#         size = "full" if width >= 1000 else "half"
+
+#         image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
+#         if image_node:
+#             chart_id = image_node.name
+#             chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
+#             if chart_path.exists():
+#                 with open(chart_path, "r", encoding="utf-8") as f:
+#                     option = json.load(f)
+#                 return cls(
+#                     template_id="echarts_chart",
+#                     color_scheme="light",
+#                     size=size,
+#                     option=option
+#                 )
+        
+#         # If no image or chart JSON file, raise an error to skip this frame
+#         raise ValueError(f"Chart data missing or invalid for frame: {node.name}")
+
+
 class Chart_folder(FrameBase):
     size: Literal["full", "half"]
     option: dict
 
     @classmethod
-    def from_node(cls, node: Node) -> "Chart":
+    def from_node(cls, node: Node) -> "Chart_folder":
         assert node.name == "chart", f"Expected chart node, got {node.name}"
-        
+
         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
         size = "full" if width >= 1000 else "half"
 
+        # --- Extract children ---
         image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
-        if image_node:
-            chart_id = image_node.name
-            chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
-            if chart_path.exists():
-                with open(chart_path, "r", encoding="utf-8") as f:
-                    option = json.load(f)
-                return cls(
-                    template_id="echarts_chart",
-                    color_scheme="light",
-                    size=size,
-                    option=option
-                )
-        
-        # If no image or chart JSON file, raise an error to skip this frame
-        raise ValueError(f"Chart data missing or invalid for frame: {node.name}")
+        group_node = next((child for child in node.children if child.name == "Light Template"), None)
 
+        if not image_node or not group_node:
+            raise ValueError("Chart must contain an image node and a 'Light Template' group")
+
+        # --- Extract Title, Summary, Source from Light Template group ---
+        text_map = {child.name: child.characters.strip() for child in group_node.children if child.type == "TEXT"}
+        title_text = text_map.get("Title", "")
+        summary_text = text_map.get("Summary", "")
+        source_text = text_map.get("Source", "")
+
+        # --- Load ECharts config by image name ---
+        chart_id = image_node.name
+        chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
+        if not chart_path.exists():
+            raise ValueError(f"Chart JSON not found for: {chart_id}")
+
+        with open(chart_path, "r", encoding="utf-8") as f:
+            option = json.load(f)
+
+        # --- Inject title and subtext ---
+        option["title"] = {
+            "text": title_text,
+            "subtext": source_text,
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+                "color": "#000000",
+                "fontSize": 22,
+                "fontWeight": "bold",
+                "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+                "color": "#666666",
+                "fontSize": 14,
+                "fontFamily": "Proxima Nova, sans-serif"
+            }
+        }
+
+        # --- Ensure grid spacing ---
+        option["grid"] = option.get("grid", {})
+        option["grid"].update({
+            "top": 160,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+        })
+
+        # --- Add summary as graphic block between subtext and chart ---
+        option["graphic"] = {
+            "elements": [
+                {
+                    "type": "text",
+                    "left": "center",
+                    "top": 80,
+                    "style": {
+                        "text": summary_text,
+                        "fill": "#444444",
+                        "font": "15px Proxima Nova, sans-serif",
+                        "width": 600,
+                        "lineHeight": 22,
+                        "align": "center"
+                    }
+                }
+            ]
+        }
+
+        return cls(
+            template_id="echarts_chart",
+            color_scheme="light",
+            size=size,
+            option=option
+        )
                 
 
 
