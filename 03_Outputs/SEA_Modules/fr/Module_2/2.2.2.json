@@ -46,13 +46,13 @@
           {
             "template_id": "paragraph_small",
             "content": {
-              "text": "Des progrès ont été réalisés au cours des dernières décennies, l'accès à l'électricité dans le monde passant de 78 % en 2000 à 91 % en 2022. Cependant, une image différente émerge lorsque l'on décompose l'accès à l'électricité selon l'écart d'accès à l'énergie mondiale - c'est-à-dire, par type de pays, urbain contre. zones rurales, et en considérant des couches supplémentaires, comme décrit ci-après."
+              "text": "Des progrès ont été réalisés au cours des dernières décennies, avec l'accès à l'électricité mondial passant de 78 % en 2000 à 92 % en 2023. Cependant, une image différente émerge lorsque l'on décompose l'accès à l'électricité selon l'écart d'accès à l'énergie mondiale - c'est-à-dire, par type de pays, urbain contre. zones rurales, et en considérant des couches supplémentaires, comme décrit ci-après."
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Le Suivi de l'ODD7 : Le Rapport d'Avancement 2024 (</strong><a href=\"https://www.youtube.com/watch?v=_9a-xTNdxN0\"><strong><u>Connaissance ESMAP, 2024</u></strong></a><strong>) met en lumière les lacunes qui doivent encore être comblées.<br /><br /></strong>Voir la vidéo du Rapport ensuite.<br /><strong><br /></strong><br /><br /><br />"
+              "text": "<br />Le <a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2025-0620-v6-highres.pdf\"><u>Suivi de l'ODD7 : Rapport sur les progrès énergétiques 2025</u></a> présente un panorama complet des progrès et des déficits en matière d'accès à l'énergie.<br /><br /><br /><br /><br /><br />"
             }
           }
         ]
@@ -99,14 +99,14 @@
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "En 2022, les zones urbaines du monde entier ont atteint un impressionnant taux d'électrification de 98 pour cent."
+              "body": "En 2023, les zones urbaines du monde entier ont atteint un taux d'électrification impressionnant de 98 pour cent."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Chaque année, en moyenne 94 millions de personnes ont eu accès à l'électricité entre 2020 et 2022, dépassant la croissance de la population. Cette tendance remarquable était particulièrement marquée en Asie centrale et du Sud."
+              "body": "Chaque année, en moyenne, 73,1 millions de personnes ont obtenu l'accès à l'électricité entre 2021 et 2023, dépassant la croissance de la population. Cette tendance remarquable était particulièrement prononcée en Asie centrale, ce qui a considérablement réduit son écart d'accès."
             }
           },
           {
@@ -175,10 +175,176 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "À Koh Kantheay, au Cambodge, le PNUD a soutenu un projet de micro-réseau pour fournir aux communautés isolées un accès fiable à l'énergie. Ce modèle, basé sur des partenariats public-privé-communautaires, comprenait une subvention publique de 70 % pour la mise en place initiale des infrastructures et une contribution de 30 % de la part des entrepreneurs privés en énergie, qui supervisent les opérations du réseau. Ce projet démontre le potentiel des micro-réseaux solaires pour fournir un accès à une énergie durable aux communautés éloignées, favorisant les partenariats public-privé et réduisant le risque d'investissement (PNUD Cambodge, 2023). <br /><br /><strong>Le développement de solutions énergétiques durables hors réseau dans les zones de dernier kilomètre, comme les micro-réseaux solaires, présenté dans l'étude de cas ci-dessus, nécessite un soutien technique sur mesure et des mécanismes de financement à long terme.</strong> Ces instruments seront présentés plus en détail dans les modules suivants.</strong>"
+              "text": "À Koh Kantheay, au Cambodge, le PNUD a soutenu un projet de micro-réseau pour fournir aux communautés isolées un accès fiable à l'énergie. Ce modèle, basé sur des partenariats public-privé-communautaires, comprenait une subvention publique de 70 % pour la mise en place initiale des infrastructures et une contribution de 30 % de la part des entrepreneurs privés en énergie, qui supervisent les opérations du réseau. Ce projet démontre le potentiel des micro-réseaux solaires pour fournir un accès à une énergie durable aux communautés isolées, favorisant <ai prompt=\"Qu'est-ce que les partenariats public-privé ?\">les partenariats public-privé 💬️</ai> et réduisant le risque d'investissement (<a href=\"https://www.undp.org/cambodia/blog/how-remote-cambodian-village-became-beacon-sustainable-energy-solutions-mekong\"><u>UNDP Cambodge, 2023</u></a>). <br /><br /><strong>Le développement de solutions énergétiques durables hors réseau dans les zones de dernier kilomètre, comme les micro-réseaux solaires, présenté dans l'étude de cas ci-dessus, nécessite un soutien technique sur mesure et des mécanismes de financement à long terme.</strong> Ces instruments seront présentés plus en détail dans les modules suivants.</strong>"
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#19486a",
+            "#dd1367",
+            "#fd9d24",
+            "#c5192d",
+            "#fcc30b",
+            "#0a97d9",
+            "#fd6925",
+            "#0468b1",
+            "#3f7e44",
+            "#4c9f38"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2010",
+              "2020",
+              "2022"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Population (millions)"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "With access to electricity",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3416,
+                4243,
+                4384
+              ]
+            },
+            {
+              "name": "Without access to electricity",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                145,
+                117,
+                104
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
       }
     },
     {
@@ -215,21 +381,21 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Le Rapport sur les Progrès en matière d'Énergie (</strong><a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Jun/IRENA_Tracking_SDG7_energy_progress_2024.pdf\"><strong><u>2024</u></strong></a><strong>) fournit des informations essentielles sur l'électrification urbaine en date de 2022 :</strong>"
+              "text": "<strong>Le Rapport sur les progrès énergétiques fournit des informations essentielles sur l'électrification urbaine en 2023 :</strong>"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "En 2022, les zones urbaines du monde entier ont atteint un impressionnant taux d'électrification de 98 pour cent."
+              "body": "En 2023, les zones urbaines du monde ont atteint un taux d'électrification impressionnant de 97,8 %."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Chaque année, en moyenne 94 millions de personnes ont eu accès à l'électricité entre 2020 et 2022, dépassant la croissance de la population. Cette tendance remarquable était particulièrement marquée en Asie centrale et du Sud."
+              "body": "Chaque année, en moyenne, 73,1 millions de personnes ont obtenu l'accès à l'électricité entre 2021 et 2023, dépassant la croissance de la population. Cette tendance remarquable était particulièrement marquée en Asie centrale et du Sud."
             }
           },
           {
@@ -246,6 +412,191 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#c5192d",
+            "#3f7e44",
+            "#fcc30b",
+            "#0a97d9",
+            "#fd9d24",
+            "#dd1367",
+            "#0468b1",
+            "#4c9f38",
+            "#fd6925",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "World",
+              "Central and Southern Asia",
+              "Eastern and South eastern Asia",
+              "Sub-Saharan Africa",
+              "Western Asia and Northern Africa"
+            ],
+            "name": "Region"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Population (millions)"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Annual increase in population with electricity access (Urban)",
+              "type": "bar",
+              "data": [
+                76,
+                20,
+                22,
+                21,
+                6
+              ]
+            },
+            {
+              "name": "Annual increase in population (Urban)",
+              "type": "bar",
+              "data": [
+                70,
+                17,
+                21,
+                18,
+                6
+              ]
+            },
+            {
+              "name": "Annual increase in population with electricity access (Rural)",
+              "type": "bar",
+              "data": [
+                20,
+                24,
+                -13,
+                11,
+                2
+              ]
+            },
+            {
+              "name": "Annual increase in population (Rural)",
+              "type": "bar",
+              "data": [
+                8,
+                2,
+                -16,
+                24,
+                2
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 100
+          }
+        }
       }
     },
     {
@@ -302,13 +653,12 @@
     },
     {
       "template_id": "infographic",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/M2_C2_5.webp",
-          "caption": null,
-          "url": null
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Outro_3.png",
+          "caption": ""
         }
       }
     },
@@ -329,7 +679,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong><ai prompt=\"Qu'est-ce que les petits États insulaires en développement ?\">petits États insulaires en développement</ai> (PEID) sont un groupe de 57 nations insulaires avec une population combinée d'environ 65 millions.<br /><br /></strong>En raison de leur situation géographique éloignée, ces populations font face à des défis sociaux, économiques et environnementaux distincts ainsi qu'à des difficultés uniques d'accès à l'énergie. <br /><br />En 2021, le taux d'accès à l'électricité dans les SIDS était d'environ 91 %, et l'accès à une cuisine propre était de 58 %, bien en dessous de la moyenne mondiale de 74 % (PNUD, 2025). Cependant, ces moyennes masquent d'importantes disparités entre et au sein des pays.<br /><br />L'isolement géographique, les petits marchés et la dépendance aux combustibles fossiles importés rendent l'énergie dans les SIDS coûteuse et volatile. Les combustibles fossiles représentent encore environ 75 % du mix électrique dans les SIDS, avec environ 60 % d'entre eux important plus de 90 % de leurs besoins en combustibles fossiles. Cela entraîne des coûts énergétiques élevés, jusqu'à quatre fois plus élevés que dans les régions continentales, avec des interruptions d'approvisionnement fréquentes et des subventions publiques élevées. Par exemple, les subventions aux combustibles fossiles ont atteint 8 % du PIB au Suriname et 3,7 % à Timor-Leste, mettant gravement à mal les finances publiques qui pourraient être orientées vers des investissements dans les énergies propres.<br /><br />Alors que certains SIDS comme Singapour, la Barbade et les Maldives ont atteint un accès quasi universel, d'autres font face à d'importants déficits. En Papouasie-Nouvelle-Guinée, seulement 19 % de la population avait accès à l'électricité en 2022, tandis que le taux d'accès à l'électricité de Vanuatu était de 70 %, et de 37,4 % en Guinée-Bissau. Le fossé rural-urbain est marqué, avec seulement 1,2 % des résidents ruraux ayant accès à l'électricité en Haïti contre 79,9 % dans les zones urbaines, tandis qu'à Kiribati, l'accès à une cuisine propre en milieu rural est de 2 % contre 20 % dans les zones urbaines."
+              "text": "<strong><ai prompt=\"Explain small island developing states.\">petits États insulaires en développement 💬️</ai> (SIDS) sont un groupe de 57 nations insulaires avec une population combinée d'environ 65 millions.<br /><br /></strong>En raison de leur localisation géographique éloignée, ces populations font face à des défis sociaux, économiques et environnementaux distincts ainsi qu'à des difficultés uniques d'accès à l'énergie. <br /><br />En 2021, le taux d'accès à l'électricité dans les SIDS était d'environ 91 %, et l'accès à une cuisine propre était de 58 %, bien en dessous de la moyenne mondiale de 74 % (PNUD, 2025). Cependant, ces moyennes masquent d'importantes disparités entre et au sein des pays.<br /><br />L'isolement géographique, les petits marchés et la dépendance aux combustibles fossiles importés rendent l'énergie dans les SIDS coûteuse et volatile. Les combustibles fossiles représentent encore environ 75 % du mix électrique dans les SIDS, avec environ 60 % d'entre eux important plus de 90 % de leurs besoins en combustibles fossiles. Cela entraîne des coûts énergétiques élevés, jusqu'à quatre fois plus élevés que dans les régions continentales, avec des interruptions d'approvisionnement fréquentes et des subventions publiques élevées. Par exemple, les subventions aux combustibles fossiles ont atteint 8 % du PIB au Suriname et 3,7 % à Timor-Leste, mettant gravement à mal les finances publiques qui pourraient être orientées vers des investissements dans les énergies propres.<br /><br />Alors que certains SIDS comme Singapour, la Barbade et les Maldives ont atteint un accès quasi universel, d'autres font face à d'importants déficits. En Papouasie-Nouvelle-Guinée, seulement 19 % de la population avait accès à l'électricité en 2022, tandis que le taux d'accès à l'électricité de Vanuatu était de 70 %, et de 37,4 % en Guinée-Bissau. Le fossé rural-urbain est marqué, avec seulement 1,2 % des résidents ruraux ayant accès à l'électricité en Haïti contre 79,9 % dans les zones urbaines, tandis qu'à Kiribati, l'accès à une cuisine propre en milieu rural est de 2 % contre 20 % dans les zones urbaines."
             }
           }
         ]
@@ -399,7 +749,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Bien que l'aide humanitaire fournisse des solutions énergétiques temporaires, des études ont calculé que des économies de coûts pourraient être possibles en fournissant des systèmes énergétiques distribués aux camps qui pourraient être établis pendant des années et non des mois (Lehne et al., 2016). Ce contexte nécessite une transition vers des options énergétiques évolutives et résilientes qui peuvent être gérées et entretenues localement au fil du temps.<br /><br /><strong>Exemple<br /></strong>Dans le camp soutenu par le PNUD à Salahley, Hargeisa, Somalie, de petits investissements dans l'infrastructure solaire ont apporté des améliorations significatives. <ai prompt=\"Clarifier l'énergie solaire.\">énergie solaire</ai> alimente désormais des services essentiels pour plus de 600 familles déplacées internes, fournissant une source d'énergie sûre et fiable dans un village éloigné à 50 kilomètres de Hargeisa.<br />"
+              "text": "Bien que l'aide humanitaire fournisse des solutions énergétiques temporaires, des études ont calculé que des économies de coûts pourraient être possibles en fournissant des systèmes énergétiques distribués aux camps qui pourraient être établis pendant des années et non des mois (Lehne et al., 2016). Ce contexte nécessite une transition vers des options énergétiques évolutives et résilientes qui peuvent être gérées et entretenues localement au fil du temps.<br /><br /><strong>Exemple<br /></strong>Dans le camp soutenu par le PNUD à Salahley, Hargeisa, Somalie, de petits investissements dans l'infrastructure solaire ont apporté des améliorations significatives. <ai prompt=\"Clarify solar energy.\">énergie solaire 💬️</ai> alimente désormais des services essentiels pour plus de 600 familles déplacées internes, fournissant une ligne de vie énergétique sûre et fiable dans un village isolé à 50 kilomètres de Hargeisa.<br />"
             }
           }
         ]
@@ -440,7 +790,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_12.png",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_2.png",
           "caption": ""
         }
       }
@@ -453,7 +803,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>L'infrastructure énergétique résiliente joue un rôle crucial dans la reprise après une crise.</strong> <br /><br /></strong><ai prompt=\"Provide more info on the undp sustainable energy hub.\">le hub énergétique durable du PNUD</ai> (SEH) définit la résilience énergétique dans des contextes fragiles comme la capacité des individus, des communautés et des systèmes à résister et à se remettre des chocs et des stress liés à l'approvisionnement, à la demande et à l'accès à l'énergie. Par exemple, les plans de récupération peuvent inclure des stratégies sur mesure pour une intégration énergétique durable et résiliente, telles que des mécanismes de financement pour réduire les risques d'investissement et inciter la participation du secteur privé pour faire face aux pénuries de financement.<br /><br />L'intersection de la crise climatique et de la fragilité souligne la nécessité d'une planification de résilience à long terme. Par exemple, l'intégration des énergies renouvelables dans les systèmes de santé pendant les crises, comme l'ont montré les épidémies passées telles que COVID-19, a démontré que l'énergie durable peut répondre simultanément aux besoins immédiats et créer des voies pour une reprise verte.<br /><br /><strong>L'accès à l'énergie dans les contextes fragiles et de conflit nécessite des interventions ciblées qui combinent des solutions immédiates avec des stratégies durables à long terme.</strong> Les systèmes d'énergie renouvelable décentralisés—tels que les systèmes solaires domestiques, les mini-réseaux, les pompes à eau alimentées par énergie solaire et les unités d'énergie propre portables—offrent des solutions adaptables et rapidement déployables qui peuvent fonctionner indépendamment de réseaux centraux vulnérables. Ces systèmes peuvent être bien adaptés aux zones éloignées ou peu sûres où l'infrastructure est endommagée ou inexistante. En développant de telles technologies, en favorisant des mécanismes de financement innovants et en intégrant la résilience énergétique dans des stratégies de récupération et de développement plus larges, il est possible d'atténuer les impacts des crises et d'assurer un soutien plus fiable aux populations vulnérables.</strong>"
+              "text": "<strong>L'infrastructure énergétique résiliente joue un rôle crucial dans la reprise après une crise.</strong> <br /><br /></strong><ai prompt=\"What is the undp sustainable energy hub?\">le hub d'énergie durable de l'UNDP 💬️</ai> (SEH) définit la résilience énergétique dans les contextes fragiles comme la capacité des individus, des communautés et des systèmes à résister et à se remettre des chocs et des stress liés à l'approvisionnement, à la demande et à l'accès à l'énergie. Par exemple, les plans de récupération peuvent inclure des stratégies sur mesure pour une intégration énergétique durable et résiliente, telles que des mécanismes de financement pour réduire les risques d'investissement et inciter la participation du secteur privé pour faire face aux pénuries de financement.<br /><br />L'intersection de la crise climatique et de la fragilité souligne la nécessité d'une planification de résilience à long terme. Par exemple, l'intégration des énergies renouvelables dans les systèmes de santé pendant les crises, comme l'ont montré les épidémies passées telles que COVID-19, a démontré que l'énergie durable peut répondre simultanément aux besoins immédiats et créer des voies pour une reprise verte.<br /><br /><strong>L'accès à l'énergie dans les contextes fragiles et de conflit nécessite des interventions ciblées qui combinent des solutions immédiates avec des stratégies durables à long terme.</strong> Les systèmes d'énergie renouvelable décentralisés—tels que les systèmes solaires domestiques, les mini-réseaux, les pompes à eau alimentées par énergie solaire et les unités d'énergie propre portables—offrent des solutions adaptables et rapidement déployables qui peuvent fonctionner indépendamment de réseaux centraux vulnérables. Ces systèmes peuvent être bien adaptés aux zones éloignées ou peu sûres où l'infrastructure est endommagée ou inexistante. En développant de telles technologies, en favorisant des mécanismes de financement innovants et en intégrant la résilience énergétique dans des stratégies de récupération et de développement plus larges, il est possible d'atténuer les impacts des crises et d'assurer un soutien plus fiable aux populations vulnérables.</strong>"
             }
           }
         ]
@@ -464,7 +814,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_145.webp",
+          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_5.png",
           "caption": ""
         }
       }
@@ -527,7 +877,7 @@
       "color_scheme": "dark",
       "content": {
         "title": "Principaux enseignements",
-        "intro": "Si vous n'avez que de la place pour retenir 3 choses :",
+        "intro": "",
         "takeaways": [
           {
             "image": {
@@ -550,7 +900,7 @@
               "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_188.webp",
               "caption": "image caption"
             },
-            "title": "L'urbanisation apporte à la fois des opportunités et des risques.",
+            "title": "L'urbanisation offre à la fois une opportunité d'accès à l'énergie et un risque d'aggravation des inégalités",
             "description": "Les zones urbaines ont généralement une couverture électrique élevée, mais la croissance rapide et l'expansion informelle laissent souvent les résidents à faible revenu de côté. Des investissements ciblés dans les établissements informels et une meilleure planification énergétique urbaine sont essentiels pour garantir un accès véritablement inclusif."
           }
         ]

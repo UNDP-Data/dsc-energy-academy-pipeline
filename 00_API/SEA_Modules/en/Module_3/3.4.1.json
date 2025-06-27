@@ -27,6 +27,97 @@
         "poster": "https://ik.imagekit.io/tvlk/blog/2024/04/shutterstock_2230689495.jpg"
       }
     },
+    {
+  "template_id": "model",
+  "color_scheme": "dark",
+  "content": {
+    "functionName": "compute_lcoe001",
+    "title": "LCOE at CRF 10%",
+    "description": "Shows how Levelized Cost of Energy varies with capital cost under different financing scenarios.",
+    "latexFunctions": [
+      "LCOE_5 = (\\left( C  \\cdot  0.05 + F \\right) / \\left( E - V \\right))",
+      "LCOE_7 = (\\left( C  \\cdot  0.06 + F \\right) / \\left( E - V \\right))",
+      "LCOE_10 = (\\left( C  \\cdot  0.1 + F \\right) / \\left( E - V \\right))"
+    ],
+    "option": {
+      "xAxis": {
+        "type": "value"
+      },
+      "yAxis": {
+        "type": "value"
+      },
+      "tooltip": {
+        "trigger": "axis"
+      },
+      "series": []
+    },
+    "parameters": [
+      {
+        "symbol": "F",
+        "title": "Fixed O&M Cost",
+        "description": "Annual fixed operation and maintenance cost",
+        "unit": "$",
+        "type": "continuous",
+        "min": 0.0,
+        "max": 100.0,
+        "default": 20.0,
+        "targetType": "any"
+      },
+      {
+        "symbol": "E",
+        "title": "Annual Energy Production",
+        "description": "Total energy generated per year",
+        "unit": "kWh",
+        "type": "continuous",
+        "min": 1000.0,
+        "max": 10000.0,
+        "default": 5000.0,
+        "targetType": "any"
+      },
+      {
+        "symbol": "V",
+        "title": "Variable O&M Cost",
+        "description": "Variable operation and maintenance cost per kWh",
+        "unit": "$/kWh",
+        "type": "continuous",
+        "min": 0.0,
+        "max": 1000.0,
+        "default": 100.0,
+        "targetType": "any"
+      }
+    ],
+    "outputs": [
+      {
+        "symbol": "LCOE_5",
+        "title": "LCOE at CRF 5%",
+        "description": "LCOE at CRF 5%",
+        "unit": "",
+        "target": null,
+        "direction": null,
+        "chart_usage": "y_value"
+      },
+      {
+        "symbol": "LCOE_7",
+        "title": "LCOE at CRF 7%",
+        "description": "LCOE at CRF 7%",
+        "unit": "",
+        "target": null,
+        "direction": null,
+        "chart_usage": "y_value"
+      },
+      {
+        "symbol": "LCOE_10",
+        "title": "LCOE at CRF 10%",
+        "description": "LCOE at CRF 10%",
+        "unit": "",
+        "target": null,
+        "direction": null,
+        "chart_usage": "y_value"
+      }
+    ],
+    "targetType": "any"
+  }
+},
 {
   "template_id": "undp_chart",
   "color_scheme": "light",
