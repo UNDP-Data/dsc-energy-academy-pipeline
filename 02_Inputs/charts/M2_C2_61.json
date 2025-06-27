@@ -16,7 +16,13 @@
     },
     "orient": "horizontal",
     "top": "bottom",
-    "type": "scroll"
+    "type": "scroll",
+    "pageIconColor": "#FFFFFF",
+    "pageIconInactiveColor": "#555555",
+    "pageTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    }
   },
   "tooltip": {
     "textStyle": {
@@ -29,16 +35,16 @@
   },
   "backgroundColor": "rgba(28, 29, 24, 1)",
   "color": [
-    "#19486a",
     "#fd6925",
+    "#0a97d9",
+    "#0468b1",
+    "#4c9f38",
+    "#dd1367",
     "#3f7e44",
     "#fd9d24",
-    "#dd1367",
-    "#0468b1",
-    "#fcc30b",
-    "#0a97d9",
     "#c5192d",
-    "#4c9f38"
+    "#fcc30b",
+    "#19486a"
   ],
   "xAxis": {
     "axisLine": {
@@ -120,7 +126,7 @@
   },
   "series": [
     {
-      "name": "Grid (USD bn)",
+      "name": "Grid",
       "type": "bar",
       "data": [
         115,
@@ -129,7 +135,7 @@
       ]
     },
     {
-      "name": "Mini-grid (USD bn)",
+      "name": "Mini-grid",
       "type": "bar",
       "data": [
         5,
@@ -138,7 +144,7 @@
       ]
     },
     {
-      "name": "Stand-alone (USD bn)",
+      "name": "Stand-alone",
       "type": "bar",
       "data": [
         35,
@@ -147,7 +153,7 @@
       ]
     },
     {
-      "name": "Total (USD bn)",
+      "name": "Total",
       "type": "bar",
       "data": [
         155,

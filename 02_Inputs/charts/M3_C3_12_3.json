@@ -1,13 +1,24 @@
 {
+  "backgroundColor": "rgba(28, 29, 24, 1)",
+  "color": [
+    "#fcc30b", "#0468b1", "#fd6925", "#c5192d",
+    "#3f7e44", "#19486a", "#fd9d24", "#dd1367",
+    "#4c9f38", "#0a97d9"
+  ],
   "textStyle": {
     "fontFamily": "Proxima Nova, sans-serif",
     "fontSize": 14,
     "fontWeight": "normal",
     "color": "#DDDDDD"
   },
-  "axisLabel": {
-    "fontSize": 14,
-    "color": "#AAAAAA"
+  "tooltip": {
+    "trigger": "axis",
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#888888"
+    }
   },
   "legend": {
     "textStyle": {
@@ -16,138 +27,105 @@
     },
     "orient": "horizontal",
     "top": "bottom",
-    "type": "scroll"
-  },
-  "tooltip": {
-    "textStyle": {
-      "fontSize": 14,
-      "color": "#FFFFFF"
-    },
-    "backgroundColor": "rgba(30, 30, 30, 0.85)",
-    "borderColor": "#555555",
-    "formatter": null
-  },
-  "backgroundColor": "rgba(28, 29, 24, 1)",
-  "color": [
-    "#fcc30b",
-    "#fd9d24",
-    "#c5192d",
-    "#3f7e44",
-    "#4c9f38",
-    "#fd6925",
-    "#19486a",
-    "#0a97d9",
-    "#dd1367",
-    "#0468b1"
-  ],
-  "xAxis": {
-    "axisLine": {
-      "show": true,
-      "lineStyle": {
-        "color": "#888888",
-        "type": "solid",
-        "width": 1
-      }
-    },
-    "splitLine": {
-      "show": true,
-      "lineStyle": {
-        "type": "dashed",
-        "color": "#444444",
-        "opacity": 0.7
-      }
-    },
-    "axisLabel": {
-      "color": "#AAAAAA",
-      "fontSize": 14,
-      "interval": 0
-    },
-    "nameTextStyle": {
+    "type": "scroll",
+    "pageIconColor": "#FFFFFF",
+    "pageIconInactiveColor": "#555555",
+    "pageTextStyle": {
       "color": "#CCCCCC",
       "fontSize": 14
-    },
-    "type": "category",
-    "data": [
-      "2024",
-      "2030",
-      "2040"
-    ],
-    "name": "Year"
-  },
-  "yAxis": {
-    "axisLine": {
-      "show": true,
-      "lineStyle": {
-        "color": "#888888",
-        "type": "solid",
-        "width": 1
-      }
-    },
-    "splitLine": {
-      "show": true,
-      "lineStyle": {
-        "type": "dashed",
-        "color": "#444444",
-        "opacity": 0.7
-      }
-    },
-    "axisLabel": {
-      "color": "#AAAAAA",
-      "fontSize": 14
-    },
-    "nameTextStyle": {
-      "color": "#CCCCCC",
-      "fontSize": 14
-    },
-    "type": "value",
-    "name": "Mt"
-  },
-  "label": {
-    "overflow": "truncate",
-    "ellipsis": "..."
-  },
-  "hoverLayerThreshold": 3000,
-  "tooltipTrigger": "axis",
-  "emphasis": {
-    "itemStyle": {
-      "borderWidth": 1,
-      "borderColor": "#FFFFFF"
     }
   },
-  "accessibility": {
-    "contrastRatioMin": 4.5,
-    "colorBlindSafe": true
+  "grid": {
+    "left": "5%",
+    "right": "5%",
+    "bottom": "10%",
+    "top": 60,
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "category",
+    "data": ["2024", "2030", "2040"],
+    "axisLine": {
+      "lineStyle": {
+        "color": "#888888"
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    }
+  },
+  "yAxis": {
+    "name": "Mt",
+    "type": "value",
+    "min": 0,
+    "max": 8,
+    "interval": 2,
+    "axisLine": {
+      "lineStyle": {
+        "color": "#888888"
+      }
+    },
+    "splitLine": {
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    }
   },
   "series": [
     {
-      "name": "Total use",
+      "name": "Energy technologies",
       "type": "bar",
-      "data": [
-        3.3738019169329,
-        4.3961661341853,
-        5.6230031948881605
-      ]
+      "stack": "total",
+      "barWidth": "30%",
+      "data": [0.568690096, 1.354632588, 2.370607029]
+    },
+    {
+      "name": "Other uses",
+      "type": "bar",
+      "stack": "total",
+      "barWidth": "30%",
+      "data": [2.805111821, 3.041533546, 3.252396166]
     },
     {
       "name": "APS",
-      "type": "bar",
+      "type": "scatter",
+      "symbolSize": 10,
       "data": [
-        null,
-        "4.63897763578274",
-        "6.24281150159742"
+        [1, 4.638977636],
+        [2, 6.242811502]
       ]
     },
     {
       "name": "NZE",
-      "type": "bar",
+      "type": "scatter",
+      "symbolSize": 10,
       "data": [
-        null,
-        "5.38019169329072",
-        "7.086261980830661"
+        [1, 5.380191693],
+        [2, 7.086261981]
       ]
     }
-  ],
-  "grid": {
-    "bottom": 80
-  }
+  ]
 }

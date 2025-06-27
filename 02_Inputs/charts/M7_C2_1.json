@@ -1,27 +1,35 @@
 {
-  backgroundColor: "rgba(247, 247, 247, 1)",
-  textStyle: {
-    fontFamily: "Proxima Nova, sans-serif",
-    fontSize: 14,
-    fontWeight: "normal",
-    color: "#666666"
+  "backgroundColor": "rgba(28, 29, 24, 1)",
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal",
+    "color": "#DDDDDD"
   },
-  color: [
-    "#fcc30b", "#0468b1", "#fd6925", "#c5192d", "#3f7e44",
-    "#19486a", "#fd9d24", "#dd1367", "#4c9f38", "#0a97d9"
+  "color": [
+    "#fcc30b",
+    "#0468b1",
+    "#fd6925",
+    "#c5192d",
+    "#3f7e44",
+    "#19486a",
+    "#fd9d24",
+    "#dd1367",
+    "#4c9f38",
+    "#0a97d9"
   ],
-  grid: {
-    bottom: 150
+  "grid": {
+    "bottom": 150
   },
-  tooltip: {
-    trigger: "item",
-    textStyle: {
-      fontSize: 14,
-      color: "#FFFFFF"
+  "tooltip": {
+    "trigger": "item",
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
     },
-    backgroundColor: "rgba(50, 50, 50, 0.85)",
-    borderColor: "#CCCCCC",
-    formatter: function (params) {
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
+    "formatter": function (params) {
       const d = [
         { "min": 6.73, "max": 23.63, "mean": 15.5, "median": 13.79 },
         { "min": 5.94, "max": 19.96, "mean": 13.86, "median": 11.11 },
@@ -49,85 +57,85 @@
               Median: ${d.median}`;
     }
   },
-  legend: {
-    top: "bottom",
-    type: "scroll",
-    orient: "horizontal",
-    textStyle: {
-      fontSize: 14,
-      color: "#444444"
+  "legend": {
+    "top": "bottom",
+    "type": "scroll",
+    "orient": "horizontal",
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#CCCCCC"
     }
   },
-  xAxis: {
-    type: "category",
-    data: [
+  "xAxis": {
+    "type": "category",
+    "data": [
       "Non-energy", "Total energy and utilities", "Total energy",
       "Coal", "Oil & gas", "Oil & gas equipment and services",
       "Renewable energy", "Uranium", "Total energy utilities",
       "Electric utilities and IPPs", "Multiline utilities", "Natural gas utilities"
     ],
-    axisLabel: {
-      color: "#666666",
-      fontSize: 14,
-      rotate: 30
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14,
+      "rotate": 30
     },
-    axisLine: {
-      show: true,
-      lineStyle: {
-        color: "#999999",
-        type: "solid",
-        width: 1
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
       }
     },
-    splitLine: {
-      show: true,
-      lineStyle: {
-        type: "dashed",
-        color: "#DDDDDD",
-        opacity: 0.7
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
       }
     },
-    nameTextStyle: {
-      color: "#444444",
-      fontSize: 14
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
     }
   },
-  yAxis: {
-    type: "value",
-    name: "Value",
-    axisLabel: {
-      color: "#666666",
-      fontSize: 14
+  "yAxis": {
+    "type": "value",
+    "name": "Value",
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
     },
-    axisLine: {
-      show: true,
-      lineStyle: {
-        color: "#999999",
-        type: "solid",
-        width: 1
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
       }
     },
-    splitLine: {
-      show: true,
-      lineStyle: {
-        type: "dashed",
-        color: "#EEEEEE",
-        opacity: 0.7
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
       }
     },
-    nameTextStyle: {
-      color: "#444444",
-      fontSize: 14
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
     }
   },
-  series: [
+  "series": [
     {
-      name: "Min/Max",
-      type: "custom",
+      "name": "Min/Max",
+      "type": "custom",
         "itemStyle": {
-    "color": "#999999"  // This should match the stroke color you use for whiskers
+    "color": "#AAAAAA"  // This should match the stroke color you use for whiskers
   },
-      renderItem: function (params, api) {
+      "renderItem": function (params, api) {
         const categoryIndex = api.value(0);
         const x = api.coord([categoryIndex, 0])[0];
         const minY = api.coord([0, api.value(1)])[1];
@@ -144,7 +152,7 @@
                 x2: x, y2: maxY
               },
               style: {
-                stroke: '#999999',
+                stroke: '#AAAAAA',
                 lineWidth: 2
               }
             },
@@ -155,7 +163,7 @@
                 x2: x + capWidth, y2: minY
               },
               style: {
-                stroke: '#999999',
+                stroke: '#AAAAAA',
                 lineWidth: 2
               }
             },
@@ -166,18 +174,18 @@
                 x2: x + capWidth, y2: maxY
               },
               style: {
-                stroke: '#999999',
+                stroke: '#AAAAAA',
                 lineWidth: 2
               }
             }
           ]
         };
       },
-      encode: {
-        x: 0,
-        y: [1, 2]
+      "encode": {
+        "x": 0,
+        "y": [1, 2]
       },
-      data: [
+      "data": [
         [0, 6.73, 23.63], [1, 5.94, 19.96], [2, 0, 18.78],
         [3, 5.1, 16.71], [4, 0, 18.22], [5, 5.94, 19.96],
         [6, 0, 18.22], [7, 6.19, 19.98], [8, 7.69, 24.95],
@@ -185,37 +193,37 @@
       ]
     },
     {
-      name: "Mean",
-      type: "scatter",
-      symbolSize: 12,
-      itemStyle: {
-        color: "#fcc30b"
+      "name": "Mean",
+      "type": "scatter",
+      "symbolSize": 12,
+      "itemStyle": {
+        "color": "#fcc30b"
       },
-      emphasis: {
-        itemStyle: {
-          borderWidth: 1,
-          borderColor: "#000000"
+      "emphasis": {
+        "itemStyle": {
+          "borderWidth": 1,
+          "borderColor": "#FFFFFF"
         }
       },
-      data: [
+      "data": [
         15.5, 13.86, 12.08, 10.59, 12.11, 12.95,
         10.79, 13.45, 17.14, 16.5, 20.31, 17.99
       ]
     },
     {
-      name: "Median",
-      type: "scatter",
-      symbolSize: 12,
-      itemStyle: {
-        color: "#0468b1"
+      "name": "Median",
+      "type": "scatter",
+      "symbolSize": 12,
+      "itemStyle": {
+        "color": "#0468b1"
       },
-      emphasis: {
-        itemStyle: {
-          borderWidth: 1,
-          borderColor: "#000000"
+      "emphasis": {
+        "itemStyle": {
+          "borderWidth": 1,
+          "borderColor": "#FFFFFF"
         }
       },
-      data: [
+      "data": [
         13.79, 11.11, 10, 9.09, 10, 10.56,
         9.09, 10, 16.67, 15.38, 22.22, 16.95
       ]

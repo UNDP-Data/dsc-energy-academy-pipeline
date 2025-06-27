@@ -17,6 +17,12 @@
     "orient": "horizontal",
     "top": "bottom",
     "type": "scroll",
+    "pageIconColor": "#FFFFFF",
+    "pageIconInactiveColor": "#555555",
+    "pageTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
     "show": false
   },
   "tooltip": {
@@ -31,16 +37,16 @@
   },
   "backgroundColor": "rgba(28, 29, 24, 1)",
   "color": [
+    "#fd6925",
+    "#0a97d9",
+    "#19486a",
+    "#dd1367",
+    "#0468b1",
+    "#fd9d24",
+    "#c5192d",
     "#3f7e44",
     "#fcc30b",
-    "#4c9f38",
-    "#c5192d",
-    "#dd1367",
-    "#19486a",
-    "#fd6925",
-    "#fd9d24",
-    "#0468b1",
-    "#0a97d9"
+    "#4c9f38"
   ],
   "label": {
     "overflow": "truncate",
@@ -62,7 +68,7 @@
     {
       "name": "Access From",
       "type": "pie",
-      "radius": "100%",
+      "radius": "75%",
       "data": [
         {
           "name": "Infrastructure",
@@ -72,14 +78,7 @@
           "name": "End-use equipment",
           "value": 79
         }
-      ],
-      "emphasis": {
-        "itemStyle": {
-          "shadowBlur": 10,
-          "shadowOffsetX": 0,
-          "shadowColor": "rgba(0, 0, 0, 0.5)"
-        }
-      }
+      ]
     }
   ]
 }
