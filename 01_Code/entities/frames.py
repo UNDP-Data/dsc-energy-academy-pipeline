@@ -626,10 +626,13 @@ class Infographic(FrameBase):
             image_node = node.select_node("GROUP", "image")
             image=dict(parse_image_fields(node))
             
+        width = getattr(node, "width", 1000)
+        size = "full" if width >= 1000 else "half"
+            
         return cls(
             template_id="infographic",#node.name,
             color_scheme="light",
-            size="full",
+            size=size,
             image=image
         )
         
@@ -645,13 +648,10 @@ class Chart(FrameBase):
         image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
         if image_node:
             chart_id = image_node.name
-            # old version pulling from folder, cna update back to this once the pipelines are merged
+            
+            width = getattr(node, "width", 1000)
+            size = "full" if width >= 1000 else "half"
 
-            # chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
-            # if chart_path.exists():
-                
-                # with open(chart_path, "r", encoding="utf-8") as f:
-                #     option = json.load(f) 
                                
             chart_url = f"https://raw.githubusercontent.com/UNDP-Data/dsc-energy-academy-data/dev/charts-creation/00_API/Charts/LightMode/{chart_id}.json"
             headers = {
@@ -666,11 +666,19 @@ class Chart(FrameBase):
                     return cls(
                         template_id="echarts_chart",
                         color_scheme="light",
-                        size="full",
+                        size=size,
                         option=option
                     )
                 except ValueError:
                     raise ValueError(f"Invalid JSON for chart: {chart_id}")
+            else:
+            # old version pulling from folder, cna update back to this once the pipelines are merged
+
+                chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
+                if chart_path.exists():
+                    
+                    with open(chart_path, "r", encoding="utf-8") as f:
+                        option = json.load(f) 
 
         
         # If no image or chart JSON file, raise an error to skip this frame
