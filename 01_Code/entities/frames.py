@@ -188,7 +188,10 @@ def parse_cover_fields(node: Node) -> dict:
         "template_id": node.name,
         "image": image_val,
         "title":safe_get_characters(node, "title", node.name),
-        "subtitle": safe_get_characters(node, "subtitle", node.name), 
+        "subtitle": (
+            safe_get_characters(node, "subtitle", node.name)
+            if node.name == "case_study_cover" else None
+        ),
         "cta":safe_get_characters(node, "cta", node.name)
     }
     
@@ -277,7 +280,7 @@ class CaseStudyCover(FrameBase):
 
     @classmethod
     def from_node(cls, node: Node) -> "LessonSubpartCover":
-        assert node.name == "lesson_subpart_cover", f"Expected lesson_subpart_cover node, got {node.name}"
+        assert node.name == "case_study_cover", f"Expected case_study_cover node, got {node.name}"
         cover_data = parse_cover_fields(node)
         
         cover_data["image"] = dict(cover_data.get("image", {}))
