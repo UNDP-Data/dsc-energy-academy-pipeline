@@ -631,31 +631,47 @@ class PhotoHorizontal(FrameBase):
             image=image
         )
         
-        
 class Infographic(FrameBase):
     image: dict
     size: str = "full" 
     
     @classmethod
     def from_node(cls, node: Node) -> "Infographic":
-        assert node.name == "infographic", f"Expected infographic node, got {node.name}"
-       
-        image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
-        if image_node:
-            image={"src": image_node.name, "caption": None, "url": None}
+        assert node.name.lower() == "infographic", f"Expected infographic node, got {node.name}"
+        
+        image_name = "unnamed"
+
+        # 1. Try to find RECTANGLE with IMAGE fill
+        for child in node.children:
+            if child.type == "RECTANGLE":
+                fills = child.get("fills", [])
+                if fills and fills[0].get("type") == "IMAGE":
+                    image_name = child.name.replace(" ", "")
+                    break
         else:
-            image_node = node.select_node("GROUP", "image")
-            image=dict(parse_image_fields(node))
-            
+            # 2. Fallback: first group/instance/frame that is NOT named "Light Template"
+            for child in node.children:
+                if child.type in ["GROUP", "INSTANCE", "FRAME"] and child.name.strip().lower() != "light template":
+                    image_name = child.name.replace(" ", "")
+                    break
+
+        image = {
+            "src": image_name,
+            "caption": None,
+            "url": None
+        }
+
         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
         size = "full" if width >= 1000 else "half"
-            
+
         return cls(
-            template_id="infographic",#node.name,
+            template_id="infographic",
             color_scheme="light",
             size=size,
             image=image
         )
+
+
         
 
 class Chart(FrameBase):
@@ -770,11 +786,11 @@ class Chart_folder(FrameBase):
         # --- Inject title and subtext ---
         option["title"] = {
             "text": title_text,
-            "subtext": source_text,
+            "subtext": "",#source_text,
             "left": "center",
             "top": 20,
             "textStyle": {
-                "color": "#000000",
+                "color": "#ffffff",
                 "fontSize": 22,
                 "fontWeight": "bold",
                 "fontFamily": "Proxima Nova, sans-serif"
@@ -789,7 +805,7 @@ class Chart_folder(FrameBase):
         # --- Ensure grid spacing ---
         option["grid"] = option.get("grid", {})
         option["grid"].update({
-            "top": 160,
+            "top": 200,
             "bottom": 90,
             "left": 70,
             "right": 40
@@ -803,7 +819,7 @@ class Chart_folder(FrameBase):
                     "left": "center",
                     "top": 80,
                     "style": {
-                        "text": summary_text,
+                        "text": "",#summary_text,
                         "fill": "#444444",
                         "font": "15px Proxima Nova, sans-serif",
                         "width": 600,
