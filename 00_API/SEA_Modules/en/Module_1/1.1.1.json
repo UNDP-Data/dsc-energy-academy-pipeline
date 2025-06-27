@@ -137,9 +137,9 @@
       "size": "half",
       "content": {
         "option": {
-          "title": {
+"title": {
   "text": "Energy Use vs Human Development",
-  "subtext": "This chart compares per capita energy use with the Human Development Index across global regions.",
+  "subtext": "Per capita energy use and HDI across regions",
   "left": "center",
   "top": 20,
   "textStyle": {
@@ -156,8 +156,8 @@
   }
 },
 "grid": {
-  "top": 100,       
-  "bottom": 60,    
+  "top": 160,         
+  "bottom": 90,        
   "left": 70,
   "right": 40
 },
@@ -165,16 +165,30 @@
   "elements": [
     {
       "type": "text",
+      "left": "center",
+      "top": 80,
+      "style": {
+        "text": "This chart illustrates the disparity in energy consumption and development across continents.\nIt reveals that higher HDI is often associated with greater per capita energy use, though exceptions exist.",
+        "fill": "#bbbbbb",
+        "font": "15px Proxima Nova, sans-serif",
+        "width": 600,                 
+        "lineHeight": 22,
+        "align": "center"
+      }
+    },
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 10,
       "style": {
         "text": "Source: UNDP, IEA, UNDP HDRO (2023)",
         "fill": "#888888",
         "font": "13px Proxima Nova, sans-serif"
-      },
-      "bottom": 10,
-      "left": 70
+      }
     }
   ]
 },
+
 
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
