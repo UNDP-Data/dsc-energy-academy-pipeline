@@ -186,6 +186,7 @@ def parse_cover_fields(node: Node) -> dict:
         "template_id": node.name,
         "image": image_val,
         "title":safe_get_characters(node, "title", node.name),
+        "subtitle": safe_get_characters(node, "subtitle", node.name), 
         "cta":safe_get_characters(node, "cta", node.name)
     }
     
@@ -256,6 +257,21 @@ class LessonSubpartCover(FrameBase):
     image: dict
     intro: str
     title: str
+
+    @classmethod
+    def from_node(cls, node: Node) -> "LessonSubpartCover":
+        assert node.name == "lesson_subpart_cover", f"Expected lesson_subpart_cover node, got {node.name}"
+        cover_data = parse_cover_fields(node)
+        
+        cover_data["image"] = dict(cover_data.get("image", {}))
+        return cls(**cover_data)
+    
+    
+class CaseStudyCover(FrameBase):
+    image: dict
+    intro: str
+    title: str
+    subtitle: str
 
     @classmethod
     def from_node(cls, node: Node) -> "LessonSubpartCover":
@@ -363,7 +379,7 @@ class LearningObjectives(FrameBase):
         assert node.name == "learning_objectives", f"Expected learning_objectives node, got {node.name}"
         return cls(
             template_id=node.name,
-            intro=safe_get_characters(node, "intro", node.name),
+            intro="",#safe_get_characters(node, "intro", node.name),
             title=safe_get_characters(node, "title", node.name),
             objectives=[Card.from_node(child) for child in node.select_nodes("GROUP", "objectives")],
         )
@@ -379,7 +395,7 @@ class KeyTakeaways(FrameBase):
         assert node.name == "key_takeaways", f"Expected key_takeaways node, got {node.name}"
         return cls(
             template_id=node.name,
-            intro=safe_get_characters(node, "intro", node.name),
+            intro="",#safe_get_characters(node, "intro", node.name),
             title=safe_get_characters(node, "title", node.name),
             takeaways=[Card.from_node(child) for child in node.select_nodes("GROUP", "objectives")],
         )
@@ -638,7 +654,7 @@ class Infographic(FrameBase):
         
 
 class Chart(FrameBase):
-    size: int#Literal["full", "half"]
+    size: Literal["full", "half"]
     option: dict
     @classmethod
     def from_node(cls, node: Node) -> "Chart":
@@ -649,7 +665,7 @@ class Chart(FrameBase):
             chart_id = image_node.name
             
             width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
-            size = width#"full" if width >= 1000 else "half"
+            size = "full" if width >= 1000 else "half"
                                
             chart_url = f"https://raw.githubusercontent.com/UNDP-Data/dsc-energy-academy-data/dev/charts-creation/00_API/Charts/LightMode/{chart_id}.json"
             headers = {
@@ -685,7 +701,7 @@ class Chart(FrameBase):
 
 
 class Chart_folder(FrameBase):
-    size: float#Literal["full", "half"]
+    size: Literal["full", "half"]
     option: dict
 
     @classmethod
