@@ -2,50 +2,20 @@
   "id": "7.3.3",
   "segments": [
     {
-      "template_id": "photo-vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Intro_5.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "photo-vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_1.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "photo-vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Intro_4.png",
-          "caption": ""
-        }
-      }
-    },
-    {
       "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_17.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_7.png",
           "caption": ""
         },
         "lesson": {
           "label": "Leçon",
           "number": "3"
         },
-        "title": "Apprentissage automatique appliqué aux données énergétiques",
+        "title": "Apprentissage automatique appliqué dans les données énergétiques",
         "cta": "",
-        "intro": "M1 : Introduction à la transformation des systèmes énergétiques durables"
+        "intro": "M1 : Introduction à la transformation des systèmes d'énergie durable"
       }
     },
     {
@@ -56,13 +26,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Aperçu de la Leçon 3</strong>"
+              "text": "<strong>Vue d'ensemble de la leçon 3</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Cette section est une introduction au rôle de l'apprentissage automatique (AA) dans la politique énergétique, avec un accent sur les données structurées, l'apprentissage supervisé et non supervisé, et les considérations éthiques. Il explique comment les modèles d'apprentissage automatique sont entraînés en utilisant des données étiquetées et des divisions test/entraînement, et comment ces modèles peuvent soutenir la prise de décision basée sur des preuves dans des domaines tels que l'accès à l'énergie, la prévision de la consommation et l'impact environnemental.<br />La leçon passe des concepts fondamentaux de l'apprentissage automatique à des applications spécifiques, telles que l'utilisation des forêts aléatoires pour <ai prompt=\"Fournir plus d'informations sur l'énergie solaire.\">prédiction de l'énergie solaire 💬️</ai> et le regroupement pour le profilage des émissions industrielles. Il conclut en explorant les limitations et les préoccupations éthiques liées à l'IA dans les politiques publiques, y compris le biais des données, la transparence, la vie privée et l'explicabilité, et met en avant les meilleures pratiques telles que la protection de la vie privée dès la conception, l'IA explicable et les bacs à sable réglementaires."
+              "text": "Cette section est une introduction au rôle de l'apprentissage automatique (ML) dans la politique énergétique, avec un accent sur les données structurées, l'apprentissage supervisé et non supervisé, et les considérations éthiques. Il explique comment les modèles d'apprentissage automatique sont entraînés à l'aide de données étiquetées et de divisions test/entraînement, et comment ces modèles peuvent soutenir la prise de décision basée sur des preuves dans des domaines tels que l'accès à l'énergie, la prévision de la consommation et l'impact environnemental.<br />La leçon passe des concepts fondamentaux de l'apprentissage automatique à des applications spécifiques, telles que l'utilisation de forêts aléatoires pour <ai prompt=\"Share details about solar energy.\">la prédiction de l'énergie solaire 💬️</ai> et le regroupement pour le profilage des émissions industrielles. Il conclut en explorant les limites et les préoccupations éthiques liées à l'apprentissage automatique dans la politique publique, notamment le biais des données, la transparence, la vie privée et l'explicabilité, et met en évidence les meilleures pratiques telles que la Confidentialité dès la conception, l'IA explicable et les environnements réglementaires expérimentaux."
             }
           }
         ]
@@ -73,11 +43,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_16.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_6.png",
           "caption": ""
         },
         "intro": "M7 : Données dans l'énergie durable",
-        "title": "Partie 1 : ML pour une politique basée sur les données"
+        "title": "A : ML pour une politique basée sur les données"
       }
     },
     {
@@ -88,22 +58,22 @@
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Apprentissage Automatique</strong>",
-              "body": "L'apprentissage automatique, tel que défini couramment par Google pour les développeurs, signifie « est le processus de formation d'un logiciel, appelé modèle, pour faire des prédictions utiles ou générer du contenu (tel que des textes, des images, de l'audio ou des fichiers vidéo) à partir de données. » Plus précisément, les modèles capables de générer des textes, des images, de l'audio ou de la vidéo sont communément appelés modèles d'IA générative, ou modèles Gen-AI. Les modèles ML traditionnels/conventionnels tentent de prédire les valeurs d'une variable d'intérêt (un processus appelé régression), ou de prédire un certain appartenance de classe (un processus appelé classification) en fonction des attributs dans les données (appelés caractéristiques)."
+              "title": "<strong>Apprentissage automatique</strong>",
+              "body": "L'apprentissage automatique, tel que défini couramment par Google pour les développeurs, signifie « est le processus d'entraînement d'un logiciel, appelé un modèle, pour faire des prédictions utiles ou générer du contenu (tel que des textes, des images, de l'audio ou des fichiers vidéo) à partir de données. » Plus précisément, les modèles capables de générer des textes, des images, du son ou de la vidéo sont généralement appelés modèles d'IA générative, ou modèles Gen-AI. Les modèles d'apprentissage automatique traditionnels/conventionnels tentent de prédire les valeurs d'une variable d'intérêt (un processus appelé régression), ou de prédire une appartenance à une certaine classe (un processus appelé classification) basé sur les attributs des données (appelés caractéristiques)."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>Types de données</strong>",
-              "body": "Les modèles d'apprentissage automatique sont généralement entraînés sur des données. Les formats de données sur lesquels ces modèles sont entraînés relèvent de deux grandes catégories : les données structurées, qui se réfèrent à des données organisées, pouvant être filtrées et triées, ainsi que les données non structurées, telles que les images, les textes, les fichiers audio."
+              "body": "Les modèles d'apprentissage automatique sont généralement entraînés sur des données. Les formats de données sur lesquels de tels modèles sont entraînés relèvent de deux grandes catégories ; Données structurées, qui se réfèrent à des données organisées, pouvant être filtrées et triées, ainsi que des données non structurées, telles que des images, des textes, des fichiers audio."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>Apprentissage supervisé</strong>",
-              "body": "Les modèles d'apprentissage supervisé essaient de comprendre la relation entre les variables prédictives et une variable d'intérêt, le résultat à prédire. Lors de l'entraînement d'un modèle d'apprentissage automatique, les données disponibles sont subdivisées en un ensemble d'entraînement (où les paramètres du modèle sont estimés par l'erreur prédictive) et un ensemble de test, où le modèle est évalué sur des données qu'il n'a pas vues. (Ceci s'appelle la séparation train/test)."
+              "body": "Les modèles d'apprentissage supervisé tentent de comprendre la relation entre les variables prédictives et une variable d'intérêt, le résultat à prédire. Lors de l'entraînement d'un modèle d'apprentissage automatique, les données disponibles sont subdivisées en un ensemble d'entraînement (où les paramètres du modèle sont estimés par erreur prédictive), et un ensemble de test, où le modèle est évalué sur des données qu'il n'a pas vues. Ceci s'appelle la séparation entraînement/test."
             }
           }
         ]
@@ -118,21 +88,21 @@
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>Jeux de données étiquetés</strong>",
-              "body": "Pour les tâches de classification, où les observations sont placées dans des classes/catégories en fonction d'attributs spécifiques, un ensemble de données avec les classifications réelles est étiqueté selon leur appartenance réelle à une classe. Un tel ensemble est appelé un ensemble étiqueté, qui peut être structuré, non structuré, et doit être divisé en ensembles d'entraînement et de test."
+              "body": "Pour les tâches de classification, où les observations sont placées dans des classes/catégories en fonction d'attributs spécifiques, un ensemble de données avec les classifications réelles est étiqueté en fonction de leur appartenance réelle à la classe. Un tel ensemble est appelé un ensemble étiqueté, qui peut être structuré, non structuré, et doit être divisé en ensembles d'entraînement et de test."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Compromis Biais-Variance</strong>",
-              "body": "Lors de l'entraînement des modèles d'apprentissage automatique sur des données d'entraînement et de test, les data scientists s'assurent que le modèle n'est pas trop complexe et qu'il ne s'adapte pas trop étroitement aux données (ce qui s'appelle le surapprentissage), et que le modèle n'est pas trop simpliste au point de prédire systématiquement mal la variable d'intérêt (appelé sous-apprentissage), cet équilibre dans le modèle suit un principe appelé le compromis biais-variance."
+              "title": "<strong>Compromis entre biais et variance</strong>",
+              "body": "Lors de l'entraînement de modèles d'apprentissage automatique sur des données d'entraînement et de test, les data scientists s'assurent que le modèle n'est pas excessivement complexe, et qu'il ne s'ajuste pas trop étroitement aux données (ce qui est appelé le surapprentissage), et que le modèle n'est pas trop simpliste au point de prédire systématiquement de manière incorrecte la variable d'intérêt (appelé sous-apprentissage), cet équilibre dans le modèle suit un principe appelé le compromis biais-variance."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>Applications possibles</strong>",
-              "body": "Après avoir examiné les spécifications techniques, les applications politiques potentielles sont infinies ! Les applications majeures de l'apprentissage automatique dans la politique énergétique incluent la prédiction de la production d'énergie à partir de projets d'énergie renouvelable (insérer un exemple ?), la détection des ménages n'ayant pas accès à l'électricité grâce à l'imagerie satellite,"
+              "body": "Après avoir consulté les spécifications techniques, les applications potentielles de la politique sont infinies ! Les applications importantes de l'apprentissage automatique dans la politique énergétique incluent la prévision de la production d'énergie à partir de projets d'énergie renouvelable (insérer un exemple ?), la détection des ménages sans accès à l'électricité par imagerie satellite,"
             }
           }
         ]
@@ -143,11 +113,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_7.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_7.png",
           "caption": ""
         },
         "intro": "M7 : Données dans l'énergie durable",
-        "title": "Partie 2 : Apprentissage supervisé et non supervisé pour l'énergie"
+        "title": "B : Apprentissage supervisé et non supervisé pour l'énergie"
       }
     },
     {
@@ -158,22 +128,22 @@
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Algorithmes Basés sur les Arbres</strong>",
-              "body": "Un exemple populaire d'algorithmes d'apprentissage supervisé est constitué des algorithmes basés sur des arbres tels que les arbres de classification (également connus sous le nom d'arbres de décision) et les arbres de régression. Les algorithmes basés sur les arbres fonctionnent en divisant les caractéristiques en régions et en faisant des prédictions pour la région de l'espace des caractéristiques, comme visualisé ci-dessous."
+              "title": "<strong>Algorithmes basés sur les arbres</strong>",
+              "body": "Un exemple populaire d'algorithmes d'apprentissage supervisé est constitué par des algorithmes basés sur des arbres tels que les arbres de classification (également appelés arbres de décision) et les arbres de régression. Les algorithmes basés sur des arbres fonctionnent en divisant les caractéristiques en régions et en faisant des prédictions pour la région de l'espace des caractéristiques, comme illustré ci-dessous."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Algorithmes Basés sur les Arbres pour l'Énergie</strong>",
-              "body": "Dans le domaine de la politique énergétique, les arbres de décision et de régression ont été utilisés pour éclairer une politique fondée sur des preuves. Un tel scénario s'est produit au Kenya, où, en tenant compte de la longueur des lignes à moyenne tension, des lignes à basse tension, de la capacité de distribution, de la capacité des sous-stations ainsi que du nombre total de consommateurs, les chercheurs sont en mesure d'estimer le coût d'un projet. Une version abrégée de l'arbre de régression est fournie ci-dessous."
+              "title": "<strong>Algorithmes basés sur les arbres pour l'énergie</strong>",
+              "body": "Dans le domaine de la politique énergétique, les arbres de décision et de régression ont été utilisés pour élaborer des politiques basées sur des preuves. Un tel scénario était au Kenya, où, en tenant compte de la longueur des lignes moyennes tension, des lignes basse tension, de la capacité de distribution, de la capacité des postes de transformation ainsi que du nombre total de consommateurs, les chercheurs sont en mesure d'estimer le coût d'un projet. Un aperçu visuel réduit de l'arbre de régression est fourni ci-dessous."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>Forêts Aléatoires</strong>",
-              "body": "Cependant, un problème courant avec les arbres de classification et de régression est le surajustement, une solution simple consiste à estimer plusieurs arbres et à faire la moyenne de leurs prédictions, cette méthode, appelée Forêt Aléatoire, est une méthode élégante qui est robuste contre le surajustement, une aide visuelle supplémentaire ci-dessous est fournie :"
+              "body": "Cependant, un problème courant avec les arbres de classification et de régression est le surapprentissage, une solution simple consiste à estimer plusieurs arbres et à faire la moyenne de leurs prédictions, cette méthode, appelée Forêt Aléatoire, est une méthode élégante qui est robuste contre le surapprentissage, une aide visuelle supplémentaire ci-dessous est fournie :"
             }
           }
         ]
@@ -187,15 +157,15 @@
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Forêts Aléatoires pour la Consommation d'Énergie</strong>",
-              "body": "Grâce à l'utilisation d'un algorithme de forêt aléatoire, Ahmad, Reynolds et Rezgui (2018) sont capables de prédire l'énergie thermique solaire utile horaire pour une centrale solaire thermique à Chambéry, France. En utilisant l'irradiance solaire, la température ambiante, les températures des fluides d'entrée et de sortie de l'installation solaire thermique, le débit du fluide caloporteur, ainsi que des variables liées au temps, des prévisions sont faites. L'augmentation de l'investissement et de l'intérêt pour l'utilisation des techniques modernes d'apprentissage automatique dans la prévision des projets d'énergie renouvelable permet une planification efficace, une plus grande stabilité du réseau et un chemin plus éclairé vers l'intégration durable des sources d'énergie renouvelable dans le mix énergétique."
+              "title": "<strong>Forêts aléatoires pour la consommation d'énergie</strong>",
+              "body": "Grâce à l'utilisation d'un algorithme de forêt aléatoire, Ahmad, Reynolds et Rezgui (2018) sont capables de prédire l'énergie thermique solaire utile horaire pour une centrale solaire thermique à Chambéry, en France. En utilisant l'irradiance solaire, la température ambiante, les températures du fluide à l'entrée et à la sortie de la centrale solaire thermique, le débit du fluide caloporteur, ainsi que des variables liées au temps, des prévisions sont faites. L'augmentation des investissements et de l'intérêt pour l'utilisation des techniques modernes d'apprentissage automatique dans la prévision des projets d'énergie renouvelable permet une planification efficace, une plus grande stabilité du réseau et une voie plus éclairée vers l'intégration durable des sources d'énergie renouvelable dans le mix énergétique."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>ML pour l'Académie</strong>",
-              "body": "En tant que tel, l'utilisation de modèles d'apprentissage automatique pour la prévision de la consommation d'énergie a captivé la communauté scientifique, certains chercheurs les utilisant en tandem avec des modèles économétriques classiques (Nie et al., 2021) ou comme alternative à des modèles purement statistiques (Tso et al., 2007)."
+              "title": "<strong>ML pour le monde académique</strong>",
+              "body": "En tant que tel, l'utilisation de modèles d'apprentissage automatique pour la prévision de la consommation d'énergie a captivé la communauté scientifique, certains chercheurs l'utilisant en tandem avec des modèles économétriques classiques (Nie et al., 2021) ou comme alternative aux modèles purement statistiques (Tso et al., 2007)."
             }
           }
         ]
@@ -206,11 +176,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_6.png",
           "caption": ""
         },
         "intro": "M7 : Données dans l'énergie durable",
-        "title": "Partie 3 : Applications de l'apprentissage supervisé"
+        "title": "C : Applications de l'apprentissage supervisé"
       }
     },
     {
@@ -222,14 +192,14 @@
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>Analyse en Composantes Principales et Clustering K-means</strong>",
-              "body": "Comme mentionné précédemment, l'apprentissage non supervisé tente de comprendre la structure sous-jacente de ces données, contrairement à la tentative de prédire des résultats. Ce type de compréhension a trouvé sa place dans l'élaboration des politiques énergétiques modernes. Deux algorithmes d'apprentissage automatique non supervisés grand public qui font leur apparition dans la littérature sont les algorithmes de clustering k-means et d'analyse en composantes principales."
+              "body": "Comme mentionné précédemment, l'apprentissage non supervisé tente de comprendre la structure sous-jacente de ces données, plutôt que d'essayer de prédire des résultats. Ce type de compréhension a trouvé sa place dans la politique énergétique moderne. Deux algorithmes d'apprentissage automatique non supervisés grand public qui apparaissent dans la littérature sont le clustering k-means et l'algorithme d'analyse en composantes principales."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>Applications de l'apprentissage non supervisé</strong>",
-              "body": "Un autre domaine dans lequel les modèles d'apprentissage automatique ont connu une utilisation accrue est l'estimation et la classification des ménages ayant un accès informel à l'énergie. L'accès informel à l'énergie fait référence à l'énergie qui ne provient pas du réseau national, l'accès informel à l'énergie couvre des sources telles que la biomasse, les générateurs domestiques, l'énergie solaire non régulée. Un tel accès à l'énergie est généralement plus coûteux et moins fiable. Être capable d'estimer et de classer les ménages ayant un accès informel contribue grandement à aider le gouvernement à mieux cibler les zones sous-développées grâce aux programmes d'électrification, à fournir un meilleur retour par dollar dépensé, tout en offrant également aux décideurs une image claire des communautés qui pourraient rencontrer des difficultés."
+              "body": "Une autre domaine dans lequel les modèles ML ont connu une utilisation accrue est l'estimation et la classification des ménages ayant un accès informel à l'énergie. L'accès informel à l'énergie fait référence à une énergie qui ne provient pas du réseau national, l'accès informel à l'énergie couvre des sources telles que la biomasse, les générateurs domestiques, l'énergie solaire non réglementée. Un tel accès à l'énergie est généralement plus coûteux et moins fiable. Être capable d'estimer et de classer les ménages ayant un accès informel facilite grandement l'aide au gouvernement pour mieux cibler les zones sous-développées par le biais de programmes d'électrification, offrir un meilleur rendement par dollar dépensé, tout en fournissant aux décideurs une image claire des communautés qui pourraient rencontrer des difficultés."
             }
           }
         ]
@@ -243,15 +213,15 @@
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Clustering pour l'énergie</strong>",
-              "body": "Le clustering vise à regrouper les observations en plusieurs groupes - ou clusters - en minimisant la somme des carrés des distances de chaque membre du cluster au centre du cluster. Cela permet aux analystes de regrouper les observations en fonction de leurs caractéristiques. En termes de politique énergétique, Liu et al. (2018) ont étudié 15129 entreprises cotées sur les marchés boursiers SSE et SZSE. En analysant la consommation d'eau et de charbon à la fois entre les industries et au sein des industries et en les regroupant en entreprises à forte, faible et moyenne consommation, Liu et al. Ils ont pu identifier des secteurs très polluants tels que la production chimique, la génération de chaleur et d'électricité, par opposition à des émetteurs contre-intuitivement faibles tels que l'industrie textile et les métaux non ferreux. De telles études permettent aux décideurs de comparer les industries, ce qui permet une meilleure planification à long terme."
+              "title": "<strong>Clustering for Energy</strong>",
+              "body": "Le regroupement vise à regrouper les observations en plusieurs groupes - ou clusters - en minimisant la somme des carrés des distances de chaque membre du cluster au centre du cluster. Cela permet aux analystes de regrouper les observations en fonction de leurs caractéristiques. En termes de politique énergétique, Liu et al. (2018) ont étudié 15129 entreprises cotées sur les marchés boursiers SSE et SZSE. En analysant la consommation d'eau et de charbon à la fois entre les industries et au sein des industries, puis en les regroupant en entreprises à forte, faible et moyenne consommation, Liu et al. ont été en mesure d'identifier des secteurs fortement polluants tels que la production chimique, la production de chaleur et d'électricité, contrairement à des émetteurs contre-intuitifs tels que l'industrie textile et les métaux non ferreux. De telles études permettent aux décideurs d'étalonner les industries, ce qui facilite une meilleure planification à long terme."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>PCA</strong>",
-              "body": "L'analyse en composantes principales, en revanche, se concentre sur la réduction de la dimensionnalité, et donc sur la représentation d'un espace de haute dimension (ou d'un grand nombre de caractéristiques), avec un espace plus petit et représentatif. Dans le domaine de l'énergie, cela permet de réduire les coûts de calcul, en réduisant la taille d'un ensemble de données, et donc la charge de calcul. De plus, la PCA permet la visualisation de dynamiques complexes dans un espace dimensionnel 2D ou 3D, tout en maintenant les structures importantes."
+              "body": "L'<strong>Analyse en Composantes Principales</strong>, d'autre part, se concentre sur la réduction de la dimensionnalité, et donc sur la représentation d'un espace de haute dimension (ou d'un grand nombre de caractéristiques), avec un espace plus petit et représentatif. Dans le domaine de l'énergie, cela permet de réduire les coûts de calcul, en réduisant la taille d'un ensemble de données, et donc la charge de calcul. De plus, la PCA permet de visualiser des dynamiques complexes dans un espace dimensionnel 2D ou 3D, tout en conservant les structures importantes."
             }
           }
         ]
@@ -266,7 +236,7 @@
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>PCA pour l'énergie</strong>",
-              "body": "L'analyse en composantes principales peut également être utilisée pour attribuer des poids basés sur des données plutôt que sur des poids subjectifs dans les indices, fournissant ainsi une méthode d'évaluation plus objective. Un exemple de cas simple provient d'Al Albsahi et al. le travail de al sur l'Indice du Trilemme Énergétique, un indice qui utilise 13 indicateurs liés à la sécurité énergétique, à l'équité énergétique et à la durabilité environnementale pour classer les nations selon leur ITE. Les poids accordés aux sections sur la sécurité énergétique, l'équité énergétique et la durabilité environnementale, bien que fournis par des experts, restent subjectifs. En appliquant l'ACP aux 13 métriques en un seul indice, ces chercheurs sont capables de trouver l'allocation des poids qui explique le mieux les données. En tant que tel, ils arrivent à des conclusions qui diffèrent de l'évaluation traditionnelle de l'ETI, classant la Norvège comme le meilleur pays dans leur indice révisé par rapport à la Suisse. Cela a de nombreuses implications en ce qui concerne la politique énergétique, s'éloignant d'une évaluation subjective vers des estimations plus basées sur des preuves."
+              "body": "L'<strong>Analyse en Composantes Principales</strong>, peut également être utilisée pour attribuer des poids en fonction des données plutôt que des poids subjectifs dans les indices, offrant ainsi une méthode d'évaluation plus objective. Un exemple simple de cas provient d'Al Albsahi et al. le travail d' al sur l'Indice du Trilemme de l'Énergie, un indice qui utilise 13 métriques liées à la sécurité énergétique, à l'équité énergétique et à la durabilité environnementale pour classer les nations selon leur ETI. Les poids accordés aux sections sur la sécurité énergétique, l'équité énergétique et la durabilité environnementale, bien que fournis par des experts, restent subjectifs. En appliquant l'ACP aux 13 métriques pour en faire un seul indice, ces chercheurs sont capables de trouver l'allocation des poids qui explique le mieux les données. En tant que tel, ils en viennent à des conclusions qui diffèrent de l'évaluation traditionnelle de l'ETI, classant la Norvège comme le pays numéro un dans leur indice révisé par opposition à la Suisse. Cela a de nombreuses implications en ce qui concerne la politique énergétique, s'éloignant de l'évaluation subjective vers des estimations plus basées sur des preuves."
             }
           }
         ]
@@ -277,11 +247,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_7.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_5.png",
           "caption": ""
         },
         "intro": "M7 : Données dans l'énergie durable",
-        "title": "Partie 4 : Limites et éthique de l'IA pour l'énergie"
+        "title": "D : Limites et éthique de l'apprentissage automatique pour l'énergie"
       }
     },
     {
@@ -293,14 +263,14 @@
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>Introduction</strong>",
-              "body": "Bien que l'utilisation de l'apprentissage automatique dans l'élaboration des politiques énergétiques et les données énergétiques en général ait bénéficié à la communauté au sens large, tout en permettant un meilleur suivi et une gestion plus rationalisée, des préoccupations éthiques clés se posent en ce qui concerne les populations concernées, leur droit à la vie privée et les implications de l'utilisation de l'IA dans les contextes politiques."
+              "body": "Bien que l'utilisation de l'apprentissage automatique dans l'élaboration des politiques énergétiques et les données énergétiques en général ait bénéficié à la communauté plus large, tout en permettant une meilleure surveillance et une gestion plus rationalisée, des préoccupations éthiques clés surgissent lorsqu'il s'agit des populations concernées, de leur droit à la vie privée et des implications de l'utilisation de l'IA dans les contextes politiques."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>Représentativité des données<br /></strong>",
-              "body": "Un enjeu clé dans l'apprentissage automatique pour les politiques est la représentativité des données, en un sens, à quel point elles se généralisent à des contextes plus larges. Un exemple intuitif qui me vient à l'esprit est un algorithme d'apprentissage automatique entraîné sur des données historiques provenant de zones aisées. Ce scénario présente plusieurs problèmes basés sur divers scénarios. Par exemple, en matière de tarification, un algorithme d'apprentissage automatique formé sur des données de zones aisées peut ne pas bien se généraliser dans des zones moins favorisées. Ceci est principalement soutenu par la réalisation essentielle que les zones pauvres en énergie et les zones ayant accès à l'énergie ont des modèles d'utilisation fondamentalement différents. Une façon simple de le visualiser est l'utilisation d'appareils intelligents. Alors que les ménages aisés peuvent avoir accès à des technologies qui réduisent la consommation pendant les heures de pointe, les ménages moins aisés peuvent ne pas avoir accès à de tels équipements et subir les conséquences en payant des prix de pointe, perpétuant ainsi un accès inégal à une énergie abordable."
+              "body": "Une question clé en apprentissage automatique pour la politique est la représentativité des données, dans un sens, à quel point elles se généralisent à des contextes plus larges. Un exemple intuitif qui vient à l'esprit est un algorithme d'apprentissage automatique entraîné sur des données historiques provenant de zones aisées. Ce scénario présente plusieurs problèmes basés sur divers scénarios. Par exemple, dans la tarification, un algorithme d'apprentissage automatique entraîné sur des données de zones aisées peut ne pas bien se généraliser dans des zones moins favorisées. Cela est principalement soutenu par la réalisation essentielle que les zones à faible consommation d'énergie et celles ayant accès à l'énergie ont des modèles d'utilisation fondamentalement différents. Une façon simple de le visualiser est dans l'utilisation d'appareils intelligents. Alors que les ménages aisés peuvent avoir accès à de telles technologies qui réduisent l'utilisation pendant les heures de pointe, les ménages moins aisés peuvent ne pas avoir accès à de tels équipements et en subir les conséquences en payant des prix de pointe, perpétuant ainsi un accès inégal à une énergie abordable."
             }
           }
         ]
@@ -315,14 +285,14 @@
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>Confidentialité, Explicabilité et ML Éthique</strong>",
-              "body": "Des préoccupations éthiques supplémentaires lors de l'application de l'apprentissage automatique à la politique énergétique concernent à la fois la sensibilité des informations collectées et la manière dont elles sont utilisées. Une façon simple de penser à cela est que, lorsqu'il s'agit de compteurs intelligents, en fonction de la granularité des données collectées, cela pourrait révéler des schémas personnels, tels que lorsque le sujet est à la maison, quand il effectue diverses activités. De plus, des préoccupations éthiques se posent lorsque des données sont collectées auprès d'individus et utilisées pour former des algorithmes qu'ils ne peuvent pas comprendre, comme le fonctionnement interne des réseaux neuronaux. Ces concepts ont donné naissance aux domaines de l'éthique par conception (EbD), de la vie privée par conception (PbD) et de l'IA explicable (XAI). PbD intègre des garanties de confidentialité intégrées sans compromettre la fonctionnalité grâce à des mesures telles que l'anonymisation et la collecte de données minimales. EdB intègre des principes de consentement éclairé, de propriété des données et d'inclusivité dans sa philosophie de conception. Enfin, l'IA explicable permet aux citoyens de comprendre quelles variables affectent le plus les prédictions des modèles, même lorsque les modèles sont complexes. Un exemple est l'inclusion des mesures SHAP (SHapley Additive exPlanations), qui mettent en évidence la contribution de caractéristiques spécifiques aux prédictions."
+              "body": "Des préoccupations éthiques supplémentaires lors de l'application de l'apprentissage automatique à la politique énergétique concernent à la fois la sensibilité des informations recueillies, ainsi que leur utilisation. Une façon simple de penser à cela est que, lorsqu'il s'agit de compteurs intelligents, en fonction de la granularité des données collectées, cela pourrait révéler des schémas personnels, tels que quand la personne est à la maison, quand elle effectue diverses activités. De plus, des préoccupations éthiques sont soulevées lorsque des données sont collectées auprès d'individus et utilisées pour entraîner des algorithmes qu'ils ne peuvent pas comprendre, tels que le fonctionnement interne des réseaux neuronaux. Ces concepts ont donné naissance aux domaines de l'éthique par conception (EbD), de la vie privée par conception (PbD) et de l'IA explicable (XAI). PbD intègre des mesures de protection de la vie privée intégrées sans compromettre la fonctionnalité grâce à des mesures telles que l'anonymisation et la collecte de données minimales. EdB intègre les principes de consentement éclairé, de propriété des données et d'inclusivité dans leur philosophie de conception. Enfin, l'IAX permet aux citoyens de comprendre quelles variables affectent le plus les prédictions du modèle, même lorsque les modèles sont complexes, un exemple étant l'inclusion des mesures SHAP (SHapley Additive exPlanations), qui mettent en évidence la contribution de caractéristiques spécifiques aux prédictions."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Futurs projets</strong>",
-              "body": "Les efforts mondiaux en cours en matière de politiques de confidentialité des données régissant les flux de données transfrontaliers, ainsi qu'un effort mondial pour standardiser les procédures d'accès aux données, ouvrent la voie à une utilisation plus équitable des données dans les applications visant à améliorer l'accès équitable à l'énergie."
+              "title": "<strong>Futures Entreprises</strong>",
+              "body": "Les efforts mondiaux en cours en matière de politiques de confidentialité des données régulant les flux de données transfrontaliers, ainsi qu'un effort mondial pour standardiser les procédures d'accès aux données, ouvrent la voie à une utilisation plus équitable des données dans les applications visant à améliorer l'accès équitable à l'énergie."
             }
           }
         ]
@@ -332,32 +302,32 @@
       "template_id": "key_takeaways",
       "color_scheme": "dark",
       "content": {
-        "title": "Principaux enseignements",
+        "title": "Points clés",
         "intro": "",
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_Intro_2.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_13.png",
               "caption": ""
             },
-            "title": "L'IA permet une planification énergétique plus intelligente grâce à la prédiction et à la reconnaissance de motifs",
-            "description": "Les méthodes d'apprentissage supervisé comme les arbres de décision et les forêts aléatoires sont efficaces pour prévoir la production d'énergie ou estimer les coûts d'infrastructure. Les techniques non supervisées comme le clustering et l'ACP aident à identifier des modèles cachés, tels que l'accès informel à l'énergie ou les profils de pollution industrielle, fournissant aux décideurs des informations plus approfondies pour des interventions ciblées."
+            "title": "L'apprentissage automatique permet une planification énergétique plus intelligente grâce à la prédiction et à la reconnaissance de motifs",
+            "description": "Les méthodes d'apprentissage supervisé telles que les arbres de décision et les forêts aléatoires sont efficaces pour prévoir la production d'énergie ou estimer les coûts d'infrastructure. Les techniques non supervisées telles que le regroupement et l'ACP aident à identifier des motifs cachés, tels que l'accès informel à l'énergie ou les profils de pollution industrielle, fournissant aux décideurs des informations plus approfondies pour des interventions ciblées."
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_5.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_7.png",
               "caption": ""
             },
-            "title": "L'apprentissage automatique non supervisé soutient l'élaboration de politiques basées sur des preuves et la construction d'indices",
-            "description": "Des techniques comme l'ACP peuvent réduire la complexité et le biais dans les indices liés à l'énergie en allouant des poids en fonction des données plutôt que des hypothèses d'experts. Cela permet des évaluations plus objectives de la sécurité énergétique, de l'équité et de la durabilité—offrant aux décideurs des moyens nouveaux pour évaluer les progrès et planifier des réformes."
+            "title": "L'apprentissage automatique non supervisé soutient la politique fondée sur des preuves et la construction d'indices",
+            "description": "Des techniques comme la PCA peuvent réduire la complexité et le biais dans les indices liés à l'énergie en attribuant des poids en fonction des données plutôt que des hypothèses d'experts. Cela permet des évaluations plus objectives de la sécurité énergétique, de l'équité et de la durabilité—offrant aux décideurs de nouvelles façons de mesurer les progrès et de planifier des réformes."
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_6.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_13.png",
               "caption": ""
             },
-            "title": "Les garanties éthiques et de gouvernance sont essentielles dans l'application de l'apprentissage automatique aux politiques publiques",
-            "description": "Bien que l'IA puisse augmenter l'efficacité et l'insight, les risques liés à la confidentialité des données, aux biais et à la transparence doivent être gérés activement. Des approches telles que l'Éthique par Design, la Vie Privée par Design et l'IA Explicable (par exemple, les valeurs SHAP) sont essentielles pour garantir que les systèmes d'apprentissage automatique soient responsables, inclusifs et équitables—surtout lorsqu'ils sont utilisés dans la prestation de services publics."
+            "title": "Les garanties éthiques et de gouvernance sont essentielles dans l'application de l'apprentissage automatique à la politique publique",
+            "description": "Bien que l'apprentissage automatique puisse augmenter l'efficacité et la compréhension, les risques liés à la confidentialité des données, aux biais et à la transparence doivent être gérés activement. Les approches telles que l'Éthique par Conception, la Confidentialité par Conception et l'Intelligence Artificielle Explicable (par exemple, les valeurs SHAP) sont essentielles pour garantir que les systèmes d'apprentissage automatique soient responsables, inclusifs et équitables—en particulier lorsqu'ils sont utilisés dans la prestation de services publics."
           }
         ]
       }

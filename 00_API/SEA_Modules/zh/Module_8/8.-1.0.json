@@ -1,0 +1,404 @@
+{
+  "id": "8.-1.0",
+  "segments": [
+    {
+      "template_id": "scored_quiz",
+      "color_scheme": "dark",
+      "content": {
+        "title": "得分测验 <br/><strong>模块8</strong>",
+        "intro": "本测验涵盖本模块的所有课程。 你必须达到80％才能通过。 祝你好运！",
+        "final": true,
+        "labels": {
+          "correct": "正确",
+          "question": "问题",
+          "result": "测验结果",
+          "score": "你的分数",
+          "passingScore": "及格最低分",
+          "startButton": "开始测验",
+          "nextButton": "下一步",
+          "submitButton": "提交",
+          "retryButton": "重播",
+          "passed": "已通过",
+          "failed": "未通过"
+        },
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "到2050年，推动建筑物用电需求增加的主要因素之一是什么？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "更广泛使用天然气"
+              },
+              {
+                "id": 2,
+                "value": "空调和冷却的使用增加"
+              },
+              {
+                "id": 3,
+                "value": "农村人口下降"
+              },
+              {
+                "id": 4,
+                "value": "减少对数字设备的依赖"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "住宅制冷需求的不断增长，特别是在新兴市场，预计到2050年将增加三倍，成为建筑物用电增加的主要贡献者。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "住宅制冷需求的不断增长，特别是在新兴市场，预计到2050年将增加三倍，成为建筑物用电增加的主要贡献者。"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "预计到2034年，哪个地区的中产阶级家庭将实现最大增长？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "撒哈拉以南非洲"
+              },
+              {
+                "id": 2,
+                "value": "欧洲"
+              },
+              {
+                "id": 3,
+                "value": "亚太地区"
+              },
+              {
+                "id": 4,
+                "value": "南美洲"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "到2029年，亚太地区将拥有所有新兴市场中三分之二的中产阶级家庭，其中中国和印度的增长最大。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "到2029年，亚太地区将拥有所有新兴市场中三分之二的中产阶级家庭，其中中国和印度的增长最大。"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "在零净排放（NZE）情景下，到2050年，清洁能源满足的能源需求百分比是多少？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.4"
+              },
+              {
+                "id": 2,
+                "value": "0.58"
+              },
+              {
+                "id": 3,
+                "value": "0.75"
+              },
+              {
+                "id": 4,
+                "value": "0.9"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "在NZE情景中，预计到2050年，全球能源需求的90%将由清洁能源满足。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "在NZE情景中，预计到2050年，全球能源需求的90%将由清洁能源满足。"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "以下哪项是与能源系统数字化增加相关的挑战？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "能源需求减少"
+              },
+              {
+                "id": 2,
+                "value": "化石燃料消耗增加"
+              },
+              {
+                "id": 3,
+                "value": "网络安全风险"
+              },
+              {
+                "id": 4,
+                "value": "电价更低"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "数字化随着电网和系统变得更加连接，带来了新的网络安全漏洞。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "数字化随着电网和系统变得更加连接，带来了新的网络安全漏洞。"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "根据国际能源署，预计到2030年可再生能源容量将增加多少？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "1.5倍"
+              },
+              {
+                "id": 2,
+                "value": "2.7倍"
+              },
+              {
+                "id": 3,
+                "value": "3.5倍"
+              },
+              {
+                "id": 4,
+                "value": "5次"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "国际能源署的预测估计，到2030年，全球可再生能源容量将增加2.7倍。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "国际能源署的预测估计，到2030年，全球可再生能源容量将增加2.7倍。"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "2023年，全球电力中核能发电的比例是多少？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "超过25%"
+              },
+              {
+                "id": 2,
+                "value": "略低于5%"
+              },
+              {
+                "id": 3,
+                "value": "刚超过9%"
+              },
+              {
+                "id": 4,
+                "value": "超过15%"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "在2023年，核能约占全球电力生产的9%以上。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "在2023年，核能约占全球电力生产的9%以上。"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "以下关于氢的陈述哪一项是正确的？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "在使用时会排放温室气体"
+              },
+              {
+                "id": 2,
+                "value": "绿色氢气的生产已经很普遍"
+              },
+              {
+                "id": 3,
+                "value": "氢气可以实现工业和交通等行业的脱碳"
+              },
+              {
+                "id": 4,
+                "value": "氢气主要用于住宅能源"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "氢气，尤其是绿色氢气，具有显著的潜力来实现难以减排的行业如重工业和长途运输的脱碳。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "氢气，尤其是绿色氢气，具有显著的潜力来实现难以减排的行业如重工业和长途运输的脱碳。"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "在发展中国家部署可再生能源的一个关键障碍是什么？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "过多的政府支持"
+              },
+              {
+                "id": 2,
+                "value": "低资本成本"
+              },
+              {
+                "id": 3,
+                "value": "<strong>高资本成本</strong>"
+              },
+              {
+                "id": 4,
+                "value": "对水电的过度依赖"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "由于感知风险和缺乏风险缓解机制，资本成本高是发展中国家的主要障碍。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "由于感知风险和缺乏风险缓解机制，资本成本高是发展中国家的主要障碍。"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "为什么土地和资源限制是可再生能源部署的一个问题？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "可再生能源几乎不需要土地"
+              },
+              {
+                "id": 2,
+                "value": "风电场永久占用它们使用的土地"
+              },
+              {
+                "id": 3,
+                "value": "土地利用的竞争可能会迁移社区"
+              },
+              {
+                "id": 4,
+                "value": "太阳能电池板在城市地区效果更佳"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "大规模可再生能源项目可能与农业、保护和住房用地发生冲突，尤其是在人口稠密的地区。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "大规模可再生能源项目可能与农业、保护和住房用地发生冲突，尤其是在人口稠密的地区。"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "到2050年，1.5°C路径中预计来自可再生能源的新电力容量增加的百分比是多少？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.5"
+              },
+              {
+                "id": 2,
+                "value": "0.65"
+              },
+              {
+                "id": 3,
+                "value": "几乎100%"
+              },
+              {
+                "id": 4,
+                "value": "0.8"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "根据与IPCC一致的路径，到2050年，几乎所有新增容量都预计来自可再生能源。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "根据与IPCC一致的路径，到2050年，几乎所有新增容量都预计来自可再生能源。"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module8.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第8模块结尾",
+        "cta": "继续学习",
+        "nextLessonId": "8.-1.-1"
+      }
+    }
+  ]
+}

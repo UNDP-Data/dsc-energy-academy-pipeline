@@ -1,0 +1,343 @@
+{
+  "id": "7.4.1",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_10.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "1"
+        },
+        "title": "能源数据创新的系统级推动因素",
+        "cta": "",
+        "intro": "M7：可持续能源数据"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第1课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "尽管智能电表、人工智能、能源管理方面的进展< br> 和 <strong>证明</strong> 对未来几代人具有希望。 能源系统中的持续和可持续创新，能源数据的利用方式，以及洞察的应用方式，取决于是否存在有利于创新的环境。 首先，具有弹性的数字基础设施，能够存储能源数据并为算法提供计算能力，无论是通过本地数据中心还是云存储和计算平台，都是实验的必要场所。 此外，通过合作学术研究或公共数据共享，获取数据和研究可以激励参与能源数据的倡议。<br />在更区域和全球范围内，系统的互操作性，促进跨平台共享有用数据，可能对创建无缝应用程序至关重要。 此外，增加元数据的采用（提供有关数据收集方式和变量测量方式的宝贵背景信息）确保数据共享的透明度，并使研究人员能够完全信任他们所掌握的数据。 最后，鉴于数据科学应用的激增，以及在具有影响力的政策中快速采用<em>ML</em>算法，拥有受过数据科学培训的人员比以往任何时候都更为重要，无论是在公务员、发展工作中，还是在能源行业中。 这一努力应伴随着完整的数据治理策略和框架的创建与采用，同时设计一个明确的数据所有权和隐私模型，在可信的法律条款中定义同意，增加关于数据的国际立法，特别是在经济合作协议中。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_9.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_11.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "A：为能源数据平台、存储、基于云的架构、公共数据共享构建数字基础设施"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>云</strong>",
+              "body": "具有弹性和可靠性的数字基础设施在利用数据进行能源政策方面具有基础作用。 实现可靠和民主化访问存储和计算能力的努力中的一个方面是云平台的使用增加。 云平台允许用户在远程服务器上存储的虚拟机上访问存储和计算能力。 一方面，这允许用户从任何地方访问他们的数据并运行他们的模型，因为他们没有物理上绑定到物理服务器。 另一方面，它允许没有资金建造实体数据中心的企业使用这种按需付费的服务。 最后，通过物联网，可以对能源网络和可再生能源项目进行实时测量和调整。"
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数字基础设施</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>云实践</strong>",
+              "body": "这方面的一个例子是Gamesa Siemens使用无人机和Hermes，一种数字工具。 Gamesa Siemens 是全球风能供应商，因此必须定期检查风力发电机以进行必要的维护。 通过与微软Azure（云平台）的集成和使用，他们能够发送风力发电机的照片并将其存储在云中。 此外，通过利用云计算，他们能够确定哪些涡轮机需要维护，筛选大量数据，这些数据以前需要硬盘和巨大的计算资源。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Edge and Fog Computing</strong>",
+              "body": "此外，对于需要实时决策的应用，边缘计算——即在数据生成源或附近进行计算和存储——提供了一个独特的解决方案。 一个简单的例子是智能太阳能逆变器，它会自动决定何时将电力反馈到电网。 对于需要协调的应用，雾计算正被越来越多地采用。 雾计算允许在云端和边缘设备之间建立一个中间层，非常适合协调能源供应，考虑到价格并保持低延迟。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数据的环境成本</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>能源需求的增加</strong>",
+              "body": "然而，采用这些数据密集型方法的增加带来了环境成本。 对能够存储如此大量数据的基础设施的需求增加，以及进行这些复杂计算所需的计算能力，目前正将能源需求推向新的高度。 仅在比利时，数据中心的能源需求预计到2050年将达到10.5太瓦时到34太瓦时之间，而目前的起点是3太瓦时。 这引发了关于用来满足这种需求增长的来源的实际担忧，一些地区重新依赖化石燃料。 国际能源署预测，到2030年，全球与数据中心相关的能源需求将翻倍至 <strong>945 TWh</strong>。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>基于创新的解决方案</strong>",
+              "body": "然而，并非一切都已丧失，现代创新努力已集中在使数据中心更节能方面。 实现这一目标的一种方式是通过在数据中心制造中使用非常规材料。 Skeleton Technologies，总部位于爱沙尼亚，推出了Graphene GPU，一款基于石墨烯的弯曲GPU，计划将能源消耗降低44%，同时将计算能力提高40%。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_10.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "B：互操作性和开放标准元数据、API、标准分类法、公共数据共享"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>互操作性</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>介绍</strong>",
+              "body": "随着数据可用性的增加，以及从数据中处理和提取洞察的丰富方法，已经设计了多种确保数据流畅和无缝的方法。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>互操作性</strong>",
+              "body": "互操作性，现在比以往任何时候都更为重要。 互操作性是指计算机系统和软件交换和利用数据的能力。 在能源系统的背景下，涉及多个移动部分，如<strong>智能电表</strong>、<strong>可再生能源系统</strong>、<strong>变电站</strong>和公共事业电网，能够无缝共享和使用数据对于快速决策至关重要。 此外，数据的可靠性是确保能源系统不延续不平等的关键。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>APIs</strong>",
+              "body": "在这方面的第一步是使用应用程序编程接口，或API，它们允许设备相互通信并共享信息。 此外，采用标准分类法（在能源背景下信息的结构和定义方式）促进了各方之间的信任增加。 通过这些开放标准，研究人员、政策制定者、公共事业运营商和能源部门的其他各种利益相关者可以通过非常具体的命名法清楚地识别所指的变量。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>元数据</strong>",
+              "body": "此外，元数据，也称为“关于数据的数据”，提供有关共享数据的有价值、建立信任的信息，包括数据所用的单位、谁收集了它、何时收集的，以及文件的格式。 此信息使分析师能够信任数据，同时增强互操作性，系统可以在日常操作中使用、重用和集成数据。 鉴于对标准化的日益需求，多个世界组织开始采用<strong>统计数据和元数据交换</strong>（SDMX），这是一套国际公认的标准，便于以易于理解的方式发布和交换数据。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>公共数据共享</strong>",
+              "body": "最后，公共数据共享平台，即可以访问与能源相关的清理和标准化数据集的公共网站，激励创新。 通过在免费、开放访问平台上提供这些数据，降低了创业公司和研究人员的准入门槛，鼓励了公私合作伙伴关系，并建立了信任，因为共享的数据通常附带元数据。 此类倡议的关键示例包括斯坦福可持续发展学院的气候、能源与可持续性数据共享平台以及美国政府的开放能源数据倡议。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>元数据</strong>",
+              "body": "此外，元数据，也称为“关于数据的数据”，提供有关共享数据的有价值、建立信任的信息，包括数据所用的单位、谁收集了它、何时收集的，以及文件的格式。 此信息使分析师能够信任数据，同时增强互操作性，系统可以在日常操作中使用、重用和集成数据。 鉴于对标准化的日益需求，多个世界组织开始采用<strong>统计数据和元数据交换</strong>（SDMX），这是一套国际公认的标准，便于以易于理解的方式发布和交换数据。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_14.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "C：机构能力和数据治理<br>公共部门能力、授权、所有权模型、沙箱"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "现在比以往任何时候都更为重要，随着数据的不断增加、可访问性和需求以及基于数据的政策，必须拥有熟悉人工智能及其在能源部门应用的政策制定者和公务员，同时明确可以提取数据的规则、可以使用的程度以及可以共享的实体。 因此，出现了一些关键问题，主要涉及谁拥有能源数据，以及哪些机构应有权访问敏感数据。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>公共政策中的数字鸿沟</strong>",
+              "body": "首先，鉴于数字革命带来的变革具有激烈且快速的性质，公共部门出现了“数字鸿沟”，需要对基础设施进行改造，人员需要提升技能。 这些举措需要有意的政府努力和支出，<br>这一意图的一个例子是英国政府数字服务学院，该学院在2014年至2019年间培训了10,000名公务员。 然而，通常不是公共部门技能的缺乏，而是由于政府工作中的文化导致的人才迁移。 事实上，英国国家审计服务的一项调查发现，提升技能的人员倾向于在获得新技能后不到两年就离开公务员队伍。<br> <strong>不到两年</strong>。 这表明政府内部的文化和创新框架存在更大的问题。 这表明需要有效的变革管理，并鼓励一种受控风险承担的文化。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>监管沙箱</strong>",
+              "body": "在这种情况下，监管沙箱和制度性试验可以作为建设国家适应能力的有价值工具，同时也能减轻风险。 沙箱，（即 受控环境中可以在全面部署之前测试创新) 允许政府试点新的数据治理模型、能源预测或效率中的人工智能应用，以及替代所有权框架。 这些环境可以支持监管机构、公用事业和技术提供商之间的跨部门合作，从而加强制度学习循环。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>授权和框架</strong>",
+              "body": "明确的授权和互操作框架对于避免权限重叠和机构孤岛也很必要，尤其是在联邦治理系统中。 数据所有权问题——尤其是在涉及私营部门生成的数据（例如，智能电表数据、电网使用模式）时——必须通过法律明确性和操作协议来解决。 像爱沙尼亚和芬兰这样的国家已经尝试了< br>数据大使馆和跨境数据交换框架，确保主权和访问权，同时允许安全、合规的信息共享。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>全面政府方法</strong>",
+              "body": "最后，整体政府的方法对于数字化转型至关重要。 这不仅意味着投资于技术技能和平台，还包括建立赋予创新和确保问责制的领导结构。 独立的数据管理机构、开放标准和数据信托可能为以伦理和高效的方式管理能源数据提供途径，实现无需损害隐私或公共利益的AI驱动解决方案。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_2.png",
+              "caption": ""
+            },
+            "title": "基础设施是能源数据创新的基础",
+            "description": "云计算、边缘和雾架构以及公共数据共享平台实现了可扩展的、实时的和包容性的能源数据应用。 然而，它们的增长必须与对能源效率的关注相匹配，因为数据中心可能会带来电力需求的显著增加。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_11.png",
+              "caption": ""
+            },
+            "title": "互操作性和开放标准实现信任与合作",
+            "description": "共享的分类法、API 和元数据标准确保不同的系统和利益相关者能够有意义地交换数据。 公共数据共享和像SDMX这样的框架降低了初创企业、研究人员和政府共同创新和避免数据孤岛的障碍。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_12.png",
+              "caption": ""
+            },
+            "title": "制度能力和治理必须与技术同步发展",
+            "description": "政府必须解决技能差距、人才保留和政策灵活性的问题。 监管沙箱、明确的数据授权以及跨境治理模型如数据大使馆对于确保能源数据的伦理、安全和透明使用至关重要——尤其是在人工智能在政策制定中不断扩展的情况下。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第2课：能源系统中的先进技术",
+        "cta": "继续学习",
+        "nextLessonId": "7.4.2"
+      }
+    }
+  ]
+}

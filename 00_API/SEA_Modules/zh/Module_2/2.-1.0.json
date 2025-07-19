@@ -1,0 +1,410 @@
+{
+  "id": "2.-1.0",
+  "segments": [
+    {
+      "template_id": "scored_quiz",
+      "color_scheme": "dark",
+      "content": {
+        "title": "得分测验 <br/><strong>模块 2</strong>",
+        "intro": "本测验涵盖本模块的所有课程。 你必须达到80％才能通过。 祝你好运！",
+        "final": true,
+        "labels": {
+          "correct": "正确",
+          "question": "问题",
+          "result": "测验结果",
+          "score": "你的分数",
+          "passingScore": "及格最低分",
+          "startButton": "开始测验",
+          "nextButton": "下一步",
+          "submitButton": "提交",
+          "retryButton": "重播",
+          "passed": "已通过",
+          "failed": "未通过"
+        },
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "可持续发展目标7的主要目标是什么？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "确保人人都能获得清洁的水和卫生设施"
+              },
+              {
+                "id": 2,
+                "value": "确保所有人都能获得负担得起的、可靠的、可持续的和现代的能源"
+              },
+              {
+                "id": 3,
+                "value": "促进工业创新和基础设施"
+              },
+              {
+                "id": 4,
+                "value": "以上都不是"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "可持续发展目标7（SDG 7）特别旨在确保所有人都能获得负担得起、可靠、可持续和现代的能源。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "可持续发展目标7（SDG 7）特别旨在确保所有人都能获得负担得起、可靠、可持续和现代的能源。"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "以下哪些是可持续能源获取的组成部分？ (选择所有适用项)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "可用性"
+              },
+              {
+                "id": 2,
+                "value": "负担能力"
+              },
+              {
+                "id": 3,
+                "value": "适当性"
+              },
+              {
+                "id": 4,
+                "value": "以上都不是"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "可持续能源获取包括可用性、负担能力、充足性、安全性、可靠性和低碳兼容性。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "可持续能源获取包括可用性、负担能力、充足性、安全性、可靠性和低碳兼容性。"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "全球大约有多少人仍然无法获得电力？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "5亿"
+              },
+              {
+                "id": 2,
+                "value": "6.85亿"
+              },
+              {
+                "id": 3,
+                "value": "10亿"
+              },
+              {
+                "id": 4,
+                "value": "21亿"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "根据2024年可持续发展目标7的跟踪报告，约有6.85亿人缺乏电力供应。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "根据2024年可持续发展目标7的跟踪报告，约有6.85亿人缺乏电力供应。"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "能源获取与包容性能源服务之间有什么区别？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "ADEF"
+              },
+              {
+                "id": 2,
+                "value": "包容性能源服务更昂贵"
+              },
+              {
+                "id": 3,
+                "value": "能源获取仅适用于城市地区"
+              },
+              {
+                "id": 4,
+                "value": "以上都不是"
+              }
+            ],
+            "solution": [
+              1
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "能源获取是指拥有能源，而包容性服务则考虑所有人的公平、质量和可用性。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "能源获取是指拥有能源，而包容性服务则考虑所有人的公平、质量和可用性。"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "能源获取最直接影响哪些人权？ (选择所有适用项)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "受教育的权利"
+              },
+              {
+                "id": 2,
+                "value": "享有健康的权利"
+              },
+              {
+                "id": 3,
+                "value": "享有适当的生活水平的权利"
+              },
+              {
+                "id": 4,
+                "value": "持有武器的权利"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "能源获取对教育、健康和适当生活水平的权利至关重要。 持有武器的权利未被国际社会普遍承认为人权。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "能源获取对教育、健康和适当生活水平的权利至关重要。 持有武器的权利未被国际社会普遍承认为人权。"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "什么被认为是清洁烹饪解决方案？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "在露天火炉中的木炭"
+              },
+              {
+                "id": 2,
+                "value": "电磁感应炉"
+              },
+              {
+                "id": 3,
+                "value": "煤油灯"
+              },
+              {
+                "id": 4,
+                "value": "以上都不是"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "电磁炉是清洁的烹饪解决方案，不像木炭或煤油会导致室内空气污染。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "电磁炉是清洁的烹饪解决方案，不像木炭或煤油会导致室内空气污染。"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "以下哪项不是衡量能源获取的多层框架（MTF）的一部分？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "能源服务质量"
+              },
+              {
+                "id": 2,
+                "value": "能源效率等级"
+              },
+              {
+                "id": 3,
+                "value": "负担能力"
+              },
+              {
+                "id": 4,
+                "value": "可靠性"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "MTF 包括质量、可靠性和经济性，但不包括能源效率评级作为核心指标。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "MTF 包括质量、可靠性和经济性，但不包括能源效率评级作为核心指标。"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "全球清洁烹饪获取缺口中有多少比例集中在撒哈拉以南非洲？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.25"
+              },
+              {
+                "id": 2,
+                "value": "0.5"
+              },
+              {
+                "id": 3,
+                "value": "0.7"
+              },
+              {
+                "id": 4,
+                "value": "超过80%"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "撒哈拉以南非洲占全球清洁烹饪获取缺口的80%以上。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "撒哈拉以南非洲占全球清洁烹饪获取缺口的80%以上。"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "9. 能源的生产性用途通常包括以下哪些？ (选择所有适用项)",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "运行灌溉系统"
+              },
+              {
+                "id": 2,
+                "value": "看电视"
+              },
+              {
+                "id": 3,
+                "value": "农产品冷藏"
+              },
+              {
+                "id": 4,
+                "value": "工业缝纫机"
+              }
+            ],
+            "solution": [
+              1,
+              3,
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "能源的生产性用途是那些产生收入或改善经济产出的用途，例如灌溉、冷藏和工业设备。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "能源的生产性用途是那些产生收入或改善经济产出的用途，例如灌溉、冷藏和工业设备。"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "10. 哪个工具使用地理空间数据来识别能源获取干预的优先区域？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "多层框架（MTF）"
+              },
+              {
+                "id": 2,
+                "value": "OnStove 工具"
+              },
+              {
+                "id": 3,
+                "value": "能源获取探索者"
+              },
+              {
+                "id": 4,
+                "value": "全球追踪框架 (GTF)"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "能源获取探索器使用地理空间数据来识别能源干预规划的区域。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "能源获取探索器使用地理空间数据来识别能源干预规划的区域。"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "模块 2 结束",
+        "cta": "继续学习",
+        "nextLessonId": "2.-1.-1"
+      }
+    }
+  ]
+}

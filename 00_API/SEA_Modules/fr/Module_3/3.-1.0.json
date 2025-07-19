@@ -6,20 +6,20 @@
       "color_scheme": "dark",
       "content": {
         "title": "Quiz noté <br/><strong>Module 3</strong>",
-        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance !",
+        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance!",
         "final": true,
         "labels": {
           "correct": "Correct",
           "question": "Question",
           "result": "Résultat du quiz",
           "score": "Votre score",
-          "passingScore": "Score minimum requis",
-          "startButton": "Commencer le quiz",
+          "passingScore": "Score minimum de passage",
+          "startButton": "Démarrer le quiz",
           "nextButton": "Suivant",
           "submitButton": "Soumettre",
           "retryButton": "Rejouer",
           "passed": "Passé",
-          "failed": "Non réussi"
+          "failed": "Non passé"
         },
         "passingScore": 0.8,
         "questions": [
@@ -30,15 +30,15 @@
             "options": [
               {
                 "id": 1,
-                "value": "Un panel intergouvernemental des Nations Unies sur les émissions"
+                "value": "Un panel intergouvernemental de l'ONU sur les émissions"
               },
               {
                 "id": 2,
-                "value": "Un réseau de plaidoyer pour le climat des jeunes"
+                "value": "Un réseau de plaidoyer climatique pour la jeunesse"
               },
               {
                 "id": 3,
-                "value": "Les syndicats plaidant pour la protection des travailleurs"
+                "value": "Les syndicats défendant la protection des travailleurs"
               },
               {
                 "id": 4,
@@ -51,26 +51,26 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Le terme est originaire des mouvements syndicaux, mettant l'accent sur la protection des travailleurs lors des réformes environnementales."
+                "body": "Le terme est originaire des mouvements syndicaux, mettant en avant la protection des travailleurs lors des réformes environnementales."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Le terme est originaire des mouvements syndicaux, mettant l'accent sur la protection des travailleurs lors des réformes environnementales."
+                "body": "Le terme est originaire des mouvements syndicaux, mettant en avant la protection des travailleurs lors des réformes environnementales."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "Quel principe est central pour atteindre une transition juste dans des contextes divers ?",
+            "prompt": "Quel principe est essentiel pour réaliser une transition juste dans divers contextes ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Standardisation des délais de transition"
+                "value": "Normalisation des calendriers de transition"
               },
               {
                 "id": 2,
-                "value": "Modèles de subvention universels"
+                "value": "Modèles de subventions universelles"
               },
               {
                 "id": 3,
@@ -87,17 +87,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Des stratégies sur mesure sont cruciales pour tenir compte des disparités régionales, des dynamiques sociales et des contextes économiques."
+                "body": "Les stratégies sur mesure sont essentielles pour tenir compte des disparités régionales, des dynamiques sociales et des contextes économiques."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Des stratégies sur mesure sont cruciales pour tenir compte des disparités régionales, des dynamiques sociales et des contextes économiques."
+                "body": "Les stratégies sur mesure sont essentielles pour tenir compte des disparités régionales, des dynamiques sociales et des contextes économiques."
               }
             }
           },
           {
             "id": 3,
-            "prompt": "Qu'est-ce que la \"justice énergétique\" met le plus clairement en avant ?",
+            "prompt": "Qu'est-ce que la « justice énergétique » met le plus en évidence ?",
             "multiple": false,
             "options": [
               {
@@ -106,7 +106,7 @@
               },
               {
                 "id": 2,
-                "value": "Répartition égale des avantages et des charges énergétiques"
+                "value": "Répartition équitable des avantages et des charges énergétiques"
               },
               {
                 "id": 3,
@@ -123,11 +123,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "La justice énergétique se concentre sur l'accès équitable, la distribution juste et l'inclusion dans les décisions énergétiques."
+                "body": "La justice énergétique se concentre sur un accès équitable, une distribution équitable et une inclusion dans les décisions énergétiques."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "La justice énergétique se concentre sur l'accès équitable, la distribution juste et l'inclusion dans les décisions énergétiques."
+                "body": "La justice énergétique se concentre sur un accès équitable, une distribution équitable et une inclusion dans les décisions énergétiques."
               }
             }
           },
@@ -142,11 +142,11 @@
               },
               {
                 "id": 2,
-                "value": "Centraliser la prise de décision dans les ministères"
+                "value": "Centralisation de la prise de décision dans les ministères"
               },
               {
                 "id": 3,
-                "value": "Prioriser la vitesse plutôt que la consultation"
+                "value": "Prioriser la rapidité plutôt que la consultation"
               },
               {
                 "id": 4,
@@ -159,17 +159,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "La justice procédurale nécessite une participation inclusive et transparente à toutes les phases de la planification énergétique."
+                "body": "La justice procédurale exige une participation inclusive et transparente à toutes les phases de la planification énergétique."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "La justice procédurale nécessite une participation inclusive et transparente à toutes les phases de la planification énergétique."
+                "body": "La justice procédurale exige une participation inclusive et transparente à toutes les phases de la planification énergétique."
               }
             }
           },
           {
             "id": 5,
-            "prompt": "Quel défi peut surgir d'un passage mal planifié des combustibles fossiles dans les régions dépendantes des ressources extractives ?",
+            "prompt": "Quel défi peut surgir d'un passage mal planifié des combustibles fossiles dans les régions dépendantes de l'extraction ?",
             "multiple": false,
             "options": [
               {
@@ -205,12 +205,12 @@
           },
           {
             "id": 6,
-            "prompt": "Quel est un obstacle clé lié au genre à une participation équitable dans la transition énergétique ?",
+            "prompt": "Quelle est une barrière liée au genre qui entrave la participation équitable à la transition énergétique ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Manque d'intérêt des femmes pour les emplois dans le secteur de l'énergie"
+                "value": "Manque d'intérêt chez les femmes pour les emplois dans le secteur de l'énergie"
               },
               {
                 "id": 2,
@@ -218,7 +218,7 @@
               },
               {
                 "id": 3,
-                "value": "Sous-représentation dans le leadership et accès inégal à la formation et au financement"
+                "value": "Sous-représentation dans la direction et accès inégal à la formation et au financement"
               },
               {
                 "id": 4,
@@ -231,22 +231,22 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Les barrières structurelles—telles qu'un accès limité à la formation, au financement et aux rôles de leadership—limitent la pleine participation des femmes dans le secteur de l'énergie."
+                "body": "Les barrières structurelles— telles que l'accès limité à la formation, au financement et aux rôles de leadership— limitent la participation pleine des femmes dans le secteur de l'énergie."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Les barrières structurelles—telles qu'un accès limité à la formation, au financement et aux rôles de leadership—limitent la pleine participation des femmes dans le secteur de l'énergie."
+                "body": "Les barrières structurelles— telles que l'accès limité à la formation, au financement et aux rôles de leadership— limitent la participation pleine des femmes dans le secteur de l'énergie."
               }
             }
           },
           {
             "id": 7,
-            "prompt": "Pourquoi la sécurité des droits fonciers est-elle essentielle dans le déploiement des énergies renouvelables dans le Sud global ?",
+            "prompt": "Pourquoi la sécurité foncière est-elle essentielle dans le déploiement des énergies renouvelables dans le Sud global ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Cela garantit des prix de l'électricité plus bas pour les communautés"
+                "value": "Il garantit des prix d'électricité plus bas pour les communautés"
               },
               {
                 "id": 2,
@@ -254,11 +254,11 @@
               },
               {
                 "id": 3,
-                "value": "Il prévient le déplacement, protège les droits des communautés et garantit un partage équitable des bénéfices"
+                "value": "Il empêche le déplacement, protège les droits de la communauté et garantit un partage équitable des bénéfices"
               },
               {
                 "id": 4,
-                "value": "Cela permet aux gouvernements de contourner les exigences de consultation"
+                "value": "Il permet aux gouvernements de contourner les exigences de consultation"
               }
             ],
             "solution": [
@@ -267,11 +267,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Des droits fonciers sécurisés aident à prévenir le déplacement, protègent les moyens de subsistance et facilitent une participation équitable aux avantages des énergies renouvelables."
+                "body": "La sécurisation des droits fonciers contribue à prévenir le déplacement, à protéger les moyens de subsistance et à faciliter une participation équitable aux avantages de l'énergie renouvelable."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Des droits fonciers sécurisés aident à prévenir le déplacement, protègent les moyens de subsistance et facilitent une participation équitable aux avantages des énergies renouvelables."
+                "body": "La sécurisation des droits fonciers contribue à prévenir le déplacement, à protéger les moyens de subsistance et à faciliter une participation équitable aux avantages de l'énergie renouvelable."
               }
             }
           },
@@ -282,7 +282,7 @@
             "options": [
               {
                 "id": 1,
-                "value": "Émissions élevées des turbines"
+                "value": "Émissions élevées provenant des turbines"
               },
               {
                 "id": 2,
@@ -294,7 +294,7 @@
               },
               {
                 "id": 4,
-                "value": "Dépendance excessive à la technologie importée"
+                "value": "Une dépendance excessive à la technologie importée"
               }
             ],
             "solution": [
@@ -318,7 +318,7 @@
             "options": [
               {
                 "id": 1,
-                "value": "Allègements fiscaux pour les services publics"
+                "value": "Réductions d'impôts pour les services publics"
               },
               {
                 "id": 2,
@@ -330,7 +330,7 @@
               },
               {
                 "id": 4,
-                "value": "S'appuyant uniquement sur les marchés du carbone"
+                "value": "Se fier uniquement aux marchés du carbone"
               }
             ],
             "solution": [
@@ -339,17 +339,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Le développement des compétences et la reconversion permettent aux travailleurs et aux communautés de bénéficier des nouveaux secteurs énergétiques."
+                "body": "Le développement des compétences et la reconversion permettent aux travailleurs et aux communautés de bénéficier des nouveaux secteurs de l'énergie."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Le développement des compétences et la reconversion permettent aux travailleurs et aux communautés de bénéficier des nouveaux secteurs énergétiques."
+                "body": "Le développement des compétences et la reconversion permettent aux travailleurs et aux communautés de bénéficier des nouveaux secteurs de l'énergie."
               }
             }
           },
           {
             "id": 10,
-            "prompt": "Quel est le rôle du Consentement Libre, Préalable et Éclairé (CLPE) dans les transitions justes ?",
+            "prompt": "Quel est le rôle du Consentement Libre, Préalable et Éclairé (FPIC) dans les transitions justes ?",
             "multiple": false,
             "options": [
               {
@@ -366,7 +366,7 @@
               },
               {
                 "id": 4,
-                "value": "Limiter l'accès aux ressources naturelles"
+                "value": "Pour limiter l'accès aux ressources naturelles"
               }
             ],
             "solution": [
@@ -375,11 +375,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Le FPIC garantit que les peuples autochtones sont impliqués de manière significative dans les décisions affectant leurs terres et leurs vies."
+                "body": "Le FPIC garantit que les peuples autochtones participent de manière significative aux décisions concernant leurs terres et leurs vies."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Le FPIC garantit que les peuples autochtones sont impliqués de manière significative dans les décisions affectant leurs terres et leurs vies."
+                "body": "Le FPIC garantit que les peuples autochtones participent de manière significative aux décisions concernant leurs terres et leurs vies."
               }
             }
           }
@@ -391,11 +391,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module3.png",
           "caption": ""
         },
         "intro": "Prochainement",
-        "title": "Module 3 Conclusion",
+        "title": "Module 3 Outro",
         "cta": "Continuez à apprendre",
         "nextLessonId": "3.-1.-1"
       }

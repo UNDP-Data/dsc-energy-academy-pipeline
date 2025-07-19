@@ -6,20 +6,20 @@
       "color_scheme": "dark",
       "content": {
         "title": "Cuestionario calificado <br/><strong>Módulo 2</strong>",
-        "intro": "Este cuestionario cubre todas las lecciones de este módulo. Debes alcanzar el 80 % para aprobar. ¡Buena suerte!",
+        "intro": "Este cuestionario cubre todas las lecciones de este módulo. Debes lograr el 80 % para aprobar. ¡Buena suerte!",
         "final": true,
         "labels": {
           "correct": "Correcto",
           "question": "Pregunta",
           "result": "Resultado del cuestionario",
           "score": "Tu puntuación",
-          "passingScore": "Puntuación mínima aprobatoria",
-          "startButton": "Iniciar cuestionario",
+          "passingScore": "Puntuación mínima para aprobar",
+          "startButton": "Iniciar la prueba",
           "nextButton": "Siguiente",
           "submitButton": "Enviar",
           "retryButton": "Repetir",
           "passed": "Pasado",
-          "failed": "No aprobado"
+          "failed": "No pasado"
         },
         "passingScore": 0.8,
         "questions": [
@@ -30,11 +30,11 @@
             "options": [
               {
                 "id": 1,
-                "value": "Asegurar el acceso universal al agua limpia y al saneamiento"
+                "value": "Garantizar el acceso universal a agua limpia y saneamiento"
               },
               {
                 "id": 2,
-                "value": "Asegurar el acceso a energía asequible, confiable, sostenible y moderna para todos"
+                "value": "Garantizar el acceso a una energía asequible, fiable, sostenible y moderna para todos"
               },
               {
                 "id": 3,
@@ -51,30 +51,30 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "El ODS 7 tiene como objetivo garantizar el acceso a energía asequible, confiable, sostenible y moderna para todos."
+                "body": "El ODS 7 tiene como objetivo específicamente garantizar el acceso a una energía asequible, confiable, sostenible y moderna para todos."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "El ODS 7 tiene como objetivo garantizar el acceso a energía asequible, confiable, sostenible y moderna para todos."
+                "body": "El ODS 7 tiene como objetivo específicamente garantizar el acceso a una energía asequible, confiable, sostenible y moderna para todos."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "¿Cuáles de los siguientes son componentes del acceso a la energía sostenible? (Seleccione todo lo que aplique)",
+            "prompt": "¿Cuál de los siguientes son componentes del acceso a la energía sostenible? (Seleccione todo lo que corresponda)",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "<strong>Disponibilidad</strong>"
+                "value": "Disponibilidad"
               },
               {
                 "id": 2,
-                "value": "<strong>Accesibilidad</strong>"
+                "value": "Asequibilidad"
               },
               {
                 "id": 3,
-                "value": "<strong>Adecuación</strong>"
+                "value": "Adecuación"
               },
               {
                 "id": 4,
@@ -99,7 +99,7 @@
           },
           {
             "id": 3,
-            "prompt": "¿Aproximadamente cuántas personas en el mundo todavía no tienen acceso a la electricidad?",
+            "prompt": "¿Aproximadamente cuántas personas en todo el mundo aún no tienen acceso a la electricidad?",
             "multiple": false,
             "options": [
               {
@@ -108,7 +108,7 @@
               },
               {
                 "id": 2,
-                "value": "<strong>685 millones</strong>"
+                "value": "685 millones"
               },
               {
                 "id": 3,
@@ -116,7 +116,7 @@
               },
               {
                 "id": 4,
-                "value": "<strong>2,1 mil millones</strong>"
+                "value": "2,1 mil millones"
               }
             ],
             "solution": [
@@ -171,7 +171,7 @@
           },
           {
             "id": 5,
-            "prompt": "¿Qué derechos humanos se ven más directamente afectados por el acceso a la energía? (Seleccione todo lo que aplique)",
+            "prompt": "¿Qué derechos humanos se ven más directamente afectados por el acceso a la energía? (Seleccione todo lo que corresponda)",
             "multiple": true,
             "options": [
               {
@@ -209,7 +209,7 @@
           },
           {
             "id": 6,
-            "prompt": "¿Qué se considera una solución de cocción limpia?",
+            "prompt": "¿Qué se considera una solución de cocina limpia?",
             "multiple": false,
             "options": [
               {
@@ -222,7 +222,7 @@
               },
               {
                 "id": 3,
-                "value": "Lámpara de queroseno"
+                "value": "lámpara de queroseno"
               },
               {
                 "id": 4,
@@ -235,17 +235,17 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Las estufas de inducción eléctrica son soluciones de cocción limpias, a diferencia del carbón o el queroseno que contribuyen a la contaminación del aire interior."
+                "body": "Las cocinas de inducción eléctricas son soluciones de cocina limpias, a diferencia del carbón o el queroseno que contribuyen a la contaminación del aire interior."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Las estufas de inducción eléctrica son soluciones de cocción limpias, a diferencia del carbón o el queroseno que contribuyen a la contaminación del aire interior."
+                "body": "Las cocinas de inducción eléctricas son soluciones de cocina limpias, a diferencia del carbón o el queroseno que contribuyen a la contaminación del aire interior."
               }
             }
           },
           {
             "id": 7,
-            "prompt": "¿Cuál de los siguientes NO es parte del Marco Multi-Nivel (MTF) para medir el acceso a la energía?",
+            "prompt": "¿Cuál de los siguientes NO forma parte del Marco de múltiples niveles (MTF) para medir el acceso a la energía?",
             "multiple": false,
             "options": [
               {
@@ -254,15 +254,15 @@
               },
               {
                 "id": 2,
-                "value": "Clasificación de eficiencia energética"
+                "value": "Calificación de eficiencia energética"
               },
               {
                 "id": 3,
-                "value": "<strong>Accesibilidad</strong>"
+                "value": "Asequibilidad"
               },
               {
                 "id": 4,
-                "value": "<strong>Fiabilidad</strong>"
+                "value": "Confiabilidad"
               }
             ],
             "solution": [
@@ -281,7 +281,7 @@
           },
           {
             "id": 8,
-            "prompt": "¿Qué proporción del déficit de acceso a la cocina limpia a nivel mundial se concentra en África subsahariana?",
+            "prompt": "¿Qué proporción del déficit global de acceso a la cocina limpia se concentra en África subsahariana?",
             "multiple": false,
             "options": [
               {
@@ -307,26 +307,26 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "África subsahariana representa más del 80 % del déficit de acceso a la cocina limpia a nivel mundial."
+                "body": "África subsahariana representa más del 80 % del déficit global de acceso a la cocina limpia."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "África subsahariana representa más del 80 % del déficit de acceso a la cocina limpia a nivel mundial."
+                "body": "África subsahariana representa más del 80 % del déficit global de acceso a la cocina limpia."
               }
             }
           },
           {
             "id": 9,
-            "prompt": "9. ¿Los usos productivos de la energía incluyen típicamente cuáles de los siguientes? (Seleccione todo lo que aplique)",
+            "prompt": "9. ¿Los usos productivos de la energía generalmente incluyen cuál de los siguientes? (Seleccione todo lo que corresponda)",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "Sistemas de riego en funcionamiento"
+                "value": "Ejecutando sistemas de riego"
               },
               {
                 "id": 2,
-                "value": "Ver la televisión"
+                "value": "Ver televisión"
               },
               {
                 "id": 3,
@@ -355,16 +355,16 @@
           },
           {
             "id": 10,
-            "prompt": "<strong>10.</strong> ¿Qué herramienta utiliza datos geoespaciales para identificar áreas prioritarias para intervenciones de acceso a la energía?",
+            "prompt": "10. ¿Qué herramienta utiliza datos geoespaciales para identificar áreas prioritarias para intervenciones de acceso a la energía?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Marco de Múltiples Niveles (MMN)"
+                "value": "Marco de múltiples niveles (MTF)"
               },
               {
                 "id": 2,
-                "value": "<strong>Herramienta OnStove</strong>"
+                "value": "Herramienta OnStove"
               },
               {
                 "id": 3,
@@ -397,11 +397,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
           "caption": ""
         },
-        "intro": "Próximamente",
-        "title": "Módulo 2 Conclusión",
+        "intro": "A continuación",
+        "title": "Outro del módulo 2",
         "cta": "Continúa aprendiendo",
         "nextLessonId": "2.-1.-1"
       }

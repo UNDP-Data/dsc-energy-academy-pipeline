@@ -6,20 +6,20 @@
       "color_scheme": "dark",
       "content": {
         "title": "Quiz noté <br/><strong>Module 2</strong>",
-        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance !",
+        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance!",
         "final": true,
         "labels": {
           "correct": "Correct",
           "question": "Question",
           "result": "Résultat du quiz",
           "score": "Votre score",
-          "passingScore": "Score minimum requis",
-          "startButton": "Commencer le quiz",
+          "passingScore": "Score minimum de passage",
+          "startButton": "Démarrer le quiz",
           "nextButton": "Suivant",
           "submitButton": "Soumettre",
           "retryButton": "Rejouer",
           "passed": "Passé",
-          "failed": "Non réussi"
+          "failed": "Non passé"
         },
         "passingScore": 0.8,
         "questions": [
@@ -30,7 +30,7 @@
             "options": [
               {
                 "id": 1,
-                "value": "Assurer l'accès universel à l'eau potable et à l'assainissement"
+                "value": "Assurer un accès universel à l'eau propre et à l'assainissement"
               },
               {
                 "id": 2,
@@ -38,7 +38,7 @@
               },
               {
                 "id": 3,
-                "value": "Promouvoir l'innovation industrielle et l'infrastructure"
+                "value": "Favoriser l'innovation industrielle et l'infrastructure"
               },
               {
                 "id": 4,
@@ -61,20 +61,20 @@
           },
           {
             "id": 2,
-            "prompt": "Lesquels des éléments suivants sont des composants de l'accès à l'énergie durable ? (Sélectionnez tout ce qui s'applique)",
+            "prompt": "Lequel des éléments suivants fait partie des composants de l'accès à une énergie durable ? (Sélectionnez tout ce qui s'applique)",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "<strong>Disponibilité</strong>"
+                "value": "Disponibilité"
               },
               {
                 "id": 2,
-                "value": "<strong>Accessibilité financière</strong>"
+                "value": "Accessibilité financière"
               },
               {
                 "id": 3,
-                "value": "<strong>Adéquation</strong>"
+                "value": "Adéquation"
               },
               {
                 "id": 4,
@@ -89,11 +89,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "L'accès à l'énergie durable comprend la disponibilité, l'accessibilité, l'adéquation, la sécurité, la fiabilité et la compatibilité à faible émission de carbone."
+                "body": "L'accès à une énergie durable inclut la disponibilité, l'accessibilité, l'adéquation, la sécurité, la fiabilité et la compatibilité avec un faible carbone."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "L'accès à l'énergie durable comprend la disponibilité, l'accessibilité, l'adéquation, la sécurité, la fiabilité et la compatibilité à faible émission de carbone."
+                "body": "L'accès à une énergie durable inclut la disponibilité, l'accessibilité, l'adéquation, la sécurité, la fiabilité et la compatibilité avec un faible carbone."
               }
             }
           },
@@ -108,7 +108,7 @@
               },
               {
                 "id": 2,
-                "value": "<strong>685 millions</strong>"
+                "value": "685 millions"
               },
               {
                 "id": 3,
@@ -116,7 +116,7 @@
               },
               {
                 "id": 4,
-                "value": "<strong>2,1 milliard</strong>"
+                "value": "2,1 milliards"
               }
             ],
             "solution": [
@@ -125,11 +125,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Selon le Rapport de suivi des ODD 7 de 2024, environ 685 millions de personnes n'ont pas accès à l'électricité."
+                "body": "Selon le Rapport de suivi de 2024 sur les ODD 7, environ 685 millions de personnes n'ont pas accès à l'électricité."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Selon le Rapport de suivi des ODD 7 de 2024, environ 685 millions de personnes n'ont pas accès à l'électricité."
+                "body": "Selon le Rapport de suivi de 2024 sur les ODD 7, environ 685 millions de personnes n'ont pas accès à l'électricité."
               }
             }
           },
@@ -148,7 +148,7 @@
               },
               {
                 "id": 3,
-                "value": "L'accès à l'énergie ne s'applique qu'aux zones urbaines"
+                "value": "L'accès à l'énergie ne concerne que les zones urbaines"
               },
               {
                 "id": 4,
@@ -171,7 +171,7 @@
           },
           {
             "id": 5,
-            "prompt": "Quels droits de l'homme sont les plus directement affectés par l'accès à l'énergie ? (Sélectionnez tout ce qui s'applique)",
+            "prompt": "Quels droits de l'homme sont le plus directement impactés par l'accès à l'énergie ? (Sélectionnez tout ce qui s'applique)",
             "multiple": true,
             "options": [
               {
@@ -199,30 +199,30 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "L'accès à l'énergie est essentiel au droit à l'éducation, à la santé et à un niveau de vie adéquat. Le droit de porter des armes n'est pas reconnu internationalement comme un droit humain."
+                "body": "L'accès à l'énergie est essentiel pour le droit à l'éducation, à la santé et à un niveau de vie adéquat. Le droit de porter des armes n'est pas reconnu internationalement comme un droit humain."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "L'accès à l'énergie est essentiel au droit à l'éducation, à la santé et à un niveau de vie adéquat. Le droit de porter des armes n'est pas reconnu internationalement comme un droit humain."
+                "body": "L'accès à l'énergie est essentiel pour le droit à l'éducation, à la santé et à un niveau de vie adéquat. Le droit de porter des armes n'est pas reconnu internationalement comme un droit humain."
               }
             }
           },
           {
             "id": 6,
-            "prompt": "Qu'est-ce qui est considéré comme une solution de cuisson propre ?",
+            "prompt": "Qu'est-ce qu'une solution de cuisson propre considérée?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Charbon dans les feux ouverts"
+                "value": "Charbon de bois dans les feux ouverts"
               },
               {
                 "id": 2,
-                "value": "Cuisinière à induction électrique"
+                "value": "Plaque de cuisson à induction électrique"
               },
               {
                 "id": 3,
-                "value": "Lampe à pétrole"
+                "value": "lampe à kérosène"
               },
               {
                 "id": 4,
@@ -235,17 +235,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Les cuisinières à induction électrique sont des solutions de cuisson propres, contrairement au charbon ou au kérosène qui contribuent à la pollution de l'air intérieur."
+                "body": "Les plaques à induction électriques sont des solutions de cuisson propres, contrairement au charbon ou au kérosène qui contribuent à la pollution de l'air intérieur."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Les cuisinières à induction électrique sont des solutions de cuisson propres, contrairement au charbon ou au kérosène qui contribuent à la pollution de l'air intérieur."
+                "body": "Les plaques à induction électriques sont des solutions de cuisson propres, contrairement au charbon ou au kérosène qui contribuent à la pollution de l'air intérieur."
               }
             }
           },
           {
             "id": 7,
-            "prompt": "Lequel des éléments suivants ne fait PAS partie du Cadre Multi-Niveaux (MTF) pour mesurer l'accès à l'énergie ?",
+            "prompt": "Lequel des éléments suivants NE fait PAS partie du Cadre à plusieurs niveaux (MTF) pour mesurer l'accès à l'énergie ?",
             "multiple": false,
             "options": [
               {
@@ -254,15 +254,15 @@
               },
               {
                 "id": 2,
-                "value": "Évaluation de l'efficacité énergétique"
+                "value": "Classe d'efficacité énergétique"
               },
               {
                 "id": 3,
-                "value": "<strong>Accessibilité financière</strong>"
+                "value": "Accessibilité financière"
               },
               {
                 "id": 4,
-                "value": "<strong>Fiabilité</strong>"
+                "value": "Fiabilité"
               }
             ],
             "solution": [
@@ -271,17 +271,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "MTF inclut la qualité, la fiabilité et l'accessibilité, mais pas la cote d'efficacité énergétique comme indicateur principal."
+                "body": "MTF inclut la qualité, la fiabilité et l'accessibilité financière, mais pas la cote d'efficacité énergétique en tant qu'indicateur principal."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "MTF inclut la qualité, la fiabilité et l'accessibilité, mais pas la cote d'efficacité énergétique comme indicateur principal."
+                "body": "MTF inclut la qualité, la fiabilité et l'accessibilité financière, mais pas la cote d'efficacité énergétique en tant qu'indicateur principal."
               }
             }
           },
           {
             "id": 8,
-            "prompt": "Quelle proportion du déficit d'accès à la cuisine propre dans le monde est concentrée en Afrique subsaharienne ?",
+            "prompt": "Quelle proportion du déficit mondial d'accès à la cuisine propre est concentrée en Afrique subsaharienne ?",
             "multiple": false,
             "options": [
               {
@@ -307,11 +307,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "L'Afrique subsaharienne représente plus de 80 % du déficit d'accès à la cuisson propre dans le monde."
+                "body": "L'Afrique subsaharienne représente plus de 80 % du déficit mondial d'accès à la cuisson propre."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "L'Afrique subsaharienne représente plus de 80 % du déficit d'accès à la cuisson propre dans le monde."
+                "body": "L'Afrique subsaharienne représente plus de 80 % du déficit mondial d'accès à la cuisson propre."
               }
             }
           },
@@ -322,7 +322,7 @@
             "options": [
               {
                 "id": 1,
-                "value": "Systèmes d'irrigation en fonctionnement"
+                "value": "Faire fonctionner les systèmes d'irrigation"
               },
               {
                 "id": 2,
@@ -345,26 +345,26 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Les utilisations productives de l'énergie sont celles qui génèrent des revenus ou améliorent la production économique, comme l'irrigation, le stockage à froid et les appareils industriels."
+                "body": "Les utilisations productives de l'énergie sont celles qui génèrent des revenus ou améliorent la production économique, comme l'irrigation, le stockage frigorifique et les appareils industriels."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Les utilisations productives de l'énergie sont celles qui génèrent des revenus ou améliorent la production économique, comme l'irrigation, le stockage à froid et les appareils industriels."
+                "body": "Les utilisations productives de l'énergie sont celles qui génèrent des revenus ou améliorent la production économique, comme l'irrigation, le stockage frigorifique et les appareils industriels."
               }
             }
           },
           {
             "id": 10,
-            "prompt": "<strong>10.</strong> Quel outil utilise des données géospatiales pour identifier les zones prioritaires pour les interventions d'accès à l'énergie ?",
+            "prompt": "10. Quel outil utilise des données géospatiales pour identifier les zones prioritaires pour les interventions en matière d'accès à l'énergie ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Cadre Multi-Niveaux (CMN)"
+                "value": "Cadre à plusieurs niveaux (MTF)"
               },
               {
                 "id": 2,
-                "value": "<strong>Outil OnStove</strong>"
+                "value": "Outil OnStove"
               },
               {
                 "id": 3,
@@ -372,7 +372,7 @@
               },
               {
                 "id": 4,
-                "value": "Cadre de Suivi Mondial (GTF)"
+                "value": "Cadre de suivi mondial (GTF)"
               }
             ],
             "solution": [
@@ -397,11 +397,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
           "caption": ""
         },
         "intro": "Prochainement",
-        "title": "Module 2 Conclusion",
+        "title": "Outro du module 2",
         "cta": "Continuez à apprendre",
         "nextLessonId": "2.-1.-1"
       }

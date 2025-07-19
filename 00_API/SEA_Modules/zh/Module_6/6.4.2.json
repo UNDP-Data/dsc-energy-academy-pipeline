@@ -1,0 +1,557 @@
+{
+  "id": "6.4.2",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_577.webp",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "2"
+        },
+        "title": "可持续建筑：效率、电气化与公平",
+        "cta": "",
+        "intro": "第6部分：气候变化与能源的关系"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第2课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "建筑行业，包括施工、供暖、制冷、照明和家用电器，占全球能源消耗和排放的三分之一以上。 仅操作就占全球最终能源使用的30%和与能源相关的排放的26%，其中8%来自直接排放，18%来自与电力和热能生产相关的间接排放。 <br />虽然直接排放在2022年略有下降至3亿吨，但由于对电力的依赖增加，间接排放上升至近6.8亿吨。 尽管取得了一些进展，该行业仍偏离实现<a href=\"https://www.iea.org/reports/global-energy-and-climate-model/net-zero-emissions-by-2050-scenario-nze\"><u>2050年净零排放（NZE）场景</u></a>的轨道。 解决这个问题需要共同努力以改善<ai prompt=\"Explain energy efficiency.\">能源效率 💬️</ai>并采用可再生能源技术。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0a97d9",
+            "#dd1367",
+            "#fd6925",
+            "#fcc30b",
+            "#0468b1",
+            "#fd9d24",
+            "#c5192d",
+            "#3f7e44",
+            "#4c9f38",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "EJ"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2022"
+            ],
+            "name": "Year"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Residential",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                20.96
+              ]
+            },
+            {
+              "name": "Non-residential",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                8.76
+              ]
+            },
+            {
+              "name": "Buildings construction industry",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3.97
+              ]
+            },
+            {
+              "name": "Other construction industry",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3.33
+              ]
+            },
+            {
+              "name": "Other",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                62.98
+              ]
+            }
+          ],
+          "title": {
+            "text": "建筑物的最终能源消耗相对于其他部门，2022",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_604.webp",
+          "caption": ""
+        },
+        "intro": "第6部分：气候变化与能源的关系",
+        "title": "挑战与机遇"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>尽管取得了一些进展，但该行业仍有大量未被开发的机会。 大约80%的具有经济可行性的能源效率措施尚未实施。<br /></strong><br />建筑能源规范对于推动效率至关重要，但仅在44个国家存在，导致全球82%的人口生活在没有此类标准的国家中。 这尤其令人担忧，因为预计到2020年至2030年，全球面积将增长20%，主要在发展中国家。 此外，行业的脱碳不仅仅需要制定新标准；对现有建筑进行改造仍然是一个重大挑战，原因是基础设施老化（尤其是在发达经济体中）、隔热不良和设计过时。<br /> <br />发展中国家面临双重挑战，一方面改善现代能源服务的获取，例如制冷，另一方面同时减少排放。 如果不采取立即行动，这些地区有可能成为能源需求和排放增长的重要来源。 政策、投资和技术必须应对这一快速增长的需求，同时避免可能阻碍未来<ai prompt=\"解释去碳化。\">去碳化 💬️</ai>努力的路径依赖。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_2748.webp",
+          "caption": ""
+        },
+        "intro": "第6部分：气候变化与能源的关系",
+        "title": "B：行业脱碳策略"
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_716.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>针对直接排放 </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "减少直接或范围1的排放（那些由建筑物中的燃料燃烧直接产生的排放）需要提高能源效率并过渡到可再生能源。 国际能源署估计，到2050年，25%的减排目标可能来自于供暖、制冷、照明和通风的能源效率提升。 可再生技术，如太阳能光伏（PV）和太阳能热系统，可能额外贡献30%。 各国政府正日益采取措施逐步淘汰以化石燃料为基础的系统。 这包括禁止使用化石燃料供暖设备以及限制新建筑物连接天然气管网。 诸如热泵等技术，正迅速赢得市场份额，是这一转型的基石。 热泵在隔热良好的建筑中尤为有效，其较低的供暖需求降低了成本和能源消耗。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_2757.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>针对间接排放</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "间接排放或范围2排放（由建筑物购买和使用的电力、蒸汽、热量或冷却的产生所产生的排放）源于电力和热能的生产。 为应对这一挑战，行业必须加快电气化，同时实现电网的去碳化。 电气化使建筑物能够摆脱化石燃料，同时利用可再生能源供电的电网。 <br /><br />然而，确保建筑外壳的能源性能对于防止在此过渡期间对电力系统造成过度压力至关重要。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3437.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>应对制冷需求 </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "预计冷却需求将显著增加，从目前占全球用电的20%增长到2050年的37%。 到2030年，空调设备的数量预计将增加50%，进一步加重电网的负担。 为了解决这个问题，投资于电网韧性、先进的负载管理和可再生能源整合将是必不可少的。 <br /><br />热泵以及良好隔热的建筑可以支持这一不断增长的需求。 这些系统提高能源效率并减少电网的峰值负荷。 然而，管理与冷却相关的排放将需要仔细的规划，以确保电网保持可持续和可靠。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>将可持续冷却目标纳入国家和地方政策，包括《国家自主贡献》、国家冷却行动计划（NCAP）和城市级热行动计划。</strong> 确保这些整合的政策涵盖法规、政策、技术和运营方面，以符合《巴黎协定》和《基加利修正案》在《蒙特利尔议定书》下的目标。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>采用整体系统方法加快气候友好型制冷。</strong> 这包括制定框架，带来“综合制冷视角”，同时在能源、建筑、交通、健康和农业等领域开发项目和计划。 加快气候友好型冷却的政策选择包括：更新能源建筑规范和推广绿色建筑，采用被动冷却措施，实施财政激励措施并改善运营活动。 例如，印度尼西亚正在实施冷屋顶，而越南和柬埔寨则通过建筑标准推广被动冷却解决方案。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>提高制冷技术的能源效率，包括空调和制冷。</strong> 例如，全球部署的大多数空调的效率比高效空调低2-3倍。 因此，像印度这样的国家，预计到2040年冷却需求将增长8倍，应专注于扩大高效技术的部署，并促进新技术的开发和创新。 建立最低能效性能系统（MEPS），与全球最佳实践保持一致。 例如，新加坡已采用最低能效标准（MEPS）和强制性能源标签计划（MELS）用于空调。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>利用数字时代和创新来提高能源效率。</strong> </strong>这些创新包括利用物联网（IoT）实现智能冷却系统以优化空调性能；以及能够进行预测性维护的数据分析，减少能源浪费。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>采用创新的商业模式，确保在新兴市场国家实现包容性和负担得起的制冷访问。</strong> </strong>为了减轻高额前期成本的负担，各国应采用按用付费、账单融资和冷却即服务等商业模式。 毕竟，冷却问题关乎公平。 超过10亿人无法获得可持续的制冷，另外有29亿人使用低效的制冷设备，这对妇女和女孩产生了不成比例的影响（SEforALL 2023）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3453.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>建筑去碳化中的公平与韧性</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "改善能源和建筑系统的韧性对于生活在劣质住房中的弱势群体至关重要。 这些家庭面临气候变化、能源贫困和相关健康影响的比例失衡风险。 确保公平获取节能技术可以减轻这些风险，同时改善生活水平。 <br /><br /><strong>降低能源效率投资借贷成本的项目，例如政府和公共事业的倡议，是至关重要的。</strong> 这些努力可以支持<ai prompt=\"提供有关边缘化社区的更多信息。\">边缘化社区 💬️</ai>，使他们能够参与向可持续能源的转型，同时减少能源贫困和相关的脆弱性。 </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>2024-2025年建筑与施工全球状况报告</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "在《巴黎协定》签署十年后，2023年标志着建筑施工增长首次与排放上升脱钩。 这一转变由强制性能源规范、性能标准和效率投资推动，减少了该行业的能源强度近10%，并将可再生能源在最终能源需求中的份额提高了5%。 通过循环建设、绿色租赁、改造和低碳材料可以实现进一步的收益，提高效率并减少浪费。 然而，该行业仍然是主要的排放源，消耗全球能源的32%，产生34%的二氧化碳排放，水泥和钢铁等材料对全球排放贡献18%，并产生大量建筑废料。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3487.webp",
+              "caption": "image caption"
+            },
+            "title": "<建筑>行业是能源消耗和排放的主要贡献者。",
+            "description": "建筑行业占全球能源消耗和排放的三分之一以上，但大约80%的具有成本效益的能源效率措施仍未被开发利用。 电气化，特别是通过热泵和可再生能源，是减少建筑物直接和间接排放的关键，强调需要立即采取行动。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3481.webp",
+              "caption": "image caption"
+            },
+            "title": "需要紧急采取行动以防止高碳基础设施的锁定。",
+            "description": "预计到2030年，全球建筑面积将扩大20%，尤其是在发展中国家，迫切需要实施建筑节能规范，推广高效冷却解决方案，避免高碳基础设施的锁定。 现在不采取行动可能导致长期后果，阻碍未来的脱碳努力。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3475.webp",
+              "caption": "image caption"
+            },
+            "title": "有针对性的政策对于解决能源贫困至关重要。",
+            "description": "居住在劣质住房中的弱势群体在能源贫困和气候变化影响方面受到不成比例的影响。 为了改善可持续性和生活水平，必须制定有针对性的政策、创新的融资机制和政府项目，以确保获得节能住房和技术。 这种方法将有助于减轻风险，同时增强应对气候挑战的整体韧性。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第3课：转变交通：电气化与包容性出行",
+        "cta": "继续学习",
+        "nextLessonId": "6.4.3"
+      }
+    }
+  ]
+}

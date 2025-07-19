@@ -6,20 +6,20 @@
       "color_scheme": "dark",
       "content": {
         "title": "Cuestionario calificado <br/><strong>Módulo 4</strong>",
-        "intro": "Este cuestionario cubre todas las lecciones de este módulo. Debes alcanzar el 80 % para aprobar. ¡Buena suerte!",
+        "intro": "Este cuestionario cubre todas las lecciones de este módulo. Debes lograr el 80 % para aprobar. ¡Buena suerte!",
         "final": true,
         "labels": {
           "correct": "Correcto",
           "question": "Pregunta",
           "result": "Resultado del cuestionario",
           "score": "Tu puntuación",
-          "passingScore": "Puntuación mínima aprobatoria",
-          "startButton": "Iniciar cuestionario",
+          "passingScore": "Puntuación mínima para aprobar",
+          "startButton": "Iniciar la prueba",
           "nextButton": "Siguiente",
           "submitButton": "Enviar",
           "retryButton": "Repetir",
           "passed": "Pasado",
-          "failed": "No aprobado"
+          "failed": "No pasado"
         },
         "passingScore": 0.8,
         "questions": [
@@ -30,7 +30,7 @@
             "options": [
               {
                 "id": 1,
-                "value": "Debería verse como esta opción."
+                "value": "Debería parecerse a esta opción."
               },
               {
                 "id": 2,
@@ -52,17 +52,17 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "La opción 1 y la opción 2 son las mejores elecciones por ciertas razones específicas."
+                "body": "La Opción 1 y la Opción 2 son las mejores opciones por ciertas razones específicas."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "La opción 1 y la opción 2 son las mejores elecciones por ciertas razones específicas."
+                "body": "La Opción 1 y la Opción 2 son las mejores opciones por ciertas razones específicas."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "¿Cuáles son los tres factores clave que representa el ESG en el financiamiento de la energía sostenible?",
+            "prompt": "¿Cuáles son los tres factores clave que representa ESG en la financiación de energía sostenible?",
             "multiple": false,
             "options": [
               {
@@ -75,11 +75,11 @@
               },
               {
                 "id": 3,
-                "value": "Medio Ambiente, Social, Gobernanza"
+                "value": "Ambiental, Social, Gobernanza"
               },
               {
                 "id": 4,
-                "value": "Emisiones, Normas, Objetivos"
+                "value": "Emisiones, Normas, Metas"
               }
             ],
             "solution": [
@@ -98,7 +98,7 @@
           },
           {
             "id": 3,
-            "prompt": "¿Cuáles son las ventajas de las finanzas sostenibles? (Seleccione todo lo que aplique)",
+            "prompt": "¿Cuáles son las ventajas de la financiación sostenible? (Seleccione todo lo que corresponda)",
             "multiple": true,
             "options": [
               {
@@ -126,17 +126,17 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Las finanzas sostenibles mejoran la responsabilidad corporativa, crean valor a largo plazo y gestionan el riesgo al integrar factores ESG en la toma de decisiones."
+                "body": "Las finanzas sostenibles mejoran la responsabilidad corporativa, crean valor a largo plazo y gestionan el riesgo integrando los factores ESG en la toma de decisiones."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Las finanzas sostenibles mejoran la responsabilidad corporativa, crean valor a largo plazo y gestionan el riesgo al integrar factores ESG en la toma de decisiones."
+                "body": "Las finanzas sostenibles mejoran la responsabilidad corporativa, crean valor a largo plazo y gestionan el riesgo integrando los factores ESG en la toma de decisiones."
               }
             }
           },
           {
             "id": 4,
-            "prompt": "¿Qué región recibió solo el 2% de la inversión global en energía limpia entre 2000 y 2024?",
+            "prompt": "¿Qué región recibió solo el 2 % de la inversión mundial en energía limpia entre 2000 y 2024?",
             "multiple": false,
             "options": [
               {
@@ -162,17 +162,17 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "África subsahariana recibió solo el 2% de las inversiones globales en energía limpia, a pesar de tener necesidades energéticas significativas no satisfechas."
+                "body": "África subsahariana recibió solo el 2 % de las inversiones globales en energía limpia, a pesar de tener necesidades energéticas no satisfechas significativas."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "África subsahariana recibió solo el 2% de las inversiones globales en energía limpia, a pesar de tener necesidades energéticas significativas no satisfechas."
+                "body": "África subsahariana recibió solo el 2 % de las inversiones globales en energía limpia, a pesar de tener necesidades energéticas no satisfechas significativas."
               }
             }
           },
           {
             "id": 5,
-            "prompt": "¿Cuál es la inversión anual estimada en energía limpia necesaria en los EMDE (Mercados Emergentes y Economías en Desarrollo) para principios de la década de 2030?",
+            "prompt": "¿Cuál es la inversión anual estimada en energía limpia necesaria en los EMDE (Mercados emergentes y Economías en desarrollo) para principios de 2030?",
             "multiple": false,
             "options": [
               {
@@ -185,11 +185,11 @@
               },
               {
                 "id": 3,
-                "value": "$2.2 a $2.8 billones"
+                "value": "de $2.2 a $2.8 billones"
               },
               {
                 "id": 4,
-                "value": "$4,8 billones"
+                "value": "$4.8 billones"
               }
             ],
             "solution": [
@@ -198,17 +198,17 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Los EMDE necesitan entre 2,2 y 2,8 billones de dólares anuales para cumplir con los requisitos de inversión en energía limpia para principios de la década de 2030."
+                "body": "Las PYMES necesitan entre 2,2 y 2,8 billones de dólares anualmente para cumplir con los requisitos de inversión en energía limpia para principios de la década de 2030."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Los EMDE necesitan entre 2,2 y 2,8 billones de dólares anuales para cumplir con los requisitos de inversión en energía limpia para principios de la década de 2030."
+                "body": "Las PYMES necesitan entre 2,2 y 2,8 billones de dólares anualmente para cumplir con los requisitos de inversión en energía limpia para principios de la década de 2030."
               }
             }
           },
           {
             "id": 6,
-            "prompt": "¿Qué instrumentos se utilizan comúnmente en las finanzas combinadas? (Seleccione todo lo que aplique)",
+            "prompt": "¿Qué instrumentos se utilizan comúnmente en la financiación combinada? (Seleccione todo lo que corresponda)",
             "multiple": true,
             "options": [
               {
@@ -236,11 +236,11 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Las finanzas mixtas utilizan herramientas como la deuda subordinada, las garantías y las subvenciones de asistencia técnica para reducir el riesgo de las inversiones."
+                "body": "La financiación combinada utiliza herramientas como deuda subordinada, garantías y subvenciones de asistencia técnica para reducir los riesgos de las inversiones."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Las finanzas mixtas utilizan herramientas como la deuda subordinada, las garantías y las subvenciones de asistencia técnica para reducir el riesgo de las inversiones."
+                "body": "La financiación combinada utiliza herramientas como deuda subordinada, garantías y subvenciones de asistencia técnica para reducir los riesgos de las inversiones."
               }
             }
           },
@@ -259,11 +259,11 @@
               },
               {
                 "id": 3,
-                "value": "Un proyecto que puede generar ingresos de manera confiable para pagar préstamos"
+                "value": "Un proyecto que puede generar ingresos de manera confiable para pagar los préstamos"
               },
               {
                 "id": 4,
-                "value": "Un proyecto financiado únicamente a través de financiamiento público"
+                "value": "Un proyecto financiado únicamente a través de fondos públicos"
               }
             ],
             "solution": [
@@ -272,17 +272,17 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Un proyecto bancable es financieramente viable, capaz de generar ingresos consistentes y de bajo riesgo, lo que lo hace atractivo para los inversores."
+                "body": "Un proyecto rentable es financieramente viable, capaz de generar ingresos constantes y de bajo riesgo, lo que lo hace atractivo para los inversores."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Un proyecto bancable es financieramente viable, capaz de generar ingresos consistentes y de bajo riesgo, lo que lo hace atractivo para los inversores."
+                "body": "Un proyecto rentable es financieramente viable, capaz de generar ingresos constantes y de bajo riesgo, lo que lo hace atractivo para los inversores."
               }
             }
           },
           {
             "id": 8,
-            "prompt": "¿Cuáles de los siguientes se consideran barreras para la inversión en energía limpia en los EMDE? (Seleccione todo lo que aplique)",
+            "prompt": "¿Cuáles de los siguientes se consideran barreras para la inversión en energía limpia en los EMDEs? (Seleccione todo lo que corresponda)",
             "multiple": true,
             "options": [
               {
@@ -299,7 +299,7 @@
               },
               {
                 "id": 4,
-                "value": "<strong>Costo alto del capital</strong>"
+                "value": "<strong>Alto costo del capital</strong>"
               }
             ],
             "solution": [
@@ -310,26 +310,26 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Las barreras comunes en los EMDE incluyen regulaciones poco claras, altos costos de capital y una infraestructura obsoleta o limitada."
+                "body": "Las barreras comunes en los países en desarrollo de mercados emergentes incluyen regulaciones poco claras, altos costos de capital y una infraestructura obsoleta o limitada."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Las barreras comunes en los EMDE incluyen regulaciones poco claras, altos costos de capital y una infraestructura obsoleta o limitada."
+                "body": "Las barreras comunes en los países en desarrollo de mercados emergentes incluyen regulaciones poco claras, altos costos de capital y una infraestructura obsoleta o limitada."
               }
             }
           },
           {
             "id": 9,
-            "prompt": "En 2023, ¿cuánto se invirtió a nivel global en energía limpia?",
+            "prompt": "En 2023, ¿cuánto dinero de inversión global se destinó a la energía limpia?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "1,7 billones de dólares"
+                "value": "$1.7 billones"
               },
               {
                 "id": 2,
-                "value": "3 billones de dólares"
+                "value": "$3 billones"
               },
               {
                 "id": 3,
@@ -337,7 +337,7 @@
               },
               {
                 "id": 4,
-                "value": "$2,2 billones"
+                "value": "$2.2 billones"
               }
             ],
             "solution": [
@@ -356,7 +356,7 @@
           },
           {
             "id": 10,
-            "prompt": "¿Cuál es la 'Triple Penalización' que enfrentan los PEM en la transición energética?",
+            "prompt": "¿Cuál es la 'Triple Penalización' que enfrentan los países en desarrollo en la transición energética?",
             "multiple": false,
             "options": [
               {
@@ -392,7 +392,7 @@
           },
           {
             "id": 11,
-            "prompt": "¿Qué instrumentos de política utiliza el sector público para apoyar las energías renovables? (Seleccione todo lo que aplique)",
+            "prompt": "¿Qué instrumentos políticos utiliza el sector público para apoyar la energía renovable? (Seleccione todo lo que corresponda)",
             "multiple": true,
             "options": [
               {
@@ -401,7 +401,7 @@
               },
               {
                 "id": 2,
-                "value": "Impuestos sobre el carbono"
+                "value": "Impuestos al carbono"
               },
               {
                 "id": 3,
@@ -409,7 +409,7 @@
               },
               {
                 "id": 4,
-                "value": "Subvenciones de combustible"
+                "value": "Subsidios a los combustibles"
               }
             ],
             "solution": [
@@ -420,11 +420,11 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Los instrumentos de apoyo incluyen tarifas de alimentación, precios del carbono y contratos de rendimiento energético. Las subvenciones a los combustibles generalmente desincentivan las energías renovables."
+                "body": "Los instrumentos de apoyo incluyen tarifas de alimentación, precios del carbono y contratos de rendimiento energético. Los subsidios a los combustibles generalmente desalientan las energías renovables."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Los instrumentos de apoyo incluyen tarifas de alimentación, precios del carbono y contratos de rendimiento energético. Las subvenciones a los combustibles generalmente desincentivan las energías renovables."
+                "body": "Los instrumentos de apoyo incluyen tarifas de alimentación, precios del carbono y contratos de rendimiento energético. Los subsidios a los combustibles generalmente desalientan las energías renovables."
               }
             }
           }
@@ -436,11 +436,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module4.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module4.png",
           "caption": ""
         },
-        "intro": "Próximamente",
-        "title": "Módulo 4 Conclusión",
+        "intro": "A continuación",
+        "title": "Módulo 4 Outro",
         "cta": "Continúa aprendiendo",
         "nextLessonId": "4.-1.-1"
       }

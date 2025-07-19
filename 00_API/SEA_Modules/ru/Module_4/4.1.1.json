@@ -1,0 +1,1094 @@
+{
+  "id": "4.1.1",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_5.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "Урок",
+          "number": "1"
+        },
+        "title": "Глобальный ландшафт инвестиций в энергетику",
+        "cta": "",
+        "intro": "M4: Финансирование справедливого энергетического перехода"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Обзор урока 1</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Этот урок исследует, как глобальные инвестиции в сектор чистой энергии меняются в ответ на ускоряющийся глобальный энергетический переход. По мере того как страны работают над декарбонизацией своих экономик, инвестиции в технологии чистой энергии, такие как солнечная, ветровая и <ai prompt=\"Clarify energy storage.\">хранение энергии 💬️</ai>, выросли. <br />Этот урок предназначен для того, чтобы показать, как за последние годы развивались потоки капитала и как чистая энергия становится центральным столпом глобального энергетического баланса. <br />Кроме того, урок также хочет показать региональные различия в инвестициях, особенно между развитыми и развивающимися странами, а также срочную необходимость привлечения большего капитала для достижения глобальных климатических целей.<br />В конечном итоге, учащиеся получат представление о ключевых факторах и вызовах, влияющих на мировые инвестиции в чистую энергию."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_2.png",
+          "caption": ""
+        },
+        "intro": "M4: Финансирование справедливого энергетического перехода",
+        "title": "A: Инвестиции в устойчивую чистую энергию"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Глобальный ландшафт чистой энергии претерпевает глубокие изменения, движимый не только необходимостью сократить разрыв в доступе к энергии, но и более значительно — масштабными переходами в развитых экономиках, таких как Соединённые Штаты, Европейский Союз и Китай. Этот сдвиг обусловлен растущей необходимостью обеспечить устойчивые, безопасные, современные и доступные энергетические системы.<br /><br />В 2023 году глобальные инвестиции в чистую энергию достигли 1,8 триллиона долларов США и, по прогнозам, превысят 3 триллиона долларов в 2024 году, при этом почти 2 триллиона долларов выделено на технологии и инфраструктуру чистой энергии (<a href=\"https://www.iea.org/reports/world-energy-investment-2024/overview-and-key-findings\"><u>IEA, 2024</u></a>). [needs translation] This marks a significant acceleration. Глобальные инвестиции в технологии энергетического перехода выросли на 19 % по сравнению с 2021 годом и почти на 70 % по сравнению с уровнями до пандемии COVID-19 в 2019 году."
+            }
+          },
+          {
+            "template_id": "kpi_highlight_medium",
+            "content": {
+              "value": "<strong>3 триллиона долларов США</strong>",
+              "text": "Глобальные инвестиции в энергетику в 2024 году, как ожидается, превысят"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fcc30b",
+            "#fd9d24",
+            "#4c9f38",
+            "#3f7e44",
+            "#c5192d",
+            "#0468b1",
+            "#dd1367",
+            "#fd6925",
+            "#19486a",
+            "#0a97d9"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Billion USD"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Renewable power",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                331,
+                340,
+                351,
+                377,
+                451,
+                494,
+                517,
+                596,
+                659
+              ]
+            },
+            {
+              "name": "Energy efficiency",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                271,
+                304,
+                287,
+                264,
+                292,
+                278,
+                349,
+                391,
+                377
+              ]
+            },
+            {
+              "name": "Other end use",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                109,
+                106,
+                110,
+                118,
+                113,
+                107,
+                110,
+                114,
+                118
+              ]
+            },
+            {
+              "name": "Grids",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                325,
+                336,
+                326,
+                317,
+                300,
+                296,
+                308,
+                332,
+                331
+              ]
+            },
+            {
+              "name": "Electric vehicle",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0,
+                1,
+                5,
+                14,
+                21,
+                29,
+                60,
+                95,
+                129
+              ]
+            },
+            {
+              "name": "Battery storage",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                2,
+                3,
+                3,
+                5,
+                5,
+                7,
+                10,
+                21,
+                37
+              ]
+            },
+            {
+              "name": "Nuclear",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                29,
+                35,
+                39,
+                36,
+                37,
+                40,
+                45,
+                53,
+                63
+              ]
+            },
+            {
+              "name": "Low-emission fuels and carbon capture utilisation and storage",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                7,
+                7,
+                7,
+                6,
+                7,
+                7,
+                8,
+                15,
+                26
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Ежегодные инвестиции в чистую энергию, 2015-2023",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Однако, несмотря на рекордные уровни инвестиций, мир остается далеко от того, чтобы оставаться на пути к нулевым выбросам к середине века. Импульс есть, но он еще не амбициозен или достаточен для достижения необходимых целей. <br /><br />Чтобы достичь целей, поставленных лидерами в Парижском соглашении, ежегодные инвестиции в технологии перехода на чистую энергию должны в среднем составлять <strong>4,8 триллиона</strong> долларов в период с 2024 по 2030 год (<a href=\"https://assets.bbhub.io/professional/sites/24/Energy-Transition-Investment-Trends-2024.pdf?\"><u>BNEF, 2024</u></a>). Как упоминалось, текущие уровни инвестиций, хотя и впечатляющие с более чем 3 триллионами долларов, запланированными на 2024 год, все еще недостаточны, выявляя расширяющийся разрыв, который необходимо срочно устранить. <a href=\"https://iea.blob.core.windows.net/assets/fc78dc81-8167-4c41-b8a6-e3386fecf957/TrackingSDG7TheEnergyProgressReport%2C2025.pdf\"><u>В 2023 году 21,6 миллиарда долларов США международных финансовых потоков было направлено в развивающиеся страны в поддержку чистой энергии (МЭА, 2025) <br /></u></a><br />На COP29 в Баку, Азербайджан, в 2024 году, также известной как «Финансовая COP», мировые лидеры признали этот разрыв и ответили, повысив амбиции усилий по финансированию климата. Международное сообщество взяло на себя обязательство по <a href=\"https://unfccc.int/NCQG\"><u>Новой коллективной количественной цели</u></a> (NCQG) с обязательством мобилизовать 300 миллиардов долларов США ежегодно, начиная с 2025 года, что в три раза превышает предыдущий взнос в 100 миллиардов долларов в год, сделанный более десяти лет назад. <br /><br />Хотя это важный шаг вперед, масштаб проблемы требует еще более скоординированных действий со стороны правительств, инвесторов и институтов развития для устранения необходимого инвестиционного разрыва.<br /><br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_4/4060_9201.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_12.png",
+          "caption": ""
+        },
+        "intro": "M4: Финансирование справедливого энергетического перехода",
+        "title": "B: Географические различия в энергетических инвестициях"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "В то время как мир сейчас испытывает сильный импульс для ускорения инвестиций в энергию, рынки сбыта и развивающиеся экономики (EMDEs) остро нуждаются в увеличении внешних инвестиций в возобновляемую энергию, чтобы достичь своих Целей устойчивого развития и перейти к более чистому энергетическому будущему. [needs translation] <br /><br />According to UNCTAD and IEA, EMDEs need between <a href=\"https://unctad.org/press-material/unctad-calls-urgent-support-developing-countries-attract-massive-investment-clean#:~:text=in%20clean%20energy-,UNCTAD%20calls%20for%20urgent%20support%20to%20developing%20countries,massive%20investment%20in%20clean%20energy&text=Developing%20countries%20need%20renewable%20energy,only%20%24544%20billion%20in%202022.\"><u>$1.7 trillion</u></a> and <a href=\"https://www.iea.org/reports/scaling-up-private-finance-for-clean-energy-in-emerging-and-developing-economies/executive-summary\"><u>$2.8 trillion annually</u></a> for clean energy investments each year in renewable and clean energy investments to cover the necessities such as solar PVs, wind, power grids and storage. <br /><br />Чтобы достичь этого, ежегодные инвестиции должны увеличиться с <a href=\"https://www.iea.org/reports/scaling-up-private-finance-for-clean-energy-in-emerging-and-developing-economies/executive-summary\"><u>770 миллиардов долларов в 2022 году до 2,2–2,8 триллионов долларов к началу 2030-х годов</u></a>. [needs translation] If China is excluded, the investment gap widens further, requiring annual investment to increase from USD 260 billion to as much as USD 1.4–1.9 trillion—<a href=\"https://www.iea.org/reports/scaling-up-private-finance-for-clean-energy-in-emerging-and-developing-economies/executive-summary\"><u>a nearly sevenfold increase.</u></a> <br /><br />In 2024, EMDEs outside China account for only around 15% of global clean energy investment (<a href=\"https://www.iea.org/reports/world-energy-investment-2024/overview-and-key-findings\"><u>IEA, 2024</u></a>). Например, в странах Африки к югу от Сахары было получено всего 2 % от общего объема инвестиций в мире в период с 2000 по 2024 год, при этом большинство инвестиций было направлено в Южную Африку, Кению, Уганду и Замбию. <br /><br />Разрыв в инвестициях в возобновляемую энергию также отражается в различиях инвестиций на душу населения в разных регионах. Инвестиции в чистую энергию растут по всему миру, но большая часть роста сосредоточена в нескольких странах и регионах."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#c5192d",
+            "#dd1367",
+            "#4c9f38",
+            "#19486a",
+            "#fcc30b",
+            "#0468b1",
+            "#fd6925",
+            "#3f7e44",
+            "#0a97d9",
+            "#fd9d24"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "max": 1,
+            "name": "%"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "East Asia and Pacific",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.4,
+                0.43,
+                0.46,
+                0.41,
+                0.4019607843137255,
+                0.29,
+                0.42,
+                0.49,
+                0.56,
+                0.66
+              ]
+            },
+            {
+              "name": "North America (excl. Mexico)",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.14,
+                0.14,
+                0.13,
+                0.19,
+                0.1568627450980392,
+                0.23,
+                0.21,
+                0.15,
+                0.15,
+                0.12
+              ]
+            },
+            {
+              "name": "Europe",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.21,
+                0.2,
+                0.21,
+                0.2,
+                0.13725490196078433,
+                0.21,
+                0.16,
+                0.19,
+                0.18,
+                0.12
+              ]
+            },
+            {
+              "name": "Eurasia",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.02,
+                0.01,
+                0.01,
+                0.01,
+                0.00980392156862745,
+                0.01,
+                0.01,
+                0.01,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Latin America & Caribbean",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.08,
+                0.07,
+                0.08,
+                0.05,
+                0.058823529411764705,
+                0.06,
+                0.06,
+                0.05,
+                0.05,
+                0.04
+              ]
+            },
+            {
+              "name": "South Asia",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.03,
+                0.04,
+                0.04,
+                0.04,
+                0.049019607843137254,
+                0.03,
+                0.06,
+                0.05,
+                0.03,
+                0.03
+              ]
+            },
+            {
+              "name": "Sub-Saharan Africa",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.02,
+                0.01,
+                0.02,
+                0.02,
+                0.0196078431372549,
+                0.01,
+                0.01,
+                0.01,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Others",
+              "type": "bar",
+              "stack": "total",
+              "label": {
+                "formatter": {
+                  "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+                }
+              },
+              "data": [
+                0.1,
+                0.1,
+                0.05,
+                0.08,
+                0.16666666666666666,
+                0.16,
+                0.07,
+                0.05,
+                0.03,
+                0.03
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "Инвестиции в возобновляемую энергию по регионам назначения, 2013-2022",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "kpi_highlight_medium",
+            "content": {
+              "value": "<strong>Только 2%</strong>",
+              "text": "от суммы, инвестированной в глобальную чистую энергию <br />между 2000 и 2024 годами, была в <br />Субсахарской Африке"
+            }
+          },
+          {
+            "template_id": "kpi_highlight_medium",
+            "content": {
+              "value": "<strong>15%</strong>",
+              "text": "Развивающиеся рынки за пределами Китая составляли"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Страны и регионы лидеры<br /><br /></strong>Как показывает предыдущий график, лидерами в инвестициях в чистую энергию являются, <strong>Китай</strong>, <strong>США</strong> и <strong>Европейский союз</strong>. <br /><strong><br /></strong>В Восточной Азии и Тихоокеанском регионе <strong>Китай</strong> лидирует в инвестициях и планирует потратить почти 680 миллиардов долларов в 2024 году <a href=\"https://www.iea.org/reports/world-energy-investment-2024/overview-and-key-findings\"><u>(МЭА, 2024</u></a>). Китай идет по пути выполнения — а в некоторых случаях превышения — своих целей в области чистой энергии, как указано в <a href=\"https://cset.georgetown.edu/publication/china-14th-five-year-plan/\"><u>14-м пятилетнем плане (2021-2025)</u></a>. Это благодаря сочетанию мер политики, направленных на стимулирование роста чистой энергии, таких как:<br /><br />Налоговые льготы и субсидии, которые предоставляют стимулы для привлечения инвестиций и ускорения развертывания солнечных и <ai prompt=\"Предоставьте дополнительную информацию о ветровой энергии.\">ветровая энергия 💬️</ai> проектов<br />Развитие инфраструктуры, сосредоточенное на улучшении электросетей и содействии интеграции возобновляемых источников энергии<br />Введение политик и регуляторных реформ для поощрения участия частного сектора и стимулов в секторе возобновляемой энергии<br /><br />Другие страны региона также делают большие шаги в энергетическом секторе. Например, Индия является третьим по величине мировым инвестором в возобновляемую и чистую энергию с инвестициями более 60 миллиардов долларов в чистую энергию в 2024 году (<a href=\"https://www.iea.org/reports/world-energy-investment-2024/india\"><u>IEA, 2024</u></a>)<br />Позже в уроке мы также подчеркнем роль и потенциал Индонезии в энергетическом переходе и инвестициях региона. Другая страна — Таиланд, которая стремится к тому, чтобы к 2050 году доля возобновляемых источников энергии в ее производстве электроэнергии достигла 50% (<a href=\"https://www.iea.org/reports/thailands-clean-electricity-transition\"><u>МЭА, 2023</u></a>) <br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "В <strong>Соединенных Штатах</strong> ожидается, что положения, связанные с энергетикой, в <strong>Законе о снижении инфляции 2022 года (IRA)</strong> будут представлять собой почти 870 миллиардов долларов целевой поддержки до 2031 года в виде налоговых кредитов, грантов и займов, а также инвестиций в чистую электроэнергетику, электрификацию транспортных средств, энергоэффективность, <ai prompt=\"Что такое улавливание и хранение углерода?\">улавливание и хранение углерода 💬️</ai> и низкоуглеродный водород. [needs translation] The US is the second-largest funding destination for energy transition technologies, with a total of $303 million spent in 2023 (<a href=\"https://assets.bbhub.io/professional/sites/24/Energy-Transition-Investment-Trends-2024.pdf?\"><u>BNEF, 2024</u></a>) However, as of January 2025, the Trump Administration have suspended the IRA through an Executive Order and immediately paused the disbursement of funds appropriated through the IRA, although the vast majority of grants for clean energy programs appropriated under the IRA (<a href=\"https://www.reuters.com/sustainability/sustainable-finance-reporting/white-house-says-order-pausing-ira-disbursements-only-applies-some-programs-2025-01-22/\"><u>Reuters, 2025</u></a>)<br /><br />In the <strong>EU</strong>, the European Commission's <a href=\"https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal/green-deal-industrial-plan_en\"><u>Green Deal Industrial Plan for the Net-Zero Age</u></a>, introduced in February 2023 provides investment aid, simplified regulatory frameworks and tax breaks for net-zero product development, manufacturing, production, and installation in renewables and hydrogen sectors. План предусматривает получение 225 миллиардов евро в виде кредитов от Фонда восстановления и устойчивости и 20 миллиардов евро в виде грантов для поддержки инвестиций и реформ в энергетическом секторе."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>С другой стороны, 120 развивающихся рынков и стран получают мало инвестиций.</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Инвестиции в чистую энергию в других странах в основном направляются в Бразилию, Чили и, как упоминалось, в Индию. Несмотря на глобальный рост инвестиций в чистую энергию, страны с развивающейся и недавно индустриализированной экономикой продолжают получать лишь непропорционально малую долю — всего 15% — от глобальных инвестиций в чистую энергию, в то время как они составляют более 50% населения мира. <br /><br />В<strong> Африке</strong>, достижение целей, связанных с энергетикой и климатом, к 2030 году потребует ежегодных инвестиций более 200 миллиардов долларов до конца этого десятилетия. По мере роста энергетического спроса на континенте и при том, что в настоящее время энергетические инвестиции составляют всего 1,2% ВВП региона, инвестиции в чистую энергию, хотя и увеличиваются, составляют всего 2% от мирового общего (<a href=\"https://www.iea.org/reports/world-energy-investment-2024/africa\"><u>МЭА, 2024</u></a>) <br /><br />В <strong>Латинской Америке и Карибском бассейне</strong> (LAC), Бразилия лидирует по инвестициям в энергию. В 2025 году инвестиции в чистую энергию в ЛАЭС, по прогнозам, достигнут примерно <strong>70 миллиардов долларов США</strong>, что на почти 25 % больше, чем в 2015 году (<a href=\"https://www.iea.org/reports/world-energy-investment-2025/latin-america-and-the-caribbean\"><u>МЭА, 2025</u></a>). [needs translation] This growth underscores the region's commitment to expanding renewable energy infrastructure, despite facing diverse economic and political challenges.<br /><br />In the <strong>Middle East</strong>, a region that is home to five of the world’s top oil producers: Saudi Arabia, Iraq, the United Arab Emirates (UAE), Iran and Kuwait the energy investments in the region is expected to reach $175 billion in 2024, with clean energy accounting for around 15% if the total investment (<a href=\"https://iea.blob.core.windows.net/assets/d829545d-fab6-4c98-b266-28556d86ce8d/WorldEnergyInvestment2024.pdf\"><u>IEA, 2024</u></a>). Однако энергетический сектор региона обладает огромным потенциалом для увеличения инвестиций в технологии чистой энергии, такие как солнечная фотоэлектрическая энергия, и такие страны, как Саудовская Аравия и ОАЭ, стремятся диверсифицировать свои экономики в другие сектора, отходя от нефти к более устойчивым и экологичным секторам. </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_6.png",
+          "caption": ""
+        },
+        "intro": "M4: Финансирование справедливого энергетического перехода",
+        "title": "C: Тройное наказание энергетического перехода в развивающейся стране"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>«Тройная штрафная» энергетического перехода в развивающихся странах (EMDEs) относится к трем взаимосвязанным недостаткам: </strong>доступности, зависимости и доступа, с которыми страны часто сталкиваются в своих усилиях по переходу на чистую энергию:<br /><br />Доступность: <br />Развивающиеся страны обычно сталкиваются с более высокими процентными ставками, более высокими затратами на финансирование и премиями за риск, что делает проекты по чистой энергии более дорогими для финансирования. <br />Зависимость:<br />Многие страны с развивающейся экономикой сильно зависят от импортных ископаемых видов топлива, что делает их уязвимыми к колебаниям цен, глобальным конфликтам и сбоям в поставках. <br />Ограниченный доступ к технологиям и навыкам:<br />Отсутствие доступа к передовым технологиям, квалифицированной рабочей силе и инновационным экосистемам усложняет развивающимся странам (EMDE) развертывание и эффективную эксплуатацию инфраструктуры чистой энергии.<br /><strong><br /></strong>Эта система тройных штрафов создает системное неравенство, усугубляя глобальное энергетическое неравенство, рискуя оставить страны в состоянии <a href=\"https://www.wri.org/insights/carbon-lock-in-definition\"><u>зависимости от ископаемого топлива / блокировки углерода</u></a> и ограничивая их способность одновременно достигать своих климатических и развивающихся целей. Этот многогранный вызов препятствует экономическому росту и усугубляет энергетическую бедность."
+            }
+          },
+          {
+            "template_id": "kpi_highlight_medium",
+            "content": {
+              "value": "<strong>60%</strong>",
+              "text": "энергия в наименее развитых странах<br />поступает из ископаемого топлива."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_4/4060_9733.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_10.png",
+          "caption": ""
+        },
+        "intro": "M4: Финансирование справедливого энергетического перехода",
+        "title": "A: Более высокие расходы на электроэнергию"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Повышение цен на ископаемое топливо значительно влияет на домохозяйства по всему миру в результате энергетического кризиса, вызванного войной в Украине. Между февралем и сентябрем 2022 года цены на уголь и продукты из угля выросли до <strong>235%</strong>, на сырую нефть и нефтепродукты — до <strong>80%</strong>, а на природный газ — до <strong>159%</strong>. <br /><br />Эти повышения цен на энергию напрямую приводят к увеличению затрат на энергию для домашних хозяйств по всему миру, значительно напрягая бюджеты. Общие расходы на домашнюю энергию на душу населения увеличились в диапазоне от 62,6% до 112,9% по всему миру, что привело к росту домашних расходов на 2,7%–4,8%.<br /><br />Распределение этих затрат значительно варьируется в разных регионах. Например, в Центральной Азии семьи сталкиваются с самыми большими прямыми увеличениями затрат на энергию в Таджикистане, где прямые затраты на энергию выросли более чем на 176%. В Восточной Европе в октябре 2021 года Молдова столкнулась с энергетическим кризисом, когда нехватка газа и электроэнергии вызвала рост тарифов. В 2022 году цены на природный газ выросли в семь раз, а на электроэнергию — на 400%. В результате, перед зимой 2022 года более 70% домохозяйств в стране считались уязвимыми в энергетическом плане, тратя более 10% своих доходов на энергию, в частности на отопление в холодный период с ноября по март (<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/2025-02/undp-report-evrf-2022-2023-00134246.pdf?\"><u>UNDP, 2024</u></a>). <br /><br />Напротив, домохозяйства Латинской Америки были среди наименее пострадавших напрямую, с увеличением около 51,5 %. Кроме того, субсидии играют важную роль, например, в Венесуэле цены на энергию сильно субсидированы. Напротив, регион Карибского бассейна обычно испытывает более высокие затраты на энергию."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Исследование, сосредоточенное на электрификации всех домохозяйств в 40 странах южнее Сахары в Африке к 2030 году, выделило несколько ключевых аспектов. Стоимость электрификации этих районов значительно варьируется в зависимости от уровня обслуживания (Уровень 2 до 4), при этом более высокие уровни требуют большего капитала. Например, достижение уровня электрификации Tier 3 приводит к средним затратам на человека в день в размере 16 центов США, а для Tier 4 это увеличивается до 40 центов США на человека в день (<a href=\"https://www.researchgate.net/publication/373262311_The_cost_of_electrifying_all_households_in_40_Sub-Saharan_African_countries_by_2030\"><u>Researchgate, 2023</u></a>). Это представляет собой существенную проблему, особенно учитывая, что 389 миллионов человек в этих регионах живут за чертой бедности."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_11.png",
+          "caption": ""
+        },
+        "intro": "M4: Финансирование справедливого энергетического перехода",
+        "title": "B: Ограниченный доступ к проектам чистой энергии"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Этот откат контрастирует с значительными достижениями в Азии, где с 2010 года почти 1 миллиард человек получили доступ к электроэнергии,<br>в основном благодаря амбициозной государственной политике и облегчению финансирования. [needs translation] For instance, countries like India, Indonesia, and Bangladesh have managed to extend access to more than 99% of their populations.<br /><br />Despite these efforts, the current pace of progress suggests that by 2030, approximately 660 million people will remain without electricity and around 1.8 billion without access to <ai prompt=\"Share details about clean cooking.\">clean cooking 💬️</ai> technologies and fuels, with the majority (85%) located in Sub-Saharan Africa (<a href=\"https://www.worldbank.org/en/news/press-release/2024/06/11/progress-on-basic-energy-access-reverses-for-first-time-in-a-decade?\"><u>World Bank, 2024</u></a>). Чтобы преодолеть этот разрыв, необходимо примерно 30 миллиардов долларов в год на генерацию, электросети и децентрализованные решения.<br /><br />"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "[needs translation] Limited access to clean energy remains a significant challenge worldwide, impeding progress towards <strong>SDG 7 - Universal access to affordable, reliable, sustainable, and modern energy by 2030.<br /></strong><br />Data from 2023 show that approximately 666 million people globally live without electricity, and a staggering 2.1 billion continue to rely on fuels that are harmful to heath and the environment for cooking, predominantly located in Sub-Saharan Africa and Asia (<a href=\"https://iea.blob.core.windows.net/assets/fc78dc81-8167-4c41-b8a6-e3386fecf957/TrackingSDG7TheEnergyProgressReport%2C2025.pdf\"><u>IEA, 2025</u></a>) . Эти цифры свидетельствуют о значительном разрыве в достижении Цели устойчивого развития 7. <br /><a href=\"#_ftn1\"><u><br /></u></a>Ландшафт доступа к энергии значительно варьируется в различных регионах развивающихся стран. Особенно в странах южнее Сахары, где прогресс был особенно медленным, число людей без доступа к электроэнергии увеличилось, достигнув 600 миллионов в 2022 году, почти вернувшись к историческим максимумам."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_11.png",
+          "caption": ""
+        },
+        "intro": "M4: Финансирование справедливого энергетического перехода",
+        "title": "C: Зависимость от ископаемого топлива"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Ископаемое топливо продолжает играть доминирующую роль в мировом энергетическом балансе, данные за 2022 - 2023 годы показывают, что примерно 80% мировой первичной энергии по-прежнему поступает из угля, нефти и природного газа, особенно в развивающихся странах (<a href=\"https://www.iea.org/reports/world-energy-outlook-2024/pathways-for-the-energy-mix?\"><u>МЭА, 2024</u></a>).<br /><br />Эта зависимость варьируется по регионам, в некоторых районах больше зависит от определенных видов ископаемого топлива для производства электроэнергии, чем в других. Например, уголь и газ являются основными источниками электроэнергии в мире, при этом нефть вносит меньший вклад.<br /><br />Финансовый аспект потребления ископаемого топлива также важен. В 2022 году мировые субсидии на ископаемое топливо достигли 7 триллионов долларов, или 7,1 процента ВВП (<a href=\"https://www.imf.org/en/Publications/WP/Issues/2023/08/22/IMF-Fossil-Fuel-Subsidies-Data-2023-Update-537281?\"><u>МВФ, 2023</u></a>). Эти субсидии связаны не только с занижением стоимости поставки, но и с отсутствием учета экологических и медицинских затрат, связанных с потреблением ископаемого топлива. [needs translation] The majority of these subsidies arise from undercharging for the costs of global warming and local air pollution .<br /><br />In 2023, governments – especially in emerging and developing economies – continued to heavily subsidies the use of fossil fuels, spending $620 billion (<a href=\"https://www.iea.org/topics/fossil-fuel-subsidies\"><u>IEA</u></a>)<br /><br />Despite international climate agreements and growing awareness of the need for clean energy, the <a href=\"https://www.unep.org/resources/production-gap-report-2023\"><u>Production Gap Report 2023</u></a> highlights a concerning trend that <strong>governments plan to produce around 110% more fossil fuels by 2030 than would be consistent with limiting global warming to 1.5°C, and 69% more than would be consistent with a 2°C limit.</strong> This underscores a significant challenge in aligning national fossil fuel production plans with the global climate targets .<br /><br /><br /><br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые выводы",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_6.png",
+              "caption": ""
+            },
+            "title": "Инвестиции в технологии чистой энергии растут, но остаются недостаточными для достижения глобальных климатических целей. Развивающиеся рынки и экономики (EMDEs) за пределами Китая составляют всего около 15% от глобальных инвестиций в чистую энергию.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_1.png",
+              "caption": ""
+            },
+            "title": "Существуют значительные различия в инвестициях в глобальный энергетический переход Китай, США. и ЕС лидируют в мировой гонке за энергетический переход, в то время как <strong>Южная Африка</strong> значительно отстает, получая всего 2% от глобальных инвестиций в чистую энергию в период с 2000 по 2024 год, несмотря на то, что в регионе проживает более половины населения мира.",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_4.png",
+              "caption": ""
+            },
+            "title": "Региональные различия в инвестициях в энергетический переход подчеркивают необходимость справедливых механизмов финансирования. Многие МСП сталкиваются с тройной санкцией энергетического перехода, которая ограничивает их возможности, создает системное преимущество и увеличивает риски застревания в углеродной/ископаемой энергетике, ограничивая их способность достигать целей по климату и устойчивому развитию.",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module4.png",
+          "caption": ""
+        },
+        "intro": "Далее",
+        "title": "Урок 2: Глобальный ландшафт инвестиций в энергетику",
+        "cta": "Продолжайте учиться",
+        "nextLessonId": "4.1.2"
+      }
+    }
+  ]
+}

@@ -6,20 +6,20 @@
       "color_scheme": "dark",
       "content": {
         "title": "Quiz noté <br/><strong>Module 4</strong>",
-        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance !",
+        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance!",
         "final": true,
         "labels": {
           "correct": "Correct",
           "question": "Question",
           "result": "Résultat du quiz",
           "score": "Votre score",
-          "passingScore": "Score minimum requis",
-          "startButton": "Commencer le quiz",
+          "passingScore": "Score minimum de passage",
+          "startButton": "Démarrer le quiz",
           "nextButton": "Suivant",
           "submitButton": "Soumettre",
           "retryButton": "Rejouer",
           "passed": "Passé",
-          "failed": "Non réussi"
+          "failed": "Non passé"
         },
         "passingScore": 0.8,
         "questions": [
@@ -52,17 +52,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "L'option 1 et l'option 2 sont les meilleurs choix pour certaines raisons spécifiques."
+                "body": "L'Option 1 et l'Option 2 sont les meilleurs choix pour certaines raisons spécifiques."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "L'option 1 et l'option 2 sont les meilleurs choix pour certaines raisons spécifiques."
+                "body": "L'Option 1 et l'Option 2 sont les meilleurs choix pour certaines raisons spécifiques."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "Quels sont les trois facteurs clés que l'ESG représente dans le financement de l'énergie durable ?",
+            "prompt": "Quels sont les trois facteurs clés que représente ESG dans le financement de l'énergie durable?",
             "multiple": false,
             "options": [
               {
@@ -75,7 +75,7 @@
               },
               {
                 "id": 3,
-                "value": "Environnement, Social, Gouvernance"
+                "value": "Environnemental, Social, Gouvernance"
               },
               {
                 "id": 4,
@@ -88,11 +88,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "L'ESG fait référence aux facteurs Environnementaux, Sociaux et de Gouvernance, qui sont utilisés pour guider les investissements durables et évaluer leurs impacts plus larges."
+                "body": "ESG fait référence aux facteurs Environnementaux, Sociaux et de Gouvernance, qui sont utilisés pour orienter les investissements durables et évaluer leurs impacts plus larges."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "L'ESG fait référence aux facteurs Environnementaux, Sociaux et de Gouvernance, qui sont utilisés pour guider les investissements durables et évaluer leurs impacts plus larges."
+                "body": "ESG fait référence aux facteurs Environnementaux, Sociaux et de Gouvernance, qui sont utilisés pour orienter les investissements durables et évaluer leurs impacts plus larges."
               }
             }
           },
@@ -103,7 +103,7 @@
             "options": [
               {
                 "id": 1,
-                "value": "Responsabilité sociétale des entreprises améliorée"
+                "value": "Responsabilité d'entreprise améliorée"
               },
               {
                 "id": 2,
@@ -111,7 +111,7 @@
               },
               {
                 "id": 3,
-                "value": "Maximisation des profits à court terme"
+                "value": "Maximisation du profit à court terme"
               },
               {
                 "id": 4,
@@ -126,17 +126,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "La finance durable renforce la responsabilité des entreprises, crée de la valeur à long terme et gère les risques en intégrant les facteurs ESG dans la prise de décision."
+                "body": "La finance durable améliore la responsabilité des entreprises, crée de la valeur à long terme et gère les risques en intégrant les facteurs ESG dans la prise de décision."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "La finance durable renforce la responsabilité des entreprises, crée de la valeur à long terme et gère les risques en intégrant les facteurs ESG dans la prise de décision."
+                "body": "La finance durable améliore la responsabilité des entreprises, crée de la valeur à long terme et gère les risques en intégrant les facteurs ESG dans la prise de décision."
               }
             }
           },
           {
             "id": 4,
-            "prompt": "Quelle région a reçu seulement 2 % de l'investissement mondial dans les énergies propres entre 2000 et 2024 ?",
+            "prompt": "Quelle région a reçu seulement 2 % de l'investissement mondial dans l'énergie propre entre 2000 et 2024 ?",
             "multiple": false,
             "options": [
               {
@@ -162,17 +162,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "L'Afrique subsaharienne n'a reçu que 2 % des investissements mondiaux dans les énergies propres, malgré des besoins énergétiques non satisfaits significatifs."
+                "body": "L'Afrique subsaharienne n'a reçu que 2 % des investissements mondiaux dans l'énergie propre, malgré des besoins énergétiques importants non satisfaits."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "L'Afrique subsaharienne n'a reçu que 2 % des investissements mondiaux dans les énergies propres, malgré des besoins énergétiques non satisfaits significatifs."
+                "body": "L'Afrique subsaharienne n'a reçu que 2 % des investissements mondiaux dans l'énergie propre, malgré des besoins énergétiques importants non satisfaits."
               }
             }
           },
           {
             "id": 5,
-            "prompt": "Quel est l'investissement annuel estimé en énergie propre nécessaire dans les EMDE (marchés émergents et économies en développement) d'ici le début des années 2030 ?",
+            "prompt": "Quel est l'investissement annuel estimé en énergie propre nécessaire dans les EMDE (Marchés émergents et économies en développement) d'ici le début des années 2030 ?",
             "multiple": false,
             "options": [
               {
@@ -185,11 +185,11 @@
               },
               {
                 "id": 3,
-                "value": "$2,2 à $2,8 trillions"
+                "value": "$2.2 à $2.8 trillions"
               },
               {
                 "id": 4,
-                "value": "$4,8 billions"
+                "value": "$4,8 trillions"
               }
             ],
             "solution": [
@@ -198,11 +198,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Les EMDE ont besoin de 2,2 à 2,8 trillions de dollars par an pour répondre aux exigences d'investissement dans l'énergie propre d'ici le début des années 2030."
+                "body": "Les PME ont besoin de entre 2,2 et 2,8 billions de dollars chaque année pour répondre aux besoins d'investissement dans l'énergie propre d'ici le début des années 2030."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Les EMDE ont besoin de 2,2 à 2,8 trillions de dollars par an pour répondre aux exigences d'investissement dans l'énergie propre d'ici le début des années 2030."
+                "body": "Les PME ont besoin de entre 2,2 et 2,8 billions de dollars chaque année pour répondre aux besoins d'investissement dans l'énergie propre d'ici le début des années 2030."
               }
             }
           },
@@ -236,11 +236,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Le financement mixte utilise des outils tels que la dette subordonnée, les garanties et les subventions d'assistance technique pour réduire le risque des investissements."
+                "body": "La finance mixte utilise des outils tels que la dette subordonnée, les garanties et les subventions d'assistance technique pour réduire les risques des investissements."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Le financement mixte utilise des outils tels que la dette subordonnée, les garanties et les subventions d'assistance technique pour réduire le risque des investissements."
+                "body": "La finance mixte utilise des outils tels que la dette subordonnée, les garanties et les subventions d'assistance technique pour réduire les risques des investissements."
               }
             }
           },
@@ -259,7 +259,7 @@
               },
               {
                 "id": 3,
-                "value": "Un projet qui peut générer des revenus de manière fiable pour rembourser des prêts"
+                "value": "Un projet qui peut générer des revenus de manière fiable pour rembourser les prêts"
               },
               {
                 "id": 4,
@@ -272,17 +272,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Un projet bancable est financièrement viable, capable de générer des revenus constants et à faible risque, ce qui le rend attrayant pour les investisseurs."
+                "body": "Un projet rentable est financièrement viable, capable de générer des revenus constants et à faible risque, ce qui le rend attractif pour les investisseurs."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Un projet bancable est financièrement viable, capable de générer des revenus constants et à faible risque, ce qui le rend attrayant pour les investisseurs."
+                "body": "Un projet rentable est financièrement viable, capable de générer des revenus constants et à faible risque, ce qui le rend attractif pour les investisseurs."
               }
             }
           },
           {
             "id": 8,
-            "prompt": "Lesquels des éléments suivants sont considérés comme des obstacles à l'investissement dans les énergies propres dans les PED ? (Sélectionnez tout ce qui s'applique)",
+            "prompt": "Lesquels des éléments suivants sont considérés comme des obstacles à l'investissement dans l'énergie propre dans les PED ? (Sélectionnez tout ce qui s'applique)",
             "multiple": true,
             "options": [
               {
@@ -310,11 +310,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Les obstacles courants dans les EMDE comprennent des réglementations peu claires, des coûts de capital élevés et une infrastructure obsolète ou limitée."
+                "body": "Les obstacles courants dans les PED comprennent des réglementations peu claires, des coûts en capital élevés et une infrastructure obsolète ou limitée."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Les obstacles courants dans les EMDE comprennent des réglementations peu claires, des coûts de capital élevés et une infrastructure obsolète ou limitée."
+                "body": "Les obstacles courants dans les PED comprennent des réglementations peu claires, des coûts en capital élevés et une infrastructure obsolète ou limitée."
               }
             }
           },
@@ -325,11 +325,11 @@
             "options": [
               {
                 "id": 1,
-                "value": "1,7 billion de dollars"
+                "value": "$1,7 trillion"
               },
               {
                 "id": 2,
-                "value": "3 billions de dollars"
+                "value": "$3 trillions"
               },
               {
                 "id": 3,
@@ -337,7 +337,7 @@
               },
               {
                 "id": 4,
-                "value": "$2,2 billions"
+                "value": "$2,2 trillions"
               }
             ],
             "solution": [
@@ -346,11 +346,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Selon l'AIE, l'investissement mondial dans les énergies propres a atteint 1,7 trillion de dollars en 2023."
+                "body": "Selon l'AIE, l'investissement mondial dans l'énergie propre a atteint 1,7 billion de dollars en 2023."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Selon l'AIE, l'investissement mondial dans les énergies propres a atteint 1,7 trillion de dollars en 2023."
+                "body": "Selon l'AIE, l'investissement mondial dans l'énergie propre a atteint 1,7 billion de dollars en 2023."
               }
             }
           },
@@ -373,7 +373,7 @@
               },
               {
                 "id": 4,
-                "value": "Réductions de subventions, volatilité des devises et migration"
+                "value": "Réductions des subventions, volatilité des devises et migration"
               }
             ],
             "solution": [
@@ -382,17 +382,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "La triple pénalité comprend des défis d'accessibilité, une dépendance aux combustibles fossiles et un accès limité aux technologies et aux compétences."
+                "body": "La triple pénalité comprend des défis en matière d'accessibilité, la dépendance aux combustibles fossiles et un accès limité aux technologies et aux compétences."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "La triple pénalité comprend des défis d'accessibilité, une dépendance aux combustibles fossiles et un accès limité aux technologies et aux compétences."
+                "body": "La triple pénalité comprend des défis en matière d'accessibilité, la dépendance aux combustibles fossiles et un accès limité aux technologies et aux compétences."
               }
             }
           },
           {
             "id": 11,
-            "prompt": "Quels instruments de politique sont utilisés par le secteur public pour soutenir les énergies renouvelables ? (Sélectionnez tout ce qui s'applique)",
+            "prompt": "Quels instruments politiques sont utilisés par le secteur public pour soutenir l'énergie renouvelable ? (Sélectionnez tout ce qui s'applique)",
             "multiple": true,
             "options": [
               {
@@ -401,7 +401,7 @@
               },
               {
                 "id": 2,
-                "value": "Taxes sur le carbone"
+                "value": "Taxe carbone"
               },
               {
                 "id": 3,
@@ -409,7 +409,7 @@
               },
               {
                 "id": 4,
-                "value": "Subventions pour le carburant"
+                "value": "Subventions au carburant"
               }
             ],
             "solution": [
@@ -436,11 +436,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module4.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module4.png",
           "caption": ""
         },
         "intro": "Prochainement",
-        "title": "Module 4 Conclusion",
+        "title": "Module 4 Outro",
         "cta": "Continuez à apprendre",
         "nextLessonId": "4.-1.-1"
       }

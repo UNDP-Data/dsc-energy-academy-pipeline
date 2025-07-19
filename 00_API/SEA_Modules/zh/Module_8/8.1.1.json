@@ -1,0 +1,743 @@
+{
+  "id": "8.1.1",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_2.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "1"
+        },
+        "title": "未来能源需求的主要驱动因素",
+        "cta": "",
+        "intro": "第8章：可再生能源技术与创新"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第1课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "本课程探讨塑造全球能源需求未来的主要趋势和结构性变化。 它考察了人口变化、城市化、工业化、不断上升的中产阶级消费以及气候影响如何影响各个部门和地区的能源使用。<br /><br /> 课程还强调了技术、电气化和数字化的双重作用，既是提高效率的推动者，也是新需求的驱动因素。 通过理解这些相互关联的力量，学习者将获得分析工具，帮助他们预测未来的能源需求并支持包容性、前瞻性的能源规划。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_12.png",
+          "caption": ""
+        },
+        "intro": "第8章：可再生能源技术与创新",
+        "title": "A：未来能源需求的状态"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "预测全球能源需求的未来是一项复杂的任务，需要深入了解能源系统的物理特性，以及影响需求和生产的动态因素，如经济增长、人口趋势、城市化和技术创新。 虽然未来无法精确预测，但领先的能源机构基于精心制定的假设制定了情景，为能源需求的演变提供了合理的途径。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />在其<strong> </strong><a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><strong><u>2024年世界能源展望</u></strong></a><strong>中</strong>，国际能源署概述了三个主要情景，以展示能源需求的未来。 在已声明政策情景（STEPS）中，反映当前政策和法规，全球能源需求持续增长。 全球一次能源需求从2023年的640艾焦（EJ）增加6%，到2035年超过680 EJ，并在2050年达到740 EJ，比2023年增长15%。 该轨迹假设持续的经济增长（全球每年约3%）和能源强度的下降，即用于生产一定产出水平的能源量，表明能源系统变得更加高效。 值得注意的是，预计化石燃料将在2023年占全球能源结构的80%，到2050年将缩减至58%，而清洁能源来源迅速增长。 </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fcc30b",
+            "#fd6925",
+            "#4c9f38",
+            "#0468b1",
+            "#3f7e44",
+            "#dd1367",
+            "#0a97d9",
+            "#fd9d24",
+            "#c5192d",
+            "#19486a"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2000",
+              "2010",
+              "2020",
+              "2030 STEPS",
+              "2040 STEPS",
+              "2050 STEPS",
+              "2030 APC",
+              "2040 APC",
+              "2050 APC"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "EJ"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Coal",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                95.1751487111761,
+                149.107732980832,
+                152.280237937871,
+                142.233972240581,
+                136.417713152676,
+                123.198942498347,
+                114.210178453403,
+                83.5426305353602,
+                74.0251156642427
+              ]
+            },
+            {
+              "name": "Oil",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                153.3377395902109,
+                173.430270984799,
+                173.959021810973,
+                202.511566424323,
+                204.097818902843,
+                206.741573033708,
+                179.775280898877,
+                162.85525446133482,
+                154.39524124256428
+              ]
+            },
+            {
+              "name": "Natural Gas",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                86.18638466622699,
+                116.85393258427,
+                136.417713152676,
+                160.740251156642,
+                180.83278255122295,
+                197.7528089887641,
+                149.63648380700602,
+                151.222736285526,
+                147.52148050231398
+              ]
+            },
+            {
+              "name": "Nuclear",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                31.196298744215994,
+                33.840052875081994,
+                33.84005287508296,
+                37.01255783212201,
+                40.71381361533304,
+                41.24256444150694,
+                42.30006609385299,
+                48.64507600793098,
+                55.518836748182025
+              ]
+            },
+            {
+              "name": "Renewables",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                57.63384005287605,
+                66.09385327164603,
+                86.18638466622497,
+                118.44018506278894,
+                152.28023793787202,
+                190.87904824851307,
+                140.11896893588903,
+                201.982815598149,
+                249.04163912756104
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "2000-2050年STEP和APC的全球能源供应按来源划分",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "相反，<strong>公布承诺情景（APS）</strong>设想了一个未来，在这个未来，全球目前的气候和能源承诺将得到全面实施。 该情景假设到2035年，清洁能源满足全球能源需求的40%，到2050年将增加到近75%。 在这种情况下，全球能源需求持续下降，到2035年达到625 EJ，2050年达到610 EJ，低于2023年的水平4.7%。 放缓主要归因于加快的<ai prompt=\"Explain energy efficiency.\">能源效率 💬️</ai>措施以及在交通、建筑和工业等终端使用部门的电气化扩展。 <br /><br />最具雄心的路径，即<strong>净零排放（NZE）</strong>场景，符合将全球变暖限制在1.5°C的目标。 假设到2050年，全球能源需求的90%将由清洁能源满足，任何剩余的化石燃料使用将被抵消或减少。 在这种情况下，到2035年，总能源需求下降16%，并在整个世纪中持续下降。 尽管经济和人口增长，这一减少仍将发生，推动因素包括深度效率提升、行为变化和结构性转型。"
+            }
+          },
+          {
+            "template_id": "quote_large_with_name",
+            "content": {
+              "quote": "在我们所有的情景中，由于效率提升、电气化和可再生能源的快速发展，全球能源需求的增长放缓。",
+              "author": "国际能源署，<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>世界能源展望</u></a>，2024"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "然而，并非所有分析都预测能源需求的下降。 根据<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><strong><u>2023年麦肯锡报告</u></strong></a>，全球能源需求可能会比预期增长得更快，具体取决于地缘政治和经济发展。 他们的预测从“持续动力”情景中到2050年需求比2023年水平增加11％，到“缓慢演变”情景中的18％增加。 新兴经济体占据了这一增长的大部分，因为预计人口增长和收入增加将推动大量额外的需求。 <br /><br /><br /> <br /><br />总的来说，这些展望表明，未来的能源需求并非预先确定。 这取决于政策选择、创新轨迹和全球协调。 虽然人口增长、城市化和地缘政治等趋势可能会增加需求，但<em>效率提升</em>和<em>电气化</em>等技术可以帮助抑制需求。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "[needs translation] <strong>IRENA </strong>offers a complementary perspective in its<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><u> </u></a><a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><strong><u>2024 World Energy Transitions Outlook</u></strong></a>, this time looking at the total final energy consumption that measured the energy delivered and used by end consumers, as opposed to the total energy required by the system (energy demand). IRENA的1.5°C情景预计到2050年，总终端能源消费将比当前水平减少10%。 这也假设到 2022 年电力在最终能源消费中的比例必须从 23% 增加到 52% 到 2050 年，得益于电动汽车、热泵和可再生能源工业应用的广泛采用。 可再生能源在最终消费中的份额需要在 2030 年达到 35%，在 2050 年达到 78%，而 2022 年为 17%。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_15.png",
+          "caption": ""
+        },
+        "intro": "第8章：可再生能源技术与创新",
+        "title": "B：人口增长与人口结构变化"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "人口增长是未来能源需求的重要因素，尽管这种增长的速度正在放缓，从20世纪60年代的年均增长率2%下降到今天的不到1% ((<a href=\"https://desapublications.un.org/publications/world-population-prospects-2024-summary-results\"><u>UNDESA</u></a>, 2024)。 到2024年，全球人口预计将从82亿增长到85亿，到2030年达到85亿，到2050年达到97亿，并在2080年代中期达到约103亿的峰值，然后逐渐下降。 <br /><br />但全球北方和全球南方的趋势并不一致，表现出不同的轨迹。 在63个国家，占世界人口的28%，包括中国、德国、日本和俄罗斯，人口正在减少。 相比之下，预计有126个国家，主要位于撒哈拉以南非洲和亚洲部分地区，其人口将持续增长直到2054年。 预计这些地区的人口将增加38%，而下降的地区则面临14%的减少。 <br /><br /><br />这种偏差对能源需求具有重大影响。 安哥拉、尼日尔、刚果民主共和国、中非共和国和索马里等国家的人口快速增长——预计在2024年至2054年之间将翻一番——将需要大规模的能源基础设施和服务扩展。"
+            }
+          },
+          {
+            "template_id": "quote_small_with_name",
+            "content": {
+              "quote": "未来几十年面临快速人口增长的大部分国家和地区目前被归类为“低收入经济体”。 如果他们要实现经济发展并实现2030议程的目标和指标，他们将需要大幅增加能源消耗。",
+              "author": "联合国经济和社会事务部，2024"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />相比之下，巴西、越南和伊朗等增长缓慢的国家，能源需求将逐步增加，为投资于效率和低碳转型提供了更少的人口压力的机会。 与此同时，人口下降的国家，如预计到2054年将失去2.04亿人口的中国，可能会看到其总能源需求趋于稳定或缩减，尽管这将受到城市密度、工业活动和老龄化相关的消费模式变化的影响。 <br /><br />人口动态正在重塑能源需求的地理格局。 随着增长集中在全球南方，那里仍然存在较大的获取差距，并且在能源密集型经济体中人口减少，全球能源地图将需要调整。 规划未来的能源意味着预测技术和经济的变化，同时将它们与人们生活、成长和变老的不断变化的现实相结合。"
+            }
+          },
+          {
+            "template_id": "kpi_highlight_medium",
+            "content": {
+              "value": "<strong>19亿</strong>",
+              "text": "全球人口预计增长<br /> 从2024年的82亿到2054年的101亿。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Intro_7.png",
+          "caption": ""
+        },
+        "intro": "第8章：可再生能源技术与创新",
+        "title": "C：城市化与工业化"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "世界的城市在增长。 今天，全球人口的55％居住在城市地区，预计到2050年这一数字将增加到68％（<a href=\"https://www.un.org/es/desa/68-world-population-projected-live-urban-areas-2050-says-un\"><u>UNDESA</u></a>，2024年）。 更引人注目的是，全球人口增长的98%（<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><u>IRENA</u></a>，2024）将发生在新兴市场和发展中经济体。 预计这将显著增加这些地区的能源需求，因为城市生活带来了更高的人均能源消耗，主要由照明、电器、出行以及更关键的制冷驱动。 <br /><br /><br />在快速城市化地区，住宅制冷的需求预计到2050年将增加三倍，从2.6 EJ增加到7.7 EJ，依据IEA的APS情景（<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>，2024）。 到那时，空间冷却将仅占建筑总能耗的14%，而目前仅为7%。 <br />这种转变在全球南方尤为显著。 建筑用电预计将从2023年的建筑能源需求的37%增长到2050年的50%以上，增加超过35 EJ，主要集中在新兴经济体。"
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>为不断增长的城市提供动力</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "随着城市日益塑造未来的生计，工业仍然是世界上最大的能源消费者，负责2023年全球最终能源消费总量的39％，以及几乎一半的能源相关二氧化碳排放（<a href=\"https://iea.blob.core.windows.net/assets/f304f2ba-e9a2-4e6d-b529-fb67cd13f646/EnergyEfficiency2024.pdf\"><u>国际能源署</u></a>，2024年）。 这其中很大一部分集中在新兴经济体：在2012年，非经合组织国家占全球工业能源消费的67%，预计到2040年这一比例将增加到73%（<a href=\"https://www.eia.gov/outlooks/ieo/pdf/industrial.pdf\"><u>EIA</u></a>，2016）<br /><br />2023年，工业能源需求仅增长了2%，由钢铁、水泥和化工等行业推动。 这些行业仍然严重依赖化石燃料，尤其是煤炭和天然气，以提供高温热能。 然而，在气候协调的情景中，这一趋势在2030年之后开始发生变化。 在APS中，工业能源使用中的电力份额从2023年的22%增加到2030年的27%，中国对这一增长的贡献超过一半（<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c\"><u>IEA</u></a>，2024）。 <br /><br />IRENA的1.5°C情景显示出更为明显的转变，预计到2050年工业电气化比例将达到36%，大规模部署氢能和热泵（<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><u>IRENA</u></a>，2024）。 <br />城市化和工业化共同重塑能源需求的未来。 这些因素为<ai prompt=\"Tell me more about decarbonization.\">去碳化 💬️</ai>带来了新的挑战，但也为创新、创造就业和包容性发展提供了新的机遇。"
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>工业化与能源需求 </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_4.png",
+          "caption": ""
+        },
+        "intro": "第8章：可再生能源技术与创新",
+        "title": "D：上升的中产阶级"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>中产阶级崛起与生活方式的变化</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "随着全球经济的持续增长，特别是在新兴市场，人口正在改变他们的能源消费方式。 这一转变的主要动力之一是中产阶级的快速增长。 在2024年至2034年之间，新兴市场中中产阶级家庭的数量预计将几乎翻倍，从3.54亿增加到6.87亿（<a href=\"https://www.oxfordeconomics.com/wp-content/uploads/2024/10/The-future-of-the-middle-class-in-emerging-markets.pdf\"><u>Oxford Economics</u></a>，2024）。 <br /> <br />亚太地区是这场变革的中心。 到2029年，新兴市场中每三个中产阶级家庭就有两个位于该地区。 到2034年，中国将仍然是最大的市场，拥有3亿中产阶级家庭，占总数的44%（<a href=\"https://www.oxfordeconomics.com/wp-content/uploads/2024/10/The-future-of-the-middle-class-in-emerging-markets.pdf\"><u>牛津经济学</u></a>，2024年）。 印度的中产阶级，<br>与此同时，将从2024年的2700万户家庭增加到2029年的6200万户，成为全球第二大。 </strong>"
+            }
+          },
+          {
+            "template_id": "quote_large_with_name",
+            "content": {
+              "quote": "我们预计新兴市场的中产阶级将在未来十年翻倍——从2024年的3.54亿户增加到2034年的6.87亿户。",
+              "author": "<a href=\"https://www.oxfordeconomics.com/wp-content/uploads/2024/10/The-future-of-the-middle-class-in-emerging-markets.pdf\"><u>牛津经济学</u></a>，2024"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_10.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br /> <br />随着收入的增加，对高能耗商品的需求也在增加：更多的空调、冰箱、个人车辆和数字设备。 根据国际能源署的预测，到2035年，收入增加和气温升高预计将增加1200 TWh的制冷用电需求，这超过了整个中东目前的用电量（<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c\"><u>IEA</u></a>，2024年）。 仅在建筑行业，直到2035年，电力需求增长的近45%将来自于消费的增加，主要由中产阶级的生活方式驱动。 <br /> <br />但这次上升有细微差别。 预计到2034年，中国的人均收入将翻一番，达到26,000美元/年，而印度快速增长的中产阶级仍将消费不到该金额的一半 (<a href=\"https://www.oxfordeconomics.com/wp-content/uploads/2024/10/The-future-of-the-middle-class-in-emerging-markets.pdf\"><u>Oxford Economics</u></a>, 2024)。 与此同时，新兴市场的家庭继续将其可支配收入的约10%用于能源，使他们容易受到价格波动的影响，并可能抑制消费。 <br />尽管这些变化，整体能源需求的增长速度比以往几十年更慢，这得益于能源效率的提高和电气化的普及。 全球GDP预计在2023年至2035年间每年增长3%（<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>国际能源署</u></a>，2024），但能源需求的增长速度要低得多。 这种脱钩反映了全球能源格局的转变，需求不仅由有多少人消耗能源来决定，还由他们如何、在哪里以及消费什么来决定。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_15.png",
+          "caption": ""
+        },
+        "intro": "第8章：可再生能源技术与创新",
+        "title": "E：终端用能和难以减排行业的电气化"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "电气化正成为全球能源行业的主要力量，预计到2050年将成为世界最大的能源来源。<br /><br />根据全球咨询公司麦肯锡的一项分析，在较慢的能源转型情景下，电力消费可能会增加一倍多，在较快的情景下几乎会增加三倍。 这种增长由传统行业如建筑和家电推动，但也越来越多地由新兴和快速增长的需求推动，例如数据中心、锂电池电动车（BEVs）和氢气生产。 例如，预计全球绿色氢气的消费量将从目前的不到1百万吨/年增加到2050年的179百万吨/年，为该行业的电力需求年增长约20％（<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>麦肯锡</u></a>，2024年）。 <br /><br />仅交通运输的电力需求预计将每年增长10%，预计到2050年，电池电动车（BEVs）将占全球乘用车销售的多数，而目前仅为13%（<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>麦肯锡</u></a>，2024年）。 在建筑物中，<ai prompt=\"分享有关供暖和制冷的细节。\">供暖和制冷 💬️</ai> 正变得越来越电气化。<br /><br /> 到2050年，全球可能部署7.93亿台热泵和22亿辆电动及插电式混合动力汽车（<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Smart_electrification_end-use_sectors_2024.pdf\"><u>IRENA</u></a>，2024年）。"
+            }
+          },
+          {
+            "template_id": "kpi_highlight_medium",
+            "content": {
+              "value": "<strong>3,500 TWh</strong>",
+              "text": "预计2025年至2027年全球电力需求的增长量，<br />与日本的年度消费相当"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_7.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />电气化也正在改变工业，包括难以减排的行业。 例如，在中国，60%的电力由工业消耗，这比经合组织的平均水平高出一倍，并占2022年至2024年总需求增长的48%（<a href=\"https://iea.blob.core.windows.net/assets/0f028d5f-26b1-47ca-ad2a-5ca3103d070a/Electricity2025.pdf\"><u>国际能源署</u></a>，2025年）。 2024年，清洁技术供应链的电气化也在加快，太阳能电池板、电池和电动汽车的生产使用了320 TWh的电力，等于意大利整个年度的用电量。 <br /><br /><br />即使展望近期未来，预计2025年至2027年间全球电力需求将增加3500 TWh，相当于每年增加日本的电力需求（<a href=\"https://iea.blob.core.windows.net/assets/0f028d5f-26b1-47ca-ad2a-5ca3103d070a/Electricity2025.pdf\"><u>国际能源署</u></a>，2025年）。 智能电气化解决方案对于应对这一转型将是至关重要的。 智能电气化解决方案可以将峰值用电需求降低最多50%，并将网络损耗降低最多63%，帮助更高效地管理不断增长的电力需求（<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Smart_electrification_end-use_sectors_2024.pdf\"><u>IRENA</u></a>，2024）。 <br /><br /><br /><br />预计电气化的加速将由低排放源推动。 根据国际能源署，预计到2027年，全球电力需求增长的95%将由可再生能源满足，特别是太阳能和风能。 值得注意的是，预计新兴和发展中经济体将占这一需求增长的85%，其中中国单独贡献超过50% (<a href=\"https://iea.blob.core.windows.net/assets/0f028d5f-26b1-47ca-ad2a-5ca3103d070a/Electricity2025.pdf\"><u>IEA</u></a>, 2025)。 通过正确的政策和投资，电气化可以成为减少碳排放的有力工具，同时改善能源获取。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Outro_2.png",
+          "caption": ""
+        },
+        "intro": "第8章：可再生能源技术与创新",
+        "title": "F：数字化和人工智能驱动的需求增长"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>数字化和人工智能预计将成为全球能源需求未来的重要驱动力。</strong> 到2050年，随着电力成为主要的能源载体，消费将来自传统行业，如家庭和工厂的电气化，以及背后庞大的数字基础设施推动的人工智能革命。 <br /><br /><strong>在这场转型中，能源消耗最高的元素之一是数据中心</strong>。 全球范围内，这些设施在2024年消耗了415太瓦时的电力 (<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf)\"><u>国际能源署</u></a>，2025年)，占总用电量的1.5%。 到2030年，这一数字预计将超过两倍，达到945 TWh，超过日本目前的全部用电量。 <br /><br /> <br />展望未来，麦肯锡估计到2050年，<strong>数据中心的用电需求可能在2,500到4,500太瓦时之间，</strong>占全球用电需求的5%到9%（<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective#/\"<u>麦肯锡</u></a>，2024年）。 <br /><br />这种增长不是来自云计算和加密货币，而主要来自训练AI模型和<ai prompt=\"What is generative ai?\">生成式AI 💬️</ai>应用（如ChatGPT）所需的耗能过程。 目前在建的一些最大的数据中心预计将消耗与200万户家庭相当的电力（<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf\"><u>国际能源署</u></a>，2025年）。 <br /> <br /><strong><br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />预计可再生能源将为满足数据中心需求做出最大贡献，到2035年达到450 TW，依据国际能源署的预测。 但像天然气和核能这样的可调度能源也将在为这项基础设施供能方面发挥关键作用。 随着能源基础设施努力跟上人工智能革命的步伐，20% (<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf\"><u>国际能源署</u></a>，2025) 的计划数据中心可能会因电网拥堵和设备短缺而面临延迟。 <br /><br /><br />尽管对能源消耗施加了压力，<strong>数字化和人工智能也提供了强大的工具来提高能源系统的效率</strong>。 智能技术，例如基于AI的预测、电网优化和故障检测，可能释放175 GW的额外电网容量，并减少建筑物的电力消耗300 TWh，等同于澳大利亚和新西兰的全部发电量（<a href=\"https://iea.blob.core.windows.net/assets/34eac603-ecf1-464f-b813-2ecceb8f81c2/EnergyandAI.pdf\"><u>国际能源署</u></a>，2025年）。 在城市层面，数字工具可以帮助减少可再生能源限制超过25%，提高系统效率30%，并将客户成本降低最多30%（<a href=\"https://iea.blob.core.windows.net/assets/00f7d520-d517-473d-b357-5adb43c4a57e/EmpoweringUrbanEnergyTransitions.pdf\"><u>国际能源署</u></a>，2024）。 由人工智能驱动的综合城市规划，结合智能电表、传感器和实时数据，可以帮助城市平衡负载、管理峰值需求并增强韧性。 <br /><br /><br />然而，超越技术，实现数字化的全部益处将需要投资于数字技能、数据治理和支持性监管。 随着数字和人工智能系统日益影响能源的使用方式和地点，赋予地方政府规划、监管和优化能源转型的能力将成为使数字化成为可持续和包容性发展的驱动力的关键。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_11.png",
+          "caption": ""
+        },
+        "intro": "第8章：可再生能源技术与创新",
+        "title": "G：气候变化和极端天气事件的影响"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />随着气候变化的加速，其影响正在影响我们如何生产能源，以及我们将需要多少能源。 气温上升、人口增长和天气模式的变化预计将显著增加全球的能源需求，其中一个主要驱动因素是对冷却的需求增加。 例如，住宅空调需求预计将从2000年的近300 TWh增加到2050年的大约4,000 TWh<sup>27</sup>，其中大部分在新兴经济体，原因是收入增加和气候变暖。 烹饪习惯和其他家庭能源需求也可能变得更加依赖电力。 <br /> <br /><br /><br />同时，能源系统本身面临日益增加的风险。 热电厂未来可能面临效率下降的风险 <br> 随着气温升高和水资源减少。 水电可能受到降雨模式变化和更高蒸发率的影响，预测显示，例如，到2050年，赞比西河流域的水电容量将减少35%。 <br /><br /><br />与此同时，更强烈的风暴、洪水和极端高温使能源基础设施面临日益增长的威胁，例如受损的输电线路和中断的管道，这危及能源设施的安全运行。 这些风险需要紧急适应以确保能源系统的韧性。 <br />有关如何构建气候韧性和适应性能源系统的更深入探索，请参阅可持续能源学院的第6模块，该模块专注于气候影响、适应策略以及能源与韧性之间的交叉点。 <br /> <br /><strong><br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_9.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_7.png",
+              "caption": ""
+            },
+            "title": "能源需求将受到结构性驱动因素的影响，包括人口增长、城市化、工业化以及全球中产阶级的崛起，特别是在基础设施和消费快速扩展的新兴经济体中。",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_2.png",
+              "caption": ""
+            },
+            "title": "技术发挥双重作用：电气化和数字化推动新的能源需求来源（数据中心、电动汽车），同时也实现更高的效率、灵活性和系统优化。",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_3.png",
+              "caption": ""
+            },
+            "title": "能源需求的未来并非固定；它将取决于政策决策、创新和全球合作，以使人口、经济和技术趋势与可持续性和公平目标保持一致。",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module8.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第2课：能源供应的变化格局：资源、市场与政策",
+        "cta": "继续学习",
+        "nextLessonId": "8.1.2"
+      }
+    }
+  ]
+}

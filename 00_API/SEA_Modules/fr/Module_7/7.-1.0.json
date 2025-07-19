@@ -6,31 +6,31 @@
       "color_scheme": "dark",
       "content": {
         "title": "Quiz noté <br/><strong>Module 7</strong>",
-        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance !",
+        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance!",
         "final": true,
         "labels": {
           "correct": "Correct",
           "question": "Question",
           "result": "Résultat du quiz",
           "score": "Votre score",
-          "passingScore": "Score minimum requis",
-          "startButton": "Commencer le quiz",
+          "passingScore": "Score minimum de passage",
+          "startButton": "Démarrer le quiz",
           "nextButton": "Suivant",
           "submitButton": "Soumettre",
           "retryButton": "Rejouer",
           "passed": "Passé",
-          "failed": "Non réussi"
+          "failed": "Non passé"
         },
         "passingScore": 0.8,
         "questions": [
           {
             "id": 1,
-            "prompt": "Un ministère de l'Énergie cherche à optimiser les investissements hors réseau dans des zones rurales mal desservies, mais dispose de données limitées au niveau des ménages. Laquelle des techniques suivantes pourrait identifier le plus efficacement les zones prioritaires pour l'électrification ?",
+            "prompt": "Un ministère de l'Énergie cherche à optimiser les investissements hors réseau dans les zones rurales sous-desservies, mais dispose de données limitées au niveau des ménages. Laquelle des techniques suivantes pourrait identifier le plus efficacement les zones prioritaires pour l'électrification ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Analyse Coût-Bénéfice utilisant des cartes de réseau national"
+                "value": "Analyse coûts-bénéfices utilisant des cartes du réseau national"
               },
               {
                 "id": 2,
@@ -38,7 +38,7 @@
               },
               {
                 "id": 3,
-                "value": "Enquêtes avec des équipes de recensement national"
+                "value": "Enquêtes avec les équipes du recensement national"
               },
               {
                 "id": 4,
@@ -51,17 +51,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "L'apprentissage supervisé par ML formé sur des données d'accès à distance et étiquetées peut estimer l'état d'électrification et prioriser les interventions."
+                "body": "L'apprentissage supervisé en ML entraîné sur la télédétection et les données d'accès étiquetées peut estimer le statut d'électrification et prioriser les interventions."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "L'apprentissage supervisé par ML formé sur des données d'accès à distance et étiquetées peut estimer l'état d'électrification et prioriser les interventions."
+                "body": "L'apprentissage supervisé en ML entraîné sur la télédétection et les données d'accès étiquetées peut estimer le statut d'électrification et prioriser les interventions."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "Laquelle des conditions suivantes est nécessaire pour utiliser les données énergétiques afin de soutenir la conception de politiques transformantes pour le genre ?",
+            "prompt": "Laquelle des conditions suivantes est une condition nécessaire pour utiliser les données énergétiques afin de soutenir la conception de politiques transformatrices en matière de genre ?",
             "multiple": false,
             "options": [
               {
@@ -74,7 +74,7 @@
               },
               {
                 "id": 3,
-                "value": "Données désagrégées par sexe, revenu et lieu"
+                "value": "Données désagrégées par genre, revenu et localisation"
               },
               {
                 "id": 4,
@@ -102,7 +102,7 @@
             "options": [
               {
                 "id": 1,
-                "value": "Consommation de GPL en zones rurales vs urbaines"
+                "value": "Consommation de GPL en zones rurales vs zones urbaines"
               },
               {
                 "id": 2,
@@ -123,11 +123,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "La pauvreté temporelle révèle les charges structurelles auxquelles les femmes sont confrontées et est essentielle pour une planification énergétique intersectionnelle."
+                "body": "La pauvreté temporelle révèle les charges structurelles auxquelles sont confrontées les femmes et est essentielle pour la planification énergétique intersectionnelle."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "La pauvreté temporelle révèle les charges structurelles auxquelles les femmes sont confrontées et est essentielle pour une planification énergétique intersectionnelle."
+                "body": "La pauvreté temporelle révèle les charges structurelles auxquelles sont confrontées les femmes et est essentielle pour la planification énergétique intersectionnelle."
               }
             }
           },
@@ -159,17 +159,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Utiliser des données personnelles sans protections enfreint l'éthique professionnelle et sape la confiance."
+                "body": "Utiliser des données personnelles sans mesures de sécurité viole l'éthique professionnelle et nuit à la confiance."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Utiliser des données personnelles sans protections enfreint l'éthique professionnelle et sape la confiance."
+                "body": "Utiliser des données personnelles sans mesures de sécurité viole l'éthique professionnelle et nuit à la confiance."
               }
             }
           },
           {
             "id": 5,
-            "prompt": "Un gouvernement souhaite utiliser l'apprentissage automatique pour cibler les subventions électriques. Quel est un risque éthique clé si les données d'entraînement proviennent uniquement de consommateurs urbains ?",
+            "prompt": "Un gouvernement souhaite utiliser l'apprentissage automatique pour cibler les subventions à l'électricité. Quel est un risque éthique clé si les données d'entraînement proviennent uniquement de consommateurs urbains ?",
             "multiple": false,
             "options": [
               {
@@ -178,7 +178,7 @@
               },
               {
                 "id": 2,
-                "value": "Sous-financement des zones rurales"
+                "value": "Surbénéficier excessivement aux zones rurales"
               },
               {
                 "id": 3,
@@ -195,17 +195,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Des données d'entraînement biaisées peuvent systématiquement exclure les groupes mal desservis, renforçant l'inégalité."
+                "body": "Les données d'entraînement biaisées peuvent systématiquement exclure les groupes sous-représentés, renforçant ainsi l'inégalité."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Des données d'entraînement biaisées peuvent systématiquement exclure les groupes mal desservis, renforçant l'inégalité."
+                "body": "Les données d'entraînement biaisées peuvent systématiquement exclure les groupes sous-représentés, renforçant ainsi l'inégalité."
               }
             }
           },
           {
             "id": 6,
-            "prompt": "Quel est un avantage clé de l'utilisation de l'analyse prescriptive par rapport à l'analyse prédictive dans la planification de la transition énergétique ?",
+            "prompt": "Quel est l'avantage clé de l'utilisation de l'analyse prescriptive par rapport à l'analyse prédictive dans la planification de la transition énergétique ?",
             "multiple": false,
             "options": [
               {
@@ -231,17 +231,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Les modèles prescriptifs traduisent les prévisions en voies décisionnelles concrètes pour les planificateurs."
+                "body": "Les modèles prescriptifs traduisent les prédictions en <strong>chemins de décision concrets</strong> pour les planificateurs."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Les modèles prescriptifs traduisent les prévisions en voies décisionnelles concrètes pour les planificateurs."
+                "body": "Les modèles prescriptifs traduisent les prédictions en <strong>chemins de décision concrets</strong> pour les planificateurs."
               }
             }
           },
           {
             "id": 7,
-            "prompt": "Dans des contextes où la surveillance en temps réel est essentielle (par exemple pour les réseaux solaires distribués), quelle architecture est la plus efficace pour réduire la latence et la dépendance aux serveurs centraux?",
+            "prompt": "Dans les contextes où la surveillance en temps réel est essentielle (par exemple pour les réseaux solaires distribués), quelle architecture est la plus efficace pour réduire la latence et la dépendance aux serveurs centraux?",
             "multiple": false,
             "options": [
               {
@@ -267,17 +267,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "L'informatique en périphérie permet un traitement local en temps réel, essentiel pour les systèmes énergétiques adaptatifs."
+                "body": "L'informatique en périphérie permet un traitement en temps réel et local, essentiel pour les systèmes énergétiques adaptatifs."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "L'informatique en périphérie permet un traitement local en temps réel, essentiel pour les systèmes énergétiques adaptatifs."
+                "body": "L'informatique en périphérie permet un traitement en temps réel et local, essentiel pour les systèmes énergétiques adaptatifs."
               }
             }
           },
           {
             "id": 8,
-            "prompt": "Un pays vient d'adopter OSeMOSYS pour la planification à long terme. Quelle est sa principale valeur pour les décideurs politiques ?",
+            "prompt": "Un pays vient d'adopter OSeMOSYS pour la planification à long terme. Quelle est sa valeur principale pour les décideurs politiques ?",
             "multiple": false,
             "options": [
               {
@@ -294,7 +294,7 @@
               },
               {
                 "id": 4,
-                "value": "Il se substitue aux comptes nationaux"
+                "value": "Il remplace les comptes nationaux"
               }
             ],
             "solution": [
@@ -303,11 +303,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Les modèles OSeMOSYS analysent des voies techno-économiques sous contraintes et aident à tester les impacts des politiques."
+                "body": "Les modèles OSeMOSYS étudient les trajectoires techno-économiques sous contraintes et aident à tester l'impact des politiques."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Les modèles OSeMOSYS analysent des voies techno-économiques sous contraintes et aident à tester les impacts des politiques."
+                "body": "Les modèles OSeMOSYS étudient les trajectoires techno-économiques sous contraintes et aident à tester l'impact des politiques."
               }
             }
           },
@@ -339,11 +339,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Les bacs à sable permettent aux régulateurs et aux innovateurs de co-concevoir et de tester de nouvelles solutions de données énergétiques avant leur mise en œuvre complète."
+                "body": "Les environnements de test permettent aux régulateurs et aux innovateurs de co-concevoir et de tester de nouvelles solutions de données énergétiques avant leur mise en œuvre complète."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Les bacs à sable permettent aux régulateurs et aux innovateurs de co-concevoir et de tester de nouvelles solutions de données énergétiques avant leur mise en œuvre complète."
+                "body": "Les environnements de test permettent aux régulateurs et aux innovateurs de co-concevoir et de tester de nouvelles solutions de données énergétiques avant leur mise en œuvre complète."
               }
             }
           }
@@ -355,11 +355,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module7.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.png",
           "caption": ""
         },
         "intro": "Prochainement",
-        "title": "Module 7 Conclusion",
+        "title": "Module 7 Outro",
         "cta": "Continuez à apprendre",
         "nextLessonId": "7.-1.-1"
       }

@@ -1,0 +1,1048 @@
+{
+  "id": "7.1.3",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_6.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "3"
+        },
+        "title": "能源数据价值链",
+        "cta": "",
+        "intro": "M7：可持续能源数据"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第3课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "向可再生能源和可持续能源发展（SED）技术的转型已成为全球优先事项，推动其发展的原因是应对诸如减贫、环境保护、社会经济增长和能源系统现代化等关键挑战。 实现这些目标的核心是确保所有人都能获得负担得起且包容的能源。 在这个格局中，数据已成为不可或缺的资产，能够实现实时、基于证据的决策，指导能源策略，引导终端用户行动，并促进创新以加快可持续能源的发展。<br /><strong>数据价值链</strong>的概念提供了一个框架，用于理解原始数据如何转化为可操作的洞察，从而增强决策能力。 <strong>此链涵盖整个数据生命周期</strong>，从传感器设备的初始数据生成到其收集、转换、分析和最终利用。 链条的每个阶段都对确保基于数据的洞察有效支持能源系统优化、分散式能源解决方案、电网管理和需求侧效率提升至关重要。<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "有效的数据管理和处理支撑着数据价值链的成功，使其能够应用于各种能源系统干预。 这些包括优化能源的生成和存储、缓解电网限制，以及支持去中心化能源资产的发展。 例如，<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/2024-01/undp-financial-aggregation-for-distributed-renewable-energy-in-rwanda.pdf\"><u>卢旺达分布式发电倡议</u></a>采用基于传感器的实时监测以改善数据收集，而< a href=\"https://www.undp.org/sites/g/files/zskgke326/files/2022-10/Energy4Sahel_Prodoc.pdf\"><u>Energy4Sahel项目</u></a>利用地理空间数据进行农村电气化战略和规划。 同样，<a href=\"https://africaminigrids.org/\"><u>非洲微电网计划</u></a>专注于影响监测和评估，以指导政策、开发商业模型，并创建<ai prompt=\"什么是创新融资？\">创新融资 💬️</ai>机制。 这些举措展示了数据如何推动循证决策、推动监管改革，并支持可持续能源系统（SES）的广泛采用。<br /> <br />在本课程中，我们将研究数据生命周期，分解数据价值链的每个阶段，深入探讨数据管理实践，并探讨发展中国家在利用数据实现可持续能源发展方面面临的挑战。 此分析强调数据在弥合知识差距和推动公平能源转型中的关键作用。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_5.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "A：数据价值链的阶段"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "要充分理解数据如何支持可持续能源发展，必须从数据生命周期的概念开始。 数据生命周期描述了数据从最初的创建或获取开始，经过各种处理、存储和分析阶段，最终归档或处置的连续流程。 此生命周期提供了对数据如何随时间和不同用例演变的基础理解。<br /><br />在此基础上，数据价值链提供了一种结构化的方式来理解价值如何在整个生命周期中从数据中生成。 虽然数据生命周期强调数据的时间和技术进展，数据价值链则关注在每个阶段如何逐步创造价值。 换句话说，数据价值链是一个功能性视角，我们通过它来看待数据生命周期——特别强调将原始数据转化为具有行动性的洞察，从而产生影响。<br /><br />数据价值链由四个核心相互关联的阶段组成：收集、转化、创造价值和利用数据。 每个阶段都包含基本的数据管理子活动——如验证、集成、存储和治理——以确保数据在整个流程中的质量、可靠性和安全性。<br /><br />下图说明了数据如何通过这四个阶段的每一个，最终生成洞察和明智的行动。 强调数据必须在每个步骤中被仔细管理、策划和情境化，以充分实现其在支持可持续能源目标中的潜力。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_3976.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_9.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第一阶段：收集</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数据收集由其自身的一组子活动组成，支持将原始数据提取和传输到专用服务器或云平台。 该过程首先概述需要数据收集的总体目标，这些目标将有助于识别实现既定目标所需的相关软件。 例如，政府可以概述与<ai prompt=\"Share details about decarbonization.\">脱碳 💬️</ai>和能源系统现代化相关的目标，通过采用智能电网，如< a href=\"https://open.undp.org/projects/00105006\"><u>毛里求斯政府<br /></u></a><br />数据收集过程，概述了识别数据源、数据捕获技术和传输通信要求的关键活动。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_4174.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数据生成与收集</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "一旦确定了应用程序和相应的数据生成源，就会在感兴趣的位置战略性地部署数据捕获技术，以提取原始数据，用于指导策略和支持循证决策。 典型的部署区域包括提供发电水平和系统运行数据的可再生能源系统、提供天气条件数据的气象站，以及具有能源消耗洞察的计量设备。 已部署的技术提取并记录原始数据，为通过通信网络传输到分析平台做准备。<br /><br />能源数据的生成和收集对于智能电网的功能和发展至关重要。 下图显示了从传统电网到智能电网1.0和智能电网2.0的演变，强调数据已成为构建更动态和互联能源系统的核心。 诸如智能电表、微电网和配电网管理等组件依赖于连续的数据流，以支持监控、分析和优化。 这些数据流，来自多样的来源，如可再生能源系统、电动汽车和点对点能源交易平台，能够实现更准确的能源规划和决策。 随着数据融入能源系统的各个方面，智能电网不仅改善了运营性能，还为应对系统性挑战奠定了基础，包括电网可靠性、资源公平配置以及向低碳能源的转型。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_13.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_4314.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数据传输</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "传输阶段包括从采集设备通过通信网络传输数据到专用服务器或云平台进行处理。 数据采集技术通常嵌入有一个通信模块，便于将数据从设备传输到网关，然后将数据传输到云平台进行处理。 对于边缘设备，数据采集与存储和处理在源位置配对，数据通过网络传输进行分析，无需额外处理。 <br /><br />数据通过无线技术传输，例如蜂窝网络、LPWAN（低功耗广域网）、卫星通信和Wi-Fi，传输技术的选择取决于传输的数据包大小。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第2阶段：转变</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "此阶段涉及将数据转换为可用于分析的格式。 此过程确保传递到分析平台的数据包具有正确的格式，并且与中央应用平台兼容，这在具有多个来源使用特殊数据集的系统中特别重要。 在此支柱下封装了两个子流程：数据处理和数据存储（Tawakuli & Engel，2022）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>数据处理</strong>",
+              "body": "这是一个关键步骤，启动从获取的数据集中提取价值。 这是一个将原始数据转化为可由分析平台解释的可用格式的过程，通过清理数据、修正缺失和无效的值，以及重复的观察。 如果正确完成，此步骤可以增强数据的完整性。 由于数据的体量、速度和多样性，使用工具和技术如<strong>数据治理框架</strong>、数据质量保证工具如<strong>IBM Databand</strong>和<strong>Bboxx</strong>，以及数据标准化实践以在异构数据集中实现一致性至关重要，使用的资源包括<strong>能源部门管理援助计划（ESMAP）</strong>。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>数据存储</strong>",
+              "body": "来自多个来源的数据被汇总和存储，稍后提取以进行处理。 数据存储在现场本地，这减轻了可能影响远程应用实时传输的网络不一致性，并且在传输后，也存储在远程云端存储平台中。 然后可以从数据库中提取数据并进行分析。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "支持数据转化为可操作洞察的数据价值链工具、技术和机制"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_4517.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_10.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第3阶段：价值创造/增加</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "价值创造阶段是将原始数据转化为可操作洞察的基石，促进明智和战略性的决策。 在这个阶段，来自不同来源的处理数据经过彻底分析，以发现模式、预测趋势和识别异常。 这些见解作为优化能源系统和提高运营效率的基础。 先进的数据分析工具实现了从实时监控到长期预测的所有功能，为循证干预奠定了基础。 诸如 Data Futures Exchange 之类的倡议展示了数据驱动的洞察如何转化为激发具体行动和系统改进的平台。"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>数据分析</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "价值创造过程中的数据分析是多方面的，涵盖了针对不同目标的各种类别。 每个类别在建立对能源系统的全面理解、推动解决方案和实现应对挑战的韧性方面都具有独特的贡献。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Intro_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第4阶段：利用</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "该阶段专注于分析数据如何呈现给最终用户以进行决策。 涉及两个主要子流程；数据可视化和数据传播，这两者都 unpack 用户或系统如何以有意义的方式与数据交互。 <strong>能源访问探索器</strong>、全球电气化平台、能源数据平台和清洁能源访问工具展示了基于数据的仪表板在制定策略和加快可持续能源发展倡议中的巨大潜力。<br /><br />数据的展示和可视化对于有效传达分析中得出的见解至关重要，这些见解随后可以用来指导决策。 该过程有助于将复杂且强大的数据转化为清晰易懂的格式，促进来自不同利益相关者、政策制定者、国家办事处代表和研究人员的互动。 以下说明了用于数据展示的不同机制。 </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_4890.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_15.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "B：数据管理 <br> 构建可靠且可操作的能源数据基础"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>信息系统与信息基础设施</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源行业的有效数据管理始于理解使其成为可能的技术基础。 信息系统和信息基础设施是关键的促成因素，允许在<ai prompt=\"解释能源价值链。\">能源价值链💬️</ai>中收集、存储、处理和使用数据。<br /><br />信息系统（IS）指的是用于管理和分析信息以支持决策的软硬件、数据、人员和流程的协调组合。 在能源系统中，包括监控与数据采集（SCADA）系统、地理信息系统（GIS）、能源数据仪表板、客户信息系统和企业资源规划（ERP）工具。 这些系统协调数据流并提供界面，供用户以结构化和可操作的方式与信息互动。<br /><br />相比之下，信息基础设施（II）更广泛且更复杂。 它们可以被视为大型、异构、开放和分布式的系统，支持广泛利益相关者社区的基础需求，通过实现各种用例。 同时，它们可以被理解为由不同信息系统组成的协作框架——一个“系统的系统”——促进多个利益相关者依赖的信息资源共享。 在这个意义上，信息基础设施为能源生态系统中的互操作性和协作提供了支柱，涵盖从物联网传感器网络和云平台到数据交换协议和共享存储库的所有内容（改编自ISO-19101-1，2014年）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>同时支持IS和II的几个关键组件。</strong> 数据库（DBs）以有组织的格式存储结构化数据，允许高效的查询和检索。<br /><br />数据库管理系统（DBMS）是一种软件，提供管理这些数据的工具，包括定义结构、控制访问和执行查询。 这些通常托管在数据库服务器上，提供关键能源系统操作所需的计算能力和正常运行时间。<br /><br />信息系统和基础设施共同为可信、可扩展和集成的数据管理提供技术基础。 他们是智能能源创新的推动者，使各种参与者能够协调、分析并基于数据实时行动——无论是用于电网优化、政策规划还是社区能源获取。<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Outro_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数据治理</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "随着能源系统产生越来越多的数据，所有权、访问和责任的问题变得更加复杂。 数据治理为回答这些问题提供了框架，通过定义政策、程序和角色，指导数据在其整个生命周期中的管理 - 确保数据保持可信、安全，并与监管要求和组织目标保持一致。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "在其核心，数据治理确立了谁有权访问和控制数据，如何授予该访问权限，以及责任如何在整个组织中分配。 它定义了数据创建、分类、存储、共享和保留的规则和实践，提供了一个将技术流程与法律、伦理和战略考虑相结合的结构。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>强大数据治理框架的关键组成部分包括：</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>数据所有权与管理</strong>",
+              "body": "治理将责任分配给数据所有者和管理者。 数据所有者负责确保其控制下的数据集的质量、完整性和合规性，而数据管理员在日常操作中实施治理政策——确保数据保持可访问、清洁且适合用途。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>数据政策和标准</strong>",
+              "body": "这些包括关于数据如何收集、处理、存储、共享和存档的明确定义的规则。 标准有助于确保系统之间的一致性和互操作性，而政策则指导道德数据使用、透明度和问责制。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>合规性和监管对齐</strong>",
+              "body": "有效的治理确保遵守相关的国家和国际法规。 这些可能包括数据保护法律（例如巴西的LGPD、南非的POPIA或印度的DPDP法案）、行业特定的能源数据授权，以及全球框架，如< strong>经合组织隐私指南</strong>或ISO标准（例如，< strong>ISO/IEC 27001</strong>用于信息安全管理）。 这些框架有助于定义同意、访问权限、安全保障和事件响应的责任。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "运作良好的治理体系确保数据质量，减轻组织风险，并促进利益相关者之间的信任。 例如，在智能电网环境中——智能电表捕获详细的使用数据——治理结构有助于解决诸如：<br /><strong>谁拥有这些数据——消费者、公共事业公司还是政府？<br /></strong>没有明确的政策，这些不确定性可能阻碍数据共享、创新和跨部门合作。<br />最终，强有力的数据治理和管理使能源组织能够将数据视为一种战略资产——可以自信且道德地使用，以推动系统改进、保护用户权益，并支持可持续能源转型。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_6.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数据质量管理</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "即使是最先进的分析或设计良好的系统，也仅与它们依赖的数据一样好。 数据质量差会削弱规划工作，降低预测的准确性，并可能导致代价高昂的决策错误。 数据质量管理（DQM）是一套确保数据准确、完整、一致、及时和相关的实践和工具。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "在能源系统的背景下，保持高数据质量对于从需求预测到资产管理和故障检测的任务至关重要。 数据质量问题可能源自多种渠道：传感器故障、不一致的格式、手动输入错误或不同系统之间的集成问题。 如果不加以解决，这些问题将在整个数据价值链中传播，增加其影响。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "DQM 涉及被动清洁和主动监控。 像数据分析这样的工具有助于在管道的早期识别异常或缺失值。 ETL（提取、转换、加载）流程可以配备自动化的检查点，验证架构合规性、标记数据漂移，或在超出质量阈值时停止数据摄取。 质量仪表板提供对数据健康状况的持续可见性，提供关于错误率、完整性和重复的实时指标。<br /><strong>为了系统地组织这些工作，许多组织采用六西格玛等质量保证方法。 最初在制造业中开发，六西格玛提供了一个以数据为驱动的框架 (<strong>DMAIC</strong>：定义、测量、分析、改进、控制) 以减少变异性并消除缺陷——在这种情况下，是数据错误。 在能源数据环境中应用六西格玛原则可以帮助标准化数据验证流程，并随着时间的推移不断提高质量。<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "考虑一种情景，即远程监测站的太阳辐照度数据由于传输故障而间歇性缺失。 如果不解决，这一数据缺口可能导致对太阳能发电容量的高估，从而对电网的可靠性和财务预测产生连锁影响。 具有实时警报和自动备用（如插值或来自备用站的冗余）的DQM系统可以减轻这种风险。<br />结构良好的DQM框架支持可信且可追溯的决策，确保从数据中得出的见解与它们所依据的系统一样可靠。 通过在数据生命周期中嵌入质量控制，组织可以从其数据中提取价值，而不会被隐藏的错误或不一致所削弱。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数据隐私、安全和安全</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "在能源系统中，隐私、安全和安全性代表三个不同但相互关联的领域，对于负责任的数据管理至关重要。<br /><strong>隐私 </strong>涉及个人和可识别信息的保护，确保个人数据——如消费模式或客户身份——被适当收集、存储和共享。"
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>Protections </strong>包括数据最小化、匿名化、强有力的同意管理和透明的数据使用政策，以防止未经授权的访问或共享个人数据。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>隐私风险</strong> 包括未经授权的数据披露、未获同意的画像以及敏感信息的滥用，可能导致身份盗窃或客户信任的丧失。",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "<strong>安全</strong> 关注保护数据和系统免受未经授权的访问、篡改或网络攻击，这些可能会危及能源基础设施的完整性或可用性。"
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>安全风险 </strong>包括黑客攻击、恶意软件感染、钓鱼攻击、内部威胁以及传输中的数据拦截。 这可能导致数据泄露、控制系统的操纵或拒绝服务。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>Protections </strong>要求对静态和传输中的数据进行加密，采用多因素认证，严格的基于角色的访问控制，网络分段（尤其是关键系统如SCADA），持续监控，以及定期的安全审计，以便及时检测和应对威胁。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "<strong>安全 </strong>涉及通过确保由数据驱动的操作决策不会导致危险条件或故障，从而保护物理基础设施和人员。"
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>安全风险</strong> 由不准确或损坏的数据、操控控制信号的网络物理攻击，或导致设备损坏或危及人类生命的系统故障引起。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>Protections </strong>包括设计安全机制、控制系统的冗余、严格的数据完整性验证、实时异常检测以及全面的事件响应和恢复计划，以维护操作弹性。",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "<strong>共同应对隐私、安全和安全问题，采用有针对性的风险缓解策略，确保能源数据支持可靠、值得信赖和道德的能源系统运营，同时保护消费者、资产和基础设施。</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_7.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数据集成与互操作性</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "当今的能源系统由各种技术和利益相关者组成，必须协同运作。 实现这一目标需要强大的数据集成和互操作性。"
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>数据集成</strong>是将来自各种来源的数据（如传感器、天气预报和客户数据库）合并为一个统一、一致的数据集的过程。 这通常涉及数据仓库、中间件平台和ETL（提取-转换-加载）管道，这些工具清理、转换和协调数据，以支持分析和运营。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>互操作性 </strong>超越数据共享，确保系统能够有意义地解释和使用交换的数据。 这需要遵守共同的标准和共享的数据模型。 在能源行业，关键标准包括用于变电站通信的IEC 61850、公共信息模型（CIM）用于公用事业数据，以及像MQTT这样的轻量级消息协议，用于物联网设备。<br />超越技术协议，语义互操作性确保数据的含义在系统之间保持一致。 这得到了FAIR原则（可查找、可访问、互操作、可重用）的支持，这些原则鼓励良好文档化的元数据、开放数据访问、关联数据结构以及使用本体来清晰定义概念。",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "联邦信息基础设施采用去中心化的方法，允许不同的组织或系统在保持对其数据的控制的同时，通过API和互操作框架实现共享访问。 这种方法对于协调分布式能源资源如太阳能电池板、电池和电动车至关重要。<br /><br />然而，挑战仍然存在。 遗留系统通常缺乏标准接口，不一致的数据格式会造成语义不匹配。 数据孤岛阻碍系统范围的洞察，而不足的治理可能会阻碍整合工作。 [needs translation] Addressing these requires strong data governance policies, clear standards, and collaboration across stakeholders.<br /><br />Security and privacy risks also increase with interconnected systems, necessitating secure APIs, role-based access controls, encryption, and ongoing monitoring to protect sensitive data.<br /><br />Emerging concepts such as data fabrics and data meshes, alongside technologies like blockchain, offer promising models for decentralized, scalable, and secure data integration and interoperability.<br /><br />In summary, successful data integration and interoperability rely on technical standards, semantic alignment, governance, security, and modern architectures—all essential for coordinated, efficient, and resilient energy system management."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>操作化与制度化</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "技术在运营中的作用日益关键。 人工智能和自动化简化了例行数据管理任务，如数据清理、异常检测和元数据标记，从而释放人力资源用于更高层次的决策。 用于数据目录、血缘追踪和工作流自动化的平台也增强了透明度和控制，支持治理和质量目标。<br />衡量成功对于确保制度化工作有效且持续改进至关重要。 组织实施针对数据管理目标量身定制的OKRs（目标与关键结果）和KPI（关键绩效指标），例如数据准确率、合规审计结果、系统正常运行时间或用户采用指标。 定期报告这些措施有助于保持问责制并指导资源分配。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "例如，一个国家级公用事业可能会从临时数据收集演变为一种正式化策略，涉及标准化的数据管道、共享的存储库和通用的元数据协议。 随着时间的推移，这可能发展成为由受过培训的管理人员支持的正式数据治理委员会，并融入战略规划和运营决策——从被动处理转变为主动、战略性的数据纪律。<br />最终，制度化确保数据管理实践具有持久性，嵌入组织结构中，并能应对人员或技术的变化。 这种整体方法将孤立的举措转变为持久的能力，使能源组织能够自信地利用数据进行创新、韧性和可持续转型。<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Intro_7.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "C：克服发展中国家的挑战"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数据价值链在加快发展中国家的可持续能源发展方面具有巨大潜力，但系统性障碍常常阻碍其有效利用。 这些挑战——根源于基础设施差距、社会文化复杂性和治理薄弱——需要全面的策略来释放数据的变革力量，同时确保公平。 接下来，我们将探讨这些障碍及其应对途径。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数据价值链中的关键挑战</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "发展中国家在数据生命周期中面临多方面的障碍，从收集到应用。 系统碎片化、技术限制，以及社会和经济不平等，加剧了这些挑战，可能导致排他性结果。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>数据碎片化与可访问性</strong>",
+              "body": "关键能源数据集通常在各部委、非政府组织和私营部门之间孤立，格式或语言不一致。 例如，农村电气化的本地语言数据可能保持未翻译，阻碍全球合作。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>技术限制</strong>",
+              "body": "低成本传感器，虽然价格实惠，但经常产生不可靠的数据。 设备之间的兼容性问题加剧了互操作性挑战，尤其是在合并来自不同来源的数据集时。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>人类和制度差距</strong>",
+              "body": "技术专业知识有限和治理框架薄弱阻碍了处理、分析和利用数据洞察的能力。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_9.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>社会文化和公平考虑</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源数据价值链——从收集到应用——与发展中国家的社会文化动态和系统性不平等密切相关。 忽视这些维度可能会导致排斥的持续、信任的侵蚀，以及制定未能满足边缘群体需求的政策。 以下，我们将探讨关键挑战及其对公平能源转型的影响。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>文化认同与资源获取</strong>",
+              "body": "能源数据的收集常常忽视与土地和资源的文化联系。 例如，在哥伦比亚，土著和非裔哥伦比亚社区共同管理 33% 的领土，用于气候目标的森林砍伐数据很少包含他们的传统知识。 这种排除扭曲了能源转型模型，优先考虑碳指标而非文化保护和与森林相关的生计。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>语言与表达障碍</strong>",
+              "body": "像印度或尼日利亚这样的国家的能源数据集通常以殖民地语言（例如英语）发布，排除只讲当地语言的人口。 这限制了社区在验证数据准确性或参与需求侧管理计划中的参与。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>能源数据中的性别差异</strong>",
+              "body": "农村地区的家庭能源调查经常默认由男性家庭负责人作为受访者，低估了女性在能源贫困或清洁烹饪需求方面的经历。 数据设计中的偏见延续了性别盲目的政策，限制了太阳能家庭系统或沼气项目等项目的影响。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>框架的关键组成部分</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "该框架通过与公共机构、私营部门参与者、学术界和非政府组织的多方利益相关者协商而开发，围绕五个支柱进行结构设计"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>政策、立法和法规</strong>",
+              "body": "将土耳其的数据实践与国际标准（例如GDPR）对齐，以确保道德的数据共享和合规。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Institutions, Mechanisms, and Processes</strong>",
+              "body": "建立明确的数据管理角色并创建互操作系统以打破孤岛。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>People</strong>",
+              "body": "建立数据管理的技术能力并培养透明文化，包括对政府和民间社会的培训。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>技术与基础设施</strong>",
+              "body": "优先考虑数据目录、API 和云解决方案等工具，以实现安全、可扩展的数据流。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>合作伙伴关系</strong>",
+              "body": "鼓励跨部门合作应对共同挑战，例如将能源获取数据与气候适应策略相结合。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>政策、立法和法规</strong>",
+              "body": "将土耳其的数据实践与国际标准（例如GDPR）对齐，以确保道德的数据共享和合规。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "该框架的基石是其对数字公共基础设施（DPI）的重视，它通过互操作的平台支持能源数据系统，实现实时监控、分析和决策支持"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>传感器和互操作性差距</strong>",
+              "body": "对技术基础设施的关注促进了对高质量传感器和兼容系统的投资，减少了低成本设备引起的错误——这是离网能源项目中的常见问题。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>容量不足</strong>",
+              "body": "“People”支柱下的培训项目赋能当地利益相关者分析能源数据，例如太阳能潜力图或需求模式，确保社区共同设计解决方案"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>公平与包容</strong>",
+              "body": "该框架以人为本的精神确保边缘群体（例如农村家庭、由女性领导的合作社）参与并从能源数据中受益，与联合国开发计划署更广泛的包容性数字转型目标保持一致"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "土耳其与框架的对齐可能通过将电网扩展数据与社会经济指标相结合，增强其管理可再生能源转型的能力，确保没有社区被落下——这是适用于其他面临类似能源公平挑战的发展中国家的模型。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_6.png",
+              "caption": ""
+            },
+            "title": "数据价值链对于将原始数据转化为可操作的洞察以实现可持续能源发展至关重要。",
+            "description": "从收集到利用，数据价值链优化能源系统，改善电网管理，并支持去中心化解决方案，实现可持续能源转型的明智决策。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_3.png",
+              "caption": ""
+            },
+            "title": "高级数据分析释放能源数据的潜力。",
+            "description": "描述性、预测性、指导性和诊断性分析有助于解释趋势、预测场景、优化系统和识别低效环节，赋能基于证据的能源策略。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_1.png",
+              "caption": ""
+            },
+            "title": "发展中国家在利用数据推动能源方面面临挑战。",
+            "description": "基础设施有限，传感器不足，连接不稳定阻碍数据的使用。 在优质传感器、连接性和能力建设方面的投资对于克服这些障碍至关重要"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第1章 结尾",
+        "cta": "继续学习",
+        "nextLessonId": "7.1.-1"
+      }
+    }
+  ]
+}
