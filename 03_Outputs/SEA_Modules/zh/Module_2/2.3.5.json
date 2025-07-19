@@ -1,0 +1,526 @@
+{
+  "id": "2.3.5",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/519_2709.webp",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "5"
+        },
+        "title": "利用数字工具、数据和人工智能实现能源获取",
+        "cta": "",
+        "intro": "M2：能源获取和包容性能源服务"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第5课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "扩大对服务不足社区的能源获取需要更智能的规划、更好的目标定位和创新的交付模式。 本课程探讨了数据、数字技术和人工智能（AI）如何改变低收入和中等收入国家能源系统的设计、管理和融资方式。<br /><br />你将了解地理空间数据和平台，如全球电气化平台和能源访问探索器，如何帮助规划者识别高需求地区并选择最具成本效益的解决方案。 课程还强调了人工智能在提高可靠性和效率方面的作用——通过更智能的需求预测、微电网优化和故障检测——尤其是在偏远或脆弱的环境中。<br /><br />最后，它探讨了移动支付和点对点能源交易如何扩大负担能力和包容性，使用户能够灵活支付并直接参与本地<ai prompt=\"提供更多关于能源市场的信息。\">能源市场 💬️</ai>。 这些工具共同帮助缩小能源获取差距，同时支持更公平和可持续的能源系统。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/519_2692.webp",
+          "caption": ""
+        },
+        "intro": "M2：能源获取和包容性能源服务",
+        "title": "A: 基于数据的能源规划以绘制能源获取地图"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数据是现代能源规划的核心，因为它使决策者能够有效分配资源，识别最合适且具有成本效益的能源项目开发地点，并监测实现普遍可及的进展。 到2030年实现普遍获得负担得起、可靠和现代的能源，关键是要利用所有有效的工具来加快基础设施建设，包括以数据为驱动的策略，优先考虑最欠缺的社区并优化公共和私人资源的使用。 随着电气化努力蓬勃发展，旨在帮助那些最需要的人群——偏远和边缘化的群体——基于准确、详细和及时的数据进行规划变得至关重要。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/678_590.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>传统规划方法的局限性 <br />以及地理空间数据的作用</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "从历史上看，能源获取规划依赖于国家级统计数据、基础设施地图和家庭调查，并不一定包括空间分辨率和及时更新。 这些方法经常忽略非正式定居点、可能分散在整个地区的农村人口，以及季节性能源需求波动。 没有详细且可靠的数据，能源规划者面临错误分配投资或将电网扩展到那些采用太阳能微电网或独立系统等去中心化解决方案会更具成本效益和可靠性的地区的风险。 <br /><br />地理空间数据，指基于位置的信息，用于更有效地绘制地图、分析和规划能源接入与分配解决方案，可以通过允许对人们的居住位置、与现有电网的距离、太阳辐射水平、道路通达性等进行空间分析，为能源规划带来新的维度。 通过在地理信息系统（GIS）中叠加这些变量，规划者可以创建详细的能源获取地图，识别哪些社区缺乏电力，以及每个环境最合适的技术和交付模型。 这使决策者和投资者能够比较不同的能源解决方案，例如电网扩展、微电网或独立解决方案。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>地理空间能源规划的工具和平台</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "存在多种开源工具，支持政府、公共事业单位和投资者利用地理空间数据规划能源获取。 其中最广泛使用的是由世界银行能源部门管理援助计划（ESMAP）开发的全球电气化平台（GEP），以及来自世界资源研究所的能源获取探索器（EAE）。 这些平台结合了人口数据、基础设施数据和经济建模，以推荐最低成本的电气化路径。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "地理空间工具能够识别传统数据集中可能看不见的高能源需求的服务不足地区。 例如，能源获取探索者（EAE）平台使用数据层，如医疗设施位置（<strong>如地图所示</strong>）、生产性用途潜力、夜间光强度和社会经济因素，以确定在哪些地方进行能源获取投资可以产生最大影响。 这在脆弱的环境或非正式城市化地区尤为相关，在这些地区，官方网络地图可能已经过时或不完整。 <br /><br />地理空间规划工具还可以结合预测建模，即用于预测未来能源需求的算法和模拟，以确定扩展电力接入的最具成本效益的技术。 例如，全球电气化平台（GEP）使用多种情景的模拟来比较在不同需求假设下，电网扩展与微电网或独立太阳能系统的成本。 这使政策制定者能够更有效地引导投资，确保有限的公共资金用于获得最高的回报，即每花费一美元的访问量。 <br /><br />根据ESMAP，尼日利亚的最低成本地理空间建模确定，微电网是为3000万人提供电力的最具成本效益的选择，独立太阳能可以为另外2000万人提供服务（<a href=\"https://electrifynow.energydata.info/about?utm\"><u>ESMAP。</u></a>，2022年）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>能源获取探索器（EAE）</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "EAE是由WRI与国家和地方利益相关者合作开发的开放获取、交互式地理空间规划平台。 它是为了应对缺乏可靠数据和分析工具的问题而创建的，这些工具对于有根据的能源获取规划是必要的，特别是在政府、地方公用事业、非政府组织和小型能源公司之间。 <br />EAE 支持技术规划，但也将社会和经济数据融入其空间分析中。 它在乌干达、肯尼亚、坦桑尼亚和印度部署，帮助规划者识别能源获取可以最大化影响的地点，例如，针对医疗诊所、学校和小型企业。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<em>上图显示了来自<<strong>Energy Access Explorer</strong>的地理空间输出，显示埃塞俄比亚符合两个标准的区域：距离农业市场不超过200公里，以及距离现有配电线路超过20公里。</em> 这些过滤器被应用以显示EAE确定能源获取扩展潜力的能力。 地图突出显示了相对服务不足的地区，在这些地区，电气化努力，如微电网或独立系统，可以满足未电气化社区的需求，并促进农业价值链中的能源生产性使用。 这种类型的分析帮助规划者根据重叠的社会经济和基础设施因素优化投资地点。</em>"
+            }
+          },
+          {
+            "template_id": "paragraph_small",
+            "content": {
+              "text": "<em>来源： </em><a href=\"https://www.theigc.org/sites/default/files/2024-07/Logan%20Case%20study%20July%202024.pdf\"><em><u>能源接入探索器：<br /></u></em></a><em> 一个开放获取工具<br /> 以实现数据驱动的能源规划<br /> WRI，2024</em>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/519_2728.webp",
+          "caption": ""
+        },
+        "intro": "M2：能源获取和包容性能源服务",
+        "title": "B：基于人工智能的能源管理与优化以实现能源获取"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "人工智能（AI）正成为应对扩大能源获取方面一些最大挑战的有力工具，尤其是在偏远和服务不足的地区。 在许多发展中国家，电力系统面临需求的高度变化、有限的电网容量和频繁的停电。 人工智能提供创新解决方案，可以优化能源的生成、分配和消费方式，从而使系统更高效、更可靠，并能更好地满足当地社区的需求。<br /><br />本节探讨人工智能如何通过改善需求预测、优化微电网运营、增强系统可靠性以及实现更智能的规划和财务模型来支持能源获取。 从智能能源管理系统（EMS）到自适应费率结构和自动故障检测，人工智能技术可以帮助构建更智能的能源系统，同时也更具包容性和弹性。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>通过基于AI的需求预测实现更智能的电网</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "人工智能（AI）有潜力改变电力需求的管理方式，适用于联网和离网系统。 在发展中国家，电力系统经常遇到诸如 <strong>需求不规律</strong>、<strong>容量有限</strong> 和 <strong>高停电率</strong> 等障碍，像 <em>AI</em> 模型可以帮助公用事业预测消费模式并相应调整电力供应。 这些模型分析历史和实时数据以预测峰值负载——指系统在特定时间的最高用电需求——并相应调整电力供应，从而减少停电并改善<ai prompt=\"告诉我更多关于能源效率。\">能源效率 💬️</ai>。"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>使用AI增强的EMS优化微电网操作</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源管理系统（EMS）对于分散式能源系统的有效性至关重要，尤其是微电网。 增强的人工智能能源管理系统可以协调太阳能电池板、电池、柴油发电机和负载，以实时平衡供需。 像模糊逻辑这样的算法——它通过控制不确定性模仿人类推理——使这些系统能够动态适应。 这些解决方案在偏远地区尤其有效，那里的传统电网基础设施不可靠或不存在。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/4060_986.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>通过人工智能驱动的监控和故障检测提升可靠性</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "人工智能还可以通过持续监测和早期故障检测来提高能源系统的可靠性和弹性。 使用诸如决策树和混合人工智能系统等模型，可以实时检测故障并进行分类以采取纠正措施。 由人工智能支持的微电网可能有助于确保关键行业的能源更稳定，帮助防止例如在医疗设施中的停电。"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>使用AI算法设计高效微电网</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "农村和低收入地区的微电网规划需要平衡成本、可靠性和未来增长。 先进的人工智能技术可以快速评估数千个配置场景，并模拟系统在不同负载条件、天气模式和经济假设下的响应。 这可以让规划者设计具有弹性、可扩展且负担得起的微电网。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>提高可负担性和生产性使用</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "人工智能还可以帮助使去中心化能源在财务上更具可持续性。 智能费率系统可以利用实时使用数据进行设计，导致与家庭收入模式相匹配的灵活计费结构。 人工智能还可以在低需求期间安排生产用途的电器（如灌溉泵或研磨机），这可以提高整体系统效率。 这种方法有潜力增加微电网的收入，同时提高用户的负担能力。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/519_2752.webp",
+          "caption": ""
+        },
+        "intro": "M2：能源获取和包容性能源服务",
+        "title": "C：能源获取中的包容性和可负担性数字工具"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数字创新在扩大清洁和负担得起的能源获取方面发挥着重要作用，尤其是在服务不足和偏远地区的社区。 从解锁能源融资的移动支付平台，到基于区块链的点对点能源交易系统，数字技术正在重塑能源的分配和支付方式，有潜力使能源系统更加包容和响应本地需求。<br /><br />本节探讨数字工具如何改善能源获取的包容性和负担能力。 它探索了使用区块链和物联网的点对点能源交易、支持按需太阳能接入的移动支付解决方案，并展示了能源与连接之间的联系，显示数字工具如何加快实现普遍能源获取的进程。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/678_653.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>点对点能源交易</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>点对点（P2P）能源交易</strong>是一种去中心化的模型，使能源消费者，通常被称为<em>« prosumers »</em>（生产者和消费者的缩写），能够将多余的能源，通常来自太阳能电池板，出售给邻居或本地电网。 这种能源管理范式的转变可以通过赋予当地社区成为能源市场的积极参与者来支持更广泛的能源获取，特别是在传统电网基础设施有限或不可靠的农村和服务不足地区。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>技术推动者：区块链和物联网 </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "两项主要技术使点对点交易成为可能：区块链和物联网（IoT）。 区块链通过智能合约确保透明度、信任和可靠的交易记录，<br>从而消除对中介的需求。 同时，物联网设备允许实时能源数据监测，通过智能电表和网关连接生产者和消费者，跟踪生产和消费的细节。 结合起来，这些技术可以创建安全的自主能源市场，甚至在互联网连接有限的地区也能实现本地能源交易。 区块链的分布式账本是一种去中心化的系统，交易在多个节点上进行记录，确保参与者之间的透明度和信任，无需中央机构。 该账本还支持代币化支付，能源单位可以作为数字代币在用户之间安全交换，实现快速、低成本且可验证的点对点能源结算。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>应用和好处 <br /></strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "点对点能源交易有潜力改善发展中国家的能源可负担性和可靠性，允许拥有剩余<ai prompt=\"提供更多关于太阳能的信息。\">太阳能 💬️</ai>的家庭向邻居出售，从而减少对集中供应商的依赖，并通过本地供应链降低能源成本。 农村社区的农民，例如，可以通过太阳能满足他们的能源需求，并交易多余的电力以获得额外收入。 孟加拉国和肯尼亚的试点项目已经在探索这些模型，以促进农村电气化和经济包容。"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>障碍与挑战 <br /></strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "尽管有承诺，点对点能源交易面临监管、技术和社会方面的挑战。 许多发展中国家缺乏支持去中心化能源市场的明确法律框架。 技术问题，如智能电表的成本、数据安全和平台可靠性，也带来挑战。 社会接受度是另一个关键因素，因为当地社区可能不信任这项技术或不愿意与邻居交换电力。 政策支持、宣传活动和低成本平台对于确保成功采用是必要的。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/678_675.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>移动支付和金融科技解决方案：扩大偏远家庭的金融服务</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "在许多发展中地区，特别是撒哈拉以南非洲，传统银行基础设施仍然有限，导致广大人口无法获得基本的金融服务。 截至2021年，全球约有14亿成年人没有银行账户，其中包括非洲撒哈拉以南地区的约3.6亿人，占该地区人口的约45%（Demirgüç-Kunt 等，2022年）。 移动支付平台代表了弥合这一差距的潜在解决方案，并允许偏远地区的家庭访问、负担和管理可再生能源解决方案。 <br /><br />移动支付服务，例如<strong>肯尼亚的M-Pesa，</strong>已经颠覆了移动支付平台，并通过允许用户通过手机进行交易而无需传统银行账户，促进了金融包容性。 由Safaricom于2007年在肯尼亚推出的M-PESA，是一种基于移动的电子支付和转账系统。 到2010年，它已达到超过900万用户，约占当时肯尼亚成人人口的40%，并促成了超过3.2亿美元的每月个人对个人转账。 (Mas & Radcliffe., 2010). 该平台使用户，即使在偏远和服务不足的地区，也能通过超过16,900个零售代理的庞大网络，使用简单的手机存款、取款和转账。 M-PESA 可能通过允许客户以数字化和安全的方式支付能源账单（包括电费），帮助使能源获取变得更加负担得起和包容。 例如，肯尼亚的主要公用事业公司报告说，约有20%的客户通过M-PESA支付了账单，这显示了移动支付如何弥合金融差距并改善基本能源服务的获取。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>弥合数字鸿沟：提升弱势社区的连接性</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "结合移动支付的加速采用，按用量付费的太阳能模型，客户为<ai prompt=\"Clarify solar home systems.\">家庭太阳能系统 💬️</ai>进行逐步支付，也有助于使能源更易获得。 该模型允许低收入家庭支付小额、可管理的金额，以符合他们的现金流。 这种灵活性可以改善负担能力，并使以前服务不足的社区首次能够获得清洁、可靠的电力。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br /><br /><strong>能源获取是数字连接的基本推动力。</strong> <br /></strong><br />没有可靠的电力，运营互联网服务所需的基础设施，如手机塔、路由器和数据中心，是具有挑战性的。 <br /><br />同时，数字技术可以改善能源的可及性。 利用移动技术提供能源服务，例如用于按用付费太阳能系统的移动支付平台，使数百万人能够负担和管理可再生能源解决方案。 <br /><br /><br />应对能源贫困和数字鸿沟的交织挑战需要协调的策略。 可再生能源基础设施的投资可以推动数字化扩展，而数字工具可以优化能源的分配和消耗。 共同解决这两个问题有助于促进包容性增长，并确保弱势社区受益于现代技术。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/519_2853.webp",
+              "caption": "image caption"
+            },
+            "title": "传统的规划方法常常忽视偏远和服务不足的社区，但像全球电气化平台和能源获取探索者这样的地理空间平台使用分层空间数据来 pinpoint 能源需求并推荐最低成本的解决方案。",
+            "description": "这些工具使政府和投资者能够优先考虑投资、比较交付模型，并最大限度地发挥有限资源的影响。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/519_2848.webp",
+              "caption": "image caption"
+            },
+            "title": "从预测能源需求到管理微电网操作和实时检测故障，人工智能实现了更智能、更具弹性和适应性的能源基础设施，特别是在偏远和资源有限的地区。",
+            "description": "人工智能还通过实现动态定价、高效负载调度和基于实际数据的系统设计，支持可负担性和高效使用。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/519_2843.webp",
+              "caption": "image caption"
+            },
+            "title": "区块链、物联网和移动平台等技术正在为用户提供新的方式来支付能源、共享电力以及无需传统银行或集中式电网基础设施即可访问能源服务。",
+            "description": "这些数字工具不仅降低了经济障碍，还赋予用户参与去中心化、社区驱动的能源市场的能力。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第3章 结尾",
+        "cta": "继续学习",
+        "nextLessonId": "2.3.-1"
+      }
+    }
+  ]
+}

@@ -5,32 +5,32 @@
       "template_id": "scored_quiz",
       "color_scheme": "dark",
       "content": {
-        "title": "Quiz pontuado <br/><strong>Módulo 7</strong>",
-        "intro": "Este questionário abrange todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
+        "title": "Questionário pontuado <br/><strong>Módulo 7</strong>",
+        "intro": "Este questionário cobre todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
         "final": true,
         "labels": {
           "correct": "Correto",
           "question": "Pergunta",
           "result": "Resultado do questionário",
           "score": "Sua pontuação",
-          "passingScore": "Pontuação mínima de aprovação",
-          "startButton": "Iniciar quiz",
+          "passingScore": "Pontuação mínima para passar",
+          "startButton": "Iniciar o questionário",
           "nextButton": "Próximo",
           "submitButton": "Enviar",
           "retryButton": "Repetir",
-          "passed": "Aprovado",
-          "failed": "Não aprovado"
+          "passed": "Passado",
+          "failed": "Não passado"
         },
         "passingScore": 0.8,
         "questions": [
           {
             "id": 1,
-            "prompt": "Um Ministério de Energia busca otimizar investimentos fora da rede em zonas rurais carentes, mas possui dados limitados a nível de domicílios. Qual das seguintes técnicas poderia identificar de forma mais eficaz as áreas prioritárias para a eletrificação?",
+            "prompt": "Um Ministério de Energia busca otimizar os investimentos fora da rede em zonas rurais carentes, mas possui dados limitados ao nível das famílias. Qual das seguintes técnicas poderia identificar de forma mais eficaz as áreas prioritárias para eletrificação?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Análise Custo-Benefício usando mapas de rede nacional"
+                "value": "Análise de Custo-Benefício usando mapas da rede nacional"
               },
               {
                 "id": 2,
@@ -38,7 +38,7 @@
               },
               {
                 "id": 3,
-                "value": "Pesquisas com equipes de censo nacional"
+                "value": "Pesquisas com equipes do censo nacional"
               },
               {
                 "id": 4,
@@ -51,22 +51,22 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "O aprendizado de máquina supervisionado treinado em dados de acesso remoto e rotulados pode estimar o status de eletrificação e priorizar intervenções."
+                "body": "Aprendizado de máquina supervisionado treinado em sensoriamento remoto e dados de acesso rotulados pode estimar o status de eletrificação e priorizar intervenções."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "O aprendizado de máquina supervisionado treinado em dados de acesso remoto e rotulados pode estimar o status de eletrificação e priorizar intervenções."
+                "body": "Aprendizado de máquina supervisionado treinado em sensoriamento remoto e dados de acesso rotulados pode estimar o status de eletrificação e priorizar intervenções."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "Qual das seguintes é uma condição necessária para usar dados de energia para apoiar o design de políticas transformadoras de gênero?",
+            "prompt": "Qual das seguintes condições é uma condição necessária para usar dados de energia para apoiar o elaboração de políticas transformadoras de gênero?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Números agregados de fornecimento de energia nacional"
+                "value": "Números agregados do fornecimento de energia nacional"
               },
               {
                 "id": 2,
@@ -87,17 +87,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Apenas dados desagregados podem revelar desigualdades no acesso à energia e apoiar políticas direcionadas e sensíveis ao gênero."
+                "body": "Somente dados desagregados podem revelar desigualdades no acesso à energia e apoiar políticas direcionadas e sensíveis ao gênero."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Apenas dados desagregados podem revelar desigualdades no acesso à energia e apoiar políticas direcionadas e sensíveis ao gênero."
+                "body": "Somente dados desagregados podem revelar desigualdades no acesso à energia e apoiar políticas direcionadas e sensíveis ao gênero."
               }
             }
           },
           {
             "id": 3,
-            "prompt": "Você está apoiando uma estratégia PM&E para um programa regional de cozinha limpa. Qual dos seguintes indicadores forneceria insights acionáveis sobre equidade interseccional?",
+            "prompt": "Você está apoiando uma estratégia PM&E para um programa regional de culinária limpa. Qual dos seguintes indicadores forneceria insights acionáveis sobre equidade interseccional?",
             "multiple": false,
             "options": [
               {
@@ -123,11 +123,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A pobreza de tempo revela os encargos estruturais enfrentados pelas mulheres e é crítica para o planejamento energético interseccional."
+                "body": "A pobreza de tempo revela os encargos estruturais enfrentados pelas mulheres e é fundamental para o planejamento energético interseccional."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A pobreza de tempo revela os encargos estruturais enfrentados pelas mulheres e é crítica para o planejamento energético interseccional."
+                "body": "A pobreza de tempo revela os encargos estruturais enfrentados pelas mulheres e é fundamental para o planejamento energético interseccional."
               }
             }
           },
@@ -159,11 +159,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Usar dados pessoais sem salvaguardas viola a ética profissional e mina a confiança."
+                "body": "Usar dados pessoais sem salvaguardas viola a ética profissional e prejudica a confiança."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Usar dados pessoais sem salvaguardas viola a ética profissional e mina a confiança."
+                "body": "Usar dados pessoais sem salvaguardas viola a ética profissional e prejudica a confiança."
               }
             }
           },
@@ -195,22 +195,22 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Dados de treinamento tendenciosos podem excluir sistematicamente grupos carentes, reforçando a desigualdade."
+                "body": "Dados de treinamento tendenciosos podem excluir sistematicamente grupos marginalizados, reforçando a desigualdade."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Dados de treinamento tendenciosos podem excluir sistematicamente grupos carentes, reforçando a desigualdade."
+                "body": "Dados de treinamento tendenciosos podem excluir sistematicamente grupos marginalizados, reforçando a desigualdade."
               }
             }
           },
           {
             "id": 6,
-            "prompt": "Qual é uma vantagem chave de usar análise prescritiva em vez de análise preditiva no planejamento da transição energética?",
+            "prompt": "Qual é uma vantagem principal de usar análise prescritiva em vez de análise preditiva no planejamento da transição energética?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Ele prevê cenários climáticos"
+                "value": "Preve cenários climáticos"
               },
               {
                 "id": 2,
@@ -231,11 +231,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Modelos prescritivos traduzem previsões em caminhos de decisão concretos para os planejadores."
+                "body": "Modelos prescritivos traduzem previsões em <strong>caminhos de decisão concretos</strong> para os planejadores."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Modelos prescritivos traduzem previsões em caminhos de decisão concretos para os planejadores."
+                "body": "Modelos prescritivos traduzem previsões em <strong>caminhos de decisão concretos</strong> para os planejadores."
               }
             }
           },
@@ -250,7 +250,7 @@
               },
               {
                 "id": 2,
-                "value": "Livros de registro manuais atualizados mensalmente"
+                "value": "Diários manuais atualizados mensalmente"
               },
               {
                 "id": 3,
@@ -258,7 +258,7 @@
               },
               {
                 "id": 4,
-                "value": "Auditorias sociais usando painéis de controle comunitários"
+                "value": "Auditorias sociais usando painéis comunitários"
               }
             ],
             "solution": [
@@ -267,11 +267,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A computação de borda permite o processamento local em tempo real, crítico para sistemas de energia adaptativos."
+                "body": "A computação de borda permite processamento em tempo real e local, fundamental para sistemas de energia adaptativos."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A computação de borda permite o processamento local em tempo real, crítico para sistemas de energia adaptativos."
+                "body": "A computação de borda permite processamento em tempo real e local, fundamental para sistemas de energia adaptativos."
               }
             }
           },
@@ -294,7 +294,7 @@
               },
               {
                 "id": 4,
-                "value": "Substitui-se às contas nacionais"
+                "value": "Substitui as contas nacionais"
               }
             ],
             "solution": [
@@ -303,11 +303,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Os modelos OSeMOSYS analisam caminhos tecnoeconômicos sob restrições e ajudam a testar os impactos das políticas."
+                "body": "Os modelos OSeMOSYS mapeiam caminhos tecnoeconômicos sob restrições e ajudam a testar os impactos das políticas."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Os modelos OSeMOSYS analisam caminhos tecnoeconômicos sob restrições e ajudam a testar os impactos das políticas."
+                "body": "Os modelos OSeMOSYS mapeiam caminhos tecnoeconômicos sob restrições e ajudam a testar os impactos das políticas."
               }
             }
           },
@@ -330,7 +330,7 @@
               },
               {
                 "id": 4,
-                "value": "Ele ignora as regras de contratação pública"
+                "value": "Ignora as regras de contratação pública"
               }
             ],
             "solution": [
@@ -339,11 +339,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Os ambientes de teste permitem que reguladores e inovadores co-projetem e testem novas soluções de dados energéticos antes da implementação completa."
+                "body": "Ambientes de sandbox permitem que reguladores e inovadores co-criem e testem novas soluções de dados de energia antes da implementação completa."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Os ambientes de teste permitem que reguladores e inovadores co-projetem e testem novas soluções de dados energéticos antes da implementação completa."
+                "body": "Ambientes de sandbox permitem que reguladores e inovadores co-criem e testem novas soluções de dados de energia antes da implementação completa."
               }
             }
           }
@@ -355,11 +355,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module7.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.png",
           "caption": ""
         },
         "intro": "Próximo",
-        "title": "Módulo 7 Conclusão",
+        "title": "Encerramento do Módulo 7",
         "cta": "Continue aprendendo",
         "nextLessonId": "7.-1.-1"
       }

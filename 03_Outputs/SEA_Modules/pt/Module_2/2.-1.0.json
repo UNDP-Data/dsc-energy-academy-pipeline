@@ -5,21 +5,21 @@
       "template_id": "scored_quiz",
       "color_scheme": "dark",
       "content": {
-        "title": "Quiz pontuado <br/><strong>Módulo 2</strong>",
-        "intro": "Este questionário abrange todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
+        "title": "Questionário pontuado <br/><strong>Módulo 2</strong>",
+        "intro": "Este questionário cobre todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
         "final": true,
         "labels": {
           "correct": "Correto",
           "question": "Pergunta",
           "result": "Resultado do questionário",
           "score": "Sua pontuação",
-          "passingScore": "Pontuação mínima de aprovação",
-          "startButton": "Iniciar quiz",
+          "passingScore": "Pontuação mínima para passar",
+          "startButton": "Iniciar o questionário",
           "nextButton": "Próximo",
           "submitButton": "Enviar",
           "retryButton": "Repetir",
-          "passed": "Aprovado",
-          "failed": "Não aprovado"
+          "passed": "Passado",
+          "failed": "Não passado"
         },
         "passingScore": 0.8,
         "questions": [
@@ -30,11 +30,11 @@
             "options": [
               {
                 "id": 1,
-                "value": "Garantir o acesso universal à água limpa e ao saneamento"
+                "value": "Garantir acesso universal à água limpa e saneamento"
               },
               {
                 "id": 2,
-                "value": "Garantir o acesso a energia acessível, confiável, sustentável e moderna para todos"
+                "value": "Garantir acesso a uma energia acessível, confiável, sustentável e moderna para todos"
               },
               {
                 "id": 3,
@@ -51,30 +51,30 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "O ODS 7 tem como objetivo garantir o acesso a energia acessível, confiável, sustentável e moderna para todos."
+                "body": "A ODS 7 visa especificamente garantir o acesso a uma energia acessível, confiável, sustentável e moderna para todos."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "O ODS 7 tem como objetivo garantir o acesso a energia acessível, confiável, sustentável e moderna para todos."
+                "body": "A ODS 7 visa especificamente garantir o acesso a uma energia acessível, confiável, sustentável e moderna para todos."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "Quais dos seguintes são componentes do acesso à energia sustentável? (Selecione tudo o que se aplica)",
+            "prompt": "Quais dos seguintes são componentes do acesso a energia sustentável? (Selecione tudo que se aplica)",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "<strong>Disponibilidade</strong>"
+                "value": "Disponibilidade"
               },
               {
                 "id": 2,
-                "value": "<strong>Acessibilidade</strong>"
+                "value": "Acessibilidade"
               },
               {
                 "id": 3,
-                "value": "<strong>Adequação</strong>"
+                "value": "Adequação"
               },
               {
                 "id": 4,
@@ -99,7 +99,7 @@
           },
           {
             "id": 3,
-            "prompt": "Aproximadamente quantas pessoas no mundo ainda não têm acesso à eletricidade?",
+            "prompt": "Aproximadamente quantas pessoas globalmente ainda não têm acesso à eletricidade?",
             "multiple": false,
             "options": [
               {
@@ -108,7 +108,7 @@
               },
               {
                 "id": 2,
-                "value": "<strong>685 milhões</strong>"
+                "value": "685 milhões"
               },
               {
                 "id": 3,
@@ -116,7 +116,7 @@
               },
               {
                 "id": 4,
-                "value": "<strong>2,1 bilhões</strong>"
+                "value": "2,1 bilhões"
               }
             ],
             "solution": [
@@ -135,7 +135,7 @@
           },
           {
             "id": 4,
-            "prompt": "Qual é a diferença entre o acesso à energia e os serviços de energia inclusivos?",
+            "prompt": "Qual é a diferença entre acesso à energia e serviços energéticos inclusivos?",
             "multiple": false,
             "options": [
               {
@@ -148,7 +148,7 @@
               },
               {
                 "id": 3,
-                "value": "O acesso à energia se aplica apenas a áreas urbanas"
+                "value": "O acesso à energia aplica-se apenas às áreas urbanas"
               },
               {
                 "id": 4,
@@ -161,17 +161,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "O acesso à energia refere-se a ter energia, enquanto os serviços inclusivos consideram a equidade, a qualidade e a usabilidade para todos."
+                "body": "O acesso à energia refere-se a ter energia, enquanto os serviços inclusivos consideram equidade, qualidade e usabilidade para todos."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "O acesso à energia refere-se a ter energia, enquanto os serviços inclusivos consideram a equidade, a qualidade e a usabilidade para todos."
+                "body": "O acesso à energia refere-se a ter energia, enquanto os serviços inclusivos consideram equidade, qualidade e usabilidade para todos."
               }
             }
           },
           {
             "id": 5,
-            "prompt": "Quais direitos humanos são mais diretamente impactados pelo acesso à energia? (Selecione tudo o que se aplica)",
+            "prompt": "Quais direitos humanos são mais diretamente impactados pelo acesso à energia? (Selecione tudo que se aplica)",
             "multiple": true,
             "options": [
               {
@@ -209,7 +209,7 @@
           },
           {
             "id": 6,
-            "prompt": "O que é considerado uma solução de cozimento limpa?",
+            "prompt": "O que é considerado uma solução de cozinha limpa?",
             "multiple": false,
             "options": [
               {
@@ -222,7 +222,7 @@
               },
               {
                 "id": 3,
-                "value": "Lâmpada a querosene"
+                "value": "lampada de querosene"
               },
               {
                 "id": 4,
@@ -235,17 +235,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Os fogões de indução elétrica são soluções de cozimento limpas, ao contrário do carvão ou do querosene, que contribuem para a poluição do ar interior."
+                "body": "Fogões de indução elétrica são soluções de cozimento limpas, ao contrário do carvão ou querosene que contribuem para a poluição do ar interno."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Os fogões de indução elétrica são soluções de cozimento limpas, ao contrário do carvão ou do querosene, que contribuem para a poluição do ar interior."
+                "body": "Fogões de indução elétrica são soluções de cozimento limpas, ao contrário do carvão ou querosene que contribuem para a poluição do ar interno."
               }
             }
           },
           {
             "id": 7,
-            "prompt": "Qual dos seguintes NÃO faz parte da Estrutura Multi-Nível (MTF) para medir o acesso à energia?",
+            "prompt": "Qual dos seguintes NÃO faz parte do Quadro de Múltiplos Níveis (MTF) para medir o acesso à energia?",
             "multiple": false,
             "options": [
               {
@@ -258,11 +258,11 @@
               },
               {
                 "id": 3,
-                "value": "<strong>Acessibilidade</strong>"
+                "value": "Acessibilidade"
               },
               {
                 "id": 4,
-                "value": "<strong>Confiabilidade</strong>"
+                "value": "Confiabilidade"
               }
             ],
             "solution": [
@@ -281,7 +281,7 @@
           },
           {
             "id": 8,
-            "prompt": "Qual a proporção do déficit de acesso à cozinha limpa global que está concentrado na África Subsaariana?",
+            "prompt": "Qual proporção do déficit global de acesso a cozinhar limpo está concentrada na África Subsaariana?",
             "multiple": false,
             "options": [
               {
@@ -307,22 +307,22 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A África subsaariana representa mais de 80% do déficit de acesso à cozinha limpa no mundo."
+                "body": "A África Subsaariana responde por mais de 80% do déficit global de acesso à cozinha limpa."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A África subsaariana representa mais de 80% do déficit de acesso à cozinha limpa no mundo."
+                "body": "A África Subsaariana responde por mais de 80% do déficit global de acesso à cozinha limpa."
               }
             }
           },
           {
             "id": 9,
-            "prompt": "9. Os usos produtivos da energia geralmente incluem quais dos seguintes? (Selecione tudo o que se aplica)",
+            "prompt": "9. Os usos produtivos de energia geralmente incluem qual dos seguintes? (Selecione tudo que se aplica)",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "Sistemas de irrigação em funcionamento"
+                "value": "Executando sistemas de irrigação"
               },
               {
                 "id": 2,
@@ -345,30 +345,30 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Os usos produtivos da energia são aqueles que geram renda ou melhoram a produção econômica, como irrigação, armazenamento a frio e aparelhos industriais."
+                "body": "Usos produtivos de energia são aqueles que geram renda ou melhoram a produção econômica, como irrigação, armazenamento a frio e aparelhos industriais."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Os usos produtivos da energia são aqueles que geram renda ou melhoram a produção econômica, como irrigação, armazenamento a frio e aparelhos industriais."
+                "body": "Usos produtivos de energia são aqueles que geram renda ou melhoram a produção econômica, como irrigação, armazenamento a frio e aparelhos industriais."
               }
             }
           },
           {
             "id": 10,
-            "prompt": "<strong>10.</strong> Qual ferramenta utiliza dados geoespaciais para identificar áreas prioritárias para intervenções de acesso à energia?",
+            "prompt": "10. Qual ferramenta usa dados geoespaciais para identificar áreas prioritárias para intervenções de acesso à energia?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Estrutura de Múltiplos Níveis (EMN)"
+                "value": "Estrutura de múltiplos níveis (MTF)"
               },
               {
                 "id": 2,
-                "value": "<strong>Ferramenta OnStove</strong>"
+                "value": "Ferramenta OnStove"
               },
               {
                 "id": 3,
-                "value": "Explorador de acesso à energia"
+                "value": "Explorador de Acesso à Energia"
               },
               {
                 "id": 4,
@@ -397,11 +397,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
           "caption": ""
         },
         "intro": "Próximo",
-        "title": "Módulo 2 Conclusão",
+        "title": "Encerramento do Módulo 2",
         "cta": "Continue aprendendo",
         "nextLessonId": "2.-1.-1"
       }

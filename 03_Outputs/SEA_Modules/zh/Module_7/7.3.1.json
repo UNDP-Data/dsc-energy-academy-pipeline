@@ -1,0 +1,906 @@
+{
+  "id": "7.3.1",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_22.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "1"
+        },
+        "title": "能源分析的数据科学技术",
+        "cta": "",
+        "intro": "M7：可持续能源数据"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第1课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "现代能源系统不断发展的复杂性——由气候需求、技术创新和可及性挑战塑造——需要能够应对前所未有的数据量和相互依赖关系的分析方法。 本课程探讨了当代方法如何将能源分析从描述性诊断转变为预测性和指导性能力。<br /><br />我们探索先进技术如何揭示能源消耗、分布异常和需求驱动因素中的隐藏模式，从而实现更具 <ai prompt=\"什么是弹性基础设施？\">弹性基础设施 💬️</ai> 的规划。 讨论扩展到空间智能应用，展示了集成地理空间和遥感数据如何增强环境管理、可再生资产优化和公平的资源分配。 关键的是，我们考虑直观数据转换在弥合技术洞察与可行策略中的作用——确保分析的严谨性既服务于运营效率，也服务于以社区为中心的解决方案。<br /><br />在这些领域，重点仍然是实际应用：数据科学不仅揭示能源系统的行为，还能应对现实世界的限制。 来自不同运营环境的案例示例将突出创新可扩展性与情境适应之间的权衡，为评估以数据驱动的机会在实现可持续性和可访问性目标方面奠定坚实基础。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_1.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "A：能源系统的统计建模"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数据科学使用各种技术从原始数据中提取见解。 探索性数据分析（EDA）是一种揭示模式、识别异常（例如缺失值和离群值）以及数据中的模式的技术。 它可用于验证预处理步骤，确保数据为进一步分析和建模做好准备。 例如，EDA 可能显示温度与能源使用之间存在强烈的相关性，突出温度作为能源需求的重要预测因素。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "一种类型的EDA，多变量图形，通过使用散点图、直方图、条形图、箱线图和热图等图形显示数据集中的关系。 这些可视化有助于识别趋势，例如能源使用的季节性变化或能源分配网络中的低效问题。 下图说明了在探索性数据分析中使用的步骤。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_5933.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>EDA 传统上需要大量的时间和专业知识。</strong> 然而，人工智能。 简化了这个过程，使其更高效、更准确。 人工智能 算法可以快速处理大量数据，检测错误和异常值，以比人类分析师更高效、更准确地清理和转换数据。 此外，人工智能。 能够管理多样且复杂的数据集，包括文本、图像和高维数据。 通过自动化大部分EDA流程，人工智能。 有可能使数据分析师更快、更有效地探索和理解他们的数据。</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>自动化数据清理</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "在探索性数据分析（EDA）中，关键步骤之一是数据清理，包括处理缺失值和重复项、纠正错误以及格式化数据。 人工智能 可以通过自动化数据清理技术显著改善这个过程。 机器学习模型可以从历史数据清理任务中学习，并将这些学习应用于新的数据集，减少数据准备所需的时间和努力。 例如，<strong>人工智能</strong>驱动的工具可以自动检测和填补缺失值，确保在分析之前数据集尽可能完整和准确。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_7.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>聚类和异常检测</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "人工智能 算法，例如 k-means 聚类和自动编码器，在探索性数据分析（<strong>EDA</strong>）中扮演着特定的角色。 这些算法可以根据它们的相似性自动将数据点分组为簇，识别例如能源消耗、生产和分配中的潜在模式。 自动编码器，一种神经网络，可以通过学习能源系统的正常行为并标记偏离此标准的数据点来检测异常。 例如，自动编码器可以识别能源使用中的异常峰值，可能表明设备故障或未经授权的能源消耗，从而实现及时干预以防止潜在问题。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_22.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>模式识别与预测</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "机器学习算法通过实现复杂的模式识别和预测能力，增强了探索性数据分析（EDA）。 像k近邻、决策树、随机森林和支持向量机这样的算法在分类和预测能源使用模式方面特别有效。 通过分析历史数据，这些算法可以识别可能不立即显现的趋势和相关性。 例如，模式识别可以通过识别与天气条件、一天中的时间或一周中的某一天相关的消费模式，帮助预测每日或季节性的能源需求。 此功能使公用事业公司能够优化其运营，规划高峰需求期，并提高能源分配的整体效率。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "case_study_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_9.png",
+          "caption": ""
+        },
+        "intro": "亚洲和太平洋地区",
+        "title": "案例研究：印度",
+        "subtitle": "通过太阳能冷藏室和人工智能减少180亿美元的收获后损失——通过按使用付费的冷藏和数字市场准入，赋能印度及其他地区的女性领导的农民合作社"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "印度的农业部门面临重大挑战，包括大量的收获后损失。 [needs translation] Recent studies estimate that India suffers food losses worth approximately USD<a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>17.7</u></a>–<a href=\"https://icrier.org/publications/reducing-post-harvest-losses-in-indian-agriculture-a-case-study-of-selected-crops/\"><u>18.5</u></a> billion annually (<a href=\"https://icrier.org/publications/reducing-post-harvest-losses-in-indian-agriculture-a-case-study-of-selected-crops/\"><u>ICRIER, 2024</u></a>; <a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>National Economic Forum, 2025</u></a>), with fruits and vegetables experiencing losses of 30–35% due to inadequate cold chain infrastructure. [needs translation] Approximately <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>74 million</u></a> tonnes of food are lost in India each year, accounting for <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>22%</u></a> of the foodgrain output (<a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>PMF IAS, 2024</u></a>), resulting in significant income loss for smallholder farmers.<br /><br />To address these challenges, the ‘Your Virtual Cold Chain Assistant’ (Your VCCA) initiative was launched in 2021 by BASE and Empa. 该倡议利用分散的太阳能冷藏设施，帮助小规模农民和聚合者通过冷藏即服务（CaaS）模型获得负担得起的冷却解决方案（<a href=\"https://yourvcca.org/\"><u>Your VCCA</u></a>）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>2023-2024</strong>",
+              "body": "扩展到尼日利亚和菲律宾，进行应用测试和功能增强，包括农民界面。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>当前状态</strong>",
+              "body": "集成影响仪表板，用于跟踪利用率、收入增长和收获后损失的减少。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>2022</strong>",
+              "body": "在比哈尔邦和喜马偕尔邦进行试点演示，包括数据收集和用户测试。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>2021</strong>",
+              "body": "技术开发和本地合作伙伴关系建立，最终推出Coldivate应用程序的第一个版本。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Your Virtual Cold Chain Assistant (Your VCCA) 项目采用了结构化的三阶段实施方法，从初步试点测试逐步推进到更大规模的扩展和在多个国家的影响评估。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>方法论</strong>"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>第一阶段：技术开发与数字创新（2021）</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "VCCA倡议的基础元素是其强大的数字化战略，围绕<em>ColdTivate移动应用</em>展开。 该应用利用机器学习（ML）和基于物理的食品建模来估算食品的精确储存寿命，优化库存管理，并在冷藏室内提供实时温度监控。 此外，它提供关键的市场价格预测，使农民能够就何时何地出售作物以最大化收益做出明智的决策 (<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE 和 Empa，2022</u></a>)。 认识到数字鸿沟，短信通知确保没有智能手机的农民可以访问信息，弥合关键的信息差距（<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll，2024</u></a>）。<br /><br />补充数字工具的是创新的Cooling-as-a-Service (CaaS)模型，太阳能冷藏室被战略性部署，按使用付费，有效消除了小农户的高额前期成本。 实时物联网监控确保这些冷藏室的高效运行并保持作物质量。 这些设施位于无障碍公共空间中，正如在Rourkela的繁忙VSS市场附近建造的冷藏室所示，确保当地农民的无障碍访问（<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>第二阶段：试点和早期扩展（2021–2022）</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "该倡议于2021–2022年在比哈尔邦和喜马偕尔邦启动了试点阶段，旨在展示CaaS商业模式的经济可行性和VCCA应用程序的附加价值（<a href=\"https://www.climatefinancelab.org/ideas/cooling-as-a-service-caas-with-virtual-cold-chain-assistant-vcca/\"><u>Climate Finance Lab, 2022</u></a>）。 BASE 和 Empa 于 2021 年 1 月开始在 Your VCCA 计划下，作为 data.org 全球创新挑战的一部分，着手解决收获后挑战。 <br /><br />经过一年半的跨学科团队合作，包括建立强大的本地合作伙伴关系、数据收集、用户界面设计以及基于机器学习和物理模型的开发，团队发布了其基于数据科学的移动应用程序Coldivate的第一个版本（<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE 和 Empa，2022 年，段落。</u></a>）。 3</u></a>)."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能力建设和<ai prompt=\"提供更多关于性别主流化的信息。\">性别主流化 💬️</ai>从一开始就不可或缺，与当地组织建立了合作关系，例如妇女互助小组，以管理冷藏设施。 这种方法不仅确保了文化的可及性，还为女性在运营和财务方面提供了数字技能培训。 通过促进女性在冷藏室管理中的领导作用，该倡议帮助建立了社区信任并增强了模型的长期可持续性（<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll，2024，段落。 4)</u></a>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>第3阶段：全面实施和影响评估（2023–2024）</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "该项目进入其完整实施阶段，ColdTivate在印度、尼日利亚和菲律宾的21个冷藏室进行了测试。 这取代了手动登记，确保所有冷链参与者都能访问可靠、最新的信息和市场情报 (<a href=\"https://yourvcca.org/coldtivate/\"><u>Your VCCA-Coldtivate</u></a>)。<br /><br />此阶段的关键组成部分是通过应用内置调查收集按性别划分的数据，用于单独计算妇女和男性农民的后收损失和收入的统计数据。 BASE 和 Empa 计划将这些信息与农民的利用和支付模式结合在一个可导出的影响仪表板中，以帮助农民获得小额信贷和其他金融服务 (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll，2024</u></a>)。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_6033.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>结果与影响</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "预计农民收入将增加超过35%，通过冷藏存储的实施。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "存储商品的废物减少从25%到5%。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "通过淡季销售将苹果的价格实现从每公斤40印度卢比提高到每公斤88印度卢比。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "冷藏项目的内部收益率（IRR）为22.5%，股权内部收益率（Equity IRR）为31.1%。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "基于物理的数字孪生，用于预测储存水果的质量损失和保质期。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "由 CaaS 实现的环保制冷解决方案可以将温室气体排放减少最多 50%，并通过减少食品变质超过 30% 来支持粮食安全。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "预计在四年内的累计影响包括惠及150万农民，减少10万吨二氧化碳排放，并动员2亿美元用于冷藏室项目。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "印度的‘Your VCCA’倡议通过数字化为可持续发展提供了深刻的经验教训，特别是对于面临类似农业和能源挑战的地区："
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>赋予本地社区力量</strong>",
+              "body": "强大的社区参与和性别主流化是基础，与妇女自助团体的合作以及数字技能培训确保了本地所有权和冷藏设施的可持续性（<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>）。 这种方法不仅改善了生计，还增强了社会公平。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>集成数字解决方案</strong>",
+              "body": "成功强调了将创新商业模式（CaaS）与便捷的数字工具（Coldtivate应用程序、短信通知）相结合的力量。 这些工具在弥合数字鸿沟和实现农民< a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\" >< u >BASE 和 Empa，2022< /u ></a>的实时数据驱动决策中起到了关键作用。 来自物联网传感器和应用程序的持续数据收集有助于优化运营效率和市场趋势。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>可扩展且具有气候弹性的模型</strong>",
+              "body": "CaaS 模型展示了显著的气候和可扩展性优势，具有气候友好的冷却解决方案，减少温室气体排放50%，并通过减少食品变质超过30%来支持粮食安全。 该模型的成功已在多个环境中得到复制，<strong>100%太阳能驱动的步入式冷藏室</strong>已在农场集群、农产品集散中心和户外市场中实施，并在印度、尼日利亚和菲律宾记录了扩展，展示了其在农业供应链中推广清洁能源的适应性。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>适应性管理和政策的数据</strong>",
+              "body": "该应用使冷藏受益者能够实时跟踪储存中的作物质量，赋予农民在何时何地出售作物的明智决策能力。 此外，基于性别细分的影响数据驱动的项目优化取得了成效，并展示了切实的性别公平成果。 该项目关于存储优化的数据作为未来项目设计和资金的证据。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>参考资料</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "基础。 (2024). <a href=\"https://energy-base.org/projects/your-vccas-smart-cool-markets/\"><u>您的VCCA智能凉爽市场</u></a>.<br />Climate Chance. (2024). 冷却即服务（CaaS）计划。 <a href=\"https://www.climate-chance.org/en/best-pratices/cooling-as-a-service-caas-initiative/\"><u>气候变化协会</u></a>.<br />气候金融实验室。 (2021). <a href=\"https://www.climatefinancelab.org/wp-content/uploads/2023/01/Instrument-Analysis-Report_CaaS.pdf\"><u>冷却作为服务（CaaS）与虚拟冷链助手（VCCA）：实验室仪器分析——印度复制。<br /></u></a>冷气联盟。 (2022). <a href=\"https://coolcoalition.org/sustainable-cooling-india/\"><u>可持续冷却使印度农民的收获后管理变得负担得起</u></a>.<br />Down to Earth. (2024). <a href=\"https://www.downtoearth.org.in/governance/as-told-to-parliament-august-6-2024-4-8-grains-5-15-fruits-vegetables-lost-after-harvest\"><u>如向议会报告（2024年8月6日）：收获后谷物损失4-8%，水果和蔬菜损失5-15%</u></a>.<br />国家经济论坛。 (2025). <a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>解决印度的收获后损失：农业中的无声危机</u></a>.<br />Officers Pulse. (2024). <a href=\"https://officerspulse.com/2024/07/19/post-harvest-losses-in-agriculture/\"><u>农业中的收获后损失</u></a>。 <br />PMF IAS. (2024). <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>印度的收获后损失</u></a>.<br />您的VCCA。 (2023a). <a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE 和 Empa 在印度发布了 Coldtivate 应用的第一个版本</u></a>。 <br />您的VCCA。 (2023b). <a href=\"https://yourvcca.org/nigeria/2022/09/05/base-and-empa-release-the-first-version-of-the-coldivate-app-in-nigeria/\"><u>BASE 和 Empa 在尼日利亚发布了 Coldtivate 应用的第一个版本</u></a>. <br />您的VCCA。 (2024a). <a href=\"https://yourvcca.org/\"><u>您的虚拟冷链助手</u></a>。<br />您的VCCA。 (2024b). <a href=\"https://yourvcca.org/blog/coldtivate-launches-the-farmers-interface/\"><u>Coldtivate 推出农民界面</u></a>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_5.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "地理空间数据"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "面对紧迫的环境问题，如气候变化、森林砍伐和污染源识别，人工智能（A.I.）的进步增强了地理空间数据分析的实用性和能力。 决策者可以利用数据工具评估低碳能源资源及相关基础设施的影响和选址。 人工智能的卓越计算能力和数据处理能力使其成为保护和维护我们地球的重要工具。<br /><br />Sirmacek 和 Vinuesa (2022) 探讨了人工智能的整合。 以及 <ai prompt=\"告诉我更多关于遥感的信息。\">遥感 💬️</ai> 以增强城市地区的气候适应能力。 他们提出了一个结合人工智能的框架。 以及模拟从卫星图像中提取指标，促进对与气候适应相关的未来状态的预测估计。 他们的研究突出了人工智能的潜力。 用于创建快速土地利用地图、模拟灾难场景、识别异常值并提供实时预测。 这种方法旨在帮助决策者维护社会福祉、自然资源和生物多样性。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "遥感和地理信息系统（GIS）已成为能源行业不可或缺的工具，提供关于空间关系的全面而精确的数据和分析。 遥感技术包括通过卫星、飞机和空中平台从远处获取地球表面数据的技术。 另一方面，GIS 提供了一个集成、分析和可视化这些地理空间数据的框架。 这些工具形成了一个强大的组合，可以用来应对能源部门的关键挑战。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "恩里克斯·扎拉特等人 (2022) 应用人工智能 使用机器学习模型检测和分析风力发电机叶片的侵蚀。 该研究重点关注前缘侵蚀及其对空气动力性能和结构完整性的影响。 他们使用QBlade软件进行气动和模态分析，模拟不同的侵蚀水平及其对发电的影响。 研究人员开发了机器学习模型，以分类侵蚀的位置并预测其严重程度，取得了高精度。 这种创新方法，通过AutoML增强——它自动选择最优模型和调整超参数——提供了一种全面的预测性维护方法，最大限度地减少停机时间，并提高风力涡轮机的效率。<br /><br />Muxica等人。 (2024) 应用人工智能 在能源行业的遥感中，通过设计和实施一个自主传感器系统，用于低容量风力发电机的振动测量。 该系统部署在在恶劣天气条件下运行的风力涡轮机上，使用人工智能。 处理从附着在叶片上的三轴加速度计收集的数据。 人工智能 流程实现对风力发电机叶片动态特性的实时监测和评估，便于早期损伤检测和维护。 通过集成人工智能。 利用遥感技术，系统确保风力发电机的可靠高效运行，降低维护成本并增强<ai prompt=\"提供更多关于风能的信息。\">风能💬️</ai>发电的整体可靠性。 此应用展示了人工智能的潜力。 在推进结构健康监测和优化可再生能源资源方面。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "总之，人工智能的整合。 利用遥感和GIS应用在推动环境保护、气候适应和可再生能源优化方面具有巨大潜力。 这项研究展示了人工智能的多种应用。 在监测环境变化、预测风力发电机叶片的侵蚀，以及提高风能发电的效率和可靠性。 这些进步强调了人工智能的关键作用。 在促进数据驱动的决策制定、实现主动维护以及支持能源行业的可持续发展方面。 作为人工智能。 持续发展，其在遥感和GIS中的应用无疑将变得更加重要，以应对当前紧迫的环境和能源挑战。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "case_study_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_6.png",
+          "caption": ""
+        },
+        "intro": "亚洲和太平洋地区",
+        "title": "案例研究：菲律宾",
+        "subtitle": "基于人工智能的精准扶贫——卫星影像和机器学习解锁细粒度贫困地图，在COVID-19期间为162,000个菲律宾家庭提供紧急援助"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "菲律宾的极端贫困仍然是一个日益严重的问题。 在2021年，贫困人口的规模为19,902,750，较2018年增加了2,232,540人或12.6%，主要由于COVID-19大流行的经济影响。 因此，国内大约有160万户家庭无法获得电力，这对减贫和公平获取基本服务构成了持续的挑战。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "为帮助解决这些问题，联合国开发计划署菲律宾通过其加速器实验室（ALab）实施了支持消除贫困和解决社会不平等的举措，但面临缺乏强大、细粒度数据以制定战略和高层决策的挑战（UNDP）。 由<ai prompt=\"解释国家统计局。\">国家统计局 💬️</ai>编制的传统贫困统计数据在国家、地区或省级别提供，但不足以训练算法成功预测在针对性干预所需的细粒度地理层面上的贫困（亚洲发展，2020）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "联合国开发计划署菲律宾通过其加速器实验室，与Zero Extreme Poverty Philippines 2030 (ZEP2030)合作，设计并测试一系列针对本地化、目标明确和融合的贫困行动方法（<a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>UNDP，2021</u></a>）。 ZEP2030 是由 140 个民间社会组织组成的联盟，旨在通过集体行动在 2030 年前使 100 万极贫困家庭摆脱贫困（<a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>UNDP，2021</u></a>）。 为了支持这一雄心勃勃的目标，Thinking Machines帮助联合国开发计划署和Zero Extreme Poverty PH 2030实施了先进的基于AI的贫困绘图方法，同时亚洲开发银行也单独进行了关于使用卫星图像和机器学习进行贫困估算的开创性可行性研究（<a href=\"https://digitalx.undp.org/thinking-machines-data-science_1.html\"><u>UNDP Digital X</u></a>）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "该项目旨在利用机器学习和卫星图像绘制菲律宾的贫困地图，特别是为了克服收集可靠社会经济数据的挑战，这些数据相对耗时、劳动密集且昂贵。 [needs translation] The project’s main objectives include using transfer learning and satellite imagery to map poverty in the country, developing preliminary poverty prediction models for the Philippines, and overcoming the limitations of traditional on-ground surveys by leveraging machine learning and geospatial information (<a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Thinking Machines, 2019</u></a>).<br /><br /><strong>Data Sources and Collection<br /><br /></strong>The project utilized the 2017 National Demographic and Health Survey (NDHS) as ground truth data for training machine learning models. 菲律宾统计局于2017年8月至10月在全国范围内实施了这项调查，涵盖了菲律宾各地超过1,200个地点的超过31,000户家庭。 数据集包括该国家庭财富评分，基于屋顶材料、家电拥有情况以及水电接入等属性（<a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Thinking Machines，2019，段落</u></a>）。 5</u></a>).<br /><br />该研究利用公开的卫星图像以确保成本效益和广泛的可及性（<a href=\"https://www.researchgate.net/publication/338131416_MAPPING_POVERTY_IN_THE_PHILIPPINES_USING_MACHINE_LEARNING_SATELLITE_IMAGERY_AND_CROWD-SOURCED_GEOSPATIAL_INFORMATION\"><u>ResearchGate, 2019</u></a>）。 该项目使用Google静态地图API下载了400x400像素、缩放级别17的卫星图像，最终下载了134,540张捕捉详细物理和基础设施特征的卫星图像（<a href=\"https://www.researchgate.net/publication/338131416_MAPPING_POVERTY_IN_THE_PHILIPPINES_USING_MACHINE_LEARNING_SATELLITE_IMAGERY_AND_CROWD-SOURCED_GEOSPATIAL_INFORMATION\"><u>ResearchGate，2019</u></a>）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "该项目采用了由斯坦福大学研究人员最初开发的迁移学习方法。 这种方法解决了贫困绘图中的一个根本性挑战：在训练机器学习算法所需的细粒度地理级别上，缺乏标记的贫困数据 (<a href=\"https://development.asia/insight/using-machine-learning-satellite-images-map-poverty\"><u>Development Asia, 2020</u></a>)。<br /><br />传统的贫困统计数据通常仅在国家、地区或省级别编制，使得训练用于细粒度贫困预测的算法变得困难。 迁移学习方法通过使用夜间光强作为中间训练目标绕过了这一限制。<br /><br />该项目采用了由斯坦福大学研究人员最初开发的迁移学习方法。 该方法实施了一个两阶段的机器学习过程。<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>第1阶段：夜间光线预测 </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "研究人员训练了一个卷积神经网络（CNN）以从白天的卫星图像预测夜间光强。 这利用夜间亮度与经济发展之间的关系，亮度较高的地区通常表示更高的经济活动水平。"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>第 2 阶段：贫困预测 </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "团队从训练好的CNN中提取了4096维的特征向量，代表与不同夜间光强度水平相关的视觉模式。 这些特征随后被用于岭回归模型中，以预测家庭财富和贫困水平（Thinking Machines，2019，段落。 9). 通过这种机器学习和地理空间数据的结合，他们能够在全国范围内提供更准确、更详细的贫困估算。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "在COVID-19大流行期间，ZEP2030和UNDP ALab与创业公司AI4Gov合作，推出了COVID Pulse PH。 这项创新的调查通过一个消息机器人部署，该机器人通过 ZEP2030 以及菲律宾农村重建运动的社区网络进行了推广。 自2020年5月以来，实施三轮调查，确认COVID-19对最贫困的人影响最大（<a href=\"https://kapicapistrano.wordpress.com/2021/10/18/local-convergence-for-zero-poverty/\"><u>Kapi Capistrano，2021</u></a>）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>结果与影响</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "成功创建的贫困预测模型解释了56%的财富变异性，展示了在菲律宾利用AI驱动的贫困绘图的可行性。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "应用贫困绘图技术支持马尼拉大都会及邻近省份的COVID-19紧急食品分发，服务162,000户家庭，覆盖44个barangays。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "在<em>联合国开发计划署菲律宾加速器实验室</em>与<em>ZEP2030联盟</em>之间建立了合作框架，推动了包括安蒂波洛市和宿务省在内的本地融合倡议"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "自2020年5月以来，在三波中部署了COVID Pulse PH聊天机器人调查，收集了大马尼拉、宿务大都会以及六个省份在疫情期间的实时贫困影响数据"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "已发布开源代码和方法，便于其他发展中国家和研究机构复制和改编该方法。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "菲律宾在人工智能驱动的贫困地图绘制方面的开创性经验为面临类似数据匮乏和发展挑战的其他国家提供了关键见解："
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>可扩展性和效率</strong>",
+              "body": "从项目中学到的主要教训表明，机器学习提供了一种可扩展、可靠且低成本的方式，用于获取调查未覆盖地区的贫困信息。 传统的实地调查可能花费数千万比索，通常每三到五年在地区或省级进行一次，而使用卫星图像的机器学习方法提供了一种低成本的替代方案，可以提供可靠的贫困估算。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>替代数据方法与快速实施</strong>",
+              "body": "这种方法的低成本允许快速迭代，这为未来使用其他数据集（如道路网络、人口密度和流动性）进行实验打开了大门。 该方法可以在进行家庭调查所需时间和成本的一小部分内，估算任何18平方公里区域的财富和贫困情况。 采用这种方法，这类项目可以推广到其他地区，考虑到其在以较低成本提供结果方面的效率，优于传统的随机调查",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>多方利益相关者合作</strong>",
+              "body": "该项目的成功依赖于<<strong>联合国开发计划署菲律宾加速器实验室</strong>、民间社会联盟如<<strong>ZEP2030</strong>、政府机构和科技公司之间的稳固合作。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>社区验证与地方领导</strong>",
+              "body": "ZEP2030联盟的«<strong>全包本地</strong>»战略强调了地方领导在减贫倡议中的重要性，<br> 地方汇聚作为减贫的载体，通过促进发展行动者之间的更紧密合作。",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>参考资料</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "亚洲开发银行 (2021). <a href=\"https://www.adb.org/publications/mapping-poverty-satellite-imagery-philippines\"><u>利用卫星图像绘制菲律宾贫困的空间分布</u></a>.<br /><br />Development Asia. (2020). <a href=\"https://development.asia/insight/using-machine-learning-satellite-images-map-poverty\"><u>使用机器学习对卫星图像进行贫困地图绘制</u></a>.<br /><br />Development Asia. (2020). <a href=\"https://development.asia/explainer/how-satellite-data-helped-get-food-hungry-during-covid-19\"><u>卫星数据如何帮助在COVID-19期间将食物送到饥饿者手中</u></a>.<br /><br />哈维尔，C.，马涅戈，M。 L., Duante, C., & Angeles-Agdeppa, I. (2022). <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8883167\"><u>COVID-19 大流行对家庭食品安全和<ai prompt=\"解释社会保障。\">社会保障 💬️</ai> 计划的影响</u></a>。 <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8883167/\"><u>/<br /></u></a><br />Kapicapistrano. (2021年10月18日) <a href=\"https://kapicapistrano.wordpress.com/2021/10/18/local-convergence-for-zero-poverty/\"><u>实现零贫困的本地融合</u></a>.<br /><br />菲律宾统计局。 (n.d.). <a href=\"https://rssocar.psa.gov.ph/poverty\"><u>贫困</u></a>.<br />Thinking Machines Data Science. (2019). <a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>使用迁移学习和卫星图像绘制菲律宾的贫困地图</u></a>。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Thinking Machines 数据科学。 (2020). <a href=\"https://stories.thinkingmachin.es/mapping-poverty-in-the-philippines-with-combined-open-geospatial-datasets/\"><u>用结合的开放地理空间数据绘制菲律宾的贫困地图</u></a>.<br /><br />Thinking Machines Data Science. (n.d.). ph-poverty-mapping：<a href=\"https://github.com/thinkingmachines/ph-poverty-mapping\"><u>使用机器学习、卫星图像和众包地理空间信息绘制菲律宾贫困地图</u></a>。<br /><br />Thinking Machines Data Science。 (n.d.). unicef-ai4d-poverty-mapping: <a href=\"https://github.com/thinkingmachines/unicef-ai4d-poverty-mapping\"><u>UNICEF AI4D 相对财富映射项目</u></a>.<br /><br />联合国开发计划署。 (n.d.). Digital X 解决方案：<a href=\"https://digitalx.undp.org/thinking-machines-data-science_1.html\"><u>Thinking Machines Data Science</u></a>。<br /><br /><ai prompt=\"Tell me more about undp accelerator labs.\">undp accelerator labs 💬️</ai>。 (n.d.). <a href=\"https://www.undp.org/acceleratorlabs/undp-philippines-accelerator-lab\"><u>联合国开发计划署菲律宾加速器实验室</u></a>.<br /><br />联合国开发计划署菲律宾。 (2021). <a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>实现零贫困的本地融合：与ZEP PH 2030的集体行动试验</u></a>.<br /><br />World Data Lab. (2024). <a href=\"https://worlddata.io/portfolio/ai-poverty-mapping/\"><u>人工智能贫困地图</u></a>.<br /><br />零极端贫困。 (n.d.). <a href=\"https://zeropovertyph.net/zep2030-ph-toolkit/\"><u>ZEP2030 PH 工具包</u></a>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_4.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "C：数据可视化的重要性"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数据可视化可以有效地使数据栩栩如生并讲述一个故事。 使用将信息和数据转化为可操作洞察的数据可视化非常重要。 在能源行业中，数据在证明和合理化决策方面起着重要作用，<br>有效的可视化可以增强清晰度和可理解性，而无效的可视化可能导致混淆和注意力的丧失。 目前没有关于数据可视化的全球标准化框架，但有关于最佳原则的指导，这些原则来自多年的研究和在设计与媒体行业的试验。 关于最佳实践的指导可以在《<strong>Visualizing Data</strong>》一书和网页 <em>Material Design</em> 中找到。 两个参考资料都解释了图表的正确使用、注释的使用以及编辑设计元素。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Outro_2.png",
+              "caption": ""
+            },
+            "title": "由人工智能驱动的探索性数据分析革新能源数据洞察。",
+            "description": "<strong>AI驱动的探索性数据分析（EDA）</strong> 加速了能源数据集中模式、异常和相关性的识别，从而实现更高效的数据清理、聚类和异常检测。 通过自动化这些流程，人工智能使能源分析师能够更快、更准确地发现关键洞察——例如季节性能源需求趋势或设备故障——从而优化能源系统的性能。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Intro_3.png",
+              "caption": ""
+            },
+            "title": "人工智能增强的遥感和地理信息系统改变了能源基础设施规划。",
+            "description": "将人工智能与遥感和地理信息系统技术相结合，实现先进的空间分析、预测性维护和能源资产的实时监控。 诸如风力发电机叶片侵蚀检测和通过卫星图像进行贫困地图绘制等应用，展示了人工智能如何推动数据驱动的决策、提高可再生能源效率，以及解决欠缺地区的能源获取挑战。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_12.png",
+              "caption": ""
+            },
+            "title": "数据可视化是获取可操作能源洞察的战略工具。",
+            "description": "有效的数据可视化将复杂的能源数据转化为清晰、可操作的叙述，增强决策和利益相关者的沟通。 通过遵循设计和故事讲述的最佳实践，能源专业人员可以创建<em>突出关键趋势</em>的可视化，例如<em>能源消耗模式</em>或<em>基础设施性能</em>，确保<em>数据驱动的策略</em>既易于访问又具有影响力。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第2课：能源建模工具和应用",
+        "cta": "继续学习",
+        "nextLessonId": "7.3.2"
+      }
+    }
+  ]
+}

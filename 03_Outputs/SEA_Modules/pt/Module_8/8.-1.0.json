@@ -5,21 +5,21 @@
       "template_id": "scored_quiz",
       "color_scheme": "dark",
       "content": {
-        "title": "Quiz pontuado <br/><strong>Módulo 8</strong>",
-        "intro": "Este questionário abrange todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
+        "title": "Questionário pontuado <br/><strong>Módulo 8</strong>",
+        "intro": "Este questionário cobre todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
         "final": true,
         "labels": {
           "correct": "Correto",
           "question": "Pergunta",
           "result": "Resultado do questionário",
           "score": "Sua pontuação",
-          "passingScore": "Pontuação mínima de aprovação",
-          "startButton": "Iniciar quiz",
+          "passingScore": "Pontuação mínima para passar",
+          "startButton": "Iniciar o questionário",
           "nextButton": "Próximo",
           "submitButton": "Enviar",
           "retryButton": "Repetir",
-          "passed": "Aprovado",
-          "failed": "Não aprovado"
+          "passed": "Passado",
+          "failed": "Não passado"
         },
         "passingScore": 0.8,
         "questions": [
@@ -42,7 +42,7 @@
               },
               {
                 "id": 4,
-                "value": "Menos dependência de dispositivos digitais"
+                "value": "Menor dependência de dispositivos digitais"
               }
             ],
             "solution": [
@@ -51,22 +51,22 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A demanda crescente por resfriamento residencial, particularmente em mercados emergentes, deve triplicar até 2050, tornando-se um importante contribuinte para o aumento do uso de eletricidade em edifícios."
+                "body": "A crescente demanda por refrigeração residencial, especialmente em mercados emergentes, deve triplicar até 2050, tornando-se um contribuinte importante para o aumento do uso de eletricidade em edifícios."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A demanda crescente por resfriamento residencial, particularmente em mercados emergentes, deve triplicar até 2050, tornando-se um importante contribuinte para o aumento do uso de eletricidade em edifícios."
+                "body": "A crescente demanda por refrigeração residencial, especialmente em mercados emergentes, deve triplicar até 2050, tornando-se um contribuinte importante para o aumento do uso de eletricidade em edifícios."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "Qual região deve ver o maior crescimento de lares de classe média até 2034?",
+            "prompt": "Qual região deve experimentar o maior crescimento em famílias de classe média até 2034?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "África subsaariana"
+                "value": "África Subsaariana"
               },
               {
                 "id": 2,
@@ -87,17 +87,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A região da Ásia-Pacífico abrigará dois terços de todos os lares de classe média nos mercados emergentes até 2029, com a China e a Índia vendo os maiores aumentos."
+                "body": "A Ásia-Pacífico sediará dois terços de todas as famílias de classe média nos mercados emergentes até 2029, com a China e a Índia vendo os maiores aumentos."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A região da Ásia-Pacífico abrigará dois terços de todos os lares de classe média nos mercados emergentes até 2029, com a China e a Índia vendo os maiores aumentos."
+                "body": "A Ásia-Pacífico sediará dois terços de todas as famílias de classe média nos mercados emergentes até 2029, com a China e a Índia vendo os maiores aumentos."
               }
             }
           },
           {
             "id": 3,
-            "prompt": "No cenário de Emissões Líquidas Zero (NZE), que porcentagem da demanda de energia é atendida por energia limpa até 2050?",
+            "prompt": "Na cenário de Emissões Zero Líquidas (EZL), qual porcentagem da demanda de energia é atendida por energia limpa até 2050?",
             "multiple": false,
             "options": [
               {
@@ -150,7 +150,7 @@
               },
               {
                 "id": 4,
-                "value": "Redução dos preços da eletricidade"
+                "value": "Preços de eletricidade mais baixos"
               }
             ],
             "solution": [
@@ -159,17 +159,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A digitalização introduz novas vulnerabilidades de cibersegurança à medida que as redes e sistemas elétricos se tornam mais conectados."
+                "body": "A digitalização introduz novas vulnerabilidades de cibersegurança à medida que as redes de energia e os sistemas se tornam mais conectados."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A digitalização introduz novas vulnerabilidades de cibersegurança à medida que as redes e sistemas elétricos se tornam mais conectados."
+                "body": "A digitalização introduz novas vulnerabilidades de cibersegurança à medida que as redes de energia e os sistemas se tornam mais conectados."
               }
             }
           },
           {
             "id": 5,
-            "prompt": "Qual é o aumento projetado na capacidade renovável até 2030 de acordo com a AIE?",
+            "prompt": "Qual é o aumento projetado na capacidade de energias renováveis até 2030 de acordo com a IEA?",
             "multiple": false,
             "options": [
               {
@@ -195,17 +195,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "As projeções da AIE estimam que a capacidade renovável global aumentará 2,7 vezes até 2030."
+                "body": "As projeções da AIE estimam que a capacidade de energia renovável global aumentará 2,7 vezes até 2030."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "As projeções da AIE estimam que a capacidade renovável global aumentará 2,7 vezes até 2030."
+                "body": "As projeções da AIE estimam que a capacidade de energia renovável global aumentará 2,7 vezes até 2030."
               }
             }
           },
           {
             "id": 6,
-            "prompt": "Qual a parte da eletricidade mundial gerada pela energia nuclear em 2023?",
+            "prompt": "Qual a parcela da eletricidade mundial foi gerada por energia nuclear em 2023?",
             "multiple": false,
             "options": [
               {
@@ -231,11 +231,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Em 2023, a energia nuclear representou pouco mais de 9% da geração de eletricidade global."
+                "body": "Em 2023, a energia nuclear representou pouco mais de 9 % da geração global de eletricidade."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Em 2023, a energia nuclear representou pouco mais de 9% da geração de eletricidade global."
+                "body": "Em 2023, a energia nuclear representou pouco mais de 9 % da geração global de eletricidade."
               }
             }
           },
@@ -246,11 +246,11 @@
             "options": [
               {
                 "id": 1,
-                "value": "Emite gases de efeito estufa quando utilizado"
+                "value": "Emite gases de efeito estufa quando usado"
               },
               {
                 "id": 2,
-                "value": "A produção de hidrogênio verde já é ampla"
+                "value": "A produção de hidrogênio verde já é generalizada"
               },
               {
                 "id": 3,
@@ -267,22 +267,22 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "O hidrogênio, particularmente o hidrogênio verde, tem um potencial significativo para descarbonizar setores difíceis de descarbonizar, como a indústria pesada e o transporte de longa distância."
+                "body": "O hidrogênio, especialmente o hidrogênio verde, tem um potencial significativo para descarbonizar setores difíceis de reduzir, como a indústria pesada e o transporte de longa distância."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "O hidrogênio, particularmente o hidrogênio verde, tem um potencial significativo para descarbonizar setores difíceis de descarbonizar, como a indústria pesada e o transporte de longa distância."
+                "body": "O hidrogênio, especialmente o hidrogênio verde, tem um potencial significativo para descarbonizar setores difíceis de reduzir, como a indústria pesada e o transporte de longa distância."
               }
             }
           },
           {
             "id": 8,
-            "prompt": "Qual é uma barreira chave para a implantação de energias renováveis em países em desenvolvimento?",
+            "prompt": "Qual é uma barreira-chave para a implementação de energias renováveis em países em desenvolvimento?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Apoio governamental demais"
+                "value": "Muita assistência do governo"
               },
               {
                 "id": 2,
@@ -290,11 +290,11 @@
               },
               {
                 "id": 3,
-                "value": "<strong>Custo alto do capital</strong>"
+                "value": "<strong>Custo elevado de capital</strong>"
               },
               {
                 "id": 4,
-                "value": "Dependência excessiva da energia hidrelétrica"
+                "value": "Dependência excessiva de energia hidrelétrica"
               }
             ],
             "solution": [
@@ -303,26 +303,26 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Os altos custos de capital devido a riscos percebidos e à falta de mecanismos de desrisco são uma barreira importante nas economias em desenvolvimento."
+                "body": "Custos elevados de capital devido aos riscos percebidos e à falta de mecanismos de redução de riscos são uma barreira importante nas economias em desenvolvimento."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Os altos custos de capital devido a riscos percebidos e à falta de mecanismos de desrisco são uma barreira importante nas economias em desenvolvimento."
+                "body": "Custos elevados de capital devido aos riscos percebidos e à falta de mecanismos de redução de riscos são uma barreira importante nas economias em desenvolvimento."
               }
             }
           },
           {
             "id": 9,
-            "prompt": "Por que as restrições de terra e recursos são uma preocupação para a implantação de energia renovável?",
+            "prompt": "Por que as restrições de terra e recursos são uma preocupação para a implantação de energias renováveis?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "As energias renováveis requerem muito pouco terreno"
+                "value": "As energias renováveis requerem muito pouco espaço"
               },
               {
                 "id": 2,
-                "value": "Os parques eólicos ocupam permanentemente a terra que utilizam"
+                "value": "Os parques eólicos ocupam permanentemente o terreno que utilizam"
               },
               {
                 "id": 3,
@@ -349,7 +349,7 @@
           },
           {
             "id": 10,
-            "prompt": "Qual porcentagem das novas adições de capacidade elétrica está projetada para vir de fontes renováveis até 2050 nos caminhos de 1,5Â°C?",
+            "prompt": "Qual a porcentagem de novas adições de capacidade de eletricidade que se projeta que virão de renováveis até 2050 nas trajetórias de 1,5 °C?",
             "multiple": false,
             "options": [
               {
@@ -375,11 +375,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "De acordo com os caminhos alinhados ao IPCC, quase todas as novas adições de capacidade até 2050 devem vir de fontes renováveis."
+                "body": "De acordo com os caminhos alinhados ao IPCC, quase toda a nova capacidade adicional até 2050 deve vir de fontes renováveis."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "De acordo com os caminhos alinhados ao IPCC, quase todas as novas adições de capacidade até 2050 devem vir de fontes renováveis."
+                "body": "De acordo com os caminhos alinhados ao IPCC, quase toda a nova capacidade adicional até 2050 deve vir de fontes renováveis."
               }
             }
           }
@@ -391,11 +391,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module8.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module8.png",
           "caption": ""
         },
         "intro": "Próximo",
-        "title": "Módulo 8 Conclusão",
+        "title": "Encerramento do Módulo 8",
         "cta": "Continue aprendendo",
         "nextLessonId": "8.-1.-1"
       }

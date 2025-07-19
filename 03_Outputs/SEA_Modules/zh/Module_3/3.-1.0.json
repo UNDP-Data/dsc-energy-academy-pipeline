@@ -1,0 +1,404 @@
+{
+  "id": "3.-1.0",
+  "segments": [
+    {
+      "template_id": "scored_quiz",
+      "color_scheme": "dark",
+      "content": {
+        "title": "得分测验 <br/><strong>模块 3</strong>",
+        "intro": "本测验涵盖本模块的所有课程。 你必须达到80％才能通过。 祝你好运！",
+        "final": true,
+        "labels": {
+          "correct": "正确",
+          "question": "问题",
+          "result": "测验结果",
+          "score": "你的分数",
+          "passingScore": "及格最低分",
+          "startButton": "开始测验",
+          "nextButton": "下一步",
+          "submitButton": "提交",
+          "retryButton": "重播",
+          "passed": "已通过",
+          "failed": "未通过"
+        },
+        "passingScore": 0.8,
+        "questions": [
+          {
+            "id": 1,
+            "prompt": "正义能源转型概念的一个关键起源是什么？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "联合国政府间气候变化专门委员会关于排放的专家组"
+              },
+              {
+                "id": 2,
+                "value": "青年气候倡导网络"
+              },
+              {
+                "id": 3,
+                "value": "倡导工人保护的工会"
+              },
+              {
+                "id": 4,
+                "value": "企业可持续发展运动"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "该术语起源于工会运动，强调在环境改革期间对工人的保护。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "该术语起源于工会运动，强调在环境改革期间对工人的保护。"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "在不同背景下实现公平转型的核心原则是什么？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "标准化过渡时间表"
+              },
+              {
+                "id": 2,
+                "value": "全民补贴模型"
+              },
+              {
+                "id": 3,
+                "value": "根据当地实际情况制定策略"
+              },
+              {
+                "id": 4,
+                "value": "避免社区咨询"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "量身定制的策略对于考虑地区差异、社会动态和经济背景至关重要。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "量身定制的策略对于考虑地区差异、社会动态和经济背景至关重要。"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "prompt": "“能源正义”最清楚地强调了什么？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "最大化电网效率"
+              },
+              {
+                "id": 2,
+                "value": "能源利益与负担的公平分配"
+              },
+              {
+                "id": 3,
+                "value": "优先考虑大规模基础设施"
+              },
+              {
+                "id": 4,
+                "value": "能源市场的放松管制"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "能源公平关注公平获取、合理分配和能源决策的包容性。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "能源公平关注公平获取、合理分配和能源决策的包容性。"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "prompt": "以下哪项最能描述能源规划中的程序正义方法？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "仅评估技术可行性"
+              },
+              {
+                "id": 2,
+                "value": "在部委集中决策"
+              },
+              {
+                "id": 3,
+                "value": "优先考虑速度而非咨询"
+              },
+              {
+                "id": 4,
+                "value": "在项目设计的所有阶段包括利益相关者"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "程序正义要求在能源规划的所有阶段都进行包容和透明的参与。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "程序正义要求在能源规划的所有阶段都进行包容和透明的参与。"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "在依赖采掘的地区，计划不周的向化石燃料转变可能带来什么挑战？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "更多外国投资"
+              },
+              {
+                "id": 2,
+                "value": "电价下降"
+              },
+              {
+                "id": 3,
+                "value": "失业和社会不稳定"
+              },
+              {
+                "id": 4,
+                "value": "更快的能源获取"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "没有经济替代方案的快速转变可能会破坏依赖采掘行业的社区的稳定。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "没有经济替代方案的快速转变可能会破坏依赖采掘行业的社区的稳定。"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "在能源转型中，性别相关的公平参与的关键障碍是什么？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "女性对能源工作的兴趣不足"
+              },
+              {
+                "id": 2,
+                "value": "女性对非正式能源解决方案的偏好"
+              },
+              {
+                "id": 3,
+                "value": "领导层中的代表性不足以及培训和融资的不平等"
+              },
+              {
+                "id": 4,
+                "value": "来自男性主导工会的抵抗"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "结构性障碍——如有限的培训、融资和领导角色的机会——限制了女性在能源行业的全面参与。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "结构性障碍——如有限的培训、融资和领导角色的机会——限制了女性在能源行业的全面参与。"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "为什么土地所有权保障在全球南方的可再生能源部署中至关重要？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "确保社区的电价更低"
+              },
+              {
+                "id": 2,
+                "value": "它保证投资者获得更高的回报"
+              },
+              {
+                "id": 3,
+                "value": "它防止迁移，保护社区权益，并确保公平的利益分享"
+              },
+              {
+                "id": 4,
+                "value": "它允许政府绕过咨询要求"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "确保土地权益有助于防止流离失所，保护生计，并促进在可再生能源利益中的公平参与。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "确保土地权益有助于防止流离失所，保护生计，并促进在可再生能源利益中的公平参与。"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "与大规模水电项目相关的主要环境问题是什么？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "涡轮机的高排放"
+              },
+              {
+                "id": 2,
+                "value": "长距离传输中的能量损失"
+              },
+              {
+                "id": 3,
+                "value": "水生生态系统的破坏和水库的甲烷排放"
+              },
+              {
+                "id": 4,
+                "value": "过度依赖进口技术"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "大规模水电可能破坏河流生态系统，并从水库中分解的生物质中释放甲烷，尤其是在热带地区。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "大规模水电可能破坏河流生态系统，并从水库中分解的生物质中释放甲烷，尤其是在热带地区。"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "哪种策略在能源转型中促进公平的经济机会？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "公共事业的税收减免"
+              },
+              {
+                "id": 2,
+                "value": "技能发展和再培训计划"
+              },
+              {
+                "id": 3,
+                "value": "能源获取的私有化"
+              },
+              {
+                "id": 4,
+                "value": "仅依赖碳市场"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "技能发展和再培训使工人和社区能够从新的能源部门中受益。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "技能发展和再培训使工人和社区能够从新的能源部门中受益。"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "自由、事先和知情同意（FPIC）在公平转型中的作用是什么？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "加快基础设施建设"
+              },
+              {
+                "id": 2,
+                "value": "绕过政府批准"
+              },
+              {
+                "id": 3,
+                "value": "确保土著社区对能源项目拥有决策权"
+              },
+              {
+                "id": 4,
+                "value": "限制对自然资源的访问"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "<strong>FPIC</strong>确保土著人民在影响其土地和生活的决策中有实质性参与。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "<strong>FPIC</strong>确保土著人民在影响其土地和生活的决策中有实质性参与。"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module3.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "模块3结尾",
+        "cta": "继续学习",
+        "nextLessonId": "3.-1.-1"
+      }
+    }
+  ]
+}

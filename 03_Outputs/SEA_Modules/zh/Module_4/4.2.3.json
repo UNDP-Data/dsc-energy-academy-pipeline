@@ -1,0 +1,662 @@
+{
+  "id": "4.2.3",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_3.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "3"
+        },
+        "title": "能源补贴改革",
+        "cta": "",
+        "intro": "M4：公平能源转型融资"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第3课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "在本课程中，您将了解能源补贴的经济、环境和社会影响，以及补贴改革在促进可持续能源转型中的关键作用。 通过来自印度尼西亚、伊朗和摩洛哥等国家的案例研究，您将了解平衡财政稳定、债务管理和可再生能源投资的策略。 您还将研究逐步取消化石燃料补贴的挑战、对弱势群体提供有针对性的支持的重要性，以及减少对化石燃料依赖的结构性变革的必要性。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_Outro_2.png",
+          "caption": ""
+        },
+        "intro": "M4：公平能源转型融资",
+        "title": "A：能源和化石燃料补贴"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>能源补贴是什么？</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源补贴是政府干预措施，旨在降低能源生产、分配或消费的成本，以使能源更实惠或支持特定的能源产业（<a href=\"https://www.iea.org/reports/carrots-and-sticks-taxing-and-subsidising-energy?utm_source=chatgpt.com\"><u>国际能源署</u></a>）。 这些补贴可以采取多种形式，包括直接财政支持、税收减免、价格控制或能源项目的低成本贷款。<br />它们通常分为两大类："
+            }
+          },
+          {
+            "template_id": "bullet_point_with_number",
+            "content": {
+              "number": "1",
+              "title": "<strong>化石燃料补贴</strong>",
+              "body": "通过税收减免、价格上限或直接支付，支持石油、煤炭和天然气行业，以保持能源价格低廉。"
+            }
+          },
+          {
+            "template_id": "bullet_point_with_number",
+            "content": {
+              "number": "2",
+              "title": "<strong>可再生能源补贴</strong>",
+              "body": "激励措施，如上网电价、税收抵免和补助，促进清洁能源的发展和采用。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "虽然补贴可以使能源更易获得，但也存在补贴设计不当可能鼓励过度消费、使富裕消费者受益不成比例或减缓向更清洁能源转型的风险。 世界各国的许多政府也在制定与气候目标一致的补贴改革，确保更公平的能源获取。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "下图展示了2010年至2022年化石燃料补贴的趋势，按煤炭、天然气和石油产品等燃料类型分类。 图显示补贴随时间的变化，通常在经济或政治不稳定时期增加。 例如，2022年补贴的显著增加可能与由俄乌冲突引发的能源危机有关。 这些补贴降低了化石燃料的成本，使其更具吸引力，并导致消费增加，从而延迟向更清洁能源的转变。 这一数字突显了许多发展中国家面临的持续挑战，高水平的补贴带来财务压力，难以投资于可持续能源解决方案。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fd9d24",
+            "#0a97d9",
+            "#3f7e44",
+            "#0468b1",
+            "#dd1367",
+            "#4c9f38",
+            "#fcc30b",
+            "#c5192d",
+            "#19486a",
+            "#fd6925"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0,
+              "rotate": 45
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Billion USD"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Oil",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                194660,
+                268885,
+                308707,
+                289480,
+                252979,
+                152320,
+                114437,
+                158788,
+                210327,
+                192244,
+                124476,
+                190185,
+                345767,
+                234795
+              ]
+            },
+            {
+              "name": "Electricity",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                154571,
+                157714,
+                155555,
+                139178,
+                132318,
+                130947,
+                153678,
+                140956,
+                182641,
+                155034,
+                77350,
+                221183,
+                446149,
+                216977
+              ]
+            },
+            {
+              "name": "Gas",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                113330,
+                108192,
+                128287,
+                116644,
+                102867,
+                90930,
+                58103,
+                64680,
+                116536,
+                73368,
+                58642,
+                172693,
+                376559,
+                162516
+              ]
+            },
+            {
+              "name": "Coal",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3179,
+                4280,
+                3766,
+                2095,
+                1389,
+                1316,
+                2017,
+                2677,
+                2967,
+                2501,
+                2210,
+                4424,
+                9451,
+                2103
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 90,
+            "top": 200,
+            "left": 70,
+            "right": 40
+          },
+          "title": {
+            "text": "2022年前25个国家按燃料类型的化石燃料补贴价值",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_11.png",
+          "caption": ""
+        },
+        "intro": "M4：公平能源转型融资",
+        "title": "B：全球扭曲与补贴陷阱"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "全球范围内，2022 年化石燃料补贴估计为 7 万亿美元，占 GDP 的 7.1%，其中明确补贴和隐性补贴分别占总额的 18% 和 82%。 2022年化石燃料补贴的激增主要由政府应对俄罗斯-乌克兰冲突引发的能源价格大幅上涨以及全球经济从COVID-19大流行中复苏所推动。 全球各国政府采取了各种措施，包括价格上限、税收豁免和直接财政支持，以保护消费者和企业免受这些价格上涨的冲击。 这种干预主义方法显著高估了补贴水平，超出了之前的预期。<br /><br />这些补贴主要集中在新兴市场和发展中国家，它们给公共财政带来压力，并限制了可持续能源投资的能力。 例如，在撒哈拉以南非洲，补贴化石燃料较高的国家面临 <strong>双重财政压力</strong>，这意味着为昂贵的补贴提供资金并管理不断上升的债务水平。 这会造成一个 <strong>\"补贴陷阱\"</strong>。 <br /><br />高昂的化石燃料价格对较贫困的家庭产生了不成比例的影响，但补贴往往目标不明确，最终使更富有的消费者受益更多。 实施有针对性的支持可以保护弱势群体免受补贴取消的负面影响。 这确保最需要帮助的人继续获得支持，同时减少整体补贴成本。<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "kpi_highlight_medium",
+            "content": {
+              "value": "<strong>补贴陷阱，</strong>",
+              "text": "这是财政资源被<br />补贴消耗的地方，几乎没有空间用于投资<br />可再生能源基础设施，并<br />延续债务和欠发达的循环。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_13.png",
+          "caption": ""
+        },
+        "intro": "M4：公平能源转型融资",
+        "title": "C：改革补贴 - 来自世界各地的例子"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "一些国家成功改革了他们的能源补贴制度，提供了关于如何平衡财政健康、债务管理和可持续能源投资的宝贵经验。"
+            }
+          },
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>印度尼西亚</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "在2014年，<strong> </strong>印度尼西亚<strong> </strong>开始减少其燃料补贴，这长期以来一直给其国家预算带来压力。 政府将这些补贴的节省资金用于基础设施建设和社会项目。 <br /><br />这项改革不仅改善了印度尼西亚的财政状况，还促进了可再生能源的投资。 逐步取消补贴得到了有针对性的现金转移的支持，以保护最脆弱的人群免受燃料价格上涨的影响。<br /><br />这项改革还对环境和能源部门产生了积极影响。 通过逐步取消化石燃料补贴，印度尼西亚促进了<ai prompt=\"提供更多关于能源效率的信息。\">更高的能源效率 💬️</ai>，并增加了对可再生能源项目的投资。 此次转变标志着朝着更加市场导向的能源定价迈进，减少了浪费的消费，并为更清洁、更具弹性和可持续的能源系统奠定了基础。<br /><br />总体而言，印度尼西亚的燃料补贴改革展示了聪明的财政政策如何平衡经济、社会和环境优先事项，为其他希望摆脱化石燃料依赖的国家树立了榜样。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>印度</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "印度的<strong> </strong>直接补贴转移（DBT）计划用于液化石油气（LPG）补贴，体现了有效的补贴改革。 <br /><br />通过将补贴直接转入消费者的银行账户，政府减少了腐败并确保福利到达预期的受益人。 这项改革节省了数十亿美元，鼓励更高效的能源使用，并为增加对清洁能源的投资铺平了道路。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_10.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>摩洛哥</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "摩洛哥积极减少能源补贴和投资可再生能源的做法为其他发展中国家树立了榜样。 政府于2014年逐步取消了汽油和柴油的补贴，实施了针对弱势群体的有针对性的支持。 节省的资金投资于摩洛哥雄心勃勃的可再生能源计划，例如前面提到的<strong>努尔瓦尔扎扎特太阳能综合体</strong>，旨在到2030年从可再生能源中产生其52%的电力。 这种战略规划和国际合作伙伴关系是摩洛哥成功的关键"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>伊朗</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "同样，伊朗在能源补贴改革方面的经验为此类倡议的挑战和机遇提供了宝贵的见解。 在2010年12月，伊朗实施了世界上最雄心勃勃的能源补贴改革之一。 <br /><br />政府旨在减轻补贴对其预算的沉重负担，并促进更高效的能源使用。 改革涉及逐步取消汽油、天然气、电力和其他燃料的补贴，并用直接现金转移取代它们，向家庭发放。 这种方法确保了最贫困和最脆弱的群体免受补贴取消带来的经济冲击。 虽然改革最初成功地减少了能源消耗和财政负担，但高通胀和经济制裁最终削弱了现金转移的购买力，导致公众不满。 今天伊朗仍然面临挑战，显示制裁和波动如何影响一个国家。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_4/4060_12469.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L4_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "这些全球示例展示了逐步取消化石燃料补贴的复杂性和挑战。 此外，由俄罗斯入侵乌克兰引发的近期全球能源危机显示了当前能源系统的不可持续性。 在此类危机期间，优先事项通常会转向保护消费者免受经济困难，这可能会破坏逐步取消补贴的长期承诺。 因此，需要在短期缓解和长期政策目标之间取得平衡。 <br /><br />成功的改革通常逐步推行，以避免突发的经济冲击。 <strong>透明</strong>地传达补贴改革的理由和好处对于赢得公众和政治支持至关重要。 例如，印度尼西亚逐步减少燃料补贴和明确的沟通策略有助于缓解公众的抵抗。<br /><br /><br /><br /><br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "此外，与其在价格飙升期间依赖应急措施，不如实施结构性变革以减少对化石燃料的整体需求。 这包括推广高效低排放技术，并提供支持帮助较贫困的消费者管理清洁能源解决方案的前期成本。 投资这些领域可以提供持久的保护，防止燃料价格波动，并支持向更可持续的能源系统过渡。<br /><br />逐步取消化石燃料补贴也必须与抑制化石燃料的措施保持一致，例如通过<ai prompt=\"Tell me more about carbon pricing.\">碳定价 💬️</ai>，同时通过补贴和税收减免激励可再生能源。 这种平衡的方法可以加快清洁能源的转型，促进创新，并确保向低碳能源的公平和可持续转变。<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "学习目标",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_15.png",
+              "caption": ""
+            },
+            "title": "对化石燃料的补贴扭曲市场，增加公共财政压力，并延续过度消费，延迟向可持续能源的转型。 改革这些补贴对于减少财政压力和推动清洁能源投资至关重要。",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_14.png",
+              "caption": ""
+            },
+            "title": "印尼、印度、摩洛哥和印度等例子表明逐步取消补贴的过程。 结合有针对性的现金转移和透明的沟通，可以保护弱势群体，同时释放资源用于可再生能源和基础设施建设。",
+            "description": ""
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_5.png",
+              "caption": ""
+            },
+            "title": "而不是仅仅依赖于价格飙升期间的应急措施。 从长远来看，实施结构性变革以减少对化石燃料的整体需求更为有效。",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module4.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第2章 结尾",
+        "cta": "继续学习",
+        "nextLessonId": "4.2.-1"
+      }
+    }
+  ]
+}

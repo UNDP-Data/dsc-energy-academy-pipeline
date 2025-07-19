@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L2_6.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_22.png",
           "caption": ""
         },
         "lesson": {
@@ -19,15 +19,35 @@
       }
     },
     {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Vue d'ensemble de la leçon 1</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La complexité croissante des systèmes énergétiques modernes— façonnée par les impératifs climatiques, l'innovation technologique et les défis d'accessibilité— exige des approches analytiques capables de naviguer dans des volumes de données sans précédent et des interdépendances. Cette leçon examine comment les méthodologies contemporaines transforment l'analyse énergétique, passant de diagnostics descriptifs à des capacités prédictives et prescriptives.<br /><br />Nous explorons comment des techniques avancées découvrent des motifs cachés dans la consommation d'énergie, les anomalies de distribution et les facteurs de demande, permettant une planification <ai prompt=\"Qu'est-ce qu'une infrastructure résiliente ?\">d'infrastructure résiliente 💬️</ai> plus efficace. La discussion s'étend aux applications de l'intelligence spatiale, démontrant comment l'intégration des données géospatiales et de télédétection améliore la gestion environnementale, l'optimisation des actifs renouvelables et la répartition équitable des ressources. De manière critique, nous considérons le rôle de la traduction intuitive des données dans la création de ponts entre les insights techniques et les stratégies exploitables—en veillant à ce que la rigueur analytique serve à la fois l'efficacité opérationnelle et des solutions centrées sur la communauté.<br /><br />Dans ces domaines, l'accent reste mis sur la mise en œuvre pratique : comment la science des données non seulement éclaire les comportements des systèmes énergétiques, mais aussi navigue dans les contraintes du monde réel. Des exemples de cas issus de contextes opérationnels divers mettront en évidence les compromis entre l'<strong>évolutivité de l'innovation</strong> et l'<strong>adaptation contextuelle</strong>, établissant une base solide pour l'évaluation des opportunités basées sur les données dans la poursuite des objectifs de durabilité et d'accessibilité."
+            }
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_Outro_2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_1.png",
           "caption": ""
         },
         "intro": "M7 : Données dans l'énergie durable",
-        "title": "Partie 1 : Modélisation Statistique pour les Systèmes Énergétiques"
+        "title": "A : Modélisation statistique pour les systèmes énergétiques"
       }
     },
     {
@@ -38,7 +58,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La science des données utilise diverses techniques pour extraire des informations à partir de données brutes. L'analyse exploratoire des données (AED) est une technique permettant de découvrir des motifs et d'identifier des anomalies (par exemple, des valeurs manquantes et des valeurs aberrantes) ainsi que des motifs au sein des données. Il peut être utilisé pour valider les étapes de prétraitement, garantissant la préparation des données pour une analyse et une modélisation ultérieures. Par exemple, l'EDA pourrait montrer une forte corrélation entre la température et la consommation d'énergie, mettant en évidence la température comme un prédicteur significatif de la demande énergétique."
+              "text": "La science des données utilise diverses techniques pour extraire des insights à partir de données brutes. L'analyse exploratoire des données (EDA) est une technique pour découvrir des motifs, et identifier des anomalies (par exemple, des valeurs manquantes et des valeurs aberrantes) et des motifs dans les données. Il peut être utilisé pour valider les étapes de prétraitement, en assurant la préparation des données pour une analyse et une modélisation ultérieures. Par exemple, l'EDA pourrait montrer une forte corrélation entre la température et la consommation d'énergie, mettant en évidence la température comme un prédicteur significatif de la demande énergétique."
             }
           }
         ]
@@ -52,7 +72,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Un type d'EDA, graphique multivarié, affiche les relations dans les ensembles de données en utilisant des graphiques tels que des nuages de points, des histogrammes, des diagrammes à barres, des boîtes à moustaches et des cartes de chaleur. Ces visualisations aident à identifier les tendances, telles que les variations saisonnières de la consommation d'énergie ou les inefficacités dans les réseaux de distribution d'énergie. La figure suivante illustre les étapes utilisées dans l'analyse exploratoire des données."
+              "text": "Un type d'EDA, graphique multivarié, affiche les relations dans les ensembles de données en utilisant des graphiques tels que des nuages de points, des histogrammes, des diagrammes à barres, des boîtes à moustaches et des cartes thermiques. Ces visualisations aident à identifier les tendances, telles que les variations saisonnières de la consommation d'énergie ou les inefficacités dans les réseaux de distribution d'énergie. La figure suivante illustre les étapes utilisées dans l'analyse exploratoire des données."
             }
           }
         ]
@@ -64,8 +84,9 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L3_5.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_5933.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
@@ -77,7 +98,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>L'EDA exige traditionnellement une quantité significative de temps et d'expertise.</strong> Cependant, A.I. a rationalisé ce processus, le rendant plus efficace et précis. I.A. Les algorithmes peuvent traiter rapidement d'énormes quantités de données, détectant les erreurs et les valeurs aberrantes pour nettoyer et transformer les données de manière plus efficace et précise que les analystes humains. De plus, l'IA. est capable de gérer des ensembles de données divers et complexes, y compris des textes, des images et des données de haute dimension. En automatisant une grande partie du processus d'EDA, l'IA. peut potentiellement permettre aux analystes de données d'explorer et de comprendre leurs données plus rapidement et efficacement.</strong>"
+              "text": "<strong>EDA exige traditionnellement une quantité importante de temps et d'expertise.</strong> Cependant, l'IA. a rationalisé ce processus, le rendant plus efficace et précis. IA les algorithmes peuvent traiter rapidement d'énormes quantités de données, détectant les erreurs et les valeurs aberrantes pour nettoyer et transformer les données plus efficacement et avec plus de précision que les analystes humains. De plus, l'IA. est capable de gérer des ensembles de données divers et complexes, y compris du texte, des images et des données à haute dimension. En automatisant une grande partie du processus EDA, l'IA. peut potentiellement permettre aux analystes de données d'explorer et de comprendre leurs données plus rapidement et efficacement .</strong>"
             }
           }
         ]
@@ -91,13 +112,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Automatisation du nettoyage des données</strong>"
+              "text": "<strong>Automatiser le nettoyage des données</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'une des étapes critiques de l'EDA est le nettoyage des données, qui implique de gérer les valeurs manquantes et les doublons, de corriger les erreurs et de formater les données. I.A. peut améliorer considérablement ce processus grâce à des techniques de nettoyage de données automatisées. Les modèles d'apprentissage automatique peuvent apprendre des tâches de nettoyage de données historiques et appliquer ces apprentissages à de nouveaux ensembles de données, réduisant ainsi le temps et les efforts nécessaires à la préparation des données. Par exemple, les outils pilotés par l'IA peuvent détecter et imputer automatiquement les valeurs manquantes, garantissant que l'ensemble de données est aussi complet et précis que possible avant l'analyse."
+              "text": "L'une des étapes critiques de l'EDA est le nettoyage des données, qui consiste à gérer les valeurs manquantes et les doublons, à corriger les erreurs et à formater les données. IA peut considérablement améliorer ce processus grâce à des techniques de nettoyage de données automatisées. Les modèles d'apprentissage automatique peuvent apprendre des tâches de nettoyage de données historiques et appliquer ces apprentissages à de nouveaux ensembles de données, réduisant ainsi le temps et l'effort nécessaires à la préparation des données. Par exemple, les outils pilotés par l'<strong>IA</strong> peuvent détecter et imputer automatiquement les valeurs manquantes, garantissant que l'ensemble de données soit aussi complet et précis que possible avant l'analyse."
             }
           }
         ]
@@ -108,7 +129,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_7.png",
           "caption": ""
         }
       }
@@ -127,7 +148,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "I.A. Les algorithmes, tels que le clustering k-means et les autoencodeurs, jouent un rôle de niche dans la détection des anomalies lors de l'EDA. Ces algorithmes peuvent automatiquement regrouper des points de données en clusters en fonction de leurs similarités, identifier des modèles sous-jacents dans, par exemple, la consommation d'énergie, la production et la distribution. Les autoencodeurs, un type de réseau de neurones, peuvent détecter des anomalies en apprenant le comportement normal des systèmes énergétiques et en signalant les points de données qui s'écartent de manière significative de cette norme. Par exemple, les autoencodeurs peuvent identifier des pics irréguliers dans la consommation d'énergie qui pourraient indiquer des dysfonctionnements d'équipement ou une consommation d'énergie non autorisée, permettant des interventions rapides pour prévenir d'éventuels problèmes."
+              "text": "IA les algorithmes, tels que le clustering k-means et les autoencodeurs, jouent un rôle spécifique dans la détection d'anomalies lors de l'<strong>EDA</strong>. Ces algorithmes peuvent automatiquement regrouper des points de données en clusters en fonction de leurs similitudes, identifier des motifs sous-jacents dans, par exemple, la consommation d'énergie, la production et la distribution. Les autoencodeurs, un type de réseau de neurones, peuvent détecter des anomalies en apprenant le comportement normal des systèmes énergétiques et en signalant les points de données qui s'écartent de manière significative de cette norme. Par exemple, les autoencodeurs peuvent identifier des pics irréguliers dans la consommation d'énergie qui pourraient indiquer des dysfonctionnements de l'équipement ou une consommation d'énergie non autorisée, permettant des interventions en temps opportun pour prévenir d'éventuels problèmes."
             }
           }
         ]
@@ -138,7 +159,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C1_L2_8.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_22.png",
           "caption": ""
         }
       }
@@ -157,7 +178,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Les algorithmes d'apprentissage automatique améliorent l'EDA en permettant une reconnaissance de motifs sophistiquée et des capacités de prédiction. Les algorithmes comme les k-plus proches voisins, les arbres de décision, les forêts aléatoires et les machines à vecteurs de support sont particulièrement efficaces pour classer et prédire les modèles de consommation d'énergie. En analysant des données historiques, ces algorithmes peuvent identifier des tendances et des corrélations qui pourraient ne pas être immédiatement apparentes. Par exemple, la reconnaissance de motifs peut aider à prédire la demande énergétique quotidienne ou saisonnière en identifiant les modèles de consommation liés aux conditions météorologiques, à l'heure de la journée ou au jour de la semaine. Cette capacité permet aux entreprises de services publics d'optimiser leurs opérations, de planifier les périodes de demande maximale et d'améliorer l'efficacité globale de la distribution d'énergie."
+              "text": "Les algorithmes d'apprentissage automatique améliorent l'EDA en permettant une reconnaissance de motifs sophistiquée et des capacités de prédiction. Les algorithmes tels que le k-plus proches voisins, les arbres de décision, les forêts aléatoires et les machines à vecteurs de support sont particulièrement efficaces pour classer et prédire les modèles d'utilisation de l'énergie. En analysant les données historiques, ces algorithmes peuvent identifier des tendances et des corrélations qui pourraient ne pas être immédiatement apparentes. Par exemple, la reconnaissance de motifs peut aider à prévoir la demande d'énergie quotidienne ou saisonnière en identifiant des modèles de consommation liés aux conditions météorologiques, à l'heure de la journée ou au jour de la semaine. Cette capacité permet aux compagnies d'électricité d'optimiser leurs opérations, de planifier les périodes de forte demande et d'améliorer l'efficacité globale de la distribution d'énergie."
             }
           }
         ]
@@ -168,12 +189,12 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_6.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_9.png",
           "caption": ""
         },
-        "intro": "M7 : Données dans l'énergie durable",
+        "intro": "Asie et Région du Pacifique",
         "title": "Étude de cas : Inde",
-        "subtitle": ""
+        "subtitle": "Réduire de 18 milliards de dollars les pertes après récolte avec des chambres froides solaires et de l'IA – autonomiser les coopératives agricoles dirigées par des femmes grâce à la climatisation Pay-Per-Use et à l'accès numérique au marché en Inde et au-delà"
       }
     },
     {
@@ -182,15 +203,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Étude de cas RBAP : Refroidissement durable grâce à la numérisation en Inde</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Dans le monde en réchauffement d'aujourd'hui, le refroidissement est crucial pour échapper à la pauvreté et à la faim, en particulier dans le secteur agricole. L'Inde, l'un des plus grands producteurs alimentaires au monde, fait face à un gaspillage alimentaire significatif (25-35%) en raison d'un manque de réfrigération et de goulets d'étranglement dans la chaîne d'approvisionnement. Actuellement, seulement 6 % des aliments produits en Inde passent par la chaîne du froid, contre environ 60 % dans les pays développés [1]. Ce manque d'infrastructure de chaîne du froid adéquate entraîne des pertes de revenus et des émissions de carbone. S'attaquer à ce problème au niveau de la ferme en fournissant aux petits agriculteurs un accès à des solutions de stockage à froid efficaces et propres à des prix abordables est essentiel."
+              "text": "Le secteur agricole de l'Inde fait face à des défis importants, notamment des pertes après récolte considérables. [needs translation] Recent studies estimate that India suffers food losses worth approximately USD<a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>17.7</u></a>–<a href=\"https://icrier.org/publications/reducing-post-harvest-losses-in-indian-agriculture-a-case-study-of-selected-crops/\"><u>18.5</u></a> billion annually (<a href=\"https://icrier.org/publications/reducing-post-harvest-losses-in-indian-agriculture-a-case-study-of-selected-crops/\"><u>ICRIER, 2024</u></a>; <a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>National Economic Forum, 2025</u></a>), with fruits and vegetables experiencing losses of 30–35% due to inadequate cold chain infrastructure. [needs translation] Approximately <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>74 million</u></a> tonnes of food are lost in India each year, accounting for <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>22%</u></a> of the foodgrain output (<a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>PMF IAS, 2024</u></a>), resulting in significant income loss for smallholder farmers.<br /><br />To address these challenges, the ‘Your Virtual Cold Chain Assistant’ (Your VCCA) initiative was launched in 2021 by BASE and Empa. L'initiative exploite des installations de stockage à froid décentralisées et alimentées par énergie solaire pour aider les petits exploitants agricoles et les agrégateurs à accéder à des solutions de refroidissement abordables via un modèle de refroidissement en tant que service (CaaS) (<a href=\"https://yourvcca.org/\"><u>Your VCCA</u></a>)."
             }
           }
         ]
@@ -202,9 +217,119 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>2023-2024</strong>",
+              "body": "Expansion vers le Nigeria et les Philippines, avec des tests d'application et l'amélioration des fonctionnalités, y compris l'interface des agriculteurs."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Statut actuel</strong>",
+              "body": "Intégration du tableau de bord d'impact pour suivre les taux d'utilisation, la croissance des revenus et la réduction des pertes après récolte."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>2022</strong>",
+              "body": "Démonstrations pilotes dans le Bihar et l'Himachal Pradesh, avec collecte de données et tests utilisateur."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>2021</strong>",
+              "body": "Développement de la technologie et établissement de partenariats locaux, culminant avec la première version de la sortie de l'application Coldtivate."
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>L'initiative innovante 'Votre Assistant Virtuel de Chaîne du Froid' (Votre VCCA) a été lancée par l'Agence de Bâle pour l'Énergie Durable (BASE) et Empa en 2021 pour s'attaquer à ce problème en fournissant aux petits agriculteurs, en particulier aux femmes, un accès à des solutions de refroidissement durables et à des outils numériques [2].</strong> Le projet se concentre sur trois piliers : la servitisation, la numérisation et le renforcement des capacités [3]. Les objectifs principaux de l’initiative « Your VCCA » sont de réduire les pertes alimentaires et d’améliorer la sécurité alimentaire en donnant aux petits exploitants agricoles un accès à des solutions de stockage frigorifique abordables, efficaces et propres ; exploiter <ai prompt=\"Expliquer l’énergie solaire.\">l’énergie solaire 💬️</ai> pour un refroidissement post-récolte durable ; et autonomiser les petits exploitants agricoles, en particulier les femmes, en leur fournissant des outils numériques et une formation pour améliorer leurs capacités de prise de décision et de gestion.<br /><br /></strong>L’initiative Your VCCA se concentre sur la fourniture de chambres froides alimentées par énergie solaire via un modèle de « Cooling as a Service » (CaaS), qui permet aux petits exploitants d’accéder au refroidissement sans coûts initiaux (voir la Figure 1) [4]. La numérisation est un catalyseur clé du succès de votre VCCA. Il s'agit d'une application mobile basée sur la science des données qui utilise l'apprentissage automatique et la modélisation alimentaire basée sur la physique, ce qui aide les petits agriculteurs à accéder à des installations de refroidissement durables grâce à la servitisation. Le programme utilise \"Coldtivate\", une application, pour rationaliser la gestion des stocks et des opérations et instaurer la confiance entre les agriculteurs dans le refroidissement post-récolte [5]. Les données des capteurs de température en temps réel, intégrées dans Coldtivate, estiment la durée de vie de stockage restante de chaque caisse, permettant aux agriculteurs de préserver efficacement la qualité des cultures. L'application propose également des prévisions de prix du marché, permettant aux agriculteurs de faire des choix de vente éclairés. Les utilisateurs sans smartphones reçoivent des notifications SMS sur l'état de leurs cultures stockées, soulignant l'inclusion et l'accessibilité de l'initiative."
+              "text": "L'initiative Your Virtual Cold Chain Assistant (Your VCCA) a suivi une approche de mise en œuvre structurée en trois phases, passant du test pilote initial à une montée en échelle plus large et à une évaluation de l'impact dans plusieurs pays."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Méthodologie</strong>"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Phase 1 : Développement technologique et innovation numérique (2021)</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "L'élément fondamental de l'initiative VCCA est sa stratégie de numérisation robuste, axée sur l'application mobile Coldtivate. Cette application exploite l'apprentissage automatique (ML) et la modélisation alimentaire basée sur la physique pour estimer la durée de conservation précise des produits, optimiser la gestion des stocks et fournir une surveillance en temps réel de la température dans les chambres froides. De plus, il offre des prévisions cruciales des prix du marché, permettant aux agriculteurs de prendre des décisions éclairées sur le moment et l'endroit où vendre leurs récoltes pour maximiser leurs gains (<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE et Empa, 2022</u></a>). Reconnaissant la fracture numérique, les notifications SMS garantissent l'accessibilité pour les agriculteurs sans smartphones, comblant ainsi les lacunes en matière d'informations critiques (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>).<br /><br />Complétant les outils numériques, le modèle innovant Cooling-as-a-Service (CaaS), où des chambres froides alimentées par énergie solaire sont déployées stratégiquement sur une base de paiement à l'usage, élimine efficacement les coûts initiaux prohibitifs pour les petits exploitants. La surveillance IoT en temps réel garantit le bon fonctionnement de ces chambres froides et préserve la qualité des cultures. Ces installations sont situées dans des espaces publics accessibles, comme le prouve la chambre froide construite près du marché animé VSS à Rourkela, Odisha, garantissant l'accessibilité pour les agriculteurs locaux (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Phase 2 : Pilote et expansion précoce (2021–2022)</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "L'initiative a commencé par une phase pilote au Bihar et dans l'Himachal Pradesh en 2021–2022, conçue pour démontrer la viabilité économique du modèle commercial CaaS et la valeur ajoutée de l'application VCCA (<a href=\"https://www.climatefinancelab.org/ideas/cooling-as-a-service-caas-with-virtual-cold-chain-assistant-vcca/\"><u>Climate Finance Lab, 2022</u></a>). BASE et Empa ont commencé à travailler pour relever les défis post-récolte en janvier 2021 dans le cadre de l'initiative Your VCCA dans le cadre du défi mondial d'innovation data.org. <br /><br />Après un an et demi de travail d'équipe interdisciplinaire comprenant le développement de partenariats locaux solides, la collecte de données, la conception d'interfaces utilisateur et le développement de modèles basés sur l'apprentissage automatique et la physique, l'équipe a publié la première version de son application mobile basée sur la science des données appelée Coldtivate (<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE et Empa, 2022, para.</u></a>). 3</u></a>)."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Renforcement des capacités et <ai prompt=\"Fournir plus d'informations sur l'intégration du genre.\">l'intégration du genre 💬️</ai> ont été essentiels dès le départ, avec des partenariats établis avec des organisations locales, telles que des groupes d'entraide féminins, pour gérer les installations de stockage à froid. Cette approche a non seulement assuré l'accessibilité culturelle, mais a également fourni une formation aux compétences numériques pour les femmes dans les opérations et la finance. En favorisant le leadership des femmes dans la gestion des chambres froides, l'initiative a contribué à renforcer la confiance communautaire et à améliorer la durabilité à long terme du modèle (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024, para. 4)</u></a>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Phase 3 : Mise en œuvre complète et évaluation de l'impact (2023–2024)</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le projet a entamé sa phase de mise en œuvre complète avec Coldtivate testé dans 21 chambres froides à travers l'Inde, le Nigeria et les Philippines. Cela remplace les registres manuels, en veillant à ce que tous les acteurs de la chaîne du froid aient accès à des informations fiables, à jour et à l'intelligence de marché (<a href=\"https://yourvcca.org/coldtivate/\"><u>Your VCCA-Coldtivate</u></a>).<br /><br />Une composante essentielle de cette phase est la collecte de données ventilées par genre via des enquêtes intégrées dans l'application, qui sont utilisées pour calculer des statistiques sur l'évolution des pertes post-récolte et des revenus pour les agricultrices et agriculteurs séparément. BASE et Empa prévoient de combiner ces informations avec l'utilisation et les modes de paiement des agriculteurs dans un tableau de bord d'impact exportable pour aider les agriculteurs à accéder à des microcrédits et à d'autres services financiers (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>)."
             }
           }
         ]
@@ -216,116 +341,20 @@
       "size": "full",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C3_L1_5.png",
-          "caption": ""
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_6033.webp",
+          "caption": null,
+          "url": null
         }
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<ai prompt=\"Explain gender mainstreaming.\">intégration du genre 💬️</ai> a été au premier plan du travail entrepris par l’un des partenaires de projet de Your VCCA en Inde. En plus de construire la chambre froide dans un espace public central, facile et sûr pour les femmes à visiter, Koel Fresh, un partenaire de VCCA en Inde, a intégré des membres du Groupe d'Auto-Aide des Femmes Maa Tarini (SHG) pour augmenter l'accessibilité culturelle de la chambre [3]. L'engagement du groupe d'entraide (GDE) visait à développer les compétences des femmes locales dans la gestion de la chambre froide en utilisant des outils numériques et à autonomiser les agricultrices pour qu'elles puissent utiliser les installations sans être entravées par les dynamiques de genre et de pouvoir. <br />Le projet pilote au Bihar et en Himachal Pradesh (2021-2022) a démontré la viabilité économique du modèle commercial CaaS et la valeur ajoutée de l'application VCCA. Des données préliminaires provenant d'utilisateurs fréquents de chambres froides (34 femmes et 14 hommes) indiquent une réduction de la détérioration des cultures de 17 % à 4 %. Les revenus des agriculteurs ont augmenté de 29,6 %, les utilisatrices signalant une augmentation de 34,3 % contre 18,8 % signalé par les utilisateurs masculins [3].<br /><br />L'Initiative Your VCCA donne un exemple mondial pour les économies agro-alimentaires. Sa reproductibilité est évidente dans son potentiel à être adaptée dans d'autres régions confrontées à des défis similaires. Les facteurs clés de la reproductibilité incluent la disponibilité de l'énergie solaire, l'adoption d'outils numériques et l'engagement communautaire. De plus, cela montre comment impliquer les femmes locales dans la gestion des opérations et des finances en utilisant des outils numériques peut améliorer l'accessibilité culturelle et surmonter les barrières liées au genre pour les agricultrices dans l'utilisation des ressources."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Références</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Base Énergétique. (n.d.). Application mobile basée sur la science des données pour les petits exploitants afin de permettre l'accès aux données et au refroidissement durable <br />[2] Votre VCCA. (n.d.). Exploiter le pouvoir des données et de l'innovation des modèles commerciaux pour une agriculture résiliente <br />[3] SE4All. (2023). Cultures Cool, Profits Chauds <br />[4] Laboratoire de Finance Climatique. (2021). Refroidissement en tant que service (CAAS) avec l'assistant de chaîne du froid virtuel (VCCA) <br />[5] Votre VCCA. (n.d.). Application Coldivate"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
+      "template_id": "photo_full_height",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L1_11.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_1.png",
           "caption": ""
-        },
-        "intro": "M7 : Données dans l'énergie durable",
-        "title": "Partie 2 : Données géospatiales"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Face aux problèmes environnementaux pressants, tels que le changement climatique, la déforestation et l'identification des sources de pollution, les avancées en intelligence artificielle (IA) renforcent l'utilité et la puissance de l'analyse des données géospatiales. Les décideurs peuvent tirer parti des outils de données pour évaluer les impacts et l'emplacement des ressources énergétiques à faible émission de carbone et des infrastructures associées. La puissance de calcul exceptionnelle de l'IA et ses capacités de traitement des données en font un outil vital dans l'effort de préserver et de protéger notre planète.<br /><br />Sirmacek et Vinuesa (2022) ont exploré l'intégration de l'IA. et <ai prompt=\"Expliquer la télédétection.\">télédétection 💬️</ai> pour améliorer l'adaptation au climat dans les zones urbaines. Ils ont proposé un cadre combinant l'IA. et simulation pour extraire des indicateurs à partir d'images satellites, facilitant les estimations prédictives des futurs états liés à l'adaptation au climat.  Leur étude a mis en évidence le potentiel de l'IA. créer des cartes d'utilisation des terres rapides, simuler des scénarios de catastrophe, identifier des valeurs aberrantes et fournir des prévisions en temps réel. Cette approche vise à aider les décideurs à maintenir le bien-être sociétal, les ressources naturelles et la biodiversité."
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "La télédétection et les systèmes d'information géographique (SIG) sont devenus des outils indispensables dans le secteur de l'énergie, fournissant des données et des analyses complètes et précises sur les relations spatiales. La télédétection englobe des technologies qui capturent des données sur la surface de la Terre à distance, généralement par le biais de satellites, d'avions et de plateformes aériennes. Le SIG, en revanche, fournit un cadre pour intégrer, analyser et visualiser ces données géospatiales. Ces outils forment une combinaison puissante qui peut être exploitée pour relever les défis clés du secteur de l'énergie."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Enríquez Zárate et al. (2022) A.I. appliqué détecter et analyser l'érosion des pales d'éoliennes en utilisant des modèles d'apprentissage automatique. L'étude s'est concentrée sur l'érosion de pointe et son impact sur la performance aérodynamique et l'intégrité structurelle. Ils ont utilisé le logiciel QBlade pour l'analyse aérodynamique et modale, simulant différents niveaux d'érosion et leurs effets sur la production d'énergie. Les chercheurs ont développé des modèles d'apprentissage automatique pour classer l'emplacement de l'érosion et prédire sa gravité, atteignant une grande précision. Cette approche innovante, renforcée par AutoML—qui automatise le processus de sélection des modèles optimaux et de réglage des hyperparamètres—fournit une méthode complète pour la maintenance prédictive, minimisant les temps d'arrêt et améliorant l'efficacité des éoliennes.<br /><br />Muxica et al. (2024) A.I. appliqué dans la télédétection au sein du secteur de l'énergie en concevant et en mettant en œuvre un système de capteur autonome pour la mesure des vibrations dans les éoliennes de faible capacité. Ce système, déployé sur des éoliennes fonctionnant dans des conditions météorologiques difficiles, utilise l'IA. traiter les données collectées à partir d'accéléromètres triaxiaux fixés aux pales. L'IA. Les processus permettent une surveillance et une évaluation en temps réel des caractéristiques dynamiques des pales d'éoliennes, facilitant la détection précoce des dommages et l'entretien. En intégrant l'IA. avec des technologies de télédétection, le système garantit un fonctionnement fiable et efficace des éoliennes, réduisant les coûts de maintenance et améliorant la fiabilité globale de <ai prompt=\"Tell me more about wind energy.\">la production d'énergie éolienne 💬️</ai> Cette application démontre le potentiel de l'IA. dans l'avancement de la surveillance de la santé structurelle et l'optimisation des ressources énergétiques renouvelables."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Pour conclure, l'intégration de l'IA. avec des applications de télédétection et de SIG détient un potentiel immense pour faire progresser la conservation de l'environnement, l'adaptation au climat et l'optimisation des énergies renouvelables. Cette recherche démontre les diverses applications de l'IA. dans la surveillance des changements environnementaux, la prédiction de l'érosion des pales d'éoliennes et l'amélioration de l'efficacité et de la fiabilité de la production d'énergie éolienne. Ces avancées soulignent le rôle crucial de l'IA. en facilitant la prise de décision basée sur les données, en permettant une maintenance proactive et en soutenant le développement durable dans le secteur de l'énergie. En I.A. continue d'évoluer, ses applications dans la télédétection et les SIG deviendront sans aucun doute encore plus intégrales pour relever les défis environnementaux et énergétiques pressants actuels."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "case_study_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L3_16.png",
-          "caption": ""
-        },
-        "intro": "M7 : Données dans l'énergie durable",
-        "title": "Étude de cas : Philippines",
-        "subtitle": ""
+        }
       }
     },
     {
@@ -336,13 +365,56 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Étude de cas RBAP : Comprendre la pauvreté aux Philippines avec l'intelligence artificielle</strong>"
+              "text": "<strong>Résultats et Impact</strong>"
             }
           },
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "L'extrême pauvreté reste un problème de plus en plus croissant aux Philippines. On estimait qu'en 2019, 20,8 % de la population du pays vivait en dessous du seuil de pauvreté. En conséquence, 1,6 million de ménages dans le pays n'avaient pas accès à l'électricité en 2020 en raison des coûts élevés de l'électricité d'environ 0,20 $/kWh, ce qui était le plus cher de la région de l'ASEAN. Par conséquent, il était crucial pour les Philippines de trouver un moyen de réduire la pauvreté, ce qui induirait alors un meilleur accès à l'énergie pour les communautés à faible revenu et <ai prompt=\"What is marginalized communities?\">les communautés marginalisées 💬️</ai>."
+              "title": "",
+              "body": "Les revenus des agriculteurs devraient augmenter de plus de 35 % avec la mise en œuvre du stockage à froid."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Réduction des déchets de 25% à 5% pour les marchandises stockées."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Amélioration de la réalisation du prix de 40 INR/kg à 88 INR/kg pour les pommes grâce à la vente hors saison."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Taux de rendement interne (TRI) du projet de 22,5 % et TRI des fonds propres de 31,1 % pour les projets de stockage à froid."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Jumeaux numériques basés sur la physique pour prédire la perte de masse et la durée de conservation des fruits stockés."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Les solutions de refroidissement respectueuses du climat activées par CaaS peuvent réduire les émissions de GES jusqu'à 50 % et soutenir la sécurité alimentaire en réduisant le gaspillage alimentaire de plus de 30 %."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "L'impact cumulé prévu dans quatre ans comprend le bénéfice pour 1,5 million d'agriculteurs, la réduction de 100 000 tonnes de CO2 et la mobilisation de 200 millions de dollars américains dans des projets de chambres froides."
             }
           }
         ]
@@ -354,22 +426,26 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "paragraph_medium",
+            "template_id": "subtitle_small",
             "content": {
-              "text": "Pour aider à résoudre ces problèmes, le PNUD a mis en œuvre un projet pour éradiquer la pauvreté et l'inégalité sociale, mais il a principalement été confronté à l'absence de données solides pour élaborer des stratégies et prendre des décisions de haut niveau. Par conséquent, Thinking Machines a aidé le PNUD et Zero Extreme Poverty PH 2030 - une coalition philippine d'ONG, à mettre en œuvre un projet de Compréhension de la pauvreté aux Philippines avec l'intelligence artificielle.<br /><br />Ce projet vise à utiliser l'apprentissage automatique et l'imagerie satellite pour cartographier la pauvreté aux Philippines. Spécifiquement, l'objectif principal est de surmonter les défis de la collecte de données socio-économiques fiables qui sont relativement chronophages, intensives en main-d'œuvre et coûteuses. Les principaux objectifs du projet incluent l'utilisation de l'apprentissage par transfert et des images satellites pour cartographier la pauvreté dans le pays, le développement d'un modèle préliminaire de prédiction de la pauvreté pour les Philippines, et le dépassement des limitations des enquêtes traditionnelles sur le terrain en tirant parti de l'apprentissage automatique et des informations géospatiales. <br /><br />Le projet a été d'abord mis en œuvre en utilisant les données de l'Enquête nationale sur la démographie et la santé de 2017. Les ensembles de données incluent les scores de richesse des ménages du pays basés sur des attributs tels que le matériau du toit, la possession d'appareils et, plus important encore, l'accès à l'eau et à l'électricité. De plus, les données collectées ont ensuite été extraites en appliquant l'apprentissage par transfert pour cartographier la pauvreté en utilisant les lumières nocturnes comme un proxy pour le développement économique. Des niveaux de PIB plus élevés sont corrélés à une plus grande utilisation, un meilleur accès, une fiabilité et une accessibilité de l'électricité. Par conséquent, les régions avec plus de lumières nocturnes pourraient être perçues comme étant plus développées économiquement. Avec cette combinaison d'apprentissage automatique et de données géospatiales, ils ont pu fournir des estimations de pauvreté plus précises et détaillées à travers le pays."
+              "text": "L'initiative ‘Your VCCA’ en Inde offre des leçons profondes pour le développement durable par la digitalisation, en particulier pour les régions confrontées à des défis agricoles et énergétiques similaires :"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Autonomiser les communautés locales</strong>",
+              "body": "Un engagement communautaire solide et l'intégration de la dimension genre étaient fondamentaux, avec des partenariats avec des groupes d'autonomisation des femmes et la formation aux compétences numériques assurant la propriété locale et une durabilité accrue des installations de stockage à froid (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>). Cette approche a non seulement amélioré les moyens de subsistance, mais aussi renforcé l'équité sociale."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Solutions Numériques Intégrées</strong>",
+              "body": "Le succès souligne la puissance de la combinaison de modèles commerciaux innovants (CaaS) avec des outils numériques accessibles (application Coldtivate, notifications SMS). Ces outils ont été cruciaux pour combler le fossé numérique et permettre une prise de décision en temps réel basée sur les données pour les agriculteurs (<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE et Empa, 2022</u></a>). La collecte continue de données provenant des capteurs IoT et de l'application contribue à affiner l'efficacité opérationnelle et les tendances du marché."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L2_1.png",
-          "caption": ""
-        }
       }
     },
     {
@@ -378,9 +454,17 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "paragraph_medium",
+            "template_id": "bullet_point",
             "content": {
-              "text": "<strong>La principale leçon tirée du projet est les avantages des modèles d'apprentissage automatique utilisant plusieurs ensembles de données géospatiales ouvertes qui peuvent estimer la pauvreté pour l'ensemble du pays en moins d'une minute.</strong> Les résultats ont également montré une meilleure comparaison de l'indice de richesse réel moyen à travers les Philippines. Avec cette approche, ce type de projet peut être déployé dans d'autres géographies en tenant compte de son efficacité à fournir des résultats à un coût inférieur, par rapport aux enquêtes aléatoires conventionnelles. De plus, ce type de projet peut également aider les pays en développement à améliorer leur accès à l'énergie, ce qui conduit à un développement économique accru.<br /></strong>"
+              "title": "<strong>Modèle évolutif et résilient au climat</strong>",
+              "body": "Le modèle CaaS démontre des avantages significatifs en matière de climat et de scalabilité, avec des solutions de refroidissement respectueuses du climat qui réduisent les émissions de GES de 50 % et soutiennent la sécurité alimentaire en réduisant le gaspillage alimentaire de plus de 30 %. Le succès du modèle a été reproduit dans plusieurs contextes, avec <strong>des chambres froides walk-in alimentées à 100 % par l'énergie solaire</strong> mises en œuvre dans des clusters agricoles, des centres d'agrégation de produits et des marchés extérieurs, et une expansion documentée en Inde, au Nigeria et aux Philippines, démontrant son adaptabilité pour l'extension de l'adoption d'une énergie propre dans les chaînes d'approvisionnement agricoles."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Données pour la gestion adaptative et la politique</strong>",
+              "body": "L'application permet aux bénéficiaires du refroidissement de suivre la qualité des cultures en stockage en temps réel, donnant aux agriculteurs les moyens de prendre des décisions éclairées sur le moment et l'endroit où vendre leurs récoltes. De plus, le programme basé sur des données d'impact ventilées par genre a permis d'affiner le programme et a démontré des résultats tangibles et équitables en matière de genre. Les données du projet sur l'optimisation du stockage servent de preuve pour la conception et le financement futurs du programme."
             }
           }
         ]
@@ -400,7 +484,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La Banque mondiale. (2024). Perspectives macroéconomiques sur la pauvreté : Asie de l'Est et Pacifique<br />Neil Stephen Lopez, et al. (2023). Pauvreté énergétique et émissions de carbone : L'état de Luçon, Philippines<br />Machines pensantes. (2020). Comprendre la pauvreté aux Philippines avec l'intelligence artificielle <br />La Banque mondiale. (2022). Que savons-nous des impacts du développement des infrastructures énergétiques ?"
+              "text": "BASE. (2024). <a href=\"https://energy-base.org/projects/your-vccas-smart-cool-markets/\"><u>Vos marchés intelligents et frais de VCCA</u></a>.<br />Climate Chance. (2024). Initiative de refroidissement en tant que service (CaaS). <a href=\"https://www.climate-chance.org/en/best-pratices/cooling-as-a-service-caas-initiative/\"><u>Association Climate Chance</u></a>.<br />Laboratoire de la finance climatique. (2021). <a href=\"https://www.climatefinancelab.org/wp-content/uploads/2023/01/Instrument-Analysis-Report_CaaS.pdf\"><u>Refroidissement en tant que service (CaaS) avec l'assistant virtuel de la chaîne du froid (VCCA) : Analyse de l'instrument du laboratoire—Réplication en Inde.<br /></u></a>Cool Coalition. (2022). <a href=\"https://coolcoalition.org/sustainable-cooling-india/\"><u>Refroidissement durable pour rendre la gestion après récolte abordable pour les agriculteurs indiens</u></a>.<br />Down to Earth. (2024). <a href=\"https://www.downtoearth.org.in/governance/as-told-to-parliament-august-6-2024-4-8-grains-5-15-fruits-vegetables-lost-after-harvest\"><u>Tel que rapporté au Parlement (6 août 2024) : 4-8% de céréales, 5-15% de fruits et légumes perdus après la récolte</u></a>.<br />Forum Économique National. (2025). <a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>Traiter les pertes après récolte en Inde : une crise silencieuse dans l'agriculture</u></a>.<br />Officers Pulse. (2024). <a href=\"https://officerspulse.com/2024/07/19/post-harvest-losses-in-agriculture/\"><u>Perte après récolte en agriculture</u></a>. <br />PMF IAS. (2024). <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>Perte après récolte en Inde</u></a>.<br />Votre VCCA. (2023a). <a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE et Empa publient la première version de l'application Coldtivate en Inde</u></a>. <br />Votre VCCA. (2023b). <a href=\"https://yourvcca.org/nigeria/2022/09/05/base-and-empa-release-the-first-version-of-the-coldivate-app-in-nigeria/\"><u>BASE et Empa publient la première version de l'application Coldtivate au Nigeria</u></a>. <br />Votre VCCA. (2024a). <a href=\"https://yourvcca.org/\"><u>Votre assistant virtuel de la chaîne du froid</u></a>.<br />Votre VCCA. (2024b). <a href=\"https://yourvcca.org/blog/coldtivate-launches-the-farmers-interface/\"><u>Coldtivate lance l’interface des agriculteurs</u></a>."
             }
           }
         ]
@@ -411,11 +495,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_L4_5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_5.png",
           "caption": ""
         },
         "intro": "M7 : Données dans l'énergie durable",
-        "title": "Partie 3 : Importance de la visualisation des données"
+        "title": "Données géospatiales"
       }
     },
     {
@@ -426,7 +510,345 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La visualisation des données peut efficacement donner vie aux données et raconter une histoire. Il est important d'utiliser des visualisations de données qui transforment l'information et les données en informations exploitables. Dans le secteur de l'énergie, où les données jouent un rôle important dans la justification et la rationalisation de la prise de décision, une visualisation efficace peut améliorer la clarté et la compréhension, tandis qu'une visualisation inefficace peut provoquer de la confusion et une perte de concentration. Il n'existe pas de cadre standardisé mondial sur la visualisation des données, cependant il existe des conseils sur les meilleures pratiques, qui proviennent d'années de recherche et d'expérimentation dans les industries du design et des médias. Des conseils sur les meilleures pratiques peuvent être trouvés dans le livre Visualizing Data et sur la page web Material Design. Les deux références expliquent l'utilisation correcte des graphiques, l'utilisation des annotations et des éléments de design éditorial."
+              "text": "Face à des enjeux environnementaux pressants, tels que le changement climatique, la déforestation et l'identification des sources de pollution, les avancées en Intelligence Artificielle (A.I.) améliorent l'utilité et la puissance de l'analyse des données géospatiales. Les décideurs peuvent utiliser des outils de données pour évaluer les impacts et l'emplacement des ressources énergétiques à faible émission de carbone et des infrastructures associées. La puissance de calcul exceptionnelle de l'IA et ses capacités de traitement des données en font un outil essentiel dans l'effort de préserver et de protéger notre planète.<br /><br />Sirmacek et Vinuesa (2022) ont exploré l'intégration de l'IA. et <ai prompt=\"Dites-m'en plus sur la télédétection.\">télédétection 💬️</ai> pour améliorer l'adaptation au climat dans les zones urbaines. Ils ont proposé un cadre combinant l'IA. et simulation pour extraire des indicateurs à partir d'images satellites, facilitant des estimations prédictives des états futurs liés à l'adaptation climatique.  Leur étude a mis en évidence le potentiel de l'IA. pour créer des cartes d'utilisation des terres rapides, simuler des scénarios de catastrophe, identifier des valeurs aberrantes et fournir des prévisions en temps réel. Cette approche vise à aider les décideurs à maintenir le bien-être sociétal, les ressources naturelles et la biodiversité."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La télédétection et les Systèmes d'Information Géographique (SIG) sont devenus des outils indispensables dans le secteur de l'énergie, fournissant des données et des analyses complètes et précises sur les relations spatiales. La télédétection englobe des technologies qui capturent des données sur la surface de la Terre à distance, généralement par le biais de satellites, d'avions et de plateformes aériennes. GIS, d'autre part, fournit un cadre pour l'intégration, l'analyse et la visualisation de ces données géospatiales. Ces outils forment une combinaison puissante qui peut être exploitée pour relever les principaux défis du secteur de l'énergie."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Enríquez Zárate et al. (2022) intelligence artificielle appliquée pour détecter et analyser l'érosion sur les pales d'éoliennes en utilisant des modèles d'apprentissage automatique. L'étude s'est concentrée sur l'érosion du bord d'attaque et son impact sur la performance aérodynamique et l'intégrité structurelle. Ils ont utilisé le logiciel QBlade pour l'analyse aérodynamique et modale, en simulant différents niveaux d'érosion et leurs effets sur la production d'énergie. Les chercheurs ont développé des modèles d'apprentissage automatique pour classer l'emplacement de l'érosion et prédire sa gravité, atteignant une grande précision. Cette approche innovante, améliorée par AutoML — qui automatise le processus de sélection des modèles optimaux et de réglage des hyperparamètres — offre une méthode complète pour la maintenance prédictive, en minimisant les temps d'arrêt et en améliorant l'efficacité des éoliennes.<br /><br />Muxica et al. (2024) intelligence artificielle appliquée dans la télédétection dans le secteur de l'énergie en concevant et en mettant en œuvre un système de capteurs autonomes pour la mesure des vibrations dans les éoliennes à faible capacité. Ce système, déployé sur des éoliennes fonctionnant dans des conditions météorologiques difficiles, utilise l'IA. pour traiter les données collectées à partir d'accéléromètres triaxiaux fixés aux pales. L'IA Les processus permettent la surveillance et l'évaluation en temps réel des caractéristiques dynamiques des pales d'éoliennes, facilitant la détection précoce des dommages et la maintenance. En intégrant l'IA. avec des technologies de télédétection, le système garantit un fonctionnement fiable et efficace des éoliennes, réduisant les coûts de maintenance et améliorant la fiabilité globale de <ai prompt=\"Fournissez plus d'informations sur l'énergie éolienne.\">la production d'énergie éolienne 💬️</ai> Cette application démontre le potentiel de l'IA. dans l'amélioration de la surveillance de la santé structurelle et l'optimisation des ressources en énergie renouvelable."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Pour conclure, l'intégration de l'IA. avec la télédétection et les applications SIG, cela offre un potentiel immense pour faire progresser la conservation de l'environnement, l'adaptation au climat et l'optimisation de l'énergie renouvelable. Cette recherche démontre les diverses applications de l'IA. dans la surveillance des changements environnementaux, la prévision de l'érosion des pales d'éoliennes, et l'amélioration de l'efficacité et de la fiabilité de la production d'énergie éolienne. Ces avancées soulignent le rôle critique de l'IA. en facilitant la prise de décision basée sur les données, en permettant la maintenance proactive et en soutenant le développement durable dans le secteur de l'énergie. En tant qu'IA. continue à évoluer, ses applications en télédétection et SIG deviendront sans aucun doute encore plus essentielles pour relever les défis environnementaux et énergétiques urgents actuels."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "case_study_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_6.png",
+          "caption": ""
+        },
+        "intro": "Asie et Région du Pacifique",
+        "title": "Étude de cas : Philippines",
+        "subtitle": "Ciblage de précision alimenté par l'IA pour la réduction de la pauvreté – L'imagerie par satellite et l'apprentissage automatique déverrouillent des cartes de pauvreté granulaires pour fournir une aide d'urgence à 162 000 ménages philippins pendant la COVID-19"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "La pauvreté extrême demeure un problème en constante croissance aux Philippines. En 2021, l'ampleur de la population appauvrie était de 19 902 750, représentant une augmentation de 2 232 540 ou 12,6 % par rapport à 2018, principalement en raison des impacts économiques de la pandémie de COVID-19. En conséquence, environ 1,6 million de ménages dans le pays n'avaient pas accès à l'électricité, ce qui contribue à des défis persistants dans la lutte contre la pauvreté et l'accès équitable aux services de base."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Pour aider à résoudre ces problèmes, le PNUD Philippines, par le biais de son Accelerator Lab (ALab), a mis en œuvre des initiatives pour soutenir l'éradication de la pauvreté et lutter contre les inégalités sociales, mais a été confronté à l'indisponibilité de données robustes et granulaires pour élaborer des stratégies et prendre des décisions de haut niveau (UNDP). Les statistiques traditionnelles sur la pauvreté compilées par <ai prompt=\"Expliquer les offices statistiques nationaux.\">les offices statistiques nationaux 💬️</ai> sont disponibles au niveau national, régional ou provincial et sont insuffisantes pour entraîner des algorithmes à prédire avec succès la pauvreté aux niveaux géographiques granulaires nécessaires pour des interventions ciblées (Development Asia, 2020)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Le PNUD Philippines, par le biais de son Accelerator Lab, collabore avec Zero Extreme Poverty Philippines 2030 (ZEP2030) pour concevoir et tester un portefeuille d'approches pour une action contre la pauvreté localisée, ciblée et convergente (<a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>UNDP, 2021</u></a>). ZEP2030 est une coalition de 140 organisations de la société civile qui ont adopté l'objectif d'émanciper 1 million de familles extrêmement pauvres de la pauvreté par une action collective d'ici 2030 (<a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>UNDP, 2021</u></a>). Pour soutenir cet objectif ambitieux, Thinking Machines a aidé le PNUD et Zero Extreme Poverty PH 2030 à mettre en œuvre des méthodologies avancées de cartographie de la pauvreté basées sur l'IA, tandis que la Banque asiatique de développement a mené séparément des études de faisabilité pionnières sur l'utilisation d'images satellites et de l'apprentissage automatique pour l'estimation de la pauvreté (<a href=\"https://digitalx.undp.org/thinking-machines-data-science_1.html\"><u>UNDP Digital X</u></a>)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_1.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Ce projet vise à utiliser l'apprentissage automatique et l'imagerie satellite pour cartographier la pauvreté aux Philippines, en particulier pour surmonter les défis de la collecte de données socio-économiques fiables qui sont relativement longues, laborieuses et coûteuses. [needs translation] The project’s main objectives include using transfer learning and satellite imagery to map poverty in the country, developing preliminary poverty prediction models for the Philippines, and overcoming the limitations of traditional on-ground surveys by leveraging machine learning and geospatial information (<a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Thinking Machines, 2019</u></a>).<br /><br /><strong>Data Sources and Collection<br /><br /></strong>The project utilized the 2017 National Demographic and Health Survey (NDHS) as ground truth data for training machine learning models. L'Autorité philippine de la statistique a mené cette enquête à l'échelle nationale d'août à octobre 2017, couvrant plus de 31 000 ménages dans plus de 1 200 localités à travers les Philippines. Les ensembles de données incluent les scores de richesse des ménages du pays basés sur des attributs tels que le matériau du toit, la possession d'appareils électroménagers et l'accès à l'eau et à l'électricité (<a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Thinking Machines, 2019, para.</u></a>). 5</u></a>).<br /><br />L'étude a utilisé des images satellites accessibles au public pour garantir la rentabilité et une large accessibilité (<a href=\"https://www.researchgate.net/publication/338131416_MAPPING_POVERTY_IN_THE_PHILIPPINES_USING_MACHINE_LEARNING_SATELLITE_IMAGERY_AND_CROWD-SOURCED_GEOSPATIAL_INFORMATION\"><u>ResearchGate, 2019</u></a>). Le projet a utilisé l'API Google Static Maps pour télécharger des images satellites de 400x400 px avec un zoom 17, téléchargeant finalement 134 540 images satellites qui ont capturé des caractéristiques physiques et infrastructurelles détaillées (<a href=\"https://www.researchgate.net/publication/338131416_MAPPING_POVERTY_IN_THE_PHILIPPINES_USING_MACHINE_LEARNING_SATELLITE_IMAGERY_AND_CROWD-SOURCED_GEOSPATIAL_INFORMATION\"><u>ResearchGate, 2019</u></a>)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le projet a utilisé une méthodologie d'apprentissage par transfert initialement développée par des chercheurs de l'Université de Stanford. Cette approche a relevé un défi fondamental dans la cartographie de la pauvreté : la disponibilité insuffisante de données sur la pauvreté étiquetées à des niveaux géographiques granulaires nécessaires pour entraîner des algorithmes d'apprentissage automatique (<a href=\"https://development.asia/insight/using-machine-learning-satellite-images-map-poverty\"><u>Development Asia, 2020</u></a>).<br /><br />Les statistiques traditionnelles sur la pauvreté sont généralement compilées uniquement à l'échelle nationale, régionale ou provinciale, ce qui rend difficile la formation d'algorithmes pour la prédiction précise de la pauvreté. L'approche d'apprentissage par transfert a contourné cette limitation en utilisant l'intensité de la lumière nocturne comme objectif d'entraînement intermédiaire.<br /><br />Le projet a utilisé une méthodologie d'apprentissage par transfert initialement développée par des chercheurs de l'Université de Stanford. La méthodologie a mis en œuvre un processus d'apprentissage automatique en deux étapes.<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Étape 1 : Prédiction de la lumière nocturne </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Les chercheurs ont entraîné un réseau de neurones convolutionnel (CNN) pour prédire l'intensité de la lumière nocturne à partir d'images satellites diurnes. Cela a exploité la relation entre la luminosité nocturne et le développement économique, où les zones plus lumineuses indiquent généralement des niveaux plus élevés d'activité économique."
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Étape 2 : Prédiction de la pauvreté </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "L'équipe a extrait des vecteurs de caractéristiques de 4 096 dimensions du CNN entraîné, représentant des motifs visuels associés à différents niveaux d'intensité de la lumière nocturne. Ces caractéristiques ont ensuite été utilisées dans des modèles de régression ridge pour prédire la richesse et le niveau de pauvreté des ménages (Thinking Machines, 2019, para. 9). Grâce à cette combinaison d'apprentissage automatique et de données géospatiales, ils ont pu fournir des estimations de la pauvreté plus précises et détaillées à travers le pays."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_large",
+            "content": {
+              "text": "Pendant la pandémie de COVID-19, ZEP2030 et le PNUD ALab, en collaboration avec la startup AI4Gov, ont lancé COVID Pulse PH. Cette enquête innovante a été déployée via un chatbot de messagerie qui a été diffusé à travers les réseaux communautaires de ZEP2030 ainsi que du Mouvement de Reconstruction Rurale Philippine. Trois vagues de l'enquête ont été menées depuis mai 2020, confirmant que la COVID-19 a touché le plus les plus pauvres (<a href=\"https://kapicapistrano.wordpress.com/2021/10/18/local-convergence-for-zero-poverty/\"><u>Kapi Capistrano, 2021</u></a>)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Résultats et Impact</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Modèles de prédiction de la pauvreté créés avec succès expliquant 56% de la variance de la richesse, démontrant la faisabilité de la cartographie de la pauvreté basée sur l'IA aux Philippines."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Application de techniques de cartographie de la pauvreté pour soutenir la distribution alimentaire d'urgence COVID-19 ciblée dans la région métropolitaine de Manille et les provinces voisines, desservant 162 000 ménages dans 44 barangays."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Cadre de collaboration établi entre le <strong>UNDP Philippines Accelerator Lab</strong> et la coalition <strong>ZEP2030</strong>, conduisant à des initiatives de convergence locale dans des domaines tels que la ville d'Antipolo et la province de Cebu"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Déploiement de l'enquête chatbot COVID Pulse PH à travers trois vagues depuis mai 2020, recueillant des données en temps réel sur l'impact de la pauvreté à partir de Metro Manila, Metro Cebu et six provinces pendant la pandémie"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Code et méthodologies open source publiés, permettant la reproduction et l'adaptation de l'approche pour d'autres pays en développement et institutions de recherche."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "L'expérience pionnière des Philippines en matière de cartographie de la pauvreté basée sur l'IA offre des perspectives essentielles pour d'autres nations confrontées à des défis similaires de rareté de données et de développement :"
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>Évolutivité et efficacité</strong>",
+              "body": "La principale leçon tirée du projet démontre que l'apprentissage automatique offre un moyen évolutif, fiable et économique d'obtenir des informations sur la pauvreté pour des zones que les enquêtes ne couvrent pas. Les enquêtes traditionnelles sur le terrain peuvent coûter des dizaines de millions de pesos et sont généralement effectuées tous les trois à cinq ans au niveau régional ou provincial, tandis que les approches d'apprentissage automatique utilisant des images satellites offrent une alternative à faible coût pour fournir des estimations fiables de la pauvreté.",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>Approches alternatives aux données et mise en œuvre rapide</strong>",
+              "body": "Le faible coût de cette approche permet une itération rapide, ce qui ouvre la porte à de futures expériences avec d'autres ensembles de données tels que les réseaux routiers, la densité de population et la mobilité. La méthodologie peut estimer la richesse et la pauvreté pour toute zone de 18 kilomètres carrés en une fraction du temps et du coût de la réalisation d'une enquête ménagère. Avec cette approche, ce type de projet peut être déployé dans d'autres régions, en tenant compte de son efficacité à fournir des résultats à un coût inférieur par rapport aux enquêtes aléatoires conventionnelles",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>Collaboration Multi-Parties</strong>",
+              "body": "Le succès du projet dépendait de partenariats solides entre le <strong>UNDP Philippines Accelerator Lab</strong>, des coalitions de la société civile telles que <strong>ZEP2030</strong>, des agences gouvernementales et des entreprises technologiques.",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>Validation communautaire et leadership local</strong>",
+              "body": "La stratégie « tout-en-un local » de la coalition ZEP2030 a souligné l'importance du leadership local dans les initiatives de réduction de la pauvreté, <br> les convergences locales servant de véhicules pour la réduction de la pauvreté dans les localités en facilitant une collaboration plus étroite entre les acteurs du développement.",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Références</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Banque asiatique de développement (2021). <a href=\"https://www.adb.org/publications/mapping-poverty-satellite-imagery-philippines\"><u>Cartographie de la répartition spatiale de la pauvreté à l'aide d'images satellites aux Philippines</u></a>.<br /><br />Development Asia. (2020). <a href=\"https://development.asia/insight/using-machine-learning-satellite-images-map-poverty\"><u>Utiliser l'apprentissage automatique sur des images satellites pour cartographier la pauvreté</u></a>.<br /><br />Development Asia. (2020). <a href=\"https://development.asia/explainer/how-satellite-data-helped-get-food-hungry-during-covid-19\"><u>Comment les données satellites ont aidé à fournir de la nourriture aux affamés pendant la COVID-19</u></a>.<br /><br />Javier, C., Maniego, M. L., Duante, C., & Angeles-Agdeppa, I. (2022). <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8883167\"><u>Impacts de la pandémie de COVID-19 sur la sécurité alimentaire des ménages et l'accès aux <ai prompt=\"Expliquer la protection sociale.\">programmes de protection sociale 💬️</ai></u></a>. <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8883167/\"><u>/<br /></u></a><br />Kapicapistrano. (2021, 18 octobre) <a href=\"https://kapicapistrano.wordpress.com/2021/10/18/local-convergence-for-zero-poverty/\"><u>Convergence locale pour zéro pauvreté</u></a>.<br /><br />Philippine Statistics Authority. (n.d.). <a href=\"https://rssocar.psa.gov.ph/poverty\"><u>Pauvreté</u></a>.<br />Thinking Machines Data Science. (2019). <a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Utiliser l'apprentissage par transfert et l'imagerie satellite pour cartographier la pauvreté aux Philippines</u></a>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Thinking Machines Data Science. (2020). <a href=\"https://stories.thinkingmachin.es/mapping-poverty-in-the-philippines-with-combined-open-geospatial-datasets/\"><u>Cartographier la pauvreté aux Philippines avec des ensembles de données géospatiales ouvertes combinées</u></a>.<br /><br />Thinking Machines Data Science. (n.d.). ph-poverty-mapping : <a href=\"https://github.com/thinkingmachines/ph-poverty-mapping\"><u>Cartographie de la pauvreté aux Philippines en utilisant l'apprentissage automatique, l'imagerie satellite et les informations géospatiales participatives</u></a>.<br /><br />Thinking Machines Data Science. (n.d.). unicef-ai4d-poverty-mapping: <a href=\"https://github.com/thinkingmachines/unicef-ai4d-poverty-mapping\"><u>Projet de cartographie de la richesse relative de l'UNICEF AI4D</u></a>.<br /><br />PNUD. (n.d.). Digital X Solution : <a href=\"https://digitalx.undp.org/thinking-machines-data-science_1.html\"><u>Thinking Machines Data Science</u></a>.<br /><br /><ai prompt=\"Tell me more about undp accelerator labs.\">undp accelerator labs 💬️</ai>. (n.d.). <a href=\"https://www.undp.org/acceleratorlabs/undp-philippines-accelerator-lab\"><u>Laboratoire d'accélération du PNUD Philippines</u></a>.<br /><br />PNUD Philippines. (2021). <a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>Convergence locale pour zéro pauvreté : Expérimentation sur l'action collective avec ZEP PH 2030</u></a>.<br /><br />World Data Lab. (2024). <a href=\"https://worlddata.io/portfolio/ai-poverty-mapping/\"><u>Cartographie de la pauvreté par IA</u></a>.<br /><br />Zéro pauvreté extrême. (n.d.). <a href=\"https://zeropovertyph.net/zep2030-ph-toolkit/\"><u>Kit d'outils ZEP2030 PH</u></a>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_4.png",
+          "caption": ""
+        },
+        "intro": "M7 : Données dans l'énergie durable",
+        "title": "C : Importance de la visualisation des données"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La visualisation des données peut efficacement donner vie aux données et raconter une histoire. Il est important d'utiliser des visualisations de données qui transforment l'information et les données en insights exploitables. Dans le secteur de l'énergie, où les données jouent un rôle important dans la justification et la rationalisation de la prise de décision, une visualisation efficace peut améliorer la clarté et la compréhensibilité, alors qu'une visualisation inefficace peut provoquer de la confusion et une perte de concentration. Il n'existe pas de cadre standardisé mondial en matière de visualisation de données, mais il existe des orientations sur les meilleures pratiques, qui proviennent de années de recherche et d'expérimentation dans les industries du design et des médias. Des conseils sur les meilleures pratiques peuvent être trouvés dans le livre <strong>Visualizing Data</strong> et sur la page web <em>Material Design</em>. Les deux références expliquent l'utilisation correcte des graphiques, l'utilisation des annotations et des éléments de conception éditoriale."
             }
           }
         ]
@@ -436,32 +858,32 @@
       "template_id": "key_takeaways",
       "color_scheme": "dark",
       "content": {
-        "title": "Principaux enseignements",
+        "title": "Points clés",
         "intro": "",
         "takeaways": [
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_Intro_5.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Outro_2.png",
               "caption": ""
             },
             "title": "L'analyse exploratoire des données alimentée par l'IA révolutionne les insights sur les données énergétiques.",
-            "description": "L'EDA pilotée par l'IA accélère l'identification des motifs, des anomalies et des corrélations dans les ensembles de données énergétiques, permettant un nettoyage des données, un regroupement et une détection des anomalies plus efficaces. En automatisant ces processus, l'IA permet aux analystes énergétiques de découvrir des informations critiques—telles que les tendances de la demande énergétique saisonnière ou les pannes d'équipement—plus rapidement et avec une plus grande précision, optimisant ainsi la performance du système énergétique."
+            "description": "L'<strong>EDA</strong> pilotée par l'<strong>IA</strong> accélère l'identification des motifs, anomalies et corrélations dans les ensembles de données énergétiques, permettant un nettoyage, un regroupement et une détection d'anomalies plus efficaces. En automatisant ces processus, l'IA permet aux analystes en énergie de découvrir des informations critiques—telles que les tendances saisonnières de la demande énergétique ou les dysfonctionnements d'équipement—plus rapidement et avec une plus grande précision, optimisant ainsi la performance du système énergétique."
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C4_Intro_8.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Intro_3.png",
               "caption": ""
             },
-            "title": "La télédétection et les SIG améliorés par l'IA transforment la planification des infrastructures énergétiques.",
-            "description": "L'intégration de l'IA avec les technologies de télédétection et de SIG permet une analyse spatiale avancée, une maintenance prédictive et une surveillance en temps réel des actifs énergétiques. Des applications comme la détection de l'érosion dans les pales d'éoliennes et la cartographie de la pauvreté à travers des images satellites démontrent comment l'IA peut favoriser la prise de décision basée sur les données, améliorer l'efficacité des énergies renouvelables et relever les défis d'accès à l'énergie dans les régions mal desservies."
+            "title": "La télédétection améliorée par l'IA et les SIG transforment la planification des infrastructures énergétiques.",
+            "description": "L'intégration de l'IA avec la télédétection et les technologies SIG permet une analyse spatiale avancée, la maintenance prédictive et la surveillance en temps réel des actifs énergétiques. Des applications telles que la détection de l'érosion sur les pales d'éoliennes et la cartographie de la pauvreté à l'aide d'images satellites démontrent comment l'IA peut favoriser la prise de décisions basée sur les données, améliorer l'efficacité des énergies renouvelables et relever les défis liés à l'accès à l'énergie dans les régions mal desservies."
           },
           {
             "image": {
-              "src": "https://ik.imagekit.io/seacademy/Photos/Module_5/M5_C2_L1_21.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_12.png",
               "caption": ""
             },
-            "title": "La visualisation des données est un outil stratégique pour des informations énergétiques exploitables.",
-            "description": "Une visualisation efficace des données transforme des données énergétiques complexes en récits clairs et exploitables, améliorant la prise de décision et la communication avec les parties prenantes. En respectant les meilleures pratiques en matière de conception et de narration, les professionnels de l'énergie peuvent créer des visualisations qui mettent en évidence les tendances clés, telles que les modèles de consommation d'énergie ou la performance des infrastructures, garantissant que les stratégies basées sur les données sont à la fois accessibles et percutantes."
+            "title": "La visualisation des données est un outil stratégique pour des insights énergétiques exploitables.",
+            "description": "Une visualisation efficace des données transforme des données énergétiques complexes en récits clairs et exploitables, améliorant la prise de décision et la communication avec les parties prenantes. En respectant les meilleures pratiques en matière de conception et de narration, les professionnels de l'énergie peuvent créer des visualisations qui mettent en évidence <strong>les tendances clés</strong>, telles que <em>les modèles de consommation d'énergie</em> ou <em>la performance des infrastructures</em>, garantissant que <u>les stratégies basées sur les données</u> soient à la fois accessibles et percutantes."
           }
         ]
       }
@@ -471,7 +893,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module7.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.png",
           "caption": ""
         },
         "intro": "Prochainement",

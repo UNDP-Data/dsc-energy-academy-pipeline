@@ -6,26 +6,26 @@
       "color_scheme": "dark",
       "content": {
         "title": "Quiz noté <br/><strong>Module 6</strong>",
-        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance !",
+        "intro": "Ce quiz couvre toutes les leçons de ce module. Vous devez atteindre 80 % pour réussir. Bonne chance!",
         "final": true,
         "labels": {
           "correct": "Correct",
           "question": "Question",
           "result": "Résultat du quiz",
           "score": "Votre score",
-          "passingScore": "Score minimum requis",
-          "startButton": "Commencer le quiz",
+          "passingScore": "Score minimum de passage",
+          "startButton": "Démarrer le quiz",
           "nextButton": "Suivant",
           "submitButton": "Soumettre",
           "retryButton": "Rejouer",
           "passed": "Passé",
-          "failed": "Non réussi"
+          "failed": "Non passé"
         },
         "passingScore": 0.8,
         "questions": [
           {
             "id": 1,
-            "prompt": "Quel pourcentage des émissions mondiales de gaz à effet de serre est attribué au secteur de l'énergie ?",
+            "prompt": "Quel pourcentage des émissions mondiales totales de gaz à effet de serre est attribué au secteur de l'énergie ?",
             "multiple": false,
             "options": [
               {
@@ -51,22 +51,22 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Le secteur de l'énergie est responsable d'environ 75 % des émissions mondiales de GES, ce qui en fait le plus grand contributeur au changement climatique."
+                "body": "Le secteur de l'énergie est responsable d'environ 75 % des émissions mondiales totales de GES, ce qui en fait le plus grand contributeur au changement climatique."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Le secteur de l'énergie est responsable d'environ 75 % des émissions mondiales de GES, ce qui en fait le plus grand contributeur au changement climatique."
+                "body": "Le secteur de l'énergie est responsable d'environ 75 % des émissions mondiales totales de GES, ce qui en fait le plus grand contributeur au changement climatique."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "Lequel des gaz à effet de serre suivants a le plus grand potentiel de réchauffement climatique (PRG) parmi ceux couramment émis par le secteur de l'énergie ?",
+            "prompt": "Lequel des gaz à effet de serre suivants a le potentiel de réchauffement global (PRG) le plus élevé parmi ceux couramment émis par le secteur de l'énergie ?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Dioxyde de carbone (CO₂)"
+                "value": "dioxyde de carbone (CO₂)"
               },
               {
                 "id": 2,
@@ -87,17 +87,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Le SF₆ a le GWP le plus élevé—environ 25 200 fois celui du CO₂—ce qui en fait une cible critique pour les réductions d'émissions dans la distribution d'énergie."
+                "body": "SF₆ a le GWP le plus élevé—environ 25 200 fois celui du CO₂—ce qui en fait une cible critique pour la réduction des émissions dans la distribution d'énergie."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Le SF₆ a le GWP le plus élevé—environ 25 200 fois celui du CO₂—ce qui en fait une cible critique pour les réductions d'émissions dans la distribution d'énergie."
+                "body": "SF₆ a le GWP le plus élevé—environ 25 200 fois celui du CO₂—ce qui en fait une cible critique pour la réduction des émissions dans la distribution d'énergie."
               }
             }
           },
           {
             "id": 3,
-            "prompt": "Quels sont les principaux impacts environnementaux associés au développement des infrastructures d'énergie renouvelable ?",
+            "prompt": "Quels sont les impacts environnementaux clés associés au développement des infrastructures d'énergie renouvelable ?",
             "multiple": true,
             "options": [
               {
@@ -106,7 +106,7 @@
               },
               {
                 "id": 2,
-                "value": "Pollution de l'air provenant des centrales électriques"
+                "value": "La pollution de l'air provenant des centrales électriques"
               },
               {
                 "id": 3,
@@ -114,7 +114,7 @@
               },
               {
                 "id": 4,
-                "value": "Les impacts de l'extraction minérale"
+                "value": "L'impact de l'extraction minière"
               }
             ],
             "solution": [
@@ -126,22 +126,22 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Toutes les options sont correctes. La perturbation de l'habitat et les conflits d'utilisation des terres résultent d'installations à grande échelle, la pollution de l'air peut survenir lors de la production de matériaux et du démantèlement, et l'extraction de minéraux nécessaires aux panneaux solaires, aux éoliennes et aux batteries cause une grave dégradation de l'environnement."
+                "body": "Toutes les options sont correctes. Les perturbations de l'habitat et les conflits d'utilisation des terres résultent d'installations à grande échelle, la pollution de l'air peut survenir lors de la production et du démantèlement des matériaux, et l'exploitation minière des minéraux nécessaires aux panneaux solaires, aux éoliennes et aux batteries cause une dégradation environnementale grave."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Toutes les options sont correctes. La perturbation de l'habitat et les conflits d'utilisation des terres résultent d'installations à grande échelle, la pollution de l'air peut survenir lors de la production de matériaux et du démantèlement, et l'extraction de minéraux nécessaires aux panneaux solaires, aux éoliennes et aux batteries cause une grave dégradation de l'environnement."
+                "body": "Toutes les options sont correctes. Les perturbations de l'habitat et les conflits d'utilisation des terres résultent d'installations à grande échelle, la pollution de l'air peut survenir lors de la production et du démantèlement des matériaux, et l'exploitation minière des minéraux nécessaires aux panneaux solaires, aux éoliennes et aux batteries cause une dégradation environnementale grave."
               }
             }
           },
           {
             "id": 4,
-            "prompt": "Comment le changement climatique impacte-t-il la performance et la fiabilité des systèmes énergétiques ?",
+            "prompt": "Comment le changement climatique influence-t-il la performance et la fiabilité des systèmes énergétiques ?",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "Cela augmente la demande de refroidissement pendant les vagues de chaleur, mettant à rude épreuve les réseaux électriques"
+                "value": "Il augmente la demande de refroidissement pendant les vagues de chaleur, mettant à rude épreuve les réseaux électriques"
               },
               {
                 "id": 2,
@@ -149,11 +149,11 @@
               },
               {
                 "id": 3,
-                "value": "Cela perturbe la production d'hydroélectricité en raison des changements dans les schémas de précipitations"
+                "value": "Il perturbe la production d'énergie hydroélectrique en raison de l'évolution des modèles de précipitations"
               },
               {
                 "id": 4,
-                "value": "Cela augmente le risque de défaillance des infrastructures en raison d'événements météorologiques extrêmes"
+                "value": "Il augmente le risque de défaillance des infrastructures due à des événements météorologiques extrêmes"
               }
             ],
             "solution": [
@@ -164,22 +164,22 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Le changement climatique met à l'épreuve les systèmes en augmentant les besoins en refroidissement, en perturbant l'hydroélectricité et en exposant les infrastructures aux extrêmes climatiques. Une eau plus chaude réduit en fait—et n'améliore pas—l'efficacité des centrales thermiques."
+                "body": "Le changement climatique met à rude épreuve les systèmes en augmentant les besoins en refroidissement, en perturbant l'hydroélectricité et en exposant les infrastructures aux extrêmes météorologiques. Une eau plus chaude réduit en réalité — et non améliore — l'efficacité des centrales thermiques."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Le changement climatique met à l'épreuve les systèmes en augmentant les besoins en refroidissement, en perturbant l'hydroélectricité et en exposant les infrastructures aux extrêmes climatiques. Une eau plus chaude réduit en fait—et n'améliore pas—l'efficacité des centrales thermiques."
+                "body": "Le changement climatique met à rude épreuve les systèmes en augmentant les besoins en refroidissement, en perturbant l'hydroélectricité et en exposant les infrastructures aux extrêmes météorologiques. Une eau plus chaude réduit en réalité — et non améliore — l'efficacité des centrales thermiques."
               }
             }
           },
           {
             "id": 5,
-            "prompt": "Quels sont les principaux défis qui limitent l'adoption généralisée des technologies d'énergie renouvelable dans les pays en développement ?",
+            "prompt": "Quels sont les principaux défis limitant l'adoption généralisée des technologies d'énergie renouvelable dans les pays en développement?",
             "multiple": true,
             "options": [
               {
                 "id": 1,
-                "value": "Coûts initiaux en capital élevés et contraintes de financement"
+                "value": "Frais initiaux élevés en capital et contraintes de financement"
               },
               {
                 "id": 2,
@@ -191,7 +191,7 @@
               },
               {
                 "id": 4,
-                "value": "Politiques incohérentes et intégration de réseau faible"
+                "value": "Politiques incohérentes et faible intégration au réseau"
               }
             ],
             "solution": [
@@ -203,11 +203,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Toutes les options énumérées sont des contraintes documentées : coûts élevés, lacunes en matière de compétences, volatilité du marché et faiblesses des politiques/infrastructures."
+                "body": "Toutes les options listées sont des contraintes documentées : coûts élevés, lacunes en compétences, volatilité du marché et faiblesses des politiques/infrastructures."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Toutes les options énumérées sont des contraintes documentées : coûts élevés, lacunes en matière de compétences, volatilité du marché et faiblesses des politiques/infrastructures."
+                "body": "Toutes les options listées sont des contraintes documentées : coûts élevés, lacunes en compétences, volatilité du marché et faiblesses des politiques/infrastructures."
               }
             }
           },
@@ -218,11 +218,11 @@
             "options": [
               {
                 "id": 1,
-                "value": "Les émissions liées au cycle de vie tiennent compte de toutes les étapes, de l'extraction des ressources à la mise hors service"
+                "value": "Les émissions du cycle de vie prennent en compte toutes les étapes, de l'extraction des ressources à la mise hors service"
               },
               {
                 "id": 2,
-                "value": "L'énergie solaire et éolienne ont des émissions de cycle de vie significativement inférieures à celles du charbon ou du gaz"
+                "value": "L'énergie solaire et éolienne ont des émissions de cycle de vie nettement inférieures à celles du charbon ou du gaz"
               },
               {
                 "id": 3,
@@ -230,7 +230,7 @@
               },
               {
                 "id": 4,
-                "value": "Les émissions de cycle de vie ne sont pertinentes que pour les combustibles fossiles"
+                "value": "Les émissions liées au cycle de vie ne sont pertinentes que pour les combustibles fossiles"
               }
             ],
             "solution": [
@@ -240,17 +240,17 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "L'analyse du cycle de vie fournit une vue d'ensemble des émissions. L'éolien (13g CO₂/kWh) et le solaire (43g CO₂/kWh) sont bien inférieurs au charbon (1 001g) et au gaz naturel (486g). L'analyse du cycle de vie est pertinente pour tous les types d'énergie."
+                "body": "L'analyse du cycle de vie offre une vue d'ensemble des émissions. Le vent (13 g CO₂/kWh) et le solaire (43 g CO₂/kWh) sont bien inférieurs au charbon (1 001 g) et au gaz naturel (486 g). L'analyse du cycle de vie est pertinente pour tous les types d'énergie."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "L'analyse du cycle de vie fournit une vue d'ensemble des émissions. L'éolien (13g CO₂/kWh) et le solaire (43g CO₂/kWh) sont bien inférieurs au charbon (1 001g) et au gaz naturel (486g). L'analyse du cycle de vie est pertinente pour tous les types d'énergie."
+                "body": "L'analyse du cycle de vie offre une vue d'ensemble des émissions. Le vent (13 g CO₂/kWh) et le solaire (43 g CO₂/kWh) sont bien inférieurs au charbon (1 001 g) et au gaz naturel (486 g). L'analyse du cycle de vie est pertinente pour tous les types d'énergie."
               }
             }
           },
           {
             "id": 7,
-            "prompt": "Quel secteur est le plus grand contributeur aux émissions mondiales de CO2 provenant des secteurs d'utilisation finale ?",
+            "prompt": "Quel secteur est le plus grand contributeur aux émissions mondiales de CO2 provenant des secteurs de fin d'utilisation?",
             "multiple": false,
             "options": [
               {
@@ -276,11 +276,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Le transport est la plus grande source d'émissions de CO2 liées à l'utilisation finale, responsable de plus d'un tiers, ce qui en fait un secteur prioritaire pour la décarbonisation par l'électrification et les améliorations d'efficacité."
+                "body": "Le transport est la plus grande source d'émissions de CO2 liées à l'utilisation finale, responsable de plus d'un tiers, ce qui en fait un secteur prioritaire pour la décarbonisation par l'électrification et l'amélioration de l'efficacité."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Le transport est la plus grande source d'émissions de CO2 liées à l'utilisation finale, responsable de plus d'un tiers, ce qui en fait un secteur prioritaire pour la décarbonisation par l'électrification et les améliorations d'efficacité."
+                "body": "Le transport est la plus grande source d'émissions de CO2 liées à l'utilisation finale, responsable de plus d'un tiers, ce qui en fait un secteur prioritaire pour la décarbonisation par l'électrification et l'amélioration de l'efficacité."
               }
             }
           }
@@ -292,11 +292,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module6.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.png",
           "caption": ""
         },
         "intro": "Prochainement",
-        "title": "Module 6 Conclusion",
+        "title": "Outro du module 6",
         "cta": "Continuez à apprendre",
         "nextLessonId": "6.-1.-1"
       }

@@ -633,30 +633,14 @@ class PhotoHorizontal(FrameBase):
         
 class Infographic(FrameBase):
     image: dict
-    size: str = "full" 
-    
+    size: str = "full"
+
     @classmethod
     def from_node(cls, node: Node) -> "Infographic":
-        assert node.name.lower() == "infographic", f"Expected infographic node, got {node.name}"
-        
-        image_name = "unnamed"
-
-        # 1. Try to find RECTANGLE with IMAGE fill
-        for child in node.children:
-            if child.type == "RECTANGLE":
-                fills = child.get("fills", [])
-                if fills and fills[0].get("type") == "IMAGE":
-                    image_name = child.name.replace(" ", "")
-                    break
-        else:
-            # 2. Fallback: first group/instance/frame that is NOT named "Light Template"
-            for child in node.children:
-                if child.type in ["GROUP", "INSTANCE", "FRAME"] and child.name.strip().lower() != "light template":
-                    image_name = child.name.replace(" ", "")
-                    break
+        assert node.name.strip().lower() == "infographic", f"Expected infographic node, got {node.name}"
 
         image = {
-            "src": image_name,
+            "src": node.id,     # direct use of frame ID, matching export logic
             "caption": None,
             "url": None
         }
@@ -670,6 +654,47 @@ class Infographic(FrameBase):
             size=size,
             image=image
         )
+
+        
+# class Infographic(FrameBase):
+#     image: dict
+#     size: str = "full" 
+    
+#     @classmethod
+#     def from_node(cls, node: Node) -> "Infographic":
+#         assert node.name.lower() == "infographic", f"Expected infographic node, got {node.name}"
+        
+#         image_name = "unnamed"
+
+#         # 1. Try to find RECTANGLE with IMAGE fill
+#         for child in node.children:
+#             if child.type == "RECTANGLE":
+#                 fills = child.get("fills", [])
+#                 if fills and fills[0].get("type") == "IMAGE":
+#                     image_name = child.id
+#                     break
+#         else:
+#             # 2. Fallback: first group/instance/frame that is NOT named "Light Template"
+#             for child in node.children:
+#                 if child.type in ["GROUP", "INSTANCE", "FRAME"] and child.name.strip().lower() != "light template":
+#                     image_name = child.id
+#                     break
+
+#         image = {
+#             "src": image_name,
+#             "caption": None,
+#             "url": None
+#         }
+
+#         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
+#         size = "full" if width >= 1000 else "half"
+
+#         return cls(
+#             template_id="infographic",
+#             color_scheme="light",
+#             size=size,
+#             image=image
+#         )
 
 
         

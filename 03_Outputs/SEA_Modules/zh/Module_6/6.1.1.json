@@ -1,0 +1,1391 @@
+{
+  "id": "6.1.1",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/223_319.webp",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "1"
+        },
+        "title": "能源系统如何影响气候变化",
+        "cta": "",
+        "intro": "第6部分：气候变化与能源的关系"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第1课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "当前的能源系统是全球气候变化的主要驱动力，<a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><strong><u>占全球温室气体排放总量的约75%</u></strong></a><strong>。 </strong> </strong>这意味着改变我们的能源生产和消费方式至关重要，全球实现其气候目标的能力取决于能源部门的能力来 <strong></strong> 实现脱碳，并且 <a href=\"https://www.un.org/en/climatechange/net-zero-coalition\"><u>将全球变暖控制在不超过1.5°C – 正如《巴黎协定》所要求的 – 到2030年需要减少排放45%，并在2050年前实现净零排放</u></a>.</br> 因此<strong> </strong><a href=\"https://news.un.org/en/story/2023/07/1139162\"><strong><u>气温年复一年打破纪录</u></strong></a><strong>, </strong>采取行动的理由从未如此强烈。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/243_343.webp",
+          "caption": ""
+        },
+        "intro": "第6部分：气候变化与能源的关系",
+        "title": "排放细分"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "可靠、准确和及时的数据对于制定基于证据的能源政策以推动可持续发展至关重要。 没有高质量的数据，政策决策可能会被误导，导致无效的解决方案或意想不到的后果。<br /><br />根据 <a href=\"https://unstats.un.org/unsd/energystats/methodology/documents/IRES-web.pdf\"><u>国际能源统计建议（联合国，2018）</u></a>，数据必须满足五个关键的质量维度，以有效支持合理的决策，正如下一页所介绍的。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "show": false
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null,
+            "trigger": "item"
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#c5192d",
+            "#fcc30b",
+            "#fd9d24",
+            "#3f7e44",
+            "#19486a",
+            "#4c9f38",
+            "#0a97d9",
+            "#fd6925",
+            "#0468b1",
+            "#dd1367"
+          ],
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Access From",
+              "type": "pie",
+              "radius": "75%",
+              "data": [
+                {
+                  "name": "Energy",
+                  "value": 75.7
+                },
+                {
+                  "name": "Agriculture",
+                  "value": 11.7
+                },
+                {
+                  "name": "Industrial Processes",
+                  "value": 6.5
+                },
+                {
+                  "name": "Waste",
+                  "value": 3.4
+                },
+                {
+                  "name": "Land Use Change and Forestry",
+                  "value": 2.7
+                }
+              ]
+            }
+          ],
+          "title": {
+            "text": "2021年全球温室气体排放按部门和最终用途",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源部门的排放包括 <a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><u>发电和供热（29.7%）、交通（13.7%）、制造和建筑（12.7%）以及建筑物（6.6%）</u></a>。 逃逸排放（在化石燃料生产或传输过程中释放的排放）以及其他燃料燃烧的排放也是重要的贡献者。<br /> <br />住宅建筑占能源部门排放的最大份额，<a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><u>占全球排放的12.5%</u></a>。 这包括家庭用电的发电排放和直接使用化石燃料的排放，例如用煤气做饭。 道路运输是另一个主要来源，占据了<a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><u>全球排放的12.2%</u></a>。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#dd1367",
+            "#fd6925",
+            "#19486a",
+            "#fd9d24",
+            "#0468b1",
+            "#fcc30b",
+            "#0a97d9",
+            "#4c9f38",
+            "#c5192d",
+            "#3f7e44"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              1990,
+              1991,
+              1992,
+              1993,
+              1994,
+              1995,
+              1996,
+              1997,
+              1998,
+              1999,
+              2000,
+              2001,
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "MtCo2e"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "line",
+              "name": "Energy",
+              "data": [
+                23660.14,
+                23818.01,
+                23707.42,
+                23845.95,
+                23943.99,
+                24605.32,
+                25119.71,
+                25543.82,
+                25701.94,
+                25826.94,
+                26607.83,
+                26972.16,
+                27303.91,
+                28504.58,
+                29762.77,
+                30845.08,
+                31742.01,
+                32821.47,
+                33062.57,
+                32535.35,
+                34453.48,
+                35429.95,
+                35762.83,
+                36365.23,
+                36464.78,
+                36309.07,
+                36274.37,
+                36827.24,
+                37652.42,
+                37623.18,
+                35532.26,
+                37497.65,
+                38008.54
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Electricity/Heat",
+              "data": [
+                8653.37,
+                8796.23,
+                8953.47,
+                9003.81,
+                9105.35,
+                9296.41,
+                9662.55,
+                9937.03,
+                10163.84,
+                10226.32,
+                10628.24,
+                10886.64,
+                11072.27,
+                11691.14,
+                12076.46,
+                12451.38,
+                12955.18,
+                13518.63,
+                13545.46,
+                13330.54,
+                14236.95,
+                14857.74,
+                15154.39,
+                15449.07,
+                15393.11,
+                15126.68,
+                15134.08,
+                15480.49,
+                15901.34,
+                15843.06,
+                15323.08,
+                16447.75,
+                16688.42
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Manufacturing/Construction",
+              "data": [
+                3978.52,
+                3900.0,
+                3770.69,
+                3719.1,
+                3732.51,
+                3956.48,
+                3838.82,
+                3862.91,
+                3861.0,
+                3703.74,
+                3859.55,
+                3881.54,
+                3893.32,
+                4085.93,
+                4514.42,
+                4935.81,
+                5171.55,
+                5452.0,
+                5559.44,
+                5548.93,
+                6110.09,
+                6339.47,
+                6363.01,
+                6365.14,
+                6433.66,
+                6316.92,
+                6159.11,
+                6080.37,
+                6207.16,
+                6248.09,
+                6202.69,
+                6349.21,
+                6303.94
+              ]
+            },
+            {
+              "type": "line",
+              "name": "Transportation",
+              "data": [
+                4733.71,
+                4772.1,
+                4880.23,
+                4923.23,
+                5021.55,
+                5159.12,
+                5369.33,
+                5447.53,
+                5574.08,
+                5738.55,
+                5921.01,
+                5951.44,
+                6107.43,
+                6235.61,
+                6524.11,
+                6668.92,
+                6824.66,
+                7038.06,
+                7044.04,
+                6903.1,
+                7197.42,
+                7314.2,
+                7374.23,
+                7565.04,
+                7691.06,
+                7929.36,
+                8085.15,
+                8281.72,
+                8478.33,
+                8497.7,
+                7283.0,
+                7853.2,
+                8151.42
+              ]
+            }
+          ],
+          "title": {
+            "text": "行业排放趋势（能源子行业），1990-2022",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "grid": {
+            "top": 200,
+            "bottom": 90,
+            "left": 70,
+            "right": 40
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "自1990年以来，能源部门中增长最快的三个排放源是：<a href=\"https://www.climatewatchdata.org/ghg-emissions?apcid=000000000000000000000000&breakBy=sector&chartType=line&end_year=2021&start_year=1990\"><u>电力和供暖，增长了88%；交通，增长了66%；制造和建筑，增长了60%</u></a>。 相比之下，非能源部门合计仅占全球排放的四分之一，突显了专注于能源部门脱碳的关键需求。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_631.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>能源生产的温室气体排放</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "燃烧在能源生产中起着重要作用，尤其是发电和供暖方面。 超过40%的与能源相关的二氧化碳排放来自燃烧化石燃料发电。 仅在2022年，能源燃烧产生的二氧化碳排放量增长了1.3％（423兆吨）。 然而，与能源相关的温室气体排放源自除燃烧之外的多种来源，包括来自石油和天然气作业的逃逸甲烷排放以及工业活动的过程排放。 2022年，能源燃烧和工业过程产生的二氧化碳排放占能源相关温室气体排放的89%。 与能源相关的温室气体总排放量增加了1.0%，达到历史最高的41.3亿吨二氧化碳当量。<br /><br /> 影响电力生产中二氧化碳排放的关键因素包括电力的生产量、发电效率、对化石燃料的依赖以及这些燃料的碳强度。 具体而言，燃煤发电厂是最大的贡献者，负责电力部门二氧化碳排放的73%。 <br /><br />虽然二氧化碳（CO2）是最丰富的温室气体，但能源部门也排放非二氧化碳的温室气体，如甲烷（CH4）、氧化亚氮（N2O）和六氟化硫（SF₆）。 这些气体，虽然排放量较少，但具有更高的全球变暖潜力和不同的大气寿命，使它们在气候策略中至关重要。 </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "甲烷是继二氧化碳之后的第二大全球变暖驱动因素，在能源行业中引起了重大关注。 石油和天然气作业是甲烷排放的最大来源，而<ai prompt=\"Tell me more about bioenergy.\">生物能源 💬️</ai>——如木材、木炭和作物残留物——也会增加甲烷排放。 甲烷既通过生产和维护期间的排放和燃烧等有意操作释放，也通过管道、压缩机和阀门的泄漏（<strong>逃逸排放</strong>）意外释放。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "一氧化二氮（N2O），虽然释放量要小得多，但在全球变暖潜力方面比二氧化碳高出约300倍。 农业部门是全球最大的N2O排放源，原因是广泛使用化肥。 在能源行业中，N2O 排放源于化石燃料燃烧、<ai prompt=\"提供有关生物质的更多信息。\">生物质 💬️</ai>燃烧以及一些工业过程。 尽管其所占比例相对较低，但来自能源的N<sub>2</sub>O排放仍然是一个重要的环境问题，因为它们不仅导致全球变暖，还导致臭氧层破坏。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null,
+            "trigger": "axis"
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fcc30b",
+            "#fd6925",
+            "#c5192d",
+            "#4c9f38",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#0468b1",
+            "#dd1367",
+            "#3f7e44"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "name": "Year",
+            "boundaryGap": false,
+            "data": [
+              2000,
+              2001,
+              2002,
+              2003,
+              2004,
+              2005,
+              2006,
+              2007,
+              2008,
+              2009,
+              2010,
+              2011,
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ]
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "GtCO2 eq"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "grid": {
+            "left": 70,
+            "right": 40,
+            "bottom": 90,
+            "containLabel": true,
+            "top": 200
+          },
+          "toolbox": {
+            "feature": {
+              "saveAsImage": {}
+            }
+          },
+          "series": [
+            {
+              "name": "Coal",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                8.93,
+                9.16,
+                9.36,
+                10.08,
+                10.74,
+                11.45,
+                12.1,
+                12.78,
+                12.93,
+                12.93,
+                13.84,
+                14.6,
+                14.73,
+                15.08,
+                15.1,
+                14.61,
+                14.39,
+                14.62,
+                15.01,
+                14.76,
+                14.23,
+                15.22,
+                15.46
+              ]
+            },
+            {
+              "name": "Oil",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                9.66,
+                9.71,
+                9.67,
+                9.81,
+                10.18,
+                10.31,
+                10.38,
+                10.54,
+                10.44,
+                10.16,
+                10.54,
+                10.56,
+                10.65,
+                10.81,
+                10.87,
+                11.12,
+                11.18,
+                11.33,
+                11.41,
+                11.38,
+                10.12,
+                10.9,
+                11.17
+              ]
+            },
+            {
+              "name": "Natural gas",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                4.56,
+                4.62,
+                4.78,
+                4.96,
+                5.09,
+                5.21,
+                5.36,
+                5.57,
+                5.73,
+                5.57,
+                6.04,
+                6.13,
+                6.25,
+                6.33,
+                6.32,
+                6.42,
+                6.6,
+                6.75,
+                7.07,
+                7.2,
+                7.08,
+                7.45,
+                7.33
+              ]
+            },
+            {
+              "name": "Waste",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                0.1,
+                0.11,
+                0.11,
+                0.11,
+                0.11,
+                0.11,
+                0.12,
+                0.12,
+                0.12,
+                0.13,
+                0.16,
+                0.18,
+                0.19,
+                0.19,
+                0.19,
+                0.19,
+                0.21,
+                0.22,
+                0.23,
+                0.23,
+                0.24,
+                0.25,
+                0.28
+              ]
+            },
+            {
+              "name": "Industrial processes",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                1.31,
+                1.32,
+                1.37,
+                1.47,
+                1.54,
+                1.62,
+                1.76,
+                1.87,
+                1.87,
+                1.9,
+                2.01,
+                2.17,
+                2.24,
+                2.31,
+                2.37,
+                2.36,
+                2.42,
+                2.45,
+                2.58,
+                2.67,
+                2.64,
+                2.67,
+                2.57
+              ]
+            },
+            {
+              "name": "Methane",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                2.97,
+                3.01,
+                3.0,
+                3.16,
+                3.3,
+                3.43,
+                3.5,
+                3.56,
+                3.61,
+                3.53,
+                3.68,
+                3.79,
+                3.84,
+                3.87,
+                3.89,
+                3.86,
+                3.84,
+                3.87,
+                3.97,
+                4.02,
+                3.79,
+                3.91,
+                3.99
+              ]
+            },
+            {
+              "name": "Nitrous oxide",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                0.19,
+                0.2,
+                0.2,
+                0.21,
+                0.22,
+                0.22,
+                0.23,
+                0.23,
+                0.24,
+                0.23,
+                0.24,
+                0.25,
+                0.25,
+                0.26,
+                0.26,
+                0.26,
+                0.26,
+                0.27,
+                0.27,
+                0.27,
+                0.25,
+                0.27,
+                0.28
+              ]
+            },
+            {
+              "name": "CO2 flaring",
+              "type": "line",
+              "stack": "Total",
+              "areaStyle": {},
+              "data": [
+                0.31,
+                0.3,
+                0.29,
+                0.32,
+                0.31,
+                0.32,
+                0.3,
+                0.29,
+                0.28,
+                0.28,
+                0.26,
+                0.27,
+                0.27,
+                0.26,
+                0.27,
+                0.28,
+                0.28,
+                0.27,
+                0.27,
+                0.28,
+                0.27,
+                0.27,
+                0.27
+              ]
+            }
+          ],
+          "title": {
+            "text": "全球能源相关温室气体排放，2000-2022",
+            "subtext": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "fontFamily": "Proxima Nova, sans-serif"
+            },
+            "subtextStyle": {
+              "color": "#666666",
+              "fontSize": 14,
+              "fontFamily": "Proxima Nova, sans-serif"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "text",
+                "left": "center",
+                "top": 80,
+                "style": {
+                  "text": "",
+                  "fill": "#444444",
+                  "font": "15px Proxima Nova, sans-serif",
+                  "width": 600,
+                  "lineHeight": 22,
+                  "align": "center"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_640.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>能源生产的温室气体排放</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源分配通过将能源从生产地点运输到终端用户，促使温室气体排放。 这包括燃料运输、基础设施建设和维护以及能源分配网络的运营所产生的排放。 除了这些，分配过程固有的低效率也会增加温室气体排放。 事实上，运输过程中能源损失很大，每年大约损失19艾焦（EJ）。 它们代表着双重挑战：浪费的能源本可以为经济提供动力，以及由产生这些浪费能源所导致的相关排放。 这些损失每年大约等于2000亿美元。<br /><br />在输电和配电中，硫六氟化物（SF₆）是一个主要的排放源。 它作为高压电气设备中的绝缘气体使用，例如<em>开关设备</em>和<em>断路器</em>，并且是《京都议定书》下受管制的最强烈的温室气体。 其GWP大约是二氧化碳的25,200倍，即使在设备运行、维护或退役期间的微小泄漏也可能对排放产生显著影响。 因此，通过更好的泄漏检测、维护实践和替代技术来应对SF₆排放，已成为减少能源分配网络气候影响的重要重点。<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_649.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>能源生产的温室气体排放</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源消耗涵盖四个主要部门：工业、建筑、交通和其他（包括农业和非能源用途）。 在此细分中，来自电力和热能生产的排放被分配给最终消耗它们的部门，而不是单独报告。 这种方法同时捕捉直接排放（现场燃料燃烧）和间接排放（购买的电力和热能），提供每个行业总影响的更清晰的图像。 <br /><br />在将电力和热能排放归因于其最终用途后，工业仍然是2022年最大的排放部门，贡献了全球燃料燃烧排放的近38%。 建筑占比26%，交通占比24%，其余排放来自其他部门。<br /><br />具体而言，建筑是排放的重要来源，原因在于其建设以及用于供暖、制冷、照明和设备的日益增长的运营能源需求。 在2022年，建筑运营相关的能源排放达到10亿吨二氧化碳当量，比2020年的水平增加了5%，比2019年疫情前的峰值高出2%。 在2022年，来自建筑物的直接二氧化碳排放，例如现场化石燃料燃烧用于空间和水加热或烹饪，略有减少。 然而，间接排放，主要来自照明、冷却系统和电器的用电量，增加了。 这突出了建筑物对电力日益增长的依赖。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "区域趋势各异，部分地区排放量下降，其他地区则增加，<strong>通常受到天气条件</strong>等因素的影响。 实现国际能源署的净零排放（NZE）情景需要建筑物的排放量每年下降前所未有的9%，这是一项巨大的挑战。 高收入国家面临对现有建筑进行改造的任务，而低收入国家则在应对快速新建建筑的排放影响。 这些不同的挑战也为<ai prompt=\"Clarify energy efficiency.\">能源效率 💬️</ai>和可持续建筑实践提供了独特的创新机会。<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/251_259.webp",
+          "caption": ""
+        },
+        "intro": "第6章：气候变化与能源的关系 | 第1章 | 第1课 | 第2部分",
+        "title": "B：可再生能源发展对生态系统的影响"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "本节在模块 3 的基础上，探讨可再生能源技术对生态系统的具体影响及其缓解策略。 虽然可再生能源对于减少排放至关重要，但如果不加以谨慎管理，其开发可能会破坏栖息地和生物多样性。 在这里，我们更详细地研究这些挑战，并探索诸如可持续选址、生态保护措施和综合方法等解决方案，以确保真正的可持续能源转型。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_665.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>土地利用冲突</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "不同能源生成方法的土地需求差异很大，尤其是在考虑其整个生命周期时。 生命周期土地利用评估不仅考虑能源厂本身的物理足迹，还考虑用于采矿建材、采购燃料、退役和废物管理等活动所需的土地。 建设可再生能源设施，如太阳能发电站和风力涡轮机，所需土地明显多于燃煤发电厂，以生产相同数量的电力。 这可能导致栖息地破碎和野生动物的迁移。<br /><br />地面安装的太阳能装置往往占用相对较高的土地，尽管这取决于位置和太阳能电池板的配置。 例如，大规模的太阳能发电场，与屋顶太阳能板不同，可能会破坏当地生态系统，占用大片土地，改变栖息地，并驱赶物种远离其自然环境。 虽然屋顶太阳能装置使用的土地明显较少，因为它们利用现有结构，但其土地使用并非为零，因为用于太阳能电池板生产的材料开采仍然需要土地资源。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "一项分析欧洲联盟、印度和韩国等地区太阳能土地利用的研究强调了一个关键问题：随着太阳能在地区电力结构中占比越来越大，相关的土地利用变化和排放也在增加。 太阳能扩展通常发生在目前用于农业或林业的土地上。 这种位移可能将农业或林业活动推向其他地区，通常涉及未使用的耕地，导致自然土地覆盖的丧失。 这些变化扰乱了当地的生态系统，并释放出储存在土壤和植被中的碳，抵消了太阳能的一些环境益处。<br /><br />另一项关于南非一座96兆瓦太阳能装置的研究发现，鸟类物种的多样性和密度显著下降。 将天然稻草原替换为太阳能电池板和管理的草原破坏了栖息地，减少了当地鸟类种群的筑巢和觅食机会。 这些土地利用挑战也与社会因素交叉，特别是在实现<ai prompt=\"Tell me more about just energy transition.\">公平能源转型 💬️</ai>（之前在第3模块中讨论过）。 大型项目可能对当地社区产生多种影响，引发关于公平获取机会和最大程度减少受可再生能源扩展影响者风险的担忧。 理解可再生能源开发中土地利用的更广泛影响对于设计可持续的能源策略、最大限度地减少生态和社会影响至关重要。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/251_451.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>基础设施建设</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "可再生能源项目所需的基础设施也可能影响当地的生态系统和生计。 风电场可能对鸟类和蝙蝠构成威胁，因为它们可能与<strong>涡轮叶片</strong>发生碰撞，而水电项目可能破坏水生栖息地并改变水流模式。 然而，正在进行研究和保护工作，以确定开发能源基础设施的最佳实践，从而最大限度地减少对生物多样性和生态系统服务的破坏。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/251_462.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>可再生资源的开采</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "向可再生能源的过渡需要增加对锂、钴和稀土元素等基本材料的采矿活动。 采矿作业常常导致严重的环境退化，包括土壤侵蚀、水污染和栖息地破坏。 事实上，许多<ai prompt=\"What is critical minerals?\"></ai>的< strong >关键矿物💬️</ strong >储备与高生物多样性价值区域重合。 在这些矿物被开采的地区，如智利的阿塔卡马沙漠，采矿活动被认为是导致当地环境退化的主要压力之一。 同样，在刚果民主共和国（DRC），拥有世界上最大的热带雨林之一，钴矿开采引发了重大环境和人权问题，包括森林砍伐、水污染和童工。 深海采矿也在探索中，以满足矿物需求，目标是海底资源。 然而，它对海洋生态系统构成严重威胁，包括栖息地破坏和生物多样性丧失，令人担忧其对环境的影响。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_471.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>管理可再生能源基础设施的完整生命周期</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "可再生能源基础设施的退役是一个常被忽视的挑战，对能源系统和可持续性具有长期影响。 风力涡轮机、太阳能电池板和水电设施的使用寿命都是有限的；太阳能电池板和风力涡轮机通常为20-30年，水电站可达100年。 对于海上风电场，退役涉及拆除涡轮机、移除海底结构以及管理废弃材料。 如果没有适当的规划，这个过程可能会扰乱海洋生态系统并产生大量废物。 同样，太阳能电池板的处理引发了关于电子废物和稀有材料（如硅、银和镉）回收的担忧。 水电站，尤其是较旧的，可能需要改造或拆除，这可能会对水系统和当地生态系统产生重大影响。 缺乏退役策略可能导致资产被遗弃并增加环境影响。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4619_289.webp",
+              "caption": "image caption"
+            },
+            "title": "气候变化扰乱了可再生能源的效率和可用性。",
+            "description": "气候变化通过改变天气模式、温度波动和极端天气事件，扰乱了太阳能、风能和水力等可再生能源的效率和可用性。 热电厂也面临挑战，包括冷却水需求增加以及由热浪和风暴造成的基础设施损坏。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4619_283.webp",
+              "caption": "image caption"
+            },
+            "title": "极端天气事件影响能源可靠性。",
+            "description": "极端天气事件如<strong>飓风</strong>、<strong>野火</strong>和<strong>洪水</strong>的频率和强度正在给能源分配系统带来压力，造成基础设施损坏并导致停电，影响能源供应的可靠性和韧性。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4619_277.webp",
+              "caption": "image caption"
+            },
+            "title": "战略适应对于能源系统的弹性至关重要。",
+            "description": "应对气候变化对能源系统影响的有效策略包括增强基础设施的韧性、多样化能源来源、提高能源效率以及采用去中心化的解决方案。 这些方法对于确保在气候引发的中断面前实现安全、可持续和适应性强的能源未来至关重要。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第2课：气候变化对能源系统的影响",
+        "cta": "继续学习",
+        "nextLessonId": "6.1.2"
+      }
+    }
+  ]
+}

@@ -5,27 +5,27 @@
       "template_id": "scored_quiz",
       "color_scheme": "dark",
       "content": {
-        "title": "Quiz pontuado <br/><strong>Módulo 3</strong>",
-        "intro": "Este questionário abrange todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
+        "title": "Questionário pontuado <br/><strong>Módulo 3</strong>",
+        "intro": "Este questionário cobre todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
         "final": true,
         "labels": {
           "correct": "Correto",
           "question": "Pergunta",
           "result": "Resultado do questionário",
           "score": "Sua pontuação",
-          "passingScore": "Pontuação mínima de aprovação",
-          "startButton": "Iniciar quiz",
+          "passingScore": "Pontuação mínima para passar",
+          "startButton": "Iniciar o questionário",
           "nextButton": "Próximo",
           "submitButton": "Enviar",
           "retryButton": "Repetir",
-          "passed": "Aprovado",
-          "failed": "Não aprovado"
+          "passed": "Passado",
+          "failed": "Não passado"
         },
         "passingScore": 0.8,
         "questions": [
           {
             "id": 1,
-            "prompt": "Qual é uma origem chave do conceito de uma transição energética justa?",
+            "prompt": "Qual é uma origem-chave do conceito de uma transição energética justa?",
             "multiple": false,
             "options": [
               {
@@ -34,11 +34,11 @@
               },
               {
                 "id": 2,
-                "value": "Uma rede de advocacy climática juvenil"
+                "value": "Uma rede de defesa do clima juvenil"
               },
               {
                 "id": 3,
-                "value": "Os sindicatos que defendem a proteção dos trabalhadores"
+                "value": "Sindicatos defendendo a proteção dos trabalhadores"
               },
               {
                 "id": 4,
@@ -51,34 +51,34 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "O termo se originou nos movimentos sindicais, enfatizando a proteção dos trabalhadores durante as reformas ambientais."
+                "body": "O termo originou-se nos movimentos sindicais, enfatizando a proteção dos trabalhadores durante as reformas ambientais."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "O termo se originou nos movimentos sindicais, enfatizando a proteção dos trabalhadores durante as reformas ambientais."
+                "body": "O termo originou-se nos movimentos sindicais, enfatizando a proteção dos trabalhadores durante as reformas ambientais."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "Qual princípio é central para alcançar uma transição justa em diversos contextos?",
+            "prompt": "Qual princípio é fundamental para alcançar uma transição justa em diversos contextos?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Padronização dos prazos de transição"
+                "value": "Padronização dos cronogramas de transição"
               },
               {
                 "id": 2,
-                "value": "Modelos de subsídios universais"
+                "value": "Modelos de subsídio universais"
               },
               {
                 "id": 3,
-                "value": "Adaptar estratégias às realidades locais"
+                "value": "Adaptando estratégias às realidades locais"
               },
               {
                 "id": 4,
-                "value": "Evitando a consulta comunitária"
+                "value": "Evitar a consulta comunitária"
               }
             ],
             "solution": [
@@ -97,7 +97,7 @@
           },
           {
             "id": 3,
-            "prompt": "O que a \"justiça energética\" enfatiza mais claramente?",
+            "prompt": "O que a « justiça energética » enfatiza mais claramente?",
             "multiple": false,
             "options": [
               {
@@ -106,7 +106,7 @@
               },
               {
                 "id": 2,
-                "value": "Distribuição equitativa dos benefícios e encargos energéticos"
+                "value": "Distribuição igualitária de benefícios e encargos energéticos"
               },
               {
                 "id": 3,
@@ -123,26 +123,26 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A justiça energética foca no acesso equitativo, na distribuição justa e na inclusão nas decisões energéticas."
+                "body": "A justiça energética concentra-se no acesso equitativo, na distribuição justa e na inclusão nas decisões energéticas."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A justiça energética foca no acesso equitativo, na distribuição justa e na inclusão nas decisões energéticas."
+                "body": "A justiça energética concentra-se no acesso equitativo, na distribuição justa e na inclusão nas decisões energéticas."
               }
             }
           },
           {
             "id": 4,
-            "prompt": "Qual das seguintes opções descreve melhor uma abordagem de justiça processual no planejamento energético?",
+            "prompt": "Qual dos seguintes descreve melhor uma abordagem de justiça processual no planejamento energético?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Avaliar apenas a viabilidade técnica"
+                "value": "Avaliando apenas a viabilidade técnica"
               },
               {
                 "id": 2,
-                "value": "Centralizando a tomada de decisões nos ministérios"
+                "value": "Centralização da tomada de decisão nos ministérios"
               },
               {
                 "id": 3,
@@ -150,7 +150,7 @@
               },
               {
                 "id": 4,
-                "value": "Incluir as partes interessadas em todas as fases do design do projeto"
+                "value": "Incluir as partes interessadas em todas as fases do projeto"
               }
             ],
             "solution": [
@@ -159,17 +159,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A justiça processual requer uma participação inclusiva e transparente em todas as fases do planejamento energético."
+                "body": "A justiça processual exige participação inclusiva e transparente em todas as fases do planejamento energético."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A justiça processual requer uma participação inclusiva e transparente em todas as fases do planejamento energético."
+                "body": "A justiça processual exige participação inclusiva e transparente em todas as fases do planejamento energético."
               }
             }
           },
           {
             "id": 5,
-            "prompt": "Que desafio pode surgir de uma mudança mal planejada dos combustíveis fósseis em regiões dependentes da extração?",
+            "prompt": "Que desafio pode surgir de uma mudança mal planejada para longe dos combustíveis fósseis em regiões dependentes da extração?",
             "multiple": false,
             "options": [
               {
@@ -205,7 +205,7 @@
           },
           {
             "id": 6,
-            "prompt": "Qual é uma barreira chave relacionada ao gênero para uma participação equitativa na transição energética?",
+            "prompt": "Qual é uma barreira relacionada ao gênero que impede a participação equitativa na transição energética?",
             "multiple": false,
             "options": [
               {
@@ -222,7 +222,7 @@
               },
               {
                 "id": 4,
-                "value": "Resistência dos sindicatos dominados por homens"
+                "value": "Resistência de sindicatos dominados por homens"
               }
             ],
             "solution": [
@@ -231,17 +231,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "As barreiras estruturais—como o acesso limitado a treinamento, financiamento e cargos de liderança—limitam a plena participação das mulheres no setor de energia."
+                "body": "Barreiras estruturais— como o acesso limitado ao treinamento, financiamento e cargos de liderança— limitam a participação plena das mulheres no setor de energia."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "As barreiras estruturais—como o acesso limitado a treinamento, financiamento e cargos de liderança—limitam a plena participação das mulheres no setor de energia."
+                "body": "Barreiras estruturais— como o acesso limitado ao treinamento, financiamento e cargos de liderança— limitam a participação plena das mulheres no setor de energia."
               }
             }
           },
           {
             "id": 7,
-            "prompt": "Por que a segurança da posse da terra é essencial na implantação de energias renováveis no Sul Global?",
+            "prompt": "Por que a segurança da posse de terra é essencial na implementação de energia renovável no Sul Global?",
             "multiple": false,
             "options": [
               {
@@ -250,15 +250,15 @@
               },
               {
                 "id": 2,
-                "value": "Garante aos investidores retornos mais altos"
+                "value": "Garante aos investidores retornos mais elevados"
               },
               {
                 "id": 3,
-                "value": "Previne o deslocamento, protege os direitos da comunidade e garante uma distribuição equitativa dos benefícios"
+                "value": "Previne o deslocamento, protege os direitos da comunidade e garante uma partilha equitativa dos benefícios"
               },
               {
                 "id": 4,
-                "value": "Permite que os governos contornem os requisitos de consulta"
+                "value": "Permite aos governos contornar os requisitos de consulta"
               }
             ],
             "solution": [
@@ -267,22 +267,22 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Direitos de terra seguros ajudam a prevenir o deslocamento, protegem os meios de subsistência e facilitam a participação justa nos benefícios da energia renovável."
+                "body": "Garantir direitos de terra ajuda a prevenir deslocamentos, proteger meios de subsistência e facilitar uma participação justa nos benefícios da energia renovável."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Direitos de terra seguros ajudam a prevenir o deslocamento, protegem os meios de subsistência e facilitam a participação justa nos benefícios da energia renovável."
+                "body": "Garantir direitos de terra ajuda a prevenir deslocamentos, proteger meios de subsistência e facilitar uma participação justa nos benefícios da energia renovável."
               }
             }
           },
           {
             "id": 8,
-            "prompt": "Qual é uma preocupação ambiental importante relacionada a projetos de hidrelétricas em grande escala?",
+            "prompt": "Qual é uma preocupação ambiental importante relacionada a projetos hidrelétricos de grande escala?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Altas emissões de turbinas"
+                "value": "Emissões elevadas de turbinas"
               },
               {
                 "id": 2,
@@ -303,22 +303,22 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A hidrelétrica em grande escala pode perturbar os ecossistemas fluviais e emitir metano da decomposição da biomassa nos reservatórios, especialmente em zonas tropicais."
+                "body": "A hidroeletricidade em grande escala pode perturbar os ecossistemas fluviais e emitir metano a partir da decomposição de biomassa em reservatórios, especialmente em zonas tropicais."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A hidrelétrica em grande escala pode perturbar os ecossistemas fluviais e emitir metano da decomposição da biomassa nos reservatórios, especialmente em zonas tropicais."
+                "body": "A hidroeletricidade em grande escala pode perturbar os ecossistemas fluviais e emitir metano a partir da decomposição de biomassa em reservatórios, especialmente em zonas tropicais."
               }
             }
           },
           {
             "id": 9,
-            "prompt": "Qual estratégia promove oportunidades econômicas equitativas nas transições energéticas?",
+            "prompt": "Qual estratégia promove oportunidades econômicas equitativas nas transições de energia?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Isenções fiscais para serviços públicos"
+                "value": "Isenções fiscais para utilidades"
               },
               {
                 "id": 2,
@@ -326,11 +326,11 @@
               },
               {
                 "id": 3,
-                "value": "Privatizando o acesso à energia"
+                "value": "Privatização do acesso à energia"
               },
               {
                 "id": 4,
-                "value": "Confiando apenas nos mercados de carbono"
+                "value": "Confiar apenas nos mercados de carbono"
               }
             ],
             "solution": [
@@ -339,17 +339,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "O desenvolvimento de habilidades e a requalificação permitem que trabalhadores e comunidades se beneficiem de novos setores de energia."
+                "body": "O desenvolvimento de habilidades e a requalificação permitem que trabalhadores e comunidades se beneficiem dos novos setores de energia."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "O desenvolvimento de habilidades e a requalificação permitem que trabalhadores e comunidades se beneficiem de novos setores de energia."
+                "body": "O desenvolvimento de habilidades e a requalificação permitem que trabalhadores e comunidades se beneficiem dos novos setores de energia."
               }
             }
           },
           {
             "id": 10,
-            "prompt": "Qual é o papel do Consentimento Livre, Prévio e Informado (CLPI) nas transições justas?",
+            "prompt": "Qual é o papel do Consentimento Livre, Prévio e Informado (FPIC) em transições justas?",
             "multiple": false,
             "options": [
               {
@@ -358,15 +358,15 @@
               },
               {
                 "id": 2,
-                "value": "Para contornar as aprovações governamentais"
+                "value": "Para contornar as aprovações do governo"
               },
               {
                 "id": 3,
-                "value": "Para garantir que as comunidades indígenas tenham poder de decisão sobre os projetos de energia"
+                "value": "Para garantir que as comunidades indígenas tenham poder de decisão sobre projetos de energia"
               },
               {
                 "id": 4,
-                "value": "Limitar o acesso aos recursos naturais"
+                "value": "Para limitar o acesso aos recursos naturais"
               }
             ],
             "solution": [
@@ -375,11 +375,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "O FPIC garante que os povos indígenas estejam envolvidos de maneira significativa nas decisões que afetam suas terras e vidas."
+                "body": "O FPIC garante que os povos indígenas estejam envolvidos de forma significativa nas decisões que afetam suas terras e vidas."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "O FPIC garante que os povos indígenas estejam envolvidos de maneira significativa nas decisões que afetam suas terras e vidas."
+                "body": "O FPIC garante que os povos indígenas estejam envolvidos de forma significativa nas decisões que afetam suas terras e vidas."
               }
             }
           }
@@ -391,11 +391,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module3.png",
           "caption": ""
         },
         "intro": "Próximo",
-        "title": "Módulo 3 Conclusão",
+        "title": "Encerramento do Módulo 3",
         "cta": "Continue aprendendo",
         "nextLessonId": "3.-1.-1"
       }

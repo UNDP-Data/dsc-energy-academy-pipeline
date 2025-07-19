@@ -6,20 +6,20 @@
       "color_scheme": "dark",
       "content": {
         "title": "Cuestionario calificado <br/><strong>Módulo 7</strong>",
-        "intro": "Este cuestionario cubre todas las lecciones de este módulo. Debes alcanzar el 80 % para aprobar. ¡Buena suerte!",
+        "intro": "Este cuestionario cubre todas las lecciones de este módulo. Debes lograr el 80 % para aprobar. ¡Buena suerte!",
         "final": true,
         "labels": {
           "correct": "Correcto",
           "question": "Pregunta",
           "result": "Resultado del cuestionario",
           "score": "Tu puntuación",
-          "passingScore": "Puntuación mínima aprobatoria",
-          "startButton": "Iniciar cuestionario",
+          "passingScore": "Puntuación mínima para aprobar",
+          "startButton": "Iniciar la prueba",
           "nextButton": "Siguiente",
           "submitButton": "Enviar",
           "retryButton": "Repetir",
           "passed": "Pasado",
-          "failed": "No aprobado"
+          "failed": "No pasado"
         },
         "passingScore": 0.8,
         "questions": [
@@ -30,7 +30,7 @@
             "options": [
               {
                 "id": 1,
-                "value": "Análisis Costo-Beneficio utilizando mapas de red nacional"
+                "value": "Análisis de costo-beneficio utilizando mapas de la red nacional"
               },
               {
                 "id": 2,
@@ -38,7 +38,7 @@
               },
               {
                 "id": 3,
-                "value": "Encuestas con equipos de censo nacional"
+                "value": "Encuestas con los equipos del censo nacional"
               },
               {
                 "id": 4,
@@ -51,17 +51,17 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "El aprendizaje automático supervisado entrenado con datos de acceso remoto y etiquetados puede estimar el estado de electrificación y priorizar intervenciones."
+                "body": "El aprendizaje automático supervisado entrenado en teledetección y datos de acceso etiquetados puede estimar el estado de electrificación y priorizar las intervenciones."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "El aprendizaje automático supervisado entrenado con datos de acceso remoto y etiquetados puede estimar el estado de electrificación y priorizar intervenciones."
+                "body": "El aprendizaje automático supervisado entrenado en teledetección y datos de acceso etiquetados puede estimar el estado de electrificación y priorizar las intervenciones."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "¿Cuál de las siguientes es una condición necesaria para utilizar los datos energéticos para apoyar el diseño de políticas transformadoras de género?",
+            "prompt": "¿Cuál de las siguientes es una condición necesaria para utilizar datos de energía para apoyar el diseño de políticas transformadoras de género?",
             "multiple": false,
             "options": [
               {
@@ -70,11 +70,11 @@
               },
               {
                 "id": 2,
-                "value": "Despliegue de contadores inteligentes en las capitales"
+                "value": "Implementación de medidores inteligentes en las capitales"
               },
               {
                 "id": 3,
-                "value": "Datos desagregados por género, ingresos y ubicación"
+                "value": "Datos desglosados por género, ingresos y ubicación"
               },
               {
                 "id": 4,
@@ -87,11 +87,11 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Solo los datos desagregados pueden revelar las desigualdades en el acceso a la energía y apoyar políticas específicas y con enfoque de género."
+                "body": "Solo los datos desglosados pueden revelar desigualdades en el acceso a la energía y apoyar políticas específicas y sensibles al género."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Solo los datos desagregados pueden revelar las desigualdades en el acceso a la energía y apoyar políticas específicas y con enfoque de género."
+                "body": "Solo los datos desglosados pueden revelar desigualdades en el acceso a la energía y apoyar políticas específicas y sensibles al género."
               }
             }
           },
@@ -114,7 +114,7 @@
               },
               {
                 "id": 4,
-                "value": "Carga de la pobreza de tiempo para las mujeres en hogares dependientes de combustibles de madera"
+                "value": "Carga de la pobreza temporal para las mujeres en hogares dependientes de combustibles de madera"
               }
             ],
             "solution": [
@@ -123,11 +123,11 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "La pobreza de tiempo revela las cargas estructurales que enfrentan las mujeres y es crítica para la planificación energética interseccional."
+                "body": "La pobreza de tiempo revela las cargas estructurales que enfrentan las mujeres y es fundamental para la planificación energética interseccional."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "La pobreza de tiempo revela las cargas estructurales que enfrentan las mujeres y es crítica para la planificación energética interseccional."
+                "body": "La pobreza de tiempo revela las cargas estructurales que enfrentan las mujeres y es fundamental para la planificación energética interseccional."
               }
             }
           },
@@ -159,17 +159,17 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Usar datos personales sin salvaguardias infringe la ética profesional y socava la confianza."
+                "body": "El uso de datos personales sin medidas de seguridad viola la ética profesional y socava la confianza."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Usar datos personales sin salvaguardias infringe la ética profesional y socava la confianza."
+                "body": "El uso de datos personales sin medidas de seguridad viola la ética profesional y socava la confianza."
               }
             }
           },
           {
             "id": 5,
-            "prompt": "Un gobierno quiere usar aprendizaje automático para dirigir los subsidios de electricidad. ¿Cuál es un riesgo ético clave si los datos de entrenamiento provienen únicamente de consumidores urbanos?",
+            "prompt": "Un gobierno quiere usar aprendizaje automático para dirigir los subsidios de electricidad. ¿Cuál es un riesgo ético clave si los datos de entrenamiento se obtienen únicamente de consumidores urbanos?",
             "multiple": false,
             "options": [
               {
@@ -182,7 +182,7 @@
               },
               {
                 "id": 3,
-                "value": "Sesgo algorítmico que refuerza la exclusión de hogares rurales e informales"
+                "value": "Sesgo algorítmico que refuerza la exclusión de los hogares rurales e informales"
               },
               {
                 "id": 4,
@@ -231,17 +231,17 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Los modelos prescriptivos traducen las predicciones en caminos de decisión concretos para los planificadores."
+                "body": "Los modelos prescriptivos traducen las predicciones en <strong>caminos de decisión concretos</strong> para los planificadores."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Los modelos prescriptivos traducen las predicciones en caminos de decisión concretos para los planificadores."
+                "body": "Los modelos prescriptivos traducen las predicciones en <strong>caminos de decisión concretos</strong> para los planificadores."
               }
             }
           },
           {
             "id": 7,
-            "prompt": "En contextos donde la monitorización en tiempo real es esencial (por ejemplo para redes solares distribuidas), ¿qué arquitectura es la más efectiva para reducir la latencia y la dependencia de los servidores centrales?",
+            "prompt": "En contextos donde la monitorización en tiempo real es esencial (por ejemplo para redes solares distribuidas), ¿qué arquitectura es más efectiva para reducir la latencia y la dependencia de los servidores centrales?",
             "multiple": false,
             "options": [
               {
@@ -250,7 +250,7 @@
               },
               {
                 "id": 2,
-                "value": "Libros de registro manuales actualizados mensualmente"
+                "value": "Cuadernos de registro manuales actualizados mensualmente"
               },
               {
                 "id": 3,
@@ -258,7 +258,7 @@
               },
               {
                 "id": 4,
-                "value": "Auditorías sociales utilizando paneles de control comunitarios"
+                "value": "Auditorías sociales utilizando paneles comunitarios"
               }
             ],
             "solution": [
@@ -267,11 +267,11 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "La computación en el borde permite el procesamiento local en tiempo real, crítico para los sistemas energéticos adaptativos."
+                "body": "La computación en el borde permite un procesamiento en tiempo real y local, crucial para los sistemas energéticos adaptativos."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "La computación en el borde permite el procesamiento local en tiempo real, crítico para los sistemas energéticos adaptativos."
+                "body": "La computación en el borde permite un procesamiento en tiempo real y local, crucial para los sistemas energéticos adaptativos."
               }
             }
           },
@@ -303,11 +303,11 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Los modelos OSeMOSYS analizan caminos tecnoeconómicos bajo restricciones y ayudan a probar los impactos de las políticas."
+                "body": "Los modelos de OSeMOSYS analizan las rutas tecnoeconómicas bajo restricciones y ayudan a probar los impactos de las políticas."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Los modelos OSeMOSYS analizan caminos tecnoeconómicos bajo restricciones y ayudan a probar los impactos de las políticas."
+                "body": "Los modelos de OSeMOSYS analizan las rutas tecnoeconómicas bajo restricciones y ayudan a probar los impactos de las políticas."
               }
             }
           },
@@ -326,11 +326,11 @@
               },
               {
                 "id": 3,
-                "value": "Proporciona un espacio seguro para probar la innovación basada en datos en condiciones monitoreadas"
+                "value": "Proporciona un espacio seguro para probar la innovación basada en datos en condiciones controladas"
               },
               {
                 "id": 4,
-                "value": "El evita las reglas de contratación pública"
+                "value": "Elude las reglas de contratación pública"
               }
             ],
             "solution": [
@@ -339,11 +339,11 @@
             "messages": {
               "correct": {
                 "title": "Correcto",
-                "body": "Los entornos de prueba permiten a los reguladores y a los innovadores co-diseñar y probar nuevas soluciones de datos energéticos antes de su implementación completa."
+                "body": "Los entornos de prueba permiten a reguladores e innovadores co-diseñar y probar nuevas soluciones de datos energéticos antes de su implementación completa."
               },
               "wrong": {
                 "title": "Incorrecto",
-                "body": "Los entornos de prueba permiten a los reguladores y a los innovadores co-diseñar y probar nuevas soluciones de datos energéticos antes de su implementación completa."
+                "body": "Los entornos de prueba permiten a reguladores e innovadores co-diseñar y probar nuevas soluciones de datos energéticos antes de su implementación completa."
               }
             }
           }
@@ -355,11 +355,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module7.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.png",
           "caption": ""
         },
-        "intro": "Próximamente",
-        "title": "Módulo 7 Conclusión",
+        "intro": "A continuación",
+        "title": "Outro del Módulo 7",
         "cta": "Continúa aprendiendo",
         "nextLessonId": "7.-1.-1"
       }

@@ -1,0 +1,336 @@
+{
+  "id": "7.3.3",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_7.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "3"
+        },
+        "title": "能源数据中的应用机器学习",
+        "cta": "",
+        "intro": "M1：可持续能源系统转型导论"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第3课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "本节介绍了机器学习（ML）在能源政策中的作用，重点是结构化数据、监督学习和无监督学习，以及伦理考虑。 它解释了机器学习模型如何使用带标签的数据和测试/训练划分进行训练，以及这些模型如何支持基于证据的政策制定，涉及能源获取、消费预测和环境影响等领域。<br />课程从基础的机器学习概念转向具体应用，例如使用随机森林进行<ai prompt=\"Share details about solar energy.\">太阳能预测💬️</ai>和工业排放的聚类分析。 它通过探讨公共政策中机器学习的局限性和伦理问题，包括数据偏差、透明度、隐私和可解释性，并强调最佳实践，如隐私设计、可解释的人工智能和监管沙箱，来进行总结。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_6.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "A：用于数据驱动政策的机器学习"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>机器学习</strong>",
+              "body": "机器学习，按照Google为开发者的常见定义，意味着「<strong>是训练一个软件（称为模型）以进行有用的预测或生成内容（如文本、图像、音频或视频文件）从数据中。</strong>」 更具体地说，能够生成文本、图像、音频或视频的模型通常被称为生成式人工智能模型，或称为Gen-AI模型。 传统/常规的机器学习模型试图预测感兴趣变量的值（称为回归过程），或根据数据中的属性（称为特征）预测某个类别的归属（称为分类过程）。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>数据类型</strong>",
+              "body": "机器学习模型通常在数据上进行训练。 此类模型训练所用的数据格式主要分为两大类；结构化数据，指的是已组织、可以过滤和排序的数据，以及非结构化数据，如图像、文本、音频文件。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>监督学习</strong>",
+              "body": "监督学习模型试图理解预测变量与感兴趣变量之间的关系，即要预测的结果。 在训练机器学习模型时，可用数据被细分为训练集（通过预测误差估计模型参数）和测试集，模型在未见过的数据上进行评估。 这被称为训练/测试拆分。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>标记的数据集</strong>",
+              "body": "对于分类任务，其中观察值根据特定属性被放置在类别/分类中，具有实际分类的数据集根据其实际类别归类。 这种集合被称为标记集，可以是结构化的、非结构化的，必须划分为训练集和测试集。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>偏差-方差权衡</strong>",
+              "body": "在训练机器学习模型时，使用训练和测试数据，数据科学家确保模型不过于复杂，也不过于贴合数据（称为过拟合），并且模型不应过于简化以至于持续错误预测感兴趣的变量（称为欠拟合），模型中的这种平衡遵循一个称为偏差-方差权衡的原则。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>可能的应用</strong>",
+              "body": "查看了技术规格后，潜在的政策应用是无限的！ 机器学习在能源政策中的突出应用包括预测可再生能源项目的能源输出（插入示例？），通过卫星成像检测没有电力供应的家庭，"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_7.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "B：能源的监督学习和无监督学习"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>基于树的算法</strong>",
+              "body": "监督学习算法的一个常见例子是基于树的算法，如分类树（也称为决策树）和回归树。 基于树的算法通过将特征划分为区域并对特征空间的区域进行预测，如下图所示。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>基于树的能量算法</strong>",
+              "body": "在能源政策领域，决策树和回归树已被用来制定基于证据的政策。 其中一个场景是在肯尼亚，通过考虑中压线路、低压线路、配电容量、变电站容量以及总消费者数量，研究人员能够估算项目的成本。 下面提供了回归树的简化视觉效果。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>随机森林</strong>",
+              "body": "然而，分类和回归树的一个常见问题是过拟合，一种简单的解决方案是估算多棵树并平均它们的预测，这种方法称为随机森林，是一种优雅且对过拟合具有鲁棒性的方法，下面提供了一个进一步的视觉辅助："
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>随机森林用于能源消耗</strong>",
+              "body": "通过使用随机森林算法，Ahmad、Reynolds 和 Rezgui (2018) 能够预测法国尚贝里一座太阳能热能发电厂的每小时有用太阳能热能。 利用太阳辐射、环境温度、太阳能热电站的入口和出口流体温度、传热流体的流量，以及与时间相关的变量，进行预测。 在预测可再生能源项目中对现代机器学习技术的投资和兴趣增加，有助于实现有效的规划、增强电网稳定性以及更明智地实现可再生能源在能源结构中的可持续整合。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>学术界的机器学习</strong>",
+              "body": "因此，使用机器学习模型进行能源消耗预测引起了科学界的关注，一些研究人员将其与经典的计量经济模型（Nie et al., 2021）结合使用，或作为纯统计模型的替代方案（Tso et al., 2007）。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_6.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "C：监督学习应用"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>主成分分析和K-means聚类</strong>",
+              "body": "如前所述，无监督学习试图理解这些数据的潜在结构，而不是试图预测结果。 这种理解已在现代能源政策制定中找到了一席之地。 在文献中出现的两种主流无监督机器学习算法是 k-means 聚类和主成分分析算法。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>无监督学习应用</strong>",
+              "body": "机器学习模型在估算和分类具有非正式能源接入的家庭方面也得到了更广泛的应用。 非正式的能源获取是指不来自国家电网的能源，非正式的能源获取包括生物质、家庭发电机、非监管的太阳能等来源。 这种能源获取通常更昂贵且不太可靠。 能够估算和分类具有非正式接入的家庭在帮助政府更好地针对通过电气化项目发展不足的地区、提供每美元更好的回报以及为政策制定者提供关于哪些社区可能面临困难的清晰图景方面发挥了重要作用。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Clustering for Energy</strong>",
+              "body": "聚类旨在通过最小化每个簇成员到簇中心的距离的平方和，将观察值分成多个组 - 或簇 -。 这允许分析师根据它们的特征对观察进行分组。 在能源政策方面，刘等人（2018）研究了在上交所和深交所上市的15129家公司。 通过分析水和煤的消耗量，既在行业之间也在行业内部，并将它们归类为高、低和中等使用量的公司，刘等。 能够 pinpoint 高度污染的领域，例如化学品生产、热能和电力生产，而与之相反的是纺织工业和有色金属等低排放源。 此类研究使政策制定者能够对行业进行基准测试，从而实现更好的长期规划。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>PCA</strong>",
+              "body": "<strong>主成分分析</strong>，另一方面，专注于降维，因此用一个较小、更具代表性的空间来表示高维空间（或大量特征）。 在能源领域，这可以通过减小数据集的大小，从而降低计算成本和计算负载。 此外，主成分分析（PCA）允许在二维或三维空间中可视化复杂的动态，<br>同时保持重要的结构。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>能源的主成分分析</strong>",
+              "body": "<strong>主成分分析</strong>，也可以用来根据数据分配权重，而不是在指数中使用主观权重，提供一种更客观的评估方法。 一个简单的案例来自Al Albsahi等人。 al 在能源三难指数上的工作，该指数使用13个与能源安全、能源公平和环境可持续性相关的指标，根据它们对国家进行排名。 尽管由专家提供，但赋予能源安全、能源公平和环境可持续性部分的权重仍然具有主观性。 通过将主成分分析（PCA）应用于13个指标，形成一个指数，这些研究人员能够找到最能解释数据的权重分配。 因此，他们得出与传统ETI评估不同的结论，将挪威列为其修订指数中的顶级国家，而非瑞士。 这在能源政策方面具有诸多影响，逐渐从主观评估转向更基于证据的估算。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_5.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "D：能源机器学习的限制与伦理"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>介绍</strong>",
+              "body": "虽然在能源政策制定和能源数据方面使用机器学习总体上惠及了更广泛的社区，同时也实现了更好的监控和更高效的管理，但在涉及受影响人群、他们的隐私权以及在政策背景下使用人工智能的影响时，出现了一些关键的伦理问题。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>数据代表性<br /></strong>",
+              "body": "政策中的机器学习的一个关键问题是数据的代表性，从某种意义上说，它在多大程度上推广到更广泛的背景中。 一个直观的例子是一个在富裕地区的历史数据上训练的机器学习算法。 这个场景基于各种场景提出了几个问题。 例如，在定价方面，基于富裕地区数据训练的机器学习算法可能无法很好地推广到较差地区。 这主要基于一个基本的认识，即能源贫困地区和拥有能源的地区在使用模式上有根本的不同。 一种简单的可视化方式是在智能设备的使用中。 虽然富裕家庭可能可以使用减少高峰时段用电的技术，但较贫困的家庭可能无法获得此类设备，并通过支付高峰价格来承受压力，从而加剧了获得负担得起的能源的不平等。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>隐私、可解释性和伦理机器学习</strong>",
+              "body": "在将机器学习应用于能源政策时，额外的伦理问题包括所收集信息的敏感性以及其使用方式。 一种简单的理解方式是，当涉及到智能电表时，取决于收集数据的粒度，它可能泄露个人模式，例如何时在家，何时进行各种活动。 此外，当从个人收集数据并用于训练他们无法理解的算法时，会引发伦理问题，例如神经网络的内部工作原理。 这些概念促使了设计伦理（EbD）、隐私设计（PbD）和可解释人工智能（XAI）等领域的发展。 PbD结合了内置的隐私保护措施，<br>而不影响功能性，例如匿名化和收集最少的数据。 EdB 将知情同意、数据所有权和包容性原则融入其设计理念中。 最后，XAI 允许公民了解哪些变量对模型预测的影响最大，即使模型很复杂，一个例子是包含 SHAP（Shapley 加法解释）指标，它展示了特定特征对预测的贡献。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>未来的努力</strong>",
+              "body": "在数据隐私政策方面的持续全球努力，规范跨境数据流，以及全球统一数据访问程序的努力，为在旨在改善能源公平访问的应用中实现更公平的数据使用铺平了道路。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_13.png",
+              "caption": ""
+            },
+            "title": "ML通过预测和模式识别实现更智能的能源规划",
+            "description": "监督学习方法如决策树和随机森林在预测能源生产或估算基础设施成本方面效果显著。 无监督技术如聚类和主成分分析（PCA）有助于识别隐藏的模式，例如非正式的能源获取或工业污染特征，为政策制定者提供更深入的见解以进行有针对性的干预。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_7.png",
+              "caption": ""
+            },
+            "title": "无监督机器学习支持循证政策和指标构建",
+            "description": "像PCA这样的技术可以通过基于数据而非专家假设分配权重，减少与能源相关指标的复杂性和偏差。 这使得对能源安全、平等和可持续性的评估更加客观——为政策制定者提供了衡量进展和规划改革的新途径。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_13.png",
+              "caption": ""
+            },
+            "title": "<p>在将机器学习应用于公共政策时，伦理和治理保障措施是必不可少的</p>",
+            "description": "虽然机器学习可以提高效率和洞察力，但必须积极管理与数据隐私、偏见和透明度相关的风险。 诸如设计伦理、隐私设计和可解释的人工智能（例如，SHAP值）的方法对于确保机器学习系统具有责任感、包容性和公平性至关重要——尤其是在公共服务交付中使用时。"
+          }
+        ]
+      }
+    }
+  ]
+}

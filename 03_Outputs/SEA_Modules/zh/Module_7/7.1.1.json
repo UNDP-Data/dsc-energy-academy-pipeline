@@ -1,0 +1,993 @@
+{
+  "id": "7.1.1",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L4_2.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "1"
+        },
+        "title": "能源数据介绍",
+        "cta": "",
+        "intro": "M7：可持续能源数据"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第1课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数据在影响整个能源行业的循证决策中至关重要。 识别现有情况与理想愿景之间的差距（无论是当前还是未来），这是政策制定中的一个关键阶段，需要数据。 例如，数据对于提供当前条件的信息、揭示需要改进的领域以及提供可行的见解是必要的。 没有有力的数据支持的充分理由，政策可能会被错误地执行，负面影响人们。 能源部门政策制定中数据的作用至关重要。<br />本课程分析了能源数据的关键特性——如准确性、可靠性和时效性——以及它们为何对做出更好的决策至关重要。 它还关注数据如何融入政策制定过程，从发现问题和设定目标到跟踪进展和检查结果。 通过实际案例和案例研究，我们将看到数据如何帮助塑造适合每个人的能源政策。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_16.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "A：在可持续能源中可靠、最新和准确数据的重要性"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数据在提高政府透明度和促进公众参与<ai prompt=\"能源治理是什么？\">能源治理 💬️</ai>方面发挥着关键作用。 通过使中央政府（例如能源部）、电网运营商、能源分销公司和发电公司能够共享实时信息——如能源供应、需求和基础设施性能——政府可以赋予广泛的利益相关者，包括非政府组织、研究机构和地方社区，识别能源系统中被忽视的挑战并共同制定可行的建议。 这种合作方法加强了问责制，弥合了政策制定者与前线行动者之间的差距，并拓宽了决策中包含的视角。<br /> <br />能源生产、消费、贸易和分配的历史趋势为战略规划提供了坚实的基础。 分析这些模式有助于决策者预测未来的挑战和机遇，同时开发模型以模拟各种情景。 这些模拟可以结合技术进步、政策变化、消费者行为的变化以及自然或人为灾害的影响，提供对潜在结果的宝贵见解和基于证据的策略支持。<br /> <br />此外，数据对于评估能源政策的影响和跟踪实现关键目标的进展至关重要。 通过使用数据驱动的建模，决策者可以在实施之前评估政策选项的潜在影响，减少风险并改善结果。 对与能源相关的倡议进行持续监测和评估，确保政策随着时间的推移保持有效，允许必要的调整，并使进展与长期目标保持一致。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "可靠、准确和及时的数据对于制定基于证据的能源政策以推动可持续发展至关重要。 没有高质量的数据，政策决策可能会被误导，导致无效的解决方案或意想不到的后果。<br /><br />根据 <a href=\"https://unstats.un.org/unsd/energystats/methodology/documents/IRES-web.pdf\"><u>国际能源统计建议（联合国，2018）</u></a>，数据必须满足五个关键的质量维度，以有效支持合理的决策，正如下一页所介绍的。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数据质量的5个维度：</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>相关性</strong>",
+              "body": "统计信息的相关性反映了信息满足或满足用户当前或新兴需求的程度。 相关数据直接适用于所提出的问题和所做的决策。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>准确性和可靠性</strong>",
+              "body": "数据的准确性反映了信息正确估计或描述其设计用以测量的现象的程度，即估计值与真实值的接近程度，误差最小。 可靠性是准确性的一个方面。 它关系到统计数据是否在一段时间内持续衡量它们旨在代表的现实。 为了确保数据的准确性和可靠性，需要通过多个来源进行交叉验证，利用可信的基准进行验证，并进行定期的数据审计。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>准时性和守时</strong>",
+              "body": "信息的及时性是指从相关的参考期结束到更新信息向用户提供的时间长度。 守时是指数据是否在承诺、宣传或宣布的日期交付（例如，在官方发布日历中）。 监测数据收集周期，通过数字平台确保实时数据访问，并定期更新数据集，有助于提高及时性和准时性。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>连贯性和可比性</strong>",
+              "body": "能源统计的连贯性反映了数据在逻辑上的关联程度和相互一致性；也就是说，它们能够在较广泛的分析框架内与其他统计信息成功结合的程度。 可比性是衡量在比较地理区域或随时间变化时，应用的统计概念、测量工具和程序的差异影响的指标。 标准化数据收集方法，保持对数据来源和流程的清晰文档，并定期检查差异，有助于提高数据的一致性和可比性。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>无障碍性和清晰度</strong>",
+              "body": "信息的可访问性是指用户能够轻松了解其存在、定位并将其导入到自己的工作环境中的程度。 清晰度是指在需要全面理解统计数据的情况下，是否提供了易于理解的元数据。<br />来源：国际能源统计建议（联合国，2018）"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>确保数据质量涉及系统评估和稳健的管理实践。 三种广泛认可的方法包括：</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>自我评估</strong>",
+              "body": "内部审查，组织将其流程与既定框架进行基准比较，以识别优势和改进领域。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>质量审计 / 外部审计</strong>",
+              "body": "由独立第三方进行的正式评估，以验证是否符合特定的质量标准（例如，数据完整性、统计流程）。 这些审计遵循结构化的检查表和严格的协议，确保符合监管或行业特定的要求。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>同行评审</strong>",
+              "body": "由外部专家进行的非正式评估，提供关于方法和流程的宝贵见解，处于更高层次，而不是逐项检查详细清单中的符合性。 因此，它们通常比正式的外部审计结构更少。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_13.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "为了进一步提高数据质量，组织可以采用标准化框架，例如<strong> </strong><a href=\"https://unstats.un.org/unsd/methodology/dataquality/\"><strong><u>联合国国家质量保证框架（NQAF）</u></strong></a><strong>，</strong>它支持对可持续发展目标的严格数据收集和报告。 对国家统计机构的投资，包括充足的资金和员工培训，也对维护可靠和适应性强的数据系统至关重要<strong>。<br /><br /></strong>将质量保证实践融入能源数据管理，强化政策规划、监测和评估的基础。 通过关注相关性、准确性、时效性、一致性和可及性等关键维度，组织可以确保能源数据有效支持基于证据的决策制定并促进可持续能源转型。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_5.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "可靠、准确和及时的数据对于制定有效应对可持续性挑战的能源政策至关重要。<strong> 高质量的数据通过提供分析复杂系统、评估权衡和设计有针对性的干预措施所需的证据，支持明智的决策。 </strong>通过将能源数据与环境、经济和社会维度相结合，政策制定者可以制定符合本地优先事项和更广泛可持续发展目标的策略。<br /> <br /><strong>细分数据 </strong>通过揭示在汇总统计中可能被掩盖的不平等现象，增加了额外的价值。 <strong>例如，通过性别、地理区域或收入水平分析能源获取，有助于识别边缘群体面临的具体障碍。</strong> 这种细粒度确保政策不仅在技术上合理，而且具有社会包容性，能够解决系统性不平等，同时推动更广泛的发展目标。<br /><br /><strong>在将地方背景与全球框架（如可持续发展目标）联系起来时，数据充当高层目标与可行策略之间的桥梁。</strong> 通过提供关于本地条件和挑战的见解，能源数据使全球目标能够转化为实际的、具有情境敏感性的措施。 这种对齐方式增强了能源政策在不同环境中的相关性和影响力。</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "先进的数据工具和技术进一步扩大了能源治理的可能性。 建模平台和情景分析依赖于精确的数据集，以模拟潜在结果、评估风险并探索政策选择的影响。 这些工具不仅提供决策信息，还提供测试替代方法的手段，从而减少不确定性并改善政策结果。<br /> <br />透明度和可及性在确保数据推动有意义的行动方面同样重要。 [needs translation] <strong>Open data systems allow for greater collaboration among stakeholders, while clear and standardized methodologies promote consistency and reliability in analysis.</strong> When stakeholders have access to robust and credible data, they are better positioned to coordinate efforts, build trust, and achieve shared objectives.<br /><br />Investing in the quality and accessibility of energy data is not merely an administrative necessity but a strategic imperative.<br /><br /><strong>Accurate, coherent, and actionable data support the development of adaptive policies that address present challenges while anticipating future shifts.<br /></strong><br />By prioritizing inclusivity, relevance, and precision in data strategies, energy systems can better respond to the diverse and evolving needs of communities, ultimately fostering equitable and sustainable transitions."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_10.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "B：政策周期与数据在决策中的作用"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源数据在政策周期的每个阶段都起着关键作用，这是一个旨在规划、监测和评估政策决策的迭代过程。<br /><br />如图所示，政策周期是以结果为导向管理的核心，确保决策具有信息性、适应性和包容性。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_1187.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>在规划阶段，</strong>",
+              "body": "政策制定者可以利用数据了解情况并设定预期的结果。 数据可以帮助全面了解问题，识别直接和根本原因、理解中的差距以及可能改进的领域。 此外，数据可以提供在其他地方实施的成功成果的证据，因此政策制定者有一个基准，可以衡量他们自己的成功或挑战。 数据可以支持复杂交互和系统的建模，并允许分析模拟不同政策策略的场景，通过量化成本、风险和收益。 此类分析可以最小化成本，最大化收益，并优化干预措施的效果。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>在监测阶段，</strong>",
+              "body": "数据对于跟踪进展、分析趋势以及评估当前努力与预定义目标的符合程度至关重要。 他们还帮助识别影响政策结果的时间因素，无论是作为促进者还是障碍。 此外，使数据透明且易于获取促进公众参与，使利益相关者能够提供宝贵的反馈并追究政府在政策实施中的责任<strong>。<br /></strong>",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>在评估阶段，</strong>",
+              "body": "数据对于评估政策的有效性和为未来改进提供经验教训至关重要。 通过识别哪些措施取得成功以及需要调整的地方，政府可以确保能源部门的持续学习和适应。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数据在政策周期的每个阶段的整合凸显了其变革潜力。 为了说明数据如何能为复杂的决策过程提供信息，以下案例研究考察了智利在能源部门利用先进的方法实现<ai prompt=\"Tell me more about carbon neutrality.\">碳中和 💬️</ai>的努力。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "case_study_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_14.png",
+          "caption": ""
+        },
+        "intro": "拉丁美洲和加勒比地区",
+        "title": "案例研究：智利",
+        "subtitle": ""
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "智利设定了一个雄心勃勃的国家目标，旨在到2050年实现碳中和。 该目标植根于其2021年《长期气候战略》（LTS），该文件概述了全经济范围内的减缓和适应行动，能源部门被确定为实现减排的核心 <a href=\"https://unfccc.int/sites/default/files/resource/CHL_LTS_2021_EN_0.pdf\"><u>(UNFCCC, 2021)</u></a>。 提交给联合国气候变化框架公约（UNFCCC）的长期战略（LTS）强调了智利在实现更清洁、更包容和更具成本效益的能源转型方面的愿景，该转型由逐步淘汰煤炭和快速扩大可再生能源发电源驱动。<br /> <br />认识到强有力的数据对于指导投资决策和政策排序至关重要，能源部致力于对实现这一目标所需的财务需求进行基于证据的评估。 在2023年，部长与联合国开发计划署合作，制作了一份题为《智利能源部门碳中和的成本与财务需求评估》的全面评估报告 <a href=\"https://www.undp.org/es/chile/publicaciones/evaluacion-de-costos-y-requerimientos-financieros-de-la-carbono-neutralidad-en-el-sector-energetico-chileno\"><u>(联合国开发计划署，2023a)</u></a>。<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>数据驱动的投资建模</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "该评估于2023年发布，旨在量化到本世纪中叶实现智利能源部门碳中和所需的累计投资。 [needs translation] Using the TIMES model, an internationally recognized energy systems model, the study analyzed the costs associated with multiple <ai prompt=\"Tell me more about decarbonization.\">decarbonization 💬️</ai> pathways, each defined by varying levels of ambition and technological deployment <a href=\"https://www.undp.org/es/chile/publicaciones/evaluacion-de-costos-y-requerimientos-financieros-de-la-carbono-neutralidad-en-el-sector-energetico-chileno\"><u>(UNDP, 2023a)</u></a>.<br /> <br />The results showed that Chile will need an estimated USD 163 billion in cumulative investments between 2020 and 2050 <a href=\"https://www.undp.org/es/chile/publicaciones/evaluacion-de-costos-y-requerimientos-financieros-de-la-carbono-neutralidad-en-el-sector-energetico-chileno\"><u>(UNDP, 2023a, pp. 7, 9)</u></a>. 值得注意的是，评估显示最具雄心的脱碳路径将带来累计节省美元2760亿美元，与常规业务场景相比 <a href=\"https://www.undp.org/es/chile/publicaciones/evaluacion-de-costos-y-requerimientos-financieros-de-la-carbono-neutralidad-en-el-sector-energetico-chileno\"><u>(UNDP, 2023a, p.</u></a> 6)</u></a>.<br /> <br />分析强调了在规划和融资转型中高质量、透明和最新数据的重要性。 评估过程本身基于数据质量保证机制，包括同行评审、利益相关者咨询和内部一致性检查 <a href=\"https://www.undp.org/es/chile/publicaciones/evaluacion-de-costos-y-requerimientos-financieros-de-la-carbono-neutralidad-en-el-sector-energetico-chileno\"><u>(UNDP, 2023a)</u></a>。 这些做法有助于确保结果既可靠又可操作，符合智利在政策周期的所有阶段：规划、监测和评估中嵌入数据的更广泛承诺。<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>财务要求和工具</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "根据评估的见解，智利加大了通过多渠道筹集资金的努力。 国家公共投资、多边融资和私人资本都被认为对实现1630亿美元目标至关重要<a href=\"https://www.undp.org/es/chile/publicaciones/evaluacion-de-costos-y-requerimientos-financieros-de-la-carbono-neutralidad-en-el-sector-energetico-chileno\"><u>(UNDP, 2023a)</u></a>。<br /> <br />智利的融资策略包括扩大绿色财政工具，包括碳定价和绿色债券，以及促进<ai prompt=\"提供更多关于公私合作伙伴关系的信息。\">公私合作伙伴关系 💬️</ai>。 2017年引入的碳税已被划拨用于扩大覆盖范围，涵盖额外的行业，并为脱碳提供长期激励（<a href=\"https://ndcpartnership.org/knowledge-portal/good-practice-database/chiles-carbon-tax-ambitious-step-towards-environmentally-friendly-policies-and?utm_source=chatgpt.com\"><u>NDC合作伙伴，无日期</u></a>）。 这些努力通过制定国家绿色分类体系来补充，以引导投资流向低碳和气候韧性资产 <a href=\"https://www.climatebonds.net/news-events/blog/taxonomy-roadmap-chile\"><u>(Climate Bonds, 2021)</u></a>。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_8.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>治理、包容与公正转型<br /></strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "智利实现碳中和的路径也优先考虑了公平和领土包容性。 认识到与煤炭退出相关的社会经济风险，长期战略（LTS）包括一个社会支柱，要求包括性别平等、公平过渡和积极参与 <a href=\"https://unfccc.int/sites/default/files/resource/CHL_LTS_2021_EN_0.pdf\"><u>(UNFCCC，2021，第 43)</u></a>. 这些要求将通过再培训计划和<ai prompt=\"提供有关社会保障的更多信息。\">社会保障 💬️</ai>政策实现。<br /> <br />利益相关者的参与是LTS和2023成本评估的一个组成部分。 能源部组织了参与式建模研讨会，以整合民间社会、学术界和私营部门的观点。 [needs translation] This inclusive process not only improved the accuracy of the modeling assumptions but also strengthened the legitimacy and political feasibility of the resulting policies <a href=\"https://www.undp.org/es/chile/publicaciones/evaluacion-de-costos-y-requerimientos-financieros-de-la-carbono-neutralidad-en-el-sector-energetico-chileno\"><u>(UNDP, 2023a;</u></a> <a href=\"https://blogs.iadb.org/sostenibilidad/en/chile-shows-that-multi-stakeholder-participation-is-key-to-designing-long-term-decarbonization-strategies/\"><u>Inter-American Development Bank, 2020).<br /></u></a><br />Chile’s experience demonstrates the critical role of data in advancing sustainable energy policies. 其气候战略的连续发展——始于2021年的明确长期愿景，随后在2023年进行严格的财务评估——突显了数据如何支撑能源政策周期的每个阶段。 规划、监测和评估都由可靠、相关且透明的数据集支持，从而实现更准确的情景建模和政策目标与财务能力之间更实质的协调。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>智利碳中和努力的主要收获包括：</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "理解早期采用强大建模框架（TIMES）以模拟长期能源场景的价值。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "使用混合融资策略以吸引公共和私人投资，同时管理风险。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "数据质量控制的整合——如审计和同行评审——以确保数据集之间的一致性、可访问性和可比性。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "制度化的利益相关者参与机制，以确保公正和包容的转型。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "智利的旅程为其他寻求实现碳中和的新兴经济体提供了一个令人信服的模型。 它说明了基于证据的规划和及时投资如何不仅带来环境利益，还能实现长期的经济节省、能源安全和改善社会公平。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>参考资料</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "联合国开发计划署 (2023a). <a href=\"https://www.undp.org/es/chile/publicaciones/evaluacion-de-costos-y-requerimientos-financieros-de-la-carbono-neutralidad-en-el-sector-energetico-chileno\"><u>智利能源部门碳中和的成本评估与财务需求</u></a>。 <br /> <br />联合国开发计划署。 (2023b). <a href=\"https://climatepromise.undp.org/news-and-stories/how-countries-latin-america-and-caribbean-are-financing-their-climate-goals\"><u>拉丁美洲和加勒比国家如何为其气候目标融资</u></a>。 <br /> <br />UNFCCC. (2021). <a href=\"https://unfccc.int/sites/default/files/resource/CHL_LTS_2021_EN_0.pdf\"><u>智利长期气候战略（LTS）</u></a>.<br /> <br />气候债券倡议。 (2021). <a href=\"https://www.climatebonds.net/news-events/blog/taxonomy-roadmap-chile\"><u>智利分类路线图</u></a>.<br /> <br />NDC合作伙伴关系。 (n.d.). <a href=\"https://ndcpartnership.org/knowledge-portal/good-practice-database/chiles-carbon-tax-ambitious-step-towards-environmentally-friendly-policies-and\"><u>智利的碳税：迈向环保政策和显著减少温室气体排放的雄心步伐</u></a>。 <br /> <br />美洲开发银行（2020年）。 <a href=\"https://blogs.iadb.org/sostenibilidad/en/chile-shows-that-multi-stakeholder-participation-is-key-to-designing-long-term-decarbonization-strategies/\"><u>智利表明，多方利益相关者的参与是设计长期脱碳战略的关键</u></a>。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Intro_3.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "C：能源行业中的数据及其受益者"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数据在能源行业的决策制定中发挥着变革性的作用，使各种利益相关者能够实现其具体目标，同时推动集体目标，如能源安全、可持续性和公平。 从全球组织到基层社区，受益者的范围强调了能源数据在应对宏观和微观层面挑战中的广泛应用。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "在全球层面，政策制定者和国际组织，例如国际能源署、联合国、世界银行、国际非政府组织（NGOs）或国际或国家能源公司，依赖全面的数据集来制定能源政策、设定目标，并监测实现全球能源目标的进展，例如减少排放和可再生能源的部署。 分析师和研究人员利用数据进行能源趋势的建模和预测，进行影响评估，并识别全球能源格局中的新兴挑战和机遇。 交易者、企业领导者和金融机构利用数据进行能源市场的市场分析、风险管理和投资决策。<br /> <br />在地区和国家层面，政策制定者、政府机构和监管机构利用数据制定符合地区或国家能源需求的能源政策和法规，促进能源安全，并刺激经济增长。 地方政府和社区组织利用数据来规划和实施<ai prompt=\"什么是能源效率？\">能源效率 💬️</ai>项目、可再生能源项目和可持续能源倡议，基层层面。 能源行业的企业领导依赖数据进行战略规划、资源配置和运营决策，以优化能源生产、<br>国际运输、分配和消费。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "个人，包括中到大型能源消费者，如重工业（例如钢铁和水泥生产）和家庭，受益于获取能源数据，以便做出有关其能源消耗的明智选择，采用节能技术，并参与需求侧管理计划。 此外，社区层面的利益相关者，如非营利组织、倡导团体和基层运动，利用数据提高对能源相关问题的认识，动员支持政策改革，并倡导公平获取能源服务。<br /><br />受益人的具体利益与他们所需的数据集类型密切相关，以便进行明智的决策和战略规划。 他们在能源数据使用方面的兴趣不同；例如，联合国将使用一些国家的能源消费和生产数据来跟踪它们的发展进展。 跨国能源公司将会查看相同的数据以寻找扩展业务的机会。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>虽然能源数据可以以多种方式应用，但某些类型在各个行业中最常被使用。</strong> 这些数据集通常分为五个核心类别：</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>能源供应</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源储备和资源（如已探明和潜在的石油、天然气、煤炭或铀储备；太阳能、风能、水能、地热潜力；关键矿物资源）"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "总一次能源供应（按行业、燃料来源等）"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "二次能源载体（例如，电力、氢气）"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "可再生能源的份额作为能源转型的指标"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "净能量平衡"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源基础设施"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>能源需求</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "最终能源消费按终端用途部门"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "按能源来源（电力、天然气、石油、煤炭、可再生能源）划分的最终能源消耗"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "人均能耗（每日和季节性负荷曲线，峰值需求统计）"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>经济指标</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源强度"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源效率指标"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源价格"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能量消耗"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源供应链"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源中的投资和资本流动"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源转型的社会影响（例如，创造/失业）"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>环境压力</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "污染"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "温室气体排放和空气质量"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源政策和法规（国内和国际）"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "可再生能源的激励和补贴"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "碳强度"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>公平与正义问题</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源获取"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源可负担性和能源贫困方面"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源基础设施的选址"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源系统对环境的危害分布（地理上、按人口特征等）"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "由于能源系统导致的经济机会和困难的分布"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "能源项目的社会影响：<br />对东道社区的共同利益"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "包容性能源政策"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "这些类别经常与特定行业（例如交通、建筑、工业）或以技术为重点的数据需求交叉，从而进一步扩大其相关性和实用性。<br /><br />为了最大化能源数据的影响，确保其完整性、可访问性和可用性至关重要。 这需要遵守优先考虑透明度、专业精神和道德管理的原则。 联合国的官方统计基本原则为此提供了基础框架，强调可信数据在民主治理、平等决策和公众问责中的作用。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>为了认可高质量数据在政策制定过程中的重要性、权力和可信度，联合国在2014年采纳了十项官方统计的基本原则。</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>原则 1</strong>",
+              "body": "官方统计在民主社会的信息系统中提供了不可或缺的元素，为政府、经济和公众提供有关经济、人口、社会和环境状况的数据。 为此，必须由官方统计机构编制符合实际效用测试的官方统计数据，并以公正的方式提供，以尊重公民获取公共信息的权利。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>原则 2</strong>",
+              "body": "为了保持对官方统计数据的信任，统计机构需要根据严格的专业考虑，包括科学原则和职业道德，决定收集、处理、存储和展示统计数据的方法和程序。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>原则 3</strong>",
+              "body": "为了促进对数据的正确解释，统计机构应根据科学标准展示关于统计数据的来源、方法和程序的信息。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>原则 4</strong>",
+              "body": "统计机构有权对错误的解释和统计数据的误用发表评论。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>原则 5</strong>",
+              "body": "用于统计目的的数据可以来自各种来源，无论是统计调查还是行政记录。 统计机构应根据质量、及时性、成本和对受访者的负担选择来源。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>原则 6</strong>",
+              "body": "由统计机构收集的个人数据用于统计汇编，无论它们是指自然人还是法人，都必须严格保密，并仅用于统计目的。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>原则7</strong>",
+              "body": "统计系统运行的法律、法规和措施应予公开。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>原则8</strong>",
+              "body": "国家内部统计机构之间的协调对于实现统计系统的一致性和效率至关重要。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>原则 9</strong>",
+              "body": "各国统计机构采用国际概念、分类和方法，有助于促进统计系统在所有官方层面的连贯性和效率。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>原则 10</strong>",
+              "body": "双边和多边统计合作有助于改善所有国家的官方统计系统。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_5.png",
+              "caption": ""
+            },
+            "title": "可靠、准确和及时的数据对于可持续能源政策至关重要。",
+            "description": "高质量的数据确保能源政策以证据为基础，最大程度地减少误导性决策和意外后果的风险。 通过满足数据质量的关键维度——相关性、准确性、时效性、一致性和可访问性——政策制定者可以设计有效的策略，推动可持续发展并应对复杂的能源挑战。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_16.png",
+              "caption": ""
+            },
+            "title": "数据在政策周期的每个阶段都至关重要，从规划到评估。",
+            "description": "在规划阶段，数据有助于识别差距和设定目标；在监测阶段，它跟踪进展并将努力与目标对齐；在评估阶段，它评估政策的有效性并为未来的改进提供信息。 这种迭代的、数据驱动的方法确保能源政策保持适应性、包容性，并与长期可持续发展目标保持一致。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_11.png",
+              "caption": ""
+            },
+            "title": "能源数据惠及广泛的利益相关者，从全球组织到地方社区。",
+            "description": "政策制定者、企业、研究人员和个人都依赖能源数据来实现他们的目标，无论是制定全球能源目标、优化投资，还是做出明智的消费选择。 细分数据还有助于解决公平问题，确保能源政策具有包容性并能响应边缘群体的需求。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第2课：数据在推动可持续能源和公平中的作用",
+        "cta": "继续学习",
+        "nextLessonId": "7.1.2"
+      }
+    }
+  ]
+}

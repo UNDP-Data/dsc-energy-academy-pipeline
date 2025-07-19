@@ -5,21 +5,21 @@
       "template_id": "scored_quiz",
       "color_scheme": "dark",
       "content": {
-        "title": "Quiz pontuado <br/><strong>Módulo 1</strong>",
-        "intro": "Este questionário abrange todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
+        "title": "Questionário pontuado <br/><strong>Módulo 1</strong>",
+        "intro": "Este questionário cobre todas as lições deste módulo. Você deve alcançar 80% para passar. Boa sorte!",
         "final": true,
         "labels": {
           "correct": "Correto",
           "question": "Pergunta",
           "result": "Resultado do questionário",
           "score": "Sua pontuação",
-          "passingScore": "Pontuação mínima de aprovação",
-          "startButton": "Iniciar quiz",
+          "passingScore": "Pontuação mínima para passar",
+          "startButton": "Iniciar o questionário",
           "nextButton": "Próximo",
           "submitButton": "Enviar",
           "retryButton": "Repetir",
-          "passed": "Aprovado",
-          "failed": "Não aprovado"
+          "passed": "Passado",
+          "failed": "Não passado"
         },
         "passingScore": 0.8,
         "questions": [
@@ -51,17 +51,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A energia é o principal contribuinte para as mudanças climáticas, tanto que alcançar emissões de carbono zero depende de uma transição energética e de saltar sobre os caminhos históricos de desenvolvimento energético."
+                "body": "A energia é a principal contribuição para as mudanças climáticas, tanto que alcançar zero emissões de carbono depende de uma transição energética e de ultrapassar os caminhos históricos de desenvolvimento de energia."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A energia é o principal contribuinte para as mudanças climáticas, tanto que alcançar emissões de carbono zero depende de uma transição energética e de saltar sobre os caminhos históricos de desenvolvimento energético."
+                "body": "A energia é a principal contribuição para as mudanças climáticas, tanto que alcançar zero emissões de carbono depende de uma transição energética e de ultrapassar os caminhos históricos de desenvolvimento de energia."
               }
             }
           },
           {
             "id": 2,
-            "prompt": "Que relação a energia tem com o IDH?",
+            "prompt": "Qual é a relação entre energia e IDH?",
             "multiple": false,
             "options": [
               {
@@ -87,11 +87,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A energia e o IDH têm uma relação semelhante à do ovo e da galinha - não está claro qual fator influencia o outro, refutando uma relação causal. No entanto, sabemos que o aumento do consumo de energia leva a um IDH mais alto, e um IDH mais alto leva a um aumento na produção e consumo de energia."
+                "body": "Energia e IDH têm uma relação semelhante à do frango e do ovo - não está claro qual fator influencia o outro, refutando uma relação causal. No entanto, sabemos que o aumento do consumo de energia leva a um IDH mais alto, e um IDH mais alto leva ao aumento da produção e consumo de energia."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A energia e o IDH têm uma relação semelhante à do ovo e da galinha - não está claro qual fator influencia o outro, refutando uma relação causal. No entanto, sabemos que o aumento do consumo de energia leva a um IDH mais alto, e um IDH mais alto leva a um aumento na produção e consumo de energia."
+                "body": "Energia e IDH têm uma relação semelhante à do frango e do ovo - não está claro qual fator influencia o outro, refutando uma relação causal. No entanto, sabemos que o aumento do consumo de energia leva a um IDH mais alto, e um IDH mais alto leva ao aumento da produção e consumo de energia."
               }
             }
           },
@@ -102,19 +102,19 @@
             "options": [
               {
                 "id": 1,
-                "value": "Reduzir a pobreza de tempo para mulheres e meninas"
+                "value": "Reduzindo a pobreza de tempo para mulheres e meninas"
               },
               {
                 "id": 2,
-                "value": "Aumentar as oportunidades de emprego para homens no setor de energias renováveis"
+                "value": "Aumentar as oportunidades de emprego dos homens no setor de energia renovável"
               },
               {
                 "id": 3,
-                "value": "Aumentar a segurança para mulheres e meninas"
+                "value": "Aumentando a segurança para mulheres e meninas"
               },
               {
                 "id": 4,
-                "value": "Tanto A quanto C"
+                "value": "Ambos A & C"
               }
             ],
             "solution": [
@@ -123,17 +123,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Acredita-se que mulheres e meninas, em algumas regiões, passem até 18 horas semanais coletando lenha e cozinhando em casa (PNUD, 2022). Portanto, o acesso a energia limpa ajuda diretamente a reduzir a pobreza de tempo das mulheres. A iluminação pública externa aumenta a segurança de mulheres e meninas, permitindo mais autonomia após o anoitecer e reduzindo a exposição à violência de gênero."
+                "body": "Acredita-se que mulheres e meninas, em algumas regiões, gastam até 18 horas semanais na coleta de lenha e na cozinha doméstica (UNDP, 2022). Portanto, o acesso a energia limpa ajuda diretamente a reduzir a pobreza de tempo das mulheres. A iluminação pública ao ar livre aumenta a segurança de mulheres e meninas, permitindo mais autonomia após o anoitecer e reduzindo a exposição à violência de gênero."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Acredita-se que mulheres e meninas, em algumas regiões, passem até 18 horas semanais coletando lenha e cozinhando em casa (PNUD, 2022). Portanto, o acesso a energia limpa ajuda diretamente a reduzir a pobreza de tempo das mulheres. A iluminação pública externa aumenta a segurança de mulheres e meninas, permitindo mais autonomia após o anoitecer e reduzindo a exposição à violência de gênero."
+                "body": "Acredita-se que mulheres e meninas, em algumas regiões, gastam até 18 horas semanais na coleta de lenha e na cozinha doméstica (UNDP, 2022). Portanto, o acesso a energia limpa ajuda diretamente a reduzir a pobreza de tempo das mulheres. A iluminação pública ao ar livre aumenta a segurança de mulheres e meninas, permitindo mais autonomia após o anoitecer e reduzindo a exposição à violência de gênero."
               }
             }
           },
           {
             "id": 4,
-            "prompt": "Quão eficiente é o sistema energético global?",
+            "prompt": "Quão eficiente é o sistema de energia global?",
             "multiple": false,
             "options": [
               {
@@ -159,26 +159,26 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "O sistema energético global atual opera com apenas 37% de eficiência (RMI, 2019), o que significa que quase dois terços da energia primária produzida é perdida devido a ineficiências na geração, transporte e uso final."
+                "body": "O sistema de energia global atual opera com apenas 37% de eficiência (RMI, 2019), o que significa que quase dois terços da energia primária produzida são perdidos devido a ineficiências na geração, transporte e uso final."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "O sistema energético global atual opera com apenas 37% de eficiência (RMI, 2019), o que significa que quase dois terços da energia primária produzida é perdida devido a ineficiências na geração, transporte e uso final."
+                "body": "O sistema de energia global atual opera com apenas 37% de eficiência (RMI, 2019), o que significa que quase dois terços da energia primária produzida são perdidos devido a ineficiências na geração, transporte e uso final."
               }
             }
           },
           {
             "id": 5,
-            "prompt": "Qual é a maior fonte de energia renovável na região dos Estados árabes?",
+            "prompt": "Qual é a maior fonte de energia renovável na região dos Estados Árabes?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "FV solar"
+                "value": "Painel solar fotovoltaico"
               },
               {
                 "id": 2,
-                "value": "Hidrelétricas"
+                "value": "Hidropoder"
               },
               {
                 "id": 3,
@@ -195,17 +195,17 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A energia hidrelétrica desempenha um papel dominante nos Estados árabes. <strong>Enquanto 7% da energia vem de fontes renováveis, cerca de 3,4% vem especificamente da energia hidrelétrica</strong>. Tem a maior capacidade instalada de 11,2 GW."
+                "body": "A energia hidrelétrica desempenha um papel dominante nos Estados Árabes. Enquanto 7% da energia vem de fontes renováveis, cerca de 3,4% vem especificamente de hidrelétricas. Tem a maior capacidade instalada com 11,2 GW."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A energia hidrelétrica desempenha um papel dominante nos Estados árabes. <strong>Enquanto 7% da energia vem de fontes renováveis, cerca de 3,4% vem especificamente da energia hidrelétrica</strong>. Tem a maior capacidade instalada de 11,2 GW."
+                "body": "A energia hidrelétrica desempenha um papel dominante nos Estados Árabes. Enquanto 7% da energia vem de fontes renováveis, cerca de 3,4% vem especificamente de hidrelétricas. Tem a maior capacidade instalada com 11,2 GW."
               }
             }
           },
           {
             "id": 6,
-            "prompt": "Qual região tem a maior lacuna de acesso à energia?",
+            "prompt": "Qual região tem a maior lacuna no acesso à energia?",
             "multiple": false,
             "options": [
               {
@@ -222,7 +222,7 @@
               },
               {
                 "id": 4,
-                "value": "Estados árabes"
+                "value": "Estados Árabes"
               }
             ],
             "solution": [
@@ -231,22 +231,22 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "A África é a região com a maior lacuna no acesso à energia. Com mais de 80% da população não eletrificada da África em áreas rurais, soluções de energia renovável fora da rede e descentralizadas podem tanto garantir acesso quanto ultrapassar os caminhos de desenvolvimento tradicionais."
+                "body": "África é a região com a maior lacuna no acesso à energia. Com mais de 80% da população não eletrificada da África em áreas rurais, soluções de energia renovável descentralizadas e fora da rede podem tanto garantir acesso quanto pular etapas dos caminhos tradicionais de desenvolvimento."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "A África é a região com a maior lacuna no acesso à energia. Com mais de 80% da população não eletrificada da África em áreas rurais, soluções de energia renovável fora da rede e descentralizadas podem tanto garantir acesso quanto ultrapassar os caminhos de desenvolvimento tradicionais."
+                "body": "África é a região com a maior lacuna no acesso à energia. Com mais de 80% da população não eletrificada da África em áreas rurais, soluções de energia renovável descentralizadas e fora da rede podem tanto garantir acesso quanto pular etapas dos caminhos tradicionais de desenvolvimento."
               }
             }
           },
           {
             "id": 7,
-            "prompt": "Qual exportação de energia renovável da região da Europa Oriental e da Ásia Central poderia ser positivamente afetada pelo Mecanismo de Ajuste de Carbono nas Fronteiras da UE?",
+            "prompt": "Qual exportação de energia renovável da região da Europa Oriental e Ásia Central poderia ser positivamente afetada pelo Mecanismo de Ajuste de Carbono na Fronteira da UE?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Hidrelétricas"
+                "value": "Hidropoder"
               },
               {
                 "id": 2,
@@ -254,7 +254,7 @@
               },
               {
                 "id": 3,
-                "value": "FV solar"
+                "value": "Painel solar fotovoltaico"
               },
               {
                 "id": 4,
@@ -267,11 +267,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "O hidrogênio apresenta uma oportunidade energética crescente para a região RBEC, apesar dos níveis de exportação atualmente negligenciáveis na categoria de produtos químicos. Com o Mecanismo de Ajuste de Carbono na Fronteira (CBAM) da UE aumentando os custos das exportações intensivas em carbono, há um forte incentivo para descarbonizar. Iniciativas da UE como o REPowerEU estão apoiando países como Moldávia, Ucrânia e aqueles nos Balcãs Ocidentais a investir na produção e comercialização de combustíveis limpos, incluindo hidrogênio renovável, posicionando o hidrogênio como uma solução crítica de exportação e energética para atender à crescente demanda da UE."
+                "body": "O hidrogênio apresenta uma oportunidade energética crescente para a região RBEC, apesar dos níveis de exportação atualmente insignificantes na categoria de produtos químicos. Com o Mecanismo de Ajuste de Carbono na Fronteira (CBAM) da UE, que aumenta os custos para exportações com alta intensidade de carbono, há um forte incentivo para descarbonizar. Iniciativas da UE como o REPowerEU estão apoiando países como Moldávia, Ucrânia e os dos Balcãs Ocidentais a investir na produção e comercialização de combustíveis limpos, incluindo hidrogênio renovável, posicionando o hidrogênio como uma solução de energia e exportação crítica para atender à crescente demanda da UE"
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "O hidrogênio apresenta uma oportunidade energética crescente para a região RBEC, apesar dos níveis de exportação atualmente negligenciáveis na categoria de produtos químicos. Com o Mecanismo de Ajuste de Carbono na Fronteira (CBAM) da UE aumentando os custos das exportações intensivas em carbono, há um forte incentivo para descarbonizar. Iniciativas da UE como o REPowerEU estão apoiando países como Moldávia, Ucrânia e aqueles nos Balcãs Ocidentais a investir na produção e comercialização de combustíveis limpos, incluindo hidrogênio renovável, posicionando o hidrogênio como uma solução crítica de exportação e energética para atender à crescente demanda da UE."
+                "body": "O hidrogênio apresenta uma oportunidade energética crescente para a região RBEC, apesar dos níveis de exportação atualmente insignificantes na categoria de produtos químicos. Com o Mecanismo de Ajuste de Carbono na Fronteira (CBAM) da UE, que aumenta os custos para exportações com alta intensidade de carbono, há um forte incentivo para descarbonizar. Iniciativas da UE como o REPowerEU estão apoiando países como Moldávia, Ucrânia e os dos Balcãs Ocidentais a investir na produção e comercialização de combustíveis limpos, incluindo hidrogênio renovável, posicionando o hidrogênio como uma solução de energia e exportação crítica para atender à crescente demanda da UE"
               }
             }
           },
@@ -303,22 +303,22 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Uma abordagem <strong>de toda a sociedade (WoS)</strong> para a transição energética envolve não apenas governos e empresas de energia, mas também formuladores de políticas, empresas, instituições financeiras, sociedade civil, academia, comunidades indígenas e o público em geral, garantindo que diversas perspectivas moldem as políticas e projetos energéticos."
+                "body": "Uma abordagem de toda a sociedade (WoS) para a transição energética envolve não apenas governos e empresas de energia, mas também formuladores de políticas, empresas, instituições financeiras, sociedade civil, academia, comunidades indígenas e o público em geral, garantindo que diversas perspectivas moldem as políticas e projetos energéticos."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Uma abordagem <strong>de toda a sociedade (WoS)</strong> para a transição energética envolve não apenas governos e empresas de energia, mas também formuladores de políticas, empresas, instituições financeiras, sociedade civil, academia, comunidades indígenas e o público em geral, garantindo que diversas perspectivas moldem as políticas e projetos energéticos."
+                "body": "Uma abordagem de toda a sociedade (WoS) para a transição energética envolve não apenas governos e empresas de energia, mas também formuladores de políticas, empresas, instituições financeiras, sociedade civil, academia, comunidades indígenas e o público em geral, garantindo que diversas perspectivas moldem as políticas e projetos energéticos."
               }
             }
           },
           {
             "id": 9,
-            "prompt": "Qual é uma razão chave pela qual o aumento do investimento em infraestrutura energética resiliente é essencial para os países do Caribe?",
+            "prompt": "Qual é uma razão fundamental pela qual o aumento do investimento em infraestrutura energética resiliente é essencial para os países do Caribe?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Para reduzir os custos da internet"
+                "value": "Para reduzir os custos de internet"
               },
               {
                 "id": 2,
@@ -326,7 +326,7 @@
               },
               {
                 "id": 3,
-                "value": "Para reduzir a produção de combustíveis fósseis"
+                "value": "Reduzir a produção de combustíveis fósseis"
               },
               {
                 "id": 4,
@@ -339,11 +339,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "Os estados do Caribe gastam até 1,2% do PIB na recuperação de desastres naturais anualmente. Uma infraestrutura resiliente – especialmente mini-redes solares – pode proteger serviços críticos durante desastres."
+                "body": "Os estados do Caribe gastam até 1,2 % do PIB na recuperação de desastres naturais anualmente. Infraestrutura resiliente – especialmente mini-redes solares – pode proteger serviços críticos durante desastres."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "Os estados do Caribe gastam até 1,2% do PIB na recuperação de desastres naturais anualmente. Uma infraestrutura resiliente – especialmente mini-redes solares – pode proteger serviços críticos durante desastres."
+                "body": "Os estados do Caribe gastam até 1,2 % do PIB na recuperação de desastres naturais anualmente. Infraestrutura resiliente – especialmente mini-redes solares – pode proteger serviços críticos durante desastres."
               }
             }
           },
@@ -354,7 +354,7 @@
             "options": [
               {
                 "id": 1,
-                "value": "Esses países carecem de outras fontes de energia renovável"
+                "value": "Estes países carecem de outras fontes de energia renovável"
               },
               {
                 "id": 2,
@@ -362,7 +362,7 @@
               },
               {
                 "id": 3,
-                "value": "Permite o armazenamento de energia e indústrias de exportação limpas"
+                "value": "Permite o armazenamento de energia e indústrias de exportação limpa"
               },
               {
                 "id": 4,
@@ -391,11 +391,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://ik.imagekit.io/seacademy/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
           "caption": ""
         },
         "intro": "Próximo",
-        "title": "Módulo 1 Conclusão",
+        "title": "Módulo 1 Encerramento",
         "cta": "Continue aprendendo",
         "nextLessonId": "1.-1.-1"
       }
