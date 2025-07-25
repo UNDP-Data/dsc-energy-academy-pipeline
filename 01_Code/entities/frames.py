@@ -164,18 +164,6 @@ def parse_image_fields(node: Node) -> dict:
 
 
 
-# --- Helper for photo-horizontal images (direct extraction) ---
-def parse_photo_horizontal_fields(node: Node) -> dict:
-    """
-    Extract image properties for photo-horizontal template.
-    Assumes the node directly has an attribute "imageUrl".
-    """
-    if node is None:
-        return {}
-    image_url_node = node.select_node("ATTR", "imageUrl")
-    image_url = image_url_node.value if image_url_node else None
-    return {"src": image_url, "caption": None, "url": None}
-
 
 def parse_cover_fields(node: Node) -> dict:
     
@@ -613,23 +601,39 @@ class PhotoVertical(FrameBase):
 
 class PhotoHorizontal(FrameBase):
     image: dict
-    
+    title: str | None = None
+    description: str | None = None
+    caption: str | None = None
+
     @classmethod
     def from_node(cls, node: Node) -> "PhotoHorizontal":
-        assert node.name == "photo-horizontal", f"Expected photo-vertical node, got {node.name}"
-       
+        assert node.name == "photo-horizontal", f"Expected photo-horizontal node, got {node.name}"
+
+        # Extract optional text fields
+        title = safe_get_characters(node, "title", node.name)
+        description = safe_get_characters(node, "description", node.name)
+        caption = safe_get_characters(node, "caption", node.name)
+        if caption.strip().lower() == "image caption":
+            caption = ""
+
+        # Extract image from ATTR or fallback to image group
         image_node = node.select_node("ATTR", "imageUrl")
         if image_node:
-            image={"src": image_node.value, "caption": None, "url": None}
+            image = {"src": image_node.value, "caption": caption, "url": None}
         else:
             image_node = node.select_node("GROUP", "image")
-            image=dict(parse_image_fields(node))
-            
+            image = dict(parse_image_fields(image_node or node))
+            image["caption"] = caption
+
         return cls(
-            template_id="photo_horizontal",#node.name,
+            template_id=node.name,
             color_scheme="light",
-            image=image
+            image=image,
+            title=title if title else None,
+            description=description if description else None,
+            caption=caption if caption else None
         )
+
         
 class Infographic(FrameBase):
     image: dict
