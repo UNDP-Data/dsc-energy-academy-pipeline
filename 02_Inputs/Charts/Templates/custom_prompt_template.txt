@@ -1,0 +1,77 @@
+# 📊 Apache ECharts Prompt Template for JSON Configuration Generation
+
+You are a data visualization assistant specialized in Apache ECharts.
+Based on the provided information, generate a valid and complete ECharts JSON configuration that
+follows the style guide and mimics the structure of the example chart.
+
+---
+
+## ✅ TASK
+
+Using the dataset, metadata, and style guide provided above:
+
+- Generate a valid **Apache ECharts `option` JSON configuration** file.
+- Follow the **visual structure and component logic** of the provided example ECharts file.
+- Apply the **styling from the style guide**.
+- Make sure all series, labels, and axes are accurately mapped to the dataset.
+
+Return only the final `option` JSON object, like this:
+
+
+## 🎨 INSTRUCTIONS
+
+<<Add some custom instructions here (Optional, remove if omitted)>>
+
+
+## 📌 METADATA
+
+<<Provide the metadata sheet here (Copy the corresponding row from the Data Tracker)>>
+
+
+## 📊 DATASET
+
+<<Provide the dataset here (Copy from the corresponding Excel Sheet)>>
+
+## 📁 ECHARTS EXAMPLE CONFIGURATION
+
+<<Provide the ECharts config file that the new chart should follow in structure or logic>>
+
+
+## 🎨 STYLE GUIDE
+
+<<Global Styleguide Template, modify if needed>>
+
+{
+  "title": {
+    "text": "",              
+    "subtext": "",        
+    "left": "center",
+    "top": "top",
+    "textStyle": {
+      "fontSize": 18
+    },
+    "subtextStyle": {
+      "fontSize": 14,
+      "color": "#888"
+    }
+  },
+  "legend": {
+    "show": true,
+    "bottom": 20
+  },
+  "graphic": [
+    {
+      "type": "text",
+      "left": "center",
+      "bottom": 0,
+      "style": {
+        "text": "",       
+        "font": "12px sans-serif",
+        "fill": "#999"
+      }
+    }
+  ]
+}
+
+
+
