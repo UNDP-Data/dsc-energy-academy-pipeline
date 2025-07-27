@@ -1,0 +1,28 @@
+{  
+  "label": {
+  "show": false
+},
+  "xAxis": {
+    "type": "category",
+    "data": [],
+    "axisLabel": {
+      "interval": 0
+    }
+  },
+  "yAxis": {
+    "type": "value",
+    "max": 1
+  },
+  "series": [
+    {
+      "name": "",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      }
+    }
+  ]
+}
