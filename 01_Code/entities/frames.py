@@ -11,6 +11,7 @@ This file defines only the frame classes specified in raw_frame_class_map:
   - PhotoVertical
   - PhotoHorizontal
   - PhotoFullHeight
+  - VideoFullHeight
   - ModuleText
   - LessonSubpartCover
   - LessonPartCover
@@ -24,7 +25,6 @@ This file defines only the frame classes specified in raw_frame_class_map:
   - ImageHotspot
   - ChapterCover
   - Chart
-  - Chart_folder
   - Infographic
 """
 
@@ -47,6 +47,7 @@ __all__ = [
     "PhotoVertical",
     "PhotoHorizontal",
     "PhotoFullHeight",
+    "VideoFullHeight",
     "ModuleText",
     "LessonSubpartCover",
     "LessonPartCover",
@@ -56,11 +57,9 @@ __all__ = [
     "ConnectionBack",
     "KeyTakeaways",
     "KeyResources",
- #   "ScoredQuiz",
     "ImageHotspot",
     "ChapterCover",
     "Chart",
-    "Chart_folder",
     "Infographic"
 ]
 
@@ -659,132 +658,15 @@ class Infographic(FrameBase):
             image=image
         )
 
-        
-# class Infographic(FrameBase):
-#     image: dict
-#     size: str = "full" 
-    
-#     @classmethod
-#     def from_node(cls, node: Node) -> "Infographic":
-#         assert node.name.lower() == "infographic", f"Expected infographic node, got {node.name}"
-        
-#         image_name = "unnamed"
-
-#         # 1. Try to find RECTANGLE with IMAGE fill
-#         for child in node.children:
-#             if child.type == "RECTANGLE":
-#                 fills = child.get("fills", [])
-#                 if fills and fills[0].get("type") == "IMAGE":
-#                     image_name = child.id
-#                     break
-#         else:
-#             # 2. Fallback: first group/instance/frame that is NOT named "Light Template"
-#             for child in node.children:
-#                 if child.type in ["GROUP", "INSTANCE", "FRAME"] and child.name.strip().lower() != "light template":
-#                     image_name = child.id
-#                     break
-
-#         image = {
-#             "src": image_name,
-#             "caption": None,
-#             "url": None
-#         }
-
-#         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
-#         size = "full" if width >= 1000 else "half"
-
-#         return cls(
-#             template_id="infographic",
-#             color_scheme="light",
-#             size=size,
-#             image=image
-#         )
 
 
-        
 
 class Chart(FrameBase):
     size: Literal["full", "half"]
     option: dict
+
     @classmethod
     def from_node(cls, node: Node) -> "Chart":
-        assert node.name == "chart", f"Expected chart node, got {node.name}"
-
-        image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
-        if image_node:
-            chart_id = image_node.name
-            
-            width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
-            size = "full" if width >= 1000 else "half"
-                               
-            chart_url = f"https://raw.githubusercontent.com/UNDP-Data/dsc-energy-academy-data/dev/charts-creation/00_API/Charts/LightMode/{chart_id}.json"
-            headers = {
-                "User-Agent": "Mozilla/5.0 (compatible; UNDP-EnergyBot/1.0)",
-                "Accept": "application/vnd.github.v3.raw"
-            }
-
-            response = requests.get(chart_url, headers=headers)
-            if response.status_code == 200:
-                try:
-                    option = response.json()
-                    return cls(
-                        template_id="echarts_chart",
-                        color_scheme="light",
-                        size=size,
-                        option=option
-                    )
-                except ValueError:
-                    raise ValueError(f"Invalid JSON for chart: {chart_id}")
-            # else:
-            # # old version pulling from folder, cna update back to this once the pipelines are merged
-
-            #     chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
-            #     if chart_path.exists():
-            #         print(chart_path, " loading from file")
-            #         with open(chart_path, "r", encoding="utf-8") as f:
-            #             option = json.load(f) 
-
-        
-        # If no image or chart JSON file, raise an error to skip this frame
-        raise ValueError(f"Chart data missing or invalid for frame: {node.name}")
-
-
-
-# class Chart_folder(FrameBase):
-#     size: Literal["full", "half"]
-#     option: dict
-
-#     @classmethod
-#     def from_node(cls, node: Node) -> "Chart":
-#         assert node.name == "chart", f"Expected chart node, got {node.name}"
-        
-#         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
-#         size = "full" if width >= 1000 else "half"
-
-#         image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
-#         if image_node:
-#             chart_id = image_node.name
-#             chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
-#             if chart_path.exists():
-#                 with open(chart_path, "r", encoding="utf-8") as f:
-#                     option = json.load(f)
-#                 return cls(
-#                     template_id="echarts_chart",
-#                     color_scheme="light",
-#                     size=size,
-#                     option=option
-#                 )
-        
-#         # If no image or chart JSON file, raise an error to skip this frame
-#         raise ValueError(f"Chart data missing or invalid for frame: {node.name}")
-
-
-class Chart_folder(FrameBase):
-    size: Literal["full", "half"]
-    option: dict
-
-    @classmethod
-    def from_node(cls, node: Node) -> "Chart_folder":
         assert node.name == "chart", f"Expected chart node, got {node.name}"
 
         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
@@ -805,7 +687,7 @@ class Chart_folder(FrameBase):
 
         # --- Load ECharts config by image name ---
         chart_id = image_node.name
-        chart_path = Path("../02_Inputs/charts") / f"{chart_id}.json"
+        chart_path = Path("../02_Inputs/Charts/DarkMode") / f"{chart_id}.json" ##add handling of light/dark modes
         if not chart_path.exists():
             raise ValueError(f"Chart JSON not found for: {chart_id}")
 
@@ -866,6 +748,46 @@ class Chart_folder(FrameBase):
             option=option
         )
                 
+class VideoFullHeight(FrameBase):
+    size: Literal["full"] = "full"
+    content: dict
+
+    @classmethod
+    def from_node(cls, node: Node) -> "VideoFullHeight":
+        assert node.name == "video-full-height", f"Expected video-full-height node, got {node.name}"
+
+        # Find the first RECTANGLE with an IMAGE fill
+        image_node = None
+        for child in getattr(node, "children", []):
+            if getattr(child, "type", "") == "RECTANGLE":
+                fills = getattr(child, "fills", [])
+                if isinstance(fills, list):
+                    for fill in fills:
+                        if isinstance(fill, dict) and fill.get("type") == "IMAGE":
+                            image_node = child
+                            break
+                if image_node:
+                    break
+
+        if not image_node:
+            raise ValueError("No valid image rectangle with IMAGE fill found in video-full-height")
+
+        # Use the image name as the base filename
+        video_name = image_node.name.strip()
+
+        base_url = "https://sehseadata.blob.core.windows.net/images/Videos"
+        src_url = f"{base_url}/src/{video_name}.webm"
+        poster_url = f"{base_url}/poster/{video_name}.webp"
+
+        return cls(
+            template_id="video",
+            color_scheme="light",
+            size="full",
+            content={
+                "src": src_url,
+                "poster": poster_url
+            }
+        )
 
 
 class PhotoFullHeight(FrameBase):
