@@ -1,373 +1,520 @@
 {
-  "globals": {
-    "lessonProgress": {
-      "not_started": "Not started",
-      "in_progress": "In progress",
-      "completed": "Completed"
-    }
-  },
-  "SignInPage": {
-    "title": "Nice to see you again",
-    "noAccount": "Don’t have an account yet?",
-    "signUp": "Sign up now",
-    "SignInForm": {
-      "login": {
-        "label": "Login",
-        "placeholder": "Email or Phone number",
-        "requiredError": "This field is required",
-        "invalidError": "Please enter a valid email address"
-      },
-      "password": {
-        "label": "Password",
-        "placeholder": "Password",
-        "requiredError": "This field is required"
-      },
-      "remember": "Remember me",
-      "forgot": "Forgot password?",
-      "submit": "Sign in",
-      "credentialsError": "We couldn’t find a match. Please check your username and password, or <signup>create an account</signup> if you’re new.",
-      "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience."
-    }
-  },
-  "SignUpPage": {
-    "title": "Welcome",
-    "SignUpForm": {
-      "email": {
-        "label": "Email",
-        "placeholder": "Email",
-        "requiredError": "This field is required",
-        "invalidError": "Please enter a valid email address"
-      },
-      "password": {
-        "label": "Password",
-        "placeholder": "Password",
-        "hint": "8 characters minimum",
-        "requiredError": "This field is required",
-        "invalidError": "Password must contain at least 8 characters"
-      },
-      "confirmPassword": {
-        "label": "Confirm Password",
-        "placeholder": "Repeat Password",
-        "invalidError": "Please, make sure your passwords match."
-      },
-      "submit": "Sign up",
-      "alreadyTakenError": "This email address is already in use. Please use a different email or <login>sign in</login>.",
-      "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience."
-    }
-  },
-  "SiteMenu": {
-    "logo": {
-      "alt": "UNDP Sustainable Energy Academy Logo"
-    },
-    "triggerAriaLabel": "Open the menu",
-    "navigation": {
-      "home": "Home",
-      "knowledgeGraph": "Knowledge Graph",
-      "modules": "Academy",
-      "resources": "Resources",
-      "energyAi": "Energy AI",
-      "geospatial": "Geospatial",
-      "profile": "Profile",
-      "signIn": "Sign in",
-      "signOut": "Sign out"
-    },
-    "languageSelector": {
-      "label": "Language selection",
-      "select": "Select language"
-    },
-    "authentication": {
-      "signIn": "Sign in",
-      "signOut": "Sign out",
-      "profileAriaLabel": "Go to your profile page",
-      "profile": "Your profile",
-      "dropdownToggleAriaLabel": "Toggle user profile menu"
-    }
-  },
-  "SiteFooter": {
-    "terms": "Terms of use",
-    "colophon": "© 2023 United Nations Development Programme",
-    "social": {
-      "facebook": "Visit our Facebook page",
-      "twitter": "Visit our Twitter page",
-      "instagram": "Visit our Instagram page",
-      "linkedin": "Visit our LinkedIn page",
-      "youtube": "Visit our YouTube channel"
-    }
-  },
-  "PasswordInput": {
-    "hide": "Hide password",
-    "show": "Show password"
-  },
-  "QuickLinks": {
-    "goTo": "Go to",
-    "scroll": "Scroll to learn more"
-  },
-  "HomePage": {
-    "LandingHero": {
-      "title": "Sustainable Energy Academy",
-      "registerCta": "Start learning",
-      "aiCtaShort": "Ask the Energy AI",
-      "aiCta": "Ask a question to the Energy AI",
-      "scroll": "or scroll to explore the <bold>Digital Intelligence Platform</bold>"
-    },
-    "Welcome": {
-      "title": "Welcome back <bold>{name}</bold>, ready to continue your lessons?"
-    },
-    "Carousel1": {
-      "intro": "Part of the Sustainable Energy Digital Intelligence Platform",
-      "title": "Energy for Development",
-      "list": "<item>The <bold> Sustainable Energy Academy</bold> - Dive into thought leadership, data visualization, and over 40 hours of expert-led content across 8 modules exploring the Energy for Development pathway</item><item><bold>Energy AI and Knowledge Graph</bold>  - Leverage the power of AI and interconnected data to uncover insights, drive smarter decisions, and accelerate sustainable energy solutions.</item><item><bold>Geospatial Data</bold> - Access spatial data to analyze energy access, identify equity gaps, and pinpoint opportunities for targeted action—right at your fingertips.</item>",
-      "slides": {
-        "item1": {
-          "alt": "Image 1"
-        },
-        "item2": {
-          "alt": "Image 2"
-        },
-        "item3": {
-          "alt": "Image 3"
+    "globals": {
+        "lessonProgress": {
+            "not_started": "Not started",
+            "in_progress": "In progress",
+            "completed": "Completed"
         }
-      }
     },
-    "Carousel2": {
-      "intro": "FOCUS AREA OF THE SUSTAINABLE ENERGY ACADEMY",
-      "title": "Energy for Development",
-      "list": "<item><bold>Close the gap in energy access</bold> so that marginalized people and communities gain access to sustainable, clean, energy and the dignity and opportunities it brings.</item><item><bold>Accelerate energy transition</bold> through system changes that support a green recovery and improve efficiency by bringing together the best ideas from government, private sector, finance, digital, and civil society.</item><item><bold>Catalyze energy finance</bold> by working with the public sector and global, regional, and local financial ecosystems to scale up public and private investments. </item>",
-      "slides": {
-        "item1": {
-          "alt": "Image 1"
-        },
-        "item2": {
-          "alt": "Image 2"
-        },
-        "item3": {
-          "alt": "Image 3"
+    "SignInPage": {
+        "title": "Nice to see you again",
+        "noAccount": "Don’t have an account yet?",
+        "signUp": "Sign up now",
+        "SignInForm": {
+            "login": {
+                "label": "Login",
+                "placeholder": "Email or Phone number",
+                "requiredError": "This field is required",
+                "invalidError": "Please enter a valid email address"
+            },
+            "password": {
+                "label": "Password",
+                "placeholder": "Password",
+                "requiredError": "This field is required"
+            },
+            "remember": "Remember me",
+            "forgot": "Forgot password?",
+            "submit": "Sign in",
+            "credentialsError": "We couldn’t find a match. Please check your username and password, or <signup>create an account</signup> if you’re new.",
+            "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience."
         }
-      }
     },
-    "Carousel": {
-      "aria": {
-        "section": "image carousel",
-        "indicator": "slide number {slideNumber}",
-        "slide": "slide {slideNumber} of {slideCount}",
-        "previous": "Go to the previous slide",
-        "next": "Go to the next slide"
-      }
-    },
-    "Invitation": {
-      "body": "Welcome to the <bold>Sustainable Energy Digital Intelligence Platform</bold>, an innovative tool for driving system transformation through data-driven and integrated strategies to scale progress towards an inclusive and just sustainable energy transition."
-    },
-    "Video": {
-      "title": "Video Title",
-      "body": "Nulla pellentesque leo vitae lorem hendrerit, sit amet elementum ipsum rutrum. Morbi ultricies volutpat orci."
-    },
-    "ModulesFeature": {
-      "title": "Explore the Academy digital learning platform with 8 interactive e-modules",
-      "body": "Dive into more than 40 hours of expert-written content and thought leadership. Discover 80 infographics and 60 data visualizations that bring energy trends to life. Learn from 70 real-world case studies highlighting impactful sustainable energy solutions. Earn a certificate for every module you finish!",
-      "cta": "Explore all modules"
-    },
-    "KnowledgeGraph": {
-      "title": "When in need, ask the Energy AI and Knowledge Graph",
-      "body": "The platform provides data-driven insights and learning experience through the AI and knowledge graph tool, trained on a custom database of energy policies and resources, and accessible through a dynamic interface to move beyond chat alone and dive into the integrated approach on sustainable energy for development.",
-      "cta": "Ask the Energy AI"
-    }
-  },
-  "ProfilePage": {
-    "section": "Account",
-    "pageTitle": "Your Account Page",
-    "anchors": {
-      "dashboard": "Dashboard",
-      "certificates": "Certificates",
-      "accountSettings": "Account Settings"
-    },
-    "Milestones": {
-      "example": "Example milestone"
-    },
-    "ResumeLessons": {
-      "title": "Continue learning"
-    },
-    "StartLessons": {
-      "title": "Start new: lessons tailored to your growth areas",
-      "text": "To strenghten these areas, this are the recommended lessons related to"
-    },
-    "Certificates": {
-      "completed": "completed!",
-      "view": "View certificate"
-    },
-    "ProfilePicture": {
-      "altText": "Your profile picture",
-      "hint": "Image size should be under 1 Mb",
-      "label": "Upload photo",
-      "labelUploading": "Uploading photo...",
-      "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience.",
-      "fileTooLargeError": "The file is too large. Please upload a file smaller than 1 Mb."
-    },
-    "ProfileForm": {
-      "title": "General Settings",
-      "firstName": {
-        "label": "First Name",
-        "placeholder": "First Name",
-        "requiredError": "This field is required"
-      },
-      "lastName": {
-        "label": "Last Name",
-        "placeholder": "Last Name",
-        "requiredError": "This field is required"
-      },
-      "username": {
-        "label": "Username",
-        "placeholder": "Username",
-        "requiredError": "This field is required"
-      },
-      "bio": {
-        "label": "Brief description",
-        "placeholder": "Your title, profession or small biography"
-      },
-      "save": "Save changes",
-      "saving": "Saving changes...",
-      "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience."
-    },
-    "ChangePasswordForm": {
-      "title": "Change Password",
-      "currentPassword": {
-        "label": "Current Password",
-        "placeholder": "Current Password",
-        "requiredError": "This field is required",
-        "invalidError": "Field must contain at least 8 characters"
-      },
-      "newPassword": {
-        "label": "New Password",
-        "placeholder": "New Password",
-        "hint": "8 characters minimum",
-        "requiredError": "This field is required",
-        "invalidError": "Password must contain at least 8 characters"
-      },
-      "confirmPassword": {
-        "label": "Confirm New Password",
-        "placeholder": "Confirm New Password",
-        "requiredError": "This field is required",
-        "invalidError": "Please, make sure your passwords match."
-      },
-      "save": "Save changes",
-      "saving": "Saving changes...",
-      "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience.",
-      "samePasswordError": "The new password must be different from the current password.",
-      "success": "Password changed successfully."
-    }
-  },
-  "ModulesPage": {
-    "pageTitle": "Explore the Academy digital learning platform with 8 interactive e-modules",
-    "section": "Modules",
-    "introduction": "Dive into more than 40 hours of expert-written content and thought leadership. Discover 80 infographics and 60 data visualizations that bring energy trends to life. Learn from 70 real-world case studies highlighting impactful sustainable energy solutions. Earn a certificate for every module you finish!",
-    "ModulesHeader": {
-      "title": "Explore all modules",
-      "hint": {
-        "mobile": "explore the accordions to discover the modules.",
-        "desktop": "Click on the wheel or explore the accordions to discover the modules."
-      },
-      "modes": {
-        "linear": "Linear mode",
-        "network": "Network mode"
-      },
-      "legend": {
-        "toc": {
-          "title": "Types of content",
-          "lesson": "Lesson",
-          "takeaways": "Takeaways",
-          "quiz": "Quiz"
-        },
-        "progress": {
-          "title": "Progress",
-          "todo": "To do",
-          "inProgress": "In progress",
-          "completed": "Done"
+    "SignUpPage": {
+        "title": "Welcome",
+        "SignUpForm": {
+            "email": {
+                "label": "Email",
+                "placeholder": "Email",
+                "requiredError": "This field is required",
+                "invalidError": "Please enter a valid email address"
+            },
+            "password": {
+                "label": "Password",
+                "placeholder": "Password",
+                "hint": "8 characters minimum",
+                "requiredError": "This field is required",
+                "invalidError": "Password must contain at least 8 characters"
+            },
+            "confirmPassword": {
+                "label": "Confirm Password",
+                "placeholder": "Repeat Password",
+                "invalidError": "Please, make sure your passwords match."
+            },
+            "submit": "Sign up",
+            "alreadyTakenError": "This email address is already in use. Please use a different email or <login>sign in</login>.",
+            "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience."
         }
-      }
     },
-    "LessonList": {
-      "ModulePreview": {
-        "ChapterPreviewCard": {
-          "segment": "Chapter"
+    "SiteMenu": {
+        "logo": {
+            "alt": "UNDP Sustainable Energy Academy Logo"
         },
-        "ModulePreviewHeader": {
-          "module": "Module",
-          "chapters": "Chapters",
-          "time": "Estimated time",
-          "notStarted": "Not started",
-          "completion": "completion"
+        "triggerAriaLabel": "Open the menu",
+        "navigation": {
+            "home": "Home",
+            "modules": "Academy",
+            "resources": "Resources",
+            "energyAi": "Energy AI",
+            "geospatial": "Geospatial",
+            "profile": "Profile",
+            "signIn": "Sign in",
+            "signOut": "Sign out"
+        },
+        "languageSelector": {
+            "label": "Language selection",
+            "select": "Select language"
+        },
+        "authentication": {
+            "signIn": "Sign in",
+            "signOut": "Sign out",
+            "profileAriaLabel": "Go to your profile page",
+            "profile": "Your profile",
+            "dropdownToggleAriaLabel": "Toggle user profile menu"
         }
-      }
     },
-    "ModulePreview": {
-      "startModule": "Start the module",
-      "choose": "or choose a chapter:"
+    "SiteFooter": {
+        "terms": "Terms of use",
+        "colophon": "© 2023 United Nations Development Programme",
+        "social": {
+            "facebook": "Visit our Facebook page",
+            "twitter": "Visit our Twitter page",
+            "instagram": "Visit our Instagram page",
+            "linkedin": "Visit our LinkedIn page",
+            "youtube": "Visit our YouTube channel"
+        }
+    },
+    "PasswordInput": {
+        "hide": "Hide password",
+        "show": "Show password"
+    },
+    "QuickLinks": {
+        "goTo": "Go to",
+        "scroll": "Scroll to learn more"
+    },
+    "HomePage": {
+        "LandingHero": {
+            "title": "Sustainable Energy Academy",
+            "registerCta": "Start learning",
+            "aiCtaShort": "Ask the Energy AI",
+            "aiCta": "Ask a question to the Energy AI",
+            "scroll": "or scroll to explore the <bold>Digital Intelligence Platform</bold>"
+        },
+        "Welcome": {
+            "title": "Welcome back <bold>{name}</bold>, ready to continue your lessons?"
+        },
+        "Carousel1": {
+            "intro": "Part of the Sustainable Energy Digital Intelligence Platform",
+            "title": "Energy for Development",
+            "list": "<item>The <bold> Sustainable Energy Academy</bold> - Dive into thought leadership, data visualization, and over 40 hours of expert-led content across 8 modules exploring the Energy for Development pathway</item><item><bold>Energy AI and Knowledge Graph</bold>  - Leverage the power of AI and interconnected data to uncover insights, drive smarter decisions, and accelerate sustainable energy solutions.</item><item><bold>Geospatial Data</bold> - Access spatial data to analyze energy access, identify equity gaps, and pinpoint opportunities for targeted action—right at your fingertips.</item>",
+            "slides": {
+                "item1": {
+                    "alt": "Image 1"
+                },
+                "item2": {
+                    "alt": "Image 2"
+                },
+                "item3": {
+                    "alt": "Image 3"
+                }
+            }
+        },
+        "Carousel2": {
+            "intro": "FOCUS AREA OF THE SUSTAINABLE ENERGY ACADEMY",
+            "title": "Energy for Development",
+            "list": "<item><bold>Close the gap in energy access</bold> so that marginalized people and communities gain access to sustainable, clean, energy and the dignity and opportunities it brings.</item><item><bold>Accelerate energy transition</bold> through system changes that support a green recovery and improve efficiency by bringing together the best ideas from government, private sector, finance, digital, and civil society.</item><item><bold>Catalyze energy finance</bold> by working with the public sector and global, regional, and local financial ecosystems to scale up public and private investments. </item>",
+            "slides": {
+                "item1": {
+                    "alt": "Image 1"
+                },
+                "item2": {
+                    "alt": "Image 2"
+                },
+                "item3": {
+                    "alt": "Image 3"
+                }
+            }
+        },
+        "Carousel": {
+            "aria": {
+                "section": "image carousel",
+                "indicator": "slide number {slideNumber}",
+                "slide": "slide {slideNumber} of {slideCount}",
+                "previous": "Go to the previous slide",
+                "next": "Go to the next slide"
+            }
+        },
+        "Invitation": {
+            "body": "Welcome to the <bold>Sustainable Energy Digital Intelligence Platform</bold>, an innovative tool for driving system transformation through data-driven and integrated strategies to scale progress towards an inclusive and just sustainable energy transition."
+        },
+        "Video": {
+            "title": "Video Title",
+            "body": "Nulla pellentesque leo vitae lorem hendrerit, sit amet elementum ipsum rutrum. Morbi ultricies volutpat orci."
+        },
+        "ModulesFeature": {
+            "title": "Explore the Academy digital learning platform with 8 interactive e-modules",
+            "body": "Dive into more than 40 hours of expert-written content and thought leadership. Discover 80 infographics and 60 data visualizations that bring energy trends to life. Learn from 70 real-world case studies highlighting impactful sustainable energy solutions. Earn a certificate for every module you finish!",
+            "cta": "Explore all modules"
+        },
+        "KnowledgeGraph": {
+            "title": "When in need, ask the Energy AI and Knowledge Graph",
+            "body": "The platform provides data-driven insights and learning experience through the AI and knowledge graph tool, trained on a custom database of energy policies and resources, and accessible through a dynamic interface to move beyond chat alone and dive into the integrated approach on sustainable energy for development.",
+            "cta": "Ask the Energy AI"
+        }
+    },
+    "ProfilePage": {
+        "section": "Account",
+        "pageTitle": "Your Account Page",
+        "anchors": {
+            "dashboard": "Your progress",
+            "certificates": "Certificates",
+            "accountSettings": "Account Settings"
+        },
+        "Milestones": {
+            "example": "Example milestone"
+        },
+        "ResumeLessons": {
+            "title": "Continue learning",
+            "noLessons": "Start new lessons to continue your learning journey"
+        },
+        "StartLessons": {
+            "title": "Start new: lessons tailored to your growth areas",
+            "text": "To strenghten these areas, this are the recommended lessons related to"
+        },
+        "Certificates": {
+            "completed": "completed!",
+            "view": "View certificate"
+        },
+        "ProfilePicture": {
+            "altText": "Your profile picture",
+            "hint": "Image size should be under 1 Mb",
+            "label": "Upload photo",
+            "labelUploading": "Uploading photo...",
+            "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience.",
+            "fileTooLargeError": "The file is too large. Please upload a file smaller than 1 Mb."
+        },
+        "ProfileForm": {
+            "title": "General Settings",
+            "firstName": {
+                "label": "First Name",
+                "placeholder": "First Name",
+                "requiredError": "This field is required"
+            },
+            "lastName": {
+                "label": "Last Name",
+                "placeholder": "Last Name",
+                "requiredError": "This field is required"
+            },
+            "username": {
+                "label": "Username",
+                "placeholder": "Username",
+                "requiredError": "This field is required"
+            },
+            "bio": {
+                "label": "Brief description",
+                "placeholder": "Your title, profession or small biography"
+            },
+            "save": "Save changes",
+            "saving": "Saving changes...",
+            "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience."
+        },
+        "ChangePasswordForm": {
+            "title": "Change Password",
+            "currentPassword": {
+                "label": "Current Password",
+                "placeholder": "Current Password",
+                "requiredError": "This field is required",
+                "invalidError": "Field must contain at least 8 characters"
+            },
+            "newPassword": {
+                "label": "New Password",
+                "placeholder": "New Password",
+                "hint": "8 characters minimum",
+                "requiredError": "This field is required",
+                "invalidError": "Password must contain at least 8 characters"
+            },
+            "confirmPassword": {
+                "label": "Confirm New Password",
+                "placeholder": "Confirm New Password",
+                "requiredError": "This field is required",
+                "invalidError": "Please, make sure your passwords match."
+            },
+            "save": "Save changes",
+            "saving": "Saving changes...",
+            "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience.",
+            "samePasswordError": "The new password must be different from the current password.",
+            "success": "Password changed successfully."
+        }
+    },
+    "ModulesPage": {
+        "pageTitle": "Explore the Academy digital learning platform with 8 interactive e-modules",
+        "section": "Modules",
+        "introduction": "Dive into more than 40 hours of expert-written content and thought leadership. Discover 80 infographics and 60 data visualizations that bring energy trends to life. Learn from 70 real-world case studies highlighting impactful sustainable energy solutions. Earn a certificate for every module you finish!",
+        "ModulesHeader": {
+            "title": "Explore all modules",
+            "hint": {
+                "mobile": "explore the accordions to discover the modules.",
+                "desktop": "Click on the wheel or explore the accordions to discover the modules."
+            },
+            "modes": {
+                "linear": "Linear mode",
+                "network": "Network mode"
+            },
+            "legend": {
+                "toc": {
+                    "title": "Types of content",
+                    "lesson": "Lesson",
+                    "takeaways": "Takeaways",
+                    "quiz": "Quiz"
+                },
+                "progress": {
+                    "title": "Progress",
+                    "todo": "To do",
+                    "inProgress": "In progress",
+                    "completed": "Done"
+                }
+            }
+        },
+        "LessonList": {
+            "ModulePreview": {
+                "ChapterPreviewCard": {
+                    "segment": "Chapter"
+                },
+                "ModulePreviewHeader": {
+                    "module": "Module",
+                    "chapters": "Chapters",
+                    "time": "Estimated time",
+                    "notStarted": "Not started",
+                    "completion": "completion"
+                }
+            }
+        },
+        "ModulePreview": {
+            "startModule": "Start the module",
+            "choose": "or choose a chapter:"
+        }
+    },
+    "ResourcesPage": {
+        "pageTitle": "Download Resources Page",
+        "section": "Resources",
+        "publications": "Publications and bulletins by SEH",
+        "press": "UNDP CO Press releases",
+        "allResources": "All publications and resources",
+        "viewMore": "View more",
+        "ArticlePreview": {
+            "readMore": "Read more"
+        }
+    },
+    "KnowledgeGraphPage": {
+        "pageTitleDesktop": "Sustainable Energy AI",
+        "pageTitleMobile": "Energy AI",
+        "chatInputPlaceholder": "Ask a question",
+        "graphInputPlaceholder": "Search keyword",
+        "searchAriaLabel": "Search keyword",
+        "sendMessageAriaLabel": "Submit question asked",
+        "readAloud": "Read last paragraph",
+        "referencesTitle": "References",
+        "referencesSubtitle": "References",
+        "chatErrorMessage": "We’re experiencing technical issues. Please try again later. Thank you for your patience.",
+        "closeReferencesAriaLabel": "Close references tab",
+        "mobileInfoAriaLabel": "Open the information panel",
+        "mobileInfoTitle": "Energy AI - Info",
+        "mobileInfoText": "Leverage AI and knowledge graphs to explore sustainable energy transition strategy and insights from a custom database of energy publications and policies.",
+        "mobileSuggestionLabel": "Suggested questions",
+        "mobileInfoCloseAriaLabel": "Close information panel",
+        "mobileSuggestionsAriaLabel": "Open the suggestion panel",
+        "mobileSuggestionsTitle": "Energy AI - Suggested Questions",
+        "mobileSuggestionsCloseAriaLabel": "Close suggestions panel",
+        "chatTabLabel": "Chat",
+        "graphTabLabel": "Knowledge Graph",
+        "closeAriaLabel": "Close knowledge graph model",
+        "nodeSubmitIntroText": "Tell me more about ",
+        "defaultIdeas": [
+            "How can better just transition unlock inclusive energy systems that support health-related development in Sub-Saharan Africa?",
+            "How is Sub-Saharan Africa leveraging governance to expand renewable energy access for vulnerable communities in the education domain?",
+            "Which cross-sector partnerships could enhance governance and strengthen sustainable energy outcomes in Eastern Europe, particularly for gender equality?",
+            "How is Middle East and North Africa leveraging capacity building to expand renewable energy access for vulnerable communities in the climate adaptation domain?",
+            "What role does governance play in advancing sustainable energy in the energy access sector across Middle East and North Africa?",
+            "How is Latin America and the Caribbean leveraging just transition to expand renewable energy access for vulnerable communities in the climate adaptation domain?",
+            "Which cross-sector partnerships could enhance governance and strengthen sustainable energy outcomes in Global North vs Global South, particularly for education?",
+            "What are the political and economic trade-offs of scaling sustainable energy in the transport sector of Central Asia with current innovation frameworks?",
+            "What lessons can Central Asia teach the world about just transition-based solutions for clean energy in energy access?",
+            "Analyze the intersection of gender equality, just transition, and energy justice in the context of Sub-Saharan Africa's development priorities.",
+            "Explore opportunities for accelerating the energy transition in Pacific Islands' transport sector by investing in technology.",
+            "Explore opportunities for accelerating the energy transition in Small Island Developing States\u2019s transport sector by investing in governance.",
+            "What role does infrastructure play in advancing sustainable energy in the energy access sector across Eastern Europe?",
+            "Evaluate the effectiveness of governance-driven approaches to integrating clean energy into energy access systems in Small Island Developing States.",
+            "What are the political and economic trade-offs of scaling sustainable energy in the finance sector of Southeast Asia with current data frameworks?",
+            "How is South Asia leveraging infrastructure to expand renewable energy access for vulnerable communities in the health domain?",
+            "Analyze the intersection of climate adaptation, infrastructure, and energy justice in the context of development priorities in the Asia-Pacific region.",
+            "What role does governance play in advancing sustainable energy in the transport sector across Middle East and North Africa?",
+            "How is Latin America and the Caribbean leveraging just transition to expand renewable energy access for vulnerable communities in the transport domain?",
+            "How is Middle East and North Africa leveraging innovation to expand renewable energy access for vulnerable communities in the transport domain?",
+            "Explore opportunities for accelerating the energy transition in Global North vs Global South's climate adaptation sector by investing in policy.",
+            "Evaluate the effectiveness of governance-driven approaches to integrating clean energy into industry systems in South Asia.",
+            "What lessons can Pacific Islands teach the world about policy-based solutions for clean energy in energy access?",
+            "Evaluate the effectiveness of governance-driven approaches to integrating clean energy into health systems in South Asia.",
+            "Analyze the intersection of agriculture, just transition, and energy justice in the context of Pacific Islands's development priorities.",
+            "Analyze the intersection of education, governance, and energy justice in the context of Latin America and the Caribbean development priorities.",
+            "What role does infrastructure play in advancing sustainable energy in the energy access sector across Small Island Developing States?",
+            "What lessons can Small Island Developing States teach the world about just transition-based solutions for clean energy in health?",
+            "How is Small Island Developing States leveraging governance to expand renewable energy access for vulnerable communities in the education domain?",
+            "What is the socio-economic and environmental impact of the rising demand for critical minerals on Indigenous communities?",
+            "How can we enhance energy security through diversified energy sources while ensuring affordability and reliability for underserved communities?",
+            "What strategies or policies can mitigate geopolitical risks affecting energy supply chains and global energy security?",
+            "Insights into innovative technological solutions or practices that enhance energy storage and reduce vulnerability to supply disruptions?",
+            "What are the human security implications of energy poverty and how can these be addressed through sustainable energy initiatives?",
+            "How do energy-related policies impact displacement patterns and migration, particularly in regions prone to energy shortages or environmental degradation?",
+            "How are feed-in-tariffs determined, and can I negotiate a tariff as an independent power producer?",
+            "Who are the main providers of concessional and blended finance to renewable energy projects, and what kinds of instruments do they provide? How would a project developer engage with them to secure financial support?",
+            "As a minigrid operator, what are the best ways to ensure that average revenue per user is high enough to meet costs and make me money? Are there ways I can better structure my business to ensure revenue is high enough to offset costs?",
+            "How should I approach deciding if my energy service business should leverage with debt or raise equity instead? What are the tradeoffs in the specific context of an energy business? (this could be adapted to any kind of business model in the energy space: SHS, e-mobility, data service, minigrid, IPP, etc.)",
+            "What is IRR, and why is it important to an energy business? How do investors deal with or think about IRR? ",
+            "Explore publications and datasets to identify community-led initiatives addressing energy access challenges. Provide information on the effectiveness of such initiatives, key factors contributing to their success, and any replicable models for empowering communities in ensuring sustainable energy access.",
+            "Gather insights from publications and datasets on strategies and interventions to address energy poverty in urban areas. Explore the role of smart technologies, urban planning, and community engagement in ensuring equitable access to sustainable energy sources.",
+            "How can innovative financial instruments support the LAC region to finance the energy transition?",
+            "What are the current trends in renewable energy investment in developing countries?",
+            "What is the annual capacity addition of renewable energy needed to achieve the targets set in the Paris Agreement?",
+            "How is the increasing demand for renewable energy technology correlated with the demand for critical minerals?",
+            "What are the best practices in incorporating community engagement and participation in energy policy formulation to ensure social inclusivity and equity?",
+            "Explain the concept of decentralized energy systems and how they differ from traditional centralized models.",
+            "Explore the role of microgrids in enhancing the efficiency and reliability of decentralized energy systems.",
+            "What is the potential roles and risks for AI to advance sustainable energy transitions?"
+        ],
+        "ideasLength": "50",
+        "chatWelcomeMessage": "Ask a question or choose a<br/>suggestion below to get started!",
+        "graphNoDataMessage": "Interact with the chat to<br/> explore the knowledge graph",
+        "inputMinLabel": "8 characters minimum",
+        "preResearchMessage": "Explore the Knowledge Graph and AI on a specific topic.",
+        "noKeywordsFoundMessage": "No keywords found. Please try a different search term."
+    },
+    "SuggestedLessonCard": {
+        "module": "Module",
+        "chapter": "Chapter",
+        "lesson": "Lesson",
+        "resume": "Resume",
+        "start": "Start"
+    },
+    "LessonsProgress": {
+        "title": "Your lessons progress",
+        "completed": "Completed",
+        "started": "Started",
+        "notStarted": "Not Started"
+    },
+    "ModulesProgress": {
+        "title": "Completed Modules"
+    },
+    "KeywordsProgress": {
+        "title": "Yours Skills for keyword",
+        "legend": "Number of lessons completed per keyword."
+    },
+    "404Page": {
+        "title": "Page not found",
+        "body": "We can’t seem to find the page you’re looking for. Try going back to the previous page or to the homepage.",
+        "back": "Back to Home"
+    },
+    "LessonHeader": {
+        "triggerAriaLabel": "Open the menu",
+        "aiAriaLabel": "Ask a question to the energy AI",
+        "expandMenu": "Expand menu",
+        "collapseMenu": "Collapse menu",
+        "module": "Module",
+        "chapters": "Chapters",
+        "lessonsCompleted": "Lessons completed"
+    },
+    "Templates": {
+        "module": "Module",
+        "chapter": "Chapter",
+        "lesson": "Lesson",
+        "part": "Part"
+    },
+    "ImageHotspot": {
+        "imgAriaLabel": "Close description box",
+        "hotspotAriaLabel": "Show detail",
+        "hotspotAriaLabelTitle": "Show detail about {title}"
+    },
+    "ErrorMessage": {
+        "title": "Oops!",
+        "subtitle": "Something went wrong",
+        "body": "An error occurred while loading the page. Please try again later.",
+        "backToModules": "Back to Academy",
+        "backToHome": "Back to Home"
+    },
+    "SignOutButton": {
+        "signOut": "Sign out"
+    },
+    "LessonDesktopMenu": {
+        "toggleMenu": "Toggle menu"
+    },
+    "UserProgressGraph": {
+        "completedLessons": "Completed Lessons",
+        "completedModules": "Completed Modules"
+    },
+    "FinalCertificate": {
+        "title": "Your Certificates",
+        "body": "Earn a certificate for each module you complete. Complete all eight to unlock your full course certificate, showcase your dedication to the Just Energy Transition, and add it to your LinkedIn profile to boost your professional impact.",
+        "inProgress": "Module progress",
+        "download": "Download certificate"
+    },
+    "ModuleCertificate": {
+        "module": "Module",
+        "completed": "completed!",
+        "inProgress": "in progress",
+        "download": "Download certificate"
+    },
+    "ForgotPasswordPage": {
+        "title": "Forgot your password?",
+        "instructions": "Enter your email address below, and we'll send you a link to reset your password.",
+        "cancel": "Cancel",
+        "RequestPasswordResetForm": {
+            "requiredError": "This field is required",
+            "invalidError": "Please enter a valid email address",
+            "emailLabel": "Email",
+            "emailPlaceholder": "john.doe@undp.com",
+            "submit": "Request reset password link",
+            "submitting": "Requesting link...",
+            "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience.",
+            "successMessage": "<bold>Success!</bold> If the email address you entered is associated with an account, you will receive a link to reset your password shortly."
+        }
+    },
+    "ResetPasswordPage": {
+        "title": "Create a new password",
+        "cancel": "Cancel",
+        "ResetPasswordForm": {
+            "requiredError": "This field is required",
+            "invalidError": "Password must contain at least 8 characters",
+            "mismatchError": "Please, make sure your passwords match.",
+            "genericError": "We’re experiencing technical issues. Please try again. Thank you for your patience.",
+            "successMessage": "Your password has been reset successfully. You can now <signin>sign in with your new password.</signin>",
+            "submit": "Create new password",
+            "submitting": "Creating new password...",
+            "newPasswordLabel": "New Password",
+            "newPasswordPlaceholder": "New Password",
+            "confirmPasswordLabel": "Confirm New Password",
+            "confirmPasswordPlaceholder": "Confirm New Password"
+        }
+    },
+    "LessonClientWrapper": {
+        "promptPrefix": "Please provide more context on"
+    },
+    "KgTrigger": {
+        "prompt": "Ask the energy AI: {term}"
+    },
+    "LessonMenuItem": {
+        "expand": "Expand {chapter}"
+    },
+    "DataModel": {
+        "title": "Sustainable Energy Interactive Models",
+        "targetReached": "Target reached",
+        "targetNotReached": "Target not reached"
     }
-  },
-  "ResourcesPage": {
-    "pageTitle": "Download Resources Page",
-    "section": "Resources",
-    "publications": "Publications and bulletins by SEH",
-    "press": "UNDP CO Press releases",
-    "allResources": "All publications and resources",
-    "viewMore": "View more",
-    "ArticlePreview": {
-      "readMore": "Read more"
-    }
-  },
-  "SuggestedLessonCard": {
-    "module": "Module",
-    "chapter": "Chapter",
-    "lesson": "Lesson",
-    "resume": "Resume",
-    "start": "Start"
-  },
-  "LessonsProgress": {
-    "title": "Your lessons progress",
-    "completed": "Completed",
-    "started": "Started",
-    "notStarted": "Not Started"
-  },
-  "ModulesProgress": {
-    "title": "Completed Modules"
-  },
-  "KeywordsProgress": {
-    "title": "Yours Skills for keyword",
-    "legend": "Number of lessons completed per keyword."
-  },
-  "404Page": {
-    "title": "Page not found",
-    "body": "We can’t seem to find the page you’re looking for. Try going back to the previous page or to the homepage.",
-    "back": "Back to Home"
-  },
-  "LessonHeader": {
-    "triggerAriaLabel": "Open the menu"
-  },
-  "Templates": {
-    "module": "Module",
-    "chapter": "Chapter",
-    "lesson": "Lesson",
-    "part": "Part"
-  },
-  "ImageHotspot": {
-    "imgAriaLabel": "Close description box",
-    "hotspotAriaLabel": "Show detail",
-    "hotspotAriaLabelTitle": "Show detail about {title}"
-  },
-  "ErrorMessage": {
-    "title": "Oops!",
-    "subtitle": "Something went wrong",
-    "body": "An error occurred while loading the page. Please try again later.",
-    "backToModules": "Back to Academy",
-    "backToHome": "Back to Home"
-  },
-  "SignOutButton": {
-    "signOut": "Sign out"
-  },
-  "LessonDesktopMenu": {
-    "toggleMenu": "Toggle menu"
-  },
-  "UserProgressGraph": {
-    "completedLessons": "Completed Lessons",
-    "completedModules": "Completed Modules"
-  }
 }
