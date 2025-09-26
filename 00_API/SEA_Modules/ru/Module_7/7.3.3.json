@@ -10,12 +10,12 @@
           "caption": ""
         },
         "lesson": {
-          "label": "Lesson",
+          "label": "Урок",
           "number": "3"
         },
-        "title": "Applied Machine Learning in Energy Data",
+        "title": "Прикладное машинное обучение в энергетических данных",
         "cta": "",
-        "intro": "M1: Introduction to Sustainable Energy System Transformation"
+        "intro": "M1: Введение в преобразование систем устойчивой энергетики"
       }
     },
     {
@@ -26,144 +26,283 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Lesson 3 Overview</strong>"
+              "text": "<strong>Обзор урока 3</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "This section is an introduction to the role of Machine Learning (ML) in energy policy, with a focus on structured data, supervised and unsupervised learning, and ethical considerations. It explains how ML models are trained using labeled data and test/train splits and how these models can support evidence-based policymaking in areas like energy access, consumption forecasting, and environmental impact.<br />The lesson moves from foundational ML concepts to specific applications, such as using Random Forests for <ai prompt=\"Clarify solar energy.\">solar energy 💬️</ai> prediction and clustering for industrial emissions profiling. It concludes by exploring the limitations and ethical concerns tied to ML in public policy, including data bias, transparency, privacy, and explainability, and highlights best practices such as Privacy by Design, Explainable AI, and regulatory sandboxes."
+              "text": "Этот раздел представляет собой введение в роль машинного обучения (ML) в энергетической политике, с акцентом на структурированные данные, контролируемое и неконтролируемое обучение, а также этические соображения. Объясняется, как модели машинного обучения обучаются на размеченных данных и разделениях тест/обучение, а также как эти модели могут поддерживать принятие решений на основе доказательств в таких областях, как доступ к энергии, прогнозирование потребления и экологическое воздействие.<br />Урок переходит от базовых концепций машинного обучения к конкретным приложениям, таким как использование случайных лесов для <ai prompt=\"Share details about solar energy.\">прогнозирования солнечной энергии 💬️</ai> и кластеризации для профилирования промышленных выбросов. Он завершает исследованием ограничений и этических вопросов, связанных с машинным обучением в области государственной политики, включая предвзятость данных, прозрачность, конфиденциальность и объяснимость, а также выделяет лучшие практики, такие как Privacy by Design, Explainable AI и регуляторные песочницы."
             }
           }
         ]
       }
     },
     {
-      "template_id": "embed",
-      "size": "full",
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
       "content": {
-        "title": "Share of all deaths altributed to sub-optimal lemperatures",
-        "url": "https://ourworldindata.org/grapher/temp-deaths-zhao"
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_6.png",
+          "caption": ""
+        },
+        "intro": "M7: Данные в области устойчивой энергетики",
+        "title": "A: ML для политики, основанной на данных"
       }
     },
     {
-      "template_id": "embed",
-      "size": "full",
+      "template_id": "text",
+      "color_scheme": "light",
       "content": {
-        "title": "Share of the population with access to electricity, 2023 - TABLE",
-        "url": "https://archive.ourworldindata.org/20250916-100934/grapher/share-of-the-population-with-access-to-electricity.html?tab=table&time=earliest..2023"
-      }
-    },
-    {
-      "template_id": "embed",
-      "size": "full",
-      "content": {
-        "title": "Share of the population with access to electricity, 2023 - LINE CHART",
-        "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity?tab=line"
-      }
-    },
-    {
-      "template_id": "embed",
-      "size": "full",
-      "content": {
-        "title": "Share of the population with access to electricity, 2023 - FULL CHART",
-        "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity"
-      }
-    },
-    {
-      "template_id": "flashcards",
-      "content": {
-        "title": "Impacts of Solar Power",
-        "description": "The environmental impact of solar energy includes several factors, primarily land use and greenhouse gas emissions from the manufacturing and transportation of panels. Additionally, the use of hazardous materials in production processes contributes to solar power environmental footprint.",
-        "cards": [
+        "text_elements": [
           {
-            "image": {
-              "url": "https://www.pv-tech.org/wp-content/uploads/2021/02/20071029151252_08_Polysilicon_solar_cell-1024x739.jpg",
-              "altText": "Polysilicon solar cell"
-            },
-            "title": "Hazardous material",
-            "body": "The Photo Voltaics (PV) manufacturing process akin to most clean energy technology involves hazardous materials like acids and chemicals, posing risks to workers and potential environmental threats if not handled and disposed of properly.  Additionally, thin-film PV cells contain more toxic materials, emphasizing the importance of proper management to avoid environmental and health hazards (National Renewable Energy Laboratory, 2012)."
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Машинное обучение</strong>",
+              "body": "Машинное обучение, как обычно определено Google для разработчиков, означает «<strong>процесс обучения программного обеспечения, называемого моделью, для выполнения полезных предсказаний или генерации контента (таких как тексты, изображения, аудио или видеофайлы) из данных.</strong>» Более конкретно, модели, которые могут генерировать тексты, изображения, аудио или видео, обычно называют моделями генеративного ИИ или моделями Gen-AI. Традиционные/обычные модели машинного обучения пытаются предсказать значения переменных интереса (процесс, называемый регрессией), или предсказать принадлежность к определенному классу (процесс, называемый классификацией) на основе атрибутов данных (называемых признаками)."
+            }
           },
           {
-            "image": {
-              "url": "https://drive.google.com/file/d/1d8UVIkRKkl9_m6EQc5ASte53Eze6AVw9/view?usp=sharing",
-              "altText": "Solar-panel-land-use"
-            },
-            "title": "Land use",
-            "body": "Solar power generation requires large areas of land for solar panel installations, potentially leading to habitat destruction and loss of biodiversity. Reports indicate that solar systems, including PV and Concentrated Solar Power (CSP), have high energy land-use intensity compared to other energy technologies, with projected substantial land requirements for future growth (Van de Ven et al., 2021) The potential land requirements and related land use change emissions of solar energy. Innovative approaches like dual-angle solar arrays may mitigate land use impact."
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Типы данных</strong>",
+              "body": "Модели машинного обучения обычно обучаются на данных. Форматы данных, на которых обучаются такие модели, делятся на две основные категории; структурированные данные, которые относятся к организованным данным, которые можно фильтровать и сортировать, а также неструктурированные данные, такие как изображения, тексты, аудиофайлы."
+            }
           },
           {
-            "image": {
-              "url": "https://as2.ftcdn.net/v2/jpg/14/60/04/79/1000_F_1460047920_DdKDGBoXHhErEhUQUiMSISTbwUdypUat.jpg",
-              "altText": "Flat hydro-solar scene with PV rafts, pump house, and coral lagoon"
-            },
-            "title": "Water consumption",
-            "body": "Water usage varies depending on plant design and cooling technology, with CSP plants requiring significant amounts of water for cooling, albeit with alternatives like dry cooling to reduce consumption (Tawalbeh et al., 2020)."
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Обучение с учителем</strong>",
+              "body": "Модели обученного с контролем пытаются понять взаимосвязь между предикторными переменными и переменной интереса, результатом, который нужно предсказать. При обучении модели машинного обучения доступные данные делятся на обучающий набор (где параметры модели оцениваются по предсказательной ошибке) и тестовый набор, где модель оценивается на данных, которые она не видела. Это называется разделением на обучающую и тестовую выборки."
+            }
           }
         ]
       }
     },
     {
-      "template_id": "poll",
+      "template_id": "text",
+      "color_scheme": "light",
       "content": {
-        "pollId": "example-poll-id",
-        "title": "Poll 1 – Ethics & Governance",
-        "description": "In your view, what is the biggest ethical challenge in using digital data (e.g., smart meters, mobile data) for energy policy?",
-        "options": [
+        "text_elements": [
           {
-            "id": 1,
-            "value": "Ensuring privacy and consent"
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Меткированные наборы данных</strong>",
+              "body": "Для задач классификации, где наблюдения размещаются в классы/категории на основе определённых атрибутов, набор данных с фактическими классификациями маркируется в соответствии с их фактическим принадлежностью к классу. Такой набор называется маркированным набором, который может быть структурированным, неструктурированным и должен быть разделен на обучающие и тестовые наборы."
+            }
           },
           {
-            "id": 2,
-            "value": "Avoiding algorithmic bias and exclusion"
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Компромисс между смещением и дисперсией</strong>",
+              "body": "При обучении моделей машинного обучения на обучающих и тестовых данных специалисты по данным следят за тем, чтобы модель не была чрезмерно сложной и не слишком точно подгонялась под данные (что называется переобучением), а также чтобы модель не была слишком упрощенной, чтобы постоянно неправильно предсказывать интересующую переменную (называется недообучением), это равновесие в модели следует принципу, называемому компромиссом смещения и дисперсии."
+            }
           },
           {
-            "id": 3,
-            "value": "Building public trust and transparency"
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Возможные применения</strong>",
+              "body": "Ознакомившись с техническими характеристиками, потенциальные применения политики бесконечны! Выдающиеся применения машинного обучения в энергетической политике включают прогнозирование выработки энергии из проектов возобновляемой энергетики (вставьте пример?), обнаружение домохозяйств без доступа к электроэнергии с помощью спутниковых изображений,"
+            }
           }
-        ],
-        "labels": {
-          "submit": "Submit",
-          "cancel": "Cancel",
-          "edit": "Edit your response",
-          "votingAs": "Voting as"
-        }
+        ]
       }
     },
     {
-      "template_id": "poll",
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
       "content": {
-        "pollId": "example-poll-id",
-        "title": "Poll 2 – Monitoring & Evaluation",
-        "description": "When tracking progress in energy access, which type of indicator provides the most actionable insights?",
-        "options": [
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_7.png",
+          "caption": ""
+        },
+        "intro": "M7: Данные в области устойчивой энергетики",
+        "title": "B: Обучение с учителем и без учителя для энергетики"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
           {
-            "id": 1,
-            "value": "Technical/engineering data (e.g., installed capacity, reliability)"
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Деревья-основанные алгоритмы</strong>",
+              "body": "Популярным примером алгоритмов с контролируемым обучением являются алгоритмы на основе деревьев, такие как деревья классификации (также известные как деревья решений) и деревья регрессии. Алгоритмы на основе деревьев работают, разделяя признаки на регионы и делая прогнозы для региона пространства признаков, как показано ниже."
+            }
           },
           {
-            "id": 2,
-            "value": "Social outcomes (e.g., time savings, health impacts)"
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Деревья-алгоритмы для энергии</strong>",
+              "body": "В области энергетической политики были использованы деревья решений и регрессии для формирования основанной на доказательствах политики. Один из таких сценариев был в Кении, где, учитывая длину линий среднего напряжения, линий низкого напряжения, распределительную мощность, мощность подстанций, а также общее число потребителей, исследователи могут оценить стоимость проекта. Ниже приведено сокращенное визуальное представление дерева регрессии."
+            }
           },
           {
-            "id": 3,
-            "value": "Economic metrics (e.g., affordability, job creation)"
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Случайные леса</strong>",
+              "body": "Однако распространенной проблемой с деревьями классификации и регрессии является переобучение, простым решением является оценка нескольких деревьев и усреднение их предсказаний, этот метод, называемый случайным лесом, является элегантным методом, устойчивым к переобучению, ниже предоставлена дополнительная визуальная помощь:"
+            }
           }
-        ],
-        "labels": {
-          "submit": "Submit",
-          "cancel": "Cancel",
-          "edit": "Edit your response",
-          "votingAs": "Voting as"
-        }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Случайные леса для потребления энергии</strong>",
+              "body": "С помощью алгоритма случайного леса Ахмад, Рейнольдс и Резгуи (2018) могут предсказать часовую полезную солнечную тепловую энергию для солнечной тепловой электростанции в Шамбери, Франция. Используя солнечную радиацию, температуру окружающей среды, температуры входа и выхода теплообменной жидкости в солнечной тепловой электростанции, расход теплоносителя, а также переменные, связанные со временем, делаются прогнозы. Увеличение инвестиций и интереса к использованию современных методов машинного обучения в прогнозировании проектов возобновляемой энергии позволяет эффективно планировать, повышать стабильность сети и более информированно подходить к устойчивой интеграции возобновляемых источников энергии в энергетический микс."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>МЛ для академической среды</strong>",
+              "body": "Таким образом, использование моделей машинного обучения для прогнозирования потребления энергии привлекло внимание научного сообщества, некоторые исследователи используют их вместе с классическими эконометрическими моделями (Nie et al., 2021) или в качестве альтернативы чисто статистическим моделям (Tso et al., 2007)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_6.png",
+          "caption": ""
+        },
+        "intro": "M7: Данные в области устойчивой энергетики",
+        "title": "C: Приложения контролируемого обучения"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Анализ главных компонент и кластеризация K-means</strong>",
+              "body": "Как уже упоминалось, обучение без учителя пытается понять лежащую в основе структуру данных, а не пытаться предсказать результаты. Этот тип понимания нашел свое место в современной энергетической политике. Два основных алгоритма машинного обучения без учителя, которые встречаются в литературе, — это кластеризация k-means и алгоритмы анализа главных компонент."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Применения обучения без учителя</strong>",
+              "body": "Еще одна область, в которой модели ML получили повышенное использование, — это оценка и классификация домохозяйств с неофициальным доступом к энергии. Неформальный доступ к энергии означает энергию, которая не поступает из национальной сети, неформальный доступ к энергии охватывает такие источники, как биомасса, бытовые генераторы, нерегулируемая солнечная энергия. Такой доступ к энергии обычно дороже и менее надежен. Умение оценивать и классифицировать домохозяйства с неформальным доступом значительно помогает правительству лучше ориентировать развитие недостаточно развитых районов через программы электрификации, обеспечивать лучший возврат инвестиций за доллар, а также предоставлять политикам ясную картину о том, какие сообщества могут испытывать трудности."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Clustering for Energy</strong>",
+              "body": "Кластеризация направлена на группировку наблюдений в несколько групп - или кластеров - путём минимизации суммы квадратов расстояний каждого члена кластера до центра кластера. Это позволяет аналитикам группировать наблюдения на основе их характеристик. В контексте энергетической политики, Лю и др. (2018) изучили 15129 компаний, зарегистрированных на фондовых рынках SSE и SZSE. Анализируя потребление воды и угля как между отраслями, так и внутри них, и группируя их в компании с высоким, низким и средним потреблением, Лю и др. смогли определить области с высоким уровнем загрязнения, такие как химическое производство, генерация тепла и электроэнергии, в отличие от противоречиво низкоэмиттирующих, таких как текстильная промышленность и цветные металлы. Такие исследования позволяют политикам сравнивать отрасли, что способствует лучшему долгосрочному планированию."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>PCA</strong>",
+              "body": "<strong>Анализ главных компонент</strong>, с другой стороны, сосредоточен на снижении размерности, и, следовательно, на представлении пространства высокой размерности (или большого количества признаков) с помощью меньшего, более репрезентативного пространства. В области энергетики это позволяет снизить вычислительные затраты, уменьшая размер набора данных, а следовательно, и вычислочную нагрузку. Кроме того, PCA позволяет визуализировать сложные динамики в двумерном или трехмерном пространстве, <br>при этом сохраняя важные структуры."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>PCA для энергии</strong>",
+              "body": "<strong>Анализ главных компонентов</strong>, также может использоваться для распределения весов на основе данных, а не субъективных весов в индексах, предоставляя более объективный метод оценки. Простой пример случая взят из Al Albsahi и др. работа al по Индексу энергетической трилеммы, индексу, который использует 13 показателей, связанных с энергетической безопасностью, энергетической справедливостью и экологической устойчивостью, чтобы ранжировать страны по их ETI. Весовые коэффициенты, присвоенные разделам энергетической безопасности, энергетической справедливости и экологической устойчивости, хотя и предоставлены экспертами, остаются субъективными. Применяя PCA к 13 метрикам в один индекс, эти исследователи могут найти распределение весов, которое лучше всего объясняет данные. Таким образом, они приходят к выводам, отличающимся от традиционной оценки ETI, и ставят Норвегию на первое место в своем пересмотренном индексе вместо Швейцарии. Это имеет многочисленные последствия в отношении энергетической политики, смещаясь от субъективной оценки к более основанным на доказательствах оценкам."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_5.png",
+          "caption": ""
+        },
+        "intro": "M7: Данные в области устойчивой энергетики",
+        "title": "D: Ограничения и этика машинного обучения для энергетики"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Введение</strong>",
+              "body": "Хотя использование машинного обучения в разработке энергетической политики и энергетических данных в целом принесло пользу более широкому сообществу, а также позволило лучше контролировать и более эффективно управлять, возникают важные этические вопросы, связанные с затронутыми населениями, их правом на конфиденциальность и последствиями использования ИИ в контекстах политики."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Представительность данных<br /></strong>",
+              "body": "Ключевая проблема в машинном обучении для политики — это репрезентативность данных, в смысле, насколько хорошо они обобщаются на более широкие контексты. Интуитивный пример, который приходит на ум, — это алгоритм машинного обучения, обученный на исторических данных из богатых районов. Этот сценарий представляет собой несколько проблем, основанных на различных сценариях. Например, в ценообразовании алгоритм машинного обучения, обученный на данных богатых районов, может плохо обобщаться на менее обеспеченные районы. Это в основном подкрепляется важным осознанием того, что области с недостатком энергии и области с доступом к энергии имеют принципиально разные модели использования. Простой способ представить это — использование умных устройств. В то время как состоятельные домохозяйства могут иметь доступ к технологиям, снижающим потребление в пиковые часы, менее обеспеченные домохозяйства могут не иметь доступа к такому оборудованию и вынуждены платить пиковые цены, что способствует неравному доступу к доступной энергии."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Конфиденциальность, объяснимость и этичное машинное обучение</strong>",
+              "body": "Дополнительные этические вопросы при применении машинного обучения к энергетической политике связаны как с чувствительностью собираемой информации, так и с тем, как она используется. Простым способом понять это является то, что при использовании умных счетчиков, в зависимости от детализации собираемых данных, могут быть раскрыты личные шаблоны, такие как когда человек находится дома, когда он выполняет различные действия. Кроме того, возникают этические вопросы, когда данные собираются у людей и используются для обучения алгоритмов, которые они не могут понять, таких как внутренние механизмы нейронных сетей. Эти концепции привели к возникновению областей этики по проектированию (EbD), конфиденциальности по проектированию (PbD) и объяснимого искусственного интеллекта (XAI). PbD включает встроенные меры защиты конфиденциальности без ущерба для функциональности с помощью таких мер, как анонимизация и сбор минимальных данных. EdB включает принципы информированного согласия, владения данными и инклюзивности в свою философию дизайна. Наконец, XAI позволяет гражданам понять, какие переменные наиболее влияют на предсказания модели, даже когда модели сложны, примером является включение мер SHAP (SHapley Additive exPlanations), которые демонстрируют вклад конкретных признаков в предсказания."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Будущие начинания</strong>",
+              "body": "Продолжающиеся глобальные усилия в области политики конфиденциальности данных, регулирующие трансграничные потоки данных, и глобальные усилия по стандартизации процедур доступа к данным прокладывают путь для более справедливого использования данных в приложениях, направленных на повышение справедливого доступа к энергии."
+            }
+          }
+        ]
       }
     },
     {
       "template_id": "key_takeaways",
       "color_scheme": "dark",
       "content": {
-        "title": "Key Takeaways",
+        "title": "Ключевые выводы",
         "intro": "",
         "takeaways": [
           {
@@ -171,24 +310,24 @@
               "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_13.png",
               "caption": ""
             },
-            "title": "ML enables smarter energy planning through both prediction and pattern recognition",
-            "description": "Supervised learning methods like decision trees and Random Forests are effective for forecasting energy production or estimating infrastructure costs. Unsupervised techniques like clustering and PCA help identify hidden patterns, such as informal energy access or industrial pollution profiles, providing policymakers with deeper insights for targeted interventions."
+            "title": "Машинное обучение обеспечивает более умное планирование энергии через прогнозирование и распознавание шаблонов",
+            "description": "Методы обучения с учителем, такие как решающие деревья и случайные леса, эффективны для прогнозирования производства энергии или оценки затрат на инфраструктуру. Методы без учителя, такие как кластеризация и PCA, помогают выявить скрытые закономерности, такие как неформальный доступ к энергии или профили промышленного загрязнения, предоставляя политикам более глубокие инсайты для целенаправленных вмешательств."
           },
           {
             "image": {
               "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_7.png",
               "caption": ""
             },
-            "title": "Unsupervised ML supports evidence-based policy and index construction",
-            "description": "Techniques like PCA can reduce complexity and bias in energy-related indices by allocating weights based on data instead of expert assumptions. This enables more objective assessments of energy security, equity, and sustainability—offering policymakers new ways to benchmark progress and plan reforms."
+            "title": "Методы машинного обучения без учителя поддерживают основанную на доказательствах политику и построение индексов",
+            "description": "Техники, такие как PCA, могут снизить сложность и предвзятость в энергетических индексах, распределяя веса на основе данных вместо экспертных предположений. Это позволяет более объективно оценивать энергетическую безопасность, справедливость и устойчивость—предлагая политикам новые способы оценки прогресса и планирования реформ."
           },
           {
             "image": {
               "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_13.png",
               "caption": ""
             },
-            "title": "Ethical and governance safeguards are essential in applying ML to public policy",
-            "description": "While ML can increase efficiency and insight, risks related to data privacy, bias, and transparency must be actively managed. Approaches like Ethics by Design, Privacy by Design, and Explainable AI (e.g., SHAP values) are vital to ensure ML systems are accountable, inclusive, and equitable—especially when used in public service delivery."
+            "title": "Этические и управленческие меры предосторожности являются важными при применении машинного обучения к государственной политике",
+            "description": "Хотя машинное обучение может повысить эффективность и проницательность, связанные с этим риски, такие как конфиденциальность данных, предвзятость и прозрачность, должны активно управляться. Подходы, такие как Этика по Проекту, Конфиденциальность по Проекту и Объяснимый ИИ (например, значения SHAP), имеют важное значение для обеспечения ответственности, инклюзивности и справедливости систем машинного обучения—особенно при использовании в предоставлении государственных услуг."
           }
         ]
       }
