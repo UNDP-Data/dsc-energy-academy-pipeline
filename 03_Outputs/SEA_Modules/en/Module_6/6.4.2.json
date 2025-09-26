@@ -32,240 +32,35 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The buildings sector, which includes construction, heating, cooling, lighting, and appliances, accounts for over one-third of global energy consumption and emissions. Operations alone are responsible for 30% of global final energy use and 26% of energy-related emissions, with 8% from direct emissions and 18% from indirect emissions tied to electricity and heat production. <br />While direct emissions slightly decreased to 3 Gt in 2022, indirect emissions rose to nearly 6.8 Gt due to increased reliance on electricity. Despite some progress, the sector remains off-track to meet the <a href=\"https://www.iea.org/reports/global-energy-and-climate-model/net-zero-emissions-by-2050-scenario-nze\"><u>Net Zero Emissions by 2050 (NZE) Scenario</u></a>. Addressing this requires a concerted effort to improve <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai> and adopt renewable energy technologies."
+              "text": "The buildings sector, which includes construction, heating, cooling, lighting, and appliances, accounts for over one-third of global energy consumption and emissions. Operations alone are responsible for 30% of global final energy use and 26% of energy-related emissions, with 8% from direct emissions and 18% from indirect emissions tied to electricity and heat production. <br />While direct emissions slightly decreased to 3 Gt in 2022, indirect emissions rose to nearly 6.8 Gt due to increased reliance on electricity. Despite some progress, the sector remains off-track to meet the <a href=\"https://www.iea.org/reports/global-energy-and-climate-model/net-zero-emissions-by-2050-scenario-nze\"><u>Net Zero Emissions by 2050 (NZE) Scenario</u></a>. Addressing this requires a concerted effort to improve <ai prompt=\"Tell me more about energy efficiency.\">energy efficiency 💬️</ai> and adopt renewable energy technologies."
             }
           }
         ]
       }
     },
     {
-      "template_id": "echarts_chart",
+      "template_id": "key_concepts",
       "color_scheme": "dark",
-      "size": "full",
       "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
+        "title": "Key Concepts",
+        "intro": "Explore foundational ideas from this lesson.",
+        "concepts": [
+          {
+            "title": "energy demand for urbanization",
+            "body": "Energy demand for urbanization refers to the total amount of energy required to support the growth and development of urban areas, including residential, commercial, and infrastructure needs.",
+            "source": ""
           },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
+          {
+            "title": "green buildings",
+            "body": "Green buildings are structures designed, built, and operated to minimize their environmental impact, enhance energy efficiency, and promote the health and well-being of occupants.",
+            "source": ""
           },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#0a97d9",
-            "#dd1367",
-            "#fd6925",
-            "#fcc30b",
-            "#0468b1",
-            "#fd9d24",
-            "#c5192d",
-            "#3f7e44",
-            "#4c9f38",
-            "#19486a"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "EJ"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14,
-              "interval": 0
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "2022"
-            ],
-            "name": "Year"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "...",
-            "show": false
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "Residential",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                20.96
-              ]
-            },
-            {
-              "name": "Non-residential",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                8.76
-              ]
-            },
-            {
-              "name": "Buildings construction industry",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                3.97
-              ]
-            },
-            {
-              "name": "Other construction industry",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                3.33
-              ]
-            },
-            {
-              "name": "Other",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                62.98
-              ]
-            }
-          ],
-          "title": {
-            "text": "Final energy consumption of buildings relative to other sectors, 2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+          {
+            "title": "heating and cooling",
+            "body": "Heating and cooling refer to the processes of raising or lowering the temperature of a space to maintain comfort, typically using systems like furnaces, air conditioners, or heat pumps.",
+            "source": ""
           }
-        }
+        ]
       }
     },
     {
@@ -288,7 +83,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Despite some progress, significant opportunities remain untapped in the sector. Approximately 80% of economically viable energy efficiency measures have yet to be implemented.<br /></strong><br />Building energy codes, which are essential for driving efficiency, exist in only 44 countries, leaving 82% of the global population in countries without such standards. This is especially concerning as global floor space is projected to grow by 20% from 2020 to 2030, primarily in developing economies. Additionally, decarbonizing the sector requires more than just new standards; retrofitting existing buildings remains a major challenge due to aging infrastructure (especially in advanced economies), poor insulation, and outdated design.<br /> <br />Developing economies face the dual challenge of improving access to modern energy services, such as cooling, while simultaneously reducing emissions. Without immediate action, these regions risk becoming significant sources of energy demand and emissions growth. Policies, investments, and technologies must address this rapidly growing need while avoiding path dependencies that could hinder future <ai prompt=\"Tell me more about decarbonization.\">decarbonization 💬️</ai> efforts."
+              "text": "<strong>Despite some progress, significant opportunities remain untapped in the sector. Approximately 80% of economically viable energy efficiency measures have yet to be implemented.<br /></strong><br />Building energy codes, which are essential for driving efficiency, exist in only 44 countries, leaving 82% of the global population in countries without such standards. This is especially concerning as global floor space is projected to grow by 20% from 2020 to 2030, primarily in developing economies. Additionally, decarbonizing the sector requires more than just new standards; retrofitting existing buildings remains a major challenge due to aging infrastructure (especially in advanced economies), poor insulation, and outdated design.<br /> <br />Developing economies face the dual challenge of improving access to modern energy services, such as cooling, while simultaneously reducing emissions. Without immediate action, these regions risk becoming significant sources of energy demand and emissions growth. Policies, investments, and technologies must address this rapidly growing need while avoiding path dependencies that could hinder future <ai prompt=\"Share details about decarbonization.\">decarbonization 💬️</ai> efforts."
             }
           }
         ]
@@ -479,7 +274,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Improving energy and building system resilience is vital for vulnerable populations living in poor-quality housing. These households face disproportionate risks from climate change, energy poverty, and associated health impacts. Ensuring equitable access to energy-efficient technologies can mitigate these risks while enhancing living standards. <br /><br /><strong>Programs that lower borrowing costs for energy-efficient investments, such as government and utility initiatives, are essential. These efforts can support <ai prompt=\"What is marginalized communities?\">marginalized communities 💬️</ai>, enabling them to participate in the transition to sustainable energy while reducing energy poverty and associated vulnerabilities. </strong>"
+              "text": "Improving energy and building system resilience is vital for vulnerable populations living in poor-quality housing. These households face disproportionate risks from climate change, energy poverty, and associated health impacts. Ensuring equitable access to energy-efficient technologies can mitigate these risks while enhancing living standards. <br /><br /><strong>Programs that lower borrowing costs for energy-efficient investments, such as government and utility initiatives, are essential. These efforts can support <ai prompt=\"Explain marginalized communities.\">marginalized communities 💬️</ai>, enabling them to participate in the transition to sustainable energy while reducing energy poverty and associated vulnerabilities. </strong>"
             }
           }
         ]
@@ -535,6 +330,42 @@
             },
             "title": "Targeted Policies are Essential for Addressing Energy Poverty.",
             "description": "Vulnerable populations living in poor-quality housing are disproportionately affected by energy poverty and climate change impacts. To improve sustainability and living standards, targeted policies, innovative financing mechanisms, and government programs are necessary to ensure access to energy-efficient housing and technologies. This approach will help mitigate risks while enhancing overall resilience in the face of climate challenges."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Resources",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6421.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Developing a Global Energy Efficiency Workforce in the Buildings Sector",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6422.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Technology and Innovation Pathways for Zero-carbon-ready Buildings by 2030",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6423.png",
+              "caption": ""
+            },
+            "href": "OECD",
+            "text": "Global Monitoring of Policies for Decarbonising Buildings",
+            "cta": "Click to download"
           }
         ]
       }

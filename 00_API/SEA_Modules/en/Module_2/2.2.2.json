@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Concepts",
+        "intro": "Explore foundational ideas from this lesson.",
+        "concepts": [
+          {
+            "title": "access to clean cooking",
+            "body": "Access to clean cooking refers to the availability and use of safe, efficient, and environmentally friendly cooking methods and fuels, which reduce health risks and environmental impact compared to traditional cooking practices.",
+            "source": ""
+          },
+          {
+            "title": "heating and cooling fuels and technologies",
+            "body": "Heating and cooling fuels and technologies refer to the various energy sources (like natural gas, electricity, and renewable options) and systems (such as furnaces, heat pumps, and air conditioners) used to regulate indoor temperatures for comfort and efficiency.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -182,209 +202,6 @@
       }
     },
     {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#19486a",
-            "#dd1367",
-            "#fd9d24",
-            "#c5192d",
-            "#fcc30b",
-            "#0a97d9",
-            "#fd6925",
-            "#0468b1",
-            "#3f7e44",
-            "#4c9f38"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14,
-              "interval": 0
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "2010",
-              "2020",
-              "2022"
-            ],
-            "name": "Year"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "Population (millions)"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "...",
-            "show": false
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "With access to electricity",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                3416,
-                4243,
-                4384
-              ]
-            },
-            {
-              "name": "Without access to electricity",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                145,
-                117,
-                104
-              ]
-            }
-          ],
-          "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Increases in global access to electricity in urban and rural areas, 2010, 2020, and 2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -449,228 +266,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#c5192d",
-            "#3f7e44",
-            "#fcc30b",
-            "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#0468b1",
-            "#4c9f38",
-            "#fd6925",
-            "#19486a"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14,
-              "interval": 0
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "World",
-              "Central and Southern Asia",
-              "Eastern and South eastern Asia",
-              "Sub-Saharan Africa",
-              "Western Asia and Northern Africa"
-            ],
-            "name": "Region"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "Population (millions)"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "..."
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "Annual increase in population with electricity access (Urban)",
-              "type": "bar",
-              "data": [
-                76,
-                20,
-                22,
-                21,
-                6
-              ]
-            },
-            {
-              "name": "Annual increase in population (Urban)",
-              "type": "bar",
-              "data": [
-                70,
-                17,
-                21,
-                18,
-                6
-              ]
-            },
-            {
-              "name": "Annual increase in population with electricity access (Rural)",
-              "type": "bar",
-              "data": [
-                20,
-                24,
-                -13,
-                11,
-                2
-              ]
-            },
-            {
-              "name": "Annual increase in population (Rural)",
-              "type": "bar",
-              "data": [
-                8,
-                2,
-                -16,
-                24,
-                2
-              ]
-            }
-          ],
-          "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Annual growth in electricity access and population in urban and rural areas by region, 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
-        }
       }
     },
     {
@@ -831,6 +426,17 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "content": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Videos/src/image 486.webm",
+          "poster": "https://sehseadata.blob.core.windows.net/images/Videos/poster/image 486.webp"
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -865,7 +471,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_2.png",
           "caption": ""
         }
       }
@@ -878,7 +484,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Resilient energy infrastructure plays a crucial role in post-crisis recovery. <br /><br /></strong><ai prompt=\"Clarify the undp sustainable energy hub.\">the undp sustainable energy hub 💬️</ai> (SEH) defines energy resilience in fragile contexts as the ability of individuals, communities, and systems to withstand and recover from shocks and stresses related to energy supply, demand, and access. For instance, recovery plans can include tailored strategies for sustainable and resilient energy integration, such as financing mechanisms to de-risk investments and incentivize private sector participation to address funding shortages.<br /><br />The intersection of the climate crisis and fragility underscores the need for long-term resilience planning. For example, integrating renewable energy into health systems during crises, as demonstrated in past outbreaks like COVID-19, has shown that sustainable energy can simultaneously address immediate needs and create pathways for green recovery.<br /><br />Energy access in fragile and conflict contexts requires targeted interventions that combine immediate solutions with long-term sustainable strategie<strong>s. Decentralized renewable energy systems</strong>—such as solar home systems, mini-grids, solar-powered water pumps, and portable clean energy units—<strong>offer adaptable and rapidly deployable solutions that can operate independently of vulnerable central grids. <br /></strong><br />These systems can be well-suited for remote or insecure areas where infrastructure is damaged or non-existent. By scaling such technologies, fostering innovative financing mechanisms, and embedding energy resilience into broader recovery and development strategies, it is possible to mitigate the impacts of crises and ensure more reliable support for vulnerable populations."
+              "text": "<strong>Resilient energy infrastructure plays a crucial role in post-crisis recovery. <br /><br /></strong><ai prompt=\"What is the undp sustainable energy hub?\">the undp sustainable energy hub 💬️</ai> (SEH) defines energy resilience in fragile contexts as the ability of individuals, communities, and systems to withstand and recover from shocks and stresses related to energy supply, demand, and access. For instance, recovery plans can include tailored strategies for sustainable and resilient energy integration, such as financing mechanisms to de-risk investments and incentivize private sector participation to address funding shortages.<br /><br />The intersection of the climate crisis and fragility underscores the need for long-term resilience planning. For example, integrating renewable energy into health systems during crises, as demonstrated in past outbreaks like COVID-19, has shown that sustainable energy can simultaneously address immediate needs and create pathways for green recovery.<br /><br />Energy access in fragile and conflict contexts requires targeted interventions that combine immediate solutions with long-term sustainable strategie<strong>s. Decentralized renewable energy systems</strong>—such as solar home systems, mini-grids, solar-powered water pumps, and portable clean energy units—<strong>offer adaptable and rapidly deployable solutions that can operate independently of vulnerable central grids. <br /></strong><br />These systems can be well-suited for remote or insecure areas where infrastructure is damaged or non-existent. By scaling such technologies, fostering innovative financing mechanisms, and embedding energy resilience into broader recovery and development strategies, it is possible to mitigate the impacts of crises and ensure more reliable support for vulnerable populations."
             }
           }
         ]
@@ -987,6 +593,42 @@
             },
             "title": "Urbanization brings both energy access opportunity and risk of deepening inequalities",
             "description": "Urban areas generally have high electricity coverage, but rapid growth and informal expansion often leave low-income residents behind. Targeted investments in informal settlements and better urban energy planning are critical to delivering truly inclusive access."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Resources",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2221.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Access to Electricity - SDG7: Data and Projections, 2024",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2222.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Energizing health: accelerating electricity access in health-care facilities, 2023",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2223.png",
+              "caption": ""
+            },
+            "href": "UN Energy",
+            "text": "Achieving Universal Access by 2030 and Net-Zero Emissions by 2050: A Global Roadmap for Just and Inclusive Clean Cooking Transition",
+            "cta": "Click to download"
           }
         ]
       }

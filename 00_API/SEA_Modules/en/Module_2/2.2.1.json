@@ -32,8 +32,33 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The global energy landscape is marked by a profound disparity in access to energy services, chiefly manifested between regions and countries. <strong>This disparity is often referred to as the 'Global Energy Gap' - or 'Global Energy Divide'. <br /><br /></strong>While some countries have achieved near-universal access to electricity and <ai prompt=\"Provide more info on clean cooking.\">clean cooking 💬️</ai>, others continue to struggle with significant deficits. <br /><br />This lesson introduces the concept of the global energy divide, tracing progress and disparities across regions, income groups, and geographies. <br /><br />By mapping the current landscape, it highlights the urgent need for tailored, inclusive, and resilient solutions to ensure no one is left behind in the energy transition."
+              "text": "The global energy landscape is marked by a profound disparity in access to energy services, chiefly manifested between regions and countries. <strong>This disparity is often referred to as the 'Global Energy Gap' - or 'Global Energy Divide'. <br /><br /></strong>While some countries have achieved near-universal access to electricity and <ai prompt=\"Explain clean cooking.\">clean cooking 💬️</ai>, others continue to struggle with significant deficits. <br /><br />This lesson introduces the concept of the global energy divide, tracing progress and disparities across regions, income groups, and geographies. <br /><br />By mapping the current landscape, it highlights the urgent need for tailored, inclusive, and resilient solutions to ensure no one is left behind in the energy transition."
             }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Concepts",
+        "intro": "Explore foundational ideas from this lesson.",
+        "concepts": [
+          {
+            "title": "energy access for informal settlements",
+            "body": "Energy access for informal settlements refers to the availability and affordability of reliable energy services, such as electricity and clean cooking fuels, for residents living in unplanned or informal housing areas, ensuring they can meet their basic energy needs and improve their quality of life.",
+            "source": ""
+          },
+          {
+            "title": "energy in crisis settings",
+            "body": "Energy in crisis settings refers to the provision and management of energy resources in areas affected by emergencies, such as natural disasters, armed conflicts, or humanitarian crises, where access to reliable energy is critical for survival, recovery, and rebuilding efforts.",
+            "source": ""
+          },
+          {
+            "title": "global energy gap",
+            "body": "The global energy gap refers to the disparity between the world's energy demand and the available energy supply, highlighting the need for increased energy production and sustainable solutions to meet future energy needs.",
+            "source": ""
           }
         ]
       }
@@ -201,13 +226,13 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While some regions are rapidly progressing toward universal energy access, others are falling behind. This section highlights areas where the majority of people still lack basic energy services, particularly in Sub-Saharan Africa and fragile states. Some of these regions face persistent barriers such as political instability, lack og access to financing, and weak institutions."
+              "text": "While some regions are rapidly progressing toward universal energy access, others are falling behind. This section highlights areas where the majority of people still lack basic energy services, particularly in Sub-Saharan Africa and fragile states. Some of these regions face persistent barriers such as political instability, lack of access to financing, and weak institutions."
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Sub-Saharan Africa </strong>remains the region most significantly lagging behind on energy access. In 2023, only <strong>42.7% of the population had access to electricity, and just 21% had access to clean cooking fuels</strong> and technologies. This means around <strong>565 million people in the region still lacked electricity</strong>, and over 955 million were dependent on traditional <ai prompt=\"Share details about biomass.\">biomass 💬️</ai>, charcoal, or kerosene for cooking. The region now accounts for 85% of the global electricity access deficit, up from 50% in 2010. <br /><br />Annual population growth in Sub-Saharan Africa, around 29.2 million people per year, is nearly equal to the annual increase in electricity access, which was 30.2 million between 2021 and 2023. This parity slows overall progress and highlights the need for faster electrification.<br /><br /> Among the 20 countries with the largest energy access deficits, 18 are in Sub-Saharan Africa, with<strong> Nigeria</strong> (86.9 million), <strong>Democratic Republic of Congo</strong> (79.6 million), and <strong>Ethiopia</strong> (56.4 million) with the highest number of people lacking access, due notably to their large population."
+              "text": "<strong>Sub-Saharan Africa </strong>remains the region most significantly lagging behind on energy access. In 2023, only <strong>42.7% of the population had access to electricity, and just 21% had access to clean cooking fuels</strong> and technologies. This means around <strong>565 million people in the region still lacked electricity</strong>, and over 955 million were dependent on traditional <ai prompt=\"What is biomass?\">biomass 💬️</ai>, charcoal, or kerosene for cooking. The region now accounts for 85% of the global electricity access deficit, up from 50% in 2010. <br /><br />Annual population growth in Sub-Saharan Africa, around 29.2 million people per year, is nearly equal to the annual increase in electricity access, which was 30.2 million between 2021 and 2023. This parity slows overall progress and highlights the need for faster electrification.<br /><br /> Among the 20 countries with the largest energy access deficits, 18 are in Sub-Saharan Africa, with<strong> Nigeria</strong> (86.9 million), <strong>Democratic Republic of Congo</strong> (79.6 million), and <strong>Ethiopia</strong> (56.4 million) with the highest number of people lacking access, due notably to their large population."
             }
           }
         ]
@@ -232,215 +257,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#0a97d9",
-            "#3f7e44",
-            "#19486a",
-            "#c5192d",
-            "#fd9d24",
-            "#fd6925",
-            "#4c9f38",
-            "#0468b1",
-            "#dd1367",
-            "#fcc30b"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14,
-              "interval": 0
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "World",
-              "Central Asia and Southern Asia",
-              "Eastern Asia and South eastern Asia",
-              "Latin America and the Caribbean",
-              "Northern America and Europe",
-              "Oceania",
-              "Sub-Saharan Africa",
-              "Western Asia and Northern Africa"
-            ],
-            "name": "Region"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "Population (millions)"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "..."
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "Annual increase in population with access",
-              "type": "bar",
-              "data": [
-                93.6,
-                40.1,
-                10.4,
-                5.7,
-                -2.0,
-                0.3,
-                31.1,
-                8.3
-              ]
-            },
-            {
-              "name": "Annual increase in population",
-              "type": "bar",
-              "data": [
-                65.3,
-                20.6,
-                5.4,
-                4.4,
-                -2.0,
-                0.4,
-                28.7,
-                7.8
-              ]
-            }
-          ],
-          "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Annual increases in electrification and population, by region, 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
-        }
       }
     },
     {
@@ -497,6 +313,42 @@
             },
             "title": "Effective energy access solutions must be tailored to specific local needs and cultural contexts",
             "description": "Addressing these varied contexts requires flexible, inclusive approaches that incorporate community engagement, recognize cultural values, and offer innovative, sustainable solutions suited to each environment."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Resources",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2211.png",
+              "caption": ""
+            },
+            "href": "UNDP",
+            "text": "Human Development Report 2023-24. Breaking the gridlock: Reimagining cooperation in a polarized world",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2212.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Small Island Developing States at a Crossroads: Towards equitable energy access in least-electrified countries",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2213.png",
+              "caption": ""
+            },
+            "href": "World Bank Group",
+            "text": "Leaving No One Behind - Rethinking Energy Access Programs in Displacement Settings",
+            "cta": "Click to download"
           }
         ]
       }

@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_8.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_15.png",
           "caption": ""
         },
         "lesson": {
@@ -43,7 +43,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Intro_5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_8.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -71,284 +71,6 @@
       }
     },
     {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#fcc30b",
-            "#fd6925",
-            "#4c9f38",
-            "#0468b1",
-            "#3f7e44",
-            "#dd1367",
-            "#0a97d9",
-            "#fd9d24",
-            "#c5192d",
-            "#19486a"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14,
-              "interval": 0
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "2000",
-              "2010",
-              "2020",
-              "2030 STEPS",
-              "2040 STEPS",
-              "2050 STEPS",
-              "2030 APC",
-              "2040 APC",
-              "2050 APC"
-            ],
-            "name": "Year"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "EJ"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "...",
-            "show": false
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "Coal",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                95.1751487111761,
-                149.107732980832,
-                152.280237937871,
-                142.233972240581,
-                136.417713152676,
-                123.198942498347,
-                114.210178453403,
-                83.5426305353602,
-                74.0251156642427
-              ]
-            },
-            {
-              "name": "Oil",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                153.3377395902109,
-                173.430270984799,
-                173.959021810973,
-                202.511566424323,
-                204.097818902843,
-                206.741573033708,
-                179.775280898877,
-                162.85525446133482,
-                154.39524124256428
-              ]
-            },
-            {
-              "name": "Natural Gas",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                86.18638466622699,
-                116.85393258427,
-                136.417713152676,
-                160.740251156642,
-                180.83278255122295,
-                197.7528089887641,
-                149.63648380700602,
-                151.222736285526,
-                147.52148050231398
-              ]
-            },
-            {
-              "name": "Nuclear",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                31.196298744215994,
-                33.840052875081994,
-                33.84005287508296,
-                37.01255783212201,
-                40.71381361533304,
-                41.24256444150694,
-                42.30006609385299,
-                48.64507600793098,
-                55.518836748182025
-              ]
-            },
-            {
-              "name": "Renewables",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                57.63384005287605,
-                66.09385327164603,
-                86.18638466622497,
-                118.44018506278894,
-                152.28023793787202,
-                190.87904824851307,
-                140.11896893588903,
-                201.982815598149,
-                249.04163912756104
-              ]
-            }
-          ],
-          "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Global Energy Supply by Source in STEPS and APC, 2000-2050",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -356,7 +78,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "In contrast, the <strong>Announced Pledges Scenario (APS)</strong> imagines a future where current climate and energy commitments across the world are fully implemented. This scenario assumes that clean energy meets 40% of global energy demand by 2035, rising to nearly 75% by 2050. In this context, global energy demand decreases continuously to reach 625 EJ in 2035 and 610 EJ in 2050, reaching levels 4.7% inferior to 2023. The slowdown is largely due to accelerated <ai prompt=\"Share details about energy efficiency.\">energy efficiency 💬️</ai> measures and expanded electrification in end-use sectors such as transport, buildings, and industry. <br /><br />The most ambitious pathway, the <strong>Net Zero Emissions (NZE) </strong>Scenario, aligns with limiting global warming to 1.5°C. It assumes that 90% of global energy demand will be met by clean energy by 2050, and that any remaining fossil fuel use will be offset or abated. In this scenario, total energy demand declines by 16% by 2035, and continues to fall through mid-century. This reduction would take place despite economic and population growth, driven by deep efficiency gains, behavioral change, and structural transformations."
+              "text": "In contrast, the <strong>Announced Pledges Scenario (APS)</strong> imagines a future where current climate and energy commitments across the world are fully implemented. This scenario assumes that clean energy meets 40% of global energy demand by 2035, rising to nearly 75% by 2050. In this context, global energy demand decreases continuously to reach 625 EJ in 2035 and 610 EJ in 2050, reaching levels 4.7% inferior to 2023. The slowdown is largely due to accelerated <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai> measures and expanded electrification in end-use sectors such as transport, buildings, and industry. <br /><br />The most ambitious pathway, the <strong>Net Zero Emissions (NZE) </strong>Scenario, aligns with limiting global warming to 1.5°C. It assumes that 90% of global energy demand will be met by clean energy by 2050, and that any remaining fossil fuel use will be offset or abated. In this scenario, total energy demand declines by 16% by 2035, and continues to fall through mid-century. This reduction would take place despite economic and population growth, driven by deep efficiency gains, behavioral change, and structural transformations."
             }
           },
           {
@@ -394,7 +116,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_3.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -448,7 +170,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_10.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L4_4.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -483,7 +205,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While cities increasingly shape the future of livelihoods, industry remains the world’s largest energy consumer, responsible for 39 % of total global final energy consumption in 2023 and nearly half of all energy-related CO₂ emissions (<a href=\"https://iea.blob.core.windows.net/assets/f304f2ba-e9a2-4e6d-b529-fb67cd13f646/EnergyEfficiency2024.pdf\"><u>IEA</u></a>,2024). Much of this is concentrated in emerging economies: In 2012, non‑OECD countries accounted for 67% of the world's industrial energy consumption, and this share is projected to increase to 73% by 2040 (<a href=\"https://www.eia.gov/outlooks/ieo/pdf/industrial.pdf\"><u>EIA</u></a>, 2016) <br /><br />Industrial energy demand grew by 2% in 2023 alone, driven by sectors like steel, cement, and chemicals. These industries remain deeply reliant on fossil fuels, especially coal and natural gas, to supply high-temperature heat. However, this trend begins to shift after 2030 in climate-aligned scenarios. In the APS, electricity’s share in industrial energy use increases from 22% in 2023 to 27% by 2030, with China contributing more than half of this growth (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024). <br /><br />IRENA’s 1.5°C scenario shows an even more pronounced shift, projecting 36% electrification of industry by 2050, with large-scale deployment of hydrogen and heat pumps (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><u>IRENA</u></a>,2024) . <br />Together, urbanization and industrialization are reshaping the future of energy demand. These factors raise new challenges for <ai prompt=\"Clarify decarbonization.\">decarbonization 💬️</ai>, but also present new opportunities for innovation, job creation, and inclusive development."
+              "text": "While cities increasingly shape the future of livelihoods, industry remains the world’s largest energy consumer, responsible for 39 % of total global final energy consumption in 2023 and nearly half of all energy-related CO₂ emissions (<a href=\"https://iea.blob.core.windows.net/assets/f304f2ba-e9a2-4e6d-b529-fb67cd13f646/EnergyEfficiency2024.pdf\"><u>IEA</u></a>,2024). Much of this is concentrated in emerging economies: In 2012, non‑OECD countries accounted for 67% of the world's industrial energy consumption, and this share is projected to increase to 73% by 2040 (<a href=\"https://www.eia.gov/outlooks/ieo/pdf/industrial.pdf\"><u>EIA</u></a>, 2016) <br /><br />Industrial energy demand grew by 2% in 2023 alone, driven by sectors like steel, cement, and chemicals. These industries remain deeply reliant on fossil fuels, especially coal and natural gas, to supply high-temperature heat. However, this trend begins to shift after 2030 in climate-aligned scenarios. In the APS, electricity’s share in industrial energy use increases from 22% in 2023 to 27% by 2030, with China contributing more than half of this growth (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024). <br /><br />IRENA’s 1.5°C scenario shows an even more pronounced shift, projecting 36% electrification of industry by 2050, with large-scale deployment of hydrogen and heat pumps (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Nov/IRENA_World_energy_transitions_outlook_2024.pdf\"><u>IRENA</u></a>,2024) . <br />Together, urbanization and industrialization are reshaping the future of energy demand. These factors raise new challenges for <ai prompt=\"Explain decarbonization.\">decarbonization 💬️</ai>, but also present new opportunities for innovation, job creation, and inclusive development."
             }
           },
           {
@@ -500,7 +222,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_7.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_11.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -539,7 +261,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_12.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_6.png",
           "caption": ""
         }
       }
@@ -563,7 +285,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_14.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_4.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -578,7 +300,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Electrification is emerging as a major force in the global energy sector and is projected to become the world’s largest energy source by 2050.<br /><br />According to one analysis by the global consulting firm McKinsey, electricity consumption could more than double under slower energy transition scenarios and nearly triple in faster ones. This increase is fueled by traditional sectors like buildings and appliances but also increasingly by newer and fast-growing demands such as data centers, battery electric vehicles (BEVs), and hydrogen production. For example, global green hydrogen consumption is expected to rise from less than 1 Mtpa today to 179 Mtpa by 2050, contributing to about 20% annual growth in power demand for the sector (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>McKinsey</u></a>, 2024). <br /><br />Electricity demand from transport alone is projected to grow by 10% annually, with BEVs expected to account for the majority of global passenger car sales by 2050, up from just 13% today (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>McKinsey</u></a>, 2024). In buildings, <ai prompt=\"Tell me more about heating and cooling.\">heating and cooling 💬️</ai> are becoming increasingly electrified.<br /><br /> By 2050, the world could see the deployment of 793 million heat pump units and 2.2 billion electric and plug-in hybrid vehicles (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Smart_electrification_end-use_sectors_2024.pdf\"><u>IRENA</u></a>, 2024)."
+              "text": "Electrification is emerging as a major force in the global energy sector and is projected to become the world’s largest energy source by 2050.<br /><br />According to one analysis by the global consulting firm McKinsey, electricity consumption could more than double under slower energy transition scenarios and nearly triple in faster ones. This increase is fueled by traditional sectors like buildings and appliances but also increasingly by newer and fast-growing demands such as data centers, battery electric vehicles (BEVs), and hydrogen production. For example, global green hydrogen consumption is expected to rise from less than 1 Mtpa today to 179 Mtpa by 2050, contributing to about 20% annual growth in power demand for the sector (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>McKinsey</u></a>, 2024). <br /><br />Electricity demand from transport alone is projected to grow by 10% annually, with BEVs expected to account for the majority of global passenger car sales by 2050, up from just 13% today (<a href=\"https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-energy-perspective\"><u>McKinsey</u></a>, 2024). In buildings, <ai prompt=\"Share details about heating and cooling.\">heating and cooling 💬️</ai> are becoming increasingly electrified.<br /><br /> By 2050, the world could see the deployment of 793 million heat pump units and 2.2 billion electric and plug-in hybrid vehicles (<a href=\"https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Smart_electrification_end-use_sectors_2024.pdf\"><u>IRENA</u></a>, 2024)."
             }
           },
           {
@@ -596,7 +318,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Intro_2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_7.png",
           "caption": ""
         }
       }
@@ -620,7 +342,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_10.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_15.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -660,7 +382,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_13.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Intro_5.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -686,7 +408,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_21.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_5.png",
           "caption": ""
         }
       }
@@ -700,7 +422,7 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Outro_1.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_10.png",
               "caption": ""
             },
             "title": "Energy demand will be shaped by structural drivers including population growth, urbanization, industrialization, and the rise of a global middle classparticularly in emerging economies where infrastructure and consumption are rapidly expanding.",
@@ -708,7 +430,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_9.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_6.png",
               "caption": ""
             },
             "title": "Technology plays a dual role: electrification and digitalization are driving new sources of energy demand (data centers, electric vehicles), while also enabling greater efficiency, flexibility, and system optimization.",
@@ -716,11 +438,47 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Outro_2.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_9.png",
               "caption": ""
             },
             "title": "The future of energy demand is not fixed; it will depend on policy decisions, innovation, and global cooperation to align demographic, economic, and technological trends with sustainability and equity goals.",
             "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Resources",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_8/resource-8111.png",
+              "caption": ""
+            },
+            "href": "https://www.carbontrust.com/en-eu/news-and-insights/insights/net-zero-in-conversation-how-digitally-automated-demand-could-transform-the-way-we-use-energy",
+            "text": "How Digitally Automated Demand Could Transform the Way We Use Energy",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_8/resource-8112.png",
+              "caption": ""
+            },
+            "href": "https://www.unep.org/resources/report/renewables-2023-global-status-report-collection-energy-demand",
+            "text": "Renewables 2023 Global Status Report Collection Energy Demand",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_8/resource-8113.png",
+              "caption": ""
+            },
+            "href": "https://unece.org/sed/documents/2022/07/session-documents/digitalization-accelerating-electricity-system",
+            "text": "Digitalization: Accelerating the Electricity System Transformation.",
+            "cta": "Click to download"
           }
         ]
       }

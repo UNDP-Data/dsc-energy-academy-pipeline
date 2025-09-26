@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_19.png",
           "caption": ""
         },
         "lesson": {
@@ -39,11 +39,36 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Concepts",
+        "intro": "Explore foundational ideas from this lesson.",
+        "concepts": [
+          {
+            "title": "energy/fossil fuel subsidies",
+            "body": "Financial support from governments to the fossil fuel industry, which can include direct payments, tax breaks, or price controls, aimed at reducing the cost of fossil fuels for consumers and producers.",
+            "source": ""
+          },
+          {
+            "title": "market distortions",
+            "body": "Market distortions refer to any factors that prevent the free market from functioning efficiently, often due to government intervention, monopolies, or externalities, leading to misallocation of resources and affecting prices.",
+            "source": ""
+          },
+          {
+            "title": "re incentives",
+            "body": "Re incentives are financial or non-financial rewards designed to encourage individuals or organizations to adopt renewable energy practices or technologies.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Outro_1.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -107,296 +132,11 @@
       }
     },
     {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#fd9d24",
-            "#0a97d9",
-            "#3f7e44",
-            "#0468b1",
-            "#dd1367",
-            "#4c9f38",
-            "#fcc30b",
-            "#c5192d",
-            "#19486a",
-            "#fd6925"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14,
-              "interval": 0,
-              "rotate": 45
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "2010",
-              "2011",
-              "2012",
-              "2013",
-              "2014",
-              "2015",
-              "2016",
-              "2017",
-              "2018",
-              "2019",
-              "2020",
-              "2021",
-              "2022",
-              "2023"
-            ],
-            "name": "Year"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "Billion USD"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "...",
-            "show": false
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "Oil",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                194660,
-                268885,
-                308707,
-                289480,
-                252979,
-                152320,
-                114437,
-                158788,
-                210327,
-                192244,
-                124476,
-                190185,
-                345767,
-                234795
-              ]
-            },
-            {
-              "name": "Electricity",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                154571,
-                157714,
-                155555,
-                139178,
-                132318,
-                130947,
-                153678,
-                140956,
-                182641,
-                155034,
-                77350,
-                221183,
-                446149,
-                216977
-              ]
-            },
-            {
-              "name": "Gas",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                113330,
-                108192,
-                128287,
-                116644,
-                102867,
-                90930,
-                58103,
-                64680,
-                116536,
-                73368,
-                58642,
-                172693,
-                376559,
-                162516
-              ]
-            },
-            {
-              "name": "Coal",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                3179,
-                4280,
-                3766,
-                2095,
-                1389,
-                1316,
-                2017,
-                2677,
-                2967,
-                2501,
-                2210,
-                4424,
-                9451,
-                2103
-              ]
-            }
-          ],
-          "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Value of fossil-fuel subsidies by fuel in the top 25 countries, 2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_13.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -437,7 +177,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Outro_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Outro_3.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -464,7 +204,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "In 2014,<strong> </strong>Indonesia<strong> </strong>began reducing its fuel subsidies, which had long strained its national budget. The government redirected the savings from these subsidies toward infrastructure development and social programs. <br /><br />This reform not only improved Indonesia's fiscal health, but also facilitated investments in renewable energy. The gradual subsidy phase-out was supported by targeted cash transfers to protect the most vulnerable populations from the impact of rising fuel prices.<br /><br />The reform also had positive environmental and energy sector impacts. By phasing out fossil fuel subsidies, Indonesia encouraged greater <ai prompt=\"Provide more info on energy efficiency.\">energy efficiency 💬️</ai> and increased investment in renewable energy projects. The shift signaled a move toward more market-driven energy pricing, reducing wasteful consumption and laying the groundwork for a cleaner, more resilient and sustainable energy system.<br /><br />Overall, Indonesia’s fuel subsidy reform demonstrated how smart fiscal policy can balance economic, social, and environmental priorities, setting an example for other nations looking to transition away from fossil fuel dependence."
+              "text": "In 2014,<strong> </strong>Indonesia<strong> </strong>began reducing its fuel subsidies, which had long strained its national budget. The government redirected the savings from these subsidies toward infrastructure development and social programs. <br /><br />This reform not only improved Indonesia's fiscal health, but also facilitated investments in renewable energy. The gradual subsidy phase-out was supported by targeted cash transfers to protect the most vulnerable populations from the impact of rising fuel prices.<br /><br />The reform also had positive environmental and energy sector impacts. By phasing out fossil fuel subsidies, Indonesia encouraged greater <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai> and increased investment in renewable energy projects. The shift signaled a move toward more market-driven energy pricing, reducing wasteful consumption and laying the groundwork for a cleaner, more resilient and sustainable energy system.<br /><br />Overall, Indonesia’s fuel subsidy reform demonstrated how smart fiscal policy can balance economic, social, and environmental priorities, setting an example for other nations looking to transition away from fossil fuel dependence."
             }
           }
         ]
@@ -475,7 +215,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L4_6.png",
           "caption": ""
         }
       }
@@ -505,7 +245,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_12.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_1.png",
           "caption": ""
         }
       }
@@ -535,7 +275,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_8.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_2.png",
           "caption": ""
         }
       }
@@ -577,7 +317,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Outro_2.png",
           "caption": ""
         }
       }
@@ -604,7 +344,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Moreover, instead of relying on emergency measures during price spikes, it is more effective to implement structural changes that reduce the overall demand for fossil fuels. This includes promoting high-efficiency and low-emission technologies and providing support to help poorer consumers manage the upfront costs of cleaner energy solutions. Investing in these areas provides lasting protection against volatile fuel prices and supports the transition to a more sustainable energy system.<br /><br />Phasing out fossil fuel subsidies must also be aligned with disincentivizing fossil fuels, for example through <ai prompt=\"Clarify carbon pricing.\">carbon pricing 💬️</ai> and simultaneously incentivizing renewables through subsidies and tax breaks. This balanced approach can accelerate the clean energy transition, promotes innovation, and ensures a fair and sustainable shift to low-carbon energy.<br />"
+              "text": "Moreover, instead of relying on emergency measures during price spikes, it is more effective to implement structural changes that reduce the overall demand for fossil fuels. This includes promoting high-efficiency and low-emission technologies and providing support to help poorer consumers manage the upfront costs of cleaner energy solutions. Investing in these areas provides lasting protection against volatile fuel prices and supports the transition to a more sustainable energy system.<br /><br />Phasing out fossil fuel subsidies must also be aligned with disincentivizing fossil fuels, for example through <ai prompt=\"What is carbon pricing?\">carbon pricing 💬️</ai> and simultaneously incentivizing renewables through subsidies and tax breaks. This balanced approach can accelerate the clean energy transition, promotes innovation, and ensures a fair and sustainable shift to low-carbon energy.<br />"
             }
           }
         ]
@@ -619,7 +359,7 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_2.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_Outro_1.png",
               "caption": ""
             },
             "title": "Subsidies for fossil fuels distort markets, strain public finances, and perpetuate overconsumption, delaying transitions to sustainable energy. Reforming these subsidies is critical to reducing fiscal pressures and advancing clean energy investments.",
@@ -627,7 +367,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_9.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_11.png",
               "caption": ""
             },
             "title": "Examples like Indonesia, India, Morocco and India demonstrate that gradual subsidy phase-outs. Combined with targeted cash transfers and transparent communication, can protect vulnerable populations while freeing up resources for renewable energy and infrastructure development.",
@@ -635,11 +375,47 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_7.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_Outro_2.png",
               "caption": ""
             },
             "title": "Instead of solely relying on emergency measures during price spikes. It is more effective to implement structural changes that reduce the overall demand for fossil fuels in the long-term.",
             "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Resources",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_4/resource-4231.png",
+              "caption": ""
+            },
+            "href": "UNDP",
+            "text": "A Guide to Carbon Pricing and Fossil Fuel Subsidy Reform",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_4/resource-4232.png",
+              "caption": ""
+            },
+            "href": "UNDP",
+            "text": "Fossil Fuel Subsidy Reforms: Lessons and Opportunities",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_4/resource-4233.png",
+              "caption": ""
+            },
+            "href": "ADB",
+            "text": "Fossil Fuel Subsidy Reform",
+            "cta": "Click to download"
           }
         ]
       }

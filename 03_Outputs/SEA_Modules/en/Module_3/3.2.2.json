@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Concepts",
+        "intro": "Explore foundational ideas from this lesson.",
+        "concepts": [
+          {
+            "title": "gender gap in energy employment",
+            "body": "The gender gap in energy employment refers to the disparity between the number of men and women working in the energy sector, often characterized by fewer women in technical, leadership, and decision-making roles compared to their male counterparts.",
+            "source": ""
+          },
+          {
+            "title": "just transition workforce programs",
+            "body": "Just transition workforce programs are initiatives designed to support workers and communities in transitioning to sustainable jobs and industries, ensuring that the shift to a greener economy is fair and equitable, providing training, resources, and support for those affected by changes in the job market.",
+            "source": ""
+          },
+          {
+            "title": "skills development ecosystems",
+            "body": "Skills development ecosystems refer to interconnected networks of organizations, institutions, and resources that collaboratively support the continuous learning and enhancement of skills among individuals, often tailored to meet the needs of the labor market and promote economic growth.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -46,7 +71,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "According to the International Labour Organization (ILO), efforts to limit global warming could create millions of new jobs globally, but the transition away from fossil fuels may also result in the loss of millions of jobs in the energy sector by 2030. Despite this, recent scenarios suggest that job creation will outpace losses. By 2030, 103 million new jobs could be created under sustainable energy and <ai prompt=\"Tell me more about circular economy.\">circular economy 💬️</ai> models. In 2022 alone, the global renewable energy sector added 1 million jobs, with solar photovoltaic (PV) leading this growth. Solar PV jobs reached 4.9 million, comprising over a third of the renewable energy workforce, with women holding 40% of these positions."
+              "text": "According to the International Labour Organization (ILO), efforts to limit global warming could create millions of new jobs globally, but the transition away from fossil fuels may also result in the loss of millions of jobs in the energy sector by 2030. Despite this, recent scenarios suggest that job creation will outpace losses. By 2030, 103 million new jobs could be created under sustainable energy and <ai prompt=\"What is circular economy?\">circular economy 💬️</ai> models. In 2022 alone, the global renewable energy sector added 1 million jobs, with solar photovoltaic (PV) leading this growth. Solar PV jobs reached 4.9 million, comprising over a third of the renewable energy workforce, with women holding 40% of these positions."
             }
           }
         ]
@@ -60,7 +85,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While this progress is encouraging, the transition must accelerate to address the estimated 78 million jobs at risk. The challenge lies in the limited overlap between fossil fuel and clean energy jobs, both geographically and in terms of job quality. This gap threatens to leave workers behind and could undermine political support for the energy transition.<br /><br />To counter this, it is essential to leverage the entire clean <ai prompt=\"Explain energy value chain.\">energy value chain 💬️</ai>, such as localizing critical mineral supply chains and fostering downstream activities beyond extraction. This approach can create new jobs and build community support. However, a seamless transition from fossil fuel to clean energy roles is not always feasible. Therefore, supporting broader economic diversification, particularly in countries reliant on single industries, is crucial."
+              "text": "While this progress is encouraging, the transition must accelerate to address the estimated 78 million jobs at risk. The challenge lies in the limited overlap between fossil fuel and clean energy jobs, both geographically and in terms of job quality. This gap threatens to leave workers behind and could undermine political support for the energy transition.<br /><br />To counter this, it is essential to leverage the entire clean <ai prompt=\"Clarify energy value chain.\">energy value chain 💬️</ai>, such as localizing critical mineral supply chains and fostering downstream activities beyond extraction. This approach can create new jobs and build community support. However, a seamless transition from fossil fuel to clean energy roles is not always feasible. Therefore, supporting broader economic diversification, particularly in countries reliant on single industries, is crucial."
             }
           }
         ]
@@ -86,260 +111,10 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Effective policy frameworks are key to facilitating the shift to green jobs, and capacity building efforts are necessary to upskill and reskill workers. The green jobs transition requires deliberate action to protect livelihoods and align education and training programs with emerging opportunities. For instance, Egypt’s Technical and Vocational Education and Training II project, a €116 million initiative, supports renewable energy programs across 13 institutions. Similarly, the Philippines’ Green Jobs Act encourages the creation, sustainability, and incentivization of green jobs, while improving workforce development planning.<br /><br />In crisis settings, the <ai prompt=\"Explain just energy transition.\">just energy transition 💬️</ai> serves as an investment in long-term stability by fostering local capacities and infrastructure for recovery and development. Countries heavily dependent on energy imports, such as Yemen and Lebanon, demonstrate the potential of sustainable energy to build both resilience and livelihoods. Yemen’s ERRY III joint program, which focuses on upskilling over 1,100 individuals—particularly women—in solar services, and Lebanon’s training programs for women engineers are examples of how targeted initiatives can drive positive outcomes."
+              "text": "Effective policy frameworks are key to facilitating the shift to green jobs, and capacity building efforts are necessary to upskill and reskill workers. The green jobs transition requires deliberate action to protect livelihoods and align education and training programs with emerging opportunities. For instance, Egypt’s Technical and Vocational Education and Training II project, a €116 million initiative, supports renewable energy programs across 13 institutions. Similarly, the Philippines’ Green Jobs Act encourages the creation, sustainability, and incentivization of green jobs, while improving workforce development planning.<br /><br />In crisis settings, the <ai prompt=\"Share details about just energy transition.\">just energy transition 💬️</ai> serves as an investment in long-term stability by fostering local capacities and infrastructure for recovery and development. Countries heavily dependent on energy imports, such as Yemen and Lebanon, demonstrate the potential of sustainable energy to build both resilience and livelihoods. Yemen’s ERRY III joint program, which focuses on upskilling over 1,100 individuals—particularly women—in solar services, and Lebanon’s training programs for women engineers are examples of how targeted initiatives can drive positive outcomes."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#19486a",
-            "#c5192d",
-            "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#3f7e44",
-            "#4c9f38",
-            "#fd6925",
-            "#0468b1",
-            "#fcc30b"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "boundaryGap": [
-              0,
-              0.01
-            ],
-            "name": "thousand persons"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "Agriculture",
-              "Coal",
-              "Oil, gas and manufactured fuels",
-              "Other extraction Industries",
-              "Basic manufacturing",
-              "Engineering and transport equipment",
-              "Electricity supply",
-              "Other Utilities",
-              "Construction",
-              "Distribution and retail",
-              "Transport",
-              "Hotels and catering; Communications, publishing and television",
-              "Business services",
-              "Public and personal services"
-            ],
-            "name": "Sector"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "..."
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "2030",
-              "type": "bar",
-              "data": [
-                11081.3024109014,
-                -5065.07686932215,
-                -4846.69811320754,
-                -160.239737187002,
-                13353.806341719,
-                4231.94371651526,
-                1536.3309457256,
-                -961.502453930164,
-                562.915222940451,
-                5854.93513746538,
-                1652.91335458887,
-                3651.24326261097,
-                1526.53675961513,
-                6660.58593042292
-              ]
-            },
-            {
-              "name": "2040",
-              "type": "bar",
-              "data": [
-                7614.53965758211,
-                -6156.97064989517,
-                -7781.16264849755,
-                -215.090689866574,
-                11659.0962031213,
-                2400.74685534591,
-                3515.38842301421,
-                -1782.9503212594,
-                -1158.96588357661,
-                0.0,
-                957.842082233357,
-                1771.39141237674,
-                4204.14086562104,
-                11770.9394896731
-              ]
-            },
-            {
-              "name": "2050",
-              "type": "bar",
-              "data": [
-                3956.69549266247,
-                -7085.08036338225,
-                -9842.11215932914,
-                -171.209927722919,
-                9316.07413230841,
-                0.0,
-                4982.62069065921,
-                -2114.68888306545,
-                0.0,
-                -2090.99327150787,
-                0.0,
-                799.871338516191,
-                8082.32262387737,
-                14290.5728519618
-              ]
-            }
-          ],
-          "title": {
-            "text": "Employment difference by sector between the baseline and 1.5°C Scenario, thousand jobs",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
-        }
       }
     },
     {
@@ -445,7 +220,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Energy: </strong>The electricity company EVN urgently needed 500 electrical fitters to maintain operations <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u><br /></u></a><strong>Textiles:</strong> A lack of technicians qualified to operate advanced machinery stalled technology adoption <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><br /><strong>Construction: </strong>The industry, representing 5.4% of GDP, faced a deficit of approximately 600 technicians, threatening development projects <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020, para. 3; </u></a> (<a href=\"https://info.undp.org/docs/pdc/Documents/MKD/ProDoc_BridgingSkillGap-II%20phase_Signed.pdf\"><u>UNDP, 2021)</u></a>.<br /><br />Furthermore, a national digital skills deficit, with 50% of the population having low <ai prompt=\"Tell me more about digital literacy.\">digital literacy 💬️</ai>, hindered the country's competitiveness in an increasingly technology-driven global economy.<br />"
+              "text": "<strong>Energy: </strong>The electricity company EVN urgently needed 500 electrical fitters to maintain operations <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u><br /></u></a><strong>Textiles:</strong> A lack of technicians qualified to operate advanced machinery stalled technology adoption <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><br /><strong>Construction: </strong>The industry, representing 5.4% of GDP, faced a deficit of approximately 600 technicians, threatening development projects <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020, para. 3; </u></a> (<a href=\"https://info.undp.org/docs/pdc/Documents/MKD/ProDoc_BridgingSkillGap-II%20phase_Signed.pdf\"><u>UNDP, 2021)</u></a>.<br /><br />Furthermore, a national digital skills deficit, with 50% of the population having low <ai prompt=\"Share details about digital literacy.\">digital literacy 💬️</ai>, hindered the country's competitiveness in an increasingly technology-driven global economy.<br />"
             }
           }
         ]
@@ -765,6 +540,42 @@
             },
             "title": "Gender equality is a cornerstone of a sustainable energy transition.",
             "description": "Women are underrepresented in the energy sector, particularly in leadership roles, and face barriers such as wage gaps and unpaid care work. The energy transition offers an opportunity to advance gender equality through targeted initiatives like scholarships, mentorship programs, and flexible work arrangements. Empowering women in STEM and renewable energy sectors not only promotes equity but also drives innovation and long-term sustainability."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Resources",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3221.png",
+              "caption": ""
+            },
+            "href": "IISD",
+            "text": "Real People, Real Change : Strategies for just energy transitions",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3222.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Decentralised solar PV: A gender perspective",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3223.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "World Energy Employment 2024",
+            "cta": "Click to download"
           }
         ]
       }
