@@ -40,34 +40,34 @@
     },
     {
       "template_id": "embed",
-      "size": "full",
+      "size": "full", // "full", "half"
       "content": {
         "title": "Share of all deaths altributed to sub-optimal lemperatures",
-        "url": "https://ourworldindata.org/grapher/temp-deaths-zhao"
+        "url": "https://ourworldindata.org/grapher/temp-deaths-zhao",
       }
     },
     {
       "template_id": "embed",
-      "size": "full",
+      "size": "full", // "full", "half"
       "content": {
         "title": "Share of the population with access to electricity, 2023 - TABLE",
-        "url": "https://archive.ourworldindata.org/20250916-100934/grapher/share-of-the-population-with-access-to-electricity.html?tab=table&time=earliest..2023"
+        "url": "https://archive.ourworldindata.org/20250916-100934/grapher/share-of-the-population-with-access-to-electricity.html?tab=table&time=earliest..2023",
       }
     },
     {
       "template_id": "embed",
-      "size": "full",
+      "size": "full", // "full", "half"
       "content": {
         "title": "Share of the population with access to electricity, 2023 - LINE CHART",
-        "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity?tab=line"
+        "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity?tab=line",
       }
     },
     {
       "template_id": "embed",
-      "size": "full",
+      "size": "full", // "full", "half"
       "content": {
         "title": "Share of the population with access to electricity, 2023 - FULL CHART",
-        "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity"
+        "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity",
       }
     },
     {
@@ -82,15 +82,15 @@
               "altText": "Polysilicon solar cell"
             },
             "title": "Hazardous material",
-            "body": "The Photo Voltaics (PV) manufacturing process akin to most clean energy techn."
+            "body": "The Photo Voltaics (PV) manufacturing process akin to most clean energy technology involves hazardous materials like acids and chemicals, posing risks to workers and potential environmental threats if not handled and disposed of properly.  Additionally, thin-film PV cells contain more toxic materials, emphasizing the importance of proper management to avoid environmental and health hazards (National Renewable Energy Laboratory, 2012)."
           },
           {
             "image": {
-              "url": "https://www.pv-tech.org/wp-content/uploads/2021/02/20071029151252_08_Polysilicon_solar_cell-1024x739.jpg",
+              "url": "https://drive.google.com/file/d/1d8UVIkRKkl9_m6EQc5ASte53Eze6AVw9/view?usp=sharing",
               "altText": "Solar-panel-land-use"
             },
             "title": "Land use",
-            "body": "Solar power generation requires large areas of land for solar panel installatiour."
+            "body": "Solar power generation requires large areas of land for solar panel installations, potentially leading to habitat destruction and loss of biodiversity. Reports indicate that solar systems, including PV and Concentrated Solar Power (CSP), have high energy land-use intensity compared to other energy technologies, with projected substantial land requirements for future growth (Van de Ven et al., 2021) The potential land requirements and related land use change emissions of solar energy. Innovative approaches like dual-angle solar arrays may mitigate land use impact."
           },
           {
             "image": {
@@ -98,19 +98,67 @@
               "altText": "Flat hydro-solar scene with PV rafts, pump house, and coral lagoon"
             },
             "title": "Water consumption",
-            "body": "Water usage varies depending on plant design and cooling technology"
-          },
-                    {
-            "image": {
-              "url": "https://www.pv-tech.org/wp-content/uploads/2021/02/20071029151252_08_Polysilicon_solar_cell-1024x739.jpg",
-              "altText": "Solar-panel-land-use"
-            },
-            "title": "Land use",
-            "body": "Solar power generation requires large areas of land for solar panel ins."
+            "body": "Water usage varies depending on plant design and cooling technology, with CSP plants requiring significant amounts of water for cooling, albeit with alternatives like dry cooling to reduce consumption (Tawalbeh et al., 2020)."
           }
         ]
       }
-    },
+    }
+    {
+      "template_id": "poll",
+      "content": {
+        "pollId": "example-poll-id",
+        "title": "Poll 1 – Ethics & Governance",
+        "description": "In your view, what is the biggest ethical challenge in using digital data (e.g., smart meters, mobile data) for energy policy?",
+        "options": [
+          {
+            "id": 1,
+            "value": "Ensuring privacy and consent"
+          },
+          {
+            "id": 2,
+            "value": "Avoiding algorithmic bias and exclusion"
+          },
+          {
+            "id": 3,
+            "value": "Building public trust and transparency"
+          }
+        ],
+        "labels": {
+          "submit": "Submit",
+          "cancel": "Cancel",
+          "edit": "Edit your response",
+          "votingAs": "Voting as"
+        }
+      }
+    }
+    {
+      "template_id": "poll",
+      "content": {
+        "pollId": "example-poll-id",
+        "title": "Poll 2 – Monitoring & Evaluation",
+        "description": "When tracking progress in energy access, which type of indicator provides the most actionable insights?",
+        "options": [
+          {
+            "id": 1,
+            "value": "Technical/engineering data (e.g., installed capacity, reliability)"
+          },
+          {
+            "id": 2,
+            "value": "Social outcomes (e.g., time savings, health impacts)"
+          },
+          {
+            "id": 3,
+            "value": "Economic metrics (e.g., affordability, job creation)"
+          }
+        ],
+        "labels": {
+          "submit": "Submit",
+          "cancel": "Cancel",
+          "edit": "Edit your response",
+          "votingAs": "Voting as"
+        }
+      }
+    }
     {
       "template_id": "key_takeaways",
       "color_scheme": "dark",
