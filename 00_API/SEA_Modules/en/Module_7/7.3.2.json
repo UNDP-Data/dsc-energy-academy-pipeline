@@ -1,5 +1,5 @@
 {
-  "id": "7.3.3",
+  "id": "7.3.2",
   "segments": [
     {
       "template_id": "lesson_cover",
@@ -13,100 +13,15 @@
           "label": "Lesson",
           "number": "3"
         },
-        "title": "Applied Machine Learning in Energy Data",
+        "title": "Poll test",
         "cta": "",
-        "intro": "M1: Introduction to Sustainable Energy System Transformation"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Lesson 3 Overview</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "This section is an introduction to the role of Machine Learning (ML) in energy policy, with a focus on structured data, supervised and unsupervised learning, and ethical considerations. It explains how ML models are trained using labeled data and test/train splits and how these models can support evidence-based policymaking in areas like energy access, consumption forecasting, and environmental impact.<br />The lesson moves from foundational ML concepts to specific applications, such as using Random Forests for <ai prompt=\"Clarify solar energy.\">solar energy 💬️</ai> prediction and clustering for industrial emissions profiling. It concludes by exploring the limitations and ethical concerns tied to ML in public policy, including data bias, transparency, privacy, and explainability, and highlights best practices such as Privacy by Design, Explainable AI, and regulatory sandboxes."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "embed",
-      "size": "full", // "full", "half"
-      "content": {
-        "title": "Share of all deaths altributed to sub-optimal lemperatures",
-        "url": "https://ourworldindata.org/grapher/temp-deaths-zhao",
-      }
-    },
-    {
-      "template_id": "embed",
-      "size": "full", // "full", "half"
-      "content": {
-        "title": "Share of the population with access to electricity, 2023 - TABLE",
-        "url": "https://archive.ourworldindata.org/20250916-100934/grapher/share-of-the-population-with-access-to-electricity.html?tab=table&time=earliest..2023",
-      }
-    },
-    {
-      "template_id": "embed",
-      "size": "full", // "full", "half"
-      "content": {
-        "title": "Share of the population with access to electricity, 2023 - LINE CHART",
-        "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity?tab=line",
-      }
-    },
-    {
-      "template_id": "embed",
-      "size": "full", // "full", "half"
-      "content": {
-        "title": "Share of the population with access to electricity, 2023 - FULL CHART",
-        "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity",
-      }
-    },
-    {
-      "template_id": "flashcards",
-      "content": {
-        "title": "Impacts of Solar Power",
-        "description": "The environmental impact of solar energy includes several factors, primarily land use and greenhouse gas emissions from the manufacturing and transportation of panels. Additionally, the use of hazardous materials in production processes contributes to solar power environmental footprint.",
-        "cards": [
-          {
-            "image": {
-              "url": "https://www.pv-tech.org/wp-content/uploads/2021/02/20071029151252_08_Polysilicon_solar_cell-1024x739.jpg",
-              "altText": "Polysilicon solar cell"
-            },
-            "title": "Hazardous material",
-            "body": "The Photo Voltaics (PV) manufacturing process akin to most clean energy technology involves hazardous materials like acids and chemicals, posing risks to workers and potential environmental threats if not handled and disposed of properly.  Additionally, thin-film PV cells contain more toxic materials, emphasizing the importance of proper management to avoid environmental and health hazards (National Renewable Energy Laboratory, 2012)."
-          },
-          {
-            "image": {
-              "url": "https://drive.google.com/file/d/1d8UVIkRKkl9_m6EQc5ASte53Eze6AVw9/view?usp=sharing",
-              "altText": "Solar-panel-land-use"
-            },
-            "title": "Land use",
-            "body": "Solar power generation requires large areas of land for solar panel installations, potentially leading to habitat destruction and loss of biodiversity. Reports indicate that solar systems, including PV and Concentrated Solar Power (CSP), have high energy land-use intensity compared to other energy technologies, with projected substantial land requirements for future growth (Van de Ven et al., 2021) The potential land requirements and related land use change emissions of solar energy. Innovative approaches like dual-angle solar arrays may mitigate land use impact."
-          },
-          {
-            "image": {
-              "url": "https://as2.ftcdn.net/v2/jpg/14/60/04/79/1000_F_1460047920_DdKDGBoXHhErEhUQUiMSISTbwUdypUat.jpg",
-              "altText": "Flat hydro-solar scene with PV rafts, pump house, and coral lagoon"
-            },
-            "title": "Water consumption",
-            "body": "Water usage varies depending on plant design and cooling technology, with CSP plants requiring significant amounts of water for cooling, albeit with alternatives like dry cooling to reduce consumption (Tawalbeh et al., 2020)."
-          }
-        ]
+        "intro": "M1: testing polls"
       }
     },
     {
       "template_id": "poll",
       "content": {
-        "pollId": "example-poll-id",
+        "pollId": "example-poll-id-1",
         "title": "Poll 1 – Ethics & Governance",
         "description": "In your view, what is the biggest ethical challenge in using digital data (e.g., smart meters, mobile data) for energy policy?",
         "options": [
@@ -134,7 +49,7 @@
     {
       "template_id": "poll",
       "content": {
-        "pollId": "example-poll-id",
+        "pollId": "example-poll-id-2",
         "title": "Poll 2 – Monitoring & Evaluation",
         "description": "When tracking progress in energy access, which type of indicator provides the most actionable insights?",
         "options": [
@@ -157,40 +72,6 @@
           "edit": "Edit your response",
           "votingAs": "Voting as"
         }
-      }
-    },
-    {
-      "template_id": "key_takeaways",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Key Takeaways",
-        "intro": "",
-        "takeaways": [
-          {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_13.png",
-              "caption": ""
-            },
-            "title": "ML enables smarter energy planning through both prediction and pattern recognition",
-            "description": "Supervised learning methods like decision trees and Random Forests are effective for forecasting energy production or estimating infrastructure costs. Unsupervised techniques like clustering and PCA help identify hidden patterns, such as informal energy access or industrial pollution profiles, providing policymakers with deeper insights for targeted interventions."
-          },
-          {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_7.png",
-              "caption": ""
-            },
-            "title": "Unsupervised ML supports evidence-based policy and index construction",
-            "description": "Techniques like PCA can reduce complexity and bias in energy-related indices by allocating weights based on data instead of expert assumptions. This enables more objective assessments of energy security, equity, and sustainability—offering policymakers new ways to benchmark progress and plan reforms."
-          },
-          {
-            "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_13.png",
-              "caption": ""
-            },
-            "title": "Ethical and governance safeguards are essential in applying ML to public policy",
-            "description": "While ML can increase efficiency and insight, risks related to data privacy, bias, and transparency must be actively managed. Approaches like Ethics by Design, Privacy by Design, and Explainable AI (e.g., SHAP values) are vital to ensure ML systems are accountable, inclusive, and equitable—especially when used in public service delivery."
-          }
-        ]
       }
     }
   ]
