@@ -1,0 +1,149 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#666666"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#666666",
+    "pageIconInactiveColor": "#CCCCCC",
+    "pageTextStyle": {
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(247, 247, 247, 1)",
+  "color": [
+    "#dd1367",
+    "#fcc30b",
+    "#fd9d24",
+    "#c5192d",
+    "#19486a",
+    "#4c9f38",
+    "#0a97d9",
+    "#fd6925",
+    "#3f7e44",
+    "#0468b1"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030
+    ],
+    "name": "Year"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#EEEEEE",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "Cumulative wind\ncapacity to meet net\nzero by 2050\nscenarios (GW)"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "..."
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#666666"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "type": "line",
+      "name": "Cumulative wind capacity to meet net zero by 2050 scenarios (GW)",
+      "data": [
+        803.729603729605,
+        908.158508158509,
+        1020.04662004661,
+        1182.28438228438,
+        1366.89976689976,
+        1596.27039627039,
+        1831.23543123543,
+        2027.03962703962,
+        2379.48717948717,
+        2687.17948717948
+      ]
+    }
+  ]
+}

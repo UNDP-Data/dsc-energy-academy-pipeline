@@ -1,0 +1,287 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#666666"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#666666",
+    "pageIconInactiveColor": "#CCCCCC",
+    "pageTextStyle": {
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(247, 247, 247, 1)",
+  "color": [
+    "#3f7e44",
+    "#fd6925",
+    "#fd9d24",
+    "#0a97d9",
+    "#4c9f38",
+    "#dd1367",
+    "#fcc30b",
+    "#c5192d",
+    "#0468b1",
+    "#19486a"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14,
+      "interval": 0,
+      "rotate": 45
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "China-2019",
+      "China-2024",
+      "USA-2019",
+      "USA-2024",
+      "European Union-2019",
+      "European Union-2024",
+      "Indian-2019",
+      "Indian-2024",
+      "Latin America-2019",
+      "Latin America-2024",
+      "Southeast Asia-2019",
+      "Southeast Asia-2024",
+      "Africa-2019",
+      "Africa-2024"
+    ],
+    "name": "Country"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#EEEEEE",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "Billion USD"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#666666"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "Fossil fuels",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        197,
+        185,
+        228,
+        197,
+        29,
+        36,
+        30,
+        37,
+        80,
+        102,
+        77,
+        69,
+        80,
+        68
+      ]
+    },
+    {
+      "name": "Renewable power",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        164,
+        359,
+        56,
+        85,
+        54,
+        106,
+        12,
+        37,
+        22,
+        41,
+        19,
+        15,
+        9,
+        22
+      ]
+    },
+    {
+      "name": "Power grids and storage",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        81,
+        89,
+        74,
+        108,
+        61,
+        121,
+        19,
+        19,
+        12,
+        20,
+        11,
+        11,
+        8,
+        10
+      ]
+    },
+    {
+      "name": "Nuclear and other clean power",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        6,
+        18,
+        6,
+        10,
+        7,
+        15,
+        2,
+        5,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Energy efficiency and end-use",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        120,
+        188,
+        52,
+        89,
+        103,
+        164,
+        12,
+        20,
+        21,
+        16,
+        6,
+        10,
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Low-emissions fuels",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        1,
+        5,
+        2,
+        8,
+        1,
+        4,
+        0,
+        0,
+        2,
+        4,
+        1,
+        2,
+        0,
+        1
+      ]
+    }
+  ],
+  "grid": {
+    "bottom": 150
+  }
+}

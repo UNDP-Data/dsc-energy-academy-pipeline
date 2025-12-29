@@ -1,0 +1,207 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal",
+    "color": "#DDDDDD"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#AAAAAA"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#CCCCCC"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#FFFFFF",
+    "pageIconInactiveColor": "#555555",
+    "pageTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(28, 29, 24, 1)",
+  "color": [
+    "#dd1367",
+    "#3f7e44",
+    "#0468b1",
+    "#fd9d24",
+    "#fd6925",
+    "#0a97d9",
+    "#19486a",
+    "#fcc30b",
+    "#c5192d",
+    "#4c9f38"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "%"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14,
+      "interval": 0
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "Africa",
+      "Americas",
+      "Asia",
+      "Australia and New\nZealand",
+      "Central Asia",
+      "East Asia",
+      "Eastern Europe",
+      "Europe",
+      "Latin America and\nthe Caribbean",
+      "North Africa",
+      "North America",
+      "Northern Europe",
+      "Oceania",
+      "South Asia",
+      "South-east Asia",
+      "Southern Europe",
+      "Sub-Saharan Africa",
+      "West Asia",
+      "Western Europe",
+      "World"
+    ],
+    "name": "Entity"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#FFFFFF"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "Cold deaths",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        11.52,
+        5.41,
+        8.25,
+        9.63,
+        9.72,
+        10.25,
+        7.96,
+        8.07,
+        4.71,
+        9.17,
+        6.3,
+        7.84,
+        8.45,
+        7.43,
+        4.37,
+        8.72,
+        11.85,
+        9.87,
+        7.88,
+        8.52
+      ]
+    },
+    {
+      "name": "Heat deaths",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0.25,
+        0.92,
+        0.77,
+        1.52,
+        0.68,
+        0.71,
+        2.41,
+        2.19,
+        1.06,
+        0.56,
+        0.74,
+        1.58,
+        1.67,
+        0.91,
+        0.55,
+        2.42,
+        0.2,
+        0.73,
+        1.84,
+        0.91
+      ]
+    }
+  ]
+}

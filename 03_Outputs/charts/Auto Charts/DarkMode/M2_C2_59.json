@@ -1,0 +1,328 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal",
+    "color": "#DDDDDD"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#AAAAAA"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#CCCCCC"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#FFFFFF",
+    "pageIconInactiveColor": "#555555",
+    "pageTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(28, 29, 24, 1)",
+  "color": [
+    "#dd1367",
+    "#fd9d24",
+    "#4c9f38",
+    "#fcc30b",
+    "#0468b1",
+    "#c5192d",
+    "#3f7e44",
+    "#fd6925",
+    "#19486a",
+    "#0a97d9"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14,
+      "interval": 0,
+      "rotate": 45
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "name": "Year"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "Commitments (USD\nbillion)"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#FFFFFF"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "Sub-Saharan Africa",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        1.65,
+        3.0,
+        1.52,
+        4.72,
+        2.68,
+        3.88,
+        9.87,
+        4.22,
+        4.91,
+        3.08,
+        3.76,
+        4.45,
+        4.56
+      ]
+    },
+    {
+      "name": "Latin America and the Caribbean",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        4.59,
+        2.55,
+        2.65,
+        3.22,
+        6.64,
+        2.76,
+        5.95,
+        4.76,
+        2.18,
+        2.45,
+        3.08,
+        1.75,
+        3.75
+      ]
+    },
+    {
+      "name": "Central Asia and Southern Asia",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        1.08,
+        2.97,
+        2.64,
+        2.05,
+        1.91,
+        2.83,
+        4.13,
+        3.26,
+        2.49,
+        2.54,
+        2.24,
+        3.0,
+        1.83
+      ]
+    },
+    {
+      "name": "Western Asia and Northern Africa",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        2.14,
+        1.48,
+        1.74,
+        1.06,
+        1.91,
+        1.5,
+        3.5,
+        3.26,
+        2.47,
+        1.99,
+        1.04,
+        1.5,
+        1.72
+      ]
+    },
+    {
+      "name": "Eastern Asia and South-eastern Asia",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0.92,
+        2.74,
+        1.27,
+        1.91,
+        2.85,
+        1.8,
+        3.41,
+        3.47,
+        3.26,
+        0.97,
+        1.12,
+        1.5,
+        1.37
+      ]
+    },
+    {
+      "name": "Oceania",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.11,
+        0.12,
+        0.26,
+        0.18,
+        0.18,
+        0.18,
+        0.22
+      ]
+    },
+    {
+      "name": "Northern America and Europe",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        0.8,
+        0.96,
+        1.0,
+        1.45,
+        2.0,
+        1.46,
+        3.11,
+        2.0,
+        1.26,
+        0.92,
+        0.72,
+        0.75,
+        1.63
+      ]
+    },
+    {
+      "name": "Unspecified countries",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "0.55",
+        "0.97",
+        "0.25",
+        "0.35"
+      ]
+    }
+  ],
+  "grid": {
+    "bottom": 150
+  }
+}

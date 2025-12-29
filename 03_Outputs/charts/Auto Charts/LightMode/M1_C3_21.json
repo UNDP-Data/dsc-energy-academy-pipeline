@@ -1,0 +1,235 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#666666"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#666666",
+    "pageIconInactiveColor": "#CCCCCC",
+    "pageTextStyle": {
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(247, 247, 247, 1)",
+  "color": [
+    "#dd1367",
+    "#19486a",
+    "#4c9f38",
+    "#fcc30b",
+    "#fd9d24",
+    "#0468b1",
+    "#c5192d",
+    "#0a97d9",
+    "#fd6925",
+    "#3f7e44"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14,
+      "interval": 0,
+      "rotate": 45
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "UAE",
+      "Egypt",
+      "Jordan",
+      "Algeria",
+      "Saudi Arabia",
+      "Yemen",
+      "Morocco",
+      "Oman",
+      "Tunisia",
+      "Kuwait",
+      "Lebanon",
+      "Mauritania",
+      "Iraq",
+      "Palestine",
+      "Sudan",
+      "Bahrain",
+      "Qatar",
+      "Libya",
+      "Syria"
+    ],
+    "name": "Region"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#EEEEEE",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "MW"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#666666"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "PV Installed Capacity",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        2439,
+        1623,
+        1541,
+        423,
+        359,
+        253,
+        206,
+        109,
+        95,
+        93,
+        90,
+        88,
+        37,
+        36,
+        18,
+        10,
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "name": "Wind energy installed capacity",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        null,
+        "1653",
+        "515",
+        "10",
+        "3",
+        null,
+        "1405",
+        "50",
+        "245",
+        "12",
+        null,
+        "34",
+        null,
+        "1",
+        null,
+        "1",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "name": "CSP installed capacity",
+      "type": "bar",
+      "stack": "total",
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        "100",
+        "20",
+        null,
+        "25",
+        "50",
+        null,
+        "530",
+        "7",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "grid": {
+    "bottom": 150
+  }
+}

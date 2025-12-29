@@ -1,0 +1,278 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#666666"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#666666",
+    "pageIconInactiveColor": "#CCCCCC",
+    "pageTextStyle": {
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(247, 247, 247, 1)",
+  "color": [
+    "#3f7e44",
+    "#dd1367",
+    "#0468b1",
+    "#fd6925",
+    "#4c9f38",
+    "#19486a",
+    "#fcc30b",
+    "#c5192d",
+    "#0a97d9",
+    "#fd9d24"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14,
+      "interval": 0,
+      "rotate": 45
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "Maldives",
+      "Nepal",
+      "Vietnam",
+      "India",
+      "Cambodia",
+      "Ethiopia",
+      "Rwanda",
+      "Ghana",
+      "Egypt, Arab Rep.",
+      "Vanuatu",
+      "Nigeria",
+      "Uruguay",
+      "Brazil",
+      "Jordan",
+      "T\u221a\u00barkiye",
+      "Ukraine",
+      "Poland",
+      "Kazakhstan",
+      "Jamaica",
+      "Tajikistan"
+    ],
+    "name": "Country"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#EEEEEE",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "max": 1,
+    "name": "%"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#666666"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "4Ws",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.05,
+        0.08,
+        0.09,
+        0.13,
+        0.15,
+        0.15,
+        0.3,
+        0.35,
+        0.36,
+        0.38,
+        0.6,
+        0.75,
+        0.8,
+        0.82,
+        0.85,
+        0.88,
+        0.9,
+        0.91,
+        0.95,
+        0.96
+      ]
+    },
+    {
+      "name": "3Ws",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.4,
+        0.1,
+        0.05,
+        0.05,
+        0.0,
+        0.25,
+        0.18,
+        0.05,
+        0.08,
+        0.02,
+        0.01,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "2Ws",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.5,
+        0.8,
+        0.85,
+        0.75,
+        0.85,
+        0.35,
+        0.3,
+        0.2,
+        0.25,
+        0.2,
+        0.15,
+        0.05,
+        0.05,
+        0.08,
+        0.05,
+        0.04,
+        0.04,
+        0.03,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "name": "Buses",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.05,
+        0.02,
+        0.01,
+        0.07,
+        0.0,
+        0.25,
+        0.22,
+        0.4,
+        0.31,
+        0.4,
+        0.24,
+        0.2,
+        0.15,
+        0.1,
+        0.1,
+        0.08,
+        0.06,
+        0.06,
+        0.03,
+        0.02
+      ]
+    }
+  ],
+  "grid": {
+    "bottom": 150
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal",
+    "color": "#DDDDDD"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#AAAAAA"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#CCCCCC"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#FFFFFF",
+    "pageIconInactiveColor": "#555555",
+    "pageTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(28, 29, 24, 1)",
+  "color": [
+    "#0468b1",
+    "#3f7e44",
+    "#fcc30b",
+    "#dd1367",
+    "#0a97d9",
+    "#fd9d24",
+    "#c5192d",
+    "#19486a",
+    "#fd6925",
+    "#4c9f38"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14,
+      "interval": 0,
+      "rotate": 45
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "Guinea-Bissau",
+      "Cabo Verde",
+      "Comoros",
+      "S\u00e3o Tom\u00e9 and\nPr\u00edncipe",
+      "**Haiti",
+      "**Kiribati",
+      "Micronesia",
+      "Papua New Guinea",
+      "Samoa",
+      "Solomon Islands",
+      "Timor-Leste",
+      "Vanuatu",
+      "Maldives",
+      "Mauritius",
+      "Belize",
+      "Cuba",
+      "Dominica",
+      "Dominican Republic ",
+      "*Grenada ",
+      "Jamaica ",
+      "*Montserrat ",
+      "Saint Lucia",
+      "Saint Vincent and\nthe Grenadines",
+      "Suriname",
+      "Fiji",
+      "Marshall Islands",
+      "Palau ",
+      "Tonga ",
+      "Tuvalu",
+      "Seychelles",
+      "Antigua & Barbuda ",
+      "Guyana",
+      "Nauru",
+      "Cook Islands",
+      "Niue"
+    ],
+    "name": "Country"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "%"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "..."
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#FFFFFF"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "National electrification rate",
+      "type": "bar",
+      "data": [
+        36.010242085661,
+        95.1738050900062,
+        88.2875543140906,
+        78.4916201117318,
+        47.3580074487895,
+        92.6520794537554,
+        83.244103041589,
+        21.1708566108007,
+        98.0834885164494,
+        76.4548417132216,
+        100.0,
+        69.9565487274984,
+        100.0,
+        99.6353196772191,
+        97.5985412787088,
+        100.0,
+        100.0,
+        98.1804779639975,
+        93.7189633767846,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        99.0533829919304,
+        92.2641216635629,
+        100.0,
+        100.0,
+        100.0,
+        99.7323091247672,
+        100.0,
+        99.9262880198634,
+        93.1370266914959,
+        100.0,
+        99.9262880198634,
+        99.8292985723153
+      ]
+    },
+    {
+      "name": "Rural electrification rate",
+      "type": "bar",
+      "data": [
+        16.3213842333954,
+        96.6286468032278,
+        82.8561452513966,
+        73.9331160769708,
+        3.51877715704531,
+        94.5918684047175,
+        79.3645251396647,
+        14.2846058348851,
+        98.0834885164494,
+        75.4849472377405,
+        99.9262880198634,
+        61.1305090006207,
+        99.9262880198634,
+        100.0,
+        97.0166045934202,
+        100.0,
+        100.0,
+        94.6888578522656,
+        95.6587523277467,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        97.5985412787088,
+        86.7357231533209,
+        100.0,
+        100.0,
+        100.0,
+        99.0533829919304,
+        99.9262880198634,
+        100.0,
+        91.2942271880819,
+        100.0,
+        99.9262880198634,
+        99.0533829919304
+      ]
+    }
+  ],
+  "grid": {
+    "bottom": 150
+  }
+}

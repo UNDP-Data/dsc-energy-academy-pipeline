@@ -1,0 +1,709 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#666666"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#666666",
+    "pageIconInactiveColor": "#CCCCCC",
+    "pageTextStyle": {
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(247, 247, 247, 1)",
+  "color": [
+    "#fd9d24",
+    "#3f7e44",
+    "#19486a",
+    "#c5192d",
+    "#0a97d9",
+    "#dd1367",
+    "#fcc30b",
+    "#4c9f38",
+    "#0468b1",
+    "#fd6925"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "Energy use per\ncapita (GJ)"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#EEEEEE",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "HDI"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "..."
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#666666"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "symbolSize": 20,
+      "data": [
+        {
+          "value": [
+            55.24,
+            0.745
+          ],
+          "tooltip": "Algeria"
+        },
+        {
+          "value": [
+            36.39,
+            0.731
+          ],
+          "tooltip": "Egypt"
+        },
+        {
+          "value": [
+            25.58,
+            0.683
+          ],
+          "tooltip": "Morocco"
+        },
+        {
+          "value": [
+            82.92,
+            0.713
+          ],
+          "tooltip": "South Africa"
+        }
+      ],
+      "type": "scatter",
+      "name": "Africa"
+    },
+    {
+      "symbolSize": 20,
+      "data": [
+        {
+          "value": [
+            150.02,
+            0.811
+          ],
+          "tooltip": "Kazakhstan"
+        },
+        {
+          "value": [
+            262.33,
+            0.745
+          ],
+          "tooltip": "Turkmenistan"
+        },
+        {
+          "value": [
+            58.01,
+            0.727
+          ],
+          "tooltip": "Uzbekistan"
+        },
+        {
+          "value": [
+            109.16,
+            0.768
+          ],
+          "tooltip": "China"
+        },
+        {
+          "value": [
+            115.94,
+            0.952
+          ],
+          "tooltip": "Hong Kong"
+        },
+        {
+          "value": [
+            140.74,
+            0.925
+          ],
+          "tooltip": "Japan"
+        },
+        {
+          "value": [
+            245.11,
+            0.925
+          ],
+          "tooltip": "South Korea"
+        },
+        {
+          "value": [
+            9.94,
+            0.661
+          ],
+          "tooltip": "Bangladesh"
+        },
+        {
+          "value": [
+            25.43,
+            0.633
+          ],
+          "tooltip": "India"
+        },
+        {
+          "value": [
+            143.37,
+            0.774
+          ],
+          "tooltip": "Iran"
+        },
+        {
+          "value": [
+            17.13,
+            0.544
+          ],
+          "tooltip": "Pakistan"
+        },
+        {
+          "value": [
+            17.79,
+            0.782
+          ],
+          "tooltip": "Sri Lanka"
+        },
+        {
+          "value": [
+            30.07,
+            0.705
+          ],
+          "tooltip": "Indonesia"
+        },
+        {
+          "value": [
+            127.86,
+            0.803
+          ],
+          "tooltip": "Malaysia"
+        },
+        {
+          "value": [
+            17.67,
+            0.699
+          ],
+          "tooltip": "Philippines"
+        },
+        {
+          "value": [
+            586.21,
+            0.939
+          ],
+          "tooltip": "Singapore"
+        },
+        {
+          "value": [
+            73.05,
+            0.8
+          ],
+          "tooltip": "Thailand"
+        },
+        {
+          "value": [
+            44.0,
+            0.703
+          ],
+          "tooltip": "Viet Nam"
+        },
+        {
+          "value": [
+            64.53,
+            0.745
+          ],
+          "tooltip": "Azerbaijan"
+        },
+        {
+          "value": [
+            88.25,
+            0.896
+          ],
+          "tooltip": "Cyprus"
+        },
+        {
+          "value": [
+            51.56,
+            0.686
+          ],
+          "tooltip": "Iraq"
+        },
+        {
+          "value": [
+            119.62,
+            0.919
+          ],
+          "tooltip": "Israel"
+        },
+        {
+          "value": [
+            401.73,
+            0.831
+          ],
+          "tooltip": "Kuwait"
+        },
+        {
+          "value": [
+            287.03,
+            0.816
+          ],
+          "tooltip": "Oman"
+        },
+        {
+          "value": [
+            657.63,
+            0.855
+          ],
+          "tooltip": "Qatar"
+        },
+        {
+          "value": [
+            306.28,
+            0.875
+          ],
+          "tooltip": "Saudi Arabia"
+        },
+        {
+          "value": [
+            80.28,
+            0.838
+          ],
+          "tooltip": "Turkey"
+        },
+        {
+          "value": [
+            453.25,
+            0.911
+          ],
+          "tooltip": "United Arab Emirates"
+        }
+      ],
+      "type": "scatter",
+      "name": "Asia"
+    },
+    {
+      "symbolSize": 20,
+      "data": [
+        {
+          "value": [
+            117.11,
+            0.808
+          ],
+          "tooltip": "Belarus"
+        },
+        {
+          "value": [
+            113.59,
+            0.795
+          ],
+          "tooltip": "Bulgaria"
+        },
+        {
+          "value": [
+            156.43,
+            0.889
+          ],
+          "tooltip": "Czechia"
+        },
+        {
+          "value": [
+            105.45,
+            0.846
+          ],
+          "tooltip": "Hungary"
+        },
+        {
+          "value": [
+            117.52,
+            0.876
+          ],
+          "tooltip": "Poland"
+        },
+        {
+          "value": [
+            73.37,
+            0.821
+          ],
+          "tooltip": "Romania"
+        },
+        {
+          "value": [
+            214.49,
+            0.822
+          ],
+          "tooltip": "Russia"
+        },
+        {
+          "value": [
+            129.99,
+            0.848
+          ],
+          "tooltip": "Slovakia"
+        },
+        {
+          "value": [
+            76.72,
+            0.773
+          ],
+          "tooltip": "Ukraine"
+        },
+        {
+          "value": [
+            115.52,
+            0.948
+          ],
+          "tooltip": "Denmark"
+        },
+        {
+          "value": [
+            178.97,
+            0.89
+          ],
+          "tooltip": "Estonia"
+        },
+        {
+          "value": [
+            208.84,
+            0.94
+          ],
+          "tooltip": "Finland"
+        },
+        {
+          "value": [
+            612.15,
+            0.959
+          ],
+          "tooltip": "Iceland"
+        },
+        {
+          "value": [
+            125.87,
+            0.945
+          ],
+          "tooltip": "Ireland"
+        },
+        {
+          "value": [
+            81.4,
+            0.863
+          ],
+          "tooltip": "Latvia"
+        },
+        {
+          "value": [
+            93.94,
+            0.875
+          ],
+          "tooltip": "Lithuania"
+        },
+        {
+          "value": [
+            374.2,
+            0.961
+          ],
+          "tooltip": "Norway"
+        },
+        {
+          "value": [
+            224.79,
+            0.947
+          ],
+          "tooltip": "Sweden"
+        },
+        {
+          "value": [
+            105.26,
+            0.929
+          ],
+          "tooltip": "United Kingdom"
+        },
+        {
+          "value": [
+            87.67,
+            0.858
+          ],
+          "tooltip": "Croatia"
+        },
+        {
+          "value": [
+            101.55,
+            0.887
+          ],
+          "tooltip": "Greece"
+        },
+        {
+          "value": [
+            105.28,
+            0.895
+          ],
+          "tooltip": "Italy"
+        },
+        {
+          "value": [
+            50.22,
+            0.77
+          ],
+          "tooltip": "North Macedonia"
+        },
+        {
+          "value": [
+            94.07,
+            0.866
+          ],
+          "tooltip": "Portugal"
+        },
+        {
+          "value": [
+            129.87,
+            0.918
+          ],
+          "tooltip": "Slovenia"
+        },
+        {
+          "value": [
+            119.62,
+            0.905
+          ],
+          "tooltip": "Spain"
+        },
+        {
+          "value": [
+            163.96,
+            0.916
+          ],
+          "tooltip": "Austria"
+        },
+        {
+          "value": [
+            234.36,
+            0.937
+          ],
+          "tooltip": "Belgium"
+        },
+        {
+          "value": [
+            143.77,
+            0.903
+          ],
+          "tooltip": "France"
+        },
+        {
+          "value": [
+            150.68,
+            0.942
+          ],
+          "tooltip": "Germany"
+        },
+        {
+          "value": [
+            238.67,
+            0.93
+          ],
+          "tooltip": "Luxembourg"
+        },
+        {
+          "value": [
+            202.32,
+            0.941
+          ],
+          "tooltip": "Netherlands"
+        },
+        {
+          "value": [
+            123.22,
+            0.962
+          ],
+          "tooltip": "Switzerland"
+        }
+      ],
+      "type": "scatter",
+      "name": "Europe"
+    },
+    {
+      "symbolSize": 20,
+      "data": [
+        {
+          "value": [
+            437.92,
+            0.81
+          ],
+          "tooltip": "Trinidad and Tobago"
+        },
+        {
+          "value": [
+            52.12,
+            0.758
+          ],
+          "tooltip": "Mexico"
+        },
+        {
+          "value": [
+            366.09,
+            0.936
+          ],
+          "tooltip": "Canada"
+        },
+        {
+          "value": [
+            279.27,
+            0.921
+          ],
+          "tooltip": "United States"
+        }
+      ],
+      "type": "scatter",
+      "name": "North America"
+    },
+    {
+      "symbolSize": 20,
+      "data": [
+        {
+          "value": [
+            221.81,
+            0.951
+          ],
+          "tooltip": "Australia"
+        },
+        {
+          "value": [
+            173.11,
+            0.937
+          ],
+          "tooltip": "New Zealand"
+        }
+      ],
+      "type": "scatter",
+      "name": "Oceania"
+    },
+    {
+      "symbolSize": 20,
+      "data": [
+        {
+          "value": [
+            75.26,
+            0.842
+          ],
+          "tooltip": "Argentina"
+        },
+        {
+          "value": [
+            58.72,
+            0.754
+          ],
+          "tooltip": "Brazil"
+        },
+        {
+          "value": [
+            86.6,
+            0.855
+          ],
+          "tooltip": "Chile"
+        },
+        {
+          "value": [
+            37.52,
+            0.752
+          ],
+          "tooltip": "Colombia"
+        },
+        {
+          "value": [
+            42.61,
+            0.74
+          ],
+          "tooltip": "Ecuador"
+        },
+        {
+          "value": [
+            35.96,
+            0.762
+          ],
+          "tooltip": "Peru"
+        },
+        {
+          "value": [
+            70.77,
+            0.691
+          ],
+          "tooltip": "Venezuela"
+        }
+      ],
+      "type": "scatter",
+      "name": "South America"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#666666"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#666666",
+    "pageIconInactiveColor": "#CCCCCC",
+    "pageTextStyle": {
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(247, 247, 247, 1)",
+  "color": [
+    "#fd6925",
+    "#3f7e44",
+    "#19486a",
+    "#c5192d",
+    "#0468b1",
+    "#dd1367",
+    "#fcc30b",
+    "#4c9f38",
+    "#fd9d24",
+    "#0a97d9"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14,
+      "interval": 0
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "name": "Year"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#EEEEEE",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "max": 1,
+    "name": "%"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "...",
+    "show": false
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#666666"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "East Asia and Pacific",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.4,
+        0.43,
+        0.46,
+        0.41,
+        0.4019607843137255,
+        0.29,
+        0.42,
+        0.49,
+        0.56,
+        0.66
+      ]
+    },
+    {
+      "name": "North America (excl. Mexico)",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.14,
+        0.14,
+        0.13,
+        0.19,
+        0.1568627450980392,
+        0.23,
+        0.21,
+        0.15,
+        0.15,
+        0.12
+      ]
+    },
+    {
+      "name": "Europe",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.21,
+        0.2,
+        0.21,
+        0.2,
+        0.13725490196078433,
+        0.21,
+        0.16,
+        0.19,
+        0.18,
+        0.12
+      ]
+    },
+    {
+      "name": "Eurasia",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.02,
+        0.01,
+        0.01,
+        0.01,
+        0.00980392156862745,
+        0.01,
+        0.01,
+        0.01,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Latin America & Caribbean",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.08,
+        0.07,
+        0.08,
+        0.05,
+        0.058823529411764705,
+        0.06,
+        0.06,
+        0.05,
+        0.05,
+        0.04
+      ]
+    },
+    {
+      "name": "South Asia",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.03,
+        0.04,
+        0.04,
+        0.04,
+        0.049019607843137254,
+        0.03,
+        0.06,
+        0.05,
+        0.03,
+        0.03
+      ]
+    },
+    {
+      "name": "Sub-Saharan Africa",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.02,
+        0.01,
+        0.02,
+        0.02,
+        0.0196078431372549,
+        0.01,
+        0.01,
+        0.01,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Others",
+      "type": "bar",
+      "stack": "total",
+      "label": {
+        "formatter": {
+          "function": "function(params) { return Math.round(params.value * 1000) / 10 + '%'; }"
+        }
+      },
+      "data": [
+        0.1,
+        0.1,
+        0.05,
+        0.08,
+        0.16666666666666666,
+        0.16,
+        0.07,
+        0.05,
+        0.03,
+        0.03
+      ]
+    }
+  ],
+  "grid": {
+    "bottom": 80
+  }
+}

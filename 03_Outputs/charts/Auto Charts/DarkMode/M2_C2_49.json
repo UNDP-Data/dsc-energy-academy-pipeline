@@ -1,0 +1,178 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal",
+    "color": "#DDDDDD"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#AAAAAA"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#CCCCCC"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#FFFFFF",
+    "pageIconInactiveColor": "#555555",
+    "pageTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(30, 30, 30, 0.85)",
+    "borderColor": "#555555",
+    "formatter": null
+  },
+  "backgroundColor": "rgba(28, 29, 24, 1)",
+  "color": [
+    "#fd6925",
+    "#fd9d24",
+    "#4c9f38",
+    "#3f7e44",
+    "#dd1367",
+    "#19486a",
+    "#0468b1",
+    "#c5192d",
+    "#0a97d9",
+    "#fcc30b"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14,
+      "interval": 0
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "category",
+    "data": [
+      "World",
+      "Central and Southern\nAsia",
+      "Eastern and South\neastern Asia",
+      "Sub-Saharan Africa",
+      "Western Asia and\nNorthern Africa"
+    ],
+    "name": "Region"
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#888888",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#444444",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#AAAAAA",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#CCCCCC",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "Population\n(millions)"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "..."
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#FFFFFF"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "series": [
+    {
+      "name": "Annual increase in population with electricity access (Urban)",
+      "type": "bar",
+      "data": [
+        76,
+        20,
+        22,
+        21,
+        6
+      ]
+    },
+    {
+      "name": "Annual increase in population (Urban)",
+      "type": "bar",
+      "data": [
+        70,
+        17,
+        21,
+        18,
+        6
+      ]
+    },
+    {
+      "name": "Annual increase in population with electricity access (Rural)",
+      "type": "bar",
+      "data": [
+        20,
+        24,
+        -13,
+        11,
+        2
+      ]
+    },
+    {
+      "name": "Annual increase in population (Rural)",
+      "type": "bar",
+      "data": [
+        8,
+        2,
+        -16,
+        24,
+        2
+      ]
+    }
+  ],
+  "grid": {
+    "bottom": 100
+  }
+}

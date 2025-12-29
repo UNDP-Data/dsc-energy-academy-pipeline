@@ -1,0 +1,407 @@
+{
+  "textStyle": {
+    "fontFamily": "Proxima Nova, sans-serif",
+    "fontSize": 14,
+    "fontWeight": "normal"
+  },
+  "axisLabel": {
+    "fontSize": 14,
+    "color": "#666666"
+  },
+  "legend": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#444444"
+    },
+    "orient": "horizontal",
+    "top": "bottom",
+    "type": "scroll",
+    "pageIconColor": "#666666",
+    "pageIconInactiveColor": "#CCCCCC",
+    "pageTextStyle": {
+      "fontSize": 14
+    }
+  },
+  "tooltip": {
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#FFFFFF"
+    },
+    "backgroundColor": "rgba(50, 50, 50, 0.85)",
+    "borderColor": "#CCCCCC",
+    "formatter": null,
+    "trigger": "axis"
+  },
+  "backgroundColor": "rgba(247, 247, 247, 1)",
+  "color": [
+    "#19486a",
+    "#0a97d9",
+    "#4c9f38",
+    "#c5192d",
+    "#fcc30b",
+    "#fd9d24",
+    "#dd1367",
+    "#0468b1",
+    "#3f7e44",
+    "#fd6925"
+  ],
+  "xAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#DDDDDD",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "category",
+    "name": "Year",
+    "boundaryGap": false,
+    "data": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ]
+  },
+  "yAxis": {
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#999999",
+        "type": "solid",
+        "width": 1
+      }
+    },
+    "splitLine": {
+      "show": true,
+      "lineStyle": {
+        "type": "dashed",
+        "color": "#EEEEEE",
+        "opacity": 0.7
+      }
+    },
+    "axisLabel": {
+      "color": "#666666",
+      "fontSize": 14
+    },
+    "nameTextStyle": {
+      "color": "#444444",
+      "fontSize": 14
+    },
+    "type": "value",
+    "name": "GtCO2 eq"
+  },
+  "label": {
+    "overflow": "truncate",
+    "ellipsis": "..."
+  },
+  "hoverLayerThreshold": 3000,
+  "tooltipTrigger": "axis",
+  "emphasis": {
+    "itemStyle": {
+      "borderWidth": 1,
+      "borderColor": "#666666"
+    }
+  },
+  "accessibility": {
+    "contrastRatioMin": 4.5,
+    "colorBlindSafe": true
+  },
+  "grid": {
+    "left": "3%",
+    "right": "4%",
+    "bottom": "3%",
+    "containLabel": true
+  },
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {}
+    }
+  },
+  "series": [
+    {
+      "name": "Coal",
+      "type": "line",
+      "stack": "Total",
+      "areaStyle": {},
+      "data": [
+        8.93,
+        9.16,
+        9.36,
+        10.08,
+        10.74,
+        11.45,
+        12.1,
+        12.78,
+        12.93,
+        12.93,
+        13.84,
+        14.6,
+        14.73,
+        15.08,
+        15.1,
+        14.61,
+        14.39,
+        14.62,
+        15.01,
+        14.76,
+        14.23,
+        15.22,
+        15.46
+      ]
+    },
+    {
+      "name": "Oil",
+      "type": "line",
+      "stack": "Total",
+      "areaStyle": {},
+      "data": [
+        9.66,
+        9.71,
+        9.67,
+        9.81,
+        10.18,
+        10.31,
+        10.38,
+        10.54,
+        10.44,
+        10.16,
+        10.54,
+        10.56,
+        10.65,
+        10.81,
+        10.87,
+        11.12,
+        11.18,
+        11.33,
+        11.41,
+        11.38,
+        10.12,
+        10.9,
+        11.17
+      ]
+    },
+    {
+      "name": "Natural gas",
+      "type": "line",
+      "stack": "Total",
+      "areaStyle": {},
+      "data": [
+        4.56,
+        4.62,
+        4.78,
+        4.96,
+        5.09,
+        5.21,
+        5.36,
+        5.57,
+        5.73,
+        5.57,
+        6.04,
+        6.13,
+        6.25,
+        6.33,
+        6.32,
+        6.42,
+        6.6,
+        6.75,
+        7.07,
+        7.2,
+        7.08,
+        7.45,
+        7.33
+      ]
+    },
+    {
+      "name": "Waste",
+      "type": "line",
+      "stack": "Total",
+      "areaStyle": {},
+      "data": [
+        0.1,
+        0.11,
+        0.11,
+        0.11,
+        0.11,
+        0.11,
+        0.12,
+        0.12,
+        0.12,
+        0.13,
+        0.16,
+        0.18,
+        0.19,
+        0.19,
+        0.19,
+        0.19,
+        0.21,
+        0.22,
+        0.23,
+        0.23,
+        0.24,
+        0.25,
+        0.28
+      ]
+    },
+    {
+      "name": "Industrial processes",
+      "type": "line",
+      "stack": "Total",
+      "areaStyle": {},
+      "data": [
+        1.31,
+        1.32,
+        1.37,
+        1.47,
+        1.54,
+        1.62,
+        1.76,
+        1.87,
+        1.87,
+        1.9,
+        2.01,
+        2.17,
+        2.24,
+        2.31,
+        2.37,
+        2.36,
+        2.42,
+        2.45,
+        2.58,
+        2.67,
+        2.64,
+        2.67,
+        2.57
+      ]
+    },
+    {
+      "name": "Methane",
+      "type": "line",
+      "stack": "Total",
+      "areaStyle": {},
+      "data": [
+        2.97,
+        3.01,
+        3.0,
+        3.16,
+        3.3,
+        3.43,
+        3.5,
+        3.56,
+        3.61,
+        3.53,
+        3.68,
+        3.79,
+        3.84,
+        3.87,
+        3.89,
+        3.86,
+        3.84,
+        3.87,
+        3.97,
+        4.02,
+        3.79,
+        3.91,
+        3.99
+      ]
+    },
+    {
+      "name": "Nitrous oxide",
+      "type": "line",
+      "stack": "Total",
+      "areaStyle": {},
+      "data": [
+        0.19,
+        0.2,
+        0.2,
+        0.21,
+        0.22,
+        0.22,
+        0.23,
+        0.23,
+        0.24,
+        0.23,
+        0.24,
+        0.25,
+        0.25,
+        0.26,
+        0.26,
+        0.26,
+        0.26,
+        0.27,
+        0.27,
+        0.27,
+        0.25,
+        0.27,
+        0.28
+      ]
+    },
+    {
+      "name": "CO2 flaring",
+      "type": "line",
+      "stack": "Total",
+      "areaStyle": {},
+      "data": [
+        0.31,
+        0.3,
+        0.29,
+        0.32,
+        0.31,
+        0.32,
+        0.3,
+        0.29,
+        0.28,
+        0.28,
+        0.26,
+        0.27,
+        0.27,
+        0.26,
+        0.27,
+        0.28,
+        0.28,
+        0.27,
+        0.27,
+        0.28,
+        0.27,
+        0.27,
+        0.27
+      ]
+    }
+  ]
+}
