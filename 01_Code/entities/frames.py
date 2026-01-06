@@ -687,59 +687,65 @@ class Chart(FrameBase):
 
         # --- Load ECharts config by image name ---
         chart_id = image_node.name
-        chart_path = Path("../02_Inputs/Charts/DarkMode") / f"{chart_id}.json" ##add handling of light/dark modes
+        print(chart_id)
+        chart_path = Path("../03_Outputs/charts/Auto Charts/DarkMode") / f"{chart_id}.json" ##add handling of light/dark modes
         if not chart_path.exists():
+            print(chart_id, "missing")
+
             raise ValueError(f"Chart JSON not found for: {chart_id}")
+
 
         with open(chart_path, "r", encoding="utf-8") as f:
             option = json.load(f)
 
-        # --- Inject title and subtext ---
-        option["title"] = {
-            "text": title_text,
-            "subtext": "",#source_text,
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-                "color": "#ffffff",
-                "fontSize": 22,
-                "fontWeight": "bold",
-                "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-                "color": "#666666",
-                "fontSize": 14,
-                "fontFamily": "Proxima Nova, sans-serif"
-            }
-        }
+        
+        ###test content to insert style materials
+        # # --- Inject title and subtext ---
+        # option["title"] = {
+        #     "text": title_text,
+        #     "subtext": "",#source_text,
+        #     "left": "center",
+        #     "top": 20,
+        #     "textStyle": {
+        #         "color": "#ffffff",
+        #         "fontSize": 22,
+        #         "fontWeight": "bold",
+        #         "fontFamily": "Proxima Nova, sans-serif"
+        #     },
+        #     "subtextStyle": {
+        #         "color": "#666666",
+        #         "fontSize": 14,
+        #         "fontFamily": "Proxima Nova, sans-serif"
+        #     }
+        # }
 
-        # --- Ensure grid spacing ---
-        option["grid"] = option.get("grid", {})
-        option["grid"].update({
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-        })
+        # # --- Ensure grid spacing ---
+        # option["grid"] = option.get("grid", {})
+        # option["grid"].update({
+        #     "top": 200,
+        #     "bottom": 90,
+        #     "left": 70,
+        #     "right": 40
+        # })
 
-        # --- Add summary as graphic block between subtext and chart ---
-        option["graphic"] = {
-            "elements": [
-                {
-                    "type": "text",
-                    "left": "center",
-                    "top": 80,
-                    "style": {
-                        "text": "",#summary_text,
-                        "fill": "#444444",
-                        "font": "15px Proxima Nova, sans-serif",
-                        "width": 600,
-                        "lineHeight": 22,
-                        "align": "center"
-                    }
-                }
-            ]
-        }
+        # # --- Add summary as graphic block between subtext and chart ---
+        # option["graphic"] = {
+        #     "elements": [
+        #         {
+        #             "type": "text",
+        #             "left": "center",
+        #             "top": 80,
+        #             "style": {
+        #                 "text": "",#summary_text,
+        #                 "fill": "#444444",
+        #                 "font": "15px Proxima Nova, sans-serif",
+        #                 "width": 600,
+        #                 "lineHeight": 22,
+        #                 "align": "center"
+        #             }
+        #         }
+        #     ]
+        # }
 
         return cls(
             template_id="echarts_chart",
