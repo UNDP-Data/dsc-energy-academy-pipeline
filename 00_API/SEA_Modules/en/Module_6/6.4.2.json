@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The buildings sector, which includes construction, heating, cooling, lighting, and appliances, accounts for over one-third of global energy consumption and emissions. Operations alone are responsible for 30% of global final energy use and 26% of energy-related emissions, with 8% from direct emissions and 18% from indirect emissions tied to electricity and heat production. <br />While direct emissions slightly decreased to 3 Gt in 2022, indirect emissions rose to nearly 6.8 Gt due to increased reliance on electricity. Despite some progress, the sector remains off-track to meet the <a href=\"https://www.iea.org/reports/global-energy-and-climate-model/net-zero-emissions-by-2050-scenario-nze\"><u>Net Zero Emissions by 2050 (NZE) Scenario</u></a>. Addressing this requires a concerted effort to improve <ai prompt=\"Tell me more about energy efficiency.\">energy efficiency 💬️</ai> and adopt renewable energy technologies."
+              "text": "The buildings sector, which includes construction, heating, cooling, lighting, and appliances, accounts for over one-third of global energy consumption and emissions. Operations alone are responsible for 30% of global final energy use and 26% of energy-related emissions, with 8% from direct emissions and 18% from indirect emissions tied to electricity and heat production. <br />While direct emissions slightly decreased to 3 Gt in 2022, indirect emissions rose to nearly 6.8 Gt due to increased reliance on electricity. Despite some progress, the sector remains off-track to meet the <a href=\"https://www.iea.org/reports/global-energy-and-climate-model/net-zero-emissions-by-2050-scenario-nze\"><u>Net Zero Emissions by 2050 (NZE) Scenario</u></a>. Addressing this requires a concerted effort to improve <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai> and adopt renewable energy technologies."
             }
           }
         ]
@@ -61,6 +61,196 @@
             "source": ""
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#fd6925",
+            "#fd9d24",
+            "#4c9f38",
+            "#0a97d9",
+            "#dd1367",
+            "#fcc30b",
+            "#19486a",
+            "#0468b1",
+            "#c5192d",
+            "#3f7e44"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "EJ"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2022"
+            ],
+            "name": "Year"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Residential",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                20.96
+              ]
+            },
+            {
+              "name": "Non-residential",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                8.76
+              ]
+            },
+            {
+              "name": "Buildings construction industry",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3.97
+              ]
+            },
+            {
+              "name": "Other construction industry",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                3.33
+              ]
+            },
+            {
+              "name": "Other",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                62.98
+              ]
+            }
+          ]
+        }
       }
     },
     {

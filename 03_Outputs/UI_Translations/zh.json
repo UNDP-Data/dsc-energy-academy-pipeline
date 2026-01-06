@@ -1,0 +1,520 @@
+{
+  "globals": {
+    "lessonProgress": {
+      "not_started": "未开始",
+      "in_progress": "进行中",
+      "completed": "已完成"
+    }
+  },
+  "SignInPage": {
+    "title": "很高兴再次见到你",
+    "noAccount": "还没有账户？",
+    "signUp": "立即注册",
+    "SignInForm": {
+      "login": {
+        "label": "登录",
+        "placeholder": "电子邮件或电话号码",
+        "requiredError": "这是必填字段",
+        "invalidError": "请输入有效的电子邮件地址"
+      },
+      "password": {
+        "label": "密码",
+        "placeholder": "密码",
+        "requiredError": "这是必填字段"
+      },
+      "remember": "记住我",
+      "forgot": "忘记密码？",
+      "submit": "登录",
+      "credentialsError": "我们未能找到匹配项。请检查您的用户名和密码，或如果您是新用户，请<signup>创建账户</signup>。",
+      "genericError": "我们遇到技术问题。请再试一次。感谢您的耐心等待。"
+    }
+  },
+  "SignUpPage": {
+    "title": "欢迎",
+    "SignUpForm": {
+      "email": {
+        "label": "电子邮件",
+        "placeholder": "电子邮件",
+        "requiredError": "这是必填字段",
+        "invalidError": "请输入有效的电子邮件地址"
+      },
+      "password": {
+        "label": "密码",
+        "placeholder": "密码",
+        "hint": "至少8个字符",
+        "requiredError": "这是必填字段",
+        "invalidError": "密码必须至少包含8个字符"
+      },
+      "confirmPassword": {
+        "label": "确认密码",
+        "placeholder": "重复密码",
+        "invalidError": "请确保您的密码一致。"
+      },
+      "submit": "注册",
+      "alreadyTakenError": "此电子邮件地址已被使用。请使用其他电子邮件或<login>登录</login>。",
+      "genericError": "我们遇到技术问题。请再试一次。感谢您的耐心等待。"
+    }
+  },
+  "SiteMenu": {
+    "logo": {
+      "alt": "UNDP 可持续能源学院标志"
+    },
+    "triggerAriaLabel": "打开菜单",
+    "navigation": {
+      "home": "首页",
+      "modules": "学院",
+      "resources": "资源",
+      "energyAi": "能源AI",
+      "geospatial": "地理空间",
+      "profile": "个人资料",
+      "signIn": "登录",
+      "signOut": "退出登录"
+    },
+    "languageSelector": {
+      "label": "语言选择",
+      "select": "选择语言"
+    },
+    "authentication": {
+      "signIn": "登录",
+      "signOut": "退出登录",
+      "profileAriaLabel": "前往您的个人资料页面",
+      "profile": "您的个人资料",
+      "dropdownToggleAriaLabel": "切换用户资料菜单"
+    }
+  },
+  "SiteFooter": {
+    "terms": "使用条款",
+    "colophon": "© 2023 联合国开发计划署",
+    "social": {
+      "facebook": "访问我们的 Facebook 页面",
+      "twitter": "访问我们的Twitter页面",
+      "instagram": "访问我们的Instagram页面",
+      "linkedin": "访问我们的LinkedIn页面",
+      "youtube": "访问我们的YouTube频道"
+    }
+  },
+  "PasswordInput": {
+    "hide": "隐藏密码",
+    "show": "显示密码"
+  },
+  "QuickLinks": {
+    "goTo": "前往",
+    "scroll": "滚动以了解更多"
+  },
+  "HomePage": {
+    "LandingHero": {
+      "title": "可持续能源学院",
+      "registerCta": "开始学习",
+      "aiCtaShort": "询问能源AI",
+      "aiCta": "向能源AI提问",
+      "scroll": "或滚动以探索 <bold>数字智能平台</bold>"
+    },
+    "Welcome": {
+      "title": "欢迎回来 <bold>{name}</bold>，准备继续您的课程吗？"
+    },
+    "Carousel1": {
+      "intro": "可持续能源数字智能平台的一部分",
+      "title": "能源发展",
+      "list": "needs translation",
+      "slides": {
+        "item1": {
+          "alt": "图片 1"
+        },
+        "item2": {
+          "alt": "图片 2"
+        },
+        "item3": {
+          "alt": "图片 3"
+        }
+      }
+    },
+    "Carousel2": {
+      "intro": "可持续能源学院的关注领域",
+      "title": "能源发展",
+      "list": "needs translation",
+      "slides": {
+        "item1": {
+          "alt": "图片 1"
+        },
+        "item2": {
+          "alt": "图片 2"
+        },
+        "item3": {
+          "alt": "图片 3"
+        }
+      }
+    },
+    "Carousel": {
+      "aria": {
+        "section": "图片轮播",
+        "indicator": "幻灯片编号 {slideNumber}",
+        "slide": "第 {slideNumber} 幻灯片，共 {slideCount} 幻灯片",
+        "previous": "转到上一张幻灯片",
+        "next": "转到下一张幻灯片"
+      }
+    },
+    "Invitation": {
+      "body": "欢迎使用 <bold>可持续能源数字智能平台</bold>，这是一个通过数据驱动和集成策略推动系统转型、实现包容性和公平的可持续能源转型的创新工具。"
+    },
+    "Video": {
+      "title": "视频标题",
+      "body": "Nulla pellentesque leo vitae lorem hendrerit, sit amet elementum ipsum rutrum. Morbi ultricies volutpat orci."
+    },
+    "ModulesFeature": {
+      "title": "探索学院数字学习平台，包含8个互动电子模块",
+      "body": "深入了解超过40小时的专家撰写内容和思想领导力。发现80个信息图表和60个数据可视化，生动展现能源趋势。学习70个真实案例，突出具有影响力的可持续能源解决方案。完成每个模块即可获得证书！",
+      "cta": "探索所有模块"
+    },
+    "KnowledgeGraph": {
+      "title": "在需要时，向能源AI和知识图谱求助",
+      "body": "该平台通过AI和知识图谱工具提供数据驱动的洞察和学习体验，基于定制的能源政策和资源数据库进行训练，并通过动态界面实现超越聊天的功能，深入融合可持续能源发展的整体方法。",
+      "cta": "询问能源AI"
+    }
+  },
+  "ProfilePage": {
+    "section": "账户",
+    "pageTitle": "您的账户页面",
+    "anchors": {
+      "dashboard": "您的进度",
+      "certificates": "证书",
+      "accountSettings": "账户设置"
+    },
+    "Milestones": {
+      "example": "示例里程碑"
+    },
+    "ResumeLessons": {
+      "title": "继续学习",
+      "noLessons": "开始新课程，继续您的学习之旅"
+    },
+    "StartLessons": {
+      "title": "开始新课程：根据您的成长领域量身定制",
+      "text": "为了加强这些领域，建议的课程包括"
+    },
+    "Certificates": {
+      "completed": "已完成！",
+      "view": "查看证书"
+    },
+    "ProfilePicture": {
+      "altText": "您的头像",
+      "hint": "图片大小应在1MB以下",
+      "label": "上传照片",
+      "labelUploading": "正在上传照片...",
+      "genericError": "我们遇到技术问题。请再试一次。感谢您的耐心等待。",
+      "fileTooLargeError": "文件太大。请上传小于1兆字节的文件。"
+    },
+    "ProfileForm": {
+      "title": "常规设置",
+      "firstName": {
+        "label": "名字",
+        "placeholder": "名字",
+        "requiredError": "这是必填字段"
+      },
+      "lastName": {
+        "label": "姓",
+        "placeholder": "姓",
+        "requiredError": "这是必填字段"
+      },
+      "username": {
+        "label": "用户名",
+        "placeholder": "用户名",
+        "requiredError": "这是必填字段"
+      },
+      "bio": {
+        "label": "简要描述",
+        "placeholder": "您的标题、职业或简短简介"
+      },
+      "save": "保存更改",
+      "saving": "保存更改中...",
+      "genericError": "我们遇到技术问题。请再试一次。感谢您的耐心等待。"
+    },
+    "ChangePasswordForm": {
+      "title": "更改密码",
+      "currentPassword": {
+        "label": "当前密码",
+        "placeholder": "当前密码",
+        "requiredError": "这是必填字段",
+        "invalidError": "字段必须至少包含 8 个字符"
+      },
+      "newPassword": {
+        "label": "新密码",
+        "placeholder": "新密码",
+        "hint": "至少8个字符",
+        "requiredError": "这是必填字段",
+        "invalidError": "密码必须至少包含8个字符"
+      },
+      "confirmPassword": {
+        "label": "确认新密码",
+        "placeholder": "确认新密码",
+        "requiredError": "这是必填字段",
+        "invalidError": "请确保您的密码一致。"
+      },
+      "save": "保存更改",
+      "saving": "保存更改中...",
+      "genericError": "我们遇到技术问题。请再试一次。感谢您的耐心等待。",
+      "samePasswordError": "新密码必须与当前密码不同。",
+      "success": "密码修改成功。"
+    }
+  },
+  "ModulesPage": {
+    "pageTitle": "探索学院数字学习平台，包含8个互动电子模块",
+    "section": "模块",
+    "introduction": "深入了解超过40小时的专家撰写内容和思想领导力。发现80个信息图表和60个数据可视化，生动展现能源趋势。学习70个真实案例，突出具有影响力的可持续能源解决方案。完成每个模块即可获得证书！",
+    "ModulesHeader": {
+      "title": "探索所有模块",
+      "hint": {
+        "mobile": "展开手风琴以发现模块。",
+        "desktop": "点击轮子或探索手风琴以发现模块。"
+      },
+      "modes": {
+        "linear": "线性模式",
+        "network": "网络模式"
+      },
+      "legend": {
+        "toc": {
+          "title": "内容类型",
+          "lesson": "课程",
+          "takeaways": "要点",
+          "quiz": "测验"
+        },
+        "progress": {
+          "title": "进度",
+          "todo": "待办事项",
+          "inProgress": "进行中",
+          "completed": "完成"
+        }
+      }
+    },
+    "LessonList": {
+      "ModulePreview": {
+        "ChapterPreviewCard": {
+          "segment": "章节"
+        },
+        "ModulePreviewHeader": {
+          "module": "模块",
+          "chapters": "章节",
+          "time": "预计时间",
+          "notStarted": "未开始",
+          "completion": "完成"
+        }
+      }
+    },
+    "ModulePreview": {
+      "startModule": "开始模块",
+      "choose": "或选择一个章节："
+    }
+  },
+  "ResourcesPage": {
+    "pageTitle": "下载资源页面",
+    "section": "资源",
+    "publications": "SEH的出版物和公告",
+    "press": "联合国开发计划署新闻稿",
+    "allResources": "所有出版物和资源",
+    "viewMore": "查看更多",
+    "ArticlePreview": {
+      "readMore": "阅读全文"
+    }
+  },
+  "KnowledgeGraphPage": {
+    "pageTitleDesktop": "可持续能源AI",
+    "pageTitleMobile": "能源AI",
+    "chatInputPlaceholder": "提问",
+    "graphInputPlaceholder": "搜索关键词",
+    "searchAriaLabel": "搜索关键词",
+    "sendMessageAriaLabel": "提交已提问的问题",
+    "readAloud": "阅读最后一段",
+    "referencesTitle": "参考资料",
+    "referencesSubtitle": "参考资料",
+    "chatErrorMessage": "我们遇到技术问题。请稍后再试。感谢您的耐心等待。",
+    "closeReferencesAriaLabel": "关闭引用标签",
+    "mobileInfoAriaLabel": "打开信息面板",
+    "mobileInfoTitle": "能源AI - 信息",
+    "mobileInfoText": "利用人工智能和知识图谱，探索可持续能源转型策略及来自能源出版物和政策的定制数据库的见解。",
+    "mobileSuggestionLabel": "建议的问题",
+    "mobileInfoCloseAriaLabel": "关闭信息面板",
+    "mobileSuggestionsAriaLabel": "打开建议面板",
+    "mobileSuggestionsTitle": "能源AI - 建议问题",
+    "mobileSuggestionsCloseAriaLabel": "关闭建议面板",
+    "chatTabLabel": "聊天",
+    "graphTabLabel": "知识图谱",
+    "closeAriaLabel": "关闭知识图谱模型",
+    "nodeSubmitIntroText": "告诉我更多关于",
+    "defaultIdeas": [
+      "如何实现更好的公平转型，解锁支持健康相关发展的包容性能源系统，特别是在撒哈拉以南非洲？",
+      "撒哈拉以南非洲如何利用治理推动在教育领域为弱势群体扩大可再生能源的获取？",
+      "哪些跨部门合作可以增强治理并加强东欧的可持续能源成果，特别是促进性别平等？",
+      "中东和北非地区如何利用能力建设扩大对脆弱社区的可再生能源获取，以应对气候变化适应领域？",
+      "治理在推动中东和北非能源获取部门的可持续能源发展中扮演什么角色？",
+      "拉丁美洲和加勒比地区如何利用公平转型扩大对脆弱社区的可再生能源获取，以应对气候变化？",
+      "哪些跨部门合作可以增强治理并加强全球北方与全球南方在可持续能源方面的成果，特别是针对教育？",
+      "在中亚交通部门扩大可持续能源规模的政治和经济权衡，以及当前创新框架下的取舍是什么？",
+      "中亚可以向世界传授关于基于公平转型的清洁能源解决方案在能源获取方面的哪些经验？",
+      "分析撒哈拉以南非洲发展优先事项中性别平等、公平转型和能源正义的交叉点。",
+      "探索通过投资技术，加快太平洋岛国交通部门能源转型的机会。",
+      "通过投资治理，探索在小岛屿发展中国家的交通部门加快能源转型的机会。",
+      "基础设施在推动东欧能源获取部门可持续能源中的作用是什么？",
+      "评估治理驱动方法在将清洁能源融入能源获取系统中的有效性，特别是在小岛屿发展中国家。",
+      "在东南亚金融部门，利用现有数据框架扩大可持续能源的政治和经济权衡是什么？",
+      "南亚如何利用基础设施扩大在健康领域为弱势社区提供可再生能源的途径？",
+      "分析亚太地区发展优先事项背景下气候适应、基础设施和能源正义的交叉点。",
+      "治理在推动中东和北非交通部门可持续能源发展中扮演什么角色？",
+      "拉丁美洲和加勒比地区如何利用公平转型在交通领域扩大对弱势群体的可再生能源获取？",
+      "中东和北非地区如何利用创新在交通领域扩大对弱势群体的可再生能源获取？",
+      "通过投资政策，探索在全球北方与全球南方气候适应领域加快能源转型的机会。",
+      "评估以治理为导向的方法在南亚行业系统中整合清洁能源的有效性。",
+      "太平洋群岛可以向世界传授关于基于政策的清洁能源解决方案在能源获取中的哪些课程？",
+      "评估以治理为导向的方法在南亚将清洁能源融入卫生系统的有效性。",
+      "分析农业、公平转型和能源正义在太平洋群岛发展优先事项中的交叉点。",
+      "分析拉丁美洲和加勒比地区发展优先事项中教育、治理和能源正义的交叉点。",
+      "基础设施在推动小岛屿发展中国家能源获取部门的可持续能源中的作用是什么？",
+      "小岛屿发展中国家可以向世界传授关于基于公平转型的清洁能源解决方案在健康方面的哪些经验？",
+      "小岛屿发展中国家如何利用治理在教育领域扩大对弱势社区的可再生能源获取？",
+      "关键矿物需求上升对土著社区的社会经济和环境影响是什么？",
+      "我们如何通过多元化能源来源增强能源安全，同时确保欠缺服务社区的负担能力和可靠性？",
+      "哪些策略或政策可以减轻影响能源供应链和全球能源安全的地缘政治风险？",
+      "关于创新技术解决方案或实践的见解，这些方案可以增强能源存储并减少供应中断的风险？",
+      "能源贫困的人类安全影响是什么，以及如何通过可持续能源倡议来应对这些问题？",
+      "与能源相关的政策如何影响流离失所模式和迁移，特别是在易受能源短缺或环境退化影响的地区？",
+      "如何确定上网电价，我作为独立发电商能否协商电价？",
+      "谁是向可再生能源项目提供优惠和混合融资的主要提供者，他们提供哪些类型的工具？项目开发者如何与他们合作以获得资金支持？",
+      "作为一个迷你网格运营商，确保每用户平均收入足够高以覆盖成本并让我赚钱的最佳方法是什么？我是否可以通过更好的结构化我的业务来确保收入足够高以抵消成本？",
+      "我应该如何决定我的能源服务业务是利用债务还是筹集股权？在能源业务的具体背景下，这些选择的权衡是什么？（这可以适用于能源领域的任何商业模式：SHS、电动出行、数据服务、小型电网、IPP等）",
+      "什么是内部收益率（IRR），它为什么对能源企业很重要？投资者如何处理或考虑内部收益率？",
+      "探索出版物和数据集，以识别解决能源获取挑战的社区主导倡议。提供有关这些倡议的有效性、促成其成功的关键因素以及任何可复制的模型，以赋予社区确保可持续能源获取的能力。",
+      "从关于策略和干预措施的出版物和数据集中获取见解，以解决城市地区的能源贫困。探索智能技术、城市规划和社区参与在确保公平获取可持续能源中的作用。",
+      "创新金融工具如何支持拉丁美洲和加勒比地区为能源转型提供资金？",
+      "发展中国家可再生能源投资的当前趋势是什么？",
+      "为了实现《巴黎协定》设定的目标，新增的可再生能源年度容量需求是多少？",
+      "可再生能源技术需求的增加与关键矿物需求之间的相关性如何？",
+      "在制定能源政策时，融入社区参与和参与的最佳实践是什么，以确保社会包容性和公平性？",
+      "解释去中心化能源系统的概念以及它们与传统集中式模型的区别。",
+      "探索微电网在提高分散式能源系统效率和可靠性方面的作用。",
+      "人工智能在推动可持续能源转型中的潜在角色和风险是什么？"
+    ],
+    "ideasLength": "50",
+    "chatWelcomeMessage": "提出一个问题或选择下面的<br/>建议开始！",
+    "graphNoDataMessage": "与聊天互动以<br/>探索知识图谱",
+    "inputMinLabel": "至少8个字符",
+    "preResearchMessage": "在特定主题上探索知识图谱和人工智能。",
+    "noKeywordsFoundMessage": "未找到关键词。请尝试不同的搜索词。"
+  },
+  "SuggestedLessonCard": {
+    "module": "模块",
+    "chapter": "章节",
+    "lesson": "课程",
+    "resume": "简历",
+    "start": "开始"
+  },
+  "LessonsProgress": {
+    "title": "您的课程进度",
+    "completed": "已完成",
+    "started": "已开始",
+    "notStarted": "未开始"
+  },
+  "ModulesProgress": {
+    "title": "已完成的模块"
+  },
+  "KeywordsProgress": {
+    "title": "您的技能关键词",
+    "legend": "每个关键词完成的课程数。"
+  },
+  "404Page": {
+    "title": "页面未找到",
+    "body": "我们似乎找不到您要找的页面。请尝试返回上一页或首页。",
+    "back": "返回首页"
+  },
+  "LessonHeader": {
+    "triggerAriaLabel": "打开菜单",
+    "aiAriaLabel": "向能源AI提问",
+    "expandMenu": "展开菜单",
+    "collapseMenu": "折叠菜单",
+    "module": "模块",
+    "chapters": "章节",
+    "lessonsCompleted": "已完成的课程"
+  },
+  "Templates": {
+    "module": "模块",
+    "chapter": "章节",
+    "lesson": "课程",
+    "part": "部分"
+  },
+  "ImageHotspot": {
+    "imgAriaLabel": "关闭描述框",
+    "hotspotAriaLabel": "显示详情",
+    "hotspotAriaLabelTitle": "显示关于 {title} 的详细信息"
+  },
+  "ErrorMessage": {
+    "title": "哎呀！",
+    "subtitle": "发生了错误",
+    "body": "加载页面时发生错误。请稍后再试。",
+    "backToModules": "返回学院",
+    "backToHome": "返回首页"
+  },
+  "SignOutButton": {
+    "signOut": "退出登录"
+  },
+  "LessonDesktopMenu": {
+    "toggleMenu": "切换菜单"
+  },
+  "UserProgressGraph": {
+    "completedLessons": "已完成的课程",
+    "completedModules": "已完成的模块"
+  },
+  "FinalCertificate": {
+    "title": "您的证书",
+    "body": "完成每个模块即可获得证书。完成全部八个模块，解锁完整课程证书，展示您对«公正能源转型»的承诺，并将其添加到您的LinkedIn资料中，以提升您的专业影响力。",
+    "inProgress": "模块进度",
+    "download": "下载证书"
+  },
+  "ModuleCertificate": {
+    "module": "模块",
+    "completed": "已完成！",
+    "inProgress": "进行中",
+    "download": "下载证书"
+  },
+  "ForgotPasswordPage": {
+    "title": "忘记密码？",
+    "instructions": "在下面输入您的电子邮件地址，我们将向您发送重置密码的链接。",
+    "cancel": "取消",
+    "RequestPasswordResetForm": {
+      "requiredError": "这是必填字段",
+      "invalidError": "请输入有效的电子邮件地址",
+      "emailLabel": "电子邮件",
+      "emailPlaceholder": "john.doe@undp.com",
+      "submit": "请求重置密码链接",
+      "submitting": "请求链接...",
+      "genericError": "我们遇到技术问题。请再试一次。感谢您的耐心等待。",
+      "successMessage": "<bold>成功！</bold> 如果您输入的电子邮件地址与账户相关联，您将很快收到重置密码的链接。"
+    }
+  },
+  "ResetPasswordPage": {
+    "title": "创建新密码",
+    "cancel": "取消",
+    "ResetPasswordForm": {
+      "requiredError": "这是必填字段",
+      "invalidError": "密码必须至少包含8个字符",
+      "mismatchError": "请确保您的密码一致。",
+      "genericError": "我们遇到技术问题。请再试一次。感谢您的耐心等待。",
+      "successMessage": "您的密码已成功重置。您现在可以<signin>使用新密码登录。</signin>",
+      "submit": "创建新密码",
+      "submitting": "正在创建新密码...",
+      "newPasswordLabel": "新密码",
+      "newPasswordPlaceholder": "新密码",
+      "confirmPasswordLabel": "确认新密码",
+      "confirmPasswordPlaceholder": "确认新密码"
+    }
+  },
+  "LessonClientWrapper": {
+    "promptPrefix": "请提供更多上下文"
+  },
+  "KgTrigger": {
+    "prompt": "询问能源AI：{term}"
+  },
+  "LessonMenuItem": {
+    "expand": "展开 {chapter}"
+  },
+  "DataModel": {
+    "title": "可持续能源互动模型",
+    "targetReached": "目标已达成",
+    "targetNotReached": "未达到目标"
+  }
+}

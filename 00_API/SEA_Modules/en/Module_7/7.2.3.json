@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_16.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_9.png",
           "caption": ""
         },
         "lesson": {
@@ -68,7 +68,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_4.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_10.png",
           "caption": ""
         },
         "intro": "M7: Data In Sustainable Energy",
@@ -108,7 +108,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_15.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_15.png",
           "caption": ""
         }
       }
@@ -121,7 +121,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong><ai prompt=\"Clarify sex-disaggregated data.\">sex-disaggregated data 💬️</ai> in energy</strong>"
+              "text": "<strong><ai prompt=\"Provide more info on sex-disaggregated data.\">sex-disaggregated data 💬️</ai> in energy</strong>"
             }
           },
           {
@@ -220,7 +220,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_7.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Intro_1.png",
           "caption": ""
         },
         "intro": "M7: Data In Sustainable Energy",
@@ -235,10 +235,167 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "To effectively integrate gender considerations into sustainable energy policy, it is essential to analyze and address how women, men, and diverse gender groups access and use energy services and technologies. The following table outlines practical actions for integrating gender dimensions into renewable energy policy development. These actions align with core principles of <ai prompt=\"What is gender mainstreaming?\">gender mainstreaming 💬️</ai> and can be adapted to various sectors. Here, they have been tailored specifically for renewable energy policy, providing a clear \"what and how\" framework to guide implementation."
+              "text": "To effectively integrate gender considerations into sustainable energy policy, it is essential to analyze and address how women, men, and diverse gender groups access and use energy services and technologies. The following table outlines practical actions for integrating gender dimensions into renewable energy policy development. These actions align with core principles of <ai prompt=\"Share details about gender mainstreaming.\">gender mainstreaming 💬️</ai> and can be adapted to various sectors. Here, they have been tailored specifically for renewable energy policy, providing a clear \"what and how\" framework to guide implementation."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0468b1",
+            "#19486a",
+            "#c5192d",
+            "#fcc30b",
+            "#4c9f38",
+            "#dd1367",
+            "#3f7e44",
+            "#fd9d24",
+            "#fd6925",
+            "#0a97d9"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "boundaryGap": [
+              0,
+              0.01
+            ],
+            "name": "Share of women (%)"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Chemical engineer",
+              "Mechanical engineer",
+              "Electrical engineer",
+              "Electrician",
+              "Concrete worker",
+              "Welder",
+              "Plumber",
+              "Roofer"
+            ],
+            "name": "Occupation"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "type": "bar",
+              "data": [
+                22.366764582459,
+                4.74192194712547,
+                3.81871590432229,
+                2.22408728493496,
+                2.22408728493496,
+                1.55266470835083,
+                0.335711288292081,
+                0.0419639110364604
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -346,7 +503,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_7.png",
           "caption": ""
         }
       }
@@ -426,7 +583,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L4_5.png",
           "caption": ""
         },
         "intro": "M7: Data In Sustainable Energy",
@@ -452,7 +609,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_8.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_3.png",
           "caption": ""
         }
       }
@@ -541,7 +698,7 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Outro_1.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_21.png",
               "caption": ""
             },
             "title": "Gender-disaggregated data is essential for equitable energy planning.",
@@ -549,7 +706,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_10.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_4.png",
               "caption": ""
             },
             "title": "Intersectionality must be integrated into energy planning to address systemic inequalities.",
@@ -557,7 +714,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_13.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_12.png",
               "caption": ""
             },
             "title": "Participatory approaches empower women and marginalized groups in energy decision-making.",

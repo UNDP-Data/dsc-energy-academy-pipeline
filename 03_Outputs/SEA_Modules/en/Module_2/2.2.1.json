@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The global energy landscape is marked by a profound disparity in access to energy services, chiefly manifested between regions and countries. <strong>This disparity is often referred to as the 'Global Energy Gap' - or 'Global Energy Divide'. <br /><br /></strong>While some countries have achieved near-universal access to electricity and <ai prompt=\"Explain clean cooking.\">clean cooking 💬️</ai>, others continue to struggle with significant deficits. <br /><br />This lesson introduces the concept of the global energy divide, tracing progress and disparities across regions, income groups, and geographies. <br /><br />By mapping the current landscape, it highlights the urgent need for tailored, inclusive, and resilient solutions to ensure no one is left behind in the energy transition."
+              "text": "The global energy landscape is marked by a profound disparity in access to energy services, chiefly manifested between regions and countries. <strong>This disparity is often referred to as the 'Global Energy Gap' - or 'Global Energy Divide'. <br /><br /></strong>While some countries have achieved near-universal access to electricity and <ai prompt=\"What is clean cooking?\">clean cooking 💬️</ai>, others continue to struggle with significant deficits. <br /><br />This lesson introduces the concept of the global energy divide, tracing progress and disparities across regions, income groups, and geographies. <br /><br />By mapping the current landscape, it highlights the urgent need for tailored, inclusive, and resilient solutions to ensure no one is left behind in the energy transition."
             }
           }
         ]
@@ -257,6 +257,178 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#dd1367",
+            "#fcc30b",
+            "#fd6925",
+            "#0468b1",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#3f7e44",
+            "#c5192d",
+            "#4c9f38"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "World",
+              "Central Asia and Southern Asia",
+              "Eastern Asia and South eastern Asia",
+              "Latin America and the Caribbean",
+              "Northern America and Europe",
+              "Oceania",
+              "Sub-Saharan Africa",
+              "Western Asia and Northern Africa"
+            ],
+            "name": "Region"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Population (millions)"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Annual increase in population with access",
+              "type": "bar",
+              "data": [
+                93.6,
+                40.1,
+                10.4,
+                5.7,
+                -2.0,
+                0.3,
+                31.1,
+                8.3
+              ]
+            },
+            {
+              "name": "Annual increase in population",
+              "type": "bar",
+              "data": [
+                65.3,
+                20.6,
+                5.4,
+                4.4,
+                -2.0,
+                0.4,
+                28.7,
+                7.8
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 100
+          }
+        }
       }
     },
     {

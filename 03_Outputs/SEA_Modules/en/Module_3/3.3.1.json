@@ -153,10 +153,254 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The growing importance of sustained access to critical raw materials, especially energy transition minerals, has elevated their prominence on national economic agendas. As the demand for greener energy technologies accelerates, the impact on the entire mining value chain becomes increasingly significant across all sectors of society. Given UNDP's ongoing work on sustainable mining and extractives for development, this presents a key entry point for further engagement. The mining sector plays a pivotal role in the energy transition.<br /><br />Once the official UN framework on Critical Energy Transition Minerals is available, it will help address supply chain challenges, governance, <ai prompt=\"Clarify social protection.\">social protection 💬️</ai>, and gender equality through a human rights-based approach. Potential solutions include encouraging extractive industries to adopt sustainable practices by redefining the value of natural resources and ecosystem services, minimizing environmental impact, and restoring ecosystems post-extraction. Additionally, UNDP’s Nature Pledge can guide the realignment of investments towards sustainable energy projects, such as developing energy-efficient technologies and promoting sustainable mining through incentive mechanisms."
+              "text": "The growing importance of sustained access to critical raw materials, especially energy transition minerals, has elevated their prominence on national economic agendas. As the demand for greener energy technologies accelerates, the impact on the entire mining value chain becomes increasingly significant across all sectors of society. Given UNDP's ongoing work on sustainable mining and extractives for development, this presents a key entry point for further engagement. The mining sector plays a pivotal role in the energy transition.<br /><br />Once the official UN framework on Critical Energy Transition Minerals is available, it will help address supply chain challenges, governance, <ai prompt=\"Tell me more about social protection.\">social protection 💬️</ai>, and gender equality through a human rights-based approach. Potential solutions include encouraging extractive industries to adopt sustainable practices by redefining the value of natural resources and ecosystem services, minimizing environmental impact, and restoring ecosystems post-extraction. Additionally, UNDP’s Nature Pledge can guide the realignment of investments towards sustainable energy projects, such as developing energy-efficient technologies and promoting sustainable mining through incentive mechanisms."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#0468b1",
+            "#fcc30b",
+            "#19486a",
+            "#0a97d9",
+            "#3f7e44",
+            "#4c9f38",
+            "#fd6925",
+            "#fd9d24",
+            "#dd1367",
+            "#c5192d"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Kilograms per vehicle"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "Electric car",
+              "Conventional car"
+            ],
+            "name": "Subsector"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "...",
+            "show": false
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Graphite",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                66.2972085385878,
+                0.0
+              ]
+            },
+            {
+              "name": "Copper",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                53.1609195402292,
+                22.3043240284619
+              ]
+            },
+            {
+              "name": "Cobalt",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                13.067870826491005,
+                0.0
+              ]
+            },
+            {
+              "name": "Silicon",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0,
+                0
+              ]
+            },
+            {
+              "name": "Nickel",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                39.34044882320799,
+                0.0
+              ]
+            },
+            {
+              "name": "Zinc",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                0,
+                0
+              ]
+            },
+            {
+              "name": "Manganese",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                24.90421455938701,
+                11.152162014231005
+              ]
+            },
+            {
+              "name": "Lithium",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                9.099616858237994,
+                0.0
+              ]
+            },
+            {
+              "name": "Others",
+              "type": "bar",
+              "stack": "total",
+              "emphasis": {
+                "focus": "series"
+              },
+              "data": [
+                1.0946907498629912,
+                1.0946907498631973
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -167,7 +411,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Asian countries, which play a key role in manufacturing technologies like photovoltaic panels and lithium-ion batteries, are highly dependent on critical mineral imports. By applying lifecycle and <ai prompt=\"Provide more info on circular economy.\">circular economy 💬️</ai> principles, such as green design, product re-engineering, and enhanced recycling policies, these regions can reduce reliance on newly mined materials. Effective Extended Producer Responsibility (EPR) schemes and improved waste management can also mitigate the environmental impacts of rising e-waste generation. When developed with a focus on social inclusion and gender equality, these initiatives can create decent jobs for women, youth, and marginalized groups, particularly in waste management.<br /><br />As the global energy transition accelerates, demand for minerals essential to electric vehicles, wind turbines, and solar panels is soaring, emphasizing the need for international cooperation. From 2017 to 2022, the energy sector drove a tripling of lithium demand, alongside a 70% increase in cobalt demand and a 40% rise in nickel demand, pushing the market for energy transition minerals to USD 320 billion in 2022 (IEA, 2023)."
+              "text": "Asian countries, which play a key role in manufacturing technologies like photovoltaic panels and lithium-ion batteries, are highly dependent on critical mineral imports. By applying lifecycle and <ai prompt=\"Tell me more about circular economy.\">circular economy 💬️</ai> principles, such as green design, product re-engineering, and enhanced recycling policies, these regions can reduce reliance on newly mined materials. Effective Extended Producer Responsibility (EPR) schemes and improved waste management can also mitigate the environmental impacts of rising e-waste generation. When developed with a focus on social inclusion and gender equality, these initiatives can create decent jobs for women, youth, and marginalized groups, particularly in waste management.<br /><br />As the global energy transition accelerates, demand for minerals essential to electric vehicles, wind turbines, and solar panels is soaring, emphasizing the need for international cooperation. From 2017 to 2022, the energy sector drove a tripling of lithium demand, alongside a 70% increase in cobalt demand and a 40% rise in nickel demand, pushing the market for energy transition minerals to USD 320 billion in 2022 (IEA, 2023)."
             }
           }
         ]
@@ -185,6 +429,172 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "echarts_chart",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "option": {
+          "textStyle": {
+            "fontFamily": "Proxima Nova, sans-serif",
+            "fontSize": 14,
+            "fontWeight": "normal",
+            "color": "#DDDDDD"
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
+          },
+          "legend": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#CCCCCC"
+            },
+            "orient": "horizontal",
+            "top": "bottom",
+            "type": "scroll",
+            "pageIconColor": "#FFFFFF",
+            "pageIconInactiveColor": "#555555",
+            "pageTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            }
+          },
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
+          },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#3f7e44",
+            "#0468b1",
+            "#0a97d9",
+            "#dd1367",
+            "#4c9f38",
+            "#fd9d24",
+            "#19486a",
+            "#c5192d",
+            "#fd6925",
+            "#fcc30b"
+          ],
+          "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "category",
+            "data": [
+              "2024",
+              "2030",
+              "2040"
+            ],
+            "name": "Year"
+          },
+          "yAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
+            "type": "value",
+            "name": "Mt"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
+            }
+          },
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
+          },
+          "series": [
+            {
+              "name": "Total use",
+              "type": "bar",
+              "data": [
+                26.7412140575079,
+                31.2460063897763,
+                34.0894568690095
+              ]
+            },
+            {
+              "name": "APS",
+              "type": "bar",
+              "data": [
+                null,
+                "32.5878594249201",
+                "36.7412140575079"
+              ]
+            },
+            {
+              "name": "NZE",
+              "type": "bar",
+              "data": [
+                null,
+                "34.4089456869009",
+                "39.520766773163"
+              ]
+            }
+          ],
+          "grid": {
+            "bottom": 80
+          }
+        }
       }
     },
     {
@@ -217,7 +627,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The mining and processing of critical materials are highly concentrated in a few key countries, raising concerns about resource security and geopolitical dynamics. Strategies are emerging to diversify supply chains, taking into account economic, political, and social factors.<br /><br />Countries like Australia (lithium), Chile (copper and lithium), China (graphite, rare earths), the Democratic Republic of Congo (cobalt), Indonesia (nickel), and South Africa (platinum, iridium) dominate critical mineral extraction. This concentration increases further in the processing stage, with China refining 100% of natural graphite and dysprosium, 70% of cobalt, and nearly 60% of lithium and manganese.<br />Central Asia is also rich in <ai prompt=\"Clarify critical minerals.\">critical minerals 💬️</ai>, holding 38.6% of the world’s manganese ore, 30% of chromium, 20% of lead, and 12.6% of zinc, among others. Kazakhstan, a major player in uranium production (43% of global supply in 2022), has the potential to compete with China in rare earth elements, as well as the extraction of metals like scandium and yttrium, crucial for technology industries."
+              "text": "The mining and processing of critical materials are highly concentrated in a few key countries, raising concerns about resource security and geopolitical dynamics. Strategies are emerging to diversify supply chains, taking into account economic, political, and social factors.<br /><br />Countries like Australia (lithium), Chile (copper and lithium), China (graphite, rare earths), the Democratic Republic of Congo (cobalt), Indonesia (nickel), and South Africa (platinum, iridium) dominate critical mineral extraction. This concentration increases further in the processing stage, with China refining 100% of natural graphite and dysprosium, 70% of cobalt, and nearly 60% of lithium and manganese.<br />Central Asia is also rich in <ai prompt=\"Provide more info on critical minerals.\">critical minerals 💬️</ai>, holding 38.6% of the world’s manganese ore, 30% of chromium, 20% of lead, and 12.6% of zinc, among others. Kazakhstan, a major player in uranium production (43% of global supply in 2022), has the potential to compete with China in rare earth elements, as well as the extraction of metals like scandium and yttrium, crucial for technology industries."
             }
           }
         ]
@@ -309,7 +719,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "TSM is a globally recognized framework which includes 'TSM Guiding Principles' and a suite of performance protocols against which mining companies measure and publicly report their performance in the annual TSM Progress Reports. The protocols focus on three core areas: Communities and People, Environmental Stewardship, and <ai prompt=\"What is energy efficiency?\">energy efficiency 💬️</ai>. The TSM framework fosters collaboration with stakeholders to pursue shared objectives, to collectively improve infrastructure, education, health services, and capacity (<a href=\"https://www.iisd.org/system/files/2021-10/still-one-earth-sustainable-mining.pdf\"><u>IISD, 2021</u></a>)."
+              "text": "TSM is a globally recognized framework which includes 'TSM Guiding Principles' and a suite of performance protocols against which mining companies measure and publicly report their performance in the annual TSM Progress Reports. The protocols focus on three core areas: Communities and People, Environmental Stewardship, and <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai>. The TSM framework fosters collaboration with stakeholders to pursue shared objectives, to collectively improve infrastructure, education, health services, and capacity (<a href=\"https://www.iisd.org/system/files/2021-10/still-one-earth-sustainable-mining.pdf\"><u>IISD, 2021</u></a>)."
             }
           }
         ]
@@ -499,7 +909,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While these studies do not exclusively focus on Critical Minerals extraction for Energy Transition, their conclusions shed light on the broader mining sector, revealing that corporate commitments play a crucial role in setting standards, but they alone prove insufficient to prevent harmful impacts and ensure a <ai prompt=\"Provide more info on just energy transition.\">just energy transition 💬️</ai>."
+              "text": "While these studies do not exclusively focus on Critical Minerals extraction for Energy Transition, their conclusions shed light on the broader mining sector, revealing that corporate commitments play a crucial role in setting standards, but they alone prove insufficient to prevent harmful impacts and ensure a <ai prompt=\"Explain just energy transition.\">just energy transition 💬️</ai>."
             }
           }
         ]
