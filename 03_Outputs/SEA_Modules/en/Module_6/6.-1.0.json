@@ -87,11 +87,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "SF₆ has the highest GWP—about 25,200 times that of CO₂—making it a critical target for emission reductions in energy distribution."
+                "body": "SF₆ has the highest GWP about 25,200 times that of CO₂ making it a critical target for emission reductions in energy distribution."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "SF₆ has the highest GWP—about 25,200 times that of CO₂—making it a critical target for emission reductions in energy distribution."
+                "body": "SF₆ has the highest GWP about 25,200 times that of CO₂ making it a critical target for emission reductions in energy distribution."
               }
             }
           },
@@ -281,6 +281,43 @@
               "wrong": {
                 "title": "Incorrect",
                 "body": "Transport is the largest source of end-use CO2 emissions, responsible for over one-third, making it a priority sector for decarbonization through electrification and efficiency improvements."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "Why is lifecycle emissions analysis critical for comparing renewable and fossil energy technologies?",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Because it reveals true emissions impacts beyond the point of use"
+              },
+              {
+                "id": 2,
+                "value": "Because it measures only the emissions from fuel combustion"
+              },
+              {
+                "id": 3,
+                "value": "Because renewables can show lower total emissions even after including manufacturing and disposal"
+              },
+              {
+                "id": 4,
+                "value": "Because it’s the only metric governments use to set climate targets"
+              }
+            ],
+            "solution": [
+              1,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Lifecycle analysis includes emissions from construction, use, and decommissioning. It highlights how renewables remain lower-emission even when all stages are considered."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Lifecycle analysis includes emissions from construction, use, and decommissioning. It highlights how renewables remain lower-emission even when all stages are considered."
               }
             }
           }

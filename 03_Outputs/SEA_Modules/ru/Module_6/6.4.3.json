@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые концепции",
+        "intro": "Изучите основные идеи этого урока.",
+        "concepts": [
+          {
+            "title": "переработка батарей",
+            "body": "Переработка батарей — это процесс сбора, обработки и повторного использования материалов из использованных батарей для восстановления ценных металлов и снижения воздействия на окружающую среду.",
+            "source": ""
+          },
+          {
+            "title": "хранение энергии",
+            "body": "Хранение энергии в батареях относится к использованию батарей для хранения энергии для последующего использования, что позволяет управлять предложением и спросом энергии, особенно из возобновляемых источников.",
+            "source": ""
+          },
+          {
+            "title": "электрическая мобильность",
+            "body": "Электрическая мобильность относится к использованию электроприводных транспортных средств, таких как <strong>электромобили</strong>, <strong>велосипеды</strong> и <strong>самокаты</strong>, для перевозки, способствуя устойчивым и экологически чистым путешествиям.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -176,16 +201,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#0a97d9",
             "#c5192d",
-            "#dd1367",
-            "#0468b1",
-            "#fd9d24",
             "#fd6925",
-            "#4c9f38",
-            "#3f7e44",
-            "#19486a",
             "#fcc30b",
-            "#0a97d9"
+            "#19486a",
+            "#fd9d24",
+            "#4c9f38",
+            "#dd1367",
+            "#3f7e44",
+            "#0468b1"
           ],
           "xAxis": {
             "axisLine": {
@@ -416,44 +441,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Распространенность типов транспортных средств",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -634,16 +622,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#fd6925",
             "#0a97d9",
+            "#0468b1",
             "#3f7e44",
-            "#19486a",
+            "#c5192d",
+            "#fcc30b",
             "#fd9d24",
             "#4c9f38",
-            "#fcc30b",
             "#dd1367",
-            "#fd6925",
-            "#0468b1",
-            "#c5192d"
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -782,44 +770,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Спрос на аккумуляторы по режимам и регионам, 2016-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 80
           }
         }
       }
@@ -888,6 +839,42 @@
             },
             "title": "Преодоление ключевых вызовов для раскрытия полного потенциала электрификации.",
             "description": "Такие вызовы, как высокие первоначальные затраты, ограниченная инфраструктура зарядки и увеличенный спрос на критические минералы, должны решаться с помощью целевых политик, инновационного финансирования и решений циркулярной экономики, таких как переработка аккумуляторов. Обеспечение добавленной стоимости на местном уровне в странах, богатых минералами, и подготовка рабочей силы к новым возможностям трудоустройства имеют решающее значение для того, чтобы электрификация транспорта была как устойчивой, так и справедливой."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые ресурсы",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6431.png",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "Умная электрификация секторов конечного использования: преимущества для распределительных сетей",
+            "cta": "Нажмите, чтобы скачать"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6432.png",
+              "caption": ""
+            },
+            "href": "International Transport Forum",
+            "text": "Смещение фокуса на меньшие электромобили для устойчивых городов",
+            "cta": "Нажмите, чтобы скачать"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6433.png",
+              "caption": ""
+            },
+            "href": "World Bank",
+            "text": "Декарбонизация городского транспорта для развития",
+            "cta": "Нажмите, чтобы скачать"
           }
         ]
       }

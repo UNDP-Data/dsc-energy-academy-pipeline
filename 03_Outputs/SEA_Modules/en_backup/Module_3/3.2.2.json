@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Concepts",
+        "intro": "Explore foundational ideas from this lesson.",
+        "concepts": [
+          {
+            "title": "gender gap in energy employment",
+            "body": "The gender gap in energy employment refers to the disparity between the number of men and women working in the energy sector, often characterized by fewer women in technical, leadership, and decision-making roles compared to their male counterparts.",
+            "source": ""
+          },
+          {
+            "title": "just transition workforce programs",
+            "body": "Just transition workforce programs are initiatives designed to support workers and communities in transitioning to sustainable jobs and industries, ensuring that the shift to a greener economy is fair and equitable, providing training, resources, and support for those affected by changes in the job market.",
+            "source": ""
+          },
+          {
+            "title": "skills development ecosystems",
+            "body": "Skills development ecosystems refer to interconnected networks of organizations, institutions, and resources that collaboratively support the continuous learning and enhancement of skills among individuals, often tailored to meet the needs of the labor market and promote economic growth.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -60,7 +85,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While this progress is encouraging, the transition must accelerate to address the estimated 78 million jobs at risk. The challenge lies in the limited overlap between fossil fuel and clean energy jobs, both geographically and in terms of job quality. This gap threatens to leave workers behind and could undermine political support for the energy transition.<br /><br />To counter this, it is essential to leverage the entire clean <ai prompt=\"Provide more info on energy value chain.\">energy value chain 💬️</ai>, such as localizing critical mineral supply chains and fostering downstream activities beyond extraction. This approach can create new jobs and build community support. However, a seamless transition from fossil fuel to clean energy roles is not always feasible. Therefore, supporting broader economic diversification, particularly in countries reliant on single industries, is crucial."
+              "text": "While this progress is encouraging, the transition must accelerate to address the estimated 78 million jobs at risk. The challenge lies in the limited overlap between fossil fuel and clean energy jobs, both geographically and in terms of job quality. This gap threatens to leave workers behind and could undermine political support for the energy transition.<br /><br />To counter this, it is essential to leverage the entire clean <ai prompt=\"Explain energy value chain.\">energy value chain 💬️</ai>, such as localizing critical mineral supply chains and fostering downstream activities beyond extraction. This approach can create new jobs and build community support. However, a seamless transition from fossil fuel to clean energy roles is not always feasible. Therefore, supporting broader economic diversification, particularly in countries reliant on single industries, is crucial."
             }
           }
         ]
@@ -86,7 +111,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Effective policy frameworks are key to facilitating the shift to green jobs, and capacity building efforts are necessary to upskill and reskill workers. The green jobs transition requires deliberate action to protect livelihoods and align education and training programs with emerging opportunities. For instance, Egypt’s Technical and Vocational Education and Training II project, a €116 million initiative, supports renewable energy programs across 13 institutions. Similarly, the Philippines’ Green Jobs Act encourages the creation, sustainability, and incentivization of green jobs, while improving workforce development planning.<br /><br />In crisis settings, the <ai prompt=\"What is just energy transition?\">just energy transition 💬️</ai> serves as an investment in long-term stability by fostering local capacities and infrastructure for recovery and development. Countries heavily dependent on energy imports, such as Yemen and Lebanon, demonstrate the potential of sustainable energy to build both resilience and livelihoods. Yemen’s ERRY III joint program, which focuses on upskilling over 1,100 individuals—particularly women—in solar services, and Lebanon’s training programs for women engineers are examples of how targeted initiatives can drive positive outcomes."
+              "text": "Effective policy frameworks are key to facilitating the shift to green jobs, and capacity building efforts are necessary to upskill and reskill workers. The green jobs transition requires deliberate action to protect livelihoods and align education and training programs with emerging opportunities. For instance, Egypt’s Technical and Vocational Education and Training II project, a €116 million initiative, supports renewable energy programs across 13 institutions. Similarly, the Philippines’ Green Jobs Act encourages the creation, sustainability, and incentivization of green jobs, while improving workforce development planning.<br /><br />In crisis settings, the <ai prompt=\"Explain just energy transition.\">just energy transition 💬️</ai> serves as an investment in long-term stability by fostering local capacities and infrastructure for recovery and development. Countries heavily dependent on energy imports, such as Yemen and Lebanon, demonstrate the potential of sustainable energy to build both resilience and livelihoods. Yemen’s ERRY III joint program, which focuses on upskilling over 1,100 individuals—particularly women—in solar services, and Lebanon’s training programs for women engineers are examples of how targeted initiatives can drive positive outcomes."
             }
           }
         ]
@@ -134,16 +159,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
-            "#c5192d",
             "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#3f7e44",
-            "#4c9f38",
             "#fd6925",
+            "#4c9f38",
+            "#dd1367",
+            "#c5192d",
             "#0468b1",
-            "#fcc30b"
+            "#3f7e44",
+            "#fcc30b",
+            "#fd9d24",
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -298,47 +323,7 @@
                 14290.5728519618
               ]
             }
-          ],
-          "title": {
-            "text": "Employment difference by sector between the baseline and 1.5°C Scenario, thousand jobs",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -370,7 +355,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Just transition planning is critical to ensuring affected workers and communities are adequately supported throughout the process. By promoting inclusive and equitable economic diversification, policymakers can effectively manage the energy transition while advancing sustainable development and social equity.<br /><br />Worker retraining and skills development programs are crucial in facilitating a smooth transition away from extractive industries. By providing workers with the necessary qualifications for sustainable roles in emerging sectors, these programs ensure that individuals can adapt to changing job markets and contribute to the growth of clean energy industries. <br /><br />Retraining and skills development programs are pivotal for a smooth transition away from extractive industries. By equipping workers with the qualifications needed for sustainable roles in emerging sectors, these programs help them adapt to changing job markets and contribute to the growth of clean energy industries. <strong>Many workers in traditional energy sectors already possess transferable skills. </strong>For example, oil and gas workers may transition to offshore wind or carbon capture projects, while coal miners could shift to mining <ai prompt=\"Explain critical minerals.\">critical minerals 💬️</ai> for low-carbon technologies."
+              "text": "Just transition planning is critical to ensuring affected workers and communities are adequately supported throughout the process. By promoting inclusive and equitable economic diversification, policymakers can effectively manage the energy transition while advancing sustainable development and social equity.<br /><br />Worker retraining and skills development programs are crucial in facilitating a smooth transition away from extractive industries. By providing workers with the necessary qualifications for sustainable roles in emerging sectors, these programs ensure that individuals can adapt to changing job markets and contribute to the growth of clean energy industries. <br /><br />Retraining and skills development programs are pivotal for a smooth transition away from extractive industries. By equipping workers with the qualifications needed for sustainable roles in emerging sectors, these programs help them adapt to changing job markets and contribute to the growth of clean energy industries. <strong>Many workers in traditional energy sectors already possess transferable skills. </strong>For example, oil and gas workers may transition to offshore wind or carbon capture projects, while coal miners could shift to mining <ai prompt=\"Tell me more about critical minerals.\">critical minerals 💬️</ai> for low-carbon technologies."
             }
           }
         ]
@@ -765,6 +750,42 @@
             },
             "title": "Gender equality is a cornerstone of a sustainable energy transition.",
             "description": "Women are underrepresented in the energy sector, particularly in leadership roles, and face barriers such as wage gaps and unpaid care work. The energy transition offers an opportunity to advance gender equality through targeted initiatives like scholarships, mentorship programs, and flexible work arrangements. Empowering women in STEM and renewable energy sectors not only promotes equity but also drives innovation and long-term sustainability."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Resources",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3221.png",
+              "caption": ""
+            },
+            "href": "IISD",
+            "text": "Real People, Real Change : Strategies for just energy transitions",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3222.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Decentralised solar PV: A gender perspective",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3223.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "World Energy Employment 2024",
+            "cta": "Click to download"
           }
         ]
       }

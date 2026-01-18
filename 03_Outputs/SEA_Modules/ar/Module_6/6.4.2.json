@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "المفاهيم الأساسية",
+        "intro": "استكشف الأفكار الأساسية من هذا الدرس.",
+        "concepts": [
+          {
+            "title": "الطلب على الطاقة للتوسع الحضري",
+            "body": "يشير الطلب على الطاقة للتوسع الحضري إلى إجمالي كمية الطاقة المطلوبة لدعم نمو وتطوير المناطق الحضرية، بما في ذلك الاحتياجات السكنية والتجارية والبنية التحتية.",
+            "source": ""
+          },
+          {
+            "title": "مباني خضراء",
+            "body": "المباني الخضراء هي هياكل مصممة ومبنية وتُشغل بهدف تقليل تأثيرها البيئي، وتعزيز كفاءة الطاقة، وتعزيز صحة ورفاهية السكان.",
+            "source": ""
+          },
+          {
+            "title": "التدفئة والتبريد",
+            "body": "التدفئة والتبريد يشيران إلى عمليات رفع أو خفض درجة حرارة مساحة للحفاظ على الراحة، عادة باستخدام أنظمة مثل الأفران، مكيفات الهواء، أو مضخات الحرارة.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "echarts_chart",
       "color_scheme": "dark",
       "size": "full",
@@ -80,16 +105,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#fd6925",
+            "#fd9d24",
+            "#4c9f38",
             "#0a97d9",
             "#dd1367",
-            "#fd6925",
             "#fcc30b",
+            "#19486a",
             "#0468b1",
-            "#fd9d24",
             "#c5192d",
-            "#3f7e44",
-            "#4c9f38",
-            "#19486a"
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -224,47 +249,7 @@
                 62.98
               ]
             }
-          ],
-          "title": {
-            "text": "استهلاك الطاقة النهائي للمباني بالنسبة لقطاعات أخرى، 2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -535,6 +520,42 @@
             },
             "title": "السياسات المستهدفة ضرورية لمعالجة فقر الطاقة.",
             "description": "السكان الضعفاء الذين يعيشون في مساكن ذات جودة منخفضة يتأثرون بشكل غير متناسب بالفقر الطاقي وتأثيرات تغير المناخ. لتحسين الاستدامة ومستويات المعيشة، من الضروري وضع سياسات مستهدفة وآليات تمويل مبتكرة وبرامج حكومية لضمان الوصول إلى مساكن وتقنيات موفرة للطاقة. سيساعد هذا النهج على تقليل المخاطر مع تعزيز المرونة الشاملة في مواجهة تحديات المناخ."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "الموارد الرئيسية",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6421.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "تطوير قوة عاملة عالمية في كفاءة الطاقة في قطاع المباني",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6422.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "مسارات التكنولوجيا والابتكار للمباني الجاهزة لخفض الكربون بحلول عام 2030",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6423.png",
+              "caption": ""
+            },
+            "href": "OECD",
+            "text": "المراقبة العالمية للسياسات الخاصة بإزالة الكربون من المباني",
+            "cta": "انقر للتنزيل"
           }
         ]
       }

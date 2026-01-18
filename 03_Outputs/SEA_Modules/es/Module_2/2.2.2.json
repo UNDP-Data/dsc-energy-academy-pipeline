@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceptos clave",
+        "intro": "Explora las ideas fundamentales de esta lección.",
+        "concepts": [
+          {
+            "title": "acceso a una cocina limpia",
+            "body": "El acceso a una cocina limpia se refiere a la disponibilidad y el uso de métodos y combustibles de cocina seguros, eficientes y respetuosos con el medio ambiente, que reducen los riesgos para la salud y el impacto ambiental en comparación con las prácticas de cocina tradicionales.",
+            "source": ""
+          },
+          {
+            "title": "combustibles y tecnologías de calefacción y refrigeración",
+            "body": "Los combustibles y tecnologías de calefacción y refrigeración se refieren a las diversas fuentes de energía (como gas natural, electricidad y opciones renovables) y sistemas (como calderas, bombas de calor y aires acondicionados) utilizados para regular las temperaturas interiores para el confort y la eficiencia.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -223,16 +243,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
+            "#c5192d",
+            "#3f7e44",
+            "#0468b1",
+            "#4c9f38",
+            "#0a97d9",
             "#dd1367",
             "#fd9d24",
-            "#c5192d",
             "#fcc30b",
-            "#0a97d9",
             "#fd6925",
-            "#0468b1",
-            "#3f7e44",
-            "#4c9f38"
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -342,44 +362,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Aumentos en el acceso global a la electricidad en áreas urbanas y rurales, 2010, 2020 y 2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 80
           }
         }
       }
@@ -493,16 +476,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#c5192d",
-            "#3f7e44",
-            "#fcc30b",
-            "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#0468b1",
-            "#4c9f38",
             "#fd6925",
-            "#19486a"
+            "#fd9d24",
+            "#4c9f38",
+            "#3f7e44",
+            "#dd1367",
+            "#19486a",
+            "#0468b1",
+            "#c5192d",
+            "#0a97d9",
+            "#fcc30b"
           ],
           "xAxis": {
             "axisLine": {
@@ -631,44 +614,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Crecimiento anual en el acceso a la electricidad y la población en áreas urbanas y rurales por región, 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -831,6 +777,17 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "content": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Videos/src/image 486.webm",
+          "poster": "https://sehseadata.blob.core.windows.net/images/Videos/poster/image 486.webp"
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -865,7 +822,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_12.png",
           "caption": ""
         }
       }
@@ -987,6 +944,42 @@
             },
             "title": "La urbanización trae tanto la oportunidad de acceso a la energía como el riesgo de profundizar las desigualdades",
             "description": "Las áreas urbanas generalmente tienen una alta cobertura eléctrica, pero el crecimiento rápido y la expansión informal a menudo dejan atrás a los residentes de bajos ingresos. Las inversiones dirigidas en asentamientos informales y una mejor planificación de la energía urbana son fundamentales para ofrecer un acceso verdaderamente inclusivo."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos clave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2221.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Acceso a la electricidad - ODS7: Datos y proyecciones, 2024",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2222.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Salud energizante: acelerando el acceso a la electricidad en los centros de atención médica, 2023",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2223.png",
+              "caption": ""
+            },
+            "href": "UN Energy",
+            "text": "Lograr el acceso universal para 2030 y emisiones netas cero para 2050: una hoja de ruta global para una transición justa e inclusiva hacia la cocina limpia",
+            "cta": "Haz clic para descargar"
           }
         ]
       }

@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Concepts clés",
+        "intro": "Explorez les idées fondamentales de cette leçon.",
+        "concepts": [
+          {
+            "title": "énergie et qualité de l'air",
+            "body": "L'énergie et la qualité de l'air se réfèrent à la relation entre la production et la consommation d'énergie et l'impact qu'elle a sur la propreté et la santé de l'air que nous respirons, y compris les polluants libérés par les sources d'énergie.",
+            "source": ""
+          },
+          {
+            "title": "aménagement du territoire",
+            "body": "La planification de l'utilisation des terres est le processus d'évaluation et de désignation de la manière dont les terres dans une zone spécifique doivent être utilisées, en équilibrant les besoins de développement avec la protection de l'environnement et les intérêts de la communauté.",
+            "source": ""
+          },
+          {
+            "title": "émissions de GES du cycle de vie",
+            "body": "Les émissions de GES du cycle de vie se réfèrent à la totalité des émissions de gaz à effet de serre associées à un produit ou un service tout au long de son cycle de vie, y compris l'extraction des matières premières, la production, le transport, l'utilisation et l'élimination.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -253,14 +278,14 @@
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
             "#dd1367",
-            "#fd6925",
-            "#fcc30b",
-            "#0468b1",
             "#4c9f38",
-            "#3f7e44",
-            "#19486a",
             "#c5192d",
+            "#fd6925",
             "#0a97d9",
+            "#0468b1",
+            "#3f7e44",
+            "#fcc30b",
+            "#19486a",
             "#fd9d24"
           ],
           "xAxis": {
@@ -380,44 +405,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Consommation d'eau du secteur énergétique mondial par type de combustible et méthode de production d'électricité",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -547,6 +535,42 @@
             },
             "title": "La transition vers une énergie durable soutient la conservation et la qualité de l'eau.",
             "description": "L'énergie renouvelable nécessite beaucoup moins d'eau que la production d'électricité à partir de combustibles fossiles, ce qui réduit la consommation d'eau et la pollution. Une transition vers 85 % d'énergies renouvelables d'ici 2050 pourrait réduire considérablement l'eutrophisation des eaux douces et marines, améliorant ainsi la qualité globale de l'eau."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ressources clés",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6211.png",
+              "caption": ""
+            },
+            "href": "ERM Sustainability Institute",
+            "text": "Avantage de la construction : Quatre étapes pour atténuer les inconvénients environnementaux de l'énergie renouvelable",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6212.png",
+              "caption": ""
+            },
+            "href": "Intergovernmental Panel on Climate Change",
+            "text": "Sources d'énergie renouvelable et atténuation du changement climatique : Rapport spécial du GIEC",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6213.png",
+              "caption": ""
+            },
+            "href": "UNEP",
+            "text": "Nexus eau-énergie dans les systèmes d'approvisionnement en eau urbains",
+            "cta": "Cliquez pour télécharger"
           }
         ]
       }

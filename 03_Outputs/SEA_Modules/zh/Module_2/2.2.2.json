@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "清洁烹饪的获取",
+            "body": "清洁烹饪的获取是指安全、高效且环保的烹饪方法和燃料的可用性和使用，这些方法和燃料比传统烹饪方式减少健康风险和环境影响。",
+            "source": ""
+          },
+          {
+            "title": "供暖和制冷燃料与技术",
+            "body": "采暖和制冷燃料与技术指的是各种能源（如天然气、电力和可再生能源）和系统（如炉子、热泵和空调）用于调节室内温度以实现舒适和效率。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -223,16 +243,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
+            "#c5192d",
+            "#3f7e44",
+            "#0468b1",
+            "#4c9f38",
+            "#0a97d9",
             "#dd1367",
             "#fd9d24",
-            "#c5192d",
             "#fcc30b",
-            "#0a97d9",
             "#fd6925",
-            "#0468b1",
-            "#3f7e44",
-            "#4c9f38"
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -342,44 +362,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "全球城市和农村地区电力普及率的增加，2010年、2020年和2022年",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 80
           }
         }
       }
@@ -493,16 +476,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#c5192d",
-            "#3f7e44",
-            "#fcc30b",
-            "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#0468b1",
-            "#4c9f38",
             "#fd6925",
-            "#19486a"
+            "#fd9d24",
+            "#4c9f38",
+            "#3f7e44",
+            "#dd1367",
+            "#19486a",
+            "#0468b1",
+            "#c5192d",
+            "#0a97d9",
+            "#fcc30b"
           ],
           "xAxis": {
             "axisLine": {
@@ -631,44 +614,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "按地区划分的2020-22年城市和农村地区的电力接入和人口年度增长",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -831,6 +777,17 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "content": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Videos/src/image 486.webm",
+          "poster": "https://sehseadata.blob.core.windows.net/images/Videos/poster/image 486.webp"
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -865,7 +822,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_12.png",
           "caption": ""
         }
       }
@@ -987,6 +944,42 @@
             },
             "title": "城市化带来了能源获取的机遇和加深不平等的风险",
             "description": "城市地区通常具有较高的电力覆盖率，但快速增长和非正式扩张常常让低收入居民落后。 针对非正式定居点的投资和更好的城市能源规划对于实现真正包容的准入至关重要。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2221.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "获取电力 - 可持续发展目标7：数据与预测，2024",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2222.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "振奋健康：加快医疗设施的电力接入，2023",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2223.png",
+              "caption": ""
+            },
+            "href": "UN Energy",
+            "text": "到2030年实现普遍可及性，到2050年实现净零排放：实现公平包容的清洁烹饪转型的全球路线图",
+            "cta": "点击下载"
           }
         ]
       }

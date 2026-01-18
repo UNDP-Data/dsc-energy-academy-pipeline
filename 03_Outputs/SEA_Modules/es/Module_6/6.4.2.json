@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceptos clave",
+        "intro": "Explora las ideas fundamentales de esta lección.",
+        "concepts": [
+          {
+            "title": "demanda de energía para la urbanización",
+            "body": "La demanda de energía para la urbanización se refiere a la cantidad total de energía necesaria para apoyar el crecimiento y desarrollo de las áreas urbanas, incluyendo las necesidades residenciales, comerciales y de infraestructura.",
+            "source": ""
+          },
+          {
+            "title": "edificios verdes",
+            "body": "Los edificios verdes son estructuras diseñadas, construidas y operadas para minimizar su impacto ambiental, mejorar la eficiencia energética y promover la salud y el bienestar de los ocupantes.",
+            "source": ""
+          },
+          {
+            "title": "calefacción y refrigeración",
+            "body": "La calefacción y la refrigeración se refieren a los procesos de elevar o reducir la temperatura de un espacio para mantener la comodidad, generalmente utilizando sistemas como calderas, aires acondicionados o bombas de calor.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "echarts_chart",
       "color_scheme": "dark",
       "size": "full",
@@ -80,16 +105,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#fd6925",
+            "#fd9d24",
+            "#4c9f38",
             "#0a97d9",
             "#dd1367",
-            "#fd6925",
             "#fcc30b",
+            "#19486a",
             "#0468b1",
-            "#fd9d24",
             "#c5192d",
-            "#3f7e44",
-            "#4c9f38",
-            "#19486a"
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -224,47 +249,7 @@
                 62.98
               ]
             }
-          ],
-          "title": {
-            "text": "Consumo final de energía de los edificios en relación con otros sectores, 2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -535,6 +520,42 @@
             },
             "title": "Las políticas específicas son esenciales para abordar la pobreza energética.",
             "description": "Las poblaciones vulnerables que viven en viviendas de mala calidad se ven afectadas de manera desproporcionada por la pobreza energética y los impactos del cambio climático. Para mejorar la sostenibilidad y los niveles de vida, son necesarias políticas específicas, mecanismos de financiamiento innovadores y programas gubernamentales para garantizar el acceso a viviendas y tecnologías energéticamente eficientes. Este enfoque ayudará a mitigar los riesgos mientras mejora la resistencia general frente a los desafíos climáticos."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos clave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6421.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Desarrollar una fuerza laboral global en eficiencia energética en el sector de la construcción",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6422.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Caminos de tecnología e innovación para edificios listos para cero carbono para 2030",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6423.png",
+              "caption": ""
+            },
+            "href": "OECD",
+            "text": "Monitoreo global de las políticas para descarbonizar edificios",
+            "cta": "Haz clic para descargar"
           }
         ]
       }

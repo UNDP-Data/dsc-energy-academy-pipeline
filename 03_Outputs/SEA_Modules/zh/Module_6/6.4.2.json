@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "城市化的能源需求",
+            "body": "城市化的能源需求是指支持城市地区增长和发展的总能源需求，包括住宅、商业和基础设施需求。",
+            "source": ""
+          },
+          {
+            "title": "绿色建筑",
+            "body": "绿色建筑是旨在最大限度减少其环境影响、提高能源效率并促进居住者健康与福祉的结构。",
+            "source": ""
+          },
+          {
+            "title": "供暖和制冷",
+            "body": "供暖和制冷是指提高或降低空间温度以保持舒适的过程，通常使用炉子、空调或热泵等系统。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "echarts_chart",
       "color_scheme": "dark",
       "size": "full",
@@ -80,16 +105,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#fd6925",
+            "#fd9d24",
+            "#4c9f38",
             "#0a97d9",
             "#dd1367",
-            "#fd6925",
             "#fcc30b",
+            "#19486a",
             "#0468b1",
-            "#fd9d24",
             "#c5192d",
-            "#3f7e44",
-            "#4c9f38",
-            "#19486a"
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -224,47 +249,7 @@
                 62.98
               ]
             }
-          ],
-          "title": {
-            "text": "建筑物的最终能源消耗相对于其他部门，2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -535,6 +520,42 @@
             },
             "title": "有针对性的政策对于解决能源贫困至关重要。",
             "description": "居住在劣质住房中的弱势群体在能源贫困和气候变化影响方面受到不成比例的影响。 为了改善可持续性和生活水平，必须制定有针对性的政策、创新的融资机制和政府项目，以确保获得节能住房和技术。 这种方法将有助于减轻风险，同时增强应对气候挑战的整体韧性。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6421.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "在建筑行业发展全球能源效率劳动力",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6422.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "到2030年实现零碳准备建筑的技术与创新路径",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6423.png",
+              "caption": ""
+            },
+            "href": "OECD",
+            "text": "建筑去碳化政策的全球监测",
+            "cta": "点击下载"
           }
         ]
       }

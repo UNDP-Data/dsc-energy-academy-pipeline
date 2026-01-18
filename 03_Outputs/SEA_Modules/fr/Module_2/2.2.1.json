@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Concepts clés",
+        "intro": "Explorez les idées fondamentales de cette leçon.",
+        "concepts": [
+          {
+            "title": "accès à l'énergie pour les quartiers informels",
+            "body": "L'accès à l'énergie pour les quartiers informels fait référence à la disponibilité et à l'accessibilité de services énergétiques fiables, tels que l'électricité et les combustibles de cuisson propres, pour les résidents vivant dans des zones de logement non planifiées ou informelles, en veillant à ce qu'ils puissent satisfaire leurs besoins énergétiques fondamentaux et améliorer leur qualité de vie.",
+            "source": ""
+          },
+          {
+            "title": "énergie en contexte de crise",
+            "body": "L'énergie dans les situations de crise fait référence à la fourniture et à la gestion des ressources énergétiques dans les zones touchées par des urgences, telles que des catastrophes naturelles, des conflits armés ou des crises humanitaires, où l'accès à une énergie fiable est essentiel pour la survie, la récupération et les efforts de reconstruction.",
+            "source": ""
+          },
+          {
+            "title": "écart énergétique mondial",
+            "body": "L'écart énergétique mondial fait référence à la disparité entre la demande mondiale d'énergie et l'offre d'énergie disponible, soulignant la nécessité d'une augmentation de la production d'énergie et de solutions durables pour répondre aux besoins énergétiques futurs.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -276,16 +301,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0a97d9",
-            "#3f7e44",
-            "#19486a",
-            "#c5192d",
-            "#fd9d24",
-            "#fd6925",
-            "#4c9f38",
-            "#0468b1",
             "#dd1367",
-            "#fcc30b"
+            "#fcc30b",
+            "#fd6925",
+            "#0468b1",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#3f7e44",
+            "#c5192d",
+            "#4c9f38"
           ],
           "xAxis": {
             "axisLine": {
@@ -401,44 +426,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Augmentations annuelles de l'électrification et de la population, par région, 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -497,6 +485,42 @@
             },
             "title": "Les solutions efficaces d'accès à l'énergie doivent être adaptées aux besoins locaux spécifiques et aux contextes culturels",
             "description": "Aborder ces contextes variés nécessite des approches flexibles et inclusives qui intègrent l'engagement communautaire, reconnaissent les valeurs culturelles et proposent des solutions innovantes et durables adaptées à chaque environnement."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ressources clés",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2211.png",
+              "caption": ""
+            },
+            "href": "UNDP",
+            "text": "Rapport sur le développement humain 2023-24. Briser l'impasse : Réimaginer la coopération dans un monde polarisé",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2212.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "États insulaires en développement à un carrefour : vers un accès équitable à l'énergie dans les pays les moins électrifiés",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2213.png",
+              "caption": ""
+            },
+            "href": "World Bank Group",
+            "text": "Ne laisser personne de côté - Repenser les programmes d'accès à l'énergie dans les contextes de déplacement",
+            "cta": "Cliquez pour télécharger"
           }
         ]
       }

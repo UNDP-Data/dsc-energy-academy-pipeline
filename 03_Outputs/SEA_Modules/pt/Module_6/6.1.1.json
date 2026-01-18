@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceitos-chave",
+        "intro": "Explore ideias fundamentais desta lição.",
+        "concepts": [
+          {
+            "title": "economia circular",
+            "body": "Uma economia circular é um sistema econômico voltado para eliminar resíduos e o uso contínuo de recursos, reutilizando, reciclando e regenerando materiais, criando um sistema de ciclo fechado que minimiza o impacto ambiental.",
+            "source": ""
+          },
+          {
+            "title": "análise de cenários de mudança climática",
+            "body": "A análise de cenários de mudança climática é um método utilizado para avaliar os impactos futuros potenciais das mudanças climáticas, explorando diferentes cenários possíveis com base em níveis variados de emissões de gases de efeito estufa, respostas políticas e desenvolvimentos socioeconômicos.",
+            "source": ""
+          },
+          {
+            "title": "descarbonização",
+            "body": "A descarbonização é o processo de reduzir ou eliminar as emissões de dióxido de carbono de fontes de energia e processos industriais para combater a mudança climática.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -109,15 +134,15 @@
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
             "#c5192d",
-            "#fcc30b",
-            "#fd9d24",
-            "#3f7e44",
             "#19486a",
-            "#4c9f38",
-            "#0a97d9",
-            "#fd6925",
             "#0468b1",
-            "#dd1367"
+            "#4c9f38",
+            "#fd9d24",
+            "#fcc30b",
+            "#fd6925",
+            "#dd1367",
+            "#3f7e44",
+            "#0a97d9"
           ],
           "label": {
             "overflow": "truncate",
@@ -163,47 +188,7 @@
                 }
               ]
             }
-          ],
-          "title": {
-            "text": "Emissões globais de gases de efeito estufa por setor e uso final, 2021",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -263,16 +248,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#dd1367",
-            "#fd6925",
-            "#19486a",
-            "#fd9d24",
-            "#0468b1",
-            "#fcc30b",
             "#0a97d9",
+            "#fcc30b",
+            "#fd9d24",
             "#4c9f38",
+            "#0468b1",
+            "#3f7e44",
+            "#19486a",
             "#c5192d",
-            "#3f7e44"
+            "#fd6925",
+            "#dd1367"
           ],
           "xAxis": {
             "axisLine": {
@@ -538,47 +523,7 @@
                 8151.42
               ]
             }
-          ],
-          "title": {
-            "text": "Tendências nas emissões setoriais (Subsector de Energia), 1990-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -698,15 +643,15 @@
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
             "#fcc30b",
-            "#fd6925",
-            "#c5192d",
-            "#4c9f38",
+            "#3f7e44",
             "#0a97d9",
-            "#fd9d24",
-            "#19486a",
             "#0468b1",
             "#dd1367",
-            "#3f7e44"
+            "#fd6925",
+            "#4c9f38",
+            "#19486a",
+            "#fd9d24",
+            "#c5192d"
           ],
           "xAxis": {
             "axisLine": {
@@ -807,11 +752,10 @@
             "colorBlindSafe": true
           },
           "grid": {
-            "left": 70,
-            "right": 40,
-            "bottom": 90,
-            "containLabel": true,
-            "top": 200
+            "left": "3%",
+            "right": "4%",
+            "bottom": "3%",
+            "containLabel": true
           },
           "toolbox": {
             "feature": {
@@ -1067,41 +1011,7 @@
                 0.27
               ]
             }
-          ],
-          "title": {
-            "text": "Emissões globais de gases de efeito estufa relacionadas à energia, 2000-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -1369,6 +1279,42 @@
             },
             "title": "A adaptação estratégica é essencial para a resiliência do sistema de energia.",
             "description": "Estratégias eficazes para enfrentar o impacto das mudanças climáticas nos sistemas de energia envolvem aprimorar a resiliência da infraestrutura, diversificar as fontes de energia, melhorar a eficiência energética e adotar soluções descentralizadas. Essas abordagens são essenciais para garantir um futuro energético <strong>seguro</strong>, <strong>sustentável</strong> e <strong>adaptável</strong> diante de interrupções induzidas pelo clima."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos-chave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6111.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "A Indústria de Petróleo e Gás nas Transições para o Net Zero",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6112.png",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "Perspectivas de Transição de Energia Mundial 2024",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6113.png",
+              "caption": ""
+            },
+            "href": "UNITED NATIONS ECONOMIC COMMISSION FOR EUROPE",
+            "text": "Neutralidade de carbono na região da CEE-ONU: Avaliação integrada do ciclo de vida das fontes de eletricidade",
+            "cta": "Clique para baixar"
           }
         ]
       }

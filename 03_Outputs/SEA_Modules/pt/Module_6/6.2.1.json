@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceitos-chave",
+        "intro": "Explore ideias fundamentais desta lição.",
+        "concepts": [
+          {
+            "title": "energia e qualidade do ar",
+            "body": "Energia e qualidade do ar referem-se à relação entre a produção e o consumo de energia e o impacto que isso tem na limpeza e na saúde do ar que respiramos, incluindo poluentes liberados de fontes de energia.",
+            "source": ""
+          },
+          {
+            "title": "planejamento do uso da terra",
+            "body": "O planejamento do uso da terra é o processo de avaliar e designar como a terra em uma área específica deve ser usada, equilibrando as necessidades de desenvolvimento com a proteção ambiental e os interesses da comunidade.",
+            "source": ""
+          },
+          {
+            "title": "emissões de GEE do ciclo de vida",
+            "body": "As emissões de GEE do ciclo de vida referem-se ao total de emissões de gases de efeito estufa associadas a um produto ou serviço ao longo de todo o seu ciclo de vida, incluindo extração de matérias-primas, produção, transporte, uso e descarte.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -253,14 +278,14 @@
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
             "#dd1367",
-            "#fd6925",
-            "#fcc30b",
-            "#0468b1",
             "#4c9f38",
-            "#3f7e44",
-            "#19486a",
             "#c5192d",
+            "#fd6925",
             "#0a97d9",
+            "#0468b1",
+            "#3f7e44",
+            "#fcc30b",
+            "#19486a",
             "#fd9d24"
           ],
           "xAxis": {
@@ -380,44 +405,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Retirada de água do setor de energia global por combustível e método de geração de energia",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -547,6 +535,42 @@
             },
             "title": "A transição para Energia Sustentável apoia a conservação e a qualidade da água.",
             "description": "A energia renovável requer muito menos água do que a geração de energia baseada em combustíveis fósseis, reduzindo o consumo de água e a poluição. Uma transição para 85% de energias renováveis até 2050 poderia diminuir significativamente a eutrofização de águas doces e marinhas, melhorando a qualidade geral da água."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos-chave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6211.png",
+              "caption": ""
+            },
+            "href": "ERM Sustainability Institute",
+            "text": "Benefício da construção: Quatro etapas para mitigar os aspectos ambientais negativos da energia renovável",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6212.png",
+              "caption": ""
+            },
+            "href": "Intergovernmental Panel on Climate Change",
+            "text": "Fontes de Energia Renovável e Mitigação das Mudanças Climáticas: Relatório Especial do IPCC",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6213.png",
+              "caption": ""
+            },
+            "href": "UNEP",
+            "text": "Nexus água-energia em Sistemas de Abastecimento de Água Urbanos",
+            "cta": "Clique para baixar"
           }
         ]
       }

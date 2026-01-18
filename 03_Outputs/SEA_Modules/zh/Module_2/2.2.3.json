@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "能源负担能力",
+            "body": "能源负担能力是指个人或家庭在不影响其基本生活水平或财务稳定的情况下支付所需能源的能力。",
+            "source": ""
+          },
+          {
+            "title": "财务风险降低策略",
+            "body": "财务去风险策略是组织用来减少与投资或项目相关的财务风险的方法，通常通过多样化资金来源、确保保险或实施风险管理实践来实现。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -177,7 +197,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "各地区的城乡差距一直在缩小。<br /> <br />然而，在<strong>撒哈拉以南非洲</strong>，这一差距急剧扩大，只有7%的农村家庭可以使用清洁烹饪，而城市地区为42%。 <br /><br />在<strong>美洲和加勒比地区</strong>，35%的农村人口无法使用清洁的烹饪方式，约是城市地区的两倍。<br /><br /><br />以下两个图表显示了两个不同且互补的信息：全球拥有清洁烹饪方式的比例在农村地区增长得比城市地区更快，但在城市地区仍然更高。 此外，虽然清洁烹饪的获取在不同地区有所差异，但清洁烹饪的获取率始终落后于电力的获取率。"
+              "text": "各地区的城乡差距一直在缩小。<br /> <br />然而，在<strong>撒哈拉以南非洲</strong>，这一差距急剧扩大，只有7%的农村家庭可以使用清洁烹饪，而城市地区为42%。 <br /><br />在<strong>美洲和加勒比地区</strong>，35%的农村人口无法使用清洁的烹饪方式，约是城市地区的两倍。<br /><br /><br />以下两个图表显示了两个不同且互补的信息：全球拥有清洁烹饪方式的比例在农村地区增长得比城市地区更快，但在城市地区仍然更高。 此外，尽管清洁烹饪的获取在不同地区有所差异，但清洁烹饪的获取率通常落后于电力的获取率。"
             }
           }
         ]
@@ -225,16 +245,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#19486a",
             "#0468b1",
-            "#4c9f38",
+            "#fd9d24",
             "#c5192d",
             "#fd6925",
-            "#3f7e44",
-            "#0a97d9",
             "#dd1367",
-            "#fd9d24"
+            "#19486a",
+            "#0a97d9",
+            "#fcc30b",
+            "#4c9f38",
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -348,47 +368,7 @@
                 54
               ]
             }
-          ],
-          "title": {
-            "text": "按可持续发展目标地区（百分比）使用清洁燃料和技术进行烹饪的人口",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -414,18 +394,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3727_793.webp",
-          "caption": ""
-        },
-        "intro": "M2：能源获取和包容性能源服务",
-        "title": "案例研究：塞拉利昂"
       }
     },
     {
@@ -622,15 +590,15 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fd6925",
-            "#0a97d9",
             "#dd1367",
-            "#fcc30b",
-            "#c5192d",
+            "#3f7e44",
             "#0468b1",
             "#fd9d24",
+            "#fd6925",
+            "#0a97d9",
             "#19486a",
-            "#3f7e44",
+            "#fcc30b",
+            "#c5192d",
             "#4c9f38"
           ],
           "xAxis": {
@@ -790,47 +758,7 @@
                 0.91
               ]
             }
-          ],
-          "title": {
-            "text": "所有死亡中归因于次优温度的比例",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -917,16 +845,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0468b1",
-            "#fd6925",
             "#3f7e44",
-            "#fd9d24",
-            "#dd1367",
-            "#19486a",
-            "#c5192d",
-            "#0a97d9",
             "#fcc30b",
-            "#4c9f38"
+            "#4c9f38",
+            "#fd9d24",
+            "#19486a",
+            "#0468b1",
+            "#0a97d9",
+            "#c5192d",
+            "#dd1367",
+            "#fd6925"
           ],
           "xAxis": {
             "axisLine": {
@@ -1070,44 +998,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "2022年居住在炎热气候的人口比例，以及空调的普及率，2000-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -1307,6 +1198,42 @@
             },
             "title": "解决方案必须超越技术，包括金融、政策和包容性。",
             "description": "正如在塞拉利昂以及通过像Chilling Prospects这样的全球倡议中所展示的，成功不仅取决于创新，还取决于本地所有权、定向融资和支持性政策。 解决这些被忽视的能源获取领域对于实现可持续发展目标7并确保没有人被落下至关重要。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2231.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "能源转型的地缘政治。 能源安全，2024",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2232.png",
+              "caption": ""
+            },
+            "href": "McKinsey & Company",
+            "text": "在不确定性下的电网规划：为能源转型投资，2023",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2233.png",
+              "caption": ""
+            },
+            "href": "GSG",
+            "text": "非正式定居点：不再隐形：影响在全球规模资本动员以资助贫民窟升级计划中的作用，2022",
+            "cta": "点击下载"
           }
         ]
       }

@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "非正式定居点的能源获取",
+            "body": "非正式定居点的能源获取是指可靠能源服务的可用性和负担能力，例如电力和清洁烹饪燃料，供居住在非规划或非正式住房区的居民使用，确保他们能够满足基本的能源需求并改善生活质量。",
+            "source": ""
+          },
+          {
+            "title": "危机环境中的能源",
+            "body": "危机环境中的能源指在受紧急情况影响的地区提供和管理能源资源，例如自然灾害、武装冲突或人道主义危机，在这些地区，可靠的能源对于生存、恢复和重建至关重要。",
+            "source": ""
+          },
+          {
+            "title": "全球能源差距",
+            "body": "全球能源差距指的是世界能源需求与可用能源供应之间的差异，强调需要增加能源生产和可持续解决方案以满足未来的能源需求。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -201,7 +226,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "虽然一些地区正迅速朝着普及能源的目标迈进，但其他地区正落后。 本节重点介绍了大多数人仍然缺乏基本能源服务的地区，特别是在撒哈拉以南非洲和脆弱国家。 这些地区中的一些面临持续的障碍，例如政治不稳定、缺乏融资渠道和薄弱的机构。"
+              "text": "虽然一些地区正迅速朝着普及能源的目标迈进，但其他地区正落后。 本节重点介绍了大多数人仍然缺乏基本能源服务的地区，特别是在撒哈拉以南非洲和脆弱国家。 这些地区中的一些面临持续的障碍，例如政治不稳定、缺乏融资渠道和机构薄弱。"
             }
           },
           {
@@ -276,16 +301,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0a97d9",
-            "#3f7e44",
-            "#19486a",
-            "#c5192d",
-            "#fd9d24",
-            "#fd6925",
-            "#4c9f38",
-            "#0468b1",
             "#dd1367",
-            "#fcc30b"
+            "#fcc30b",
+            "#fd6925",
+            "#0468b1",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#3f7e44",
+            "#c5192d",
+            "#4c9f38"
           ],
           "xAxis": {
             "axisLine": {
@@ -401,44 +426,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "按地区划分的2020-22年电气化和人口的年度增长",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -497,6 +485,42 @@
             },
             "title": "有效的能源获取解决方案必须根据具体的本地需求和文化背景量身定制",
             "description": "应对这些多样化的环境需要灵活、包容的方法，融入社区参与，认可文化价值，并提供适合每个环境的创新、可持续的解决方案。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2211.png",
+              "caption": ""
+            },
+            "href": "UNDP",
+            "text": "2023-24年人类发展报告。 打破僵局：在极化的世界中重新构想合作",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2212.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "处于十字路口的小岛发展中国家：迈向最少电气化国家的公平能源获取",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2213.png",
+              "caption": ""
+            },
+            "href": "World Bank Group",
+            "text": "不让任何人落后——重新思考流离失所环境中的能源获取项目",
+            "cta": "点击下载"
           }
         ]
       }

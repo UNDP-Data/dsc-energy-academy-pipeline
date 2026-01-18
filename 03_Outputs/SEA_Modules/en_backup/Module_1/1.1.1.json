@@ -39,6 +39,40 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-en.mp4",
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-en.png"
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Concepts",
+        "intro": "Explore foundational ideas from this lesson.",
+        "concepts": [
+          {
+            "title": "energy for development",
+            "body": "Energy for development refers to the provision and use of energy resources to support economic growth, improve living standards, and enhance social well-being in communities, particularly in developing regions.",
+            "source": ""
+          },
+          {
+            "title": "energy trilemma",
+            "body": "The energy trilemma refers to the challenge of balancing three key objectives in energy policy: ensuring energy security, promoting environmental sustainability, and providing energy equity or affordability for all consumers.",
+            "source": ""
+          },
+          {
+            "title": "paris agreement goals",
+            "body": "The Paris Agreement goals refer to the international commitments made by countries to limit global warming to well below 2 degrees Celsius above pre-industrial levels, with efforts to limit the temperature increase to 1.5 degrees Celsius, and to enhance the ability to adapt to climate change impacts.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -93,7 +127,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Note: The exact numbers for people lacking access to energy and <ai prompt=\"Share details about clean cooking.\">clean cooking 💬️</ai> have changed since the date of this Declaration."
+              "text": "Note: The exact numbers for people lacking access to energy and <ai prompt=\"What is clean cooking?\">clean cooking 💬️</ai> have changed since the date of this Declaration."
             }
           }
         ]
@@ -119,7 +153,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "To better understand this relationship, we often look at the <ai prompt=\"What is human development index?\">human development index 💬️</ai> (HDI), a measure that gives us a snapshot of a nation's overall well-being. The<a href=\"https://hdr.undp.org/data-center/human-development-index#/indicies/HDI\"><u> HDI</u></a> is a composite indicator consisting of life expectancy, education and per capita income indicators. Countries are scored between 0 and 1, with higher scores reflecting greater development."
+              "text": "To better understand this relationship, we often look at the <ai prompt=\"Provide more info on human development index.\">human development index 💬️</ai> (HDI), a measure that gives us a snapshot of a nation's overall well-being. The<a href=\"https://hdr.undp.org/data-center/human-development-index#/indicies/HDI\"><u> HDI</u></a> is a composite indicator consisting of life expectancy, education and per capita income indicators. Countries are scored between 0 and 1, with higher scores reflecting greater development."
             }
           },
           {
@@ -173,16 +207,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
-            "#fcc30b",
-            "#0a97d9",
-            "#3f7e44",
-            "#4c9f38",
             "#fd6925",
-            "#fd9d24",
             "#c5192d",
+            "#fd9d24",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44",
             "#dd1367",
-            "#0468b1"
+            "#0a97d9",
+            "#fcc30b",
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -845,47 +879,7 @@
               "type": "scatter",
               "name": "South America"
             }
-          ],
-          "title": {
-            "text": "The Human Development Index (HDI) and energy use per capita, 2019",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -959,16 +953,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#0a97d9",
             "#19486a",
-            "#fd9d24",
-            "#fd6925",
             "#dd1367",
-            "#4c9f38",
-            "#0468b1",
+            "#fcc30b",
             "#3f7e44",
-            "#c5192d"
+            "#0468b1",
+            "#0a97d9",
+            "#fd6925",
+            "#c5192d",
+            "#4c9f38",
+            "#fd9d24"
           ],
           "label": {
             "overflow": "truncate",
@@ -1018,47 +1012,7 @@
                 }
               ]
             }
-          ],
-          "title": {
-            "text": "Energy and Climate Change",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -1137,7 +1091,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>The global energy transition is gaining momentum, but beneath the surface of progress lies a series contradiction.<br /></strong><br /> Solar and wind are breaking records. Clean technologies are cheaper and spreading faster than ever before. <br /><br />And yet, fossil fuels remain deeply entrenched, access remains deeply unequal, and investment flows continue to bypass the communities that need them most. <br /><br />Are we truly transitioning or just rearranging the imbalance? Why is clean energy booming while fossil fuels still dominate? These questions are crucial to frame the issue of <ai prompt=\"Clarify energy for development.\">energy for development 💬️</ai> and question the systems at play in its transformation."
+              "text": "<strong>The global energy transition is gaining momentum, but beneath the surface of progress lies a series contradiction.<br /></strong><br /> Solar and wind are breaking records. Clean technologies are cheaper and spreading faster than ever before. <br /><br />And yet, fossil fuels remain deeply entrenched, access remains deeply unequal, and investment flows continue to bypass the communities that need them most. <br /><br />Are we truly transitioning or just rearranging the imbalance? Why is clean energy booming while fossil fuels still dominate? These questions are crucial to frame the issue of <ai prompt=\"Share details about energy for development.\">energy for development 💬️</ai> and question the systems at play in its transformation."
             }
           }
         ]
@@ -1157,7 +1111,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Faced with the dual challenge of balancing universal, affordable access with climate mitigation, the world is slowly starting to shift energy systems. <br /></strong><br />The cost of solar electricity has dropped by over 85% between 2010 and 2020 (<a href=\"https://www.irena.org/-/media/files/irena/agency/publication/2022/mar/irena_weto_summary_2022.pdf?la=en&hash=1da99d3c3334c84668f5caae029bd9a076c10079\"><u>IRENA</u></a>, 2022), and renewables are now the cheapest source of new power in most of the world. In 2024, clean energy investments reached a historic $2 trillion, more than doubling since 2020 (<a href=\"https://www.iea.org/news/investment-in-clean-energy-this-year-is-set-to-be-twice-the-amount-going-to-fossil-fuels\"><u>IEA</u></a>, 2024). As illustrated in the following chart, the share of renewable energy in global electricity generation has already risen from approximately 20% in 2000 to over 30% in 2023. Looking ahead, it is projected to increase by an additional 90% by 2030, compared to 2023 levels.<br /><br />Solar and wind are finally outcompeting coal and gas in many markets. For the first time, renewables are set to become the largest source of global electricity. <br /><br />Governments, companies, and communities around the world are increasingly committing to net-zero pathways. Breakthroughs in <ai prompt=\"Clarify battery storage.\">battery storage 💬️</ai>, green hydrogen, and energy access solutions offer hope. These are signs of genuine transformation. <br /><br /><strong>But is it happening fast enough?</strong>"
+              "text": "<strong>Faced with the dual challenge of balancing universal, affordable access with climate mitigation, the world is slowly starting to shift energy systems. <br /></strong><br />The cost of solar electricity has dropped by over 85% between 2010 and 2020 (<a href=\"https://www.irena.org/-/media/files/irena/agency/publication/2022/mar/irena_weto_summary_2022.pdf?la=en&hash=1da99d3c3334c84668f5caae029bd9a076c10079\"><u>IRENA</u></a>, 2022), and renewables are now the cheapest source of new power in most of the world. In 2024, clean energy investments reached a historic $2 trillion, more than doubling since 2020 (<a href=\"https://www.iea.org/news/investment-in-clean-energy-this-year-is-set-to-be-twice-the-amount-going-to-fossil-fuels\"><u>IEA</u></a>, 2024). As illustrated in the following chart, the share of renewable energy in global electricity generation has already risen from approximately 20% in 2000 to over 30% in 2023. Looking ahead, it is projected to increase by an additional 90% by 2030, compared to 2023 levels.<br /><br />Solar and wind are finally outcompeting coal and gas in many markets. For the first time, renewables are set to become the largest source of global electricity. <br /><br />Governments, companies, and communities around the world are increasingly committing to net-zero pathways. Breakthroughs in <ai prompt=\"Share details about battery storage.\">battery storage 💬️</ai>, green hydrogen, and energy access solutions offer hope. These are signs of genuine transformation. <br /><br /><strong>But is it happening fast enough?</strong>"
             }
           }
         ]
@@ -1356,7 +1310,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The challenge with achieving a <ai prompt=\"Clarify just energy transition.\">just energy transition 💬️</ai> is that it has dual imperatives and multiple contradictions. <strong>How do we move beyond the current structure and build a system that is beneficial for people, planet and prosperity?<br /><br /></strong>This section explores the foundational shifts required to transition from today’s outdated, fossil-fueled energy systems to a future that is clean, inclusive, and climate-aligned. It begins by diagnosing the limitations of our current centralized energy model, one that disproportionately benefits the wealthy, remains heavily dependent on fossil fuels, and suffers from significant inefficiencies and sectoral vulnerabilities.<br /><br />It then presents the energy system we need: one that is renewable, non-polluting, and designed to deliver cross-sectoral development gains, from health and education to food security and resilience. <br /><br />Finally, it outlines key levers for transformative change in the coming decade. This section sets the stage for understanding that the <strong>energy transition is not just a technological upgrade, it is a political, social, and moral imperative.<br /></strong>"
+              "text": "The challenge with achieving a <ai prompt=\"Explain just energy transition.\">just energy transition 💬️</ai> is that it has dual imperatives and multiple contradictions. <strong>How do we move beyond the current structure and build a system that is beneficial for people, planet and prosperity?<br /><br /></strong>This section explores the foundational shifts required to transition from today’s outdated, fossil-fueled energy systems to a future that is clean, inclusive, and climate-aligned. It begins by diagnosing the limitations of our current centralized energy model, one that disproportionately benefits the wealthy, remains heavily dependent on fossil fuels, and suffers from significant inefficiencies and sectoral vulnerabilities.<br /><br />It then presents the energy system we need: one that is renewable, non-polluting, and designed to deliver cross-sectoral development gains, from health and education to food security and resilience. <br /><br />Finally, it outlines key levers for transformative change in the coming decade. This section sets the stage for understanding that the <strong>energy transition is not just a technological upgrade, it is a political, social, and moral imperative.<br /></strong>"
             }
           }
         ]
@@ -1587,6 +1541,42 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Resources",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1111.png",
+              "caption": ""
+            },
+            "href": "Center on Global Energy Policy at COLUMBIA SIPA",
+            "text": "Energy and Development in a Changing World: A Framework for the 21st Century",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1112.png",
+              "caption": ""
+            },
+            "href": "Wiley Online Library",
+            "text": "Energy Development as a Driver of Economic Growth",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1113.png",
+              "caption": ""
+            },
+            "href": "ScienceDirect",
+            "text": "Energy-Based Economic Development",
+            "cta": "Click to download"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
@@ -1595,7 +1585,7 @@
           "caption": ""
         },
         "intro": "Next up",
-        "title": "Lesson 2: Energy as a Driver for Development",
+        "title": "Lesson 2: The Complexities of Global Energy Use",
         "cta": "Continue learning",
         "nextLessonId": "1.1.2"
       }

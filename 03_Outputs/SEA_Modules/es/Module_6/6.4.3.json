@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceptos clave",
+        "intro": "Explora las ideas fundamentales de esta lección.",
+        "concepts": [
+          {
+            "title": "reciclaje de baterías",
+            "body": "El reciclaje de baterías es el proceso de recolectar, procesar y reutilizar materiales de baterías usadas para recuperar metales valiosos y reducir el impacto ambiental.",
+            "source": ""
+          },
+          {
+            "title": "almacenamiento de batería",
+            "body": "El almacenamiento de baterías se refiere al uso de baterías para almacenar energía para su uso posterior, permitiendo la gestión de la oferta y la demanda de energía, particularmente de fuentes renovables.",
+            "source": ""
+          },
+          {
+            "title": "movilidad eléctrica",
+            "body": "La movilidad eléctrica se refiere al uso de vehículos impulsados por <strong>electricidad</strong>, como <strong>coches eléctricos</strong>, <strong>bicicletas</strong> y <strong>patinetes</strong>, para el transporte, promoviendo viajes sostenibles y ecológicos.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -176,16 +201,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#0a97d9",
             "#c5192d",
-            "#dd1367",
-            "#0468b1",
-            "#fd9d24",
             "#fd6925",
-            "#4c9f38",
-            "#3f7e44",
-            "#19486a",
             "#fcc30b",
-            "#0a97d9"
+            "#19486a",
+            "#fd9d24",
+            "#4c9f38",
+            "#dd1367",
+            "#3f7e44",
+            "#0468b1"
           ],
           "xAxis": {
             "axisLine": {
@@ -416,44 +441,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Prevalencia de tipos de vehículos",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -634,16 +622,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#fd6925",
             "#0a97d9",
+            "#0468b1",
             "#3f7e44",
-            "#19486a",
+            "#c5192d",
+            "#fcc30b",
             "#fd9d24",
             "#4c9f38",
-            "#fcc30b",
             "#dd1367",
-            "#fd6925",
-            "#0468b1",
-            "#c5192d"
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -782,44 +770,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Demanda de baterías por modo y región, 2016-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 80
           }
         }
       }
@@ -888,6 +839,42 @@
             },
             "title": "Superando los principales desafíos para desbloquear todo el potencial de la electrificación.",
             "description": "Los desafíos como los altos costos iniciales, la infraestructura de carga limitada y la mayor demanda de minerales críticos deben abordarse mediante políticas específicas, financiamiento innovador y soluciones de economía circular como el reciclaje de baterías. Garantizar la adición de valor local en países ricos en minerales y preparar a la fuerza laboral para las nuevas oportunidades de empleo son cruciales para hacer que la electrificación del transporte sea tanto sostenible como equitativa."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos clave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6431.png",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "Electrificación inteligente de los sectores de uso final: beneficios para las redes de distribución",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6432.png",
+              "caption": ""
+            },
+            "href": "International Transport Forum",
+            "text": "Centrando la atención en vehículos eléctricos más pequeños para ciudades sostenibles",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6433.png",
+              "caption": ""
+            },
+            "href": "World Bank",
+            "text": "Descarbonización del transporte urbano para el desarrollo",
+            "cta": "Haz clic para descargar"
           }
         ]
       }

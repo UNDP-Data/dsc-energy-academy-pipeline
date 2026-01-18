@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Concepts clés",
+        "intro": "Explorez les idées fondamentales de cette leçon.",
+        "concepts": [
+          {
+            "title": "demande d'énergie pour l'urbanisation",
+            "body": "La demande d'énergie pour l'urbanisation fait référence à la quantité totale d'énergie nécessaire pour soutenir la croissance et le développement des zones urbaines, y compris les besoins résidentiels, commerciaux et d'infrastructure.",
+            "source": ""
+          },
+          {
+            "title": "bâtiments verts",
+            "body": "Les bâtiments verts sont des structures conçues, construites et exploitées pour minimiser leur impact environnemental, améliorer l'efficacité énergétique et promouvoir la santé et le bien-être des occupants.",
+            "source": ""
+          },
+          {
+            "title": "chauffage et refroidissement",
+            "body": "Le chauffage et la climatisation font référence aux processus d'augmentation ou de diminution de la température d'un espace pour maintenir le confort, en utilisant généralement des systèmes comme des chaudières, des climatiseurs ou des pompes à chaleur.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "echarts_chart",
       "color_scheme": "dark",
       "size": "full",
@@ -80,16 +105,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#fd6925",
+            "#fd9d24",
+            "#4c9f38",
             "#0a97d9",
             "#dd1367",
-            "#fd6925",
             "#fcc30b",
+            "#19486a",
             "#0468b1",
-            "#fd9d24",
             "#c5192d",
-            "#3f7e44",
-            "#4c9f38",
-            "#19486a"
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -224,47 +249,7 @@
                 62.98
               ]
             }
-          ],
-          "title": {
-            "text": "Consommation finale d'énergie des bâtiments par rapport à d'autres secteurs, 2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -535,6 +520,42 @@
             },
             "title": "Les politiques ciblées sont essentielles pour lutter contre la pauvreté énergétique.",
             "description": "Les populations vulnérables vivant dans des logements de mauvaise qualité sont disproportionnellement touchées par la pauvreté énergétique et les impacts du changement climatique. Pour améliorer la durabilité et les normes de vie, des politiques ciblées, des mécanismes de financement innovants et des programmes gouvernementaux sont nécessaires pour garantir l'accès à des logements et des technologies écoénergétiques. Cette approche aidera à atténuer les risques tout en renforçant la résilience globale face aux défis climatiques."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ressources clés",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6421.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Développer une main-d'œuvre mondiale en efficacité énergétique dans le secteur du bâtiment",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6422.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Voies de la technologie et de l'innovation pour des bâtiments prêts à zéro carbone d'ici 2030",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6423.png",
+              "caption": ""
+            },
+            "href": "OECD",
+            "text": "Surveillance mondiale des politiques de décarbonisation des bâtiments",
+            "cta": "Cliquez pour télécharger"
           }
         ]
       }

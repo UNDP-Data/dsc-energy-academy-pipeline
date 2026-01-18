@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "能源就业中的性别差距",
+            "body": "能源行业中的性别差距指的是在能源行业中男性和女性的就业人数之间的差异，通常表现为女性在技术、领导和决策角色中的比例较少，与男性同行相比。",
+            "source": ""
+          },
+          {
+            "title": "公平过渡的劳动力计划",
+            "body": "公平转型劳动力项目是旨在支持工人和社区向可持续就业和产业转型的倡议，确保向绿色经济的转变公平公正，为受就业市场变化影响的人提供培训、资源和支持。",
+            "source": ""
+          },
+          {
+            "title": "技能发展生态系统",
+            "body": "技能发展生态系统指的是相互连接的组织、机构和资源网络，它们协作支持个人的持续学习和技能提升，通常旨在满足劳动力市场的需求并促进经济增长。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -134,16 +159,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
-            "#c5192d",
             "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#3f7e44",
-            "#4c9f38",
             "#fd6925",
+            "#4c9f38",
+            "#dd1367",
+            "#c5192d",
             "#0468b1",
-            "#fcc30b"
+            "#3f7e44",
+            "#fcc30b",
+            "#fd9d24",
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -298,47 +323,7 @@
                 14290.5728519618
               ]
             }
-          ],
-          "title": {
-            "text": "基线与1.5°C情景之间的各行业就业差异，千个岗位",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -765,6 +750,42 @@
             },
             "title": "性别平等是可持续能源转型的基石。",
             "description": "女性在能源行业中的代表性不足，尤其是在领导岗位上，并面临诸如工资差距和无偿护理工作等障碍。 能源转型为通过有针对性的举措如奖学金、导师计划和弹性工作安排促进性别平等提供了机会。 在STEM和可再生能源领域赋予女性权力不仅促进了公平，还推动了创新和长期可持续发展。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3221.png",
+              "caption": ""
+            },
+            "href": "IISD",
+            "text": "真正的人们，真正的变革：实现公平能源转型的策略",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3222.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "分散式太阳能光伏：性别视角",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3223.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "2024年世界能源就业",
+            "cta": "点击下载"
           }
         ]
       }

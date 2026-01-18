@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "能源补贴",
+            "body": "政府为促进能源生产或消费提供的财政支持，通常旨在降低消费者的成本或鼓励使用可再生能源。",
+            "source": ""
+          },
+          {
+            "title": "化石燃料补贴",
+            "body": "化石燃料补贴是政府向化石燃料行业提供的财政支持和激励措施，包括减税、补助和价格控制，旨在降低煤炭、石油和天然气等化石燃料的成本。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -247,6 +267,17 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "content": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Videos/src/image 419.webm",
+          "poster": "https://sehseadata.blob.core.windows.net/images/Videos/poster/image 419.webp"
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -254,7 +285,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "[needs translation] For instance, in <strong>Bangladesh,</strong> the government proposed eliminating import duties and value-added tax (VAT) on renewable energy components as part of its draft Renewable Energy Policy 2025 to facilitate wider adoption of clean technologies <a href=\"https://ieefa.org/sites/default/files/2025-02/IEEFA%27s%20Comments%20on%20Bangladesh%27s%20Draft%20Renewable%20Energy%20Policy%202025.pdf\"><u>(IEEFA</u></a>., 2025).<br /> <br />In <strong>Kenya</strong>, the government has provided import duty and VAT exemptions for solar and <ai prompt=\"Share details about wind energy.\">wind energy 💬️</ai> systems since 1998, with solar components benefiting from a preferential 5% import duty. <a href=\"https://gogla.org/sector-news/kenya-government-reinstates-vat-exemption-on-renewable-energy-products/\"><u>GOGLA</u></a>，2021) <br /><br />当有效实施并与更广泛的财政和能源政策相结合时，进口关税豁免可以帮助开启可再生能源市场并推动获得清洁、现代的能源。"
+              "text": "[needs translation] For instance, in <strong>Bangladesh,</strong> the government proposed eliminating import duties and value-added tax (VAT) on renewable energy components as part of its draft Renewable Energy Policy 2025 to facilitate wider adoption of clean technologies <a href=\"https://ieefa.org/sites/default/files/2025-02/IEEFA%27s%20Comments%20on%20Bangladesh%27s%20Draft%20Renewable%20Energy%20Policy%202025.pdf\"><u>(IEEFA</u></a>., 2025).<br /> <br />In <strong>Kenya</strong>, the government has provided import duty and VAT exemptions for solar and <ai prompt=\"Tell me more about wind energy.\">wind energy 💬️</ai> systems since 1998, with solar components benefiting from a preferential 5% import duty. <a href=\"https://gogla.org/sector-news/kenya-government-reinstates-vat-exemption-on-renewable-energy-products/\"><u>GOGLA</u></a>，2021) <br /><br />当有效实施并与更广泛的财政和能源政策相结合时，进口关税豁免可以帮助开启可再生能源市场并推动获得清洁、现代的能源。"
             }
           },
           {
@@ -264,18 +295,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "lesson_subpart_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/519_2601.webp",
-          "caption": ""
-        },
-        "intro": "M2：能源获取和包容性能源服务",
-        "title": "案例研究：巴西"
       }
     },
     {
@@ -404,6 +423,42 @@
             },
             "title": "能源获取解决方案的示例，如巴西的能源安全网（<strong>Luz para todos</strong>、<strong>Tarifa Social</strong> 和 <strong>Bolsa Família</strong>），不仅扩大了对基本服务的获取，还为更广泛的全球可持续发展议程做出了贡献。",
             "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2341.png",
+              "caption": ""
+            },
+            "href": "World Bank",
+            "text": "使用多层框架衡量能源获取的可持续发展目标7的跟踪",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2342.png",
+              "caption": ""
+            },
+            "href": "World Bank, ESMAP",
+            "text": "可持续能源的监管指标：政策制定者的全球评分卡",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2343.png",
+              "caption": ""
+            },
+            "href": "World Bank Group",
+            "text": "设计负责任的终端用户补贴以实现能源获取：一个包含偏远地区太阳能和清洁烹饪补贴设计案例研究的工具包",
+            "cta": "点击下载"
           }
         ]
       }

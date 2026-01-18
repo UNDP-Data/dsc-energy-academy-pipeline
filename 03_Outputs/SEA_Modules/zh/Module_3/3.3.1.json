@@ -39,6 +39,44 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "关键矿物",
+            "body": "关键矿物是用于生产高科技设备、可再生能源技术和其他先进应用的自然资源，且面临供应中断的风险。",
+            "source": ""
+          },
+          {
+            "title": "负责任的提取实践",
+            "body": "负责任的开采实践是指获取自然资源的方法，优先考虑环境可持续性、社会公平和经济可行性，确保对生态系统和社区的伤害最小。",
+            "source": ""
+          },
+          {
+            "title": "可持续供应链",
+            "body": "可持续供应链是指以最小化环境影响、促进社会责任并确保产品整个生命周期的经济可行性为目标的商品和服务流管理。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-horizontal",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/722_145.webp",
+          "caption": ""
+        },
+        "title": null,
+        "description": null,
+        "caption": null
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -163,16 +201,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#4c9f38",
-            "#dd1367",
             "#0468b1",
             "#fcc30b",
-            "#fd9d24",
             "#19486a",
-            "#fd6925",
+            "#0a97d9",
             "#3f7e44",
-            "#c5192d",
-            "#0a97d9"
+            "#4c9f38",
+            "#fd6925",
+            "#fd9d24",
+            "#dd1367",
+            "#c5192d"
           ],
           "xAxis": {
             "axisLine": {
@@ -361,47 +399,7 @@
                 1.0946907498631973
               ]
             }
-          ],
-          "title": {
-            "text": "在选定的清洁能源技术中使用的关键矿物",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -439,33 +437,15 @@
       "size": "full",
       "content": {
         "option": {
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#fcc30b",
-            "#0468b1",
-            "#fd6925",
-            "#c5192d",
-            "#3f7e44",
-            "#19486a",
-            "#fd9d24",
-            "#dd1367",
-            "#4c9f38",
-            "#0a97d9"
-          ],
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
             "fontSize": 14,
             "fontWeight": "normal",
             "color": "#DDDDDD"
           },
-          "tooltip": {
-            "trigger": "axis",
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#888888"
-            }
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
           },
           "legend": {
             "textStyle": {
@@ -482,23 +462,69 @@
               "fontSize": 14
             }
           },
-          "grid": {
-            "left": 70,
-            "right": 40,
-            "bottom": 90,
-            "top": 200,
-            "containLabel": true
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
           },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#3f7e44",
+            "#0468b1",
+            "#0a97d9",
+            "#dd1367",
+            "#4c9f38",
+            "#fd9d24",
+            "#19486a",
+            "#c5192d",
+            "#fd6925",
+            "#fcc30b"
+          ],
           "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
             "type": "category",
             "data": [
               "2024",
               "2030",
               "2040"
             ],
+            "name": "Year"
+          },
+          "yAxis": {
             "axisLine": {
+              "show": true,
               "lineStyle": {
-                "color": "#888888"
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
               }
             },
             "splitLine": {
@@ -516,123 +542,57 @@
             "nameTextStyle": {
               "color": "#CCCCCC",
               "fontSize": 14
+            },
+            "type": "value",
+            "name": "Mt"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
             }
           },
-          "yAxis": {
-            "name": "Mt",
-            "type": "value",
-            "min": 0,
-            "max": 45,
-            "interval": 10,
-            "axisLine": {
-              "lineStyle": {
-                "color": "#888888",
-                "style": "solid"
-              }
-            },
-            "splitLine": {
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
           },
           "series": [
             {
-              "name": "Energy technologies",
+              "name": "Total use",
               "type": "bar",
-              "stack": "total",
-              "barWidth": "30%",
               "data": [
-                7.699680511,
-                10.89456869,
-                12.1086262
-              ]
-            },
-            {
-              "name": "Other uses",
-              "type": "bar",
-              "stack": "total",
-              "barWidth": "30%",
-              "data": [
-                19.04153355,
-                20.3514377,
-                21.98083067
+                26.7412140575079,
+                31.2460063897763,
+                34.0894568690095
               ]
             },
             {
               "name": "APS",
-              "type": "scatter",
-              "symbolSize": 10,
+              "type": "bar",
               "data": [
-                [
-                  1,
-                  32.58785942
-                ],
-                [
-                  2,
-                  36.74121406
-                ]
+                null,
+                "32.5878594249201",
+                "36.7412140575079"
               ]
             },
             {
               "name": "NZE",
-              "type": "scatter",
-              "symbolSize": 10,
+              "type": "bar",
               "data": [
-                [
-                  1,
-                  34.40894569
-                ],
-                [
-                  2,
-                  39.52076677
-                ]
+                null,
+                "34.4089456869009",
+                "39.520766773163"
               ]
             }
           ],
-          "title": {
-            "text": "关键材料的需求和清洁能源在总需求中的份额",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+          "grid": {
+            "bottom": 80
           }
         }
       }
@@ -1069,6 +1029,42 @@
             },
             "title": "国际合作作为实现资源公平利用的催化剂。",
             "description": "国际合作对于释放关键矿物的全部潜力至关重要。 通过促进技术转让、打击非法金融流动和改善市场准入，全球合作伙伴关系可以支持发展中国家利用其矿产资源实现可持续经济增长，同时最大限度地减少环境和社会风险。 这种合作方式对于确保能源转型的利益得到公平分配至关重要。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3311.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "可再生能源的关键材料：改善数据治理",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3312.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "为公平能源转型寻找共同点：工会和雇主的观点",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3313.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "2024年全球关键矿产展望",
+            "cta": "点击下载"
           }
         ]
       }

@@ -32,8 +32,33 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Transport relies heavily on internal combustion engines (ICE) powered by fossil fuels. It accounts for over one-third of CO2 emissions from end-use sectors. In 2022, passenger and cargo activity rebounded after the Covid-19 pandemic. This led to a 3% rise in transport CO2 emissions compared to 2021. From 1990 to 2022, transport emissions grew at an average annual rate of 1.7%, the same as industry. To align with the Net Zero Emissions (NZE) by 2050 Scenario, transport emissions must decrease by more than 3% annually until 2030. <br />Achieving this requires swift road vehicle electrification, improved <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai>, scaled-up low-emissions fuels in maritime and aviation, and policies that promote shifts to less carbon-intensive transport modes. Here, we will focus on road transport. Electrification is the most promising path to reduce emissions and improve energy efficiency in road transport."
+              "text": "Transport relies heavily on internal combustion engines (ICE) powered by fossil fuels. It accounts for over one-third of CO2 emissions from end-use sectors. In 2022, passenger and cargo activity rebounded after the Covid-19 pandemic. This led to a 3% rise in transport CO2 emissions compared to 2021. From 1990 to 2022, transport emissions grew at an average annual rate of 1.7%, the same as industry. To align with the Net Zero Emissions (NZE) by 2050 Scenario, transport emissions must decrease by more than 3% annually until 2030. <br />Achieving this requires swift road vehicle electrification, improved <ai prompt=\"What is energy efficiency?\">energy efficiency 💬️</ai>, scaled-up low-emissions fuels in maritime and aviation, and policies that promote shifts to less carbon-intensive transport modes. Here, we will focus on road transport. Electrification is the most promising path to reduce emissions and improve energy efficiency in road transport."
             }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Concepts",
+        "intro": "Explore foundational ideas from this lesson.",
+        "concepts": [
+          {
+            "title": "battery recycling",
+            "body": "Battery recycling is the process of collecting, processing, and reusing materials from used batteries to recover valuable metals and reduce environmental impact.",
+            "source": ""
+          },
+          {
+            "title": "battery storage",
+            "body": "Battery storage refers to the use of batteries to store energy for later use, allowing for the management of energy supply and demand, particularly from renewable sources.",
+            "source": ""
+          },
+          {
+            "title": "electric mobility",
+            "body": "Electric mobility refers to the use of electric-powered vehicles, such as electric cars, bikes, and scooters, for transportation, promoting sustainable and eco-friendly travel.",
+            "source": ""
           }
         ]
       }
@@ -176,16 +201,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#0a97d9",
             "#c5192d",
-            "#dd1367",
-            "#0468b1",
-            "#fd9d24",
             "#fd6925",
-            "#4c9f38",
-            "#3f7e44",
-            "#19486a",
             "#fcc30b",
-            "#0a97d9"
+            "#19486a",
+            "#fd9d24",
+            "#4c9f38",
+            "#dd1367",
+            "#3f7e44",
+            "#0468b1"
           ],
           "xAxis": {
             "axisLine": {
@@ -416,44 +441,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Prevalence of vehicle types",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -526,7 +514,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Investments in EVs, particularly electric buses and two- and three-wheelers, are already economically justified in some countries, given lower operating costs. Environmental benefits enhance their appeal. Further encouraging uptake may require dismantling legal and regulatory barriers while implementing direct and indirect incentives. The latter may comprise tax benefits, rebates, purchase support and subsidized charging at public stations. Preferential electricity rates, such as those outlined in Rwanda's e-mobility policy, could incentivize people to charge vehicles during off-peak hours, reducing grid strain and increasing the likelihood of EV adoption amid volatile fuel prices. <br /><br /><strong>Expanding investment in electric public transport is essential, particularly in low-income countries, to improve access and affordability. Blended finance models could help de-risk investments and expand financing options. Market-shaping activities are also necessary to generate finance for critical infrastructure, charging, and energy capacity and coverage. <ai prompt=\"What is innovative financing?\">innovative financing 💬️</ai> possibilities encompass those offered by E2W Africa, which issues affordable loans for two- and three-wheeler vehicles, reducing costs and facilitating scaled-up adoption. </strong>"
+              "text": "Investments in EVs, particularly electric buses and two- and three-wheelers, are already economically justified in some countries, given lower operating costs. Environmental benefits enhance their appeal. Further encouraging uptake may require dismantling legal and regulatory barriers while implementing direct and indirect incentives. The latter may comprise tax benefits, rebates, purchase support and subsidized charging at public stations. Preferential electricity rates, such as those outlined in Rwanda's e-mobility policy, could incentivize people to charge vehicles during off-peak hours, reducing grid strain and increasing the likelihood of EV adoption amid volatile fuel prices. <br /><br /><strong>Expanding investment in electric public transport is essential, particularly in low-income countries, to improve access and affordability. Blended finance models could help de-risk investments and expand financing options. Market-shaping activities are also necessary to generate finance for critical infrastructure, charging, and energy capacity and coverage. <ai prompt=\"Clarify innovative financing.\">innovative financing 💬️</ai> possibilities encompass those offered by E2W Africa, which issues affordable loans for two- and three-wheeler vehicles, reducing costs and facilitating scaled-up adoption. </strong>"
             }
           }
         ]
@@ -634,16 +622,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#fd6925",
             "#0a97d9",
+            "#0468b1",
             "#3f7e44",
-            "#19486a",
+            "#c5192d",
+            "#fcc30b",
             "#fd9d24",
             "#4c9f38",
-            "#fcc30b",
             "#dd1367",
-            "#fd6925",
-            "#0468b1",
-            "#c5192d"
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -782,44 +770,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Battery Demand By Mode and Region, 2016-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 80
           }
         }
       }
@@ -832,7 +783,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While extracting minerals generates fewer emissions than burning fossil fuels, it often exacerbates environmental issues. Mining has been a major contributor to the degradation of at least 700 million hectares and over 96 million hectares of land in Africa and India, respectively. Robust environmental legislation, regulation and policies are essential to mitigate such risks. For example, Rwanda’s mining law and policy framework guide <ai prompt=\"Tell me more about environmental impact assessments.\">environmental impact assessments 💬️</ai> and monitoring to prevent adverse effects on ecosystems and local communities. <br />Further safeguarding environmental integrity in e-transport calls for sustainable national waste management strategies and infrastructure. Circular approaches are important, such as using second-life batteries for stationary energy storage and adopting battery reuse and recycling practices. The latter can also increase local independence from international battery manufacturing hubs. Such strategies support both local economic growth opportunities and job creation. Moreover, integrating AI and digital technologies can optimize supply chains, including material availability, and increase performance and efficiency in energy storage systems."
+              "text": "While extracting minerals generates fewer emissions than burning fossil fuels, it often exacerbates environmental issues. Mining has been a major contributor to the degradation of at least 700 million hectares and over 96 million hectares of land in Africa and India, respectively. Robust environmental legislation, regulation and policies are essential to mitigate such risks. For example, Rwanda’s mining law and policy framework guide <ai prompt=\"Share details about environmental impact assessments.\">environmental impact assessments 💬️</ai> and monitoring to prevent adverse effects on ecosystems and local communities. <br />Further safeguarding environmental integrity in e-transport calls for sustainable national waste management strategies and infrastructure. Circular approaches are important, such as using second-life batteries for stationary energy storage and adopting battery reuse and recycling practices. The latter can also increase local independence from international battery manufacturing hubs. Such strategies support both local economic growth opportunities and job creation. Moreover, integrating AI and digital technologies can optimize supply chains, including material availability, and increase performance and efficiency in energy storage systems."
             }
           }
         ]
@@ -888,6 +839,42 @@
             },
             "title": "Overcoming Key Challenges to Unlock Electrification’s Full Potential.",
             "description": "Challenges such as high upfront costs, limited charging infrastructure, and increased demand for critical minerals must be addressed through targeted policies, innovative financing, and circular economy solutions like battery recycling. Ensuring local value addition in mineral-rich countries and preparing the workforce for new job opportunities are crucial to making transport electrification both sustainable and equitable."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Resources",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6431.png",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "Smart electrification of end-use sectors: Benefits for distribution grids",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6432.png",
+              "caption": ""
+            },
+            "href": "International Transport Forum",
+            "text": "Shifting the Focus Smaller Electric Vehicles for Sustainable Cities",
+            "cta": "Click to download"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6433.png",
+              "caption": ""
+            },
+            "href": "World Bank",
+            "text": "Decarbonizing Urban Transport for Development",
+            "cta": "Click to download"
           }
         ]
       }

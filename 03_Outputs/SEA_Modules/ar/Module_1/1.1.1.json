@@ -48,6 +48,40 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-en.mp4",
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-en.png"
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "المفاهيم الأساسية",
+        "intro": "استكشف الأفكار الأساسية من هذا الدرس.",
+        "concepts": [
+          {
+            "title": "طاقة للتنمية",
+            "body": "الطاقة للتنمية تشير إلى توفير واستخدام الموارد الطاقية لدعم النمو الاقتصادي، وتحسين مستويات المعيشة، وتعزيز الرفاه الاجتماعي في المجتمعات، لا سيما في المناطق النامية.",
+            "source": ""
+          },
+          {
+            "title": "مُعَضَلَةُ الطَّاقَةِ",
+            "body": "يشير معضلة الطاقة إلى التحدي المتمثل في موازنة ثلاثة أهداف رئيسية في سياسة الطاقة: ضمان أمن الطاقة، وتعزيز الاستدامة البيئية، وتوفير العدالة أو القدرة على تحمل تكاليف الطاقة لجميع المستهلكين.",
+            "source": ""
+          },
+          {
+            "title": "أهداف اتفاق باريس",
+            "body": "تشير أهداف اتفاق باريس إلى الالتزامات الدولية التي تعهدت بها الدول للحد من الاحترار العالمي إلى أقل من درجتين مئويتين فوق المستويات قبل الصناعية، مع جهود للحد من زيادة درجة الحرارة إلى 1.5 درجة مئوية، ولتعزيز القدرة على التكيف مع آثار تغير المناخ.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -182,16 +216,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
-            "#fcc30b",
-            "#0a97d9",
-            "#3f7e44",
-            "#4c9f38",
             "#fd6925",
-            "#fd9d24",
             "#c5192d",
+            "#fd9d24",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44",
             "#dd1367",
-            "#0468b1"
+            "#0a97d9",
+            "#fcc30b",
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -854,47 +888,7 @@
               "type": "scatter",
               "name": "South America"
             }
-          ],
-          "title": {
-            "text": "مؤشر التنمية البشرية (HDI) واستخدام الطاقة للفرد، 2019",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -968,16 +962,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#0a97d9",
             "#19486a",
-            "#fd9d24",
-            "#fd6925",
             "#dd1367",
-            "#4c9f38",
-            "#0468b1",
+            "#fcc30b",
             "#3f7e44",
-            "#c5192d"
+            "#0468b1",
+            "#0a97d9",
+            "#fd6925",
+            "#c5192d",
+            "#4c9f38",
+            "#fd9d24"
           ],
           "label": {
             "overflow": "truncate",
@@ -1027,47 +1021,7 @@
                 }
               ]
             }
-          ],
-          "title": {
-            "text": "الطاقة وتغير المناخ",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -1596,6 +1550,42 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "الموارد الرئيسية",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1111.png",
+              "caption": ""
+            },
+            "href": "Center on Global Energy Policy at COLUMBIA SIPA",
+            "text": "الطاقة والتنمية في عالم متغير: إطار للقرن الحادي والعشرين",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1112.png",
+              "caption": ""
+            },
+            "href": "Wiley Online Library",
+            "text": "تطوير الطاقة كمحرك للنمو الاقتصادي",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1113.png",
+              "caption": ""
+            },
+            "href": "ScienceDirect",
+            "text": "التنمية الاقتصادية القائمة على الطاقة",
+            "cta": "انقر للتنزيل"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
@@ -1604,7 +1594,7 @@
           "caption": ""
         },
         "intro": "التالي",
-        "title": "الدرس 2: الطاقة كمحرك للتنمية",
+        "title": "الدرس 2: تعقيدات استخدام الطاقة العالمية",
         "cta": "استمر في التعلم",
         "nextLessonId": "1.1.2"
       }

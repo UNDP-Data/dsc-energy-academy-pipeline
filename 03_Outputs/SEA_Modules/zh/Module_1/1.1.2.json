@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "国家自主贡献",
+            "body": "国家自主贡献（NDCs）是各国提交的气候行动计划，旨在概述其减少温室气体排放和适应气候变化的承诺，作为《巴黎协定》的一部分。",
+            "source": ""
+          },
+          {
+            "title": "可持续能源 & 可再生能源",
+            "body": "可持续能源是指对环境友好且可以长期维持的能源来源，不会耗尽资源或破坏生态系统。 可再生能源是可持续能源的一个子集，来自不断补充的自然过程，例如 <strong>太阳能</strong>、<strong>风能</strong> 和 <strong>水力发电</strong>。",
+            "source": ""
+          },
+          {
+            "title": "公平的能源转型",
+            "body": "公平的能源转型是指以公平和公正的方式将化石燃料转向可再生能源，确保所有社区，尤其是那些历史上被边缘化的社区，从转型中受益，并不被抛在后面。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -213,16 +238,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#0468b1",
+            "#4c9f38",
+            "#19486a",
             "#fd6925",
             "#fcc30b",
-            "#c5192d",
-            "#dd1367",
-            "#19486a",
-            "#4c9f38",
-            "#0a97d9",
             "#3f7e44",
-            "#0468b1",
-            "#fd9d24"
+            "#0a97d9",
+            "#fd9d24",
+            "#c5192d",
+            "#dd1367"
           ],
           "xAxis": {
             "axisLine": {
@@ -553,47 +578,7 @@
                 "36.8"
               ]
             }
-          ],
-          "title": {
-            "text": "能源燃烧和工业过程的全球二氧化碳排放及其年度变化，1900-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -719,7 +704,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "虽然对化石燃料的依赖使各国面临系统性脆弱性，但全球能源需求的增加又增加了另一层压力。 [needs translation] Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Share details about energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />这种<strong>增长由多种因素驱动：人口增长、快速城市化、工业扩张，以及从交通到烹饪再到数字服务的不断增加的电气化。 <br /></strong><br />这种不断增长的需求是发展进步的标志，但除非向清洁、可靠和去中心化的替代方案转变步伐保持同步，否则也有可能加深世界对波动的化石能源系统的依赖。 如果没有战略性应对，能源使用的增加可能会使各国陷入不安全且碳密集的路径，削弱能源获取目标和气候目标。 <br /><br /><strong><em>要深入了解能源的未来以及不同情景如何影响需求预测，请参考第8模块。</em></strong></br></br> </strong>"
+              "text": "虽然对化石燃料的依赖使各国面临系统性脆弱性，但全球能源需求的增加又增加了另一层压力。 [needs translation] Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />这种<strong>增长由多种因素驱动：人口增长、快速城市化、工业扩张，以及从交通到烹饪再到数字服务的不断增加的电气化。 <br /></strong><br />这种不断增长的需求是发展进步的标志，但除非向清洁、可靠和去中心化的替代方案转变步伐保持同步，否则也有可能加深世界对波动的化石能源系统的依赖。 如果没有战略性应对，能源使用的增加可能会使各国陷入不安全且碳密集的路径，削弱能源获取目标和气候目标。 <br /><br /><strong><em>要深入了解能源的未来以及不同情景如何影响需求预测，请参考第8模块。</em></strong></br></br> </strong>"
             }
           }
         ]
@@ -767,16 +752,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#3f7e44",
-            "#dd1367",
-            "#4c9f38",
-            "#fd9d24",
-            "#0468b1",
-            "#0a97d9",
-            "#c5192d",
             "#19486a",
-            "#fd6925"
+            "#dd1367",
+            "#0a97d9",
+            "#fcc30b",
+            "#fd6925",
+            "#fd9d24",
+            "#c5192d",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -976,44 +961,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "全球能源需求",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -1048,6 +996,42 @@
             },
             "title": "随着化石燃料主导低效的能源系统并推动气候变化，向可再生能源的转型和提高能源效率至关重要。 随着全球能源需求的增加，这一转变将是确保安全、公平和可持续发展的关键。",
             "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "2024年世界能源展望",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "2024年全球能源展望",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.png",
+              "caption": ""
+            },
+            "href": "McKinsey & Company",
+            "text": "2024年全球能源转型展望",
+            "cta": "点击下载"
           }
         ]
       }

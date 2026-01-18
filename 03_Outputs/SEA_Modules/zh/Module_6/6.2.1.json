@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "能源和空气质量",
+            "body": "能源和空气质量指的是能源生产与消费之间的关系，以及它对我们呼吸的空气的清洁度和健康的影响，包括来自能源来源的污染物释放。",
+            "source": ""
+          },
+          {
+            "title": "土地利用规划",
+            "body": "土地利用规划是评估和划定特定区域土地应如何使用的过程，平衡发展需求与环境保护和社区利益。",
+            "source": ""
+          },
+          {
+            "title": "生命周期温室气体排放",
+            "body": "生命周期温室气体排放指与产品或服务整个生命周期相关的温室气体总排放，包括原材料开采、生产、运输、使用和处置。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -253,14 +278,14 @@
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
             "#dd1367",
-            "#fd6925",
-            "#fcc30b",
-            "#0468b1",
             "#4c9f38",
-            "#3f7e44",
-            "#19486a",
             "#c5192d",
+            "#fd6925",
             "#0a97d9",
+            "#0468b1",
+            "#3f7e44",
+            "#fcc30b",
+            "#19486a",
             "#fd9d24"
           ],
           "xAxis": {
@@ -380,44 +405,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "全球能源部门按燃料和发电方式的用水量",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -547,6 +535,42 @@
             },
             "title": "可持续能源转型支持水资源的保护和质量。",
             "description": "可再生能源比化石燃料发电所需的水量少得多，减少了用水和污染。 到2050年实现85%的可再生能源转型，可能会显著减少淡水和海洋的富营养化，改善整体水质。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6211.png",
+              "caption": ""
+            },
+            "href": "ERM Sustainability Institute",
+            "text": "建设益处：减轻可再生能源环境负面影响的四个步骤",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6212.png",
+              "caption": ""
+            },
+            "href": "Intergovernmental Panel on Climate Change",
+            "text": "可再生能源与气候变化减缓：IPCC的特别报告",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6213.png",
+              "caption": ""
+            },
+            "href": "UNEP",
+            "text": "城市供水系统中的水-能源联系",
+            "cta": "点击下载"
           }
         ]
       }

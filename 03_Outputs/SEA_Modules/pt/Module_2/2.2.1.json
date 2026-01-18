@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceitos-chave",
+        "intro": "Explore ideias fundamentais desta lição.",
+        "concepts": [
+          {
+            "title": "acesso à energia para assentamentos informais",
+            "body": "O acesso à energia para assentamentos informais refere-se à disponibilidade e acessibilidade de serviços energéticos confiáveis, como eletricidade e combustíveis de cozinha limpos, para os residentes que vivem em áreas de habitação não planejadas ou informais, garantindo que possam atender às suas necessidades energéticas básicas e melhorar sua qualidade de vida.",
+            "source": ""
+          },
+          {
+            "title": "energia em cenários de crise",
+            "body": "Energia em situações de crise refere-se à provisão e gestão de recursos energéticos em áreas afetadas por emergências, como desastres naturais, conflitos armados ou crises humanitárias, onde o acesso a uma energia confiável é fundamental para a sobrevivência, recuperação e esforços de reconstrução.",
+            "source": ""
+          },
+          {
+            "title": "gap de energia global",
+            "body": "A lacuna de energia global refere-se à disparidade entre a demanda mundial de energia e o fornecimento de energia disponível, destacando a necessidade de aumentar a produção de energia e soluções sustentáveis para atender às futuras necessidades energéticas.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -201,7 +226,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Enquanto algumas regiões estão avançando rapidamente em direção ao acesso universal à energia, outras estão ficando para trás. Esta seção destaca áreas onde a maioria das pessoas ainda não tem acesso a serviços de energia básicos, especialmente na África Subsaariana e em estados frágeis. Algumas dessas regiões enfrentam obstáculos persistentes, como instabilidade política, falta de acesso a financiamento e instituições fracas."
+              "text": "Enquanto algumas regiões estão avançando rapidamente em direção ao acesso universal à energia, outras estão ficando para trás. Esta seção destaca áreas onde a maioria das pessoas ainda não tem acesso a serviços de energia básicos, especialmente na África Subsaariana e em estados frágeis. Algumas dessas regiões enfrentam barreiras persistentes, como instabilidade política, falta de acesso ao financiamento e instituições fracas."
             }
           },
           {
@@ -276,16 +301,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0a97d9",
-            "#3f7e44",
-            "#19486a",
-            "#c5192d",
-            "#fd9d24",
-            "#fd6925",
-            "#4c9f38",
-            "#0468b1",
             "#dd1367",
-            "#fcc30b"
+            "#fcc30b",
+            "#fd6925",
+            "#0468b1",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#3f7e44",
+            "#c5192d",
+            "#4c9f38"
           ],
           "xAxis": {
             "axisLine": {
@@ -401,44 +426,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Aumentos anuais na eletrificação e na população, por região, 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -497,6 +485,42 @@
             },
             "title": "Soluções eficazes de acesso à energia devem ser adaptadas às necessidades locais específicas e aos contextos culturais",
             "description": "Abordar esses contextos variados requer abordagens flexíveis e inclusivas que incorporem o envolvimento da comunidade, reconheçam os valores culturais e ofereçam soluções inovadoras e sustentáveis adequadas a cada ambiente."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos-chave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2211.png",
+              "caption": ""
+            },
+            "href": "UNDP",
+            "text": "Relatório de Desenvolvimento Humano 2023-24. Quebrando o impasse: Reimaginando a cooperação em um mundo polarizado",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2212.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Estados insulares em desenvolvimento em uma encruzilhada: rumo ao acesso equitativo à energia nos países com menor eletrificação",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2213.png",
+              "caption": ""
+            },
+            "href": "World Bank Group",
+            "text": "Deixando ninguém para trás - Repensando os programas de acesso à energia em contextos de deslocamento",
+            "cta": "Clique para baixar"
           }
         ]
       }

@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "电池回收",
+            "body": "电池回收是收集、处理和重复利用废旧电池中的材料以回收有价值的金属并减少环境影响的过程。",
+            "source": ""
+          },
+          {
+            "title": "电池存储",
+            "body": "电池存储是指使用电池存储能源以供以后使用，从而管理能源的供应和需求，特别是来自可再生能源的能源。",
+            "source": ""
+          },
+          {
+            "title": "电动出行",
+            "body": "电动出行指使用电动驱动的车辆，例如<strong>电动汽车</strong>、<strong>自行车</strong>和<strong>滑板车</strong>，用于交通，促进可持续和环保的出行。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -176,16 +201,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#0a97d9",
             "#c5192d",
-            "#dd1367",
-            "#0468b1",
-            "#fd9d24",
             "#fd6925",
-            "#4c9f38",
-            "#3f7e44",
-            "#19486a",
             "#fcc30b",
-            "#0a97d9"
+            "#19486a",
+            "#fd9d24",
+            "#4c9f38",
+            "#dd1367",
+            "#3f7e44",
+            "#0468b1"
           ],
           "xAxis": {
             "axisLine": {
@@ -416,44 +441,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "车辆类型的普遍性",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -634,16 +622,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#fd6925",
             "#0a97d9",
+            "#0468b1",
             "#3f7e44",
-            "#19486a",
+            "#c5192d",
+            "#fcc30b",
             "#fd9d24",
             "#4c9f38",
-            "#fcc30b",
             "#dd1367",
-            "#fd6925",
-            "#0468b1",
-            "#c5192d"
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -782,44 +770,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "电池需求按模式和地区，2016-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 80
           }
         }
       }
@@ -888,6 +839,42 @@
             },
             "title": "克服关键挑战，释放电气化的全部潜力。",
             "description": "诸如高额前期成本、有限的充电基础设施以及对关键矿物的需求增加等挑战，必须通过有针对性的政策、创新融资和循环经济解决方案（如电池回收）来应对。 确保矿产丰富国家的本地价值增加并为新工作机会准备劳动力，对于使交通电气化既可持续又公平至关重要。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6431.png",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "终端用能部门的智能电气化：对配电网的益处",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6432.png",
+              "caption": ""
+            },
+            "href": "International Transport Forum",
+            "text": "将焦点转向更小的电动车辆以实现可持续城市",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6433.png",
+              "caption": ""
+            },
+            "href": "World Bank",
+            "text": "城市交通脱碳以促进发展",
+            "cta": "点击下载"
           }
         ]
       }

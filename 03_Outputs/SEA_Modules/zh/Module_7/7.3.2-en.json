@@ -1,0 +1,834 @@
+{
+  "id": "7.3.2",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_13.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "2"
+        },
+        "title": "能源建模工具和应用程序",
+        "cta": "",
+        "intro": "M7：可持续能源数据"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>能源建模在不同行业和部门中具有多种用途：</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>政策分析与制定</strong>",
+              "body": "通过模拟不同的能源政策情景，政策制定者可以评估潜在影响，并就政策目标、设计和实施做出明智的决策。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>能源系统规划与优化</strong>",
+              "body": "能源模型有助于优化能源来源和技术的组合，规划未来的能源需求——包括开发适当的能源基础设施，如电力网络——，分析能源安全风险，并确保能源供应的可靠性和稳定性。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>投资与经济分析</strong>",
+              "body": "这些模型提供了关于不同倡议、技术和效率措施的成本和收益的见解，支持合理的经济决策。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>环境影响评估：</strong>",
+              "body": "模拟各种能源场景有助于评估减排和其他环境效益，从而支持环境可持续性。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "电网稳定性分析",
+            "body": "电网稳定性分析是评估电网在正常运行和扰动后保持电压和频率水平一致的能力，确保可靠的电力供应。",
+            "source": ""
+          },
+          {
+            "title": "可再生能源整合",
+            "body": "将可再生能源（如太阳能或风能）融入现有能源系统的过程，以确保可靠高效的能源供应。",
+            "source": ""
+          },
+          {
+            "title": "情景规划",
+            "body": "情景规划是一种战略规划方法，用于通过设想和分析基于不同假设和不确定性的各种未来情景，制定灵活的长期计划。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>新兴技术的评估：</strong>",
+              "body": "能源建模使利益相关者能够评估创新能源技术对整体能源结构的潜在贡献，并了解它们对可持续性的影响。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>资源管理：</strong>",
+              "body": "它有助于评估自然资源的可持续利用，包括可再生和不可再生资源。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>气候变化缓解：</strong>",
+              "body": "能源建模对于设计减缓气候变化的策略至关重要，它提供了对能源系统复杂性的全面理解。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "总体而言，能源建模对于明智的决策、<br />可持续性以及确保能源资源的高效利用是不可或缺的。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_6083.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "一个 <strong>能源系统</strong> 包含一个互联的能源生产、转换、传输、分配、存储和消费网络，包括实现向最终用户提供能源服务的物理组件和过程。 在这个系统中，可再生能源（RES）发挥着关键作用，提供太阳能、风能、水能、地热能和<ai prompt=\"分享有关生物质的细节。\">生物质 💬️</ai>等可持续能源选择。 相比之下，化石燃料，如煤炭、石油和天然气，是由古老的有机物质衍生的不可再生能源。 同样，核能目前由铀和钚产生，所有核燃料都是有限的资源。 <br /><br /><strong>能源组合</strong>指的是在特定地区或国家用来满足能源需求的不同能源来源的组合。 然而，关于温室气体（GHG）排放的担忧促使采取措施，例如碳税，旨在减少温室气体排放并鼓励使用更清洁的能源。 实现净零排放，即平衡排放和去除的温室气体，是一个关键目标。 <br /><br /><strong>容量因子，</strong>定义为能源发电单元（例如风力涡轮机或太阳能电站）实际的能源生产量与在相同时间段内以满负荷运行时的最大能源生产量的比值。容量因子是衡量运营效率的指标。 </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>情景分析</strong> 通过模拟不同的条件、政策和技术发展，评估潜在的能源路径。<br /><br /><strong>优化技术</strong>，采用数学方法高效运行能源系统，考虑多个目标和约束。 <br /><br /><strong><ai prompt=\"Explain decentralized energy systems.\">去中心化能源系统 💬️</ai> </strong>涉及在使用点附近进行发电，通常使用较小规模的可再生能源，如屋顶太阳能。 <br /><br /><strong>容量扩展</strong> 涉及规划和投资新的能源发电资源，以满足未来的需求并更换老化的基础设施。 <br /><br /><strong>限制</strong>是由于供应过剩或电网限制而减少可再生能源输出。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "现代化、去中心化和<ai prompt=\"Tell me more about decarbonization.\">脱碳 💬️</ai>的努力在能源部门转型中严重依赖于数据驱动和证据基础的决策洞察，推动可持续能源发展的持续倡议。 这一转型的关键驱动力是数据价值链、人工智能和能源建模的协同作用，以实现利益相关者和系统的优化决策支持。 关键数据来自各种能源应用，通过数据分析嵌入可操作的智能，为不断发展的可持续能源格局提供策略。 这进一步为政策制定者、政府和支持组织提供了有据可依、智能的见解，促使他们制定有效的合作策略，为可持续能源的采用创造有利环境。 此功能依赖于高质量数据的可获取性，用于有针对性的能源建模干预，指导能源发展策略，推动创新，并监测发展进展。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_11.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "A：能源模型的类型"
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_7.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>描述模型 </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "描述性能源模型用于表示和分析能源系统的当前状态和历史趋势。 这些模型提供了对能源系统随时间演变以及它们当前运行方式的详细和全面的理解。 与预测或优化模型不同，描述性模型专注于准确描述现有条件，而不是预测未来的场景或优化资源配置。 描述模型在很大程度上依赖经验数据，以反映能源系统的实际性能和特性。 他们使用关于能源生产、消费、价格和其他相关参数的历史数据。 它们用于基准测试当前性能、识别趋势和了解能源系统的历史动态。 LEAP 是一种广泛用于能源政策分析和气候变化缓解评估的描述性模型。 这是一种灵活的、数据驱动的模型，可以代表各种层次的能源系统，供政府、非政府组织和研究机构用来理解当前的能源系统并评估不同能源政策的影响。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_14.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>规范模型</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "规范性能源模型旨在为实现能源系统中的预期目标提供具体的建议和指导。 这些模型通常涉及优化技术，以确定资源分配、技术部署和政策实施的最佳策略。 目标是制定行动方案，以提高效率、减少排放并增强能源系统的可持续性。 这些模型使用数学优化技术在给定约束条件下确定最佳解决方案。 这涉及到最小化或最大化一个目标函数，例如成本、排放或能源使用。 OSeMOSYS是一个典型的例子，它已被用来为不同国家制定能源转型路径，例如肯尼亚。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_7.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>预测模型</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "预测能源模型旨在根据各种假设和输入数据预测未来的能源需求、供应和系统行为。 这些模型使用历史数据和统计技术来预测能源系统在不同情景下的演变。 预测模型的主要目的是通过提供对能源系统潜在未来状态的洞察来指导规划和决策。 预测模型使用统计方法和算法来估计未来的能源需求、供应、价格和其他相关参数。 这些模型评估不同的情景，以了解经济增长、人口、技术采用和政策措施等变量的变化将如何影响未来的能源系统。 EnergyPLAN 是一种用于先进能源系统分析的工具，具有模拟和预测未来能源需求和供应的能力，适用于各种场景，主要用于国家和区域能源规划，包括可再生能源的整合。 预测能源模型是预测未来能源系统动态的基本工具。 通过提供对潜在未来状态的洞察并识别风险和机遇，这些模型支持能源行业中的明智决策和战略规划。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_15.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "B：能源建模的应用"
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_14.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "情景分析是能源建模的强大应用，它允许政策制定者和规划者探索替代未来，并评估不同政策决策、技术发展和外部因素对能源系统的潜在影响。 通过开发和分析多个场景，决策者可以更好地理解能源规划中涉及的不确定性和权衡，并做出明智的决策以实现预期的结果。 政策制定者使用能源模型来开发代表不同政策选项和监管框架的场景，例如碳定价、可再生能源目标和<ai prompt=\"解释能源效率。\">能源效率 💬️</ai>标准。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>能源模型用于探索反映特定技术采用和部署的场景，例如可再生能源、<ai prompt=\"分享有关储能的细节。\">储能系统 💬️</ai>、电动汽车、低排放氢气和智能电网。 政策制定者使用情景分析来评估拟议政策和法规对能源供应、需求、价格、排放和经济指标的潜在影响。 政策和规划的情景分析为决策者提供了有关不同能源策略和政策选项的潜在影响和权衡的宝贵见解。 通过考虑一系列合理的未来情景，政策制定者可以制定强大且具有适应性的能源政策，促进可持续性、韧性和经济繁荣。<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_13.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>负载预测与需求管理</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "负荷预测和需求管理是能源建模的基本组成部分，帮助公用事业、电网运营商和能源规划者预测未来的电力需求并优化电力系统的运行。 能源模型用于分析历史消费模式、人口趋势、天气数据和经济指标，以制定准确的电力负荷预测并实施需求侧管理策略。 短期负载预测涉及预测未来数小时、数天或数周的用电需求。 能源模型使用统计技术、时间序列分析和机器学习算法来分析历史负载数据，并结合天气条件、星期几和假期等因素。 <br /> <br /><strong><br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>需求管理策略旨在通过实施需求响应计划、按使用时间定价和能源效率激励等措施，减少峰值用电需求。</strong> 能源模型有助于评估这些策略的有效性并优化其实施，以最小化成本并增强电网稳定性（Wang 等，2019）。<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_15.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>可再生能源的整合</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源建模在可再生能源（RES）融入电网和确保电网稳定方面起着关键作用，尤其是在变异性和不确定性不断增加的情况下。 通过模拟不同的场景并评估可再生能源部署的影响，能源模型帮助政策制定者、电网运营商和公用事业公司设计具有弹性和高效的能源系统，融入更高比例的间歇性发电，通常来自可再生能源。 能源模型有助于规划可再生能源技术（例如太阳能光伏、风力涡轮机）的最佳组合和容量，以满足未来的电力需求，同时考虑资源可用性、技术成本和电网限制。 模型分析可再生资源的空间分布及其时间变异性，以识别适合可再生能源项目的地点，并优化其运行和接入电网。 能源模型评估可再生能源项目与现有电网基础设施的兼容性，并评估升级、加强和灵活性措施的需求，以适应变化和间歇性发电。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>电网稳定性：频率和电压调节</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "模型模拟可再生能源的动态行为及其对电网频率稳定性的影响。 他们分析频率调节机制的有效性，例如自动发电控制和电网规模的能源存储，以维持电网稳定。 此类模型属于电力系统模型，也用于评估可再生能源集成对电网电压轮廓的影响，以及评估无功功率补偿、电压调节设备和电网加固措施的需求，以确保电压的稳定性和可靠性。 可再生能源的整合和电网的稳定对于向可持续能源未来的过渡至关重要。 能源建模为政策制定者和利益相关者提供了宝贵的见解和工具，以优化可再生能源的部署、增强电网稳定性，并确保可靠和具有弹性的电力供应。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "第二个方案旨在到2030年实现普遍接入，并在2050年前将排放减少到零，采用最低成本发电扩展建模方法。 该方案结合了环境、经济和社会方面，旨在实现<em>可持续发展目标（SDG） 7</em>。 然而，结果显示，为实现这些目标所需的投资是巨大的，仅靠公共资金不足以建立如此规模的可持续电力系统。 研究强调，私人投资者和发展机构对于清洁能源的发展至关重要。 它还确定了普遍获得电力和低碳电力部门的障碍，这些障碍可能阻碍这两个在清洁能源发展中的参与者。<br />为了鼓励对清洁能源产业的投资，研究建议政府创造一个有利的环境，让市场力量决定电价，促进强大且独立的机构的发展，并使用拍卖系统进行可再生能源部门的投资。<br />研究中使用的工具使其具有可复制性，但挑战在于理解从相关利益相关者那里征集的数据类型以及如何实施这些数据。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "case_study_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_17.png",
+          "caption": ""
+        },
+        "intro": "非洲地区",
+        "title": "案例研究：坦桑尼亚",
+        "subtitle": "坦桑尼亚清洁转型的战略能源建模：利用 LEAP &amp; OSeMOSYS 实现到 2030 年75%的可再生能源、60GW容量和普及农村电气化"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "坦桑尼亚的能源系统历史上依赖水电和天然气，分别占其装机容量的36%和57%，截至2019年 <a href=\"https://www.sciencedirect.com/science/article/pii/S2211467X24003390\"><u>(Okika et al, p. 7).</u></a> 然而，这种依赖在应对不断增长的工业需求、农村电气化差距和环境挑战方面被证明是不充分的。 [needs translation] Tanzania is among the fastest-growing countries in Sub-Saharan Africa in terms of electricity access, with the World Bank reporting a 37.7% increase in overall access—across both rural and urban areas—between 2011 and 2020 <a href=\"https://www.policyforum-tz.org/news/2023-05-30/darubini-tanzania-and-energy-transition-potential-progress-and-challenges\"><u>(Policy Forum, 2023).</u></a> In response, Tanzania set progressive energy targets-aiming for 53% renewable electricity by 2020, 75% by 2030, and complete decarbonization by 2050, with projected installed capacity exceeding 60 GW by mid-century <a href=\"https://www.sciencedirect.com/science/article/pii/S2211467X24003390\"><u>(Okika et al., 2025).<br /></u></a><br />To achieve these goals, robust <ai prompt=\"Tell me more about energy modeling.\">energy modeling 💬️</ai> has emerged as a foundational planning tool. 坦桑尼亚在使用诸如长期能源替代方案规划（LEAP）等工具方面具有历史，通过各种机构和捐助者支持的努力。 随着水泥、钢铁和饮料等行业能源需求的增加——这些行业目前依赖昂贵的进口燃料——进一步扩展的战略建模可以帮助开辟一条降低成本、提高系统可靠性以及实现社会经济和气候目标的路径。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_5.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>能源建模在克服系统性障碍中的作用</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源建模在克服坦桑尼亚能源转型的关键结构性障碍和提出可行的缓解路径方面具有重要作用。 其中这些障碍包括："
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "2019年仍有3700万人没有电力，电网连接不足，农村地区的接入率仅为19%。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "非成本反映的上网电价影响坦桑尼亚国家电力公司（TANESCO）的财务可行性。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "大量未通电的村庄积压，超过37,000个，必须在2030年前连接。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源模型可以为理解这些挑战提供一个结构化的框架，优先考虑基础设施投资，并设计具有成本效益的技术路径。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_17.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>坦桑尼亚能源建模的战略作用</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "坦桑尼亚的能源政策可能通过扩展利用描述性、规范性和基于情景的能源建模方法的组合，继续从能源建模中受益，以规划通往清洁能源未来的路径。 例如："
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "基于情景的建模，例如通过LEAP系统，使政策制定者能够评估多种能源发展轨迹及其影响。 在坦桑尼亚的情况下，这可能包括将清洁能源方案与仍然优先考虑化石燃料的现有电力系统总体规划进行比较。 鉴于全球太阳能和风能成本的下降，建模可以证明清洁路径是否能够以可比或甚至更低的长期成本满足需求。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "规范建模，使用如 OSeMOSYS 这样的工具，可以支持识别扩展可再生能源的最低成本路径。 这些模型特别适用于坦桑尼亚，该国的太阳能和风能潜力很高，但投资决策必须围绕有限的资源和基础设施限制进行优化。 OSeMOSYS 使规划者能够在各种预算和排放限制内评估不同的技术选项、存储配置和电网集成策略。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "描述性建模可以提供一种结构化的方法来评估历史能源消耗趋势和建立基线系统性能。 鉴于坦桑尼亚对水电和天然气的依赖，以及其电力获取的不均衡分布，描述性模型可以帮助量化能源的使用地点和方式，并识别仍然存在的差距。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "在农村地区，微电网和离网模型可以指导太阳能-电池混合系统的部署。 这些模型有助于根据太阳辐射、距离主电网的距离和社区需求模式等因素，识别最具成本效益的技术和地点，以到达偏远社区。 像 Ensol 这样的公司已经通过去中心化电气化项目（联合国开发计划署）证明了这种方法的可行性。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_Intro_4.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>政策对齐与制度演变</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "如果持续应用，建模工具可以支持更连贯的政策设计和制度改革。 例如，模型输出可以为关税重组提供信息，确保定价反映系统的实际成本并鼓励私营部门参与。 <br /><br />目前在坦桑尼亚有限的能源拍卖，可以通过模型驱动的需求预测和系统成本估算来指导。 建模还可以支持微电网和离网项目的规模扩大，确保补贴和激励措施得到良好的定位并与国家电气化目标保持一致。<br /><br />能源建模还可以塑造创新的接入策略，包括电气化交通走廊和太阳能出行。 在多多马等试点地区，数据驱动的规划可以帮助在全国范围内扩大此类干预措施。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "根据终端用户的需求定制解决方案——例如，部署太阳能用于照明、疫苗冷藏或食品加工"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "优先投资于太阳能光伏等技术，这些技术已经在偏远地区的电气化中占据主导地位，并且非常适合坦桑尼亚的地理环境。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "在最大限度减少成本和环境影响的同时扩大电力供应。"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>通过系统地整合到规划流程中，能源建模可以帮助坦桑尼亚实现以下目标：</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "通过扩大其使用建模工具以针对干预措施，坦桑尼亚还可以改善公平，确保农村和服务不足地区优先获得基础设施和融资支持。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>参考资料</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Okika, O., Lubega, W., Kasaija, C., & Nakimuli, A. (2025). <a href=\"https://www.sciencedirect.com/science/article/pii/S2211467X24003390%20researchgate.net\"><u>坦桑尼亚的清洁能源转型：可持续发展的建模</u></a>.<br /><br />政策论坛。 (2023). <a href=\"https://www.policyforum-tz.org/sites/default/files/2023-05/DARUBINI_Tanzania%20and%20the%20Energy%20Transition_compressed.pdf%20policyforum-tz.org\"><u>坦桑尼亚与能源转型：关键反思与机遇</u></a>.<br /><br />联合国开发计划署。 (n.d.). <a href=\"https://sdgprivatefinance.undp.org/leveraging-capital/sdg-investor-platform/business-case-studies/ensol-meets-demand-reliable-an\"><u>Ensol 满足坦桑尼亚对可靠且负担得起的电力的需求</u></a>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_5.png",
+          "caption": ""
+        },
+        "intro": "M7：可持续能源数据",
+        "title": "C：数据价值链与能源建模：协同作用与相互依赖"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "数据价值链过程是为能源建模过程提供高质量数据的关键杠杆。 其强大的数据生命周期实现了有针对性的数据收集、管理和治理，确保为相关利益相关者提供高质量的洞察并使其可访问。 能源建模的有效性取决于其接收数据的质量和完整性，这对于制定有针对性的策略和动员资源至关重要。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "能源建模依赖于异构数据集，例如天气模式、能源消耗、能源生成水平、分散式能源系统资产性能、能源基础设施、土地和资源利用，以及社会经济和地缘政治指标。 这些数据集被汇总用于构建和校准能源模型。 这些数据集的完整性和质量取决于整个价值链中数据管理和治理策略的有效性，从而增强模型的可靠性和做出更明智的决策。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_6215.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_8.png",
+              "caption": ""
+            },
+            "title": "能源建模是战略能源系统转型的基石。",
+            "description": "通过模拟各种场景——从政策影响到可再生能源整合——能源模型提供关键见解，以优化资源配置、增强电网稳定性和实现脱碳目标。 这些工具使政策制定者能够应对复杂的权衡，并设计适应性策略以实现可持续的能源转型。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_7.png",
+              "caption": ""
+            },
+            "title": "数据价值链与能源建模之间的协同推动了精确性和可靠性。",
+            "description": "高质量的异构数据集——如天气模式、能源消耗和社会经济指标——对于构建和校准准确的能源模型至关重要。 强大的数据管理和治理确保模型提供可操作的洞察，支持明智的决策和有效的资源动员。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_8.png",
+              "caption": ""
+            },
+            "title": "数据可视化是获取可操作能源洞察的战略工具。",
+            "description": "有效的数据可视化将复杂的能源数据转化为清晰、可操作的叙述，增强决策和利益相关者的沟通。 通过遵循设计和故事讲述的最佳实践，能源专业人员可以创建<em>突出关键趋势</em>的可视化，例如<em>能源消耗模式</em>或<em>基础设施性能</em>，确保<em>数据驱动的策略</em>既易于访问又具有影响力。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_7/resource-7321.png",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "基准场景比较：清洁能源转型的关键指标",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_7/resource-7322.png",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "非洲的能源规划和建模支持",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_7/resource-7323.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "全球能源与气候模型",
+            "cta": "点击下载"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.png",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第3章 结尾",
+        "cta": "继续学习",
+        "nextLessonId": "7.3.-1"
+      }
+    }
+  ]
+}

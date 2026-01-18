@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceptos clave",
+        "intro": "Explora las ideas fundamentales de esta lección.",
+        "concepts": [
+          {
+            "title": "contribuciones determinadas a nivel nacional",
+            "body": "Las Contribuciones Nacionales Determinadas (NDCs) son los planes de acción climática que los países presentan para definir sus compromisos de reducir las emisiones de gases de efecto invernadero y adaptarse al cambio climático, como parte del Acuerdo de París.",
+            "source": ""
+          },
+          {
+            "title": "energía sostenible & energía renovable",
+            "body": "La energía sostenible se refiere a fuentes de energía que son respetuosas con el medio ambiente y que se pueden mantener a largo plazo sin agotar los recursos ni dañar el ecosistema. La energía renovable es un subconjunto de la energía sostenible que proviene de procesos naturales que se reponen continuamente, como <strong>la energía solar</strong>, <strong>eólica</strong> y <strong>hidroeléctrica</strong>.",
+            "source": ""
+          },
+          {
+            "title": "transición energética justa",
+            "body": "Una transición energética justa se refiere al cambio de los combustibles fósiles a las fuentes de energía renovables de una manera justa y equitativa, asegurando que todas las comunidades, especialmente aquellas históricamente marginadas, se beneficien de la transición y no queden atrás.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -213,16 +238,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#0468b1",
+            "#4c9f38",
+            "#19486a",
             "#fd6925",
             "#fcc30b",
-            "#c5192d",
-            "#dd1367",
-            "#19486a",
-            "#4c9f38",
-            "#0a97d9",
             "#3f7e44",
-            "#0468b1",
-            "#fd9d24"
+            "#0a97d9",
+            "#fd9d24",
+            "#c5192d",
+            "#dd1367"
           ],
           "xAxis": {
             "axisLine": {
@@ -553,47 +578,7 @@
                 "36.8"
               ]
             }
-          ],
-          "title": {
-            "text": "Emisiones globales de CO2 por la combustión de energía y procesos industriales y su cambio anual, 1900-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -719,7 +704,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Mientras que la dependencia de los combustibles fósiles expone a los países a vulnerabilidades sistémicas, el aumento de la demanda global de energía añade otra capa de presión. [needs translation] Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Share details about energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />Este <strong aumento está impulsado por una combinación de factores: crecimiento de la población, urbanización rápida, expansión industrial y la creciente electrificación de todo, desde el transporte hasta la cocina y los servicios digitales. <br /></strong><br />Esta demanda creciente es un signo de progreso en el desarrollo, pero también corre el riesgo de profundizar la dependencia mundial de los sistemas energéticos fósiles volátiles, a menos que el cambio a alternativas limpias, confiables y descentralizadas mantenga el ritmo. Sin una respuesta estratégica, un mayor uso de energía podría encerrar a los países en rutas inseguras y con alto contenido de carbono, socavando tanto los objetivos de acceso a la energía como las ambiciones climáticas. <br /><br /><strong><em>Para una inmersión más profunda en el futuro de la energía y cómo diferentes escenarios moldean las proyecciones de demanda, consulte el Módulo 8.</em></strong></br></br> </strong>"
+              "text": "Mientras que la dependencia de los combustibles fósiles expone a los países a vulnerabilidades sistémicas, el aumento de la demanda global de energía añade otra capa de presión. [needs translation] Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />Este <strong aumento está impulsado por una combinación de factores: crecimiento de la población, urbanización rápida, expansión industrial y la creciente electrificación de todo, desde el transporte hasta la cocina y los servicios digitales. <br /></strong><br />Esta demanda creciente es un signo de progreso en el desarrollo, pero también corre el riesgo de profundizar la dependencia mundial de los sistemas energéticos fósiles volátiles, a menos que el cambio a alternativas limpias, confiables y descentralizadas mantenga el ritmo. Sin una respuesta estratégica, un mayor uso de energía podría encerrar a los países en rutas inseguras y con alto contenido de carbono, socavando tanto los objetivos de acceso a la energía como las ambiciones climáticas. <br /><br /><strong><em>Para una inmersión más profunda en el futuro de la energía y cómo diferentes escenarios moldean las proyecciones de demanda, consulte el Módulo 8.</em></strong></br></br> </strong>"
             }
           }
         ]
@@ -767,16 +752,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#3f7e44",
-            "#dd1367",
-            "#4c9f38",
-            "#fd9d24",
-            "#0468b1",
-            "#0a97d9",
-            "#c5192d",
             "#19486a",
-            "#fd6925"
+            "#dd1367",
+            "#0a97d9",
+            "#fcc30b",
+            "#fd6925",
+            "#fd9d24",
+            "#c5192d",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -976,44 +961,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Demanda mundial de energía",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -1048,6 +996,42 @@
             },
             "title": "Con los combustibles fósiles dominando el sistema energético ineficiente y impulsando el cambio climático, una transición a las energías renovables y una mayor eficiencia energética es fundamental. A medida que aumenta la demanda mundial de energía, esta transformación será clave para garantizar la seguridad, la equidad y la sostenibilidad.",
             "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos clave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Perspectivas mundiales de la energía 2024",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Perspectiva Global de la Energía 2024",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.png",
+              "caption": ""
+            },
+            "href": "McKinsey & Company",
+            "text": "Perspectivas de la Transición Energética Mundial 2024",
+            "cta": "Haz clic para descargar"
           }
         ]
       }

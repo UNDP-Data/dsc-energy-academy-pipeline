@@ -39,6 +39,44 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "المفاهيم الأساسية",
+        "intro": "استكشف الأفكار الأساسية من هذا الدرس.",
+        "concepts": [
+          {
+            "title": "معادن حاسمة",
+            "body": "المعادن الحرجة هي موارد طبيعية ضرورية لإنتاج الأجهزة عالية التقنية وتقنيات الطاقة المتجددة وتطبيقات متقدمة أخرى، وهي معرضة لخطر انقطاع الإمداد.",
+            "source": ""
+          },
+          {
+            "title": "ممارسات الاستخراج المسؤولة",
+            "body": "تشير ممارسات الاستخراج المسؤولة إلى طرق الحصول على الموارد الطبيعية التي تعطي الأولوية للاستدامة البيئية والعدالة الاجتماعية والجدوى الاقتصادية، مع ضمان الحد الأدنى من الضرر للنظم البيئية والمجتمعات.",
+            "source": ""
+          },
+          {
+            "title": "سلاسل التوريد المستدامة",
+            "body": "تشير سلاسل التوريد المستدامة إلى إدارة تدفق السلع والخدمات بطريقة تقلل من التأثير البيئي، وتعزز المسؤولية الاجتماعية، وتضمن الجدوى الاقتصادية طوال دورة حياة المنتج.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-horizontal",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/722_145.webp",
+          "caption": ""
+        },
+        "title": null,
+        "description": null,
+        "caption": null
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -163,16 +201,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#4c9f38",
-            "#dd1367",
             "#0468b1",
             "#fcc30b",
-            "#fd9d24",
             "#19486a",
-            "#fd6925",
+            "#0a97d9",
             "#3f7e44",
-            "#c5192d",
-            "#0a97d9"
+            "#4c9f38",
+            "#fd6925",
+            "#fd9d24",
+            "#dd1367",
+            "#c5192d"
           ],
           "xAxis": {
             "axisLine": {
@@ -361,47 +399,7 @@
                 1.0946907498631973
               ]
             }
-          ],
-          "title": {
-            "text": "المعادن الحرجة المستخدمة في تقنيات الطاقة النظيفة المختارة",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -439,33 +437,15 @@
       "size": "full",
       "content": {
         "option": {
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#fcc30b",
-            "#0468b1",
-            "#fd6925",
-            "#c5192d",
-            "#3f7e44",
-            "#19486a",
-            "#fd9d24",
-            "#dd1367",
-            "#4c9f38",
-            "#0a97d9"
-          ],
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
             "fontSize": 14,
             "fontWeight": "normal",
             "color": "#DDDDDD"
           },
-          "tooltip": {
-            "trigger": "axis",
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#888888"
-            }
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#AAAAAA"
           },
           "legend": {
             "textStyle": {
@@ -482,23 +462,69 @@
               "fontSize": 14
             }
           },
-          "grid": {
-            "left": 70,
-            "right": 40,
-            "bottom": 90,
-            "top": 200,
-            "containLabel": true
+          "tooltip": {
+            "textStyle": {
+              "fontSize": 14,
+              "color": "#FFFFFF"
+            },
+            "backgroundColor": "rgba(30, 30, 30, 0.85)",
+            "borderColor": "#555555",
+            "formatter": null
           },
+          "backgroundColor": "rgba(28, 29, 24, 1)",
+          "color": [
+            "#3f7e44",
+            "#0468b1",
+            "#0a97d9",
+            "#dd1367",
+            "#4c9f38",
+            "#fd9d24",
+            "#19486a",
+            "#c5192d",
+            "#fd6925",
+            "#fcc30b"
+          ],
           "xAxis": {
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dashed",
+                "color": "#444444",
+                "opacity": 0.7
+              }
+            },
+            "axisLabel": {
+              "color": "#AAAAAA",
+              "fontSize": 14,
+              "interval": 0
+            },
+            "nameTextStyle": {
+              "color": "#CCCCCC",
+              "fontSize": 14
+            },
             "type": "category",
             "data": [
               "2024",
               "2030",
               "2040"
             ],
+            "name": "Year"
+          },
+          "yAxis": {
             "axisLine": {
+              "show": true,
               "lineStyle": {
-                "color": "#888888"
+                "color": "#888888",
+                "type": "solid",
+                "width": 1
               }
             },
             "splitLine": {
@@ -516,123 +542,57 @@
             "nameTextStyle": {
               "color": "#CCCCCC",
               "fontSize": 14
+            },
+            "type": "value",
+            "name": "Mt"
+          },
+          "label": {
+            "overflow": "truncate",
+            "ellipsis": "..."
+          },
+          "hoverLayerThreshold": 3000,
+          "tooltipTrigger": "axis",
+          "emphasis": {
+            "itemStyle": {
+              "borderWidth": 1,
+              "borderColor": "#FFFFFF"
             }
           },
-          "yAxis": {
-            "name": "Mt",
-            "type": "value",
-            "min": 0,
-            "max": 45,
-            "interval": 10,
-            "axisLine": {
-              "lineStyle": {
-                "color": "#888888",
-                "style": "solid"
-              }
-            },
-            "splitLine": {
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
+          "accessibility": {
+            "contrastRatioMin": 4.5,
+            "colorBlindSafe": true
           },
           "series": [
             {
-              "name": "Energy technologies",
+              "name": "Total use",
               "type": "bar",
-              "stack": "total",
-              "barWidth": "30%",
               "data": [
-                7.699680511,
-                10.89456869,
-                12.1086262
-              ]
-            },
-            {
-              "name": "Other uses",
-              "type": "bar",
-              "stack": "total",
-              "barWidth": "30%",
-              "data": [
-                19.04153355,
-                20.3514377,
-                21.98083067
+                26.7412140575079,
+                31.2460063897763,
+                34.0894568690095
               ]
             },
             {
               "name": "APS",
-              "type": "scatter",
-              "symbolSize": 10,
+              "type": "bar",
               "data": [
-                [
-                  1,
-                  32.58785942
-                ],
-                [
-                  2,
-                  36.74121406
-                ]
+                null,
+                "32.5878594249201",
+                "36.7412140575079"
               ]
             },
             {
               "name": "NZE",
-              "type": "scatter",
-              "symbolSize": 10,
+              "type": "bar",
               "data": [
-                [
-                  1,
-                  34.40894569
-                ],
-                [
-                  2,
-                  39.52076677
-                ]
+                null,
+                "34.4089456869009",
+                "39.520766773163"
               ]
             }
           ],
-          "title": {
-            "text": "الطلب على المواد الرئيسية وحصة الطاقة النظيفة في الطلب الإجمالي",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+          "grid": {
+            "bottom": 80
           }
         }
       }
@@ -1069,6 +1029,42 @@
             },
             "title": "التعاون الدولي كمحفز لاستخدام الموارد بشكل عادل.",
             "description": "التعاون الدولي ضروري لفتح الإمكانات الكاملة للمعادن الحرجة. من خلال تسهيل نقل التكنولوجيا، ومكافحة التدفقات المالية غير المشروعة، وتحسين الوصول إلى السوق، يمكن للشراكات العالمية دعم البلدان النامية في استغلال مواردها المعدنية لتحقيق نمو اقتصادي مستدام مع تقليل المخاطر البيئية والاجتماعية. هذه المقاربة التعاونية هي المفتاح لضمان توزيع فوائد الانتقال الطاقي بشكل عادل."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "الموارد الرئيسية",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3311.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "المواد الحرجة للطاقة المتجددة: تحسين حوكمة البيانات",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3312.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "إيجاد أرضية مشتركة من أجل انتقال عادل للطاقة: وجهات نظر النقابات وأصحاب العمل",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3313.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "نظرة عامة عالمية على المعادن الحرجة 2024",
+            "cta": "انقر للتنزيل"
           }
         ]
       }

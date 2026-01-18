@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceptos clave",
+        "intro": "Explora las ideas fundamentales de esta lección.",
+        "concepts": [
+          {
+            "title": "bioenergía",
+            "body": "La bioenergía es energía derivada de materiales orgánicos, como plantas y desechos animales, que pueden convertirse en combustibles o electricidad.",
+            "source": ""
+          },
+          {
+            "title": "almacenamiento de energía",
+            "body": "El almacenamiento de energía se refiere a la captura y retención de energía para su uso en un momento posterior, permitiendo el equilibrio entre la oferta y la demanda en los sistemas energéticos.",
+            "source": ""
+          },
+          {
+            "title": "hidrógeno para el desarrollo",
+            "body": "El hidrógeno para el desarrollo se refiere al uso del hidrógeno como fuente de energía limpia para apoyar el crecimiento económico, mejorar la seguridad energética y promover el desarrollo sostenible, particularmente en los países en desarrollo.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -177,15 +202,15 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0a97d9",
+            "#3f7e44",
+            "#fd9d24",
+            "#c5192d",
+            "#19486a",
             "#fd6925",
             "#4c9f38",
-            "#3f7e44",
             "#fcc30b",
-            "#c5192d",
+            "#0a97d9",
             "#0468b1",
-            "#19486a",
-            "#fd9d24",
             "#dd1367"
           ],
           "xAxis": {
@@ -290,44 +315,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Costo Promedio Ponderado de Capital para la Energía Eólica en Tierra y la Energía Solar Fotovoltaica, por Nivel de Ingreso del País, 2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -943,6 +931,42 @@
             },
             "title": "Los enfoques estratégicos son esenciales para escalar la energía renovable.",
             "description": "Los incentivos políticos, la financiación innovadora (por ejemplo, financiamiento combinado y préstamos concesionales), el desarrollo de infraestructura (modernización de la red y almacenamiento de energía), la capacitación y la participación comunitaria son estrategias clave para ampliar la implementación de energías renovables, garantizar un acceso equitativo y apoyar una transición energética justa."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos clave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6221.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Energías renovables 2024",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6222.png",
+              "caption": ""
+            },
+            "href": "Intergovernmental Panel on Climate Change",
+            "text": "Cambio climático 2022: Mitigación del cambio climático",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6223.png",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "Apoyo a la acción climática 2024",
+            "cta": "Haz clic para descargar"
           }
         ]
       }

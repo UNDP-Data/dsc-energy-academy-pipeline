@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Concepts clés",
+        "intro": "Explorez les idées fondamentales de cette leçon.",
+        "concepts": [
+          {
+            "title": "accessibilité à l'énergie",
+            "body": "L'accessibilité à l'énergie fait référence à la capacité des individus ou des ménages à payer l'énergie dont ils ont besoin sans compromettre leurs normes de vie fondamentales ou leur stabilité financière.",
+            "source": ""
+          },
+          {
+            "title": "stratégies de réduction des risques financiers",
+            "body": "Les stratégies de dé-risque financier sont des méthodes utilisées par les organisations pour réduire les risques financiers associés aux investissements ou aux projets, souvent en diversifiant les sources de financement, en sécurisant une assurance ou en mettant en œuvre des pratiques de gestion des risques.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -177,7 +197,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "L'écart entre les zones urbaines et rurales dans toutes les régions s'est réduit.<br /> <br />Cependant, en <strong>Afrique subsaharienne</strong>, cet écart augmente fortement, avec seulement 7 pour cent des ménages ruraux ayant accès à une cuisson propre, contre 42 % dans les zones urbaines. <br /><br />En <strong>Amérique et dans les Caraïbes</strong>, 35 % de la population rurale n'a pas accès à une cuisine propre, soit environ deux fois le taux urbain.<br /><br /><br />Les deux graphiques suivants montrent deux messages différents et complémentaires : la part de la population mondiale ayant accès à une cuisine propre augmente plus rapidement dans les zones rurales que dans les zones urbaines, mais reste plus élevée en zone urbaine. De plus, bien que l'accès à la cuisson propre varie selon les régions, les taux d'accès à la cuisson propre restent généralement inférieurs aux taux d'accès à l'électricité."
+              "text": "L'écart entre les zones urbaines et rurales dans toutes les régions s'est réduit.<br /> <br />Cependant, en <strong>Afrique subsaharienne</strong>, cet écart augmente fortement, avec seulement 7 pour cent des ménages ruraux ayant accès à une cuisson propre, contre 42 % dans les zones urbaines. <br /><br />En <strong>Amérique et dans les Caraïbes</strong>, 35 % de la population rurale n'a pas accès à une cuisine propre, soit environ deux fois le taux urbain.<br /><br /><br />Les deux graphiques suivants montrent deux messages différents et complémentaires : la part de la population mondiale ayant accès à une cuisine propre augmente plus rapidement dans les zones rurales que dans les zones urbaines, mais reste plus élevée en zone urbaine. De plus, alors que l'accès à une cuisson propre varie selon les régions, les taux d'accès à une cuisson propre sont souvent inférieurs aux taux d'accès à l'électricité."
             }
           }
         ]
@@ -225,16 +245,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#19486a",
             "#0468b1",
-            "#4c9f38",
+            "#fd9d24",
             "#c5192d",
             "#fd6925",
-            "#3f7e44",
-            "#0a97d9",
             "#dd1367",
-            "#fd9d24"
+            "#19486a",
+            "#0a97d9",
+            "#fcc30b",
+            "#4c9f38",
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -348,47 +368,7 @@
                 54
               ]
             }
-          ],
-          "title": {
-            "text": "Population ayant accès à des combustibles et technologies propres pour la cuisson par région de l'ODD (pourcentage)",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -414,18 +394,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3727_793.webp",
-          "caption": ""
-        },
-        "intro": "M2 : Accès à l'énergie et services énergétiques inclusifs",
-        "title": "Étude de cas : Sierra Leone"
       }
     },
     {
@@ -622,15 +590,15 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fd6925",
-            "#0a97d9",
             "#dd1367",
-            "#fcc30b",
-            "#c5192d",
+            "#3f7e44",
             "#0468b1",
             "#fd9d24",
+            "#fd6925",
+            "#0a97d9",
             "#19486a",
-            "#3f7e44",
+            "#fcc30b",
+            "#c5192d",
             "#4c9f38"
           ],
           "xAxis": {
@@ -790,47 +758,7 @@
                 0.91
               ]
             }
-          ],
-          "title": {
-            "text": "Part de tous les décès attribués à des températures suboptimales",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -917,16 +845,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0468b1",
-            "#fd6925",
             "#3f7e44",
-            "#fd9d24",
-            "#dd1367",
-            "#19486a",
-            "#c5192d",
-            "#0a97d9",
             "#fcc30b",
-            "#4c9f38"
+            "#4c9f38",
+            "#fd9d24",
+            "#19486a",
+            "#0468b1",
+            "#0a97d9",
+            "#c5192d",
+            "#dd1367",
+            "#fd6925"
           ],
           "xAxis": {
             "axisLine": {
@@ -1070,44 +998,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Part de la population vivant dans un climat chaud, 2022, et pénétration des climatiseurs, 2000-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -1307,6 +1198,42 @@
             },
             "title": "Les solutions doivent aller au-delà de la technologie pour inclure la finance, la politique et l'inclusion.",
             "description": "Comme le montre la Sierra Leone et à travers des initiatives mondiales comme Chilling Prospects, le succès dépend non seulement de l'innovation mais aussi de la propriété locale, du financement ciblé et des politiques de soutien. Aborder ces domaines négligés de l'accès à l'énergie est essentiel pour atteindre l'ODD 7 et garantir que personne ne soit laissé pour compte."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ressources clés",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2231.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Géopolitique de la transition énergétique. Sécurité énergétique, 2024",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2232.png",
+              "caption": ""
+            },
+            "href": "McKinsey & Company",
+            "text": "Planification de la grille sous incertitude : Investir pour la transition énergétique, 2023",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2233.png",
+              "caption": ""
+            },
+            "href": "GSG",
+            "text": "Habitations informelles : Ne sont plus invisibles : Le rôle de l'impact dans la mobilisation de capitaux à grande échelle pour financer les programmes de rénovation des quartiers défavorisés dans le monde, 2022",
+            "cta": "Cliquez pour télécharger"
           }
         ]
       }

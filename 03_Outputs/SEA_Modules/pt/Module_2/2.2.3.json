@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceitos-chave",
+        "intro": "Explore ideias fundamentais desta lição.",
+        "concepts": [
+          {
+            "title": "acessibilidade à energia",
+            "body": "A acessibilidade à energia refere-se à capacidade de indivíduos ou famílias de pagar pela energia de que precisam sem comprometer seus padrões de vida básicos ou estabilidade financeira.",
+            "source": ""
+          },
+          {
+            "title": "estratégias de redução de riscos financeiros",
+            "body": "As estratégias de desrisco financeiro são métodos utilizados por organizações para reduzir os riscos financeiros associados a investimentos ou projetos, muitas vezes diversificando as fontes de financiamento, garantindo seguros ou implementando práticas de gestão de riscos.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -177,7 +197,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "A disparidade entre áreas urbanas e rurais em todas as regiões tem diminuído.<br /> <br />No entanto, na <strong>África Subsaariana</strong>, essa disparidade está aumentando acentuadamente, com apenas 7 por cento das famílias rurais tendo acesso a uma cozinha limpa, em comparação com 42% nas áreas urbanas. <br /><br />Na <strong>América e Caribe</strong>, 35% da população rural não tem acesso a cozinhas limpas, aproximadamente o dobro da taxa urbana.<br /><br /><br />Os dois gráficos seguintes mostram duas mensagens diferentes e complementares: a parcela da população mundial com acesso a cozinhas limpas está crescendo mais rapidamente nas áreas rurais do que nas urbanas, mas permanece maior nas áreas urbanas. Além disso, embora o acesso à cozinha limpa varie entre regiões, as taxas de acesso à cozinha limpa geralmente ficam atrás das taxas de acesso à eletricidade."
+              "text": "A disparidade entre áreas urbanas e rurais em todas as regiões tem diminuído.<br /> <br />No entanto, na <strong>África Subsaariana</strong>, essa disparidade está aumentando acentuadamente, com apenas 7 por cento das famílias rurais tendo acesso a uma cozinha limpa, em comparação com 42% nas áreas urbanas. <br /><br />Na <strong>América e Caribe</strong>, 35% da população rural não tem acesso a cozinhas limpas, aproximadamente o dobro da taxa urbana.<br /><br /><br />Os dois gráficos seguintes mostram duas mensagens diferentes e complementares: a parcela da população mundial com acesso a cozinhas limpas está crescendo mais rapidamente nas áreas rurais do que nas urbanas, mas permanece maior nas áreas urbanas. Além disso, embora o acesso a cozinhar de forma limpa varie entre regiões, as taxas de acesso a cozinhar de forma limpa geralmente ficam atrás das taxas de acesso à eletricidade."
             }
           }
         ]
@@ -225,16 +245,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#19486a",
             "#0468b1",
-            "#4c9f38",
+            "#fd9d24",
             "#c5192d",
             "#fd6925",
-            "#3f7e44",
-            "#0a97d9",
             "#dd1367",
-            "#fd9d24"
+            "#19486a",
+            "#0a97d9",
+            "#fcc30b",
+            "#4c9f38",
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -348,47 +368,7 @@
                 54
               ]
             }
-          ],
-          "title": {
-            "text": "População com acesso a combustíveis e tecnologias limpas para cozinhar por região do ODS (percentual)",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -414,18 +394,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3727_793.webp",
-          "caption": ""
-        },
-        "intro": "M2: Acesso à Energia e Serviços Energéticos Inclusivos",
-        "title": "Estudo de Caso: Serra Leoa"
       }
     },
     {
@@ -622,15 +590,15 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fd6925",
-            "#0a97d9",
             "#dd1367",
-            "#fcc30b",
-            "#c5192d",
+            "#3f7e44",
             "#0468b1",
             "#fd9d24",
+            "#fd6925",
+            "#0a97d9",
             "#19486a",
-            "#3f7e44",
+            "#fcc30b",
+            "#c5192d",
             "#4c9f38"
           ],
           "xAxis": {
@@ -790,47 +758,7 @@
                 0.91
               ]
             }
-          ],
-          "title": {
-            "text": "Participação de todas as mortes atribuídas a temperaturas subótimas",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -917,16 +845,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0468b1",
-            "#fd6925",
             "#3f7e44",
-            "#fd9d24",
-            "#dd1367",
-            "#19486a",
-            "#c5192d",
-            "#0a97d9",
             "#fcc30b",
-            "#4c9f38"
+            "#4c9f38",
+            "#fd9d24",
+            "#19486a",
+            "#0468b1",
+            "#0a97d9",
+            "#c5192d",
+            "#dd1367",
+            "#fd6925"
           ],
           "xAxis": {
             "axisLine": {
@@ -1070,44 +998,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Proporção da população vivendo em clima quente, 2022, e penetração de ar-condicionado, 2000-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -1307,6 +1198,42 @@
             },
             "title": "As soluções devem ir além da tecnologia para incluir finanças, políticas e inclusão.",
             "description": "Como mostrado em Serra Leoa e através de iniciativas globais como Chilling Prospects, o sucesso depende não apenas da inovação, mas também da propriedade local, do financiamento direcionado e de políticas de apoio. Abordar essas áreas negligenciadas do acesso à energia é fundamental para alcançar o ODS 7 e garantir que ninguém seja deixado para trás."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos-chave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2231.png",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Geopolítica da Transição Energética. Segurança energética, 2024",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2232.png",
+              "caption": ""
+            },
+            "href": "McKinsey & Company",
+            "text": "Planejamento de rede sob incerteza: Investindo na transição energética, 2023",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2233.png",
+              "caption": ""
+            },
+            "href": "GSG",
+            "text": "Assentamentos informais: Não mais invisíveis: O papel do impacto na escala de captação de recursos para financiar programas de melhoria de favelas globalmente, 2022",
+            "cta": "Clique para baixar"
           }
         ]
       }

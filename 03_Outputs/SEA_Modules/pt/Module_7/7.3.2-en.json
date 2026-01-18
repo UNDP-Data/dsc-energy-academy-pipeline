@@ -1,0 +1,834 @@
+{
+  "id": "7.3.2",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_13.png",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "Lição",
+          "number": "2"
+        },
+        "title": "Ferramentas e aplicações de modelagem de energia",
+        "cta": "",
+        "intro": "M7: Dados em Energia Sustentável"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>A modelagem de energia serve a vários propósitos em diferentes setores e indústrias:</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Análise e Desenvolvimento de Políticas</strong>",
+              "body": "Ao simular diferentes cenários de políticas energéticas, os formuladores de políticas podem avaliar os impactos potenciais e tomar decisões informadas sobre os objetivos, o design e a implementação da política."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Planejamento e Otimização do Sistema de Energia</strong>",
+              "body": "Modelos de energia ajudam a otimizar a combinação de fontes e tecnologias energéticas, planejar a demanda de energia futura — incluindo o desenvolvimento de infraestrutura energética adequada, como redes de energia —, analisar riscos de segurança energética e garantir a confiabilidade e estabilidade do fornecimento de energia."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Análise de Investimento e Econômica</strong>",
+              "body": "Estes modelos fornecem insights sobre os custos e benefícios de diferentes iniciativas, tecnologias e medidas de eficiência, apoiando uma tomada de decisão econômica sólida."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Avaliação de Impacto Ambiental:</strong>",
+              "body": "A simulação de vários cenários energéticos ajuda a avaliar as reduções de emissões e outros benefícios ambientais, apoiando assim a sustentabilidade ambiental."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceitos-chave",
+        "intro": "Explore ideias fundamentais desta lição.",
+        "concepts": [
+          {
+            "title": "análise de estabilidade da rede",
+            "body": "A análise de estabilidade da rede é a avaliação da capacidade de uma rede elétrica de manter níveis consistentes de tensão e frequência durante a operação normal e após perturbações, garantindo um fornecimento de energia confiável.",
+            "source": ""
+          },
+          {
+            "title": "integração de energia renovável",
+            "body": "O processo de incorporação de fontes de energia renovável, como solar ou eólica, no sistema de energia existente para garantir um fornecimento de energia confiável e eficiente.",
+            "source": ""
+          },
+          {
+            "title": "planejamento de cenários",
+            "body": "O planejamento de cenários é um método de planejamento estratégico usado para fazer planos de longo prazo flexíveis, imaginando e analisando diferentes cenários futuros com base em suposições e incertezas variadas.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Avaliação de novas e emergentes tecnologias:</strong>",
+              "body": "A modelagem de energia permite às partes interessadas avaliar as contribuições potenciais das tecnologias energéticas inovadoras para a combinação geral de energia e entender suas implicações para a sustentabilidade."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Gerenciamento de recursos:</strong>",
+              "body": "Auxilia na avaliação do uso sustentável dos recursos naturais, incluindo fontes renováveis e não renováveis."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Mitigação das mudanças climáticas:</strong>",
+              "body": "A modelagem de energia é fundamental para desenvolver estratégias para mitigar as mudanças climáticas, fornecendo uma compreensão abrangente das complexidades do sistema de energia."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "No geral, a modelagem de energia é indispensável para a tomada de decisões informadas, <br />sustentabilidade, e garantir o uso eficiente dos recursos energéticos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_6083.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Um <strong>sistema de energia</strong> abrange uma rede interconectada de produção, conversão, transmissão, distribuição, armazenamento e consumo de energia, compreendendo componentes físicos e processos essenciais para fornecer serviços de energia aos usuários finais. Dentro deste sistema, as fontes de energia renovável (FER) desempenham um papel fundamental, oferecendo opções de energia sustentável como solar, eólica, hidroelétrica, geotérmica e <ai prompt=\"Compartilhar detalhes sobre biomassa.\">biomassa 💬️</ai>. Em contraste, os combustíveis fósseis, como carvão, petróleo e gás natural, constituem fontes de energia não renováveis derivadas de matéria orgânica antiga. Da mesma forma, a energia nuclear é atualmente produzida a partir de urânio e plutônio, e todos os combustíveis nucleares são recursos finitos. <br /><br />A<strong> matriz energética </strong>refere-se à combinação de diferentes fontes de energia usadas para atender à demanda de energia em uma região ou país específico. No entanto, preocupações sobre as emissões de gases de efeito estufa (GEE) levam à adoção de medidas, como impostos sobre o carbono, destinadas a reduzir as emissões de GEE e incentivar fontes de energia mais limpas. Alcançar emissões líquidas zero, ou seja, equilibrar os GHGs emitidos e removidos, é um objetivo importante. <br /><br />O <strong>fator de capacidade, </strong>definido como a produção real de energia de uma unidade de geração de energia (por exemplo, uma turbina eólica ou uma usina solar) em relação à energia máxima produzida se a unidade tivesse operado em plena capacidade pelo mesmo período de tempo. O fator de capacidade é uma medida de eficiência operacional. </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Análise de cenários</strong> avalia as possíveis rotas de energia simulando diferentes condições, políticas e desenvolvimentos tecnológicos.<br /><br /><strong>Técnicas de otimização</strong>, que empregam métodos matemáticos para operar sistemas de energia de forma eficiente, consideram múltiplos objetivos e restrições. <br /><br /><strong><ai prompt=\"Explain decentralized energy systems.\">sistemas de energia descentralizados 💬️</ai> </strong> envolvem geração próxima ao ponto de uso, muitas vezes com energias renováveis de menor escala, como painéis solares em telhados. <br /><br /><strong>Expansão de capacidade</strong> envolve planejar e investir em novos recursos de geração de energia para atender à demanda futura e substituir infraestruturas antigas. <br /><br /><strong>Redução</strong> é reduzir a produção de energia renovável devido ao excesso de oferta ou limitações na rede."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A modernização, descentralização e <ai prompt=\"Tell me more about decarbonization.\">descarbonização 💬️</ai> dos esforços para a transformação do setor de energia dependem fortemente de insights baseados em dados e evidências que impulsionam iniciativas contínuas para o desenvolvimento de energia sustentável. Um motor-chave para essa transformação é a interação sinérgica da cadeia de valor dos dados, inteligência artificial e modelagem de energia para suporte à decisão otimizado de partes interessadas e do sistema. Dados cruciais são coletados de várias aplicações de energia e, por meio de análise de dados, incorporados com inteligência acionável que informa estratégias para o cenário de energia sustentável em evolução. Isso ainda capacita formuladores de políticas, governos e organizações de apoio com insights informados e inteligentes que levam a estratégias colaborativas eficazes para criar ambientes favoráveis à adoção de energia sustentável. Essa funcionalidade depende da acessibilidade a dados de alta qualidade para intervenções de modelagem de energia direcionadas que informam estratégias de desenvolvimento de energia, impulsionam a inovação e monitoram o progresso do desenvolvimento."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_11.png",
+          "caption": ""
+        },
+        "intro": "M7: Dados em Energia Sustentável",
+        "title": "A: Tipos de Modelos de Energia"
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_7.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Modelos descritivos </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Modelos de energia descritivos são usados para representar e analisar o estado atual e as tendências históricas dos sistemas de energia. Estes modelos fornecem uma compreensão detalhada e abrangente de como os sistemas de energia evoluíram ao longo do tempo e como eles operam atualmente. Ao contrário dos modelos preditivos ou de otimização, os modelos descritivos concentram-se em descrever com precisão as condições existentes, em vez de prever cenários futuros ou otimizar a alocação de recursos. Modelos descritivos dependem fortemente de dados empíricos para refletir o desempenho e as características reais dos sistemas de energia. Eles usam dados históricos sobre produção de energia, consumo, preços e outros parâmetros relevantes. Eles são usados para avaliar o desempenho atual, identificar tendências e entender a dinâmica histórica dos sistemas de energia. LEAP é um modelo descritivo amplamente utilizado para a análise de políticas energéticas e avaliação de mitigação das mudanças climáticas. É um modelo flexível e orientado a dados que pode representar sistemas de energia em vários níveis de detalhe, utilizado por governos, ONGs e instituições de pesquisa para entender os sistemas de energia atuais e avaliar os impactos de diferentes políticas energéticas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_14.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Modelos prescritivos</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Modelos de energia prescritivos são projetados para fornecer recomendações e diretrizes específicas para alcançar os resultados desejados nos sistemas de energia. Estes modelos frequentemente envolvem técnicas de otimização para identificar as melhores estratégias de alocação de recursos, implantação de tecnologia e implementação de políticas. O objetivo é prescrever ações que levem a uma maior eficiência, redução de emissões e maior sustentabilidade dos sistemas de energia. Estes modelos usam técnicas de otimização matemática para determinar as melhores soluções possíveis sob restrições dadas. Isso envolve minimizar ou maximizar uma função objetivo, como custo, emissões ou uso de energia. OSeMOSYS é um exemplo típico e tem sido usado para prescrever caminhos de transição energética para diferentes países, por exemplo, Quênia."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_7.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Modelos preditivos</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Modelos de energia preditivos são projetados para prever a demanda, oferta e comportamento do sistema de energia futuros com base em várias suposições e dados de entrada. Estes modelos usam dados históricos e técnicas estatísticas para prever como os sistemas de energia evoluirão sob diferentes cenários. O objetivo principal dos modelos preditivos é informar o planejamento e a tomada de decisão fornecendo insights sobre os possíveis estados futuros do sistema de energia. Modelos preditivos usam métodos estatísticos e algoritmos para estimar a demanda de energia futura, oferta, preços e outros parâmetros relevantes. Estes modelos avaliam diferentes cenários para entender como as mudanças em variáveis como crescimento econômico, população, adoção de tecnologia e medidas políticas afetarão os sistemas de energia futuros. EnergyPLAN é uma ferramenta para análise avançada de sistemas de energia que inclui a capacidade de simular e prever a demanda e oferta de energia futuras sob vários cenários, sendo principalmente usada para o planejamento energético nacional e regional, incluindo a integração de fontes de energia renovável. Modelos de energia preditivos são ferramentas essenciais para antecipar a dinâmica futura do sistema de energia. Ao fornecer insights sobre possíveis estados futuros e identificar riscos e oportunidades, esses modelos apoiam a tomada de decisão informada e o planejamento estratégico no setor de energia."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_15.png",
+          "caption": ""
+        },
+        "intro": "M7: Dados em Energia Sustentável",
+        "title": "B: Aplicações de Modelagem de Energia"
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_14.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A análise de cenários é uma aplicação poderosa da modelagem de energia que permite aos formuladores de políticas e planejadores explorar futuros alternativos e avaliar os impactos potenciais de diferentes decisões políticas, desenvolvimentos tecnológicos e fatores externos no sistema de energia. Ao desenvolver e analisar múltiplos cenários, os tomadores de decisão podem entender melhor as incertezas e os trade-offs envolvidos no planejamento energético e tomar decisões informadas para alcançar os resultados desejados. Os formuladores de políticas usam modelos de energia para desenvolver cenários que representam diferentes opções de políticas e estruturas regulatórias, como precificação de carbono, metas de energia renovável e <ai prompt=\"Explicar eficiência energética.\">padrões de eficiência energética 💬️</ai>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Modelos de energia são usados para explorar cenários que refletem a adoção e implantação de tecnologias específicas, como fontes de energia renovável, <ai prompt=\"Compartilhe detalhes sobre armazenamento de energia.\">armazenamento de energia 💬️</ai> sistemas, veículos elétricos, hidrogênio de baixas emissões e redes inteligentes. Os formuladores de políticas usam análise de cenários para avaliar os impactos potenciais das políticas e regulamentações propostas no fornecimento de energia, demanda, preços, emissões e indicadores econômicos. A análise de cenários para política e planejamento fornece aos tomadores de decisão insights valiosos sobre os impactos potenciais e os trade-offs associados a diferentes estratégias de energia e opções de política. Ao considerar uma variedade de cenários futuros plausíveis, os formuladores de políticas podem desenvolver políticas energéticas robustas e adaptáveis que promovam sustentabilidade, resiliência e prosperidade econômica.<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_13.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Previsão de carga e gestão de demanda</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A previsão de carga e a gestão da demanda são componentes essenciais da modelagem de energia que ajudam as concessionárias, operadores de rede e planejadores de energia a antecipar a demanda futura de eletricidade e otimizar a operação do sistema de energia. Modelos de energia são usados para analisar padrões históricos de consumo, tendências demográficas, dados meteorológicos e indicadores econômicos para desenvolver previsões precisas de carga de eletricidade e implementar estratégias de gestão da demanda. A previsão de carga de curto prazo envolve prever a demanda de eletricidade em horas, dias ou semanas à frente. Modelos de energia usam técnicas estatísticas, análise de séries temporais e algoritmos de aprendizado de máquina para analisar dados históricos de carga e incorporar fatores como condições climáticas, dia da semana e feriados. <br /> <br /><strong><br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>As estratégias de gestão de demanda visam reduzir a demanda máxima de eletricidade implementando medidas como programas de resposta à demanda, tarifas por horário de uso e incentivos à eficiência energética.</strong> Modelos de energia ajudam a avaliar a eficácia dessas estratégias e a otimizar sua implementação para minimizar custos e melhorar a estabilidade da rede (Wang et al., 2019).<br /></strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_15.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Integração de fontes de energia renovável</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A modelagem de energia desempenha um papel crucial na integração de fontes de energia renovável (RES) na rede elétrica e na garantia da estabilidade da rede em meio a uma variabilidade e incerteza crescentes. Ao simular diferentes cenários e avaliar os impactos da implantação de energia renovável, os modelos de energia ajudam os formuladores de políticas, operadores de rede e concessionárias a projetar sistemas de energia resilientes e eficientes que incorporam uma maior participação de geração intermitente, geralmente proveniente de fontes renováveis. Modelos de energia auxiliam no planejamento da combinação e capacidade ideais de tecnologias de energia renovável (por exemplo, painéis solares fotovoltaicos, turbinas eólicas) para atender à demanda futura de eletricidade, considerando fatores como disponibilidade de recursos, custos de tecnologia e restrições da rede. Modelos analisam a distribuição espacial dos recursos renováveis e sua variabilidade temporal para identificar locais adequados para projetos de energia renovável e otimizar sua operação e integração na rede. Os modelos de energia avaliam a compatibilidade dos projetos de energia renovável com a infraestrutura de rede existente e avaliam a necessidade de atualizações, reforços e medidas de flexibilidade para acomodar uma geração variável e intermitente."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Estabilidade da Rede: Regulação de Frequência e Tensão</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Modelos simulam o comportamento dinâmico das fontes de energia renovável e seu impacto na estabilidade da frequência da rede. Eles analisam a eficácia dos mecanismos de regulação de frequência, como o controle automático de geração e o armazenamento de energia em escala de rede, para manter a estabilidade da rede. Esses modelos estão classificados como modelos de sistemas de energia e também são usados para avaliar o impacto da integração de energia renovável nos perfis de tensão da rede e para avaliar a necessidade de compensação de potência reativa, dispositivos de regulação de tensão e medidas de reforço da rede para garantir a estabilidade e confiabilidade da tensão. A integração de energia renovável e a estabilidade da rede são essenciais para a transição para um futuro energético sustentável. A modelagem de energia fornece insights e ferramentas valiosos para formuladores de políticas e partes interessadas otimizarem a implantação de energia renovável, aprimorarem a estabilidade da rede e garantirem um fornecimento de eletricidade confiável e resiliente."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_2.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "O segundo cenário visava alcançar acesso universal até 2030 e reduzir as emissões a zero até 2050, usando a abordagem de modelagem de expansão de geração de menor custo. Este cenário incorporou aspectos ambientais, econômicos e sociais, visando alcançar o <strong>Objetivo de Desenvolvimento Sustentável (ODS) 7</strong>. No entanto, os resultados revelaram que o investimento necessário para atingir esses objetivos é enorme, tornando os fundos públicos sozinhos insuficientes para construir um sistema de energia sustentável dessa magnitude. O estudo destacou que investidores privados e agências de desenvolvimento são cruciais para o desenvolvimento de energia limpa. Também identificou barreiras ao acesso universal à eletricidade e aos setores de eletricidade de baixo carbono que podem dificultar esses dois atores no desenvolvimento de energia limpa.<br />Para incentivar o investimento na indústria de energia limpa, o estudo recomenda que o governo crie um ambiente favorável permitindo que as forças do mercado determinem os preços da eletricidade, promovendo o desenvolvimento de instituições fortes e independentes, e usando sistemas de leilão para investimentos no setor de energia renovável.<br />As ferramentas usadas no estudo tornam-no replicável, mas o desafio está em entender o tipo de dados solicitados às partes interessadas envolvidas e como foram implementados."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "case_study_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_17.png",
+          "caption": ""
+        },
+        "intro": "Região Africana",
+        "title": "Estudo de caso: Tanzânia",
+        "subtitle": "Modelagem energética estratégica para a Transição Limpa da Tanzânia: Aproveitando o LEAP &amp; OSeMOSYS para alcançar 75% de renováveis até 2030, capacidade de 60 GW e eletrificação rural universal"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "O sistema de energia da Tanzânia historicamente depende de energia hidrelétrica e gás natural, representando 36% e 57%, respectivamente, de sua capacidade instalada, em 2019 <a href=\"https://www.sciencedirect.com/science/article/pii/S2211467X24003390\"><u>(Okika et al, p. 7).</u></a> No entanto, essa dependência provou ser inadequada para atender à crescente demanda industrial, às lacunas na eletrificação rural e aos desafios ambientais. [needs translation] Tanzania is among the fastest-growing countries in Sub-Saharan Africa in terms of electricity access, with the World Bank reporting a 37.7% increase in overall access—across both rural and urban areas—between 2011 and 2020 <a href=\"https://www.policyforum-tz.org/news/2023-05-30/darubini-tanzania-and-energy-transition-potential-progress-and-challenges\"><u>(Policy Forum, 2023).</u></a> In response, Tanzania set progressive energy targets-aiming for 53% renewable electricity by 2020, 75% by 2030, and complete decarbonization by 2050, with projected installed capacity exceeding 60 GW by mid-century <a href=\"https://www.sciencedirect.com/science/article/pii/S2211467X24003390\"><u>(Okika et al., 2025).<br /></u></a><br />To achieve these goals, robust <ai prompt=\"Tell me more about energy modeling.\">energy modeling 💬️</ai> has emerged as a foundational planning tool. Tanzânia tem uma história de uso de ferramentas como o Planejamento de Alternativas de Energia de Longo Prazo (LEAP) através de vários esforços institucionais e apoiados por doadores. Com o aumento da demanda de energia em setores como cimento, aço e bebidas—indústrias que atualmente dependem de combustíveis importados caros—uma modelagem estratégica ampliada pode ajudar a traçar um caminho para reduzir custos, melhorar a confiabilidade do sistema e atingir metas socioeconômicas e climáticas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_5.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>O papel da modelagem de energia na superação de barreiras sistêmicas</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A modelagem de energia pode ser fundamental para superar as principais barreiras estruturais à transição energética da Tanzânia e propor caminhos de mitigação viáveis. Entre essas barreiras estão:"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Há uma falta de conectividade à rede, com 37 milhões de pessoas ainda sem eletricidade em 2019 e acesso rural limitado a 19%."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "As tarifas de feed-in não refletidas no custo comprometem a viabilidade financeira da empresa estatal Tanzania Electric Supply Company Limited (TANESCO)."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Um grande atraso de aldeias não eletrificadas, com mais de 37.000, deve ser conectado até 2030."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Modelos de energia podem fornecer uma estrutura organizada para entender esses desafios, priorizar investimentos em infraestrutura e projetar caminhos tecnológicos econômicos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_17.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Papel estratégico da modelagem de energia na transição da Tanzânia</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A política de energia da Tanzânia pode continuar a beneficiar-se da modelagem de energia expandindo para aproveitar uma combinação de abordagens de modelagem de energia descritivas, prescritivas e baseadas em cenários para traçar um caminho em direção a um futuro de energia limpa. Por exemplo:"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "A modelagem baseada em cenários, como através do sistema LEAP, permite que os formuladores de políticas avaliem várias trajetórias de desenvolvimento de energia e suas implicações. No caso da Tanzânia, isso pode incluir comparar um cenário de energia limpa com o Plano Diretor do Sistema de Energia existente, que ainda prioriza os combustíveis fósseis. Dado a redução dos custos globais de energia solar e eólica, a modelagem pode demonstrar se um caminho limpo pode atender à demanda a custos de longo prazo comparáveis ou até menores."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "A modelagem prescritiva, usando ferramentas como OSeMOSYS, pode apoiar a identificação de caminhos de menor custo para ampliar a energia renovável. Esses modelos são especialmente adequados para a Tanzânia, onde o potencial de energia solar e eólica é alto, mas as decisões de investimento devem ser otimizadas considerando recursos limitados e restrições de infraestrutura. OSeMOSYS permite aos planejadores avaliar diferentes opções tecnológicas, configurações de armazenamento e estratégias de integração à rede dentro de várias restrições de orçamento e emissões."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "A modelagem descritiva pode fornecer uma abordagem estruturada para avaliar as tendências históricas de consumo de energia e estabelecer o desempenho de referência do sistema. Dada a dependência da Tanzânia de energia hidrelétrica e gás, bem como sua distribuição desigual de acesso à eletricidade, modelos descritivos podem ajudar a quantificar onde e como a energia é consumida e identificar lacunas que permanecem."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Em áreas rurais, modelos de microrredes e fora da rede podem orientar a implantação de híbridos solares-bateria. Estes modelos ajudam a identificar as tecnologias e locais mais econômicos para alcançar comunidades remotas com base em fatores como irradiância solar, distância da rede principal e padrões de demanda da comunidade. Empresas como a Ensol já demonstraram a viabilidade de tais abordagens por meio de projetos de eletrificação descentralizada (UNDP)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_Intro_4.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Alinhamento de Políticas e Evolução Institucional</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Se aplicada de forma consistente, as ferramentas de modelagem podem apoiar um design de políticas mais coerente e reformas institucionais. Por exemplo, as saídas do modelo podem informar a reestruturação tarifária, garantindo que os preços reflitam os custos reais do sistema e incentivem a participação do setor privado. <br /><br />Os leilões de energia, atualmente limitados na Tanzânia, podem ser orientados por previsões de demanda baseadas em modelos e estimativas de custos do sistema. A modelagem também pode fundamentar a expansão de programas de mini-redes e off-grid, garantindo que subsídios e incentivos sejam bem direcionados e alinhados com as metas de eletrificação nacional.<br /><br />A modelagem de energia também pode moldar estratégias inovadoras de acesso, incluindo corredores de transporte eletrificado e mobilidade solar. Em áreas piloto como Dodoma, o planejamento baseado em dados pode ajudar a ampliar tais intervenções nacionalmente."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Personalize soluções às necessidades do usuário final — por exemplo, implantar energia solar para iluminação, refrigeração de vacinas ou processamento de alimentos"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Priorize investimentos em tecnologias como a energia solar fotovoltaica, que já dominam a eletrificação fora da rede e são adequadas para a geografia da Tanzânia."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "Expandir o acesso à eletricidade enquanto minimiza custos e impacto ambiental."
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Através de uma integração sistemática nos processos de planejamento, a modelagem de energia pode ajudar a Tanzânia a alcançar o seguinte:</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Ao expandir o uso de suas ferramentas de modelagem para direcionar intervenções, a Tanzânia também pode melhorar a equidade, garantindo que as regiões rurais e carentes sejam priorizadas para suporte de infraestrutura e financiamento."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Referências</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Okika, O., Lubega, W., Kasaija, C., & Nakimuli, A. (2025). <a href=\"https://www.sciencedirect.com/science/article/pii/S2211467X24003390%20researchgate.net\"><u>Transição para energia limpa na Tanzânia: modelagem para o desenvolvimento sustentável</u></a>.<br /><br />Fórum de Políticas. (2023). <a href=\"https://www.policyforum-tz.org/sites/default/files/2023-05/DARUBINI_Tanzania%20and%20the%20Energy%20Transition_compressed.pdf%20policyforum-tz.org\"><u>Tanzânia e a transição energética: reflexões críticas e oportunidades</u></a>.<br /><br />Programa das Nações Unidas para o Desenvolvimento. (n.d.). <a href=\"https://sdgprivatefinance.undp.org/leveraging-capital/sdg-investor-platform/business-case-studies/ensol-meets-demand-reliable-an\"><u>Ensol atende à demanda de eletricidade confiável e acessível na Tanzânia</u></a>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_5.png",
+          "caption": ""
+        },
+        "intro": "M7: Dados em Energia Sustentável",
+        "title": "C: Cadeia de valor de dados e modelagem de energia: sinergias e interdependências"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "O processo da cadeia de valor dos dados é uma alavanca crítica para fornecer dados de qualidade para os processos de modelagem de energia. Seu ciclo de vida de dados robusto permite a coleta, gestão e governança de dados direcionadas, garantindo que insights de qualidade sejam derivados e acessíveis às partes interessadas relevantes. A eficácia da modelagem de energia é determinada pela qualidade e integridade dos dados que recebe, o que é crucial para o desenvolvimento de estratégias direcionadas e a mobilização de recursos."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A modelagem de energia baseia-se em conjuntos de dados heterogêneos, como padrões climáticos, consumo de energia, níveis de geração de energia, desempenho de ativos de sistemas de energia descentralizados, infraestrutura energética, utilização de terras e recursos, e indicadores socioeconômicos e geopolíticos. Esses conjuntos de dados são agregados para construir e calibrar modelos de energia. A integridade e a qualidade desses conjuntos de dados dependem da eficácia das estratégias de gestão e governança de dados ao longo de toda a cadeia de valor, contribuindo para a confiabilidade do modelo e decisões mais informadas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_6215.webp",
+          "caption": null,
+          "url": null
+        }
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Principais destaques",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_8.png",
+              "caption": ""
+            },
+            "title": "A modelagem de energia é uma pedra angular para a transformação estratégica do sistema de energia.",
+            "description": "Ao simular cenários diversos—desde impactos de políticas até a integração de energia renovável—os modelos de energia fornecem insights críticos para otimizar a alocação de recursos, melhorar a estabilidade da rede e alcançar metas de descarbonização. Essas ferramentas permitem que os formuladores de políticas naveguem por compromissos complexos e projetem estratégias adaptativas para transições energéticas sustentáveis."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_7.png",
+              "caption": ""
+            },
+            "title": "A sinergia entre a cadeia de valor dos dados e a modelagem de energia impulsiona a precisão e a confiabilidade.",
+            "description": "Conjuntos de dados heterogêneos de alta qualidade — como padrões climáticos, consumo de energia e indicadores socioeconômicos — são essenciais para construir e calibrar modelos de energia precisos. Uma gestão e governança de dados robustas garantem que os modelos forneçam insights acionáveis, apoiando a tomada de decisões informadas e a mobilização eficaz de recursos."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_8.png",
+              "caption": ""
+            },
+            "title": "A visualização de dados é uma ferramenta estratégica para insights acionáveis de energia.",
+            "description": "A visualização eficaz de dados transforma dados energéticos complexos em narrativas claras e acionáveis, aprimorando a tomada de decisões e a comunicação com as partes interessadas. Ao seguir as melhores práticas em design e narrativa, os profissionais de energia podem criar visualizações que destacam <strong>as principais tendências</strong>, como <em>padrões de consumo de energia</em> ou <em>desempenho da infraestrutura</em>, garantindo que <u>estratégias orientadas por dados</u> sejam acessíveis e impactantes."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos-chave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_7/resource-7321.png",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "Comparações de Cenários de Referência: Indicadores-chave para a Transição de Energia Limpa",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_7/resource-7322.png",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "Apoio ao planejamento e modelagem de energia na África",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_7/resource-7323.png",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Modelo global de energia e clima",
+            "cta": "Clique para baixar"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.png",
+          "caption": ""
+        },
+        "intro": "Próximo",
+        "title": "Capítulo 3 Outro",
+        "cta": "Continue aprendendo",
+        "nextLessonId": "7.3.-1"
+      }
+    }
+  ]
+}

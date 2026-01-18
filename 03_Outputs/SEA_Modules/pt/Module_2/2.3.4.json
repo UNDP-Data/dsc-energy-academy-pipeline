@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceitos-chave",
+        "intro": "Explore ideias fundamentais desta lição.",
+        "concepts": [
+          {
+            "title": "subsídios de energia",
+            "body": "Apoio financeiro do governo para promover a produção ou consumo de energia, muitas vezes destinado a reduzir custos para os consumidores ou a incentivar o uso de fontes de energia renováveis.",
+            "source": ""
+          },
+          {
+            "title": "subsídios aos combustíveis fósseis",
+            "body": "Subsídios aos combustíveis fósseis são apoios financeiros e incentivos fornecidos pelos governos à indústria de combustíveis fósseis, que podem incluir isenções fiscais, subsídios e controles de preços, com o objetivo de reduzir o custo de combustíveis fósseis como carvão, petróleo e gás natural.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -247,6 +267,17 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "dark",
+      "size": "full",
+      "content": {
+        "content": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Videos/src/image 419.webm",
+          "poster": "https://sehseadata.blob.core.windows.net/images/Videos/poster/image 419.webp"
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -254,7 +285,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "[needs translation] For instance, in <strong>Bangladesh,</strong> the government proposed eliminating import duties and value-added tax (VAT) on renewable energy components as part of its draft Renewable Energy Policy 2025 to facilitate wider adoption of clean technologies <a href=\"https://ieefa.org/sites/default/files/2025-02/IEEFA%27s%20Comments%20on%20Bangladesh%27s%20Draft%20Renewable%20Energy%20Policy%202025.pdf\"><u>(IEEFA</u></a>., 2025).<br /> <br />In <strong>Kenya</strong>, the government has provided import duty and VAT exemptions for solar and <ai prompt=\"Share details about wind energy.\">wind energy 💬️</ai> systems since 1998, with solar components benefiting from a preferential 5% import duty. <a href=\"https://gogla.org/sector-news/kenya-government-reinstates-vat-exemption-on-renewable-energy-products/\"><u>GOGLA</u></a>., 2021) <br /><br />Quando implementadas de forma eficaz e combinadas com políticas fiscais e energéticas mais amplas, as isenções de tarifas de importação podem ajudar a desbloquear os mercados de energia renovável e impulsionar o acesso a uma energia limpa e moderna."
+              "text": "[needs translation] For instance, in <strong>Bangladesh,</strong> the government proposed eliminating import duties and value-added tax (VAT) on renewable energy components as part of its draft Renewable Energy Policy 2025 to facilitate wider adoption of clean technologies <a href=\"https://ieefa.org/sites/default/files/2025-02/IEEFA%27s%20Comments%20on%20Bangladesh%27s%20Draft%20Renewable%20Energy%20Policy%202025.pdf\"><u>(IEEFA</u></a>., 2025).<br /> <br />In <strong>Kenya</strong>, the government has provided import duty and VAT exemptions for solar and <ai prompt=\"Tell me more about wind energy.\">wind energy 💬️</ai> systems since 1998, with solar components benefiting from a preferential 5% import duty. <a href=\"https://gogla.org/sector-news/kenya-government-reinstates-vat-exemption-on-renewable-energy-products/\"><u>GOGLA</u></a>., 2021) <br /><br />Quando implementadas de forma eficaz e combinadas com políticas fiscais e energéticas mais amplas, as isenções de tarifas de importação podem ajudar a desbloquear os mercados de energia renovável e impulsionar o acesso a uma energia limpa e moderna."
             }
           },
           {
@@ -264,18 +295,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "lesson_subpart_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/519_2601.webp",
-          "caption": ""
-        },
-        "intro": "M2: Acesso à Energia e Serviços Energéticos Inclusivos",
-        "title": "Estudo de caso : Brasil"
       }
     },
     {
@@ -404,6 +423,42 @@
             },
             "title": "Exemplos de soluções para o acesso à energia, como as redes de segurança energética do Brasil (<strong>Luz para todos</strong>, <strong>Tarifa Social</strong> e <strong>Bolsa Família</strong>), não apenas estendem o acesso a serviços essenciais, mas também contribuem para a agenda global mais ampla de desenvolvimento sustentável.",
             "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos-chave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2341.png",
+              "caption": ""
+            },
+            "href": "World Bank",
+            "text": "Acompanhamento do ODS7 com a estrutura de múltiplos níveis que mede o acesso à energia",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2342.png",
+              "caption": ""
+            },
+            "href": "World Bank, ESMAP",
+            "text": "Indicadores regulatórios para Energia Sustentável: Um Quadro de Avaliação Global para os Formuladores de Políticas",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2343.png",
+              "caption": ""
+            },
+            "href": "World Bank Group",
+            "text": "Desenvolvimento de Subsídios Responsáveis para o Usuário Final para o Acesso à Energia: Um Kit de Ferramentas com Estudos de Caso para o Design de Subsídios em Energia Solar Off-Grid e Cozinha Limpa",
+            "cta": "Clique para baixar"
           }
         ]
       }
