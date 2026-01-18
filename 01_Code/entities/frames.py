@@ -11,7 +11,7 @@ This file defines only the frame classes specified in raw_frame_class_map:
   - PhotoVertical
   - PhotoHorizontal
   - PhotoFullHeight
-  - VideoFullHeight
+  - Video
   - ModuleText
   - LessonSubpartCover
   - LessonPartCover
@@ -26,6 +26,8 @@ This file defines only the frame classes specified in raw_frame_class_map:
   - ChapterCover
   - Chart
   - Infographic
+  - Embed
+  - Poll
 """
 
 from typing import Literal, List, Union, Dict
@@ -47,7 +49,7 @@ __all__ = [
     "PhotoVertical",
     "PhotoHorizontal",
     "PhotoFullHeight",
-    "VideoFullHeight",
+    "Video",
     "ModuleText",
     "LessonSubpartCover",
     "LessonPartCover",
@@ -60,7 +62,9 @@ __all__ = [
     "ImageHotspot",
     "ChapterCover",
     "Chart",
-    "Infographic"
+    "Infographic",
+    "Embed",
+    "Poll"
 ]
 
 
@@ -112,6 +116,7 @@ def safe_get_characters(node: Node, field: str, template_id: str, default: str =
     suppress_warning = (
         (template_id == "photo-vertical" and field == "caption")
         or field == "cta"  # globally suppress cta warnings
+        or template_id == "photo-horizontal"
     )
 
     if selected is None:
@@ -405,6 +410,45 @@ class ListOfLessons(FrameBase):
             template_id=node.name,
             title=safe_get_characters(node, "title", node.name),
             lessons=[LessonThumbnail.from_node(child) for child in node.select_nodes("GROUP", "lessons")],
+        )
+
+# --- Embed Frame ---
+class Embed(FrameBase):
+    size: Literal["full", "half"]
+    title: str
+    url: str
+
+    @classmethod
+    def from_node(cls, node: Node) -> "Embed":
+        assert node.name.strip().lower() == "embed", f"Expected embed node, got {node.name}"
+
+        # Size logic (consistent with other visual blocks)
+        width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
+        size: Literal["full", "half"] = "full" if width >= 1000 else "half"
+
+        # Title: ONLY from TEXT node named "title"
+        title = ""
+        for child in node.children or []:
+            if child.type == "TEXT" and child.name.strip().lower() == "title":
+                title = (child.characters or "").strip()
+                break
+
+        # URL: name of the image element (RECTANGLE with IMAGE fill)
+        url = ""
+        for child in node.children or []:
+            if child.type == "RECTANGLE":
+                url = (child.name or "").strip()
+                break
+
+        if not url:
+            raise ValueError("Embed frame missing URL: expected image element name to contain URL")
+
+        return cls(
+            template_id="embed",
+            color_scheme="light",
+            size=size,
+            title=title,
+            url=url,
         )
 
 
@@ -753,14 +797,70 @@ class Chart(FrameBase):
             size=size,
             option=option
         )
-                
-class VideoFullHeight(FrameBase):
+
+
+# --- Poll Frame ---
+class Poll(FrameBase):
+    pollId: str
+    title: str
+    description: str
+    options: List[dict]
+    labels: dict
+
+    @classmethod
+    def from_node(cls, node: Node) -> "Poll":
+        assert node.name.strip().lower() == "poll", f"Expected poll node, got {node.name}"
+
+        # Stable poll ID from figma node id
+        poll_id = (
+            f"poll-{node.id.replace(':', '-').replace('/', '-')}"
+            if getattr(node, "id", None)
+            else "poll"
+        )
+
+        # Title: GROUP "subtitle" -> TEXT "text"
+        subtitle = node.select_node("GROUP", "subtitle")
+        title = safe_get_characters(subtitle, "text", "poll") if subtitle else ""
+
+        # Description / question: GROUP "paragraph_medium" -> TEXT "text"
+        paragraph = node.select_node("GROUP", "paragraph_medium")
+        description = safe_get_characters(paragraph, "text", "poll") if paragraph else ""
+
+        # Options: repeated GROUP "answer_box"
+        # Prefer TEXT "body", fallback to TEXT "title"
+        values: List[str] = []
+        for opt in node.select_nodes("GROUP", "answer_box") or []:
+            v = safe_get_characters(opt, "body", "poll").strip()
+            if not v:
+                v = safe_get_characters(opt, "title", "poll").strip()
+            if v:
+                values.append(v)
+
+        options = [{"id": i + 1, "value": v} for i, v in enumerate(values)]
+
+        return cls(
+            template_id="poll",
+            color_scheme="light",
+            pollId=poll_id,
+            title=title,
+            description=description,
+            options=options,
+            labels={
+                "submit": "Submit",
+                "cancel": "Cancel",
+                "edit": "Edit your response",
+                "votingAs": "Voting as",
+            },
+        )
+
+       
+class Video(FrameBase):
     size: Literal["full"] = "full"
     content: dict
 
     @classmethod
-    def from_node(cls, node: Node) -> "VideoFullHeight":
-        assert node.name == "video-full-height", f"Expected video-full-height node, got {node.name}"
+    def from_node(cls, node: Node) -> "Video":
+        assert node.name == "video", f"Expected video node, got {node.name}"
 
         # Find the first RECTANGLE with an IMAGE fill
         image_node = None
@@ -776,15 +876,15 @@ class VideoFullHeight(FrameBase):
                     break
 
         if not image_node:
-            raise ValueError("No valid image rectangle with IMAGE fill found in video-full-height")
+            raise ValueError("No valid image rectangle with IMAGE fill found in video")
 
         # Use the image name as the base filename
         video_name = image_node.name.strip()
 
         base_url = "https://sehseadata.blob.core.windows.net/images/Videos"
-        src_url = f"{base_url}/src/{video_name}.webm"
-        poster_url = f"{base_url}/poster/{video_name}.webp"
-
+        src_url = base_url+"/src/"+video_name+".mp4"
+        poster_url = base_url+"/poster/"+video_name+".png"
+        
         return cls(
             template_id="video",
             color_scheme="light",
@@ -855,7 +955,6 @@ class ModuleOutro(FrameBase):
     @classmethod
     def from_node(cls, node: Node) -> "ModuleOutro":
         assert node.name == "module_outro", f"Expected module_outro node, got {node.name}"
-
         title_node = node.select_node("GROUP", "title")
         first_line = safe_get_characters(title_node, "first_line", title_node.name).strip()
 
