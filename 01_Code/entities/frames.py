@@ -853,10 +853,11 @@ class Poll(FrameBase):
             },
         )
 
-       
 class Video(FrameBase):
+
     size: Literal["full"] = "full"
-    content: dict
+    src: str
+    poster: str
 
     @classmethod
     def from_node(cls, node: Node) -> "Video":
@@ -878,23 +879,20 @@ class Video(FrameBase):
         if not image_node:
             raise ValueError("No valid image rectangle with IMAGE fill found in video")
 
-        # Use the image name as the base filename
+        # Use the image node name as the video base filename
         video_name = image_node.name.strip()
 
         base_url = "https://sehseadata.blob.core.windows.net/images/Videos"
-        src_url = base_url+"/src/"+video_name+".mp4"
-        poster_url = base_url+"/poster/"+video_name+".png"
-        
+        src_url = f"{base_url}/src/{video_name}.mp4"
+        poster_url = f"{base_url}/poster/{video_name}.png"
+
         return cls(
             template_id="video",
             color_scheme="light",
             size="full",
-            content={
-                "src": src_url,
-                "poster": poster_url
-            }
+            src=src_url,
+            poster=poster_url
         )
-
 
 class PhotoFullHeight(FrameBase):
     image: dict
