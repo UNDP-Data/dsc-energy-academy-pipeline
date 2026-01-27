@@ -38,6 +38,8 @@ from typing import ClassVar
 from .components import Card, Concept, Intro, LessonThumbnail, NextBlock
 from .node import Node
 import requests
+import re as _re
+import pandas as _pd
 
 __all__ = [
     "LessonCover",
@@ -705,8 +707,76 @@ class Infographic(FrameBase):
 
 
 
+
+# --- Chart Frame ---
+# Chart metadata (title/subtitle/description/footnote) should come from the Charts Tracker workbook,
+# loaded ONCE by the pipeline and injected via set_chart_metadata_map(...).
+
+CHART_METADATA_MAP: dict = {}
+
+
+def set_chart_metadata_map(metadata_map: dict) -> None:
+    """Inject a pre-loaded {figure_id: {title,subtitle,description,footnote}} map."""
+    global CHART_METADATA_MAP
+    CHART_METADATA_MAP = metadata_map or {}
+
+
+def load_chart_metadata_from_tracker_xlsx(xlsx_path: str) -> dict:
+    """
+    Loads chart metadata from Charts Tracker.xlsx.
+    Returns: {Figure ID -> {title, subtitle, description, footnote}}
+    Notes:
+      - Subtitle is not present in the current tracker; defaults to "".
+      - Description is mapped from 'Notes' when present; defaults to "".
+      - Footnote is mapped from 'Footnote' when present; defaults to "".
+    """
+
+    xl = _pd.ExcelFile(xlsx_path)
+    module_sheets = [s for s in xl.sheet_names if _re.fullmatch(r"Module\d+", str(s) or "")]
+
+    def _load_module_sheet(sheet_name: str) -> _pd.DataFrame | None:
+        raw = _pd.read_excel(xlsx_path, sheet_name=sheet_name, header=None)
+        header_row = None
+        for i, row in raw.iterrows():
+            if (row.astype(str).str.strip() == "Figure ID").any():
+                header_row = i
+                break
+        if header_row is None:
+            return None
+        headers = raw.iloc[header_row].tolist()
+        df = raw.iloc[header_row + 1 :].copy()
+        df.columns = headers
+        return df
+
+    meta: dict = {}
+    for sheet in module_sheets:
+        df = _load_module_sheet(sheet)
+        if df is None or df.empty:
+            continue
+
+        for _, row in df.iterrows():
+            fig = str(row.get("Figure ID", "") or "").strip()
+            if not fig or fig.lower() == "nan":
+                continue
+
+            title = str(row.get("Title", "") or "").strip()
+            footnote = str(row.get("Footnote", "") or "").strip()
+            notes = str(row.get("Notes", "") or "").strip()
+
+            ##adjust this once the tracker matches
+            meta[fig] = {
+                "title": title,
+                "subtitle": "",
+                "description": notes,
+                "footnote": footnote,
+            }
+
+    return meta
+
+
 class Chart(FrameBase):
     size: Literal["full", "half"]
+    metadata: dict
     option: dict
 
     @classmethod
@@ -714,89 +784,135 @@ class Chart(FrameBase):
         assert node.name == "chart", f"Expected chart node, got {node.name}"
 
         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
-        size = "full" if width >= 1000 else "half"
+        size: Literal["full", "half"] = "full" if width >= 1000 else "half"
 
-        # --- Extract children ---
-        image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
-        group_node = next((child for child in node.children if child.name == "Light Template"), None)
+        # Use the chart image rectangle's *name* as the Figure ID (e.g., M1_C1_2)
+        image_node = next((child for child in (node.children or []) if getattr(child, "type", "") == "RECTANGLE"), None)
+        if not image_node:
+            raise ValueError("Chart must contain a RECTANGLE node (used to hold the Figure ID)")
 
-        if not image_node or not group_node:
-            raise ValueError("Chart must contain an image node and a 'Light Template' group")
+        chart_id = (getattr(image_node, "name", "") or "").strip()
+        if not chart_id:
+            raise ValueError("Chart RECTANGLE missing name (expected Figure ID, e.g., M1_C1_2)")
 
-        # --- Extract Title, Summary, Source from Light Template group ---
-        text_map = {child.name: child.characters.strip() for child in group_node.children if child.type == "TEXT"}
-        title_text = text_map.get("Title", "")
-        summary_text = text_map.get("Summary", "")
-        source_text = text_map.get("Source", "")
-
-        # --- Load ECharts config by image name ---
-        chart_id = image_node.name
-        print(chart_id)
-        chart_path = Path("../03_Outputs/charts/Auto Charts/DarkMode") / f"{chart_id}.json" ##add handling of light/dark modes
+        chart_path = Path("../03_Outputs/charts/Auto Charts/DarkMode") / f"{chart_id}.json"
         if not chart_path.exists():
-            print(chart_id, "missing")
-
             raise ValueError(f"Chart JSON not found for: {chart_id}")
-
 
         with open(chart_path, "r", encoding="utf-8") as f:
             option = json.load(f)
 
-        
-        ###test content to insert style materials
-        # # --- Inject title and subtext ---
-        # option["title"] = {
-        #     "text": title_text,
-        #     "subtext": "",#source_text,
-        #     "left": "center",
-        #     "top": 20,
-        #     "textStyle": {
-        #         "color": "#ffffff",
-        #         "fontSize": 22,
-        #         "fontWeight": "bold",
-        #         "fontFamily": "Proxima Nova, sans-serif"
-        #     },
-        #     "subtextStyle": {
-        #         "color": "#666666",
-        #         "fontSize": 14,
-        #         "fontFamily": "Proxima Nova, sans-serif"
-        #     }
-        # }
-
-        # # --- Ensure grid spacing ---
-        # option["grid"] = option.get("grid", {})
-        # option["grid"].update({
-        #     "top": 200,
-        #     "bottom": 90,
-        #     "left": 70,
-        #     "right": 40
-        # })
-
-        # # --- Add summary as graphic block between subtext and chart ---
-        # option["graphic"] = {
-        #     "elements": [
-        #         {
-        #             "type": "text",
-        #             "left": "center",
-        #             "top": 80,
-        #             "style": {
-        #                 "text": "",#summary_text,
-        #                 "fill": "#444444",
-        #                 "font": "15px Proxima Nova, sans-serif",
-        #                 "width": 600,
-        #                 "lineHeight": 22,
-        #                 "align": "center"
-        #             }
-        #         }
-        #     ]
-        # }
+        # Pull chart metadata from the pre-loaded tracker map.
+        meta = CHART_METADATA_MAP.get(chart_id, {}) if isinstance(CHART_METADATA_MAP, dict) else {}
+        metadata = {
+            "title": str(meta.get("title", "") or ""),
+            "subtitle": str(meta.get("subtitle", "") or ""),
+            "description": str(meta.get("description", "") or ""),
+            "footnote": str(meta.get("footnote", "") or ""),
+        }
 
         return cls(
             template_id="echarts_chart",
-            color_scheme="light",
+            color_scheme="dark",
             size=size,
-            option=option
+            metadata=metadata,
+            option=option,
         )
+
+
+
+# class Chart(FrameBase):
+#     size: Literal["full", "half"]
+#     option: dict
+
+#     @classmethod
+#     def from_node(cls, node: Node) -> "Chart":
+#         assert node.name == "chart", f"Expected chart node, got {node.name}"
+
+#         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
+#         size = "full" if width >= 1000 else "half"
+
+#         # --- Extract children ---
+#         image_node = next((child for child in node.children if child.type == "RECTANGLE"), None)
+#         group_node = next((child for child in node.children if child.name == "Light Template"), None)
+
+#         if not image_node or not group_node:
+#             raise ValueError("Chart must contain an image node and a 'Light Template' group")
+
+#         # --- Extract Title, Summary, Source from Light Template group ---
+#         text_map = {child.name: child.characters.strip() for child in group_node.children if child.type == "TEXT"}
+#         title_text = text_map.get("Title", "")
+#         summary_text = text_map.get("Summary", "")
+#         source_text = text_map.get("Source", "")
+
+#         # --- Load ECharts config by image name ---
+#         chart_id = image_node.name
+#         print(chart_id)
+#         chart_path = Path("../03_Outputs/charts/Auto Charts/DarkMode") / f"{chart_id}.json" ##add handling of light/dark modes
+#         if not chart_path.exists():
+#             print(chart_id, "missing")
+
+#             raise ValueError(f"Chart JSON not found for: {chart_id}")
+
+
+#         with open(chart_path, "r", encoding="utf-8") as f:
+#             option = json.load(f)
+
+        
+#         ###test content to insert style materials
+#         # # --- Inject title and subtext ---
+#         # option["title"] = {
+#         #     "text": title_text,
+#         #     "subtext": "",#source_text,
+#         #     "left": "center",
+#         #     "top": 20,
+#         #     "textStyle": {
+#         #         "color": "#ffffff",
+#         #         "fontSize": 22,
+#         #         "fontWeight": "bold",
+#         #         "fontFamily": "Proxima Nova, sans-serif"
+#         #     },
+#         #     "subtextStyle": {
+#         #         "color": "#666666",
+#         #         "fontSize": 14,
+#         #         "fontFamily": "Proxima Nova, sans-serif"
+#         #     }
+#         # }
+
+#         # # --- Ensure grid spacing ---
+#         # option["grid"] = option.get("grid", {})
+#         # option["grid"].update({
+#         #     "top": 200,
+#         #     "bottom": 90,
+#         #     "left": 70,
+#         #     "right": 40
+#         # })
+
+#         # # --- Add summary as graphic block between subtext and chart ---
+#         # option["graphic"] = {
+#         #     "elements": [
+#         #         {
+#         #             "type": "text",
+#         #             "left": "center",
+#         #             "top": 80,
+#         #             "style": {
+#         #                 "text": "",#summary_text,
+#         #                 "fill": "#444444",
+#         #                 "font": "15px Proxima Nova, sans-serif",
+#         #                 "width": 600,
+#         #                 "lineHeight": 22,
+#         #                 "align": "center"
+#         #             }
+#         #         }
+#         #     ]
+#         # }
+
+#         return cls(
+#             template_id="echarts_chart",
+#             color_scheme="light",
+#             size=size,
+#             option=option
+#         )
 
 
 # --- Poll Frame ---

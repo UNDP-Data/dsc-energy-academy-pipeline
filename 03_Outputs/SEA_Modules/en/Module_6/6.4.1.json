@@ -2,15 +2,20 @@
   "id": "6.4.1",
   "segments": [
     {
-      "template_id": "lesson_part_cover",
+      "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2154.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2070.webp",
           "caption": ""
         },
-        "intro": "M6: The Climate Change-Energy Nexus",
-        "title": "Off-Grid Renewable Energy: Strengthening Resilience and Economic Stability"
+        "lesson": {
+          "label": "Lesson",
+          "number": "1"
+        },
+        "title": "The Vulnerability of Global Energy Systems to Climate Change",
+        "cta": "",
+        "intro": "M6: The Climate Change-Energy Nexus"
       }
     },
     {
@@ -21,13 +26,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Lesson 2 Overview</strong>"
+              "text": "<strong>Lesson 1 Overview</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "For communities without reliable grid access, decentralized renewable energy is a necessary infrastructure for stability and adaptation. In regions where climate change disrupts traditional livelihoods and energy security, off-grid systems provide a practical solution for sustaining essential services, supporting local economies, and reducing dependence on costly and unreliable fuel imports. This is critically interconnected to the 2030 Agenda, as highlighted in the previous modules."
+              "text": "1"
             }
           }
         ]
@@ -59,27 +64,15 @@
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Beyond basic electrification, off-grid energy solutions enable local enterprises and institutions to operate with greater predictability. Micro, Small, and Medium-sized Enterprises (MSMEs) play a critical role in economic development, contributing significantly to employment and GDP. Their reliance on energy-intensive operations makes decentralized renewable energy crucial for cost reduction, resilience, and sustainability. More than 10 million micro, small, and medium-sized enterprises (MSMEs) currently integrate decentralized energy technologies, using them to lower costs, expand services, and improve climate resilience. In many cases, the transition to renewable energy is not simply about replacing fossil fuels but about reshaping local <ai prompt=\"What is energy governance?\">energy governance 💬️</ai>, ensuring that communities can control and maintain their own power systems without external dependencies. <br /><br />More than <a href=\"https://www.gogla.org/wp-content/uploads/2023/09/GOGLA_Climate-Paper_DEF.pdf\"><u>10 million micro, small, and medium-sized enterprises (MSMEs)</u></a> currently integrate decentralized energy technologies, using them to lower costs, expand services, and improve climate resilience. In many cases, the transition to renewable energy is not simply about replacing fossil fuels but about reshaping local energy governance, ensuring that communities can control and maintain their own power systems without external dependencies."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
+      "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1674.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2146.webp",
           "caption": ""
-        }
+        },
+        "intro": "M6: The Climate Change-Energy Nexus",
+        "title": "A: Physical Risks and Infrastructure Vulnerability"
       }
     },
     {
@@ -90,26 +83,36 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Water Access and Resource Stability </strong>"
+              "text": "<strong>Extreme Heat</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "In arid and coastal regions, climate change increasingly affects freshwater availability. Solar-powered water desalination and pumping systems provide a reliable solution, reducing reliance on rain-fed water supplies and mitigating the risks associated with droughts and changing precipitation patterns. <br /><br />In Bangladesh, solar-powered irrigation has allowed farming communities to shift away from unreliable rainfall, improving agricultural output and reducing the need for expensive diesel-based pumping systems. Similar approaches are being adopted in Sub-Saharan Africa, where solar water pumps are improving access to drinking water and irrigation without the high operating costs of conventional power systems."
+              "text": "Extreme heat is a critical vulnerability for energy systems, simultaneously reducing efficiency on the supply side while increasing demand on the consumption side. Rising ambient and water temperatures significantly reduce the efficiency of thermal power plants, which include fossil fuel, nuclear, and geothermal facilities. These plants rely on large volumes of water for cooling, a process that becomes less efficient as the temperature of the cooling water increases. A simulation using data from a thermal power plant in North Vietnam demonstrated that a 2°C increase in cooling water temperature can decrease efficiency by approximately 0.13% to 0.46%, depending on the operational load. When summer sea temperatures in North Vietnam reach as high as 40°C, the impact on condenser cooling can lower the plant's efficiency far below its original design specifications. Similarly, landlocked reactors in France have been shown to experience a decrease in electrical output of 0.04-0.8% per degree Celsius increase in air temperature."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "The physical risks associated with climate change can be categorized as either acute (event-driven, such as floods and storms) or chronic (longer-term shifts, such as sustained temperature increases and sea-level rise). Both categories pose a significant and direct threat to the resilience of energy infrastructure."
             }
           }
         ]
       }
     },
     {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "template_id": "text",
+      "color_scheme": "light",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1667.webp",
-          "caption": ""
-        }
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "The impact of extreme heat extends beyond thermal generation. Rising temperatures also reduce the efficiency of renewable energy sources such as solar power, where elevated temperatures can degrade the generation efficiency of photovoltaic (PV) cells and increase electrical resistance. In Latin America, studies show that a 1°C increase in temperature above a 25°C threshold can decrease energy production from PV plants by 0.66%. <br />The electricity grid itself is also highly vulnerable to high temperatures. Transmission lines can lose up to 5.8% of their capacity to carry electricity as temperatures increase, which can cause reliability issues such as rolling blackouts. In Latin America, a 1°C increase above 20°C can reduce the amount of energy transported by transmission lines by 0.4%. Furthermore, heat accelerates the wear and tear on energy assets, including insulation degradation and overheating of transformers, substations, and other components, which shortens the operational lifespan of critical infrastructure. The combined effect of reduced generation efficiency and decreased transmission capacity during extreme heat events creates a critical supply-side vulnerability that coincides with peak demand. The surge in demand for space cooling, particularly for air conditioning, strains the energy grid at the very moment its capacity is diminished. This dual impact makes the system more susceptible to power outages and blackouts, which can have significant economic and public health consequences."
+            }
+          }
+        ]
       }
     },
     {
@@ -120,54 +123,16 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Sustainable Cooling</strong>"
+              "text": "<strong>Droughts</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Access to cooling technologies is often overlooked in energy planning, despite its critical role in wellbeing, food security, healthcare, and commerce. The world is warming, with record-breaking temperatures and increasing and projected increases in the intensity and duration of heat waves globally. According to the World Meteorological Organization (WMO), 2024 was the warmest year on record, with climate change adding 41 days of extreme heat. Higher temperatures have far-reaching impacts on people’s health and well-being, work productivity, energy systems and the natural environment. In fact, heat-associated mortalities saw a 68% increase between 2000-04 and 2017-21. Beyond health consequences, rising heat stress is projected to cost USD 2.4 trillion of global GDP in 2030. Hence, it is no surprise that extreme heat events are both short- and long-term risks, as identified by the World Economic Forum."
+              "text": "<br />Droughts, exacerbated by reduced mountain snowpack and shifting snowmelt patterns, directly reduce the amount of water available for hydropower generation. This is a particularly acute problem in regions that depend heavily on hydropower, such as the Western United States and parts of Latin America. An extreme drought year in the Western U.S. might result in a 20% loss of <ai prompt=\"Explain hydroelectricity.\">hydroelectricity 💬️</ai>, with the most severe impacts experienced in regions with multi-year drought, such as California. In Latin America, the regional mean hydropower capacity factor is projected to decrease by an average of 8% to 17.4% by the end of the century compared to a 1970-2000 baseline, with countries in Central and Southern South America facing consistent decreases in generation due to a decline in mean precipitation and runoff. <br />The direct impact of drought on hydropower generation has a significant and often unaccounted-for second-order effect: it forces a shift to more expensive and polluting fossil fuel generation to compensate for the lost clean energy. This substitution can increase electricity generation from individual fossil fuel plants by up to 65% in extreme drought conditions. The monetized costs of the resulting excess mortality and GHG emissions from this shift are estimated to be 1.2 to 2.5 times the direct economic costs of lost hydro production and increased demand. This chain reaction highlights a critical, hidden vulnerability of hydro-dependent grids, where a climate-related shock in one sector (water) ripples through another (energy) to create a larger, more damaging problem."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "In the face of increasing temperatures, cooling is now more critical than ever to ensure people’s well-being, keep food and vaccines safe and economies functioning. Cooling demand is expected to triple by 2050, increasing electricity usage and in turn, greenhouse gas emissions. Business-as-usual cooling, i.e., with active cooling equipment such as air conditioners, lock us into a vicious cycle of <ai prompt=\"Explain heating and cooling.\">heating and cooling 💬️</ai>, representing a double burden. For instance, air conditioning accounts for around 7% of global GHG emissions. Therefore, the imperative at hand is to transform how we cool by ensuring this is sustainable. <br /><br />Sustainable cooling is an opportunity area with both mitigation and adaptation benefits. Besides, it directly influences other sustainable development outcomes, including the energy transition, health and food security. In fact, sustainable cooling can support over 1 billion people in adapting to climate risks while reducing the energy transition costs by USD 3.5 trillion by 2030.<br /><br /><strong>The urgency is highlighted by the Global Cooling Pledge under COP28, urging countries to achieve a substantial </strong><a href=\"https://www.reuters.com/sustainability/cop/countries-asked-slash-cooling-emissions-by-68-by-2050-2023-10-19/\"><strong><u>68% reduction in cooling-related emissions by 2050</u></strong></a><strong>. This emphasizes the critical need for sustainable technologies and behavioural changes in the cooling sector on a worldwide scale. <br /><br /></strong>More on sustainable cooling strategies in the buildings sector in Chapter 4."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Similarly, without refrigeration, perishable goods spoil quickly, limiting economic opportunities and increasing vulnerability to food shortages. However, advances in solar-powered cold storage are transforming supply chains, particularly in rural areas.<br /><br />In India, decentralized solar refrigeration is helping farmers store and transport perishable produce without relying on unreliable or expensive grid electricity. By extending shelf life and reducing food waste, these technologies not only improve food security but also allow producers to access broader markets, strengthening rural economies."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1596.webp",
-          "caption": ""
-        }
       }
     },
     {
@@ -178,26 +143,16 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Energy for Healthcare and Public Services </strong>"
+              "text": "<strong>Sea-Level Rise</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Medical facilities in off-grid or disaster-prone areas depend on stable energy access for critical services, including vaccine refrigeration, diagnostic equipment, and surgical operations. Without reliable power, healthcare delivery is severely compromised. In crisis contexts, reliable electricity is essential for healthcare facilities to function effectively. In sub-Saharan Africa, 25% of health centers lack electricity, leaving critical services such as vaccine storage, emergency procedures, and maternal care at risk. Extreme weather events, intensified by climate change, further strain healthcare infrastructure, increasing hospitalizations due to heatwaves and air pollution. Decentralized renewable energy systems can bridge this gap, ensuring uninterrupted medical care and strengthening health resilience in vulnerable regions. <br /><br />Solar-powered clinics are being deployed in regions affected by extreme weather events, ensuring that disruptions to grid electricity do not translate into disruptions in medical care. For example, the <ai prompt=\"Provide more info on solar for health.\">solar for health 💬️</ai> initiative has equipped health facilities in 15 countries with solar power, ensuring reliable electricity for critical medical services while reducing reliance on unstable grids and costly diesel."
+              "text": "<br />Rising sea levels and the resulting higher storm surges put critical energy infrastructure at significant risk of inundation and erosion. Energy facilities located at or near sea level, including coastal power plants, oil refineries, ports, and offshore oil and gas platforms, are particularly vulnerable. In California alone, more than 20 power-generating facilities are at risk, with similar issues faced by other coastal states where many facilities that handle raw energy materials like coal and petroleum are situated near the coast to access ocean transportation. The risk is disproportionately high for low-lying coastal areas and <ai prompt=\"Explain small island developing states.\">small island developing states 💬️</ai> (SIDS), with a 4°C temperature increase predicted to completely submerge nations like Tuvalu, Kiribati, and the Maldives. Sea level rise also affects supporting infrastructure like ports, docks, and rail lines that are essential for energy transportation, leading to supply chain disruptions and operational delays."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1589.webp",
-          "caption": ""
-        }
       }
     },
     {
@@ -208,58 +163,16 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Economic Development and Energy Access for Enterprises </strong>"
+              "text": "<strong>Storms and Cyclones</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Reliable electricity is a prerequisite for economic diversification. Small businesses, cooperatives, and local manufacturing facilities depend on affordable and consistent power to operate machinery, process raw materials, and expand production capacity. In regions where grid extension is economically unfeasible, decentralized renewable energy provides a viable alternative for business development. <br /><br />For example, in Puerto Rico, locally managed solar microgrids have allowed small businesses to remain operational during grid outages. This model not only reduces exposure to energy price volatility but also reinvests surplus revenue into further energy development, demonstrating the economic advantages of community-led renewable initiatives."
+              "text": "<br />The increasing frequency and intensity of storms and tropical cyclones cause widespread damage to energy infrastructure, leading to power outages for millions of people. Strong gusts of wind can knock down power lines and transmission towers, while heavy rainfall and storm surges can cause severe flooding. For example, Hurricane Ida in 2021 damaged over 30,000 poles and nearly 6,000 transformers in Louisiana. Offshore and coastal assets are also highly vulnerable; Hurricane Ike in 2008 destroyed dozens of offshore oil platforms, causing a massive oil spill that contaminated coastal areas in Texas and Louisiana. In Southeast Asia, which is home to a significant amount of renewable energy capacity, nearly half of the solar PV and hydropower infrastructure is located in cyclone-prone areas, a rate that is more than three times the global average. This high level of exposure puts countries like Myanmar, the Philippines, and Vietnam at particular risk of intensified tropical cyclones and their damaging effects on energy security."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1582.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Supporting Livelihoods and Climate-Smart Growth in Vulnerable Regions </strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Small island nations and coastal communities face unique challenges from climate change, including rising sea levels, saltwater intrusion, and extreme weather events. In these contexts, renewable energy enables vital adaptation through small-scale desalination systems, hydrothermal cooling using seawater, and power for eco-tourism operations. In remote and underserved areas, renewable solutions support basic healthcare through reliable power for medical facilities, vaccine cold chains, and water purification systems. These technologies not only enhance resilience but also create opportunities for sustainable livelihoods, helping communities thrive in the face of climate challenges."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1465.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -267,11 +180,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1463.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2103.webp",
           "caption": ""
         },
         "intro": "M6: The Climate Change-Energy Nexus",
-        "title": "A: Implementation Framework for Sustainable Energy Solutions"
+        "title": "B: Impacts on Energy Demand and Supply"
       }
     },
     {
@@ -280,9 +193,27 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Demand</strong>"
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The successful deployment of sustainable energy solutions requires a strategic and context-sensitive approach. While the potential of renewable energy to enhance climate resilience is well-documented, its effective implementation hinges on addressing local needs, building cross-sector collaboration, and ensuring long-term sustainability.<br />Sustainable energy solutions often intersect with other sectors, such as water, agriculture, and healthcare. Cross-sector coordination is essential to maximize the impact of these solutions and avoid maladaptation risks. For instance, solar-powered irrigation systems can simultaneously address water scarcity, improve agricultural productivity, and reduce reliance on fossil fuels. Similarly, <ai prompt=\"Provide more info on decentralized energy systems.\">decentralized energy systems 💬️</ai> can support healthcare delivery by powering medical facilities and vaccine cold chains in off-grid areas. Effective coordination requires clear communication, shared goals, and partnerships between governments, NGOs, and private sector actors."
+              "text": "As global temperatures rise, a significant shift in energy consumption patterns is occurring. Warmer winters are reducing the need for heating, but this is far outweighed by the increased demand for cooling during hotter summers. This is expected to result in a net increase in overall energy consumption. The International Energy Agency (IEA) projects that global energy demand for space cooling could more than double by 2040. For the United States, a 1.8°F warming is expected to increase cooling demand by 5% to 20%. <br />This rising demand for air conditioning creates a vicious cycle. Air conditioning itself is an energy-intensive mechanism, and the power supply needed to operate it generates about 4% of global GHG emissions, which is twice as much as the entire aviation industry. The hydrofluorocarbon (HFC) refrigerants used in these systems also have a high global warming potential, absorbing 150 to 5,000 times more <ai prompt=\"Explain solar energy.\">solar energy 💬️</ai> than <br />CO2 , which further contributes to global warming and intensifies the need for cooling solutions. The escalating need for cooling therefore drives up GHG emissions, which in turn necessitates even greater cooling solutions."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Beyond the direct physical risks, climate change fundamentally alters the dynamics of energy demand and supply. These shifts create new challenges for energy systems that were designed for a more stable and predictable climate."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Beyond the direct physical risks, climate change fundamentally alters the dynamics of energy demand and supply. These shifts create new challenges for energy systems that were designed for a more stable and predictable climate."
             }
           }
         ]
@@ -296,7 +227,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Long-term sustainability depends on robust policy frameworks that support the deployment and maintenance of sustainable energy solutions. Governments must prioritize the integration of renewable energy into </strong><a href=\"https://unfccc.int/national-adaptation-plans\"><strong><u>national adaptation plans (NAPs)</u></strong></a><strong> and ensure that policies are aligned with locally led adaptation principles. For example, </strong><a href=\"https://unfccc.int/sites/default/files/resource/National_Adaptation_Plan_Mozambique.pdf\"><strong><u>Mozambique’s NAP</u></strong></a><strong> highlights the importance of mobilizing women-led community organizations in adaptation planning, demonstrating how gender-responsive policies can enhance resilience. Strengthening commitments to gender equality and social inclusion (GESI) in energy policies can further ensure that the benefits of sustainable energy reach the most vulnerable populations.</strong>"
+              "text": "<br />This dynamic also has profound implications for social equity and human security, particularly in the developing world. The people most in need of cooling are often those with the least access to it. As of 2021, regions with scorching climates, home to approximately 3.5 billion people, had an air conditioner ownership rate of only around 15%. This is in stark contrast to high-income countries like the United States, where ownership exceeds 85%. Many low-income households in these regions lack access to electricity altogether, and for those who do, high electricity bills make cooling unaffordable. This disproportionate vulnerability exacerbates existing inequalities and can push communities further into \"energy poverty,\" where they lack access to the very tools that could save lives during a heatwave."
             }
           }
         ]
@@ -310,15 +241,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Key Considerations for Scaling Off-Grid Energy Solutions</strong>"
+              "text": "<strong>Supply</strong>"
             }
           },
           {
-            "template_id": "bullet_point_with_highlight",
+            "template_id": "paragraph_medium",
             "content": {
-              "title": "<strong>Designing for Local Needs and Long-Term Viability </strong>",
-              "body": "Off-grid energy solutions must be tailored to the specific environmental, social, and economic contexts of the communities they serve. For instance, in drought-prone regions, solar-powered water pumping systems can address water scarcity while supporting agricultural productivity. However, the design process must involve local stakeholders to ensure that systems are not only technically feasible but also culturally appropriate and easy to maintain. Training local technicians and establishing community-led maintenance programs can enhance the longevity of these systems, reducing dependency on external support.",
-              "source": ""
+              "text": "<br />The impacts on energy supply are multifaceted. The physical risks to infrastructure, as described previously, are a direct constraint on supply. Additionally, while the transition to clean energy is essential for climate mitigation, renewable energy sources themselves are sensitive to climate variability. Hydropower is highly susceptible to changes in precipitation patterns , wind power generation can be altered by changes in atmospheric dynamics , and solar energy production is affected by changes in cloud cover and air temperature. <br />The unpredictability of climate variables makes energy system planning and operation more difficult than ever before. Conventional energy analysis often assumes that climate variables are stationary, an assumption that now introduces significant uncertainty into long-term planning and operational activities. To address these challenges, energy planners must incorporate a greater number of climate scenarios into their decision-making processes."
             }
           }
         ]
@@ -330,139 +259,30 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "bullet_point_with_highlight",
+            "template_id": "subtitle",
             "content": {
-              "title": "<strong>Ensuring Financial Feasibility Beyond Subsidies </strong>",
-              "body": "Upfront costs remain a significant barrier to off-grid energy adoption, particularly in low-income regions. While subsidies and grant funding have played a role in scaling access, long-term sustainability depends on models that encourage local investment and revenue generation. <br /><br />Pay-as-you-go (PAYG) systems have shown promise in making solar energy more affordable by aligning costs with household and business income cycles. Similarly, blended finance models—combining public, private, and concessional funding—have enabled larger-scale investments in decentralized energy infrastructure without reliance on continued donor support.",
-              "source": ""
+              "text": "<strong>Socio-Economic and Political Implications</strong>"
             }
           },
           {
-            "template_id": "bullet_point_with_highlight",
+            "template_id": "paragraph_medium",
             "content": {
-              "title": "<strong>Regulatory and Institutional Support </strong>",
-              "body": "Decentralized energy solutions must be integrated into national energy planning to ensure they complement, rather than compete with, broader electrification strategies.<br /><br />Governments play a critical role in creating an enabling environment by establishing clear legal frameworks for mini-grids and independent power providers. This includes providing risk mitigation mechanisms for investors, supporting local manufacturing of renewable energy components, and investing in workforce training. Policies should also align with broader climate resilience and rural development goals, ensuring that energy solutions contribute to multiple sustainable development objectives.",
-              "source": ""
+              "text": "Climate-related energy disruptions are not isolated events; they are a key \"threat multiplier\" that exacerbates existing socio-economic vulnerabilities. The direct economic costs are substantial. The cost of disruptions to the U.S. energy system alone could reach $4.7 to $8.3 billion annually by 2090. Beyond direct infrastructure costs, extreme heat costs the U.S. economy over $162 billion annually due to reduced productivity and other impacts. The World Bank warns that climate change could push an additional 100 million people into poverty by 2030, a direct consequence of its impacts on economic stability and social structures. <br />Energy insecurity is a primary driver of this broader social vulnerability. Power outages and energy price volatility can halt critical services, from healthcare to water treatment. They also reduce productivity and directly impact livelihoods that depend on a stable power supply. When these disruptions are combined with other climate impacts like food and water scarcity, they can intensify competition for resources, leading to social unrest and conflict. For example, a 2°C temperature increase could push an additional 189 million people into hunger, which, combined with resource competition, creates conditions ripe for social instability."
             }
           }
         ]
       }
     },
     {
-      "template_id": "photo_full_height",
+      "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1434.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Community-Based Adaptation</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Community-based adaptation (CBA) is a proven approach to building resilience as seen in the previous modules, particularly in regions where vulnerable populations face the brunt of climate change impacts. CBA involves processes led by local actors, including subnational authorities, civil society organizations, community groups and youth to identify adaptation priorities and implement solutions tailored to local contexts. This approach leverages local knowledge while fostering inclusive governance, ensuring that marginalized groups are actively involved in decision-making.<br /><br /><strong>In Southern Africa, CBA has demonstrated its potential to reduce climate risks and generate sustainable changes for vulnerable communities. For example, in Mozambique, women-led community organizations have been mobilized to participate in adaptation planning, ensuring that energy solutions address gender-specific needs, such as access to clean water and healthcare. Similarly, in Zambia, solar-powered irrigation systems have been co-designed with local farmers to improve agricultural resilience while reducing reliance on costly and unreliable diesel pumps. In other instance, the </strong><a href=\"https://rmi.org/delivering-equitable-and-meaningful-community-benefits-via-clean-hydrogen-hubs/#:~:text=The%20Justice40%20covered%20programs:%20Executive%20Order%2014008,programs%20under%20the%20purview%20of%20the%20US\"><strong><u>Justice40 Initiative</u></strong></a><strong>, led by RMI, demonstrates real-world applications of Community Benefit Agreements (CBA) by ensuring that at least 40% of federal clean energy investments benefit disadvantaged communities.</strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Scaling CBA requires addressing significant gaps in policy and funding. Key enabling factors include:</strong>"
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Integration of Adaptation into Subnational Development Planning</strong>",
-              "body": "Adaptation must be embedded in local development plans to ensure that resources are allocated effectively. For instance, only 56% of policy documents in Southern Africa explicitly mandate the integration of adaptation into local planning, highlighting a critical gap that needs to be addressed."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Mechanisms for Collaboration with Civil Society Actors</strong>",
-              "body": "Effective CBA requires institutionalized arrangements that facilitate collaboration between local governments, civil society organizations, and communities. Currently, only 44% of policies in the region highlight mechanisms for ongoing collaboration, underscoring the need for stronger partnerships."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Local Access to Climate Finance</strong>",
-              "body": "Ensuring that climate adaptation finance reaches the local level is essential for scaling CBA. While 50% of policies analyzed in Southern Africa recognize this need, only 25% outline specific mechanisms to achieve it. Innovative financing models, such as community-managed funds, can help bridge this gap."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "<strong>Capacity Strengthening for Local Actors</strong>",
-              "body": "Subnational authorities and local organizations need enhanced capacities to lead adaptation efforts. This includes technical training, access to climate information, and support for participatory decision-making processes. For example, Zimbabwe’s national climate policy includes a chapter on education and training, emphasizing the importance of building local capacity."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo-horizontal",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1407.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2820.webp",
           "caption": ""
         },
-        "title": null,
-        "description": null,
-        "caption": null
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>By aligning sustainable energy solutions with CBA principles, communities can enhance their resilience while maintaining control over their energy systems. This approach addresses immediate energy needs while fostering long-term sustainability and empowerment.</strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1402.webp",
-          "caption": ""
-        }
+        "intro": "M6: The Climate Change-Energy Nexus",
+        "title": "C:Enhancing Resilience and Adaptability of Energy Systems"
       }
     },
     {
@@ -470,14 +290,14 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2023.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1393.webp",
           "caption": ""
         },
         "lesson": {
           "label": "Lesson",
-          "number": "2"
+          "number": "3"
         },
-        "title": "Renewable Energy for Enhancing Climate Resilience",
+        "title": "Enhancing Resilience and Adaptability of Energy Systems",
         "cta": "",
         "intro": "M6: The Climate Change-Energy Nexus"
       }
@@ -490,40 +310,16 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Lesson 1 Overview</strong>"
+              "text": "<strong>Lesson 3 Overview</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Climate change is introducing unprecedented challenges and uncertainties, demanding that energy systems become more flexible, robust, and prepared to withstand extreme weather events, temperature variations, and shifting environmental conditions. As the frequency and intensity of climate-related risks increase—ranging from hurricanes and floods to prolonged droughts and heatwaves—the need to enhance the resilience and adaptability of energy systems has never been more critical. Ensuring a reliable, sustainable, and secure energy supply is essential for both mitigating the impacts of climate change and supporting communities in adapting to its effects."
+              "text": "Climate change characterized by extreme weather events such as hurricanes, wildfires, and floods can lead to two main effects on energy systems, i.e infrastructure damage and efficiency reduction."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "At the same time, sustainable energy solutions offer a dual benefit: they not only reduce greenhouse gas emissions, a key driver of climate change, but also serve as powerful tools for climate adaptation and resilience-building. By leveraging renewable energy sources, improving <ai prompt=\"What is energy efficiency?\">energy efficiency 💬️</ai>, and developing resilient energy infrastructure, communities can better adapt to the impacts of climate change. These solutions also support economic development, improve energy access, and make sustainable energy systems more affordable, particularly for vulnerable populations who are often the most affected by climate-related disruptions.<br />In this lesson, we explore how renewable energy can enhance climate resilience across various sectors—from water and food security to emergency response and economic stability. Through real-world examples and case studies, we demonstrate the transformative potential of decentralized, sustainable energy systems in building resilient communities and safeguarding critical infrastructure in the face of a changing climate."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_7.png",
-          "caption": ""
-        }
       }
     },
     {
@@ -534,13 +330,71 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Energy Uses in Climate Adaptatio</strong>"
+              "text": "<strong>KEY CONCEPTS</strong>"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Infrastructure damage</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "It is often the case that those without access to electricity are the most vulnerable to climate change. Decentralized energy assets play a critical role in climate adaptation and in promoting initiatives that enhance resilience as well as food security. This is emphasized by the COP 27 Sharm El-Sheikh Adaptation Agenda, which lists achieving universal access to electricity through climate-smart and resilient energy systems as one of its 30 key goals."
+              "text": "Infrastructure damage due to climate change poses significant challenges to energy systems, affecting the reliability, resilience, and operational efficiency of energy production, transmission, distribution, and storage. Climate change can lead to facility damage, for example to coal, natural gas, and nuclear thermal power plants, which can suffer damage from extreme weather events such as hurricanes, floods, wildfires, and heatwaves. Climate events can also impact thermal power plants’ typical operation through variations in local cooling water availability, hydraulic head intake level, and temperature. Similarly, solar panels, wind turbines, and hydroelectric dams are vulnerable to extreme weather events and environmental changes, leading to physical damage and reduced energy production. Due to climate change, some transmission and distribution networks can be damaged, ie. lines, substations, transformers, while grid infrastructure are also susceptible to damage from extreme weather events like hurricanes, tornadoes, ice storms, and wildfires. One can also note that coastal and low-lying areas with energy infrastructure are at risk from sea-level rise, storm surges, and increased precipitation, leading to flooding and infrastructure damage. To add to this, <ai prompt=\"Clarify energy storage.\">energy storage 💬️</ai> facilities such as battery systems are vulnerable to extreme temperatures, flooding, and other climate-related hazards, leading to reduced efficiency, capacity loss, and operational challenges."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Efficiency reduction</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Efficiency reduction refers to the decrease in the efficiency of energy production, conversion, transmission, or consumption processes, leading to higher energy losses and increased energy consumption for the same output or service. Thus, efficiency reduction due to climate change impacts can result in higher energy consumption, increased operational costs, and reduced system reliability for energy producers and consumers. Energy systems such as Thermal Power plants can suffer from heat stress when higher temperatures affect the cooling systems and increase the cooling demand. If this is not attended to, it often leads to a reduction in the efficiency of thermal power plants.The efficiency of solar panels may be affected by extreme temperatures ( either very high or very low) which are made more prevalent because of climate change. With wind turbines, changes in wind patterns / high speeds due to climate variability lead to reduced energy production. Transformers and other distribution components can also be derated due to operating at extreme temperatures, and the lack of cooling times due to higher overnight temperatures, as well as usage pattern changes. Similarly, droughts can also affect the performance of hydro power plants."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1369.webp",
+          "caption": ""
+        },
+        "intro": "M6: The Climate Change-Energy Nexus",
+        "title": "A: Vulnerability Assessment"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Overview</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Assessing the vulnerability of energy systems is essential to understanding how climate change impacts infrastructure and operations. This process involves identifying exposure to extreme weather events, mapping risks across different regions, and evaluating weaknesses in both physical infrastructure and operational processes. By systematically analyzing these factors, energy planners can develop targeted strategies to mitigate risks, enhance resilience, and ensure a stable energy supply. The following sections explore key components of vulnerability assessment, including risk mapping and the identification of physical and operational vulnerabilities. <br /><br />The vulnerability assessment focuses primarily on physical and operational risks, which are foundational to understanding infrastructure resilience. However, financial vulnerability is also a crucial aspect, particularly in the context of cost-benefit analysis (CBA). While this section emphasizes infrastructure and operational weaknesses, financial risks, including investment gaps and cost implications of climate impacts, are addressed in Module 4."
             }
           }
         ]
@@ -548,10 +402,10 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2001.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1358.webp",
           "caption": ""
         }
       }
@@ -564,27 +418,39 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Water, Food and Agriculture</strong>"
+              "text": "<strong>Risk Mapping </strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Off-grid technologies offer decentralized and democratized access to electricity, making them more resilient to climate risks. For instance, <ai prompt=\"Provide more info on solar energy.\">solar energy 💬️</ai> kits and irrigation systems are portable and less reliant on extensive distribution networks, making them less susceptible to floods, high winds, and cyclones. They are also less susceptible to blackouts during heat waves. Parallelly, access to productive use of renewable energy (PURE) technologies is also enhancing resilience.<br />The sustainable energy interventions in the agriculture sector optimize crop yield, creating more resilient communities while achieving universal access ambitions. Solar irrigation systems promote sustainable use of water resources, thereby reducing reliance on rain-fed traditional agriculture practices. In Bangladesh, for example, the community improved their resilience to the drought gripping their region by installing 12 solar-powered tube wells to pump, store in a 5,000-liter master tank, and distribute water to their homes. Additionally, solar-powered cold storage systems provide a transformative solution supporting food security initiatives by extending the shelf life of perishable food. For instance, Ecozen Solutions specializes in portable solar cold rooms in India."
+              "text": "Risk mapping of energy infrastructure in the face of climate change is a crucial global initiative that involves identifying and evaluating the vulnerabilities that different regions and systems may face due to varying climate impacts. This geographical and component-specific analysis helps in understanding the direct threats to infrastructure such as power plants, transmission lines, and renewable energy facilities from extreme weather events like hurricanes, floods, and heatwaves. <br />Globally, different regions exhibit unique vulnerabilities based on their geographical and climatic conditions. For instance, in Europe, the increased risk of flooding threatens to disrupt power generation and distribution networks, while in Asia, particularly in Southeast Asia and the Himalayan region, the risk includes typhoons and the impact of melting glaciers on hydropower facilities. Similarly, in Africa, drought conditions pose a significant threat to hydroelectric power sources, which are crucial for the region's energy supply."
             }
           }
         ]
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "The process of risk mapping involves collecting extensive meteorological and environmental data to project the frequency and intensity of expected climate impacts. This data is then analyzed in the context of the existing energy infrastructure to assess potential vulnerabilities. The findings guide the development of adaptation and mitigation strategies tailored to protect critical energy assets and ensure their resilience. Effective risk mapping not only identifies current risks but also uses predictive modeling to anticipate future challenges. This forward-looking approach is essential for planning infrastructure developments and retrofitting existing facilities to withstand anticipated climatic changes. It also informs policy-making, helping governments and organizations prioritize investments in <ai prompt=\"Tell me more about energy resilience.\">energy resilience 💬️</ai> to safeguard against future climate-related disruptions."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1886.webp",
-          "caption": null,
-          "url": null
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1348.webp",
+          "caption": ""
         }
       }
     },
@@ -596,41 +462,42 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Emergency Response and Resilience</strong>"
+              "text": "<strong>Physical and operational vulnerabilities within current energy systems </strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Renewable energy significantly enhances community resilience to climate disasters. Decentralized renewable systems provide crucial backup power for emergency services and critical infrastructure when conventional power fails. For instance, mini and micro-hydro systems can generate electricity for remote communities while also supporting flood mitigation efforts. Additionally, early warning systems powered by renewables help communities prepare for extreme weather events. For displaced populations, mobile renewable solutions offer quick deployment of essential services in emergency settlements."
+              "text": "After assessing the external risks to the energy infrastructures, it is imperative to analyze the potential weaknesses in both the physical components of the energy infrastructure and the operational processes that manage the flow and distribution of energy. Physical vulnerabilities often pertain to the susceptibility of infrastructure like power plants, transmission lines, and substations to extreme weather events such as floods, storms, or heatwaves. These events can cause direct damage to facilities, disrupt service, and lead to long-term outages. Evaluating these risks involves assessing the current state of infrastructure, its location, design parameters, and the materials from which it is built. Adaptation measures could include retrofitting facilities with more durable materials, relocating critical components to less vulnerable areas, or constructing protective barriers."
             }
           }
         ]
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
+      "template_id": "text",
+      "color_scheme": "light",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1739.webp",
-          "caption": null,
-          "url": null
-        }
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Operational vulnerabilities consider the capacity of energy systems to manage and adapt to changing conditions without significant interruptions in service. This aspect takes into account the flexibility of the grid, the availability of alternative energy sources, and the ability to quickly repair and restore service after an event. Evaluating operational vulnerabilities involves analyzing how well the energy system can withstand fluctuations in supply and demand, particularly those that may be exacerbated by climate change, such as increased demand for cooling during heatwaves or the variability of renewable energy sources. It should also take into account reduced cooling periods due to higher average temperatures as well as changes in usage patterns. It's also important to consider that the impacts of climate change on energy systems can be amplified by systemic factors such as energy system interdependencies, water scarcity, and increased electricity demand. These broader considerations play into vulnerability evaluations as they affect the overall robustness and reliability of the energy supply chain."
+            }
+          }
+        ]
       }
     },
     {
-      "template_id": "case_study_cover",
+      "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1735.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1336.webp",
           "caption": ""
         },
-        "intro": "RBLAC",
-        "title": "Case Study: Puerto Rico",
-        "subtitle": ""
+        "intro": "M6: The Climate Change-Energy Nexus",
+        "title": "B:Strengthening Infrastructure Resilience"
       }
     },
     {
@@ -641,7 +508,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Adjuntas, a town in Puerto Rico, has emerged as a leading model for how vulnerable regions can build greater resilience to climate disruptions. Adjuntas illustrates the vital role of decentralized energy efforts, such as solar microgrids, which generate electricity locally using solar energy. Puerto Rico endured catastrophic damage from Hurricane Maria in 2017, resulting in millions experiencing prolonged electrical outages (<a href=\"https://nextcity.org/features/grassroots-movement-puerto-ricos-first-community-owned-solar-microgrid\"><u>Next City, n.d.</u></a>). The town of Adjuntas experienced no difference. In the wake of the disaster, it became apparent that the island’s centralized, fossil-fuel-powered grid was vulnerable and poorly equipped to withstand more frequent extreme weather events. The power outage in Adjuntas was not just a hardship; it jeopardized fundamental survival needs by limiting access to essential services, including communication, electricity, clean water, and refrigeration for medicines and food. The community desperately sought a resilient, independent solution to assert control over their energy prospects. <br />What emerged was an ambitious solution: to develop Adjuntas’s first solar microgrid owned and operated by the community. In response, the local community organization Casa Pueblo, in partnership with the nonprofit Honnold Foundation, installed solar-powered microgrids. The objective was not only to supply clean, reliable energy but also to restore power to the people, both practically and symbolically"
+              "text": "Strengthening physical infrastructure against extreme weather and climate conditions is a proactive approach to enhancing the resilience of critical energy assets. This task involves several strategies such as reinforcing structural designs, integrating energy storage solutions to enhance grid stability during disruptions, using resilient construction materials, and implementing advanced architectural techniques that take into account the increased intensity and frequency of climate-related events. <br />The reinforcement of infrastructure is not only about making physical improvements to withstand severe conditions but also about adapting to a changing environment where old standards may no longer suffice. For example, utility companies might elevate electrical substations in flood-prone areas or retrofit cooling systems in power plants to cope with higher ambient temperatures."
             }
           }
         ]
@@ -655,7 +522,59 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The project has reduced Adjuntas’s reliance on centralized power plants and transmission lines, which are often susceptible to damage during extreme weather events. Even during the main grid failures, Adjuntas’s solar microgrid currently powers crucial businesses such as supermarkets and pharmacies. In times of crisis, these places become gathering points for people with access to essential healthcare, power, and safe refuge. These achievements of the initiative underscore the potential of renewable energy to enhance community resilience and adapt to the increasing risks posed by climate change. The ACESA has ensured that the community itself manages the microgrids. This model has not only reduced electricity costs for small businesses but also created a sustainable framework for future energy projects. Excess funds generated from microgrids are reinvested into community solar initiatives, fostering long-term energy independence. Despite challenges such as supply chain disruptions and the COVID-19 pandemic’s impact, the Adjuntas community has remained committed to the project. The installation of 1,000 solar panels has provided a reliable energy source and set a precedent for other communities facing similar vulnerabilities (<a href=\"https://www.honnoldfoundation.org/adjuntas-a-solar-community#adjuntas\"><u>Honnold Foundation, n.d.</u></a>). <br />The Adjuntas microgrid initiative demonstrates how renewable energy can address immediate energy needs while building long-term resilience. By decentralizing energy production and empowering local communities, the project has not only mitigated the effects of extreme weather but also created a sustainable model for energy independence. While Adjuntas’ microgrid is tailored to its local landscape and governance, its foundational ideas—such as decentralized energy, community empowerment, and resilience—are globally adaptable to other vulnerable areas (<a href=\"https://www.canarymedia.com/articles/clean-energy/puerto-ricos-first-community-led-microgrid-is-ready-to-launch\"><u>Gallucci, 2023</u></a>). <br />"
+              "text": "<strong>Furthermore, resilience can be built through the diversification of energy sources. By incorporating a mix of renewable and traditional energy sources, the energy grid can better withstand and recover from disruptions. Implementing microgrids in vulnerable areas is another way to ensure that local energy needs are met even when centralized infrastructure fails. It is also crucial to consider systemic factors such as supply chain robustness, operational procedures during emergencies, and the integration of energy storage to manage fluctuations in energy generation and demand. As a key component, energy storage enhances resilience by providing backup power, balancing supply and demand, and ensuring the reliability of renewable energy sources during extreme weather events.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1322.webp",
+          "caption": ""
+        },
+        "intro": "M6: The Climate Change-Energy Nexus",
+        "title": "C:Smart Grid Implementation"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Implementing smart grid technology is central to enhancing the responsiveness and stability of energy systems. Smart grids incorporate advanced sensors, controls, and software to gather and act on information about the behaviors of suppliers and consumers, in turn improving the efficiency, reliability, security, and sustainability of the production and distribution of electricity. <br /><br />Through real-time monitoring and automated control systems, smart grids can detect and respond to local changes in usage or production, as well as system-wide shifts, allowing for a more resilient response to demand fluctuations and potential disruptions. For example, during extreme weather events, a smart grid can reroute power automatically to maintain supply where traditional grids might fail. <br /><br /><strong>Smart grids also facilitate the integration of renewable energy sources, which can be variable and distributed in nature, helping to stabilize the grid by managing unpredictable fluctuations in power generation. Furthermore, they enhance consumer engagement by allowing end-users to adjust their consumption based on real-time pricing and availability, leading to energy and cost savings, and contributing to the overall demand management. In addition to immediate operational benefits, smart grids also support long-term planning and infrastructure development by providing detailed data that can inform the deployment of resources and the upgrade of systems to handle projected changes in climate and consumption patterns. </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1311.webp",
+          "caption": ""
+        },
+        "intro": "M6: The Climate Change-Energy Nexus",
+        "title": "D:Promotion of Distributed Energy Resources (DERs)"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "The promotion of Distributed Energy Resources (DERs) is a forward-thinking strategy to enhance the flexibility of energy systems and reduce reliance on centralized power generation. DERs include a variety of smaller-scale technologies such as solar panels, wind turbines, energy storage systems like batteries, and small natural gas-powered generators that can be deployed at or near the point of use, such as residential, commercial, or community settings. <br />Encouraging the adoption of DERs can significantly increase the resilience of the energy grid by enabling a rapid response to changes in supply and demand, reducing transmission losses, and mitigating the impact of outages. When parts of the grid are compromised due to extreme weather or other disruptions, DERs can often continue to operate, providing reliable power independently."
             }
           }
         ]
@@ -669,8 +588,52 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The project, rooted in strong community involvement, was executed as follows; <br />Casa Pueblo, a long-trusted entity in Adjuntas, took charge by working closely with residents and local entrepreneurs, including the establishment of a nonprofit organization called the Community Solar Energy Association of Adjuntas (ACESA), which is managed by the residents and local entrepreneurs. The ACESA monitored the design and construction of the solar-powered microgrids (<a href=\"https://www.honnoldfoundation.org/adjuntas-a-solar-community#adjuntas\"><u>Honnold Foundation</u></a> <br />The microgrid installation included <ai prompt=\"Clarify battery storage.\">battery storage 💬️</ai> systems and rooftop solar panels, ensuring continuous service during power outages (<a href=\"https://www.canarymedia.com/articles/clean-energy/puerto-ricos-first-community-led-microgrid-is-ready-to-launch\"><u>Gallucci, 2023, para. 10</u></a>). <br />Casa Pueblo and the Honnold Foundation promoted long-term community stewardship, emphasizing a grassroots model that involved local businesses and electricians in the construction and decision-making process (<a href=\"https://www.honnoldfoundation.org/adjuntas-a-solar-community#adjuntas\"><u>Honnold Foundation, n.d.</u></a>). <br />The microgrids demonstrated their effectiveness during Hurricane Fiona in September 2022, providing uninterrupted power to critical facilities for several days while other parts of Puerto Rico experienced widespread outages (<a href=\"https://www.canarymedia.com/articles/clean-energy/puerto-ricos-first-community-led-microgrid-is-ready-to-launch\"><u>Gallucci, 2023, para. 10</u></a>). This achievement underscores the potential of renewable energy to enhance community resilience and mitigate the growing risks associated with climate change. The establishment of a cooperative ownership framework guaranteed that the people of Adjuntas would manage and sustain the grid rather than an external corporation. Barriers such as technical skill gaps and funding shortages were addressed through grant support from the Honnold Foundation, partnerships, and workshops that nurtured ownership and resilience among the community (<a href=\"https://www.canarymedia.com/articles/clean-energy/puerto-ricos-first-community-led-microgrid-is-ready-to-launch\"><u>Gallucci, 2023</u></a>). Additionally, research institutions, such as Oak Ridge National Laboratory, offered technical expertise and innovation tools to lower implementation costs."
+              "text": "Moreover, DERs can play a pivotal role in grid stabilization by offering services such as voltage support, frequency regulation, and peak load reduction, which are increasingly important as the penetration of intermittent renewable energy sources grows. They also empower consumers to take charge of their own energy consumption, potentially lowering costs and contributing to environmental sustainability. <br /><strong>Integrating DERs requires not only technology but also regulatory frameworks, market mechanisms, and incentives that support their adoption and operation. Effective integration into the existing grid infrastructure is key, including the need for smart grid technologies that can manage the two-way flow of electricity and information. With distributed resources, may also come distributed ownership and management of energy resources, decentralizing responsibility for holistic energy system maintenance, requiring new models of management and incentivizing maintenance and reliability across a myriad of new or altered stakeholders. <br /></strong>"
             }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1299.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Key Takeaways",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1294.webp",
+              "caption": "image caption"
+            },
+            "title": "Resilient Energy Infrastructure is Essential for Climate Adaptation.",
+            "description": "Strengthening energy infrastructure through resilient design, material upgrades, and strategic location planning is essential to withstand climate impacts such as extreme weather, flooding, and heatwaves."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1288.webp",
+              "caption": "image caption"
+            },
+            "title": "Smart Grid Technologies Enhance Flexibility and Integration.",
+            "description": "Smart grid technologies enhance real-time monitoring, grid flexibility, and the integration of renewables, while Distributed Energy Resources (DERs) improve system resilience by decentralizing power generation and reducing reliance on centralized grids."
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1282.webp",
+              "caption": "image caption"
+            },
+            "title": "Targeted Adaptation Measures Ensure Long-Term Energy Security.",
+            "description": "Identifying physical and operational vulnerabilities through risk mapping and predictive modeling helps policymakers and utilities implement targeted adaptation measures, ensuring long-term energy security and sustainability."
           }
         ]
       }
