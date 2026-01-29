@@ -679,29 +679,101 @@ class PhotoHorizontal(FrameBase):
             caption=caption if caption else None
         )
 
-        
+        # --- Infographic Frame ---
 class Infographic(FrameBase):
+    """
+    Exports to:
+
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full" | "half",
+      "content": {
+        "image": {"src": "...", "caption": "..."},
+        "metadata": {"title": "...", "subtitle": "...", "description": "...", "footnote": "..."}
+      }
+    }
+    """
+    size: Literal["full", "half"]
     image: dict
-    size: str = "full"
+    metadata: dict
+
+    # Default placeholder text that should be suppressed
+    _DEFAULT_SUMMARY = "Summary of the diagram. Otherwise, feel free to remove it."
+    _DEFAULT_NOTE = "Note if necessary; otherwise, feel free to remove it."
 
     @classmethod
     def from_node(cls, node: Node) -> "Infographic":
         assert node.name.strip().lower() == "infographic", f"Expected infographic node, got {node.name}"
 
-        image = {
-            "src": node.id,     # direct use of frame ID, matching export logic
-            "caption": None,
-            "url": None
-        }
-
+        # Size
         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
-        size = "full" if width >= 1000 else "half"
+        size: Literal["full", "half"] = "full" if width >= 1000 else "half"
+
+        # ---- Image: first top-level RECTANGLE with IMAGE fill ----
+        image_rect = None
+        for child in (node.children or []):
+            if getattr(child, "type", "") != "RECTANGLE":
+                continue
+            fills = getattr(child, "fills", []) or []
+            if any(isinstance(f, dict) and f.get("type") == "IMAGE" for f in fills):
+                image_rect = child
+                break
+
+        image_src = getattr(image_rect, "id", None) if image_rect else None
+
+        # ---- Metadata: pull from the "Light Template" INSTANCE ----
+        template_inst = next(
+            (c for c in (node.children or []) if getattr(c, "type", "") == "INSTANCE" and (c.name or "").strip().lower() == "light template"),
+            None
+        )
+
+        def _text_by_name(inst: Node, text_name: str) -> tuple[str, Node | None]:
+            """
+            Returns (text, text_node). If missing -> ("", None)
+            """
+            if not inst:
+                return ("", None)
+            for c in (inst.children or []):
+                if getattr(c, "type", "") == "TEXT" and (c.name or "").strip().lower() == text_name.lower():
+                    # Preserve styled links/underline etc. when present
+                    try:
+                        return (ModuleText._extract_styled_text(c).strip(), c)
+                    except Exception:
+                        return ((getattr(c, "characters", "") or "").strip(), c)
+            return ("", None)
+
+        title, _ = _text_by_name(template_inst, "Title")
+        subtitle, subtitle_node = _text_by_name(template_inst, "Summary")
+        footnote, _ = _text_by_name(template_inst, "Source")
+        description, _ = _text_by_name(template_inst, "Note")
+
+        # Suppress default placeholder summary (even if the node is hidden)
+        if subtitle.strip() == cls._DEFAULT_SUMMARY:
+            subtitle = ""
+
+        # Suppress default placeholder note (same idea)
+        if description.strip() == cls._DEFAULT_NOTE:
+            description = ""
+
+        # (Optional) If Summary is hidden and you want it blank regardless, uncomment:
+        # if subtitle_node is not None and getattr(subtitle_node, "visible", True) is False:
+        #     subtitle = ""
 
         return cls(
             template_id="infographic",
             color_scheme="light",
             size=size,
-            image=image
+            image={
+                "src": image_src,
+                "caption": ""
+            },
+            metadata={
+                "title": title or "",
+                "subtitle": subtitle or "",
+                "description": description or "",
+                "footnote": footnote or "",
+            }
         )
 
 
