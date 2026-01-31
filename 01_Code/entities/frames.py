@@ -681,86 +681,86 @@ class PhotoHorizontal(FrameBase):
 
 
 class Infographic(FrameBase):
+    """
+    Expected Figma structure (at minimum):
+      infographic (FRAME)
+        └─ infographic-design (FRAME)   <-- this is what we export as the image
+
+    Output schema:
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full" | "half",
+      "content": {
+        "image": {"src": "<node id>", "caption": ""},
+        "metadata": {"title": "", "subtitle": "", "description": "", "footnote": ""}
+      }
+    }
+    """
+
+    TEMPLATE_ID: ClassVar[str] = "infographic"
+
     size: Literal["full", "half"]
     image: dict
     metadata: dict
 
-    _DEFAULT_SUMMARY = "Summary of the diagram. Otherwise, feel free to remove it."
-    _DEFAULT_NOTE = "Note if necessary; otherwise, feel free to remove it."
+    @staticmethod
+    def _find_child_frame(parent: Node, name: str) -> Node | None:
+        target = name.strip().lower()
+        for child in getattr(parent, "children", []) or []:
+            if getattr(child, "type", "").upper() == "FRAME" and (getattr(child, "name", "") or "").strip().lower() == target:
+                return child
+        return None
 
     @staticmethod
-    def _norm_text(s: str) -> str:
-        """Normalize for placeholder matching (strip, collapse whitespace, ignore <br />)."""
-        s = (s or "").replace("<br />", " ").replace("\n", " ").strip()
-        s = _re.sub(r"\s+", " ", s)
-        return s
+    def _find_first_text(parent: Node, names: list[str]) -> Node | None:
+        wanted = {n.strip().lower() for n in names}
+        stack = list(getattr(parent, "children", []) or [])
+        while stack:
+            n = stack.pop()
+            if getattr(n, "type", "").upper() == "TEXT":
+                nm = (getattr(n, "name", "") or "").strip().lower()
+                if nm in wanted:
+                    return n
+            stack.extend(getattr(n, "children", []) or [])
+        return None
 
     @classmethod
     def from_node(cls, node: Node) -> "Infographic":
         assert node.name.strip().lower() == "infographic", f"Expected infographic node, got {node.name}"
 
+        # Size logic consistent with Embed/Chart
         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
         size: Literal["full", "half"] = "full" if width >= 1000 else "half"
 
-        # image: first RECTANGLE with IMAGE fill
-        image_rect = None
-        for child in (node.children or []):
-            if getattr(child, "type", "") != "RECTANGLE":
-                continue
-            fills = getattr(child, "fills", []) or []
-            if any(isinstance(f, dict) and f.get("type") == "IMAGE" for f in fills):
-                image_rect = child
-                break
-        image_src = getattr(image_rect, "id", None) if image_rect else None
+        # The exported image should be the 'infographic-design' frame (NOT the wrapper 'infographic' frame).
+        design = cls._find_child_frame(node, "infographic-design")
+        if not design:
+            raise ValueError(f"Infographic frame missing 'infographic-design' child: {getattr(node, 'id', None)}")
 
-        template_inst = next(
-            (c for c in (node.children or [])
-             if getattr(c, "type", "") == "INSTANCE"
-             and (c.name or "").strip().lower() == "light template"),
-            None
-        )
+        # Metadata fields (optional; keep robust if your Figma varies)
+        title_node = cls._find_first_text(node, ["title"])
+        subtitle_node = cls._find_first_text(node, ["subtitle"])
+        description_node = cls._find_first_text(node, ["description", "summary"])
+        footnote_node = cls._find_first_text(node, ["footnote", "source"])
 
-        def _text_by_name(inst: Node, text_name: str) -> tuple[str, Node | None]:
-            if not inst:
-                return ("", None)
-            for c in (inst.children or []):
-                if getattr(c, "type", "") == "TEXT" and (c.name or "").strip().lower() == text_name.lower():
-                    try:
-                        return (ModuleText._extract_styled_text(c).strip(), c)
-                    except Exception:
-                        return ((getattr(c, "characters", "") or "").strip(), c)
-            return ("", None)
-
-        title, _ = _text_by_name(template_inst, "Title")
-        subtitle, subtitle_node = _text_by_name(template_inst, "Summary")
-        footnote, _ = _text_by_name(template_inst, "Source")
-        description, description_node = _text_by_name(template_inst, "Note")
-
-        # ---- suppression rules ----
-        sub_norm = cls._norm_text(subtitle)
-        note_norm = cls._norm_text(description)
-
-        if sub_norm == cls._DEFAULT_SUMMARY or (subtitle_node is not None and getattr(subtitle_node, "visible", True) is False):
-            subtitle = ""
-
-        if note_norm == cls._DEFAULT_NOTE or (description_node is not None and getattr(description_node, "visible", True) is False):
-            description = ""
+        title = (getattr(title_node, "characters", "") or "").strip() if title_node else ""
+        subtitle = (getattr(subtitle_node, "characters", "") or "").strip() if subtitle_node else ""
+        description = (getattr(description_node, "characters", "") or "").strip() if description_node else ""
+        footnote = (getattr(footnote_node, "characters", "") or "").strip() if footnote_node else ""
 
         return cls(
             template_id="infographic",
             color_scheme="light",
             size=size,
-            image={"src": image_src, "caption": ""},
+            image={"src": design.id, "caption": ""},
             metadata={
-                "title": title or "",
-                "subtitle": subtitle or "",
-                "description": description or "",
-                "footnote": footnote or "",
-            }
+                "title": title,
+                "subtitle": subtitle,
+                "description": description,
+                "footnote": footnote,
+            },
         )
-
-
-
 
 
 
