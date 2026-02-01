@@ -731,7 +731,7 @@ class Infographic(FrameBase):
 
         # Size logic consistent with Embed/Chart
         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
-        size: Literal["full", "half"] = "full" if width >= 1000 else "half"
+        size: Literal["full", "half"] = "full" if width-720 >= 1000 else "half"
 
         # The exported image should be the 'infographic-design' frame (NOT the wrapper 'infographic' frame).
         design = cls._find_child_frame(node, "infographic-design")
