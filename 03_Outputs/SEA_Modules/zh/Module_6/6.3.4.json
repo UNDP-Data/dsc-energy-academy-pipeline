@@ -59,6 +59,39 @@
       }
     },
     {
+      "template_id": "poll",
+      "color_scheme": "light",
+      "content": {
+        "pollId": "poll-6.3.4-text_to_lesson_part_cover-2fcc53",
+        "title": "<TEXT>推动可再生能源投资的因素</TEXT>",
+        "description": "哪个因素最影响对可再生能源项目的资金决策？",
+        "options": [
+          {
+            "id": 1,
+            "value": "Government incentives and policies"
+          },
+          {
+            "id": 2,
+            "value": "<strong>技术进步</strong>"
+          },
+          {
+            "id": 3,
+            "value": "公众需求与意识"
+          },
+          {
+            "id": 4,
+            "value": "长期节省成本"
+          }
+        ],
+        "labels": {
+          "submit": "提交",
+          "cancel": "取消",
+          "edit": "编辑您的回复",
+          "votingAs": "作为投票"
+        }
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -148,7 +181,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "随着气候变化影响的加剧，向低碳经济的公正和公平转型对于实现《巴黎协定》的气候目标至关重要。 如果管理不善，这一转变可能导致社会不平等增加、排斥、社会动荡以及企业竞争力下降。 为应对这些风险，许多国家将公平转型原则纳入其<a href=\"https://climatepromise.undp.org/news-and-stories/NDCs-nationally-determined-contributions-climate-change-what-you-need-to-know\"><u><ai prompt=\"What is nationally determined contributions?\">国家自主贡献 💬️</ai> (NDCs)</u></a>和<a href=\"https://climatepromise.undp.org/news-and-stories/long-term-climate-strategies-LTS-LTLEDS-climate-change\"><u>长期战略 (LTS)</u></a>中。 [needs translation] Currently, <a href=\"https://climatepromise.undp.org/research-and-reports/how-just-transition-can-help-deliver-paris-agreement\"><u>38% of NDCs and 56% of LTS</u></a> reflect these principles, with the support of various global initiatives.<br /><br />The creation of a dedicated <a href=\"https://www.wri.org/technical-perspectives/5-essential-principles-just-transition-work-programme-climate-action#:~:text=The%20JTWP%20was%20established%20at,ambition%20on%20the%20international%20stage.\"><u>Just Transition Work Programme at COP28</u></a> in Dubai marked a significant step forward in this endeavor. 这很重要，因为明确的全面气候政策框架标志，考虑到公平转型的影响，可以指导金融行为者将其转化为一系列可行或准备投资的项目。<br /> <br />对气候变化的交叉性方法必须超越表面解决方案，解决不平等的根本原因。 这意味着解决差异脆弱性的系统性驱动因素，例如种族和性别不平等，同时也将关怀的政治和伦理置于适应规划的核心。 它需要采用以地点为基础和地点创造的方法，尊重社区的独特背景和需求，以及促进跨身份的行动主义和韧性建设。"
+              "text": "随着气候变化影响的加剧，向低碳经济的公正和公平转型对于实现《巴黎协定》的气候目标至关重要。 如果管理不善，这一转变可能导致社会不平等增加、排斥、社会动荡以及企业竞争力下降。 为应对这些风险，许多国家将公平转型原则纳入其<a href=\"https://climatepromise.undp.org/news-and-stories/NDCs-nationally-determined-contributions-climate-change-what-you-need-to-know\"><u><ai prompt=\"What is nationally determined contributions?\">国家自主贡献 💬️</ai> (NDCs)</u></a>和<a href=\"https://climatepromise.undp.org/news-and-stories/long-term-climate-strategies-LTS-LTLEDS-climate-change\"><u>长期战略 (LTS)</u></a>中。 目前，<a href=\"https://climatepromise.undp.org/research-and-reports/how-just-transition-can-help-deliver-paris-agreement\"><u>38%的NDC和56%的LTS</u></a>反映了这些原则，并得到了各种全球倡议的支持。<br /><br />在迪拜举行的COP28上成立的< a href=\"https://www.wri.org/technical-perspectives/5-essential-principles-just-transition-work-programme-climate-action#:~:text=The%20JTWP%20was%20established%20at,ambition%20on%20the%20international%20stage.\"><u>公平转型工作计划</u></a>标志着这一努力的重要一步。 这很重要，因为明确的全面气候政策框架标志，考虑到公平转型的影响，可以指导金融行为者将其转化为一系列可行或准备投资的项目。<br /> <br />对气候变化的交叉性方法必须超越表面解决方案，解决不平等的根本原因。 这意味着解决差异脆弱性的系统性驱动因素，例如种族和性别不平等，同时也将关怀的政治和伦理置于适应规划的核心。 它需要采用以地点为基础和地点创造的方法，尊重社区的独特背景和需求，以及促进跨身份的行动主义和韧性建设。"
             }
           }
         ]
@@ -467,7 +500,7 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4768_8592.webp",
           "caption": ""
         },
-        "intro": "[needs translation] SIDS",
+        "intro": "SIDS",
         "title": "案例研究：基里巴斯",
         "subtitle": ""
       }

@@ -59,6 +59,39 @@
       }
     },
     {
+      "template_id": "poll",
+      "color_scheme": "light",
+      "content": {
+        "pollId": "poll-6.3.4-text_to_lesson_part_cover-2fcc53",
+        "title": "Factores que impulsan la inversión en energías renovables",
+        "description": "¿Qué factor influye más en las decisiones de financiar proyectos de energía renovable?",
+        "options": [
+          {
+            "id": 1,
+            "value": "Government incentives and policies"
+          },
+          {
+            "id": 2,
+            "value": "<strong>Avances tecnológicos</strong>"
+          },
+          {
+            "id": 3,
+            "value": "Demanda y conciencia pública"
+          },
+          {
+            "id": 4,
+            "value": "Ahorro a largo plazo"
+          }
+        ],
+        "labels": {
+          "submit": "Enviar",
+          "cancel": "Cancelar",
+          "edit": "Edita tu respuesta",
+          "votingAs": "Votando como"
+        }
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -148,7 +181,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "A medida que la influencia del cambio climático se intensifica, una transición justa y equitativa hacia una economía baja en carbono es crucial para cumplir con los objetivos climáticos del Acuerdo de París. Si no se gestiona bien, esta transición podría conducir a un aumento de la desigualdad social, la exclusión, el disturbio civil y una disminución de la competitividad empresarial. Para contrarrestar estos riesgos, muchos países están incorporando principios de transición justa en sus <a href=\"https://climatepromise.undp.org/news-and-stories/NDCs-nationally-determined-contributions-climate-change-what-you-need-to-know\"><u><ai prompt=\"What is nationally determined contributions?\">contribuciones determinadas a nivel nacional 💬️</ai> (NDCs)</u></a> y <a href=\"https://climatepromise.undp.org/news-and-stories/long-term-climate-strategies-LTS-LTLEDS-climate-change\"><u>Estrategias a largo plazo (LTS)</u></a>. [needs translation] Currently, <a href=\"https://climatepromise.undp.org/research-and-reports/how-just-transition-can-help-deliver-paris-agreement\"><u>38% of NDCs and 56% of LTS</u></a> reflect these principles, with the support of various global initiatives.<br /><br />The creation of a dedicated <a href=\"https://www.wri.org/technical-perspectives/5-essential-principles-just-transition-work-programme-climate-action#:~:text=The%20JTWP%20was%20established%20at,ambition%20on%20the%20international%20stage.\"><u>Just Transition Work Programme at COP28</u></a> in Dubai marked a significant step forward in this endeavor. Esto es importante porque una señalización clara de los marcos de políticas climáticas integrales que consideren las implicaciones de una transición justa puede guiar a los actores financieros en su traducción en una cartera de proyectos viables o listos para invertir.<br /> <br />Un enfoque interseccional del cambio climático debe ir más allá de soluciones superficiales y abordar las causas profundas de la desigualdad. Esto significa abordar los impulsores sistémicos de las vulnerabilidades diferenciales, como las desigualdades raciales y de género, mientras también se centra en la política y la ética del cuidado en la planificación de la adaptación. Requiere adoptar enfoques basados en el lugar y en la creación de lugares que respeten los contextos y necesidades únicos de las comunidades, así como fomentar formas de activismo y construcción de resiliencia entre diferentes identidades."
+              "text": "A medida que la influencia del cambio climático se intensifica, una transición justa y equitativa hacia una economía baja en carbono es crucial para cumplir con los objetivos climáticos del Acuerdo de París. Si no se gestiona bien, esta transición podría conducir a un aumento de la desigualdad social, la exclusión, el disturbio civil y una disminución de la competitividad empresarial. Para contrarrestar estos riesgos, muchos países están incorporando principios de transición justa en sus <a href=\"https://climatepromise.undp.org/news-and-stories/NDCs-nationally-determined-contributions-climate-change-what-you-need-to-know\"><u><ai prompt=\"What is nationally determined contributions?\">contribuciones determinadas a nivel nacional 💬️</ai> (NDCs)</u></a> y <a href=\"https://climatepromise.undp.org/news-and-stories/long-term-climate-strategies-LTS-LTLEDS-climate-change\"><u>Estrategias a largo plazo (LTS)</u></a>. Actualmente, <a href=\"https://climatepromise.undp.org/research-and-reports/how-just-transition-can-help-deliver-paris-agreement\"><u>38 % de las NDC y 56 % de las LTS</u></a> reflejan estos principios, con el apoyo de varias iniciativas globales.<br /><br />La creación de un <a href=\"https://www.wri.org/technical-perspectives/5-essential-principles-just-transition-work-programme-climate-action#:~:text=The%20JTWP%20was%20established%20at,ambition%20on%20the%20international%20stage.\"><u>Programa de trabajo para una transición justa en la COP28</u></a> en Dubái marcó un paso importante en este esfuerzo. Esto es importante porque una señalización clara de los marcos de políticas climáticas integrales que consideren las implicaciones de una transición justa puede guiar a los actores financieros en su traducción en una cartera de proyectos viables o listos para invertir.<br /> <br />Un enfoque interseccional del cambio climático debe ir más allá de soluciones superficiales y abordar las causas profundas de la desigualdad. Esto significa abordar los impulsores sistémicos de las vulnerabilidades diferenciales, como las desigualdades raciales y de género, mientras también se centra en la política y la ética del cuidado en la planificación de la adaptación. Requiere adoptar enfoques basados en el lugar y en la creación de lugares que respeten los contextos y necesidades únicos de las comunidades, así como fomentar formas de activismo y construcción de resiliencia entre diferentes identidades."
             }
           }
         ]
@@ -467,7 +500,7 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4768_8592.webp",
           "caption": ""
         },
-        "intro": "[needs translation] SIDS",
+        "intro": "SIDS",
         "title": "Estudio de caso: Kiribati",
         "subtitle": ""
       }
@@ -480,7 +513,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "En las islas remotas exteriores de Kiribati, donde más de la mitad de la población depende de generadores diésel, la inseguridad energética tiene un impacto directo en la salud, la educación y los medios de vida. Estos generadores dependen de combustible costoso enviado a través de vastas distancias oceánicas, a menudo retrasado por el clima o restricciones presupuestarias. Los apagones son frecuentes, dejando clínicas sin energía y perturbando los servicios esenciales. El aumento del nivel del mar y la salpicadura de sal aceleran los daños en la infraestructura, haciendo que las reparaciones sean constantes y costosas. Reconociendo que los modelos energéticos centralizados no eran adecuados para su geografía, el Gobierno de Kiribati, con el apoyo del PNUD, lanzó POIDIER, una hoja de ruta centrada en la energía renovable descentralizada (<a href=\"https://info.undp.org/docs/pdc/Documents/KIR/Signed%20Prodoc_both%20parties%20signed.pdf\"><u>PNUD, 2017</u></a>). Kiribati comprende 33 islas, de las cuales 23 están habitadas, incluyendo 21 islas exteriores que son remotas, escasamente pobladas y enfrentan graves desafíos en el acceso a la energía. La iniciativa se centró en evaluar las vulnerabilidades de infraestructura en estas islas exteriores y en adaptar las instalaciones solares fotovoltaicas a las condiciones únicas de cada grupo de islas. <a href=\"https://info.undp.org/docs/pdc/Documents/KIR/Signed%20Prodoc_both%20parties%20signed.pdf\"><u>UNDP, 2017, p.</u></a> 4)</u></a>. <br />El impacto del proyecto provino tanto de la tecnología utilizada como de la participación de las comunidades locales. Los consejos insulares trabajaron junto a ingenieros para seleccionar sitios seguros y elevados para los sistemas solares, equilibrando las necesidades técnicas con el acceso comunitario. Por primera vez, las mujeres fueron capacitadas como técnicas solares a través de talleres comunitarios impartidos en el idioma local, con horarios adaptados a las responsabilidades de cuidado (<a href=\"https://www.adaptation-undp.org/locally-sourced-how-kiribati-shoring-food-security-and-community-resilience-face-global-climate\"><u>UNDP, 2023</u></a>). Los kits de piezas de repuesto se colocaron previamente en los centros de salud y las escuelas, edificios que permanecen accesibles durante las inundaciones, permitiendo reparaciones locales sin esperar a los equipos externos. Auditorías energéticas de rutina, dirigidas por técnicos recién capacitados, se integraron en las reuniones mensuales de gobernanza del pueblo. En un entorno donde las cadenas de suministro son impredecibles, construir la propiedad comunitaria resultó ser más confiable que depender del apoyo externo."
+              "text": "En las islas remotas exteriores de Kiribati, donde más de la mitad de la población depende de generadores diésel, la inseguridad energética tiene un impacto directo en la salud, la educación y los medios de vida. Estos generadores dependen de combustible costoso enviado a través de vastas distancias oceánicas, a menudo retrasado por el clima o restricciones presupuestarias. Los apagones son frecuentes, dejando clínicas sin energía y perturbando los servicios esenciales. El aumento del nivel del mar y la salpicadura de sal aceleran los daños en la infraestructura, haciendo que las reparaciones sean constantes y costosas. Reconociendo que los modelos energéticos centralizados no eran adecuados para su geografía, el Gobierno de Kiribati, con el apoyo del PNUD, lanzó POIDIER, una hoja de ruta centrada en la energía renovable descentralizada (<a href=\"https://info.undp.org/docs/pdc/Documents/KIR/Signed%20Prodoc_both%20parties%20signed.pdf\"><u>PNUD, 2017</u></a>). Kiribati comprende 33 islas, de las cuales 23 están habitadas, incluyendo 21 islas exteriores que son remotas, escasitamente pobladas y enfrentan graves desafíos en el acceso a la energía. La iniciativa se centró en evaluar las vulnerabilidades de infraestructura en estas islas exteriores y en adaptar las instalaciones solares fotovoltaicas a las condiciones únicas de cada grupo de islas. <a href=\"https://info.undp.org/docs/pdc/Documents/KIR/Signed%20Prodoc_both%20parties%20signed.pdf\"><u>UNDP, 2017, p.</u></a> 4)</u></a>. <br />El impacto del proyecto provino tanto de la tecnología utilizada como de la participación de las comunidades locales. Los consejos insulares trabajaron junto a ingenieros para seleccionar sitios seguros y elevados para los sistemas solares, equilibrando las necesidades técnicas con el acceso comunitario. Por primera vez, las mujeres fueron capacitadas como técnicas solares a través de talleres comunitarios impartidos en el idioma local, con horarios adaptados a las responsabilidades de cuidado (<a href=\"https://www.adaptation-undp.org/locally-sourced-how-kiribati-shoring-food-security-and-community-resilience-face-global-climate\"><u>UNDP, 2023</u></a>). Los kits de piezas de repuesto se colocaron previamente en los centros de salud y las escuelas, edificios que permanecen accesibles durante las inundaciones, permitiendo reparaciones locales sin esperar a los equipos externos. Auditorías energéticas de rutina, dirigidas por técnicos recién capacitados, se integraron en las reuniones mensuales de gobernanza del pueblo. En un entorno donde las cadenas de suministro son impredecibles, construir la propiedad comunitaria resultó ser más confiable que depender del apoyo externo."
             }
           }
         ]

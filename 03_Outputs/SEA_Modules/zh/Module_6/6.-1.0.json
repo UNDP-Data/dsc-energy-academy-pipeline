@@ -87,11 +87,11 @@
             "messages": {
               "correct": {
                 "title": "正确",
-                "body": "SF₆具有最高的全球变暖潜能（GWP）——大约是二氧化碳的25,200倍——因此成为能源分配中减排的关键目标。"
+                "body": "SF₆的全球变暖潜能（GWP）最高，约为二氧化碳的25,200倍，使其成为能源分配中减排的关键目标。"
               },
               "wrong": {
                 "title": "不正确",
-                "body": "SF₆具有最高的全球变暖潜能（GWP）——大约是二氧化碳的25,200倍——因此成为能源分配中减排的关键目标。"
+                "body": "SF₆的全球变暖潜能（GWP）最高，约为二氧化碳的25,200倍，使其成为能源分配中减排的关键目标。"
               }
             }
           },
@@ -283,6 +283,43 @@
                 "body": "交通是终端二氧化碳排放的最大来源，负责超过三分之一，使其成为通过电气化和效率提升实现脱碳的优先行业。"
               }
             }
+          },
+          {
+            "id": 8,
+            "prompt": "为什么生命周期排放分析对于比较可再生能源和化石能源技术至关重要？",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "因为它揭示了超出使用点的真实排放影响"
+              },
+              {
+                "id": 2,
+                "value": "因为它只测量燃料燃烧产生的排放"
+              },
+              {
+                "id": 3,
+                "value": "因为可再生能源即使在包括制造和处置后，也可能显示较低的总排放量"
+              },
+              {
+                "id": 4,
+                "value": "因为它是政府用来设定气候目标的唯一指标"
+              }
+            ],
+            "solution": [
+              1,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "生命周期分析包括来自建设、使用和退役的排放。 它突出了可再生能源即使在考虑所有阶段时仍然具有较低的排放。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "生命周期分析包括来自建设、使用和退役的排放。 它突出了可再生能源即使在考虑所有阶段时仍然具有较低的排放。"
+              }
+            }
           }
         ]
       }
@@ -292,7 +329,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.webp",
           "caption": ""
         },
         "intro": "接下来",

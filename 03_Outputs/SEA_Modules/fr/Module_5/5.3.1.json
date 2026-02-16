@@ -2,23 +2,20 @@
   "id": "5.3.1",
   "segments": [
     {
-      "template_id": "photo_full_height",
+      "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5081_128.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/4768_5040.webp",
           "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5079_638.webp",
-          "caption": ""
-        }
+        },
+        "lesson": {
+          "label": "Leçon",
+          "number": "1"
+        },
+        "title": "Planification et Instruments Stratégiques",
+        "cta": "",
+        "intro": "M5 : Gouvernance de l'énergie pour une transition énergétique juste"
       }
     },
     {
@@ -27,37 +24,15 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Vue d'ensemble de la leçon 1</strong>"
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Comme on le voit, les NEPs diffèrent selon le contexte du pays, les composants communs incluent :<br /><br />Vision et Objectifs : Objectifs énergétiques à long terme (par exemple, zéro émission nette d'ici 2050, accès à 100 % à l'électricité d'ici 2030)<br />Projections de la Demande et de l'Offre d'Énergie : Prévisions dans différents secteurs et scénarios<br />Allocation des Ressources et Mix Technologique : Priorisation des sources d'énergie et des technologies<br />Questions Transversales : Genre, adaptation au climat, finance, décentralisation et création d'emplois<br />Cadres Juridiques, Institutionnels et Réglementaires : Rôles du gouvernement, des services publics et du secteur privé"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "dark",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Rwanda</strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "dark",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Inde</strong>"
+              "text": "Cette leçon présente les instruments nationaux clés utilisés pour planifier et mettre en œuvre des transitions énergétiques durables, y compris les stratégies à long terme, les politiques énergétiques nationales et les plans d'action sectoriels. Il examine comment les pays fixent des objectifs énergétiques et climatiques, les alignent avec les priorités de développement, et les opérationnalisent à travers des outils comme des plans d'énergie renouvelable, des stratégies d'efficacité, et <ai prompt=\"Tell me more about clean cooking.\">des feuilles de route pour la cuisson propre 💬️</ai>."
             }
           }
         ]
@@ -68,11 +43,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5079_126.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/4768_5007.webp",
           "caption": ""
         },
         "intro": "M5 : Gouvernance de l'énergie pour une transition énergétique juste",
-        "title": "B : Plans d'action sectoriels et thématiques"
+        "title": "A : Stratégies nationales pour l'énergie et le climat"
       }
     },
     {
@@ -83,7 +58,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Alors que des politiques de haut niveau telles que la NEP et les LTS définissent des objectifs globaux en matière d'énergie et de climat, leur mise en œuvre dépend de plans d'action sectoriels et thématiques ciblés. Ces plans traduisent l'intention stratégique en résultats mesurables par le biais d'interventions concrètes adaptées à des secteurs spécifiques tels que l'énergie renouvelable, <ai prompt=\"Partager des détails sur l'efficacité énergétique.\">l'efficacité énergétique 💬️</ai>, le transport et la cuisson propre. Cette section met en évidence quatre types clés de plans d'action qui servent d'instruments essentiels pour réaliser les engagements climatiques nationaux et internationaux."
+              "text": "<strong>La crise climatique mondiale est, en son cœur, une crise énergétique.</strong> <br /><br /></strong>Plus de 70 % des émissions mondiales de gaz à effet de serre proviennent de la production, de la transformation et de la consommation d'énergie, principalement à partir de sources de combustibles fossiles telles que le charbon, le pétrole et le gaz naturel. Alors que le consensus scientifique sur l'urgence de limiter le réchauffement climatique mondial se renforce, il est de plus en plus évident que la réalisation des objectifs climatiques internationaux dépend fondamentalement de la transformation du système énergétique mondial.<br /><br />Le développement de la politique climatique internationale a suivi une trajectoire d'expansion de la portée et de l'ambition.<br /><br />Alors que les premiers cadres se concentraient principalement sur la réduction des émissions, les accords ultérieurs ont intégré de manière plus explicite les objectifs de transition énergétique dans la gouvernance climatique mondiale."
             }
           }
         ]
@@ -97,118 +72,59 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong> <ai prompt=\"What is clean cooking?\">cuisine propre 💬️</ai> Plans d'action et stratégies</strong>"
+              "text": "<strong><ai prompt=\"Explain nationally determined contributions.\">contributions déterminées au niveau national 💬️</ai> (NDCs) </strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Les plans d'action pour une cuisine propre sont des stratégies globales visant à accélérer la transition vers des solutions de cuisson modernes et à réduire la dépendance à des combustibles polluants tels que le bois, le charbon de bois et le kérosène. Ces plans définissent des objectifs nationaux pour l'accès à des combustibles et des technologies propres, identifient les interventions prioritaires et établissent des mécanismes pour le changement de comportement, le financement et le développement du marché. Les plans d'action pour une cuisine propre abordent la pauvreté énergétique, les risques pour la santé liés à la pollution de l'air intérieur, et les disparités entre les sexes en promouvant des solutions abordables, culturellement appropriées et respectueuses de l'environnement. Leur conception et leur mise en œuvre nécessitent une coordination entre les ministères de l'énergie, de la santé, de l'environnement et du genre, et doivent être soutenues par des cadres réglementaires favorables, des subventions ciblées et des campagnes de sensibilisation du public."
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<br />Les feuilles de route pour la mobilité électrique sont des outils de planification stratégique qui fixent des échéances et des objectifs pour l'adoption des véhicules électriques (VE) tout en guidant le développement des infrastructures et le soutien à l'industrie locale. Ces plans combinent généralement des mesures du côté de la demande (par exemple, des subventions à l'achat de véhicules électriques, des exonérations de droits d'importation) avec des facilitateurs du côté de l'offre (par exemple, des infrastructures de recharge publiques, une production locale de batteries)."
+              "text": "Les NDC sont les principaux instruments de planification par lesquels les Parties à l'Accord de Paris communiquent leurs ambitions climatiques. En tant que déclarations de politique et cadres stratégiques, les NDCs servent à opérationnaliser les objectifs mondiaux de température établis dans les Articles 2 et 4 de l'Accord. <br /><br />Bien que les objectifs d'atténuation et les réductions d'émissions sectorielles restent au cœur des NDC, le secteur de l'énergie occupe un rôle particulièrement important. <br /><br /><strong>Étant donné que les systèmes énergétiques représentent plus de 70 pour cent des émissions mondiales de gaz à effet de serre, la transition des combustibles fossiles vers des systèmes énergétiques renouvelables durables, suffisants et efficaces n'est pas seulement une exigence technique, mais aussi une condition structurelle pour atteindre les objectifs de l'Accord de Paris.</strong>"
             }
           }
         ]
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Plans d'action nationaux pour l'efficacité énergétique (NEEAPs)</strong>"
-            }
-          },
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Plans d'action nationaux pour l'énergie renouvelable (NREAPs)</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Les NEEAPs décrivent des interventions sectorielles spécifiques pour réduire l'intensité énergétique et optimiser l'utilisation de l'énergie dans les secteurs résidentiel, commercial, industriel et des transports. Les caractéristiques communes incluent l'introduction de Normes de Performance Énergétique Minimale (MEPS), des incitations basées sur le marché et des campagnes de sensibilisation du public. Les NEEAPs privilégient également les réformes institutionnelles, telles que la création d'Unités d'efficacité énergétique et de comités de surveillance dédiés, <br> pour soutenir une mise en œuvre efficace. Ces plans fonctionnent à la fois comme des feuilles de route techniques et des outils de gouvernance, et favorisent la clarté réglementaire, l'engagement des parties prenantes et des économies d'énergie à long terme."
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Les NREAPs fonctionnent comme des documents de planification essentiels qui définissent l'approche à moyen terme d'un pays pour augmenter l'énergie renouvelable. Leur objectif principal est de mettre en œuvre la stratégie énergétique nationale ou les engagements climatiques, tels que ceux articulés dans <ai prompt=\"Clarify nationally determined contributions.\">les contributions déterminées au niveau national 💬️</ai> (NDCs), en établissant des objectifs pour les énergies renouvelables, en identifiant les technologies prioritaires et en détaillant les mesures politiques et financières facilitantes. Ces plans s'étendent souvent sur un horizon de 10 à 15 ans et offrent des voies de mise en œuvre spécifiques au secteur pour l'hydroélectricité, l'éolien, le solaire, la géothermie et la bioénergie. Les NREAP efficaces vont au-delà de la fixation d'objectifs. Ils fournissent des cadres juridiques, réglementaires et institutionnels pour soutenir le développement de projets, faciliter l'intégration au réseau, promouvoir l'accès à l'énergie distribuée et attirer des investissements privés."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "key_takeaways",
-      "color_scheme": "dark",
-      "content": {
-        "title": "Points clés",
-        "intro": "",
-        "takeaways": []
-      }
-    },
-    {
-      "template_id": "photo_full_height",
+      "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5079_626.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5079_615.webp",
           "caption": ""
-        }
+        },
+        "intro": "M7 : Données sur l'énergie durable",
+        "title": "BOX: The Paris Agreement And NDCs"
       }
     },
     {
       "template_id": "text",
-      "color_scheme": "light",
+      "color_scheme": "dark",
       "content": {
         "text_elements": [
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Selon le Rapport sur l'écart de production de 2023 de l'UNEP, il est prévu que les gouvernements produisent 110 % de combustibles fossiles en plus en 2030 par rapport à ce qui serait cohérent avec une trajectoire de 1,5 °C, et 69 % de plus que ce qui s'alignerait avec une trajectoire de 2 °C.</strong> <br /><br /></strong>D'ici 2050, l'écart de production devrait atteindre respectivement 350 % et 150  %. Sans mécanismes pour gérer les implications en matière d'équité de la transition vers des énergies non fossiles, y compris le déplacement d'emplois et les défis liés à l'accessibilité, ces objectifs climatiques et énergétiques sont peu susceptibles d'être atteints à l'échelle ou au rythme nécessaires."
+              "text": "<strong>L'Accord de Paris, adopté en 2015 dans le cadre de la Convention-cadre des Nations Unies sur les changements climatiques (CCNUCC), marque un tournant dans l'intégration de la politique énergétique dans la gouvernance climatique mondiale.</strong> Alors que les cadres internationaux antérieurs considéraient la transition énergétique comme une conséquence indirecte des efforts d'atténuation, l'Accord de Paris la place au cœur de la mise en œuvre.<br /><br /></strong>Ses objectifs de température à long terme, visant à maintenir le réchauffement climatique bien en dessous de 2°C et idéalement à 1,5°C au-dessus des niveaux préindustriels, nécessitent intrinsèquement une réduction substantielle des émissions de gaz à effet de serre, dont la principale source est la combustion de combustibles fossiles pour l'énergie. Atteindre ces objectifs de température ambitieux nécessite un changement fondamental vers des sources d'énergie plus propres."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Le Bilan Mondial (GST)</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Malgré cela, l'intégration des <ai prompt=\"Partager des détails sur la transition énergétique juste.\">principes de transition énergétique juste 💬️</ai> dans les NDC reste peu développée et incohérente. <br /><br /><strong>Seuls 40 % des NDC actuels contiennent une référence à la transition juste.</strong> Parmi ceux-ci, seulement 17 % incluent une section dédiée abordant les dimensions sociales, économiques et distributives des transitions énergétiques.</strong> La proportion de ces NDC est encore plus faible parmi les pays en développement, où les risques de perturbations sociales, de pauvreté énergétique et d'exclusion sont souvent plus aigus.<br /><br /><strong>De plus, le rapport de synthèse 2023 de la CCNUCC a révélé que seulement 31 % des Parties abordent explicitement les impacts inégaux des mesures climatiques sur les travailleurs et les groupes vulnérables.</strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "dark",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>L'Accord de Paris, adopté en 2015 dans le cadre de la Convention-cadre des Nations Unies sur les changements climatiques (CCNUCC), marque un tournant dans l'intégration de la politique énergétique dans la gouvernance climatique mondiale.</strong> Alors que les cadres internationaux antérieurs considéraient la transition énergétique comme une conséquence indirecte des efforts d'atténuation, l'Accord de Paris la place au cœur de la mise en œuvre.<br /><br /></strong>Ses objectifs de température à long terme, visant à maintenir le réchauffement climatique bien en dessous de 2°C et idéalement à 1,5°C au-dessus des niveaux préindustriels, nécessitent intrinsèquement une réduction substantielle des émissions de gaz à effet de serre, dont la principale source est la combustion de combustibles fossiles pour l'énergie. Atteindre ces objectifs de température ambitieux nécessite un changement fondamental vers des sources d'énergie plus propres."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "dark",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>L'Accord de Paris, adopté en 2015 dans le cadre de la Convention-cadre des Nations Unies sur les changements climatiques (CCNUCC), marque un tournant dans l'intégration de la politique énergétique dans la gouvernance climatique mondiale.</strong> Alors que les cadres internationaux antérieurs considéraient la transition énergétique comme une conséquence indirecte des efforts d'atténuation, l'Accord de Paris la place au cœur de la mise en œuvre.<br /><br /></strong>Ses objectifs de température à long terme, visant à maintenir le réchauffement climatique bien en dessous de 2°C et idéalement à 1,5°C au-dessus des niveaux préindustriels, nécessitent intrinsèquement une réduction substantielle des émissions de gaz à effet de serre, dont la principale source est la combustion de combustibles fossiles pour l'énergie. Atteindre ces objectifs de température ambitieux nécessite un changement fondamental vers des sources d'énergie plus propres."
+              "text": "La TPS est un mécanisme clé de responsabilité établi en vertu de l'article 14 de l'Accord de Paris. Se produisant tous les cinq ans, il évalue les progrès collectifs de tous les pays vers la réalisation des objectifs à long terme de l'Accord, en particulier ceux liés à l'atténuation, à l'adaptation et aux moyens de mise en œuvre, y compris le financement, la technologie et le renforcement des capacités.<br /><br />Le premier Bilan mondial s'est conclu en 2023 et a fourni des informations essentielles sur l'état mondial de l'ambition climatique. Parmi ses découvertes les plus frappantes, il y avait l'écart persistant entre les contributions déterminées au niveau national (NDC) actuelles et les trajectoires d'émissions compatibles avec la limitation du réchauffement climatique à 1,5°C : il a souligné que sans une accélération rapide du déploiement des énergies propres et une baisse correspondante de l'utilisation des combustibles fossiles, les objectifs de température de Paris resteront inaccessibles."
             }
           }
         ]
@@ -236,34 +152,320 @@
     },
     {
       "template_id": "text",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Le Bilan Mondial (GST)</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La TPS est un mécanisme clé de responsabilité établi en vertu de l'article 14 de l'Accord de Paris. Se produisant tous les cinq ans, il évalue les progrès collectifs de tous les pays vers la réalisation des objectifs à long terme de l'Accord, en particulier ceux liés à l'atténuation, à l'adaptation et aux moyens de mise en œuvre, y compris le financement, la technologie et le renforcement des capacités.<br /><br />Le premier Bilan mondial s'est conclu en 2023 et a fourni des informations essentielles sur l'état mondial de l'ambition climatique. Parmi ses découvertes les plus frappantes, il y avait l'écart persistant entre les contributions déterminées au niveau national (NDC) actuelles et les trajectoires d'émissions compatibles avec la limitation du réchauffement climatique à 1,5°C : il a souligné que sans une accélération rapide du déploiement des énergies propres et une baisse correspondante de l'utilisation des combustibles fossiles, les objectifs de température de Paris resteront inaccessibles."
+              "text": ""
             }
           }
         ]
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Selon le Rapport sur l'écart de production de 2023 de l'UNEP, il est prévu que les gouvernements produisent 110 % de combustibles fossiles en plus en 2030 par rapport à ce qui serait cohérent avec une trajectoire de 1,5 °C, et 69 % de plus que ce qui s'alignerait avec une trajectoire de 2 °C.</strong> <br /><br /></strong>D'ici 2050, l'écart de production devrait atteindre respectivement 350 % et 150  %. Sans mécanismes pour gérer les implications en matière d'équité de la transition vers des énergies non fossiles, y compris le déplacement d'emplois et les défis liés à l'accessibilité, ces objectifs climatiques et énergétiques sont peu susceptibles d'être atteints à l'échelle ou au rythme nécessaires."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Malgré cela, l'intégration des <ai prompt=\"Partager des détails sur la transition énergétique juste.\">principes de transition énergétique juste 💬️</ai> dans les NDC reste peu développée et incohérente. <br /><br /><strong>Seuls 40 % des NDC actuels contiennent une référence à la transition juste.</strong> Parmi ceux-ci, seulement 17 % incluent une section dédiée abordant les dimensions sociales, économiques et distributives des transitions énergétiques.</strong> La proportion de ces NDC est encore plus faible parmi les pays en développement, où les risques de perturbations sociales, de pauvreté énergétique et d'exclusion sont souvent plus aigus.<br /><br /><strong>De plus, le rapport de synthèse 2023 de la CCNUCC a révélé que seulement 31 % des Parties abordent explicitement les impacts inégaux des mesures climatiques sur les travailleurs et les groupes vulnérables.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5079_558.webp",
-          "caption": null,
-          "url": null
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5079_626.webp",
+          "caption": ""
         }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Stratégies climatiques à long terme </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />Ils peuvent aider à évaluer et à démontrer les avantages socio-économiques. Par exemple, le LTS du Chili a montré que se diriger vers <ai prompt=\"Partager des détails sur la neutralité carbone.\">la neutralité carbone 💬️</ai> d'ici 2050 pourrait entraîner des économies économiques directes de plus de 267 milliards de dollars américains, en tenant compte uniquement des objectifs énergétiques. Ces évaluations aident les décideurs à justifier des politiques publiques respectueuses du climat, y compris celles présentant de forts avantages sociaux, tels que <strong>une amélioration des résultats en matière de santé</strong>, <strong>une extension de l'accès à l'énergie</strong>, <strong>la sécurité de l'emploi</strong> et <strong>une résilience renforcée</strong>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br /><br />Ils peuvent aider à renforcer et à guider les NDC. Une LTS offre une vision à long terme qui donne de la cohérence et une orientation aux engagements climatiques nationaux à court terme tels que les Contributions Déterminées au niveau National, ou NDCs. Le LTS permet à un pays de relier la planification du développement à court terme (y compris son NDC) à ses objectifs à long terme, en fournissant un cadre pour l'élaboration des politiques. <br /><br />Ils aident à prévenir les investissements intensifs en combustibles fossiles. Lorsqu'un pays articule sa <strong>LTS</strong>, il facilite les discussions sur l'ambition climatique et les réponses politiques possibles. Cela pourrait inclure une insistance sur la prévention des investissements dans des systèmes intensifs en combustibles fossiles qui retardent ou entravent la transition vers des alternatives à faible émission de carbone – ce qui mettrait en danger les efforts climatiques du pays et pourrait potentiellement entraîner des coûts plus élevés pour la transition vers une économie à faible émission de carbone. <br /><br />Ils envoient des signaux économiques clairs. LTS donne aux investisseurs des signaux précoces et prévisibles du marché autour des tendances technologiques et des plans de croissance à long terme. À son tour, un pays est capable de prendre des décisions plus efficaces sans regret concernant les investissements publics et privés et de guider la discussion publique sur les moyens d'atteindre un développement à faible émission de carbone. </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br /><br />Ils peuvent faciliter une transition juste. Lorsqu'un pays a un plan clair pour devenir durable, il doit prendre en compte les besoins de toutes les personnes qui pourraient être les plus affectées, y compris celles qui ont déjà des difficultés. Ceci s'appelle une <strong>transition juste</strong> et cela permet de s'assurer que personne n'est laissé pour compte. LTS peut fournir des conseils clairs sur la manière de gérer la transition de manière équitable et inclusive.<br /><br />Ils peuvent faciliter le financement climatique. LTS permet aux pays de planifier adéquatement les mécanismes de budgétisation pour financer des trajectoires de développement décarbonisées. Cela inclut la facilitation de l'accès au financement climatique international, qui devient de plus en plus important. <br /><br />Ils peuvent faciliter le renforcement institutionnel. La nature transversale de la LTS exige que les politiques publiques et les incitations fiscales soient bien alignées, avec l'adhésion des ministères clés. Par conséquent, la planification climatique à long terme encourage la coordination entre les secteurs et à tous les niveaux de gouvernement pour développer, inciter, mettre en œuvre et surveiller les actions climatiques clés."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Les Quatre Piliers de l'Intégration de la Transition Juste dans la Planification Climatique<br /><br /></strong>Reconnaissant les risques sociaux, économiques et politiques posés par une <ai prompt=\"Fournir plus d'informations sur la décarbonisation.\">décarbonisation 💬️</ai> non coordonnée, le PNUD a développé un cadre à quatre piliers pour intégrer les principes de transition juste dans les NDC et les LTS. <br /><br />Ce cadre, comprenant l'Évaluation, l'Engagement, le Soutien institutionnel et politique, et le Financement, répond au besoin croissant d'aligner les objectifs climatiques nationaux avec des transitions énergétiques inclusives, basées sur les droits et axées sur le développement."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Engagement</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le dialogue social et la participation inclusive sont essentiels pour renforcer la légitimité et réduire la résistance aux réformes de la transition énergétique. Le pilier de l'engagement se concentre sur des consultations structurées avec les principales parties prenantes, notamment les syndicats, les associations d'employeurs, les groupes de femmes, les peuples autochtones, les réseaux de jeunes et les gouvernements infranationaux. En Afrique du Sud, par exemple, le Conseil national pour le développement économique et le travail (NEDLAC) facilite le dialogue tripartite entre le gouvernement, le travail et les entreprises pour façonner la politique nationale de transition juste. À Antigua-et-Barbuda, des consultations ont été initiées avec des représentants des travailleurs et des acteurs sectoriels sur le développement résilient au climat."
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Évaluation</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Une planification efficace de la transition juste commence par une évaluation systématique. Le PNUD soutient les pays dans la réalisation d'évaluations qualitatives et quantitatives de transition, en utilisant des outils tels que la modélisation de l'emploi, la prévision macroéconomique et le diagnostic des emplois verts. Ces évaluations estiment les impacts des mesures de décarbonisation sur l'emploi, la répartition des revenus, les besoins en compétences, l'équité entre les sexes et les populations vulnérables. Par exemple, l'investissement dans les énergies renouvelables au Nigeria a montré un potentiel de création d'emplois de 150 emplois par <strong>$1 million</strong>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Évaluation</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le troisième pilier aborde les conditions structurelles et réglementaires nécessaires pour mettre en œuvre des mesures de transition juste à grande échelle. Il comprend l'élaboration de feuilles de route pour la transition à long terme, des cadres réglementaires pour la protection du travail, l'intégration du langage de transition juste dans les plans de développement nationaux, et la création de mécanismes de suivi et de responsabilisation. Par exemple, l'Arménie est en train de développer un cadre national pour une économie à faible émission de carbone et socialement inclusive. En Colombie, le PNUD a soutenu la conception de recommandations pour une transition juste dans le cadre de la stratégie du pays pour 2050, en reliant explicitement les politiques des secteurs de l'énergie, de l'agriculture et des transports aux résultats du marché du travail et au comportement des consommateurs."
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Soutien institutionnel, politique et capacitaire</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le troisième pilier aborde les conditions structurelles et réglementaires nécessaires pour mettre en œuvre des mesures de transition juste à grande échelle. Il comprend l'élaboration de feuilles de route pour la transition à long terme, des cadres réglementaires pour la protection du travail, l'intégration du langage de transition juste dans les plans de développement nationaux, et la création de mécanismes de suivi et de responsabilisation. Par exemple, l'Arménie est en train de développer un cadre national pour une économie à faible émission de carbone et socialement inclusive. En Colombie, le PNUD a soutenu la conception de recommandations pour une transition juste dans le cadre de la stratégie du pays pour 2050, en reliant explicitement les politiques des secteurs de l'énergie, de l'agriculture et des transports aux résultats du marché du travail et au comportement des consommateurs."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Engagement</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le dialogue social et la participation inclusive sont essentiels pour renforcer la légitimité et réduire la résistance aux réformes de la transition énergétique. Le pilier de l'engagement se concentre sur des consultations structurées avec les principales parties prenantes, notamment les syndicats, les associations d'employeurs, les groupes de femmes, les peuples autochtones, les réseaux de jeunes et les gouvernements infranationaux. En Afrique du Sud, par exemple, le Conseil national pour le développement économique et le travail (NEDLAC) facilite le dialogue tripartite entre le gouvernement, le travail et les entreprises pour façonner la politique nationale de transition juste. À Antigua-et-Barbuda, des consultations ont été initiées avec des représentants des travailleurs et des acteurs sectoriels sur le développement résilient au climat."
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Évaluation</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Une planification efficace de la transition juste commence par une évaluation systématique. Le PNUD soutient les pays dans la réalisation d'évaluations qualitatives et quantitatives de transition, en utilisant des outils tels que la modélisation de l'emploi, la prévision macroéconomique et le diagnostic des emplois verts. Ces évaluations estiment les impacts des mesures de décarbonisation sur l'emploi, la répartition des revenus, les besoins en compétences, l'équité entre les sexes et les populations vulnérables. Par exemple, l'investissement dans les énergies renouvelables au Nigeria a montré un potentiel de création d'emplois de 150 emplois par <strong>$1 million</strong>."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Évaluation</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le troisième pilier aborde les conditions structurelles et réglementaires nécessaires pour mettre en œuvre des mesures de transition juste à grande échelle. Il comprend l'élaboration de feuilles de route pour la transition à long terme, des cadres réglementaires pour la protection du travail, l'intégration du langage de transition juste dans les plans de développement nationaux, et la création de mécanismes de suivi et de responsabilisation. Par exemple, l'Arménie est en train de développer un cadre national pour une économie à faible émission de carbone et socialement inclusive. En Colombie, le PNUD a soutenu la conception de recommandations pour une transition juste dans le cadre de la stratégie du pays pour 2050, en reliant explicitement les politiques des secteurs de l'énergie, de l'agriculture et des transports aux résultats du marché du travail et au comportement des consommateurs."
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Soutien institutionnel, politique et capacitaire</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Le troisième pilier aborde les conditions structurelles et réglementaires nécessaires pour mettre en œuvre des mesures de transition juste à grande échelle. Il comprend l'élaboration de feuilles de route pour la transition à long terme, des cadres réglementaires pour la protection du travail, l'intégration du langage de transition juste dans les plans de développement nationaux, et la création de mécanismes de suivi et de responsabilisation. Par exemple, l'Arménie est en train de développer un cadre national pour une économie à faible émission de carbone et socialement inclusive. En Colombie, le PNUD a soutenu la conception de recommandations pour une transition juste dans le cadre de la stratégie du pays pour 2050, en reliant explicitement les politiques des secteurs de l'énergie, de l'agriculture et des transports aux résultats du marché du travail et au comportement des consommateurs."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5079_638.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Politique Énergétique Nationale (PEN)</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Les politiques énergétiques nationales (PEN) servent de cadre général pour guider la production, la distribution et la consommation d'énergie. Alors que les politiques diffèrent en portée et en ambition selon les pays, la plupart des NEP sont conçues pour répondre à trois objectifs fondamentaux : la sécurité énergétique, l'accessibilité et la durabilité environnementale, souvent appelés le trilemme énergétique.<br /><br />Au cœur de leur conception, les NEP définissent les priorités nationales à travers la <ai prompt=\"Qu'est-ce que la chaîne de valeur énergétique ?\">chaîne de valeur énergétique 💬️</ai>. Cela inclut des décisions sur le mélange énergétique (par exemple, la part des renouvelables, des combustibles fossiles, du nucléaire), des objectifs pour l'accès à l'énergie et l'efficacité, ainsi que des politiques pour attirer des investissements dans l'infrastructure. Dans le contexte du changement climatique et de la poussée mondiale pour la décarbonisation, de nombreux NEP intègrent désormais également des objectifs d'atténuation du climat alignés sur les NDC et les LTS."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5079_664.webp",
+          "caption": ""
+        },
+        "intro": "M7 : Données sur l'énergie durable",
+        "title": "BOX: NEP Examples"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Inde</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Rwanda</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Comme on le voit, les NEPs diffèrent selon le contexte du pays, les composants communs incluent :<br /><br />Vision et Objectifs : Objectifs énergétiques à long terme (par exemple, zéro émission nette d'ici 2050, accès à 100 % à l'électricité d'ici 2030)<br />Projections de la Demande et de l'Offre d'Énergie : Prévisions dans différents secteurs et scénarios<br />Allocation des Ressources et Mix Technologique : Priorisation des sources d'énergie et des technologies<br />Questions Transversales : Genre, adaptation au climat, finance, décentralisation et création d'emplois<br />Cadres Juridiques, Institutionnels et Réglementaires : Rôles du gouvernement, des services publics et du secteur privé"
+            }
+          }
+        ]
       }
     },
     {
@@ -274,9 +476,9 @@
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/4771_12241.webp",
           "caption": ""
         },
-        "intro": "[needs translation] SIDS",
+        "intro": "SIDS",
         "title": "Étude de cas : Barbade",
-        "subtitle": ""
+        "subtitle": "Barbados National Energy Policy (BNEP) 2019–2030: Building a Just and Renewable Energy Future"
       }
     },
     {
@@ -308,18 +510,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/4771_12263.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "dark",
       "content": {
@@ -327,7 +517,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Les résultats ont suivi rapidement. D'ici 2022, la Barbade avait installé environ 70 MW de capacité solaire PV, plus du double de son niveau de 2019. Le Saint. Parc solaire Lucy (10 MW), mis en service en 2016, génère environ 20 GWh par an, alimentant 7 700 foyers et compensant plus de 21 000 tonnes métriques d'émissions de CO₂ par an (<a href=\"https://www.ccreee.org/wp-content/uploads/2024/09/2022-Energy-Report-Card-Barbados_compressed.pdf\"><u>Centre caribéen pour les énergies renouvelables et l'efficacité énergétique, 2024</u></a> ; <a href=\"https://www.power-technology.com/\"><u>GlobalData/Power‑Technology, 2024</u></a>). <br />Les investissements du secteur public ont connu une expansion significative dans le cadre du Programme d'énergie intelligente de la Barbade. Le gouvernement a modernisé environ 85 % des lampadaires publics avec des technologies écoénergétiques et a installé des systèmes photovoltaïques solaires (<a href=\"https://gisbarbados.gov.bb/blog/barbados-to-retrofit-85-of-street-lights/?utm_source=chatgpt.com\"><u>GIS Barbados, 2023</u></a>). Notamment, l'Institut de technologie Samuel Jackman Prescod (SJPI) héberge un système solaire PV de 109 kW, qui génère plus de 200 000 kWh par an et économise environ 85 000 BBD chaque année. Ce système sert également de centre de formation pratique pour les étudiants en technologies des énergies renouvelables (<a href=\"https://gisbarbados.gov.bb/blog/solar-system-at-samuel-jackman-prescod-institute-of-technology/\"><u>GIS Barbados, 2023</u></a>). Dans le secteur des transports, la Barbados Transport Board a intégré des bus électriques dans sa flotte, totalisant 59 bus électriques à la mi-2023 (<a href=\"https://energy.gov.bb/barbados-transport-board-has-10-additional-electric-buses/\"><u>Gouvernement de la Barbade, 2023</u></a>). De plus, le gouvernement a encouragé l'adoption de véhicules électriques (VE) en réduisant les droits d'importation et la TVA sur les VE et les hybrides, tout en soutenant le développement des infrastructures de recharge. Ces initiatives ont contribué à une part croissante de véhicules électriques parmi les importations privées, reflétant une confiance accrue du public et des cadres politiques de soutien (<a href=\"https://www.centralbank.org.bb/news/general-press-release/transitioning-fully-to-renewable-energy\"><u>Banque centrale de la Barbade, 2023).</u></a>)"
+              "text": "Les résultats ont suivi rapidement. D'ici 2022, la Barbade avait installé environ 70 MW de capacité solaire PV, plus du double de son niveau de 2019. Le Saint. Lucy Solar Park (10 MW), mis en service en 2016, génère environ 20 GWh par an, alimentant 7 700 foyers et compensant plus de 21 000 tonnes métriques de CO₂ par an (<a href=\"https://www.ccreee.org/wp-content/uploads/2024/09/2022-Energy-Report-Card-Barbados_compressed.pdf\"><u>Centre caribéen pour les énergies renouvelables & <ai prompt=\"Clarifier l'efficacité énergétique.\">efficacité énergétique 💬️</ai></u></a> ; <a href=\"https://www.power-technology.com/\"><u>GlobalData/Power‑Technology, 2024</u></a>). <br />Les investissements du secteur public ont connu une expansion significative dans le cadre du Programme d'énergie intelligente de la Barbade. Le gouvernement a modernisé environ 85 % des lampadaires publics avec des technologies écoénergétiques et a installé des systèmes photovoltaïques solaires (<a href=\"https://gisbarbados.gov.bb/blog/barbados-to-retrofit-85-of-street-lights/?utm_source=chatgpt.com\"><u>GIS Barbados, 2023</u></a>). Notamment, l'Institut de technologie Samuel Jackman Prescod (SJPI) héberge un système solaire PV de 109 kW, qui génère plus de 200 000 kWh par an et économise environ 85 000 BBD chaque année. Ce système sert également de centre de formation pratique pour les étudiants en technologies des énergies renouvelables (<a href=\"https://gisbarbados.gov.bb/blog/solar-system-at-samuel-jackman-prescod-institute-of-technology/\"><u>GIS Barbados, 2023</u></a>). Dans le secteur des transports, la Barbados Transport Board a intégré des bus électriques dans sa flotte, totalisant 59 bus électriques à la mi-2023 (<a href=\"https://energy.gov.bb/barbados-transport-board-has-10-additional-electric-buses/\"><u>Gouvernement de la Barbade, 2023</u></a>). De plus, le gouvernement a encouragé l'adoption de véhicules électriques (VE) en réduisant les droits d'importation et la TVA sur les VE et les hybrides, tout en soutenant le développement des infrastructures de recharge. Ces initiatives ont contribué à une part croissante de véhicules électriques parmi les importations privées, reflétant une confiance accrue du public et des cadres politiques de soutien (<a href=\"https://www.centralbank.org.bb/news/general-press-release/transitioning-fully-to-renewable-energy\"><u>Banque centrale de la Barbade, 2023).</u></a>)"
             }
           }
         ]
@@ -348,322 +538,106 @@
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>Les Quatre Piliers de l'Intégration de la Transition Juste dans la Planification Climatique<br /><br /></strong>Reconnaissant les risques sociaux, économiques et politiques posés par une <ai prompt=\"Fournir plus d'informations sur la décarbonisation.\">décarbonisation 💬️</ai> non coordonnée, le PNUD a développé un cadre à quatre piliers pour intégrer les principes de transition juste dans les NDC et les LTS. <br /><br />Ce cadre, comprenant l'Évaluation, l'Engagement, le Soutien institutionnel et politique, et le Financement, répond au besoin croissant d'aligner les objectifs climatiques nationaux avec des transitions énergétiques inclusives, basées sur les droits et axées sur le développement."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<br /><br />Ils peuvent faciliter une transition juste. Lorsqu'un pays a un plan clair pour devenir durable, il doit prendre en compte les besoins de toutes les personnes qui pourraient être les plus affectées, y compris celles qui ont déjà des difficultés. Ceci s'appelle une <strong>transition juste</strong> et cela permet de s'assurer que personne n'est laissé pour compte. LTS peut fournir des conseils clairs sur la manière de gérer la transition de manière équitable et inclusive.<br /><br />Ils peuvent faciliter le financement climatique. LTS permet aux pays de planifier adéquatement les mécanismes de budgétisation pour financer des trajectoires de développement décarbonisées. Cela inclut la facilitation de l'accès au financement climatique international, qui devient de plus en plus important. <br /><br />Ils peuvent faciliter le renforcement institutionnel. La nature transversale de la LTS exige que les politiques publiques et les incitations fiscales soient bien alignées, avec l'adhésion des ministères clés. Par conséquent, la planification climatique à long terme encourage la coordination entre les secteurs et à tous les niveaux de gouvernement pour développer, inciter, mettre en œuvre et surveiller les actions climatiques clés."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<br /><br />Ils peuvent aider à renforcer et à guider les NDC. Une LTS offre une vision à long terme qui donne de la cohérence et une orientation aux engagements climatiques nationaux à court terme tels que les Contributions Déterminées au niveau National, ou NDCs. Le LTS permet à un pays de relier la planification du développement à court terme (y compris son NDC) à ses objectifs à long terme, en fournissant un cadre pour l'élaboration des politiques. <br /><br />Ils aident à prévenir les investissements intensifs en combustibles fossiles. Lorsqu'un pays articule sa <strong>LTS</strong>, il facilite les discussions sur l'ambition climatique et les réponses politiques possibles. Cela pourrait inclure une insistance sur la prévention des investissements dans des systèmes intensifs en combustibles fossiles qui retardent ou entravent la transition vers des alternatives à faible émission de carbone – ce qui mettrait en danger les efforts climatiques du pays et pourrait potentiellement entraîner des coûts plus élevés pour la transition vers une économie à faible émission de carbone. <br /><br />Ils envoient des signaux économiques clairs. LTS donne aux investisseurs des signaux précoces et prévisibles du marché autour des tendances technologiques et des plans de croissance à long terme. À son tour, un pays est capable de prendre des décisions plus efficaces sans regret concernant les investissements publics et privés et de guider la discussion publique sur les moyens d'atteindre un développement à faible émission de carbone. </strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Politique Énergétique Nationale (PEN)</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Les politiques énergétiques nationales (PEN) servent de cadre général pour guider la production, la distribution et la consommation d'énergie. Alors que les politiques diffèrent en portée et en ambition selon les pays, la plupart des NEP sont conçues pour répondre à trois objectifs fondamentaux : la sécurité énergétique, l'accessibilité et la durabilité environnementale, souvent appelés le trilemme énergétique.<br /><br />Au cœur de leur conception, les NEP définissent les priorités nationales à travers la <ai prompt=\"Qu'est-ce que la chaîne de valeur énergétique ?\">chaîne de valeur énergétique 💬️</ai>. Cela inclut des décisions sur le mélange énergétique (par exemple, la part des renouvelables, des combustibles fossiles, du nucléaire), des objectifs pour l'accès à l'énergie et l'efficacité, ainsi que des politiques pour attirer des investissements dans l'infrastructure. Dans le contexte du changement climatique et de la poussée mondiale pour la décarbonisation, de nombreux NEP intègrent désormais également des objectifs d'atténuation du climat alignés sur les NDC et les LTS."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Stratégies climatiques à long terme </strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<br />Ils peuvent aider à évaluer et à démontrer les avantages socio-économiques. Par exemple, le LTS du Chili a montré que se diriger vers <ai prompt=\"Partager des détails sur la neutralité carbone.\">la neutralité carbone 💬️</ai> d'ici 2050 pourrait entraîner des économies économiques directes de plus de 267 milliards de dollars américains, en tenant compte uniquement des objectifs énergétiques. Ces évaluations aident les décideurs à justifier des politiques publiques respectueuses du climat, y compris celles présentant de forts avantages sociaux, tels que <strong>une amélioration des résultats en matière de santé</strong>, <strong>une extension de l'accès à l'énergie</strong>, <strong>la sécurité de l'emploi</strong> et <strong>une résilience renforcée</strong>."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Contributions déterminées au niveau national (NDCs)</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Les NDC sont les principaux instruments de planification par lesquels les Parties à l'Accord de Paris communiquent leurs ambitions climatiques. En tant que déclarations de politique et cadres stratégiques, les NDCs servent à opérationnaliser les objectifs mondiaux de température établis dans les Articles 2 et 4 de l'Accord. <br /><br />Bien que les objectifs d'atténuation et les réductions d'émissions sectorielles restent au cœur des NDC, le secteur de l'énergie occupe un rôle particulièrement important. <br /><br /><strong>Étant donné que les systèmes énergétiques représentent plus de 70 pour cent des émissions mondiales de gaz à effet de serre, la transition des combustibles fossiles vers des systèmes énergétiques renouvelables durables, suffisants et efficaces n'est pas seulement une exigence technique, mais aussi une condition structurelle pour atteindre les objectifs de l'Accord de Paris.</strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": ""
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5079_265.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Engagement</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le dialogue social et la participation inclusive sont essentiels pour renforcer la légitimité et réduire la résistance aux réformes de la transition énergétique. Le pilier de l'engagement se concentre sur des consultations structurées avec les principales parties prenantes, notamment les syndicats, les associations d'employeurs, les groupes de femmes, les peuples autochtones, les réseaux de jeunes et les gouvernements infranationaux. En Afrique du Sud, par exemple, le Conseil national pour le développement économique et le travail (NEDLAC) facilite le dialogue tripartite entre le gouvernement, le travail et les entreprises pour façonner la politique nationale de transition juste. À Antigua-et-Barbuda, des consultations ont été initiées avec des représentants des travailleurs et des acteurs sectoriels sur le développement résilient au climat."
-            }
-          },
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Évaluation</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Une planification efficace de la transition juste commence par une évaluation systématique. Le PNUD soutient les pays dans la réalisation d'évaluations qualitatives et quantitatives de transition, en utilisant des outils tels que la modélisation de l'emploi, la prévision macroéconomique et le diagnostic des emplois verts. Ces évaluations estiment les impacts des mesures de décarbonisation sur l'emploi, la répartition des revenus, les besoins en compétences, l'équité entre les sexes et les populations vulnérables. Par exemple, l'investissement dans les énergies renouvelables au Nigeria a montré un potentiel de création d'emplois de 150 emplois par <strong>$1 million</strong>."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Évaluation</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le troisième pilier aborde les conditions structurelles et réglementaires nécessaires pour mettre en œuvre des mesures de transition juste à grande échelle. Il comprend l'élaboration de feuilles de route pour la transition à long terme, des cadres réglementaires pour la protection du travail, l'intégration du langage de transition juste dans les plans de développement nationaux, et la création de mécanismes de suivi et de responsabilisation. Par exemple, l'Arménie est en train de développer un cadre national pour une économie à faible émission de carbone et socialement inclusive. En Colombie, le PNUD a soutenu la conception de recommandations pour une transition juste dans le cadre de la stratégie du pays pour 2050, en reliant explicitement les politiques des secteurs de l'énergie, de l'agriculture et des transports aux résultats du marché du travail et au comportement des consommateurs."
-            }
-          },
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Soutien institutionnel, politique et capacitaire</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le troisième pilier aborde les conditions structurelles et réglementaires nécessaires pour mettre en œuvre des mesures de transition juste à grande échelle. Il comprend l'élaboration de feuilles de route pour la transition à long terme, des cadres réglementaires pour la protection du travail, l'intégration du langage de transition juste dans les plans de développement nationaux, et la création de mécanismes de suivi et de responsabilisation. Par exemple, l'Arménie est en train de développer un cadre national pour une économie à faible émission de carbone et socialement inclusive. En Colombie, le PNUD a soutenu la conception de recommandations pour une transition juste dans le cadre de la stratégie du pays pour 2050, en reliant explicitement les politiques des secteurs de l'énergie, de l'agriculture et des transports aux résultats du marché du travail et au comportement des consommateurs."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "<strong>La crise climatique mondiale est, en son cœur, une crise énergétique.</strong> <br /><br /></strong>Plus de 70 % des émissions mondiales de gaz à effet de serre proviennent de la production, de la transformation et de la consommation d'énergie, principalement à partir de sources de combustibles fossiles telles que le charbon, le pétrole et le gaz naturel. Alors que le consensus scientifique sur l'urgence de limiter le réchauffement climatique mondial se renforce, il est de plus en plus évident que la réalisation des objectifs climatiques internationaux dépend fondamentalement de la transformation du système énergétique mondial.<br /><br />Le développement de la politique climatique internationale a suivi une trajectoire d'expansion de la portée et de l'ambition.<br /><br />Alors que les premiers cadres se concentraient principalement sur la réduction des émissions, les accords ultérieurs ont intégré de manière plus explicite les objectifs de transition énergétique dans la gouvernance climatique mondiale."
-            }
-          }
-        ]
-      }
-    },
-    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/4768_5007.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5079_126.webp",
           "caption": ""
         },
         "intro": "M5 : Gouvernance de l'énergie pour une transition énergétique juste",
-        "title": "A : Stratégies nationales pour l'énergie et le climat"
+        "title": "B : Plans d'action sectoriels et thématiques"
       }
     },
     {
-      "template_id": "lesson_cover",
-      "color_scheme": "dark",
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Alors que des politiques de haut niveau telles que la NEP et les LTS définissent des objectifs globaux en matière d'énergie et de climat, leur mise en œuvre dépend de plans d'action sectoriels et thématiques ciblés. Ces plans traduisent l'intention stratégique en résultats mesurables par le biais d'interventions concrètes adaptées à des secteurs spécifiques tels que l'énergie renouvelable, l'efficacité énergétique, le transport et la cuisson propre. Cette section met en évidence quatre types clés de plans d'action qui servent d'instruments essentiels pour réaliser les engagements climatiques nationaux et internationaux."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Plans d'action nationaux pour l'efficacité énergétique (NEEAPs)</strong>"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>Plans d'action nationaux pour l'énergie renouvelable (NREAPs)</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Les NEEAPs décrivent des interventions sectorielles spécifiques pour réduire l'intensité énergétique et optimiser l'utilisation de l'énergie dans les secteurs résidentiel, commercial, industriel et des transports. Les caractéristiques communes incluent l'introduction de Normes de Performance Énergétique Minimale (MEPS), des incitations basées sur le marché et des campagnes de sensibilisation du public. Les NEEAPs privilégient également les réformes institutionnelles, telles que la création d'Unités d'efficacité énergétique et de comités de surveillance dédiés, <br> pour soutenir une mise en œuvre efficace. Ces plans fonctionnent à la fois comme des feuilles de route techniques et des outils de gouvernance, et favorisent la clarté réglementaire, l'engagement des parties prenantes et des économies d'énergie à long terme."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Les NREAPs fonctionnent comme des documents de planification essentiels qui définissent l'approche à moyen terme d'un pays pour augmenter l'énergie renouvelable. Leur objectif principal est de mettre en œuvre la stratégie énergétique nationale ou les engagements climatiques, tels que ceux articulés dans les Contributions Déterminées au niveau National (NDCs), en établissant des objectifs pour les énergies renouvelables, en identifiant les technologies prioritaires et en détaillant les mesures politiques et financières habilitantes. Ces plans s'étendent souvent sur un horizon de 10 à 15 ans et offrent des voies de mise en œuvre spécifiques au secteur pour l'hydroélectricité, l'éolien, le solaire, la géothermie et <ai prompt=\"Explain bioenergy.\">bioénergie 💬️</ai>. Les NREAP efficaces vont au-delà de la fixation d'objectifs. Ils fournissent des cadres juridiques, réglementaires et institutionnels pour soutenir le développement de projets, faciliter l'intégration au réseau, promouvoir l'accès à l'énergie distribuée et attirer des investissements privés."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong> Plans d'action et stratégies pour une cuisine propre</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Les plans d'action pour une cuisine propre sont des stratégies globales visant à accélérer la transition vers des solutions de cuisson modernes et à réduire la dépendance à des combustibles polluants tels que le bois, le charbon de bois et le kérosène. Ces plans définissent des objectifs nationaux pour l'accès à des combustibles et des technologies propres, identifient les interventions prioritaires et établissent des mécanismes pour le changement de comportement, le financement et le développement du marché. Les plans d'action pour une cuisine propre abordent la pauvreté énergétique, les risques pour la santé liés à la pollution de l'air intérieur, et les disparités entre les sexes en promouvant des solutions abordables, culturellement appropriées et respectueuses de l'environnement. Leur conception et leur mise en œuvre nécessitent une coordination entre les ministères de l'énergie, de la santé, de l'environnement et du genre, et doivent être soutenues par des cadres réglementaires favorables, des subventions ciblées et des campagnes de sensibilisation du public."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br /><ai prompt=\"Share details about electric mobility.\">mobilité électrique 💬️</ai> les feuilles de route sont des outils de planification stratégique qui fixent des échéances et des objectifs pour l'adoption de véhicules électriques (VE) tout en guidant le développement des infrastructures et le soutien à l'industrie locale. Ces plans combinent généralement des mesures du côté de la demande (par exemple, des subventions à l'achat de véhicules électriques, des exonérations de droits d'importation) avec des facilitateurs du côté de l'offre (par exemple, des infrastructures de recharge publiques, une production locale de batteries)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/4768_5040.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_5/5081_128.webp",
           "caption": ""
-        },
-        "lesson": {
-          "label": "Leçon",
-          "number": "1"
-        },
-        "title": "Planification et Instruments Stratégiques",
-        "cta": "",
-        "intro": "M5 : Gouvernance de l'énergie pour une transition énergétique juste"
+        }
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
       "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Vue d'ensemble de la leçon 1</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Cette leçon présente les instruments nationaux clés utilisés pour planifier et mettre en œuvre des transitions énergétiques durables, y compris les stratégies à long terme, les politiques énergétiques nationales et les plans d'action sectoriels. Il examine comment les pays fixent des objectifs énergétiques et climatiques, les alignent avec leurs priorités de développement, et les mettent en œuvre à travers des outils tels que des plans d'énergie renouvelable, des stratégies d'efficacité, et des feuilles de route pour une cuisine propre."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Engagement</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le dialogue social et la participation inclusive sont essentiels pour renforcer la légitimité et réduire la résistance aux réformes de la transition énergétique. Le pilier de l'engagement se concentre sur des consultations structurées avec les principales parties prenantes, notamment les syndicats, les associations d'employeurs, les groupes de femmes, les peuples autochtones, les réseaux de jeunes et les gouvernements infranationaux. En Afrique du Sud, par exemple, le Conseil national pour le développement économique et le travail (NEDLAC) facilite le dialogue tripartite entre le gouvernement, le travail et les entreprises pour façonner la politique nationale de transition juste. À Antigua-et-Barbuda, des consultations ont été initiées avec des représentants des travailleurs et des acteurs sectoriels sur le développement résilient au climat."
-            }
-          },
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Évaluation</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Une planification efficace de la transition juste commence par une évaluation systématique. Le PNUD soutient les pays dans la réalisation d'évaluations qualitatives et quantitatives de transition, en utilisant des outils tels que la modélisation de l'emploi, la prévision macroéconomique et le diagnostic des emplois verts. Ces évaluations estiment les impacts des mesures de décarbonisation sur l'emploi, la répartition des revenus, les besoins en compétences, l'équité entre les sexes et les populations vulnérables. Par exemple, l'investissement dans les énergies renouvelables au Nigeria a montré un potentiel de création d'emplois de 150 emplois par <strong>$1 million</strong>."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Évaluation</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le troisième pilier aborde les conditions structurelles et réglementaires nécessaires pour mettre en œuvre des mesures de transition juste à grande échelle. Il comprend l'élaboration de feuilles de route pour la transition à long terme, des cadres réglementaires pour la protection du travail, l'intégration du langage de transition juste dans les plans de développement nationaux, et la création de mécanismes de suivi et de responsabilisation. Par exemple, l'Arménie est en train de développer un cadre national pour une économie à faible émission de carbone et socialement inclusive. En Colombie, le PNUD a soutenu la conception de recommandations pour une transition juste dans le cadre de la stratégie du pays pour 2050, en reliant explicitement les politiques des secteurs de l'énergie, de l'agriculture et des transports aux résultats du marché du travail et au comportement des consommateurs."
-            }
-          },
-          {
-            "template_id": "subtitle_small",
-            "content": {
-              "text": "<strong>Soutien institutionnel, politique et capacitaire</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Le troisième pilier aborde les conditions structurelles et réglementaires nécessaires pour mettre en œuvre des mesures de transition juste à grande échelle. Il comprend l'élaboration de feuilles de route pour la transition à long terme, des cadres réglementaires pour la protection du travail, l'intégration du langage de transition juste dans les plans de développement nationaux, et la création de mécanismes de suivi et de responsabilisation. Par exemple, l'Arménie est en train de développer un cadre national pour une économie à faible émission de carbone et socialement inclusive. En Colombie, le PNUD a soutenu la conception de recommandations pour une transition juste dans le cadre de la stratégie du pays pour 2050, en reliant explicitement les politiques des secteurs de l'énergie, de l'agriculture et des transports aux résultats du marché du travail et au comportement des consommateurs."
-            }
-          }
-        ]
+        "title": "Points clés",
+        "intro": "",
+        "takeaways": []
       }
     },
     {
@@ -674,7 +648,7 @@
         "resources": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_5/resource-5311.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_5/resource-5311.webp",
               "caption": ""
             },
             "href": "IEA",
@@ -683,7 +657,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_5/resource-5312.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_5/resource-5312.webp",
               "caption": ""
             },
             "href": "UNEP",
@@ -692,7 +666,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_5/resource-5313.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_5/resource-5313.webp",
               "caption": ""
             },
             "href": "CGEP",
@@ -707,11 +681,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module5.webp",
           "caption": ""
         },
         "intro": "Prochainement",
-        "title": "Leçon 2 : Engagements civiques et leur rôle dans la gouvernance de l'énergie",
+        "title": "Lesson 2: Command-And- Control Instruments",
         "cta": "Continuez à apprendre",
         "nextLessonId": "5.3.2"
       }

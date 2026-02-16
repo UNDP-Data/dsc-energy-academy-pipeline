@@ -2,20 +2,15 @@
   "id": "6.4.2",
   "segments": [
     {
-      "template_id": "lesson_cover",
+      "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_577.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1463.webp",
           "caption": ""
         },
-        "lesson": {
-          "label": "Lesson",
-          "number": "2"
-        },
-        "title": "Sustainable Buildings: Efficiency, Electrification, and Equity",
-        "cta": "",
-        "intro": "M6: The Climate Change-Energy Nexus"
+        "intro": "M6: The Climate Change-Energy Nexus",
+        "title": "A: Implementation Framework for Sustainable Energy Solutions"
       }
     },
     {
@@ -24,15 +19,9 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Lesson 2 Overview</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The buildings sector, which includes construction, heating, cooling, lighting, and appliances, accounts for over one-third of global energy consumption and emissions. Operations alone are responsible for 30% of global final energy use and 26% of energy-related emissions, with 8% from direct emissions and 18% from indirect emissions tied to electricity and heat production. <br />While direct emissions slightly decreased to 3 Gt in 2022, indirect emissions rose to nearly 6.8 Gt due to increased reliance on electricity. Despite some progress, the sector remains off-track to meet the <a href=\"https://www.iea.org/reports/global-energy-and-climate-model/net-zero-emissions-by-2050-scenario-nze\"><u>Net Zero Emissions by 2050 (NZE) Scenario</u></a>. Addressing this requires a concerted effort to improve <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai> and adopt renewable energy technologies."
+              "text": "The successful deployment of sustainable energy solutions requires a strategic and context-sensitive approach. While the potential of renewable energy to enhance climate resilience is well-documented, its effective implementation hinges on addressing local needs, building cross-sector collaboration, and ensuring long-term sustainability.<br />Sustainable energy solutions often intersect with other sectors, such as water, agriculture, and healthcare. Cross-sector coordination is essential to maximize the impact of these solutions and avoid maladaptation risks. For instance, solar-powered irrigation systems can simultaneously address water scarcity, improve agricultural productivity, and reduce reliance on fossil fuels. Similarly, <ai prompt=\"Share details about decentralized energy systems.\">decentralized energy systems 💬️</ai> can support healthcare delivery by powering medical facilities and vaccine cold chains in off-grid areas. Effective coordination requires clear communication, shared goals, and partnerships between governments, NGOs, and private sector actors."
             }
           }
         ]
@@ -64,205 +53,156 @@
       }
     },
     {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
+      "template_id": "text",
+      "color_scheme": "light",
       "content": {
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>Long-term sustainability depends on robust policy frameworks that support the deployment and maintenance of sustainable energy solutions. Governments must prioritize the integration of renewable energy into </strong><a href=\"https://unfccc.int/national-adaptation-plans\"><strong><u>national adaptation plans (NAPs)</u></strong></a><strong> and ensure that policies are aligned with locally led adaptation principles. For example, </strong><a href=\"https://unfccc.int/sites/default/files/resource/National_Adaptation_Plan_Mozambique.pdf\"><strong><u>Mozambique’s NAP</u></strong></a><strong> highlights the importance of mobilizing women-led community organizations in adaptation planning, demonstrating how gender-responsive policies can enhance resilience. Strengthening commitments to gender equality and social inclusion (GESI) in energy policies can further ensure that the benefits of sustainable energy reach the most vulnerable populations.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Key Considerations for Scaling Off-Grid Energy Solutions</strong>"
             }
           },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#fd6925",
-            "#fd9d24",
-            "#4c9f38",
-            "#0a97d9",
-            "#dd1367",
-            "#fcc30b",
-            "#19486a",
-            "#0468b1",
-            "#c5192d",
-            "#3f7e44"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "EJ"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14,
-              "interval": 0
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "2022"
-            ],
-            "name": "Year"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "...",
-            "show": false
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>Designing for Local Needs and Long-Term Viability </strong>",
+              "body": "Off-grid energy solutions must be tailored to the specific environmental, social, and economic contexts of the communities they serve. For instance, in drought-prone regions, solar-powered water pumping systems can address water scarcity while supporting agricultural productivity. However, the design process must involve local stakeholders to ensure that systems are not only technically feasible but also culturally appropriate and easy to maintain. Training local technicians and establishing community-led maintenance programs can enhance the longevity of these systems, reducing dependency on external support.",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>Ensuring Financial Feasibility Beyond Subsidies </strong>",
+              "body": "Upfront costs remain a significant barrier to off-grid energy adoption, particularly in low-income regions. While subsidies and grant funding have played a role in scaling access, long-term sustainability depends on models that encourage local investment and revenue generation. <br /><br />Pay-as-you-go (PAYG) systems have shown promise in making solar energy more affordable by aligning costs with household and business income cycles. Similarly, blended finance models—combining public, private, and concessional funding—have enabled larger-scale investments in decentralized energy infrastructure without reliance on continued donor support.",
+              "source": ""
             }
           },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "Residential",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                20.96
-              ]
-            },
-            {
-              "name": "Non-residential",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                8.76
-              ]
-            },
-            {
-              "name": "Buildings construction industry",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                3.97
-              ]
-            },
-            {
-              "name": "Other construction industry",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                3.33
-              ]
-            },
-            {
-              "name": "Other",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                62.98
-              ]
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "<strong>Regulatory and Institutional Support </strong>",
+              "body": "Decentralized energy solutions must be integrated into national energy planning to ensure they complement, rather than compete with, broader electrification strategies.<br /><br />Governments play a critical role in creating an enabling environment by establishing clear legal frameworks for mini-grids and independent power providers. This includes providing risk mitigation mechanisms for investors, supporting local manufacturing of renewable energy components, and investing in workforce training. Policies should also align with broader climate resilience and rural development goals, ensuring that energy solutions contribute to multiple sustainable development objectives.",
+              "source": ""
             }
-          ]
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1434.webp",
+          "caption": ""
         }
       }
     },
     {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Community-Based Adaptation</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Community-based adaptation (CBA) is a proven approach to building resilience as seen in the previous modules, particularly in regions where vulnerable populations face the brunt of climate change impacts. CBA involves processes led by local actors, including subnational authorities, civil society organizations, community groups and youth to identify adaptation priorities and implement solutions tailored to local contexts. This approach leverages local knowledge while fostering inclusive governance, ensuring that marginalized groups are actively involved in decision-making.<br /><br /><strong>In Southern Africa, CBA has demonstrated its potential to reduce climate risks and generate sustainable changes for vulnerable communities. For example, in Mozambique, women-led community organizations have been mobilized to participate in adaptation planning, ensuring that energy solutions address gender-specific needs, such as access to clean water and healthcare. Similarly, in Zambia, solar-powered irrigation systems have been co-designed with local farmers to improve agricultural resilience while reducing reliance on costly and unreliable diesel pumps. In other instance, the </strong><a href=\"https://rmi.org/delivering-equitable-and-meaningful-community-benefits-via-clean-hydrogen-hubs/#:~:text=The%20Justice40%20covered%20programs:%20Executive%20Order%2014008,programs%20under%20the%20purview%20of%20the%20US\"><strong><u>Justice40 Initiative</u></strong></a><strong>, led by RMI, demonstrates real-world applications of Community Benefit Agreements (CBA) by ensuring that at least 40% of federal clean energy investments benefit disadvantaged communities.</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Scaling CBA requires addressing significant gaps in policy and funding. Key enabling factors include:</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Integration of Adaptation into Subnational Development Planning</strong>",
+              "body": "Adaptation must be embedded in local development plans to ensure that resources are allocated effectively. For instance, only 56% of policy documents in Southern Africa explicitly mandate the integration of adaptation into local planning, highlighting a critical gap that needs to be addressed."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Mechanisms for Collaboration with Civil Society Actors</strong>",
+              "body": "Effective CBA requires institutionalized arrangements that facilitate collaboration between local governments, civil society organizations, and communities. Currently, only 44% of policies in the region highlight mechanisms for ongoing collaboration, underscoring the need for stronger partnerships."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Local Access to Climate Finance</strong>",
+              "body": "Ensuring that climate adaptation finance reaches the local level is essential for scaling CBA. While 50% of policies analyzed in Southern Africa recognize this need, only 25% outline specific mechanisms to achieve it. Innovative financing models, such as community-managed funds, can help bridge this gap."
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>Capacity Strengthening for Local Actors</strong>",
+              "body": "Subnational authorities and local organizations need enhanced capacities to lead adaptation efforts. This includes technical training, access to climate information, and support for participatory decision-making processes. For example, Zimbabwe’s national climate policy includes a chapter on education and training, emphasizing the importance of building local capacity."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo-horizontal",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_604.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1407.webp",
           "caption": ""
         },
-        "intro": "M6: The Climate Change-Energy Nexus",
-        "title": "A:Challenges and Opportunities"
+        "title": null,
+        "description": null,
+        "caption": null
       }
     },
     {
@@ -273,49 +213,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Despite some progress, significant opportunities remain untapped in the sector. Approximately 80% of economically viable energy efficiency measures have yet to be implemented.<br /></strong><br />Building energy codes, which are essential for driving efficiency, exist in only 44 countries, leaving 82% of the global population in countries without such standards. This is especially concerning as global floor space is projected to grow by 20% from 2020 to 2030, primarily in developing economies. Additionally, decarbonizing the sector requires more than just new standards; retrofitting existing buildings remains a major challenge due to aging infrastructure (especially in advanced economies), poor insulation, and outdated design.<br /> <br />Developing economies face the dual challenge of improving access to modern energy services, such as cooling, while simultaneously reducing emissions. Without immediate action, these regions risk becoming significant sources of energy demand and emissions growth. Policies, investments, and technologies must address this rapidly growing need while avoiding path dependencies that could hinder future <ai prompt=\"Share details about decarbonization.\">decarbonization 💬️</ai> efforts."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_2748.webp",
-          "caption": ""
-        },
-        "intro": "M6: The Climate Change-Energy Nexus",
-        "title": "B: Strategies for Decarbonizing the Sector"
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_716.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Targeting Direct Emissions </strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Reducing direct or Scope 1 emissions (those directly produced by fuel combustion in buildings) requires improving energy efficiency and transitioning to renewable energy. The IEA estimates that 25% of emissions reductions needed by 2050 could come from energy efficiency improvements in heating, cooling, lighting, and ventilation. Renewable technologies, such as solar photovoltaics (PV) and solar thermal systems, could contribute an additional 30%. Governments are increasingly introducing measures to phase out fossil-fuel-based systems. This includes banning fossil-fueled heating appliances and limiting connections to gas grids for new buildings. Technologies such as heat pumps, which are rapidly gaining market share, are a cornerstone of this transition. Heat pumps are especially effective in well-insulated buildings, where their lower heating demand reduces costs and energy use."
+              "text": "<strong>By aligning sustainable energy solutions with CBA principles, communities can enhance their resilience while maintaining control over their energy systems. This approach addresses immediate energy needs while fostering long-term sustainability and empowerment.</strong>"
             }
           }
         ]
@@ -323,171 +221,12 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_2757.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1402.webp",
           "caption": ""
         }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Targeting Indirect Emissions </strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Indirect or Scope 2 emissions (emissions from the generation of electricity, steam, heat, or cooling purchased and used by the building) stem from electricity and heat production. To tackle this, the sector must accelerate electrification while simultaneously decarbonizing the grid. Electrification enables buildings to transition away from fossil fuels while leveraging renewable-powered grids. <br /><br />However, ensuring the energy performance of building envelopes is essential to prevent undue strain on electricity systems during this transition."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3437.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Addressing Cooling Demand </strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Cooling demand is expected to rise significantly, growing from 20% of global electricity use today to 37% by 2050. The number of air conditioning units is projected to increase by 50% by 2030, further straining electricity grids. To address this, investments in grid resilience, advanced load management, and renewable integration will be essential. <br /><br />Heat pumps, alongside well-insulated buildings, can support this growing demand. These systems improve energy efficiency and reduce the peak load on electricity grids. However, managing cooling-related emissions will require careful planning to ensure grids remain sustainable and reliable."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "<strong>Integrate sustainable cooling targets within national and local policies, including the Nationally Determined Contributions, National Cooling Action Plans (NCAP) and city-level Heat Action Plans.</strong> Ensure that these integrated policies cover regulatory, policy, technical, and operational aspects to align with the Paris Agreement and Kigali Amendment targets under the Montreal Protocol."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "<strong>Adopt a whole-systems approach to accelerate climate-friendly cooling.</strong> This entails developing frameworks that bring an “integrated cooling lens” while developing projects and programs across energy, buildings, transport, health and agriculture sectors. Policy options for accelerating climate-friendly cooling include: updating energy building codes and promoting green buildings with passive cooling measures, implementing fiscal incentives and improving operation activities. For example, Indonesia is implementing cool roofs, while Vietnam and Cambodia are promoting passive cooling solutions through building standards."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "<strong>Improve the energy efficiency of cooling technologies, including air conditioning and refrigeration.</strong> For instance, most air conditioners deployed globally have 2-3 times lower efficiencies than the highly efficient ones. Therefore, countries such as India, where the cooling demand is expected to grow 8 times by 2040, should focus on scaling the deployment of efficient technologies and enabling the development and innovation of new ones. Establish the Minimum Energy Performance System (MEPS), aligning with the global best practices. Singapore, for example, has adopted the Minimum Energy Performance Standards (MEPS) and Mandatory Energy Labelling Scheme (MELS) for ACs."
-            }
-          },
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "<strong>Leverage the digital era and innovation to improve energy efficiency. </strong>These innovations include smart cooling systems utilizing the Internet of Things (IoT) to optimize AC performance; and data analytics that enable predictive maintenance, reducing energy wastage."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "bullet_point",
-            "content": {
-              "title": "",
-              "body": "<strong>Use innovative business models to ensure inclusive and affordable access to cooling, especially in EMDEs. </strong>To reduce the burden of high upfront costs, countries should utilize business models such as pay-as-you-go, on-bill financing and cooling-as-a-service methods. After all, the question of cooling is one of equity. Over 1 billion people lack access to sustainable cooling, and a further 2.9 billion have ineﬃcient cooling, which disproportionately affects women and girls (SEforALL 2023)."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3453.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Equity and Resilience in Building Decarbonization </strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Improving energy and building system resilience is vital for vulnerable populations living in poor-quality housing. These households face disproportionate risks from climate change, energy poverty, and associated health impacts. Ensuring equitable access to energy-efficient technologies can mitigate these risks while enhancing living standards. <br /><br /><strong>Programs that lower borrowing costs for energy-efficient investments, such as government and utility initiatives, are essential. These efforts can support <ai prompt=\"Explain marginalized communities.\">marginalized communities 💬️</ai>, enabling them to participate in the transition to sustainable energy while reducing energy poverty and associated vulnerabilities. </strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>The Global Status Report for Buildings and Construction 2024-2025 </strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "A decade after the Paris Agreement, 2023 marked the first year in which building construction growth was decoupled from rising emissions. This shift was driven by mandatory energy codes, performance standards, and efficiency investments, reducing the sector’s energy intensity by nearly 10% and increasing renewables’ share in final energy demand by 5%. Further gains can be achieved through circular construction, green leases, retrofitting, and low-carbon materials, improving efficiency and reducing waste. However, the sector remains a major emitter, consuming 32% of global energy and producing 34% of CO₂ emissions, with materials like cement and steel contributing 18% to global emissions and generating substantial construction waste."
-            }
-          }
-        ]
       }
     },
     {
@@ -499,27 +238,437 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3487.webp",
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1716.webp",
               "caption": "image caption"
             },
-            "title": "Buildings Sector is a Major Contributor to Energy Consumption and Emissions.",
-            "description": "The buildings sector accounts for over one-third of global energy consumption and emissions, yet approximately 80% of cost-effective energy efficiency measures remain untapped. Electrification, particularly through heat pumps and renewable energy sources, is vital for reducing both direct and indirect emissions from buildings, emphasizing the need for immediate action."
+            "title": "Renewable Energy Enhances Resilience Through Decentralized Solutions.",
+            "description": "Beyond reducing emissions, renewable energy can strengthen resilience by providing decentralized, climate-smart solutions. Off-grid solar irrigation, cold storage, and microgrids improve water access, food security, and economic stability, particularly in vulnerable regions."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3481.webp",
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1710.webp",
               "caption": "image caption"
             },
-            "title": "Urgent Action Needed to Prevent High-Carbon Infrastructure Lock-In.",
-            "description": "With global floor space expected to expand by 20% by 2030, especially in developing countries, there is an urgent need to implement building energy codes, promote efficient cooling solutions, and avoid high-carbon infrastructure lock-in. Failure to act now could lead to long-term consequences that hinder future decarbonization efforts."
+            "title": "Decentralized Energy Systems Mitigate Disaster Risks.",
+            "description": "Decentralized energy systems can be effective against natural disasters, especially under a changing climate. Renewable-powered microgrids, solar backup systems, and climate-resilient energy infrastructure help maintain critical services during extreme weather events."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/354_3475.webp",
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1704.webp",
               "caption": "image caption"
             },
-            "title": "Targeted Policies are Essential for Addressing Energy Poverty.",
-            "description": "Vulnerable populations living in poor-quality housing are disproportionately affected by energy poverty and climate change impacts. To improve sustainability and living standards, targeted policies, innovative financing mechanisms, and government programs are necessary to ensure access to energy-efficient housing and technologies. This approach will help mitigate risks while enhancing overall resilience in the face of climate challenges."
+            "title": "Strategic Planning is Essential for Effective Deployment.",
+            "description": "Effective deployment of renewable energy solutions requires careful planning to ensure they enhance resilience rather than inadvertently increasing vulnerabilities. Tailoring solutions to local climate risks, resource availability, and economic conditions helps avoid unintended negative consequences."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2023.webp",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "Lesson",
+          "number": "2"
+        },
+        "title": "Renewable Energy for Enhancing Climate Resilience",
+        "cta": "",
+        "intro": "M6: The Climate Change-Energy Nexus"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Lesson 1 Overview</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Climate change is introducing unprecedented challenges and uncertainties, demanding that energy systems become more flexible, robust, and prepared to withstand extreme weather events, temperature variations, and shifting environmental conditions. As the frequency and intensity of climate-related risks increase—ranging from hurricanes and floods to prolonged droughts and heatwaves—the need to enhance the resilience and adaptability of energy systems has never been more critical. Ensuring a reliable, sustainable, and secure energy supply is essential for both mitigating the impacts of climate change and supporting communities in adapting to its effects."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "At the same time, sustainable energy solutions offer a dual benefit: they not only reduce greenhouse gas emissions, a key driver of climate change, but also serve as powerful tools for climate adaptation and resilience-building. By leveraging renewable energy sources, improving <ai prompt=\"Share details about energy efficiency.\">energy efficiency 💬️</ai>, and developing resilient energy infrastructure, communities can better adapt to the impacts of climate change. These solutions also support economic development, improve energy access, and make sustainable energy systems more affordable, particularly for vulnerable populations who are often the most affected by climate-related disruptions.<br />In this lesson, we explore how renewable energy can enhance climate resilience across various sectors—from water and food security to emergency response and economic stability. Through real-world examples and case studies, we demonstrate the transformative potential of decentralized, sustainable energy systems in building resilient communities and safeguarding critical infrastructure in the face of a changing climate."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_14.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Energy Uses in Climate Adaptatio</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "It is often the case that those without access to electricity are the most vulnerable to climate change. Decentralized energy assets play a critical role in climate adaptation and in promoting initiatives that enhance resilience as well as food security. This is emphasized by the COP 27 Sharm El-Sheikh Adaptation Agenda, which lists achieving universal access to electricity through climate-smart and resilient energy systems as one of its 30 key goals."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2001.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Water, Food and Agriculture</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Off-grid technologies offer decentralized and democratized access to electricity, making them more resilient to climate risks. For instance, <ai prompt=\"Tell me more about solar energy.\">solar energy 💬️</ai> kits and irrigation systems are portable and less reliant on extensive distribution networks, making them less susceptible to floods, high winds, and cyclones. They are also less susceptible to blackouts during heat waves. Parallelly, access to productive use of renewable energy (PURE) technologies is also enhancing resilience.<br />The sustainable energy interventions in the agriculture sector optimize crop yield, creating more resilient communities while achieving universal access ambitions. Solar irrigation systems promote sustainable use of water resources, thereby reducing reliance on rain-fed traditional agriculture practices. In Bangladesh, for example, the community improved their resilience to the drought gripping their region by installing 12 solar-powered tube wells to pump, store in a 5,000-liter master tank, and distribute water to their homes. Additionally, solar-powered cold storage systems provide a transformative solution supporting food security initiatives by extending the shelf life of perishable food. For instance, Ecozen Solutions specializes in portable solar cold rooms in India."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Emergency Response and Resilience</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Renewable energy significantly enhances community resilience to climate disasters. Decentralized renewable systems provide crucial backup power for emergency services and critical infrastructure when conventional power fails. For instance, mini and micro-hydro systems can generate electricity for remote communities while also supporting flood mitigation efforts. Additionally, early warning systems powered by renewables help communities prepare for extreme weather events. For displaced populations, mobile renewable solutions offer quick deployment of essential services in emergency settlements."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "case_study_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1735.webp",
+          "caption": ""
+        },
+        "intro": "RBLAC",
+        "title": "Case Study: Puerto Rico",
+        "subtitle": "Solar Microgrid Project in Adjuntas, Puerto Rico"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Adjuntas, a town in Puerto Rico, has emerged as a leading model for how vulnerable regions can build greater resilience to climate disruptions. Adjuntas illustrates the vital role of decentralized energy efforts, such as solar microgrids, which generate electricity locally using solar energy. Puerto Rico endured catastrophic damage from Hurricane Maria in 2017, resulting in millions experiencing prolonged electrical outages (<a href=\"https://nextcity.org/features/grassroots-movement-puerto-ricos-first-community-owned-solar-microgrid\"><u>Next City, n.d.</u></a>). The town of Adjuntas experienced no difference. In the wake of the disaster, it became apparent that the island’s centralized, fossil-fuel-powered grid was vulnerable and poorly equipped to withstand more frequent extreme weather events. The power outage in Adjuntas was not just a hardship; it jeopardized fundamental survival needs by limiting access to essential services, including communication, electricity, clean water, and refrigeration for medicines and food. The community desperately sought a resilient, independent solution to assert control over their energy prospects. <br />What emerged was an ambitious solution: to develop Adjuntas’s first solar microgrid owned and operated by the community. In response, the local community organization Casa Pueblo, in partnership with the nonprofit Honnold Foundation, installed solar-powered microgrids. The objective was not only to supply clean, reliable energy but also to restore power to the people, both practically and symbolically"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "The project, rooted in strong community involvement, was executed as follows; <br />Casa Pueblo, a long-trusted entity in Adjuntas, took charge by working closely with residents and local entrepreneurs, including the establishment of a nonprofit organization called the Community Solar Energy Association of Adjuntas (ACESA), which is managed by the residents and local entrepreneurs. The ACESA monitored the design and construction of the solar-powered microgrids (<a href=\"https://www.honnoldfoundation.org/adjuntas-a-solar-community#adjuntas\"><u>Honnold Foundation</u></a> <br />The microgrid installation included <ai prompt=\"Share details about battery storage.\">battery storage 💬️</ai> systems and rooftop solar panels, ensuring continuous service during power outages (<a href=\"https://www.canarymedia.com/articles/clean-energy/puerto-ricos-first-community-led-microgrid-is-ready-to-launch\"><u>Gallucci, 2023, para. 10</u></a>). <br />Casa Pueblo and the Honnold Foundation promoted long-term community stewardship, emphasizing a grassroots model that involved local businesses and electricians in the construction and decision-making process (<a href=\"https://www.honnoldfoundation.org/adjuntas-a-solar-community#adjuntas\"><u>Honnold Foundation, n.d.</u></a>). <br />The microgrids demonstrated their effectiveness during Hurricane Fiona in September 2022, providing uninterrupted power to critical facilities for several days while other parts of Puerto Rico experienced widespread outages (<a href=\"https://www.canarymedia.com/articles/clean-energy/puerto-ricos-first-community-led-microgrid-is-ready-to-launch\"><u>Gallucci, 2023, para. 10</u></a>). This achievement underscores the potential of renewable energy to enhance community resilience and mitigate the growing risks associated with climate change. The establishment of a cooperative ownership framework guaranteed that the people of Adjuntas would manage and sustain the grid rather than an external corporation. Barriers such as technical skill gaps and funding shortages were addressed through grant support from the Honnold Foundation, partnerships, and workshops that nurtured ownership and resilience among the community (<a href=\"https://www.canarymedia.com/articles/clean-energy/puerto-ricos-first-community-led-microgrid-is-ready-to-launch\"><u>Gallucci, 2023</u></a>). Additionally, research institutions, such as Oak Ridge National Laboratory, offered technical expertise and innovation tools to lower implementation costs."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "The project has reduced Adjuntas’s reliance on centralized power plants and transmission lines, which are often susceptible to damage during extreme weather events. Even during the main grid failures, Adjuntas’s solar microgrid currently powers crucial businesses such as supermarkets and pharmacies. In times of crisis, these places become gathering points for people with access to essential healthcare, power, and safe refuge. These achievements of the initiative underscore the potential of renewable energy to enhance community resilience and adapt to the increasing risks posed by climate change. The ACESA has ensured that the community itself manages the microgrids. This model has not only reduced electricity costs for small businesses but also created a sustainable framework for future energy projects. Excess funds generated from microgrids are reinvested into community solar initiatives, fostering long-term energy independence. Despite challenges such as supply chain disruptions and the COVID-19 pandemic’s impact, the Adjuntas community has remained committed to the project. The installation of 1,000 solar panels has provided a reliable energy source and set a precedent for other communities facing similar vulnerabilities (<a href=\"https://www.honnoldfoundation.org/adjuntas-a-solar-community#adjuntas\"><u>Honnold Foundation, n.d.</u></a>). <br />The Adjuntas microgrid initiative demonstrates how renewable energy can address immediate energy needs while building long-term resilience. By decentralizing energy production and empowering local communities, the project has not only mitigated the effects of extreme weather but also created a sustainable model for energy independence. While Adjuntas’ microgrid is tailored to its local landscape and governance, its foundational ideas—such as decentralized energy, community empowerment, and resilience—are globally adaptable to other vulnerable areas (<a href=\"https://www.canarymedia.com/articles/clean-energy/puerto-ricos-first-community-led-microgrid-is-ready-to-launch\"><u>Gallucci, 2023</u></a>). <br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_part_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2154.webp",
+          "caption": ""
+        },
+        "intro": "M6: The Climate Change-Energy Nexus",
+        "title": "Off-Grid Renewable Energy: Strengthening Resilience and Economic Stability"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Lesson 2 Overview</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "For communities without reliable grid access, decentralized renewable energy is a necessary infrastructure for stability and adaptation. In regions where climate change disrupts traditional livelihoods and energy security, off-grid systems provide a practical solution for sustaining essential services, supporting local economies, and reducing dependence on costly and unreliable fuel imports. This is critically interconnected to the 2030 Agenda, as highlighted in the previous modules."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Beyond basic electrification, off-grid energy solutions enable local enterprises and institutions to operate with greater predictability. Micro, Small, and Medium-sized Enterprises (MSMEs) play a critical role in economic development, contributing significantly to employment and GDP. Their reliance on energy-intensive operations makes decentralized renewable energy crucial for cost reduction, resilience, and sustainability. More than 10 million micro, small, and medium-sized enterprises (MSMEs) currently integrate decentralized energy technologies, using them to lower costs, expand services, and improve climate resilience. In many cases, the transition to renewable energy is not simply about replacing fossil fuels but about reshaping local <ai prompt=\"Provide more info on energy governance.\">energy governance 💬️</ai>, ensuring that communities can control and maintain their own power systems without external dependencies. <br /><br />More than <a href=\"https://www.gogla.org/wp-content/uploads/2023/09/GOGLA_Climate-Paper_DEF.pdf\"><u>10 million micro, small, and medium-sized enterprises (MSMEs)</u></a> currently integrate decentralized energy technologies, using them to lower costs, expand services, and improve climate resilience. In many cases, the transition to renewable energy is not simply about replacing fossil fuels but about reshaping local energy governance, ensuring that communities can control and maintain their own power systems without external dependencies."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1674.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Water Access and Resource Stability </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "In arid and coastal regions, climate change increasingly affects freshwater availability. Solar-powered water desalination and pumping systems provide a reliable solution, reducing reliance on rain-fed water supplies and mitigating the risks associated with droughts and changing precipitation patterns. <br /><br />In Bangladesh, solar-powered irrigation has allowed farming communities to shift away from unreliable rainfall, improving agricultural output and reducing the need for expensive diesel-based pumping systems. Similar approaches are being adopted in Sub-Saharan Africa, where solar water pumps are improving access to drinking water and irrigation without the high operating costs of conventional power systems."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1667.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Sustainable Cooling</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Access to cooling technologies is often overlooked in energy planning, despite its critical role in wellbeing, food security, healthcare, and commerce. The world is warming, with record-breaking temperatures and increasing and projected increases in the intensity and duration of heat waves globally. According to the World Meteorological Organization (WMO), 2024 was the warmest year on record, with climate change adding 41 days of extreme heat. Higher temperatures have far-reaching impacts on people’s health and well-being, work productivity, energy systems and the natural environment. In fact, heat-associated mortalities saw a 68% increase between 2000-04 and 2017-21. Beyond health consequences, rising heat stress is projected to cost USD 2.4 trillion of global GDP in 2030. Hence, it is no surprise that extreme heat events are both short- and long-term risks, as identified by the World Economic Forum."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "In the face of increasing temperatures, cooling is now more critical than ever to ensure people’s well-being, keep food and vaccines safe and economies functioning. Cooling demand is expected to triple by 2050, increasing electricity usage and in turn, greenhouse gas emissions. Business-as-usual cooling, i.e., with active cooling equipment such as air conditioners, lock us into a vicious cycle of <ai prompt=\"Provide more info on heating and cooling.\">heating and cooling 💬️</ai>, representing a double burden. For instance, air conditioning accounts for around 7% of global GHG emissions. Therefore, the imperative at hand is to transform how we cool by ensuring this is sustainable. <br /><br />Sustainable cooling is an opportunity area with both mitigation and adaptation benefits. Besides, it directly influences other sustainable development outcomes, including the energy transition, health and food security. In fact, sustainable cooling can support over 1 billion people in adapting to climate risks while reducing the energy transition costs by USD 3.5 trillion by 2030.<br /><br /><strong>The urgency is highlighted by the Global Cooling Pledge under COP28, urging countries to achieve a substantial </strong><a href=\"https://www.reuters.com/sustainability/cop/countries-asked-slash-cooling-emissions-by-68-by-2050-2023-10-19/\"><strong><u>68% reduction in cooling-related emissions by 2050</u></strong></a><strong>. This emphasizes the critical need for sustainable technologies and behavioural changes in the cooling sector on a worldwide scale. <br /><br /></strong>More on sustainable cooling strategies in the buildings sector in Chapter 4."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Similarly, without refrigeration, perishable goods spoil quickly, limiting economic opportunities and increasing vulnerability to food shortages. However, advances in solar-powered cold storage are transforming supply chains, particularly in rural areas.<br /><br />In India, decentralized solar refrigeration is helping farmers store and transport perishable produce without relying on unreliable or expensive grid electricity. By extending shelf life and reducing food waste, these technologies not only improve food security but also allow producers to access broader markets, strengthening rural economies."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1596.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Energy for Healthcare and Public Services </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Medical facilities in off-grid or disaster-prone areas depend on stable energy access for critical services, including vaccine refrigeration, diagnostic equipment, and surgical operations. Without reliable power, healthcare delivery is severely compromised. In crisis contexts, reliable electricity is essential for healthcare facilities to function effectively. In sub-Saharan Africa, 25% of health centers lack electricity, leaving critical services such as vaccine storage, emergency procedures, and maternal care at risk. Extreme weather events, intensified by climate change, further strain healthcare infrastructure, increasing hospitalizations due to heatwaves and air pollution. Decentralized renewable energy systems can bridge this gap, ensuring uninterrupted medical care and strengthening health resilience in vulnerable regions. <br /><br />Solar-powered clinics are being deployed in regions affected by extreme weather events, ensuring that disruptions to grid electricity do not translate into disruptions in medical care. For example, the <ai prompt=\"Tell me more about solar for health.\">solar for health 💬️</ai> initiative has equipped health facilities in 15 countries with solar power, ensuring reliable electricity for critical medical services while reducing reliance on unstable grids and costly diesel."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1589.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Economic Development and Energy Access for Enterprises </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Reliable electricity is a prerequisite for economic diversification. Small businesses, cooperatives, and local manufacturing facilities depend on affordable and consistent power to operate machinery, process raw materials, and expand production capacity. In regions where grid extension is economically unfeasible, decentralized renewable energy provides a viable alternative for business development. <br /><br />For example, in Puerto Rico, locally managed solar microgrids have allowed small businesses to remain operational during grid outages. This model not only reduces exposure to energy price volatility but also reinvests surplus revenue into further energy development, demonstrating the economic advantages of community-led renewable initiatives."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_1582.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Supporting Livelihoods and Climate-Smart Growth in Vulnerable Regions </strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Small island nations and coastal communities face unique challenges from climate change, including rising sea levels, saltwater intrusion, and extreme weather events. In these contexts, renewable energy enables vital adaptation through small-scale desalination systems, hydrothermal cooling using seawater, and power for eco-tourism operations. In remote and underserved areas, renewable solutions support basic healthcare through reliable power for medical facilities, vaccine cold chains, and water purification systems. These technologies not only enhance resilience but also create opportunities for sustainable livelihoods, helping communities thrive in the face of climate challenges."
+            }
           }
         ]
       }
@@ -532,7 +681,7 @@
         "resources": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6421.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6421.webp",
               "caption": ""
             },
             "href": "IEA",
@@ -541,7 +690,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6422.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6422.webp",
               "caption": ""
             },
             "href": "IEA",
@@ -550,7 +699,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6423.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6423.webp",
               "caption": ""
             },
             "href": "OECD",
@@ -565,7 +714,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.webp",
           "caption": ""
         },
         "intro": "Next up",

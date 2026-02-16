@@ -13,7 +13,7 @@
           "label": "Lesson",
           "number": "1"
         },
-        "title": "How Energy Systems Influence Climate Change",
+        "title": "Energy Sub-sectors and GHG dddEmissions",
         "cta": "",
         "intro": "M6: The Climate Change-Energy Nexus"
       }
@@ -27,12 +27,6 @@
             "template_id": "subtitle",
             "content": {
               "text": "<strong>Lesson 1 Overview</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "The current energy system is a major driver of global climate change, <a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><strong><u>accounting for around 75% of total greenhouse gas emissions</u></strong></a><strong>. </strong>This means transforming how we produce and consume energy is essential, with the world’s ability to meet its climate goals hinging on the energy sector’s ability to<strong> </strong>decarbonize and <a href=\"https://www.un.org/en/climatechange/net-zero-coalition\"><u>to keep global warming to no more than 1.5°C – as called for in the Paris Agreement – emissions need to be reduced by 45% by 2030 and reach net zero by 2050</u></a>. As<strong> </strong><a href=\"https://news.un.org/en/story/2023/07/1139162\"><strong><u>temperatures break records year after year</u></strong></a><strong>, </strong>the case for action has never been stronger."
             }
           }
         ]
@@ -64,29 +58,10 @@
       }
     },
     {
-      "template_id": "lesson_part_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/243_343.webp",
-          "caption": ""
-        },
-        "intro": "M6: The Climate Change-Energy Nexus",
-        "title": "A: Emissions Breakdown"
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Reliable, accurate, and timely data are essential for crafting evidence-based energy policies that drive sustainable development. Without quality data, policy decisions risk being misinformed, leading to ineffective solutions or unintended consequences.<br /><br />According to the <a href=\"https://unstats.un.org/unsd/energystats/methodology/documents/IRES-web.pdf\"><u>International Recommendations for Energy Statistics (UN, 2018)</u></a>, data must meet five critical dimensions of quality to effectively support sound decision-making, as introduced on the next page.."
-            }
-          }
-        ]
+        "text_elements": []
       }
     },
     {
@@ -94,6 +69,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Global greenhouse gas emissions by sector and end use, 2021",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "Source: Climate watch"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -196,11 +177,18 @@
       "template_id": "text",
       "color_scheme": "light",
       "content": {
+        "text_elements": []
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
         "text_elements": [
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The energy sector emissions include <a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><u>electricity and heat generation (29.7%), transportation (13.7%), manufacturing and construction (12.7%), and buildings (6.6%)</u></a>. Fugitive emissions (those released during fossil fuel production or transmission) and emissions from other fuel combustion are also significant contributors.<br /> <br />Residential buildings represent the largest share of energy sector emissions, <a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><u>contributing 12.5% to global emissions</u></a>. This includes emissions from electricity generation for household use and direct fossil fuel consumption, such as cooking with gas. Road transportation is another major source, accounting for <a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><u>12.2% of global emissions</u></a>."
+              "text": "<br /><br />The energy sector emissions include <a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><u>electricity and heat generation (29.7%), transportation (13.7%), manufacturing and construction (12.7%), and buildings (6.6%)</u></a>. Fugitive emissions (those released during fossil fuel production or transmission) and emissions from other fuel combustion are also significant contributors.<br /> <br />Residential buildings represent the largest share of energy sector emissions, <a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><u>contributing 12.5% to global emissions</u></a>. This includes emissions from electricity generation for household use and direct fossil fuel consumption, such as cooking with gas. Road transportation is another major source, accounting for <a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><u>12.2% of global emissions</u></a>."
             }
           }
         ]
@@ -211,6 +199,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Trends in sectoral emissions (Energy Subsector), 1990-2022",
+          "subtitle": "",
+          "description": "Dataset updated through 2022",
+          "footnote": "Source: Climate watch"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -543,7 +537,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_631.webp",
@@ -559,13 +553,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>GHG Emissions from Energy Production</strong>"
+              "text": "<strong>GHG Emissions from Energy Generation</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Combustion plays a major role in energy production, especially for power generation and heating. Over 40% of energy-related CO2 emissions come from burning fossil fuels for electricity. In 2022 alone, CO2 emissions from energy combustion grew by 1.3% (423 Mt). However, energy-related greenhouse gas emissions arise from a range of sources beyond combustion, including fugitive methane emissions from oil and gas operations and process emissions from industrial activities. CO2 emissions from energy combustion and industrial processes accounted for 89% of energy-related greenhouse gas emissions in 2022. Total energy-related greenhouse gas emissions increased by 1.0% to an all-time high of 41.3 Gt CO2-eq.<br /><br /> Key factors driving CO2 emissions from electricity generation include how much electricity is produced, the efficiency of generation, the reliance on fossil fuels, and the carbon intensity of those fuels. Specifically, coal-fired power plants were the biggest contributors, responsible for 73% of electricity-sector CO2 emissions. <br /><br />While carbon dioxide (CO2) is the most abundant greenhouse gas, the energy sector also emits non-CO2 greenhouse gases like methane (CH4), nitrous oxide (N2O) and and sulfur hexafluoride (SF₆). These gases, although emitted in smaller quantities, have much higher global warming potentials and different atmospheric lifespans, making them critical to address in climate strategies. <br /><br />"
+              "text": "The generation of energy, particularly electricity and heat, is the largest single source of global greenhouse gas emissions. Fossil fuels have historically formed the backbone of global energy supply due to their high energy density and relative abundance. However, their combustion is the primary driver of anthropogenic greenhouse gas emissions.<br /><br />1. Coal<br /><br />Coal remains a dominant, albeit highly carbon-intensive, energy source. In 2022, global CO2 emissions from coal grew by 1.6%, or 243 Mt, reaching a new all-time high of almost 15.5 Gt. This surge was significantly faster than the average growth rate of the preceding decade and was primarily driven by increased coal-fired electricity and heat generation, particularly in emerging Asian economies. In 2024, global coal emissions rose by another 0.9% (135 Mt CO2), fueled by consumption growth in China, India, and Southeast Asia, even as demand declined in advanced economies like the United States and the European Union.<br /><br />The combustion of coal releases a complex array of pollutants beyond CO2. These include particulate matter (PM), sulfur oxides (SOx, primarily SO2 with some SO3), nitrogen oxides (NOx, mainly NO with some NO2 and N2O), carbon monoxide (CO), and various organic compounds. The specific levels and composition of these emissions are influenced by factors such as the coal's rank and chemical composition, the type and size of the boiler, firing conditions, operational load, and the presence of pollution control technologies. For instance, approximately 95% of the sulfur in bituminous coal is emitted as gaseous SOx during combustion. Uncontrolled PM emissions consist of ash and unburned carbon, with fly ash being a significant component in pulverized coal systems."
             }
           }
         ]
@@ -579,7 +573,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Methane, the second-largest driver of global warming after CO2, is a significant concern in the energy sector. Oil and gas operations are the biggest sources of methane emissions, while incomplete combustion of <ai prompt=\"Tell me more about bioenergy.\">bioenergy 💬️</ai>—like wood, charcoal, and crop residues—adds to methane emissions. Methane is released both intentionally, through practices like venting and flaring during production and maintenance, and accidentally, through leaks in pipelines, compressors, and valves (fugitive emissions)."
+              "text": "2. Natural Gas<br />Natural gas, composed primarily of methane (typically over 85%), is widely used for industrial, utility, residential, and commercial applications. While often promoted as a cleaner alternative to coal due to lower CO2 emissions per unit of energy, its combustion still contributes significantly to greenhouse gas release. In 2014, CO2 from natural gas combustion accounted for approximately 21% of US power sector greenhouse gas emissions. Globally, natural gas emissions increased by 3.7% in 2024, making it the largest contributor to global carbon emissions growth, driven by higher consumption in China, the United States, the Middle East, and India.<br />Combustion of natural gas primarily yields CO2, but also produces NOx (nitric oxide and nitrogen dioxide) and small amounts of nitrous oxide (N2O). The type of boiler (watertube, firetube, cast iron) and firing practices influence emissions, with larger, field-erected watertube boilers offering greater operational flexibility and NOx control options compared to smaller packaged units.<br /><br />3. Oil<br />Oil, predominantly petroleum-based, is a significant fossil fuel used for electricity and heat production globally. In 2022, 60% of global electricity was derived from burning fossil fuels, including oil. The combustion of oil largely produces CO2 and water, but also generates sulfur oxides (SOx), nitrogen oxides (NOx), and particulate matter (PM), which have detrimental effects on the environment and human health. Other pollutants include methane (CH4) and nitrous oxide (N2O)."
             }
           }
         ]
@@ -587,13 +581,13 @@
     },
     {
       "template_id": "text",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "text_elements": [
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Nitrous oxide (N2O), although released in much smaller quantities, is approximately 300 times more potent than CO2 in terms of global warming potential. The agriculture sector is the largest source of N2O emissions globally, due to the widespread use of fertilizers. In the energy sector, N2O emissions result from fossil fuel combustion, <ai prompt=\"Clarify biomass.\">biomass 💬️</ai> burning, and some industrial processes. Despite its relatively lower share, N2O emissions from energy remain an important environmental concern, as they contribute not only to global warming but also to ozone layer depletion."
+              "text": "Despite its widespread use, global oil-related emissions saw a modest increase of less than 1% in 2022 and 0.3% in 2024. This limited rise, even with a surge in aviation emissions, is partly attributed to petrochemical feedstocks accounting for a large portion of the volumetric increase in oil use. Oil-fired power plants are notable contributors to NOx emissions, particularly in regions like the Middle East, Indonesia, and parts of North Africa, relative to their CO2 contributions. Data on emissions from oil-fired power plants, including CO2, SO2, and NOx, are compiled using methodologies that combine annual CO2 emissions with fuel- and region-dependent ratios for co-emitted pollutants, accounting for varying emission control implementations globally.<br />The interplay of energy security, economic factors, and emissions trends is evident in the dynamics of fossil fuel-based generation. The global energy crisis of 2022, characterized by energy price shocks and inflation, led to a slower-than-feared growth in global emissions, partly due to increased deployment of clean energy technologies but also due to industrial production curtailment in regions like China and Europe. This indicates that economic slowdowns can inadvertently lead to emissions reductions, as seen with a 155 Mt CO2 decrease from energy-intensive industrial production in 2022. Conversely, a decline in nuclear power generation can directly lead to increased fossil fuel-fired generation and higher carbon emissions. These examples highlight how global events and policy choices can swiftly alter energy consumption patterns and, consequently, emission profiles, demonstrating the complex feedback loops between economic stability, energy supply, and environmental outcomes.<br /><br />"
             }
           }
         ]
@@ -604,6 +598,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Global energy-related greenhouse gas emissions, 2000-2022",
+          "subtitle": "",
+          "description": "Like line race, but with area",
+          "footnote": "Source: Flaring emissions are from IEA analysis based on the World Bank Global Gas Flaring Reduction Programme."
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -1016,13 +1016,23 @@
       }
     },
     {
-      "template_id": "photo_full_height",
+      "template_id": "text",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_640.webp",
-          "caption": ""
-        }
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Methane, the second-largest driver of global warming after CO2, is a significant concern in the energy sector. Oil and gas operations are the biggest sources of methane emissions, while incomplete combustion of <ai prompt=\"Clarify bioenergy.\">bioenergy 💬️</ai>—like wood, charcoal, and crop residues—adds to methane emissions. Methane is released both intentionally, through practices like venting and flaring during production and maintenance, and accidentally, through leaks in pipelines, compressors, and valves (fugitive emissions)."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Nitrous oxide (N2O), although released in much smaller quantities, is approximately 300 times more potent than CO2 in terms of global warming potential. The agriculture sector is the largest source of N2O emissions globally, due to the widespread use of fertilizers. In the energy sector, N2O emissions result from fossil fuel combustion, biomass burning, and some industrial processes. Despite its relatively lower share, N2O emissions from energy remain an important environmental concern, as they contribute not only to global warming but also to ozone layer depletion."
+            }
+          }
+        ]
       }
     },
     {
@@ -1033,13 +1043,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>GHG Emissions from Energy Production</strong>"
+              "text": "<strong>Emissions from Energy Generation</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Energy distribution contributes to GHG emissions through the transportation of energy from production sites to end-users. This includes emissions from transporting fuels, building and maintaining infrastructure, and operating energy distribution networks. Apart from these, the inefficiencies inherent in the distribution process add to the GHG emissions. In fact, energy losses during transportation are significant, with approximately 19 exajoules (EJ) lost annually in the process. They represent a dual challenge: wasted energy that could otherwise power economies and the associated emissions resulting from generating that wasted energy. These losses equate to roughly $200 billion each year.<br /><br />A key source of emissions in the transmission and distribution of electricity is sulfur hexafluoride (SF₆). It is used as an insulating gas in high-voltage electrical equipment such as switchgear and circuit breakers and is the most potent greenhouse gas regulated under the Kyoto Protocol. Its GWP is about 25,200 times greater than CO₂, and even small leaks during equipment operation, maintenance, or decommissioning can significantly impact emissions. As a result, addressing SF₆ emissions through better leak detection, maintenance practices, and alternative technologies, has become an important focus in reducing the climate impact of energy distribution networks.<br />"
+              "text": "Combustion plays a major role in energy production, especially for power generation and heating. Over 40% of energy-related CO2 emissions come from burning fossil fuels for electricity. In 2022 alone, CO2 emissions from energy combustion grew by 1.3% (423 Mt). However, energy-related greenhouse gas emissions arise from a range of sources beyond combustion, including fugitive methane emissions from oil and gas operations and process emissions from industrial activities. CO2 emissions from energy combustion and industrial processes accounted for 89% of energy-related greenhouse gas emissions in 2022. Total energy-related greenhouse gas emissions increased by 1.0% to an all-time high of 41.3 Gt CO2-eq.<br /><br /> Key factors driving CO2 emissions from electricity generation include how much electricity is produced, the efficiency of generation, the reliance on fossil fuels, and the carbon intensity of those fuels. Specifically, coal-fired power plants were the biggest contributors, responsible for 73% of electricity-sector CO2 emissions. <br /><br />While carbon dioxide (CO2) is the most abundant greenhouse gas, the energy sector also emits non-CO2 greenhouse gases like methane (CH4), nitrous oxide (N2O) and and sulfur hexafluoride (SF₆). These gases, although emitted in smaller quantities, have much higher global warming potentials and different atmospheric lifespans, making them critical to address in climate strategies. <br /><br />"
             }
           }
         ]
@@ -1047,7 +1057,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_649.webp",
@@ -1063,7 +1073,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>GHG Emissions from Energy Production</strong>"
+              "text": "<strong>GHG Emissions from Energy Consumption</strong>"
             }
           },
           {
@@ -1083,7 +1093,173 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Regional trends varied, with emissions declining in some areas and increasing in others, often influenced by factors like weather conditions. Achieving the IEA’s Net Zero Emissions (NZE) Scenario requires emissions from buildings to fall by an unprecedented 9% annually until 2030, which is a colossal challenge. High-income countries face the task of retrofitting existing buildings, while lower-income countries are grappling with the emissions implications of rapid new construction. These distinct challenges also present unique opportunities for innovation in <ai prompt=\"Provide more info on energy efficiency.\">energy efficiency 💬️</ai> and sustainable building practices.<br />"
+              "text": "Regional trends varied, with emissions declining in some areas and increasing in others, often influenced by factors like weather conditions. Achieving the IEA’s Net Zero Emissions (NZE) Scenario requires emissions from buildings to fall by an unprecedented 9% annually until 2030, which is a colossal challenge. High-income countries face the task of retrofitting existing buildings, while lower-income countries are grappling with the emissions implications of rapid new construction. These distinct challenges also present unique opportunities for innovation in <ai prompt=\"What is energy efficiency?\">energy efficiency 💬️</ai> and sustainable building practices.<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Emissions from Energy Combustion (Cross-Sectoral)<br />Energy combustion, the process of burning fuels to release energy, is the fundamental source of most anthropogenic greenhouse gas emissions. This process generates not only primary greenhouse gases but also a range of other air pollutants with significant environmental and health impacts.<br />A. General Combustion By-products<br />The combustion of fossil fuels, whether coal, oil, or natural gas, primarily results in the emission of carbon dioxide (CO2) when carbon in the fuel unites with oxygen in the atmosphere. CO2 is the most significant greenhouse gas contributing to global warming. However, fossil fuel combustion also produces other harmful pollutants and greenhouse gases. These include methane (CH4), nitrous oxide (N2O), carbon monoxide (CO), sulfur oxides (SOx, predominantly SO2), nitrogen oxides (NOx), non-methane volatile organic compounds (NMVOCs), and particulate matter (PM), such as fly ash and soot. <br />While CO2 is the main driver of climate change from combustion, other pollutants have direct deleterious effects on human health and the environment. Sulfur dioxide and nitrogen oxides contribute to acid rain and ecological damage to forests and aquatic ecosystems. Particulate matter and other unburned combustibles can cause respiratory illnesses. The formation of these compounds depends on the fuel's composition and the combustion conditions. For instance, SOx forms as organic and pyritic sulfur in coal oxidizes, with about 95% of sulfur in bituminous coal being emitted as gaseous SOx. NOx emissions are primarily nitric oxide (NO) and nitrogen dioxide (NO2), with trace amounts of N2O. The pervasive nature of these combustion by-products highlights the multifaceted environmental challenge posed by fossil fuel reliance."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "B. Sectoral Contribution to Combustion Emissions<br />Combustion emissions are distributed across various economic sectors, each contributing to the global greenhouse gas burden.<br />1. Electricity and Heat Production<br />The generation of electricity and heat by burning fossil fuels is the single largest source of global greenhouse gas emissions, accounting for 34% of global greenhouse gas emissions in 2019. This sector's emissions are primarily CO2 and nitrous oxide, powerful greenhouse gases that trap heat in the atmosphere. In 2022, emissions from electricity and heat generation saw a significant increase of 1.8% or 261 Mt, largely driven by coal-fired generation in emerging Asian economies. Despite this, renewables met 90% of the global growth in electricity generation in 2022, limiting the rebound in coal power emissions. <br />2. Industry<br />The industrial sector is a substantial contributor to greenhouse gas emissions, primarily from burning fossil fuels for energy to produce goods such as cement, iron, steel, electronics, and plastics. This sector accounted for 24% of global greenhouse gas emissions in 2019. Beyond energy combustion, industrial processes themselves, such as chemical reactions and mining, also release gases. The chemical sector, for instance, is the largest industrial energy consumer and the third largest in terms of direct CO2 emissions, with roughly half of its energy input consumed as feedstock rather than for combustion. Global industrial emissions slightly declined in 2022, partly due to decreased activity in China and the global energy crisis, but more effort is needed to align with net-zero targets."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "3. Transportation<br />Transportation is a major contributor to greenhouse gas emissions, with most vehicles, including cars, trucks, ships, and planes, running on fossil fuels. This sector accounted for 15% of global greenhouse gas emissions in 2019, with almost all (95%) of its energy derived from petroleum-based fuels like gasoline and diesel. Road vehicles are the largest segment, due to the combustion of petroleum products in internal combustion engines. In 2022, global CO2 emissions from the transport sector grew by over 250 Mt CO2 to nearly 8 Gt CO2, a 3% increase from 2021, largely due to the rebound in air travel. The sector's energy use and emissions are projected to increase further in the coming years. <br />4. Buildings<br />Residential and commercial buildings consume over half of all electricity globally. Their reliance on coal, oil, and natural gas for <ai prompt=\"What is heating and cooling?\">heating and cooling 💬️</ai> leads to significant greenhouse gas emissions. In 2019, direct emissions from buildings (onsite energy generation and burning fuels for heat or cooking) accounted for 6% of global greenhouse gas emissions. When indirect emissions from electricity consumption are allocated to the buildings sector, this share increases substantially, reaching 16% of U.S. greenhouse gas emissions. Growing energy demand for heating and cooling, particularly with rising air-conditioner ownership and increased electricity consumption for lighting and appliances, has contributed to a recent rise in energy-related CO2 emissions from buildings."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />The interconnectedness of sectoral emissions and mitigation strategies is a crucial aspect of understanding the global energy system. Emissions from electricity and heat production, for example, directly influence the emissions profiles of other sectors that rely on grid electricity. When 60% of electricity comes from burning fossil fuels, as it did globally in 2022, the emissions attributed to industry, commercial, and residential buildings, and even agriculture (for powering equipment), increase substantially due to their large share of electricity use. This means that decarbonizing the electricity grid, by increasing the share of renewables and nuclear power, has a cascading positive effect across all sectors that consume electricity. <br />Conversely, the demand for energy services in end-use sectors drives emissions in the energy supply sector. For instance, rising demand for heating and cooling in buildings directly contributes to increased electricity consumption and, if powered by fossil fuels, higher emissions from power generation. Similarly, the increasing demand for travel and goods in the transport and industrial sectors necessitates greater energy production, perpetuating reliance on fossil fuels if clean alternatives are not scaled rapidly. This intricate relationship highlights that effective climate action requires integrated strategies that consider the entire <ai prompt=\"What is energy value chain?\">energy value chain 💬️</ai> and promote cross-sectoral decarbonization, rather than isolated efforts within individual sectors."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>GHG Emissions from Energy Distribution</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Energy distribution contributes to GHG emissions through the transportation of energy from production sites to end-users. This includes emissions from transporting fuels, building and maintaining infrastructure, and operating energy distribution networks. Apart from these, the inefficiencies inherent in the distribution process add to the GHG emissions. In fact, energy losses during transportation are significant, with approximately 19 exajoules (EJ) lost annually in the process. They represent a dual challenge: wasted energy that could otherwise power economies and the associated emissions resulting from generating that wasted energy. These losses equate to roughly $200 billion each year.<br /><br />A key source of emissions in the transmission and distribution of electricity is sulfur hexafluoride (SF₆). It is used as an insulating gas in high-voltage electrical equipment such as switchgear and circuit breakers and is the most potent greenhouse gas regulated under the Kyoto Protocol. Its GWP is about 25,200 times greater than CO₂, and even small leaks during equipment operation, maintenance, or decommissioning can significantly impact emissions. As a result, addressing SF₆ emissions through better leak detection, maintenance practices, and alternative technologies, has become an important focus in reducing the climate impact of energy distribution networks.<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>A. Natural Gas Pipelines (Fugitive Methane Emissions)<br /></strong><br />Natural gas is primarily composed of methane (CH4), a potent greenhouse gas with a global warming potential (GWP) 84 times greater than CO2 over a 20-year period and 30 times greater over a 100-year period. Fugitive gas emissions refer to the unintentional release of gas, typically methane, into the atmosphere or groundwater from oil and gas or coal mining activities. In 2016, these emissions, when converted to CO2 equivalent, accounted for 5.8% of all global greenhouse gas emissions."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "The primary causes of fugitive methane emissions from natural gas infrastructure include:<br />Loss of well integrity: Poorly sealed well casings, often due to geochemically unstable cement, allow gas to escape through the wellbore (surface casing vent flow) or migrate laterally through geological formations. Studies indicate that 1-3% of methane leakage in unconventional wells is due to imperfect seals and deteriorating cement. <br />Equipment leaks: Leaks can occur from various equipment components, such as flanges or valves, or from intentional pressure release practices. <br />Transportation, storage, and distribution activities: Accidental releases or leaks in seals of pipes and storage containers during normal operations contribute to emissions. Estimates suggest that approximately 0.07-10% of methane emissions occur during these activities."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "In 2022, natural gas transport alone resulted in just over 10 Mt of methane emissions globally, which is equivalent to 300 Mt of CO2-eq. Addressing these leaks is a crucial, low-cost option for reducing greenhouse gas emissions. Rapid implementation of methane mitigation measures could significantly slow near-term warming."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>B. Electricity Transmission (SF6 Emissions)<br /></strong><br />Sulfur hexafluoride (SF6) is a synthetic fluorinated compound extensively used in electric power systems due to its unique dielectric properties. It serves as an electrical insulator, current interrupter, and arc quencher in high-voltage equipment such as circuit breakers, gas-insulated substations, and other switchgear. Despite its utility, SF6 is recognized as the most potent greenhouse gas known to date. Over a 100-year period, 1 kg of SF6 has a global warming potential (GWP) 23,500 to 24,300 times greater than an equivalent amount of CO2. Furthermore, SF6 is exceptionally stable, with an atmospheric lifetime exceeding 1,000 years, meaning it accumulates in the atmosphere for centuries once emitted. <br /><br />Although SF6-containing equipment is designed to prevent gas release, emissions inadvertently occur throughout the equipment's lifecycle, including during manufacturing, installation, maintenance, servicing, and decommissioning. Aging equipment can also develop significant leaks. In 2022, approximately 67% of all SF6 emissions in the United States were attributed to the electrical transmission and distribution sector. Reducing SF6 emissions can be achieved through cost-effective operational improvements, such as enhanced leak detection and repair, use of recycling equipment, and improved employee training. The development and adoption of SF6-free switchgear are also becoming commercially available, offering a path to reduce these highly potent emissions."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>C. Transport of Fossil Fuels (Coal, Oil, Gas)<br /></strong>The transportation of fossil fuels from extraction sites to power plants, refineries, and end-users also contributes to global emissions. This involves various modes, each with its own emissions profile.<br /><br /><strong>1. Shipping<br /></strong>International shipping relies heavily on oil-based fuels, which historically constitute over 99% of its total energy demand. In 2022, CO2 emissions from international shipping grew by 5%, accounting for approximately 2% of global energy-related CO2 emissions. Oil tankers alone contribute about 13% of maritime emissions, equating to approximately 114 million tons of CO2. Beyond CO2, the combustion of fossil fuels for water-borne navigation also produces methane (CH4), nitrous oxide (N2O), carbon monoxide (CO), oxides of nitrogen (NOx), non-methane volatile organic compounds (NMVOCs), and sulfur dioxide (SO2). The amount of emissions is primarily a function of fuel consumed, fuel characteristics, engine technology, and emission controls. While cargo vessels are highly efficient per unit of payload, international waters have historically operated under less stringent pollution regulations, though new UN regulations are coming into effect."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong><br />2. Pipelines<br /></strong>The production, transport, and processing of oil and gas resulted in 5.1 billion tonnes (Gt) of CO2-equivalent greenhouse gas emissions in 2022, representing nearly 15% of total energy-related GHG emissions globally. Oil operations were responsible for 3.5 Gt CO2-eq and natural gas operations for 1.6 Gt CO2-eq. The high energy intensity of natural gas transport, particularly for <ai prompt=\"What is liquefied natural gas?\">liquefied natural gas 💬️</ai> (LNG) or long-distance pipelines, can lead to higher overall emissions intensity for exporting countries. Methane is a key pollutant from pipeline transport, with 10 Mt of methane emissions from natural gas transport in 2022 alone. Reducing these emissions requires tackling methane leaks, eliminating non-emergency flaring, and electrifying upstream facilities with low-emissions electricity. <br /><br /><strong>3. Rail<br /></strong>Rail transport, while generally more energy-efficient than other modes for bulk goods, still contributes to emissions, especially when transporting coal. Studies indicate that transportation emissions from rail can be as high as 35% of a power plant's operational emissions, a figure significantly higher than previous estimates. This highlights that the full lifecycle emissions of coal-fired power must account for transport. Efforts to reduce emissions in the rail sector include deploying zero-emission cranes, low-emitting natural gas and battery-electric hostlers at hubs, and implementing advanced fuel management systems on locomotives to improve efficiency. Railroads are also piloting battery-electric and hydrogen fuel cell locomotives and testing hybrid models to further lower carbon output."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />The hidden emissions in the energy value chain represent a critical aspect of understanding the full climate impact of energy systems. These emissions extend far beyond the point of direct energy consumption, encompassing fugitive releases and the energy consumed in the infrastructure itself. For instance, methane leaks from natural gas pipelines and wells, often referred to as fugitive emissions, contribute significantly to global warming due to methane's high global warming potential. These releases, which can occur at various stages from extraction to distribution, are not directly tied to energy combustion but are an inherent part of the fossil fuel supply chain. Similarly, the highly potent SF6 gas, used in electricity transmission and distribution equipment, represents a substantial climate risk if not carefully managed, as even small leaks have a disproportionately large warming effect. <br /><br />Furthermore, the energy required to transport fossil fuels, whether by ship, pipeline, or rail, adds another layer of emissions that are often not fully accounted for in end-use sector analyses. These emissions, generated by the engines and infrastructure supporting the movement of fuels, contribute to the overall carbon footprint of the energy system. The recognition of these \"scope 1 and 2\" emissions from oil and gas operations, which amounted to 5.1 Gt CO2-eq in 2022 (nearly 15% of total energy-related GHGs), underscores that a comprehensive approach to emission reduction must consider the entire energy value chain, from well to tank, and beyond. Overlooking these less visible but substantial sources would lead to an incomplete understanding of the climate challenge and hinder the development of effective, holistic mitigation strategies."
             }
           }
         ]
@@ -1094,11 +1270,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/251_259.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/5757_316.webp",
           "caption": ""
         },
-        "intro": "M6: The Climate Change-Energy Nexus | Chapter 1 | Lesson 1 | Part 2",
-        "title": "B: Impacts of Renewable Energy Development on Ecosystems"
+        "intro": "M6: The Climate Change-Energy Nexus",
+        "title": "B: Emissions from Transport"
       }
     },
     {
@@ -1109,37 +1285,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "This section builds on Module 3 by exploring the specific impacts of renewable energy technologies on ecosystems and strategies to mitigate them. While renewables are essential for reducing emissions, their development can disrupt habitats and biodiversity if not carefully managed. Here, we examine these challenges in greater detail and explore solutions such as sustainable siting, ecological safeguards, and integrated approaches to ensure a truly sustainable energy transition."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_665.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Land Use Conflicts</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "The land requirements for different energy generation methods vary significantly, especially when considering their entire life cycle. Life-cycle land use assessments account not only for the physical footprint of the energy plant itself but also for the land required for activities like mining materials for construction, sourcing fuel inputs, decommissioning, and managing waste. The construction of renewable energy facilities, such as solar farms and wind turbines, requires significantly more land to produce the same amount of electricity as a coal-fired power plant. This can lead to habitat fragmentation and displacement of wildlife.<br /><br />Ground mounted solar installations tend to have relatively high land use, although this varies based on location and the configuration of the solar panels. For instance, utility-scale solar farms, unlike rooftop solar panels, can disrupt local ecosystems by occupying large tracts of land, altering habitats, and driving species away from their natural environments. While it is true that rooftop solar installations use significantly less land, as they utilize existing structures, their land use is not zero, as mining materials for solar panel production still require land resources."
+              "text": "Emissions from Transport<br />The transport sector is a major contributor to global greenhouse gas emissions, predominantly relying on fossil fuels. Decarbonizing this sector is a complex challenge, requiring a multi-pronged approach involving electrification, fuel efficiency improvements, and the adoption of alternative fuels.<br /><br />A. Road Transport<br />Road transport is by far the largest component of transport-related emissions. In Europe, it accounted for approximately 74% of total transport emissions in 2023, with passenger cars alone responsible for more than half of these. Globally, road transport passenger and freight emissions represented 69% of all transport emissions in 2019, reaching 6.1 GtCO2-eq. <br /><br />Trends in road transport emissions are influenced by increasing demand for travel, population growth, economic growth, and urban sprawl, which have led to a 47% increase in vehicle miles traveled (VMT) by light-duty motor vehicles between 1990 and 2022. While there has been a trend towards larger, less fuel-efficient vehicles, average new vehicle fuel economy has improved almost every year since 2005, helping to slow the rate of CO2 emission increases. Despite these efficiency gains, the slow turnover of the global vehicle fleet means that gasoline vehicles continue to dominate, limiting the immediate impact of new, cleaner technologies."
             }
           }
         ]
@@ -1153,20 +1299,10 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "A study analyzing solar energy land use in regions like the European Union, India, and South Korea highlight a key concern: as solar energy becomes a larger share of a region's electricity mix, associated land-use changes and emissions also grow. Solar expansion often takes place on land currently used for agriculture or forestry. This displacement can push agricultural or forestry activities to other areas, often involving unused arable land, resulting in natural land cover losses. These changes disturb local ecosystems and release carbon stored in soils and vegetation, offsetting some of the environmental benefits of solar energy.<br /><br />Another study on a 96 MW solar installation in South Africa found a significant decline in bird species diversity and density. The replacement of the natural savanna with solar panels and managed grasslands disrupted habitats, reducing nesting and foraging opportunities for local bird populations. These land-use challenges also intersect with social considerations, particularly in the context of achieving a <ai prompt=\"Provide more info on just energy transition.\">just energy transition 💬️</ai> (previously discussed in Module 3). Large-scale projects can have varied impacts on local communities, raising concerns about equitable access to opportunities and minimizing risks for those most affected by renewable energy expansion. Understanding the broader implications of land use in renewable energy development is crucial for designing sustainable energy strategies that minimize ecological and social impacts."
+              "text": "<br /><strong>1. Shipping<br /></strong>International shipping relies heavily on oil-based fuels, which historically constitute over 99% of its total energy demand. In 2022, CO2 emissions from international shipping grew by 5%, accounting for approximately 2% of global energy-related CO2 emissions. Oil tankers alone contribute about 13% of maritime emissions, equating to approximately 114 million tons of CO2. Beyond CO2, the combustion of fossil fuels for water-borne navigation also produces methane (CH4), nitrous oxide (N2O), carbon monoxide (CO), oxides of nitrogen (NOx), non-methane volatile organic compounds (NMVOCs), and sulfur dioxide (SO2). The amount of emissions is primarily a function of fuel consumed, fuel characteristics, engine technology, and emission controls. While cargo vessels are highly efficient per unit of payload, international waters have historically operated under less stringent pollution regulations, though new UN regulations are coming into effect."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/251_451.webp",
-          "caption": ""
-        }
       }
     },
     {
@@ -1175,28 +1311,12 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Infrastructure Development</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The infrastructure required for renewable energy projects can also impact local ecosystems and livelihoods. Wind farms can pose threats to birds and bats due to collisions with turbine blades, while hydroelectric projects can disrupt aquatic habitats and alter water flow patterns. Nevertheless, research and conservation efforts are underway to identify best practices for developing energy infrastructure in a way that minimizes damage to biodiversity and ecosystem services."
+              "text": "B. Aviation<br />Aviation accounts for a relatively small share of global emissions but is one of the most challenging sectors to decarbonize due to the high energy density requirements of air travel. In 2023, aviation was responsible for 2.5% of global energy-related CO2 emissions, having grown faster than rail, road, or shipping between 2000 and 2019. As international travel rebounded from COVID-19 pandemic lows, aviation emissions reached almost 950 Mt CO2 in 2023, exceeding 90% of pre-pandemic levels. <br />Technological improvements in airframe and engine design, along with operational optimizations such as higher passenger load factors, have led to significant energy efficiency gains. For instance, the energy required to travel one passenger-kilometer more than halved between 1990 and 2019. However, the carbon intensity of jet fuel itself has remained unchanged, meaning that while flying has become more energy-efficient, the fuel burned is no cleaner. This highlights the need for a fundamental shift away from conventional jet fuel to achieve substantial emissions reductions in aviation."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/251_462.webp",
-          "caption": ""
-        }
       }
     },
     {
@@ -1205,28 +1325,12 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Mining for Renewable Resources</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The transition to renewable energy necessitates increased mining activities for essential materials like lithium, cobalt, and rare earth elements. Mining operations often result in severe environmental degradation, including soil erosion, water pollution, and destruction of habitats. In fact, many reserves of <ai prompt=\"Explain critical minerals.\">critical minerals 💬️</ai> for renewable power infrastructure coincide with areas of high biodiversity value. In regions where these minerals are extracted, such as the Atacama Desert in Chile, mining activities have been attributed to being one of the major stressors to local environmental degradation. Similarly, in the Democratic Republic of Congo (DRC), home to one of the world’s largest rainforests, cobalt mining has raised major environmental and human rights concerns, including deforestation, water contamination, and child labor. Deep sea mining is also being explored to meet mineral demand, targeting resources on the ocean floor. However, it poses serious risks to marine ecosystems, including habitat destruction and loss of biodiversity, raising concerns about its environmental impact."
+              "text": "Building Materials and Embodied Carbon<br />Beyond operational emissions, the \"embodied carbon\" of building materials contributes significantly to the sector's overall footprint. Embodied carbon refers to the sum of all greenhouse gas emissions released during the lifecycle of materials, including extraction, manufacturing, transport, construction, and disposal. It accounts for an estimated 11% of annual global climate-warming GHG emissions. As buildings become more operationally efficient, the share of embodied carbon in their total lifecycle emissions is expected to grow. <br /><br />1. Cement Production<br />Cement manufacturing is a major industrial emitter, responsible for approximately 8% of the world's total CO2 emissions. In 2022, global cement manufacturing produced 1.6 billion metric tonnes of CO2. Unlike many other sectors where energy combustion is the primary source, more than half of the emissions from cement and concrete production are \"process emissions\". These direct emissions largely result from the calcination of calcium carbonate (limestone), which breaks down to yield lime and CO2. The combustion of fossil fuels for high-temperature processing units accounts for another 30-40% of emissions, while electricity usage for transport and operations contributes indirectly. Strategies to reduce cement emissions include cutting clinker content by using supplementary cementitious materials (SCMs) and exploring alternative production processes that require less energy or use recycled materials."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_471.webp",
-          "caption": ""
-        }
       }
     },
     {
@@ -1235,15 +1339,121 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Managing the Full Lifecycle of Renewable Energy Infrastructure</strong>"
+              "text": "2. Steel Production<br />The steel industry is also highly energy- and carbon-intensive, accounting for approximately 7-11% of total global CO2 emissions. Most CO2 emissions from iron and steel manufacturing result from the reduction of iron ore in blast furnaces (BFs), which use coke (a form of coal) in an energy- and carbon-intensive process. The weighted average carbon footprint of steel is estimated at 1.85 tons of CO2 per tonne of steel produced, though this can vary significantly based on production method. <br />Two primary production methods exist: the basic oxygen furnace (BOF) route, which uses coal, and the electric arc furnace (EAF) route, which melts scrap steel using electricity. EAFs are generally cleaner, and increased use of recycled steel significantly reduces the carbon footprint. <ai prompt=\"Tell me more about decarbonization.\">decarbonization 💬️</ai> efforts in the steel industry involve greater use of EAFs, increased direct reduced iron (DRI) production (especially with renewable hydrogen), and investments in renewable power generation for the industry."
             }
-          },
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The decommissioning of renewable energy infrastructure is an often-overlooked challenge that has long-term implications for energy systems and sustainability. Wind turbines, solar panels, and hydropower facilities all have finite lifespans; typically 20-30 years for solar panels and wind turbines, and up to 100 years for hydropower plants. For offshore wind farms, decommissioning involves dismantling turbines, removing subsea structures, and managing waste materials. Without proper planning, this process could disrupt marine ecosystems and create large quantities of waste. Similarly, solar panel disposal raises concerns about e-waste and the recycling of rare materials like silicon, silver, and cadmium. Hydropower plants, especially older ones, may require retrofitting or removal, which can significantly impact water systems and local ecosystems. A lack of decommissioning strategies could lead to stranded assets and increased environmental impacts."
+              "text": "Emissions from Agriculture (Related to Energy)<br />While often considered a separate sector, agriculture's energy consumption contributes significantly to global emissions, primarily through on-farm activities, fertilizer production, and irrigation.<br />A. On-Farm Energy Use (Machinery, Equipment)<br />Agricultural operations rely heavily on energy for machinery, equipment, and various processes. In 2019, annual emissions directly from energy use in agriculture were approximately 523 million tonnes (Mt) of CO2 equivalent (CO2eq). When indirect emissions from electricity consumption are included, this figure rises to 1,029 Mt CO2eq per year, representing a 7% increase from 1990 levels. <br />The composition of on-farm energy-related emissions has shifted over time. While significant decreases were observed in emissions from the combustion of coal (-55%), natural gas (-50%), motor gasoline (-42%), and fuel oil (-37%) between 1990 and 2019, emissions from LPG increased by 32%. Crucially, the use of electricity and its associated indirect emissions have tripled over the same period, making electricity the largest emission source from energy use in agriculture since 2005. This trend reflects a broader shift towards electrification in various agricultural processes. The overall global trend is a result of contrasting developments: marked decreases in developed countries were offset by larger increases in developing and emerging economies."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />The holistic approach to building decarbonization recognizes that addressing climate goals in the built environment requires considering both operational and embodied emissions throughout a building's lifecycle. While improving operational energy efficiency (heating, cooling, lighting) has been a long-standing focus, the substantial contribution of embodied carbon—the emissions associated with materials from extraction to disposal—is gaining increasing recognition. For instance, cement production's unique challenge lies in its process emissions, which account for over half of its CO2 output, independent of energy source. This means that simply decarbonizing the energy used in cement production is insufficient; innovative material solutions like Limestone Calcined Clay Cement (LC3) are needed to directly tackle these chemical process emissions. <br />Similarly, in steel production, the choice between coal-intensive blast furnaces and electric arc furnaces (which can use recycled steel and renewable electricity) profoundly impacts embodied carbon. This understanding underscores that sustainable building design must integrate material efficiency strategies, low-emission design, and the use of low-embodied carbon or carbon-storing materials, alongside electrification and renewable energy for operational needs. Policies promoting circularity, reuse, and bio-based materials are therefore as crucial as energy codes for new construction and retrofitting existing buildings to achieve a truly net-zero built environment. This comprehensive perspective ensures that efforts to reduce emissions are not merely shifting the carbon burden from one part of a building's lifecycle to another, but are instead driving systemic decarbonization."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "B. Aviation<br />Aviation accounts for a relatively small share of global emissions but is one of the most challenging sectors to decarbonize due to the high energy density requirements of air travel. In 2023, aviation was responsible for 2.5% of global energy-related CO2 emissions, having grown faster than rail, road, or shipping between 2000 and 2019. As international travel rebounded from COVID-19 pandemic lows, aviation emissions reached almost 950 Mt CO2 in 2023, exceeding 90% of pre-pandemic levels. <br />Technological improvements in airframe and engine design, along with operational optimizations such as higher passenger load factors, have led to significant energy efficiency gains. For instance, the energy required to travel one passenger-kilometer more than halved between 1990 and 2019. However, the carbon intensity of jet fuel itself has remained unchanged, meaning that while flying has become more energy-efficient, the fuel burned is no cleaner. This highlights the need for a fundamental shift away from conventional jet fuel to achieve substantial emissions reductions in aviation."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />B. Fertilizer Production and Use<br />Fertilizer production is an energy-intensive process with a notable global emissions footprint. It consumes approximately 1.2% of the world's total energy and is responsible for about 1.2% of total global greenhouse gas emissions. This includes 0.3% as pure CO2, 0.3% as N2O, and 0.6% as flue gas CO2. The main energy requirement for fertilizer production is linked to the nitrogen component, accounting for 94% of the energy used. <br />Beyond production, the use of fertilizers in agriculture is a primary source of nitrous oxide (N2O) emissions. N2O is a potent greenhouse gas, approximately 300 times more effective at trapping heat than CO2. Agricultural soils, through microbial digestion of nitrogen, release significant amounts of N2O. Efforts to reduce emissions in this area involve improving energy efficiency in production and optimizing fertilizer application to minimize N2O release. <br />C. Irrigation Systems<br />Irrigation, vital for global food security, also contributes to energy consumption and carbon emissions. Annually, irrigation activities account for 216 million metric tons of CO2 emissions and consume 1,896 petajoules (PJ) of energy worldwide. This represents 15% of the total greenhouse gas emissions and energy utilized in agricultural operations."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "B. Aviation<br />Aviation accounts for a relatively small share of global emissions but is one of the most challenging sectors to decarbonize due to the high energy density requirements of air travel. In 2023, aviation was responsible for 2.5% of global energy-related CO2 emissions, having grown faster than rail, road, or shipping between 2000 and 2019. As international travel rebounded from COVID-19 pandemic lows, aviation emissions reached almost 950 Mt CO2 in 2023, exceeding 90% of pre-pandemic levels. <br />Technological improvements in airframe and engine design, along with operational optimizations such as higher passenger load factors, have led to significant energy efficiency gains. For instance, the energy required to travel one passenger-kilometer more than halved between 1990 and 2019. However, the carbon intensity of jet fuel itself has remained unchanged, meaning that while flying has become more energy-efficient, the fuel burned is no cleaner. This highlights the need for a fundamental shift away from conventional jet fuel to achieve substantial emissions reductions in aviation."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "For example, the use of electricity has become the largest energy-related emission source in agriculture since 2005, underscoring how the decarbonization of the electricity grid directly benefits agricultural emissions. Similarly, the reliance on diesel pumps for groundwater irrigation, accounting for 89% of irrigation energy use, points to a clear opportunity for emissions reduction through electrification and renewable energy integration. <br />This understanding reveals that climate action must extend beyond the traditional boundaries of the energy sector to encompass all areas where energy is consumed. The energy-intensive nature of modern agriculture means that improvements in energy efficiency and the adoption of clean energy sources within this sector are not merely ancillary benefits but are integral to achieving broader global greenhouse gas reduction targets. Recognizing these interdependencies allows for more holistic and effective climate strategies that address energy consumption across the entire economic spectrum."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "A significant portion of these emissions stems from groundwater pumping. Despite groundwater sources serving only 40% of irrigated land, they drive a staggering 89% of total irrigation energy use, primarily due to the prevalence of energy-intensive diesel pumps. Projections suggest that future expansion of irrigation could lead to a 28% increase in energy usage. However, there is substantial potential for reduction: embracing highly efficient, low-carbon irrigation methods could cut energy consumption by half and reduce CO2 emissions by up to 90% globally, though country-specific feasibility might limit the actual reduction to around 55%. This highlights the importance of transitioning to electric pumps powered by renewable energy and adopting more efficient water delivery systems. <br />The pervasive footprint of energy in non-energy sectors, such as agriculture, is a crucial aspect often underestimated in climate discussions. While the energy sector is typically the primary focus for emissions reduction, the significant energy consumption within agriculture—for farm machinery, fertilizer production, and irrigation—means that this sector's energy-related emissions are substantial and cannot be overlooked."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "B. Aviation<br />Aviation accounts for a relatively small share of global emissions but is one of the most challenging sectors to decarbonize due to the high energy density requirements of air travel. In 2023, aviation was responsible for 2.5% of global energy-related CO2 emissions, having grown faster than rail, road, or shipping between 2000 and 2019. As international travel rebounded from COVID-19 pandemic lows, aviation emissions reached almost 950 Mt CO2 in 2023, exceeding 90% of pre-pandemic levels. <br />Technological improvements in airframe and engine design, along with operational optimizations such as higher passenger load factors, have led to significant energy efficiency gains. For instance, the energy required to travel one passenger-kilometer more than halved between 1990 and 2019. However, the carbon intensity of jet fuel itself has remained unchanged, meaning that while flying has become more energy-efficient, the fuel burned is no cleaner. This highlights the need for a fundamental shift away from conventional jet fuel to achieve substantial emissions reductions in aviation."
             }
           }
         ]
@@ -1258,27 +1468,27 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4619_289.webp",
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2874.webp",
               "caption": "image caption"
             },
-            "title": "Climate Change Disrupts Renewable Energy Efficiency and Availability.",
-            "description": "Climate change disrupts the efficiency and availability of renewable energy sources like solar, wind, and hydro, through changing weather patterns, temperature fluctuations, and extreme weather events. Thermal power plants also face challenges, including rising cooling water demand and infrastructure damage from heatwaves and storms."
+            "title": "Diverse Renewable Technologies are Key to Emission Reductions.",
+            "description": "Solar, wind, hydropower, geothermal, and hydrogen are playing a crucial role in reducing greenhouse gas emissions and accelerating the global energy transition. Each technology has unique advantages, such as solar PV’s affordability, wind energy’s scalability, hydropower’s grid stability, geothermal’s reliability, and hydrogen’s potential for hard-to-abate sectors."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4619_283.webp",
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2868.webp",
               "caption": "image caption"
             },
-            "title": "Extreme Weather Events Compromise Energy Reliability.",
-            "description": "The frequency and intensity of extreme weather events such as hurricanes, wildfires, and floods are putting pressure on energy distribution systems, causing damage to infrastructure and leading to power outages, which affect the reliability and resilience of energy supply."
+            "title": "Implementation Challenges Must Be Addressed.",
+            "description": "While renewable energy technologies offer significant benefits, their implementation faces challenges, including high initial investment costs, grid integration issues, financing constraints, and infrastructure limitations, particularly in developing countries."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4619_277.webp",
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2862.webp",
               "caption": "image caption"
             },
-            "title": "Strategic Adaptation is Essential for Energy System Resilience.",
-            "description": "Effective strategies to tackle the impact of climate change on energy systems involve enhancing infrastructure resilience, diversifying energy sources, improving energy efficiency, and adopting decentralized solutions. These approaches are essential for ensuring a secure, sustainable, and adaptable energy future in the face of climate-induced disruptions."
+            "title": "Strategic Approaches are Essential for Scaling Renewable Energy.",
+            "description": "Policy incentives, innovative financing (e.g., blended finance and concessional loans), infrastructure development (grid modernization and energy storage), capacity building, and community engagement are key strategies for scaling up renewable energy deployment, ensuring equitable access, and supporting a just energy transition."
           }
         ]
       }
@@ -1291,7 +1501,7 @@
         "resources": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6111.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6111.webp",
               "caption": ""
             },
             "href": "IEA",
@@ -1300,7 +1510,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6112.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6112.webp",
               "caption": ""
             },
             "href": "International Renewable Energy Agency",
@@ -1309,7 +1519,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6113.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6113.webp",
               "caption": ""
             },
             "href": "UNITED NATIONS ECONOMIC COMMISSION FOR EUROPE",
@@ -1324,7 +1534,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.webp",
           "caption": ""
         },
         "intro": "Next up",

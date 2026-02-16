@@ -87,11 +87,11 @@
             "messages": {
               "correct": {
                 "title": "Correto",
-                "body": "SF₆ tem o GWP mais alto—cerca de 25.200 vezes o do CO₂—tornando-se um alvo crítico para a redução de emissões na distribuição de energia."
+                "body": "SF₆ tem o GWP mais alto, cerca de 25.200 vezes o do CO₂, tornando-se um alvo crítico para a redução de emissões na distribuição de energia."
               },
               "wrong": {
                 "title": "Incorreto",
-                "body": "SF₆ tem o GWP mais alto—cerca de 25.200 vezes o do CO₂—tornando-se um alvo crítico para a redução de emissões na distribuição de energia."
+                "body": "SF₆ tem o GWP mais alto, cerca de 25.200 vezes o do CO₂, tornando-se um alvo crítico para a redução de emissões na distribuição de energia."
               }
             }
           },
@@ -283,6 +283,43 @@
                 "body": "O transporte é a maior fonte de emissões de CO2 de uso final, responsável por mais de um terço, tornando-se um setor prioritário para a descarbonização por meio de eletrificação e melhorias na eficiência."
               }
             }
+          },
+          {
+            "id": 8,
+            "prompt": "Por que a análise de emissões do ciclo de vida é fundamental para comparar tecnologias de energia renovável e fóssil?",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Porque revela os verdadeiros impactos das emissões além do ponto de uso"
+              },
+              {
+                "id": 2,
+                "value": "Porque mede apenas as emissões da queima de combustível"
+              },
+              {
+                "id": 3,
+                "value": "Porque as energias renováveis podem mostrar emissões totais mais baixas mesmo após incluir a fabricação e a disposição"
+              },
+              {
+                "id": 4,
+                "value": "Porque é a única métrica que os governos usam para definir metas climáticas"
+              }
+            ],
+            "solution": [
+              1,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correto",
+                "body": "A análise do ciclo de vida inclui emissões da construção, uso e desativação. Desta que as energias renováveis permanecem com baixas emissões mesmo quando todas as etapas são consideradas."
+              },
+              "wrong": {
+                "title": "Incorreto",
+                "body": "A análise do ciclo de vida inclui emissões da construção, uso e desativação. Desta que as energias renováveis permanecem com baixas emissões mesmo quando todas as etapas são consideradas."
+              }
+            }
           }
         ]
       }
@@ -292,7 +329,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.webp",
           "caption": ""
         },
         "intro": "Próximo",

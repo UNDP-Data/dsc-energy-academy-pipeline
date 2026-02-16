@@ -2,16 +2,20 @@
   "id": "4.3.3",
   "segments": [
     {
-      "template_id": "case_study_cover",
+      "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_18.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_12.png",
           "caption": ""
         },
-        "intro": "أفريقيا",
-        "title": "دراسة حالة: كينيا",
-        "subtitle": ""
+        "lesson": {
+          "label": "درس",
+          "number": "3"
+        },
+        "title": "التمويل المختلط",
+        "cta": "",
+        "intro": "M4: تمويل الانتقال العادل للطاقة"
       }
     },
     {
@@ -20,9 +24,15 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>نظرة عامة على الدرس 3</strong>"
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "تقدم تجربة بحيرة توركانا دروسًا قيمة لدول أخرى تسعى إلى مشاريع طاقة متجددة على نطاق واسع في مناطق متنازع عليها ونائية. العوامل الرئيسية لنجاح شملت: <br /> <br />هياكل تمويل مبتكرة تدمج بين الاستثمار الخاص والإقراض التفضيلي. <br />شراكات <ai prompt=\"ما هي الشراكات بين القطاعين العام والخاص؟\">العامة-الخاصة 💬️</ai> مع آليات واضحة لتقاسم المخاطر. <br />برامج تنمية المجتمع المخصصة بجانب تنفيذ البنية التحتية. <br /> <br />ومع ذلك، فإن LTWP يوضح أيضًا دروسًا تحذيرية حاسمة. مشاريع البنية التحتية الكبيرة في المناطق ذات حقوق الأراضي المتنازع عليها ووجود الدولة المحدود تتطلب أكثر من التميز الفني— فهي تتطلب مشاركة أصحاب المصلحة في المراحل المبكرة، واتفاقيات واضحة بشأن حقوق الأراضي، واستراتيجيات شفافة لتوزيع المخاطر (<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769178\"><u>Zetzsche & Vilanculo, 2024</u></a>). <br /> <br />تسلط LTWP الضوء على كل من الإمكانات التحولية وتعقيدات مشاريع الطاقة المتجددة الضخمة في الأسواق الناشئة. بينما يُظهر المشروع كيف يمكن للطاقة المتجددة تعزيز أمن الطاقة الوطني وجذب رأس المال الخاص، فإنه يكشف أيضًا عن التحديات الاجتماعية والإدارية التي يجب معالجتها لضمان نتائج عادلة ومستدامة. تؤكد الحالة على أهمية دمج أطر الإدماج الاجتماعي وتقاسم المنافع من بداية المشروع، لا سيما في المناطق المهمشة. <br /> <br /><strong><br /></strong>"
+              "text": "تتناول هذه الدرس التمويل المدمج كاستراتيجية للاستفادة من رأس المال العام والخيري لجذب استثمارات القطاع الخاص في مشاريع الطاقة المتجددة. يستكشف كيف يلعب التمويل التيسيري، الذي يوفر تمويلاً بشروط أكثر ملاءمة، دورًا حاسمًا في تقليل مخاطر المشاريع وجعلها أكثر جاذبية للمستثمرين. تغطي الدرس أيضًا أمثلة على هياكل التمويل المختلط الناجحة، مثل <ai prompt=\"Explain public-private partnerships.\">الشراكات بين القطاعين العام والخاص 💬️</ai>، وتوضح كيف يمكن تطبيق هذه النماذج لتوسيع الطاقة المتجددة في الأسواق الناشئة."
             }
           }
         ]
@@ -54,86 +64,11 @@
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "صندوق الثقة للبنية التحتية في أفريقيا، الذي تديره المديرية العامة للتعاون الإنمائي في المفوضية الأوروبية، ساهم بمبلغ 25 مليون يورو كتمويل تيسيري مقابل أسهم مفضلة، والتي سيتم سدادها فقط بعد سداد الدين الأول بالكامل. ساعدت هذه الهيكلية على امتصاص المخاطر وجذب المستثمرين الخاصين (<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769178\"><u>Zetzsche & Vilanculo, 2024</u></a>). <br /> لقد كان لـ LTWP تأثيرات كبيرة على قطاع الطاقة في كينيا. متصل بالشبكة في عام 2019، زاد من القدرة المركبة للبلاد بنسبة 13٪ (<a href=\"https://ltwp.co.ke/overview/\"><u>LTWP، 2025</u></a>). وفقًا للبنك الأفريقي للتنمية، من المتوقع أن يولد المشروع ‘حوالي 1.56 مليون ميغاواط ساعة سنويًا’، مما يُحِل محل التوليد الحراري المكلف ويقلل من تكاليف الكهرباء (<a href=\"https://www.afdb.org/en/projects-and-operations/selected-projects/lake-turkana-wind-power-project-the-largest-wind-farm-project-in-africa-143\"><u>AfDB، 2015</u></a>). <br />على المستوى المحلي، ساهم المشروع في تحسين البنية التحتية والفرص الاجتماعية والاقتصادية في مقاطعة توركانا (<a href=\"https://ltwp.co.ke/overview/\"><u>LTWP، 2025</u></a>; <a href=\"https://www.norfund.no/lake-turkana/\"><u>نورفاند</u></a>). شمل هذا التطوير بناء أكثر من 200 كيلومتر من الطرق في مناطق كانت غير قابلة للوصول سابقًا، مما يدعم مشاريع الصحة والتعليم والوصول إلى المياه من خلال مؤسسة Winds of Change. كما أن المشروع أوجد أكثر من 2000 وظيفة خلال ذروة البناء، موفرًا دخلًا وتدريبًا على المهارات للمجتمعات المحلية. ومع ذلك، لا تزال التوترات الاجتماعية قائمة، حيث أنه على الرغم من نجاحه، واجه المشروع تحديات معقدة تتعلق بحقوق الأراضي، وتقاسم الفوائد، والمشاركة المحلية، نظرًا لموقعه في منطقة « تتميز بمجتمعات رعوية وتوترات عرقية » (<a href=\"https://www.sciencedirect.com/science/article/pii/S0305750X2400384X\"><u>Lind & Rogei, 2025</u></a>). هذه التعقيدات تؤكد على الحاجة إلى ضمانات اجتماعية قوية، ومشاركة المجتمع، وحوكمة الأراضي الشفافة —<br> والتي تدمج بشكل متزايد في هياكل التمويل العام-الخاص المصممة بشكل جيد."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "لطالما واجهت كينيا تحديات في تلبية الطلب المتزايد على الكهرباء، مع الاعتماد على الطاقة الكهرمائية مما يجعل البلاد عرضة لنقص الإمدادات الناتج عن الجفاف. قامت شركة Lake Turkana Wind Power Ltd بتصميم مشروع طاقة الرياح في بحيرة توركانا (LTWP) بالتعاون مع حكومة كينيا لمعالجة هذه الثغرات من خلال تنويع مزيج الطاقة في كينيا وتوفير طاقة أنظف وأكثر موثوقية. وفقًا للبنك الأفريقي للتنمية، كان الهدف من المشروع هو « تقليل تكلفة الكهرباء، تحسين موثوقية الإمداد وتقليل اعتماد البلاد على الوقود المستورد » <a href=\"https://www.afdb.org/en/projects-and-operations/selected-projects/lake-turkana-wind-power-project-the-largest-wind-farm-project-in-africa-143\"><u>(AfDB, 2015)</u></a>. [needs translation] <br />Situated in the arid Turkana region, the project also aimed to stimulate local development in an area historically characterized by limited infrastructure and economic opportunities <a href=\"https://www.norfund.no/lake-turkana/\"><u>(Norfund).</u></a> LTWP is ‘the largest wind power project in Africa’, comprising 365 wind turbines supplied by Vestas (a Danish manufacturer and seller of wind turbines), each with a capacity of 850 kW, and an associated 438 km transmission line linking the site to the national grid (<a href=\"https://www.eib.org/en/press/all/2014-068-european-support-for-sub-saharan-africas-largest-wind-power-project-confirmed\"><u>EIB, 2014</u></a>; <a href=\"https://ltwp.co.ke/overview/\"><u>LTWP, 2025</u></a>). <br />استخدم المشروع نهج تمويل مختلط منظم، يجمع بين رأس المال الخاص والاستثمار العام التيسيري لمشاركة المخاطر وتسهيل الجدوى التجارية. شمل عملية تنفيذ LTWP: <br />تحريك أكثر من 700 مليون دولار أمريكي من الاستثمارات من خلال مزيج من الأسهم والقروض التيسيرية من مؤسسات، بما في ذلك البنك الأوروبي للاستثمار والبنك الأفريقي للتنمية (<a href=\"https://www.norfund.no/lake-turkana/\"><u>Norfund)</u></a>. <br />إنشاء مكتب اتصال مجتمعي ومؤسسة Winds of Change لتنفيذ مشاريع تنمية محلية، بما في ذلك تلك المتعلقة بالصحة والتعليم والوصول إلى المياه (<a href=\"https://ltwp.co.ke/\"><u>LTWP، 2025</u></a>). <br />القيام بأعمال مدنية كبيرة، مثل بناء أكثر من 200 كيلومتر من الطرق، لتمكين تنفيذ المشروع في المنطقة النائية والصعبة لوجستيًا (<a href=\"https://ltwp.co.ke/\"><u>LTWP، 2025</u></a>). </strong>"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_2.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "lesson_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_15.png",
-          "caption": ""
-        },
-        "lesson": {
-          "label": "درس",
-          "number": "3"
-        },
-        "title": "التمويل المختلط",
-        "cta": "",
-        "intro": "M4: تمويل الانتقال العادل للطاقة"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>نظرة عامة على الدرس 3</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "تتناول هذه الدرس التمويل المدمج كاستراتيجية للاستفادة من رأس المال العام والخيري لجذب استثمارات القطاع الخاص في مشاريع الطاقة المتجددة. يستكشف كيف يلعب التمويل التيسيري، الذي يوفر تمويلاً بشروط أكثر ملاءمة، دورًا حاسمًا في تقليل مخاطر المشاريع وجعلها أكثر جاذبية للمستثمرين. تغطي الدرس أيضًا أمثلة على هياكل التمويل المختلط الناجحة، مثل الشراكات بين القطاعين العام والخاص، وتوضح كيف يمكن تطبيق هذه النماذج لتوسيع نطاق الطاقة المتجددة في الأسواق الناشئة."
-            }
-          }
-        ]
-      }
-    },
-    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_9.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Outro_1.png",
           "caption": ""
         },
         "intro": "M4: تمويل الانتقال العادل للطاقة",
@@ -148,22 +83,10 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "التمويل المختلط هو آلية حاسمة لتحفيز استثمار القطاع الخاص في مشاريع الطاقة المستدامة عالية المخاطر وعالية التأثير في البلدان النامية. يستخدم التمويل التيسيري لتقليل مخاطر الاستثمارات، مما «<strong>يشجع</strong>» استثمار الممولين التجاريين. من خلال الجمع الاستراتيجي بين التمويل التيسيري من المصادر العامة ورأس المال الخاص، يقلل التمويل المدمج من المخاطر ويعزز الجدوى المالية للمشاريع التي قد تكافح لجذب الاستثمار الخاص. <br /><br />هذا مهم بشكل خاص حيث تظهر التقديرات أن حوالي 60٪ من تمويل الطاقة النظيفة للأسواق الناشئة والاقتصادات النامية (EMDEs)، باستثناء الصين، يجب أن يأتي من القطاع الخاص كما ذُكر في الدروس السابقة. <br /><br />من المتوقع أن يرتفع مساهمة القطاع الخاص إلى 0.9-1.1 تريليون دولار أمريكي سنويًا بحلول أوائل الثلاثينيات، مقارنة بـ 135 مليار دولار اليوم.<br /><br />يتم شرح فوائد التمويل المختلط في الإنفوجرافيك في الشريحة التالية."
+              "text": "التمويل المختلط هو آلية حاسمة لتحفيز استثمار القطاع الخاص في مشاريع الطاقة المستدامة عالية المخاطر وعالية التأثير في البلدان النامية. يستخدم التمويل التيسيري لتقليل مخاطر الاستثمارات، مما «<strong>يشجع</strong>» استثمار الممولين التجاريين. من خلال الجمع الاستراتيجي بين التمويل التيسيري من المصادر العامة ورأس المال الخاص، يقلل التمويل المدمج من المخاطر ويعزز الجدوى المالية للمشاريع التي قد تكافح لجذب الاستثمار الخاص. <br /><br />هذا مهم بشكل خاص حيث تظهر التقديرات أن حوالي 60٪ من تمويل الطاقة النظيفة للأسواق الناشئة والاقتصادات النامية (EMDEs)، باستثناء الصين، يجب أن يأتي من القطاع الخاص كما ذُكر في الدروس السابقة. <br /><br />تُقدِّم مساهمات القطاع الخاص في مجال الطاقة النظيفة في الأسواق الناشئة والنامية حالياً حوالي 135 مليار دولار أمريكي سنوياً، لكنها ستحتاج إلى زيادة كبيرة لتصل إلى 0.9–1.1 تريليون دولار سنوياً بحلول أوائل الثلاثينيات لتتماشى مع الأهداف العالمية للمناخ والتنمية.<br /><br />يتم شرح فوائد التمويل المختلط في الإنفوجرافيك في الشريحة التالية.<br />"
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_4/4063_1033.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -178,18 +101,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_4/4063_1079.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -225,7 +136,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_9.png",
           "caption": ""
         },
         "intro": "M4: تمويل الانتقال العادل للطاقة",
@@ -301,7 +212,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_20.png",
           "caption": ""
         },
         "intro": "M4: تمويل الانتقال العادل للطاقة",
@@ -316,30 +227,18 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "[needs translation] All projects using concessional funds must include a rigorous assessment of market failures to support the need for temporary subsidies and evaluate the potential for unlocking development impact.<br /><br />The DFI Working Group on Blended Finance agreed in 2017 to a set of blended finance principles designed to guide all DFI operations involving blended finance.<br /><br />These principles are shown in the next slide and help ensure that projects have a clearly defined economic rationale for concessional support, use only the minimum concessional funding required to make a project viable, and have a clear path to graduate from temporary concessional support to reach commercial viability."
+              "text": "يجب أن تتضمن جميع المشاريع التي تستخدم أموالًا تفضيلية تقييمًا دقيقًا لفشل السوق لدعم الحاجة إلى دعم مؤقت وتقييم إمكانية فتح تأثير التنمية.<br /><br />وافق فريق العمل الخاص بالتمويل المدمج في المؤسسة المالية الدولية في عام 2017 على مجموعة من مبادئ التمويل المدمج المصممة لتوجيه جميع عمليات المؤسسة المالية الدولية التي تنطوي على التمويل المدمج.<br /><br />تُعرض هذه المبادئ في الشريحة التالية وتساعد على ضمان أن تكون للمشاريع مبرر اقتصادي واضح للدعم التفضيلي، وأن تستخدم الحد الأدنى من التمويل التفضي المطلوب لجعل المشروع قابلاً للتنفيذ، وأن يكون لديها مسار واضح للتخرج من الدعم التفضي المؤقت للوصول إلى الجدوى التجارية."
             }
           }
         ]
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_4/4063_1208.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Outro_1.png",
           "caption": ""
         }
       }
@@ -352,7 +251,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>سيستلزم تصعيد تعبئة رأس المال التجاري نحو الطاقة النظيفة جهودًا منسقة ومنهجية من قبل الحكومات المستفيدة والمانحين والقطاع الخاص.</strong> <br /></strong><br /><strong>وجود هدف تنموي شامل وواضح ومن ثم هدف مناخي – على سبيل المثال، الوصول إلى طاقة مستدامة وتنمية صناعية نظيفة</strong> – وفقًا للمبدأ 1، يمكن أن يساعد في إدارة تصور المستثمرين التجاريين للمخاطر من خلال منحهم الثقة بأن المشاريع والاستثمارات الفردية هي جزء من استراتيجية حكومية أوسع وأكثر تصميماً. [needs translation] <br /><br /><strong>Designing and structuring blended finance in a way that attracts more private sector investment</strong> - as per principle 2 by using public or concessional funds to reduce risks or enhance returns, making climate projects more appealing to commercial investors.<br /><br /><strong>Projects, and the way they are financed, also need to be determined in large part by local conditions</strong>, in line with Principle 3 – for example by being tailored to local capital market conditions – to most effectively tap into commercial capital and help address potential foreign exchange issues most effectively.<br /><br /><strong>Establishing strong partnerships and country-led governance structures that bring together beneficiary governments, donors, and the private sector</strong>, in line with Principle 4, can also help to align the incentives of commercial investors with beneficiary countries’ wider development and climate objectives."
+              "text": "<strong>سيستلزم تصعيد تعبئة رأس المال التجاري نحو الطاقة النظيفة جهودًا منسقة ومنهجية من قبل الحكومات المستفيدة والمانحين والقطاع الخاص.</strong> <br /></strong><br /><strong>وجود هدف تنموي شامل وواضح ومن ثم هدف مناخي – على سبيل المثال، الوصول إلى طاقة مستدامة وتنمية صناعية نظيفة</strong> – وفقًا للمبدأ 1، يمكن أن يساعد في إدارة تصور المستثمرين التجاريين للمخاطر من خلال منحهم الثقة بأن المشاريع والاستثمارات الفردية هي جزء من استراتيجية حكومية أوسع وأكثر تصميماً. <br /><br /><strong>تصميم وهيكلة التمويل المختلط بطريقة تجذب المزيد من استثمارات القطاع الخاص</strong> - وفقًا للمبدأ 2 باستخدام الأموال العامة أو التيسيرية لتقليل المخاطر أو تعزيز العوائد، مما يجعل مشاريع المناخ أكثر جاذبية للمستثمرين التجاريين.<br /><br /><strong>يجب أيضًا تحديد المشاريع والطريقة التي يتم تمويلها بها إلى حد كبير من خلال الظروف المحلية</strong>، بما يتماشى مع المبدأ 3 – على سبيل المثال، من خلال تكييفها مع ظروف سوق رأس المال المحلية – للاستفادة بشكل أكثر فاعلية من رأس المال التجاري والمساعدة في معالجة قضايا الصرف الأجنبي المحتملة بشكل أكثر فاعلية.<br /><br /><strong>إنشاء شراكات قوية وهياكل حوكمة يقودها البلد تجمع بين حكومات المستفيدين، والمانحين، والقطاع الخاص</strong>، بما يتماشى مع المبدأ 4، يمكن أن يساعد أيضًا في مواءمة حوافز المستثمرين التجاريين مع أهداف التنمية والمناخ الأوسع نطاقًا للدول المستفيدة."
             }
           }
         ]
@@ -380,12 +279,77 @@
     },
     {
       "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_14.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "case_study_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_14.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_15.png",
+          "caption": ""
+        },
+        "intro": "أفريقيا",
+        "title": "دراسة حالة: كينيا",
+        "subtitle": "The Lake Turkana Wind Power Project"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "لطالما واجهت كينيا تحديات في تلبية الطلب المتزايد على الكهرباء، مع الاعتماد على الطاقة الكهرمائية مما يجعل البلاد عرضة لنقص الإمدادات الناتج عن الجفاف. قامت شركة Lake Turkana Wind Power Ltd بتصميم مشروع طاقة الرياح في بحيرة توركانا (LTWP) بالتعاون مع حكومة كينيا لمعالجة هذه الثغرات من خلال تنويع مزيج الطاقة في كينيا وتوفير طاقة أنظف وأكثر موثوقية. وفقًا للبنك الأفريقي للتنمية، كان الهدف من المشروع هو « تقليل تكلفة الكهرباء، تحسين موثوقية الإمداد وتقليل اعتماد البلاد على الوقود المستورد » <a href=\"https://www.afdb.org/en/projects-and-operations/selected-projects/lake-turkana-wind-power-project-the-largest-wind-farm-project-in-africa-143\"><u>(AfDB, 2015)</u></a>. <br />يقع في منطقة توركانا الجافة، وهدف المشروع أيضًا إلى تحفيز التنمية المحلية في منطقة تميزت تاريخيًا بالبنية التحتية المحدودة والفرص الاقتصادية <a href=\"https://www.norfund.no/lake-turkana/\"><u>(نورنوند).</u></a> LTWP هو «أكبر مشروع طاقة ريحية في أفريقيا»، يتألف من 365 توربينة رياح مزودة من قبل فستاس (شركة دنماركية ومصنّعة وبائعة لتوربينات الرياح)، كل واحدة بسعة 850 كيلواط، وخط نقل مرتبط بطول 438 كم يربط الموقع بالشبكة الوطنية (<a href=\"https://www.eib.org/en/press/all/2014-068-european-support-for-sub-saharan-africas-largest-wind-power-project-confirmed\"><u>البنك الأوروبي لإعادة الإعمار والتنمية، 2014</u></a>; <a href=\"https://ltwp.co.ke/overview/\"><u>LTWP، 2025</u></a>). <br />استخدم المشروع نهج تمويل مختلط منظم، يجمع بين رأس المال الخاص والاستثمار العام التيسيري لمشاركة المخاطر وتسهيل الجدوى التجارية. شمل عملية تنفيذ LTWP: <br />تحريك أكثر من 700 مليون دولار أمريكي من الاستثمارات من خلال مزيج من الأسهم والقروض التيسيرية من مؤسسات، بما في ذلك البنك الأوروبي للاستثمار والبنك الأفريقي للتنمية (<a href=\"https://www.norfund.no/lake-turkana/\"><u>Norfund)</u></a>. <br />إنشاء مكتب اتصال مجتمعي ومؤسسة Winds of Change لتنفيذ مشاريع تنمية محلية، بما في ذلك تلك المتعلقة بالصحة والتعليم والوصول إلى المياه (<a href=\"https://ltwp.co.ke/\"><u>LTWP، 2025</u></a>). <br />القيام بأعمال مدنية كبيرة، مثل بناء أكثر من 200 كيلومتر من الطرق، لتمكين تنفيذ المشروع في المنطقة النائية والصعبة لوجستيًا (<a href=\"https://ltwp.co.ke/\"><u>LTWP، 2025</u></a>). </strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "صندوق الثقة للبنية التحتية في أفريقيا، الذي تديره المديرية العامة للتعاون الإنمائي في المفوضية الأوروبية، ساهم بمبلغ 25 مليون يورو كتمويل تيسيري مقابل أسهم مفضلة، والتي سيتم سدادها فقط بعد سداد الدين الأول بالكامل. ساعدت هذه الهيكلية على امتصاص المخاطر وجذب المستثمرين الخاصين (<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769178\"><u>Zetzsche & Vilanculo, 2024</u></a>). <br /> لقد كان لـ LTWP تأثيرات كبيرة على قطاع الطاقة في كينيا. متصل بالشبكة في عام 2019، زاد من القدرة المركبة للبلاد بنسبة 13٪ (<a href=\"https://ltwp.co.ke/overview/\"><u>LTWP، 2025</u></a>). وفقًا للبنك الأفريقي للتنمية، من المتوقع أن يولد المشروع ‘حوالي 1.56 مليون ميغاواط ساعة سنويًا’، مما يُحِل محل التوليد الحراري المكلف ويقلل من تكاليف الكهرباء (<a href=\"https://www.afdb.org/en/projects-and-operations/selected-projects/lake-turkana-wind-power-project-the-largest-wind-farm-project-in-africa-143\"><u>AfDB، 2015</u></a>). <br />على المستوى المحلي، ساهم المشروع في تحسين البنية التحتية والفرص الاجتماعية والاقتصادية في مقاطعة توركانا (<a href=\"https://ltwp.co.ke/overview/\"><u>LTWP، 2025</u></a>; <a href=\"https://www.norfund.no/lake-turkana/\"><u>نورفاند</u></a>). شمل هذا التطوير بناء أكثر من 200 كيلومتر من الطرق في مناطق كانت غير قابلة للوصول سابقًا، مما يدعم مشاريع الصحة والتعليم والوصول إلى المياه من خلال مؤسسة Winds of Change. كما أن المشروع أوجد أكثر من 2000 وظيفة خلال ذروة البناء، موفرًا دخلًا وتدريبًا على المهارات للمجتمعات المحلية. ومع ذلك، لا تزال التوترات الاجتماعية قائمة، حيث أنه على الرغم من نجاحه، واجه المشروع تحديات معقدة تتعلق بحقوق الأراضي، وتقاسم الفوائد، والمشاركة المحلية، نظرًا لموقعه في منطقة « تتميز بمجتمعات رعوية وتوترات عرقية » (<a href=\"https://www.sciencedirect.com/science/article/pii/S0305750X2400384X\"><u>Lind & Rogei, 2025</u></a>). هذه التعقيدات تؤكد على الحاجة إلى ضمانات اجتماعية قوية، ومشاركة المجتمع، وحوكمة الأراضي الشفافة —<br> والتي تدمج بشكل متزايد في هياكل التمويل العام-الخاص المصممة بشكل جيد."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_6.png",
           "caption": ""
         }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "تقدم تجربة بحيرة توركانا دروسًا قيمة لدول أخرى تسعى إلى مشاريع طاقة متجددة على نطاق واسع في مناطق متنازع عليها ونائية. <TEXT>العوامل الرئيسية للنجاح شملت: <br /> <br /><ai prompt=\"توفير مزيد من المعلومات حول التمويل المبتكر.\">التمويل المبتكر 💬️</ai> هياكل تجمع بين الاستثمار الخاص والإقراض التفضيلي.</TEXT> <br />شراكات قوية بين القطاعين العام والخاص مع آليات واضحة لتقاسم المخاطر. <br />برامج تنمية المجتمع المخصصة بجانب تنفيذ البنية التحتية. <br /> <br />ومع ذلك، فإن LTWP يوضح أيضًا دروسًا تحذيرية حاسمة. مشاريع البنية التحتية الكبيرة في المناطق ذات حقوق الأراضي المتنازع عليها ووجود الدولة المحدود تتطلب أكثر من التميز الفني— فهي تتطلب مشاركة أصحاب المصلحة في المراحل المبكرة، واتفاقيات واضحة بشأن حقوق الأراضي، واستراتيجيات شفافة لتوزيع المخاطر (<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769178\"><u>Zetzsche & Vilanculo, 2024</u></a>). <br /> <br />تسلط LTWP الضوء على كل من الإمكانات التحولية وتعقيدات مشاريع الطاقة المتجددة الضخمة في الأسواق الناشئة. بينما يُظهر المشروع كيف يمكن للطاقة المتجددة تعزيز أمن الطاقة الوطني وجذب رأس المال الخاص، فإنه يكشف أيضًا عن التحديات الاجتماعية والإدارية التي يجب معالجتها لضمان نتائج عادلة ومستدامة. تؤكد الحالة على أهمية دمج أطر الإدماج الاجتماعي وتقاسم المنافع من بداية المشروع، لا سيما في المناطق المهمشة. <br /> <br /><strong><br /></strong>"
+            }
+          }
+        ]
       }
     },
     {
@@ -397,7 +361,7 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_6.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_13.png",
               "caption": ""
             },
             "title": "التمويل المختلط يستفيد من الأموال التيسيرية من المصادر العامة لتقليل مخاطر الاستثمارات. وبذلك، جذب رأس المال الخاص إلى مشاريع الطاقة النظيفة التي قد تعتبر بخلاف ذلك محفوفة بالمخاطر أو غير مربحة.",
@@ -405,7 +369,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Intro_8.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_Intro_2.png",
               "caption": ""
             },
             "title": "من خلال استخدام أدوات تقليل المخاطر، تعالج التمويل المختلط مخاطر متنوعة—سياسية، تنظيمية ومالية—التي تثبط الاستثمار الخاص في الطاقة النظيفة. هذه الاستراتيجيات تحسن ملف المخاطر والعائد للمشاريع، مما يجعلها أكثر جاذبية للمستثمرين الخاصين.",
@@ -413,7 +377,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_14.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_1.png",
               "caption": ""
             },
             "title": "يتطلب التنفيذ الفعال للتمويل المختلط التوافق مع الظروف المحلية، مثل نضوج سوق رأس المال والبيئات التنظيمية. يجب دمجه في استراتيجيات تنمية أوسع لضمان أسواق خاصة مستدامة واستثمارات قابلة للتوسع في الطاقة النظيفة.",
@@ -427,7 +391,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module4.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module4.webp",
           "caption": ""
         },
         "intro": "التالي",

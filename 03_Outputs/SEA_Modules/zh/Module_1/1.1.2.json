@@ -78,18 +78,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_49.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
@@ -113,6 +101,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "M1_C1_6"
       }
     },
     {
@@ -201,6 +198,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "能源燃烧和工业过程的全球二氧化碳排放及其年度变化，1900-2022",
+          "subtitle": "",
+          "description": "叶夫根的笔记：我将在这里添加巴黎协定关于限制排放的目标，例如 通过在2050年添加一个净零点 Zhong：Apache 示例：https://echarts.apache.org/examples/en/editor.html?c=line-simple; https://echarts.apache.org/examples/en/editor.html?c=bar-simple Frederick的备注：这个图表应该作为一个信息图创建，包括折线图和柱状图，还是应该创建两个单独的图表。 如果是，请为此打开一个新行。",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -623,18 +626,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_133.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
@@ -682,7 +673,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4185_584.webp",
@@ -704,7 +695,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "虽然对化石燃料的依赖使各国面临系统性脆弱性，但全球能源需求的增加又增加了另一层压力。 [needs translation] Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />这种<strong>增长由多种因素驱动：人口增长、快速城市化、工业扩张，以及从交通到烹饪再到数字服务的不断增加的电气化。 <br /></strong><br />这种不断增长的需求是发展进步的标志，但除非向清洁、可靠和去中心化的替代方案转变步伐保持同步，否则也有可能加深世界对波动的化石能源系统的依赖。 如果没有战略性应对，能源使用的增加可能会使各国陷入不安全且碳密集的路径，削弱能源获取目标和气候目标。 <br /><br /><strong><em>要深入了解能源的未来以及不同情景如何影响需求预测，请参考第8模块。</em></strong></br></br> </strong>"
+              "text": "虽然对化石燃料的依赖使各国面临系统性脆弱性，但全球能源需求的增加又增加了另一层压力。 虽然未来能源需求的预测在不同模型和情景中有所变化，但有一个趋势是明确的：<strong>如果没有在<ai prompt=\"提供更多关于能源效率的信息。\">能源效率 💬️</ai>方面取得重大进展，需求将继续随着人口和经济增长而上升。</strong> 在国际能源署的已声明政策情景中，反映现有政策承诺但没有额外努力，预计到2030年，全球能源需求将以每年0.7%的平均增长率增长，较2022年水平总共增加约5%（<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>国际能源署</u></a>，2023年）。 <br /><br />这种<strong>增长由多种因素驱动：人口增长、快速城市化、工业扩张，以及从交通到烹饪再到数字服务的不断增加的电气化。 <br /></strong><br />这种不断增长的需求是发展进步的标志，但除非向清洁、可靠和去中心化的替代方案转变步伐保持同步，否则也有可能加深世界对波动的化石能源系统的依赖。 如果没有战略性应对，能源使用的增加可能会使各国陷入不安全且碳密集的路径，削弱能源获取目标和气候目标。 <br /><br /><strong><em>要深入了解能源的未来以及不同情景如何影响需求预测，请参考第8模块。</em></strong></br></br> </strong>"
             }
           }
         ]
@@ -715,6 +706,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "全球能源需求",
+          "subtitle": "",
+          "description": "Zhong：2000 年之前的数据点是手动提取的（估算）。 2000年至2050年的数据点来自ExxonMobil全球展望（2024）：https://corporate.exxonmobil.com/-/media/global/files/global-outlook/2024/global-outlook-data-2024.xlsx Apache示例： https://echarts.apache.org/examples/en/editor.html?c=bar-stack",
+          "footnote": "Source: Smil, Energy Transitions (1900-1960), 2024 ExxonMobil Global Outlook (1970-2050)"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -1008,7 +1005,7 @@
         "resources": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.webp",
               "caption": ""
             },
             "href": "IEA",
@@ -1017,7 +1014,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.webp",
               "caption": ""
             },
             "href": "IRENA",
@@ -1026,7 +1023,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.webp",
               "caption": ""
             },
             "href": "McKinsey & Company",
@@ -1041,7 +1038,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "接下来",

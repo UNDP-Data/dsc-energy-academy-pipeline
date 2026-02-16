@@ -44,7 +44,7 @@
       "size": "full",
       "content": {
         "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-en.mp4",
-        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-en.png"
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-en.webp"
       }
     },
     {
@@ -170,6 +170,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "2019年人类发展指数（HDI）与人均能源使用",
+          "subtitle": "",
+          "description": "Zhong：Apache 示例：https://echarts.apache.org/examples/en/editor.html?c=scatter-simple",
+          "footnote": "Sources: Our World in Data; United Nations Development Programme Boston University Institute for Global Sustainability | visualizingenergy.org | CC BY 4.0"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -914,6 +920,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "能源与气候变化",
+          "subtitle": "",
+          "description": "Zhong : Apache 示例：https://echarts.apache.org/examples/en/editor.html?c=pie-simple",
+          "footnote": "Pie chart showing the sources of GHG emissions by sector in 2021. Energy includes Electricity and Heat, Manufacturing and Construction, Transportation, Fugitive Emissions, and Buildings"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -1176,6 +1188,15 @@
       }
     },
     {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "https://ourworldindata.org/grapher/global-fossil-fuel-consumption?tab=chart"
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1219,7 +1240,7 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "[needs translation] <strong>Global energy intensity</strong>—an indicator of efficiency—improved by<strong> 2% in 2022</strong>, the fastest rate since 2015 (<a href=\"https://www.iea.org/commentaries/a-global-target-to-double-efficiency-progress-is-essential-to-keep-net-zero-on-the-table\"><u>IEA</u></a>, 2023).<br />Yet global energy demand rose by <strong>2.2% in 2024</strong> (<a href=\"https://www.iea.org/news/growth-in-global-energy-demand-surged-in-2024-to-almost-twice-its-recent-average\"><u>IEA</u></a>, 2025).",
+              "title": "<strong>全球能源强度</strong>—效率的指标—在<strong>2022年</strong>提高了<strong>2%</strong>，这是自2015年以来的最快速度（<a href=\"https://www.iea.org/commentaries/a-global-target-to-double-efficiency-progress-is-essential-to-keep-net-zero-on-the-table\"><u>国际能源署</u></a>，2023）。<br />然而，全球能源需求在<strong>2024年</strong>增长了<strong>2.2%</strong>（<a href=\"https://www.iea.org/news/growth-in-global-energy-demand-surged-in-2024-to-almost-twice-its-recent-average\"><u>国际能源署</u></a>，2025）。",
               "body": "",
               "source": ""
             }
@@ -1235,7 +1256,7 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "[needs translation] Africa, is home to 20% of the world’s population, and <strong>80% of all people lacking electricity access </strong>(<a href=\"https://unsdg.un.org/latest/stories/decoding-africa%E2%80%99s-energy-journey-three-key-numbers\"><u>UNSDG</u></a>, 2025)<strong>,<br /></strong>Yet the continent receives just under<strong> 2%</strong> of <strong>global clean energy investment</strong>, despite vast solar and wind resources (<a href=\"https://www.iea.org/news/global-energy-investment-set-to-rise-to-3-3-trillion-in-2025-amid-economic-uncertainty-and-energy-security-concerns\"><u>IEA</u></a>, 2025).",
+              "title": "非洲拥有全球20%的人口，且 <strong>80%的缺乏电力接入的人口</strong> (<a href=\"https://unsdg.un.org/latest/stories/decoding-africa%E2%80%99s-energy-journey-three-key-numbers\"><u>联合国可持续发展目标</u></a>，2025)<strong>,<br /></strong>然而，尽管拥有丰富的太阳能和风能资源，非洲仅获得了全球清洁能源投资的不到<strong>2%</strong> (<a href=\"https://www.iea.org/news/global-energy-investment-set-to-rise-to-3-3-trillion-in-2025-amid-economic-uncertainty-and-energy-security-concerns\"><u>国际能源署</u></a>，2025)。",
               "body": "",
               "source": ""
             }
@@ -1367,18 +1388,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4476_724.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1424,18 +1433,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4099_503.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -1548,7 +1545,7 @@
         "resources": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1111.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1111.webp",
               "caption": ""
             },
             "href": "Center on Global Energy Policy at COLUMBIA SIPA",
@@ -1557,7 +1554,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1112.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1112.webp",
               "caption": ""
             },
             "href": "Wiley Online Library",
@@ -1566,7 +1563,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1113.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1113.webp",
               "caption": ""
             },
             "href": "ScienceDirect",
@@ -1581,7 +1578,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "接下来",

@@ -78,18 +78,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_49.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
@@ -113,6 +101,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "M1_C1_6"
       }
     },
     {
@@ -201,6 +198,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Émissions mondiales de CO2 provenant de la combustion d'énergie et des processus industriels et leur variation annuelle, 1900-2022",
+          "subtitle": "",
+          "description": "Note de Yevgen : j'ajouterais ici un objectif de l'Accord de Paris sur la limitation des émissions, par exemple en ajoutant un point zéro net en 2050 Zhong : Apache Exemple : https://echarts.apache.org/examples/en/editor.html?c=line-simple; https://echarts.apache.org/examples/en/editor.html?c=bar-simple Note de Frederick : ce graphique doit-il être créé en tant qu'infographie unique comprenant à la fois le graphique linéaire et le graphique à barres ou deux graphiques séparés doivent-ils être créés. Si oui, veuillez ouvrir une nouvelle ligne pour cela.",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -623,18 +626,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_133.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
@@ -682,7 +673,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4185_584.webp",
@@ -704,7 +695,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Alors que la dépendance aux combustibles fossiles expose les pays à des vulnérabilités systémiques, la demande croissante d'énergie mondiale ajoute une couche supplémentaire de pression. [needs translation] Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />Cette <strong>augmentation est due à une combinaison de facteurs : croissance démographique, urbanisation rapide, expansion industrielle et l'électrification croissante de tout, du transport à la cuisine en passant par les services numériques. <br /></strong><br />Cette demande croissante est un signe de progrès dans le développement, mais elle risque également d'accentuer la dépendance mondiale aux systèmes énergétiques fossiles volatils, à moins que la transition vers des alternatives propres, fiables et décentralisées ne suive le rythme. Sans une réponse stratégique, une utilisation accrue de l'énergie pourrait enfermer les pays dans des trajectoires peu sûres et intensives en carbone, compromettant à la fois les objectifs d'accès à l'énergie et les ambitions climatiques. <br /><br /><strong><em>Pour une plongée plus approfondie dans l'avenir de l'énergie et comment différents scénarios façonnent les projections de la demande, consultez le Module 8.</em></strong></br></br> </strong>"
+              "text": "Alors que la dépendance aux combustibles fossiles expose les pays à des vulnérabilités systémiques, la demande croissante d'énergie mondiale ajoute une couche supplémentaire de pression. Bien que les projections de la demande énergétique future varient selon les modèles et les scénarios, une tendance est claire : <strong>sans gains majeurs en <ai prompt=\"Fournir plus d'informations sur l'efficacité énergétique.\">efficacité énergétique 💬️</ai>, la demande continuera de croître parallèlement à la croissance démographique et économique.</strong> Dans le scénario des Politiques Déclarées de l'AIE, qui reflète les engagements politiques existants mais pas d'efforts supplémentaires, la demande mondiale d'énergie devrait augmenter en moyenne de 0,7 % par an jusqu'en 2030, ce qui représente une augmentation totale d'environ 5 % par rapport aux niveaux de 2022 (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />Cette <strong>augmentation est due à une combinaison de facteurs : croissance démographique, urbanisation rapide, expansion industrielle et l'électrification croissante de tout, du transport à la cuisine en passant par les services numériques. <br /></strong><br />Cette demande croissante est un signe de progrès dans le développement, mais elle risque également d'accentuer la dépendance mondiale aux systèmes énergétiques fossiles volatils, à moins que la transition vers des alternatives propres, fiables et décentralisées ne suive le rythme. Sans une réponse stratégique, une utilisation accrue de l'énergie pourrait enfermer les pays dans des trajectoires peu sûres et intensives en carbone, compromettant à la fois les objectifs d'accès à l'énergie et les ambitions climatiques. <br /><br /><strong><em>Pour une plongée plus approfondie dans l'avenir de l'énergie et comment différents scénarios façonnent les projections de la demande, consultez le Module 8.</em></strong></br></br> </strong>"
             }
           }
         ]
@@ -715,6 +706,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "Demande mondiale d'énergie",
+          "subtitle": "",
+          "description": "Zhong : Les points de données avant 2000 ont été extraits manuellement (estimations). Les points de données de 2000 à 2050 proviennent de l'ExxonMobil Global Outlook (2024) : https://corporate.exxonmobil.com/-/media/global/files/global-outlook/2024/global-outlook-data-2024.xlsx Exemple Apache : https://echarts.apache.org/examples/en/editor.html?c=bar-stack",
+          "footnote": "Source: Smil, Energy Transitions (1900-1960), 2024 ExxonMobil Global Outlook (1970-2050)"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -1008,7 +1005,7 @@
         "resources": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.webp",
               "caption": ""
             },
             "href": "IEA",
@@ -1017,7 +1014,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.webp",
               "caption": ""
             },
             "href": "IRENA",
@@ -1026,7 +1023,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.webp",
               "caption": ""
             },
             "href": "McKinsey & Company",
@@ -1041,7 +1038,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "Prochainement",

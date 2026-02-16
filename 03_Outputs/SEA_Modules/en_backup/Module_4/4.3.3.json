@@ -2,16 +2,20 @@
   "id": "4.3.3",
   "segments": [
     {
-      "template_id": "case_study_cover",
+      "template_id": "lesson_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_18.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_12.png",
           "caption": ""
         },
-        "intro": "Africa",
-        "title": "Case Study: Kenya",
-        "subtitle": ""
+        "lesson": {
+          "label": "Lesson",
+          "number": "3"
+        },
+        "title": "Blended Finance",
+        "cta": "",
+        "intro": "M4: Financing Just Energy Transition"
       }
     },
     {
@@ -20,9 +24,15 @@
       "content": {
         "text_elements": [
           {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>Lesson 3 Overview</strong>"
+            }
+          },
+          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The Lake Turkana experience offers valuable lessons for other countries pursuing large-scale renewable projects in contested and remote areas. Key enablers of success included: <br /> <br />Innovative financing structures blending private investment with concessional lending. <br />Strong <ai prompt=\"What is public-private partnerships?\">public-private partnerships 💬️</ai> with clear risk-sharing mechanisms. <br />Dedicated community development programs alongside infrastructure delivery. <br /> <br />However, LTWP also illustrates critical cautionary lessons. Large infrastructure projects in areas with contested land rights and limited state presence require more than technical excellence—they require early-stage stakeholder engagement, clear land tenure agreements, and transparent risk allocation strategies (<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769178\"><u>Zetzsche & Vilanculo, 2024</u></a>). <br /> <br />LTWP highlights both the transformative potential and complexities of renewable energy mega-projects in emerging markets. While the project demonstrates how renewable energy can enhance national energy security and attract private capital, it also reveals the social and governance challenges that must be addressed to ensure equitable and sustainable outcomes. The case underscores the importance of embedding social inclusion and benefit-sharing frameworks from project inception, particularly in marginalized areas. <br /> <br /><br /><br />"
+              "text": "This lesson delves into blended finance as a strategy for leveraging public and philanthropic capital to attract private sector investments in renewable energy projects. It explores how concessional finance, which provides funding on more favorable terms, plays a critical role in de-risking projects and making them more attractive to investors. The lesson also covers examples of successful blended finance structures, such as <ai prompt=\"Explain public-private partnerships.\">public-private partnerships 💬️</ai>, and explains how these models can be applied to scale up renewable energy in emerging markets."
             }
           }
         ]
@@ -54,86 +64,11 @@
       }
     },
     {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "The Africa Infrastructure Trust Fund, managed by the European Commission’s Directorate General for Development Cooperation, contributed EUR 25 million in concessional financing in exchange for preferred shares, which are to be repaid only after senior debt has been fully repaid. This structure helped absorb risk and attract private investors (<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769178\"><u>Zetzsche & Vilanculo, 2024</u></a>). <br /> LTWP has had significant impacts on Kenya’s energy sector. Connected to the grid in 2019, it increased the country’s installed capacity by 13% (<a href=\"https://ltwp.co.ke/overview/\"><u>LTWP, 2025</u></a>. According to the African Development Bank, the project is expected to generate ‘approximately 1.56 million MWh per year’, displacing expensive thermal generation and reducing electricity costs (<a href=\"https://www.afdb.org/en/projects-and-operations/selected-projects/lake-turkana-wind-power-project-the-largest-wind-farm-project-in-africa-143\"><u>AfDB, 2015</u></a>). <br />Locally, the project contributed to improved infrastructure and socio-economic opportunities in Turkana County (<a href=\"https://ltwp.co.ke/overview/\"><u>LTWP, 2025</u></a>; <a href=\"https://www.norfund.no/lake-turkana/\"><u>Norfund</u></a>). This development included the construction of over 200 kilometers of roads in previously inaccessible areas, thereby supporting health, education, and water access projects through the Winds of Change Foundation. The project also created over 2,000 jobs during peak construction, providing income and skills training for local communities. However, social tensions persist as, despite its success, the project faced complex challenges related to land rights, benefit-sharing, and local participation, given its location in a region ‘characterized by pastoralist communities and inter-ethnic tensions’ (<a href=\"https://www.sciencedirect.com/science/article/pii/S0305750X2400384X\"><u>Lind & Rogei, 2025</u></a>). These intricacies underscore the need for robust social safeguards, community engagement, and transparent land governance—all of which are increasingly integrated into well-designed public-private financing structures."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Kenya has long faced challenges in meeting its growing electricity demand, with dependence on hydropower making the country vulnerable to drought-induced supply shortfalls. Lake Turkana Wind Power Ltd conceived the Lake Turkana Wind Power Project (LTWP) in collaboration with the Government of Kenya to address these gaps by diversifying Kenya’s energy mix and providing cleaner, more reliable energy. According to the African Development Bank, the project aimed to ‘reduce the cost of electricity, improve the reliability of supply and reduce the country’s dependence on imported fuel’ <a href=\"https://www.afdb.org/en/projects-and-operations/selected-projects/lake-turkana-wind-power-project-the-largest-wind-farm-project-in-africa-143\"><u>(AfDB, 2015)</u></a>. <br />Situated in the arid Turkana region, the project also aimed to stimulate local development in an area historically characterized by limited infrastructure and economic opportunities <a href=\"https://www.norfund.no/lake-turkana/\"><u>(Norfund).</u></a> LTWP is ‘the largest wind power project in Africa’, comprising 365 wind turbines supplied by Vestas (a Danish manufacturer and seller of wind turbines), each with a capacity of 850 kW, and an associated 438 km transmission line linking the site to the national grid (<a href=\"https://www.eib.org/en/press/all/2014-068-european-support-for-sub-saharan-africas-largest-wind-power-project-confirmed\"><u>EIB, 2014</u></a>; <a href=\"https://ltwp.co.ke/overview/\"><u>LTWP, 2025</u></a>). <br />The project employed a structured blended finance approach, combining private capital and concessional public investment to share risks and facilitate commercial viability. LTWP’s implementation process involved: <br />Mobilizing over USD 700 million in investments through a combination of equity and concessional loans from institutions, including the EIB and AfDB (<a href=\"https://www.norfund.no/lake-turkana/\"><u>Norfund)</u></a>. <br />Establishing a Community Liaison Office and the Winds of Change Foundation to deliver local development projects, including those in health, education, and water access (<a href=\"https://ltwp.co.ke/\"><u>LTWP, 2025</u></a>). <br />Undertaking significant civil works, such as constructing over 200 kilometers of roads, to enable project delivery in the remote, logistically challenging area (<a href=\"https://ltwp.co.ke/\"><u>LTWP, 2025</u></a>). <br /><br />"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_vertical",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_2.png",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "lesson_cover",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_15.png",
-          "caption": ""
-        },
-        "lesson": {
-          "label": "Lesson",
-          "number": "3"
-        },
-        "title": "Blended Finance",
-        "cta": "",
-        "intro": "M4: Financing Just Energy Transition"
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Lesson 3 Overview</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "This lesson delves into blended finance as a strategy for leveraging public and philanthropic capital to attract private sector investments in renewable energy projects. It explores how concessional finance, which provides funding on more favorable terms, plays a critical role in de-risking projects and making them more attractive to investors. The lesson also covers examples of successful blended finance structures, such as public-private partnerships, and explains how these models can be applied to scale up renewable energy in emerging markets."
-            }
-          }
-        ]
-      }
-    },
-    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_9.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Outro_1.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -148,22 +83,10 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Blended finance is a critical mechanism for mobilizing private sector investment into high-risk, high-impact sustainable energy projects in developing countries. It employs concessional lending to de-risk investments, thereby \"crowding in\" investment from commercial funders. By strategically combining concessional funding from public sources with private capital, blended finance mitigates risks and enhances the financial viability of projects that would otherwise struggle to attract private investment. <br /><br />This is particularly significant as estimations show that around 60% of clean energy finance for Emerging Markets and Developing Economies (EMDEs), excluding China, must come from the private sector as mentioned in the previous lessons. <br /><br />This private sector contribution is expected to rise to USD 0.9-1.1 trillion annually by the early 2030s, up from USD 135 billion today.<br /><br />The benefits of blended finance are explained in the inforgraphic on the next slide."
+              "text": "Blended finance is a critical mechanism for mobilizing private sector investment into high-risk, high-impact sustainable energy projects in developing countries. It employs concessional lending to de-risk investments, thereby \"crowding in\" investment from commercial funders. By strategically combining concessional funding from public sources with private capital, blended finance mitigates risks and enhances the financial viability of projects that would otherwise struggle to attract private investment. <br /><br />This is particularly significant as estimations show that around 60% of clean energy finance for Emerging Markets and Developing Economies (EMDEs), excluding China, must come from the private sector as mentioned in the previous lessons. <br /><br />Private sector contributions to clean energy in EMDEs currently amount to about USD 135 billion annually, but they will need to increase dramatically to USD 0.9–1.1 trillion annually by the early 2030s to align with global climate and development goals.<br /><br />The benefits of blended finance are explained in the infographic on the next slide.<br />"
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_4/4063_1033.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -181,18 +104,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_4/4063_1079.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -200,7 +111,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Similarly, co-financing syndicated lending can mobilize about USD 7 of bank credit for each USD 1 provided by <ai prompt=\"Explain multilateral development banks.\">multilateral development banks 💬️</ai> (MDBs). In climate transactions, the leverage ratio is often higher (USD 1 to USD 10), reflecting the relatively large project finance structures and significant deployment in middle-income countries, which have lower country risks and can attract more commercial finance.<br /><br />At its core, blended finance leverages various instruments to de-risk investments. Guarantees and insurance are among the most effective tools, providing coverage against political, regulatory, and currency risks. These instruments lower the cost of capital and enhance investor confidence, particularly in risk-prone environments. For instance, guarantees from MDBs significantly reduce the perceived risk, making projects more attractive to private investors. Additionally, subordinated debt is often used, with public entities providing subordinated loans that absorb initial losses, offering a security cushion for private investors. This improves the risk-return profile of projects, making them more appealing to private capital. Technical assistance and capacity-building initiatives are also essential in project preparation, helping to enhance bankability by supporting design, feasibility studies, and risk assessment."
+              "text": "Similarly, co-financing syndicated lending can mobilize about USD 7 of bank credit for each USD 1 provided by <ai prompt=\"Clarify multilateral development banks.\">multilateral development banks 💬️</ai> (MDBs). In climate transactions, the leverage ratio is often higher (USD 1 to USD 10), reflecting the relatively large project finance structures and significant deployment in middle-income countries, which have lower country risks and can attract more commercial finance.<br /><br />At its core, blended finance leverages various instruments to de-risk investments. Guarantees and insurance are among the most effective tools, providing coverage against political, regulatory, and currency risks. These instruments lower the cost of capital and enhance investor confidence, particularly in risk-prone environments. For instance, guarantees from MDBs significantly reduce the perceived risk, making projects more attractive to private investors. Additionally, subordinated debt is often used, with public entities providing subordinated loans that absorb initial losses, offering a security cushion for private investors. This improves the risk-return profile of projects, making them more appealing to private capital. Technical assistance and capacity-building initiatives are also essential in project preparation, helping to enhance bankability by supporting design, feasibility studies, and risk assessment."
             }
           }
         ]
@@ -225,7 +136,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_9.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -301,7 +212,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_20.png",
           "caption": ""
         },
         "intro": "M4: Financing Just Energy Transition",
@@ -323,23 +234,11 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_4/4063_1208.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Outro_1.png",
           "caption": ""
         }
       }
@@ -380,12 +279,77 @@
     },
     {
       "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_14.png",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "case_study_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_14.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_15.png",
+          "caption": ""
+        },
+        "intro": "Africa",
+        "title": "Case Study: Kenya",
+        "subtitle": "The Lake Turkana Wind Power Project"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Kenya has long faced challenges in meeting its growing electricity demand, with dependence on hydropower making the country vulnerable to drought-induced supply shortfalls. Lake Turkana Wind Power Ltd conceived the Lake Turkana Wind Power Project (LTWP) in collaboration with the Government of Kenya to address these gaps by diversifying Kenya’s energy mix and providing cleaner, more reliable energy. According to the African Development Bank, the project aimed to ‘reduce the cost of electricity, improve the reliability of supply and reduce the country’s dependence on imported fuel’ <a href=\"https://www.afdb.org/en/projects-and-operations/selected-projects/lake-turkana-wind-power-project-the-largest-wind-farm-project-in-africa-143\"><u>(AfDB, 2015)</u></a>. <br />Situated in the arid Turkana region, the project also aimed to stimulate local development in an area historically characterized by limited infrastructure and economic opportunities <a href=\"https://www.norfund.no/lake-turkana/\"><u>(Norfund).</u></a> LTWP is ‘the largest wind power project in Africa’, comprising 365 wind turbines supplied by Vestas (a Danish manufacturer and seller of wind turbines), each with a capacity of 850 kW, and an associated 438 km transmission line linking the site to the national grid (<a href=\"https://www.eib.org/en/press/all/2014-068-european-support-for-sub-saharan-africas-largest-wind-power-project-confirmed\"><u>EIB, 2014</u></a>; <a href=\"https://ltwp.co.ke/overview/\"><u>LTWP, 2025</u></a>). <br />The project employed a structured blended finance approach, combining private capital and concessional public investment to share risks and facilitate commercial viability. LTWP’s implementation process involved: <br />Mobilizing over USD 700 million in investments through a combination of equity and concessional loans from institutions, including the EIB and AfDB (<a href=\"https://www.norfund.no/lake-turkana/\"><u>Norfund)</u></a>. <br />Establishing a Community Liaison Office and the Winds of Change Foundation to deliver local development projects, including those in health, education, and water access (<a href=\"https://ltwp.co.ke/\"><u>LTWP, 2025</u></a>). <br />Undertaking significant civil works, such as constructing over 200 kilometers of roads, to enable project delivery in the remote, logistically challenging area (<a href=\"https://ltwp.co.ke/\"><u>LTWP, 2025</u></a>). <br /><br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "The Africa Infrastructure Trust Fund, managed by the European Commission’s Directorate General for Development Cooperation, contributed EUR 25 million in concessional financing in exchange for preferred shares, which are to be repaid only after senior debt has been fully repaid. This structure helped absorb risk and attract private investors (<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769178\"><u>Zetzsche & Vilanculo, 2024</u></a>). <br /> LTWP has had significant impacts on Kenya’s energy sector. Connected to the grid in 2019, it increased the country’s installed capacity by 13% (<a href=\"https://ltwp.co.ke/overview/\"><u>LTWP, 2025</u></a>. According to the African Development Bank, the project is expected to generate ‘approximately 1.56 million MWh per year’, displacing expensive thermal generation and reducing electricity costs (<a href=\"https://www.afdb.org/en/projects-and-operations/selected-projects/lake-turkana-wind-power-project-the-largest-wind-farm-project-in-africa-143\"><u>AfDB, 2015</u></a>). <br />Locally, the project contributed to improved infrastructure and socio-economic opportunities in Turkana County (<a href=\"https://ltwp.co.ke/overview/\"><u>LTWP, 2025</u></a>; <a href=\"https://www.norfund.no/lake-turkana/\"><u>Norfund</u></a>). This development included the construction of over 200 kilometers of roads in previously inaccessible areas, thereby supporting health, education, and water access projects through the Winds of Change Foundation. The project also created over 2,000 jobs during peak construction, providing income and skills training for local communities. However, social tensions persist as, despite its success, the project faced complex challenges related to land rights, benefit-sharing, and local participation, given its location in a region ‘characterized by pastoralist communities and inter-ethnic tensions’ (<a href=\"https://www.sciencedirect.com/science/article/pii/S0305750X2400384X\"><u>Lind & Rogei, 2025</u></a>). These intricacies underscore the need for robust social safeguards, community engagement, and transparent land governance—all of which are increasingly integrated into well-designed public-private financing structures."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_vertical",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_6.png",
           "caption": ""
         }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "The Lake Turkana experience offers valuable lessons for other countries pursuing large-scale renewable projects in contested and remote areas. Key enablers of success included: <br /> <br /><ai prompt=\"Provide more info on innovative financing.\">innovative financing 💬️</ai> structures blending private investment with concessional lending. <br />Strong public-private partnerships with clear risk-sharing mechanisms. <br />Dedicated community development programs alongside infrastructure delivery. <br /> <br />However, LTWP also illustrates critical cautionary lessons. Large infrastructure projects in areas with contested land rights and limited state presence require more than technical excellence—they require early-stage stakeholder engagement, clear land tenure agreements, and transparent risk allocation strategies (<a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769178\"><u>Zetzsche & Vilanculo, 2024</u></a>). <br /> <br />LTWP highlights both the transformative potential and complexities of renewable energy mega-projects in emerging markets. While the project demonstrates how renewable energy can enhance national energy security and attract private capital, it also reveals the social and governance challenges that must be addressed to ensure equitable and sustainable outcomes. The case underscores the importance of embedding social inclusion and benefit-sharing frameworks from project inception, particularly in marginalized areas. <br /> <br /><br /><br />"
+            }
+          }
+        ]
       }
     },
     {
@@ -397,7 +361,7 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_6.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_13.png",
               "caption": ""
             },
             "title": "Blended finance leverages concessional funds from public sources to de-risk investments. Thereby attracting private capital into clean energy projects that might otherwise be deemed too risky or unprofitable.",
@@ -405,7 +369,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Intro_8.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_Intro_2.png",
               "caption": ""
             },
             "title": "By utilizing de-risking tools, blended finance addresses various risks—political, regulatory, and financial—that deter private investment in clean energy. These strategies improve the risk-return profile of projects, making them more appealing to private investors.",
@@ -413,7 +377,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_14.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_1.png",
               "caption": ""
             },
             "title": "Effective deployment of blended finance requires alignment with local conditions, such as capital market maturity and regulatory environments. It must be integrated into broader development strategies to ensure sustainable private markets and scalable clean energy investments.",
@@ -427,7 +391,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module4.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module4.webp",
           "caption": ""
         },
         "intro": "Next up",

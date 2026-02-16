@@ -25,24 +25,60 @@
         "questions": [
           {
             "id": 1,
-            "prompt": "What percentage of total global greenhouse gas emissions is attributed to the energy sector?",
+            "prompt": "What are the three key principles of effective energy governance discussed in the module?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "About 45%"
+                "value": "Effectiveness, Efficiency, and Equity"
               },
               {
                 "id": 2,
-                "value": "Around 60%"
+                "value": "Accountability, Inclusiveness, and Effectiveness"
               },
               {
                 "id": 3,
-                "value": "Approximately 75%"
+                "value": "Affordability, Sustainability, and Resilience"
               },
               {
                 "id": 4,
-                "value": "Less than 25%"
+                "value": "Participation, Enforcement, and Integrity"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Effectiveness, accountability, and inclusiveness ensure energy policies are sound, fair, and participatory."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Effectiveness, accountability, and inclusiveness ensure energy policies are sound, fair, and participatory."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Which of the following best defines energy governance?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "The enforcement of environmental regulations by government institutions"
+              },
+              {
+                "id": 2,
+                "value": "The management of climate financing mechanisms through public policy"
+              },
+              {
+                "id": 3,
+                "value": "The exercise of authority to manage the planning, production, and access to energy"
+              },
+              {
+                "id": 4,
+                "value": "The use of technology to reduce carbon emissions in energy systems"
               }
             ],
             "solution": [
@@ -51,200 +87,373 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "The energy sector is responsible for roughly 75% of total global GHG emissions, making it the largest contributor to climate change."
+                "body": "Energy governance involves political, economic, and social authority over energy decisions."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "The energy sector is responsible for roughly 75% of total global GHG emissions, making it the largest contributor to climate change."
-              }
-            }
-          },
-          {
-            "id": 2,
-            "prompt": "Which of the following greenhouse gases has the highest global warming potential (GWP) among those commonly emitted by the energy sector?",
-            "multiple": false,
-            "options": [
-              {
-                "id": 1,
-                "value": "Carbon dioxide (CO₂)"
-              },
-              {
-                "id": 2,
-                "value": "Methane (CH₄)"
-              },
-              {
-                "id": 3,
-                "value": "Nitrous oxide (N₂O)"
-              },
-              {
-                "id": 4,
-                "value": "Sulfur hexafluoride (SF₆)"
-              }
-            ],
-            "solution": [
-              4
-            ],
-            "messages": {
-              "correct": {
-                "title": "Correct",
-                "body": "SF₆ has the highest GWP—about 25,200 times that of CO₂—making it a critical target for emission reductions in energy distribution."
-              },
-              "wrong": {
-                "title": "Incorrect",
-                "body": "SF₆ has the highest GWP—about 25,200 times that of CO₂—making it a critical target for emission reductions in energy distribution."
+                "body": "Energy governance involves political, economic, and social authority over energy decisions."
               }
             }
           },
           {
             "id": 3,
-            "prompt": "What are key environmental impacts associated with the development of renewable energy infrastructure?",
-            "multiple": true,
+            "prompt": "Why is energy governance critical in achieving a just energy transition?",
+            "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Habitat disruption"
+                "value": "It ensures new technologies are patented fairly"
               },
               {
                 "id": 2,
-                "value": "Air pollution from power plants"
+                "value": "It controls global emissions through a single regulatory agency"
               },
               {
                 "id": 3,
-                "value": "Land use conflicts"
+                "value": "It shapes how decisions are made, trade-offs are managed, and policies are implemented"
               },
               {
                 "id": 4,
-                "value": "Mineral extraction impacts"
+                "value": "It focuses solely on reducing fossil fuel subsidies"
               }
             ],
             "solution": [
-              1,
-              2,
-              3,
-              4
+              3
             ],
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "All options are correct. Habitat disruption and land use conflicts arise from large-scale installations, air pollution can occur during material production and decommissioning, and mining for minerals needed in solar panels, wind turbines, and batteries causes serious environmental degradation."
+                "body": "Governance shapes policies and implementation, crucial for managing transition trade-offs."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "All options are correct. Habitat disruption and land use conflicts arise from large-scale installations, air pollution can occur during material production and decommissioning, and mining for minerals needed in solar panels, wind turbines, and batteries causes serious environmental degradation."
+                "body": "Governance shapes policies and implementation, crucial for managing transition trade-offs."
               }
             }
           },
           {
             "id": 4,
-            "prompt": "How does climate change impact the performance and reliability of energy systems?",
-            "multiple": true,
+            "prompt": "What does “fossil fuel lock-in” refer to?",
+            "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "It increases cooling demand during heatwaves, stressing electricity grids"
+                "value": "Fossil fuels becoming inaccessible due to international sanctions"
               },
               {
                 "id": 2,
-                "value": "It improves thermal plant efficiency by warming water sources"
+                "value": "Political and economic dependence on fossil fuels, making transition difficult"
               },
               {
                 "id": 3,
-                "value": "It disrupts hydropower generation due to changing rainfall patterns"
+                "value": "Locking fossil fuels in underground reserves through carbon capture"
               },
               {
                 "id": 4,
-                "value": "It increases the risk of infrastructure failure from extreme weather events"
+                "value": "Binding international contracts that prevent the use of renewables"
               }
             ],
             "solution": [
-              1,
-              3,
-              4
-            ],
-            "messages": {
-              "correct": {
-                "title": "Correct",
-                "body": "Climate change stresses systems by increasing cooling needs, disrupting hydropower, and exposing infrastructure to weather extremes. Warmer water actually reduces—not improves—thermal plant efficiency."
-              },
-              "wrong": {
-                "title": "Incorrect",
-                "body": "Climate change stresses systems by increasing cooling needs, disrupting hydropower, and exposing infrastructure to weather extremes. Warmer water actually reduces—not improves—thermal plant efficiency."
-              }
-            }
-          },
-          {
-            "id": 5,
-            "prompt": "What are key challenges limiting the widespread adoption of renewable energy technologies in developing countries?",
-            "multiple": true,
-            "options": [
-              {
-                "id": 1,
-                "value": "High initial capital costs and financing constraints"
-              },
-              {
-                "id": 2,
-                "value": "Lack of technical capacity and skilled labor"
-              },
-              {
-                "id": 3,
-                "value": "Volatile markets and infrastructure limitations"
-              },
-              {
-                "id": 4,
-                "value": "Inconsistent policies and weak grid integration"
-              }
-            ],
-            "solution": [
-              1,
-              2,
-              3,
-              4
-            ],
-            "messages": {
-              "correct": {
-                "title": "Correct",
-                "body": "All listed options are documented constraints: high costs, skills gaps, market volatility, and policy/infrastructure weaknesses."
-              },
-              "wrong": {
-                "title": "Incorrect",
-                "body": "All listed options are documented constraints: high costs, skills gaps, market volatility, and policy/infrastructure weaknesses."
-              }
-            }
-          },
-          {
-            "id": 6,
-            "prompt": "Which of the following accurately describe lifecycle emissions from energy technologies?",
-            "multiple": true,
-            "options": [
-              {
-                "id": 1,
-                "value": "Lifecycle emissions account for all stages from resource extraction to decommissioning"
-              },
-              {
-                "id": 2,
-                "value": "Solar and wind have significantly lower lifecycle emissions than coal or gas"
-              },
-              {
-                "id": 3,
-                "value": "Natural gas and coal are comparable to wind and solar in lifecycle emissions"
-              },
-              {
-                "id": 4,
-                "value": "Lifecycle emissions are only relevant for fossil fuels"
-              }
-            ],
-            "solution": [
-              1,
               2
             ],
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Lifecycle analysis provides a comprehensive view of emissions. Wind (13g CO₂/kWh) and solar (43g CO₂/kWh) are far lower than coal (1,001g) and natural gas (486g). Lifecycle analysis is relevant for all energy types."
+                "body": "Fossil fuel lock-in ties economies and institutions to fossil fuel dependence."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Lifecycle analysis provides a comprehensive view of emissions. Wind (13g CO₂/kWh) and solar (43g CO₂/kWh) are far lower than coal (1,001g) and natural gas (486g). Lifecycle analysis is relevant for all energy types."
+                "body": "Fossil fuel lock-in ties economies and institutions to fossil fuel dependence."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Which governance approach emphasizes collaboration across multiple levels and sectors?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Top-down governance"
+              },
+              {
+                "id": 2,
+                "value": "Adaptive enforcement"
+              },
+              {
+                "id": 3,
+                "value": "Multi-level governance"
+              },
+              {
+                "id": 4,
+                "value": "Financial centralization"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Multi-level governance coordinates actions across levels and sectors."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Multi-level governance coordinates actions across levels and sectors."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "What tool is used to analyze how power and institutions shape policy outcomes in energy governance?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Green Climate Fund (GCF)"
+              },
+              {
+                "id": 2,
+                "value": "Institutional and Context Analysis (ICA)"
+              },
+              {
+                "id": 3,
+                "value": "Renewable Investment Index (RII)"
+              },
+              {
+                "id": 4,
+                "value": "Emissions Trading Scheme (ETS)"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "ICA identifies power dynamics and institutional barriers in policy processes."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "ICA identifies power dynamics and institutional barriers in policy processes."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "According to the Paris Agreement, how are energy transitions now treated compared to earlier frameworks like the UNFCCC?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "As side effects of agricultural transformation"
+              },
+              {
+                "id": 2,
+                "value": "As central policy levers essential for meeting climate goals"
+              },
+              {
+                "id": 3,
+                "value": "As voluntary measures with no legal standing"
+              },
+              {
+                "id": 4,
+                "value": "As actions to be undertaken solely by developed countries"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "The Paris Agreement centralizes energy transitions to meet climate goals."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "The Paris Agreement centralizes energy transitions to meet climate goals."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "What percentage of Nationally Determined Contributions (NDCs) explicitly address just transition according to the synthesis report?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.1"
+              },
+              {
+                "id": 2,
+                "value": "0.17"
+              },
+              {
+                "id": 3,
+                "value": "0.4"
+              },
+              {
+                "id": 4,
+                "value": "0.31"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Only 31% of NDCs address just transition impacts on vulnerable groups."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Only 31% of NDCs address just transition impacts on vulnerable groups."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "Which foresight method starts by defining a desired future and then maps steps backward?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Scenario Planning"
+              },
+              {
+                "id": 2,
+                "value": "Visioning"
+              },
+              {
+                "id": 3,
+                "value": "Backcasting"
+              },
+              {
+                "id": 4,
+                "value": "Horizon Mapping"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Backcasting is a foresight technique that begins with a desirable future and maps necessary steps to reach that vision."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Backcasting is a foresight technique that begins with a desirable future and maps necessary steps to reach that vision."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "What is the primary goal of a Whole-of-Government approach in energy governance?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "To centralize power under the Ministry of Energy"
+              },
+              {
+                "id": 2,
+                "value": "To foster inter-ministerial collaboration and policy coherence"
+              },
+              {
+                "id": 3,
+                "value": "To reduce the role of parliament in energy governance"
+              },
+              {
+                "id": 4,
+                "value": "To manage regional transmission infrastructure"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Whole-of-Government approaches integrate cross-ministerial collaboration to promote cohesive energy policy aligned with broader development goals."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Whole-of-Government approaches integrate cross-ministerial collaboration to promote cohesive energy policy aligned with broader development goals."
+              }
+            }
+          },
+          {
+            "id": 11,
+            "prompt": "Which of the following best defines agile oversight in the energy sector?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "A fixed, rule-based enforcement mechanism"
+              },
+              {
+                "id": 2,
+                "value": "A responsive, real-time monitoring mechanism"
+              },
+              {
+                "id": 3,
+                "value": "A gender-based budgeting system"
+              },
+              {
+                "id": 4,
+                "value": "A tool for subsidy disbursement"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Agile oversight refers to real-time, adaptive monitoring that supports flexible decision-making and policy responsiveness in evolving contexts."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Agile oversight refers to real-time, adaptive monitoring that supports flexible decision-making and policy responsiveness in evolving contexts."
+              }
+            }
+          },
+          {
+            "id": 12,
+            "prompt": "Which of the following mechanisms are critical to external oversight in energy governance?",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Regulatory enforcement of service standards"
+              },
+              {
+                "id": 2,
+                "value": "Community-based grievance redress systems"
+              },
+              {
+                "id": 3,
+                "value": "Parliamentary review committees"
+              },
+              {
+                "id": 4,
+                "value": "Centralized tariff-setting authorities"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "External oversight includes formal regulatory and legislative mechanisms as well as participatory approaches, all aimed at ensuring transparency and accountability."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "External oversight includes formal regulatory and legislative mechanisms as well as participatory approaches, all aimed at ensuring transparency and accountability."
               }
             }
           }
@@ -256,7 +465,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module5.webp",
           "caption": ""
         },
         "intro": "Next up",

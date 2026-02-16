@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Home to some of the world’s largest oil and gas producers, but also large investments into clean energy capacity, the Arab region represents the dynamism of the energy transition. <br /><br />This lesson will explore the energy landscape in the UNDP’s Regional Bureau of the Arab States (RBAS), which includes 22 countries and makes up 5.6% of the world’s population. This includes the trends that define development progress, challenges in energy access and quality, opportunities for growth, and strategic goals for the short and long-term."
+              "text": "Home to some of the world’s largest oil and gas producers, but also large investments in clean energy, the Arab region represents the dynamism of the energy transition. <br /><br />This lesson will explore the energy landscape in the UNDP’s Regional Bureau of the Arab States (RBAS), which includes 22 countries and makes up 5.6% of the world’s population. This includes the trends that define development progress, challenges in energy access and quality, opportunities for growth, and strategic goals for the short and long-term."
             }
           }
         ]
@@ -120,7 +120,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/2290_45.webp",
@@ -209,22 +209,16 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_215.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "echarts_chart",
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Share of Population with Electricity Access and Clean Cooking Access in the Arab Region",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -480,7 +474,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The widespread use of energy subsidies in the Arab region complicate the energy transition. Energy subsidies<strong> </strong>are offered to citizens in an effort to promote social welfare.<strong> However, these subsidies tend to limit efforts to promote renewable energy and <ai prompt=\"Provide more info on energy efficiency.\">energy efficiency 💬️</ai>. </strong>In 2020, nine Arab countries spent $75 billion on energy subsidies.<br /><br />Additionally, energy subsidies impose a heavy fiscal burden on government spending and constrain resources for other priorities. For example, Libya spent 4.9% of its GDP and Algeria 1.6% of its GDP on energy subsidies in 2020, according to the 2023 Arab Future Energy Index (AFEX) report."
+              "text": "The widespread use of energy subsidies in the Arab region complicate the energy transition. Energy subsidies<strong> </strong>are offered to citizens in an effort to promote social welfare.<strong> However, these subsidies tend to limit efforts to promote renewable energy and <ai prompt=\"Tell me more about energy efficiency.\">energy efficiency 💬️</ai>. </strong>In 2020, nine Arab countries spent $75 billion on energy subsidies.<br /><br />Additionally, energy subsidies impose a heavy fiscal burden on government spending and constrain resources for other priorities. For example, Libya spent 4.9% of its GDP and Algeria 1.6% of its GDP on energy subsidies in 2020, according to the 2023 Arab Future Energy Index (AFEX) report."
             }
           },
           {
@@ -518,6 +512,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "Total energy subsides value in some of Arab countries (Real 2020 million USD)",
+          "subtitle": "",
+          "description": "Zhong: I cannot locate the original chart in green but I was able to find the source chart in the PDF report (p.61): https://www.undp.org/sites/g/files/zskgke326/files/2023-09/final_afex_2023-_18-9-2023.pdf",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -722,7 +722,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The Arab region has multiplied its renewables capacity by tenfold over the past decade. <strong>The total installed renewable energy capacity is at 23.6 GW, with 5.1 GW added from just 2018 to 2020. </strong>The capacity increase has been concentrated in a few countries, such as Egypt, Jordan, and Morocco. <strong>It also has been mostly for PV, with capacity more than doubling from 3.2 GW in 2018 to 7.4 GW by the end of 2020.</strong> In contrast, <ai prompt=\"Provide more info on wind energy.\">wind energy 💬️</ai> and CSP saw only minor increases. <br /><br />Notably, part of the installed capacity could come from oil and gas producing countries, which have increasingly turned to solar PV to supply local electricity. These PV efforts are intended to conserve oil and gas reserves for future export revenues."
+              "text": "The Arab region has multiplied its renewables capacity by tenfold over the past decade. <strong>The total installed renewable energy capacity is at 23.6 GW, with 5.1 GW added from just 2018 to 2020. </strong>The capacity increase has been concentrated in a few countries, such as Egypt, Jordan, and Morocco. <strong>It also has been mostly for PV, with capacity more than doubling from 3.2 GW in 2018 to 7.4 GW by the end of 2020.</strong> In contrast, <ai prompt=\"Tell me more about wind energy.\">wind energy 💬️</ai> and CSP saw only minor increases. <br /><br />Notably, part of the installed capacity could come from oil and gas producing countries, which have increasingly turned to solar PV to supply local electricity. These PV efforts are intended to conserve oil and gas reserves for future export revenues."
             }
           }
         ]
@@ -733,6 +733,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Renewable energy produced per source per country, 2022",
+          "subtitle": "",
+          "description": "Zhong: I cannot locate the original chart in green but I was able to find the source chart in the PDF report (p.36): https://www.undp.org/sites/g/files/zskgke326/files/2023-09/final_afex_2023-_18-9-2023.pdf",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -1048,18 +1054,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4082_3560.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1138,7 +1132,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "Next up",

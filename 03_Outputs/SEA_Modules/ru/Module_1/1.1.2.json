@@ -78,18 +78,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_49.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
@@ -113,6 +101,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "M1_C1_6"
       }
     },
     {
@@ -201,6 +198,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Глобальные выбросы CO2 от сжигания энергии и промышленных процессов и их ежегодные изменения, 1900-2022",
+          "subtitle": "",
+          "description": "Заметка Евгена: я бы добавил здесь цель Парижского соглашения по ограничению выбросов, например добавляя точку нулевого баланса в 2050 году Zhong: Apache Пример: https://echarts.apache.org/examples/en/editor.html?c=line-simple; https://echarts.apache.org/examples/en/editor.html?c=bar-simple Примечание Фредерика: следует ли создавать этот график как один инфографический материал, состоящий из линейного и столбчатого графиков, или следует создать два отдельных графика. Если да, пожалуйста, откройте новую строку для этого.",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -623,18 +626,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_133.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
@@ -682,7 +673,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4185_584.webp",
@@ -704,7 +695,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "В то время как зависимость от ископаемого топлива подвергает страны системным уязвимостям, растущий мировой спрос на энергию добавляет еще один уровень давления. [needs translation] Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Clarify energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />Этот <strong>рост обусловлен сочетанием факторов: ростом населения, быстрым урбанизацией, промышленным расширением и увеличением электрификации всего — от транспорта до приготовления пищи и цифровых услуг. <br /></strong><br />Этот растущий спрос является признаком прогресса в развитии, но он также рискует усугубить зависимость мира от нестабильных систем ископаемого топлива, если переход к чистым, надежным и децентрализованным альтернативам не будет идти в ногу. Без стратегического ответа повышенное использование энергии может закрепить страны на опасных и углеродноемких путях, подрывая как цели энергетического доступа, так и климатические амбиции. <br /><br /><strong><em>Для более глубокого погружения в будущее энергетики и того, как различные сценарии формируют прогнозы спроса, обратитесь к Модулю 8.</em></strong></br></br> </strong>"
+              "text": "В то время как зависимость от ископаемого топлива подвергает страны системным уязвимостям, растущий мировой спрос на энергию добавляет еще один уровень давления. Хотя прогнозы будущего спроса на энергию варьируются в различных моделях и сценариях, одна тенденция ясна: <strong>без значительных достижений в <ai prompt=\"Предоставьте больше информации об энергоэффективности.\">энергетической эффективности 💬️</ai>, спрос будет продолжать расти вместе с ростом населения и экономики.</strong> В сценарии заявленных политик МЭА, который отражает существующие политические обязательства, но не предусматривает дополнительных усилий, ожидается, что мировой спрос на энергию будет расти в среднем на 0,7% в год до 2030 года, что приведет к общему увеличению примерно на 5% по сравнению с уровнями 2022 года (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>МЭА</u></a>, 2023). <br /><br />Этот <strong>рост обусловлен сочетанием факторов: ростом населения, быстрым урбанизацией, промышленным расширением и увеличением электрификации всего — от транспорта до приготовления пищи и цифровых услуг. <br /></strong><br />Этот растущий спрос является признаком прогресса в развитии, но он также рискует усугубить зависимость мира от нестабильных систем ископаемого топлива, если переход к чистым, надежным и децентрализованным альтернативам не будет идти в ногу. Без стратегического ответа повышенное использование энергии может закрепить страны на опасных и углеродноемких путях, подрывая как цели энергетического доступа, так и климатические амбиции. <br /><br /><strong><em>Для более глубокого погружения в будущее энергетики и того, как различные сценарии формируют прогнозы спроса, обратитесь к Модулю 8.</em></strong></br></br> </strong>"
             }
           }
         ]
@@ -715,6 +706,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "Мировой спрос на энергию",
+          "subtitle": "",
+          "description": "Чжонг: Данные до 2000 года были вручную извлечены (оценки). Точки данных с 2000 по 2050 год взяты из ExxonMobil Global Outlook (2024): https://corporate.exxonmobil.com/-/media/global/files/global-outlook/2024/global-outlook-data-2024.xlsx Пример Apache: https://echarts.apache.org/examples/en/editor.html?c=bar-stack",
+          "footnote": "Source: Smil, Energy Transitions (1900-1960), 2024 ExxonMobil Global Outlook (1970-2050)"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -1008,7 +1005,7 @@
         "resources": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.webp",
               "caption": ""
             },
             "href": "IEA",
@@ -1017,7 +1014,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.webp",
               "caption": ""
             },
             "href": "IRENA",
@@ -1026,7 +1023,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.webp",
               "caption": ""
             },
             "href": "McKinsey & Company",
@@ -1041,7 +1038,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "Далее",
