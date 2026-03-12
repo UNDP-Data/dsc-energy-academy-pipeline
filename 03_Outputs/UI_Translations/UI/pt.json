@@ -1,0 +1,515 @@
+{
+  "globals": {
+    "lessonProgress": {
+      "not_started": "Não iniciado",
+      "in_progress": "Em andamento",
+      "completed": "Concluído"
+    }
+  },
+  "SignInPage": {
+    "title": "Prazer em vê-lo novamente",
+    "noAccount": "Ainda não tem uma conta?",
+    "signUp": "Inscreva-se agora",
+    "SignInForm": {
+      "login": {
+        "label": "Entrar",
+        "placeholder": "Email ou número de telefone",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "Por favor, insira um endereço de email válido"
+      },
+      "password": {
+        "label": "Senha",
+        "placeholder": "Senha",
+        "requiredError": "Este campo é obrigatório"
+      },
+      "remember": "Lembre-me",
+      "forgot": "Esqueceu a senha?",
+      "submit": "Entrar",
+      "credentialsError": "Não conseguimos encontrar uma correspondência. Verifique seu nome de usuário e senha, ou <signup>crie uma conta</signup> se for novo.",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência."
+    }
+  },
+  "SignUpPage": {
+    "title": "Bem-vindo",
+    "SignUpForm": {
+      "email": {
+        "label": "Email",
+        "placeholder": "Email",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "Por favor, insira um endereço de email válido"
+      },
+      "password": {
+        "label": "Senha",
+        "placeholder": "Senha",
+        "hint": "Mínimo de 8 caracteres",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "A senha deve conter pelo menos 8 caracteres"
+      },
+      "confirmPassword": {
+        "label": "Confirmar senha",
+        "placeholder": "Repetir senha",
+        "invalidError": "Por favor, certifique-se de que suas senhas correspondam."
+      },
+      "submit": "Inscreva-se",
+      "alreadyTakenError": "Este endereço de e-mail já está em uso. Por favor, use um e-mail diferente ou <login>faça login</login>.",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência."
+    }
+  },
+  "SiteMenu": {
+    "logo": {
+      "alt": "Logotipo da Academia de Energia Sustentável do PNUD"
+    },
+    "triggerAriaLabel": "Abrir o menu",
+    "navigation": {
+      "home": "Início",
+      "modules": "Academy",
+      "resources": "Recursos",
+      "energyAi": "Energia IA",
+      "geospatial": "Geoespacial",
+      "profile": "Perfil",
+      "signIn": "Entrar",
+      "signOut": "Sair"
+    },
+    "languageSelector": {
+      "label": "Seleção de idioma",
+      "select": "Selecionar idioma"
+    },
+    "authentication": {
+      "signIn": "Entrar",
+      "signOut": "Sair",
+      "profileAriaLabel": "Ir para sua página de perfil",
+      "profile": "Seu perfil",
+      "dropdownToggleAriaLabel": "Alternar menu de perfil do usuário"
+    }
+  },
+  "SiteFooter": {
+    "terms": "Termos de uso",
+    "colophon": "© 2023 Programa das Nações Unidas para o Desenvolvimento",
+    "social": {
+      "facebook": "Visite nossa página do Facebook",
+      "twitter": "Visite nossa página no Twitter",
+      "instagram": "Visite nossa página do Instagram",
+      "linkedin": "Visite nossa página no LinkedIn",
+      "youtube": "Visite nosso canal no YouTube"
+    }
+  },
+  "PasswordInput": {
+    "hide": "Ocultar senha",
+    "show": "Mostrar senha"
+  },
+  "QuickLinks": {
+    "goTo": "Ir para",
+    "scroll": "Role para saber mais"
+  },
+  "HomePage": {
+    "LandingHero": {
+      "title": "Academia de Energia Sustentável",
+      "registerCta": "Começar a aprender",
+      "aiCtaShort": "Pergunte à Energy AI",
+      "aiCta": "Faça uma pergunta ao Energy AI",
+      "scroll": "ou role para explorar a <bold>Plataforma de Inteligência Digital</bold>"
+    },
+    "Welcome": {
+      "title": "Bem-vindo de volta <bold>{name}</bold>, pronto para continuar suas aulas?"
+    },
+    "Carousel1": {
+      "intro": "Parte da Plataforma de Inteligência Digital de Energia Sustentável",
+      "title": "Energia para o Desenvolvimento",
+      "list": "needs translation",
+      "slides": {
+        "item1": {
+          "alt": "Imagem 1"
+        },
+        "item2": {
+          "alt": "Imagem 2"
+        },
+        "item3": {
+          "alt": "Imagem 3"
+        }
+      }
+    },
+    "Carousel2": {
+      "intro": "ÁREA DE FOCO DA ACADEMIA DE ENERGIA SUSTENTÁVEL",
+      "title": "Energia para o Desenvolvimento",
+      "list": "<item><bold>Feche a lacuna no acesso à energia</bold> para que pessoas e comunidades marginalizadas tenham acesso a energia sustentável, limpa, e à dignidade e oportunidades que ela traz.</item><item><bold>Acelere a transição energética</bold> por meio de mudanças no sistema que apoiem uma recuperação verde e melhorem a eficiência, reunindo as melhores ideias do governo, setor privado, finanças, digital e sociedade civil.</item><item><bold>Impulsione o financiamento de energia</bold> trabalhando com o setor público e ecossistemas financeiros globais, regionais e locais para ampliar os investimentos públicos e privados.</item>",
+      "slides": {
+        "item1": {
+          "alt": "Imagem 1"
+        },
+        "item2": {
+          "alt": "Imagem 2"
+        },
+        "item3": {
+          "alt": "Imagem 3"
+        }
+      }
+    },
+    "Carousel": {
+      "aria": {
+        "section": "carrossel de imagens",
+        "indicator": "número do slide {slideNumber}",
+        "slide": "slide {slideNumber} de {slideCount}",
+        "previous": "Ir para o slide anterior",
+        "next": "Ir para o próximo slide"
+      }
+    },
+    "Invitation": {
+      "body": "Bem-vindo à <bold>Plataforma de Inteligência Digital de Energia Sustentável</bold>, uma ferramenta inovadora para impulsionar a transformação do sistema por meio de estratégias integradas e orientadas por dados para avançar em direção a uma transição energética sustentável, inclusiva e justa."
+    },
+    "Video": {
+      "title": "Título do vídeo",
+      "body": "Nulla pellentesque leo vitae lorem hendrerit, sit amet elementum ipsum rutrum. Morbi ultricies volutpat orci."
+    },
+    "ModulesFeature": {
+      "title": "Explore a plataforma de aprendizagem digital da Academia com 8 e-módulos interativos",
+      "body": "Mergulhe em mais de 40 horas de conteúdo elaborado por especialistas e liderança de pensamento. Descubra 80 infográficos e 60 visualizações de dados que dão vida às tendências de energia. Aprenda com 70 estudos de caso do mundo real destacando soluções de energia sustentável impactantes. Conquiste um certificado para cada módulo que concluir!",
+      "cta": "Explorar todos os módulos"
+    },
+    "KnowledgeGraph": {
+      "title": "Quando precisar, pergunte à Energy AI e Knowledge Graph",
+      "body": "A plataforma fornece insights baseados em dados e experiência de aprendizagem através da ferramenta de IA e grafo de conhecimento, treinada em um banco de dados personalizado de políticas e recursos energéticos, acessível por meio de uma interface dinâmica para ir além do chat e explorar a abordagem integrada de energia sustentável para o desenvolvimento.",
+      "cta": "Pergunte à Energy AI"
+    }
+  },
+  "ProfilePage": {
+    "section": "Conta",
+    "pageTitle": "Sua página de conta",
+    "anchors": {
+      "dashboard": "Seu progresso",
+      "certificates": "Certificados",
+      "accountSettings": "Configurações da conta"
+    },
+    "Milestones": {
+      "example": "Exemplo de marco"
+    },
+    "ResumeLessons": {
+      "title": "Continuar aprendendo",
+      "noLessons": "Inicie novas lições para continuar sua jornada de aprendizagem"
+    },
+    "StartLessons": {
+      "title": "Iniciar novo: lições personalizadas para suas áreas de crescimento",
+      "text": "Para fortalecer essas áreas, as lições recomendadas relacionadas a"
+    },
+    "Certificates": {
+      "completed": "concluído!",
+      "view": "Ver certificado"
+    },
+    "ProfilePicture": {
+      "altText": "Sua foto de perfil",
+      "hint": "O tamanho da imagem deve ser inferior a 1 MB",
+      "label": "Enviar foto",
+      "labelUploading": "Carregando foto...",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência.",
+      "fileTooLargeError": "O arquivo é muito grande. Por favor, envie um arquivo menor que 1 MB."
+    },
+    "ProfileForm": {
+      "title": "Configurações gerais",
+      "firstName": {
+        "label": "Nome",
+        "placeholder": "Nome",
+        "requiredError": "Este campo é obrigatório"
+      },
+      "lastName": {
+        "label": "Sobrenome",
+        "placeholder": "Sobrenome",
+        "requiredError": "Este campo é obrigatório"
+      },
+      "username": {
+        "label": "Nome de usuário",
+        "placeholder": "Nome de usuário",
+        "requiredError": "Este campo é obrigatório"
+      },
+      "bio": {
+        "label": "Descrição breve",
+        "placeholder": "Seu título, profissão ou pequena biografia"
+      },
+      "save": "Salvar alterações",
+      "saving": "Salvando alterações...",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência."
+    },
+    "ChangePasswordForm": {
+      "title": "Alterar senha",
+      "currentPassword": {
+        "label": "Senha atual",
+        "placeholder": "Senha atual",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "O campo deve conter pelo menos 8 caracteres"
+      },
+      "newPassword": {
+        "label": "Nova senha",
+        "placeholder": "Nova senha",
+        "hint": "Mínimo de 8 caracteres",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "A senha deve conter pelo menos 8 caracteres"
+      },
+      "confirmPassword": {
+        "label": "Confirmar nova senha",
+        "placeholder": "Confirmar nova senha",
+        "requiredError": "Este campo é obrigatório",
+        "invalidError": "Por favor, certifique-se de que suas senhas correspondam."
+      },
+      "save": "Salvar alterações",
+      "saving": "Salvando alterações...",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência.",
+      "samePasswordError": "A nova senha deve ser diferente da senha atual.",
+      "success": "Senha alterada com sucesso."
+    }
+  },
+  "ModulesPage": {
+    "pageTitle": "Comece sua jornada pela Academia de Energia Sustentável",
+    "section": "Explore a Academia",
+    "introduction": "Construa conhecimentos práticos sobre energia sustentável para o desenvolvimento através de 9 módulos interativos. Explore mais de 40 horas de conteúdo especializado, visualizações de dados, infográficos e 70 estudos de caso reais. Receba um certificado por cada módulo concluído!",
+    "ModulesHeader": {
+      "modes": {
+        "linear": "Modo linear",
+        "network": "Modo de rede"
+      },
+      "legend": {
+        "toc": {
+          "title": "Tipos de conteúdo",
+          "lesson": "Lição",
+          "takeaways": "Principais ideias",
+          "quiz": "Quiz"
+        },
+        "progress": {
+          "title": "Progresso",
+          "todo": "A fazer",
+          "inProgress": "Em andamento",
+          "completed": "Concluído"
+        }
+      }
+    },
+    "LessonList": {
+      "ModulePreview": {
+        "ChapterPreviewCard": {
+          "segment": "Capítulo"
+        },
+        "ModulePreviewHeader": {
+          "module": "Módulo",
+          "chapters": "Capítulos",
+          "time": "Tempo estimado",
+          "notStarted": "Não iniciado",
+          "completion": "conclusão"
+        }
+      }
+    },
+    "ModulePreview": {
+      "startModule": "Iniciar o módulo",
+      "choose": "ou escolha um capítulo:"
+    }
+  },
+  "ResourcesPage": {
+    "pageTitle": "Baixar página de recursos",
+    "section": "Recursos",
+    "publications": "Publicações e boletins da SEH",
+    "press": "Comunicados de imprensa da UNDP CO",
+    "allResources": "Todas as publicações e recursos",
+    "viewMore": "Ver mais",
+    "ArticlePreview": {
+      "readMore": "Leia mais"
+    }
+  },
+  "KnowledgeGraphPage": {
+    "pageTitleDesktop": "Energia Sustentável IA",
+    "pageTitleMobile": "Energia IA",
+    "chatInputPlaceholder": "Faça uma pergunta",
+    "graphInputPlaceholder": "Pesquisar palavra-chave",
+    "searchAriaLabel": "Pesquisar palavra-chave",
+    "sendMessageAriaLabel": "Enviar pergunta feita",
+    "readAloud": "Ler o último parágrafo",
+    "referencesTitle": "Referências",
+    "referencesSubtitle": "Referências",
+    "chatErrorMessage": "Estamos enfrentando problemas técnicos. Por favor, tente novamente mais tarde. Obrigado pela sua paciência.",
+    "closeReferencesAriaLabel": "Fechar aba de referências",
+    "mobileInfoAriaLabel": "Abrir o painel de informações",
+    "mobileInfoTitle": "Energy AI - Informações",
+    "mobileInfoText": "Aproveite IA e gráficos de conhecimento para explorar estratégias de transição energética sustentável e insights de um banco de dados personalizado de publicações e políticas energéticas.",
+    "mobileSuggestionLabel": "Perguntas sugeridas",
+    "mobileInfoCloseAriaLabel": "Fechar painel de informações",
+    "mobileSuggestionsAriaLabel": "Abrir o painel de sugestões",
+    "mobileSuggestionsTitle": "Energy AI - Perguntas sugeridas",
+    "mobileSuggestionsCloseAriaLabel": "Fechar painel de sugestões",
+    "chatTabLabel": "Chat",
+    "graphTabLabel": "Gráfico de Conhecimento",
+    "closeAriaLabel": "Fechar modelo de gráfico de conhecimento",
+    "nodeSubmitIntroText": "Conte-me mais sobre ",
+    "defaultIdeas": [
+      "Como uma transição justa pode desbloquear sistemas de energia inclusivos que apoiam o desenvolvimento relacionado à saúde na África Subsaariana?",
+      "Como a África Subsaariana está aproveitando a governança para expandir o acesso a energias renováveis para comunidades vulneráveis na área da educação?",
+      "Quais parcerias intersetoriais podem melhorar a governança e fortalecer os resultados de energia sustentável na Europa Oriental, especialmente para a igualdade de gênero?",
+      "Como o Oriente Médio e Norte da África estão aproveitando o fortalecimento de capacidades para expandir o acesso a energias renováveis para comunidades vulneráveis na área de adaptação ao clima?",
+      "Qual o papel da governança no avanço da energia sustentável no setor de acesso à energia no Oriente Médio e Norte da África?",
+      "Como a América Latina e o Caribe estão aproveitando a transição justa para expandir o acesso a energias renováveis para comunidades vulneráveis na área de adaptação ao clima?",
+      "Quais parcerias intersetoriais podem melhorar a governança e fortalecer os resultados de energia sustentável no Norte global vs o Sul global, especialmente para a educação?",
+      "Quais são os trade-offs políticos e econômicos de ampliar a energia sustentável no setor de transporte da Ásia Central com as estruturas de inovação atuais?",
+      "Que lições a Ásia Central pode ensinar ao mundo sobre soluções de transição justa para energia limpa no acesso à energia?",
+      "Analise a interseção de igualdade de gênero, transição justa e justiça energética no contexto das prioridades de desenvolvimento da África Subsaariana.",
+      "Explore oportunidades para acelerar a transição energética no setor de transporte das Ilhas do Pacífico investindo em tecnologia.",
+      "Explore oportunidades para acelerar a transição energética no setor de transporte dos Estados insulares em desenvolvimento investindo em governança.",
+      "Qual o papel da infraestrutura no avanço da energia sustentável no setor de acesso à energia na Europa Oriental?",
+      "Avalie a eficácia das abordagens orientadas à governança para integrar energia limpa nos sistemas de acesso à energia em Estados insulares em desenvolvimento.",
+      "Quais são os trade-offs políticos e econômicos de ampliar a energia sustentável no setor financeiro do Sudeste Asiático com as estruturas de dados atuais?",
+      "Como o Sul da Ásia está aproveitando a infraestrutura para expandir o acesso a energias renováveis para comunidades vulneráveis na área da saúde?",
+      "Analise a interseção de adaptação climática, infraestrutura e justiça energética no contexto das prioridades de desenvolvimento na região Ásia-Pacífico.",
+      "Qual o papel da governança no avanço da energia sustentável no setor de transporte no Oriente Médio e Norte da África?",
+      "Como a América Latina e o Caribe estão aproveitando a transição justa para ampliar o acesso a energias renováveis para comunidades vulneráveis no setor de transporte?",
+      "Como o Oriente Médio e Norte da África estão aproveitando a inovação para expandir o acesso à energia renovável para comunidades vulneráveis no setor de transporte?",
+      "Explore oportunidades para acelerar a transição energética no setor de adaptação climática do Norte Global vs o Sul Global investindo em políticas.",
+      "Avalie a eficácia de abordagens orientadas à governança para integrar energia limpa nos sistemas industriais no Sul da Ásia.",
+      "Que lições as Ilhas do Pacífico podem ensinar ao mundo sobre soluções baseadas em políticas para energia limpa no acesso à energia?",
+      "Avalie a eficácia das abordagens orientadas à governança para integrar energia limpa nos sistemas de saúde no Sul da Ásia.",
+      "Analise a interseção de agricultura, transição justa e justiça energética no contexto das prioridades de desenvolvimento das Ilhas do Pacífico.",
+      "Analise a interseção de educação, governança e justiça energética no contexto das prioridades de desenvolvimento da América Latina e do Caribe.",
+      "Qual o papel da infraestrutura no avanço da energia sustentável no setor de acesso à energia em Estados insulares em desenvolvimento?",
+      "Que lições os Pequenos Estados Insulares em Desenvolvimento podem ensinar ao mundo sobre soluções de transição justa para energia limpa na saúde?",
+      "Como os Pequenos Estados Insulares em Desenvolvimento estão aproveitando a governança para expandir o acesso a energias renováveis para comunidades vulneráveis na área da educação?",
+      "Qual é o impacto socioeconômico e ambiental do aumento da demanda por minerais críticos nas comunidades indígenas?",
+      "Como podemos melhorar a segurança energética com fontes diversificadas, garantindo acessibilidade e confiabilidade para comunidades carentes?",
+      "Quais estratégias ou políticas podem mitigar riscos geopolíticos que afetam as cadeias de suprimento de energia e a segurança energética global?",
+      "Insights sobre soluções ou práticas tecnológicas inovadoras que aprimorem o armazenamento de energia e reduzam a vulnerabilidade a interrupções no fornecimento?",
+      "Quais são as implicações de segurança humana da pobreza energética e como podem ser abordadas por meio de iniciativas de energia sustentável?",
+      "Como as políticas relacionadas à energia impactam os padrões de deslocamento e migração, especialmente em regiões propensas a shortages de energia ou degradação ambiental?",
+      "Como são determinadas as tarifas de feed-in e posso negociar uma tarifa como produtor independente de energia?",
+      "Quem são os principais fornecedores de financiamento concessionário e combinado para projetos de energia renovável, e que tipos de instrumentos eles oferecem? Como um desenvolvedor de projetos se envolveria com eles para garantir apoio financeiro?",
+      "Como operador de minigrid, quais são as melhores maneiras de garantir que a receita média por usuário seja alta o suficiente para cobrir os custos e gerar lucro? Existem maneiras de estruturar melhor meu negócio para garantir que a receita seja suficiente para cobrir os custos?",
+      "Como devo abordar a decisão de se meu negócio de serviços de energia deve usar dívida ou levantar capital próprio? Quais são as vantagens e desvantagens no contexto específico de um negócio de energia? (isso pode ser adaptado a qualquer modelo de negócio no setor de energia: SHS, e-mobilidade, serviço de dados, minigrid, IPP, etc.)",
+      "O que é a TIR e por que ela é importante para um negócio de energia? Como os investidores lidam ou pensam sobre a TIR?",
+      "Explore publicações e conjuntos de dados para identificar iniciativas lideradas pela comunidade que enfrentam desafios no acesso à energia. Forneça informações sobre a eficácia dessas iniciativas, fatores-chave que contribuem para seu sucesso e modelos replicáveis para capacitar comunidades na garantia de acesso sustentável à energia.",
+      "Obtenha insights de publicações e conjuntos de dados sobre estratégias e intervenções para combater a pobreza energética em áreas urbanas. Explore o papel das tecnologias inteligentes, do planejamento urbano e do engajamento comunitário para garantir acesso equitativo a fontes de energia sustentáveis.",
+      "Como podem os instrumentos financeiros inovadores apoiar a região da LAC na transição energética?",
+      "Quais são as tendências atuais no investimento em energia renovável em países em desenvolvimento?",
+      "Qual é a adição de capacidade anual de energia renovável necessária para atingir as metas do Acordo de Paris?",
+      "Como a demanda crescente por tecnologia de energia renovável está relacionada com a demanda por minerais críticos?",
+      "Quais são as melhores práticas para incorporar o engajamento e a participação da comunidade na formulação de políticas energéticas para garantir inclusão social e equidade?",
+      "Explique o conceito de sistemas de energia descentralizados e como eles diferem dos modelos centralizados tradicionais.",
+      "Explore o papel das micro-redes em melhorar a eficiência e confiabilidade dos sistemas de energia descentralizados.",
+      "Quais são os papéis potenciais e riscos da IA para promover transições energéticas sustentáveis?"
+    ],
+    "ideasLength": "50",
+    "chatWelcomeMessage": "Faça uma pergunta ou escolha uma<br/>sugestão abaixo para começar!",
+    "graphNoDataMessage": "Interaja com o chat para<br/>explorar o gráfico de conhecimento",
+    "inputMinLabel": "Mínimo de 8 caracteres",
+    "preResearchMessage": "Explore o Gráfico de Conhecimento e a IA sobre um tópico específico.",
+    "noKeywordsFoundMessage": "Nenhuma palavra-chave encontrada. Por favor, tente um termo de pesquisa diferente."
+  },
+  "SuggestedLessonCard": {
+    "module": "Módulo",
+    "chapter": "Capítulo",
+    "lesson": "Lição",
+    "resume": "Resumo",
+    "start": "Iniciar"
+  },
+  "LessonsProgress": {
+    "title": "Seu progresso nas aulas",
+    "completed": "Concluído",
+    "started": "Iniciado",
+    "notStarted": "Não iniciado"
+  },
+  "ModulesProgress": {
+    "title": "Módulos Concluídos"
+  },
+  "KeywordsProgress": {
+    "title": "Suas habilidades para a palavra-chave",
+    "legend": "Número de aulas concluídas por palavra-chave."
+  },
+  "404Page": {
+    "title": "Página não encontrada",
+    "body": "Não conseguimos encontrar a página que você procura. Tente voltar à página anterior ou à página inicial.",
+    "back": "Voltar para a Página Inicial"
+  },
+  "LessonHeader": {
+    "triggerAriaLabel": "Abrir o menu",
+    "aiAriaLabel": "Faça uma pergunta à IA de energia",
+    "expandMenu": "Expandir menu",
+    "collapseMenu": "Recolher menu",
+    "module": "Módulo",
+    "chapters": "Capítulos",
+    "lessonsCompleted": "Aulas concluídas"
+  },
+  "Templates": {
+    "module": "Módulo",
+    "chapter": "Capítulo",
+    "lesson": "Lição",
+    "part": "Parte"
+  },
+  "ImageHotspot": {
+    "imgAriaLabel": "Fechar caixa de descrição",
+    "hotspotAriaLabel": "Mostrar detalhes",
+    "hotspotAriaLabelTitle": "Mostrar detalhes sobre {title}"
+  },
+  "ErrorMessage": {
+    "title": "Ops!",
+    "subtitle": "Algo deu errado",
+    "body": "Ocorreu um erro ao carregar a página. Por favor, tente novamente mais tarde.",
+    "backToModules": "Voltar à Academia",
+    "backToHome": "Voltar para a Página Inicial"
+  },
+  "SignOutButton": {
+    "signOut": "Sair"
+  },
+  "LessonDesktopMenu": {
+    "toggleMenu": "Alternar menu"
+  },
+  "UserProgressGraph": {
+    "completedLessons": "Aulas Concluídas",
+    "completedModules": "Módulos Concluídos"
+  },
+  "FinalCertificate": {
+    "title": "Seus Certificados",
+    "body": "Conquiste um certificado para cada módulo que completar. Complete todos os oito para desbloquear seu certificado completo do curso, mostrar seu compromisso com a Transição Justa de Energia e adicioná-lo ao seu perfil do LinkedIn para aumentar seu impacto profissional.",
+    "inProgress": "Progresso do módulo",
+    "download": "Baixar certificado"
+  },
+  "ModuleCertificate": {
+    "module": "Módulo",
+    "completed": "concluído!",
+    "inProgress": "em andamento",
+    "download": "Baixar certificado"
+  },
+  "ForgotPasswordPage": {
+    "title": "Esqueceu sua senha?",
+    "instructions": "Digite seu endereço de e-mail abaixo e enviaremos um link para redefinir sua senha.",
+    "cancel": "Cancelar",
+    "RequestPasswordResetForm": {
+      "requiredError": "Este campo é obrigatório",
+      "invalidError": "Por favor, insira um endereço de email válido",
+      "emailLabel": "Email",
+      "emailPlaceholder": "john.doe@undp.com",
+      "submit": "Solicitar link de redefinição de senha",
+      "submitting": "Solicitando link...",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência.",
+      "successMessage": "<bold>Sucesso!</bold> Se o endereço de e-mail que você inseriu estiver associado a uma conta, você receberá um link para redefinir sua senha em breve."
+    }
+  },
+  "ResetPasswordPage": {
+    "title": "Criar uma nova senha",
+    "cancel": "Cancelar",
+    "ResetPasswordForm": {
+      "requiredError": "Este campo é obrigatório",
+      "invalidError": "A senha deve conter pelo menos 8 caracteres",
+      "mismatchError": "Por favor, certifique-se de que suas senhas correspondam.",
+      "genericError": "Estamos enfrentando problemas técnicos. Por favor, tente novamente. Obrigado pela sua paciência.",
+      "successMessage": "Sua senha foi redefinida com sucesso. Agora você pode <signin>fazer login com sua nova senha.</signin>",
+      "submit": "Criar nova senha",
+      "submitting": "Criando uma nova senha...",
+      "newPasswordLabel": "Nova senha",
+      "newPasswordPlaceholder": "Nova senha",
+      "confirmPasswordLabel": "Confirmar nova senha",
+      "confirmPasswordPlaceholder": "Confirmar nova senha"
+    }
+  },
+  "LessonClientWrapper": {
+    "promptPrefix": "Por favor, forneça mais contexto sobre"
+  },
+  "KgTrigger": {
+    "prompt": "Pergunte à IA de energia: {term}"
+  },
+  "LessonMenuItem": {
+    "expand": "Expandir {chapter}"
+  },
+  "DataModel": {
+    "title": "Modelos interativos de energia sustentável",
+    "targetReached": "Meta atingida",
+    "targetNotReached": "Meta não atingida"
+  }
+}
