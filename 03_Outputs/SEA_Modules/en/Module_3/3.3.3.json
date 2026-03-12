@@ -71,7 +71,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "In the global push for decarbonization, advancing clean technology value chains—from critical mineral extraction to final product manufacturing—offers transformative opportunities for developing countries. Beyond refining raw minerals (e.g., lithium, cobalt), nations can ascend the value chain by localizing production of battery components, solar panels, or electric vehicle (EV) assembly, enhancing both economic resilience and their role in closing the global decarbonization gap.<br /><br />This transition requires policies that incentivize <ai prompt=\"Tell me more about technology transfer.\">technology transfer 💬️</ai>, workforce training, and partnerships with global firms—ensuring developing economies are not just suppliers but innovators and competitors in the clean energy era."
+              "text": "In the global push for decarbonization, advancing clean technology value chains—from critical mineral extraction to final product manufacturing—offers transformative opportunities for developing countries. Beyond refining raw minerals (e.g., lithium, cobalt), nations can ascend the value chain by localizing production of battery components, solar panels, or electric vehicle (EV) assembly, enhancing both economic resilience and their role in closing the global decarbonization gap.<br /><br />This transition requires policies that incentivize <ai prompt=\"Provide more info on technology transfer.\">technology transfer 💬️</ai>, workforce training, and partnerships with global firms—ensuring developing economies are not just suppliers but innovators and competitors in the clean energy era."
             }
           }
         ]
@@ -128,6 +128,23 @@
       }
     },
     {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/7237_11640.webp",
+          "caption": ""
+        },
+        "metadata": {
+          "title": "Lifecycle assessment - from lithium extraction to battery recycling",
+          "subtitle": "",
+          "description": "",
+          "footnote": "Source: BID (2023) Del litio al vehículo eléctrico en América Latina y el Caribe"
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -173,7 +190,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The emerging <ai prompt=\"Provide more info on battery recycling.\">battery recycling 💬️</ai> industry also offers significant potential for LAC, particularly as government support grows. By recycling electronic waste to recover critical materials, the region can improve waste management while reducing socio-environmental impacts. Circular business models will be essential for strengthening the sustainability and resilience of local economies.<br /><br />However, to fully capitalize on the global energy transition, LAC must adopt a holistic approach that enhances production, industries, value chains, and consumption patterns. This requires coordinated action from both the public and private sectors, supported by effective governance and urgent collaboration, particularly in the strategic development of lithium resources within global supply chains."
+              "text": "The emerging <ai prompt=\"Share details about battery recycling.\">battery recycling 💬️</ai> industry also offers significant potential for LAC, particularly as government support grows. By recycling electronic waste to recover critical materials, the region can improve waste management while reducing socio-environmental impacts. Circular business models will be essential for strengthening the sustainability and resilience of local economies.<br /><br />However, to fully capitalize on the global energy transition, LAC must adopt a holistic approach that enhances production, industries, value chains, and consumption patterns. This requires coordinated action from both the public and private sectors, supported by effective governance and urgent collaboration, particularly in the strategic development of lithium resources within global supply chains."
             }
           }
         ]
@@ -302,7 +319,7 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Developing Countries Can Leverage <ai prompt=\"Provide more info on critical minerals.\">critical minerals 💬️</ai> for Higher-Value Economic Activities</strong>"
+              "text": "<strong>Developing Countries Can Leverage <ai prompt=\"Clarify critical minerals.\">critical minerals 💬️</ai> for Higher-Value Economic Activities</strong>"
             }
           },
           {
@@ -352,6 +369,39 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "poll",
+      "color_scheme": "light",
+      "content": {
+        "pollId": "poll-3-3-3",
+        "title": "In efforts to strengthen the renewable energy value chain, which factor most impacts the speed of bringing innovations from development to deployment?",
+        "description": "",
+        "options": [
+          {
+            "id": 1,
+            "value": "Availability of manufacturing facilities and supply chains"
+          },
+          {
+            "id": 2,
+            "value": "Level of public acceptance and community support"
+          },
+          {
+            "id": 3,
+            "value": "Government policies and regulatory frameworks"
+          },
+          {
+            "id": 4,
+            "value": "Access to financing and investment capital"
+          }
+        ],
+        "labels": {
+          "submit": "Submit",
+          "cancel": "Cancel",
+          "edit": "Edit your response",
+          "votingAs": "Voting as"
+        }
       }
     },
     {

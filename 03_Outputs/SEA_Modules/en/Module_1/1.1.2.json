@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Energy powers our world—from homes and hospitals to industries and digital systems. It is the backbone of modern life, essential for delivering critical social services such as healthcare, education, water supply, heating, and cooling. But energy is not just about convenience—it shapes living standards, economic opportunity, public safety, and resilience.<br /><br />Yet <strong>energy access, </strong>the ability to obtain a basic level of electricity and <ai prompt=\"Share details about clean cooking.\">clean cooking 💬️</ai> solutions, <strong>is not enough.</strong> Energy must be reliable, affordable, and adequate in order to realize full gains. <br /><br /><br /> To unlock human potential and drive sustainable development, we need energy systems that are not only available—but reliable, inclusive, and resilient—systems that uphold basic rights, enable access to clean water and sanitation, and strengthen community safety and well-being.<br />"
+              "text": "Energy powers our world—from homes and hospitals to industries and digital systems. It is the backbone of modern life, essential for delivering critical social services such as healthcare, education, water supply, heating, and cooling. But energy is not just about convenience—it shapes living standards, economic opportunity, public safety, and resilience.<br /><br />Yet <strong>energy access, </strong>the ability to obtain a basic level of electricity and <ai prompt=\"Tell me more about clean cooking.\">clean cooking 💬️</ai> solutions, <strong>is not enough.</strong> Energy must be reliable, affordable, and adequate in order to realize full gains. <br /><br /><br /> To unlock human potential and drive sustainable development, we need energy systems that are not only available—but reliable, inclusive, and resilient—systems that uphold basic rights, enable access to clean water and sanitation, and strengthen community safety and well-being.<br />"
             }
           }
         ]
@@ -75,6 +75,23 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/7150_596.webp",
+          "caption": ""
+        },
+        "metadata": {
+          "title": "Energy, HDI, and Environment Interconnected",
+          "subtitle": "",
+          "description": "",
+          "footnote": "Source : UNDP"
+        }
       }
     },
     {
@@ -194,398 +211,6 @@
       }
     },
     {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "metadata": {
-          "title": "Global CO2 emissions from energy combustion and industrial processes and their annual change, 1900-2022",
-          "subtitle": "",
-          "description": "Yevgen's note I would add here a target of Paris Agreement on limiting the emissions, e.g. by adding a net zero point in 2050 Zhong: Apache Example: https://echarts.apache.org/examples/en/editor.html?c=line-simple; https://echarts.apache.org/examples/en/editor.html?c=bar-simple Frederick's Note: Should this plot be created as one Infographic comprised of both the line and bar chart or should two seperate charts be created. If yes, please open a new row for that.",
-          "footnote": "nan"
-        },
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#0468b1",
-            "#4c9f38",
-            "#19486a",
-            "#fd6925",
-            "#fcc30b",
-            "#3f7e44",
-            "#0a97d9",
-            "#fd9d24",
-            "#c5192d",
-            "#dd1367"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              1899,
-              1900,
-              1901,
-              1902,
-              1903,
-              1904,
-              1905,
-              1906,
-              1907,
-              1908,
-              1909,
-              1910,
-              1911,
-              1912,
-              1913,
-              1914,
-              1915,
-              1916,
-              1917,
-              1918,
-              1919,
-              1920,
-              1921,
-              1922,
-              1923,
-              1924,
-              1925,
-              1926,
-              1927,
-              1928,
-              1929,
-              1930,
-              1931,
-              1932,
-              1933,
-              1934,
-              1935,
-              1936,
-              1937,
-              1938,
-              1939,
-              1940,
-              1941,
-              1942,
-              1943,
-              1944,
-              1945,
-              1946,
-              1947,
-              1948,
-              1949,
-              1950,
-              1951,
-              1952,
-              1953,
-              1954,
-              1955,
-              1956,
-              1957,
-              1958,
-              1959,
-              1960,
-              1961,
-              1962,
-              1963,
-              1964,
-              1965,
-              1966,
-              1967,
-              1968,
-              1969,
-              1970,
-              1971,
-              1972,
-              1973,
-              1974,
-              1975,
-              1976,
-              1977,
-              1978,
-              1979,
-              1980,
-              1981,
-              1982,
-              1983,
-              1984,
-              1985,
-              1986,
-              1987,
-              1988,
-              1989,
-              1990,
-              1991,
-              1992,
-              1993,
-              1994,
-              1995,
-              1996,
-              1997,
-              1998,
-              1999,
-              2000,
-              2001,
-              2002,
-              2003,
-              2004,
-              2005,
-              2006,
-              2007,
-              2008,
-              2009,
-              2010,
-              2011,
-              2012,
-              2013,
-              2014,
-              2015,
-              2016,
-              2017,
-              2018,
-              2019,
-              2020,
-              2021,
-              2022
-            ],
-            "name": "Year"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "Total (Gt CO2)"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "..."
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "type": "line",
-              "name": "Total (Gt CO2)",
-              "data": [
-                null,
-                "2",
-                "2",
-                "2.1",
-                "2.3",
-                "2.3",
-                "2.4",
-                "2.6",
-                "2.9",
-                "2.8",
-                "2.9",
-                "3",
-                "3.1",
-                "3.2",
-                "3.5",
-                "3.2",
-                "3.1",
-                "3.4",
-                "3.5",
-                "3.5",
-                "3",
-                "3.5",
-                "3.1",
-                "3.2",
-                "3.7",
-                "3.7",
-                "3.7",
-                "3.6",
-                "4",
-                "3.9",
-                "4.2",
-                "3.9",
-                "3.5",
-                "3.1",
-                "3.3",
-                "3.6",
-                "3.8",
-                "4.1",
-                "4.4",
-                "4.2",
-                "4.4",
-                "4.8",
-                "4.9",
-                "5",
-                "5.1",
-                "5.1",
-                "4.2",
-                "4.6",
-                "5.1",
-                "5.3",
-                "5.1",
-                "5.7",
-                "6.1",
-                "6.2",
-                "6.3",
-                "6.4",
-                "7.1",
-                "7.5",
-                "7.7",
-                "7.9",
-                "8.4",
-                "8.8",
-                "8.9",
-                "9.2",
-                "9.7",
-                "10.2",
-                "10.7",
-                "11.1",
-                "11.4",
-                "12",
-                "12.8",
-                "13.9",
-                "14.1",
-                "14.8",
-                "15.7",
-                "15.6",
-                "15.7",
-                "16.5",
-                "17.1",
-                "17.6",
-                "18.2",
-                "18",
-                "17.7",
-                "17.5",
-                "17.7",
-                "18.2",
-                "18.5",
-                "18.8",
-                "19.5",
-                "20.2",
-                "20.5",
-                "21.3",
-                "21.5",
-                "21.5",
-                "21.6",
-                "21.8",
-                "22.4",
-                "22.8",
-                "23.3",
-                "23.4",
-                "23.6",
-                "24.6",
-                "24.9",
-                "25.3",
-                "26.4",
-                "27.7",
-                "28.7",
-                "29.7",
-                "30.9",
-                "31.1",
-                "30.7",
-                "32.6",
-                "33.6",
-                "34",
-                "34.7",
-                "34.9",
-                "34.7",
-                "34.8",
-                "35.4",
-                "36.3",
-                "36.2",
-                "34.3",
-                "36.5",
-                "36.8"
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -623,6 +248,23 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/7177_230.webp",
+          "caption": ""
+        },
+        "metadata": {
+          "title": "Energy System Losses from Primary to Useful (2019)",
+          "subtitle": "",
+          "description": "",
+          "footnote": "Source : IEA, RMI analysis"
+        }
       }
     },
     {
@@ -665,7 +307,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Even for fossil fuel producers, energy security is not guaranteed. Countries with abundant fossil resources may still suffer from the <strong>“resource curse”</strong>—a pattern where energy wealth fuels corruption, conflict, or inequality rather than inclusive development. Fossil fuel exports can provide short-term economic benefits, but they also expose nations to price volatility. For instance, the price of oil dropped from over $110 per barrel in 2014 to below $30 in 2016, destabilizing budgets in oil-dependent economies like Angola and Iraq (<a href=\"https://blogs.worldbank.org/en/developmenttalk/what-triggered-oil-price-plunge-2014-2016-and-why-it-failed-deliver-economic-impetus-eight-charts\"><u>World Bank</u></a>, 2018). <br /><br /><br />Moreover, <strong>fossil fuel dependency often leads to unequal access to energy benefits.</strong> Wealth generated from extraction does not automatically reach all citizens, and fossil fuel infrastructure tends to be centralized, bypassing remote or <ai prompt=\"Provide more info on marginalized communities.\">marginalized communities 💬️</ai>. As a result, fossil fuels can entrench inequality while failing to deliver secure, affordable energy for all. <br /><br /><br />In short, <strong>fossil fuel dependency poses systemic risks to energy security</strong> because they tie countries to a volatile and unsustainable global system. Building resilience requires rethinking energy systems around diversification, decentralization, and sustainability."
+              "text": "Even for fossil fuel producers, energy security is not guaranteed. Countries with abundant fossil resources may still suffer from the <strong>“resource curse”</strong>—a pattern where energy wealth fuels corruption, conflict, or inequality rather than inclusive development. Fossil fuel exports can provide short-term economic benefits, but they also expose nations to price volatility. For instance, the price of oil dropped from over $110 per barrel in 2014 to below $30 in 2016, destabilizing budgets in oil-dependent economies like Angola and Iraq (<a href=\"https://blogs.worldbank.org/en/developmenttalk/what-triggered-oil-price-plunge-2014-2016-and-why-it-failed-deliver-economic-impetus-eight-charts\"><u>World Bank</u></a>, 2018). <br /><br /><br />Moreover, <strong>fossil fuel dependency often leads to unequal access to energy benefits.</strong> Wealth generated from extraction does not automatically reach all citizens, and fossil fuel infrastructure tends to be centralized, bypassing remote or <ai prompt=\"What is marginalized communities?\">marginalized communities 💬️</ai>. As a result, fossil fuels can entrench inequality while failing to deliver secure, affordable energy for all. <br /><br /><br />In short, <strong>fossil fuel dependency poses systemic risks to energy security</strong> because they tie countries to a volatile and unsustainable global system. Building resilience requires rethinking energy systems around diversification, decentralization, and sustainability."
             }
           }
         ]
@@ -695,272 +337,10 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "While fossil fuel dependence exposes countries to systemic vulnerabilities, rising global energy demand adds another layer of pressure. Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Provide more info on energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />This <strong>surge is driven by a combination of factors: population growth, rapid urbanization, industrial expansion, and the increasing electrification of everything from transport to cooking to digital services. <br /></strong><br />This growing demand is a sign of development progress, but it also risks deepening the world's dependence on volatile fossil energy systems unless the shift to clean, reliable, and decentralized alternatives keeps pace. Without a strategic response, higher energy use could lock countries into insecure and carbon-intensive pathways, undermining both energy access goals and climate ambitions. <br /><br /><strong><em>For a deeper dive into the future of energy and how different scenarios shape demand projections, refer to Module 8. </em></strong>"
+              "text": "While fossil fuel dependence exposes countries to systemic vulnerabilities, rising global energy demand adds another layer of pressure. Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Share details about energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />This <strong>surge is driven by a combination of factors: population growth, rapid urbanization, industrial expansion, and the increasing electrification of everything from transport to cooking to digital services. <br /></strong><br />This growing demand is a sign of development progress, but it also risks deepening the world's dependence on volatile fossil energy systems unless the shift to clean, reliable, and decentralized alternatives keeps pace. Without a strategic response, higher energy use could lock countries into insecure and carbon-intensive pathways, undermining both energy access goals and climate ambitions. <br /><br /><strong><em>For a deeper dive into the future of energy and how different scenarios shape demand projections, refer to Module 8. </em></strong>"
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "half",
-      "content": {
-        "metadata": {
-          "title": "Global energy demand",
-          "subtitle": "",
-          "description": "Zhong: Data points prior to 2000 were manually extracted (estimates). Data points from 2000 to 2050 are from the ExxonMobil Global Outlook (2024): https://corporate.exxonmobil.com/-/media/global/files/global-outlook/2024/global-outlook-data-2024.xlsx Apache Example: https://echarts.apache.org/examples/en/editor.html?c=bar-stack",
-          "footnote": "Source: Smil, Energy Transitions (1900-1960), 2024 ExxonMobil Global Outlook (1970-2050)"
-        },
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#19486a",
-            "#dd1367",
-            "#0a97d9",
-            "#fcc30b",
-            "#fd6925",
-            "#fd9d24",
-            "#c5192d",
-            "#0468b1",
-            "#4c9f38",
-            "#3f7e44"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14,
-              "interval": 0,
-              "rotate": 45
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "1800",
-              "1820",
-              "1840",
-              "1860",
-              "1880",
-              "1900",
-              "1920",
-              "1940",
-              "1950",
-              "1960",
-              "1970",
-              "1980",
-              "1990",
-              "2000",
-              "2010",
-              "2020",
-              "2023",
-              "2025",
-              "2030",
-              "2035",
-              "2040",
-              "2050"
-            ],
-            "name": "Year"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "Quadrillion btu"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "...",
-            "show": false
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "World",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                "15",
-                "18",
-                "22",
-                "28",
-                "36",
-                "50",
-                "70",
-                "110",
-                "130",
-                "180",
-                "260",
-                "340",
-                "390",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null
-              ]
-            },
-            {
-              "name": "OECD",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                "220",
-                "224",
-                "204",
-                "210",
-                "210",
-                "206",
-                "200",
-                "194",
-                "185"
-              ]
-            },
-            {
-              "name": "Non-OECD",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                "185",
-                "288",
-                "348",
-                "376",
-                "390",
-                "419",
-                "438",
-                "450",
-                "478"
-              ]
-            }
-          ],
-          "grid": {
-            "bottom": 150
-          }
-        }
       }
     },
     {

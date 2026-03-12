@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Community-led sustainable energy projects serve as powerful tools for empowering local communities worldwide, exemplifying the transformative potential of grassroots initiatives in shaping a more just energy system. These initiatives not only deploy renewable technologies and enhance <ai prompt=\"Provide more info on energy efficiency.\">energy efficiency 💬️</ai> but also foster social cohesion, economic development, and environmental stewardship. By prioritizing community engagement, these projects go beyond simply generating clean energy; they are about building trust and collaboration within communities while addressing historical societal inequalities in energy systems."
+              "text": "Community-led sustainable energy projects serve as powerful tools for empowering local communities worldwide, exemplifying the transformative potential of grassroots initiatives in shaping a more just energy system. These initiatives not only deploy renewable technologies and enhance <ai prompt=\"What is energy efficiency?\">energy efficiency 💬️</ai> but also foster social cohesion, economic development, and environmental stewardship. By prioritizing community engagement, these projects go beyond simply generating clean energy; they are about building trust and collaboration within communities while addressing historical societal inequalities in energy systems."
             }
           }
         ]
@@ -325,6 +325,39 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "poll",
+      "color_scheme": "light",
+      "content": {
+        "pollId": "poll-3-4-2",
+        "title": "Which metric would you track to evaluate the success of a community-led sustainable energy project?",
+        "description": "",
+        "options": [
+          {
+            "id": 1,
+            "value": "Percentage of community members actively participating in project planning"
+          },
+          {
+            "id": 2,
+            "value": "Amount of renewable energy generated per month"
+          },
+          {
+            "id": 3,
+            "value": "Number of local jobs created through project development"
+          },
+          {
+            "id": 4,
+            "value": "Level of community satisfaction measured via surveys"
+          }
+        ],
+        "labels": {
+          "submit": "Submit",
+          "cancel": "Cancel",
+          "edit": "Edit your response",
+          "votingAs": "Voting as"
+        }
       }
     },
     {

@@ -135,7 +135,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The Green Economic Development Project developed by the UNDP in Bosnia Herzegovina led to saving 700,000 USD annually, reducing emissions by 2.2 tons of CO2 annually and creating jobs for 664 people / month (SDG 8) (Box 15), contributing to sustainable cities, climate, education and energy goals. <ai prompt=\"Explain nature-based solutions.\">nature-based solutions 💬️</ai> are gaining traction, counteracting heat waves and high temperatures in urban settings. By incorporating elements like blue infrastructure and green roofs, these approaches reduce per capita energy consumption and enhance urban microclimates (SDG 11) (WB, 2023)."
+              "text": "The Green Economic Development Project developed by the UNDP in Bosnia Herzegovina led to saving 700,000 USD annually, reducing emissions by 2.2 tons of CO2 annually and creating jobs for 664 people / month (SDG 8) (Box 15), contributing to sustainable cities, climate, education and energy goals. <ai prompt=\"Tell me more about nature-based solutions.\">nature-based solutions 💬️</ai> are gaining traction, counteracting heat waves and high temperatures in urban settings. By incorporating elements like blue infrastructure and green roofs, these approaches reduce per capita energy consumption and enhance urban microclimates (SDG 11) (WB, 2023)."
             }
           }
         ]
@@ -221,7 +221,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The UNDP's project in Sri Lanka, spanning 2019 to 2023, targets sustainable energy use in the Agro-Industry to cut emissions and boost savings. Focused on <ai prompt=\"What is solar energy?\">solar energy 💬️</ai> and biogas, the project exemplifies a South-South cooperation led by China. It aims to build capacity, transfer technology, and apply biogas solutions, including converting slurry into organic fertilizer. By showcasing energy-efficient applications, waste management, and productivity gains, the project benefits from China's expertise, fostering capacity development in partner countries (source: UNDP)."
+              "text": "The UNDP's project in Sri Lanka, spanning 2019 to 2023, targets sustainable energy use in the Agro-Industry to cut emissions and boost savings. Focused on <ai prompt=\"Tell me more about solar energy.\">solar energy 💬️</ai> and biogas, the project exemplifies a South-South cooperation led by China. It aims to build capacity, transfer technology, and apply biogas solutions, including converting slurry into organic fertilizer. By showcasing energy-efficient applications, waste management, and productivity gains, the project benefits from China's expertise, fostering capacity development in partner countries (source: UNDP)."
             }
           }
         ]
@@ -257,6 +257,39 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "poll",
+      "color_scheme": "light",
+      "content": {
+        "pollId": "poll-1-2-3",
+        "title": "When planning energy efficiency improvements, which trade-off would you accept first: reducing costs, increasing implementation speed, ensuring social equity, or maintaining long-term reliability?",
+        "description": "",
+        "options": [
+          {
+            "id": 1,
+            "value": "Minimizing costs to maximize affordability for low-income households"
+          },
+          {
+            "id": 2,
+            "value": "Accelerating deployment to meet urgent climate targets"
+          },
+          {
+            "id": 3,
+            "value": "Prioritizing social inclusion to achieve equitable access"
+          },
+          {
+            "id": 4,
+            "value": "Ensuring system reliability for consistent energy supply"
+          }
+        ],
+        "labels": {
+          "submit": "Submit",
+          "cancel": "Cancel",
+          "edit": "Edit your response",
+          "votingAs": "Voting as"
+        }
       }
     },
     {

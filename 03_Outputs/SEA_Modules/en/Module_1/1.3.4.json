@@ -135,7 +135,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Over 50% of the region’s population lives in urban areas. This trend is accelerating rapidly, at a rate higher than the global average.<strong> By 2050, an estimated 2.9 billion people in the region are expected to live in urban areas.</strong> <br /><br />Rapid urbanization demands a strong focus on sustainable development. Local governments must plan for efficient land use, reduce embodied carbon in construction, and develop infrastructure for transport. <strong>All of these goals will require energy, and it is imperative the solutions brought forward focus on renewables and <ai prompt=\"Clarify circular economy.\">circular economy 💬️</ai>.</strong>"
+              "text": "Over 50% of the region’s population lives in urban areas. This trend is accelerating rapidly, at a rate higher than the global average.<strong> By 2050, an estimated 2.9 billion people in the region are expected to live in urban areas.</strong> <br /><br />Rapid urbanization demands a strong focus on sustainable development. Local governments must plan for efficient land use, reduce embodied carbon in construction, and develop infrastructure for transport. <strong>All of these goals will require energy, and it is imperative the solutions brought forward focus on renewables and <ai prompt=\"Tell me more about circular economy.\">circular economy 💬️</ai>.</strong>"
             }
           }
         ]
@@ -181,7 +181,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Access to clean cooking improved from 51% in 2010 to 74% in 2021. <strong>Yet there are still access gaps for around 1.2 billion people, especially in rural areas and <ai prompt=\"Share details about small island developing states.\">small island developing states 💬️</ai>. </strong>Challenges to greater clean cooking adoption include: technology, affordability, investment and cultural preferences. <br /><br />Clean cooking significantly benefits health by reducing indoor air pollution, mainly affecting women and children. It also lessens women’s time poverty by easing firewood collection and improving cooking efficiency. <br /><br /><strong>To advance clean cooking, integrating social policies into regional energy plans is vital.</strong> Affordability can be boosted through targeted subsidies and micro-finance, with cleaner fuels like LPG offering practical rural solutions. Programs in India, Indonesia, and Bhutan are driving transitions from traditional to cleaner cooking methods, including India’s LPG subsidies specifically targeting female-headed households and promoting women’s financial inclusion."
+              "text": "Access to clean cooking improved from 51% in 2010 to 74% in 2021. <strong>Yet there are still access gaps for around 1.2 billion people, especially in rural areas and <ai prompt=\"Provide more info on small island developing states.\">small island developing states 💬️</ai>. </strong>Challenges to greater clean cooking adoption include: technology, affordability, investment and cultural preferences. <br /><br />Clean cooking significantly benefits health by reducing indoor air pollution, mainly affecting women and children. It also lessens women’s time poverty by easing firewood collection and improving cooking efficiency. <br /><br /><strong>To advance clean cooking, integrating social policies into regional energy plans is vital.</strong> Affordability can be boosted through targeted subsidies and micro-finance, with cleaner fuels like LPG offering practical rural solutions. Programs in India, Indonesia, and Bhutan are driving transitions from traditional to cleaner cooking methods, including India’s LPG subsidies specifically targeting female-headed households and promoting women’s financial inclusion."
             }
           }
         ]
@@ -205,544 +205,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "metadata": {
-          "title": "Evolution of electricity generation sources in Asia Pacific since 2000",
-          "subtitle": "",
-          "description": "nan",
-          "footnote": "nan"
-        },
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#19486a",
-            "#dd1367",
-            "#3f7e44",
-            "#fd6925",
-            "#c5192d",
-            "#0a97d9",
-            "#fcc30b",
-            "#fd9d24",
-            "#4c9f38",
-            "#0468b1"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              2000,
-              2001,
-              2002,
-              2003,
-              2004,
-              2005,
-              2006,
-              2007,
-              2008,
-              2009,
-              2010,
-              2011,
-              2012,
-              2013,
-              2014,
-              2015,
-              2016,
-              2017,
-              2018,
-              2019,
-              2020,
-              2021,
-              2022
-            ],
-            "name": "Year"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "GWh"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "..."
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "type": "line",
-              "name": "Coal",
-              "data": [
-                2157792,
-                2305146,
-                2505068,
-                2800756,
-                3060179,
-                3371159,
-                3749488,
-                4181652,
-                4295550,
-                4539982,
-                4963429,
-                5515742,
-                5731382,
-                6119469,
-                6390590,
-                6377618,
-                6599107,
-                7042216,
-                7337923,
-                7474416,
-                7379388,
-                7960362,
-                8242725
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Oil",
-              "data": [
-                382522,
-                342637,
-                359691,
-                349043,
-                354969,
-                352312,
-                318850,
-                348691,
-                314579,
-                254763,
-                266068,
-                323629,
-                342142,
-                306388,
-                261204,
-                231777,
-                220794,
-                193479,
-                151665,
-                128947,
-                116696,
-                145741,
-                159208
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Natural gas",
-              "data": [
-                592007,
-                621191,
-                682361,
-                739401,
-                781064,
-                785184,
-                844920,
-                911412,
-                926114,
-                1004379,
-                1125340,
-                1235771,
-                1256822,
-                1310778,
-                1343541,
-                1375072,
-                1440138,
-                1440588,
-                1482136,
-                1475706,
-                1497128,
-                1519448,
-                1477103
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Nuclear",
-              "data": [
-                505153,
-                506715,
-                500007,
-                471459,
-                522922,
-                564401,
-                567978,
-                529472,
-                534851,
-                560756,
-                582021,
-                422501,
-                341501,
-                340656,
-                373239,
-                423477,
-                469917,
-                500079,
-                568193,
-                647654,
-                649005,
-                730417,
-                746429
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Hydro",
-              "data": [
-                537308,
-                594549,
-                598674,
-                626247,
-                706097,
-                752937,
-                827703,
-                872637,
-                964423,
-                993255,
-                1134129,
-                1149623,
-                1311165,
-                1399994,
-                1554841,
-                1596723,
-                1675364,
-                1727902,
-                1779015,
-                1852238,
-                1907228,
-                1920103,
-                1980115
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Tide",
-              "data": [
-                7,
-                7,
-                7,
-                7,
-                7,
-                7,
-                7,
-                7,
-                7,
-                7,
-                7,
-                7,
-                7,
-                492,
-                500,
-                504,
-                507,
-                500,
-                499,
-                489,
-                473,
-                470,
-                441
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Biofuels",
-              "data": [
-                14682,
-                14654,
-                15800,
-                17209,
-                20391,
-                30390,
-                35341,
-                41088,
-                46111,
-                53977,
-                60117,
-                66244,
-                71604,
-                83368,
-                97990,
-                107988,
-                139067,
-                160920,
-                186368,
-                213069,
-                240906,
-                284593,
-                316400
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Waste",
-              "data": [
-                2107,
-                3075,
-                3537,
-                4126,
-                4518,
-                4653,
-                4946,
-                5314,
-                7976,
-                10743,
-                25611,
-                28987,
-                30054,
-                31794,
-                32647,
-                30830,
-                36886,
-                39734,
-                40192,
-                36605,
-                37083,
-                37121,
-                42632
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Wind",
-              "data": [
-                2613,
-                3625,
-                4537,
-                6368,
-                8283,
-                11747,
-                18733,
-                24579,
-                36976,
-                56224,
-                77067,
-                110274,
-                142842,
-                193535,
-                218547,
-                245691,
-                312612,
-                382515,
-                467888,
-                518842,
-                580410,
-                788068,
-                912725
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Solar PV",
-              "data": [
-                432,
-                641,
-                765,
-                1006,
-                1295,
-                1626,
-                1971,
-                2304,
-                2831,
-                3755,
-                5597,
-                11520,
-                19627,
-                39366,
-                61379,
-                98087,
-                149637,
-                223857,
-                310140,
-                392296,
-                468175,
-                588696,
-                742409
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Solar thermal",
-              "data": [
-                null,
-                null,
-                null,
-                "1",
-                "1",
-                "1",
-                "1",
-                "4",
-                "4",
-                "4",
-                "5",
-                "9",
-                "12",
-                "29",
-                "38",
-                "33",
-                "46",
-                "72",
-                "430",
-                "1165",
-                "1754",
-                "2009",
-                "2074"
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Geothermal",
-              "data": [
-                22875,
-                22853,
-                22778,
-                22461,
-                23211,
-                23140,
-                23927,
-                24375,
-                26553,
-                27919,
-                28360,
-                28775,
-                29275,
-                29006,
-                31141,
-                32449,
-                32976,
-                34284,
-                35790,
-                36518,
-                38214,
-                38001,
-                39227
-              ]
-            },
-            {
-              "type": "line",
-              "name": "Other sources",
-              "data": [
-                20067,
-                20189,
-                20293,
-                21174,
-                20445,
-                20836,
-                21414,
-                21502,
-                19467,
-                19773,
-                21263,
-                21486,
-                21422,
-                22674,
-                22332,
-                22178,
-                22010,
-                22276,
-                20901,
-                21212,
-                20533,
-                22590,
-                19972
-              ]
-            }
-          ]
-        }
       }
     },
     {
@@ -840,7 +302,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Circular economy principles can reduce <ai prompt=\"Explain critical minerals.\">critical minerals 💬️</ai> dependency</strong>"
+              "text": "<strong>Circular economy principles can reduce <ai prompt=\"Provide more info on critical minerals.\">critical minerals 💬️</ai> dependency</strong>"
             }
           },
           {
@@ -860,7 +322,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>China can assist in <ai prompt=\"Share details about technology transfer.\">technology transfer 💬️</ai>, knowledge-sharing through regional cooperation schemes</strong>"
+              "text": "<strong>China can assist in <ai prompt=\"Clarify technology transfer.\">technology transfer 💬️</ai>, knowledge-sharing through regional cooperation schemes</strong>"
             }
           },
           {
@@ -906,7 +368,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "The growing importance of sustained access to critical raw materials—key for the energy transition—is becoming a priority on national economic agendas. <strong>As the demand for greener energy technologies accelerates, it affects the entire mining and raw materials value chain across all sectors.</strong> UNDP’s existing work on sustainable mining positions it well to address these challenges. Once the UN’s official framework on Critical Energy Transition Minerals is released, it will guide solutions to supply chain issues, governance, <ai prompt=\"Provide more info on social protection.\">social protection 💬️</ai>, and gender equality, emphasizing human rights approaches. <strong>Potential solutions include promoting sustainable practices by redefining the value of natural resources and ecosystems, encouraging mining industries to minimize environmental harm, and restoring ecosystems after extraction.</strong> Additionally, UNDP’s Nature Pledge aims to redirect investments toward sustainable, resilient energy projects, including research and development in sustainable mining and energy-efficient technologies, supported by various incentives."
+              "text": "The growing importance of sustained access to critical raw materials—key for the energy transition—is becoming a priority on national economic agendas. <strong>As the demand for greener energy technologies accelerates, it affects the entire mining and raw materials value chain across all sectors.</strong> UNDP’s existing work on sustainable mining positions it well to address these challenges. Once the UN’s official framework on Critical Energy Transition Minerals is released, it will guide solutions to supply chain issues, governance, <ai prompt=\"Explain social protection.\">social protection 💬️</ai>, and gender equality, emphasizing human rights approaches. <strong>Potential solutions include promoting sustainable practices by redefining the value of natural resources and ecosystems, encouraging mining industries to minimize environmental harm, and restoring ecosystems after extraction.</strong> Additionally, UNDP’s Nature Pledge aims to redirect investments toward sustainable, resilient energy projects, including research and development in sustainable mining and energy-efficient technologies, supported by various incentives."
             }
           }
         ]
@@ -926,10 +388,43 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Significant investments with a focus on mobilizing private finance are required to fund clean energy in Asia and the Pacific. <strong>Investments in renewable energy are still mainly focused on low-risk areas, with East Asia and the Pacific receiving the highest share of investment.</strong> In 2019-2020, this region attracted about 45% of the total investment. <strong>However, China accounted for over four-fifths of the investment in this region, driven by its government’s ambitious targets of reaching peak emissions by 2030 and achieving <ai prompt=\"Explain carbon neutrality.\">carbon neutrality 💬️</ai> by 2060</strong>. The regional landscape for energy investments has changed significantly from traditional dependence on multilateral and bilateral assistance to more market-based financing solutions. Indeed, over 80% of the countries are now considered middle-income. <strong>This necessitates a greater reliance on market-based financing measures and a particular role for the private sector to mobilize investments and take a lead in energy infrastructure deployments</strong>, often against challenging post-COVID domestic and international financial market conditions."
+              "text": "Significant investments with a focus on mobilizing private finance are required to fund clean energy in Asia and the Pacific. <strong>Investments in renewable energy are still mainly focused on low-risk areas, with East Asia and the Pacific receiving the highest share of investment.</strong> In 2019-2020, this region attracted about 45% of the total investment. <strong>However, China accounted for over four-fifths of the investment in this region, driven by its government’s ambitious targets of reaching peak emissions by 2030 and achieving <ai prompt=\"What is carbon neutrality?\">carbon neutrality 💬️</ai> by 2060</strong>. The regional landscape for energy investments has changed significantly from traditional dependence on multilateral and bilateral assistance to more market-based financing solutions. Indeed, over 80% of the countries are now considered middle-income. <strong>This necessitates a greater reliance on market-based financing measures and a particular role for the private sector to mobilize investments and take a lead in energy infrastructure deployments</strong>, often against challenging post-COVID domestic and international financial market conditions."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "poll",
+      "color_scheme": "light",
+      "content": {
+        "pollId": "poll-1-3-4",
+        "title": "What is a primary factor influencing the development of sustainable energy projects across Asia and the Pacific?",
+        "description": "",
+        "options": [
+          {
+            "id": 1,
+            "value": "Availability of renewable resources in the region"
+          },
+          {
+            "id": 2,
+            "value": "Level of technological innovation in energy storage"
+          },
+          {
+            "id": 3,
+            "value": "Public acceptance and community support"
+          },
+          {
+            "id": 4,
+            "value": "Regional government policies and incentives"
+          }
+        ],
+        "labels": {
+          "submit": "Submit",
+          "cancel": "Cancel",
+          "edit": "Edit your response",
+          "votingAs": "Voting as"
+        }
       }
     },
     {
