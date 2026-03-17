@@ -1,6 +1,80 @@
 {
   "id": "8.1.3",
   "segments": [
+
+{
+  "template_id": "geohub_map",
+  "color_scheme": "dark", 
+  "size": "half", 
+  "content": {
+    "metadata": {
+      "title": "Map Title",
+      "description": "A brief description of the map and its significance.",
+      "footnote": "Additional information or context about the map.",
+      "sourceInfo": "Additional source information"
+    },
+    "config": {
+      "mapLegend": "Legend description for the map.",
+      "mapStyle": "https://geohub.data.undp.org/api/datasets/ecf04ffe41daa37ae57b756256bb5342"
+    }
+  }
+},
+{
+  "template_id": "geohub_map",
+  "color_scheme": "dark", 
+  "size": "half", 
+  "content": {
+    "metadata": {
+      "title": "Map Title",
+      "description": "A brief description of the map and its significance.",
+      "footnote": "Additional information or context about the map.",
+      "sourceInfo": "Additional source information"
+    },
+    "config": {
+      "mapLegend": "Legend description for the map.",
+      "mapStyle": "https://undpgeohub.blob.core.windows.net/userdata/774e34ec0d1d7546f5ca9347cc46253b/datasets/aqueduct_globa_FeaturesToJSO_20251204180219.geojson/aqueduct_globa_FeaturesToJSO_20251204180219.pmtiles?sv=2026-02-06&ss=b&srt=o&se=2027-03-17T19%3A30%3A45Z&sp=r&sig=uk57kNe%2FFj%2Bx5OgCCGLYa8X8wkYQOJcwwUZbmub1qUc%3D"
+    }
+  }
+},
+{
+  "template_id": "geohub_map",
+  "color_scheme": "dark", 
+  "size": "half", 
+  "content": {
+    "metadata": {
+      "title": "Map Title",
+      "description": "A brief description of the map and its significance.",
+      "footnote": "Additional information or context about the map.",
+      "sourceInfo": "Additional source information"
+    },
+    "config": {
+      "mapLegend": "Legend description for the map.",
+      "mapStyle": "https://geohub.data.undp.org/api/datasets/ecf04ffe41daa37ae57b756256bb5342/preview/style.json"
+    }
+  }
+},
+{
+  "template_id": "geohub_compare_maps",
+  "color_scheme": "light", 
+  "size": "full", 
+  "content": {
+    "metadata": {
+      "title": "Map Title",
+      "description": "A brief description of the map and its significance.",
+      "footnote": "Additional information or context about the map.",
+      "sourceInfo": "Additional source information"
+    },
+    "config": {
+      "mapStyles": [
+        "https://geohub.data.undp.org/api/datasets/ecf04ffe41daa37ae57b756256bb5342/preview/style.json",
+        "https://geohub.data.undp.org/api/datasets/93116530a0b62e27013e214201f9dc0a/preview/style.json"
+      ],
+      "center": [0, 0],
+      "zoomLevel": 1
+    }
+  }
+},
+
     {
   "template_id": "image_hotspot",
   "color_scheme": "light",
