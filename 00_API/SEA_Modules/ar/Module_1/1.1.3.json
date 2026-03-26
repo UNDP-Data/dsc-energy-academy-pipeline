@@ -39,6 +39,15 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.3-ar.mp4",
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.3-ar.webp"
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -178,6 +187,16 @@
       }
     },
     {
+      "template_id": "photo_vertical",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/583_162.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
@@ -214,6 +233,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "حصة المصادر المتجددة في استهلاك الطاقة النهائي وباستخدام النهاية، 2015 و2021 (نسبة مئوية)",
+          "subtitle": "",
+          "description": "زونغ: مثال أباتشي: https://echarts.apache.org/examples/en/editor.html?c=bar-y-category-stack ملاحظة فريدريك: تم تغيير مخطط الشريط المكدس المجمع إلى مخطط الشريط المجمع في مجموعة البيانات",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -251,16 +276,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#fd6925",
             "#c5192d",
             "#4c9f38",
-            "#fcc30b",
-            "#19486a",
             "#0468b1",
             "#0a97d9",
-            "#fd6925",
-            "#dd1367",
             "#fd9d24",
-            "#3f7e44"
+            "#19486a",
+            "#3f7e44",
+            "#fcc30b",
+            "#dd1367"
           ],
           "xAxis": {
             "axisLine": {
@@ -365,47 +390,7 @@
                 23.5
               ]
             }
-          ],
-          "title": {
-            "text": "حصة المصادر المتجددة في استهلاك الطاقة النهائي وباستخدام النهاية، 2015 و2021 (نسبة مئوية)",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -428,6 +413,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "القدرة المركبة لتوليد الكهرباء المتجددة، 2015 و2022 (وات لكل شخص)",
+          "subtitle": "",
+          "description": "Zhong : مثال أباتشي : https://echarts.apache.org/examples/en/editor.html?c=bar-y-category",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -467,13 +458,13 @@
           "color": [
             "#0a97d9",
             "#fd9d24",
-            "#4c9f38",
-            "#dd1367",
             "#3f7e44",
-            "#fd6925",
             "#c5192d",
+            "#fd6925",
+            "#dd1367",
             "#19486a",
             "#0468b1",
+            "#4c9f38",
             "#fcc30b"
           ],
           "xAxis": {
@@ -585,47 +576,7 @@
                 424
               ]
             }
-          ],
-          "title": {
-            "text": "القدرة المركبة لتوليد الكهرباء المتجددة، 2015 و2022 (وات لكل شخص)",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -716,7 +667,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "التالي",

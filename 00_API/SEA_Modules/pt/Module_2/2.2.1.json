@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceitos-chave",
+        "intro": "Explore ideias fundamentais desta lição.",
+        "concepts": [
+          {
+            "title": "acesso à energia para assentamentos informais",
+            "body": "O acesso à energia para assentamentos informais refere-se à disponibilidade e acessibilidade de serviços energéticos confiáveis, como eletricidade e combustíveis de cozinha limpos, para os residentes que vivem em áreas de habitação não planejadas ou informais, garantindo que possam atender às suas necessidades energéticas básicas e melhorar sua qualidade de vida.",
+            "source": ""
+          },
+          {
+            "title": "energia em cenários de crise",
+            "body": "Energia em situações de crise refere-se à provisão e gestão de recursos energéticos em áreas afetadas por emergências, como desastres naturais, conflitos armados ou crises humanitárias, onde o acesso a uma energia confiável é fundamental para a sobrevivência, recuperação e esforços de reconstrução.",
+            "source": ""
+          },
+          {
+            "title": "gap de energia global",
+            "body": "A lacuna de energia global refere-se à disparidade entre a demanda mundial de energia e o fornecimento de energia disponível, destacando a necessidade de aumentar a produção de energia e soluções sustentáveis para atender às futuras necessidades energéticas.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -72,7 +97,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/654_2280.webp",
@@ -99,6 +124,24 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_0"
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_1"
       }
     },
     {
@@ -129,7 +172,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2781.webp",
@@ -155,6 +198,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_2"
       }
     },
     {
@@ -185,7 +237,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2815.webp",
@@ -201,7 +253,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Enquanto algumas regiões estão avançando rapidamente em direção ao acesso universal à energia, outras estão ficando para trás. Esta seção destaca áreas onde a maioria das pessoas ainda não tem acesso a serviços de energia básicos, especialmente na África Subsaariana e em estados frágeis. Algumas dessas regiões enfrentam obstáculos persistentes, como instabilidade política, falta de acesso a financiamento e instituições fracas."
+              "text": "Enquanto algumas regiões estão avançando rapidamente em direção ao acesso universal à energia, outras estão ficando para trás. Esta seção destaca áreas onde a maioria das pessoas ainda não tem acesso a serviços de energia básicos, especialmente na África Subsaariana e em estados frágeis. Algumas dessas regiões enfrentam barreiras persistentes, como instabilidade política, falta de acesso ao financiamento e instituições fracas."
             }
           },
           {
@@ -239,6 +291,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Aumentos anuais na eletrificação e na população, por região, 2020-22",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "Source: World Bank, 2024"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -276,16 +334,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0a97d9",
-            "#3f7e44",
-            "#19486a",
-            "#c5192d",
-            "#fd9d24",
-            "#fd6925",
-            "#4c9f38",
-            "#0468b1",
             "#dd1367",
-            "#fcc30b"
+            "#fcc30b",
+            "#fd6925",
+            "#0468b1",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#3f7e44",
+            "#c5192d",
+            "#4c9f38"
           ],
           "xAxis": {
             "axisLine": {
@@ -401,44 +459,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Aumentos anuais na eletrificação e na população, por região, 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -451,7 +472,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<br />Embora a África Subsaariana represente a grande maioria do déficit global de acesso à eletricidade, desafios persistem em outras regiões também — particularmente em partes da Ásia e Oceania. <br /><br />Em <strong>Myanmar</strong>, cerca de 24% da população não tinha acesso à eletricidade em 2023, com a eletrificação rural ficando significativamente atrás das áreas urbanas devido a conflitos e tumultos políticos (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=MM\"><u>Banco Mundial</u></a>, 2023). Em <strong>Papua Nova Guiné</strong>, a taxa de acesso permanece entre as mais baixas fora da África, com apenas 20% da população conectada à eletricidade (<a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2025-0620-v6-highres.pdf\"><u>IEA</u></a>, 2025). [needs translation] Similarly, in <strong>Haiti,</strong> only 51% of people had access to electricity in 2023, with significant reliability issues and frequent blackouts compounding the problem (<a href=\"https://tradingeconomics.com/haiti/access-to-electricity-percent-of-population-wb-data.html\"><u>World Bank</u></a>, 2025).<br />In Central Asia, although electrification rates are generally high, <strong>remote populations often suffer from low-quality or intermittent service</strong> that is not captured in headline access statistics.<br /><br /><br /><br />While global electricity access has improved over the past two decades, stark disparities persist, particularly in Sub-Saharan Africa. O rápido crescimento populacional, instituições inadequadas, restrições financeiras e barreiras geográficas continuam a desacelerar o progresso nessas regiões.<br /><br />Esta lição mostrou que a <strong>divisão energética global não é uma única lacuna, mas um desafio em camadas e em evolução que abrange regiões, níveis de renda e contextos de vulnerabilidade.</strong> Alcançar o acesso universal à energia exigirá estratégias específicas e detalhadas para cada região que vão além das conexões para abordar acessibilidade, confiabilidade e resiliência a longo prazo."
+              "text": "<br />Embora a África Subsaariana represente a grande maioria do déficit global de acesso à eletricidade, desafios persistem em outras regiões também — particularmente em partes da Ásia e Oceania. <br /><br />Em <strong>Myanmar</strong>, cerca de 24% da população não tinha acesso à eletricidade em 2023, com a eletrificação rural ficando significativamente atrás das áreas urbanas devido a conflitos e tumultos políticos (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=MM\"><u>Banco Mundial</u></a>, 2023). Em <strong>Papua Nova Guiné</strong>, a taxa de acesso permanece entre as mais baixas fora da África, com apenas 20% da população conectada à eletricidade (<a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2025-0620-v6-highres.pdf\"><u>IEA</u></a>, 2025). De forma semelhante, em <strong>Haiti,</strong> apenas 51% das pessoas tinham acesso à eletricidade em 2023, com problemas de confiabilidade significativos e apagões frequentes agravando o problema (<a href=\"https://tradingeconomics.com/haiti/access-to-electricity-percent-of-population-wb-data.html\"><u>Banco Mundial</u></a>, 2025).<br />Na Ásia Central, embora as taxas de eletrificação sejam geralmente altas, <strong>as populações remotas frequentemente sofrem de serviços de baixa qualidade ou intermitentes</strong> que não são capturados nas estatísticas principais de acesso.<br /><br /><br /><br />Embora o acesso global à eletricidade tenha melhorado nas últimas duas décadas, disparidades acentuadas persistem, especialmente na África Subsaariana. O rápido crescimento populacional, instituições inadequadas, restrições financeiras e barreiras geográficas continuam a desacelerar o progresso nessas regiões.<br /><br />Esta lição mostrou que a <strong>divisão energética global não é uma única lacuna, mas um desafio em camadas e em evolução que abrange regiões, níveis de renda e contextos de vulnerabilidade.</strong> Alcançar o acesso universal à energia exigirá estratégias específicas e detalhadas para cada região que vão além das conexões para abordar acessibilidade, confiabilidade e resiliência a longo prazo."
             }
           }
         ]
@@ -459,7 +480,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2754.webp",
@@ -502,15 +523,51 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos-chave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2211.webp",
+              "caption": ""
+            },
+            "href": "UNDP",
+            "text": "Relatório de Desenvolvimento Humano 2023-24. Quebrando o impasse: Reimaginando a cooperação em um mundo polarizado",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2212.webp",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Estados insulares em desenvolvimento em uma encruzilhada: rumo ao acesso equitativo à energia nos países com menor eletrificação",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2213.webp",
+              "caption": ""
+            },
+            "href": "World Bank Group",
+            "text": "Deixando ninguém para trás - Repensando os programas de acesso à energia em contextos de deslocamento",
+            "cta": "Clique para baixar"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.webp",
           "caption": ""
         },
         "intro": "Próximo",
-        "title": "Lição 2: Status e Tendências",
+        "title": "Lição 2: Camadas de desigualdade no acesso à energia",
         "cta": "Continue aprendendo",
         "nextLessonId": "2.2.2"
       }

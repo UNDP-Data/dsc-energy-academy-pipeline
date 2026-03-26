@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые концепции",
+        "intro": "Изучите основные идеи этого урока.",
+        "concepts": [
+          {
+            "title": "национально определённые взносы",
+            "body": "Национально определённые вклады (NDCs) — это планы действий по климату, которые страны представляют, чтобы обозначить свои обязательства по сокращению выбросов парниковых газов и адаптации к изменению климата, в рамках Парижского соглашения.",
+            "source": ""
+          },
+          {
+            "title": "устойчивая энергия & возобновляемая энергия",
+            "body": "Устойчивая энергия относится к источникам энергии, которые экологически безопасны и могут поддерживаться в течение долгого времени без истощения ресурсов или вреда экосистеме. Возобновляемая энергия — это подмножество устойчивой энергии, которая исходит из природных процессов, постоянно восполняющихся, таких как <strong>солнечная энергия</strong>, <strong>ветровая энергия</strong> и <strong>гидроэнергия</strong>.",
+            "source": ""
+          },
+          {
+            "title": "справедливый энергетический переход",
+            "body": "Справедливый энергетический переход означает переход от ископаемого топлива к возобновляемым источникам энергии таким образом, чтобы это было справедливо и равноправно, обеспечивая, чтобы все сообщества, особенно те, которые исторически находились в маргинализированном положении, получали выгоду от перехода и не остались позади.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -50,18 +75,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_49.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -88,6 +101,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "M1_C1_6"
       }
     },
     {
@@ -176,6 +198,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Глобальные выбросы CO2 от сжигания энергии и промышленных процессов и их ежегодные изменения, 1900-2022",
+          "subtitle": "",
+          "description": "Заметка Евгена: я бы добавил здесь цель Парижского соглашения по ограничению выбросов, например добавляя точку нулевого баланса в 2050 году Zhong: Apache Пример: https://echarts.apache.org/examples/en/editor.html?c=line-simple; https://echarts.apache.org/examples/en/editor.html?c=bar-simple Примечание Фредерика: следует ли создавать этот график как один инфографический материал, состоящий из линейного и столбчатого графиков, или следует создать два отдельных графика. Если да, пожалуйста, откройте новую строку для этого.",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -213,16 +241,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#0468b1",
+            "#4c9f38",
+            "#19486a",
             "#fd6925",
             "#fcc30b",
-            "#c5192d",
-            "#dd1367",
-            "#19486a",
-            "#4c9f38",
-            "#0a97d9",
             "#3f7e44",
-            "#0468b1",
-            "#fd9d24"
+            "#0a97d9",
+            "#fd9d24",
+            "#c5192d",
+            "#dd1367"
           ],
           "xAxis": {
             "axisLine": {
@@ -553,47 +581,7 @@
                 "36.8"
               ]
             }
-          ],
-          "title": {
-            "text": "Глобальные выбросы CO2 от сжигания энергии и промышленных процессов и их ежегодные изменения, 1900-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -635,18 +623,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_133.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -697,7 +673,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4185_584.webp",
@@ -719,7 +695,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "В то время как зависимость от ископаемого топлива подвергает страны системным уязвимостям, растущий мировой спрос на энергию добавляет еще один уровень давления. [needs translation] Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Share details about energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />Этот <strong>рост обусловлен сочетанием факторов: ростом населения, быстрым урбанизацией, промышленным расширением и увеличением электрификации всего — от транспорта до приготовления пищи и цифровых услуг. <br /></strong><br />Этот растущий спрос является признаком прогресса в развитии, но он также рискует усугубить зависимость мира от нестабильных систем ископаемого топлива, если переход к чистым, надежным и децентрализованным альтернативам не будет идти в ногу. Без стратегического ответа повышенное использование энергии может закрепить страны на опасных и углеродноемких путях, подрывая как цели энергетического доступа, так и климатические амбиции. <br /><br /><strong><em>Для более глубокого погружения в будущее энергетики и того, как различные сценарии формируют прогнозы спроса, обратитесь к Модулю 8.</em></strong></br></br> </strong>"
+              "text": "В то время как зависимость от ископаемого топлива подвергает страны системным уязвимостям, растущий мировой спрос на энергию добавляет еще один уровень давления. Хотя прогнозы будущего спроса на энергию варьируются в различных моделях и сценариях, одна тенденция ясна: <strong>без значительных достижений в <ai prompt=\"Предоставьте больше информации об энергоэффективности.\">энергетической эффективности 💬️</ai>, спрос будет продолжать расти вместе с ростом населения и экономики.</strong> В сценарии заявленных политик МЭА, который отражает существующие политические обязательства, но не предусматривает дополнительных усилий, ожидается, что мировой спрос на энергию будет расти в среднем на 0,7% в год до 2030 года, что приведет к общему увеличению примерно на 5% по сравнению с уровнями 2022 года (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>МЭА</u></a>, 2023). <br /><br />Этот <strong>рост обусловлен сочетанием факторов: ростом населения, быстрым урбанизацией, промышленным расширением и увеличением электрификации всего — от транспорта до приготовления пищи и цифровых услуг. <br /></strong><br />Этот растущий спрос является признаком прогресса в развитии, но он также рискует усугубить зависимость мира от нестабильных систем ископаемого топлива, если переход к чистым, надежным и децентрализованным альтернативам не будет идти в ногу. Без стратегического ответа повышенное использование энергии может закрепить страны на опасных и углеродноемких путях, подрывая как цели энергетического доступа, так и климатические амбиции. <br /><br /><strong><em>Для более глубокого погружения в будущее энергетики и того, как различные сценарии формируют прогнозы спроса, обратитесь к Модулю 8.</em></strong></br></br> </strong>"
             }
           }
         ]
@@ -730,6 +706,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "Мировой спрос на энергию",
+          "subtitle": "",
+          "description": "Чжонг: Данные до 2000 года были вручную извлечены (оценки). Точки данных с 2000 по 2050 год взяты из ExxonMobil Global Outlook (2024): https://corporate.exxonmobil.com/-/media/global/files/global-outlook/2024/global-outlook-data-2024.xlsx Пример Apache: https://echarts.apache.org/examples/en/editor.html?c=bar-stack",
+          "footnote": "Source: Smil, Energy Transitions (1900-1960), 2024 ExxonMobil Global Outlook (1970-2050)"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -767,16 +749,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#3f7e44",
-            "#dd1367",
-            "#4c9f38",
-            "#fd9d24",
-            "#0468b1",
-            "#0a97d9",
-            "#c5192d",
             "#19486a",
-            "#fd6925"
+            "#dd1367",
+            "#0a97d9",
+            "#fcc30b",
+            "#fd6925",
+            "#fd9d24",
+            "#c5192d",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -976,44 +958,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Мировой спрос на энергию",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -1053,11 +998,47 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые ресурсы",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Мировой энергетический обзор 2024",
+            "cta": "Нажмите, чтобы скачать"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.webp",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Глобальная энергетическая перспектива 2024",
+            "cta": "Нажмите, чтобы скачать"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.webp",
+              "caption": ""
+            },
+            "href": "McKinsey & Company",
+            "text": "Прогноз перехода мировой энергетики 2024",
+            "cta": "Нажмите, чтобы скачать"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "Далее",

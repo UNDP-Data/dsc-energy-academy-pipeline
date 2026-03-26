@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые концепции",
+        "intro": "Изучите основные идеи этого урока.",
+        "concepts": [
+          {
+            "title": "доступ к чистому приготовлению пищи",
+            "body": "Доступ к чистому приготовлению пищи означает наличие и использование безопасных, эффективных и экологически чистых методов и топлива для приготовления пищи, что снижает риски для здоровья и воздействие на окружающую среду по сравнению с традиционными практиками приготовления пищи.",
+            "source": ""
+          },
+          {
+            "title": "топливо и технологии для отопления и охлаждения",
+            "body": "Топливо и технологии для отопления и охлаждения относятся к различным источникам энергии (таким как природный газ, электроэнергия и возобновляемые источники) и системам (таким как печи, тепловые насосы и кондиционеры), используемым для регулировки внутренней температуры для комфорта и эффективности.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -153,7 +173,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_78.webp",
@@ -186,6 +206,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Увеличение глобального доступа к электроэнергии в городских и сельских районах, 2010, 2020 и 2022",
+          "subtitle": "",
+          "description": "Разве связанный с M_C2_50 набор данных на самом деле не должен быть связан с M_C2_47? Откуда берется набор данных M_C2_47? Не соответствует исходным данным",
+          "footnote": "Source: World Bank, 2024"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -223,16 +249,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
+            "#c5192d",
+            "#3f7e44",
+            "#0468b1",
+            "#4c9f38",
+            "#0a97d9",
             "#dd1367",
             "#fd9d24",
-            "#c5192d",
             "#fcc30b",
-            "#0a97d9",
             "#fd6925",
-            "#0468b1",
-            "#3f7e44",
-            "#4c9f38"
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -342,44 +368,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Увеличение глобального доступа к электроэнергии в городских и сельских районах, 2010, 2020 и 2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 80
           }
         }
       }
@@ -408,6 +397,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_13"
       }
     },
     {
@@ -456,6 +454,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Годовой рост доступа к электроэнергии и населения в городских и сельских районах по регионам, 2020-22",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "Source: World Bank, 2024"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -493,16 +497,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#c5192d",
-            "#3f7e44",
-            "#fcc30b",
-            "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#0468b1",
-            "#4c9f38",
             "#fd6925",
-            "#19486a"
+            "#fd9d24",
+            "#4c9f38",
+            "#3f7e44",
+            "#dd1367",
+            "#19486a",
+            "#0468b1",
+            "#c5192d",
+            "#0a97d9",
+            "#fcc30b"
           ],
           "xAxis": {
             "axisLine": {
@@ -631,44 +635,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Годовой рост доступа к электроэнергии и населения в городских и сельских районах по регионам, 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -706,6 +673,15 @@
       }
     },
     {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_14"
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -723,18 +699,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/4016_5817.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -776,7 +740,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_57.webp",
@@ -810,7 +774,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>К середине 2024 года число людей, вынужденных покинуть свои дома из-за конфликтов, насилия, нарушений прав человека и преследований, превысило 122 миллиона (</strong><a href=\"https://www.unhcr.org/refugee-statistics/insights/explainers/forcibly-displaced-pocs.html\"><strong><u>УВКБ ООН, 2024</u></strong></a><strong>).</strong> <br />Более 6,6 миллиона человек живут в лагерях беженцев, и более 94 % домохозяйств в лагерях не имеют доступа к электроэнергии, в то время как 81 % полагаются на дрова или уголь для приготовления пищи. </strong>Эта зависимость усугубляет экологическую деградацию, увеличивает риски для здоровья и влияет на безопасность уязвимых групп населения, особенно женщин и детей. <br /><br />Беженские лагеря часто расположены в отдаленных районах, где ограниченная инфраструктура и высокие логистические расходы усложняют обеспечение энергией. [needs translation] To address this, <strong>humanitarian agencies spend over $108 million annually on diesel fuel, resulting in over 194,000 tons of CO₂ emissions</strong> (<a href=\"https://unepccc.org/project/climate-action-at-the-last-mile-policy-and-partnerships-for-sustainability-in-displacement-settings/?utm_source=linkedin&utm_medium=social&utm_campaign=Last+Mile\"><u>UNEP, 2023</u></a>) (<a href=\"https://www.unrefugees.org/news/refugee-camps-explained/\"><u>UN Refugees, 2021</u></a>)<br /><br />Refugee camps face acute energy needs due to dense populations and limited infrastructure. <strong>Децентрализованные системы возобновляемой энергии, такие как мини-сети солнечной энергии, становятся эффективными альтернативами.</strong> Эти системы быстрее развертывать и требуют меньших капитальных затрат, чем централизованные сети, что делает их более адаптируемыми к удаленным и временным лагерям."
+              "text": "<strong>К середине 2024 года число людей, вынужденных покинуть свои дома из-за конфликтов, насилия, нарушений прав человека и преследований, превысило 122 миллиона (</strong><a href=\"https://www.unhcr.org/refugee-statistics/insights/explainers/forcibly-displaced-pocs.html\"><strong><u>УВКБ ООН, 2024</u></strong></a><strong>).</strong> <br />Более 6,6 миллиона человек живут в лагерях беженцев, и более 94 % домохозяйств в лагерях не имеют доступа к электроэнергии, в то время как 81 % полагаются на дрова или уголь для приготовления пищи. </strong>Эта зависимость усугубляет экологическую деградацию, увеличивает риски для здоровья и влияет на безопасность уязвимых групп населения, особенно женщин и детей. <br /><br />Беженские лагеря часто расположены в отдаленных районах, где ограниченная инфраструктура и высокие логистические расходы усложняют обеспечение энергией. Для решения этой проблемы <strong>гуманитарные организации ежегодно тратят более 108 миллионов долларов на дизельное топливо, что приводит к выбросу более 194 000 тонн CO₂</strong> (<a href=\"https://unepccc.org/project/climate-action-at-the-last-mile-policy-and-partnerships-for-sustainability-in-displacement-settings/?utm_source=linkedin&utm_medium=social&utm_campaign=Last+Mile\"><u>UNEP, 2023</u></a>) (<a href=\"https://www.unrefugees.org/news/refugee-camps-explained/\"><u>ООН по делам беженцев, 2021</u></a>)<br /><br />Беженские лагеря сталкиваются с острыми энергетическими потребностями из-за плотных населённых пунктов и ограниченной инфраструктуры. <strong>Децентрализованные системы возобновляемой энергии, такие как мини-сети солнечной энергии, становятся эффективными альтернативами.</strong> Эти системы быстрее развертывать и требуют меньших капитальных затрат, чем централизованные сети, что делает их более адаптируемыми к удаленным и временным лагерям."
             }
           }
         ]
@@ -844,7 +808,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Крупные кризисы по всему миру, охватывающие Афганистан, Конго, Гаити, Палестину, Украину, Судан, Йемен и другие регионы, нанесли значительный, иногда поколенческий урон развитию, оставляя людей в этих условиях сталкиваться с все более неопределенным будущим. [needs translation] <br /><br /><br />Approximately <strong>15 percent of the world’s total population – roughly 1.2 billion people – reside in conflict-affected area</strong>s (<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/2023-09/undp_crisis_offer_2022.pdf\"><u>UNDP, 2022</u></a>), while disaster losses have sharply risen, impacting 4.2 billion individuals over the past two decades (<a href=\"https://www.undrr.org/news/un-report-dramatic-rise-climate-disaster-over-last-twenty-years\"><u>UNDRR, 2020</u></a>).<br /><br /><br /><strong>Example: </strong>The impact of energy loss is starkly illustrated by nighttime images of areas hit by disasters or conflict, such as power outages following Cyclone Fani or widespread blackouts during the Ukraine war, showing the devastating impact of disrupted energy access in these fragile settings."
+              "text": "Крупные кризисы по всему миру, охватывающие Афганистан, Конго, Гаити, Палестину, Украину, Судан, Йемен и другие регионы, нанесли значительный, иногда поколенческий урон развитию, оставляя людей в этих условиях сталкиваться с все более неопределенным будущим. <br /><br /><br />Около <strong>15 процентов от общего населения мира – примерно 1,2 миллиарда человек – проживают в районах, затронутых конфликтами</strong> (<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/2023-09/undp_crisis_offer_2022.pdf\"><u>ПРООН, 2022</u></a>), в то время как потери от катастроф резко возросли, затронув 4,2 миллиарда человек за последние два десятилетия (<a href=\"https://www.undrr.org/news/un-report-dramatic-rise-climate-disaster-over-last-twenty-years\"><u>UNDRR, 2020</u></a>).<br /><br /><br /><strong>Пример: </strong>Влияние потери энергии ярко иллюстрируется ночными изображениями районов, пострадавших от катастроф или конфликтов, таких как отключения электроэнергии после циклона Фани или массовые отключения во время войны в Украине, показывая разрушительное воздействие нарушения доступа к энергии в этих хрупких условиях."
             }
           }
         ]
@@ -852,7 +816,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_27.webp",
@@ -862,10 +826,10 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L4_2.png",
           "caption": ""
         }
       }
@@ -951,7 +915,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Эти вариации в доступе к электроэнергии подчеркивают огромные различия в том, как страны и учреждения определяют и измеряют доступ. В некоторых контекстах доступ к электроэнергии определяется просто как физическое подключение к сети, независимо от качества или надежности. В других случаях это включает минимальные уровни обслуживания, такие как возможность питания основных приборов, количество часов подачи электроэнергии в день или доступность по цене. [needs translation] <br /><br />For example,<strong> India </strong>considers a village electrified if at least 10% of households and public institutions have access to electricity (<a href=\"https://prsindia.org/theprsblog/electrification-in-india-%E2%80%98saubhagya%E2%80%99-scheme\"><u>PRS India</u></a>., 2017) while the <strong>World Bank’s Multi-Tier Framework (MTF) </strong>assesses access based on capacity, duration, reliability, quality, affordability, legality, and safety (<a href=\"https://www.esmap.org/node/56715\"><u>ESMAP</u></a>, 2015). Эти противоположные определения могут привести к существенным расхождениям в отчетности и понимании реального воздействия усилий по электрификации. <br /><br />Чтобы обеспечить значительный прогресс в достижении универсального доступа к энергии, <strong>стратегии должны быть адаптированы к региональным и национальным условиям,</strong> учитывая не только показатели подключения, но и качество, надежность и инклюзивность энергетических услуг. Это особенно важно в необслуживаемых сельских районах и неформальных поселениях, где основные потребности в энергии часто остаются неудовлетворенными, несмотря на то, что их считают «электрифицированными»."
+              "text": "Эти вариации в доступе к электроэнергии подчеркивают огромные различия в том, как страны и учреждения определяют и измеряют доступ. В некоторых контекстах доступ к электроэнергии определяется просто как физическое подключение к сети, независимо от качества или надежности. В других случаях это включает минимальные уровни обслуживания, такие как возможность питания основных приборов, количество часов подачи электроэнергии в день или доступность по цене. <br /><br />Например,<strong> Индия </strong>считает деревню электрифицированной, если как минимум 10% домохозяйств и общественных учреждений имеют доступ к электроэнергии (<a href=\"https://prsindia.org/theprsblog/electrification-in-india-%E2%80%98saubhagya%E2%80%99-scheme\"><u>PRS India</u></a>., 2017), в то время как <strong>Многоуровневая рамочная модель Всемирного банка (MTF)</strong> оценивает доступ на основе мощности, продолжительности, надежности, качества, доступности, легальности и безопасности (<a href=\"https://www.esmap.org/node/56715\"><u>ESMAP</u></a>, 2015). Эти противоположные определения могут привести к существенным расхождениям в отчетности и понимании реального воздействия усилий по электрификации. <br /><br />Чтобы обеспечить значительный прогресс в достижении универсального доступа к энергии, <strong>стратегии должны быть адаптированы к региональным и национальным условиям,</strong> учитывая не только показатели подключения, но и качество, надежность и инклюзивность энергетических услуг. Это особенно важно в необслуживаемых сельских районах и неформальных поселениях, где основные потребности в энергии часто остаются неудовлетворенными, несмотря на то, что их считают «электрифицированными»."
             }
           }
         ]
@@ -992,15 +956,51 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые ресурсы",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2221.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Доступ к электроэнергии - Цели устойчивого развития 7: Данные и прогнозы, 2024",
+            "cta": "Нажмите, чтобы скачать"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2222.webp",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Энергетическое здоровье: ускорение доступа к электроэнергии в медицинских учреждениях, 2023",
+            "cta": "Нажмите, чтобы скачать"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2223.webp",
+              "caption": ""
+            },
+            "href": "UN Energy",
+            "text": "Достижение универсального доступа к 2030 году и нулевых выбросов к 2050 году: глобальная дорожная карта для справедливого и инклюзивного перехода к чистому приготовлению пищи",
+            "cta": "Нажмите, чтобы скачать"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.webp",
           "caption": ""
         },
         "intro": "Далее",
-        "title": "Урок 3: Проблемы обеспечения универсального доступа к энергии",
+        "title": "Урок 3: За пределами электроэнергии: состояние чистого приготовления, отопления и охлаждения",
         "cta": "Продолжайте учиться",
         "nextLessonId": "2.2.3"
       }

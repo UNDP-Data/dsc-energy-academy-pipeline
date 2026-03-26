@@ -13,7 +13,7 @@
           "label": "Lección",
           "number": "1"
         },
-        "title": "Cómo los sistemas energéticos influyen en el cambio climático",
+        "title": "Subsectores de energía y emisiones de GEI",
         "cta": "",
         "intro": "M6: La conexión entre el cambio climático y la energía"
       }
@@ -28,40 +28,40 @@
             "content": {
               "text": "<strong>Resumen de la Lección 1</strong>"
             }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "El sistema energético actual es un impulsor principal del cambio climático global, <a href=\"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors\"><strong><u>representando alrededor del 75 % de las emisiones totales de gases de efecto invernadero</u></strong></a><strong>. </strong> </strong>Esto significa que transformar la forma en que producimos y consumimos energía es esencial, ya que la capacidad del mundo para cumplir sus objetivos climáticos depende de la capacidad del sector energético para <strong></strong> descarbonizar y <a href=\"https://www.un.org/en/climatechange/net-zero-coalition\"><u>mantener el calentamiento global en no más de 1.5°C – como se pide en el Acuerdo de París – las emisiones deben reducirse en un 45% para 2030 y alcanzar la neutralidad de carbono para 2050</u></a>.</br> Entonces<strong> </strong><a href=\"https://news.un.org/en/story/2023/07/1139162\"><strong><u>las temperaturas rompen récords año tras año</u></strong></a><strong>, </strong>el argumento para actuar nunca ha sido tan fuerte."
-            }
           }
         ]
       }
     },
     {
-      "template_id": "lesson_part_cover",
+      "template_id": "key_concepts",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/243_343.webp",
-          "caption": ""
-        },
-        "intro": "M6: La conexión entre el cambio climático y la energía",
-        "title": "Desglose de emisiones"
+        "title": "Conceptos clave",
+        "intro": "Explora las ideas fundamentales de esta lección.",
+        "concepts": [
+          {
+            "title": "economía circular",
+            "body": "Una economía circular es un sistema económico destinado a eliminar los residuos y al uso continuo de los recursos mediante la reutilización, el reciclaje y la regeneración de materiales, creando un sistema de ciclo cerrado que minimiza el impacto ambiental.",
+            "source": ""
+          },
+          {
+            "title": "análisis de escenarios de cambio climático",
+            "body": "El análisis de escenarios de cambio climático es un método utilizado para evaluar los impactos futuros potenciales del cambio climático explorando diferentes escenarios posibles basados en niveles variables de emisiones de gases de efecto invernadero, respuestas políticas y desarrollos socioeconómicos.",
+            "source": ""
+          },
+          {
+            "title": "descarbonización",
+            "body": "La descarbonización es el proceso de reducir o eliminar las emisiones de dióxido de carbono de las fuentes de energía y procesos industriales para combatir el cambio climático.",
+            "source": ""
+          }
+        ]
       }
     },
     {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
-        "text_elements": [
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Datos confiables, precisos y oportunos son esenciales para elaborar políticas energéticas basadas en evidencia que impulsen el desarrollo sostenible. Sin datos de calidad, las decisiones políticas corren el riesgo de estar mal informadas, lo que conduce a soluciones ineficaces o consecuencias no deseadas.<br /><br />Según las <a href=\"https://unstats.un.org/unsd/energystats/methodology/documents/IRES-web.pdf\"><u>Recomendaciones internacionales para las estadísticas energéticas (ONU, 2018)</u></a>, los datos deben cumplir con cinco dimensiones críticas de calidad para apoyar eficazmente una toma de decisiones sólida, como se presenta en la siguiente página."
-            }
-          }
-        ]
+        "text_elements": []
       }
     },
     {
@@ -69,6 +69,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Emisiones mundiales de gases de efecto invernadero por sector y uso final, 2021",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "Source: Climate watch"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -109,15 +115,15 @@
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
             "#c5192d",
-            "#fcc30b",
-            "#fd9d24",
-            "#3f7e44",
             "#19486a",
-            "#4c9f38",
-            "#0a97d9",
-            "#fd6925",
             "#0468b1",
-            "#dd1367"
+            "#4c9f38",
+            "#fd9d24",
+            "#fcc30b",
+            "#fd6925",
+            "#dd1367",
+            "#3f7e44",
+            "#0a97d9"
           ],
           "label": {
             "overflow": "truncate",
@@ -163,48 +169,15 @@
                 }
               ]
             }
-          ],
-          "title": {
-            "text": "Emisiones mundiales de gases de efecto invernadero por sector y uso final, 2021",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": []
       }
     },
     {
@@ -226,6 +199,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Tendencias en las emisiones sectoriales (Subsector de Energía), 1990-2022",
+          "subtitle": "",
+          "description": "Conjunto de datos actualizado hasta 2022",
+          "footnote": "Source: Climate watch"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -263,16 +242,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#dd1367",
-            "#fd6925",
-            "#19486a",
-            "#fd9d24",
-            "#0468b1",
-            "#fcc30b",
             "#0a97d9",
+            "#fcc30b",
+            "#fd9d24",
             "#4c9f38",
+            "#0468b1",
+            "#3f7e44",
+            "#19486a",
             "#c5192d",
-            "#3f7e44"
+            "#fd6925",
+            "#dd1367"
           ],
           "xAxis": {
             "axisLine": {
@@ -538,47 +517,7 @@
                 8151.42
               ]
             }
-          ],
-          "title": {
-            "text": "Tendencias en las emisiones sectoriales (Subsector de Energía), 1990-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -598,7 +537,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_631.webp",
@@ -614,13 +553,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Emisiones de GEI por la producción de energía</strong>"
+              "text": "<strong>GHG Emissions from Energy Generation</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La combustión desempeña un papel importante en la producción de energía, especialmente para la generación de electricidad y la calefacción. Más del 40 % de las emisiones de CO2 relacionadas con la energía provienen de la quema de combustibles fósiles para la electricidad. Solo en 2022, las emisiones de CO2 por la combustión de energía aumentaron en un 1,3 % (423 Mt). Sin embargo, las emisiones de gases de efecto invernadero relacionadas con la energía provienen de una variedad de fuentes más allá de la combustión, incluyendo las emisiones fugitivas de metano de las operaciones de petróleo y gas y las emisiones de proceso de las actividades industriales. Las emisiones de CO2 por la combustión de energía y procesos industriales representaron el 89 % de las emisiones de gases de efecto invernadero relacionadas con la energía en 2022. Las emisiones totales de gases de efecto invernadero relacionadas con la energía aumentaron un 1,0 % hasta un máximo histórico de 41,3 Gt de CO2-eq.<br /><br /> Los factores clave que impulsan las emisiones de CO2 de la generación de electricidad incluyen la cantidad de electricidad producida, la eficiencia de la generación, la dependencia de los combustibles fósiles y la intensidad de carbono de esos combustibles. Específicamente, las centrales eléctricas de carbón fueron las principales contribuyentes, responsables del 73 % de las emisiones de CO2 del sector eléctrico. <br /><br />Aunque el dióxido de carbono (CO2) es el gas de efecto invernadero más abundante, el sector energético también emite gases de efecto invernadero que no son CO2, como el metano (CH4), el óxido nitroso (N2O) y el hexafluoruro de azufre (SF₆). Estos gases, aunque se emiten en cantidades menores, tienen potenciales de calentamiento global mucho más altos y diferentes duraciones en la atmósfera, lo que los hace críticos para abordar en las estrategias climáticas. </strong>"
+              "text": "La generación de energía, particularmente electricidad y calor, es la mayor fuente única de emisiones globales de gases de efecto invernadero. Los combustibles fósiles han formado históricamente la columna vertebral del suministro de energía global debido a su alta densidad energética y a su abundancia relativa. Sin embargo, su combustión es el principal impulsor de las emisiones de gases de efecto invernadero de origen antropogénico.<br /><br />1. Carbón<br /><br />El carbón sigue siendo una fuente de energía dominante, aunque altamente intensiva en carbono. En 2022, las emisiones globales de CO2 del carbón aumentaron un 1,6 %, o 243 Mt, alcanzando un nuevo máximo histórico de casi 15,5 Gt. Este aumento fue significativamente más rápido que la tasa de crecimiento promedio de la década anterior y fue impulsado principalmente por un aumento en la generación de electricidad y calor a partir del carbón, especialmente en las economías emergentes asiáticas. En 2024, las emisiones globales de carbón aumentaron en otro 0,9 % (135 Mt de CO2), impulsadas por el crecimiento del consumo en China, India y el sudeste asiático, incluso cuando la demanda disminuyó en economías avanzadas como Estados Unidos y la Unión Europea.<br /><br />La combustión del carbón libera una compleja variedad de contaminantes más allá del CO2. These include particulate matter (PM), sulfur oxides (SOx, primarily SO2 with some SO3), nitrogen oxides (NOx, mainly NO with some NO2 and N2O), carbon monoxide (CO), and various organic compounds. Los niveles específicos y la composición de estas emisiones están influenciados por factores como el rango y la composición química del carbón, el tipo y tamaño de la caldera, las condiciones de combustión, la carga operativa y la presencia de tecnologías de control de la contaminación. Por ejemplo, aproximadamente el 95 % del azufre en el carbón bituminoso se emite en forma de SOx gaseoso durante la combustión. Las emisiones de PM no controladas consisten en cenizas y carbono no quemado, siendo la ceniza volante un componente importante en los sistemas de carbón pulverizado."
             }
           }
         ]
@@ -634,7 +573,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El metano, el segundo mayor impulsor del calentamiento global después del CO2, es una preocupación importante en el sector energético. Las operaciones de petróleo y gas son las principales fuentes de emisiones de metano, mientras que la combustión incompleta de <ai prompt=\"Tell me more about bioenergy.\">bioenergía 💬️</ai>—como la madera, el carbón vegetal y los residuos de cultivos—agrega emisiones de metano. El metano se libera tanto intencionadamente, a través de prácticas como la ventilación y la quema durante la producción y el mantenimiento, como accidentalmente, a través de fugas en tuberías, compresores y válvulas (<strong>emisiones fugitivas</strong>)."
+              "text": "<strong>2.</strong> Gas natural<br />El gas natural, compuesto principalmente de metano (generalmente más del 85%), se utiliza ampliamente en aplicaciones industriales, de servicios públicos, residenciales y comerciales. Aunque a menudo se promociona como una alternativa más limpia al carbón debido a las menores emisiones de CO2 por unidad de energía, su combustión todavía contribuye de manera significativa a la liberación de gases de efecto invernadero. En 2014, el CO2 de la combustión de gas natural representó aproximadamente el 21 % de las emisiones de gases de efecto invernadero del sector eléctrico de EE. UU. A nivel mundial, las emisiones de gas natural aumentaron un 3,7 % en 2024, convirtiéndolo en el mayor contribuyente al crecimiento de las emisiones globales de carbono, impulsado por un mayor consumo en China, Estados Unidos, Oriente Medio e India.<br />La combustión del gas natural produce principalmente CO2, pero también genera NOx (óxido de nitrógeno y dióxido de nitrógeno) y pequeñas cantidades de óxido nitroso (N2O). El tipo de caldera (de tubo de agua, de tubo de fuego, de hierro fundido) y las prácticas de combustión influyen en las emisiones, con calderas de tubo de agua más grandes, instaladas en campo, que ofrecen mayor flexibilidad operativa y opciones de control de NOx en comparación con unidades empaquetadas más pequeñas.<br /><br />3. Oil<br />Oil, predominantemente a base de petróleo, es un combustible fósil importante utilizado para la producción de electricidad y calor a nivel mundial. En 2022, el 60 % de la electricidad mundial se obtuvo quemando combustibles fósiles, incluido el petróleo. La combustión del petróleo produce principalmente CO2 y agua, pero también genera óxidos de azufre (SOx), óxidos de nitrógeno (NOx) y partículas (PM), que tienen efectos perjudiciales en el medio ambiente y la salud humana. Other pollutants include methane (CH4) and nitrous oxide (N2O)."
             }
           }
         ]
@@ -642,13 +581,13 @@
     },
     {
       "template_id": "text",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "text_elements": [
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El óxido nitroso (N2O), aunque se libera en cantidades mucho menores, es aproximadamente 300 veces más potente que el CO2 en términos de potencial de calentamiento global. El sector agrícola es la mayor fuente de emisiones de N2O a nivel mundial, debido al uso generalizado de fertilizantes. En el sector energético, las emisiones de N2O provienen de la combustión de combustibles fósiles, <ai prompt=\"Proporcione más información sobre la biomasa.\">biomasa 💬️</ai> quemada, y algunos procesos industriales. A pesar de su participación relativamente menor, las emisiones de N<sub>2</sub>O de la energía siguen siendo una preocupación ambiental importante, ya que contribuyen no solo al calentamiento global sino también a la destrucción de la capa de ozono."
+              "text": "A pesar de su uso generalizado, las emisiones globales relacionadas con el petróleo vieron un modesto aumento de menos del 1 % en 2022 y del 0,3 % en 2024. Este aumento limitado, incluso con un aumento en las emisiones de la aviación, se atribuye en parte a las materias primas petroquímicas que representan una gran parte del aumento volumétrico en el uso del petróleo. Las centrales eléctricas alimentadas con petróleo son contribuyentes notables a las emisiones de NOx, particularmente en regiones como Oriente Medio, Indonesia y partes del norte de África, en relación con sus contribuciones de CO2. Los datos sobre las emisiones de las plantas de energía alimentadas con petróleo, incluyendo CO2, SO2 y NOx, se recopilan utilizando metodologías que combinan las emisiones anuales de CO2 con ratios dependientes del combustible y de la región para los contaminantes co-emitados, teniendo en cuenta las diferentes implementaciones de control de emisiones a nivel mundial.<br />La interacción entre la seguridad energética, los factores económicos y las tendencias de las emisiones es evidente en la dinámica de la generación basada en combustibles fósiles. La crisis energética global de 2022, caracterizada por choques en los precios de la energía y la inflación, llevó a un crecimiento más lento de las emisiones globales de lo que se temía, en parte debido a un mayor despliegue de tecnologías de energía limpia pero también debido a la reducción de la producción industrial en regiones como China y Europa. Esto indica que las desaceleraciones económicas pueden conducir inadvertidamente a una reducción de las emisiones, como se observa con una disminución de 155 Mt de CO2 en la producción industrial intensiva en energía en 2022. Por el contrario, una disminución en la generación de energía nuclear puede conducir directamente a un aumento en la generación de combustibles fósiles y a mayores emisiones de carbono. Estos ejemplos destacan cómo los eventos globales y las decisiones políticas pueden alterar rápidamente los patrones de consumo de energía y, en consecuencia, los perfiles de emisiones, demostrando los bucles de retroalimentación complejos entre la estabilidad económica, el suministro de energía y los resultados ambientales.<br /><br />"
             }
           }
         ]
@@ -659,6 +598,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Emisiones mundiales de gases de efecto invernadero relacionadas con la energía, 2000-2022",
+          "subtitle": "",
+          "description": "Como una carrera de línea, pero con área",
+          "footnote": "Source: Flaring emissions are from IEA analysis based on the World Bank Global Gas Flaring Reduction Programme."
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -698,15 +643,15 @@
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
             "#fcc30b",
-            "#fd6925",
-            "#c5192d",
-            "#4c9f38",
+            "#3f7e44",
             "#0a97d9",
-            "#fd9d24",
-            "#19486a",
             "#0468b1",
             "#dd1367",
-            "#3f7e44"
+            "#fd6925",
+            "#4c9f38",
+            "#19486a",
+            "#fd9d24",
+            "#c5192d"
           ],
           "xAxis": {
             "axisLine": {
@@ -807,11 +752,10 @@
             "colorBlindSafe": true
           },
           "grid": {
-            "left": 70,
-            "right": 40,
-            "bottom": 90,
-            "containLabel": true,
-            "top": 200
+            "left": "3%",
+            "right": "4%",
+            "bottom": "3%",
+            "containLabel": true
           },
           "toolbox": {
             "feature": {
@@ -1067,52 +1011,28 @@
                 0.27
               ]
             }
-          ],
-          "title": {
-            "text": "Emisiones mundiales de gases de efecto invernadero relacionadas con la energía, 2000-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
     {
-      "template_id": "photo_full_height",
+      "template_id": "text",
       "color_scheme": "dark",
       "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_640.webp",
-          "caption": ""
-        }
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "El metano, el segundo mayor impulsor del calentamiento global después del CO2, es una preocupación importante en el sector energético. Las operaciones de petróleo y gas son las principales fuentes de emisiones de metano, mientras que la combustión incompleta de <ai prompt=\"Tell me more about bioenergy.\">bioenergía 💬️</ai>—como la madera, el carbón vegetal y los residuos de cultivos—agrega emisiones de metano. El metano se libera tanto intencionadamente, a través de prácticas como la ventilación y la quema durante la producción y el mantenimiento, como accidentalmente, a través de fugas en tuberías, compresores y válvulas (<strong>emisiones fugitivas</strong>)."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "El óxido nitroso (N2O), aunque se libera en cantidades mucho menores, es aproximadamente 300 veces más potente que el CO2 en términos de potencial de calentamiento global. El sector agrícola es la mayor fuente de emisiones de N2O a nivel mundial, debido al uso generalizado de fertilizantes. En el sector energético, las emisiones de N2O provienen de la combustión de combustibles fósiles, la quema de biomasa y algunos procesos industriales. A pesar de su participación relativamente menor, las emisiones de N<sub>2</sub>O de la energía siguen siendo una preocupación ambiental importante, ya que contribuyen no solo al calentamiento global sino también a la destrucción de la capa de ozono."
+            }
+          }
+        ]
       }
     },
     {
@@ -1123,13 +1043,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Emisiones de GEI por la producción de energía</strong>"
+              "text": "<strong>Emissions from Energy Generation</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La distribución de energía contribuye a las emisiones de GEI a través del transporte de energía desde los sitios de producción hasta los usuarios finales. Esto incluye las emisiones del transporte de combustibles, la construcción y el mantenimiento de infraestructuras, y la operación de redes de distribución de energía. Aparte de estos, las ineficiencias inherentes al proceso de distribución aumentan las emisiones de gases de efecto invernadero. De hecho, las pérdidas de energía durante el transporte son significativas, con aproximadamente 19 exajulios (EJ) perdidos anualmente en el proceso. Representan un doble desafío: energía desperdiciada que de otra manera podría impulsar economías y las emisiones asociadas resultantes de generar esa energía desperdiciada. Estas pérdidas equivalen aproximadamente a 200 mil millones de dólares cada año.<br /><br />Una fuente clave de emisiones en la transmisión y distribución de electricidad es el hexafluoruro de azufre (SF₆). Se utiliza como gas aislante en equipos eléctricos de alta tensión como <strong>interruptores</strong> y <strong>disyuntores</strong> y es el gas de efecto invernadero más potente regulado bajo el Protocolo de Kioto. Su GWP es aproximadamente 25,200 veces mayor que el CO₂, e incluso pequeñas fugas durante la operación, el mantenimiento o la desmantelación del equipo pueden afectar significativamente las emisiones. Como resultado, abordar las emisiones de SF₆ mediante una mejor detección de fugas, prácticas de mantenimiento y tecnologías alternativas, se ha convertido en un enfoque importante para reducir el impacto climático de las redes de distribución de energía.<br />"
+              "text": "La combustión desempeña un papel importante en la producción de energía, especialmente para la generación de electricidad y la calefacción. Más del 40 % de las emisiones de CO2 relacionadas con la energía provienen de la quema de combustibles fósiles para la electricidad. Solo en 2022, las emisiones de CO2 por la combustión de energía aumentaron en un 1,3 % (423 Mt). Sin embargo, las emisiones de gases de efecto invernadero relacionadas con la energía provienen de una variedad de fuentes más allá de la combustión, incluyendo las emisiones fugitivas de metano de las operaciones de petróleo y gas y las emisiones de proceso de las actividades industriales. Las emisiones de CO2 por la combustión de energía y procesos industriales representaron el 89 % de las emisiones de gases de efecto invernadero relacionadas con la energía en 2022. Las emisiones totales de gases de efecto invernadero relacionadas con la energía aumentaron un 1,0 % hasta un máximo histórico de 41,3 Gt de CO2-eq.<br /><br /> Los factores clave que impulsan las emisiones de CO2 de la generación de electricidad incluyen la cantidad de electricidad producida, la eficiencia de la generación, la dependencia de los combustibles fósiles y la intensidad de carbono de esos combustibles. Específicamente, las centrales eléctricas de carbón fueron las principales contribuyentes, responsables del 73 % de las emisiones de CO2 del sector eléctrico. <br /><br />Aunque el dióxido de carbono (CO2) es el gas de efecto invernadero más abundante, el sector energético también emite gases de efecto invernadero que no son CO2, como el metano (CH4), el óxido nitroso (N2O) y el hexafluoruro de azufre (SF₆). Estos gases, aunque se emiten en cantidades menores, tienen potenciales de calentamiento global mucho más altos y diferentes duraciones en la atmósfera, lo que los hace críticos para abordar en las estrategias climáticas. </strong>"
             }
           }
         ]
@@ -1137,7 +1057,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_649.webp",
@@ -1153,7 +1073,7 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Emisiones de GEI por la producción de energía</strong>"
+              "text": "<strong>GHG Emissions from Energy Consumption</strong>"
             }
           },
           {
@@ -1180,15 +1100,181 @@
       }
     },
     {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Emisiones por la combustión de energía (sector transversal)<br />La combustión de energía, el proceso de quemar combustibles para liberar energía, es la fuente fundamental de la mayoría de las emisiones antropogénicas de gases de efecto invernadero. Este proceso no solo genera gases de efecto invernadero primarios, sino también una variedad de otros contaminantes atmosféricos con impactos ambientales y de salud significativos.<br />A. General Combustion By-products<br />La combustión de combustibles fósiles, ya sea carbón, petróleo o gas natural, resulta principalmente en la emisión de dióxido de carbono (CO2) cuando el carbono en el combustible se une con el oxígeno en la atmósfera. El CO2 es el gas de efecto invernadero más importante que contribuye al calentamiento global. Sin embargo, la combustión de combustibles fósiles también produce otros contaminantes nocivos y gases de efecto invernadero. Estos incluyen metano (CH4), óxido nitroso (N2O), monóxido de carbono (CO), óxidos de azufre (SOx, predominantemente SO2), óxidos de nitrógeno (NOx), compuestos orgánicos volátiles no metánicos (NMVOCs), y material particulado (PM), como ceniza volante y hollín. <br />While CO2 is the main driver of climate change from combustion, other pollutants have direct deleterious effects on human health and the environment. Dióxido de azufre y óxidos de nitrógeno contribuyen a la lluvia ácida y al daño ecológico a los bosques y ecosistemas acuáticos. Las partículas en suspensión y otros combustibles no quemados pueden causar enfermedades respiratorias. La formación de estos compuestos depende de la composición del combustible y de las condiciones de combustión. Por ejemplo, la formación de SOx cuando el azufre orgánico y pirolítico en el carbón se oxida, con aproximadamente el 95% del azufre en el carbón bituminoso siendo emitido como SOx gaseoso. Las emisiones de NOx son principalmente óxido de nitrógeno (NO) y dióxido de nitrógeno (NO2), con trazas de N2O. La naturaleza omnipresente de estos subproductos de la combustión destaca el desafío ambiental multifacético que plantea la dependencia de los combustibles fósiles."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>B.</strong> Contribución sectoral a las emisiones de combustión<br />Las emisiones de combustión se distribuyen en varios sectores económicos, cada uno contribuyendo a la carga global de gases de efecto invernadero.<br />1. Electricidad y producción de calor<br />La generación de electricidad y calor mediante la quema de combustibles fósiles es la mayor fuente única de emisiones globales de gases de efecto invernadero, representando el 34 % de las emisiones globales de gases de efecto invernadero en 2019. Las emisiones de este sector son principalmente CO2 y óxido nitroso, potentes gases de efecto invernadero que atrapan el calor en la atmósfera. En 2022, las emisiones de la generación de electricidad y calor experimentaron un aumento significativo del 1,8 % o 261 Mt, impulsado en gran medida por la generación con carbón en las economías emergentes asiáticas. A pesar de esto, las energías renovables representaron el 90 % del crecimiento mundial en la generación de electricidad en 2022, limitando la recuperación en las emisiones de la energía de carbón. <strong>2.</strong> Industry<br />El sector industrial es un contribuyente sustancial a las emisiones de gases de efecto invernadero, principalmente por la quema de combustibles fósiles para obtener energía para producir bienes como cemento, hierro, acero, electrónica y plásticos. Este sector representó el 24 % de las emisiones mundiales de gases de efecto invernadero en 2019. Más allá de la combustión de energía, los procesos industriales en sí, como las reacciones químicas y la minería, también liberan gases. El sector químico, por ejemplo, es el mayor consumidor de energía industrial y el tercero en términos de emisiones directas de CO2, con aproximadamente la mitad de su entrada de energía consumida como materia prima en lugar de para la combustión. Las emisiones industriales globales disminuyeron ligeramente en 2022, en parte debido a la disminución de la actividad en China y a la crisis energética mundial, pero se necesita más esfuerzo para alinearse con los objetivos de cero emisiones netas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "3. <TEXT>\nTransportation<br />Transportation is a major contributor to greenhouse gas emissions, with most vehicles, including cars, trucks, ships, and planes, running on fossil fuels.\n</TEXT> Este sector representó el 15 % de las emisiones globales de gases de efecto invernadero en 2019, con casi toda (95 %) de su energía derivada de combustibles a base de petróleo como la gasolina y el diésel. Los vehículos de carretera son el segmento más grande, debido a la combustión de productos petrolíferos en motores de combustión interna. En 2022, las emisiones globales de CO2 del sector del transporte aumentaron en más de 250 Mt de CO2 hasta casi 8 Gt de CO2, un aumento del 3 % respecto a 2021, en gran parte debido a la recuperación en los viajes aéreos. El uso de energía y las emisiones del sector se proyecta que aumentarán aún más en los próximos años. 4. Buildings<br />Residential and commercial buildings consume over half of all electricity globally. Their reliance on coal, oil, and natural gas for <ai prompt=\"What is heating and cooling?\">heating and cooling 💬️</ai> leads to significant greenhouse gas emissions. En 2019, las emisiones directas de los edificios (generación de energía en el sitio y quema de combustibles para calefacción o cocina) representaron el 6 % de las emisiones globales de gases de efecto invernadero. Cuando las emisiones indirectas por consumo de electricidad se asignan al sector de edificios, esta participación aumenta sustancialmente, alcanzando el 16 % de EE. UU. emisiones de gases de efecto invernadero. La creciente demanda de energía para calefacción y refrigeración, especialmente con el aumento en la propiedad de aire acondicionado y el incremento en el consumo de electricidad para iluminación y electrodomésticos, ha contribuido a un reciente aumento en las emisiones de CO2 relacionadas con la energía de los edificios."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />La interconexión de las emisiones sectoriales y las estrategias de mitigación es un aspecto crucial para comprender el sistema energético global. Las emisiones de la producción de electricidad y calor, por ejemplo, influyen directamente en los perfiles de emisiones de otros sectores que dependen de la electricidad de la red. Cuando el 60 % de la electricidad proviene de la quema de combustibles fósiles, como ocurrió a nivel mundial en 2022, las emisiones atribuidas a la industria, los edificios comerciales y residenciales, e incluso a la agricultura (para alimentar equipos), aumentan sustancialmente debido a su gran participación en el uso de electricidad. Esto significa que descarbonizar la red eléctrica, aumentando la participación de las energías renovables y la energía nuclear, tiene un efecto positivo en cascada en todos los sectores que consumen electricidad. <br />Por el contrario, la demanda de servicios energéticos en los sectores de uso final impulsa las emisiones en el sector de suministro de energía. Por ejemplo, la creciente demanda de calefacción y refrigeración en los edificios contribuye directamente a un aumento en el consumo de electricidad y, si se alimenta con combustibles fósiles, a un aumento en las emisiones de la generación de energía. De manera similar, la creciente demanda de viajes y bienes en los sectores del transporte y la industria requiere una mayor producción de energía, perpetuando la dependencia de los combustibles fósiles si no se escalan rápidamente alternativas limpias. Esta relación intrincada destaca que una acción climática efectiva requiere estrategias integradas que consideren toda la <ai prompt=\"What is energy value chain?\">cadena de valor de la energía 💬️</ai> y promuevan la descarbonización intersectoral, en lugar de esfuerzos aislados dentro de sectores individuales."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>GHG Emissions from Energy Distribution</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "La distribución de energía contribuye a las emisiones de GEI a través del transporte de energía desde los sitios de producción hasta los usuarios finales. Esto incluye las emisiones del transporte de combustibles, la construcción y el mantenimiento de infraestructuras, y la operación de redes de distribución de energía. Aparte de estos, las ineficiencias inherentes al proceso de distribución aumentan las emisiones de gases de efecto invernadero. De hecho, las pérdidas de energía durante el transporte son significativas, con aproximadamente 19 exajulios (EJ) perdidos anualmente en el proceso. Representan un doble desafío: energía desperdiciada que de otra manera podría impulsar economías y las emisiones asociadas resultantes de generar esa energía desperdiciada. Estas pérdidas equivalen aproximadamente a 200 mil millones de dólares cada año.<br /><br />Una fuente clave de emisiones en la transmisión y distribución de electricidad es el hexafluoruro de azufre (SF₆). Se utiliza como gas aislante en equipos eléctricos de alta tensión como <strong>interruptores</strong> y <strong>disyuntores</strong> y es el gas de efecto invernadero más potente regulado bajo el Protocolo de Kioto. Su GWP es aproximadamente 25,200 veces mayor que el CO₂, e incluso pequeñas fugas durante la operación, el mantenimiento o la desmantelación del equipo pueden afectar significativamente las emisiones. Como resultado, abordar las emisiones de SF₆ mediante una mejor detección de fugas, prácticas de mantenimiento y tecnologías alternativas, se ha convertido en un enfoque importante para reducir el impacto climático de las redes de distribución de energía.<br />"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>A.</strong> <TEXT>\nNatural Gas Pipelines (Fugitive Methane Emissions)<br /></strong><br />El gas natural está compuesto principalmente de metano (CH4), un potente gas de efecto invernadero con un potencial de calentamiento global (GWP) 84 veces mayor que el CO2 en un período de 20 años y 30 veces mayor en un período de 100 años.\n</TEXT> Las emisiones fugitivas de gases se refieren a la liberación no intencional de gas, generalmente metano, en la atmósfera o en las aguas subterráneas provenientes de actividades de extracción de petróleo, gas o carbón. En 2016, estas emisiones, cuando se convierten en equivalente de CO2, representaron el 5,8 % de todas las emisiones globales de gases de efecto invernadero."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Las principales causas de las emisiones fugitivas de metano de la infraestructura de gas natural incluyen:<br />Pérdida de integridad del pozo: Casing del pozo mal sellado, a menudo debido a un cemento quimicamente inestable, permite que el gas escape a través del pozo (flujo de ventilación del revestimiento superficial) o migre lateralmente a través de formaciones geológicas. Los estudios indican que el 1-3 % de las fugas de metano en pozos no convencionales se deben a sellos imperfectos y a un cemento en deterioro. <br />Fugas de equipo: Las fugas pueden ocurrir en varios componentes del equipo, como bridas o válvulas, o por prácticas de liberación de presión intencionales. <br />Transporte, almacenamiento y actividades de distribución: Las liberaciones o fugas accidentales en las juntas de tuberías y contenedores de almacenamiento durante las operaciones normales contribuyen a las emisiones. Las estimaciones sugieren que aproximadamente el 0,07-10 % de las emisiones de metano ocurren durante estas actividades."
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "En 2022, el transporte de gas natural por sí solo resultó en poco más de 10 Mt de emisiones de metano a nivel mundial, lo que equivale a 300 Mt de CO2-eq. Abordar estas fugas es una opción crucial y de bajo costo para reducir las emisiones de gases de efecto invernadero. La implementación rápida de medidas de mitigación del metano podría frenar significativamente el calentamiento a corto plazo."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>B.</strong> Transmisión de electricidad (Emisiones de SF6)<br /></strong><br />El hexafluoruro de azufre (SF6) es un compuesto fluorados sintético utilizado ampliamente en los sistemas eléctricos debido a sus propiedades dieléctricas únicas. Sirve como aislante eléctrico, interruptor de corriente y apagador de arco en equipos de alta tensión como interruptores automáticos, subestaciones aisladas con gas y otros equipos de conmutación. A pesar de su utilidad, el SF6 es reconocido como el gas de efecto invernadero más potente conocido hasta la fecha. En un período de más de 100 años, 1 kg de SF6 tiene un potencial de calentamiento global (GWP) de 23,500 a 24,300 veces mayor que una cantidad equivalente de CO2. Además, el SF6 es excepcionalmente estable, con una vida atmosférica que supera los 1,000 años, lo que significa que se acumula en la atmósfera durante siglos una vez emitido. <br /><br />Aunque los equipos que contienen SF6 están diseñados para prevenir la liberación de gas, las emisiones ocurren inadvertidamente a lo largo del ciclo de vida del equipo, incluyendo durante la fabricación, instalación, mantenimiento, servicio y desmantelamiento. El equipo envejecido también puede desarrollar fugas significativas. En 2022, aproximadamente el 67 % de todas las emisiones de SF6 en los Estados Unidos se atribuyeron al sector de transmisión y distribución eléctrica. La reducción de las emisiones de SF6 se puede lograr mediante mejoras operativas rentables, como una detección y reparación de fugas mejoradas, el uso de equipos de reciclaje y una mejor capacitación de los empleados. El desarrollo y la adopción de interruptores sin SF6 también están disponibles comercialmente, ofreciendo un camino para reducir estas emisiones altamente potentes."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>C.</strong> <TEXT>\nTransporte de combustibles fósiles (carbón, petróleo, gas)<br /></strong>El transporte de combustibles fósiles desde los sitios de extracción hasta las plantas de energía, refinerías y usuarios finales también contribuye a las emisiones globales.\n</TEXT> Esto implica varios modos, cada uno con su propio perfil de emisiones.<br /><br /><strong>1. Shipping<br /></strong>El envío internacional depende en gran medida de combustibles a base de petróleo, que históricamente constituyen más del 99 % de su demanda total de energía. En 2022, las emisiones de CO2 del transporte marítimo internacional aumentaron un 5 %, representando aproximadamente el 2 % de las emisiones globales de CO2 relacionadas con la energía. Los petroleros por sí solos contribuyen aproximadamente al 13 % de las emisiones marítimas, lo que equivale a aproximadamente 114 millones de toneladas de CO2. Más allá del CO2, la combustión de combustibles fósiles para la navegación marítima también produce metano (CH4), óxido nitroso (N2O), monóxido de carbono (CO), óxidos de nitrógeno (NOx), compuestos orgánicos volátiles no metánicos (NMVOCs) y dióxido de azufre (SO2). The amount of emissions is primarily a function of fuel consumed, fuel characteristics, engine technology, and emission controls. Mientras que los buques de carga son altamente eficientes por unidad de carga útil, las aguas internacionales han operado históricamente bajo regulaciones de contaminación menos estrictas, aunque nuevas regulaciones de la ONU están entrando en vigor."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>2.</strong> <TEXT>\nPipelines<br /></strong>La producción, el transporte y el procesamiento de petróleo y gas resultaron en 5.1 mil millones de toneladas (Gt) de emisiones de gases de efecto invernadero equivalentes a CO2 en 2022, representando casi el 15% del total de emisiones de GHG relacionadas con la energía a nivel mundial.\n</TEXT> Las operaciones petroleras fueron responsables de 3.5 Gt CO2-eq y las operaciones de gas natural de 1.6 Gt CO2-eq. La alta intensidad energética del transporte de gas natural, particularmente para <ai prompt=\"¿Qué es el gas natural licuado?\">el gas natural licuado 💬️</ai> (GNL) o los oleoductos de larga distancia, puede conducir a una mayor intensidad de emisiones en general para los países exportadores. El metano es un contaminante clave del transporte por tubería, con 10 Mt de emisiones de metano del transporte de gas natural solo en 2022. Reducir estas emisiones requiere abordar las fugas de metano, eliminar la quema no de emergencia y electrificar las instalaciones upstream con electricidad de bajas emisiones. 3. <TEXT>\nRail<br /></strong>El transporte ferroviario, aunque generalmente es más eficiente en energía que otros modos para mercancías a granel, todavía contribuye a las emisiones, especialmente al transportar carbón.\n</TEXT> Los estudios indican que las emisiones de transporte por ferrocarril pueden ser hasta el 35 % de las emisiones operativas de una central eléctrica, una cifra significativamente mayor que las estimaciones anteriores. Esto destaca que las emisiones del ciclo de vida completo de la energía de carbón deben tener en cuenta el transporte. Los esfuerzos para reducir las emisiones en el sector ferroviario incluyen la implementación de grúas de cero emisiones, carretillas de gas natural de bajas emisiones y eléctricas con batería en los centros, y la implementación de sistemas avanzados de gestión de combustible en las locomotoras para mejorar la eficiencia. Los ferrocarriles también están probando locomotoras eléctricas de batería y pilas de combustible de hidrógeno, y evaluando modelos híbridos para reducir aún más las emisiones de carbono."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />Las emisiones ocultas en la cadena de valor de la energía representan un aspecto crítico para comprender el impacto climático total de los sistemas energéticos. Estas emisiones se extienden mucho más allá del punto de consumo directo de energía, abarcando las emisiones fugitivas y la energía consumida en la infraestructura misma. Por ejemplo, las fugas de metano de los oleoductos y pozos de gas natural, a menudo denominadas emisiones fugitivas, contribuyen de manera significativa al calentamiento global debido al alto potencial de calentamiento global del metano. Estas emisiones, que pueden ocurrir en varias etapas desde la extracción hasta la distribución, no están directamente relacionadas con la combustión de energía, sino que son una parte inherente de la cadena de suministro de combustibles fósiles. De manera similar, el gas SF6, altamente potente, utilizado en equipos de transmisión y distribución de electricidad, representa un riesgo climático sustancial si no se gestiona cuidadosamente, ya que incluso pequeñas fugas tienen un efecto de calentamiento desproporcionadamente grande. <br /><br />Además, la energía necesaria para transportar combustibles fósiles, ya sea por barco, tubería o ferrocarril, añade otra capa de emisiones que a menudo no se consideran completamente en los análisis del sector de uso final. Estas emisiones, generadas por los motores y la infraestructura que soportan el movimiento de combustibles, contribuyen a la huella de carbono general del sistema energético. El reconocimiento de estas emisiones de « alcance 1 y 2 » de las operaciones de petróleo y gas, que ascendieron a 5.1 Gt CO2-eq en 2022 (casi el 15 % del total de gases de efecto invernadero relacionados con la energía), subraya que un enfoque integral para la reducción de emisiones debe considerar toda la cadena de valor energético, desde el pozo hasta el tanque, y más allá. Pasar por alto estas fuentes menos visibles pero sustanciales conduciría a una comprensión incompleta del desafío climático y dificultaría el desarrollo de estrategias de mitigación efectivas y holísticas."
+            }
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_part_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/251_259.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/5757_316.webp",
           "caption": ""
         },
-        "intro": "M6: La conexión entre el cambio climático y la energía | Capítulo 1 | Lección 1 | Parte 2",
-        "title": "B: Impactos del desarrollo de energías renovables en los ecosistemas"
+        "intro": "M6: La conexión entre el cambio climático y la energía",
+        "title": "B: Emisiones del Transporte"
       }
     },
     {
@@ -1199,37 +1285,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Esta sección se basa en el Módulo 3 explorando los impactos específicos de las tecnologías de energía renovable en los ecosistemas y las estrategias para mitigarlos. Aunque las energías renovables son esenciales para reducir las emisiones, su desarrollo puede interrumpir los hábitats y la biodiversidad si no se gestionan cuidadosamente. Aquí, examinamos estos desafíos con más detalle y exploramos soluciones como la ubicación sostenible, las medidas de protección ecológica y los enfoques integrados para garantizar una transición energética verdaderamente sostenible."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/284_665.webp",
-          "caption": ""
-        }
-      }
-    },
-    {
-      "template_id": "text",
-      "color_scheme": "light",
-      "content": {
-        "text_elements": [
-          {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Conflictos de uso de la tierra</strong>"
-            }
-          },
-          {
-            "template_id": "paragraph_medium",
-            "content": {
-              "text": "Los requisitos de terreno para diferentes métodos de generación de energía varían significativamente, especialmente cuando se considera su ciclo de vida completo. Las evaluaciones del uso de la tierra en el ciclo de vida no solo consideran la huella física de la planta de energía en sí, sino también la tierra requerida para actividades como la minería de materiales para la construcción, la obtención de combustibles, la desmantelación y la gestión de residuos. La construcción de instalaciones de energía renovable, como parques solares y aerogeneradores, requiere mucho más terreno para producir la misma cantidad de electricidad que una central eléctrica de carbón. Esto puede llevar a la fragmentación del hábitat y al desplazamiento de la vida silvestre.<br /><br />Las instalaciones solares montadas en tierra tienden a tener un uso de tierra relativamente alto, aunque esto varía según la ubicación y la configuración de los paneles solares. Por ejemplo, las granjas solares a escala de utilidad, a diferencia de los paneles solares en los tejados, pueden interrumpir los ecosistemas locales al ocupar grandes extensiones de tierra, alterar los hábitats y alejar a las especies de sus entornos naturales. Aunque es cierto que las instalaciones solares en azoteas utilizan mucho menos terreno, ya que aprovechan estructuras existentes, su uso del suelo no es cero, ya que la extracción de materiales para la producción de paneles solares aún requiere recursos terrestres."
+              "text": "Emisiones del Transporte<br />El sector del transporte es un importante contribuyente a las emisiones globales de gases de efecto invernadero, dependiendo principalmente de combustibles fósiles. Descarbonizar este sector es un desafío complejo, que requiere un enfoque multifacético que involucre electrificación, mejoras en la eficiencia del combustible y la adopción de combustibles alternativos.<br /><br />A. Transporte por carretera<br />El transporte por carretera es, con diferencia, el componente más grande de las emisiones relacionadas con el transporte. En Europa, representó aproximadamente el 74 % de las emisiones totales de transporte en 2023, siendo los automóviles particulares responsables de más de la mitad de estas. A nivel mundial, las emisiones de pasajeros y carga del transporte por carretera representaron el 69 % de todas las emisiones del transporte en 2019, alcanzando 6,1 GtCO2-eq. <br /><br />Las tendencias en las emisiones del transporte por carretera están influenciadas por la creciente demanda de viajes, el crecimiento de la población, el crecimiento económico y la expansión urbana, lo que ha llevado a un aumento del 47 % en los millas recorridas por vehículos ligeros (VMT) entre 1990 y 2022. Aunque ha habido una tendencia hacia vehículos más grandes y menos eficientes en combustible, la economía de combustible promedio de los vehículos nuevos ha mejorado casi todos los años desde 2005, ayudando a frenar la tasa de aumento de las emisiones de CO2. A pesar de estas ganancias de eficiencia, la lenta rotación de la flota mundial de vehículos significa que los vehículos de gasolina siguen dominando, limitando el impacto inmediato de las nuevas tecnologías más limpias."
             }
           }
         ]
@@ -1243,20 +1299,10 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Un estudio que analiza el uso de la tierra para la energía solar en regiones como la Unión Europea, India y Corea del Sur destaca una preocupación clave: a medida que la energía solar representa una mayor proporción de la mezcla eléctrica de una región, los cambios en el uso de la tierra y las emisiones también aumentan. La expansión solar a menudo tiene lugar en tierras actualmente utilizadas para la agricultura o la silvicultura. Este desplazamiento puede empujar las actividades agrícolas o forestales a otras áreas, a menudo involucrando tierras cultivables no utilizadas, lo que resulta en pérdidas de cobertura de suelo natural. Estos cambios perturban los ecosistemas locales y liberan carbono almacenado en suelos y vegetación, compensando algunos de los beneficios ambientales de la energía solar.<br /><br />Otro estudio sobre una instalación solar de 96 MW en Sudáfrica encontró una disminución significativa en la diversidad y densidad de especies de aves. El reemplazo de la sabana natural por paneles solares y praderas gestionadas interrumpió los hábitats, reduciendo las oportunidades de anidación y búsqueda de alimento para las poblaciones locales de aves. Estos desafíos en el uso de la tierra también se cruzan con consideraciones sociales, particularmente en el contexto de lograr una <ai prompt=\"Tell me more about just energy transition.\">transición energética justa 💬️</ai> (anteriormente discutida en el Módulo 3). Los proyectos a gran escala pueden tener impactos variados en las comunidades locales, planteando preocupaciones sobre el acceso equitativo a las oportunidades y la minimización de riesgos para quienes se ven más afectados por la expansión de las energías renovables. Comprender las implicaciones más amplias del uso de la tierra en el desarrollo de energías renovables es crucial para diseñar estrategias energéticas sostenibles que minimicen los impactos ecológicos y sociales."
+              "text": "1. Shipping<br /></strong>El envío internacional depende en gran medida de combustibles a base de petróleo, que históricamente constituyen más del 99 % de su demanda total de energía. En 2022, las emisiones de CO2 del transporte marítimo internacional aumentaron un 5 %, representando aproximadamente el 2 % de las emisiones globales de CO2 relacionadas con la energía. Los petroleros por sí solos contribuyen aproximadamente al 13 % de las emisiones marítimas, lo que equivale a aproximadamente 114 millones de toneladas de CO2. Más allá del CO2, la combustión de combustibles fósiles para la navegación marítima también produce metano (CH4), óxido nitroso (N2O), monóxido de carbono (CO), óxidos de nitrógeno (NOx), compuestos orgánicos volátiles no metánicos (NMVOCs) y dióxido de azufre (SO2). The amount of emissions is primarily a function of fuel consumed, fuel characteristics, engine technology, and emission controls. Mientras que los buques de carga son altamente eficientes por unidad de carga útil, las aguas internacionales han operado históricamente bajo regulaciones de contaminación menos estrictas, aunque nuevas regulaciones de la ONU están entrando en vigor."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/251_451.webp",
-          "caption": ""
-        }
       }
     },
     {
@@ -1265,28 +1311,12 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Desarrollo de Infraestructura</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La infraestructura necesaria para los proyectos de energía renovable también puede afectar los ecosistemas locales y los medios de vida. Los parques eólicos pueden representar amenazas para las aves y los murciélagos debido a colisiones con las <strong>palas de las turbinas</strong>, mientras que los proyectos hidroeléctricos pueden interrumpir los hábitats acuáticos y alterar los <br> patrones de flujo del agua. Sin embargo, se están llevando a cabo esfuerzos de investigación y conservación para identificar las mejores prácticas para desarrollar infraestructura energética de manera que se minimice el daño a la biodiversidad y a los servicios ecosistémicos."
+              "text": "<strong>B.</strong> Aviation<br />La aviación representa una parte relativamente pequeña de las emisiones globales, pero es uno de los sectores más desafiantes para descarbonizar debido a los altos requisitos de densidad energética del viaje aéreo. En 2023, la aviación fue responsable del 2,5 % de las emisiones globales de CO2 relacionadas con la energía, habiendo crecido más rápido que el ferrocarril, la carretera o la navegación entre 2000 y 2019. A medida que los viajes internacionales se recuperaron de los mínimos de la pandemia de COVID-19, las emisiones de aviación alcanzaron casi 950 Mt de CO2 en 2023, superando el 90 % de los niveles previos a la pandemia. <br />Las mejoras tecnológicas en el diseño de la estructura y del motor, junto con optimizaciones operativas como mayores factores de carga de pasajeros, han llevado a ganancias significativas en eficiencia energética. Por ejemplo, la energía necesaria para recorrer un kilómetro-pasajero se redujo a más de la mitad entre 1990 y 2019. Sin embargo, la intensidad de carbono del combustible para aviones en sí misma se ha mantenido sin cambios, lo que significa que, aunque volar se ha vuelto más eficiente en energía, el combustible quemado no es más limpio. Esto resalta la necesidad de un cambio fundamental desde el combustible de aviación convencional para lograr reducciones sustanciales en las emisiones en la aviación."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/251_462.webp",
-          "caption": ""
-        }
       }
     },
     {
@@ -1295,28 +1325,12 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
-            "content": {
-              "text": "<strong>Minería de recursos renovables</strong>"
-            }
-          },
-          {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La transición a la energía renovable requiere un aumento de las actividades mineras para materiales esenciales como el litio, el cobalto y los elementos de tierras raras. Las operaciones mineras a menudo resultan en una grave degradación ambiental, incluyendo la erosión del suelo, la contaminación del agua y la destrucción de hábitats. De hecho, muchas reservas de <ai prompt=\"What is critical minerals?\"></ai> de <strong>minerales críticos 💬️</strong> para la infraestructura de energía renovable coinciden con áreas de alto valor para la biodiversidad. En regiones donde se extraen estos minerales, como el Desierto de Atacama en Chile, las actividades mineras se han atribuido como uno de los principales factores de degradación ambiental local. De manera similar, en la República Democrática del Congo (RDC), hogar de uno de los bosques tropicales más grandes del mundo, la minería de cobalto ha planteado importantes preocupaciones ambientales y de derechos humanos, incluyendo la deforestación, la contaminación del agua y el trabajo infantil. La minería en aguas profundas también se está explorando para satisfacer la demanda de minerales, enfocándose en los recursos en el fondo del océano. Sin embargo, plantea graves riesgos para los ecosistemas marinos, incluyendo la destrucción del hábitat y la pérdida de biodiversidad, lo que genera preocupaciones sobre su impacto ambiental."
+              "text": "Materiales de construcción y carbono incorporado<br />Más allá de las emisiones operativas, el « carbono incorporado » de los materiales de construcción contribuye significativamente a la huella general del sector. El carbono incorporado se refiere a la suma de todas las emisiones de gases de efecto invernadero liberadas durante el ciclo de vida de los materiales, incluyendo la extracción, fabricación, transporte, construcción y eliminación. Representa aproximadamente el 11 % de las emisiones anuales mundiales de gases de efecto invernadero que contribuyen al calentamiento global. A medida que los edificios se vuelven más eficientes operativamente, se espera que la proporción de carbono incorporado en sus emisiones totales a lo largo del ciclo de vida aumente. 1. Cement Production<br />La fabricación de cemento es una importante emisora industrial, responsable de aproximadamente el 8 % de las emisiones totales de CO2 en el mundo. En 2022, la fabricación mundial de cemento produjo 1,6 mil millones de toneladas métricas de CO2. A diferencia de muchos otros sectores donde la combustión de energía es la fuente principal, más de la mitad de las emisiones de la producción de cemento y concreto son « emisiones de proceso ». Estas emisiones directas resultan en gran medida de la calcinación del carbonato de calcio (piedra caliza), que se descompone para producir cal y CO2. La combustión de combustibles fósiles para unidades de procesamiento a alta temperatura representa otro 30-40 % de las emisiones, mientras que el uso de electricidad para transporte y operaciones contribuye indirectamente. Las estrategias para reducir las emisiones de cemento incluyen reducir el contenido de clínker mediante el uso de materiales cementicios suplementarios (SCMs) y explorar procesos de producción alternativos que requieran menos energía o utilicen materiales reciclados."
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "photo_full_height",
-      "color_scheme": "dark",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/257_471.webp",
-          "caption": ""
-        }
       }
     },
     {
@@ -1325,15 +1339,121 @@
       "content": {
         "text_elements": [
           {
-            "template_id": "subtitle",
+            "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Gestionar todo el ciclo de vida de la infraestructura de energía renovable</strong>"
+              "text": "<strong>2.</strong> Steel Production<br />La industria del acero también es altamente intensiva en energía y carbono, representando aproximadamente el 7-11% de las emisiones globales totales de CO2. La mayoría de las emisiones de CO2 de la fabricación de hierro y acero provienen de la reducción de mineral de hierro en altos hornos (BF), que utilizan coque (una forma de carbón) en un proceso intensivo en energía y carbono. La huella de carbono promedio ponderada del acero se estima en 1,85 toneladas de CO2 por tonelada de acero producida, aunque esto puede variar significativamente según el método de producción. <br />Existen dos métodos principales de producción: la ruta del horno de oxígeno básico (BOF), que utiliza carbón, y la ruta del horno de arco eléctrico (EAF), que funde chatarra de acero usando electricidad. Los EAF son generalmente más limpios, y un uso aumentado de acero reciclado reduce significativamente la huella de carbono. <TEXT>\n<ai prompt=\"Tell me more about decarbonization.\">descarbonización 💬️</ai> efforts in the steel industry involve greater use of EAFs, increased direct reduced iron (DRI) production (especially with renewable hydrogen), and investments in renewable power generation for the industry.\n</TEXT>"
             }
-          },
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El desmantelamiento de la infraestructura de energía renovable es un desafío que a menudo pasa desapercibido y tiene implicaciones a largo plazo para los sistemas energéticos y la sostenibilidad. Los aerogeneradores, paneles solares y las instalaciones hidroeléctricas tienen vidas útiles finitas; típicamente 20-30 años para los paneles solares y aerogeneradores, y hasta 100 años para las centrales hidroeléctricas. Para parques eólicos en alta mar, la desmantelación implica desmontar las turbinas, retirar las estructuras submarinas y gestionar los materiales de desecho. Sin una planificación adecuada, este proceso podría interrumpir los ecosistemas marinos y crear grandes cantidades de desechos. De manera similar, la eliminación de paneles solares plantea preocupaciones sobre los residuos electrónicos y el reciclaje de materiales raros como el silicio, la plata y el cadmio. Las centrales hidroeléctricas, especialmente las más antiguas, pueden requerir una modernización o eliminación, lo que puede afectar significativamente los sistemas de agua y los ecosistemas locales. La falta de estrategias de desmantelamiento podría llevar a activos abandonados y aumentar los impactos ambientales."
+              "text": "Emisiones de la agricultura (relacionadas con la energía)<br />Aunque a menudo se considera un sector separado, el consumo de energía de la agricultura contribuye significativamente a las emisiones globales, principalmente a través de actividades en la granja, producción de fertilizantes y riego.<br />A. Uso de energía en la granja (Maquinaria, Equipo)<br />Las operaciones agrícolas dependen en gran medida de la energía para maquinaria, equipo y diversos procesos. En 2019, las emisiones anuales directamente relacionadas con el uso de energía en la agricultura fueron aproximadamente 523 millones de toneladas (Mt) de CO2 equivalente (CO2eq). Cuando se incluyen las emisiones indirectas por consumo de electricidad, esta cifra aumenta a 1,029 Mt CO2eq por año, lo que representa un aumento del 7 % respecto a los niveles de 1990. <br />La composición de las emisiones relacionadas con la energía en la granja ha cambiado con el tiempo. Mientras que se observaron disminuciones significativas en las emisiones por la combustión de carbón (-55%), gas natural (-50%), gasolina de motor (-42%) y fuel oil (-37%) entre 1990 y 2019, las emisiones de GLP aumentaron en un 32%. Esencialmente, el uso de electricidad y sus emisiones indirectas asociadas se han triplicado en el mismo período, convirtiendo a la electricidad en la mayor fuente de emisiones por uso de energía en la agricultura desde 2005. This trend reflects a broader shift towards electrification in various agricultural processes. La tendencia global general es el resultado de desarrollos contrastantes: disminuciones marcadas en los países desarrollados fueron compensadas por aumentos mayores en las economías en desarrollo y emergentes."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />El enfoque holístico de la descarbonización de edificios reconoce que abordar los objetivos climáticos en el entorno construido requiere considerar tanto las emisiones operativas como las emisiones incorporadas a lo largo del ciclo de vida de un edificio. Mientras que mejorar la eficiencia energética operativa (calefacción, refrigeración, iluminación) ha sido un enfoque de larga data, la contribución sustancial del carbono incorporado — las emisiones asociadas con los materiales desde la extracción hasta la eliminación — está ganando reconocimiento cada vez mayor. Por ejemplo, el desafío único de la producción de cemento radica en sus emisiones de proceso, que representan más de la mitad de su emisión de CO2, independientemente de la fuente de energía. Esto significa que simplemente descarbonizar la energía utilizada en la producción de cemento es insuficiente; se necesitan soluciones innovadoras de materiales como el Cemento de Arcilla Calcinada de Piedra Caliza (LC3) para abordar directamente estas emisiones de procesos químicos. <br />De manera similar, en la producción de acero, la elección entre altos hornos intensivos en carbón y hornos de arco eléctrico (que pueden usar acero reciclado y electricidad renovable) impacta profundamente en el carbono incorporado. This understanding underscores that sustainable building design must integrate material efficiency strategies, low-emission design, and the use of low-embodied carbon or carbon-storing materials, alongside electrification and renewable energy for operational needs. Las políticas que promueven la circularidad, la reutilización y los materiales de origen biológico son por lo tanto tan cruciales como los códigos energéticos para la construcción de nuevas edificaciones y la modernización de los edificios existentes para lograr un entorno construido verdaderamente neto cero. Esta perspectiva integral asegura que los esfuerzos para reducir las emisiones no solo estén desplazando la carga de carbono de una parte del ciclo de vida de un edificio a otra, sino que están impulsando una descarbonización sistémica."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>B.</strong> Aviation<br />La aviación representa una parte relativamente pequeña de las emisiones globales, pero es uno de los sectores más desafiantes para descarbonizar debido a los altos requisitos de densidad energética del viaje aéreo. En 2023, la aviación fue responsable del 2,5 % de las emisiones globales de CO2 relacionadas con la energía, habiendo crecido más rápido que el ferrocarril, la carretera o la navegación entre 2000 y 2019. A medida que los viajes internacionales se recuperaron de los mínimos de la pandemia de COVID-19, las emisiones de aviación alcanzaron casi 950 Mt de CO2 en 2023, superando el 90 % de los niveles previos a la pandemia. <br />Las mejoras tecnológicas en el diseño de la estructura y del motor, junto con optimizaciones operativas como mayores factores de carga de pasajeros, han llevado a ganancias significativas en eficiencia energética. Por ejemplo, la energía necesaria para recorrer un kilómetro-pasajero se redujo a más de la mitad entre 1990 y 2019. Sin embargo, la intensidad de carbono del combustible para aviones en sí misma se ha mantenido sin cambios, lo que significa que, aunque volar se ha vuelto más eficiente en energía, el combustible quemado no es más limpio. Esto resalta la necesidad de un cambio fundamental desde el combustible de aviación convencional para lograr reducciones sustanciales en las emisiones en la aviación."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>B.</strong> Fertilizer Production and Use<br />Fertilizer production is an energy-intensive process with a notable global emissions footprint. Consume aproximadamente el 1,2 % de la energía total del mundo y es responsable de aproximadamente el 1,2 % de las emisiones globales totales de gases de efecto invernadero. Esto incluye 0.3% como CO2 puro, 0.3% como N2O y 0.6% como CO2 de gases de combustión. The main energy requirement for fertilizer production is linked to the nitrogen component, accounting for 94% of the energy used. <br />Más allá de la producción, el uso de fertilizantes en la agricultura es una fuente principal de emisiones de óxido nitroso (N2O). El N2O es un potente gas de efecto invernadero, aproximadamente 300 veces más efectivo para atrapar el calor que el CO2. Los suelos agrícolas, a través de la digestión microbiana del nitrógeno, liberan cantidades significativas de N2O. Los esfuerzos para reducir las emisiones en esta área implican mejorar la eficiencia energética en la producción y optimizar la aplicación de fertilizantes para minimizar la liberación de N2O. <strong>C.</strong> Sistemas de riego<br />El riego, vital para la seguridad alimentaria mundial, también contribuye al consumo de energía y a las emisiones de carbono. Anualmente, las actividades de riego representan 216 millones de toneladas métricas de emisiones de CO2 y consumen 1,896 petajoules (PJ) de energía en todo el mundo. Esto representa el 15 % del total de emisiones de gases de efecto invernadero y energía utilizada en las operaciones agrícolas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>B.</strong> Aviation<br />La aviación representa una parte relativamente pequeña de las emisiones globales, pero es uno de los sectores más desafiantes para descarbonizar debido a los altos requisitos de densidad energética del viaje aéreo. En 2023, la aviación fue responsable del 2,5 % de las emisiones globales de CO2 relacionadas con la energía, habiendo crecido más rápido que el ferrocarril, la carretera o la navegación entre 2000 y 2019. A medida que los viajes internacionales se recuperaron de los mínimos de la pandemia de COVID-19, las emisiones de aviación alcanzaron casi 950 Mt de CO2 en 2023, superando el 90 % de los niveles previos a la pandemia. <br />Las mejoras tecnológicas en el diseño de la estructura y del motor, junto con optimizaciones operativas como mayores factores de carga de pasajeros, han llevado a ganancias significativas en eficiencia energética. Por ejemplo, la energía necesaria para recorrer un kilómetro-pasajero se redujo a más de la mitad entre 1990 y 2019. Sin embargo, la intensidad de carbono del combustible para aviones en sí misma se ha mantenido sin cambios, lo que significa que, aunque volar se ha vuelto más eficiente en energía, el combustible quemado no es más limpio. Esto resalta la necesidad de un cambio fundamental desde el combustible de aviación convencional para lograr reducciones sustanciales en las emisiones en la aviación."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Por ejemplo, el uso de electricidad se ha convertido en la mayor fuente de emisiones relacionadas con la energía en la agricultura desde 2005, destacando cómo la descarbonización de la red eléctrica beneficia directamente a las emisiones agrícolas. De manera similar, la dependencia de las bombas diésel para el riego de aguas subterráneas, que representa el 89 % del uso de energía en el riego, señala una oportunidad clara para la reducción de emisiones mediante la electrificación y la integración de energías renovables. <br />Esta comprensión revela que la acción climática debe ir más allá de los límites tradicionales del sector energético para abarcar todas las áreas donde se consume energía. La naturaleza intensiva en energía de la agricultura moderna significa que las mejoras en la eficiencia energética y la adopción de fuentes de energía limpia dentro de este sector no son simplemente beneficios accesorios, sino que son fundamentales para lograr objetivos más amplios de reducción de gases de efecto invernadero a nivel mundial. Reconocer estas interdependencias permite desarrollar estrategias climáticas más holísticas y efectivas que aborden el consumo de energía en todo el espectro económico."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "Una parte significativa de estas emisiones proviene del bombeo de agua subterránea. A pesar de que las fuentes de agua subterránea sirven solo al 40 % de las tierras de riego, impulsan un asombroso 89 % del uso total de energía en la irrigación, principalmente debido a la prevalencia de bombas diésel que consumen mucha energía. Las proyecciones sugieren que la expansión futura del riego podría llevar a un aumento del 28 % en el uso de energía. Sin embargo, existe un potencial sustancial de reducción: adoptar métodos de riego altamente eficientes y de bajo carbono podría reducir el consumo de energía a la mitad y disminuir las emisiones de CO2 hasta en un 90% a nivel mundial, aunque la viabilidad específica del país podría limitar la reducción real a alrededor del 55%. Esto destaca la importancia de la transición a bombas eléctricas alimentadas por energía renovable y de adoptar sistemas de distribución de agua más eficientes. <br />La huella omnipresente de la energía en sectores no energéticos, como la agricultura, es un aspecto crucial a menudo subestimado en las discusiones sobre el clima. While the energy sector is typically the primary focus for emissions reduction, the significant energy consumption within agriculture—for farm machinery, fertilizer production, and irrigation—means that this sector's energy-related emissions are substantial and cannot be overlooked."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>B.</strong> Aviation<br />La aviación representa una parte relativamente pequeña de las emisiones globales, pero es uno de los sectores más desafiantes para descarbonizar debido a los altos requisitos de densidad energética del viaje aéreo. En 2023, la aviación fue responsable del 2,5 % de las emisiones globales de CO2 relacionadas con la energía, habiendo crecido más rápido que el ferrocarril, la carretera o la navegación entre 2000 y 2019. A medida que los viajes internacionales se recuperaron de los mínimos de la pandemia de COVID-19, las emisiones de aviación alcanzaron casi 950 Mt de CO2 en 2023, superando el 90 % de los niveles previos a la pandemia. <br />Las mejoras tecnológicas en el diseño de la estructura y del motor, junto con optimizaciones operativas como mayores factores de carga de pasajeros, han llevado a ganancias significativas en eficiencia energética. Por ejemplo, la energía necesaria para recorrer un kilómetro-pasajero se redujo a más de la mitad entre 1990 y 2019. Sin embargo, la intensidad de carbono del combustible para aviones en sí misma se ha mantenido sin cambios, lo que significa que, aunque volar se ha vuelto más eficiente en energía, el combustible quemado no es más limpio. Esto resalta la necesidad de un cambio fundamental desde el combustible de aviación convencional para lograr reducciones sustanciales en las emisiones en la aviación."
             }
           }
         ]
@@ -1348,27 +1468,63 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4619_289.webp",
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2874.webp",
               "caption": "image caption"
             },
-            "title": "El cambio climático interrumpe la eficiencia y disponibilidad de la energía renovable.",
-            "description": "El cambio climático interrumpe la eficiencia y la disponibilidad de fuentes de energía renovable como <strong>solar</strong>, <strong>eólica</strong> y <strong>hidroeléctrica</strong>, a través de cambios en los patrones climáticos, fluctuaciones de temperatura y eventos climáticos extremos. Las centrales eléctricas térmicas también enfrentan desafíos, incluyendo la creciente demanda de agua de enfriamiento y daños en la infraestructura por olas de calor y tormentas."
+            "title": "Las tecnologías renovables diversas son clave para la reducción de emisiones.",
+            "description": "La energía solar, eólica, hidroeléctrica, geotérmica y el hidrógeno desempeñan un papel crucial en la reducción de las emisiones de gases de efecto invernadero y en la aceleración de la transición energética global. Cada tecnología tiene ventajas únicas, como la asequibilidad de la energía solar fotovoltaica, la escalabilidad de la energía eólica, la estabilidad de la red de la energía hidroeléctrica, la fiabilidad de la geotermia y el potencial del hidrógeno para sectores difíciles de descarbonizar."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4619_283.webp",
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2868.webp",
               "caption": "image caption"
             },
-            "title": "Los eventos climáticos extremos comprometen la fiabilidad de la energía.",
-            "description": "La frecuencia e intensidad de eventos climáticos extremos como <strong>huracanes</strong>, <strong>incendios forestales</strong> y <strong>inundaciones</strong> están poniendo presión en los sistemas de distribución de energía, causando daños en la infraestructura y provocando cortes de energía, lo que afecta la fiabilidad y la resistencia del suministro de energía."
+            "title": "Los desafíos de la implementación deben abordarse.",
+            "description": "Aunque las tecnologías de energía renovable ofrecen beneficios significativos, su implementación enfrenta desafíos, incluyendo altos costos iniciales de inversión, problemas de integración a la red, restricciones de financiamiento y limitaciones en infraestructura, particularmente en países en desarrollo."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/4619_277.webp",
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_6/6099_2862.webp",
               "caption": "image caption"
             },
-            "title": "La adaptación estratégica es esencial para la resiliencia del sistema energético.",
-            "description": "Las estrategias efectivas para abordar el impacto del cambio climático en los sistemas energéticos implican mejorar la resiliencia de la infraestructura, diversificar las fuentes de energía, mejorar la eficiencia energética y adoptar soluciones descentralizadas. Estos enfoques son esenciales para garantizar un futuro energético <strong>seguro</strong>, <strong>sostenible</strong> y <strong>adaptable</strong> frente a las interrupciones inducidas por el clima."
+            "title": "Los enfoques estratégicos son esenciales para escalar la energía renovable.",
+            "description": "Los incentivos políticos, la financiación innovadora (por ejemplo, financiamiento combinado y préstamos concesionales), el desarrollo de infraestructura (modernización de la red y almacenamiento de energía), la capacitación y la participación comunitaria son estrategias clave para ampliar la implementación de energías renovables, garantizar un acceso equitativo y apoyar una transición energética justa."
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos clave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6111.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "La industria del petróleo y el gas en las transiciones hacia el cero neto",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6112.webp",
+              "caption": ""
+            },
+            "href": "International Renewable Energy Agency",
+            "text": "Perspectivas de la Transición Energética Mundial 2024",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_6/resource-6113.webp",
+              "caption": ""
+            },
+            "href": "UNITED NATIONS ECONOMIC COMMISSION FOR EUROPE",
+            "text": "Neutralidad de carbono en la región de la CEE-ONU: Evaluación integrada del ciclo de vida de las fuentes de electricidad",
+            "cta": "Haz clic para descargar"
           }
         ]
       }
@@ -1378,7 +1534,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.webp",
           "caption": ""
         },
         "intro": "A continuación",

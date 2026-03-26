@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceitos-chave",
+        "intro": "Explore ideias fundamentais desta lição.",
+        "concepts": [
+          {
+            "title": "acesso a uma cozinha limpa",
+            "body": "O acesso a uma cozinha limpa refere-se à disponibilidade e uso de métodos e combustíveis de cozinha seguros, eficientes e ambientalmente amigáveis, que reduzem os riscos à saúde e o impacto ambiental em comparação com as práticas tradicionais de cozinha.",
+            "source": ""
+          },
+          {
+            "title": "combustíveis e tecnologias de aquecimento e refrigeração",
+            "body": "Combustíveis e tecnologias de aquecimento e refrigeração referem-se às várias fontes de energia (como gás natural, eletricidade e opções renováveis) e sistemas (como caldeiras, bombas de calor e aparelhos de ar condicionado) usados para regular as temperaturas internas para conforto e eficiência.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -153,7 +173,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_78.webp",
@@ -186,6 +206,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Aumentos no acesso global à eletricidade em áreas urbanas e rurais, 2010, 2020 e 2022",
+          "subtitle": "",
+          "description": "O conjunto de dados vinculado ao M_C2_50 não deveria estar vinculado ao M_C2_47? De onde vem o conjunto de dados M_C2_47? Não corresponde aos Dados de Origem",
+          "footnote": "Source: World Bank, 2024"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -223,16 +249,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
+            "#c5192d",
+            "#3f7e44",
+            "#0468b1",
+            "#4c9f38",
+            "#0a97d9",
             "#dd1367",
             "#fd9d24",
-            "#c5192d",
             "#fcc30b",
-            "#0a97d9",
             "#fd6925",
-            "#0468b1",
-            "#3f7e44",
-            "#4c9f38"
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -342,44 +368,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Aumentos no acesso global à eletricidade em áreas urbanas e rurais, 2010, 2020 e 2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 80
           }
         }
       }
@@ -408,6 +397,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_13"
       }
     },
     {
@@ -456,6 +454,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Crescimento anual no acesso à eletricidade e na população em áreas urbanas e rurais por região, 2020-22",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "Source: World Bank, 2024"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -493,16 +497,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#c5192d",
-            "#3f7e44",
-            "#fcc30b",
-            "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#0468b1",
-            "#4c9f38",
             "#fd6925",
-            "#19486a"
+            "#fd9d24",
+            "#4c9f38",
+            "#3f7e44",
+            "#dd1367",
+            "#19486a",
+            "#0468b1",
+            "#c5192d",
+            "#0a97d9",
+            "#fcc30b"
           ],
           "xAxis": {
             "axisLine": {
@@ -631,44 +635,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Crescimento anual no acesso à eletricidade e na população em áreas urbanas e rurais por região, 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -706,6 +673,15 @@
       }
     },
     {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_14"
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -723,18 +699,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/4016_5817.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -776,7 +740,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_57.webp",
@@ -810,7 +774,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Em meados de 2024, o número de pessoas forçadas a fugir de conflitos, violência, violações dos direitos humanos e perseguição ultrapassou 122 milhões (</strong><a href=\"https://www.unhcr.org/refugee-statistics/insights/explainers/forcibly-displaced-pocs.html\"><strong><u>ACNUR, 2024</u></strong></a><strong>).</strong> <br />Mais de 6,6 milhões de pessoas vivem em campos de refugiados e mais de 94% das famílias nos campos não têm acesso à eletricidade, enquanto 81% dependem de lenha ou carvão para cozinhar. </strong>Essa dependência agrava a degradação ambiental, aumenta os riscos à saúde e impacta a segurança das populações vulneráveis, especialmente mulheres e crianças. <br /><br />Os campos de refugiados estão frequentemente localizados em áreas remotas, onde infraestrutura limitada e altos custos logísticos dificultam ainda mais o fornecimento de energia. [needs translation] To address this, <strong>humanitarian agencies spend over $108 million annually on diesel fuel, resulting in over 194,000 tons of CO₂ emissions</strong> (<a href=\"https://unepccc.org/project/climate-action-at-the-last-mile-policy-and-partnerships-for-sustainability-in-displacement-settings/?utm_source=linkedin&utm_medium=social&utm_campaign=Last+Mile\"><u>UNEP, 2023</u></a>) (<a href=\"https://www.unrefugees.org/news/refugee-camps-explained/\"><u>UN Refugees, 2021</u></a>)<br /><br />Refugee camps face acute energy needs due to dense populations and limited infrastructure. <strong>Sistemas de energia renovável descentralizados, como mini-redes solares, estão surgindo como alternativas eficazes.</strong> Esses sistemas são mais rápidos de implantar e menos intensivos em capital do que as redes centralizadas, tornando-os mais adaptáveis a ambientes remotos e acampamentos temporários."
+              "text": "<strong>Em meados de 2024, o número de pessoas forçadas a fugir de conflitos, violência, violações dos direitos humanos e perseguição ultrapassou 122 milhões (</strong><a href=\"https://www.unhcr.org/refugee-statistics/insights/explainers/forcibly-displaced-pocs.html\"><strong><u>ACNUR, 2024</u></strong></a><strong>).</strong> <br />Mais de 6,6 milhões de pessoas vivem em campos de refugiados e mais de 94% das famílias nos campos não têm acesso à eletricidade, enquanto 81% dependem de lenha ou carvão para cozinhar. </strong>Essa dependência agrava a degradação ambiental, aumenta os riscos à saúde e impacta a segurança das populações vulneráveis, especialmente mulheres e crianças. <br /><br />Os campos de refugiados estão frequentemente localizados em áreas remotas, onde infraestrutura limitada e altos custos logísticos dificultam ainda mais o fornecimento de energia. Para abordar isso, <strong>agências humanitárias gastam mais de 108 milhões de dólares anualmente em combustível diesel, resultando em mais de 194.000 toneladas de emissões de CO₂</strong> (<a href=\"https://unepccc.org/project/climate-action-at-the-last-mile-policy-and-partnerships-for-sustainability-in-displacement-settings/?utm_source=linkedin&utm_medium=social&utm_campaign=Last+Mile\"><u>UNEP, 2023</u></a>) (<a href=\"https://www.unrefugees.org/news/refugee-camps-explained/\"><u>Refugiados da ONU, 2021</u></a>)<br /><br />Os campos de refugiados enfrentam necessidades energéticas agudas devido a populações densas e infraestrutura limitada. <strong>Sistemas de energia renovável descentralizados, como mini-redes solares, estão surgindo como alternativas eficazes.</strong> Esses sistemas são mais rápidos de implantar e menos intensivos em capital do que as redes centralizadas, tornando-os mais adaptáveis a ambientes remotos e acampamentos temporários."
             }
           }
         ]
@@ -844,7 +808,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Crises maiores em todo o mundo, que vão desde o Afeganistão até o Congo, Haiti, Palestina, Ucrânia, Sudão, Iémen e além, infligiram retrocessos significativos, às vezes geracionais, no progresso do desenvolvimento, deixando as pessoas nesses contextos enfrentando um futuro cada vez mais incerto. [needs translation] <br /><br /><br />Approximately <strong>15 percent of the world’s total population – roughly 1.2 billion people – reside in conflict-affected area</strong>s (<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/2023-09/undp_crisis_offer_2022.pdf\"><u>UNDP, 2022</u></a>), while disaster losses have sharply risen, impacting 4.2 billion individuals over the past two decades (<a href=\"https://www.undrr.org/news/un-report-dramatic-rise-climate-disaster-over-last-twenty-years\"><u>UNDRR, 2020</u></a>).<br /><br /><br /><strong>Example: </strong>The impact of energy loss is starkly illustrated by nighttime images of areas hit by disasters or conflict, such as power outages following Cyclone Fani or widespread blackouts during the Ukraine war, showing the devastating impact of disrupted energy access in these fragile settings."
+              "text": "Crises maiores em todo o mundo, que vão desde o Afeganistão até o Congo, Haiti, Palestina, Ucrânia, Sudão, Iémen e além, infligiram retrocessos significativos, às vezes geracionais, no progresso do desenvolvimento, deixando as pessoas nesses contextos enfrentando um futuro cada vez mais incerto. <br /><br /><br />Aproximadamente <strong>15 por cento da população mundial – cerca de 1,2 bilhão de pessoas – reside em áreas afetadas por conflitos</strong> (<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/2023-09/undp_crisis_offer_2022.pdf\"><u>UNDP, 2022</u></a>), enquanto as perdas por desastres aumentaram acentuadamente, afetando 4,2 bilhões de indivíduos nas últimas duas décadas (<a href=\"https://www.undrr.org/news/un-report-dramatic-rise-climate-disaster-over-last-twenty-years\"><u>UNDRR, 2020</u></a>).<br /><br /><br /><strong>Exemplo: </strong>O impacto da perda de energia é claramente ilustrado por imagens noturnas de áreas atingidas por desastres ou conflitos, como quedas de energia após o ciclone Fani ou apagões generalizados durante a guerra na Ucrânia, mostrando o impacto devastador do acesso interrompido à energia nesses ambientes frágeis."
             }
           }
         ]
@@ -852,7 +816,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_27.webp",
@@ -862,10 +826,10 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L4_2.png",
           "caption": ""
         }
       }
@@ -951,7 +915,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Essas variações no acesso à eletricidade destacam as enormes diferenças em como os países e instituições definem e medem o acesso. Em alguns contextos, o acesso à eletricidade é definido simplesmente como uma conexão física à rede, independentemente da qualidade ou confiabilidade. Em outros, inclui níveis mínimos de serviço, como a capacidade de alimentar aparelhos básicos, o número de horas de fornecimento por dia ou a acessibilidade. [needs translation] <br /><br />For example,<strong> India </strong>considers a village electrified if at least 10% of households and public institutions have access to electricity (<a href=\"https://prsindia.org/theprsblog/electrification-in-india-%E2%80%98saubhagya%E2%80%99-scheme\"><u>PRS India</u></a>., 2017) while the <strong>World Bank’s Multi-Tier Framework (MTF) </strong>assesses access based on capacity, duration, reliability, quality, affordability, legality, and safety (<a href=\"https://www.esmap.org/node/56715\"><u>ESMAP</u></a>, 2015). Essas definições contrastantes podem levar a discrepâncias importantes na elaboração de relatórios e na compreensão do impacto real dos esforços de eletrificação. <br /><br />Para garantir um progresso significativo em direção ao acesso universal à energia, <strong>as estratégias devem ser adaptadas aos contextos regionais e nacionais,</strong> levando em consideração não apenas as taxas de conexão, mas também a qualidade, confiabilidade e inclusão dos serviços de energia. Isso é particularmente crítico em áreas rurais carentes e assentamentos informais, onde as necessidades básicas de energia muitas vezes permanecem não atendidas, apesar de serem considerados « eletrificados »."
+              "text": "Essas variações no acesso à eletricidade destacam as enormes diferenças em como os países e instituições definem e medem o acesso. Em alguns contextos, o acesso à eletricidade é definido simplesmente como uma conexão física à rede, independentemente da qualidade ou confiabilidade. Em outros, inclui níveis mínimos de serviço, como a capacidade de alimentar aparelhos básicos, o número de horas de fornecimento por dia ou a acessibilidade. <br /><br />Por exemplo,<strong> a Índia </strong>considera uma aldeia eletrificada se pelo menos 10% das famílias e instituições públicas tiverem acesso à eletricidade (<a href=\"https://prsindia.org/theprsblog/electrification-in-india-%E2%80%98saubhagya%E2%80%99-scheme\"><u>PRS India</u></a>., 2017) enquanto o <strong>Quadro de Múltiplos Níveis do Banco Mundial (MTF)</strong> avalia o acesso com base na capacidade, duração, confiabilidade, qualidade, acessibilidade, legalidade e segurança (<a href=\"https://www.esmap.org/node/56715\"><u>ESMAP</u></a>, 2015). Essas definições contrastantes podem levar a discrepâncias importantes na elaboração de relatórios e na compreensão do impacto real dos esforços de eletrificação. <br /><br />Para garantir um progresso significativo em direção ao acesso universal à energia, <strong>as estratégias devem ser adaptadas aos contextos regionais e nacionais,</strong> levando em consideração não apenas as taxas de conexão, mas também a qualidade, confiabilidade e inclusão dos serviços de energia. Isso é particularmente crítico em áreas rurais carentes e assentamentos informais, onde as necessidades básicas de energia muitas vezes permanecem não atendidas, apesar de serem considerados « eletrificados »."
             }
           }
         ]
@@ -992,15 +956,51 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos-chave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2221.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Acesso à eletricidade - ODS7: Dados e projeções, 2024",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2222.webp",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Saúde energizante: acelerando o acesso à eletricidade em instalações de saúde, 2023",
+            "cta": "Clique para baixar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2223.webp",
+              "caption": ""
+            },
+            "href": "UN Energy",
+            "text": "Alcançar o Acesso Universal até 2030 e Emissões Zero Líquido até 2050: Um Roteiro Global para uma Transição Justa e Inclusiva para Cozinhar Limpo",
+            "cta": "Clique para baixar"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.webp",
           "caption": ""
         },
         "intro": "Próximo",
-        "title": "Lição 3: Desafios para o acesso universal à energia",
+        "title": "Lição 3: Além da eletricidade: status de cozinhar, aquecer e resfriar limpos",
         "cta": "Continue aprendendo",
         "nextLessonId": "2.2.3"
       }

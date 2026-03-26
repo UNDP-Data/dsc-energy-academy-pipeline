@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "المفاهيم الأساسية",
+        "intro": "استكشف الأفكار الأساسية من هذا الدرس.",
+        "concepts": [
+          {
+            "title": "الوصول إلى الطاقة للمستوطنات غير الرسمية",
+            "body": "الوصول إلى الطاقة للمستوطنات غير الرسمية يشير إلى توفر وتكلفة خدمات الطاقة الموثوقة، مثل الكهرباء ووقود الطهي النظيف، للسكان الذين يعيشون في مناطق سكن غير مخططة أو غير رسمية، مع ضمان قدرتهم على تلبية احتياجاتهم الأساسية من الطاقة وتحسين جودة حياتهم.",
+            "source": ""
+          },
+          {
+            "title": "الطاقة في ظروف الأزمات",
+            "body": "تشير الطاقة في ظروف الأزمات إلى توفير وإدارة الموارد الطاقية في المناطق المتأثرة بالحالات الطارئة، مثل الكوارث الطبيعية، الصراعات المسلحة، أو الأزمات الإنسانية، حيث يكون الوصول إلى طاقة موثوقة ضروريًا للبقاء على قيد الحياة، والتعافي، وإعادة البناء.",
+            "source": ""
+          },
+          {
+            "title": "الفجوة الطاقية العالمية",
+            "body": "الفجوة الطاقية العالمية تشير إلى التفاوت بين الطلب العالمي على الطاقة وإمدادات الطاقة المتاحة، مما يبرز الحاجة إلى زيادة إنتاج الطاقة وحلول مستدامة لتلبية احتياجات الطاقة المستقبلية.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -72,7 +97,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/654_2280.webp",
@@ -99,6 +124,24 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_0"
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_1"
       }
     },
     {
@@ -129,7 +172,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2781.webp",
@@ -155,6 +198,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_2"
       }
     },
     {
@@ -185,7 +237,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2815.webp",
@@ -239,6 +291,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "الزيادات السنوية في الكهربة والسكان، حسب المنطقة، 2020-22",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "Source: World Bank, 2024"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -276,16 +334,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0a97d9",
-            "#3f7e44",
-            "#19486a",
-            "#c5192d",
-            "#fd9d24",
-            "#fd6925",
-            "#4c9f38",
-            "#0468b1",
             "#dd1367",
-            "#fcc30b"
+            "#fcc30b",
+            "#fd6925",
+            "#0468b1",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#3f7e44",
+            "#c5192d",
+            "#4c9f38"
           ],
           "xAxis": {
             "axisLine": {
@@ -401,44 +459,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "الزيادات السنوية في الكهربة والسكان، حسب المنطقة، 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -451,7 +472,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<br />بينما تمثل أفريقيا جنوب الصحراء الكبرى الغالبية العظمى من عجز الوصول إلى الكهرباء على مستوى العالم، لا تزال التحديات قائمة في مناطق أخرى أيضًا — خاصة في أجزاء من آسيا وأوقيانوسيا. <br /><br />في <strong>ميانمار</strong>، كان حوالي 24٪ من السكان يفتقرون إلى الوصول إلى الكهرباء في عام 2023، مع تأخر كهربة المناطق الريفية بشكل كبير عن المناطق الحضرية بسبب الصراع والاضطرابات السياسية (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=MM\"><u>البنك الدولي</u></a>، 2023). في <strong>بابوا غينيا الجديدة</strong>، يظل معدل الوصول من بين الأدنى خارج أفريقيا، مع اتصال 20٪ فقط من السكان بالكهرباء (<a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2025-0620-v6-highres.pdf\"><u>وكالة الطاقة الدولية</u></a>، 2025). [needs translation] Similarly, in <strong>Haiti,</strong> only 51% of people had access to electricity in 2023, with significant reliability issues and frequent blackouts compounding the problem (<a href=\"https://tradingeconomics.com/haiti/access-to-electricity-percent-of-population-wb-data.html\"><u>World Bank</u></a>, 2025).<br />In Central Asia, although electrification rates are generally high, <strong>remote populations often suffer from low-quality or intermittent service</strong> that is not captured in headline access statistics.<br /><br /><br /><br />While global electricity access has improved over the past two decades, stark disparities persist, particularly in Sub-Saharan Africa. النمو السكاني السريع، المؤسسات غير الكافية، القيود المالية، والحواجز الجغرافية جميعها تواصل إبطاء التقدم في هذه المناطق.<br /><br />لقد أظهرت هذه الدرس أن <strong>الانقسام الطاقي العالمي ليس فجوة واحدة، بل تحدٍ متعدد الطبقات ومتطور يمتد عبر المناطق، ومستويات الدخل، وسياقات الضعف.</strong> إن تحقيق الوصول الشامل للطاقة سيتطلب استراتيجيات دقيقة وخاصة بكل منطقة تتجاوز مجرد الاتصالات لمعالجة القدرة على التحمل، والموثوقية، والمرونة على المدى الطويل."
+              "text": "<br />بينما تمثل أفريقيا جنوب الصحراء الكبرى الغالبية العظمى من عجز الوصول إلى الكهرباء على مستوى العالم، لا تزال التحديات قائمة في مناطق أخرى أيضًا — خاصة في أجزاء من آسيا وأوقيانوسيا. <br /><br />في <strong>ميانمار</strong>، كان حوالي 24٪ من السكان يفتقرون إلى الوصول إلى الكهرباء في عام 2023، مع تأخر كهربة المناطق الريفية بشكل كبير عن المناطق الحضرية بسبب الصراع والاضطرابات السياسية (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=MM\"><u>البنك الدولي</u></a>، 2023). في <strong>بابوا غينيا الجديدة</strong>، يظل معدل الوصول من بين الأدنى خارج أفريقيا، مع اتصال 20٪ فقط من السكان بالكهرباء (<a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2025-0620-v6-highres.pdf\"><u>وكالة الطاقة الدولية</u></a>، 2025). وبالمثل، في <strong>هايتي،</strong> كان 51٪ فقط من الناس لديهم وصول إلى الكهرباء في عام 2023، مع مشاكل موثوقية كبيرة وانقطاعات متكررة تزيد من تفاقم المشكلة (<a href=\"https://tradingeconomics.com/haiti/access-to-electricity-percent-of-population-wb-data.html\"><u>البنك الدولي</u></a>، 2025).<br />في آسيا الوسطى، على الرغم من أن معدلات التمدين بشكل عام مرتفعة، <strong>غالبًا ما تعاني السكان النائية من خدمات منخفضة الجودة أو متقطعة</strong> التي لا تُعبر عنها إحصائيات الوصول الرئيسية.<br /><br /><br /><br />بينما تحسن الوصول إلى الكهرباء على مستوى العالم خلال العقدين الماضيين، لا تزال الفوارق الشاسعة قائمة، لا سيما في أفريقيا جنوب الصحراء. النمو السكاني السريع، المؤسسات غير الكافية، القيود المالية، والحواجز الجغرافية جميعها تواصل إبطاء التقدم في هذه المناطق.<br /><br />لقد أظهرت هذه الدرس أن <strong>الانقسام الطاقي العالمي ليس فجوة واحدة، بل تحدٍ متعدد الطبقات ومتطور يمتد عبر المناطق، ومستويات الدخل، وسياقات الضعف.</strong> إن تحقيق الوصول الشامل للطاقة سيتطلب استراتيجيات دقيقة وخاصة بكل منطقة تتجاوز مجرد الاتصالات لمعالجة القدرة على التحمل، والموثوقية، والمرونة على المدى الطويل."
             }
           }
         ]
@@ -459,7 +480,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2754.webp",
@@ -502,15 +523,51 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "الموارد الرئيسية",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2211.webp",
+              "caption": ""
+            },
+            "href": "UNDP",
+            "text": "تقرير التنمية البشرية 2023-24. كسر الجمود: إعادة تصور التعاون في عالم منقسم",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2212.webp",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "الدول الجزرية النامية عند مفترق طرق: نحو الوصول العادل للطاقة في أقل الدول التي تتوفر على كهرباء",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2213.webp",
+              "caption": ""
+            },
+            "href": "World Bank Group",
+            "text": "عدم ترك أحد خلف الركب - إعادة التفكير في برامج الوصول إلى الطاقة في بيئات النزوح",
+            "cta": "انقر للتنزيل"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.webp",
           "caption": ""
         },
         "intro": "التالي",
-        "title": "الدرس 2: الحالة والاتجاهات",
+        "title": "الدرس 2: طبقات عدم المساواة في الوصول إلى الطاقة",
         "cta": "استمر في التعلم",
         "nextLessonId": "2.2.2"
       }

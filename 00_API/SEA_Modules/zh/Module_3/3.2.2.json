@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "能源就业中的性别差距",
+            "body": "能源行业中的性别差距指的是在能源行业中男性和女性的就业人数之间的差异，通常表现为女性在技术、领导和决策角色中的比例较少，与男性同行相比。",
+            "source": ""
+          },
+          {
+            "title": "公平过渡的劳动力计划",
+            "body": "公平转型劳动力项目是旨在支持工人和社区向可持续就业和产业转型的倡议，确保向绿色经济的转变公平公正，为受就业市场变化影响的人提供培训、资源和支持。",
+            "source": ""
+          },
+          {
+            "title": "技能发展生态系统",
+            "body": "技能发展生态系统指的是相互连接的组织、机构和资源网络，它们协作支持个人的持续学习和技能提升，通常旨在满足劳动力市场的需求并促进经济增长。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -97,6 +122,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "基线与1.5°C情景之间的各行业就业差异，千个岗位",
+          "subtitle": "",
+          "description": "你可以与条形赛的动画结合使用。 用户可以通过点击实时与图表互动以揭示、缩放或突出显示数值 | 在图表旁边或内部加入一个趣味元素，以通过内容相关的问题吸引用户。 这旨在激发好奇心和反思——而不是作为测试或评估",
+          "footnote": "*World employment, thousand persons"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -134,16 +165,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
-            "#c5192d",
             "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#3f7e44",
-            "#4c9f38",
             "#fd6925",
+            "#4c9f38",
+            "#dd1367",
+            "#c5192d",
             "#0468b1",
-            "#fcc30b"
+            "#3f7e44",
+            "#fcc30b",
+            "#fd9d24",
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -298,47 +329,7 @@
                 14290.5728519618
               ]
             }
-          ],
-          "title": {
-            "text": "基线与1.5°C情景之间的各行业就业差异，千个岗位",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -445,7 +436,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "[needs translation] <strong>Energy: </strong>The electricity company EVN urgently needed 500 electrical fitters to maintain operations <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u><br /></u></a><strong>Textiles:</strong> A lack of technicians qualified to operate advanced machinery stalled technology adoption <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><br /><strong>Construction: </strong>The industry, representing 5.4% of GDP, faced a deficit of approximately 600 technicians, threatening development projects <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020, para. 3; </u></a> (<a href=\"https://info.undp.org/docs/pdc/Documents/MKD/ProDoc_BridgingSkillGap-II%20phase_Signed.pdf\"><u>UNDP, 2021)</u></a>.<br /><br />此外，国家数字技能缺口，50%的居民数字素养较低<ai prompt=\"解释数字素养。\">数字素养 💬️</ai>，阻碍了国家在日益以技术驱动的全球经济中的竞争力。<br />"
+              "text": "<strong>能源： </strong>电力公司EVN急需500名电工以维持运营 <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(联合国开发计划署，2020)</u></a>。<br /><a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u><br /></u></a><strong>纺织：</strong>缺乏有资格操作先进机械的技术人员阻碍了技术的采用 <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(联合国开发计划署，2020)</u></a>。<br /><br /><strong>建筑： </strong>该行业占GDP的5.4%，面临约600名技术人员的短缺，威胁到发展项目 <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(联合国开发计划署，2020，第</u></a> 3; </u></a> (<a href=\"https://info.undp.org/docs/pdc/Documents/MKD/ProDoc_BridgingSkillGap-II%20phase_Signed.pdf\"><u>UNDP, 2021)</u></a>.<br /><br />此外，国家数字技能缺口，50%的居民数字素养较低<ai prompt=\"解释数字素养。\">数字素养 💬️</ai>，阻碍了国家在日益以技术驱动的全球经济中的竞争力。<br />"
             }
           }
         ]
@@ -467,7 +458,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/719_1303.webp",
@@ -503,7 +494,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "[needs translation] The project delivered measurable outcomes and created a sustainable impact on North Macedonia’s vocational training landscape.<br /><br />· 6 post-secondary occupational standards developed.<br />· 6 post-secondary curricula developed.<br />· 158 individuals enrolled in non-formal VET (due to legal constraints, formal post-secondary model was not implemented).<br />· A concept on Regional VET Center was prepared and approved by the Ministry of Education and Science.<br />· 6 private sector representatives participated in the model design.<br />· 60 trainees (at least 30% women) enrolled in non-formal training.<br />· 156 candidates completed non-formal training."
+              "text": "该项目取得了可衡量的成果，并在北马其顿的职业培训领域产生了可持续的影响。<br /><br />· 6个高等职业标准已制定。<br />· 6个高等课程已开发。<br />· 158人注册非正式职业教育培训（由于法律限制，未实施正式的高等职业培训模式）。<br />· 一项关于区域职业培训中心的概念已由教育和科学部准备并批准。<br />· 6位私营部门代表参与了模型设计。<br />· 60名学员（至少30%为女性）注册非正式培训。<br />· 156名候选人完成了非正式培训。"
             }
           },
           {
@@ -515,7 +506,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "[needs translation] While successful, the project navigated several potential challenges inherent in such systemic reforms:<br />· Delays in the adoption of relevant legislation, such as the Law on Secondary VET Education, hampered timely implementation of new models <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>.<br />· Rigid bureaucratic structures complicated coordination among ministries, schools, and training centers <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>.<br />· Building trust and sustained collaboration between government, private sector, and education providers took more time than expected <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>."
+              "text": "虽然取得了成功，但该项目在进行此类系统改革时遇到了几个潜在的挑战：<br />· 相关立法的通过延迟，例如中等职业教育法，阻碍了新模式的及时实施 <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>。<br />· 僵硬的官僚结构使得各部委、学校和培训中心之间的协调变得复杂 <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>。<br />· 建立信任和持续合作，政府、私营部门和教育提供者之间花费的时间比预期更长 <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>。"
             }
           }
         ]
@@ -549,7 +540,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/4497_226.webp",
@@ -611,7 +602,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/719_1318.webp",
@@ -661,7 +652,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/719_1325.webp",
@@ -677,7 +668,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "能源转型是推动性别平等和支持边缘化社区的机会。 [needs translation] While <a href=\"https://www.irena.org/News/articles/2023/Mar/Women-in-Renewables-Can-Be-Agents-of-Change\"><u>renewable energy sectors are already more inclusive, employing 32% of women</u></a> compared to <a href=\"https://www.unwomen.org/sites/default/files/2023-05/Gender-equality-in-the-sustainable-energy-transition-en.pdf\"><u>22% in the oil and gas industries</u></a>, significant disparities remain, particularly in leadership roles where <a href=\"https://www.iea.org/commentaries/women-in-senior-management-roles-at-energy-firms-remains-stubbornly-low-but-efforts-to-improve-gender-diversity-are-moving-apace#:~:text=Based%20on%20data%20from%20almost,%2Denergy%20industries%20at%2015.5%25.\"><u>women occupy less than 14% of senior positions</u></a>. 为了挖掘能源转型的潜力，必须以深思熟虑的意图来应对，并通过在能源转型的每个阶段——从政策设计到劳动力发展——优先考虑性别平等来支持。<br /><br />能源行业仍然是全球性别多样性最低的行业之一。 尽管女性占全球劳动力的约39%，但她们在传统能源行业中的职位仅占16%。 此外，女性在该领域的工资比男性同行低近15%，且不到15%担任高级管理职位。<a href=\"https://www.iea.org/spotlights/understanding-gender-gaps-in-the-energy-sector\"><u>IEA，2024</u></a>。<br /><br />解决这些差异对于促进创新和实现公平的能源转型至关重要。 实施有针对性的干预措施，例如促进女性在领导职位中的参与和确保公平的薪酬，对于纠正现有的性别不平衡和释放行业的全部潜力至关重要。"
+              "text": "能源转型是推动性别平等和支持边缘化社区的机会。 虽然<a href=\"https://www.irena.org/News/articles/2023/Mar/Women-in-Renewables-Can-Be-Agents-of-Change\"><u>可再生能源行业已经更具包容性，雇佣了32%的女性</u></a>，相比之下<a href=\"https://www.unwomen.org/sites/default/files/2023-05/Gender-equality-in-the-sustainable-energy-transition-en.pdf\"><u>石油和天然气行业的比例为22%</u></a>，但仍存在显著差异，尤其是在领导岗位上，<a href=\"https://www.iea.org/commentaries/women-in-senior-management-roles-at-energy-firms-remains-stubbornly-low-but-efforts-to-improve-gender-diversity-are-moving-apace#:~:text=Based%20on%20data%20from%20almost,%2Denergy%20industries%20at%2015.5%25.\"><u>女性占高级职位的比例不到14%</u></a>。 为了挖掘能源转型的潜力，必须以深思熟虑的意图来应对，并通过在能源转型的每个阶段——从政策设计到劳动力发展——优先考虑性别平等来支持。<br /><br />能源行业仍然是全球性别多样性最低的行业之一。 尽管女性占全球劳动力的约39%，但她们在传统能源行业中的职位仅占16%。 此外，女性在该领域的工资比男性同行低近15%，且不到15%担任高级管理职位。<a href=\"https://www.iea.org/spotlights/understanding-gender-gaps-in-the-energy-sector\"><u>IEA，2024</u></a>。<br /><br />解决这些差异对于促进创新和实现公平的能源转型至关重要。 实施有针对性的干预措施，例如促进女性在领导职位中的参与和确保公平的薪酬，对于纠正现有的性别不平衡和释放行业的全部潜力至关重要。"
             }
           }
         ]
@@ -713,7 +704,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/719_1328.webp",
@@ -770,11 +761,47 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3221.webp",
+              "caption": ""
+            },
+            "href": "IISD",
+            "text": "真正的人们，真正的变革：实现公平能源转型的策略",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3222.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "分散式太阳能光伏：性别视角",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3223.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "2024年世界能源就业",
+            "cta": "点击下载"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module3.webp",
           "caption": ""
         },
         "intro": "接下来",

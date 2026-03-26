@@ -6,16 +6,16 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_5.png",
           "caption": ""
         },
         "lesson": {
-          "label": "Lección",
+          "label": "Lesson",
           "number": "1"
         },
-        "title": "Técnicas de ciencia de datos para el análisis energético",
+        "title": "Data Science Techniques for Energy Analysis",
         "cta": "",
-        "intro": "M7: Datos en Energía Sostenible"
+        "intro": "M7: Data In Sustainable Energy"
       }
     },
     {
@@ -26,13 +26,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Resumen de la Lección 1</strong>"
+              "text": "<strong>Lesson 1 Overview</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La complejidad en evolución de los sistemas energéticos modernos— moldeada por imperativos climáticos, innovación tecnológica y desafíos de accesibilidad— requiere enfoques analíticos capaces de navegar por volúmenes de datos sin precedentes y dependencias mutuas. Esta lección examina cómo las metodologías contemporáneas están transformando el análisis energético, pasando de diagnósticos descriptivos a capacidades predictivas y prescriptivas.<br /><br />Exploramos cómo técnicas avanzadas descubren patrones ocultos en el consumo de energía, anomalías en la distribución y factores impulsores de la demanda, permitiendo una planificación <ai prompt=\"¿Qué es una infraestructura resiliente?\">de infraestructura resiliente 💬️</ai> más efectiva. La discusión se extiende a las aplicaciones de la inteligencia espacial, demostrando cómo la integración de datos geoespaciales y de teledetección mejora la gestión ambiental, la optimización de activos renovables y la asignación equitativa de recursos. De manera crítica, consideramos el papel de la traducción intuitiva de datos en la construcción de puentes entre conocimientos técnicos y estrategias accionables—garantizando que la rigurosidad analítica sirva tanto a la eficiencia operativa como a soluciones centradas en la comunidad.<br /><br />En estos ámbitos, el énfasis sigue en la implementación práctica: cómo la ciencia de datos no solo ilumina los comportamientos de los sistemas energéticos, sino que también navega por las restricciones del mundo real. Los ejemplos de casos de diversos contextos operativos destacarán los compromisos entre la escalabilidad de la innovación y la adaptación contextual, estableciendo una base sólida para evaluar oportunidades basadas en datos en la búsqueda de metas de sostenibilidad y accesibilidad."
+              "text": "The evolving complexity of modern energy systems—shaped by climate imperatives, technological innovation, and accessibility challenges—demands analytical approaches capable of navigating unprecedented data volumes and interdependencies. This lesson examines how contemporary methodologies are transforming energy analysis from descriptive diagnostics toward predictive and prescriptive capabilities.<br /><br />We explore how advanced techniques uncover hidden patterns within energy consumption, distribution anomalies, and demand drivers, enabling more <ai prompt=\"Tell me more about resilient infrastructure.\">resilient infrastructure 💬️</ai> planning. The discussion extends to spatial intelligence applications, demonstrating how integrated geospatial and remote sensing data enhance environmental stewardship, renewable asset optimization, and equitable resource allocation. Critically, we consider the role of intuitive data translation in bridging technical insights and actionable strategies—ensuring analytical rigor serves both operational efficiency and community-centric solutions.<br /><br />Across these domains, emphasis remains on practical implementation: how data science not only illuminates energy system behaviors but also navigates real-world constraints. Case examples from diverse operational contexts will highlight trade-offs between innovation scalability and contextual adaptation, setting a grounded foundation for evaluating data-driven opportunities in pursuit of sustainability and accessibility goals."
             }
           }
         ]
@@ -42,22 +42,22 @@
       "template_id": "key_concepts",
       "color_scheme": "dark",
       "content": {
-        "title": "Conceptos clave",
-        "intro": "Explora las ideas fundamentales de esta lección.",
+        "title": "Key Concepts",
+        "intro": "Explore foundational ideas from this lesson.",
         "concepts": [
           {
-            "title": "visualización de datos",
-            "body": "La visualización de datos es la representación gráfica de la información y los datos, utilizando elementos visuales como gráficos, diagramas y mapas para hacer que datos complejos sean más accesibles y comprensibles.",
+            "title": "data visualization",
+            "body": "Data visualization is the graphical representation of information and data, using visual elements like charts, graphs, and maps to make complex data more accessible and understandable.",
             "source": ""
           },
           {
-            "title": "análisis exploratorio de datos (eda)",
-            "body": "El Análisis Exploratorio de Datos (EDA) es un enfoque para analizar conjuntos de datos para resumir sus características principales, a menudo utilizando métodos visuales, antes de aplicar modelado formal o pruebas de hipótesis.",
+            "title": "exploratory data analysis (eda)",
+            "body": "Exploratory Data Analysis (EDA) is an approach to analyzing data sets to summarize their main characteristics, often using visual methods, before applying formal modeling or hypothesis testing.",
             "source": ""
           },
           {
-            "title": "sistema de información geográfica (SIG)",
-            "body": "Un Sistema de Información Geográfica (SIG) es una tecnología que captura, almacena, analiza y presenta datos espaciales o geográficos, permitiendo a los usuarios visualizar e interpretar datos relacionados con ubicaciones en la Tierra.",
+            "title": "geographical information system (gis)",
+            "body": "A Geographical Information System (GIS) is a technology that captures, stores, analyzes, and presents spatial or geographic data, allowing users to visualize and interpret data related to locations on Earth.",
             "source": ""
           }
         ]
@@ -68,11 +68,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_13.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_Intro_4.png",
           "caption": ""
         },
-        "intro": "M7: Datos en Energía Sostenible",
-        "title": "A: Modelado estadístico para sistemas energéticos"
+        "intro": "M7: Data In Sustainable Energy",
+        "title": "A: Statistical Modeling for Energy Systems"
       }
     },
     {
@@ -83,13 +83,21 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Un tipo de EDA, gráfico multivariado, muestra las relaciones en los conjuntos de datos mediante gráficos como diagramas de dispersión, histogramas, gráficos de barras, diagramas de caja y mapas de calor. Estas visualizaciones ayudan a identificar tendencias, como variaciones estacionales en el uso de energía o ineficiencias en las redes de distribución de energía. La siguiente figura ilustra los pasos utilizados en el análisis exploratorio de datos."
+              "text": "Data science uses various techniques to extract insights from raw data. Exploratory Data Analysis (EDA) is a technique for uncovering patterns, and identifying anomalies (e.g., missing values and outliers) and patterns within the data. It can be used to validate preprocessing steps, ensuring data readiness for further analysis and modelling. For instance, EDA might show a strong correlation between temperature and energy usage, highlighting temperature as a significant predictor of energy demand."
             }
-          },
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La ciencia de datos utiliza varias técnicas para extraer conocimientos de datos en bruto. El Análisis Exploratorio de Datos (EDA) es una técnica para descubrir patrones, e identificar anomalías (por ejemplo, valores faltantes y valores atípicos) y patrones dentro de los datos. Se puede usar para validar los pasos de preprocesamiento, asegurando la preparación de los datos para un análisis y modelado posteriores. Por ejemplo, el EDA podría mostrar una fuerte correlación entre la temperatura y el uso de energía, destacando la temperatura como un predictor importante de la demanda energética."
+              "text": "One type of EDA, multivariate graphical, displays relationships in data sets by using graphics such as scatter plots, histograms, bar charts, box plots, and heat maps. These visualizations help identify trends, such as seasonal variations in energy usage or inefficiencies in energy distribution networks. The following figure illustrates steps used in exploratory data analysis."
             }
           }
         ]
@@ -98,16 +106,16 @@
     {
       "template_id": "infographic",
       "color_scheme": "light",
-      "size": "half",
+      "size": "full",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/4428_5933.webp",
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/6712_20865.webp",
           "caption": ""
         },
         "metadata": {
-          "title": "¿Qué es la exploración de datos?",
+          "title": "What is Data Exploration",
           "subtitle": "",
-          "description": "Description here",
+          "description": "",
           "footnote": "Source: Adapted from Data Exploration (2025)"
         }
       }
@@ -120,7 +128,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>El EDA tradicionalmente requiere una cantidad significativa de tiempo y experiencia.</strong> Sin embargo, la IA. ha optimizado este proceso, haciéndolo más eficiente y preciso. IA los algoritmos pueden procesar rápidamente grandes cantidades de datos, detectando errores y valores atípicos para limpiar y transformar los datos de manera más eficiente y precisa que los analistas humanos. Además, la IA. es capaz de gestionar conjuntos de datos diversos y complejos, incluyendo texto, imágenes y datos de alta dimensión. Al automatizar gran parte del proceso de EDA, la IA. puede potencialmente permitir que los analistas de datos exploren y comprendan sus datos de manera más rápida y efectiva .</strong>"
+              "text": "<strong>EDA traditionally demands a significant amount of time and expertise. However, A.I. has streamlined this process, making it more efficient and accurate. A.I. algorithms can rapidly process vast amounts of data, detecting errors and outliers to clean and transform data more efficiently and accurately than human analysts. Additionally, A.I. is capable of managing diverse and complex datasets, including text, images, and high-dimensional data. By automating much of the EDA process, A.I. can potentially enable data analysts to explore and comprehend their data more quickly and effectively .</strong>"
             }
           }
         ]
@@ -134,13 +142,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Automatización de la limpieza de datos</strong>"
+              "text": "<strong>Automating data cleaning</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Una de las etapas críticas en el Análisis Exploratorio de Datos (EDA) es la limpieza de datos, que implica manejar valores faltantes y duplicados, corregir errores y formatear los datos. IA puede mejorar significativamente este proceso mediante técnicas de limpieza de datos automatizadas. Los modelos de aprendizaje automático pueden aprender de tareas de limpieza de datos históricos y aplicar estos aprendizajes a nuevos conjuntos de datos, reduciendo el tiempo y el esfuerzo necesarios para la preparación de datos. Por ejemplo, las herramientas impulsadas por <strong>IA</strong> pueden detectar e imputar automáticamente los valores faltantes, asegurando que el conjunto de datos sea lo más completo y preciso posible antes del análisis."
+              "text": "One of the critical stages in EDA is data cleaning, which involves handling missing values and duplicates, correcting errors, and formatting data. A.I. can significantly improve this process through automated data cleaning techniques. Machine learning models can learn from historical data cleaning tasks and apply these learnings to new datasets, reducing the time and effort required for data preparation. For example, A.I.-driven tools can automatically detect and impute missing values, ensuring that the dataset is as complete and accurate as possible before analysis."
             }
           }
         ]
@@ -151,7 +159,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_6.png",
           "caption": ""
         }
       }
@@ -164,13 +172,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Agrupamiento y detección de anomalías</strong>"
+              "text": "<strong>Clustering and anomaly detection</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "IA los algoritmos, como el agrupamiento k-means y los autoencoders, desempeñan un papel específico en la detección de anomalías durante el <strong>EDA</strong>. Estos algoritmos pueden agrupar automáticamente puntos de datos en clústeres según sus similitudes, identificar patrones subyacentes en, por ejemplo, el consumo de energía, la producción y la distribución. Los autoencoders, un tipo de red neuronal, pueden detectar anomalías aprendiendo el comportamiento normal de los sistemas energéticos y señalando los puntos de datos que se desvían significativamente de esta norma. Por ejemplo, los autoencoders pueden identificar picos irregulares en el uso de energía que podrían indicar fallos en el equipo o consumo de energía no autorizado, permitiendo intervenciones oportunas para prevenir posibles problemas."
+              "text": "A.I. algorithms, such as k-means clustering and autoencoders, play a niche role in anomaly detection during EDA. These algorithms can automatically group data points into clusters based on their similarities, identify underlying patterns in, for example, energy consumption, production, and distribution . Autoencoders, a type of neural network, can detect anomalies by learning the normal behavior of energy systems and flagging data points that deviate significantly from this norm. For example, autoencoders can identify irregular spikes in energy usage that might indicate equipment malfunctions or unauthorized energy consumption, enabling timely interventions to prevent potential issues ."
             }
           }
         ]
@@ -181,7 +189,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L2_12.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_10.png",
           "caption": ""
         }
       }
@@ -194,13 +202,13 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Reconocimiento de patrones y predicción</strong>"
+              "text": "<strong>Pattern recognition and prediction</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Los algoritmos de aprendizaje automático mejoran el EDA al permitir un reconocimiento de patrones sofisticado y capacidades de predicción. Los algoritmos como k-vecinos más cercanos, árboles de decisión, bosques aleatorios y máquinas de vectores de soporte son particularmente efectivos para clasificar y predecir patrones de uso de energía. Al analizar datos históricos, estos algoritmos pueden identificar tendencias y correlaciones que podrían no ser inmediatamente evidentes. Por ejemplo, el reconocimiento de patrones puede ayudar a predecir la demanda de energía diaria o estacional identificando patrones de consumo relacionados con las condiciones climáticas, la hora del día o el día de la semana. Esta capacidad permite a las empresas de servicios públicos optimizar sus operaciones, planificar los períodos de máxima demanda y mejorar la eficiencia general de la distribución de energía."
+              "text": "Machine learning algorithms enhance EDA by enabling sophisticated pattern recognition and prediction capabilities. Algorithms like k-nearest neighbor, decision trees, random forests, and support vector machines are particularly effective in classifying and predicting energy usage patterns. By analyzing historical data, these algorithms can identify trends and correlations that might not be immediately apparent. For instance, pattern recognition can assist in predicting daily or seasonal energy demand by identifying consumption patterns related to weather conditions, time of day, or day of the week. This capability allows utility companies to optimize their operations, plan for peak demand periods, and improve the overall efficiency of energy distribution ."
             }
           }
         ]
@@ -211,12 +219,12 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Outro_1.png",
           "caption": ""
         },
-        "intro": "Asia y Región del Pacífico",
-        "title": "Estudio de caso: India",
-        "subtitle": "Reduciendo en 18 mil millones de dólares las pérdidas post-cosecha con salas frías alimentadas por energía solar y IA – empoderando a cooperativas agrícolas lideradas por mujeres a través de refrigeración de pago por uso y acceso digital al mercado en la India y más allá"
+        "intro": "Asia and Pacific Region",
+        "title": "Case Study: India",
+        "subtitle": "Slashing $18B post-harvest losses with Solar-Powered cold rooms and AI – empowering women-led farmer cooperatives through Pay-Per-Use cooling and digital market access in India and beyond"
       }
     },
     {
@@ -227,7 +235,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El sector agrícola de la India enfrenta desafíos sustanciales, incluyendo pérdidas post-cosecha significativas. Los estudios recientes estiman que la India sufre pérdidas de alimentos por valor de aproximadamente USD<a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>17.7</u></a>–<a href=\"https://icrier.org/publications/reducing-post-harvest-losses-in-indian-agriculture-a-case-study-of-selected-crops/\"><u>18.5</u></a> mil millones anualmente (<a href=\"https://icrier.org/publications/reducing-post-harvest-losses-in-indian-agriculture-a-case-study-of-selected-crops/\"><u>ICRIER, 2024</u></a>; <a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>Foro Económico Nacional, 2025</u></a>), con frutas y verduras que experimentan pérdidas del 30 al 35 % debido a una infraestructura de cadena de frío inadecuada. Approximately <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>74 millones</u></a> de toneladas de alimentos se pierden en la India cada año, lo que representa <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>22%</u></a> de la producción de granos (<a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>PMF IAS, 2024</u></a>), resultando en una pérdida significativa de ingresos para los pequeños agricultores.<br /><br />Para abordar estos desafíos, la iniciativa ‘Tu Asistente Virtual de la Cadena de Frío’ (Your VCCA) fue lanzada en 2021 por BASE y Empa. La iniciativa aprovecha instalaciones de almacenamiento en frío descentralizadas y alimentadas por energía solar para ayudar a pequeños agricultores y agregadores a acceder a soluciones de enfriamiento asequibles a través de un modelo de Refrigeración como Servicio (CaaS) (<a href=\"https://yourvcca.org/\"><u>Your VCCA</u></a>)."
+              "text": "India’s agricultural sector faces substantial challenges, including significant post-harvest losses. Recent studies estimate that India suffers food losses worth approximately USD<a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>17.7</u></a>–<a href=\"https://icrier.org/publications/reducing-post-harvest-losses-in-indian-agriculture-a-case-study-of-selected-crops/\"><u>18.5</u></a> billion annually (<a href=\"https://icrier.org/publications/reducing-post-harvest-losses-in-indian-agriculture-a-case-study-of-selected-crops/\"><u>ICRIER, 2024</u></a>; <a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>National Economic Forum, 2025</u></a>), with fruits and vegetables experiencing losses of 30–35% due to inadequate cold chain infrastructure. Approximately <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>74 million</u></a> tonnes of food are lost in India each year, accounting for <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>22%</u></a> of the foodgrain output (<a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>PMF IAS, 2024</u></a>), resulting in significant income loss for smallholder farmers.<br /><br />To address these challenges, the ‘Your Virtual Cold Chain Assistant’ (Your VCCA) initiative was launched in 2021 by BASE and Empa. The initiative leverages decentralized, solar-powered cold storage facilities to help small-scale farmers and aggregators access affordable cooling solutions through a Cooling-as-a-Service (CaaS) model (<a href=\"https://yourvcca.org/\"><u>Your VCCA</u></a>)."
             }
           }
         ]
@@ -242,34 +250,34 @@
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>2023-2024</strong>",
-              "body": "Expansión a Nigeria y Filipinas, con pruebas de la aplicación y mejora de funciones, incluyendo la interfaz de los agricultores."
+              "body": "Expansion to Nigeria and the Philippines, with app testing and enhancement of features, including farmers’ interface."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Estado actual</strong>",
-              "body": "Integración del panel de impacto para rastrear las tasas de utilización, el crecimiento de los ingresos y la reducción de pérdidas post-cosecha."
+              "title": "<strong>Current Status</strong>",
+              "body": "Integration of impact dashboard for tracking utilization rates, revenue growth, and post-harvest loss reduction."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>2022</strong>",
-              "body": "Demostraciones piloto en Bihar y Himachal Pradesh, con recopilación de datos y pruebas de usuario."
+              "body": "Pilot demonstrations in Bihar and Himachal Pradesh, with data collection and user testing."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "<strong>2021</strong>",
-              "body": "Desarrollo de tecnología y establecimiento de asociaciones locales, culminando con la primera versión del lanzamiento de la aplicación Coldtivate."
+              "body": "Technology development and local partnership establishment, culminating in the first version of Coldtivate app release."
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La iniciativa Your Virtual Cold Chain Assistant (Your VCCA) siguió un enfoque de implementación estructurado en tres fases, avanzando desde las pruebas piloto iniciales hasta una ampliación a mayor escala y una evaluación del impacto en varios países."
+              "text": "The Your Virtual Cold Chain Assistant (Your VCCA) initiative followed a structured three-phase implementation approach, progressing from initial pilot testing to broader scale-up and impact assessment across multiple countries."
             }
           }
         ]
@@ -280,7 +288,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_10.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_Intro_2.png",
           "caption": ""
         }
       }
@@ -293,19 +301,19 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Metodología</strong>"
+              "text": "<strong>Methodology</strong>"
             }
           },
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Fase 1: Desarrollo tecnológico e innovación digital (2021)</strong>"
+              "text": "<strong>Phase 1: Technology Development and Digital Innovation (2021)</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El elemento fundamental de la iniciativa VCCA es su sólida estrategia de digitalización, centrada en la <strong>Aplicación Móvil Coldtivate</strong>. Esta aplicación aprovecha el aprendizaje automático (ML) y la modelización de alimentos basada en la física para estimar la vida útil precisa de los productos, optimizar la gestión de inventario y proporcionar monitoreo en tiempo real de la temperatura en las cámaras frigoríficas. Además, ofrece pronósticos cruciales de precios de mercado, permitiendo a los agricultores tomar decisiones informadas sobre cuándo y dónde vender sus cosechas para maximizar sus ganancias (<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE y Empa, 2022</u></a>). Reconociendo la brecha digital, las notificaciones SMS garantizan la accesibilidad para los agricultores sin teléfonos inteligentes, cerrando las brechas de información crítica (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>).<br /><br />Complementando las herramientas digitales, el innovador modelo Cooling-as-a-Service (CaaS), donde las salas frías alimentadas por energía solar se implementan estratégicamente en función del uso, elimina eficazmente los costos iniciales prohibitivos para los pequeños agricultores. La monitorización IoT en tiempo real garantiza el funcionamiento eficiente de estas cámaras frigoríficas y preserva la calidad de los cultivos. Estas instalaciones están ubicadas en espacios públicos accesibles, como lo demuestra la sala fría construida cerca del bullicioso Mercado VSS en Rourkela, Odisha, garantizando la accesibilidad para los agricultores locales (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>)."
+              "text": "The foundational element of the VCCA initiative is its robust digitalization strategy, centered around the Coldtivate Mobile App. This application leverages Machine Learning (ML) and physics-based food modeling to estimate the precise storage life of produce, optimize inventory management, and provide real-time temperature monitoring within cold rooms . Furthermore, it offers crucial market price forecasts, enabling farmers to make informed decisions about when and where to sell their crops to maximize returns (<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE and Empa, 2022</u></a>). Recognizing the digital divide, SMS notifications ensure accessibility for farmers without smartphones, bridging critical information gaps (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>).<br /><br />Complementing the digital tools is the innovative Cooling-as-a-Service (CaaS) model, where solar-powered cold rooms are strategically deployed on a pay-per-use basis, effectively eliminating prohibitive upfront costs for smallholders. Real-time IoT monitoring ensures the efficient operation of these cold rooms and preserves crop quality. These facilities are located in accessible public spaces, as demonstrated by the cold room built near the bustling VSS Market in Rourkela, Odisha, ensuring accessibility for local farmers (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>)."
             }
           }
         ]
@@ -319,19 +327,19 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Fase 2: Piloto y expansión temprana (2021–2022)</strong>"
+              "text": "<strong>Phase 2: Pilot and Early Expansion (2021–2022)</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La iniciativa comenzó con una fase piloto en Bihar y Himachal Pradesh durante 2021–2022, diseñada para demostrar la viabilidad económica del modelo de negocio CaaS y el valor añadido de la aplicación VCCA (<a href=\"https://www.climatefinancelab.org/ideas/cooling-as-a-service-caas-with-virtual-cold-chain-assistant-vcca/\"><u>Climate Finance Lab, 2022</u></a>). BASE y Empa comenzaron a trabajar para abordar los desafíos postcosecha en enero de 2021 bajo la iniciativa Your VCCA como parte del desafío global de innovación de data.org. <br /><br />Después de un año y medio de trabajo en equipo interdisciplinario que incluyó el desarrollo de asociaciones locales sólidas, la recopilación de datos, el diseño de interfaces de usuario y el desarrollo de modelos basados en aprendizaje automático y física, el equipo lanzó la primera versión de su aplicación móvil basada en ciencia de datos llamada Coldtivate (<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE y Empa, 2022, para.</u></a>). 3</u></a>)."
+              "text": "The initiative commenced with a pilot phase in Bihar and Himachal Pradesh during 2021–2022, designed to demonstrate the economic viability of the CaaS business model and the value-add of the VCCA app (<a href=\"https://www.climatefinancelab.org/ideas/cooling-as-a-service-caas-with-virtual-cold-chain-assistant-vcca/\"><u>Climate Finance Lab, 2022</u></a>). BASE and Empa began working towards addressing post-harvest challenges in January 2021 under the Your VCCA initiative as part of the data.org global innovation challenge. <br /><br />After a year and a half of interdisciplinary teamwork including strong local partnership development, data collection, user interface design, and the development of machine learning and physics-based models, the team released the first version of its data-science-based mobile application called Coldtivate (<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE and Empa, 2022, para. 3</u></a>)."
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El desarrollo de capacidades y <ai prompt=\"Proporcione más información sobre la integración de género.\">la integración de género 💬️</ai> fueron fundamentales desde el principio, con asociaciones establecidas con organizaciones locales, como grupos de autoayuda de mujeres, para gestionar las instalaciones de almacenamiento en frío. Este enfoque no solo garantizó la accesibilidad cultural, sino que también proporcionó capacitación en habilidades digitales para las mujeres en operaciones y finanzas. Al fomentar el liderazgo de las mujeres en la gestión de las cámaras frigoríficas, la iniciativa ayudó a construir confianza en la comunidad y a mejorar la sostenibilidad a largo plazo del modelo (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024, para. 4)</u></a>."
+              "text": "Capacity Building and <ai prompt=\"Share details about gender mainstreaming.\">gender mainstreaming 💬️</ai> were integral from the outset, with partnerships established with local organizations, such as women’s self-help groups, to manage the cold storage facilities. This approach not only ensured cultural accessibility but also provided digital skills training for women in operations and finance. By fostering women’s leadership in cold room management, the initiative helped build community trust and enhance the long-term sustainability of the model (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024, para. 4</u></a>)."
             }
           }
         ]
@@ -345,16 +353,33 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Fase 3: Implementación completa y evaluación del impacto (2023–2024)</strong>"
+              "text": "<strong>Phase 3: Full Implementation and Impact Assessment (2023–2024)</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El proyecto entró en su fase completa de implementación con Coldtivate siendo probado en 21 salas frías en la India, Nigeria y Filipinas. Esto reemplaza los registros manuales, asegurando que todos los actores de la cadena de frío tengan acceso a información confiable, actualizada y a inteligencia de mercado (<a href=\"https://yourvcca.org/coldtivate/\"><u>Your VCCA-Coldtivate</u></a>).<br /><br />Un componente crítico de esta fase es la recopilación de datos desglosados por género a través de encuestas integradas en la aplicación, que se utilizan para calcular estadísticas sobre la evolución de las pérdidas postcosecha y los ingresos de las mujeres y los hombres agricultores por separado. BASE y Empa planean combinar esta información con los patrones de utilización y pago de los agricultores en un panel de impacto exportable para ayudar a los agricultores a acceder a microcréditos y otros servicios financieros (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>)."
+              "text": "The project entered its complete implementation phase with Coldtivate being tested in 21 cold rooms across India, Nigeria, and the Philippines. This replaces manual registries, ensuring that all cold chain actors have access to reliable, up-to-date information and market intelligence (<a href=\"https://yourvcca.org/coldtivate/\"><u>Your VCCA-Coldtivate</u></a>).<br /><br />A critical component of this phase is the collection of gender-disaggregated data through built-in surveys in the app, which are used to calculate statistics on the evolution of post-harvest loss and income for women and men farmers separately. BASE and Empa plan to combine this information with farmers’ utilization and payment patterns in an exportable impact dashboard to help farmers access microcredits and other financial services (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>)."
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_7/6712_20816.webp",
+          "caption": ""
+        },
+        "metadata": {
+          "title": "Cooling as a Service (CAAS) with Virtual Cold Chain Assistant (VCCA)",
+          "subtitle": "",
+          "description": "DESIGN & REPLICATION",
+          "footnote": "Source: Climate Finance Lab. (2021). Cooling as a Service (CAAS) with Virtual Cold Chain Assistant (VCCA)"
+        }
       }
     },
     {
@@ -362,7 +387,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Outro_1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_5.png",
           "caption": ""
         }
       }
@@ -375,56 +400,56 @@
           {
             "template_id": "subtitle",
             "content": {
-              "text": "<strong>Resultados e Impacto</strong>"
+              "text": "<strong>Outcomes and Impact</strong>"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Se proyecta que los ingresos de los agricultores aumenten en más del 35 % con la implementación del almacenamiento en frío."
+              "body": "Farmer revenues are projected to increase by more than 35% with cold storage implementation."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Reducción de residuos del 25% al 5% para las mercancías almacenadas."
+              "body": "Waste reduction from 25% to 5% for stored commodities."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Mejora en la realización del precio de INR 40/kg a INR 88/kg para las manzanas mediante ventas fuera de temporada."
+              "body": "Price realization improvement from INR 40/kg to INR 88/kg for apples through off-season selling."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Tasa interna de retorno (TIR) del proyecto del 22,5 % y TIR de patrimonio del 31,1 % para proyectos de almacenamiento en frío."
+              "body": "Project IRR of 22.5% and Equity IRR of 31.1% for cold storage projects."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Gemelos digitales basados en física para predecir la pérdida de masa y la vida útil de las frutas almacenadas."
+              "body": "Physics-based digital twins for predicting mass loss and shelf-life of stored fruits."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Las soluciones de enfriamiento respetuosas con el clima habilitadas por CaaS pueden reducir las emisiones de gases de efecto invernadero hasta en un 50 % y apoyar la seguridad alimentaria reduciendo el desperdicio de alimentos en más del 30 %."
+              "body": "Climate-friendly cooling solutions enabled by CaaS can reduce GHG emissions by up to 50% and support food security by reducing food spoilage by more than 30%."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "El impacto acumulado proyectado en cuatro años incluye beneficiar a 1,5 millones de agricultores, reducir 100,000 toneladas de CO2 y movilizar 200 millones de dólares en proyectos de salas frías."
+              "body": "Projected cumulative impact within four years includes benefiting 1.5 million farmers, abating 100,000 tonnes of CO2, and mobilizing USD 200 million in cold room projects."
             }
           }
         ]
@@ -438,21 +463,21 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "La iniciativa ‘Your VCCA’ en la India ofrece lecciones profundas para el desarrollo sostenible a través de la digitalización, particularmente para regiones que enfrentan desafíos agrícolas y energéticos similares:"
+              "text": "The ‘Your VCCA’ initiative in India offers profound lessons for sustainable development through digitalization, particularly for regions confronting similar agricultural and energy challenges:"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Empoderando a las comunidades locales</strong>",
-              "body": "Un compromiso comunitario sólido y la integración de la perspectiva de género fueron fundamentales, con asociaciones con grupos de autoayuda de mujeres y capacitación en habilidades digitales que aseguraron la propiedad local y una mayor sostenibilidad de las instalaciones de almacenamiento en frío (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>). Este enfoque no solo mejoró los medios de vida, sino que también fortaleció la equidad social."
+              "title": "<strong>Empowering Local Communities</strong>",
+              "body": "Robust community engagement and gender mainstreaming were foundational, with partnerships with women’s self-help groups and digital skills training ensuring local ownership and enhanced sustainability of the cold storage facilities (<a href=\"https://www.seforall.org/cool-crops-hot-profits\"><u>SEforAll, 2024</u></a>). This approach not only improved livelihoods but also strengthened social equity."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Soluciones Digitales Integradas</strong>",
-              "body": "El éxito destaca el poder de combinar modelos de negocio innovadores (CaaS) con herramientas digitales accesibles (aplicación Coldtivate, notificaciones SMS). Estas herramientas fueron fundamentales para cerrar la brecha digital y permitir la toma de decisiones en tiempo real basada en datos para los agricultores (<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE y Empa, 2022</u></a>). La recopilación continua de datos de los sensores IoT y la aplicación ayuda a perfeccionar la eficiencia operativa y las tendencias del mercado."
+              "title": "<strong>Integrated Digital Solutions</strong>",
+              "body": "The success underscores the power of combining innovative business models (CaaS) with accessible digital tools (Coldtivate app, SMS notifications). These tools were crucial in bridging the digital divide and enabling real-time data-driven decision-making for farmers (<a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE and Empa, 2022</u></a>). The continuous data collection from IoT sensors and the app feeds into refining operational efficiency and market trends."
             }
           }
         ]
@@ -466,15 +491,15 @@
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Modelo escalable y resistente al clima</strong>",
-              "body": "El modelo CaaS demuestra beneficios significativos en clima y escalabilidad, con soluciones de enfriamiento respetuosas con el clima que reducen las emisiones de GHG en un 50 % y apoyan la seguridad alimentaria reduciendo el desperdicio de alimentos en más del 30 %. El éxito del modelo ha sido replicado en múltiples contextos, con <strong>cuartos fríos walk-in alimentados al 100 % por energía solar</strong> implementados en agrupaciones agrícolas, centros de agregación de productos y mercados al aire libre, y expansión documentada en India, Nigeria y Filipinas, demostrando su adaptabilidad para ampliar la adopción de energía limpia en las cadenas de suministro agrícola."
+              "title": "<strong>Scalable and Climate-Resilient Model</strong>",
+              "body": "The CaaS model demonstrates significant climate and scalability benefits, with climate-friendly cooling solutions that reduce GHG emissions by 50% and support food security by reducing food spoilage by more than 30%. The model’s success has been replicated across multiple contexts, with 100% solar-powered walk-in cold rooms implemented in farm clusters, produce aggregation centers, and outdoor markets, and expansion documented in India, Nigeria, and the Philippines, demonstrating its adaptability for scaling clean energy adoption in agricultural supply chains."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
-              "title": "<strong>Datos para la gestión adaptativa y la política</strong>",
-              "body": "La aplicación permite a los beneficiarios del enfriamiento rastrear la calidad de los cultivos en almacenamiento en tiempo real, capacitando a los agricultores para tomar decisiones informadas sobre cuándo y dónde vender sus cosechas. Además, el programa informado por datos de impacto desglosados por género permitió perfeccionarlo y demostró resultados tangibles y equitativos en cuanto a género. Los datos del proyecto sobre optimización del almacenamiento sirven como evidencia para el diseño y financiamiento futuros del programa."
+              "title": "<strong>Data for Adaptive Management and Policy</strong>",
+              "body": "The app enables cooling beneficiaries to track crop quality in storage in real time, empowering farmers to make informed decisions on when and where to sell their crops. Furthermore, the gender-disaggregated impact data-informed program refinement and demonstrated tangible, gender-equitable outcomes. The project’s data on storage optimization serves as evidence for future program design and funding."
             }
           }
         ]
@@ -488,13 +513,13 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Referencias</strong>"
+              "text": "<strong>References</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "BASE. (2024). <a href=\"https://energy-base.org/projects/your-vccas-smart-cool-markets/\"><u>Los mercados inteligentes y frescos de VCCA</u></a>.<br />Climate Chance. (2024). Iniciativa de enfriamiento como servicio (CaaS). <a href=\"https://www.climate-chance.org/en/best-pratices/cooling-as-a-service-caas-initiative/\"><u>Asociación Climate Chance</u></a>.<br />Laboratorio de Finanzas Climáticas. (2021). <a href=\"https://www.climatefinancelab.org/wp-content/uploads/2023/01/Instrument-Analysis-Report_CaaS.pdf\"><u>Enfriamiento como Servicio (CaaS) con Asistente Virtual de la Cadena de Frío (VCCA): Análisis del instrumento de laboratorio—Replicación en la India.<br /></u></a>Cool Coalition. (2022). <a href=\"https://coolcoalition.org/sustainable-cooling-india/\"><u>Enfriamiento sostenible para hacer que la gestión postcosecha sea asequible para los agricultores indios</u></a>.<br />Down to Earth. (2024). <a href=\"https://www.downtoearth.org.in/governance/as-told-to-parliament-august-6-2024-4-8-grains-5-15-fruits-vegetables-lost-after-harvest\"><u>Como se informó al Parlamento (6 de agosto de 2024): pérdida del 4-8% de granos, 5-15% de frutas y verduras después de la cosecha</u></a>.<br />Foro Económico Nacional. (2025). <a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>Abordando las pérdidas postcosecha en la India: una crisis silenciosa en la agricultura</u></a>.<br />Officers Pulse. (2024). <a href=\"https://officerspulse.com/2024/07/19/post-harvest-losses-in-agriculture/\"><u>Pérdidas postcosecha en la agricultura</u></a>. <br />PMF IAS. (2024). <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>Pérdida postcosecha en la India</u></a>.<br />Su VCCA. (2023a). <a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE y Empa lanzan la primera versión de la aplicación Coldtivate en la India</u></a>. <br />Su VCCA. (2023b). <a href=\"https://yourvcca.org/nigeria/2022/09/05/base-and-empa-release-the-first-version-of-the-coldivate-app-in-nigeria/\"><u>BASE y Empa lanzan la primera versión de la aplicación Coldtivate en Nigeria</u></a>. <br />Su VCCA. (2024a). <a href=\"https://yourvcca.org/\"><u>Tu asistente virtual de la cadena de frío</u></a>.<br />Tu VCCA. (2024b). <a href=\"https://yourvcca.org/blog/coldtivate-launches-the-farmers-interface/\"><u>Coldtivate lanza la interfaz de los agricultores</u></a>."
+              "text": "BASE. (2024). <a href=\"https://energy-base.org/projects/your-vccas-smart-cool-markets/\"><u>Your VCCA's smart cool markets</u></a>.<br />Climate Chance. (2024). Cooling as a Service (CaaS) initiative. <a href=\"https://www.climate-chance.org/en/best-pratices/cooling-as-a-service-caas-initiative/\"><u>Climate Chance Association</u></a>.<br />Climate Finance Lab. (2021). <a href=\"https://www.climatefinancelab.org/wp-content/uploads/2023/01/Instrument-Analysis-Report_CaaS.pdf\"><u>Cooling as a Service (CaaS) with Virtual Cold Chain Assistant (VCCA): LAB instrument analysis—India replication.<br /></u></a>Cool Coalition. (2022). <a href=\"https://coolcoalition.org/sustainable-cooling-india/\"><u>Sustainable cooling to make post-harvest management affordable for Indian farmers</u></a>.<br />Down to Earth. (2024). <a href=\"https://www.downtoearth.org.in/governance/as-told-to-parliament-august-6-2024-4-8-grains-5-15-fruits-vegetables-lost-after-harvest\"><u>As told to Parliament (August 6, 2024): 4-8% grains, 5-15% fruits & vegetables lost after harvest</u></a>.<br />National Economic Forum. (2025). <a href=\"https://nationaleconomicforum.org/nef_articles/addressing-post-harvest-losses-in-india-a-silent-crisis-in-agriculture/\"><u>Addressing post-harvest losses in India: A silent crisis in agriculture</u></a>.<br />Officers Pulse. (2024). <a href=\"https://officerspulse.com/2024/07/19/post-harvest-losses-in-agriculture/\"><u>Post harvest losses in agriculture</u></a>. <br />PMF IAS. (2024). <a href=\"https://www.pmfias.com/post-harvest-loss-in-india/\"><u>Post harvest loss in India</u></a>.<br />Your VCCA. (2023a). <a href=\"https://yourvcca.org/blog/base-and-empa-release-the-first-version-of-the-coldtivate-app-in-india/\"><u>BASE and Empa release the first version of the Coldtivate app in India</u></a>. <br />Your VCCA. (2023b). <a href=\"https://yourvcca.org/nigeria/2022/09/05/base-and-empa-release-the-first-version-of-the-coldivate-app-in-nigeria/\"><u>BASE and Empa release the first version of the Coldtivate app in Nigeria</u></a>. <br />Your VCCA. (2024a). <a href=\"https://yourvcca.org/\"><u>Your Virtual Cold Chain Assistant</u></a>.<br />Your VCCA. (2024b). <a href=\"https://yourvcca.org/blog/coldtivate-launches-the-farmers-interface/\"><u>Coldtivate launches the farmers’ interface</u></a>."
             }
           }
         ]
@@ -505,11 +530,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_8.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_7.png",
           "caption": ""
         },
-        "intro": "M7: Datos en Energía Sostenible",
-        "title": "Datos geoespaciales"
+        "intro": "M7: Data In Sustainable Energy",
+        "title": "B: Geospatial Data"
       }
     },
     {
@@ -520,13 +545,13 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Ante problemas ambientales apremiantes, como el cambio climático, la deforestación y la identificación de fuentes de contaminación, los avances en Inteligencia Artificial (A.I.) mejoran la utilidad y el poder del análisis de datos geoespaciales. Los tomadores de decisiones pueden aprovechar las herramientas de datos para evaluar los impactos y la ubicación de los recursos energéticos de bajo carbono y la infraestructura asociada. El poder computacional excepcional de la IA y sus capacidades de procesamiento de datos la convierten en una herramienta vital en el esfuerzo por preservar y proteger nuestro planeta.<br /><br />Sirmacek y Vinuesa (2022) exploraron la integración de la IA. y <ai prompt=\"Cuéntame más sobre la teledetección.\">detección remota 💬️</ai> para mejorar la adaptación climática en áreas urbanas. Propusieron un marco que combina IA. y simulación para extraer indicadores de imágenes satelitales, facilitando estimaciones predictivas de estados futuros relacionados con la adaptación climática. Su estudio destacó el potencial de la IA. para crear mapas de uso del suelo rápidos, simular escenarios de desastre, identificar valores atípicos y proporcionar predicciones en tiempo real. Este enfoque tiene como objetivo ayudar a los tomadores de decisiones a mantener el bienestar social, los recursos naturales y la biodiversidad."
+              "text": "In the face of pressing environmental issues, such as climate change, deforestation, and pollution source identification, advancements in Artificial Intelligence (A.I.) enhance the usefulness and power of geospatial data analytics. Decision-makers can leverage data tools to assess the impacts and siting of low-carbon energy resources and associated infrastructure. A.I.’s exceptional computational power and data processing capabilities make it a vital tool in the effort to preserve and protect our planet .<br /><br />Sirmacek and Vinuesa (2022) explored the integration of A.I. and <ai prompt=\"What is remote sensing?\">remote sensing 💬️</ai> to enhance climate adaptation in urban areas. They proposed a framework combining A.I. and simulation to extract indicators from satellite images, facilitating predictive estimations of future states related to climate adaptation. Their study highlighted the potential of A.I. to create rapid land-use maps, simulate disaster scenarios, identify outliers, and provide real-time predictions. This approach aims to aid decision-makers in sustaining societal well-being, natural resources, and biodiversity."
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La teledetección y los Sistemas de Información Geográfica (SIG) se han convertido en herramientas indispensables en el sector energético, proporcionando datos y análisis completos y precisos sobre las relaciones espaciales. La teledetección abarca tecnologías que capturan datos sobre la superficie de la Tierra desde la distancia, generalmente a través de satélites, aviones y plataformas aéreas. GIS, por otro lado, proporciona un marco para integrar, analizar y visualizar estos datos geoespaciales. Estas herramientas forman una combinación poderosa que puede aprovecharse para abordar los principales desafíos en el sector energético."
+              "text": "Remote sensing and Geographic Information Systems (GIS) have become indispensable tools in the energy sector, providing comprehensive and precise data and analysis about spatial relationships. Remote sensing encompasses technologies that capture data about the Earth's surface from a distance, typically through satellites, aircraft, and aerial platforms. GIS, on the other hand, provides a framework for integrating, analyzing, and visualizing these geospatial data . These tools form a powerful combination that can be leveraged to address key challenges in the energy sector."
             }
           }
         ]
@@ -540,7 +565,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Enríquez Zárate et al. (2022) inteligencia artificial aplicada para detectar y analizar la erosión en las palas de aerogeneradores utilizando modelos de aprendizaje automático. El estudio se centró en la erosión del borde de ataque y su impacto en el rendimiento aerodinámico y la integridad estructural. Utilizaron el software QBlade para el análisis aerodinámico y modal, simulando diferentes niveles de erosión y sus efectos en la generación de energía. Los investigadores desarrollaron modelos de aprendizaje automático para clasificar la ubicación de la erosión y predecir su gravedad, logrando una alta precisión. Este enfoque innovador, mejorado por AutoML — que automatiza el proceso de selección de modelos óptimos y ajuste de hiperparámetros — proporciona un método integral para el mantenimiento predictivo, minimizando el tiempo de inactividad y mejorando la eficiencia de las turbinas eólicas.<br /><br />Muxica et al. (2024) IA aplicada en la teledetección dentro del sector energético diseñando e implementando un sistema de sensores autónomos para la medición de vibraciones en aerogeneradores de baja capacidad. Este sistema, implementado en aerogeneradores que operan en condiciones climáticas adversas, utiliza IA. para procesar los datos recopilados de acelerómetros triaxiales colocados en las palas. La IA Los procesos permiten la monitorización y evaluación en tiempo real de las características dinámicas de las palas de aerogeneradores, facilitando la detección temprana de daños y el mantenimiento. Al integrar la IA. con tecnologías de teledetección, el sistema garantiza un funcionamiento fiable y eficiente de las turbinas eólicas, reduciendo los costos de mantenimiento y mejorando la fiabilidad general de <ai prompt=\"Proporcione más información sobre la energía eólica.\">la generación de energía eólica 💬️</ai> Esta aplicación demuestra el potencial de la IA. en el avance en la monitorización de la salud estructural y la optimización de los recursos de energía renovable."
+              "text": "Enríquez Zárate et al. (2022) applied A.I. to detect and analyze erosion in wind turbine blades using machine learning models. The study focused on the leading-edge erosion and its impact on aerodynamic performance and structural integrity. They utilized QBlade software for aerodynamic and modal analysis, simulating different erosion levels and their effects on power generation. The researchers developed machine learning models to classify the location of erosion and predict its severity, achieving high accuracy. This innovative approach, enhanced by AutoML—which automates the process of selecting optimal models and tuning hyperparameters— provides a comprehensive method for predictive maintenance, minimizing downtime, and enhancing wind turbine efficiency.<br /><br />Muxica et al. (2024) applied A.I. in remote sensing within the energy sector by designing and implementing an autonomous sensor system for vibration measurement in low-capacity wind turbines. This system, deployed on wind turbines operating under harsh weather conditions, uses A.I. to process data collected from triaxial accelerometers attached to the blades. The A.I. processes enable real-time monitoring and evaluation of the dynamic characteristics of wind turbine blades, facilitating early damage detection and maintenance. By integrating A.I. with remote sensing technologies, the system ensures reliable and efficient wind turbine operation, reducing maintenance costs and enhancing the overall reliability of <ai prompt=\"Explain wind energy.\">wind energy 💬️</ai> generation. This application demonstrates the potential of A.I. in advancing structural health monitoring and optimizing renewable energy resources."
             }
           }
         ]
@@ -554,7 +579,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Para concluir, la integración de la IA. con la teledetección y las aplicaciones SIG, tiene un potencial inmenso para avanzar en la conservación del medio ambiente, la adaptación al clima y la optimización de la energía renovable. Esta investigación demuestra las diversas aplicaciones de la IA. en la monitorización de cambios ambientales, prediciendo la erosión en las palas de aerogeneradores y mejorando la eficiencia y fiabilidad de la generación de energía eólica. Estos avances subrayan el papel crítico de la IA. al facilitar la toma de decisiones basada en datos, permitir el mantenimiento proactivo y apoyar el desarrollo sostenible en el sector energético. Como IA. sigue evolucionando, sus aplicaciones en teledetección y SIG sin duda se volverán aún más integrales para abordar los desafíos ambientales y energéticos actuales."
+              "text": "To conclude, the integration of A.I. with remote sensing and GIS applications holds immense potential for advancing environmental conservation, climate adaptation, and renewable energy optimization. This research demonstrates the diverse applications of A.I. in monitoring environmental changes, predicting erosion in wind turbine blades, and enhancing the efficiency and reliability of wind energy generation. These advancements underscore the critical role of A.I. in facilitating data-driven decision-making, enabling proactive maintenance, and supporting sustainable development in the energy sector. As A.I. continues to evolve, its applications in remote sensing and GIS will undoubtedly become even more integral to addressing the current pressing environmental and energy challenges."
             }
           }
         ]
@@ -565,12 +590,12 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L3_9.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_4.png",
           "caption": ""
         },
-        "intro": "Asia y Región del Pacífico",
-        "title": "Estudio de caso: Filipinas",
-        "subtitle": "Segmentación de precisión impulsada por IA para la reducción de la pobreza – Las imágenes satelitales y el aprendizaje automático desbloquean mapas de pobreza granulares para brindar ayuda de emergencia a 162,000 hogares filipinos durante la COVID-19"
+        "intro": "Asia and Pacific Region",
+        "title": "Case Study: Philippines",
+        "subtitle": "AI-powered precision targeting for poverty reduction – Satellite imagery and machine learning unlocking granular poverty maps to drive emergency aid to 162,000 filipino households during COVID-19"
       }
     },
     {
@@ -581,13 +606,13 @@
           {
             "template_id": "paragraph_large",
             "content": {
-              "text": "La pobreza extrema sigue siendo un problema en constante crecimiento en Filipinas. En 2021, la magnitud de la población empobrecida fue de 19.902.750, lo que representa un aumento de 2.232.540 o 12,6 % en comparación con 2018, en gran parte debido a los impactos económicos de la pandemia de COVID-19. Como resultado, aproximadamente 1,6 millones de hogares en el país no tenían acceso a la electricidad, lo que contribuye a desafíos persistentes en la reducción de la pobreza y el acceso equitativo a los servicios básicos."
+              "text": "Extreme poverty remains an ever-growing problem in the Philippines. In 2021, the magnitude of the impoverished population was 19,902,750, representing an increase of 2,232,540 or 12.6% compared to 2018, largely due to the economic impacts of the COVID-19 pandemic. As a result, approximately 1.6 million households in the country had no access to electricity, contributing to persistent challenges in poverty alleviation and equitable access to basic services."
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Para ayudar a resolver estos problemas, el PNUD Filipinas, a través de su Accelerator Lab (ALab), implementó iniciativas para apoyar la erradicación de la pobreza y abordar la desigualdad social, pero enfrentó el desafío de la falta de datos robustos y granulares para tomar decisiones estratégicas y de alto nivel (UNDP). Las estadísticas tradicionales de pobreza compiladas por <ai prompt=\"Explicar las oficinas estadísticas nacionales.\">las oficinas estadísticas nacionales 💬️</ai> están disponibles a nivel nacional, regional o provincial y son insuficientes para entrenar algoritmos para predecir con éxito la pobreza en los niveles geográficos granulares necesarios para intervenciones específicas (Development Asia, 2020)."
+              "text": "To help solve these issues, UNDP Philippines, through its Accelerator Lab (ALab), implemented initiatives to support poverty eradication and address social inequality, but was challenged by the unavailability of robust, granular data to make strategies and high-level decisions (UNDP). Traditional poverty statistics compiled by <ai prompt=\"Provide more info on national statistical offices.\">national statistical offices 💬️</ai> are available at national, regional, or provincial levels and are insufficient for training algorithms to successfully predict poverty at the granular geographic levels needed for targeted interventions (Development Asia, 2020)."
             }
           }
         ]
@@ -601,7 +626,7 @@
           {
             "template_id": "paragraph_large",
             "content": {
-              "text": "El PNUD Filipinas, a través de su Accelerator Lab, ha estado colaborando con Zero Extreme Poverty Philippines 2030 (ZEP2030) para diseñar y probar una cartera de enfoques para una acción contra la pobreza localizada, dirigida y convergente (<a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>UNDP, 2021</u></a>). ZEP2030 es una coalición de 140 organizaciones de la sociedad civil que han adoptado el objetivo de emancipar a 1 millón de familias extremadamente pobres de la pobreza mediante acción colectiva para 2030 (<a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>UNDP, 2021</u></a>). Para apoyar este ambicioso objetivo, Thinking Machines ayudó al PNUD y Zero Extreme Poverty PH 2030 a implementar metodologías avanzadas de mapeo de la pobreza impulsadas por IA, mientras que el Banco de Desarrollo de Asia realizó por separado estudios de viabilidad pioneros sobre el uso de imágenes satelitales y aprendizaje automático para la estimación de la pobreza (<a href=\"https://digitalx.undp.org/thinking-machines-data-science_1.html\"><u>UNDP Digital X</u></a>)."
+              "text": "UNDP Philippines, through its Accelerator Lab, has been collaborating with Zero Extreme Poverty Philippines 2030 (ZEP2030) to design and test a portfolio of approaches to localized, targeted, and convergent poverty action (<a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>UNDP, 2021</u></a>). ZEP2030 is a coalition of 140 civil society organizations that have adopted the target of emancipating 1 million extremely poor families from poverty through collective action by 2030 (<a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>UNDP, 2021</u></a>). To support this ambitious goal, Thinking Machines helped UNDP and Zero Extreme Poverty PH 2030 implement advanced AI-driven poverty mapping methodologies, while the Asian Development Bank separately conducted pioneering feasibility studies on using satellite imagery and machine learning for poverty estimation (<a href=\"https://digitalx.undp.org/thinking-machines-data-science_1.html\"><u>UNDP Digital X</u></a>)."
             }
           }
         ]
@@ -612,7 +637,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_4.png",
           "caption": ""
         }
       }
@@ -625,7 +650,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Este proyecto tiene como objetivo utilizar el aprendizaje automático y las imágenes satelitales para mapear la pobreza en Filipinas, específicamente para superar los desafíos de recopilar datos socioeconómicos confiables que son relativamente largos, laboriosos y costosos. Los principales objetivos del proyecto incluyen utilizar el aprendizaje por transferencia y las imágenes satelitales para mapear la pobreza en el país, desarrollar modelos preliminares de predicción de la pobreza para Filipinas y superar las limitaciones de las encuestas tradicionales en tierra mediante el aprovechamiento del aprendizaje automático y la información geoespacial (<a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Thinking Machines, 2019</u></a>).<br /><br /><strong>Fuentes de datos y recopilación<br /><br /></strong>El proyecto utilizó la Encuesta Nacional de Demografía y Salud de 2017 (NDHS) como datos de referencia para entrenar modelos de aprendizaje automático. La Autoridad de Estadísticas de Filipinas implementó esta encuesta a nivel nacional desde agosto hasta octubre de 2017, cubriendo más de 31,000 hogares en más de 1,200 localidades en todo Filipinas. Los conjuntos de datos incluyen las puntuaciones de riqueza de los hogares del país basadas en atributos como el material del techo, la propiedad de electrodomésticos y el acceso al agua y la electricidad (<a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Thinking Machines, 2019, para.</u></a>). 5</u></a>).<br /><br />El estudio utilizó imágenes satelitales disponibles públicamente para garantizar la rentabilidad y un amplio acceso (<a href=\"https://www.researchgate.net/publication/338131416_MAPPING_POVERTY_IN_THE_PHILIPPINES_USING_MACHINE_LEARNING_SATELLITE_IMAGERY_AND_CROWD-SOURCED_GEOSPATIAL_INFORMATION\"><u>ResearchGate, 2019</u></a>). El proyecto utilizó la API de Google Static Maps para descargar imágenes satelitales de 400x400 px con zoom 17, descargando finalmente 134,540 imágenes satelitales que capturaron características físicas e infraestructurales detalladas (<a href=\"https://www.researchgate.net/publication/338131416_MAPPING_POVERTY_IN_THE_PHILIPPINES_USING_MACHINE_LEARNING_SATELLITE_IMAGERY_AND_CROWD-SOURCED_GEOSPATIAL_INFORMATION\"><u>ResearchGate, 2019</u></a>)."
+              "text": "This project aims to use machine learning and satellite imagery to map poverty in the Philippines, specifically to overcome the challenges of collecting reliable socioeconomic data that is relatively time-consuming, labor-intensive, and expensive. The project’s main objectives include using transfer learning and satellite imagery to map poverty in the country, developing preliminary poverty prediction models for the Philippines, and overcoming the limitations of traditional on-ground surveys by leveraging machine learning and geospatial information (<a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Thinking Machines, 2019</u></a>).<br /><br /><strong>Data Sources and Collection<br /><br /></strong>The project utilized the 2017 National Demographic and Health Survey (NDHS) as ground truth data for training machine learning models. The Philippine Statistics Authority implemented this nationwide survey from August to October 2017, covering over 31,000 households across more than 1,200 locations throughout the Philippines. The datasets include the country’s household wealth scores based on attributes such as roof material, appliance ownership, and access to water and electricity (<a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Thinking Machines, 2019, para. 5</u></a>).<br /><br />The study utilized publicly available satellite imagery to ensure cost-effectiveness and broad accessibility (<a href=\"https://www.researchgate.net/publication/338131416_MAPPING_POVERTY_IN_THE_PHILIPPINES_USING_MACHINE_LEARNING_SATELLITE_IMAGERY_AND_CROWD-SOURCED_GEOSPATIAL_INFORMATION\"><u>ResearchGate, 2019</u></a>). The project used the Google Static Maps API to download 400x400 px zoom 17 satellite images, ultimately downloading 134,540 satellite images that captured detailed physical and infrastructural features (<a href=\"https://www.researchgate.net/publication/338131416_MAPPING_POVERTY_IN_THE_PHILIPPINES_USING_MACHINE_LEARNING_SATELLITE_IMAGERY_AND_CROWD-SOURCED_GEOSPATIAL_INFORMATION\"><u>ResearchGate, 2019</u></a>)."
             }
           }
         ]
@@ -639,7 +664,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El proyecto empleó una metodología de aprendizaje por transferencia originalmente desarrollada por investigadores de la Universidad de Stanford. Este enfoque abordó un desafío fundamental en la cartografía de la pobreza: la disponibilidad insuficiente de datos etiquetados de pobreza a niveles geográficos granulares necesarios para entrenar algoritmos de aprendizaje automático (<a href=\"https://development.asia/insight/using-machine-learning-satellite-images-map-poverty\"><u>Development Asia, 2020</u></a>).<br /><br />Las estadísticas tradicionales de pobreza generalmente se recopilan solo a nivel nacional, regional o provincial, lo que dificulta entrenar algoritmos para la predicción de pobreza de gran precisión. El enfoque de aprendizaje por transferencia evitó esta limitación utilizando la intensidad de la luz nocturna como objetivo de entrenamiento intermedio.<br /><br />El proyecto empleó una metodología de aprendizaje por transferencia originalmente desarrollada por investigadores de la Universidad de Stanford. La metodología implementó un proceso de aprendizaje automático en dos etapas.<br />"
+              "text": "The project employed a transfer learning methodology originally developed by Stanford University researchers. This approach addressed a fundamental challenge in poverty mapping: the insufficient availability of labeled poverty data at granular geographic levels needed for training machine learning algorithms (<a href=\"https://development.asia/insight/using-machine-learning-satellite-images-map-poverty\"><u>Development Asia, 2020</u></a>).<br /><br />Traditional poverty statistics are typically compiled only at national, regional, or provincial levels, making it difficult to train algorithms for fine-grained poverty prediction. The transfer learning approach circumvented this limitation by using nighttime light intensity as an intermediate training target.<br /><br />The project employed a transfer learning methodology originally developed by Stanford University researchers. The methodology implemented a two-stage machine learning process.<br />"
             }
           }
         ]
@@ -653,25 +678,25 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Etapa 1: Predicción de la luz nocturna </strong>"
+              "text": "<strong>Stage 1: Nighttime Light Prediction </strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Los investigadores entrenaron una red neuronal convolucional (CNN) para predecir la intensidad de la luz nocturna a partir de imágenes satelitales diurnas. Esto aprovechó la relación entre la luminosidad nocturna y el desarrollo económico, donde las áreas más brillantes generalmente indican niveles más altos de actividad económica."
+              "text": "Researchers trained a convolutional neural network (CNN) to predict nighttime light intensity from daytime satellite images. This leveraged the relationship between nighttime luminosity and economic development, where brighter areas typically indicate higher levels of economic activity."
             }
           },
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Etapa 2: Predicción de la pobreza </strong>"
+              "text": "<strong>Stage 2: Poverty Prediction </strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "El equipo extrajo vectores de características de 4.096 dimensiones del CNN entrenado, que representan patrones visuales asociados con diferentes niveles de intensidad de la luz nocturna. Estas características se utilizaron luego en modelos de regresión ridge para predecir la riqueza y los niveles de pobreza de los hogares (Thinking Machines, 2019, párrafo. 9). Con esta combinación de aprendizaje automático y datos geoespaciales, pudieron proporcionar estimaciones de pobreza más precisas y detalladas en todo el país."
+              "text": "The team extracted 4,096-dimensional feature vectors from the trained CNN, representing visual patterns associated with different levels of nighttime light intensity. These features were then used in ridge regression models to predict household wealth and poverty levels (Thinking Machines, 2019, para. 9). With this combination of machine learning and geospatial data, they were able to provide more accurate and detailed poverty estimates across the country."
             }
           }
         ]
@@ -682,7 +707,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_13.png",
           "caption": ""
         }
       }
@@ -695,7 +720,7 @@
           {
             "template_id": "paragraph_large",
             "content": {
-              "text": "Durante la pandemia de COVID-19, ZEP2030 y UNDP ALab, en colaboración con la startup AI4Gov, lanzaron COVID Pulse PH. Esta encuesta innovadora se implementó a través de un chatbot de mensajería que fue socializado a través de las redes comunitarias de ZEP2030 y del Movimiento de Reconstrucción Rural de Filipinas. Se implementaron tres olas de la encuesta desde mayo de 2020, confirmando que el COVID-19 afectó más a los más pobres (<a href=\"https://kapicapistrano.wordpress.com/2021/10/18/local-convergence-for-zero-poverty/\"><u>Kapi Capistrano, 2021</u></a>)."
+              "text": "During the COVID-19 pandemic, ZEP2030 and UNDP ALab, in collaboration with startup AI4Gov, launched COVID Pulse PH. This innovative survey was deployed through a messenger chatbot that was socialized through the community networks of ZEP2030 as well as of the Philippine Rural Reconstruction Movement. Three waves of the survey were implemented since May 2020, confirming that COVID-19 affected the poorest the most (<a href=\"https://kapicapistrano.wordpress.com/2021/10/18/local-convergence-for-zero-poverty/\"><u>Kapi Capistrano, 2021</u></a>)."
             }
           }
         ]
@@ -709,42 +734,42 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Resultados e Impacto</strong>"
+              "text": "<strong>Outcomes and Impact</strong>"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Modelos de predicción de pobreza creados con éxito que explican el 56% de la variancia de la riqueza, demostrando la viabilidad del mapeo de pobreza impulsado por IA en Filipinas."
+              "body": "Successfully created poverty prediction models explaining 56% of wealth variance, demonstrating the feasibility of AI-driven poverty mapping in the Philippines."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Aplicación de técnicas de mapeo de la pobreza para apoyar la distribución de alimentos de emergencia COVID-19 en Metro Manila y provincias cercanas, atendiendo a 162,000 hogares en 44 barangays."
+              "body": "Applied poverty mapping techniques to support COVID-19 emergency food distribution targeting in Metro Manila and nearby provinces, serving 162,000 households across 44 barangays."
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Marco de colaboración establecido entre el <strong>Laboratorio Acelerador de la ONU en Filipinas</strong> y la coalición <strong>ZEP2030</strong>, que conduce a iniciativas de convergencia local en áreas que incluyen la ciudad de Antipolo y la provincia de Cebu"
+              "body": "Established collaborative framework between UNDP Philippines Accelerator Lab and ZEP2030 coalition, leading to local convergence initiatives in areas including Antipolo City and Cebu province"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Desplegó la encuesta de chatbot COVID Pulse PH en tres oleadas desde mayo de 2020, recopilando datos en tiempo real sobre el impacto de la pobreza en Metro Manila, Metro Cebu y seis provincias durante la pandemia"
+              "body": "Deployed COVID Pulse PH chatbot survey across three waves since May 2020, collecting real-time poverty impact data from Metro Manila, Metro Cebu, and six provinces during the pandemic"
             }
           },
           {
             "template_id": "bullet_point",
             "content": {
               "title": "",
-              "body": "Código y metodologías de código abierto publicados, permitiendo la replicación y adaptación del enfoque para otros países en desarrollo e instituciones de investigación."
+              "body": "Published open-source code and methodologies, enabling replication and adaptation of the approach for other developing countries and research institutions."
             }
           }
         ]
@@ -758,22 +783,22 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "La experiencia pionera de Filipinas con la cartografía de la pobreza impulsada por IA ofrece ideas críticas para otras naciones que enfrentan desafíos similares de escasez de datos y desarrollo:"
+              "text": "The Philippines’ pioneering experience with AI-driven poverty mapping offers critical insights for other nations facing similar data scarcity and development challenges:"
             }
           },
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "<strong>Escalabilidad y eficiencia</strong>",
-              "body": "La principal lección aprendida del proyecto demuestra que el aprendizaje automático proporciona un medio escalable, confiable y de bajo costo para obtener información sobre la pobreza en áreas que las encuestas no cubren. Las encuestas tradicionales en el terreno pueden costar decenas de millones de pesos y generalmente se realizan solo cada tres a cinco años a nivel regional o provincial, mientras que los enfoques de aprendizaje automático que utilizan imágenes satelitales ofrecen una alternativa de bajo costo para proporcionar estimaciones confiables de la pobreza.",
+              "title": "<strong>Scalability and Efficiency</strong>",
+              "body": "The main lesson learned from the project demonstrates that machine learning provides a scalable, reliable, and low-cost means to obtain poverty information for areas that surveys do not cover. Traditional on-the-ground surveys can cost tens of millions of pesos and are usually done only every three to five years at the regional or provincial level, while machine learning approaches using satellite imagery offer a low-cost alternative for providing reliable estimates of poverty.",
               "source": ""
             }
           },
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "<strong>Enfoques alternativos de datos y rápida implementación</strong>",
-              "body": "El bajo costo de este enfoque permite una rápida iteración, lo que abre la puerta a futuros experimentos con otros conjuntos de datos como redes viales, densidad de población y movilidad. La metodología puede estimar la riqueza y la pobreza para cualquier área de 18 kilómetros cuadrados en una fracción del tiempo y costo de realizar una encuesta domiciliaria. Con este enfoque, este tipo de proyecto puede implementarse en otras geografías, considerando su eficiencia en proporcionar resultados a un costo menor en comparación con las encuestas aleatorias convencionales",
+              "title": "<strong>Alternative Data Approaches and Rapid Implementation</strong>",
+              "body": "The low cost of this approach allows for rapid iteration, which opens the door to future experiments with other datasets such as road networks, population density, and mobility. The methodology can estimate wealth and poverty for any 18 square kilometer area within a fraction of the time and cost of running a household survey. With this approach, this kind of project can be rolled out to other geographies, considering its efficiency in providing results at a lower cost compared to conventional randomized surveys",
               "source": ""
             }
           }
@@ -788,16 +813,16 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "<strong>Colaboración Multi-Partes</strong>",
-              "body": "El éxito del proyecto dependía de asociaciones sólidas entre el <strong>UNDP Philippines Accelerator Lab</strong>, coaliciones de la sociedad civil como <strong>ZEP2030</strong>, agencias gubernamentales y empresas tecnológicas.",
+              "title": "<strong>Multi-Stakeholder Collaboration</strong>",
+              "body": "The success of the project hinged on robust partnerships between UNDP Philippines Accelerator Lab, civil society coalitions such as ZEP2030, government agencies, and technology firms.",
               "source": ""
             }
           },
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "<strong>Validación comunitaria y liderazgo local</strong>",
-              "body": "La estrategia « todo en uno local » de la coalición ZEP2030 enfatizó la importancia del liderazgo local en las iniciativas de reducción de la pobreza, <br> las convergencias locales sirviendo como vehículos para la reducción de la pobreza en las localidades al facilitar una colaboración más estrecha entre los actores del desarrollo.",
+              "title": "<strong>Community Validation and Local Leadership</strong>",
+              "body": "The ZEP2030 coalition’s ‘all-in local’ strategy emphasized the importance of local leadership in poverty reduction initiatives, with local convergences serving as vehicles for poverty reduction in localities by facilitating tighter collaboration among development actors.",
               "source": ""
             }
           }
@@ -812,13 +837,13 @@
           {
             "template_id": "subtitle_small",
             "content": {
-              "text": "<strong>Referencias</strong>"
+              "text": "<strong>References</strong>"
             }
           },
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Banco Asiático de Desarrollo (2021). <a href=\"https://www.adb.org/publications/mapping-poverty-satellite-imagery-philippines\"><u>Mapeo de la distribución espacial de la pobreza utilizando imágenes satelitales en Filipinas</u></a>.<br /><br />Development Asia. (2020). <a href=\"https://development.asia/insight/using-machine-learning-satellite-images-map-poverty\"><u>Usando aprendizaje automático en imágenes satelitales para mapear la pobreza</u></a>.<br /><br />Development Asia. (2020). <a href=\"https://development.asia/explainer/how-satellite-data-helped-get-food-hungry-during-covid-19\"><u>Cómo los datos satelitales ayudaron a llevar comida a los hambrientos durante COVID-19</u></a>.<br /><br />Javier, C., Maniego, M. L., Duante, C., & Angeles-Agdeppa, I. (2022). <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8883167\"><u>Impactos de la pandemia de COVID-19 en la seguridad alimentaria de los hogares y el acceso a los <ai prompt=\"Explicar la protección social.\">programas de protección social 💬️</ai></u></a>. <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8883167/\"><u>/<br /></u></a><br />Kapicapistrano. (2021, 18 de octubre) <a href=\"https://kapicapistrano.wordpress.com/2021/10/18/local-convergence-for-zero-poverty/\"><u>Convergencia local para la pobreza cero</u></a>.<br /><br />Philippine Statistics Authority. (n.d.). <a href=\"https://rssocar.psa.gov.ph/poverty\"><u>Pobreza</u></a>.<br />Thinking Machines Data Science. (2019). <a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Usando aprendizaje por transferencia e imágenes satelitales para mapear la pobreza en Filipinas</u></a>."
+              "text": "Asian Development Bank. (2021). <a href=\"https://www.adb.org/publications/mapping-poverty-satellite-imagery-philippines\"><u>Mapping the spatial distribution of poverty using satellite imagery in the Philippines</u></a>.<br /><br />Development Asia. (2020). <a href=\"https://development.asia/insight/using-machine-learning-satellite-images-map-poverty\"><u>Using machine learning on satellite images to map poverty</u></a>.<br /><br />Development Asia. (2020). <a href=\"https://development.asia/explainer/how-satellite-data-helped-get-food-hungry-during-covid-19\"><u>How satellite data helped get food to the hungry during COVID-19</u></a>.<br /><br />Javier, C., Maniego, M. L., Duante, C., & Angeles-Agdeppa, I. (2022). <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8883167\"><u>Impacts of COVID-19 pandemic on household food security and access to <ai prompt=\"Share details about social protection.\">social protection 💬️</ai> programs in the Philippines: Findings from a telephone rapid nutrition assessment survey</u></a>. <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8883167/\"><u>/<br /></u></a><br />Kapicapistrano. (2021, October 18). <a href=\"https://kapicapistrano.wordpress.com/2021/10/18/local-convergence-for-zero-poverty/\"><u>Local convergence for zero poverty</u></a>.<br /><br />Philippine Statistics Authority. (n.d.). <a href=\"https://rssocar.psa.gov.ph/poverty\"><u>Poverty</u></a>.<br />Thinking Machines Data Science. (2019). <a href=\"https://stories.thinkingmachin.es/using-transfer-learning-and-satellite-imagery-to-map-poverty-in-the-philippines/\"><u>Using transfer learning and satellite imagery to map poverty in the Philippines</u></a>."
             }
           }
         ]
@@ -832,7 +857,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Thinking Machines Data Science. (2020). <a href=\"https://stories.thinkingmachin.es/mapping-poverty-in-the-philippines-with-combined-open-geospatial-datasets/\"><u>Mapeo de la pobreza en Filipinas con conjuntos de datos geoespaciales abiertos combinados</u></a>.<br /><br />Thinking Machines Data Science. (n.d.). ph-poverty-mapping: <a href=\"https://github.com/thinkingmachines/ph-poverty-mapping\"><u>Mapeo de la pobreza en Filipinas usando aprendizaje automático, imágenes satelitales e información geoespacial colaborativa</u></a>.<br /><br />Thinking Machines Data Science. (n.d.). unicef-ai4d-poverty-mapping: <a href=\"https://github.com/thinkingmachines/unicef-ai4d-poverty-mapping\"><u>Proyecto de mapeo de riqueza relativa de UNICEF AI4D</u></a>.<br /><br />PNUD. (n.d.). Digital X Solution : <a href=\"https://digitalx.undp.org/thinking-machines-data-science_1.html\"><u>Thinking Machines Data Science</u></a>.<br /><br /><ai prompt=\"Tell me more about undp accelerator labs.\">undp accelerator labs 💬️</ai>. (n.d.). <a href=\"https://www.undp.org/acceleratorlabs/undp-philippines-accelerator-lab\"><u>Laboratorio Acelerador del PNUD Filipinas</u></a>.<br /><br />PNUD Filipinas. (2021). <a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>Convergencia local para cero pobreza: Experimentación en acción colectiva con ZEP PH 2030</u></a>.<br /><br />World Data Lab. (2024). <a href=\"https://worlddata.io/portfolio/ai-poverty-mapping/\"><u>Mapeo de la pobreza con IA</u></a>.<br /><br />Cero pobreza extrema. (n.d.). <a href=\"https://zeropovertyph.net/zep2030-ph-toolkit/\"><u>Kit de herramientas ZEP2030 PH</u></a>."
+              "text": "Thinking Machines Data Science. (2020). <a href=\"https://stories.thinkingmachin.es/mapping-poverty-in-the-philippines-with-combined-open-geospatial-datasets/\"><u>Mapping poverty in the Philippines with combined open geospatial datasets</u></a>.<br /><br />Thinking Machines Data Science. (n.d.). ph-poverty-mapping: <a href=\"https://github.com/thinkingmachines/ph-poverty-mapping\"><u>Mapping Philippine Poverty using Machine Learning, Satellite Imagery, and Crowd-sourced Geospatial Information</u></a>.<br /><br />Thinking Machines Data Science. (n.d.). unicef-ai4d-poverty-mapping: <a href=\"https://github.com/thinkingmachines/unicef-ai4d-poverty-mapping\"><u>UNICEF AI4D Relative Wealth Mapping Projec</u></a>t.<br /><br />UNDP. (n.d.). Digital X Solution: <a href=\"https://digitalx.undp.org/thinking-machines-data-science_1.html\"><u>Thinking Machines Data Science</u></a>.<br /><br /><ai prompt=\"Provide more info on undp accelerator labs.\">undp accelerator labs 💬️</ai>. (n.d.). <a href=\"https://www.undp.org/acceleratorlabs/undp-philippines-accelerator-lab\"><u>UNDP Philippines Accelerator Lab</u></a>.<br /><br />UNDP Philippines. (2021). <a href=\"https://www.undp.org/philippines/blog/local-convergence-zero-poverty-experimentation-collective-action-zep-ph-2030\"><u>Local convergence for zero poverty: Experimentation on collective action with ZEP PH 2030</u></a>.<br /><br />World Data Lab. (2024). <a href=\"https://worlddata.io/portfolio/ai-poverty-mapping/\"><u>AI Poverty Mapping</u></a>.<br /><br />Zero Extreme Poverty. (n.d.). <a href=\"https://zeropovertyph.net/zep2030-ph-toolkit/\"><u>ZEP2030 PH Toolkit</u></a>."
             }
           }
         ]
@@ -843,11 +868,11 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_9.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_2.png",
           "caption": ""
         },
-        "intro": "M7: Datos en Energía Sostenible",
-        "title": "C: Importancia de la visualización de datos"
+        "intro": "M7: Data In Sustainable Energy",
+        "title": "C: Importance of data visualization"
       }
     },
     {
@@ -858,81 +883,42 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La visualización de datos puede dar vida a los datos y contar una historia de manera efectiva. Es importante utilizar visualizaciones de datos que conviertan la información y los datos en ideas accionables. En el sector energético, donde los datos desempeñan un papel importante en justificar y racionalizar la toma de decisiones, una visualización efectiva puede mejorar la claridad y la comprensibilidad, mientras que una visualización ineficaz puede causar confusión y pérdida de enfoque. No existe un marco estandarizado global sobre visualización de datos, sin embargo, hay orientación sobre los mejores principios, que provienen de años de investigación y experimentación en las industrias del diseño y los medios. La orientación sobre las mejores prácticas se puede encontrar en el libro <strong>Visualizing Data</strong> y en la página web <em>Material Design</em>. Ambas referencias explican el uso correcto de los gráficos, el uso de anotaciones y elementos de diseño editorial."
+              "text": "Data visualization can effectively bring data to life and tell a story. It is important to use data visualizations that turn information and data into actionable insights . In the energy sector, where data have an important role in justifying and rationalizing decision making, an effective visualization can enhance clarity and comprehensibility, whereas an ineffective visualization can cause confusion and loss of focus. There isn’t a global standardized framework on data visualization, however there is guidance on best principles, which come from years of research and experimentation in the design and media industries. Guidance on best practice can be found in the book Visualizing Data and in the webpage Material Design. Both references explain the correct use of graphs, the use of annotations and elements of editorial design."
             }
           }
         ]
       }
     },
     {
-  "template_id": "image_hotspot",
-  "color_scheme": "dark",
-
-  "content": {
-    "orientation": "landscape", 
-    "image":{
-      "size":[800,450],
-    "url": "https://cdn.britannica.com/10/222610-138-F0268996/britannica-insights-Phil-the-Fixer-renewable-energy.jpg?w=800&h=450&c=crop",
-    "altText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    "hotspots": [
-      {
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "position": [
-          0.42,
-           0.88
-        ]
-      },
-      {
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "position": [
-          0.22,
-          0.58
-      ]
-      },
-      {
-        "title": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "position": [
-         0.32,
-          0.18
-      ]
-      }
-    ]
-  }
-},
-    {
       "template_id": "key_takeaways",
       "color_scheme": "dark",
       "content": {
-        "title": "Puntos clave",
+        "title": "Key Takeaways",
         "intro": "",
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_9.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Intro_1.png",
               "caption": ""
             },
-            "title": "El análisis exploratorio de datos impulsado por IA revoluciona los conocimientos sobre datos energéticos.",
-            "description": "El <strong>EDA</strong> impulsado por <strong>IA</strong> acelera la identificación de patrones, anomalías y correlaciones en conjuntos de datos energéticos, permitiendo una limpieza, agrupamiento y detección de anomalías más eficientes. Al automatizar estos procesos, la IA permite a los analistas de energía descubrir información crítica—como las tendencias estacionales de la demanda energética o fallos en el equipo—de manera más rápida y con mayor precisión, optimizando el rendimiento del sistema energético."
+            "title": "Exploratory Data Analysis powered by AI revolutionizes energy data insights.",
+            "description": "AI-driven EDA accelerates the identification of patterns, anomalies, and correlations in energy datasets, enabling more efficient data cleaning, clustering, and anomaly detection. By automating these processes, AI allows energy analysts to uncover critical insights—such as seasonal energy demand trends or equipment malfunctions—faster and with greater precision, optimizing energy system performance."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_10.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L4_5.png",
               "caption": ""
             },
-            "title": "La teledetección mejorada por IA y los SIG transforman la planificación de la infraestructura energética.",
-            "description": "La integración de la IA con la teledetección y las tecnologías SIG permite un análisis espacial avanzado, mantenimiento predictivo y monitoreo en tiempo real de los activos energéticos. Aplicaciones como la detección de erosión en las palas de aerogeneradores y la cartografía de la pobreza mediante imágenes satelitales demuestran cómo la IA puede impulsar la toma de decisiones basada en datos, mejorar la eficiencia de las energías renovables y abordar los desafíos del acceso a la energía en regiones desatendidas."
+            "title": "AI-enhanced remote sensing and GIS transform energy infrastructure planning.",
+            "description": "Integrating AI with remote sensing and GIS technologies enables advanced spatial analysis, predictive maintenance, and real-time monitoring of energy assets. Applications like erosion detection in wind turbine blades and poverty mapping through satellite imagery demonstrate how AI can drive data-driven decision-making, improve renewable energy efficiency, and address energy access challenges in underserved regions."
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_1.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_1.png",
               "caption": ""
             },
-            "title": "La visualización de datos es una herramienta estratégica para obtener conocimientos accionables sobre la energía.",
-            "description": "Una visualización efectiva de datos transforma datos energéticos complejos en narrativas claras y accionables, mejorando la toma de decisiones y la comunicación con las partes interesadas. Siguiendo las mejores prácticas en diseño y narración, los profesionales de la energía pueden crear visualizaciones que destaquen <strong>las tendencias clave</strong>, como <em>los patrones de consumo de energía</em> o <em>el rendimiento de la infraestructura</em>, asegurando que <u>las estrategias basadas en datos</u> sean tanto accesibles como impactantes."
+            "title": "Data visualization is a strategic tool for actionable energy insights.",
+            "description": "Effective data visualization transforms complex energy data into clear, actionable narratives, enhancing decision-making and stakeholder communication. By adhering to best practices in design and storytelling, energy professionals can create visualizations that highlight key trends, such as energy consumption patterns or infrastructure performance, ensuring data-driven strategies are both accessible and impactful."
           }
         ]
       }
@@ -941,7 +927,7 @@
       "template_id": "key_resources",
       "color_scheme": "dark",
       "content": {
-        "title": "Recursos clave",
+        "title": "Key Resources",
         "resources": [
           {
             "image": {
@@ -949,8 +935,8 @@
               "caption": ""
             },
             "href": "Springer",
-            "text": "Evaluación de fuentes de energía utilizando SIG",
-            "cta": "Haz clic para descargar"
+            "text": "Assessment of Energy Sources Using GIS",
+            "cta": "Click to download"
           },
           {
             "image": {
@@ -958,8 +944,8 @@
               "caption": ""
             },
             "href": "Julie Steele",
-            "text": "Hermosa visualización",
-            "cta": "Haz clic para descargar"
+            "text": "Beautiful Visualization",
+            "cta": "Click to download"
           },
           {
             "image": {
@@ -967,8 +953,8 @@
               "caption": ""
             },
             "href": "Hayden Van Der Post",
-            "text": "Ciencia de datos energéticos",
-            "cta": "Haz clic para descargar"
+            "text": "Energy Data Science",
+            "cta": "Click to download"
           }
         ]
       }
@@ -981,9 +967,9 @@
           "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module7.webp",
           "caption": ""
         },
-        "intro": "A continuación",
-        "title": "Lección 2: Herramientas y aplicaciones de modelado de energía",
-        "cta": "Continúa aprendiendo",
+        "intro": "Next up",
+        "title": "Lesson 2: Energy Modelling Tools and Applications",
+        "cta": "Continue learning",
         "nextLessonId": "7.3.2"
       }
     }

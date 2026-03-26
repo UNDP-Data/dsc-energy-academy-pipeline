@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "干净的烹饪",
+            "body": "清洁烹饪是指使用安全、高效、环保的烹饪技术和燃料，减少室内空气污染并降低健康风险，同时也减少温室气体排放。",
+            "source": ""
+          },
+          {
+            "title": "能量与健康",
+            "body": "能源消耗、生产及其对人类健康的影响，包括能源系统如何影响空气质量、清洁水源的获取和整体福祉。",
+            "source": ""
+          },
+          {
+            "title": "可持续发展目标的协同作用",
+            "body": "可持续发展目标（SDG）的协同作用是指在实现一个可持续发展目标（SDG）时，所取得的相互关联的益处和积极互动，也支持其他SDG的实现，从而在可持续发展方面取得更有效和全面的进展。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -128,7 +153,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_852.webp",
@@ -178,7 +203,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_883.webp",
@@ -213,6 +238,15 @@
       }
     },
     {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "https://ourworldindata.org/grapher/multidimensional-poverty-index-mpi"
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -220,7 +254,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "室内空气污染估计每分钟导致约13人死亡，主要影响承担家庭责任的妇女和女孩，她们面临着照明和烹饪的污染方法的暴露（可持续发展目标3和目标5）。 在某些地区，人们相信女性和女孩每周花费多达<a href=\"https://undp-climate.exposure.co/3-ways-clean-energy-is-a-gamechanger-for-women\"><u>18小时</u></a>用于采集木材和家庭烹饪（<a href=\"https://www.undp.org/blog/data-action-address-air-pollution\"><u>UNDP，2022</u></a>）。 因此，<strong>获得清洁能源直接有助于减少女性的<ai prompt=\"分享关于时间贫困的细节。\">时间贫困 💬️</ai>。</strong> 例如，冰箱和洗衣机等设备可以帮助实现更好的教育出勤率。 <br /> <br /></strong>获取能源基本上等同于获取机会。 然而，除非进展加快，否则到2030年 <a href=\"https://www.unwomen.org/sites/default/files/2023-09/progress-on-the-sustainable-development-goals-the-gender-snapshot-2023-en.pdf\"><u>预计仍有3.41亿妇女和女孩没有电力</u></a>。 研究表明，电气化后女性就业增加了9%到23%（<a href=\"https://sdgs.un.org/sites/default/files/2022-06/Policy%20Briefs%20-2022%20Energy%27s%20Interlinkages%20With%20Other%20SDGs.pdf\"><u>联合国，2022</u></a>）。 公共户外照明提高了女性和女孩的安全性，允许她们在天黑后拥有更多自主权，减少暴力事件的暴露。 [needs translation] Similarly, information technologies and the Internet can help reduce the digital divide and foster digital inclusion for women and girls (<a href=\"https://www.weforum.org/impact/digital-inclusion/?gad_source=1&gclid=CjwKCAiA1MCrBhAoEiwAC2d64ScIGINrbinu0PHgsZSZSVS0TOm4GZXJ2-beaoySGlAoFJ4-9DXsKhoCjAoQAvD_BwE\"><u>WEF, 2023</u></a>; <a href=\"https://www.itu.int/hub/2020/10/equals-and-power-join-forces-to-close-the-digital-gender-divide-by-2030/\"><u>ITU, 2020</u></a>). 赋权的女性更有可能推动本地倡议，受益于更清洁的烹饪和照明，这直接影响到她们的生活和家庭。"
+              "text": "室内空气污染估计每分钟导致约13人死亡，主要影响承担家庭责任的妇女和女孩，她们面临着照明和烹饪的污染方法的暴露（可持续发展目标3和目标5）。 在某些地区，人们相信女性和女孩每周花费多达<a href=\"https://undp-climate.exposure.co/3-ways-clean-energy-is-a-gamechanger-for-women\"><u>18小时</u></a>用于采集木材和家庭烹饪（<a href=\"https://www.undp.org/blog/data-action-address-air-pollution\"><u>UNDP，2022</u></a>）。 因此，<strong>获得清洁能源直接有助于减少女性的<ai prompt=\"分享关于时间贫困的细节。\">时间贫困 💬️</ai>。</strong> 例如，冰箱和洗衣机等设备可以帮助实现更好的教育出勤率。 <br /> <br /></strong>获取能源基本上等同于获取机会。 然而，除非进展加快，否则到2030年 <a href=\"https://www.unwomen.org/sites/default/files/2023-09/progress-on-the-sustainable-development-goals-the-gender-snapshot-2023-en.pdf\"><u>预计仍有3.41亿妇女和女孩没有电力</u></a>。 研究表明，电气化后女性就业增加了9%到23%（<a href=\"https://sdgs.un.org/sites/default/files/2022-06/Policy%20Briefs%20-2022%20Energy%27s%20Interlinkages%20With%20Other%20SDGs.pdf\"><u>联合国，2022</u></a>）。 公共户外照明提高了女性和女孩的安全性，允许她们在天黑后拥有更多自主权，减少暴力事件的暴露。 同样，信息技术和互联网可以帮助缩小数字鸿沟，促进女性和女孩的数字包容性（<a href=\"https://www.weforum.org/impact/digital-inclusion/?gad_source=1&gclid=CjwKCAiA1MCrBhAoEiwAC2d64ScIGINrbinu0PHgsZSZSVS0TOm4GZXJ2-beaoySGlAoFJ4-9DXsKhoCjAoQAvD_BwE\"><u>WEF，2023</u></a>；<a href=\"https://www.itu.int/hub/2020/10/equals-and-power-join-forces-to-close-the-digital-gender-divide-by-2030/\"><u>ITU，2020</u></a>). 赋权的女性更有可能推动本地倡议，受益于更清洁的烹饪和照明，这直接影响到她们的生活和家庭。"
             }
           }
         ]
@@ -234,7 +268,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "联合国开发计划署在印度和尼泊尔的综合项目在能源获取、妇女平等和生产性机会发展方面取得了有希望的成果（框 3）。 联合国妇女署在埃塞俄比亚的努力，包括无息贷款和创业培训，惠及超过19,500名妇女，使她们能够投资于节能炊具合作社（框4）。 <br /><br />必须认识到，女性不仅是可持续能源解决方案的受益者，而且是能源转型中的关键行动者和领导者。 [needs translation] Women comprise <a href=\"https://mc-cd8320d4-36a1-40ac-83cc-3389-cdn-endpoint.azureedge.net/-/media/Files/IRENA/Agency/Publication/2023/Sep/IRENA_Renewable_energy_and_jobs_2023.pdf?rev=4f65518fb5f64c9fb78f6f60fe821bf2\"><u>40% of the solar PV workforce</u></a>, nearly double their participation in the <a href=\"https://mc-cd8320d4-36a1-40ac-83cc-3389-cdn-endpoint.azureedge.net/-/media/Files/IRENA/Agency/Publication/2023/Sep/IRENA_Renewable_energy_and_jobs_2023.pdf?rev=4f65518fb5f64c9fb78f6f60fe821bf2\"><u>oil and gas sectors of only 22%</u></a>. 同样，清洁烹饪行业提供了独特的机会，因为女性在< a href=\"https://mc-cd8320d4-36a1-40ac-83cc-3389-cdn-endpoint.azureedge.net/-/media/Files/IRENA/Agency/Publication/2023/Sep/IRENA_Renewable_energy_and_jobs_2023.pdf?rev=4f65518fb5f64c9fb78f6f60fe821bf2\"><u>生物乙醇和电力驱动烹饪的管理者中占一半</u></a>。 通过投资和包容性政策支持女性因此至关重要，承认她们在打破障碍和克服性别偏见方面的卓越韧性和决心。"
+              "text": "联合国开发计划署在印度和尼泊尔的综合项目在能源获取、妇女平等和生产性机会发展方面取得了有希望的成果（框 3）。 联合国妇女署在埃塞俄比亚的努力，包括无息贷款和创业培训，惠及超过19,500名妇女，使她们能够投资于节能炊具合作社（框4）。 <br /><br />必须认识到，女性不仅是可持续能源解决方案的受益者，而且是能源转型中的关键行动者和领导者。 女性占据<a href=\"https://mc-cd8320d4-36a1-40ac-83cc-3389-cdn-endpoint.azureedge.net/-/media/Files/IRENA/Agency/Publication/2023/Sep/IRENA_Renewable_energy_and_jobs_2023.pdf?rev=4f65518fb5f64c9fb78f6f60fe821bf2\"><u>40%的太阳能光伏劳动力</u></a>，几乎是她们在<a href=\"https://mc-cd8320d4-36a1-40ac-83cc-3389-cdn-endpoint.azureedge.net/-/media/Files/IRENA/Agency/Publication/2023/Sep/IRENA_Renewable_energy_and_jobs_2023.pdf?rev=4f65518fb5f64c9fb78f6f60fe821bf2\"><u>石油和天然气行业仅占22%</u></a>的参与度的两倍。 同样，清洁烹饪行业提供了独特的机会，因为女性在< a href=\"https://mc-cd8320d4-36a1-40ac-83cc-3389-cdn-endpoint.azureedge.net/-/media/Files/IRENA/Agency/Publication/2023/Sep/IRENA_Renewable_energy_and_jobs_2023.pdf?rev=4f65518fb5f64c9fb78f6f60fe821bf2\"><u>生物乙醇和电力驱动烹饪的管理者中占一半</u></a>。 通过投资和包容性政策支持女性因此至关重要，承认她们在打破障碍和克服性别偏见方面的卓越韧性和决心。"
             }
           }
         ]
@@ -242,7 +276,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_929.webp",
@@ -266,7 +300,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/488_935.webp",
@@ -323,11 +357,47 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1211.webp",
+              "caption": ""
+            },
+            "href": "TRACKING SDG7",
+            "text": "2024年可持续发展目标7跟踪报告",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1212.webp",
+              "caption": ""
+            },
+            "href": "IIASA PURE",
+            "text": "可持续发展目标7的互动",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1213.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "实现全民清洁烹饪的愿景",
+            "cta": "点击下载"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "接下来",

@@ -39,6 +39,15 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/6.3.0-es.mp4",
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/6.3.0-es.webp"
+      }
+    },
+    {
       "template_id": "list_of_lessons",
       "color_scheme": "dark",
       "content": {
@@ -81,6 +90,39 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "poll",
+      "color_scheme": "light",
+      "content": {
+        "pollId": "poll-6.3.0-list_of_lessons_to_connection_next-a7071b",
+        "title": "Próximos pasos en la comprensión del desarrollo de la política energética",
+        "description": "¿Qué aspecto crees que debería ser priorizado para mejorar el diseño de la política energética?",
+        "options": [
+          {
+            "id": 1,
+            "value": "Incorporating technological innovations"
+          },
+          {
+            "id": 2,
+            "value": "Mejorando la participación de las partes interesadas"
+          },
+          {
+            "id": 3,
+            "value": "Addressing environmental impacts"
+          },
+          {
+            "id": 4,
+            "value": "Equilibrar las consideraciones económicas"
+          }
+        ],
+        "labels": {
+          "submit": "Enviar",
+          "cancel": "Cancelar",
+          "edit": "Edita tu respuesta",
+          "votingAs": "Votando como"
+        }
       }
     },
     {

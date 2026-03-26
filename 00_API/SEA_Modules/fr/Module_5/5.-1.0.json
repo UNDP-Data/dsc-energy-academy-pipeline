@@ -25,24 +25,60 @@
         "questions": [
           {
             "id": 1,
-            "prompt": "Quel pourcentage des émissions mondiales totales de gaz à effet de serre est attribué au secteur de l'énergie ?",
+            "prompt": "Quels sont les trois principes clés d'une gouvernance énergétique efficace abordés dans le module?",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Environ 45%"
+                "value": "Efficacité, Efficience et Équité"
               },
               {
                 "id": 2,
-                "value": "Environ 60%"
+                "value": "Responsabilité, Inclusion et Efficacité"
               },
               {
                 "id": 3,
-                "value": "Environ 75%"
+                "value": "Accessibilité, Durabilité, et Résilience"
               },
               {
                 "id": 4,
-                "value": "Moins de 25%"
+                "value": "Participation, Enforcement, and Integrity"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Efficacité, responsabilité et inclusivité garantissent que les politiques énergétiques sont solides, équitables et participatives."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Efficacité, responsabilité et inclusivité garantissent que les politiques énergétiques sont solides, équitables et participatives."
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "Laquelle des options suivantes définit le mieux la gouvernance de l'énergie ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "L'application des réglementations environnementales par les institutions gouvernementales"
+              },
+              {
+                "id": 2,
+                "value": "La gestion des mécanismes de financement du climat par la politique publique"
+              },
+              {
+                "id": 3,
+                "value": "L'exercice de l'autorité pour gérer la planification, la production et l'accès à l'énergie"
+              },
+              {
+                "id": 4,
+                "value": "L'utilisation de la technologie pour réduire les émissions de carbone dans les systèmes énergétiques"
               }
             ],
             "solution": [
@@ -51,200 +87,373 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Le secteur de l'énergie est responsable d'environ 75 % des émissions mondiales totales de GES, ce qui en fait le plus grand contributeur au changement climatique."
+                "body": "La gouvernance de l'énergie implique une autorité politique, économique et sociale sur les décisions énergétiques."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Le secteur de l'énergie est responsable d'environ 75 % des émissions mondiales totales de GES, ce qui en fait le plus grand contributeur au changement climatique."
-              }
-            }
-          },
-          {
-            "id": 2,
-            "prompt": "Lequel des gaz à effet de serre suivants a le potentiel de réchauffement global (PRG) le plus élevé parmi ceux couramment émis par le secteur de l'énergie ?",
-            "multiple": false,
-            "options": [
-              {
-                "id": 1,
-                "value": "dioxyde de carbone (CO₂)"
-              },
-              {
-                "id": 2,
-                "value": "Méthane (CH₄)"
-              },
-              {
-                "id": 3,
-                "value": "Protoxyde d'azote (N₂O)"
-              },
-              {
-                "id": 4,
-                "value": "Hexafluorure de soufre (SF₆)"
-              }
-            ],
-            "solution": [
-              4
-            ],
-            "messages": {
-              "correct": {
-                "title": "Correct",
-                "body": "SF₆ a le GWP le plus élevé—environ 25 200 fois celui du CO₂—ce qui en fait une cible critique pour la réduction des émissions dans la distribution d'énergie."
-              },
-              "wrong": {
-                "title": "Incorrect",
-                "body": "SF₆ a le GWP le plus élevé—environ 25 200 fois celui du CO₂—ce qui en fait une cible critique pour la réduction des émissions dans la distribution d'énergie."
+                "body": "La gouvernance de l'énergie implique une autorité politique, économique et sociale sur les décisions énergétiques."
               }
             }
           },
           {
             "id": 3,
-            "prompt": "Quels sont les impacts environnementaux clés associés au développement des infrastructures d'énergie renouvelable ?",
-            "multiple": true,
+            "prompt": "Pourquoi la gouvernance de l'énergie est-elle essentielle pour réaliser une transition énergétique juste?",
+            "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Perturbation de l'habitat"
+                "value": "Il garantit que les nouvelles technologies sont brevetées équitablement"
               },
               {
                 "id": 2,
-                "value": "La pollution de l'air provenant des centrales électriques"
+                "value": "Il contrôle les émissions mondiales par le biais d'une seule agence de réglementation"
               },
               {
                 "id": 3,
-                "value": "Conflits d'utilisation des terres"
+                "value": "It shapes how decisions are made, trade-offs are managed, and policies are implemented"
               },
               {
                 "id": 4,
-                "value": "L'impact de l'extraction minière"
+                "value": "Il se concentre uniquement sur la réduction des subventions aux combustibles fossiles"
               }
             ],
             "solution": [
-              1,
-              2,
-              3,
-              4
+              3
             ],
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "Toutes les options sont correctes. Les perturbations de l'habitat et les conflits d'utilisation des terres résultent d'installations à grande échelle, la pollution de l'air peut survenir lors de la production et du démantèlement des matériaux, et l'exploitation minière des minéraux nécessaires aux panneaux solaires, aux éoliennes et aux batteries cause une dégradation environnementale grave."
+                "body": "La gouvernance façonne les politiques et la mise en œuvre, essentielles pour gérer les compromis liés à la transition."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "Toutes les options sont correctes. Les perturbations de l'habitat et les conflits d'utilisation des terres résultent d'installations à grande échelle, la pollution de l'air peut survenir lors de la production et du démantèlement des matériaux, et l'exploitation minière des minéraux nécessaires aux panneaux solaires, aux éoliennes et aux batteries cause une dégradation environnementale grave."
+                "body": "La gouvernance façonne les politiques et la mise en œuvre, essentielles pour gérer les compromis liés à la transition."
               }
             }
           },
           {
             "id": 4,
-            "prompt": "Comment le changement climatique influence-t-il la performance et la fiabilité des systèmes énergétiques ?",
-            "multiple": true,
+            "prompt": "À quoi fait référence « fossil fuel lock-in » ?",
+            "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "Il augmente la demande de refroidissement pendant les vagues de chaleur, mettant à rude épreuve les réseaux électriques"
+                "value": "Les combustibles fossiles deviennent inaccessibles en raison de sanctions internationales"
               },
               {
                 "id": 2,
-                "value": "Il améliore l'efficacité des centrales thermiques en réchauffant les sources d'eau"
+                "value": "Dépendance politique et économique aux combustibles fossiles, rendant la transition difficile"
               },
               {
                 "id": 3,
-                "value": "Il perturbe la production d'énergie hydroélectrique en raison de l'évolution des modèles de précipitations"
+                "value": "Verrouiller les combustibles fossiles dans des réserves souterraines par la capture du carbone"
               },
               {
                 "id": 4,
-                "value": "Il augmente le risque de défaillance des infrastructures due à des événements météorologiques extrêmes"
+                "value": "Lier des contrats internationaux qui empêchent l'utilisation des énergies renouvelables"
               }
             ],
             "solution": [
-              1,
-              3,
-              4
-            ],
-            "messages": {
-              "correct": {
-                "title": "Correct",
-                "body": "Le changement climatique met à rude épreuve les systèmes en augmentant les besoins en refroidissement, en perturbant l'hydroélectricité et en exposant les infrastructures aux extrêmes météorologiques. Une eau plus chaude réduit en réalité — et non améliore — l'efficacité des centrales thermiques."
-              },
-              "wrong": {
-                "title": "Incorrect",
-                "body": "Le changement climatique met à rude épreuve les systèmes en augmentant les besoins en refroidissement, en perturbant l'hydroélectricité et en exposant les infrastructures aux extrêmes météorologiques. Une eau plus chaude réduit en réalité — et non améliore — l'efficacité des centrales thermiques."
-              }
-            }
-          },
-          {
-            "id": 5,
-            "prompt": "Quels sont les principaux défis limitant l'adoption généralisée des technologies d'énergie renouvelable dans les pays en développement?",
-            "multiple": true,
-            "options": [
-              {
-                "id": 1,
-                "value": "Frais initiaux élevés en capital et contraintes de financement"
-              },
-              {
-                "id": 2,
-                "value": "Manque de capacité technique et de main-d'œuvre qualifiée"
-              },
-              {
-                "id": 3,
-                "value": "Marchés volatils et limitations d'infrastructure"
-              },
-              {
-                "id": 4,
-                "value": "Politiques incohérentes et faible intégration au réseau"
-              }
-            ],
-            "solution": [
-              1,
-              2,
-              3,
-              4
-            ],
-            "messages": {
-              "correct": {
-                "title": "Correct",
-                "body": "Toutes les options listées sont des contraintes documentées : coûts élevés, lacunes en compétences, volatilité du marché et faiblesses des politiques/infrastructures."
-              },
-              "wrong": {
-                "title": "Incorrect",
-                "body": "Toutes les options listées sont des contraintes documentées : coûts élevés, lacunes en compétences, volatilité du marché et faiblesses des politiques/infrastructures."
-              }
-            }
-          },
-          {
-            "id": 6,
-            "prompt": "Lequel des éléments suivants décrit avec précision les émissions de cycle de vie des technologies énergétiques ?",
-            "multiple": true,
-            "options": [
-              {
-                "id": 1,
-                "value": "Les émissions du cycle de vie prennent en compte toutes les étapes, de l'extraction des ressources à la mise hors service"
-              },
-              {
-                "id": 2,
-                "value": "L'énergie solaire et éolienne ont des émissions de cycle de vie nettement inférieures à celles du charbon ou du gaz"
-              },
-              {
-                "id": 3,
-                "value": "Le gaz naturel et le charbon sont comparables à l'éolien et au solaire en termes d'émissions sur l'ensemble du cycle de vie"
-              },
-              {
-                "id": 4,
-                "value": "Les émissions liées au cycle de vie ne sont pertinentes que pour les combustibles fossiles"
-              }
-            ],
-            "solution": [
-              1,
               2
             ],
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "L'analyse du cycle de vie offre une vue d'ensemble des émissions. Le vent (13 g CO₂/kWh) et le solaire (43 g CO₂/kWh) sont bien inférieurs au charbon (1 001 g) et au gaz naturel (486 g). L'analyse du cycle de vie est pertinente pour tous les types d'énergie."
+                "body": "L'enfermement aux combustibles fossiles lie les économies et les institutions à la dépendance aux combustibles fossiles."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "L'analyse du cycle de vie offre une vue d'ensemble des émissions. Le vent (13 g CO₂/kWh) et le solaire (43 g CO₂/kWh) sont bien inférieurs au charbon (1 001 g) et au gaz naturel (486 g). L'analyse du cycle de vie est pertinente pour tous les types d'énergie."
+                "body": "L'enfermement aux combustibles fossiles lie les économies et les institutions à la dépendance aux combustibles fossiles."
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "Quelle approche de gouvernance met l'accent sur la collaboration entre plusieurs niveaux et secteurs ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Top-down governance"
+              },
+              {
+                "id": 2,
+                "value": "Application adaptative"
+              },
+              {
+                "id": 3,
+                "value": "Gouvernance à plusieurs niveaux"
+              },
+              {
+                "id": 4,
+                "value": "Centralisation financière"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "La gouvernance à plusieurs niveaux coordonne les actions à travers les niveaux et les secteurs."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "La gouvernance à plusieurs niveaux coordonne les actions à travers les niveaux et les secteurs."
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "Quel outil est utilisé pour analyser comment le pouvoir et les institutions façonnent les résultats politiques dans la gouvernance de l'énergie?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Fonds vert pour le climat (FVC)"
+              },
+              {
+                "id": 2,
+                "value": "Institutional and Context Analysis (ICA)"
+              },
+              {
+                "id": 3,
+                "value": "Indice d'Investissement Renouvelable (RII)"
+              },
+              {
+                "id": 4,
+                "value": "Emissions Trading Scheme (ETS)"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "ICA identifie les dynamiques de pouvoir et les barrières institutionnelles dans les processus politiques."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "ICA identifie les dynamiques de pouvoir et les barrières institutionnelles dans les processus politiques."
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "Selon l'Accord de Paris, comment les transitions énergétiques sont-elles désormais traitées par rapport à des cadres antérieurs comme la CCNUCC ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "As side effects of agricultural transformation"
+              },
+              {
+                "id": 2,
+                "value": "As central policy levers essential for meeting climate goals"
+              },
+              {
+                "id": 3,
+                "value": "As voluntary measures with no legal standing"
+              },
+              {
+                "id": 4,
+                "value": "As actions to be undertaken solely by developed countries"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "The Paris Agreement centralizes energy transitions to meet climate goals."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "The Paris Agreement centralizes energy transitions to meet climate goals."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "Quel pourcentage des Contributions Déterminées au niveau National (NDC) aborde explicitement la transition juste selon le rapport de synthèse ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.1"
+              },
+              {
+                "id": 2,
+                "value": "0.17"
+              },
+              {
+                "id": 3,
+                "value": "0,4"
+              },
+              {
+                "id": 4,
+                "value": "0.31"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Seuls 31 % des NDC abordent les impacts de la transition juste sur les groupes vulnérables."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Seuls 31 % des NDC abordent les impacts de la transition juste sur les groupes vulnérables."
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "Quelle méthode de prospective commence par définir un avenir souhaité puis cartographie les étapes à rebours ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "<strong>Planification de scénarios</strong>"
+              },
+              {
+                "id": 2,
+                "value": "Visioning"
+              },
+              {
+                "id": 3,
+                "value": "Backcasting"
+              },
+              {
+                "id": 4,
+                "value": "Horizon Mapping"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "La rétroconception est une technique de prospective qui commence par un avenir souhaitable et trace les étapes nécessaires pour atteindre cette vision."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "La rétroconception est une technique de prospective qui commence par un avenir souhaitable et trace les étapes nécessaires pour atteindre cette vision."
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "Quel est l'objectif principal d'une approche globale du gouvernement dans la gouvernance de l'énergie?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Pour centraliser le pouvoir sous le Ministère de l'Énergie"
+              },
+              {
+                "id": 2,
+                "value": "Pour favoriser la collaboration inter-ministérielle et la cohérence des politiques"
+              },
+              {
+                "id": 3,
+                "value": "Pour réduire le rôle du parlement dans la gouvernance de l'énergie"
+              },
+              {
+                "id": 4,
+                "value": "Pour gérer l'infrastructure de transmission régionale"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "Les approches transversales du gouvernement intègrent la collaboration interministérielle pour promouvoir une politique énergétique cohérente alignée sur des objectifs de développement plus larges."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "Les approches transversales du gouvernement intègrent la collaboration interministérielle pour promouvoir une politique énergétique cohérente alignée sur des objectifs de développement plus larges."
+              }
+            }
+          },
+          {
+            "id": 11,
+            "prompt": "Laquelle des options suivantes définit le mieux la supervision agile dans le secteur de l'énergie ?",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "Un mécanisme d'application fixe et basé sur des règles"
+              },
+              {
+                "id": 2,
+                "value": "Un mécanisme de surveillance réactif en temps réel"
+              },
+              {
+                "id": 3,
+                "value": "Un système de budgétisation basé sur le genre"
+              },
+              {
+                "id": 4,
+                "value": "Un outil pour la distribution de subventions"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "La supervision agile fait référence à une surveillance en temps réel et adaptative qui soutient une prise de décision flexible et une réactivité aux politiques dans des contextes en évolution."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "La supervision agile fait référence à une surveillance en temps réel et adaptative qui soutient une prise de décision flexible et une réactivité aux politiques dans des contextes en évolution."
+              }
+            }
+          },
+          {
+            "id": 12,
+            "prompt": "Lequel des mécanismes suivants est essentiel pour la supervision externe dans la gouvernance de l'énergie?",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Application réglementaire des normes de service"
+              },
+              {
+                "id": 2,
+                "value": "Systèmes de recours aux griefs basés sur la communauté"
+              },
+              {
+                "id": 3,
+                "value": "Comités de revue parlementaire"
+              },
+              {
+                "id": 4,
+                "value": "Autorités centralisées de fixation des tarifs"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "La supervision externe comprend des mécanismes réglementaires et législatifs formels ainsi que des approches participatives, tous visant à garantir la transparence et la responsabilité."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "La supervision externe comprend des mécanismes réglementaires et législatifs formels ainsi que des approches participatives, tous visant à garantir la transparence et la responsabilité."
               }
             }
           }
@@ -256,7 +465,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module5.webp",
           "caption": ""
         },
         "intro": "Prochainement",

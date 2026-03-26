@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "المفاهيم الأساسية",
+        "intro": "استكشف الأفكار الأساسية من هذا الدرس.",
+        "concepts": [
+          {
+            "title": "المساهمات المحددة على المستوى الوطني",
+            "body": "المساهمات المحددة وطنياً (NDCs) هي خطط العمل المناخية التي تقدمها الدول لتحديد التزاماتها بخفض انبعاثات غازات الدفيئة والتكيف مع تغير المناخ، كجزء من اتفاقية باريس.",
+            "source": ""
+          },
+          {
+            "title": "طاقة مستدامة & طاقة متجددة",
+            "body": "تشير الطاقة المستدامة إلى مصادر الطاقة التي تكون صديقة للبيئة ويمكن الحفاظ عليها على المدى الطويل دون استنزاف الموارد أو الإضرار بالنظام البيئي. الطاقة المتجددة هي فرع من الطاقة المستدامة التي تأتي من عمليات طبيعية تتجدد باستمرار، مثل <strong>الطاقة الشمسية</strong>، <strong>الرياح</strong>، و <strong>الطاقة الكهرمائية</strong>.",
+            "source": ""
+          },
+          {
+            "title": "الانتقال الطاقي العادل",
+            "body": "يشير التحول الطاقي العادل إلى الانتقال من الوقود الأحفوري إلى مصادر الطاقة المتجددة بطريقة عادلة ومنصفة، مع ضمان استفادة جميع المجتمعات، خاصة تلك التي تم تهميشها تاريخيًا، من الانتقال وعدم تركها خلف الركب.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -50,18 +75,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_49.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -88,6 +101,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "M1_C1_6"
       }
     },
     {
@@ -176,6 +198,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "الانبعاثات العالمية لثاني أكسيد الكربون من حرق الطاقة والعمليات الصناعية وتغيرها السنوي، 1900-2022",
+          "subtitle": "",
+          "description": "ملاحظة ييفجين: سأضيف هنا هدف اتفاق باريس بشأن الحد من الانبعاثات، على سبيل المثال عن طريق إضافة نقطة صافية صفرية في عام 2050 Zhong: Apache مثال: https://echarts.apache.org/examples/en/editor.html?c=line-simple; https://echarts.apache.org/examples/en/editor.html?c=bar-simple ملاحظة فريدريك: هل يجب إنشاء هذا الرسم البياني كمخطط واحد يتكون من كل من مخطط الخط ومخطط الأعمدة أم يجب إنشاء مخططين منفصلين. إذا كانت الإجابة نعم، يرجى فتح صف جديد لذلك.",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -213,16 +241,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#0468b1",
+            "#4c9f38",
+            "#19486a",
             "#fd6925",
             "#fcc30b",
-            "#c5192d",
-            "#dd1367",
-            "#19486a",
-            "#4c9f38",
-            "#0a97d9",
             "#3f7e44",
-            "#0468b1",
-            "#fd9d24"
+            "#0a97d9",
+            "#fd9d24",
+            "#c5192d",
+            "#dd1367"
           ],
           "xAxis": {
             "axisLine": {
@@ -553,47 +581,7 @@
                 "36.8"
               ]
             }
-          ],
-          "title": {
-            "text": "الانبعاثات العالمية لثاني أكسيد الكربون من حرق الطاقة والعمليات الصناعية وتغيرها السنوي، 1900-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -635,18 +623,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_133.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -697,7 +673,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4185_584.webp",
@@ -719,7 +695,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "بينما تعرض الاعتمادية على الوقود الأحفوري الدول لمخاطر نظامية، يضيف الطلب العالمي المتزايد على الطاقة طبقة أخرى من الضغط. [needs translation] Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Share details about energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />هذه <strong>الزيادة مدفوعة بمزيج من العوامل: النمو السكاني، التمدن السريع، التوسع الصناعي، والزيادة في الكهربة لكل شيء من النقل إلى الطهي والخدمات الرقمية. <br /></strong><br />هذا الطلب المتزايد هو علامة على تقدم التنمية، لكنه أيضًا يهدد بتعميق اعتماد العالم على أنظمة الطاقة الأحفورية المتقلبة إلا إذا استمر التحول إلى بدائل نظيفة وموثوقة ولامركزية بمعدل مناسب. بدون استجابة استراتيجية، قد يؤدي زيادة استهلاك الطاقة إلى حبس الدول في مسارات غير آمنة وتستهلك الكثير من الكربون، مما يقوض أهداف الوصول إلى الطاقة وطموحات المناخ. <br /><br /><strong><em>للتعمق أكثر في مستقبل الطاقة وكيفية تشكيل السيناريوهات المختلفة لتوقعات الطلب، يرجى الرجوع إلى الوحدة 8.</em></strong></br></br> </strong>"
+              "text": "بينما تعرض الاعتمادية على الوقود الأحفوري الدول لمخاطر نظامية، يضيف الطلب العالمي المتزايد على الطاقة طبقة أخرى من الضغط. على الرغم من أن توقعات الطلب على الطاقة في المستقبل تختلف عبر النماذج والسيناريوهات، إلا أن اتجاهًا واحدًا واضحًا: <strong>بدون مكاسب كبيرة في <ai prompt=\"توفير مزيد من المعلومات حول كفاءة الطاقة.\">كفاءة الطاقة 💬️</ai>، سيستمر الطلب في الارتفاع جنبًا إلى جنب مع النمو السكاني والاقتصادي.</strong> في سيناريو السياسات المعلنة لوكالة الطاقة الدولية، الذي يعكس الالتزامات السياسية الحالية ولكن لا يتطلب جهودًا إضافية، من المتوقع أن ينمو الطلب العالمي على الطاقة بمعدل 0.7٪ سنويًا حتى عام 2030، مما يؤدي إلى زيادة إجمالية حوالي 5٪ من مستويات عام 2022 (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>وكالة الطاقة الدولية</u></a>، 2023). <br /><br />هذه <strong>الزيادة مدفوعة بمزيج من العوامل: النمو السكاني، التمدن السريع، التوسع الصناعي، والزيادة في الكهربة لكل شيء من النقل إلى الطهي والخدمات الرقمية. <br /></strong><br />هذا الطلب المتزايد هو علامة على تقدم التنمية، لكنه أيضًا يهدد بتعميق اعتماد العالم على أنظمة الطاقة الأحفورية المتقلبة إلا إذا استمر التحول إلى بدائل نظيفة وموثوقة ولامركزية بمعدل مناسب. بدون استجابة استراتيجية، قد يؤدي زيادة استهلاك الطاقة إلى حبس الدول في مسارات غير آمنة وتستهلك الكثير من الكربون، مما يقوض أهداف الوصول إلى الطاقة وطموحات المناخ. <br /><br /><strong><em>للتعمق أكثر في مستقبل الطاقة وكيفية تشكيل السيناريوهات المختلفة لتوقعات الطلب، يرجى الرجوع إلى الوحدة 8.</em></strong></br></br> </strong>"
             }
           }
         ]
@@ -730,6 +706,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "الطلب العالمي على الطاقة",
+          "subtitle": "",
+          "description": "جونغ: تم استخراج نقاط البيانات قبل عام 2000 يدويًا (تقديرات). نقاط البيانات من 2000 إلى 2050 تأتي من توقعات ExxonMobil العالمية (2024): https://corporate.exxonmobil.com/-/media/global/files/global-outlook/2024/global-outlook-data-2024.xlsx مثال أباتشي: https://echarts.apache.org/examples/en/editor.html?c=bar-stack",
+          "footnote": "Source: Smil, Energy Transitions (1900-1960), 2024 ExxonMobil Global Outlook (1970-2050)"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -767,16 +749,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#3f7e44",
-            "#dd1367",
-            "#4c9f38",
-            "#fd9d24",
-            "#0468b1",
-            "#0a97d9",
-            "#c5192d",
             "#19486a",
-            "#fd6925"
+            "#dd1367",
+            "#0a97d9",
+            "#fcc30b",
+            "#fd6925",
+            "#fd9d24",
+            "#c5192d",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -976,44 +958,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "الطلب العالمي على الطاقة",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -1053,11 +998,47 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "الموارد الرئيسية",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "توقعات الطاقة العالمية 2024",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.webp",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "الرؤية العالمية للطاقة 2024",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.webp",
+              "caption": ""
+            },
+            "href": "McKinsey & Company",
+            "text": "توقعات انتقالات الطاقة العالمية 2024",
+            "cta": "انقر للتنزيل"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "التالي",

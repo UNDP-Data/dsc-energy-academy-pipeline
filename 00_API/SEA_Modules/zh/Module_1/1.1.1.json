@@ -39,6 +39,49 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-zh.mp4",
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-zh.webp"
+      }
+    },
+    {
+      "template_id": "video",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-en.mp4",
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-en.webp"
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "发展能源",
+            "body": "发展能源是指提供和利用能源资源，以支持经济增长、改善生活水平和增强社区的社会福祉，特别是在发展中地区。",
+            "source": ""
+          },
+          {
+            "title": "能源三难题",
+            "body": "能源三难困境指的是在能源政策中平衡三个关键目标的挑战：确保能源安全、促进环境可持续性以及为所有消费者提供能源公平或负担能力。",
+            "source": ""
+          },
+          {
+            "title": "巴黎协定目标",
+            "body": "《巴黎协定》的目标是指各国为限制全球变暖至工业化前水平以下2摄氏度，并努力将温度升幅限制在1.5摄氏度，以及增强应对气候变化影响的能力而作出的国际承诺。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -136,6 +179,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "2019年人类发展指数（HDI）与人均能源使用",
+          "subtitle": "",
+          "description": "Zhong：Apache 示例：https://echarts.apache.org/examples/en/editor.html?c=scatter-simple",
+          "footnote": "Sources: Our World in Data; United Nations Development Programme Boston University Institute for Global Sustainability | visualizingenergy.org | CC BY 4.0"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -173,16 +222,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
-            "#fcc30b",
-            "#0a97d9",
-            "#3f7e44",
-            "#4c9f38",
             "#fd6925",
-            "#fd9d24",
             "#c5192d",
+            "#fd9d24",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44",
             "#dd1367",
-            "#0468b1"
+            "#0a97d9",
+            "#fcc30b",
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -845,47 +894,7 @@
               "type": "scatter",
               "name": "South America"
             }
-          ],
-          "title": {
-            "text": "2019年人类发展指数（HDI）与人均能源使用",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -920,6 +929,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "能源与气候变化",
+          "subtitle": "",
+          "description": "Zhong : Apache 示例：https://echarts.apache.org/examples/en/editor.html?c=pie-simple",
+          "footnote": "Pie chart showing the sources of GHG emissions by sector in 2021. Energy includes Electricity and Heat, Manufacturing and Construction, Transportation, Fugitive Emissions, and Buildings"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -959,16 +974,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#0a97d9",
             "#19486a",
-            "#fd9d24",
-            "#fd6925",
             "#dd1367",
-            "#4c9f38",
-            "#0468b1",
+            "#fcc30b",
             "#3f7e44",
-            "#c5192d"
+            "#0468b1",
+            "#0a97d9",
+            "#fd6925",
+            "#c5192d",
+            "#4c9f38",
+            "#fd9d24"
           ],
           "label": {
             "overflow": "truncate",
@@ -1018,47 +1033,7 @@
                 }
               ]
             }
-          ],
-          "title": {
-            "text": "能源与气候变化",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -1222,6 +1197,15 @@
       }
     },
     {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "https://ourworldindata.org/grapher/global-fossil-fuel-consumption?tab=chart"
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1265,7 +1249,7 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "[needs translation] <strong>Global energy intensity</strong>—an indicator of efficiency—improved by<strong> 2% in 2022</strong>, the fastest rate since 2015 (<a href=\"https://www.iea.org/commentaries/a-global-target-to-double-efficiency-progress-is-essential-to-keep-net-zero-on-the-table\"><u>IEA</u></a>, 2023).<br />Yet global energy demand rose by <strong>2.2% in 2024</strong> (<a href=\"https://www.iea.org/news/growth-in-global-energy-demand-surged-in-2024-to-almost-twice-its-recent-average\"><u>IEA</u></a>, 2025).",
+              "title": "<strong>全球能源强度</strong>—效率的指标—在<strong>2022年</strong>提高了<strong>2%</strong>，这是自2015年以来的最快速度（<a href=\"https://www.iea.org/commentaries/a-global-target-to-double-efficiency-progress-is-essential-to-keep-net-zero-on-the-table\"><u>国际能源署</u></a>，2023）。<br />然而，全球能源需求在<strong>2024年</strong>增长了<strong>2.2%</strong>（<a href=\"https://www.iea.org/news/growth-in-global-energy-demand-surged-in-2024-to-almost-twice-its-recent-average\"><u>国际能源署</u></a>，2025）。",
               "body": "",
               "source": ""
             }
@@ -1281,7 +1265,7 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "[needs translation] Africa, is home to 20% of the world’s population, and <strong>80% of all people lacking electricity access </strong>(<a href=\"https://unsdg.un.org/latest/stories/decoding-africa%E2%80%99s-energy-journey-three-key-numbers\"><u>UNSDG</u></a>, 2025)<strong>,<br /></strong>Yet the continent receives just under<strong> 2%</strong> of <strong>global clean energy investment</strong>, despite vast solar and wind resources (<a href=\"https://www.iea.org/news/global-energy-investment-set-to-rise-to-3-3-trillion-in-2025-amid-economic-uncertainty-and-energy-security-concerns\"><u>IEA</u></a>, 2025).",
+              "title": "非洲拥有全球20%的人口，且 <strong>80%的缺乏电力接入的人口</strong> (<a href=\"https://unsdg.un.org/latest/stories/decoding-africa%E2%80%99s-energy-journey-three-key-numbers\"><u>联合国可持续发展目标</u></a>，2025)<strong>,<br /></strong>然而，尽管拥有丰富的太阳能和风能资源，非洲仅获得了全球清洁能源投资的不到<strong>2%</strong> (<a href=\"https://www.iea.org/news/global-energy-investment-set-to-rise-to-3-3-trillion-in-2025-amid-economic-uncertainty-and-energy-security-concerns\"><u>国际能源署</u></a>，2025)。",
               "body": "",
               "source": ""
             }
@@ -1413,18 +1397,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4476_724.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1470,18 +1442,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4099_503.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -1587,15 +1547,51 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1111.webp",
+              "caption": ""
+            },
+            "href": "Center on Global Energy Policy at COLUMBIA SIPA",
+            "text": "变化中的世界中的能源与发展：21世纪的框架",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1112.webp",
+              "caption": ""
+            },
+            "href": "Wiley Online Library",
+            "text": "能源发展作为经济增长的驱动力",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1113.webp",
+              "caption": ""
+            },
+            "href": "ScienceDirect",
+            "text": "基于能源的经济发展",
+            "cta": "点击下载"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "接下来",
-        "title": "第2课：能源作为发展的驱动力",
+        "title": "第2课：全球能源使用的复杂性",
         "cta": "继续学习",
         "nextLessonId": "1.1.2"
       }

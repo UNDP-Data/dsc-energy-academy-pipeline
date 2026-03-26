@@ -39,6 +39,49 @@
       }
     },
     {
+      "template_id": "video",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-ru.mp4",
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-ru.webp"
+      }
+    },
+    {
+      "template_id": "video",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-en.mp4",
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-en.webp"
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые концепции",
+        "intro": "Изучите основные идеи этого урока.",
+        "concepts": [
+          {
+            "title": "энергия для развития",
+            "body": "Энергия для развития относится к обеспечению и использованию энергетических ресурсов для поддержки экономического роста, улучшения уровня жизни и повышения социального благополучия в сообществах, особенно в развивающихся регионах.",
+            "source": ""
+          },
+          {
+            "title": "энергетическая трилемма",
+            "body": "Энергетическая трилемма относится к вызову балансировки трех ключевых целей в энергетической политике: обеспечение энергетической безопасности, продвижение экологической устойчивости и предоставление энергетической справедливости или доступности для всех потребителей.",
+            "source": ""
+          },
+          {
+            "title": "цели Парижского соглашения",
+            "body": "Цели Парижского соглашения относятся к международным обязательствам, принятым странами для ограничения глобального потепления значительно ниже 2 градусов Цельсия по сравнению с доиндустриальным уровнем, с усилиями по ограничению повышения температуры до 1,5 градусов Цельсия, и для повышения способности адаптироваться к последствиям изменения климата.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -136,6 +179,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "Индекс человеческого развития (ИЧР) и потребление энергии на душу населения, 2019",
+          "subtitle": "",
+          "description": "Zhong: Пример Apache: https://echarts.apache.org/examples/en/editor.html?c=scatter-simple",
+          "footnote": "Sources: Our World in Data; United Nations Development Programme Boston University Institute for Global Sustainability | visualizingenergy.org | CC BY 4.0"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -173,16 +222,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
-            "#fcc30b",
-            "#0a97d9",
-            "#3f7e44",
-            "#4c9f38",
             "#fd6925",
-            "#fd9d24",
             "#c5192d",
+            "#fd9d24",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44",
             "#dd1367",
-            "#0468b1"
+            "#0a97d9",
+            "#fcc30b",
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -845,47 +894,7 @@
               "type": "scatter",
               "name": "South America"
             }
-          ],
-          "title": {
-            "text": "Индекс человеческого развития (ИЧР) и потребление энергии на душу населения, 2019",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -920,6 +929,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "Энергия и изменение климата",
+          "subtitle": "",
+          "description": "Zhong : Пример Apache : https://echarts.apache.org/examples/en/editor.html?c=pie-simple",
+          "footnote": "Pie chart showing the sources of GHG emissions by sector in 2021. Energy includes Electricity and Heat, Manufacturing and Construction, Transportation, Fugitive Emissions, and Buildings"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -959,16 +974,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#0a97d9",
             "#19486a",
-            "#fd9d24",
-            "#fd6925",
             "#dd1367",
-            "#4c9f38",
-            "#0468b1",
+            "#fcc30b",
             "#3f7e44",
-            "#c5192d"
+            "#0468b1",
+            "#0a97d9",
+            "#fd6925",
+            "#c5192d",
+            "#4c9f38",
+            "#fd9d24"
           ],
           "label": {
             "overflow": "truncate",
@@ -1018,47 +1033,7 @@
                 }
               ]
             }
-          ],
-          "title": {
-            "text": "Энергия и изменение климата",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -1222,6 +1197,15 @@
       }
     },
     {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "https://ourworldindata.org/grapher/global-fossil-fuel-consumption?tab=chart"
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1265,7 +1249,7 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "[needs translation] <strong>Global energy intensity</strong>—an indicator of efficiency—improved by<strong> 2% in 2022</strong>, the fastest rate since 2015 (<a href=\"https://www.iea.org/commentaries/a-global-target-to-double-efficiency-progress-is-essential-to-keep-net-zero-on-the-table\"><u>IEA</u></a>, 2023).<br />Yet global energy demand rose by <strong>2.2% in 2024</strong> (<a href=\"https://www.iea.org/news/growth-in-global-energy-demand-surged-in-2024-to-almost-twice-its-recent-average\"><u>IEA</u></a>, 2025).",
+              "title": "<strong>Глобальная энергетическая интенсивность</strong>—индикатор эффективности—улучшилась на <strong>2% в 2022 году</strong>, что является самым быстрым темпом с 2015 года (<a href=\"https://www.iea.org/commentaries/a-global-target-to-double-efficiency-progress-is-essential-to-keep-net-zero-on-the-table\"><u>МЭА</u></a>, 2023).<br />Тем не менее, мировой спрос на энергию вырос на <strong>2,2% в 2024 году</strong> (<a href=\"https://www.iea.org/news/growth-in-global-energy-demand-surged-in-2024-to-almost-twice-its-recent-average\"><u>МЭА</u></a>, 2025).",
               "body": "",
               "source": ""
             }
@@ -1281,7 +1265,7 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "[needs translation] Africa, is home to 20% of the world’s population, and <strong>80% of all people lacking electricity access </strong>(<a href=\"https://unsdg.un.org/latest/stories/decoding-africa%E2%80%99s-energy-journey-three-key-numbers\"><u>UNSDG</u></a>, 2025)<strong>,<br /></strong>Yet the continent receives just under<strong> 2%</strong> of <strong>global clean energy investment</strong>, despite vast solar and wind resources (<a href=\"https://www.iea.org/news/global-energy-investment-set-to-rise-to-3-3-trillion-in-2025-amid-economic-uncertainty-and-energy-security-concerns\"><u>IEA</u></a>, 2025).",
+              "title": "Африка, в которой проживает 20% мирового населения, и <strong>80% всех людей без доступа к электроэнергии</strong> (<a href=\"https://unsdg.un.org/latest/stories/decoding-africa%E2%80%99s-energy-journey-three-key-numbers\"><u>UNSDG</u></a>, 2025)<strong>,<br /></strong> Тем не менее, континент получает чуть менее <strong>2%</strong> <strong>от глобальных инвестиций в чистую энергию</strong>, несмотря на обширные солнечные и ветровые ресурсы (<a href=\"https://www.iea.org/news/global-energy-investment-set-to-rise-to-3-3-trillion-in-2025-amid-economic-uncertainty-and-energy-security-concerns\"><u>МЭА</u></a>, 2025).",
               "body": "",
               "source": ""
             }
@@ -1413,18 +1397,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4476_724.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1470,18 +1442,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4099_503.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -1587,15 +1547,51 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые ресурсы",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1111.webp",
+              "caption": ""
+            },
+            "href": "Center on Global Energy Policy at COLUMBIA SIPA",
+            "text": "Энергия и развитие в меняющемся мире: рамки для XXI века",
+            "cta": "Нажмите, чтобы скачать"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1112.webp",
+              "caption": ""
+            },
+            "href": "Wiley Online Library",
+            "text": "Развитие энергетики как драйвер экономического роста",
+            "cta": "Нажмите, чтобы скачать"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1113.webp",
+              "caption": ""
+            },
+            "href": "ScienceDirect",
+            "text": "Экономическое развитие на основе энергии",
+            "cta": "Нажмите, чтобы скачать"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "Далее",
-        "title": "Урок 2: Энергия как движущая сила развития",
+        "title": "Урок 2: Сложности глобального использования энергии",
         "cta": "Продолжайте учиться",
         "nextLessonId": "1.1.2"
       }

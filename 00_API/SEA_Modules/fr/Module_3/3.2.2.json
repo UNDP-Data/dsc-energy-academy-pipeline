@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Concepts clés",
+        "intro": "Explorez les idées fondamentales de cette leçon.",
+        "concepts": [
+          {
+            "title": "écart entre les sexes dans l'emploi dans le secteur de l'énergie",
+            "body": "L'écart entre les sexes dans l'emploi dans le secteur de l'énergie fait référence à la disparité entre le nombre d'hommes et de femmes travaillant dans ce secteur, souvent caractérisée par un nombre moindre de femmes dans des rôles techniques, de leadership et de prise de décision par rapport à leurs homologues masculins.",
+            "source": ""
+          },
+          {
+            "title": "programmes de main-d'œuvre pour une transition juste",
+            "body": "Les programmes de main-d'œuvre pour une transition juste sont des initiatives conçues pour soutenir les travailleurs et les communautés dans la transition vers des emplois et des industries durables, en veillant à ce que le passage à une économie plus verte soit équitable et juste, en fournissant formation, ressources et soutien à ceux qui sont affectés par les changements sur le marché du travail.",
+            "source": ""
+          },
+          {
+            "title": "écosystèmes de développement des compétences",
+            "body": "Les écosystèmes de développement des compétences se réfèrent à des réseaux interconnectés d'organisations, d'institutions et de ressources qui soutiennent collectivement l'apprentissage continu et le perfectionnement des compétences chez les individus, souvent adaptés pour répondre aux besoins du marché du travail et promouvoir la croissance économique.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -97,6 +122,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Différence d'emploi par secteur entre la ligne de base et le scénario 1,5°C, mille emplois",
+          "subtitle": "",
+          "description": "Vous pouvez combiner avec l'animation de la course de barres. L'utilisateur peut interagir avec le graphique en temps réel en cliquant pour révéler, zoomer ou mettre en évidence des valeurs | Inclure un élément de trivia à côté ou à l'intérieur des graphiques pour engager les utilisateurs avec des questions basées sur le contenu. Cela est destiné à la curiosité et à la réflexion — pas comme un test ou une évaluation",
+          "footnote": "*World employment, thousand persons"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -134,16 +165,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
-            "#c5192d",
             "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#3f7e44",
-            "#4c9f38",
             "#fd6925",
+            "#4c9f38",
+            "#dd1367",
+            "#c5192d",
             "#0468b1",
-            "#fcc30b"
+            "#3f7e44",
+            "#fcc30b",
+            "#fd9d24",
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -298,47 +329,7 @@
                 14290.5728519618
               ]
             }
-          ],
-          "title": {
-            "text": "Différence d'emploi par secteur entre la ligne de base et le scénario 1,5°C, mille emplois",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -445,7 +436,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "[needs translation] <strong>Energy: </strong>The electricity company EVN urgently needed 500 electrical fitters to maintain operations <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u><br /></u></a><strong>Textiles:</strong> A lack of technicians qualified to operate advanced machinery stalled technology adoption <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020)</u></a>.<br /><br /><strong>Construction: </strong>The industry, representing 5.4% of GDP, faced a deficit of approximately 600 technicians, threatening development projects <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(UNDP, 2020, para. 3; </u></a> (<a href=\"https://info.undp.org/docs/pdc/Documents/MKD/ProDoc_BridgingSkillGap-II%20phase_Signed.pdf\"><u>UNDP, 2021)</u></a>.<br /><br />De plus, un déficit national en compétences numériques, avec 50 % de la population ayant une faible <ai prompt=\"Expliquer la littératie numérique.\">littératie numérique 💬️</ai>, a entravé la compétitivité du pays dans une économie mondiale de plus en plus axée sur la technologie.<br />"
+              "text": "<strong>Énergie : </strong>La compagnie d'électricité EVN avait urgemment besoin de 500 monteurs électriques pour maintenir ses opérations <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(PNUD, 2020)</u></a>.<br /><a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u><br /></u></a><strong>Textiles :</strong> Un manque de techniciens qualifiés pour faire fonctionner des machines avancées a freiné l'adoption de la technologie <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(PNUD, 2020)</u></a>.<br /><br /><strong>Construction : </strong>L'industrie, représentant 5,4 % du PIB, faisait face à un déficit d'environ 600 techniciens, menaçant les projets de développement <a href=\"https://www.undp.org/north-macedonia/projects/bridging-skills-gap-create-new-and-better-jobs\"><u>(PNUD, 2020, para.</u></a> 3; </u></a> (<a href=\"https://info.undp.org/docs/pdc/Documents/MKD/ProDoc_BridgingSkillGap-II%20phase_Signed.pdf\"><u>UNDP, 2021)</u></a>.<br /><br />De plus, un déficit national en compétences numériques, avec 50 % de la population ayant une faible <ai prompt=\"Expliquer la littératie numérique.\">littératie numérique 💬️</ai>, a entravé la compétitivité du pays dans une économie mondiale de plus en plus axée sur la technologie.<br />"
             }
           }
         ]
@@ -467,7 +458,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/719_1303.webp",
@@ -503,7 +494,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "[needs translation] The project delivered measurable outcomes and created a sustainable impact on North Macedonia’s vocational training landscape.<br /><br />· 6 post-secondary occupational standards developed.<br />· 6 post-secondary curricula developed.<br />· 158 individuals enrolled in non-formal VET (due to legal constraints, formal post-secondary model was not implemented).<br />· A concept on Regional VET Center was prepared and approved by the Ministry of Education and Science.<br />· 6 private sector representatives participated in the model design.<br />· 60 trainees (at least 30% women) enrolled in non-formal training.<br />· 156 candidates completed non-formal training."
+              "text": "Le projet a permis d'obtenir des résultats mesurables et a créé un impact durable sur le paysage de la formation professionnelle en Macédoine du Nord.<br /><br />· 6 normes professionnelles postsecondaires développées.<br />· 6 programmes d'études postsecondaires élaborés.<br />· 158 personnes inscrites à la formation VET non formelle (en raison de contraintes légales, le modèle postsecondaire formel n'a pas été mis en œuvre).<br />· Un concept sur le Centre VET régional a été préparé et approuvé par le Ministère de l'Éducation et des Sciences.<br />· 6 représentants du secteur privé ont participé à la conception du modèle.<br />· 60 stagiaires (au moins 30 % de femmes) inscrits à la formation non formelle.<br />· 156 candidats ont terminé la formation non formelle."
             }
           },
           {
@@ -515,7 +506,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "[needs translation] While successful, the project navigated several potential challenges inherent in such systemic reforms:<br />· Delays in the adoption of relevant legislation, such as the Law on Secondary VET Education, hampered timely implementation of new models <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>.<br />· Rigid bureaucratic structures complicated coordination among ministries, schools, and training centers <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>.<br />· Building trust and sustained collaboration between government, private sector, and education providers took more time than expected <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>."
+              "text": "Bien que réussi, le projet a navigué à travers plusieurs défis potentiels inhérents à de telles réformes systémiques :<br />· Les retards dans l'adoption de la législation pertinente, comme la Loi sur l'Éducation VET Secondaire, ont entravé la mise en œuvre en temps voulu de nouveaux modèles <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>.<br />· Des structures bureaucratiques rigides ont compliqué la coordination entre les ministères, les écoles et les centres de formation <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>.<br />· La construction de la confiance et la collaboration soutenue entre le gouvernement, le secteur privé et les fournisseurs d'éducation ont pris plus de temps que prévu <a href=\"https://open.undp.org/projects/00127040/results\"><u>(UNDP, 2022)</u></a>."
             }
           }
         ]
@@ -549,7 +540,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/4497_226.webp",
@@ -611,7 +602,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/719_1318.webp",
@@ -661,7 +652,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/719_1325.webp",
@@ -677,7 +668,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "La transition énergétique est une opportunité de faire progresser l'égalité des genres et de soutenir les communautés marginalisées. [needs translation] While <a href=\"https://www.irena.org/News/articles/2023/Mar/Women-in-Renewables-Can-Be-Agents-of-Change\"><u>renewable energy sectors are already more inclusive, employing 32% of women</u></a> compared to <a href=\"https://www.unwomen.org/sites/default/files/2023-05/Gender-equality-in-the-sustainable-energy-transition-en.pdf\"><u>22% in the oil and gas industries</u></a>, significant disparities remain, particularly in leadership roles where <a href=\"https://www.iea.org/commentaries/women-in-senior-management-roles-at-energy-firms-remains-stubbornly-low-but-efforts-to-improve-gender-diversity-are-moving-apace#:~:text=Based%20on%20data%20from%20almost,%2Denergy%20industries%20at%2015.5%25.\"><u>women occupy less than 14% of senior positions</u></a>. Pour exploiter le potentiel de la transition énergétique, elle doit être abordée avec une intention délibérée et soutenue par la priorité à l'égalité des sexes à chaque étape de la transition énergétique—de la conception des politiques au développement de la main-d'œuvre.<br /><br />Le secteur de l'énergie reste l'une des industries les moins diversifiées en termes de genre dans le monde. Bien que les femmes représentent environ 39 % de la main-d'œuvre mondiale, elles occupent seulement 16 % des postes dans le secteur de l'énergie traditionnel. De plus, les salaires des femmes dans ce domaine sont inférieurs d'environ 15 % à ceux de leurs homologues masculins, et moins de 15 % occupent des postes de direction.<a href=\"https://www.iea.org/spotlights/understanding-gender-gaps-in-the-energy-sector\"><u>IEA, 2024</u></a>.<br /><br />Il est crucial de s'attaquer à ces disparités pour favoriser l'innovation et réaliser une transition énergétique juste. La mise en œuvre d'interventions ciblées, telles que la promotion de la participation des femmes aux postes de direction et la garantie d'une rémunération équitable, est essentielle pour rectifier les déséquilibres de genre existants et libérer le plein potentiel du secteur."
+              "text": "La transition énergétique est une opportunité de faire progresser l'égalité des genres et de soutenir les communautés marginalisées. Alors que <a href=\"https://www.irena.org/News/articles/2023/Mar/Women-in-Renewables-Can-Be-Agents-of-Change\"><u>les secteurs de l'énergie renouvelable sont déjà plus inclusifs, employant 32% de femmes</u></a> par rapport à <a href=\"https://www.unwomen.org/sites/default/files/2023-05/Gender-equality-in-the-sustainable-energy-transition-en.pdf\"><u>22% dans les industries pétrolières et gazières</u></a>, des disparités importantes subsistent, notamment dans les rôles de direction où <a href=\"https://www.iea.org/commentaries/women-in-senior-management-roles-at-energy-firms-remains-stubbornly-low-but-efforts-to-improve-gender-diversity-are-moving-apace#:~:text=Based%20on%20data%20from%20almost,%2Denergy%20industries%20at%2015.5%25.\"><u>les femmes occupent moins de 14% des postes de direction</u></a>. Pour exploiter le potentiel de la transition énergétique, elle doit être abordée avec une intention délibérée et soutenue par la priorité à l'égalité des sexes à chaque étape de la transition énergétique—de la conception des politiques au développement de la main-d'œuvre.<br /><br />Le secteur de l'énergie reste l'une des industries les moins diversifiées en termes de genre dans le monde. Bien que les femmes représentent environ 39 % de la main-d'œuvre mondiale, elles occupent seulement 16 % des postes dans le secteur de l'énergie traditionnel. De plus, les salaires des femmes dans ce domaine sont inférieurs d'environ 15 % à ceux de leurs homologues masculins, et moins de 15 % occupent des postes de direction.<a href=\"https://www.iea.org/spotlights/understanding-gender-gaps-in-the-energy-sector\"><u>IEA, 2024</u></a>.<br /><br />Il est crucial de s'attaquer à ces disparités pour favoriser l'innovation et réaliser une transition énergétique juste. La mise en œuvre d'interventions ciblées, telles que la promotion de la participation des femmes aux postes de direction et la garantie d'une rémunération équitable, est essentielle pour rectifier les déséquilibres de genre existants et libérer le plein potentiel du secteur."
             }
           }
         ]
@@ -713,7 +704,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_3/719_1328.webp",
@@ -770,11 +761,47 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ressources clés",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3221.webp",
+              "caption": ""
+            },
+            "href": "IISD",
+            "text": "Vraies personnes, vrai changement : stratégies pour des transitions énergétiques justes",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3222.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Photovoltaïque solaire décentralisé : une perspective de genre",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_3/resource-3223.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "Emploi dans le secteur de l'énergie mondiale 2024",
+            "cta": "Cliquez pour télécharger"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module3.webp",
           "caption": ""
         },
         "intro": "Prochainement",

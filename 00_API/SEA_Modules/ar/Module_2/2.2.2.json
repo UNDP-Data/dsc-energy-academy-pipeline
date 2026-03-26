@@ -39,6 +39,26 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "المفاهيم الأساسية",
+        "intro": "استكشف الأفكار الأساسية من هذا الدرس.",
+        "concepts": [
+          {
+            "title": "الوصول إلى الطهي النظيف",
+            "body": "يشير الوصول إلى الطهي النظيف إلى توفر واستخدام طرق ووقود طهي آمنة وفعالة وصديقة للبيئة، والتي تقلل من المخاطر الصحية والأثر البيئي مقارنة بالممارسات التقليدية للطهي.",
+            "source": ""
+          },
+          {
+            "title": "وقود وتقنيات التدفئة والتبريد",
+            "body": "الوقود والتقنيات للتدفئة والتبريد تشير إلى مصادر الطاقة المختلفة (مثل الغاز الطبيعي والكهرباء والخيارات المتجددة) والأنظمة (مثل الأفران، مضخات الحرارة، ومكيفات الهواء) المستخدمة لتنظيم درجات الحرارة الداخلية من أجل الراحة والكفاءة.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -153,7 +173,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_78.webp",
@@ -186,6 +206,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "زيادات في الوصول العالمي للكهرباء في المناطق الحضرية والريفية، 2010، 2020، و2022",
+          "subtitle": "",
+          "description": "أليس من المفترض أن يكون مجموعة البيانات المرتبطة بـ M_C2_50 مرتبطة بـ M_C2_47 بدلاً من ذلك؟ من أين يأتي مجموعة البيانات M_C2_47؟ لا يتطابق مع بيانات المصدر",
+          "footnote": "Source: World Bank, 2024"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -223,16 +249,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
+            "#c5192d",
+            "#3f7e44",
+            "#0468b1",
+            "#4c9f38",
+            "#0a97d9",
             "#dd1367",
             "#fd9d24",
-            "#c5192d",
             "#fcc30b",
-            "#0a97d9",
             "#fd6925",
-            "#0468b1",
-            "#3f7e44",
-            "#4c9f38"
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -342,44 +368,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "زيادات في الوصول العالمي للكهرباء في المناطق الحضرية والريفية، 2010، 2020، و2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 80
           }
         }
       }
@@ -408,6 +397,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_13"
       }
     },
     {
@@ -456,6 +454,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "النمو السنوي في الوصول إلى الكهرباء والسكان في المناطق الحضرية والريفية حسب المنطقة، 2020-22",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "Source: World Bank, 2024"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -493,16 +497,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#c5192d",
-            "#3f7e44",
-            "#fcc30b",
-            "#0a97d9",
-            "#fd9d24",
-            "#dd1367",
-            "#0468b1",
-            "#4c9f38",
             "#fd6925",
-            "#19486a"
+            "#fd9d24",
+            "#4c9f38",
+            "#3f7e44",
+            "#dd1367",
+            "#19486a",
+            "#0468b1",
+            "#c5192d",
+            "#0a97d9",
+            "#fcc30b"
           ],
           "xAxis": {
             "axisLine": {
@@ -631,44 +635,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "النمو السنوي في الوصول إلى الكهرباء والسكان في المناطق الحضرية والريفية حسب المنطقة، 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -706,6 +673,15 @@
       }
     },
     {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_14"
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -723,18 +699,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/4016_5817.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -776,7 +740,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_57.webp",
@@ -810,7 +774,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>في منتصف عام 2024، تجاوز عدد الأشخاص الذين اضطروا إلى الفرار من الصراعات والعنف وانتهاكات حقوق الإنسان والاضطهاد 122 مليون شخص (</strong><a href=\"https://www.unhcr.org/refugee-statistics/insights/explainers/forcibly-displaced-pocs.html\"><strong><u>المفوضية السامية للأمم المتحدة لشؤون اللاجئين، 2024</u></strong></a><strong>).</strong> <br />يعيش أكثر من 6.6 مليون شخص في مخيمات اللاجئين وأكثر من 94٪ من الأسر في المخيمات تفتقر إلى الوصول إلى الكهرباء، في حين يعتمد 81٪ على الحطب أو الفحم للطهي. </strong>هذا الاعتماد يزيد من تدهور البيئة، ويزيد من مخاطر الصحة، ويؤثر على سلامة السكان الضعفاء، لا سيما النساء والأطفال. <br /><br />مخيمات اللاجئين تقع غالبًا في مناطق نائية، حيث البنية التحتية المحدودة وتكاليف اللوجستيات العالية تزيد من تعقيد توفير الطاقة. [needs translation] To address this, <strong>humanitarian agencies spend over $108 million annually on diesel fuel, resulting in over 194,000 tons of CO₂ emissions</strong> (<a href=\"https://unepccc.org/project/climate-action-at-the-last-mile-policy-and-partnerships-for-sustainability-in-displacement-settings/?utm_source=linkedin&utm_medium=social&utm_campaign=Last+Mile\"><u>UNEP, 2023</u></a>) (<a href=\"https://www.unrefugees.org/news/refugee-camps-explained/\"><u>UN Refugees, 2021</u></a>)<br /><br />Refugee camps face acute energy needs due to dense populations and limited infrastructure. <strong>أنظمة الطاقة المتجددة اللامركزية، مثل الشبكات الشمسية الصغيرة، تظهر كبدائل فعالة.</strong> هذه الأنظمة أسرع في النشر وأقل استهلاكًا لرأس المال من الشبكات المركزية، مما يجعلها أكثر تكيفًا مع البيئات النائية والمعسكرات المؤقتة."
+              "text": "<strong>في منتصف عام 2024، تجاوز عدد الأشخاص الذين اضطروا إلى الفرار من الصراعات والعنف وانتهاكات حقوق الإنسان والاضطهاد 122 مليون شخص (</strong><a href=\"https://www.unhcr.org/refugee-statistics/insights/explainers/forcibly-displaced-pocs.html\"><strong><u>المفوضية السامية للأمم المتحدة لشؤون اللاجئين، 2024</u></strong></a><strong>).</strong> <br />يعيش أكثر من 6.6 مليون شخص في مخيمات اللاجئين وأكثر من 94٪ من الأسر في المخيمات تفتقر إلى الوصول إلى الكهرباء، في حين يعتمد 81٪ على الحطب أو الفحم للطهي. </strong>هذا الاعتماد يزيد من تدهور البيئة، ويزيد من مخاطر الصحة، ويؤثر على سلامة السكان الضعفاء، لا سيما النساء والأطفال. <br /><br />مخيمات اللاجئين تقع غالبًا في مناطق نائية، حيث البنية التحتية المحدودة وتكاليف اللوجستيات العالية تزيد من تعقيد توفير الطاقة. لمعالجة ذلك، <strong>تنفق الوكالات الإنسانية أكثر من 108 ملايين دولار سنويًا على وقود الديزل، مما يؤدي إلى أكثر من 194,000 طن من انبعاثات ثاني أكسيد الكربون</strong> (<a href=\"https://unepccc.org/project/climate-action-at-the-last-mile-policy-and-partnerships-for-sustainability-in-displacement-settings/?utm_source=linkedin&utm_medium=social&utm_campaign=Last+Mile\"><u>UNEP، 2023</u></a>) (<a href=\"https://www.unrefugees.org/news/refugee-camps-explained/\"><u>الأمم المتحدة للاجئين، 2021</u></a>)<br /><br />تواجه مخيمات اللاجئين احتياجات طاقة حادة بسبب الكثافة السكانية والبنية التحتية المحدودة. <strong>أنظمة الطاقة المتجددة اللامركزية، مثل الشبكات الشمسية الصغيرة، تظهر كبدائل فعالة.</strong> هذه الأنظمة أسرع في النشر وأقل استهلاكًا لرأس المال من الشبكات المركزية، مما يجعلها أكثر تكيفًا مع البيئات النائية والمعسكرات المؤقتة."
             }
           }
         ]
@@ -844,7 +808,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "أزمات كبرى عبر العالم، تمتد من أفغانستان إلى الكونغو، هايتي، فلسطين، أوكرانيا، السودان، اليمن، وما بعدها، ألحقت انتكاسات كبيرة، وأحيانًا جيلية، في تقدم التنمية، مما ترك الناس في هذه السياقات يواجهون مستقبلًا غير مؤكد بشكل متزايد. [needs translation] <br /><br /><br />Approximately <strong>15 percent of the world’s total population – roughly 1.2 billion people – reside in conflict-affected area</strong>s (<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/2023-09/undp_crisis_offer_2022.pdf\"><u>UNDP, 2022</u></a>), while disaster losses have sharply risen, impacting 4.2 billion individuals over the past two decades (<a href=\"https://www.undrr.org/news/un-report-dramatic-rise-climate-disaster-over-last-twenty-years\"><u>UNDRR, 2020</u></a>).<br /><br /><br /><strong>Example: </strong>The impact of energy loss is starkly illustrated by nighttime images of areas hit by disasters or conflict, such as power outages following Cyclone Fani or widespread blackouts during the Ukraine war, showing the devastating impact of disrupted energy access in these fragile settings."
+              "text": "أزمات كبرى عبر العالم، تمتد من أفغانستان إلى الكونغو، هايتي، فلسطين، أوكرانيا، السودان، اليمن، وما بعدها، ألحقت انتكاسات كبيرة، وأحيانًا جيلية، في تقدم التنمية، مما ترك الناس في هذه السياقات يواجهون مستقبلًا غير مؤكد بشكل متزايد. <br /><br /><br />يعيش حوالي <strong>15 في المائة من إجمالي سكان العالم – حوالي 1.2 مليار شخص – في مناطق متأثرة بالنزاعات</strong> (<a href=\"https://www.undp.org/sites/g/files/zskgke326/files/2023-09/undp_crisis_offer_2022.pdf\"><u>برنامج الأمم المتحدة الإنمائي، 2022</u></a>)، بينما زادت خسائر الكوارث بشكل حاد، مما أثر على 4.2 مليار شخص خلال العقدين الماضيين (<a href=\"https://www.undrr.org/news/un-report-dramatic-rise-climate-disaster-over-last-twenty-years\"><u>البرنامج الإنمائي للأمم المتحدة، 2020</u></a>).<br /><br /><br /><strong>مثال: </strong>يُوضح تأثير فقدان الطاقة بشكل واضح من خلال الصور الليلية للمناطق التي ضربتها الكوارث أو النزاعات، مثل انقطاع التيار الكهربائي بعد إعصار فاني أو انقطاعات التيار الواسعة خلال حرب أوكرانيا، مما يُظهر التأثير المدمر لانقطاع الوصول إلى الطاقة في هذه البيئات الهشة."
             }
           }
         ]
@@ -852,7 +816,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/3763_27.webp",
@@ -862,10 +826,10 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_3.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L4_2.png",
           "caption": ""
         }
       }
@@ -951,7 +915,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "تسلط هذه الاختلافات في الوصول إلى الكهرباء الضوء على الفروقات الكبيرة في كيفية تعريف وقياس الوصول من قبل الدول والمؤسسات. في بعض السياقات، يُعرف الوصول إلى الكهرباء ببساطة على أنه اتصال مادي بالشبكة، بغض النظر عن الجودة أو الاعتمادية. في حالات أخرى، يتضمن مستويات خدمة أدنى مثل القدرة على تشغيل الأجهزة الأساسية، وعدد ساعات الإمداد يوميًا، أو القدرة على التحمل المالي. [needs translation] <br /><br />For example,<strong> India </strong>considers a village electrified if at least 10% of households and public institutions have access to electricity (<a href=\"https://prsindia.org/theprsblog/electrification-in-india-%E2%80%98saubhagya%E2%80%99-scheme\"><u>PRS India</u></a>., 2017) while the <strong>World Bank’s Multi-Tier Framework (MTF) </strong>assesses access based on capacity, duration, reliability, quality, affordability, legality, and safety (<a href=\"https://www.esmap.org/node/56715\"><u>ESMAP</u></a>, 2015). يمكن أن تؤدي هذه التعريفات المتباينة إلى تباينات كبيرة في التقارير وفهم التأثير الحقيقي لجهود الكهربة. <br /><br />لضمان تقدم ملموس نحو الوصول الشامل للطاقة، <strong>يجب أن تكون الاستراتيجيات مصممة خصيصًا للسياقات الإقليمية والوطنية،</strong> مع الأخذ في الاعتبار ليس فقط معدلات الاتصال ولكن أيضًا جودة وموثوقية وشمولية خدمات الطاقة. هذا أمر حاسم بشكل خاص في المناطق الريفية المحرومة والمستوطنات غير الرسمية، حيث تظل الاحتياجات الأساسية للطاقة غير ملباة على الرغم من اعتبارها «مُكهربَة»."
+              "text": "تسلط هذه الاختلافات في الوصول إلى الكهرباء الضوء على الفروقات الكبيرة في كيفية تعريف وقياس الوصول من قبل الدول والمؤسسات. في بعض السياقات، يُعرف الوصول إلى الكهرباء ببساطة على أنه اتصال مادي بالشبكة، بغض النظر عن الجودة أو الاعتمادية. في حالات أخرى، يتضمن مستويات خدمة أدنى مثل القدرة على تشغيل الأجهزة الأساسية، وعدد ساعات الإمداد يوميًا، أو القدرة على التحمل المالي. <br /><br />على سبيل المثال،<strong> تعتبر الهند </strong>قرية مزودة بالكهرباء إذا كان على الأقل 10% من الأسر والمؤسسات العامة لديها إمكانية الوصول إلى الكهرباء (<a href=\"https://prsindia.org/theprsblog/electrification-in-india-%E2%80%98saubhagya%E2%80%99-scheme\"><u>PRS India</u></a>، 2017) بينما <strong>إطار العمل متعدد المستويات للبنك الدولي (MTF)</strong> يقيم الوصول بناءً على القدرة، والمدة، والموثوقية، والجودة، والقدرة على التحمل، والشرعية، والسلامة (<a href=\"https://www.esmap.org/node/56715\"><u>ESMAP</u></a>، 2015). يمكن أن تؤدي هذه التعريفات المتباينة إلى تباينات كبيرة في التقارير وفهم التأثير الحقيقي لجهود الكهربة. <br /><br />لضمان تقدم ملموس نحو الوصول الشامل للطاقة، <strong>يجب أن تكون الاستراتيجيات مصممة خصيصًا للسياقات الإقليمية والوطنية،</strong> مع الأخذ في الاعتبار ليس فقط معدلات الاتصال ولكن أيضًا جودة وموثوقية وشمولية خدمات الطاقة. هذا أمر حاسم بشكل خاص في المناطق الريفية المحرومة والمستوطنات غير الرسمية، حيث تظل الاحتياجات الأساسية للطاقة غير ملباة على الرغم من اعتبارها «مُكهربَة»."
             }
           }
         ]
@@ -992,15 +956,51 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "الموارد الرئيسية",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2221.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "الوصول إلى الكهرباء - الهدف 7 من أهداف التنمية المستدامة: البيانات والتوقعات، 2024",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2222.webp",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "تعزيز الصحة: تسريع الوصول إلى الكهرباء في مرافق الرعاية الصحية، 2023",
+            "cta": "انقر للتنزيل"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2223.webp",
+              "caption": ""
+            },
+            "href": "UN Energy",
+            "text": "تحقيق الوصول الشامل بحلول عام 2030 وانبعاثات صافية صفرية بحلول عام 2050: خارطة طريق عالمية لانتقال عادل وشامل للطهي النظيف",
+            "cta": "انقر للتنزيل"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.webp",
           "caption": ""
         },
         "intro": "التالي",
-        "title": "الدرس 3: التحديات للوصول الشامل إلى الطاقة",
+        "title": "الدرس 3: ما وراء الكهرباء: حالة الطهي والتدفئة والتبريد النظيفة",
         "cta": "استمر في التعلم",
         "nextLessonId": "2.2.3"
       }

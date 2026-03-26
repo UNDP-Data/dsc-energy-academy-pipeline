@@ -1,0 +1,615 @@
+{
+  "id": "9.1.2",
+  "segments": [
+    {
+      "template_id": "lesson_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_9/4996_10051.webp",
+          "caption": ""
+        },
+        "lesson": {
+          "label": "课程",
+          "number": "2"
+        },
+        "title": "超越电网：离网创新点亮偏远社区",
+        "cta": "",
+        "intro": "M5：可再生能源投资的风险降低（DREI）| 第1章 | 第2课"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>第2课概述</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "在第一课中介绍了分散式发电技术，其中包括并网和离网解决方案。<br /><strong>近年来，迈向到2030年实现普遍电气化的进展一直在放缓。</strong> 事实上，虽然大多数人口稠密和经济发达地区享受现代能源服务，但偏远地区和边缘化人群（主要是农村、游牧和难民人群）更难以到达。<strong> <br />到2022年，全球仍有6.85亿人无法获得可靠的电力。 这些人口在大多数情况下通过微电网和独立系统以最低成本获得更好的服务，而不是依赖于集中式电网的扩展。<br /></strong>开发了DREI框架，以评估这两种解决方案：太阳能光伏-电池微电网和 <ai prompt=\"什么是太阳能家庭系统？\">太阳能家庭系统 💬️</ai>（SHS）。<br /><br />在第一部分，本课程将进一步描述由太阳能光伏/电池驱动的微电网，其潜力和在支持农村电气化中的作用，以及阻碍其在最需要的地方进一步发展的主要障碍。<br /><br />第二部分也将专注于太阳能家庭系统。<br />这两种技术都需要大量资本投入，这对最终用户来说成本高昂，而他们中的大多数仍然生活在贫困中。 然而，过去十年太阳能光伏和电池设备价格的下降以及已实施系统数量的不断增加表明，它们可以成为经济上可行的选择，减少政府的财政支持，以实现提供可持续电力所需的规模。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": []
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_9/5736_206.webp",
+          "caption": ""
+        },
+        "intro": "M5：可再生能源投资的风险降低（DREI）",
+        "title": "A：基于可再生能源的微电网"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<p>在第1课中介绍了基于可再生能源的微电网的简介以及它们在全球部署方面的相关数字。</p> 关于太阳能光伏-电池微电网的技术方面、它们对社会经济发展的影响以及部署的主要障碍的更多细节在这里提供。<br /><br /><strong>根据 <a href=\"https://openknowledge.worldbank.org/server/api/core/bitstreams/32287154-1ccb-46ce-83af-08facf7a3b49/content\"><u>ESMAP (2022)</u></a>，微电网有潜力为多达4.3亿人提供电力</strong>。实际上，微电网通常是为那些扩展主电网成本过高、且存在足够人口密度和经济活动——或潜在活动——的社区提供可靠电力的最低成本解决方案。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<p>微电网是一种电力供应系统，包括发电和配电系统，为多个客户提供电力，并且可以孤立运行。</p> 它们旨在向社区提供电力，包括住宅、商业、农业和社区服务用户。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "微电网的规模可以变化，从提供电力给农村定居点少数用户的千瓦级系统（也称为纳米或微电网），到为城镇中的数千户家庭、企业和公共机构供电的都市电网，通常被称为都市电网。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "大多数微电网已在偏远地区实施，预计短期内不会扩展主要电网。<br />然而，一些微电网已连接到主电网，要么是因为主电网已扩展到微电网区域，要么是为了补充主电网的服务，而后者通常不可靠。 它们通常被称为«子网迷你电网»。 它们可以在需要时向电网输送多余的能量或从中取能，并且具有有意隔离而不影响电能质量的能力。",
+              "source": ""
+            }
+          },
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "大多数微型电网由交流电（AC）供电。 然而，之前提出的被称为<强>网格</强>的微网变体已被开发用于小型社区。 在这些Mesh网络中，多个建筑配备了自己的太阳能光伏和电池系统，所有建筑通过直流（DC）电网连接，能够交换电力以优化电力分配，从而更好地即时满足彼此的用电需求。",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "通过微电网提供电力随着时间的推移而发展。 近年来，<strong>私营部门开始在电气化方面发挥作用，与公共部门形成对比</strong>。 <p>出现了一些新的商业模式，以增加使用的电力数量，从而降低每千瓦时的成本。</p> <strong>合作伙伴关系</strong>或将电力的生产性用途纳入微电网活动的做法是允许降低成本的商业模式创新之一。 <strong>此外，私营部门在角色中的参与也促进了一个投资者生态系统和一些国际公司的发展，它们带来了丰富的经验和进入金融市场的渠道</strong>。 典型太阳能光伏微电网的技术描述，配备电池<br /><br />DREI框架专注于太阳能光伏/电池（锂离子）供电的微电网。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>太阳能光伏-电池微电网的主要组成部分</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>太阳能光伏模块</strong> – 它们被布线并组织成阵列，每个阵列连接到一个充电控制器。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>电池</strong> – 它们存储由光伏模块产生的电力，或在配电网需求未被模块产生的电力满足时释放已存储的能量"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>太阳能光伏模块</strong> – 它们被布线并组织成阵列，每个阵列连接到一个充电控制器。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>直流连接箱</strong> 连接发电系统的不同元素（光伏模块、电池和逆变器）并根据需要分配电力：由模块产生的电力可以送到配电网，多余的电力可以存储到电池中。 如果模块产生的电力不足以满足电网需求，则从电池中提取存储的电力并将其送到逆变器。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>交流配电盘 </strong>根据整个微电网的瞬时用电需求，将电力输送到不同的配电线路"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>监控和控制系统</strong>，连接到互联网以实现远程操作"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>避雷系统</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>配电网 </strong>将发电系统连接到所有配备了计量器和安全设备以及内部电气设备的用户。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>微电网对农村地区社会经济发展的影响及对这些影响实现的警示。</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "获得可靠且现代的能源，包括电力，被认为是实现社会和经济发展的<strong>必要条件</strong>。 因此，太阳能光伏电池微电网具有在农村社区促进可持续发展的巨大潜力："
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "它们提供所有<strong>离网电器的优势</strong>——实现照明、水泵、制冷和电信的更可靠方式，在许多情况下能够提供第4-5级电力接入（请参阅模块2以获取有关电力接入等级的更多信息）。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "它们允许向农村人口提供<strong>更高质量的医疗服务</strong>，24小时供电允许保存疫苗和药物，灭菌器械以及更先进的程序等。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "它们促进<strong>高需求活动和服务的发展</strong>，提高现有企业服务的效率，并促进电动出行和农村工业化的发展。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "由于微电网有助于刺激农村社区的用电需求并促进创收活动，它们促进经济发展，从而提高消费者的支付能力，用于住宅用途，增加舒适度和生活质量。<br />这些<strong>影响特别影响女性</strong>，通过节省用于家庭活动的时间，这些活动仍然由女性传统上完成。 然而，<strong>商业机会也应针对女性，以确保性别平等得到有效改善</strong>。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": []
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "通过取代柴油发电机或电器的使用，以及传统生物质用于烹饪和取暖，太阳能光伏/电池微电网还促进了积极的环境影响，特别是通过减少碳排放、空气污染和森林砍伐。<br /> <br />然而，收入创造活动的发展以及<ai prompt=\"告诉我更多关于电动出行。\">电动出行 💬️</ai>和农村工业化的实施通常不是一个自发的过程，尤其是在农村人口生活贫困、依赖自给农业的情况下。<br />因此，微电网项目必须通过创新的商业模式结合融资、补助和项目来推动这些活动的发展。<br />这些措施不仅提高了微电网的社会经济影响的有效性，也有助于其财务可持续性——实际上，低电力需求将阻止微电网收回其成本。 增加农村社区的支付能力和电力需求，因此也有利于微电网的财务可持续性。<br /> <br />太阳能微电网被认为是非洲难民营供电的有前途的选择，通常依赖柴油发电机。<br />尽管它们面临大量通常影响农村电气化低碳基础设施的障碍，但它们也具有更高的人口密度，拥有更广泛的技能和汇款渠道，这可能改善项目的经济可行性。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": []
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>太阳能微电网发展的障碍。</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "随着发展中国家太阳能微电网市场的扩大，<strong>新系统的实施速度被认为不足以实现可持续发展目标7</strong>。 虽然许多项目已由政府、公用事业和发展机构提供资金，但<strong>也需要私人投资来弥补剩余的差距</strong>。 然而，<strong>投资者在大规模开发和融资微电网方面面临诸多挑战。<br /></strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>财务可行性挑战</strong>：高投资成本、长回报期以及农村人口的低支付能力或未反映成本的调控费率。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>不确定性</strong>对电力需求的影响进一步加剧了这一挑战"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>缺乏明确的电力规划</strong> 和充分的法规，这些对于私营投资者了解市场准入、竞争和关税等规则和保障是必要的。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>复杂且冗长的许可流程</strong>，通常由人手不足、机构能力低下的机构协调不良。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>宏观经济不确定性</strong>、政治不稳定、安全威胁和自然灾害。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "",
+              "body": "<strong>缺乏熟练的管理人员、工程师和技术人员</strong>，以确保项目的高效开发、安装和运营。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "这些障碍导致私营部门、投资者和银行对高风险投资环境的认知，这往往会使投资者和银行远离提供此类项目所需的长期资金，或期望获得高额财务回报以弥补风险，表现为高资本成本。 这些高“资本成本”反过来在微电网项目的总体成本中占据重要位置。<br /> <br /><strong> DREI 框架的方法包括识别导致投资者风险感知的障碍，并通过精选的公共干预措施针对它们。<br /></strong>在第3章中将介绍通过DREI框架识别的风险和障碍的更详细列表和描述，以及考虑用以应对它们的公共工具。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "lesson_subpart_cover",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_9/5739_905.webp",
+          "caption": ""
+        },
+        "intro": "M5：可再生能源投资的风险降低（DREI）",
+        "title": "离网系统"
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "离网太阳能系统的实施，包括太阳能灯、太阳能家庭系统和独立的光伏供能生产设备，自本世纪初以来显著增加；在2023年，<br /><strong>有5.61亿人通过离网太阳能系统获得电力服务</strong>，这些系统在2022年占撒哈拉以南非洲新增电力接入的一半以上。 它还 <strong>代表了1.6亿依赖不可靠电网的人的备用解决方案</strong>。<br />太阳能光伏技术和电池成本的下降、电力服务需求的增加以及在电信方面的创新，使得移动支付和按用量付费（PAYGo）模型成为推动这一增长的主要因素。<br />这些系统也被估计为几乎为4亿人提供<strong>成本最低的电力接入解决方案，以实现到2030年的普遍电力接入。<br /></strong> <br />太阳能家庭系统主要设计用于为家庭供电，但最大的系统足以为诊所、学校和其他公共服务供电，对发展中国家的农村人口产生积极影响。<br />太阳能灯、水泵、磨坊、冰箱和冷冻机补充了SHS，允许电力的生产性使用。<br /> <br />这些系统提供电力服务，改善偏远地区的生计，没有健康和环境影响，也没有柴油发电的经常性成本。<br />然而，仍需克服一些障碍，以充分发挥个别离网系统在发展中国家的潜力，作为实现电力普及的解决方案之一。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle",
+            "content": {
+              "text": "<strong>太阳能家庭系统和其他基于可再生能源的独立系统的描述。</strong>"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "ESMAP 将离网太阳能产品定义为 <em>“为个人使用（通常是家庭或企业）生成和存储电力的自给自足能源系统，通常不依赖于中央电网或连接到微电网”</em>。 <br />虽然一些系统专注于发电和存储解决方案，例如太阳能家庭系统，其他系统可能被归类为离网太阳能设备，具有特定的用途，既用于家庭和小型企业，也用于生产性用途。<br /> <br />太阳能灯是便携式设备，配有单个灯和常常带有手机充电插头，容量最高可达3 Wp。<br />小型太阳能家庭系统（SHS）是使用最高50 Wp太阳能光伏模块的系统，配有逆变器和电池，能够为家庭提供一级到二级电力接入，使用基本设备：灯光、手机充电、收音机或小型电视。<br /> <br />大型太阳能家庭系统（SHS）具有更高的光伏容量（最高达1 kWp），为家庭和小型企业提供二级电力接入，允许更长时间的夜间供电和更多设备的使用，包括小型冰箱。<br /> <br />更大规模的系统已被开发出来，为学校和卫生诊所供电，容量达数千瓦。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": []
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point_with_highlight",
+            "content": {
+              "title": "",
+              "body": "<strong>独立系统，即直接由嵌入式太阳能光伏发电供电的生产用设备，包括制冷/冷藏单元、磨坊、干燥机、水泵。<br />这些系统可以改善农村人口的生计——水泵提供清洁水源，并节省一些取水时间——并通过避免农产品变质和进行加工增值来提高他们的收入。</strong>",
+              "source": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "photo_full_height",
+      "color_scheme": "light",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_9/5739_943.webp",
+          "caption": ""
+        }
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>离网太阳能系统的影响</strong>"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>能源获取</strong>",
+              "body": "离网太阳能系统，尤其是太阳能家庭系统的第一个积极影响是为农村人口提供可靠的电力，无论他们的地理位置如何。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>照明与连接</strong>",
+              "body": "太阳能灯保证了简单的照明和经常的手机充电，为学习、烹饪、经营小企业和休闲提供了延长的照明时间，以及改善的通信，而更大的SHS系统支持使用更多的电器，如收音机、风扇、电视，有时还包括小型冰箱。<br />在社区和社会经济发展方面，延长的照明时间增强了太阳能街道照明镇的安全性，使社区和商业活动得以在夜间进行。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>社区发展</strong>",
+              "body": "环境和健康影响也很直接，因为太阳能照明和< strong>家庭能源系统（SHS）</strong>取代了煤油灯、蜡烛以及柴油或汽油驱动的发电机或电器，这些解决方案已知会导致室内空气污染、中毒风险、火灾危险和温室气体排放。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>可扩展的电气化</strong>",
+              "body": "虽然微电网倾向于提供更高的电力服务等级，但离网系统可以在更偏远和地理位置具有挑战性的地区开发，人口密度较低，无需每个社区的最低电力需求，从而实现更模块化和更快的电气化方式。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>便携式电源</strong>",
+              "body": "离网太阳能系统也适应于经常更换地点的游牧人口，因为它们可以轻松运输。"
+            }
+          },
+          {
+            "template_id": "bullet_point",
+            "content": {
+              "title": "<strong>备用电源</strong>",
+              "body": "离网太阳能系统还可以由连接电网的家庭或企业使用，他们经常遭遇低质量电力服务的频繁停电，作为备用系统，而不是使用化石燃料驱动的发电机。"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "考虑到离网太阳能系统在社会经济发展和气候变化缓解方面的益处和潜力，33个国家已将离网太阳能解决方案纳入其气候变化缓解计划或适应措施，其中包括孟加拉国、埃塞俄比亚、加纳、马拉维、莫桑比克、尼日利亚、巴基斯坦和卢旺达。<br />许多撒哈拉以南非洲国家已实施对太阳能系统的增值税或进口关税豁免。<br /> <br />离网太阳能系统也可以成为人道援助和危机应对的关键元素，特别是在长期冲突期间。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": []
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "近年来，配备离网太阳能系统的家庭和企业数量有所增加，许多离网太阳能系统供应商和相关公司正在进入新兴市场，这些市场具有数千个未电气化的家庭和潜在的企业。 虽然这些国家中的大多数拥有政府和发展机构的目标和支持计划，但这些公司在市场准入方面面临障碍。<br /> <br /><strong>离网太阳能系统的主要挑战是其对目标市场的负担能力。</strong> 尽管许多市场的销售有所增加，但仍然缺乏电力的多数人口没有能力一次性购买，或支付购买简单的SHS所需的月度付款。 <strong>农村人口的不安全感、自然灾害风险和经济脆弱性</strong> 在许多发展中国家进一步加剧了获取由供应商资助的系统的障碍。 微型金融解决方案往往具有<strong>高利率</strong>，这进一步增加了获取太阳能系统的成本。<br /> <br /><strong>低质量的产品一直在涌入发展中国家的市场</strong>，利用其低成本和客户缺乏意识的优势，为支付能力有限的群体提供更实惠的选择。 然而，这些产品的负面影响和低性能使它们在短期内高度适得其反。 事实上，短命且性能低下的产品浪费了这些客户的储蓄，产生大量电子废物，并带来<strong>负面体验，导致对太阳能技术的信心丧失</strong>，甚至可能扩展到未来的太阳能微电网项目。"
+            }
+          },
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "<strong>挑战与障碍</strong>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<strong>缺乏合格技术人员</strong>进行太阳能系统的安装和维护，也可能成为进一步部署离网太阳能系统的障碍。<br /> <br />类似于太阳能光伏-电池微电网，这些 <strong>障碍导致投资者对风险的高感知</strong>，在考虑为离网太阳能系统的新市场提供资金时。 许多人正在探索创新的商业模式以解决负担能力问题，同时政府和国际发展机构也在通过支持项目和补贴采取行动以克服这些障碍。<br /> <br />虽然像太阳能灯这样的基本产品是预付的，<strong>按用量付费（PAYGo）系统已实现更大规模的家庭太阳能系统销售</strong>。 在此模型中，消费者不预付系统费用，而是根据他们的使用情况逐步支付，该使用情况通过一个结合了移动技术的计量器进行监控。 该模型还允许消费者建立信用记录，从而增强他们未来获取金融服务的能力。<br />一些国家已经制定了支持移动支付网络部署的项目，以实现PAYGo融资，促进SHS市场的发展。<br /> <br />考虑到低质量产品的风险，<strong>已制定质量标准</strong>，用于SHS和其他离网太阳能系统，如水泵、炊具和冷却设备。 它们并不总是得到有效执行。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "dark",
+      "content": {
+        "text_elements": []
+      }
+    },
+    {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "subtitle_small",
+            "content": {
+              "text": "关键资源"
+            }
+          },
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "ESMAP (2022a) 面向五亿人的微型电网——市场前景与决策者手册。 世界银行。 https://www.esmap.org/mini_grids_for_half_a_billion_people_the_report<br />MGP (2024) 全球微电网市场状况报告 2024<br />ESMAP 追踪可持续发展目标7 – 2023 & 2024能源进展报告<br />Lighting Global/ESMAP, GOGLA, Efficiency For Access, Open Capital Advisors (2022), 离网太阳能市场趋势报告2022：展望，华盛顿特区：世界银行<br />IRENA (2024), 离网可再生能源统计2024，国际可再生能源机构，阿布扎比。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "key_takeaways",
+      "color_scheme": "dark",
+      "content": {
+        "title": "主要要点",
+        "intro": "",
+        "takeaways": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_9/5791_244.webp",
+              "caption": "image caption"
+            },
+            "title": "<strong>太阳能微电网：</strong>在高成本和政策缺口中实现农村电气化的途径",
+            "description": "<p>太阳能光伏电池微电网实现偏远社区的农村电气化，满足家庭、企业、生产用途甚至农村工业化的用电需求。</p> 虽然它们被设想在实现全民用电方面发挥重要作用，但它们仍面临与高投资成本和农村人口的负担能力相关的挑战，电力需求的不确定性，地方技术能力，政治和宏观经济风险，以及常常缺乏或不充分的支持政策和法规。"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_9/5791_238.webp",
+              "caption": "image caption"
+            },
+            "title": "<strong>太阳能家庭系统：</strong>经济实惠但有限的偏远社区解决方案",
+            "description": "<strong>太阳能家庭系统</strong>是偏远和低密度人口的首选农村电气化技术。 它们提供较低的输出功率，通常足以满足住宅使用，但不支持更高的电负载。 其他孤立系统包括太阳能水泵、冷却设备和电池充电站。 <p>前期成本通常是发展中国家农村人口的障碍，低质量的系统对于实现可持续的电力接入是适得其反的。</p>"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_9/5791_232.webp",
+              "caption": "image caption"
+            },
+            "title": "开启可持续农村电气化：克服离网太阳能规模化的障碍",
+            "description": "这两项技术是农村电气化的可持续解决方案，有潜力为仍然无法获得可靠电力的大部分人口提供电力。 然而，风险和障碍仍然阻碍这些解决方案的发展，减少了它们获得必要融资解决方案以大规模部署的机会。 联合国开发计划署非洲微电网项目、DREI 等倡议正在带来创新解决方案，以克服这些障碍并释放对离网太阳能系统的投资，以实现可持续发展目标7。"
+          }
+        ]
+      }
+    },
+    {
+      "template_id": "connection_next",
+      "color_scheme": "dark",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module9.webp",
+          "caption": ""
+        },
+        "intro": "接下来",
+        "title": "第3课：从资本到千瓦：可再生能源项目如何获得资金",
+        "cta": "继续学习",
+        "nextLessonId": "9.1.3"
+      }
+    }
+  ]
+}

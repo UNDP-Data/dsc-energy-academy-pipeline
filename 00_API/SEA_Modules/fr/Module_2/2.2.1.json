@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Concepts clés",
+        "intro": "Explorez les idées fondamentales de cette leçon.",
+        "concepts": [
+          {
+            "title": "accès à l'énergie pour les quartiers informels",
+            "body": "L'accès à l'énergie pour les quartiers informels fait référence à la disponibilité et à l'accessibilité de services énergétiques fiables, tels que l'électricité et les combustibles de cuisson propres, pour les résidents vivant dans des zones de logement non planifiées ou informelles, en veillant à ce qu'ils puissent satisfaire leurs besoins énergétiques fondamentaux et améliorer leur qualité de vie.",
+            "source": ""
+          },
+          {
+            "title": "énergie en contexte de crise",
+            "body": "L'énergie dans les situations de crise fait référence à la fourniture et à la gestion des ressources énergétiques dans les zones touchées par des urgences, telles que des catastrophes naturelles, des conflits armés ou des crises humanitaires, où l'accès à une énergie fiable est essentiel pour la survie, la récupération et les efforts de reconstruction.",
+            "source": ""
+          },
+          {
+            "title": "écart énergétique mondial",
+            "body": "L'écart énergétique mondial fait référence à la disparité entre la demande mondiale d'énergie et l'offre d'énergie disponible, soulignant la nécessité d'une augmentation de la production d'énergie et de solutions durables pour répondre aux besoins énergétiques futurs.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -72,7 +97,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/654_2280.webp",
@@ -99,6 +124,24 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_0"
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_1"
       }
     },
     {
@@ -129,7 +172,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2781.webp",
@@ -155,6 +198,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_2"
       }
     },
     {
@@ -185,7 +237,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2815.webp",
@@ -239,6 +291,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Augmentations annuelles de l'électrification et de la population, par région, 2020-22",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "Source: World Bank, 2024"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -276,16 +334,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0a97d9",
-            "#3f7e44",
-            "#19486a",
-            "#c5192d",
-            "#fd9d24",
-            "#fd6925",
-            "#4c9f38",
-            "#0468b1",
             "#dd1367",
-            "#fcc30b"
+            "#fcc30b",
+            "#fd6925",
+            "#0468b1",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#3f7e44",
+            "#c5192d",
+            "#4c9f38"
           ],
           "xAxis": {
             "axisLine": {
@@ -401,44 +459,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Augmentations annuelles de l'électrification et de la population, par région, 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -451,7 +472,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<br />Bien que l'Afrique subsaharienne représente la grande majorité du déficit mondial en accès à l'électricité, des défis persistent dans d'autres régions également — en particulier dans certaines parties de l'Asie et de l'Océanie. <br /><br />En <strong>Myanmar</strong>, environ 24 % de la population n'avait pas accès à l'électricité en 2023, avec l'électrification rurale nettement en retard par rapport aux zones urbaines en raison de conflits et de bouleversements politiques (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=MM\"><u>Banque mondiale</u></a>, 2023). En <strong>Papouasie-Nouvelle-Guinée</strong>, le taux d'accès reste parmi les plus faibles en dehors de l'Afrique, avec seulement 20 % de la population connectée à l'électricité (<a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2025-0620-v6-highres.pdf\"><u>IEA</u></a>, 2025). [needs translation] Similarly, in <strong>Haiti,</strong> only 51% of people had access to electricity in 2023, with significant reliability issues and frequent blackouts compounding the problem (<a href=\"https://tradingeconomics.com/haiti/access-to-electricity-percent-of-population-wb-data.html\"><u>World Bank</u></a>, 2025).<br />In Central Asia, although electrification rates are generally high, <strong>remote populations often suffer from low-quality or intermittent service</strong> that is not captured in headline access statistics.<br /><br /><br /><br />While global electricity access has improved over the past two decades, stark disparities persist, particularly in Sub-Saharan Africa. La croissance rapide de la population, l'insuffisance des institutions, les contraintes financières et les barrières géographiques continuent toutes de ralentir les progrès dans ces régions.<br /><br />Cette leçon a montré que le <strong>diviseur énergétique mondial n'est pas un seul écart, mais un défi stratifié et en évolution qui couvre des régions, des niveaux de revenu et des contextes de vulnérabilité.</strong> La réalisation d'un accès universel à l'énergie nécessitera des stratégies nuancées et spécifiques à chaque région qui vont au-delà des connexions pour aborder l'accessibilité, la fiabilité et la résilience à long terme."
+              "text": "<br />Bien que l'Afrique subsaharienne représente la grande majorité du déficit mondial en accès à l'électricité, des défis persistent dans d'autres régions également — en particulier dans certaines parties de l'Asie et de l'Océanie. <br /><br />En <strong>Myanmar</strong>, environ 24 % de la population n'avait pas accès à l'électricité en 2023, avec l'électrification rurale nettement en retard par rapport aux zones urbaines en raison de conflits et de bouleversements politiques (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=MM\"><u>Banque mondiale</u></a>, 2023). En <strong>Papouasie-Nouvelle-Guinée</strong>, le taux d'accès reste parmi les plus faibles en dehors de l'Afrique, avec seulement 20 % de la population connectée à l'électricité (<a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2025-0620-v6-highres.pdf\"><u>IEA</u></a>, 2025). De même, en <strong>Haïti,</strong> seulement 51 % des personnes avaient accès à l'électricité en 2023, avec d'importants problèmes de fiabilité et des coupures de courant fréquentes aggravant la situation (<a href=\"https://tradingeconomics.com/haiti/access-to-electricity-percent-of-population-wb-data.html\"><u>Banque mondiale</u></a>, 2025).<br />En Asie centrale, bien que les taux d'électrification soient généralement élevés, <strong>les populations éloignées souffrent souvent d'un service de faible qualité ou intermittent</strong> qui n'est pas pris en compte dans les statistiques d'accès principales.<br /><br /><br /><br />Alors que l'accès à l'électricité dans le monde s'est amélioré au cours des deux dernières décennies, des disparités marquées persistent, en particulier en Afrique subsaharienne. La croissance rapide de la population, l'insuffisance des institutions, les contraintes financières et les barrières géographiques continuent toutes de ralentir les progrès dans ces régions.<br /><br />Cette leçon a montré que le <strong>diviseur énergétique mondial n'est pas un seul écart, mais un défi stratifié et en évolution qui couvre des régions, des niveaux de revenu et des contextes de vulnérabilité.</strong> La réalisation d'un accès universel à l'énergie nécessitera des stratégies nuancées et spécifiques à chaque région qui vont au-delà des connexions pour aborder l'accessibilité, la fiabilité et la résilience à long terme."
             }
           }
         ]
@@ -459,7 +480,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2754.webp",
@@ -502,15 +523,51 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ressources clés",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2211.webp",
+              "caption": ""
+            },
+            "href": "UNDP",
+            "text": "Rapport sur le développement humain 2023-24. Briser l'impasse : Réimaginer la coopération dans un monde polarisé",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2212.webp",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "États insulaires en développement à un carrefour : vers un accès équitable à l'énergie dans les pays les moins électrifiés",
+            "cta": "Cliquez pour télécharger"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2213.webp",
+              "caption": ""
+            },
+            "href": "World Bank Group",
+            "text": "Ne laisser personne de côté - Repenser les programmes d'accès à l'énergie dans les contextes de déplacement",
+            "cta": "Cliquez pour télécharger"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.webp",
           "caption": ""
         },
         "intro": "Prochainement",
-        "title": "Leçon 2 : Statut et tendances",
+        "title": "Leçon 2 : Les couches d'inégalité dans l'accès à l'énergie",
         "cta": "Continuez à apprendre",
         "nextLessonId": "2.2.2"
       }

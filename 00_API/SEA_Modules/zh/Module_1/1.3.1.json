@@ -32,7 +32,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "作为世界上一些最大的石油和天然气生产国的所在地，同时也在清洁能源容量方面进行大量投资，阿拉伯地区代表了能源转型的活力。 <br /><br />本课程将探讨联合国开发计划署阿拉伯国家区域局（RBAS）的能源格局，该局涵盖22个国家，占全球人口的5.6%。 这包括定义发展进展的趋势、能源获取和质量方面的挑战、增长的机会以及短期和长期的战略目标。"
+              "text": "作为世界上一些最大的石油和天然气生产国的所在地，同时也在清洁能源方面进行大量投资，阿拉伯地区代表了能源转型的活力。 <br /><br />本课程将探讨联合国开发计划署阿拉伯国家区域局（RBAS）的能源格局，该局涵盖22个国家，占全球人口的5.6%。 这包括定义发展进展的趋势、能源获取和质量方面的挑战、增长的机会以及短期和长期的战略目标。"
             }
           }
         ]
@@ -120,7 +120,7 @@
     },
     {
       "template_id": "photo_vertical",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/2290_45.webp",
@@ -209,22 +209,16 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_215.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "echarts_chart",
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "阿拉伯地区拥有电力和清洁烹饪设施的人口比例",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -262,16 +256,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#c5192d",
-            "#dd1367",
-            "#0468b1",
-            "#fd9d24",
             "#3f7e44",
-            "#19486a",
-            "#fd6925",
-            "#0a97d9",
+            "#dd1367",
+            "#c5192d",
+            "#fd9d24",
+            "#fcc30b",
             "#4c9f38",
-            "#fcc30b"
+            "#19486a",
+            "#0468b1",
+            "#0a97d9",
+            "#fd6925"
           ],
           "xAxis": {
             "axisLine": {
@@ -415,44 +409,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "阿拉伯地区拥有电力和清洁烹饪设施的人口比例",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -555,6 +512,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "一些阿拉伯国家的总能源补贴金额（2020年实际百万美元）",
+          "subtitle": "",
+          "description": "钟：我无法找到绿色的原始图表，但我能够在PDF报告（第61页）中找到源图表：https://www.undp.org/sites/g/files/zskgke326/files/2023-09/final_afex_2023-_18-9-2023.pdf",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -592,16 +555,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0a97d9",
-            "#fd6925",
-            "#fcc30b",
-            "#c5192d",
-            "#4c9f38",
-            "#0468b1",
-            "#dd1367",
-            "#fd9d24",
+            "#19486a",
             "#3f7e44",
-            "#19486a"
+            "#fd6925",
+            "#fd9d24",
+            "#4c9f38",
+            "#dd1367",
+            "#c5192d",
+            "#fcc30b",
+            "#0468b1",
+            "#0a97d9"
           ],
           "xAxis": {
             "axisLine": {
@@ -721,47 +684,7 @@
                 10151
               ]
             }
-          ],
-          "title": {
-            "text": "一些阿拉伯国家的能源补贴总额",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -810,6 +733,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "2022年各国按能源来源的可再生能源产量",
+          "subtitle": "",
+          "description": "钟：我无法找到绿色的原始图表，但我能够在PDF报告（第36页）中找到源图表：https://www.undp.org/sites/g/files/zskgke326/files/2023-09/final_afex_2023-_18-9-2023.pdf",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -847,16 +776,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#dd1367",
             "#fd9d24",
-            "#0468b1",
-            "#c5192d",
-            "#fcc30b",
-            "#fd6925",
             "#0a97d9",
             "#3f7e44",
+            "#0468b1",
             "#4c9f38",
-            "#19486a"
+            "#19486a",
+            "#c5192d",
+            "#fd6925",
+            "#dd1367",
+            "#fcc30b"
           ],
           "xAxis": {
             "axisLine": {
@@ -1044,44 +973,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "2022年各国按能源来源的可再生能源产量",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -1159,18 +1051,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4082_3560.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -1252,7 +1132,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "接下来",

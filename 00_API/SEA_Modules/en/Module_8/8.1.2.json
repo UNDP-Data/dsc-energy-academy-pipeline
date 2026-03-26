@@ -6,7 +6,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_20.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_Intro_1.png",
           "caption": ""
         },
         "lesson": {
@@ -43,7 +43,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_7.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L2_3.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -110,338 +110,6 @@
       }
     },
     {
-      "template_id": "echarts_chart",
-      "color_scheme": "dark",
-      "size": "half",
-      "content": {
-        "metadata": {
-          "title": "Evolution of global Power Generation, 1995-2050",
-          "subtitle": "",
-          "description": "nan",
-          "footnote": "nan"
-        },
-        "option": {
-          "textStyle": {
-            "fontFamily": "Proxima Nova, sans-serif",
-            "fontSize": 14,
-            "fontWeight": "normal",
-            "color": "#DDDDDD"
-          },
-          "axisLabel": {
-            "fontSize": 14,
-            "color": "#AAAAAA"
-          },
-          "legend": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#CCCCCC"
-            },
-            "orient": "horizontal",
-            "top": "bottom",
-            "type": "scroll",
-            "pageIconColor": "#FFFFFF",
-            "pageIconInactiveColor": "#555555",
-            "pageTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            }
-          },
-          "tooltip": {
-            "textStyle": {
-              "fontSize": 14,
-              "color": "#FFFFFF"
-            },
-            "backgroundColor": "rgba(30, 30, 30, 0.85)",
-            "borderColor": "#555555",
-            "formatter": null
-          },
-          "backgroundColor": "rgba(28, 29, 24, 1)",
-          "color": [
-            "#fd9d24",
-            "#0a97d9",
-            "#19486a",
-            "#fcc30b",
-            "#c5192d",
-            "#dd1367",
-            "#4c9f38",
-            "#3f7e44",
-            "#fd6925",
-            "#0468b1"
-          ],
-          "xAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14,
-              "interval": 0,
-              "rotate": 45
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "category",
-            "data": [
-              "1995 (Historical)",
-              "2010 (Historical)",
-              "2023 (Historical)",
-              "2030 (SE)",
-              "2030 (CM)",
-              "2030 (ST)",
-              "2040 (SE)",
-              "2040 (CM)",
-              "2040 (ST)",
-              "2050 (SE)",
-              "2050 (CM)",
-              "2050 (ST)"
-            ],
-            "name": "Scenario"
-          },
-          "yAxis": {
-            "axisLine": {
-              "show": true,
-              "lineStyle": {
-                "color": "#888888",
-                "type": "solid",
-                "width": 1
-              }
-            },
-            "splitLine": {
-              "show": true,
-              "lineStyle": {
-                "type": "dashed",
-                "color": "#444444",
-                "opacity": 0.7
-              }
-            },
-            "axisLabel": {
-              "color": "#AAAAAA",
-              "fontSize": 14
-            },
-            "nameTextStyle": {
-              "color": "#CCCCCC",
-              "fontSize": 14
-            },
-            "type": "value",
-            "name": "thousand TWh"
-          },
-          "label": {
-            "overflow": "truncate",
-            "ellipsis": "...",
-            "show": false
-          },
-          "hoverLayerThreshold": 3000,
-          "tooltipTrigger": "axis",
-          "emphasis": {
-            "itemStyle": {
-              "borderWidth": 1,
-              "borderColor": "#FFFFFF"
-            }
-          },
-          "accessibility": {
-            "contrastRatioMin": 4.5,
-            "colorBlindSafe": true
-          },
-          "series": [
-            {
-              "name": "Coal",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                4.92116868798235,
-                6.92447629547961,
-                8.75358324145534,
-                8.05678059536934,
-                7.75192943770675,
-                6.88092613009921,
-                5.00826901874312,
-                4.79051819184129,
-                4.05016538037489,
-                5.09536934950389,
-                4.31146637265712,
-                1.26295479603082
-              ]
-            },
-            {
-              "name": "Gas",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                2.0904079382579503,
-                5.095369349502691,
-                6.27122381477246,
-                6.445424476295461,
-                6.488974641675851,
-                7.01157662624029,
-                6.88092613009928,
-                6.445424476295511,
-                5.09536934950381,
-                8.361631753031912,
-                7.01157662624028,
-                3.2662624035282
-              ]
-            },
-            {
-              "name": "Clean firm",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                2.264608599779539,
-                2.438809261302099,
-                2.613009922823899,
-                3.3969128996692994,
-                3.4404630650496006,
-                3.4840132304300013,
-                4.311466372656998,
-                4.7034178610804,
-                6.793825799338501,
-                5.9663726571112985,
-                6.837375964718799,
-                10.32138919514878
-              ]
-            },
-            {
-              "name": "Hydro",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                2.525909592061261,
-                3.3533627342888987,
-                4.355016538037599,
-                4.616317530319599,
-                4.746968026460799,
-                4.790518191841198,
-                5.356670341786103,
-                5.4873208379272,
-                5.443770672546801,
-                5.5308710033076025,
-                5.6179713340684,
-                5.4873208379272
-              ]
-            },
-            {
-              "name": "Wind onshore",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                null,
-                null,
-                null,
-                "1.6984564498347012",
-                "3.3533627342889005",
-                "4.137265711135701",
-                "5.705071664829099",
-                "8.274531422271199",
-                "11.061742006615198",
-                "12.890848952591",
-                "17.768467475193003",
-                "20.991179713340703"
-              ]
-            },
-            {
-              "name": "Wind offshore",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                null,
-                null,
-                null,
-                "0.3484013230429994",
-                "0.7839029768467007",
-                "0.8710033076075021",
-                "4.529217199559",
-                "5.443770672546897",
-                "6.532524807056198",
-                "3.004961411245901",
-                "3.919514884233699",
-                "5.400220507166495"
-              ]
-            },
-            {
-              "name": "Solar",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                null,
-                null,
-                "4.311466372657101",
-                "6.358324145534702",
-                "5.3131201764057",
-                "7.403528114663697",
-                "9.9729878721058",
-                "12.977949283351705",
-                "17.42006615215",
-                "16.026460859977895",
-                "22.123484013230403",
-                "30.136714443219397"
-              ]
-            },
-            {
-              "name": "Other",
-              "type": "bar",
-              "stack": "total",
-              "emphasis": {
-                "focus": "series"
-              },
-              "data": [
-                1.1979051819189,
-                1.1879823594267016,
-                1.6957001102536005,
-                1.079382579933899,
-                1.1212789415656983,
-                1.4211686879824017,
-                0.2353914002205996,
-                1.877067254685798,
-                1.6025358324146026,
-                2.1234840132305024,
-                2.410143329658297,
-                2.133958103638406
-              ]
-            }
-          ],
-          "grid": {
-            "bottom": 150
-          }
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -460,7 +128,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Outro_2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_3.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -500,7 +168,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_11.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -526,7 +194,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L1_1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C1_L1_8.png",
           "caption": ""
         }
       }
@@ -564,7 +232,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Intro_8.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Intro_3.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -586,6 +254,23 @@
       }
     },
     {
+      "template_id": "infographic",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "image": {
+          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_8/6718_1698.webp",
+          "caption": ""
+        },
+        "metadata": {
+          "title": "Using Electrolytic Hydrogen to Decarbonize Heavy Industry",
+          "subtitle": "",
+          "description": "",
+          "footnote": "Source: World Resources Institute"
+        }
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -604,7 +289,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_12.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Outro_2.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -661,11 +346,25 @@
       }
     },
     {
+      "template_id": "text",
+      "color_scheme": "light",
+      "content": {
+        "text_elements": [
+          {
+            "template_id": "paragraph_medium",
+            "content": {
+              "text": "<br />The outcomes achieved in Rugao offer valuable insights for other regions aiming to adopt hydrogen-based solutions and highlight key lessons for scaling innovation in sustainable energy: <br /><br /><strong>Political will and local leadership </strong>are critical enablers for success. <br /><strong>Public–private collaboration</strong> is essential to unlocking financing and scale innovation. <br /><strong>Technical standardization and regulatory frameworks</strong> support safe deployment and public acceptance. <br /><strong>Integration with industrial processes </strong>helps offset early production costs. <br /><strong>Community engagement and education</strong> boost acceptance and long-term adoption. <br /><strong>Sustained innovation ecosystems,</strong> international cooperation, and regional hydrogen corridors will help expand the impact of these initiatives. <br /><strong>Replication is feasible in other regions</strong> with access to renewable energy, supportive policy, and industrial demand. <br />Countries seeking to replicate this approach should <strong>align their hydrogen strategy</strong> with national climate goals and carbon trading schemes. <br /><br />The Hydrogen Economy Pilot Project in Rugao offers a forward-looking example of how hydrogen can support a just and sustainable energy transition. Rugao showed the technical and policy feasibility of hydrogen while tackling challenges like infrastructure and market integration. Rugao’s model was rooted in inclusive planning, national alignment, and local innovation. As hydrogen gains momentum globally, especially in developing economies, Rugao demonstrates how strategic, equitable deployment can advance both climate and development goals."
+            }
+          }
+        ]
+      }
+    },
+    {
       "template_id": "lesson_subpart_cover",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_21.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_Outro_1.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -691,7 +390,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_7.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_9.png",
           "caption": ""
         }
       }
@@ -704,7 +403,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "Even where physical infrastructure exists, power systems are being tested by growing demands for flexibility. Seasonal flexibility needs are rising 50% faster than electricity demand in Europe, 40% faster in China, and 30% faster in India (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024).Climate change exacerbates these risks: in the Middle East, 90% of energy infrastructure will be exposed to over 20 additional days of extreme heat annually by mid-century. At the same time, the capacity factor of hydropower has dropped from 44% in the 1990s to 41% in the 2020s—reducing output by 330 TWh per year, equal to all new solar PV added globally in 2023. <br /><br />A forward-looking grid must be smarter, more flexible, and better coordinated. Solutions include integrated grid planning using AI-driven models to simulate demand, weather, and asset failures. Smart connections, such as conditional access during periods of congestion, combined with transparent hosting capacity maps and standardized permitting can speed integration. Advanced grid technologies like digital management software, DER integration tools, and <ai prompt=\"What is energy storage?\">energy storage 💬️</ai> will be essential. <br /><br />Enabling these solutions will also require strengthened collaboration across regulators, utilities, developers, and consumers. Investment must also adapt : While $1 is spent on renewable capacity today, only $0.60 goes to grids and storage (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024). By the 2040s, this ratio must reach parity. Without this rebalancing, the energy transition risks being slowed down."
+              "text": "Even where physical infrastructure exists, power systems are being tested by growing demands for flexibility. Seasonal flexibility needs are rising 50% faster than electricity demand in Europe, 40% faster in China, and 30% faster in India (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024).Climate change exacerbates these risks: in the Middle East, 90% of energy infrastructure will be exposed to over 20 additional days of extreme heat annually by mid-century. At the same time, the capacity factor of hydropower has dropped from 44% in the 1990s to 41% in the 2020s—reducing output by 330 TWh per year, equal to all new solar PV added globally in 2023. <br /><br />A forward-looking grid must be smarter, more flexible, and better coordinated. Solutions include integrated grid planning using AI-driven models to simulate demand, weather, and asset failures. Smart connections, such as conditional access during periods of congestion, combined with transparent hosting capacity maps and standardized permitting can speed integration. Advanced grid technologies like digital management software, DER integration tools, and <ai prompt=\"Provide more info on energy storage.\">energy storage 💬️</ai> will be essential. <br /><br />Enabling these solutions will also require strengthened collaboration across regulators, utilities, developers, and consumers. Investment must also adapt : While $1 is spent on renewable capacity today, only $0.60 goes to grids and storage (<a href=\"https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf\"><u>IEA</u></a>, 2024). By the 2040s, this ratio must reach parity. Without this rebalancing, the energy transition risks being slowed down."
             }
           }
         ]
@@ -715,7 +414,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_13.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Outro_3.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -730,7 +429,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong><ai prompt=\"Explain critical minerals.\">critical minerals 💬️</ai> are crucial for clean energy supply chains. <br /></strong><br />Demand for minerals like lithium, nickel, cobalt, graphite, and rare earth elements is expected to surge. In 2024 alone, lithium demand increased by nearly 30%, while other battery metals grew by 6–8%, driven largely by the rapid deployment of electric vehicles, battery storage systems, and renewables (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Under the IEA NZE Scenario, demand for critical minerals is expected to nearly triple by 2030 and grow to over 3.5 times the current levels by 2050, reaching nearly 40 million tonnes. <br /><br />However, this rapid shift is exposing new energy security risks. Supply chains for clean energy technologies are heavily concentrated, with China accounting for more than 95% of refined graphite and rare earth elements, 70% of lithium chemicals, and over 80% of global solar PV manufacturing capacity (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Globally, just three countries control 77% of mining and 86% of refining capacity for key minerals. <br />"
+              "text": "<strong><ai prompt=\"Clarify critical minerals.\">critical minerals 💬️</ai> are crucial for clean energy supply chains. <br /></strong><br />Demand for minerals like lithium, nickel, cobalt, graphite, and rare earth elements is expected to surge. In 2024 alone, lithium demand increased by nearly 30%, while other battery metals grew by 6–8%, driven largely by the rapid deployment of electric vehicles, battery storage systems, and renewables (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Under the IEA NZE Scenario, demand for critical minerals is expected to nearly triple by 2030 and grow to over 3.5 times the current levels by 2050, reaching nearly 40 million tonnes. <br /><br />However, this rapid shift is exposing new energy security risks. Supply chains for clean energy technologies are heavily concentrated, with China accounting for more than 95% of refined graphite and rare earth elements, 70% of lithium chemicals, and over 80% of global solar PV manufacturing capacity (<a href=\"https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf\"><u>IEA</u></a>, 2025). Globally, just three countries control 77% of mining and 86% of refining capacity for key minerals. <br />"
             }
           },
           {
@@ -754,7 +453,7 @@
       "color_scheme": "light",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_17.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L3_13.png",
           "caption": ""
         }
       }
@@ -801,7 +500,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<strong>Critical mineral recycling presents a major opportunity for a just energy transition.</strong> <br /><br />Recycling not only reduces exposure to volatile global markets and import dependency, it also generates jobs, fosters local industry, and lowers environmental harm. In a scenario aligned with national climate pledges, recycling could reduce the need for new mining of copper and cobalt by 40% and of lithium and nickel by nearly 25% by 2050. <br /><br />This would also avoid 30% in mining-related investment costs, an estimated USD 240 billion globally. For countries with limited reserves but growing energy demand, building recycling infrastructure offers a pathway to participate in mineral value chains without the high capital barriers of new extraction. <br /><br /><br />But today, the gap remains wide between regions: in Africa, formal e-waste collection rates remain around 1%, compared to 40–50% in Europe and North America. Unlocking this potential will require investments in collection systems, <ai prompt=\"Provide more info on technology transfer.\">technology transfer 💬️</ai>, and supportive policies, such as extended producer responsibility and standards for recycled content. If well supported, urban mining and circularity could become powerful tools for resilience and equity in the energy transition.<br /><br /><br /> Notably, they could help developing countries secure cleaner, more sustainable energy futures on their own terms."
+              "text": "<strong>Critical mineral recycling presents a major opportunity for a just energy transition.</strong> <br /><br />Recycling not only reduces exposure to volatile global markets and import dependency, it also generates jobs, fosters local industry, and lowers environmental harm. In a scenario aligned with national climate pledges, recycling could reduce the need for new mining of copper and cobalt by 40% and of lithium and nickel by nearly 25% by 2050. <br /><br />This would also avoid 30% in mining-related investment costs, an estimated USD 240 billion globally. For countries with limited reserves but growing energy demand, building recycling infrastructure offers a pathway to participate in mineral value chains without the high capital barriers of new extraction. <br /><br /><br />But today, the gap remains wide between regions: in Africa, formal e-waste collection rates remain around 1%, compared to 40–50% in Europe and North America. Unlocking this potential will require investments in collection systems, <ai prompt=\"Tell me more about technology transfer.\">technology transfer 💬️</ai>, and supportive policies, such as extended producer responsibility and standards for recycled content. If well supported, urban mining and circularity could become powerful tools for resilience and equity in the energy transition.<br /><br /><br /> Notably, they could help developing countries secure cleaner, more sustainable energy futures on their own terms."
             }
           }
         ]
@@ -812,7 +511,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L2_5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_Intro_3.png",
           "caption": ""
         },
         "intro": "M8: Renewable Energy Technologies and Innovations",
@@ -856,7 +555,7 @@
         "takeaways": [
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_3.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L2_16.png",
               "caption": ""
             },
             "title": "Fossil fuels remain deeply embedded in global energy supply, especially in developing countries where they support energy access and economies. This highlights the urgent need for a just, inclusive transition that protects livelihoods while phasing out carbon-intensive energy.",
@@ -864,7 +563,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C3_L1_7.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_L1_8.png",
               "caption": ""
             },
             "title": "Renewables are transforming the global energy system, with solar and wind expected to dominate future electricity generation, but scaling this transformation requires massive infrastructure upgrades, policy reform, and investment.",
@@ -872,7 +571,7 @@
           },
           {
             "image": {
-              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C2_L3_13.png",
+              "src": "https://sehseadata.blob.core.windows.net/images/Photos/Module_5/M5_C4_Intro_1.png",
               "caption": ""
             },
             "title": "New energy systems bring new vulnerabilities, from critical mineral dependencies to geopolitical risks and grid limitations, requiring smarter, more resilient supply strategies that are diverse, equitable, and aligned with climate and development goals..",

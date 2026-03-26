@@ -44,7 +44,41 @@
       "size": "full",
       "content": {
         "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-es.mp4",
-        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-es.png"
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-es.webp"
+      }
+    },
+    {
+      "template_id": "video",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "src": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Videos/1.1.1-en.mp4",
+        "poster": "https://sehseadata.blob.core.windows.net/images/AIAvatars/Photos/1.1.1-en.webp"
+      }
+    },
+    {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Conceptos clave",
+        "intro": "Explora las ideas fundamentales de esta lección.",
+        "concepts": [
+          {
+            "title": "energía para el desarrollo",
+            "body": "La energía para el desarrollo se refiere a la provisión y uso de recursos energéticos para apoyar el crecimiento económico, mejorar los niveles de vida y potenciar el bienestar social en las comunidades, particularmente en las regiones en desarrollo.",
+            "source": ""
+          },
+          {
+            "title": "trilema energético",
+            "body": "El trilema energético se refiere al desafío de equilibrar tres objetivos clave en la política energética: garantizar la seguridad energética, promover la sostenibilidad ambiental y proporcionar equidad o asequibilidad en la energía para todos los consumidores.",
+            "source": ""
+          },
+          {
+            "title": "objetivos del acuerdo de París",
+            "body": "Los objetivos del Acuerdo de París se refieren a los compromisos internacionales asumidos por los países para limitar el calentamiento global a mucho menos de 2 grados Celsius por encima de los niveles preindustriales, con esfuerzos para limitar el aumento de la temperatura a 1,5 grados Celsius, y para mejorar la capacidad de adaptarse a los impactos del cambio climático.",
+            "source": ""
+          }
+        ]
       }
     },
     {
@@ -145,6 +179,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "El Índice de Desarrollo Humano (IDH) y el uso de energía per cápita, 2019",
+          "subtitle": "",
+          "description": "Zhong: Ejemplo de Apache: https://echarts.apache.org/examples/en/editor.html?c=scatter-simple",
+          "footnote": "Sources: Our World in Data; United Nations Development Programme Boston University Institute for Global Sustainability | visualizingenergy.org | CC BY 4.0"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -182,16 +222,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#19486a",
-            "#fcc30b",
-            "#0a97d9",
-            "#3f7e44",
-            "#4c9f38",
             "#fd6925",
-            "#fd9d24",
             "#c5192d",
+            "#fd9d24",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44",
             "#dd1367",
-            "#0468b1"
+            "#0a97d9",
+            "#fcc30b",
+            "#19486a"
           ],
           "xAxis": {
             "axisLine": {
@@ -854,47 +894,7 @@
               "type": "scatter",
               "name": "South America"
             }
-          ],
-          "title": {
-            "text": "El Índice de Desarrollo Humano (IDH) y el uso de energía per cápita, 2019",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -929,6 +929,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "Energía y cambio climático",
+          "subtitle": "",
+          "description": "Zhong : Ejemplo de Apache : https://echarts.apache.org/examples/en/editor.html?c=pie-simple",
+          "footnote": "Pie chart showing the sources of GHG emissions by sector in 2021. Energy includes Electricity and Heat, Manufacturing and Construction, Transportation, Fugitive Emissions, and Buildings"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -968,16 +974,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#0a97d9",
             "#19486a",
-            "#fd9d24",
-            "#fd6925",
             "#dd1367",
-            "#4c9f38",
-            "#0468b1",
+            "#fcc30b",
             "#3f7e44",
-            "#c5192d"
+            "#0468b1",
+            "#0a97d9",
+            "#fd6925",
+            "#c5192d",
+            "#4c9f38",
+            "#fd9d24"
           ],
           "label": {
             "overflow": "truncate",
@@ -1027,47 +1033,7 @@
                 }
               ]
             }
-          ],
-          "title": {
-            "text": "Energía y cambio climático",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -1231,6 +1197,15 @@
       }
     },
     {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "https://ourworldindata.org/grapher/global-fossil-fuel-consumption?tab=chart"
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1274,7 +1249,7 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "[needs translation] <strong>Global energy intensity</strong>—an indicator of efficiency—improved by<strong> 2% in 2022</strong>, the fastest rate since 2015 (<a href=\"https://www.iea.org/commentaries/a-global-target-to-double-efficiency-progress-is-essential-to-keep-net-zero-on-the-table\"><u>IEA</u></a>, 2023).<br />Yet global energy demand rose by <strong>2.2% in 2024</strong> (<a href=\"https://www.iea.org/news/growth-in-global-energy-demand-surged-in-2024-to-almost-twice-its-recent-average\"><u>IEA</u></a>, 2025).",
+              "title": "<strong>Intensidad energética global</strong>—un indicador de eficiencia—mejoró en <strong>2 % en 2022</strong>, la tasa más rápida desde 2015 (<a href=\"https://www.iea.org/commentaries/a-global-target-to-double-efficiency-progress-is-essential-to-keep-net-zero-on-the-table\"><u>IEA</u></a>, 2023).<br />Sin embargo, la demanda global de energía aumentó en <strong>2,2 % en 2024</strong> (<a href=\"https://www.iea.org/news/growth-in-global-energy-demand-surged-in-2024-to-almost-twice-its-recent-average\"><u>IEA</u></a>, 2025).",
               "body": "",
               "source": ""
             }
@@ -1290,7 +1265,7 @@
           {
             "template_id": "bullet_point_with_highlight",
             "content": {
-              "title": "[needs translation] Africa, is home to 20% of the world’s population, and <strong>80% of all people lacking electricity access </strong>(<a href=\"https://unsdg.un.org/latest/stories/decoding-africa%E2%80%99s-energy-journey-three-key-numbers\"><u>UNSDG</u></a>, 2025)<strong>,<br /></strong>Yet the continent receives just under<strong> 2%</strong> of <strong>global clean energy investment</strong>, despite vast solar and wind resources (<a href=\"https://www.iea.org/news/global-energy-investment-set-to-rise-to-3-3-trillion-in-2025-amid-economic-uncertainty-and-energy-security-concerns\"><u>IEA</u></a>, 2025).",
+              "title": "África, que alberga al 20 % de la población mundial, y <strong>el 80 % de todas las personas sin acceso a la electricidad</strong> (<a href=\"https://unsdg.un.org/latest/stories/decoding-africa%E2%80%99s-energy-journey-three-key-numbers\"><u>UNSDG</u></a>, 2025)<strong>,<br /></strong> Sin embargo, el continente recibe poco menos del <strong>2 %</strong> de <strong>la inversión global en energía limpia</strong>, a pesar de vastos recursos solares y eólicos (<a href=\"https://www.iea.org/news/global-energy-investment-set-to-rise-to-3-3-trillion-in-2025-amid-economic-uncertainty-and-energy-security-concerns\"><u>IEA</u></a>, 2025).",
               "body": "",
               "source": ""
             }
@@ -1422,18 +1397,6 @@
       }
     },
     {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4476_724.webp",
-          "caption": null,
-          "url": null
-        }
-      }
-    },
-    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -1479,18 +1442,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4099_503.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -1596,15 +1547,51 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Recursos clave",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1111.webp",
+              "caption": ""
+            },
+            "href": "Center on Global Energy Policy at COLUMBIA SIPA",
+            "text": "Energía y desarrollo en un mundo cambiante: un marco para el siglo XXI",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1112.webp",
+              "caption": ""
+            },
+            "href": "Wiley Online Library",
+            "text": "El desarrollo de la energía como impulsor del crecimiento económico",
+            "cta": "Haz clic para descargar"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1113.webp",
+              "caption": ""
+            },
+            "href": "ScienceDirect",
+            "text": "Desarrollo económico basado en la energía",
+            "cta": "Haz clic para descargar"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "A continuación",
-        "title": "Lección 2: La energía como motor del desarrollo",
+        "title": "Lección 2: Las complejidades del uso global de la energía",
         "cta": "Continúa aprendiendo",
         "nextLessonId": "1.1.2"
       }

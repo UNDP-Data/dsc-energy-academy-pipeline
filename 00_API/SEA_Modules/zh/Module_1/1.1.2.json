@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键概念",
+        "intro": "探索本课的基础思想。",
+        "concepts": [
+          {
+            "title": "国家自主贡献",
+            "body": "国家自主贡献（NDCs）是各国提交的气候行动计划，旨在概述其减少温室气体排放和适应气候变化的承诺，作为《巴黎协定》的一部分。",
+            "source": ""
+          },
+          {
+            "title": "可持续能源 & 可再生能源",
+            "body": "可持续能源是指对环境友好且可以长期维持的能源来源，不会耗尽资源或破坏生态系统。 可再生能源是可持续能源的一个子集，来自不断补充的自然过程，例如 <strong>太阳能</strong>、<strong>风能</strong> 和 <strong>水力发电</strong>。",
+            "source": ""
+          },
+          {
+            "title": "公平的能源转型",
+            "body": "公平的能源转型是指以公平和公正的方式将化石燃料转向可再生能源，确保所有社区，尤其是那些历史上被边缘化的社区，从转型中受益，并不被抛在后面。",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -50,18 +75,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "dark",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_49.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -88,6 +101,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "half",
+      "content": {
+        "title": "",
+        "url": "M1_C1_6"
       }
     },
     {
@@ -176,6 +198,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "能源燃烧和工业过程的全球二氧化碳排放及其年度变化，1900-2022",
+          "subtitle": "",
+          "description": "叶夫根的笔记：我将在这里添加巴黎协定关于限制排放的目标，例如 通过在2050年添加一个净零点 Zhong：Apache 示例：https://echarts.apache.org/examples/en/editor.html?c=line-simple; https://echarts.apache.org/examples/en/editor.html?c=bar-simple Frederick的备注：这个图表应该作为一个信息图创建，包括折线图和柱状图，还是应该创建两个单独的图表。 如果是，请为此打开一个新行。",
+          "footnote": "nan"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -213,16 +241,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
+            "#0468b1",
+            "#4c9f38",
+            "#19486a",
             "#fd6925",
             "#fcc30b",
-            "#c5192d",
-            "#dd1367",
-            "#19486a",
-            "#4c9f38",
-            "#0a97d9",
             "#3f7e44",
-            "#0468b1",
-            "#fd9d24"
+            "#0a97d9",
+            "#fd9d24",
+            "#c5192d",
+            "#dd1367"
           ],
           "xAxis": {
             "axisLine": {
@@ -553,47 +581,7 @@
                 "36.8"
               ]
             }
-          ],
-          "title": {
-            "text": "能源燃烧和工业过程的全球二氧化碳排放及其年度变化，1900-2022",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "grid": {
-            "top": 200,
-            "bottom": 90,
-            "left": 70,
-            "right": 40
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
-          }
+          ]
         }
       }
     },
@@ -635,18 +623,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "template_id": "infographic",
-      "color_scheme": "light",
-      "size": "full",
-      "content": {
-        "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4016_133.webp",
-          "caption": null,
-          "url": null
-        }
       }
     },
     {
@@ -697,7 +673,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_1/4185_584.webp",
@@ -719,7 +695,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "虽然对化石燃料的依赖使各国面临系统性脆弱性，但全球能源需求的增加又增加了另一层压力。 [needs translation] Although future energy demand projections vary across models and scenarios, one trend is clear: <strong>without major gains in <ai prompt=\"Share details about energy efficiency.\">energy efficiency 💬️</ai>, demand will continue to rise alongside population and economic growth.</strong> In the IEA’s Stated Policies Scenario, which reflects existing policy commitments but no additional efforts, global energy demand is expected to grow by an average of 0.7% per year through 2030, resulting in a total increase of about 5% from 2022 levels (<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>IEA</u></a>, 2023). <br /><br />这种<strong>增长由多种因素驱动：人口增长、快速城市化、工业扩张，以及从交通到烹饪再到数字服务的不断增加的电气化。 <br /></strong><br />这种不断增长的需求是发展进步的标志，但除非向清洁、可靠和去中心化的替代方案转变步伐保持同步，否则也有可能加深世界对波动的化石能源系统的依赖。 如果没有战略性应对，能源使用的增加可能会使各国陷入不安全且碳密集的路径，削弱能源获取目标和气候目标。 <br /><br /><strong><em>要深入了解能源的未来以及不同情景如何影响需求预测，请参考第8模块。</em></strong></br></br> </strong>"
+              "text": "虽然对化石燃料的依赖使各国面临系统性脆弱性，但全球能源需求的增加又增加了另一层压力。 虽然未来能源需求的预测在不同模型和情景中有所变化，但有一个趋势是明确的：<strong>如果没有在<ai prompt=\"提供更多关于能源效率的信息。\">能源效率 💬️</ai>方面取得重大进展，需求将继续随着人口和经济增长而上升。</strong> 在国际能源署的已声明政策情景中，反映现有政策承诺但没有额外努力，预计到2030年，全球能源需求将以每年0.7%的平均增长率增长，较2022年水平总共增加约5%（<a href=\"https://www.iea.org/reports/world-energy-outlook-2023\"><u>国际能源署</u></a>，2023年）。 <br /><br />这种<strong>增长由多种因素驱动：人口增长、快速城市化、工业扩张，以及从交通到烹饪再到数字服务的不断增加的电气化。 <br /></strong><br />这种不断增长的需求是发展进步的标志，但除非向清洁、可靠和去中心化的替代方案转变步伐保持同步，否则也有可能加深世界对波动的化石能源系统的依赖。 如果没有战略性应对，能源使用的增加可能会使各国陷入不安全且碳密集的路径，削弱能源获取目标和气候目标。 <br /><br /><strong><em>要深入了解能源的未来以及不同情景如何影响需求预测，请参考第8模块。</em></strong></br></br> </strong>"
             }
           }
         ]
@@ -730,6 +706,12 @@
       "color_scheme": "dark",
       "size": "half",
       "content": {
+        "metadata": {
+          "title": "全球能源需求",
+          "subtitle": "",
+          "description": "Zhong：2000 年之前的数据点是手动提取的（估算）。 2000年至2050年的数据点来自ExxonMobil全球展望（2024）：https://corporate.exxonmobil.com/-/media/global/files/global-outlook/2024/global-outlook-data-2024.xlsx Apache示例： https://echarts.apache.org/examples/en/editor.html?c=bar-stack",
+          "footnote": "Source: Smil, Energy Transitions (1900-1960), 2024 ExxonMobil Global Outlook (1970-2050)"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -767,16 +749,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#fcc30b",
-            "#3f7e44",
-            "#dd1367",
-            "#4c9f38",
-            "#fd9d24",
-            "#0468b1",
-            "#0a97d9",
-            "#c5192d",
             "#19486a",
-            "#fd6925"
+            "#dd1367",
+            "#0a97d9",
+            "#fcc30b",
+            "#fd6925",
+            "#fd9d24",
+            "#c5192d",
+            "#0468b1",
+            "#4c9f38",
+            "#3f7e44"
           ],
           "xAxis": {
             "axisLine": {
@@ -976,44 +958,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "全球能源需求",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 150
           }
         }
       }
@@ -1053,11 +998,47 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "关键资源",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1121.webp",
+              "caption": ""
+            },
+            "href": "IEA",
+            "text": "2024年世界能源展望",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1122.webp",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "2024年全球能源展望",
+            "cta": "点击下载"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_1/resource-1123.webp",
+              "caption": ""
+            },
+            "href": "McKinsey & Company",
+            "text": "2024年全球能源转型展望",
+            "cta": "点击下载"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module1.webp",
           "caption": ""
         },
         "intro": "接下来",

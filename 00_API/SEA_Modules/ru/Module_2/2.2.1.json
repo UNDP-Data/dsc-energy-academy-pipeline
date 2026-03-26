@@ -39,6 +39,31 @@
       }
     },
     {
+      "template_id": "key_concepts",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые концепции",
+        "intro": "Изучите основные идеи этого урока.",
+        "concepts": [
+          {
+            "title": "доступ к энергии для неформальных поселений",
+            "body": "Доступ к энергии для неформальных поселений означает наличие и доступность надежных энергетических услуг, таких как электроэнергия и чистое топливо для готовки, для жителей, проживающих в непланируемых или неформальных жилых районах, обеспечивая возможность удовлетворять их основные энергетические потребности и повышать качество жизни.",
+            "source": ""
+          },
+          {
+            "title": "энергия в условиях кризиса",
+            "body": "Энергия в условиях кризиса относится к обеспечению и управлению энергетическими ресурсами в районах, пострадавших от чрезвычайных ситуаций, таких как природные катастрофы, вооружённые конфликты или гуманитарные кризисы, где доступ к надежной энергии критически важен для выживания, восстановления и восстановления.",
+            "source": ""
+          },
+          {
+            "title": "глобальный энергетический разрыв",
+            "body": "Глобальный энергетический разрыв относится к разнице между мировым спросом на энергию и доступным энергетическим запасом, подчеркивая необходимость увеличения производства энергии и устойчивых решений для удовлетворения будущих энергетических потребностей.",
+            "source": ""
+          }
+        ]
+      }
+    },
+    {
       "template_id": "text",
       "color_scheme": "light",
       "content": {
@@ -72,7 +97,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/654_2280.webp",
@@ -99,6 +124,24 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_0"
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_1"
       }
     },
     {
@@ -129,7 +172,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2781.webp",
@@ -155,6 +198,15 @@
             }
           }
         ]
+      }
+    },
+    {
+      "template_id": "embed",
+      "color_scheme": "light",
+      "size": "full",
+      "content": {
+        "title": "",
+        "url": "M2_C2_2"
       }
     },
     {
@@ -185,7 +237,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2815.webp",
@@ -201,7 +253,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "В то время как некоторые регионы быстро движутся к всеобщему доступу к энергии, другие отстают. Этот раздел выделяет области, где большинство людей по-прежнему лишены базовых энергетических услуг, особенно в странах южнее Сахары и в хрупких государствах. Некоторые из этих регионов сталкиваются с постоянными барьерами, такими как политическая нестабильность, отсутствие доступа к финансированию и слабые институты."
+              "text": "В то время как некоторые регионы быстро движутся к всеобщему доступу к энергии, другие отстают. Этот раздел выделяет области, где большинство людей по-прежнему лишены базовых энергетических услуг, особенно в странах южнее Сахары и в хрупких государствах. Некоторые из этих регионов сталкиваются с постоянными барьерами, такими как политическая нестабильность, недостаток доступа к финансированию и слабые институты."
             }
           },
           {
@@ -239,6 +291,12 @@
       "color_scheme": "dark",
       "size": "full",
       "content": {
+        "metadata": {
+          "title": "Ежегодные увеличения электрификации и населения по регионам, 2020-22",
+          "subtitle": "",
+          "description": "nan",
+          "footnote": "Source: World Bank, 2024"
+        },
         "option": {
           "textStyle": {
             "fontFamily": "Proxima Nova, sans-serif",
@@ -276,16 +334,16 @@
           },
           "backgroundColor": "rgba(28, 29, 24, 1)",
           "color": [
-            "#0a97d9",
-            "#3f7e44",
-            "#19486a",
-            "#c5192d",
-            "#fd9d24",
-            "#fd6925",
-            "#4c9f38",
-            "#0468b1",
             "#dd1367",
-            "#fcc30b"
+            "#fcc30b",
+            "#fd6925",
+            "#0468b1",
+            "#0a97d9",
+            "#fd9d24",
+            "#19486a",
+            "#3f7e44",
+            "#c5192d",
+            "#4c9f38"
           ],
           "xAxis": {
             "axisLine": {
@@ -401,44 +459,7 @@
             }
           ],
           "grid": {
-            "bottom": 90,
-            "top": 200,
-            "left": 70,
-            "right": 40
-          },
-          "title": {
-            "text": "Ежегодные увеличения электрификации и населения по регионам, 2020-22",
-            "subtext": "",
-            "left": "center",
-            "top": 20,
-            "textStyle": {
-              "color": "#ffffff",
-              "fontSize": 22,
-              "fontWeight": "bold",
-              "fontFamily": "Proxima Nova, sans-serif"
-            },
-            "subtextStyle": {
-              "color": "#666666",
-              "fontSize": 14,
-              "fontFamily": "Proxima Nova, sans-serif"
-            }
-          },
-          "graphic": {
-            "elements": [
-              {
-                "type": "text",
-                "left": "center",
-                "top": 80,
-                "style": {
-                  "text": "",
-                  "fill": "#444444",
-                  "font": "15px Proxima Nova, sans-serif",
-                  "width": 600,
-                  "lineHeight": 22,
-                  "align": "center"
-                }
-              }
-            ]
+            "bottom": 100
           }
         }
       }
@@ -451,7 +472,7 @@
           {
             "template_id": "paragraph_medium",
             "content": {
-              "text": "<br />Несмотря на то, что субсахарская Африка составляет подавляющее большинство глобального дефицита доступа к электроэнергии, в других регионах также сохраняются проблемы — особенно в некоторых частях Азии и Океании. <br /><br />В <strong>Мьянме</strong> в 2023 году около 24% населения не имели доступа к электроэнергии, при этом электрификация сельских районов значительно отставала от городских из-за конфликтов и политических потрясений (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=MM\"><u>Всемирный банк</u></a>, 2023). <strong>Папуа — Новая Гвинея</strong>, уровень доступа остается одним из самых низких за пределами Африки, с всего лишь 20% населения, подключенного к электроэнергии (<a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2025-0620-v6-highres.pdf\"><u>МЭА</u></a>, 2025). [needs translation] Similarly, in <strong>Haiti,</strong> only 51% of people had access to electricity in 2023, with significant reliability issues and frequent blackouts compounding the problem (<a href=\"https://tradingeconomics.com/haiti/access-to-electricity-percent-of-population-wb-data.html\"><u>World Bank</u></a>, 2025).<br />In Central Asia, although electrification rates are generally high, <strong>remote populations often suffer from low-quality or intermittent service</strong> that is not captured in headline access statistics.<br /><br /><br /><br />While global electricity access has improved over the past two decades, stark disparities persist, particularly in Sub-Saharan Africa. Быстрый рост населения, недостаточные институты, финансовые ограничения и географические барьеры продолжают замедлять прогресс в этих регионах.<br /><br />Этот урок показал, что <strong>глобальный энергетический разрыв — это не одна пропасть, а многоуровневая и развивающаяся проблема, охватывающая регионы, уровни доходов и контексты уязвимости.</strong> Достижение универсального доступа к энергии потребует тонких, регионально-специфических стратегий, выходящих за рамки подключения, чтобы решить вопросы доступности, надежности и долгосрочной устойчивости."
+              "text": "<br />Несмотря на то, что субсахарская Африка составляет подавляющее большинство глобального дефицита доступа к электроэнергии, в других регионах также сохраняются проблемы — особенно в некоторых частях Азии и Океании. <br /><br />В <strong>Мьянме</strong> в 2023 году около 24% населения не имели доступа к электроэнергии, при этом электрификация сельских районов значительно отставала от городских из-за конфликтов и политических потрясений (<a href=\"https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=MM\"><u>Всемирный банк</u></a>, 2023). <strong>Папуа — Новая Гвинея</strong>, уровень доступа остается одним из самых низких за пределами Африки, с всего лишь 20% населения, подключенного к электроэнергии (<a href=\"https://trackingsdg7.esmap.org/data/files/download-documents/sdg7-report2025-0620-v6-highres.pdf\"><u>МЭА</u></a>, 2025). Аналогично, в <strong>Гаити,</strong> только 51% населения имели доступ к электроэнергии в 2023 году, сталкиваясь с серьезными проблемами надежности и частыми отключениями, усугубляющими ситуацию (<a href=\"https://tradingeconomics.com/haiti/access-to-electricity-percent-of-population-wb-data.html\"><u>Всемирный банк</u></a>, 2025).<br />В Центральной Азии, хотя уровни электрификации в целом высоки, <strong>отдаленные населенные пункты часто страдают от низкокачественного или прерывистого обслуживания</strong>, которое не отражается в основных статистиках доступа.<br /><br /><br /><br />Несмотря на то, что за последние два десятилетия глобальный доступ к электроэнергии улучшился, сохраняются ярко выраженные неравенства, особенно в странах Африки к югу от Сахары. Быстрый рост населения, недостаточные институты, финансовые ограничения и географические барьеры продолжают замедлять прогресс в этих регионах.<br /><br />Этот урок показал, что <strong>глобальный энергетический разрыв — это не одна пропасть, а многоуровневая и развивающаяся проблема, охватывающая регионы, уровни доходов и контексты уязвимости.</strong> Достижение универсального доступа к энергии потребует тонких, регионально-специфических стратегий, выходящих за рамки подключения, чтобы решить вопросы доступности, надежности и долгосрочной устойчивости."
             }
           }
         ]
@@ -459,7 +480,7 @@
     },
     {
       "template_id": "photo_full_height",
-      "color_scheme": "dark",
+      "color_scheme": "light",
       "content": {
         "image": {
           "src": "https://sehseadata.blob.core.windows.net/images/Modules/Module_2/669_2754.webp",
@@ -502,15 +523,51 @@
       }
     },
     {
+      "template_id": "key_resources",
+      "color_scheme": "dark",
+      "content": {
+        "title": "Ключевые ресурсы",
+        "resources": [
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2211.webp",
+              "caption": ""
+            },
+            "href": "UNDP",
+            "text": "Доклад о человеческом развитии 2023-24. Разрушая тупик: переосмысление сотрудничества в поляризованном мире",
+            "cta": "Нажмите, чтобы скачать"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2212.webp",
+              "caption": ""
+            },
+            "href": "IRENA",
+            "text": "Развивающиеся островные государства на распутье: к справедливому доступу к энергии в странах с наименьшей электрификацией",
+            "cta": "Нажмите, чтобы скачать"
+          },
+          {
+            "image": {
+              "src": "https://sehseadata.blob.core.windows.net/images/Resources/Module_2/resource-2213.webp",
+              "caption": ""
+            },
+            "href": "World Bank Group",
+            "text": "Никого не оставить в стороне - переосмысление программ доступа к энергии в условиях перемещения",
+            "cta": "Нажмите, чтобы скачать"
+          }
+        ]
+      }
+    },
+    {
       "template_id": "connection_next",
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module2.webp",
           "caption": ""
         },
         "intro": "Далее",
-        "title": "Урок 2: Статус и тенденции",
+        "title": "Урок 2: Уровни неравенства в доступе к энергии",
         "cta": "Продолжайте учиться",
         "nextLessonId": "2.2.2"
       }

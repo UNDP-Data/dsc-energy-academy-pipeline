@@ -25,24 +25,60 @@
         "questions": [
           {
             "id": 1,
-            "prompt": "全球温室气体总排放量中有多少百分比归因于能源部门？",
+            "prompt": "在模块中讨论的有效能源治理的三个关键原则是什么？",
             "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "大约45%"
+                "value": "有效性、效率和公平"
               },
               {
                 "id": 2,
-                "value": "大约60%"
+                "value": "问责制、包容性和有效性"
               },
               {
                 "id": 3,
-                "value": "大约75%"
+                "value": "负担能力、可持续性和弹性"
               },
               {
                 "id": 4,
-                "value": "少于25%"
+                "value": "参与、执行与诚信"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "有效性、问责制和包容性确保能源政策是合理的、公正的和具有参与性的。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "有效性、问责制和包容性确保能源政策是合理的、公正的和具有参与性的。"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "prompt": "以下哪项最能定义能源治理？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "政府机构对环境法规的执行"
+              },
+              {
+                "id": 2,
+                "value": "通过公共政策管理气候融资机制"
+              },
+              {
+                "id": 3,
+                "value": "行使管理能源规划、生产和访问的权力"
+              },
+              {
+                "id": 4,
+                "value": "在能源系统中利用技术减少碳排放"
               }
             ],
             "solution": [
@@ -51,200 +87,373 @@
             "messages": {
               "correct": {
                 "title": "正确",
-                "body": "能源部门大约占全球温室气体排放总量的75%，是气候变化的最大贡献者。"
+                "body": "能源治理涉及对能源决策的政治、经济和社会权威。"
               },
               "wrong": {
                 "title": "不正确",
-                "body": "能源部门大约占全球温室气体排放总量的75%，是气候变化的最大贡献者。"
-              }
-            }
-          },
-          {
-            "id": 2,
-            "prompt": "以下哪种温室气体在能源行业常排放的气体中具有最高的全球变暖潜势（GWP）？",
-            "multiple": false,
-            "options": [
-              {
-                "id": 1,
-                "value": "二氧化碳 (CO₂)"
-              },
-              {
-                "id": 2,
-                "value": "甲烷 (CH₄)"
-              },
-              {
-                "id": 3,
-                "value": "一氧化二氮 (N₂O)"
-              },
-              {
-                "id": 4,
-                "value": "六氟化硫 (SF₆)"
-              }
-            ],
-            "solution": [
-              4
-            ],
-            "messages": {
-              "correct": {
-                "title": "正确",
-                "body": "SF₆具有最高的全球变暖潜能（GWP）——大约是二氧化碳的25,200倍——因此成为能源分配中减排的关键目标。"
-              },
-              "wrong": {
-                "title": "不正确",
-                "body": "SF₆具有最高的全球变暖潜能（GWP）——大约是二氧化碳的25,200倍——因此成为能源分配中减排的关键目标。"
+                "body": "能源治理涉及对能源决策的政治、经济和社会权威。"
               }
             }
           },
           {
             "id": 3,
-            "prompt": "与可再生能源基础设施开发相关的关键环境影响有哪些？",
-            "multiple": true,
+            "prompt": "为什么能源治理在实现公平能源转型中至关重要？",
+            "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "栖息地破坏"
+                "value": "确保新技术得到公平的专利保护"
               },
               {
                 "id": 2,
-                "value": "来自发电厂的空气污染"
+                "value": "它通过一个监管机构控制全球排放"
               },
               {
                 "id": 3,
-                "value": "土地利用冲突"
+                "value": "It shapes how decisions are made, trade-offs are managed, and policies are implemented"
               },
               {
                 "id": 4,
-                "value": "矿产开采的影响"
+                "value": "它仅专注于减少化石燃料补贴"
               }
             ],
             "solution": [
-              1,
-              2,
-              3,
-              4
+              3
             ],
             "messages": {
               "correct": {
                 "title": "正确",
-                "body": "所有选项都是正确的。 大规模装置引起的栖息地破坏和土地使用冲突，材料生产和退役过程中可能发生空气污染，开采太阳能电池板、风力涡轮机和电池所需矿物会造成严重的环境退化。"
+                "body": "治理塑造政策和实施，对于管理转型的权衡至关重要。"
               },
               "wrong": {
                 "title": "不正确",
-                "body": "所有选项都是正确的。 大规模装置引起的栖息地破坏和土地使用冲突，材料生产和退役过程中可能发生空气污染，开采太阳能电池板、风力涡轮机和电池所需矿物会造成严重的环境退化。"
+                "body": "治理塑造政策和实施，对于管理转型的权衡至关重要。"
               }
             }
           },
           {
             "id": 4,
-            "prompt": "气候变化如何影响能源系统的性能和可靠性？",
-            "multiple": true,
+            "prompt": "“fossil fuel lock-in” 指的是什么？",
+            "multiple": false,
             "options": [
               {
                 "id": 1,
-                "value": "在热浪期间增加制冷需求，给电网带来压力"
+                "value": "由于国际制裁，化石燃料变得无法获得"
               },
               {
                 "id": 2,
-                "value": "通过加热水源提高热电厂的效率"
+                "value": "对化石燃料的政治和经济依赖，使转型变得困难"
               },
               {
                 "id": 3,
-                "value": "由于降雨模式的变化，它会扰乱水力发电"
+                "value": "通过碳捕获将化石燃料锁定在地下储备中"
               },
               {
                 "id": 4,
-                "value": "它增加了基础设施因极端天气事件而失效的风险"
+                "value": "绑定阻止使用可再生能源的国际合同"
               }
             ],
             "solution": [
-              1,
-              3,
-              4
-            ],
-            "messages": {
-              "correct": {
-                "title": "正确",
-                "body": "气候变化通过增加冷却需求、扰乱水电并使基础设施暴露于极端天气中，给系统带来压力。 较热的水实际上会降低——而不是提高——热电厂的效率。"
-              },
-              "wrong": {
-                "title": "不正确",
-                "body": "气候变化通过增加冷却需求、扰乱水电并使基础设施暴露于极端天气中，给系统带来压力。 较热的水实际上会降低——而不是提高——热电厂的效率。"
-              }
-            }
-          },
-          {
-            "id": 5,
-            "prompt": "限制发展中国家广泛采用可再生能源技术的关键挑战有哪些？",
-            "multiple": true,
-            "options": [
-              {
-                "id": 1,
-                "value": "高额的初始资本成本和融资限制"
-              },
-              {
-                "id": 2,
-                "value": "缺乏技术能力和熟练劳动力"
-              },
-              {
-                "id": 3,
-                "value": "波动的市场和基础设施限制"
-              },
-              {
-                "id": 4,
-                "value": "政策不一致和电网集成薄弱"
-              }
-            ],
-            "solution": [
-              1,
-              2,
-              3,
-              4
-            ],
-            "messages": {
-              "correct": {
-                "title": "正确",
-                "body": "所有列出的选项都是有据可查的限制：高成本、技能差距、市场波动以及政策/基础设施薄弱。"
-              },
-              "wrong": {
-                "title": "不正确",
-                "body": "所有列出的选项都是有据可查的限制：高成本、技能差距、市场波动以及政策/基础设施薄弱。"
-              }
-            }
-          },
-          {
-            "id": 6,
-            "prompt": "以下哪项准确描述了能源技术的生命周期排放？",
-            "multiple": true,
-            "options": [
-              {
-                "id": 1,
-                "value": "生命周期排放涵盖从资源开采到退役的所有阶段"
-              },
-              {
-                "id": 2,
-                "value": "太阳能和风能的生命周期排放明显低于煤炭或天然气"
-              },
-              {
-                "id": 3,
-                "value": "天然气和煤炭在生命周期排放方面可与风能和太阳能相媲美"
-              },
-              {
-                "id": 4,
-                "value": "生命周期排放仅与化石燃料相关"
-              }
-            ],
-            "solution": [
-              1,
               2
             ],
             "messages": {
               "correct": {
                 "title": "正确",
-                "body": "生命周期分析提供了对排放的全面了解。 风能（13g CO₂/kWh）和太阳能（43g CO₂/kWh）远低于煤炭（1,001g）和天然气（486g）。 生命周期分析与所有能源类型相关。"
+                "body": "化石燃料的锁定将经济和机构与化石燃料依赖联系在一起。"
               },
               "wrong": {
                 "title": "不正确",
-                "body": "生命周期分析提供了对排放的全面了解。 风能（13g CO₂/kWh）和太阳能（43g CO₂/kWh）远低于煤炭（1,001g）和天然气（486g）。 生命周期分析与所有能源类型相关。"
+                "body": "化石燃料的锁定将经济和机构与化石燃料依赖联系在一起。"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "prompt": "哪种治理方法强调跨多个层级和部门的合作？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "自上而下的治理"
+              },
+              {
+                "id": 2,
+                "value": "自适应执行"
+              },
+              {
+                "id": 3,
+                "value": "多层次治理"
+              },
+              {
+                "id": 4,
+                "value": "财务集中"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "多层级治理协调各级和各部门的行动。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "多层级治理协调各级和各部门的行动。"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "prompt": "用什么工具来分析权力和机构如何影响能源治理中的政策结果？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "绿色气候基金（GCF）"
+              },
+              {
+                "id": 2,
+                "value": "机构和背景分析（ICA）"
+              },
+              {
+                "id": 3,
+                "value": "可再生能源投资指数 (RII)"
+              },
+              {
+                "id": 4,
+                "value": "排放交易体系 (ETS)"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "ICA 识别政策过程中的权力动态和制度障碍。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "ICA 识别政策过程中的权力动态和制度障碍。"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "prompt": "根据《巴黎协定》，能源转型现在与早期框架如联合国气候变化框架公约（UNFCCC）相比是如何处理的？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "As side effects of agricultural transformation"
+              },
+              {
+                "id": 2,
+                "value": "As central policy levers essential for meeting climate goals"
+              },
+              {
+                "id": 3,
+                "value": "As voluntary measures with no legal standing"
+              },
+              {
+                "id": 4,
+                "value": "仅由发达国家采取的行动"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "The Paris Agreement centralizes energy transitions to meet climate goals."
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "The Paris Agreement centralizes energy transitions to meet climate goals."
+              }
+            }
+          },
+          {
+            "id": 8,
+            "prompt": "根据综合报告，国家自主贡献（NDCs）中明确涉及公平转型的比例是多少？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "0.1"
+              },
+              {
+                "id": 2,
+                "value": "0.17"
+              },
+              {
+                "id": 3,
+                "value": "0.4"
+              },
+              {
+                "id": 4,
+                "value": "0.31"
+              }
+            ],
+            "solution": [
+              4
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "只有31%的NDC关注公平转型对弱势群体的影响。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "只有31%的NDC关注公平转型对弱势群体的影响。"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "prompt": "哪种前瞻方法首先定义一个理想的未来，然后倒推步骤？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "<strong>情景规划</strong>"
+              },
+              {
+                "id": 2,
+                "value": "Visioning"
+              },
+              {
+                "id": 3,
+                "value": "回溯"
+              },
+              {
+                "id": 4,
+                "value": "Horizon Mapping"
+              }
+            ],
+            "solution": [
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "反向规划是一种前瞻性技术，从一个理想的未来开始，规划实现该愿景的必要步骤。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "反向规划是一种前瞻性技术，从一个理想的未来开始，规划实现该愿景的必要步骤。"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "prompt": "在能源治理中，整体政府方法的主要目标是什么？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "将权力集中在能源部"
+              },
+              {
+                "id": 2,
+                "value": "促进部际合作和政策一致性"
+              },
+              {
+                "id": 3,
+                "value": "减少议会在能源治理中的作用"
+              },
+              {
+                "id": 4,
+                "value": "管理区域传输基础设施"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "全面政府方法整合跨部委合作，以促进与更广泛发展目标一致的连贯能源政策。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "全面政府方法整合跨部委合作，以促进与更广泛发展目标一致的连贯能源政策。"
+              }
+            }
+          },
+          {
+            "id": 11,
+            "prompt": "以下哪项最能定义能源行业的敏捷监管？",
+            "multiple": false,
+            "options": [
+              {
+                "id": 1,
+                "value": "一个固定的、基于规则的执行机制"
+              },
+              {
+                "id": 2,
+                "value": "一个响应式的实时监控机制"
+              },
+              {
+                "id": 3,
+                "value": "基于性别的预算系统"
+              },
+              {
+                "id": 4,
+                "value": "补贴发放工具"
+              }
+            ],
+            "solution": [
+              2
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "敏捷监督是指支持在不断变化的环境中进行灵活决策和政策响应的实时、适应性监控。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "敏捷监督是指支持在不断变化的环境中进行灵活决策和政策响应的实时、适应性监控。"
+              }
+            }
+          },
+          {
+            "id": 12,
+            "prompt": "以下哪些机制对能源治理中的外部监督至关重要？",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "服务标准的监管执行"
+              },
+              {
+                "id": 2,
+                "value": "社区基础的申诉解决系统"
+              },
+              {
+                "id": 3,
+                "value": "议会审查委员会"
+              },
+              {
+                "id": 4,
+                "value": "集中定价机构"
+              }
+            ],
+            "solution": [
+              1,
+              2,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "正确",
+                "body": "外部监督包括正式的监管和立法机制以及参与式方法，旨在确保透明度和问责制。"
+              },
+              "wrong": {
+                "title": "不正确",
+                "body": "外部监督包括正式的监管和立法机制以及参与式方法，旨在确保透明度和问责制。"
               }
             }
           }
@@ -256,7 +465,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module5.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module5.webp",
           "caption": ""
         },
         "intro": "接下来",

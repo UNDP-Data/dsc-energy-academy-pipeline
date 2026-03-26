@@ -87,11 +87,11 @@
             "messages": {
               "correct": {
                 "title": "Correct",
-                "body": "SF₆ a le GWP le plus élevé—environ 25 200 fois celui du CO₂—ce qui en fait une cible critique pour la réduction des émissions dans la distribution d'énergie."
+                "body": "SF₆ a le GWP le plus élevé, environ 25 200 fois celui du CO₂, ce qui en fait une cible critique pour la réduction des émissions dans la distribution d'énergie."
               },
               "wrong": {
                 "title": "Incorrect",
-                "body": "SF₆ a le GWP le plus élevé—environ 25 200 fois celui du CO₂—ce qui en fait une cible critique pour la réduction des émissions dans la distribution d'énergie."
+                "body": "SF₆ a le GWP le plus élevé, environ 25 200 fois celui du CO₂, ce qui en fait une cible critique pour la réduction des émissions dans la distribution d'énergie."
               }
             }
           },
@@ -283,6 +283,43 @@
                 "body": "Le transport est la plus grande source d'émissions de CO2 liées à l'utilisation finale, responsable de plus d'un tiers, ce qui en fait un secteur prioritaire pour la décarbonisation par l'électrification et l'amélioration de l'efficacité."
               }
             }
+          },
+          {
+            "id": 8,
+            "prompt": "Pourquoi l'analyse des émissions de cycle de vie est-elle essentielle pour comparer les technologies d'énergie renouvelable et fossile ?",
+            "multiple": true,
+            "options": [
+              {
+                "id": 1,
+                "value": "Parce qu'il révèle les véritables impacts des émissions au-delà du point d'utilisation"
+              },
+              {
+                "id": 2,
+                "value": "Parce qu'il ne mesure que les émissions provenant de la combustion de carburant"
+              },
+              {
+                "id": 3,
+                "value": "Parce que les énergies renouvelables peuvent afficher des émissions totales plus faibles même après avoir inclus la fabrication et l'élimination"
+              },
+              {
+                "id": 4,
+                "value": "Parce qu’il s’agit de la seule métrique que les gouvernements utilisent pour fixer des objectifs climatiques"
+              }
+            ],
+            "solution": [
+              1,
+              3
+            ],
+            "messages": {
+              "correct": {
+                "title": "Correct",
+                "body": "L'analyse du cycle de vie comprend les émissions provenant de la construction, de l'utilisation et du démantèlement. Il met en évidence comment les énergies renouvelables restent à faible émission même lorsque toutes les étapes sont prises en compte."
+              },
+              "wrong": {
+                "title": "Incorrect",
+                "body": "L'analyse du cycle de vie comprend les émissions provenant de la construction, de l'utilisation et du démantèlement. Il met en évidence comment les énergies renouvelables restent à faible émission même lorsque toutes les étapes sont prises en compte."
+              }
+            }
           }
         ]
       }
@@ -292,7 +329,7 @@
       "color_scheme": "dark",
       "content": {
         "image": {
-          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.png",
+          "src": "https://sehseadata.blob.core.windows.net/images/HeaderImages/Modules/module6.webp",
           "caption": ""
         },
         "intro": "Prochainement",
