@@ -684,7 +684,7 @@ class Infographic(FrameBase):
     """
     Expected Figma structure (at minimum):
       infographic (FRAME)
-        └─ infographic-design (FRAME)   <-- this is what we export as the image
+        └─ <single child FRAME>   <-- this is what we export as the image
 
     Output schema:
     {
@@ -705,12 +705,18 @@ class Infographic(FrameBase):
     metadata: dict
 
     @staticmethod
-    def _find_child_frame(parent: Node, name: str) -> Node | None:
-        target = name.strip().lower()
-        for child in getattr(parent, "children", []) or []:
-            if getattr(child, "type", "").upper() == "FRAME" and (getattr(child, "name", "") or "").strip().lower() == target:
-                return child
-        return None
+    def _get_single_child_frame(parent: Node) -> Node:
+        child_frames = [
+            child
+            for child in (getattr(parent, "children", []) or [])
+            if getattr(child, "type", "").upper() == "FRAME"
+        ]
+        if len(child_frames) != 1:
+            raise ValueError(
+                f"Infographic frame must contain exactly 1 child FRAME, found {len(child_frames)}: "
+                f"{getattr(parent, 'id', None)}"
+            )
+        return child_frames[0]
 
     @staticmethod
     def _find_first_text(parent: Node, names: list[str]) -> Node | None:
@@ -733,10 +739,8 @@ class Infographic(FrameBase):
         width = node.absoluteBoundingBox["width"] if node.absoluteBoundingBox else 1000
         size: Literal["full", "half"] = "full" if width-720 >= 1000 else "half"
 
-        # The exported image should be the 'infographic-design' frame (NOT the wrapper 'infographic' frame).
-        design = cls._find_child_frame(node, "infographic-design")
-        if not design:
-            raise ValueError(f"Infographic frame missing 'infographic-design' child: {getattr(node, 'id', None)}")
+        # The exported image should be the single child FRAME inside the infographic wrapper.
+        design = cls._get_single_child_frame(node)
 
         # Metadata fields (optional; keep robust if your Figma varies)
         title_node = cls._find_first_text(node, ["title"])
@@ -1182,4 +1186,3 @@ class ImageHotspot(FrameBase):
             hotspots=hotspots
         )
         
-
