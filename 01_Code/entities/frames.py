@@ -35,7 +35,7 @@ from pydantic import BaseModel, Field
 import json
 from pathlib import Path
 from typing import ClassVar
-from .components import Card, Concept, Intro, LessonThumbnail, NextBlock
+from .components import Card, Concept, Intro, LessonThumbnail, NextBlock, normalize_plain_text_value
 from .node import Node
 import requests
 import re as _re
@@ -127,7 +127,7 @@ def safe_get_characters(node: Node, field: str, template_id: str, default: str =
         return default
 
     try:
-        return selected.characters
+        return normalize_plain_text_value(selected.characters)
     except Exception as e:
         if not suppress_warning:
             print(f"❌ Error getting '.characters' for field '{field}' in template '{template_id}': {e}")
@@ -396,7 +396,10 @@ class KeyTakeaways(FrameBase):
             template_id=node.name,
             intro="",#safe_get_characters(node, "intro", node.name),
             title=safe_get_characters(node, "title", node.name),
-            takeaways=[Card.from_node(child) for child in node.select_nodes("GROUP", "objectives")],
+            takeaways=[
+                Card.from_node(child, split_title_from_description=True)
+                for child in node.select_nodes("GROUP", "objectives")
+            ],
         )
         
 
@@ -524,22 +527,33 @@ class ModuleText(FrameBase):
         content = {field: "" for field in expected_fields}
 
         children = getattr(group, "children", [])
-        field_idx = 0
+        unnamed_values: list[str] = []
 
         for child in children:
             if child.type != "TEXT":
                 continue
 
             name = child.name.strip().lower() if child.name else ""
+            value = cls._extract_styled_text(child).strip()
             if name in expected_fields:
                 field = name
-            elif field_idx < len(expected_fields):
-                field = expected_fields[field_idx]
             else:
-                continue  # too many children
-            field_idx += 1
+                unnamed_values.append(value)
+                continue
 
-            content[field] = cls._extract_styled_text(child).strip()
+            content[field] = value
+
+        missing_fields = [
+            field for field in expected_fields
+            if field != "number" and not str(content.get(field, "")).strip()
+        ]
+        if unnamed_values:
+            assign_fields = missing_fields
+            if template_id.startswith("bullet_point") and len(unnamed_values) == 1 and "body" in assign_fields:
+                assign_fields = ["body", *[field for field in assign_fields if field != "body"]]
+
+            for field, value in zip(assign_fields, unnamed_values):
+                content[field] = value
 
         return {"template_id": template_id, "content": content}
 
@@ -577,6 +591,31 @@ class ModuleText(FrameBase):
         return text
 
     @classmethod
+    def _normalize_text_template_text(cls, text: str) -> str:
+        if not text:
+            return ""
+
+        normalized = text.strip()
+        break_pattern = r"<br\s*/?>"
+        break_run_pattern = _re.compile(
+            rf"(?:{break_pattern}\s*){{3,}}",
+            flags=_re.IGNORECASE,
+        )
+        boundary_breaks = _re.compile(
+            rf"^(?:\s*{break_pattern}\s*)+|(?:\s*{break_pattern}\s*)+$",
+            flags=_re.IGNORECASE,
+        )
+
+        normalized = boundary_breaks.sub("", normalized).strip()
+        normalized = break_run_pattern.sub(
+            lambda match: "<br /><br />"
+            if len(_re.findall(break_pattern, match.group(0), flags=_re.IGNORECASE)) == 3
+            else match.group(0),
+            normalized,
+        )
+        return normalized.strip()
+
+    @classmethod
     def _extract_styled_text(cls, node):
         text = node.characters or ""
         overrides = getattr(node, "characterStyleOverrides", [])
@@ -603,7 +642,7 @@ class ModuleText(FrameBase):
         if current_chunk:
             result.append(cls._wrap_text(current_chunk, current_attrs))
 
-        return "<br />".join("".join(result).splitlines())
+        return cls._normalize_text_template_text("<br />".join("".join(result).splitlines()))
 
     def to_content(self) -> dict:
         return {

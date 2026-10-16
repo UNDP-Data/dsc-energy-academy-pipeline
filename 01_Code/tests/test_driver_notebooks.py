@@ -14,6 +14,7 @@ class DriverNotebookTests(unittest.TestCase):
             "translation-pipeline.ipynb": "run_translation_stage",
             "photo-export.ipynb": "run_photo_stage",
             "auxiliary-pipeline.ipynb": "run_auxiliary_stage",
+            "review.ipynb": "run_review_stage",
         }
         for notebook_name, token in expected.items():
             notebook_path = code_dir / notebook_name

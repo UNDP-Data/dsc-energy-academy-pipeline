@@ -3,12 +3,44 @@ Reusable components used to create frame templates.
 """
 
 from typing import Literal
+import re
 
 from pydantic import BaseModel, Field
 
 from .node import Node
 
 __all__ = ["Image", "Intro", "Card", "LessonThumbnail", "Concept"]
+
+
+def normalize_plain_text_value(text: str) -> str:
+    cleaned = (text or "").strip()
+    if not cleaned:
+        return ""
+
+    cleaned = re.sub(r"^(?:\s*<br\s*/?>\s*)+|(?:\s*<br\s*/?>\s*)+$", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"(?:(?:\r\n|\r|\n)\s*){3,}", lambda m: "\n\n" if len(re.findall(r"\r\n|\r|\n", m.group(0))) == 3 else m.group(0), cleaned)
+    cleaned = re.sub(r"(?:(?:<br\s*/?>\s*){3,})", lambda m: "<br /><br />" if len(re.findall(r"<br\s*/?>", m.group(0), flags=re.IGNORECASE)) == 3 else m.group(0), cleaned, flags=re.IGNORECASE)
+    return cleaned.strip()
+
+
+def split_first_sentence(text: str) -> tuple[str, str]:
+    cleaned = (text or "").strip()
+    if not cleaned:
+        return "", ""
+
+    match = re.match(r"(.+?[.!?])(?:\s+|$)(.*)", cleaned, flags=re.DOTALL)
+    if not match:
+        return cleaned, ""
+
+    title = match.group(1).strip()
+    description = match.group(2).strip()
+    return title, description
+
+
+def clean_takeaway_description_prefix(description: str) -> str:
+    """Remove stray standalone dash artifacts after the first takeaway sentence."""
+    return re.sub(r"^\s*[-–—]\s+", "", description or "").strip()
+
 
 def safe_get_characters(node: Node, field: str, template_id: str, default: str = "") -> str:
     selected = node.select_node("TEXT", field)
@@ -17,7 +49,7 @@ def safe_get_characters(node: Node, field: str, template_id: str, default: str =
             print(f"⚠️ Missing field '{field}' in template '{template_id}'")
         return default
     try:
-        return selected.characters
+        return normalize_plain_text_value(selected.characters)
     except Exception as e:
         print(f"❌ Error getting '.characters' for field '{field}' in template '{template_id}': {e}")
         return default
@@ -91,7 +123,7 @@ class Card(BaseModel):
     description: str
 
     @classmethod
-    def from_node(cls, node: Node) -> "Card":
+    def from_node(cls, node: Node, *, split_title_from_description: bool = False) -> "Card":
         """
         Create a Card instance from a Node object.
 
@@ -111,9 +143,15 @@ class Card(BaseModel):
             description=node.select_node("TEXT", "description").characters
         except:
             description=""
+
+        title = safe_get_characters(node, "title", node.name)
+        if split_title_from_description and title and not str(description).strip():
+            title, description = split_first_sentence(title)
+            description = clean_takeaway_description_prefix(description)
+
         return cls(
             image=Image.from_node(node.select_node("GROUP", "image")),
-            title=safe_get_characters(node, "title", node.name),
+            title=title,
             description=description
         )
 

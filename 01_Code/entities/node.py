@@ -29,6 +29,7 @@ NodeType = Literal[
     "TABLE",
     "TABLE_CELL",
     "TEXT",
+    "TEXT_PATH",
     "SLICE",
     "COMPONENT",
     "COMPONENT_SET",
@@ -109,6 +110,50 @@ class Node(BaseModel):
         Display the document structure in a tree-like format.
         """
         print("\n".join(self._walk(depth=depth)))
+
+    def find_nodes_by_type(self, type: NodeType) -> list[dict[str, str]]:
+        """
+        Return matching descendant nodes with human-readable hierarchy paths.
+        """
+        matches: list[dict[str, str]] = []
+        self._collect_nodes_by_type(type, self._path_label(), matches)
+        return matches
+
+    def _collect_nodes_by_type(
+        self,
+        type: NodeType,
+        path: str,
+        matches: list[dict[str, str]],
+    ) -> None:
+        if self.type == type:
+            characters = str(getattr(self, "characters", "") or "")
+            render_bounds = getattr(self, "absoluteRenderBounds", None)
+            diagnostics = []
+            if not characters.strip():
+                diagnostics.append("empty_text")
+            if render_bounds is None:
+                diagnostics.append("no_render_bounds")
+            if not self.visible:
+                diagnostics.append("hidden")
+            matches.append(
+                {
+                    "id": self.id,
+                    "name": self.name,
+                    "type": self.type,
+                    "path": path,
+                    "visible": str(self.visible),
+                    "characters": characters,
+                    "absoluteBoundingBox": str(getattr(self, "absoluteBoundingBox", "")),
+                    "absoluteRenderBounds": str(render_bounds),
+                    "diagnostics": ", ".join(diagnostics),
+                }
+            )
+        if children := self.children:
+            for child in children:
+                child._collect_nodes_by_type(type, f"{path} > {child._path_label()}", matches)
+
+    def _path_label(self) -> str:
+        return f'{self.type} "{self.name}" ({self.id})'
 
     def select_nodes(
         self,

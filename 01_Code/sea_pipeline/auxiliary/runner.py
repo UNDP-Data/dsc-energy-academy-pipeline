@@ -8,24 +8,14 @@ from sea_pipeline.shared.config import PipelineConfig
 from sea_pipeline.shared.io_json import save_json
 from sea_pipeline.shared.notebook_runtime import NotebookStage, execute_notebook_stage
 
+from .avatars.blob_status import write_avatar_blob_status_csv
 from .avatars.heygen import run_avatar_script_command
 from .charts import functions as chart_functions
+from .docx_export import export_docx_materials
 from .resource_image_backfill import backfill_resource_webp_images
 
 
 AUXILIARY_STAGES: dict[str, NotebookStage] = {
-    "docx_export_text": NotebookStage(
-        name="docx_export_text",
-        notebook_relpath="sea_pipeline/_legacy_notebooks/docx-exports.json",
-        cell_indices=(0,),
-        description="Export per-module DOCX files without image insertion.",
-    ),
-    "docx_export_with_images": NotebookStage(
-        name="docx_export_with_images",
-        notebook_relpath="sea_pipeline/_legacy_notebooks/docx-exports.json",
-        cell_indices=(3,),
-        description="Export per-module DOCX files with image insertion and caching.",
-    ),
     "spellcheck_audit": NotebookStage(
         name="spellcheck_audit",
         notebook_relpath="sea_pipeline/_legacy_notebooks/spellchecker.json",
@@ -176,12 +166,51 @@ def _run_resource_image_webp_backfill_stage(config: PipelineConfig) -> dict[str,
     }
 
 
+def _run_avatar_blob_status_csv_stage(config: PipelineConfig) -> dict[str, object]:
+    started = time.time()
+    if not config.env.sas_url:
+        raise ValueError("SAS_URL is required for avatar blob status CSV generation.")
+
+    input_path = config.stage_options.get(
+        "avatar_blob_status_input_path",
+        config.paths.inputs_dir / "SEA AI Avatars.csv",
+    )
+    output_path = config.stage_options.get(
+        "avatar_blob_status_output_path",
+        config.paths.outputs_dir / "avatars" / "ai_avatar_blob_status.csv",
+    )
+    result = write_avatar_blob_status_csv(
+        input_path=input_path,
+        output_path=output_path,
+        sas_url=config.env.sas_url,
+        log=print,
+    )
+    return {
+        "stage": "avatar_blob_status_csv",
+        "kind": "python",
+        "status": "warning" if result["partial"] or result["missing"] else "ok",
+        "summary": {
+            "input_path": result["input_path"],
+            "output_path": result["output_path"],
+            "expected_rows": result["expected_rows"],
+            "lesson_rows": result["lesson_rows"],
+            "complete": result["complete"],
+            "partial": result["partial"],
+            "missing": result["missing"],
+        },
+        "duration_seconds": time.time() - started,
+    }
+
+
 def list_auxiliary_stages() -> list[str]:
     return [
         "validate_env",
         "charts_extract_and_merge",
         "charts_render",
+        "docx_export_text",
+        "docx_export_with_images",
         "resource_image_webp_backfill",
+        "avatar_blob_status_csv",
         *AUXILIARY_STAGES.keys(),
         "generate_payloads",
         "generate_videos",
@@ -198,8 +227,14 @@ def run_auxiliary_stage(config: PipelineConfig, stage_name: str) -> dict[str, ob
         return _run_chart_data_stage(config)
     if stage_name == "charts_render":
         return _run_chart_render_stage(config)
+    if stage_name == "docx_export_text":
+        return export_docx_materials(config, with_images=False)
+    if stage_name == "docx_export_with_images":
+        return export_docx_materials(config, with_images=True)
     if stage_name == "resource_image_webp_backfill":
         return _run_resource_image_webp_backfill_stage(config)
+    if stage_name == "avatar_blob_status_csv":
+        return _run_avatar_blob_status_csv_stage(config)
     if stage_name in AUXILIARY_STAGES:
         return execute_notebook_stage(config, AUXILIARY_STAGES[stage_name])
     if stage_name in {"generate_payloads", "generate_videos", "list_blob_clips", "download_blob_clips", "add_backgrounds"}:

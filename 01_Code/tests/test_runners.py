@@ -11,6 +11,7 @@ if str(CODE_DIR) not in sys.path:
 from sea_pipeline.auxiliary.runner import list_auxiliary_stages
 from sea_pipeline.core.runner import list_core_stages
 from sea_pipeline.photo.runner import list_photo_stages
+from sea_pipeline.review.runner import list_review_stages
 from sea_pipeline.translation.runner import list_translation_stages
 
 
@@ -21,6 +22,9 @@ class RunnerStageTests(unittest.TestCase):
         self.assertIn("image_upload", list_photo_stages())
         self.assertIn("charts_render", list_auxiliary_stages())
         self.assertIn("resource_image_webp_backfill", list_auxiliary_stages())
+        self.assertIn("avatar_blob_status_csv", list_auxiliary_stages())
+        self.assertIn("full_review", list_review_stages())
+        self.assertIn("spellcheck_audit", list_review_stages())
 
 
 if __name__ == "__main__":

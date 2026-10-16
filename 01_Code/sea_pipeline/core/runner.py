@@ -7,15 +7,20 @@ from typing import Iterable
 from sea_pipeline.shared.config import PipelineConfig
 from sea_pipeline.shared.notebook_runtime import NotebookStage, execute_notebook_stage
 
+from .structure import run_structure_generation
+
 
 def _figma_stage_prelude(config: PipelineConfig) -> str:
     figma_redownload = bool(config.stage_options.get("figma_redownload", False))
+    image_bank_seed = int(config.stage_options.get("image_bank_seed", 20260504))
     return dedent(
         f"""
         from pathlib import Path
         Path('../03_Outputs/SEA_Modules/en').mkdir(parents=True, exist_ok=True)
         FIGMA_REDOWNLOAD = {figma_redownload!r}
+        IMAGE_BANK_SEED = {image_bank_seed!r}
         print(f"FIGMA_REDOWNLOAD={{FIGMA_REDOWNLOAD}}")
+        print(f"IMAGE_BANK_SEED={{IMAGE_BANK_SEED}}")
         """
     ).strip()
 
@@ -37,7 +42,15 @@ CORE_STAGES: dict[str, NotebookStage] = {
         cell_indices=(0, 1, 2, 7, 9),
         description="Run the main English lesson extraction/export pipeline from cached or downloaded Figma data.",
         strip_lines_by_cell={9: ("run_pipeline(redownload=False)",)},
-        extra_code_cells=("run_pipeline(redownload=FIGMA_REDOWNLOAD)",),
+        extra_code_cells=(
+            "run_pipeline(redownload=FIGMA_REDOWNLOAD)\n"
+            "from pathlib import Path\n"
+            "from sea_pipeline.core.image_bank import apply_learning_card_image_bank\n"
+            "image_bank_result = apply_learning_card_image_bank(Path('../03_Outputs/SEA_Modules/en'), seed=IMAGE_BANK_SEED)\n"
+            "print(f\"🖼️ Image bank built with {image_bank_result['image_bank_count']} images | \"\n"
+            "      f\"updated {image_bank_result['updated_cards']} Learning Objective/Key Takeaway cards | \"\n"
+            "      f\"seed={image_bank_result['seed']}\")",
+        ),
     ),
     "ai_avatar_tagging": NotebookStage(
         name="ai_avatar_tagging",
@@ -93,6 +106,8 @@ def list_core_stages() -> list[str]:
 def run_core_stage(config: PipelineConfig, stage_name: str) -> dict[str, object]:
     if stage_name == "validate_env":
         return _validate_core_env(config)
+    if stage_name == "structure_generation":
+        return run_structure_generation(config)
     if stage_name not in CORE_STAGES:
         raise KeyError(f"Unknown core stage: {stage_name}")
     stage = CORE_STAGES[stage_name]

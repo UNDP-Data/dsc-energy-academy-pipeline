@@ -5,6 +5,8 @@ from typing import Iterable
 
 from sea_pipeline.shared.config import PipelineConfig
 from sea_pipeline.shared.notebook_runtime import NotebookStage, execute_notebook_stage
+from sea_pipeline.translation.manual_analysis import run_manual_translation_analysis
+from sea_pipeline.translation.manual_cache import run_manual_translation_cache_import
 
 
 TRANSLATION_STAGES: dict[str, NotebookStage] = {
@@ -62,12 +64,21 @@ def _validate_translation_env(config: PipelineConfig) -> dict[str, object]:
 
 
 def list_translation_stages() -> list[str]:
-    return ["validate_env", *TRANSLATION_STAGES.keys()]
+    return [
+        "validate_env",
+        *TRANSLATION_STAGES.keys(),
+        "manual_translation_analysis",
+        "manual_translation_cache_import",
+    ]
 
 
 def run_translation_stage(config: PipelineConfig, stage_name: str) -> dict[str, object]:
     if stage_name == "validate_env":
         return _validate_translation_env(config)
+    if stage_name == "manual_translation_analysis":
+        return run_manual_translation_analysis(config)
+    if stage_name == "manual_translation_cache_import":
+        return run_manual_translation_cache_import(config)
     if stage_name not in TRANSLATION_STAGES:
         raise KeyError(f"Unknown translation stage: {stage_name}")
     return execute_notebook_stage(config, TRANSLATION_STAGES[stage_name])

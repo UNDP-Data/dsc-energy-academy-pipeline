@@ -39,4 +39,24 @@ class Document(Node):
         response.raise_for_status()
         data = response.json()
         document = data.pop("document")
-        return cls(**document, metadata=data)
+        parsed_document = cls(**document, metadata=data)
+        parsed_document.report_text_path_nodes(label=f"Downloaded Figma file {key}")
+        return parsed_document
+
+    def report_text_path_nodes(self, label: str = "Figma document") -> list[dict[str, str]]:
+        """
+        Print cleanup targets for unsupported text-on-path nodes in Figma.
+        """
+        matches = self.find_nodes_by_type("TEXT_PATH")
+        if not matches:
+            return matches
+
+        print(f"⚠️ TEXT_PATH nodes found in {label}: {len(matches)}")
+        print("   These are text-on-path objects. Convert/replace them in Figma if they should not be in the pipeline.")
+        for match in matches:
+            print(
+                f"   - id={match['id']} | name={match['name']} | diagnostics={match['diagnostics'] or 'none'} | "
+                f"visible={match['visible']} | render_bounds={match['absoluteRenderBounds']} | "
+                f"box={match['absoluteBoundingBox']} | path={match['path']}"
+            )
+        return matches

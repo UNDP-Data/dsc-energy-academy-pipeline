@@ -1,0 +1,189 @@
+{
+  "generated_at": "2026-06-16",
+  "repository_role": "Content processing pipeline for the Sustainable Energy Academy, part of the UNDP Sustainable Energy Digital Intelligence Platform.",
+  "documentation_folder": "05_Documentation/academy-pipeline",
+  "driver_notebooks": [
+    {
+      "path": "01_Code/core-pipeline.ipynb",
+      "purpose": "English module structure, Figma extraction/export, avatar tagging, lesson IDs, validation, overflow audit."
+    },
+    {
+      "path": "01_Code/photo-export.ipynb",
+      "purpose": "Figma image and infographic export/upload to Azure Blob Storage."
+    },
+    {
+      "path": "01_Code/translation-pipeline.ipynb",
+      "purpose": "UI, module structure, lesson, manual cache, and avatar script translation."
+    },
+    {
+      "path": "01_Code/auxiliary-pipeline.ipynb",
+      "purpose": "Charts, DOCX, spellcheck, indicator links, LLM polls, avatar operations, photo matching, resource WebP backfill."
+    },
+    {
+      "path": "01_Code/review.ipynb",
+      "purpose": "Component-by-component content QA workbook and spellcheck review."
+    }
+  ],
+  "package_roots": {
+    "shared": "01_Code/sea_pipeline/shared",
+    "core": "01_Code/sea_pipeline/core",
+    "photo": "01_Code/sea_pipeline/photo",
+    "translation": "01_Code/sea_pipeline/translation",
+    "auxiliary": "01_Code/sea_pipeline/auxiliary",
+    "review": "01_Code/sea_pipeline/review",
+    "entities": "01_Code/entities"
+  },
+  "legacy_notebook_snapshots": [
+    "01_Code/sea_pipeline/_legacy_notebooks/conversion-pipeline.json",
+    "01_Code/sea_pipeline/_legacy_notebooks/photo-export-refactored.json",
+    "01_Code/sea_pipeline/_legacy_notebooks/translation-pipeline.json",
+    "01_Code/sea_pipeline/_legacy_notebooks/SEA_Avatar_Scripts_Min.json",
+    "01_Code/sea_pipeline/_legacy_notebooks/polls.json",
+    "01_Code/sea_pipeline/_legacy_notebooks/spellchecker.json",
+    "01_Code/sea_pipeline/_legacy_notebooks/docx-exports.json"
+  ],
+  "environment_variables": [
+    "FIGMA_TOKEN",
+    "FIGMA_DOCUMENT_ID1",
+    "FIGMA_DOCUMENT_ID2",
+    "FIGMA_DOCUMENT_ID3",
+    "AZURE_OPENAI_API_KEY",
+    "AZURE_OPENAI_ENDPOINT",
+    "AZURE_OPENAI_DEPLOYMENT",
+    "AZURE_OPENAI_API_VERSION",
+    "SAS_URL",
+    "HEYGEN_API_KEY",
+    "PIWIGO_BASE_URL",
+    "PIWIGO_USERNAME",
+    "PIWIGO_PASSWORD"
+  ],
+  "main_inputs": [
+    "02_Inputs/data/SEA Table of Contents.xlsx",
+    "02_Inputs/data/Module-Chapter-Details.csv",
+    "02_Inputs/data/photobank.csv",
+    "02_Inputs/entities.csv",
+    "02_Inputs/SEA Polls.xlsx",
+    "02_Inputs/SEA Quizzes.xlsx",
+    "02_Inputs/SEA AI Avatars.csv",
+    "02_Inputs/piwigo.csv",
+    "02_Inputs/figma_jsons/figma_document1.json",
+    "02_Inputs/figma_jsons/figma_document2.json",
+    "02_Inputs/figma_jsons/figma_document3.json",
+    "02_Inputs/Charts/Metadata/Charts Tracker.xlsx",
+    "02_Inputs/Charts/Metadata/Charts Config.xlsx",
+    "02_Inputs/Charts/Data/Charts",
+    "02_Inputs/Charts/Templates",
+    "02_Inputs/manual-translation-cache",
+    "02_Inputs/avatars"
+  ],
+  "main_outputs": [
+    "03_Outputs/SEA_Modules",
+    "00_API/SEA_Modules",
+    "03_Outputs/Lesson_Translation/translations_cache.json",
+    "03_Outputs/Photo_Export_Logs",
+    "03_Outputs/Review/academy_review.xlsx",
+    "03_Outputs/SEA_Module_Docx",
+    "03_Outputs/spellcheck_audit_report.csv",
+    "03_Outputs/avatars",
+    "03_Outputs/image_refs_cache.json",
+    "03_Outputs/all_lesson_ids.txt",
+    "00_API/all_lesson_ids.txt"
+  ],
+  "core_stages": [
+    "validate_env",
+    "structure_generation",
+    "figma_extraction_export",
+    "ai_avatar_tagging",
+    "export_lesson_ids",
+    "sanitize_json_outputs",
+    "overflow_audit"
+  ],
+  "photo_stages": [
+    "validate_env",
+    "image_upload",
+    "infographic_export"
+  ],
+  "translation_stages": [
+    "validate_env",
+    "ui_translations",
+    "module_structure_translation",
+    "lesson_translation",
+    "manual_translation_files",
+    "manual_translation_analysis",
+    "manual_translation_cache_import",
+    "avatar_script_translation"
+  ],
+  "auxiliary_stages": [
+    "validate_env",
+    "charts_extract_and_merge",
+    "charts_render",
+    "docx_export_text",
+    "docx_export_with_images",
+    "resource_image_webp_backfill",
+    "avatar_blob_status_csv",
+    "spellcheck_audit",
+    "indicator_links",
+    "polls_generate",
+    "polls_insert",
+    "avatar_script_generation",
+    "generate_payloads",
+    "generate_videos",
+    "list_blob_clips",
+    "download_blob_clips",
+    "add_backgrounds"
+  ],
+  "review_components": [
+    "takeaways",
+    "concepts",
+    "resources",
+    "quiz",
+    "poll",
+    "case_study",
+    "spellcheck"
+  ],
+  "observed_english_template_counts": {
+    "case_study_cover": 39,
+    "chapter_cover": 32,
+    "chapter_outro": 29,
+    "connection_next": 156,
+    "embed": 10,
+    "infographic": 166,
+    "key_concepts": 101,
+    "key_resources": 100,
+    "key_takeaways": 92,
+    "learning_objectives": 8,
+    "lesson_cover": 104,
+    "lesson_part_cover": 267,
+    "lesson_subpart_cover": 95,
+    "list_of_lessons": 32,
+    "module_cover": 9,
+    "module_outro": 8,
+    "photo-horizontal": 7,
+    "photo_full_height": 269,
+    "photo_vertical": 82,
+    "scored_quiz": 9,
+    "text": 1880,
+    "video": 48
+  },
+  "target_languages": [
+    "fr",
+    "es",
+    "pt",
+    "ar",
+    "zh",
+    "ru"
+  ],
+  "existing_related_documentation": [
+    "05_Documentation/avatars/avatars_technical_documentation.md",
+    "05_Documentation/avatars/avatars_user_guide.md",
+    "05_Documentation/charts/charts_technical_documentation.md",
+    "05_Documentation/charts/charts_user_guide.md"
+  ],
+  "unknown_or_requires_confirmation": [
+    "Exact Strapi sync mechanism.",
+    "Exact frontend component names for every template_id.",
+    "Exact deployment step from 03_Outputs to 00_API or production.",
+    "Canonical dependency installation method.",
+    "Full Figma section hierarchy requirements beyond observed conventions."
+  ]
+}

@@ -1,6 +1,22 @@
 01_Code/.env
-02_Inputs/figma_jsons/figma_document1.json
-02_Inputs/figma_jsons/figma_document2.json
+
+# Local OS / Python / notebook artifacts
+.DS_Store
+**/.DS_Store
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Cached Figma API documents
+02_Inputs/figma_jsons/*.json
+
+# Generated API/output artifacts
+00_API/SEA_Modules/
+00_API/HeaderImages/
+00_API/all_lesson_ids.txt
+03_Outputs/
 
 02_Inputs/avatars/avatar_scripts/*
 !02_Inputs/avatars/avatar_scripts/.gitkeep
