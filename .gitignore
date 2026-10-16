@@ -1,4 +1,16 @@
-01_Code/.env
+# Credentials stay local at every directory depth; examples contain no values.
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.azure/
+.venv/
+venv/
 
 # Local OS / Python / notebook artifacts
 .DS_Store
@@ -11,6 +23,9 @@ __pycache__/
 
 # Cached Figma API documents
 02_Inputs/figma_jsons/*.json
+# API response cache contains temporary signed voice-preview URLs.
+02_Inputs/avatars/voices.json
+02_Inputs/avatars/avatars.json
 
 # Generated API/output artifacts
 00_API/SEA_Modules/

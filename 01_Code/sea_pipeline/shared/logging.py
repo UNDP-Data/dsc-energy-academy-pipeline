@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from typing import Any
+from .redaction import redact_text
 
 
 def format_stage_result(result: dict[str, Any]) -> str:
@@ -22,7 +23,7 @@ def format_stage_result(result: dict[str, Any]) -> str:
         lines.extend(str(result["stderr"]).splitlines())
     if result.get("summary"):
         lines.append(f"Summary: {result['summary']}")
-    return "\n".join(lines)
+    return redact_text("\n".join(lines))
 
 
 def print_stage_result(result: dict[str, Any]) -> None:

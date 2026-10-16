@@ -28,5 +28,7 @@ class PipelineConfig:
         if root_dir is None:
             root_dir = Path(__file__).resolve().parents[3]
         paths = RepoPaths.from_root(root_dir)
-        env = EnvConfig.from_environment(load_dotenv_file=load_dotenv_file)
+        env = EnvConfig.from_environment(
+            load_dotenv_file=load_dotenv_file, dotenv_path=paths.code_dir / ".env",
+        )
         return cls(root_dir=paths.root_dir, paths=paths, env=env)

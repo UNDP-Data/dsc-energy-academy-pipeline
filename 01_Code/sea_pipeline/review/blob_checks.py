@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from typing import Callable
+from sea_pipeline.shared.redaction import redact_text
 
 from sea_pipeline.auxiliary.resource_image_backfill import (
     AzureBlobContainerAdapter,
@@ -40,7 +41,7 @@ def build_resource_blob_checker(sas_url: str) -> ResourceBlobChecker:
             result = ResourceBlobCheckResult(
                 status="error",
                 exists=False,
-                message=f"{type(exc).__name__}: {exc}",
+                message=redact_text(f"{type(exc).__name__}: {exc}", (sas_url,)),
             )
         cache[resource_url] = result
         return result

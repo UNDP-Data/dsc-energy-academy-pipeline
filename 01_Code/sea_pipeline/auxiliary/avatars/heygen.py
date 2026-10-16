@@ -5,6 +5,7 @@ import time
 from pathlib import Path
 
 from sea_pipeline.shared.config import PipelineConfig
+from sea_pipeline.shared.redaction import SecretRedactor
 
 
 AVATAR_SCRIPT_COMMANDS: dict[str, tuple[str, ...]] = {
@@ -29,12 +30,13 @@ def run_avatar_script_command(config: PipelineConfig, command_name: str) -> dict
         capture_output=True,
         text=True,
     )
+    redactor = SecretRedactor((config.env.heygen_api_key, config.env.sas_url))
     return {
         "stage": command_name,
         "kind": "subprocess",
         "status": "ok" if completed.returncode == 0 else "error",
-        "stdout": completed.stdout,
-        "stderr": completed.stderr,
+        "stdout": redactor.text(completed.stdout),
+        "stderr": redactor.text(completed.stderr),
         "returncode": completed.returncode,
         "duration_seconds": time.time() - started,
         "workdir": str(Path(avatars_dir).resolve()),

@@ -11,6 +11,7 @@ from typing import Any, Awaitable, Callable
 
 import aiohttp
 import requests
+from sea_pipeline.shared.redaction import SecretRedactor, redact_text
 
 
 PhotoLogFn = Callable[[str], None]
@@ -41,7 +42,7 @@ def utc_now_iso() -> str:
 def format_exception(exc: BaseException) -> str:
     message = str(exc).strip()
     if message:
-        return f"{type(exc).__name__}: {message}"
+        return redact_text(f"{type(exc).__name__}: {message}")
     return type(exc).__name__
 
 
@@ -182,12 +183,14 @@ class PhotoExportJournal:
         self.flush_snapshots(force=True)
 
     def _append_event(self, event: dict[str, Any]) -> None:
+        event = SecretRedactor().data(event)
         self.log_dir.mkdir(parents=True, exist_ok=True)
         with self.events_path.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(event, ensure_ascii=False) + "\n")
         self._apply_event(event)
 
     def _apply_event(self, event: dict[str, Any]) -> None:
+        event = SecretRedactor().data(event)
         self.pending_snapshot_changes += 1
         event_type = event.get("event")
         if event_type == "success":

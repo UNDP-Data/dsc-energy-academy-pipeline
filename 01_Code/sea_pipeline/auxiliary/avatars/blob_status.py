@@ -1,4 +1,5 @@
 from __future__ import annotations
+from sea_pipeline.shared.redaction import redact_text
 
 import csv
 import time
@@ -146,7 +147,7 @@ def build_avatar_blob_status_rows(
             exists, matched_or_expected = avatar_expectation_exists(expectation, container)
         except Exception as exc:  # noqa: BLE001 - status CSV should capture audit failures.
             exists = False
-            matched_or_expected = f"{type(exc).__name__}: {exc}"
+            matched_or_expected = redact_text(f"{type(exc).__name__}: {exc}")
 
         if exists:
             lesson_found[expectation.lesson_id] += 1

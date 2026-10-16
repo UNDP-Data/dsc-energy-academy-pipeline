@@ -11,6 +11,7 @@ import nbformat
 from nbclient import NotebookClient
 
 from .config import PipelineConfig
+from .redaction import SecretRedactor
 
 
 @dataclass(frozen=True)
@@ -32,7 +33,7 @@ def _patched_source(source: str, strip_lines: tuple[str, ...]) -> str:
     return "\n".join(kept) + ("\n" if source.endswith("\n") else "")
 
 
-def _collect_output_text(notebook: nbformat.NotebookNode) -> tuple[str, str]:
+def _collect_output_text(notebook: nbformat.NotebookNode, redactor: SecretRedactor | None = None) -> tuple[str, str]:
     stdout: list[str] = []
     stderr: list[str] = []
     for cell in notebook.cells:
@@ -47,32 +48,39 @@ def _collect_output_text(notebook: nbformat.NotebookNode) -> tuple[str, str]:
                     stdout.append(str(data["text/plain"]))
             elif output_type == "error":
                 stderr.extend(output.get("traceback", []))
-    return "".join(stdout), "".join(stderr)
+    redactor = redactor or SecretRedactor()
+    return redactor.text("".join(stdout)), redactor.text("".join(stderr))
 
 
-def _emit_live_output(msg: dict[str, Any]) -> None:
+def _emit_live_output(msg: dict[str, Any], redactor: SecretRedactor | None = None) -> None:
+    redactor = redactor or SecretRedactor()
     msg_type = msg.get("msg_type")
     content = msg.get("content", {})
     if msg_type == "stream":
         stream_name = content.get("name", "stdout")
         target = sys.stderr if stream_name == "stderr" else sys.stdout
-        print(content.get("text", ""), end="", file=target, flush=True)
+        print(redactor.stream(stream_name, content.get("text", "")), end="", file=target, flush=True)
         return
     if msg_type in {"execute_result", "display_data"}:
         data = content.get("data", {})
         if "text/plain" in data:
-            print(str(data["text/plain"]), flush=True)
+            print(redactor.text(str(data["text/plain"])), flush=True)
 
 
-def _streaming_client_class(base_client: type[NotebookClient]) -> type[NotebookClient]:
+def _streaming_client_class(base_client: type[NotebookClient], redactor: SecretRedactor | None = None) -> type[NotebookClient]:
+    redactor = redactor or SecretRedactor()
     if not hasattr(base_client, "process_message"):
         return base_client
 
     class StreamingNotebookClient(base_client):  # type: ignore[misc, valid-type]
         def process_message(self, msg: dict[str, Any], cell: nbformat.NotebookNode, cell_index: int) -> Any:
             output = super().process_message(msg, cell, cell_index)
-            _emit_live_output(msg)
+            _emit_live_output(msg, redactor)
             return output
+
+        def flush_safe_output(self):
+            for name, target in (("stdout", sys.stdout), ("stderr", sys.stderr)):
+                print(redactor.stream(name, "", final=True), end="", file=target, flush=True)
 
     return StreamingNotebookClient
 
@@ -106,7 +114,9 @@ def execute_notebook_stage(
     )
 
     started = time.time()
-    client_class = _streaming_client_class(NotebookClient)
+    redactor = SecretRedactor((config.env.figma_token, config.env.azure_openai_api_key,
+                               config.env.sas_url, config.env.heygen_api_key))
+    client_class = _streaming_client_class(NotebookClient, redactor)
     client = client_class(
         notebook,
         kernel_name=kernel_name,
@@ -114,8 +124,17 @@ def execute_notebook_stage(
         resources={"metadata": {"path": str(config.paths.code_dir)}},
         allow_errors=False,
     )
-    client.execute()
-    stdout, stderr = _collect_output_text(notebook)
+    try:
+        client.execute()
+    except Exception as exc:
+        safe_message = redactor.text(str(exc))
+        if safe_message != str(exc):
+            raise RuntimeError(f"{type(exc).__name__}: {safe_message}") from None
+        raise
+    finally:
+        if hasattr(client, "flush_safe_output"):
+            client.flush_safe_output()
+    stdout, stderr = _collect_output_text(notebook, redactor)
 
     return {
         "stage": stage.name,

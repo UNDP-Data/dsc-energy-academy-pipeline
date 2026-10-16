@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+python3 01_Code/check_repository_hygiene.py
+if ! command -v gitleaks >/dev/null 2>&1; then
+    printf '%s\n' 'Gitleaks is required. On macOS: brew install gitleaks' >&2
+    exit 1
+fi
+gitleaks git --staged --redact --no-banner

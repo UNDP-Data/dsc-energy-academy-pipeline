@@ -1,0 +1,32 @@
+title = "Academy pipeline secret detection"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "azure-sas-signature"
+description = "Signed Azure URLs must stay out of version control"
+regex = '''(?i)[?&]sig=([A-Za-z0-9%/+_=.-]{16,})'''
+secretGroup = 1
+keywords = ["sig="]
+
+[[rules]]
+id = "signed-download-credential"
+description = "Temporary signed download credentials belong in local caches"
+regex = '''(?i)[?&](?:X-Amz-(?:Signature|Security-Token|Credential)|AWSAccessKeyId|Signature)=([A-Za-z0-9%/+_=.-]{16,})'''
+secretGroup = 1
+keywords = ["x-amz-", "awsaccesskeyid=", "signature="]
+
+[[rules]]
+id = "piwigo-password"
+description = "Piwigo passwords belong in local environment files"
+regex = '''(?im)^[\t ]*PIWIGO_PASSWORD[\t ]*=[\t ]*['"]?([^\s'"\r\n]{6,})['"]?[\t ]*$'''
+secretGroup = 1
+keywords = ["PIWIGO_PASSWORD"]
+
+[[rules]]
+id = "piwigo-password-in-source"
+description = "Quoted Piwigo passwords in Python or notebook source"
+regex = '''(?i)PIWIGO_PASSWORD[\t ]*=[\t ]*\\?["']([^"'\\\r\n]{6,})'''
+secretGroup = 1
+keywords = ["PIWIGO_PASSWORD"]
